@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FilePath_TypeDefinitionIndex = 10863;
+
 	class FilePath : public ::System::Object
 	{
 	public:

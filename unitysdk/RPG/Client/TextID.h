@@ -23,6 +23,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TextID_TypeDefinitionIndex = 6564;
+
 	struct alignas(4) TextID
 	{
 		::System::Int32 hash; // 0x10

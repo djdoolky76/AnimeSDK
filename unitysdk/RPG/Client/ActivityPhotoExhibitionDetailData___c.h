@@ -10,6 +10,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ActivityPhotoExhibitionDetailData___c_TypeDefinitionIndex = 61726;
+
 	class ActivityPhotoExhibitionDetailData___c : public ::System::Object
 	{
 	public:

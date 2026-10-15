@@ -4,6 +4,8 @@
 class EasingFunction_Function;
 class EasingFunction_FunctionValue;
 
+inline static constexpr unsigned int EasingFunction___O_TypeDefinitionIndex = 45933;
+
 	class EasingFunction___O : public ::System::Object
 	{
 	public:

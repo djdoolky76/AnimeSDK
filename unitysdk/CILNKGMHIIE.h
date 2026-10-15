@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define CILNKGMHIIE_HEPPBBLLBPN_OFFSET UNITYSDK_OFFSET(0xCF8DE00)
 #define CILNKGMHIIE_NLDPGMIKLLG_OFFSET UNITYSDK_OFFSET(0xCF8DC70)
 
+inline static constexpr unsigned int CILNKGMHIIE_TypeDefinitionIndex = 56301;
+
 	class CILNKGMHIIE : public ::System::Object
 	{
 	public:

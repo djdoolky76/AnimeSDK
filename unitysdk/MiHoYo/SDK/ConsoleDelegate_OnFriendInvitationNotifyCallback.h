@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int ConsoleDelegate_OnFriendInvitationNotifyCallback_TypeDefinitionIndex = 7686;
+
 	class ConsoleDelegate_OnFriendInvitationNotifyCallback : public ::System::MulticastDelegate
 	{
 	public:

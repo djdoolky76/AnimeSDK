@@ -9,6 +9,8 @@ namespace System { class Object; }
 #define MLEMMDNMHCG___C__DISPLAYCLASS13_0___ITERATESORTEDACTIVETALENTEFFECTSOFTYPE_B__6_OFFSET UNITYSDK_OFFSET(0x1C572BD0)
 #define MLEMMDNMHCG___C__DISPLAYCLASS13_0___ITERATESORTEDACTIVETALENTEFFECTSOFTYPE_B__7_OFFSET UNITYSDK_OFFSET(0x1C572C90)
 
+inline static constexpr unsigned int MLEMMDNMHCG___c__DisplayClass13_0_TypeDefinitionIndex = 41880;
+
 	class MLEMMDNMHCG___c__DisplayClass13_0 : public ::System::Object
 	{
 	public:

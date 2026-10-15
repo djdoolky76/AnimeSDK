@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriAtomExOutputAnalyzer_PcmCaptureCallback_TypeDefinitionIndex = 40046;
+
 	class CriAtomExOutputAnalyzer_PcmCaptureCallback : public ::System::MulticastDelegate
 	{
 	public:

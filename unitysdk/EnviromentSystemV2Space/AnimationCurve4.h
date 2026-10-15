@@ -7,6 +7,8 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace EnviromentSystemV2Space
 {
+	inline static constexpr unsigned int AnimationCurve4_TypeDefinitionIndex = 49376;
+
 	class AnimationCurve4 : public ::System::Object
 	{
 	public:

@@ -31,6 +31,8 @@ namespace System { class String; }
 #define JJHJCIAPADP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E75C200)
 #define JJHJCIAPADP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E75C260)
 
+inline static constexpr unsigned int JJHJCIAPADP_TypeDefinitionIndex = 25527;
+
 	class JJHJCIAPADP : public ::System::Object
 	{
 	public:

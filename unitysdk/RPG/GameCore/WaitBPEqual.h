@@ -10,6 +10,8 @@ namespace RPG::GameCore { class WaitBPEqual; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaitBPEqual_TypeDefinitionIndex = 24359;
+
 	class WaitBPEqual : public ::RPG::GameCore::TaskConfig
 	{
 	public:

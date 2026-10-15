@@ -30,6 +30,8 @@ namespace System { class String; }
 #define GODEELLFLEN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E4ED620)
 #define GODEELLFLEN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E4ED680)
 
+inline static constexpr unsigned int GODEELLFLEN_TypeDefinitionIndex = 28752;
+
 	class GODEELLFLEN : public ::System::Object
 	{
 	public:

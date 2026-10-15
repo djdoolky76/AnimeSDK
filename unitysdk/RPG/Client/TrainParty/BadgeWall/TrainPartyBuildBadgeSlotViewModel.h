@@ -13,6 +13,8 @@ namespace RPG::Client::TrainParty::BadgeWall { class TrainPartyBuildBadgeSlotVie
 
 namespace RPG::Client::TrainParty::BadgeWall
 {
+	inline static constexpr unsigned int TrainPartyBuildBadgeSlotViewModel_TypeDefinitionIndex = 74379;
+
 	class TrainPartyBuildBadgeSlotViewModel : public ::System::Object
 	{
 	public:

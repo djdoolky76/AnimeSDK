@@ -14,6 +14,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByIsSubTargetOfHpSharedGroup_TypeDefinitionIndex = 23528;
+
 	class ByIsSubTargetOfHpSharedGroup : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

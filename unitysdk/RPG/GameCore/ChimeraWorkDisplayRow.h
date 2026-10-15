@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ChimeraWorkDisplayRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChimeraWorkDisplayRow_TypeDefinitionIndex = 13042;
+
 	class ChimeraWorkDisplayRow : public ::System::Object
 	{
 	public:

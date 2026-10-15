@@ -15,6 +15,8 @@ namespace System { class Action; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PullRefreshControl_TypeDefinitionIndex = 72634;
+
 	class PullRefreshControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

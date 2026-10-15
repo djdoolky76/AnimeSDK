@@ -16,6 +16,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UIDragInputByTransform_TypeDefinitionIndex = 73062;
+
 	class UIDragInputByTransform : public ::System::Object
 	{
 	public:

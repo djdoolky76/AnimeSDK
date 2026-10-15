@@ -6,6 +6,8 @@ class KDFFHMDFALG;
 #define IAENOIGPEBK_CTOR_OFFSET UNITYSDK_OFFSET(0x15E03D30)
 #define IAENOIGPEBK_KEOKEELBKHI_OFFSET UNITYSDK_OFFSET(0x15E03D40)
 
+inline static constexpr unsigned int IAENOIGPEBK_TypeDefinitionIndex = 60633;
+
 	class IAENOIGPEBK : public ::System::Object
 	{
 	public:

@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int NewProjectileConfig_TypeDefinitionIndex = 15656;
+
 	class NewProjectileConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

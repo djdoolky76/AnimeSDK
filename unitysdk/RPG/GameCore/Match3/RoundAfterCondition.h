@@ -10,6 +10,8 @@ namespace RPG::GameCore::Match3 { class RoundAfterCondition; }
 
 namespace RPG::GameCore::Match3
 {
+	inline static constexpr unsigned int RoundAfterCondition_TypeDefinitionIndex = 24887;
+
 	class RoundAfterCondition : public ::RPG::GameCore::Match3::Match3ConditionBase
 	{
 	public:

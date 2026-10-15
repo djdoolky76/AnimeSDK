@@ -30,6 +30,8 @@ namespace System { class String; }
 #define AFDNHCKGNNB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E115CC0)
 #define AFDNHCKGNNB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E115D20)
 
+inline static constexpr unsigned int AFDNHCKGNNB_TypeDefinitionIndex = 30554;
+
 	class AFDNHCKGNNB : public ::System::Object
 	{
 	public:

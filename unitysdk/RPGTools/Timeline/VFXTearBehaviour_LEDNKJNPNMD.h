@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int VFXTearBehaviour_LEDNKJNPNMD_TypeDefinitionIndex = 48081;
+
 	class VFXTearBehaviour_LEDNKJNPNMD : public ::OGBPMPBLDNK
 	{
 	public:

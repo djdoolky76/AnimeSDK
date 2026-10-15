@@ -8,6 +8,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int Caching_TypeDefinitionIndex = 4038;
+
 	class Caching : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ class MCJMNJGBCLI;
 #define MCJMNJGBCLI_EPNECCEKJDH_OFFSET UNITYSDK_OFFSET(0xB8826C0)
 #define MCJMNJGBCLI_FGLGLHDAEDE_OFFSET UNITYSDK_OFFSET(0xB882730)
 
+inline static constexpr unsigned int MCJMNJGBCLI_TypeDefinitionIndex = 74112;
+
 	class MCJMNJGBCLI : public ::System::Object
 	{
 	public:

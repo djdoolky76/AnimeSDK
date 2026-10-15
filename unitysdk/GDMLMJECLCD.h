@@ -30,6 +30,8 @@ namespace System { class String; }
 #define GDMLMJECLCD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E44F1E0)
 #define GDMLMJECLCD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E44F240)
 
+inline static constexpr unsigned int GDMLMJECLCD_TypeDefinitionIndex = 28151;
+
 	class GDMLMJECLCD : public ::System::Object
 	{
 	public:

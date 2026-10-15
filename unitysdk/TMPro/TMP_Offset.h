@@ -27,6 +27,8 @@ namespace System { class Object; }
 
 namespace TMPro
 {
+	inline static constexpr unsigned int TMP_Offset_TypeDefinitionIndex = 44543;
+
 	struct alignas(4) TMP_Offset
 	{
 		::System::Single m_Left; // 0x10

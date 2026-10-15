@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define DLKHNPDOOIC_DPGLDMBLBIL_OFFSET UNITYSDK_OFFSET(0xF8A1300)
 #define DLKHNPDOOIC_NEDOKDOGAAO_OFFSET UNITYSDK_OFFSET(0xF8A13F0)
 
+inline static constexpr unsigned int DLKHNPDOOIC_TypeDefinitionIndex = 79655;
+
 	class DLKHNPDOOIC : public ::System::Object
 	{
 	public:

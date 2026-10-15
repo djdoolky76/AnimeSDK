@@ -46,6 +46,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define IEODIJJGAGM_SET_ULTRAICONPATH_OFFSET UNITYSDK_OFFSET(0x15F06FD0)
 #define IEODIJJGAGM_SET_ULTRAPROGRESSTYPE_OFFSET UNITYSDK_OFFSET(0x15F070D0)
 
+inline static constexpr unsigned int IEODIJJGAGM_TypeDefinitionIndex = 81227;
+
 	class IEODIJJGAGM : public ::System::Object
 	{
 	public:

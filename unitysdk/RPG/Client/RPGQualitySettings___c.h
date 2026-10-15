@@ -11,6 +11,8 @@ namespace System { template <typename T> class Comparison_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RPGQualitySettings___c_TypeDefinitionIndex = 67921;
+
 	class RPGQualitySettings___c : public ::System::Object
 	{
 	public:

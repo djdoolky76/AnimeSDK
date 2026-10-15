@@ -34,6 +34,8 @@ namespace System { class String; }
 #define PGMIABHEJNB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF34F40)
 #define PGMIABHEJNB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF34FA0)
 
+inline static constexpr unsigned int PGMIABHEJNB_TypeDefinitionIndex = 33148;
+
 	class PGMIABHEJNB : public ::System::Object
 	{
 	public:

@@ -20,6 +20,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int MsgCallback_TypeDefinitionIndex = 37919;
+
 	class MsgCallback : public ::System::Object
 	{
 	public:

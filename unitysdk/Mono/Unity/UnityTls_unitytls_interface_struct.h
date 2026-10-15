@@ -37,6 +37,8 @@ namespace Mono::Unity { class UnityTls_unitytls_interface_struct_unitytls_x509ve
 
 namespace Mono::Unity
 {
+	inline static constexpr unsigned int UnityTls_unitytls_interface_struct_TypeDefinitionIndex = 2370;
+
 	class UnityTls_unitytls_interface_struct : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ChenLingBattleAbilityConditionChecker_OnCreature
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChenLingBattleAbilityConditionChecker_OnCreatureDamageWithProbability_TypeDefinitionIndex = 15730;
+
 	class ChenLingBattleAbilityConditionChecker_OnCreatureDamageWithProbability : public ::RPG::GameCore::BaseChenLingBattleAbilityConditionChecker
 	{
 	public:

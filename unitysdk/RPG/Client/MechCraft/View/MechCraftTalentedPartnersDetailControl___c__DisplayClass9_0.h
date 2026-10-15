@@ -9,6 +9,8 @@ class LBIGIIDPPAK;
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftTalentedPartnersDetailControl___c__DisplayClass9_0_TypeDefinitionIndex = 79835;
+
 	class MechCraftTalentedPartnersDetailControl___c__DisplayClass9_0 : public ::System::Object
 	{
 	public:

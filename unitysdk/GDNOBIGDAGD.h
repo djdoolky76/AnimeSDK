@@ -17,6 +17,8 @@ namespace UnityEngine { class Collider; }
 #define GDNOBIGDAGD_PEMELLLEHLE_OFFSET UNITYSDK_OFFSET(0x159B9400)
 #define GDNOBIGDAGD_TICK_OFFSET UNITYSDK_OFFSET(0x159B8D60)
 
+inline static constexpr unsigned int GDNOBIGDAGD_TypeDefinitionIndex = 52496;
+
 	class GDNOBIGDAGD : public ::GELIALJDFBL
 	{
 	public:

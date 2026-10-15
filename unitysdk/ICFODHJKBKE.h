@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define ICFODHJKBKE_FBAIMADCMBF_OFFSET UNITYSDK_OFFSET(0x15E4D870)
 #define ICFODHJKBKE_MNDHIAJICBB_OFFSET UNITYSDK_OFFSET(0x15E4D650)
 
+inline static constexpr unsigned int ICFODHJKBKE_TypeDefinitionIndex = 61809;
+
 	class ICFODHJKBKE : public ::System::Object
 	{
 	public:

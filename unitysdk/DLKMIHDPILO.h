@@ -50,6 +50,8 @@ namespace UnityEngine { class Transform; }
 #define DLKMIHDPILO_PLIKGKOCDFN_OFFSET UNITYSDK_OFFSET(0xF8A5CB0)
 #define DLKMIHDPILO_TEARDOWN_OFFSET UNITYSDK_OFFSET(0xF8A3970)
 
+inline static constexpr unsigned int DLKMIHDPILO_TypeDefinitionIndex = 76806;
+
 	class DLKMIHDPILO : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::Client { class AvatarProxy; }
 #define LHHMHJIFHNE_DNMAPFLFOMJ_OFFSET UNITYSDK_OFFSET(0xB6B3250)
 #define LHHMHJIFHNE_MHGNGEKAPBP_OFFSET UNITYSDK_OFFSET(0xB6B3300)
 
+inline static constexpr unsigned int LHHMHJIFHNE_TypeDefinitionIndex = 62587;
+
 	class LHHMHJIFHNE : public ::System::Object
 	{
 	public:

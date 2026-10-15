@@ -5,6 +5,8 @@ class FOLDGFEBJNO;
 
 #define MNHHAILECIG_CTOR_OFFSET UNITYSDK_OFFSET(0xBA09020)
 
+inline static constexpr unsigned int MNHHAILECIG_TypeDefinitionIndex = 54317;
+
 	class MNHHAILECIG : public ::System::Object
 	{
 	public:

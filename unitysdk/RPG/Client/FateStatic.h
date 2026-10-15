@@ -25,6 +25,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FateStatic_TypeDefinitionIndex = 64028;
+
 	class FateStatic : public ::System::Object
 	{
 	public:

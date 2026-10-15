@@ -27,6 +27,8 @@ namespace System { class String; }
 #define HPMNCENLCAB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E5FDB00)
 #define HPMNCENLCAB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E5FDB60)
 
+inline static constexpr unsigned int HPMNCENLCAB_TypeDefinitionIndex = 29316;
+
 	class HPMNCENLCAB : public ::System::Object
 	{
 	public:

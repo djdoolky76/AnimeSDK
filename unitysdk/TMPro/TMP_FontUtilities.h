@@ -12,6 +12,8 @@ namespace TMPro { class TMP_FontAsset; }
 
 namespace TMPro
 {
+	inline static constexpr unsigned int TMP_FontUtilities_TypeDefinitionIndex = 44584;
+
 	class TMP_FontUtilities : public ::System::Object
 	{
 	public:

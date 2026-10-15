@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetCurrentTurnActionEntity_TypeDefinitionIndex = 23667;
+
 	class SetCurrentTurnActionEntity : public ::RPG::GameCore::TaskConfig
 	{
 	public:

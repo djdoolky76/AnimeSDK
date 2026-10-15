@@ -6,6 +6,8 @@ namespace System { class String; }
 
 #define HMLFAPGFDLB_CTOR_OFFSET UNITYSDK_OFFSET(0x15D87E60)
 
+inline static constexpr unsigned int HMLFAPGFDLB_TypeDefinitionIndex = 71377;
+
 	class HMLFAPGFDLB : public ::System::Object
 	{
 	public:

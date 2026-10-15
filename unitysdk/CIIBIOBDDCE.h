@@ -29,6 +29,8 @@ namespace System { class String; }
 #define CIIBIOBDDCE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E0D3C80)
 #define CIIBIOBDDCE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E0D3CE0)
 
+inline static constexpr unsigned int CIIBIOBDDCE_TypeDefinitionIndex = 29696;
+
 	class CIIBIOBDDCE : public ::System::Object
 	{
 	public:

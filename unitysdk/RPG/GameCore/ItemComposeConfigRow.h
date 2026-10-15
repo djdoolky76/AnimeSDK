@@ -13,6 +13,8 @@ namespace RPG::GameCore { class ItemConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ItemComposeConfigRow_TypeDefinitionIndex = 13838;
+
 	class ItemComposeConfigRow : public ::System::Object
 	{
 	public:

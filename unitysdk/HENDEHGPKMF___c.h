@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define HENDEHGPKMF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E55CF60)
 #define HENDEHGPKMF___C___CCTOR_B__43_0_OFFSET UNITYSDK_OFFSET(0x1E55CF70)
 
+inline static constexpr unsigned int HENDEHGPKMF___c_TypeDefinitionIndex = 25355;
+
 	class HENDEHGPKMF___c : public ::System::Object
 	{
 	public:

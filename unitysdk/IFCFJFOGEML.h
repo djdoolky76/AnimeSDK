@@ -4,6 +4,8 @@
 
 #define IFCFJFOGEML_CTOR_OFFSET UNITYSDK_OFFSET(0x15F097A0)
 
+inline static constexpr unsigned int IFCFJFOGEML_TypeDefinitionIndex = 48244;
+
 	class IFCFJFOGEML : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

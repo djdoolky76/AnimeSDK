@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PhotoGraphResultPredicate_TypeDefinitionIndex = 21648;
+
 	class PhotoGraphResultPredicate : public ::RPG::GameCore::JsonConfig
 	{
 	public:

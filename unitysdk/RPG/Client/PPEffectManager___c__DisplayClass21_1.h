@@ -9,6 +9,8 @@ namespace RPG::GameCore { class GameEntity; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PPEffectManager___c__DisplayClass21_1_TypeDefinitionIndex = 69773;
+
 	template <typename T>
 	class PPEffectManager___c__DisplayClass21_1 : public ::System::Object
 	{

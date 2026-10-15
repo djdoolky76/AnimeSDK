@@ -37,6 +37,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MatchThreeV2BirdData_TypeDefinitionIndex = 65995;
+
 	class MatchThreeV2BirdData : public ::System::Object
 	{
 	public:

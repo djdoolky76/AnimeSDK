@@ -8,6 +8,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int CRPRemoteDebug_TypeDefinitionIndex = 37739;
+
 	class CRPRemoteDebug : public ::System::Object
 	{
 	public:

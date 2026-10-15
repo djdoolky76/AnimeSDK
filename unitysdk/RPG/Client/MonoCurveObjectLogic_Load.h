@@ -12,6 +12,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoCurveObjectLogic_Load_TypeDefinitionIndex = 68541;
+
 	class MonoCurveObjectLogic_Load : public ::System::Object
 	{
 	public:

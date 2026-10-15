@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CharacterRowDataExtensions_TypeDefinitionIndex = 56925;
+
 	class CharacterRowDataExtensions : public ::System::Object
 	{
 	public:

@@ -15,6 +15,8 @@ namespace System::Linq { template <typename T1, typename T2> class IGrouping_2; 
 #define GEDGFBFMEPI___C___FILLTEAMS_B__5_4_OFFSET UNITYSDK_OFFSET(0x159CD790)
 #define GEDGFBFMEPI___C___FILLTEAMS_B__5_5_OFFSET UNITYSDK_OFFSET(0x159CD8B0)
 
+inline static constexpr unsigned int GEDGFBFMEPI___c_TypeDefinitionIndex = 67565;
+
 	class GEDGFBFMEPI___c : public ::System::Object
 	{
 	public:

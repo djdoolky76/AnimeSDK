@@ -15,6 +15,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int BlockSetVisibilityClip_TypeDefinitionIndex = 47873;
+
 	class BlockSetVisibilityClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

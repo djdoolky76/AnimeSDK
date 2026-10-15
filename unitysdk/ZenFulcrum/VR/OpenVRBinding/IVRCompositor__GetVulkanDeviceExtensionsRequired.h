@@ -13,6 +13,8 @@ namespace System::Text { class StringBuilder; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int IVRCompositor__GetVulkanDeviceExtensionsRequired_TypeDefinitionIndex = 39055;
+
 	class IVRCompositor__GetVulkanDeviceExtensionsRequired : public ::System::MulticastDelegate
 	{
 	public:

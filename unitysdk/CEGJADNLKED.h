@@ -51,6 +51,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define CEGJADNLKED_PLONMNJMJAC_OFFSET UNITYSDK_OFFSET(0xC9D9DB0)
 #define CEGJADNLKED_TICK_OFFSET UNITYSDK_OFFSET(0xC9DA510)
 
+inline static constexpr unsigned int CEGJADNLKED_TypeDefinitionIndex = 56871;
+
 	class CEGJADNLKED : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

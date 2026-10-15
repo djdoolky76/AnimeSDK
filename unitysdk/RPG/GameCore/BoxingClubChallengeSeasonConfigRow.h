@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BoxingClubChallengeSeasonConfigRow_TypeDefinitionIndex = 12912;
+
 	class BoxingClubChallengeSeasonConfigRow : public ::System::Object
 	{
 	public:

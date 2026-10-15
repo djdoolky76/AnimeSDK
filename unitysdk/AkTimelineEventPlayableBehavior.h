@@ -32,6 +32,8 @@ namespace UnityEngine { class GameObject; }
 #define AKTIMELINEEVENTPLAYABLEBEHAVIOR_TRIGGERFADEIN_OFFSET UNITYSDK_OFFSET(0x1F612AF0)
 #define AKTIMELINEEVENTPLAYABLEBEHAVIOR_TRIGGERFADEOUT_OFFSET UNITYSDK_OFFSET(0x1F612C00)
 
+inline static constexpr unsigned int AkTimelineEventPlayableBehavior_TypeDefinitionIndex = 44874;
+
 	class AkTimelineEventPlayableBehavior : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

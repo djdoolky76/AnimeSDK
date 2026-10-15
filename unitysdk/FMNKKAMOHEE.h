@@ -28,6 +28,8 @@ namespace System { class String; }
 #define FMNKKAMOHEE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E3E9890)
 #define FMNKKAMOHEE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E3E98F0)
 
+inline static constexpr unsigned int FMNKKAMOHEE_TypeDefinitionIndex = 29633;
+
 	class FMNKKAMOHEE : public ::System::Object
 	{
 	public:

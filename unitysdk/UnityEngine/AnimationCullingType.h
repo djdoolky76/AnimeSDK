@@ -3,6 +3,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int AnimationCullingType_TypeDefinitionIndex = 5740;
+
 	enum class AnimationCullingType : ::System::Int32
 	{
 		AlwaysAnimate = 0,

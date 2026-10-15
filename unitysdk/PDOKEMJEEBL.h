@@ -12,6 +12,8 @@ namespace System { class String; }
 #define PDOKEMJEEBL_MJHEKFEAOPE_OFFSET UNITYSDK_OFFSET(0xC022520)
 #define PDOKEMJEEBL_OKFGOAFJEHL_OFFSET UNITYSDK_OFFSET(0xC0224E0)
 
+inline static constexpr unsigned int PDOKEMJEEBL_TypeDefinitionIndex = 61100;
+
 	class PDOKEMJEEBL : public ::BFHEHDNBJLL
 	{
 	public:

@@ -33,6 +33,8 @@ namespace System { class String; }
 #define DKMMAPLHFOA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E1D9CB0)
 #define DKMMAPLHFOA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E1D9D10)
 
+inline static constexpr unsigned int DKMMAPLHFOA_TypeDefinitionIndex = 34915;
+
 	class DKMMAPLHFOA : public ::System::Object
 	{
 	public:

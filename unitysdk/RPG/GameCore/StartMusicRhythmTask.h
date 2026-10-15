@@ -23,6 +23,8 @@ namespace System { class Object; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StartMusicRhythmTask_TypeDefinitionIndex = 53289;
+
 	class StartMusicRhythmTask : public ::GELIALJDFBL
 	{
 	public:

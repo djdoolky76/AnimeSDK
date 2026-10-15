@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define MOCPBOFGDCP_CTOR_OFFSET UNITYSDK_OFFSET(0x1C750240)
 
+inline static constexpr unsigned int MOCPBOFGDCP_TypeDefinitionIndex = 36404;
+
 	class MOCPBOFGDCP : public ::System::Object
 	{
 	public:

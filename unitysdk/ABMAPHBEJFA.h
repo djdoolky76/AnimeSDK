@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define ABMAPHBEJFA_INMDIOHABLJ_OFFSET UNITYSDK_OFFSET(0xB107CD0)
 #define ABMAPHBEJFA_PIBEJIEGMLP_OFFSET UNITYSDK_OFFSET(0xB107B90)
 
+inline static constexpr unsigned int ABMAPHBEJFA_TypeDefinitionIndex = 81359;
+
 	class ABMAPHBEJFA : public ::System::Object
 	{
 	public:

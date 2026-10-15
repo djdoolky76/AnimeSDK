@@ -5,6 +5,8 @@ namespace System { class Object; }
 
 namespace System::Collections::Generic
 {
+	inline static constexpr unsigned int Queue_1_TypeDefinitionIndex = 3016;
+
 	template <typename T>
 	class Queue_1 : public ::System::Object
 	{

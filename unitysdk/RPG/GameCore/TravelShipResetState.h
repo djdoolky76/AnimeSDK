@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TravelShipResetState; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TravelShipResetState_TypeDefinitionIndex = 20976;
+
 	class TravelShipResetState : public ::RPG::GameCore::TaskConfig
 	{
 	public:

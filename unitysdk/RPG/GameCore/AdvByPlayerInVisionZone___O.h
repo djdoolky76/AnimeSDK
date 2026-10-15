@@ -5,6 +5,8 @@ namespace System { class Object; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvByPlayerInVisionZone___O_TypeDefinitionIndex = 20019;
+
 	class AdvByPlayerInVisionZone___O : public ::System::Object
 	{
 	public:

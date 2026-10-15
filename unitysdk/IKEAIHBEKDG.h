@@ -20,6 +20,8 @@ namespace UnityEngine { class Transform; }
 #define IKEAIHBEKDG_POMJBOHOLAH_OFFSET UNITYSDK_OFFSET(0x16484E20)
 #define IKEAIHBEKDG__ONBIND_OFFSET UNITYSDK_OFFSET(0x16484D60)
 
+inline static constexpr unsigned int IKEAIHBEKDG_TypeDefinitionIndex = 71386;
+
 	class IKEAIHBEKDG : public ::FMPCODLIOLG
 	{
 	public:

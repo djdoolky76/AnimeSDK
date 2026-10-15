@@ -12,6 +12,8 @@ namespace UnityEngine { class Animation; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AnimationExtensions_TypeDefinitionIndex = 72767;
+
 	class AnimationExtensions : public ::System::Object
 	{
 	public:

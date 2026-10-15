@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define PEBBHIAPPEA_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC032750)
 #define PEBBHIAPPEA_TICK_OFFSET UNITYSDK_OFFSET(0xC0325E0)
 
+inline static constexpr unsigned int PEBBHIAPPEA_TypeDefinitionIndex = 52692;
+
 	class PEBBHIAPPEA : public ::GELIALJDFBL
 	{
 	public:

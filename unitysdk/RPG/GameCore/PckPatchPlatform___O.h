@@ -5,6 +5,8 @@ namespace System { class Object; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PckPatchPlatform___O_TypeDefinitionIndex = 16393;
+
 	class PckPatchPlatform___O : public ::System::Object
 	{
 	public:

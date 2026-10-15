@@ -7,6 +7,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 #define KEELLMNDMII_CTOR_OFFSET UNITYSDK_OFFSET(0xB375290)
 
+inline static constexpr unsigned int KEELLMNDMII_TypeDefinitionIndex = 56326;
+
 	class KEELLMNDMII : public ::System::Object
 	{
 	public:

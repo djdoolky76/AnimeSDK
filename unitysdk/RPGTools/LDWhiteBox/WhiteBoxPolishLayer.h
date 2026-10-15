@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPGTools::LDWhiteBox
 {
+	inline static constexpr unsigned int WhiteBoxPolishLayer_TypeDefinitionIndex = 48957;
+
 	class WhiteBoxPolishLayer : public ::UnityEngine::MonoBehaviour
 	{
 	public:

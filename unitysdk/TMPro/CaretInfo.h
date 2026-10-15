@@ -6,6 +6,8 @@
 
 namespace TMPro
 {
+	inline static constexpr unsigned int CaretInfo_TypeDefinitionIndex = 44670;
+
 	struct alignas(4) CaretInfo
 	{
 		::System::Int32 index; // 0x10

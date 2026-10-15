@@ -22,6 +22,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftCraftProgressAttrTraitDetailControlBinder_TypeDefinitionIndex = 79925;
+
 	class MechCraftCraftProgressAttrTraitDetailControlBinder : public ::RPG::Client::MechCraft::View::MechCraftBinderBase
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class LittleGameAbilityTeamTowersForbidRotateEffectCon
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LittleGameAbilityTeamTowersForbidRotateEffectConfig_TypeDefinitionIndex = 21411;
+
 	class LittleGameAbilityTeamTowersForbidRotateEffectConfig : public ::RPG::GameCore::BaseLittleGameAbilityEffectConfig
 	{
 	public:

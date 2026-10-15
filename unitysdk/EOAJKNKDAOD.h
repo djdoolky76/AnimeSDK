@@ -31,6 +31,8 @@ namespace System { class String; }
 #define EOAJKNKDAOD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E2F5AE0)
 #define EOAJKNKDAOD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E2F5B40)
 
+inline static constexpr unsigned int EOAJKNKDAOD_TypeDefinitionIndex = 26587;
+
 	class EOAJKNKDAOD : public ::System::Object
 	{
 	public:

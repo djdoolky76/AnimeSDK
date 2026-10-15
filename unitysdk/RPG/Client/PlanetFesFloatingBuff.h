@@ -15,6 +15,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PlanetFesFloatingBuff_TypeDefinitionIndex = 66483;
+
 	class PlanetFesFloatingBuff : public ::UnityEngine::MonoBehaviour
 	{
 	public:

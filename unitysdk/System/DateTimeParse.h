@@ -103,6 +103,8 @@ namespace System::Text { class StringBuilder; }
 
 namespace System
 {
+	inline static constexpr unsigned int DateTimeParse_TypeDefinitionIndex = 252;
+
 	class DateTimeParse : public ::System::Object
 	{
 	public:

@@ -3,6 +3,8 @@
 
 namespace TMPro
 {
+	inline static constexpr unsigned int TMP_SpriteInfo_TypeDefinitionIndex = 44685;
+
 	struct alignas(4) TMP_SpriteInfo
 	{
 		::System::Int32 spriteIndex; // 0x10

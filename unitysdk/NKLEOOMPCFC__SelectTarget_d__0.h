@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 #define NKLEOOMPCFC__SELECTTARGET_D__0_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0xBC3BA20)
 #define NKLEOOMPCFC__SELECTTARGET_D__0_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBC3B9E0)
 
+inline static constexpr unsigned int NKLEOOMPCFC__SelectTarget_d__0_TypeDefinitionIndex = 77538;
+
 	class NKLEOOMPCFC__SelectTarget_d__0 : public ::System::Object
 	{
 	public:

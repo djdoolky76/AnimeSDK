@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChenLingBattleLaserSplitConfig_TypeDefinitionIndex = 15742;
+
 	class ChenLingBattleLaserSplitConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -30,6 +30,8 @@ namespace System { class String; }
 #define JOGKBLIDLOC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E7A21E0)
 #define JOGKBLIDLOC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E7A2240)
 
+inline static constexpr unsigned int JOGKBLIDLOC_TypeDefinitionIndex = 34119;
+
 	class JOGKBLIDLOC : public ::System::Object
 	{
 	public:

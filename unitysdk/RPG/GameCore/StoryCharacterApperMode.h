@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StoryCharacterApperMode_TypeDefinitionIndex = 57355;
+
 	enum class StoryCharacterApperMode : ::System::Int32
 	{
 		Dither = 0,

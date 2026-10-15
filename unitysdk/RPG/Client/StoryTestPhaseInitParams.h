@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int StoryTestPhaseInitParams_TypeDefinitionIndex = 61207;
+
 	class StoryTestPhaseInitParams : public ::System::Object
 	{
 	public:

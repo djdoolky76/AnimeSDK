@@ -12,6 +12,8 @@ namespace RPG::GameCore { class GameEntityList; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GameEntityList_TypeDefinitionIndex = 59193;
+
 	class GameEntityList
 	{
 	public:

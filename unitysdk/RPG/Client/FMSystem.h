@@ -41,6 +41,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FMSystem_TypeDefinitionIndex = 60903;
+
 	class FMSystem : public ::System::Object
 	{
 	public:

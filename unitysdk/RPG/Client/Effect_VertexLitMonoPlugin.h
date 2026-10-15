@@ -13,6 +13,8 @@ namespace UnityEngine { class ParticleSystem; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Effect_VertexLitMonoPlugin_TypeDefinitionIndex = 70586;
+
 	class Effect_VertexLitMonoPlugin
 	{
 	public:

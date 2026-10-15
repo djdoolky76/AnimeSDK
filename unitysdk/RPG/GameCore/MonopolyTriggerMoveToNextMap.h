@@ -10,6 +10,8 @@ namespace RPG::GameCore { class MonopolyTriggerMoveToNextMap; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MonopolyTriggerMoveToNextMap_TypeDefinitionIndex = 20938;
+
 	class MonopolyTriggerMoveToNextMap : public ::RPG::GameCore::TaskConfig
 	{
 	public:

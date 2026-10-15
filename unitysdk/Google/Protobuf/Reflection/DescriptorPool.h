@@ -26,6 +26,8 @@ namespace System::Text::RegularExpressions { class Regex; }
 
 namespace Google::Protobuf::Reflection
 {
+	inline static constexpr unsigned int DescriptorPool_TypeDefinitionIndex = 5528;
+
 	class DescriptorPool : public ::System::Object
 	{
 	public:

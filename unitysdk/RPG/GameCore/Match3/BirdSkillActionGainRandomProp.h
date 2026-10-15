@@ -10,6 +10,8 @@ namespace RPG::GameCore::Match3 { class BirdSkillActionGainRandomProp; }
 
 namespace RPG::GameCore::Match3
 {
+	inline static constexpr unsigned int BirdSkillActionGainRandomProp_TypeDefinitionIndex = 24932;
+
 	class BirdSkillActionGainRandomProp : public ::RPG::GameCore::Match3::Match3ActionBase
 	{
 	public:

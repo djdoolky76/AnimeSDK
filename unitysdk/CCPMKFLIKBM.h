@@ -11,6 +11,8 @@ namespace Entitas { class IGroup; }
 #define CCPMKFLIKBM_INITIALIZE_OFFSET UNITYSDK_OFFSET(0xC75D990)
 #define CCPMKFLIKBM_TEARDOWN_OFFSET UNITYSDK_OFFSET(0xC75DF50)
 
+inline static constexpr unsigned int CCPMKFLIKBM_TypeDefinitionIndex = 77777;
+
 	class CCPMKFLIKBM : public ::System::Object
 	{
 	public:

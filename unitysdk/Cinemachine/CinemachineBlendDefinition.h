@@ -9,6 +9,8 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace Cinemachine
 {
+	inline static constexpr unsigned int CinemachineBlendDefinition_TypeDefinitionIndex = 39803;
+
 	struct alignas(8) CinemachineBlendDefinition
 	{
 		::Cinemachine::CinemachineBlendDefinition_Style m_Style; // 0x10

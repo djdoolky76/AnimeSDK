@@ -12,6 +12,8 @@ namespace RPG::Client { class DynamicTrailModule; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEffectPluginDynamicTrail_TypeDefinitionIndex = 70003;
+
 	class MonoEffectPluginDynamicTrail : public ::RPG::Client::MonoEffectPluginCharaEffectBase
 	{
 	public:

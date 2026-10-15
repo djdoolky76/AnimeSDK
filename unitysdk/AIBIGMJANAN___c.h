@@ -9,6 +9,8 @@ namespace System { class Object; }
 #define AIBIGMJANAN___C_CTOR_OFFSET UNITYSDK_OFFSET(0xEB94080)
 #define AIBIGMJANAN___C__TAKEPROMOTIONREWARD_B__0_0_OFFSET UNITYSDK_OFFSET(0xEB94090)
 
+inline static constexpr unsigned int AIBIGMJANAN___c_TypeDefinitionIndex = 62784;
+
 	class AIBIGMJANAN___c : public ::System::Object
 	{
 	public:

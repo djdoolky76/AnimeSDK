@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueActPersonaCurRoomCardCastConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueActPersonaCurRoomCardCastConfig_TypeDefinitionIndex = 19763;
+
 	class RogueActPersonaCurRoomCardCastConfig : public ::RPG::GameCore::RogueActionConfigBase
 	{
 	public:

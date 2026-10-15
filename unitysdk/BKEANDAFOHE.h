@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define BKEANDAFOHE_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0xB7AE850)
 #define BKEANDAFOHE_SET_CURRENT_OFFSET UNITYSDK_OFFSET(0xB7AEA50)
 
+inline static constexpr unsigned int BKEANDAFOHE_TypeDefinitionIndex = 74658;
+
 	class BKEANDAFOHE : public ::System::Object
 	{
 	public:

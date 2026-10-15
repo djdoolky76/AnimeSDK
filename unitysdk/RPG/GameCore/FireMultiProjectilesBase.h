@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FireMultiProjectilesBase_TypeDefinitionIndex = 22588;
+
 	class FireMultiProjectilesBase : public ::RPG::GameCore::TaskConfig
 	{
 	public:

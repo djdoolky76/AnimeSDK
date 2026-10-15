@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightMazeBuffEnhanceConfigRow_TypeDefinitionIndex = 13663;
+
 	class GridFightMazeBuffEnhanceConfigRow : public ::System::Object
 	{
 	public:

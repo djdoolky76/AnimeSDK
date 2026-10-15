@@ -38,6 +38,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int EmoEyeCtrl_TypeDefinitionIndex = 71127;
+
 	class EmoEyeCtrl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

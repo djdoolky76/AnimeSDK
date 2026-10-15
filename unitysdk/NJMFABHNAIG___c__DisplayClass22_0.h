@@ -10,6 +10,8 @@ namespace System { template <typename T> class Func_1; }
 #define NJMFABHNAIG___C__DISPLAYCLASS22_0__ASYNCREQUESTSTARTNODE_B__0_OFFSET UNITYSDK_OFFSET(0xBC1E890)
 #define NJMFABHNAIG___C__DISPLAYCLASS22_0__ASYNCREQUESTSTARTNODE_B__3_OFFSET UNITYSDK_OFFSET(0xBC1E920)
 
+inline static constexpr unsigned int NJMFABHNAIG___c__DisplayClass22_0_TypeDefinitionIndex = 75153;
+
 	class NJMFABHNAIG___c__DisplayClass22_0 : public ::System::Object
 	{
 	public:

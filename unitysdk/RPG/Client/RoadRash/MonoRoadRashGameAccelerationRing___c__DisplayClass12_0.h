@@ -10,6 +10,8 @@ namespace RPG::Client::RoadRash { class MonoRoadRashGameAccelerationRing; }
 
 namespace RPG::Client::RoadRash
 {
+	inline static constexpr unsigned int MonoRoadRashGameAccelerationRing___c__DisplayClass12_0_TypeDefinitionIndex = 75849;
+
 	class MonoRoadRashGameAccelerationRing___c__DisplayClass12_0 : public ::System::Object
 	{
 	public:

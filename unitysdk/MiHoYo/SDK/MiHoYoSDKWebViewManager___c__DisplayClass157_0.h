@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int MiHoYoSDKWebViewManager___c__DisplayClass157_0_TypeDefinitionIndex = 46626;
+
 	class MiHoYoSDKWebViewManager___c__DisplayClass157_0 : public ::System::Object
 	{
 	public:

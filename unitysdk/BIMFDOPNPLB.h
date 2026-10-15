@@ -14,6 +14,8 @@ namespace System { class Type; }
 #define BIMFDOPNPLB_MGOFIGIIAGP_OFFSET UNITYSDK_OFFSET(0xB786A50)
 #define BIMFDOPNPLB_MKOJJCNCKIH_OFFSET UNITYSDK_OFFSET(0xB7864A0)
 
+inline static constexpr unsigned int BIMFDOPNPLB_TypeDefinitionIndex = 72103;
+
 	class BIMFDOPNPLB : public ::FMPCODLIOLG
 	{
 	public:

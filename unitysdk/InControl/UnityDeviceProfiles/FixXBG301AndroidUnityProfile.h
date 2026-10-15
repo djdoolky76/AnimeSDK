@@ -7,6 +7,8 @@
 
 namespace InControl::UnityDeviceProfiles
 {
+	inline static constexpr unsigned int FixXBG301AndroidUnityProfile_TypeDefinitionIndex = 40954;
+
 	class FixXBG301AndroidUnityProfile : public ::InControl::InputDeviceProfile
 	{
 	public:

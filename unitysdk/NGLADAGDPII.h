@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define NGLADAGDPII_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBBACD00)
 #define NGLADAGDPII_TICK_OFFSET UNITYSDK_OFFSET(0xBBACD50)
 
+inline static constexpr unsigned int NGLADAGDPII_TypeDefinitionIndex = 55323;
+
 	class NGLADAGDPII : public ::GELIALJDFBL
 	{
 	public:

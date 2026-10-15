@@ -10,6 +10,8 @@ namespace System { class String; }
 #define OMFLEDNICFA_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D29D620)
 #define OMFLEDNICFA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D29D5C0)
 
+inline static constexpr unsigned int OMFLEDNICFA_TypeDefinitionIndex = 24070;
+
 	class OMFLEDNICFA : public ::RPG::GameCore::STTaskConfig
 	{
 	public:

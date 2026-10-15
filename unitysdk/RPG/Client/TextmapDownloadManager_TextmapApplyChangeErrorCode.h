@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TextmapDownloadManager_TextmapApplyChangeErrorCode_TypeDefinitionIndex = 61244;
+
 	enum class TextmapDownloadManager_TextmapApplyChangeErrorCode : ::System::Int32
 	{
 		OK = 0,

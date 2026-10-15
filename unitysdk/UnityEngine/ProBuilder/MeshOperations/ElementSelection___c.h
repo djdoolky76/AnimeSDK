@@ -32,6 +32,8 @@ namespace UnityEngine::ProBuilder { class WingedEdge; }
 
 namespace UnityEngine::ProBuilder::MeshOperations
 {
+	inline static constexpr unsigned int ElementSelection___c_TypeDefinitionIndex = 44494;
+
 	class ElementSelection___c : public ::System::Object
 	{
 	public:

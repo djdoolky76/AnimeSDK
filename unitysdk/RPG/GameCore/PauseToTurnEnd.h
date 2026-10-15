@@ -10,6 +10,8 @@ namespace RPG::GameCore { class PauseToTurnEnd; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PauseToTurnEnd_TypeDefinitionIndex = 23416;
+
 	class PauseToTurnEnd : public ::RPG::GameCore::TaskConfig
 	{
 	public:

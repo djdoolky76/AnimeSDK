@@ -9,6 +9,8 @@ namespace System { class Action; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChimeraRankSwapController___c__DisplayClass6_0_TypeDefinitionIndex = 72480;
+
 	class ChimeraRankSwapController___c__DisplayClass6_0 : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetTextJoinValue_TypeDefinitionIndex = 20880;
+
 	class SetTextJoinValue : public ::RPG::GameCore::TaskConfig
 	{
 	public:

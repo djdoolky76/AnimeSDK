@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define ENOABFIPHOB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E2F3110)
 #define ENOABFIPHOB___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E2F3120)
 
+inline static constexpr unsigned int ENOABFIPHOB___c_TypeDefinitionIndex = 26265;
+
 	class ENOABFIPHOB___c : public ::System::Object
 	{
 	public:

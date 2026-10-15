@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define GIJLOICALKG___C___NOTIFYBUFFAFFECTINGCELLSMAYBECHANGED_B__14_0_OFFSET UNITYSDK_OFFSET(0x15A40580)
 #define GIJLOICALKG___C___TRYFORCEHINTBUFFAFFECTED_B__28_0_OFFSET UNITYSDK_OFFSET(0x15A40610)
 
+inline static constexpr unsigned int GIJLOICALKG___c_TypeDefinitionIndex = 79453;
+
 	class GIJLOICALKG___c : public ::System::Object
 	{
 	public:

@@ -74,6 +74,8 @@ namespace UnityEngine::UI { template <typename T> class ObjectPool_1; }
 
 namespace UnityEngine::EventSystems
 {
+	inline static constexpr unsigned int ExecuteEvents_TypeDefinitionIndex = 6935;
+
 	class ExecuteEvents : public ::System::Object
 	{
 	public:

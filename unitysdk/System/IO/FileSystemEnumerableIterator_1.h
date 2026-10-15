@@ -10,6 +10,8 @@ namespace System::IO { template <typename T> class SearchResultHandler_1; }
 
 namespace System::IO
 {
+	inline static constexpr unsigned int FileSystemEnumerableIterator_1_TypeDefinitionIndex = 674;
+
 	template <typename T>
 	class FileSystemEnumerableIterator_1
 	{

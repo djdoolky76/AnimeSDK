@@ -12,6 +12,8 @@ namespace RPG::Client::Billboard { class IBillboardTypeData; }
 
 namespace RPG::Client::Billboard
 {
+	inline static constexpr unsigned int InwardBubbleTalkBillboardData_TypeDefinitionIndex = 74981;
+
 	class InwardBubbleTalkBillboardData : public ::System::Object
 	{
 	public:

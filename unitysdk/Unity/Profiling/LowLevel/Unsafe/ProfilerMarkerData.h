@@ -3,6 +3,8 @@
 
 namespace Unity::Profiling::LowLevel::Unsafe
 {
+	inline static constexpr unsigned int ProfilerMarkerData_TypeDefinitionIndex = 3952;
+
 	struct alignas(8) ProfilerMarkerData
 	{
 		::System::Byte Type; // 0x10

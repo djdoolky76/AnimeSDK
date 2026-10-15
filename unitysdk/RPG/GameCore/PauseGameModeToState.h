@@ -11,6 +11,8 @@ namespace RPG::GameCore { class PauseGameModeToState; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PauseGameModeToState_TypeDefinitionIndex = 23425;
+
 	class PauseGameModeToState : public ::RPG::GameCore::TaskConfig
 	{
 	public:

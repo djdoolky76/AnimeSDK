@@ -63,6 +63,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 #define ICDNEPOKHJL_PFPCADAPCFG_OFFSET UNITYSDK_OFFSET(0x1C690710)
 #define ICDNEPOKHJL_PMEJOMNJIDE_OFFSET UNITYSDK_OFFSET(0x1C68EF90)
 
+inline static constexpr unsigned int ICDNEPOKHJL_TypeDefinitionIndex = 37019;
+
 	class ICDNEPOKHJL : public ::Entitas::Entity
 	{
 	public:

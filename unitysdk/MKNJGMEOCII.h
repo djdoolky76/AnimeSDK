@@ -38,6 +38,8 @@ namespace System::Collections::Generic { template <typename T> class Queue_1; }
 #define MKNJGMEOCII_START_OFFSET UNITYSDK_OFFSET(0xB99E8E0)
 #define MKNJGMEOCII_STOP_OFFSET UNITYSDK_OFFSET(0xB99EA20)
 
+inline static constexpr unsigned int MKNJGMEOCII_TypeDefinitionIndex = 79180;
+
 	class MKNJGMEOCII : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@ namespace System::Threading { class AtomicBoolean; }
 
 namespace System::Threading::Tasks
 {
+	inline static constexpr unsigned int TaskFactory_1___c__DisplayClass35_1_TypeDefinitionIndex = 894;
+
 	template <typename T>
 	class TaskFactory_1___c__DisplayClass35_1 : public ::System::Object
 	{

@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define JAGDIBJFLEE_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CF34650)
 #define JAGDIBJFLEE_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CF33F70)
 
+inline static constexpr unsigned int JAGDIBJFLEE_TypeDefinitionIndex = 13470;
+
 	class JAGDIBJFLEE : public ::System::Object
 	{
 	public:

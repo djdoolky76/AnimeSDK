@@ -12,6 +12,8 @@ namespace RPG::GameCore { class RelicConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RelicConfigRow_TypeDefinitionIndex = 14631;
+
 	class RelicConfigRow : public ::System::Object
 	{
 	public:

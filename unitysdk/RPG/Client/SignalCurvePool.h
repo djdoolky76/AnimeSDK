@@ -25,6 +25,8 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SignalCurvePool_TypeDefinitionIndex = 70959;
+
 	class SignalCurvePool : public ::UnityEngine::ScriptableObject
 	{
 	public:

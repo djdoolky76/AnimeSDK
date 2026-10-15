@@ -8,6 +8,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define IKDJCEKIGEN_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16484880)
 #define IKDJCEKIGEN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16484560)
 
+inline static constexpr unsigned int IKDJCEKIGEN_TypeDefinitionIndex = 52651;
+
 	class IKDJCEKIGEN
 	{
 	public:

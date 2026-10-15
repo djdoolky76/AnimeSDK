@@ -11,6 +11,8 @@ namespace System { class Object; }
 #define FLKJJAMDMPM__ASYNCLOADFULLPCKS_D__13_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1583D780)
 #define FLKJJAMDMPM__ASYNCLOADFULLPCKS_D__13_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1583D510)
 
+inline static constexpr unsigned int FLKJJAMDMPM__AsyncLoadFullPcks_d__13_TypeDefinitionIndex = 59744;
+
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10, typename T11, typename T12, typename T13>
 	class FLKJJAMDMPM__AsyncLoadFullPcks_d__13 : public ::System::Object
 	{

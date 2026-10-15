@@ -13,6 +13,8 @@ namespace System::Collections::Specialized { class NotifyCollectionChangedEventA
 
 namespace System::Collections::Specialized
 {
+	inline static constexpr unsigned int NotifyCollectionChangedEventHandler_TypeDefinitionIndex = 3002;
+
 	class NotifyCollectionChangedEventHandler : public ::System::MulticastDelegate
 	{
 	public:

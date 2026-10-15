@@ -13,6 +13,8 @@ namespace System::Xml { class XmlRawWriter; }
 
 namespace System::Xml
 {
+	inline static constexpr unsigned int OnRemoveWriter_TypeDefinitionIndex = 1815;
+
 	class OnRemoveWriter : public ::System::MulticastDelegate
 	{
 	public:

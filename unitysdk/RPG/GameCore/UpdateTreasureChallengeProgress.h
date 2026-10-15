@@ -11,6 +11,8 @@ namespace RPG::GameCore { class UpdateTreasureChallengeProgress; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int UpdateTreasureChallengeProgress_TypeDefinitionIndex = 20470;
+
 	class UpdateTreasureChallengeProgress : public ::RPG::GameCore::TaskConfig
 	{
 	public:

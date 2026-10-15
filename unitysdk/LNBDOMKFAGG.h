@@ -27,6 +27,8 @@ namespace System { class String; }
 #define LNBDOMKFAGG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9B0400)
 #define LNBDOMKFAGG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E9B0460)
 
+inline static constexpr unsigned int LNBDOMKFAGG_TypeDefinitionIndex = 34491;
+
 	class LNBDOMKFAGG : public ::System::Object
 	{
 	public:

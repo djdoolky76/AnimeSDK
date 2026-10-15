@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace RPGTools::LDWhiteBox
 {
+	inline static constexpr unsigned int WhiteBoxPolishItem_TypeDefinitionIndex = 48956;
+
 	class WhiteBoxPolishItem : public ::UnityEngine::MonoBehaviour
 	{
 	public:

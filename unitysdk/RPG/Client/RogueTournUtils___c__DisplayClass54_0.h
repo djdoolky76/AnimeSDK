@@ -7,6 +7,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueTournUtils___c__DisplayClass54_0_TypeDefinitionIndex = 67819;
+
 	class RogueTournUtils___c__DisplayClass54_0 : public ::System::Object
 	{
 	public:

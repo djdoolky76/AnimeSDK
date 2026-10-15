@@ -3,6 +3,8 @@
 
 namespace Mono::Security::Interface
 {
+	inline static constexpr unsigned int CipherSuiteCode_TypeDefinitionIndex = 2288;
+
 	enum class CipherSuiteCode : ::System::UInt16
 	{
 		TLS_NULL_WITH_NULL_NULL = 0,

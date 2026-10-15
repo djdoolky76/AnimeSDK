@@ -11,6 +11,8 @@ namespace RPG::GameCore { class BattleRogueMagicData_RoundCount; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BattleRogueMagicData_RoundCount_TypeDefinitionIndex = 56315;
+
 	class BattleRogueMagicData_RoundCount : public ::System::Object
 	{
 	public:

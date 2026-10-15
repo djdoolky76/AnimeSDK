@@ -11,6 +11,8 @@ namespace UnityEngine { class Transform; }
 #define EADBNKPKJLA_KAGICIAJEEA_OFFSET UNITYSDK_OFFSET(0x12671BB0)
 #define EADBNKPKJLA_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0x12671A20)
 
+inline static constexpr unsigned int EADBNKPKJLA_TypeDefinitionIndex = 79093;
+
 	class EADBNKPKJLA : public ::System::Object
 	{
 	public:

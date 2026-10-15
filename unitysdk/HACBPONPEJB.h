@@ -6,6 +6,8 @@ namespace RPG::Client::ActivityAlley { class AlleyPackGoodData; }
 
 #define HACBPONPEJB_CTOR_OFFSET UNITYSDK_OFFSET(0x15B71FF0)
 
+inline static constexpr unsigned int HACBPONPEJB_TypeDefinitionIndex = 74108;
+
 	class HACBPONPEJB : public ::System::Object
 	{
 	public:

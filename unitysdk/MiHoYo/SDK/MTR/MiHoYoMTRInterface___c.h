@@ -11,6 +11,8 @@ namespace System::Threading { class WaitCallback; }
 
 namespace MiHoYo::SDK::MTR
 {
+	inline static constexpr unsigned int MiHoYoMTRInterface___c_TypeDefinitionIndex = 46688;
+
 	class MiHoYoMTRInterface___c : public ::System::Object
 	{
 	public:

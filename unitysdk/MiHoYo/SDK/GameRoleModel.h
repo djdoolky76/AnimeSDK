@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int GameRoleModel_TypeDefinitionIndex = 7880;
+
 	class GameRoleModel : public ::System::Object
 	{
 	public:

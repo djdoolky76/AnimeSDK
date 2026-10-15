@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace XLua
 {
+	inline static constexpr unsigned int XLuaTableOptimizeArraySetRegistrationAttribute_TypeDefinitionIndex = 50283;
+
 	class XLuaTableOptimizeArraySetRegistrationAttribute : public ::System::Attribute
 	{
 	public:

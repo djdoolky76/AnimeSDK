@@ -17,6 +17,8 @@ namespace System::Text { class StringBuilder; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_CookLogs_TypeDefinitionIndex = 40620;
+
 	class HEU_CookLogs : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@
 #define JFOHALPDCLG_EDGMCHKCECD_OFFSET UNITYSDK_OFFSET(0x1EC311B0)
 #define JFOHALPDCLG_FFIAJHKGFLL_OFFSET UNITYSDK_OFFSET(0x1EC311F0)
 
+inline static constexpr unsigned int JFOHALPDCLG_TypeDefinitionIndex = 35263;
+
 	class JFOHALPDCLG : public ::System::Object
 	{
 	public:

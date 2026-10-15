@@ -11,6 +11,8 @@ namespace UnityEngine { class Mesh; }
 
 namespace RPG::Client::AstraFX
 {
+	inline static constexpr unsigned int AstraFX_SkinnedMesh_PassSettingByMesh_TypeDefinitionIndex = 73694;
+
 	class AstraFX_SkinnedMesh_PassSettingByMesh : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define IHLIAOACLGA_CTOR_OFFSET UNITYSDK_OFFSET(0x16425230)
 #define IHLIAOACLGA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16425260)
 
+inline static constexpr unsigned int IHLIAOACLGA_TypeDefinitionIndex = 53380;
+
 	class IHLIAOACLGA
 	{
 	public:

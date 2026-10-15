@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TriggerSkipDeadHandler; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TriggerSkipDeadHandler_TypeDefinitionIndex = 22500;
+
 	class TriggerSkipDeadHandler : public ::RPG::GameCore::TaskConfig
 	{
 	public:

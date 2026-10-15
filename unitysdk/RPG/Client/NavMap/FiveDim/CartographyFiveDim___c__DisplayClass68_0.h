@@ -8,6 +8,8 @@ class APAHPCEMFND;
 
 namespace RPG::Client::NavMap::FiveDim
 {
+	inline static constexpr unsigned int CartographyFiveDim___c__DisplayClass68_0_TypeDefinitionIndex = 74650;
+
 	class CartographyFiveDim___c__DisplayClass68_0 : public ::System::Object
 	{
 	public:

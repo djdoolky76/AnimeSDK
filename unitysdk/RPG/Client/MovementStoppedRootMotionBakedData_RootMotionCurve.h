@@ -8,6 +8,8 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MovementStoppedRootMotionBakedData_RootMotionCurve_TypeDefinitionIndex = 68815;
+
 	struct alignas(8) MovementStoppedRootMotionBakedData_RootMotionCurve
 	{
 		::System::Single normalizedTime; // 0x10

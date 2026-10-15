@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define ELLLEIOFNIJ_OBOHLCENGHN_OFFSET UNITYSDK_OFFSET(0x15527280)
 #define ELLLEIOFNIJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15526BD0)
 
+inline static constexpr unsigned int ELLLEIOFNIJ_TypeDefinitionIndex = 58195;
+
 	class ELLLEIOFNIJ
 	{
 	public:

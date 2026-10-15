@@ -9,6 +9,8 @@ namespace RPG::Client::LittleGame::ChimeraDuel { class ChimeraDuelGameInstance; 
 #define ONNFAHOCAPN_DEGFEAHKFCG_OFFSET UNITYSDK_OFFSET(0xBF5F750)
 #define ONNFAHOCAPN_EGFNLMKCNHC_OFFSET UNITYSDK_OFFSET(0xBF5F790)
 
+inline static constexpr unsigned int ONNFAHOCAPN_TypeDefinitionIndex = 77408;
+
 	class ONNFAHOCAPN : public ::System::Object
 	{
 	public:

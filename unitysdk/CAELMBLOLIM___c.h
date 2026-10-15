@@ -9,6 +9,8 @@ namespace System { class Object; }
 #define CAELMBLOLIM___C__OPENSCREENTRANSFER_B__68_2_OFFSET UNITYSDK_OFFSET(0xC47A490)
 #define CAELMBLOLIM___C___ONGAMEFINALLEAVE_B__38_0_OFFSET UNITYSDK_OFFSET(0xC47A380)
 
+inline static constexpr unsigned int CAELMBLOLIM___c_TypeDefinitionIndex = 60561;
+
 	class CAELMBLOLIM___c : public ::System::Object
 	{
 	public:

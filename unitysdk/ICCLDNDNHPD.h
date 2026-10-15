@@ -9,6 +9,8 @@ class NJMLJBNICND;
 #define ICCLDNDNHPD_GBMBMFOJCFG_OFFSET UNITYSDK_OFFSET(0x15E4C9D0)
 #define ICCLDNDNHPD_GET_OWNER_OFFSET UNITYSDK_OFFSET(0x15E4C9C0)
 
+inline static constexpr unsigned int ICCLDNDNHPD_TypeDefinitionIndex = 78227;
+
 	class ICCLDNDNHPD : public ::System::Object
 	{
 	public:

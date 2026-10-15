@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int IRogueTournCollectionExhibitionDisplayableData_TypeDefinitionIndex = 67567;
+
 	class IRogueTournCollectionExhibitionDisplayableData
 	{
 	public:

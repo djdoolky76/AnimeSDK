@@ -12,6 +12,8 @@ namespace System::IO { class BinaryWriter; }
 
 namespace Hdg
 {
+	inline static constexpr unsigned int rdtTcpMessageUpdateGameObjectProperties_TypeDefinitionIndex = 46989;
+
 	struct alignas(8) rdtTcpMessageUpdateGameObjectProperties
 	{
 		::System::Int32 m_instanceId; // 0x10

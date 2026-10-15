@@ -16,6 +16,8 @@ namespace System { class String; }
 #define MEHEMFNHEMK_MFFKOKFNLAG_OFFSET UNITYSDK_OFFSET(0x1C4BAD10)
 #define MEHEMFNHEMK_NGCFPFALCGD_OFFSET UNITYSDK_OFFSET(0x1C4BA8C0)
 
+inline static constexpr unsigned int MEHEMFNHEMK_TypeDefinitionIndex = 41526;
+
 	class MEHEMFNHEMK : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DecalPuzzleStart_TypeDefinitionIndex = 21208;
+
 	class DecalPuzzleStart : public ::RPG::GameCore::TaskConfig
 	{
 	public:

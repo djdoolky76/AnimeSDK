@@ -30,6 +30,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define IIMLPJNGLFH_PGDMPPKFDMH_OFFSET UNITYSDK_OFFSET(0x1644FF40)
 #define IIMLPJNGLFH__ONINITOWNERREF_OFFSET UNITYSDK_OFFSET(0x1644EB40)
 
+inline static constexpr unsigned int IIMLPJNGLFH_TypeDefinitionIndex = 54039;
+
 	class IIMLPJNGLFH : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

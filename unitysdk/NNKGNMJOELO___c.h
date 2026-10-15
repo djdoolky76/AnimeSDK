@@ -9,6 +9,8 @@ namespace System { template <typename T> class Comparison_1; }
 #define NNKGNMJOELO___C_CTOR_OFFSET UNITYSDK_OFFSET(0xBCC76D0)
 #define NNKGNMJOELO___C__GETMERGEDITEMINCOMELIST_B__9_0_OFFSET UNITYSDK_OFFSET(0xBCC76E0)
 
+inline static constexpr unsigned int NNKGNMJOELO___c_TypeDefinitionIndex = 77754;
+
 	class NNKGNMJOELO___c : public ::System::Object
 	{
 	public:

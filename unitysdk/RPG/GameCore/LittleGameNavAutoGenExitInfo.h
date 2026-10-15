@@ -9,6 +9,8 @@ namespace RPG::GameCore { class LittleGameNavAutoGenExitInfo; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LittleGameNavAutoGenExitInfo_TypeDefinitionIndex = 17338;
+
 	class LittleGameNavAutoGenExitInfo : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -22,6 +22,8 @@ namespace RPG::Client::LimaoNews { class LimaoNewsModule; }
 
 namespace RPG::Client::LimaoNews
 {
+	inline static constexpr unsigned int LimaoNewsMainEntranceViewModel_TypeDefinitionIndex = 80422;
+
 	class LimaoNewsMainEntranceViewModel : public ::Sofa::BaseViewModel
 	{
 	public:

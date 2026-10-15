@@ -10,6 +10,8 @@ namespace RPG::GameCore { class AddPamMenuItem; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AddPamMenuItem_TypeDefinitionIndex = 21109;
+
 	class AddPamMenuItem : public ::RPG::GameCore::TaskConfig
 	{
 	public:

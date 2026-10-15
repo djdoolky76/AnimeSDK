@@ -4,6 +4,8 @@
 
 #define ICKOGPBKGIK_CTOR_OFFSET UNITYSDK_OFFSET(0x15E51E10)
 
+inline static constexpr unsigned int ICKOGPBKGIK_TypeDefinitionIndex = 71304;
+
 	class ICKOGPBKGIK : public ::FMPCODLIOLG
 	{
 	public:

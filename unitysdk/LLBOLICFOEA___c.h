@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define LLBOLICFOEA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E9974E0)
 #define LLBOLICFOEA___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E9974F0)
 
+inline static constexpr unsigned int LLBOLICFOEA___c_TypeDefinitionIndex = 27392;
+
 	class LLBOLICFOEA___c : public ::System::Object
 	{
 	public:

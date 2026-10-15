@@ -15,6 +15,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int EraFlipperManager___c__DisplayClass29_0_TypeDefinitionIndex = 60509;
+
 	class EraFlipperManager___c__DisplayClass29_0 : public ::System::Object
 	{
 	public:

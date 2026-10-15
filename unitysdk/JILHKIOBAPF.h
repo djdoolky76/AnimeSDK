@@ -7,6 +7,8 @@ namespace RPG::GameCore { class DiceCombatTaskConfig_TriggerDiceUpgrade; }
 #define JILHKIOBAPF_CTOR_OFFSET UNITYSDK_OFFSET(0x1C6F96C0)
 #define JILHKIOBAPF_MLKLPMJEHPF_OFFSET UNITYSDK_OFFSET(0x1C6F96D0)
 
+inline static constexpr unsigned int JILHKIOBAPF_TypeDefinitionIndex = 36329;
+
 	class JILHKIOBAPF : public ::AJBKGPOEBFG
 	{
 	public:

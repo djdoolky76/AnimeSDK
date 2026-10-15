@@ -9,6 +9,8 @@ namespace RPG::GameCore { class TriggerBattleStatisticEvent; }
 #define ACMPFEKGMCE_OCLGHLGAACM_OFFSET UNITYSDK_OFFSET(0xB1268C0)
 #define ACMPFEKGMCE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB1265A0)
 
+inline static constexpr unsigned int ACMPFEKGMCE_TypeDefinitionIndex = 55720;
+
 	class ACMPFEKGMCE
 	{
 	public:

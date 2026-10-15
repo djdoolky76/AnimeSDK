@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define IFMNCLKDLDC_LJPKBBCIKOA_OFFSET UNITYSDK_OFFSET(0x15F25950)
 #define IFMNCLKDLDC_OPGCAPMNBOC_OFFSET UNITYSDK_OFFSET(0x15F255A0)
 
+inline static constexpr unsigned int IFMNCLKDLDC_TypeDefinitionIndex = 81112;
+
 	class IFMNCLKDLDC : public ::System::Object
 	{
 	public:

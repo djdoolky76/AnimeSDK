@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TitanAtlasRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TitanAtlasRow_TypeDefinitionIndex = 15298;
+
 	class TitanAtlasRow : public ::System::Object
 	{
 	public:

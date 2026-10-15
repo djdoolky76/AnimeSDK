@@ -29,6 +29,8 @@ namespace System::Collections::ObjectModel { template <typename T> class ReadOnl
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueTournPersonaGameLevelRoomData_TypeDefinitionIndex = 67717;
+
 	class RogueTournPersonaGameLevelRoomData : public ::System::Object
 	{
 	public:

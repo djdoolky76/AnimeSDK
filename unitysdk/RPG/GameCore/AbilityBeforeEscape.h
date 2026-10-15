@@ -11,6 +11,8 @@ namespace RPG::GameCore { class AbilityBeforeEscape; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AbilityBeforeEscape_TypeDefinitionIndex = 56583;
+
 	class AbilityBeforeEscape : public ::CMPGEAFHHDC
 	{
 	public:

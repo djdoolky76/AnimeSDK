@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::MiHoYoCloud
 {
+	inline static constexpr unsigned int MiHoYoSDKDll___c__DisplayClass31_0_TypeDefinitionIndex = 9131;
+
 	class MiHoYoSDKDll___c__DisplayClass31_0 : public ::System::Object
 	{
 	public:

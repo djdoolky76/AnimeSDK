@@ -33,6 +33,8 @@ namespace System::Text::RegularExpressions { class Regex; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StageRow_TypeDefinitionIndex = 15142;
+
 	class StageRow : public ::System::Object
 	{
 	public:

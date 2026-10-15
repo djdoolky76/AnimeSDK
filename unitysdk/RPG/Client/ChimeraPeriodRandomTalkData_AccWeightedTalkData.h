@@ -7,6 +7,8 @@ namespace RPG::Client { class ChimeraTalkData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChimeraPeriodRandomTalkData_AccWeightedTalkData_TypeDefinitionIndex = 63498;
+
 	class ChimeraPeriodRandomTalkData_AccWeightedTalkData : public ::System::Object
 	{
 	public:

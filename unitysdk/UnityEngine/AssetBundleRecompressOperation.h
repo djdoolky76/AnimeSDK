@@ -6,6 +6,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int AssetBundleRecompressOperation_TypeDefinitionIndex = 5766;
+
 	class AssetBundleRecompressOperation : public ::UnityEngine::AsyncOperation
 	{
 	public:

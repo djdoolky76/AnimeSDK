@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TurnBasedModifierDependencyConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TurnBasedModifierAdditionConfig_TypeDefinitionIndex = 18230;
+
 	class TurnBasedModifierAdditionConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -19,6 +19,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace RPG::Client::FateRin::View::Battle
 {
+	inline static constexpr unsigned int FateRinShuffleTrailEffectView_TypeDefinitionIndex = 80698;
+
 	class FateRinShuffleTrailEffectView : public ::UnityEngine::MonoBehaviour
 	{
 	public:

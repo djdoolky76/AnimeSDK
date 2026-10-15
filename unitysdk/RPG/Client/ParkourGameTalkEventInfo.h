@@ -32,6 +32,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ParkourGameTalkEventInfo_TypeDefinitionIndex = 61850;
+
 	class ParkourGameTalkEventInfo : public ::System::Object
 	{
 	public:

@@ -16,6 +16,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TimelinePrefabController_TypeDefinitionIndex = 60763;
+
 	class TimelinePrefabController : public ::UnityEngine::MonoBehaviour
 	{
 	public:

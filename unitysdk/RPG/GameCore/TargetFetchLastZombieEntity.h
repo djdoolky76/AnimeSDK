@@ -13,6 +13,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TargetFetchLastZombieEntity_TypeDefinitionIndex = 24001;
+
 	class TargetFetchLastZombieEntity : public ::RPG::GameCore::TargetEvaluator
 	{
 	public:

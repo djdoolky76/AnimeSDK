@@ -11,6 +11,8 @@ namespace RPG::GameCore { class WaitFiveDimTeleportFinish; }
 #define IGGNJFGHFPK_PNNKENJOEMH_OFFSET UNITYSDK_OFFSET(0x1640DB10)
 #define IGGNJFGHFPK_TICK_OFFSET UNITYSDK_OFFSET(0x1640DC90)
 
+inline static constexpr unsigned int IGGNJFGHFPK_TypeDefinitionIndex = 52898;
+
 	class IGGNJFGHFPK : public ::GELIALJDFBL
 	{
 	public:

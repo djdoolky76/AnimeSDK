@@ -18,6 +18,8 @@ namespace UnityEngine { class GameObject; }
 #define STAGEHARMONYAUDIOLINKSLOT_MEJBCMOLFPI_OFFSET UNITYSDK_OFFSET(0xE98C330)
 #define STAGEHARMONYAUDIOLINKSLOT_NEKGALPLEOH_OFFSET UNITYSDK_OFFSET(0xE98BC50)
 
+inline static constexpr unsigned int StageHarmonyAudioLinkSlot_TypeDefinitionIndex = 47535;
+
 	class StageHarmonyAudioLinkSlot : public ::StageHarmonyBaseLinkSlot
 	{
 	public:

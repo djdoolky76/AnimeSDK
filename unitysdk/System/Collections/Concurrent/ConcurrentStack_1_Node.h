@@ -5,6 +5,8 @@ namespace System { class Object; }
 
 namespace System::Collections::Concurrent
 {
+	inline static constexpr unsigned int ConcurrentStack_1_Node_TypeDefinitionIndex = 1525;
+
 	template <typename T>
 	class ConcurrentStack_1_Node : public ::System::Object
 	{

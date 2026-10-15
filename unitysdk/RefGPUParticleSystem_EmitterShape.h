@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int RefGPUParticleSystem_EmitterShape_TypeDefinitionIndex = 44001;
+
 	enum class RefGPUParticleSystem_EmitterShape : ::System::Int32
 	{
 		Point = 0,

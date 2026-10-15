@@ -10,6 +10,8 @@ namespace System::Collections::Generic { class KeyValuePair; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightOrbServerData___c__DisplayClass11_0_TypeDefinitionIndex = 64447;
+
 	class GridFightOrbServerData___c__DisplayClass11_0 : public ::System::Object
 	{
 	public:

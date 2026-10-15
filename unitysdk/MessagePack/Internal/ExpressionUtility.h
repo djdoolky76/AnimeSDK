@@ -8,6 +8,8 @@ namespace System::Reflection { class MethodInfo; }
 
 namespace MessagePack::Internal
 {
+	inline static constexpr unsigned int ExpressionUtility_TypeDefinitionIndex = 7292;
+
 	class ExpressionUtility : public ::System::Object
 	{
 	public:

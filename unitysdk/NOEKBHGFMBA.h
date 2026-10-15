@@ -6,6 +6,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define NOEKBHGFMBA_CTOR_OFFSET UNITYSDK_OFFSET(0xBCEB0A0)
 #define NOEKBHGFMBA_GET_ICONID_OFFSET UNITYSDK_OFFSET(0xBCEAF70)
 
+inline static constexpr unsigned int NOEKBHGFMBA_TypeDefinitionIndex = 60646;
+
 	class NOEKBHGFMBA : public ::EJMCJECLENI
 	{
 	public:

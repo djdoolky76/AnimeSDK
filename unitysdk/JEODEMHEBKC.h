@@ -29,6 +29,8 @@ namespace System { class String; }
 #define JEODEMHEBKC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E720800)
 #define JEODEMHEBKC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E720860)
 
+inline static constexpr unsigned int JEODEMHEBKC_TypeDefinitionIndex = 26344;
+
 	class JEODEMHEBKC : public ::System::Object
 	{
 	public:

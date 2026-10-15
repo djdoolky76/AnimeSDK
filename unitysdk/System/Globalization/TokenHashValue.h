@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace System::Globalization
 {
+	inline static constexpr unsigned int TokenHashValue_TypeDefinitionIndex = 743;
+
 	class TokenHashValue : public ::System::Object
 	{
 	public:

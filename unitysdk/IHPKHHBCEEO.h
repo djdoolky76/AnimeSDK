@@ -14,6 +14,8 @@ namespace UnityEngine { class GameObject; }
 #define IHPKHHBCEEO_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1642D920)
 #define IHPKHHBCEEO_TICK_OFFSET UNITYSDK_OFFSET(0x1642D970)
 
+inline static constexpr unsigned int IHPKHHBCEEO_TypeDefinitionIndex = 58660;
+
 	class IHPKHHBCEEO : public ::GELIALJDFBL
 	{
 	public:

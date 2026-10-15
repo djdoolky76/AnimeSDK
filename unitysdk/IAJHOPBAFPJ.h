@@ -69,6 +69,8 @@ namespace UnityEngine::UI { class Text; }
 #define IAJHOPBAFPJ__ONBIND_OFFSET UNITYSDK_OFFSET(0x15E13550)
 #define IAJHOPBAFPJ__ONTICK_OFFSET UNITYSDK_OFFSET(0x15E147A0)
 
+inline static constexpr unsigned int IAJHOPBAFPJ_TypeDefinitionIndex = 71716;
+
 	class IAJHOPBAFPJ : public ::FMPCODLIOLG
 	{
 	public:

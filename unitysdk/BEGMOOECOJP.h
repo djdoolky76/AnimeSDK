@@ -49,6 +49,8 @@ class LGCICJNMABG;
 #define BEGMOOECOJP_OKKOBFLMNAK_OFFSET UNITYSDK_OFFSET(0x1631D670)
 #define BEGMOOECOJP_TEARDOWN_OFFSET UNITYSDK_OFFSET(0x1631BFB0)
 
+inline static constexpr unsigned int BEGMOOECOJP_TypeDefinitionIndex = 76598;
+
 	class BEGMOOECOJP : public ::System::Object
 	{
 	public:

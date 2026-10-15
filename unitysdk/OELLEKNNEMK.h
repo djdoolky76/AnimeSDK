@@ -31,6 +31,8 @@ namespace System { class String; }
 #define OELLEKNNEMK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE2EF20)
 #define OELLEKNNEMK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DE2EF80)
 
+inline static constexpr unsigned int OELLEKNNEMK_TypeDefinitionIndex = 25917;
+
 	class OELLEKNNEMK : public ::System::Object
 	{
 	public:

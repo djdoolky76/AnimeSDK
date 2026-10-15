@@ -25,6 +25,8 @@ namespace System::Buffers { template <typename T> class IBufferWriter_1; }
 
 namespace MessagePack
 {
+	inline static constexpr unsigned int MessagePackSerializer_TypeDefinitionIndex = 7213;
+
 	class MessagePackSerializer : public ::System::Object
 	{
 	public:

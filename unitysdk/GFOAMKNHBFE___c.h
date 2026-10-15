@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define GFOAMKNHBFE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E4750C0)
 #define GFOAMKNHBFE___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E4750D0)
 
+inline static constexpr unsigned int GFOAMKNHBFE___c_TypeDefinitionIndex = 32495;
+
 	class GFOAMKNHBFE___c : public ::System::Object
 	{
 	public:

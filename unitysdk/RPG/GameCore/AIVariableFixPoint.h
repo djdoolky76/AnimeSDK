@@ -19,6 +19,8 @@ namespace System { class Object; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AIVariableFixPoint_TypeDefinitionIndex = 15609;
+
 	class AIVariableFixPoint : public ::RPG::GameCore::AIVariable
 	{
 	public:

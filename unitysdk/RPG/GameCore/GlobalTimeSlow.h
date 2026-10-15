@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GlobalTimeSlow_TypeDefinitionIndex = 20886;
+
 	class GlobalTimeSlow : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class CutSceneSFXItem; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CutSceneSFXConfig_TypeDefinitionIndex = 17019;
+
 	class CutSceneSFXConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -27,6 +27,8 @@ namespace System { class String; }
 #define FGNGBABEENA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E383470)
 #define FGNGBABEENA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E3834D0)
 
+inline static constexpr unsigned int FGNGBABEENA_TypeDefinitionIndex = 28979;
+
 	class FGNGBABEENA : public ::System::Object
 	{
 	public:

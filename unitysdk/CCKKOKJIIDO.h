@@ -5,6 +5,8 @@
 
 #define CCKKOKJIIDO_CTOR_OFFSET UNITYSDK_OFFSET(0xC74C650)
 
+inline static constexpr unsigned int CCKKOKJIIDO_TypeDefinitionIndex = 57649;
+
 	class CCKKOKJIIDO : public ::System::Object
 	{
 	public:

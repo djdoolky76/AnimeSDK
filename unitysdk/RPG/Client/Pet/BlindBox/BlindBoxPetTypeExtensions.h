@@ -9,6 +9,8 @@
 
 namespace RPG::Client::Pet::BlindBox
 {
+	inline static constexpr unsigned int BlindBoxPetTypeExtensions_TypeDefinitionIndex = 75737;
+
 	class BlindBoxPetTypeExtensions : public ::System::Object
 	{
 	public:

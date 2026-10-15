@@ -4,6 +4,8 @@
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int BatchRendererCullingOutput_TypeDefinitionIndex = 4736;
+
 	struct alignas(8) BatchRendererCullingOutput
 	{
 		::Unity::Jobs::JobHandle cullingJobsFence; // 0x10

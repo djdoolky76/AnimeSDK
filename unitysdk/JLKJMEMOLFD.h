@@ -12,6 +12,8 @@ class PLHAEBMKIFA;
 #define JLKJMEMOLFD_GET_FIGHTTRANSPORT_OFFSET UNITYSDK_OFFSET(0xB24D400)
 #define JLKJMEMOLFD_GET_INITINFO_OFFSET UNITYSDK_OFFSET(0xB24D3F0)
 
+inline static constexpr unsigned int JLKJMEMOLFD_TypeDefinitionIndex = 60416;
+
 	class JLKJMEMOLFD : public ::System::Object
 	{
 	public:

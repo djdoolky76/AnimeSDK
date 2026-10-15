@@ -7,6 +7,8 @@ class HHGEPOFOLMB;
 #define NIABHDOFEGL_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xBBDC0B0)
 #define NIABHDOFEGL_CTOR_OFFSET UNITYSDK_OFFSET(0xBBDC360)
 
+inline static constexpr unsigned int NIABHDOFEGL_TypeDefinitionIndex = 62693;
+
 	class NIABHDOFEGL : public ::System::Object
 	{
 	public:

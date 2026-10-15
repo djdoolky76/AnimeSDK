@@ -34,6 +34,8 @@ namespace System::Collections::Generic { template <typename T> class Queue_1; }
 #define LNEGONHCNCE_OLKOKDOCOPD_OFFSET UNITYSDK_OFFSET(0xB7DC0A0)
 #define LNEGONHCNCE_PCGNELEEPDL_OFFSET UNITYSDK_OFFSET(0xB7DCE50)
 
+inline static constexpr unsigned int LNEGONHCNCE_TypeDefinitionIndex = 75058;
+
 	class LNEGONHCNCE : public ::System::Object
 	{
 	public:

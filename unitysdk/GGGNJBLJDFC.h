@@ -16,6 +16,8 @@ namespace System { class String; }
 #define GGGNJBLJDFC_SET_EVENTNAME_OFFSET UNITYSDK_OFFSET(0x15A04150)
 #define GGGNJBLJDFC_SET_ISLOOP_OFFSET UNITYSDK_OFFSET(0x15A04170)
 
+inline static constexpr unsigned int GGGNJBLJDFC_TypeDefinitionIndex = 48858;
+
 	class GGGNJBLJDFC : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

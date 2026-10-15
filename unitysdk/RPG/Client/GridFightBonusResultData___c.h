@@ -11,6 +11,8 @@ namespace System { template <typename T> class Predicate_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightBonusResultData___c_TypeDefinitionIndex = 64426;
+
 	class GridFightBonusResultData___c : public ::System::Object
 	{
 	public:

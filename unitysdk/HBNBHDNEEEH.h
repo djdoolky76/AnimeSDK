@@ -8,6 +8,8 @@ class HBNBHDNEEEH;
 #define HBNBHDNEEEH_CTOR_OFFSET UNITYSDK_OFFSET(0x1CE89F30)
 #define HBNBHDNEEEH_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CE89CF0)
 
+inline static constexpr unsigned int HBNBHDNEEEH_TypeDefinitionIndex = 11319;
+
 	class HBNBHDNEEEH : public ::System::Object
 	{
 	public:

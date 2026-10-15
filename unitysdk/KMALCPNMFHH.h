@@ -13,6 +13,8 @@ class OJOCPEMKKDA;
 #define KMALCPNMFHH_SET_FILTER_OFFSET UNITYSDK_OFFSET(0x1C71BF20)
 #define KMALCPNMFHH_SET_HANDLER_OFFSET UNITYSDK_OFFSET(0x1C71BF00)
 
+inline static constexpr unsigned int KMALCPNMFHH_TypeDefinitionIndex = 37297;
+
 	class KMALCPNMFHH : public ::System::Object
 	{
 	public:

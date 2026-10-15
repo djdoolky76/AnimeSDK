@@ -6,6 +6,8 @@
 
 namespace Entitas::VisualDebugging::Unity
 {
+	inline static constexpr unsigned int DontDrawComponentAttribute_TypeDefinitionIndex = 10064;
+
 	class DontDrawComponentAttribute : public ::System::Attribute
 	{
 	public:

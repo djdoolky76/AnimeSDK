@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define LEDMLKMJFOM_CTOR_OFFSET UNITYSDK_OFFSET(0xB64EDA0)
 #define LEDMLKMJFOM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB64EDD0)
 
+inline static constexpr unsigned int LEDMLKMJFOM_TypeDefinitionIndex = 55248;
+
 	class LEDMLKMJFOM
 	{
 	public:

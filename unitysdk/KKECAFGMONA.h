@@ -25,6 +25,8 @@ namespace System { class String; }
 #define KKECAFGMONA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E876E80)
 #define KKECAFGMONA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E876EE0)
 
+inline static constexpr unsigned int KKECAFGMONA_TypeDefinitionIndex = 27335;
+
 	class KKECAFGMONA : public ::System::Object
 	{
 	public:

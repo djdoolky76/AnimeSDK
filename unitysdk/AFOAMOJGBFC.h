@@ -13,6 +13,8 @@ namespace UnityEngine { class Transform; }
 #define AFOAMOJGBFC_CTOR_OFFSET UNITYSDK_OFFSET(0x1C881040)
 #define AFOAMOJGBFC_FOBFBGPONKO_OFFSET UNITYSDK_OFFSET(0x1C881000)
 
+inline static constexpr unsigned int AFOAMOJGBFC_TypeDefinitionIndex = 42526;
+
 	class AFOAMOJGBFC : public ::System::Object
 	{
 	public:

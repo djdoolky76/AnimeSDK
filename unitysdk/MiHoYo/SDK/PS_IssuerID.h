@@ -3,6 +3,8 @@
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int PS_IssuerID_TypeDefinitionIndex = 8111;
+
 	enum class PS_IssuerID : ::System::Int32
 	{
 		Invalid = -1,

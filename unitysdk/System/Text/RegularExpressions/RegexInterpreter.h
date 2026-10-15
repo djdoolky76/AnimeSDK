@@ -51,6 +51,8 @@ namespace System::Text::RegularExpressions { class RegexPrefix; }
 
 namespace System::Text::RegularExpressions
 {
+	inline static constexpr unsigned int RegexInterpreter_TypeDefinitionIndex = 2517;
+
 	class RegexInterpreter : public ::System::Text::RegularExpressions::RegexRunner
 	{
 	public:

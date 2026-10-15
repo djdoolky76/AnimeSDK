@@ -9,6 +9,8 @@ namespace UnityEngine { class ParticleSystem; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int ParticleSystemExtensionsImpl_TypeDefinitionIndex = 5290;
+
 	class ParticleSystemExtensionsImpl : public ::System::Object
 	{
 	public:

@@ -3,6 +3,8 @@
 
 namespace System::Xml::Schema
 {
+	inline static constexpr unsigned int SchemaDeclBase_Use_TypeDefinitionIndex = 2172;
+
 	enum class SchemaDeclBase_Use : ::System::Int32
 	{
 		Default = 0,

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FiveDimPushBoxBakedMoveConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimPushBoxBakedMoveConfig_TypeDefinitionIndex = 16677;
+
 	class FiveDimPushBoxBakedMoveConfig : public ::RPG::GameCore::FiveDimPropBakedMoveConfig
 	{
 	public:

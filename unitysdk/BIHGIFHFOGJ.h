@@ -4,6 +4,8 @@
 
 #define BIHGIFHFOGJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8BAEF0)
 
+inline static constexpr unsigned int BIHGIFHFOGJ_TypeDefinitionIndex = 43245;
+
 	class BIHGIFHFOGJ : public ::System::Attribute
 	{
 	public:

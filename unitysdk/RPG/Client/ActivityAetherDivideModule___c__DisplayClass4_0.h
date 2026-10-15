@@ -9,6 +9,8 @@ namespace RPG::GameCore { class AetherDivideActivityQuestRow; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ActivityAetherDivideModule___c__DisplayClass4_0_TypeDefinitionIndex = 61388;
+
 	class ActivityAetherDivideModule___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define INEKEGFOFFE_CTOR_OFFSET UNITYSDK_OFFSET(0x164E9480)
 #define INEKEGFOFFE_HONPOEGJHFN_OFFSET UNITYSDK_OFFSET(0x164E8E70)
 
+inline static constexpr unsigned int INEKEGFOFFE_TypeDefinitionIndex = 61807;
+
 	class INEKEGFOFFE : public ::System::Object
 	{
 	public:

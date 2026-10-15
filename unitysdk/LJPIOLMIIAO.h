@@ -7,6 +7,8 @@ class LJPIOLMIIAO;
 #define LJPIOLMIIAO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D107710)
 #define LJPIOLMIIAO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D1075D0)
 
+inline static constexpr unsigned int LJPIOLMIIAO_TypeDefinitionIndex = 14445;
+
 	class LJPIOLMIIAO : public ::System::Object
 	{
 	public:

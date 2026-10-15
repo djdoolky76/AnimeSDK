@@ -8,6 +8,8 @@ namespace System { template <typename T> class Predicate_1; }
 #define KNOOGHJPPBL___C__DISPLAYCLASS19_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB58B530)
 #define KNOOGHJPPBL___C__DISPLAYCLASS19_0__FILLSPECIFICPATHAVATARSBYROLETO_B__0_OFFSET UNITYSDK_OFFSET(0xB58B650)
 
+inline static constexpr unsigned int KNOOGHJPPBL___c__DisplayClass19_0_TypeDefinitionIndex = 62674;
+
 	class KNOOGHJPPBL___c__DisplayClass19_0 : public ::System::Object
 	{
 	public:

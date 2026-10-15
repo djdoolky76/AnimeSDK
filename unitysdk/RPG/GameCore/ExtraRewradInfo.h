@@ -9,6 +9,8 @@ namespace RPG::GameCore { class ExtraRewradInfo; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ExtraRewradInfo_TypeDefinitionIndex = 17764;
+
 	class ExtraRewradInfo : public ::RPG::GameCore::JsonConfig
 	{
 	public:

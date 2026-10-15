@@ -4,6 +4,8 @@
 
 #define KGFPGIIHMPL_CTOR_OFFSET UNITYSDK_OFFSET(0xB3DDF90)
 
+inline static constexpr unsigned int KGFPGIIHMPL_TypeDefinitionIndex = 54319;
+
 	class KGFPGIIHMPL : public ::FDNCLPGAKOA
 	{
 	public:

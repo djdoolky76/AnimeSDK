@@ -5,6 +5,8 @@
 
 #define IKOIKKCBNJA_CTOR_OFFSET UNITYSDK_OFFSET(0x1649F290)
 
+inline static constexpr unsigned int IKOIKKCBNJA_TypeDefinitionIndex = 73342;
+
 	class IKOIKKCBNJA : public ::JMDAIKOHCAE
 	{
 	public:

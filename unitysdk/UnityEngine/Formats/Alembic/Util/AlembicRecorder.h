@@ -34,6 +34,8 @@ namespace UnityEngine::Formats::Alembic::Util { class ComponentCapturer; }
 
 namespace UnityEngine::Formats::Alembic::Util
 {
+	inline static constexpr unsigned int AlembicRecorder_TypeDefinitionIndex = 45761;
+
 	class AlembicRecorder : public ::System::Object
 	{
 	public:

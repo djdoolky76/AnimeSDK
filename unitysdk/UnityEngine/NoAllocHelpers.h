@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int NoAllocHelpers_TypeDefinitionIndex = 4335;
+
 	class NoAllocHelpers : public ::System::Object
 	{
 	public:

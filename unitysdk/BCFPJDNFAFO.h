@@ -11,6 +11,8 @@ namespace UnityEngine::UI { class RuntimeAtlasManager; }
 #define BCFPJDNFAFO_JHFBGGNCCLN_OFFSET UNITYSDK_OFFSET(0x15EA6C70)
 #define BCFPJDNFAFO_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x15EA6A40)
 
+inline static constexpr unsigned int BCFPJDNFAFO_TypeDefinitionIndex = 72641;
+
 	class BCFPJDNFAFO : public ::System::Object
 	{
 	public:

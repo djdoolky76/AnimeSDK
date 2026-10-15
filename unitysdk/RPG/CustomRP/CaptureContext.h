@@ -12,6 +12,8 @@ namespace UnityEngine { class RenderTexture; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int CaptureContext_TypeDefinitionIndex = 37617;
+
 	struct alignas(8) CaptureContext
 	{
 		::System::Boolean _BeforePostProcess; // 0x10

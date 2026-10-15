@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define EDEFNMCMIME_CTOR_OFFSET UNITYSDK_OFFSET(0x13311D30)
 #define EDEFNMCMIME_EVALUATE_OFFSET UNITYSDK_OFFSET(0x13311D60)
 
+inline static constexpr unsigned int EDEFNMCMIME_TypeDefinitionIndex = 57981;
+
 	class EDEFNMCMIME
 	{
 	public:

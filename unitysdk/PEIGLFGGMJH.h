@@ -25,6 +25,8 @@ namespace System { class String; }
 #define PEIGLFGGMJH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF1A500)
 #define PEIGLFGGMJH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF1A560)
 
+inline static constexpr unsigned int PEIGLFGGMJH_TypeDefinitionIndex = 28196;
+
 	class PEIGLFGGMJH : public ::System::Object
 	{
 	public:

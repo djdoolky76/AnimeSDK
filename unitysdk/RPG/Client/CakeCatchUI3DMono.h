@@ -11,6 +11,8 @@ namespace RPG::Client { class BaseShaderPropertyTransition; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CakeCatchUI3DMono_TypeDefinitionIndex = 62975;
+
 	class CakeCatchUI3DMono : public ::UnityEngine::MonoBehaviour
 	{
 	public:

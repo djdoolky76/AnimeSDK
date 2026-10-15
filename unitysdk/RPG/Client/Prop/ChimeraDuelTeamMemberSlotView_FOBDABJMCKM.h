@@ -10,6 +10,8 @@ namespace System { class Action; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int ChimeraDuelTeamMemberSlotView_FOBDABJMCKM_TypeDefinitionIndex = 78361;
+
 	class ChimeraDuelTeamMemberSlotView_FOBDABJMCKM : public ::System::Object
 	{
 	public:

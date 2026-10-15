@@ -11,6 +11,8 @@ namespace RPG::Client::ActivityIdleLive { class SpecialEquip; }
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int PendingEquipData_TypeDefinitionIndex = 75229;
+
 	class PendingEquipData : public ::System::Object
 	{
 	public:

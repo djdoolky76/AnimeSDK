@@ -56,6 +56,8 @@ namespace System { class String; }
 #define LCJIAMCDDFL_SET_SPMAZEINFOEFFFRONT_OFFSET UNITYSDK_OFFSET(0xB615F80)
 #define LCJIAMCDDFL_SET_UNFULLCOLOR_OFFSET UNITYSDK_OFFSET(0xB615EA0)
 
+inline static constexpr unsigned int LCJIAMCDDFL_TypeDefinitionIndex = 51983;
+
 	class LCJIAMCDDFL : public ::System::Object
 	{
 	public:

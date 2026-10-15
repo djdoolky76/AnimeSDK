@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MonopolyCheckHasFinishedQuiz_TypeDefinitionIndex = 20930;
+
 	class MonopolyCheckHasFinishedQuiz : public ::RPG::GameCore::TaskConfig
 	{
 	public:

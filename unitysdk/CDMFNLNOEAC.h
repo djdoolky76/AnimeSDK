@@ -2,6 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 
+inline static constexpr unsigned int CDMFNLNOEAC_TypeDefinitionIndex = 53852;
+
 	struct alignas(4) CDMFNLNOEAC
 	{
 		::RPG::GameCore::FixPoint HCICPDGOPKI; // 0x10

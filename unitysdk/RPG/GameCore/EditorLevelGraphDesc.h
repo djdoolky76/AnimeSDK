@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EditorLevelGraphDesc_TypeDefinitionIndex = 17561;
+
 	class EditorLevelGraphDesc : public ::RPG::GameCore::JsonConfig
 	{
 	public:

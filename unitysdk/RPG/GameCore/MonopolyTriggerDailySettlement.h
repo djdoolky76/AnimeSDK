@@ -10,6 +10,8 @@ namespace RPG::GameCore { class MonopolyTriggerDailySettlement; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MonopolyTriggerDailySettlement_TypeDefinitionIndex = 20928;
+
 	class MonopolyTriggerDailySettlement : public ::RPG::GameCore::TaskConfig
 	{
 	public:

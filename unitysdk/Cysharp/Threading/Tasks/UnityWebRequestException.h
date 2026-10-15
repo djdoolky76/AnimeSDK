@@ -17,6 +17,8 @@ namespace UnityEngine::Networking { class UnityWebRequest; }
 
 namespace Cysharp::Threading::Tasks
 {
+	inline static constexpr unsigned int UnityWebRequestException_TypeDefinitionIndex = 38492;
+
 	class UnityWebRequestException : public ::System::Exception
 	{
 	public:

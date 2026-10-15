@@ -28,6 +28,8 @@ namespace UnityEngine::EventSystems { class PointerEventData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int EventTriggerListener_TypeDefinitionIndex = 72529;
+
 	class EventTriggerListener : public ::UnityEngine::EventSystems::EventTrigger
 	{
 	public:

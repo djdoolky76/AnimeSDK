@@ -9,6 +9,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TeamManager___c__DisplayClass15_1_TypeDefinitionIndex = 60783;
+
 	template <typename T>
 	class TeamManager___c__DisplayClass15_1 : public ::System::Object
 	{

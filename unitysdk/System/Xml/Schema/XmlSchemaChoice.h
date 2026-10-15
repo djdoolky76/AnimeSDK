@@ -7,6 +7,8 @@ namespace System::Xml::Schema { class XmlSchemaObjectCollection; }
 
 namespace System::Xml::Schema
 {
+	inline static constexpr unsigned int XmlSchemaChoice_TypeDefinitionIndex = 2188;
+
 	class XmlSchemaChoice : public ::System::Xml::Schema::XmlSchemaGroupBase
 	{
 	public:

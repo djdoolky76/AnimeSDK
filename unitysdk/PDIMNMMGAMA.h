@@ -36,6 +36,8 @@ namespace UnityEngine { class Transform; }
 #define PDIMNMMGAMA_SET_OTHERROADENTRY_OFFSET UNITYSDK_OFFSET(0xC014530)
 #define PDIMNMMGAMA_SET_OUTMECHAWAREHOUSEROADENTRY_OFFSET UNITYSDK_OFFSET(0xC014510)
 
+inline static constexpr unsigned int PDIMNMMGAMA_TypeDefinitionIndex = 69188;
+
 	class PDIMNMMGAMA : public ::ICOHAPENNHF
 	{
 	public:

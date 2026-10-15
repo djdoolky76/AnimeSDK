@@ -12,6 +12,8 @@ namespace System { class String; }
 #define JOJHAPEHLHP_JBGIFBGMLMF_OFFSET UNITYSDK_OFFSET(0xB2A1160)
 #define JOJHAPEHLHP_MLMGEFIOION_OFFSET UNITYSDK_OFFSET(0xB2A1110)
 
+inline static constexpr unsigned int JOJHAPEHLHP_TypeDefinitionIndex = 73357;
+
 	class JOJHAPEHLHP : public ::System::Object
 	{
 	public:

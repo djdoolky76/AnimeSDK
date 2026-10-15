@@ -26,6 +26,8 @@ namespace System::Reflection { class MethodBase; }
 
 namespace System::Runtime::Remoting
 {
+	inline static constexpr unsigned int SoapServices_TypeDefinitionIndex = 1225;
+
 	class SoapServices : public ::System::Object
 	{
 	public:

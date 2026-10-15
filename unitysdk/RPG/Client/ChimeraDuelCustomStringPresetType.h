@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChimeraDuelCustomStringPresetType_TypeDefinitionIndex = 63311;
+
 	enum class ChimeraDuelCustomStringPresetType : ::System::Int32
 	{
 		MainPuzzleEnter = 0,

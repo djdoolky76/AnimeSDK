@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 #define MKEGPKOGFIE___GETSHOULDHIDEMONSTERS_D__3_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0xB9918A0)
 #define MKEGPKOGFIE___GETSHOULDHIDEMONSTERS_D__3_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB991680)
 
+inline static constexpr unsigned int MKEGPKOGFIE___GetShouldHideMonsters_d__3_TypeDefinitionIndex = 81504;
+
 	template <typename T1, typename T2, typename T3>
 	class MKEGPKOGFIE___GetShouldHideMonsters_d__3 : public ::System::Object
 	{

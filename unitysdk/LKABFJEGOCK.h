@@ -5,6 +5,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 #define LKABFJEGOCK_EIMIIHEDKFM_OFFSET UNITYSDK_OFFSET(0xB724D60)
 
+inline static constexpr unsigned int LKABFJEGOCK_TypeDefinitionIndex = 74185;
+
 	class LKABFJEGOCK : public ::System::Object
 	{
 	public:

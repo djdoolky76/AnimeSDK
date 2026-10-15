@@ -5,6 +5,8 @@ namespace RPG::GameCore { class FiveDimSurfaceBakedInfo; }
 
 #define MJHNFPCAKOK_CTOR_OFFSET UNITYSDK_OFFSET(0x1C92C8D0)
 
+inline static constexpr unsigned int MJHNFPCAKOK_TypeDefinitionIndex = 43371;
+
 	class MJHNFPCAKOK : public ::System::Object
 	{
 	public:

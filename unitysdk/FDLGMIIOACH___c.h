@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define FDLGMIIOACH___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E35D240)
 #define FDLGMIIOACH___C___CCTOR_B__32_0_OFFSET UNITYSDK_OFFSET(0x1E35D250)
 
+inline static constexpr unsigned int FDLGMIIOACH___c_TypeDefinitionIndex = 28607;
+
 	class FDLGMIIOACH___c : public ::System::Object
 	{
 	public:

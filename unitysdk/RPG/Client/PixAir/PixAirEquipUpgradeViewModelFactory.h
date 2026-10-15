@@ -9,6 +9,8 @@ namespace RPG::Client::PixAir { class PixAirEquipUpgradeViewModel; }
 
 namespace RPG::Client::PixAir
 {
+	inline static constexpr unsigned int PixAirEquipUpgradeViewModelFactory_TypeDefinitionIndex = 79331;
+
 	class PixAirEquipUpgradeViewModelFactory : public ::System::Object
 	{
 	public:

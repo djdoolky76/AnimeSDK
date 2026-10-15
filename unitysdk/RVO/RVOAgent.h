@@ -35,6 +35,8 @@ namespace RVO { class RVOManager; }
 
 namespace RVO
 {
+	inline static constexpr unsigned int RVOAgent_TypeDefinitionIndex = 46038;
+
 	class RVOAgent : public ::System::Object
 	{
 	public:

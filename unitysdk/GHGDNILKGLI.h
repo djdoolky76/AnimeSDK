@@ -7,6 +7,8 @@
 #define GHGDNILKGLI_IEKFPFNIEHF_OFFSET UNITYSDK_OFFSET(0x15A1E950)
 #define GHGDNILKGLI_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0x15A1EA50)
 
+inline static constexpr unsigned int GHGDNILKGLI_TypeDefinitionIndex = 52431;
+
 	class GHGDNILKGLI : public ::System::Object
 	{
 	public:

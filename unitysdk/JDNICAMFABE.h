@@ -7,6 +7,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define JDNICAMFABE_CTOR_OFFSET UNITYSDK_OFFSET(0x16610B60)
 #define JDNICAMFABE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16610C40)
 
+inline static constexpr unsigned int JDNICAMFABE_TypeDefinitionIndex = 55433;
+
 	class JDNICAMFABE
 	{
 	public:

@@ -28,6 +28,8 @@ namespace UnityEngine { class GameObject; }
 #define LGFHIIOJKFN_POOAEGHOGPH_OFFSET UNITYSDK_OFFSET(0xB691BC0)
 #define LGFHIIOJKFN_SET_TRANSFORMDIRTY_OFFSET UNITYSDK_OFFSET(0xB691DF0)
 
+inline static constexpr unsigned int LGFHIIOJKFN_TypeDefinitionIndex = 73855;
+
 	class LGFHIIOJKFN : public ::GDKHHPPIFBC
 	{
 	public:

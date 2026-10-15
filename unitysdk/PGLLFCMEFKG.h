@@ -31,6 +31,8 @@ namespace System { class String; }
 #define PGLLFCMEFKG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF34450)
 #define PGLLFCMEFKG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF344B0)
 
+inline static constexpr unsigned int PGLLFCMEFKG_TypeDefinitionIndex = 33920;
+
 	class PGLLFCMEFKG : public ::System::Object
 	{
 	public:

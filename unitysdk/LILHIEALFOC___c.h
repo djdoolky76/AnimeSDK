@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define LILHIEALFOC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E972710)
 #define LILHIEALFOC___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E972720)
 
+inline static constexpr unsigned int LILHIEALFOC___c_TypeDefinitionIndex = 26183;
+
 	class LILHIEALFOC___c : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define AJNOEKPLPCL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E3C7250)
 #define AJNOEKPLPCL___C___CCTOR_B__53_0_OFFSET UNITYSDK_OFFSET(0x1E3C7260)
 
+inline static constexpr unsigned int AJNOEKPLPCL___c_TypeDefinitionIndex = 33451;
+
 	class AJNOEKPLPCL___c : public ::System::Object
 	{
 	public:

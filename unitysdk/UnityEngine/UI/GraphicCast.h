@@ -8,6 +8,8 @@ namespace UnityEngine::UI { class VertexHelper; }
 
 namespace UnityEngine::UI
 {
+	inline static constexpr unsigned int GraphicCast_TypeDefinitionIndex = 47732;
+
 	class GraphicCast : public ::UnityEngine::UI::Graphic
 	{
 	public:

@@ -8,6 +8,8 @@ namespace HoudiniEngineUnity { class HEU_HoudiniAsset; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_PreAssetEventData_TypeDefinitionIndex = 40360;
+
 	class HEU_PreAssetEventData : public ::System::Object
 	{
 	public:

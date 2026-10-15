@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::ChimeraDuel
 {
+	inline static constexpr unsigned int ChimeraDuelBattleViewModel_TypeDefinitionIndex = 81253;
+
 	class ChimeraDuelBattleViewModel : public ::Sofa::Core::ObservableObject
 	{
 	public:

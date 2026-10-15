@@ -7,6 +7,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define BHGPNEODPMD_CCTOR_OFFSET UNITYSDK_OFFSET(0xB4797E0)
 #define BHGPNEODPMD_DKLLOMMLDJB_OFFSET UNITYSDK_OFFSET(0xB48AE70)
 
+inline static constexpr unsigned int BHGPNEODPMD_TypeDefinitionIndex = 59293;
+
 	class BHGPNEODPMD : public ::System::Object
 	{
 	public:

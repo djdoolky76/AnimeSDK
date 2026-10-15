@@ -11,6 +11,8 @@ namespace RPG::GameCore { class CakeRaceActionSpawnAbility; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CakeRaceActionSpawnAbility_TypeDefinitionIndex = 18360;
+
 	class CakeRaceActionSpawnAbility : public ::RPG::GameCore::CakeRaceActionBase
 	{
 	public:

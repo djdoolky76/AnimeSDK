@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ClockFaceEmotion; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ClockFaceEmotion_TypeDefinitionIndex = 21893;
+
 	class ClockFaceEmotion : public ::RPG::GameCore::JsonConfig
 	{
 	public:

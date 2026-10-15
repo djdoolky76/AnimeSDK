@@ -80,6 +80,8 @@ namespace System { class Random; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int Mathf_TypeDefinitionIndex = 4228;
+
 	struct alignas(4) Mathf
 	{
 		static ::System::Single* StaticGet_Epsilon()

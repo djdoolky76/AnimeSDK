@@ -31,6 +31,8 @@ namespace System { class String; }
 #define MHMEJAECMMA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA35C40)
 #define MHMEJAECMMA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA35CA0)
 
+inline static constexpr unsigned int MHMEJAECMMA_TypeDefinitionIndex = 35004;
+
 	class MHMEJAECMMA : public ::System::Object
 	{
 	public:

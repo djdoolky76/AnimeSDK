@@ -21,6 +21,8 @@ namespace System::ComponentModel { class PropertyChangedEventArgs; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftEntranceControl_TypeDefinitionIndex = 79953;
+
 	class MechCraftEntranceControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

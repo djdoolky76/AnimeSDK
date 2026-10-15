@@ -7,6 +7,8 @@
 
 namespace InControl::UnityDeviceProfiles
 {
+	inline static constexpr unsigned int EightBitdoNES30ProAndroidUnityProfile_TypeDefinitionIndex = 40949;
+
 	class EightBitdoNES30ProAndroidUnityProfile : public ::InControl::InputDeviceProfile
 	{
 	public:

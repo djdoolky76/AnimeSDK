@@ -4,6 +4,8 @@
 
 #define CHDCHADFHND_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8E4720)
 
+inline static constexpr unsigned int CHDCHADFHND_TypeDefinitionIndex = 42945;
+
 	class CHDCHADFHND : public ::System::Object
 	{
 	public:

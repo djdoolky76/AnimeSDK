@@ -13,6 +13,8 @@ namespace System { class String; }
 #define IBAKJOHPFLE_PDJDGPGNCNG_OFFSET UNITYSDK_OFFSET(0x3C49E20)
 #define IBAKJOHPFLE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3C49EE0)
 
+inline static constexpr unsigned int IBAKJOHPFLE_TypeDefinitionIndex = 6293;
+
 	struct alignas(4) IBAKJOHPFLE
 	{
 		::RPG::MVector3 BHCMCMADHBF; // 0x10

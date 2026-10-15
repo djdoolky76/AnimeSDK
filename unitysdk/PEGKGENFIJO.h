@@ -22,6 +22,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define PEGKGENFIJO_NNMMHHGOJEI_OFFSET UNITYSDK_OFFSET(0xC03D4A0)
 #define PEGKGENFIJO_OAALDNEAAHK_OFFSET UNITYSDK_OFFSET(0xC03D9A0)
 
+inline static constexpr unsigned int PEGKGENFIJO_TypeDefinitionIndex = 56242;
+
 	class PEGKGENFIJO : public ::System::Object
 	{
 	public:

@@ -4,6 +4,8 @@
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
+	inline static constexpr unsigned int B2DistanceOutput_TypeDefinitionIndex = 36661;
+
 	struct alignas(4) B2DistanceOutput
 	{
 		::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Vec2 pointA; // 0x10

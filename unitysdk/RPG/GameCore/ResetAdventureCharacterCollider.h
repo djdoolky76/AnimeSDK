@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ResetAdventureCharacterCollider; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ResetAdventureCharacterCollider_TypeDefinitionIndex = 22415;
+
 	class ResetAdventureCharacterCollider : public ::RPG::GameCore::TaskConfig
 	{
 	public:

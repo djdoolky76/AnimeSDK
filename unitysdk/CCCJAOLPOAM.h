@@ -19,6 +19,8 @@ class NLJPKPAIILH;
 #define CCCJAOLPOAM_SET_PHYSICS_OFFSET UNITYSDK_OFFSET(0xAD10)
 #define CCCJAOLPOAM_SET_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x94E0)
 
+inline static constexpr unsigned int CCCJAOLPOAM_TypeDefinitionIndex = 75938;
+
 	struct alignas(8) CCCJAOLPOAM
 	{
 		::GHMGGIHEHJE* _Entity_k__BackingField; // 0x10

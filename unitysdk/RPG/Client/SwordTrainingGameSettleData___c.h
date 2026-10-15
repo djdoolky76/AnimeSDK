@@ -13,6 +13,8 @@ namespace System { template <typename T> class Comparison_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SwordTrainingGameSettleData___c_TypeDefinitionIndex = 61959;
+
 	class SwordTrainingGameSettleData___c : public ::System::Object
 	{
 	public:

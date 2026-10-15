@@ -16,6 +16,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StateTreeSubTreeConfig_TypeDefinitionIndex = 15499;
+
 	class StateTreeSubTreeConfig : public ::RPG::GameCore::StateTreeStateBaseConfig
 	{
 	public:

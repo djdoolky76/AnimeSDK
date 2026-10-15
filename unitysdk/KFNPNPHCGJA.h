@@ -3,6 +3,8 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace System { class String; }
 
+inline static constexpr unsigned int KFNPNPHCGJA_TypeDefinitionIndex = 49019;
+
 	struct alignas(8) KFNPNPHCGJA
 	{
 		::UnityEngine::Vector3 FILFKDALEPE; // 0x10

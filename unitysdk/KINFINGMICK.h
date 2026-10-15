@@ -29,6 +29,8 @@ namespace System { class String; }
 #define KINFINGMICK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E864040)
 #define KINFINGMICK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E8640A0)
 
+inline static constexpr unsigned int KINFINGMICK_TypeDefinitionIndex = 28764;
+
 	class KINFINGMICK : public ::System::Object
 	{
 	public:

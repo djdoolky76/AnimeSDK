@@ -26,6 +26,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define GDJGNCBPLFI_PPBBNMIPFMB_OFFSET UNITYSDK_OFFSET(0x1599EAC0)
 #define GDJGNCBPLFI_TEARDOWN_OFFSET UNITYSDK_OFFSET(0x1599EDC0)
 
+inline static constexpr unsigned int GDJGNCBPLFI_TypeDefinitionIndex = 76753;
+
 	class GDJGNCBPLFI : public ::System::Object
 	{
 	public:

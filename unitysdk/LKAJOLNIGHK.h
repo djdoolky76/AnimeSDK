@@ -7,6 +7,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define LKAJOLNIGHK_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB728680)
 #define LKAJOLNIGHK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB7286C0)
 
+inline static constexpr unsigned int LKAJOLNIGHK_TypeDefinitionIndex = 55251;
+
 	class LKAJOLNIGHK
 	{
 	public:

@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int HeliobusRewardExcelTable_TypeDefinitionIndex = 13754;
+
 	class HeliobusRewardExcelTable : public ::System::Object
 	{
 	public:

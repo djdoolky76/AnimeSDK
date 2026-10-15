@@ -9,6 +9,8 @@ class MNGOILBPHNG;
 #define MNGOILBPHNG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D1D6730)
 #define MNGOILBPHNG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D1D66F0)
 
+inline static constexpr unsigned int MNGOILBPHNG_TypeDefinitionIndex = 24181;
+
 	class MNGOILBPHNG : public ::RPG::GameCore::TaskConfig
 	{
 	public:

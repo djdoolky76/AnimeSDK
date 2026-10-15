@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define LEEIEHAGAKL_LEGNMDLCKLE_OFFSET UNITYSDK_OFFSET(0xB64F110)
 #define LEEIEHAGAKL_PNCHIFBCBJH_OFFSET UNITYSDK_OFFSET(0xB64EFE0)
 
+inline static constexpr unsigned int LEEIEHAGAKL_TypeDefinitionIndex = 57835;
+
 	class LEEIEHAGAKL : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetTargetDefaultDamageDisplayData_TypeDefinitionIndex = 22578;
+
 	class SetTargetDefaultDamageDisplayData : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ST_Main_MoveToPosition_TypeDefinitionIndex = 20100;
+
 	class ST_Main_MoveToPosition : public ::RPG::GameCore::STTaskConfig
 	{
 	public:

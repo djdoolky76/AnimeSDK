@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define ALCDAEIDEAM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E3D5620)
 #define ALCDAEIDEAM___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E3D5630)
 
+inline static constexpr unsigned int ALCDAEIDEAM___c_TypeDefinitionIndex = 30896;
+
 	class ALCDAEIDEAM___c : public ::System::Object
 	{
 	public:

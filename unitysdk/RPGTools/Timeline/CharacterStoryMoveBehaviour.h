@@ -12,6 +12,8 @@ namespace RPGTools::Timeline { class CharacterStoryMoveData; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int CharacterStoryMoveBehaviour_TypeDefinitionIndex = 47998;
+
 	class CharacterStoryMoveBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define BFANPOJIMPD_CTOR_OFFSET UNITYSDK_OFFSET(0xB15DE30)
 #define BFANPOJIMPD_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB15DE60)
 
+inline static constexpr unsigned int BFANPOJIMPD_TypeDefinitionIndex = 54730;
+
 	class BFANPOJIMPD
 	{
 	public:

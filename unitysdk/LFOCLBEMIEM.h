@@ -33,6 +33,8 @@ namespace System { class String; }
 #define LFOCLBEMIEM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E946700)
 #define LFOCLBEMIEM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E946760)
 
+inline static constexpr unsigned int LFOCLBEMIEM_TypeDefinitionIndex = 29256;
+
 	class LFOCLBEMIEM : public ::System::Object
 	{
 	public:

@@ -28,6 +28,8 @@ namespace System { class String; }
 #define JODCPJNHFDL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E79EA70)
 #define JODCPJNHFDL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E79EAD0)
 
+inline static constexpr unsigned int JODCPJNHFDL_TypeDefinitionIndex = 32118;
+
 	class JODCPJNHFDL : public ::System::Object
 	{
 	public:

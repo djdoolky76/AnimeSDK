@@ -10,6 +10,8 @@ namespace RPG::GameCore { class CRPVirtualCameraConfigList; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CRPVirtualCameraConfigList_TypeDefinitionIndex = 16427;
+
 	class CRPVirtualCameraConfigList : public ::RPG::GameCore::JsonConfig
 	{
 	public:

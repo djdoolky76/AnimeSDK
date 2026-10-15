@@ -9,6 +9,8 @@ namespace System { class Object; }
 #define NOPELCCFAIG___C__SHOWRESTARTDOWNLOADERROR_B__0_0_OFFSET UNITYSDK_OFFSET(0xBCF97A0)
 #define NOPELCCFAIG___C__SHOWRETRYDOWNLOADERROR_B__1_0_OFFSET UNITYSDK_OFFSET(0xBCF97D0)
 
+inline static constexpr unsigned int NOPELCCFAIG___c_TypeDefinitionIndex = 72722;
+
 	class NOPELCCFAIG___c : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TrackPhotoStageRow_TypeDefinitionIndex = 12508;
+
 	class TrackPhotoStageRow : public ::System::Object
 	{
 	public:

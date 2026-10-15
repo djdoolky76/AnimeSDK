@@ -16,6 +16,8 @@ namespace System { class Action; }
 #define NCHDFGJBFPN_LDAMHBBILAD_OFFSET UNITYSDK_OFFSET(0x1F8D0)
 #define NCHDFGJBFPN_NNNABDMKCJM_OFFSET UNITYSDK_OFFSET(0x1FA70)
 
+inline static constexpr unsigned int NCHDFGJBFPN_TypeDefinitionIndex = 73964;
+
 	struct alignas(4) NCHDFGJBFPN
 	{
 		::MLFEHGAFNBE OIBKPJEGPOK; // 0x10

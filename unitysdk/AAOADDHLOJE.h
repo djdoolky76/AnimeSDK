@@ -35,6 +35,8 @@ namespace System { class String; }
 #define AAOADDHLOJE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DDC3330)
 #define AAOADDHLOJE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DDC3390)
 
+inline static constexpr unsigned int AAOADDHLOJE_TypeDefinitionIndex = 28231;
+
 	class AAOADDHLOJE : public ::System::Object
 	{
 	public:

@@ -25,6 +25,8 @@ namespace System::IO { class BinaryWriter; }
 
 namespace RPG::QA::RemoteDebug
 {
+	inline static constexpr unsigned int RemoteDebugFrameCodec_TypeDefinitionIndex = 51835;
+
 	class RemoteDebugFrameCodec : public ::System::Object
 	{
 	public:

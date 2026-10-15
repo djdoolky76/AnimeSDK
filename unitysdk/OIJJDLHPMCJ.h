@@ -7,6 +7,8 @@ class NPCIGEBNOFG;
 #define OIJJDLHPMCJ_CTOR_OFFSET UNITYSDK_OFFSET(0xBE9D9C0)
 #define OIJJDLHPMCJ_JAGMPHPNAHM_OFFSET UNITYSDK_OFFSET(0xBE9D9D0)
 
+inline static constexpr unsigned int OIJJDLHPMCJ_TypeDefinitionIndex = 67105;
+
 	class OIJJDLHPMCJ : public ::EBIMENNAEIE
 	{
 	public:

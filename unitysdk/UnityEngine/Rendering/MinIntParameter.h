@@ -8,6 +8,8 @@
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int MinIntParameter_TypeDefinitionIndex = 35627;
+
 	class MinIntParameter : public ::UnityEngine::Rendering::IntParameter
 	{
 	public:

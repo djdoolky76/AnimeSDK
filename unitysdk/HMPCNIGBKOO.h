@@ -11,6 +11,8 @@ namespace System::Text::RegularExpressions { class Regex; }
 #define HMPCNIGBKOO_JBGIFBGMLMF_OFFSET UNITYSDK_OFFSET(0x15D89F70)
 #define HMPCNIGBKOO_MLMGEFIOION_OFFSET UNITYSDK_OFFSET(0x15D89F20)
 
+inline static constexpr unsigned int HMPCNIGBKOO_TypeDefinitionIndex = 73366;
+
 	class HMPCNIGBKOO : public ::System::Object
 	{
 	public:

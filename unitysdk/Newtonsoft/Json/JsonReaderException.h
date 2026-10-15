@@ -21,6 +21,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace Newtonsoft::Json
 {
+	inline static constexpr unsigned int JsonReaderException_TypeDefinitionIndex = 9613;
+
 	class JsonReaderException : public ::Newtonsoft::Json::JsonException
 	{
 	public:

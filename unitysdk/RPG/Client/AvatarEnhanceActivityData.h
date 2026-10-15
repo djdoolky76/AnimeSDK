@@ -8,6 +8,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AvatarEnhanceActivityData_TypeDefinitionIndex = 61592;
+
 	class AvatarEnhanceActivityData : public ::RPG::Client::ActivityPanelData
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class String; }
 #define EAHOCIFGANN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1267A460)
 #define EAHOCIFGANN__DOCHECKIMPL_OFFSET UNITYSDK_OFFSET(0x1267A3E0)
 
+inline static constexpr unsigned int EAHOCIFGANN_TypeDefinitionIndex = 59874;
+
 	class EAHOCIFGANN : public ::RPG::Client::SyncCheckItemBase
 	{
 	public:

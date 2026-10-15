@@ -4,6 +4,8 @@
 
 #define JOFMHMLMPOP_CTOR_OFFSET UNITYSDK_OFFSET(0x1C7088B0)
 
+inline static constexpr unsigned int JOFMHMLMPOP_TypeDefinitionIndex = 36460;
+
 	class JOFMHMLMPOP : public ::System::Object
 	{
 	public:

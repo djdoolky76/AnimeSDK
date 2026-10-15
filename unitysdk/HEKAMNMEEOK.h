@@ -8,6 +8,8 @@ namespace System { class String; }
 
 #define HEKAMNMEEOK_CTOR_OFFSET UNITYSDK_OFFSET(0x15C57C60)
 
+inline static constexpr unsigned int HEKAMNMEEOK_TypeDefinitionIndex = 71273;
+
 	class HEKAMNMEEOK : public ::System::Object
 	{
 	public:

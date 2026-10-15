@@ -17,6 +17,8 @@ namespace RPG::GameCore { class FourRotateVoxelLevelEnvConfig; }
 #define ABCEEGOBDCL_NAIMMCPHJGH_OFFSET UNITYSDK_OFFSET(0xB0ED7E0)
 #define ABCEEGOBDCL_OGCDKOCHKNE_OFFSET UNITYSDK_OFFSET(0xB0EBFF0)
 
+inline static constexpr unsigned int ABCEEGOBDCL_TypeDefinitionIndex = 76813;
+
 	class ABCEEGOBDCL : public ::System::Object
 	{
 	public:

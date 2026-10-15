@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::ElectricChainV2
 {
+	inline static constexpr unsigned int SmoothUpdater_TypeDefinitionIndex = 73589;
+
 	class SmoothUpdater : public ::RPG::Client::ElectricChainV2::RandomUpdater
 	{
 	public:

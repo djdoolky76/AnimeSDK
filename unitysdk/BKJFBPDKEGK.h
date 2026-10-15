@@ -6,6 +6,8 @@ namespace System { class String; }
 
 #define BKJFBPDKEGK_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C8BC320)
 
+inline static constexpr unsigned int BKJFBPDKEGK_TypeDefinitionIndex = 42799;
+
 	class BKJFBPDKEGK : public ::System::Object
 	{
 	public:

@@ -33,6 +33,8 @@ namespace System { class String; }
 #define GACKCPEPDAF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E414DE0)
 #define GACKCPEPDAF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E414E40)
 
+inline static constexpr unsigned int GACKCPEPDAF_TypeDefinitionIndex = 27042;
+
 	class GACKCPEPDAF : public ::System::Object
 	{
 	public:

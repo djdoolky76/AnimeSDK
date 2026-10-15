@@ -9,6 +9,8 @@ namespace RPG::GameCore { class DestructibleBridgeBind; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DestructibleBridgeBind_TypeDefinitionIndex = 17574;
+
 	class DestructibleBridgeBind : public ::RPG::GameCore::JsonConfig
 	{
 	public:

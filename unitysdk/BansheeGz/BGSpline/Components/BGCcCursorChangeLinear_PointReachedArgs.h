@@ -11,6 +11,8 @@ namespace BansheeGz::BGSpline::Components { class BGCcCursorChangeLinear_PointRe
 
 namespace BansheeGz::BGSpline::Components
 {
+	inline static constexpr unsigned int BGCcCursorChangeLinear_PointReachedArgs_TypeDefinitionIndex = 36036;
+
 	class BGCcCursorChangeLinear_PointReachedArgs : public ::System::EventArgs
 	{
 	public:

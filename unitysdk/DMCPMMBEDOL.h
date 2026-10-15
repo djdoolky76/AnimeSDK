@@ -3,6 +3,8 @@
 #include "unitysdk/DCHICFMEANN.h"
 namespace System::Collections::Generic { template <typename T> class IList_1; }
 
+inline static constexpr unsigned int DMCPMMBEDOL_TypeDefinitionIndex = 74731;
+
 	struct alignas(8) DMCPMMBEDOL
 	{
 		::System::Collections::Generic::IList_1<::DCHICFMEANN>* CACDBIMHDDD; // 0x10

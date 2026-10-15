@@ -64,6 +64,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define BDDAELGEKFF_PPAMKAAHJHE_OFFSET UNITYSDK_OFFSET(0x162F0EA0)
 #define BDDAELGEKFF__REFRESHHOLDLAYER_B__51_0_OFFSET UNITYSDK_OFFSET(0x162F1820)
 
+inline static constexpr unsigned int BDDAELGEKFF_TypeDefinitionIndex = 49444;
+
 	class BDDAELGEKFF : public ::System::Object
 	{
 	public:

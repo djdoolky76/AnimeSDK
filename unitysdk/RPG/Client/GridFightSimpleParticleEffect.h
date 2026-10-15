@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightSimpleParticleEffect_TypeDefinitionIndex = 64504;
+
 	class GridFightSimpleParticleEffect : public ::UnityEngine::MonoBehaviour
 	{
 	public:

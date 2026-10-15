@@ -15,6 +15,8 @@ class FiveDimRenderingItem;
 #define EMISSIONOPERATION_LJBCDJNNBJH_OFFSET UNITYSDK_OFFSET(0x155E3EF0)
 #define EMISSIONOPERATION_PKADDEPKJFN_OFFSET UNITYSDK_OFFSET(0x155E3C20)
 
+inline static constexpr unsigned int EmissionOperation_TypeDefinitionIndex = 47117;
+
 	class EmissionOperation : public ::FDRIMatStateOperation
 	{
 	public:

@@ -9,6 +9,8 @@ namespace InControl { class PlayerAction; }
 #define KFCMMMMMIIO_DEEMCOMPDJM_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xB390F00)
 #define KFCMMMMMIIO_DEEMCOMPDJM_NINDHOGICJD_OFFSET UNITYSDK_OFFSET(0xB390960)
 
+inline static constexpr unsigned int KFCMMMMMIIO_DEEMCOMPDJM_TypeDefinitionIndex = 75580;
+
 	class KFCMMMMMIIO_DEEMCOMPDJM : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class PixAirLockActionConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PixAirLockActionConfigRow_TypeDefinitionIndex = 12174;
+
 	class PixAirLockActionConfigRow : public ::System::Object
 	{
 	public:

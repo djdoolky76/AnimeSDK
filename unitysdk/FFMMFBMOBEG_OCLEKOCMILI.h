@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int FFMMFBMOBEG_OCLEKOCMILI_TypeDefinitionIndex = 34861;
+
 	enum class FFMMFBMOBEG_OCLEKOCMILI : ::System::Int32
 	{
 		NLCDGIPGFDJ = 0,

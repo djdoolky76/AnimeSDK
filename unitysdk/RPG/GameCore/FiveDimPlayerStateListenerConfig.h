@@ -11,6 +11,8 @@ namespace RPG::GameCore { class LittleGameEvent; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimPlayerStateListenerConfig_TypeDefinitionIndex = 18610;
+
 	class FiveDimPlayerStateListenerConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
 	public:

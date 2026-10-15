@@ -28,6 +28,8 @@ class AkReflectionPathInfo;
 #define AKREFLECTIONPATHINFO_SET_NUMPATHPOINTS_OFFSET UNITYSDK_OFFSET(0x1F5B5E80)
 #define AKREFLECTIONPATHINFO_SET_NUMREFLECTIONS_OFFSET UNITYSDK_OFFSET(0x1F5B5FF0)
 
+inline static constexpr unsigned int AkReflectionPathInfo_TypeDefinitionIndex = 44782;
+
 	class AkReflectionPathInfo : public ::System::Object
 	{
 	public:

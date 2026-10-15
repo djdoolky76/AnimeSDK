@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define COPMAIHOBLL_CTOR_OFFSET UNITYSDK_OFFSET(0xDCCDFC0)
 #define COPMAIHOBLL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xDCCDFF0)
 
+inline static constexpr unsigned int COPMAIHOBLL_TypeDefinitionIndex = 58092;
+
 	class COPMAIHOBLL
 	{
 	public:

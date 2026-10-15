@@ -27,6 +27,8 @@ namespace System { class String; }
 #define LAECPMJAIIK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E8CAC70)
 #define LAECPMJAIIK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E8CACD0)
 
+inline static constexpr unsigned int LAECPMJAIIK_TypeDefinitionIndex = 27100;
+
 	class LAECPMJAIIK : public ::System::Object
 	{
 	public:

@@ -28,6 +28,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace RPG::Client::ChenLingFes
 {
+	inline static constexpr unsigned int ChenLingFesGameplayRankItemControl_TypeDefinitionIndex = 81319;
+
 	class ChenLingFesGameplayRankItemControl : public ::Sofa::BaseSofaControl
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ClockParkTakePhotoReport; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ClockParkTakePhotoReport_TypeDefinitionIndex = 21642;
+
 	class ClockParkTakePhotoReport : public ::RPG::GameCore::TaskConfig
 	{
 	public:

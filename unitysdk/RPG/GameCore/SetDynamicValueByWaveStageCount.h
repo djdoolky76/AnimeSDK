@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetDynamicValueByWaveStageCount_TypeDefinitionIndex = 23181;
+
 	class SetDynamicValueByWaveStageCount : public ::RPG::GameCore::SetDynamicValueBase
 	{
 	public:

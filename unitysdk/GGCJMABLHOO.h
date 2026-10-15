@@ -2,6 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/MVector2.h"
 
+inline static constexpr unsigned int GGCJMABLHOO_TypeDefinitionIndex = 6284;
+
 	struct alignas(4) GGCJMABLHOO
 	{
 		::RPG::MVector2 CPFJGMEMLGM; // 0x10

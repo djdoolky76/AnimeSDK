@@ -29,6 +29,8 @@ namespace System { class String; }
 #define LDCEDOGDNDC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E8F2C50)
 #define LDCEDOGDNDC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E8F2CB0)
 
+inline static constexpr unsigned int LDCEDOGDNDC_TypeDefinitionIndex = 30283;
+
 	class LDCEDOGDNDC : public ::System::Object
 	{
 	public:

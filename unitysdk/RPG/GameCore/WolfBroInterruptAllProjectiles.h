@@ -11,6 +11,8 @@ namespace RPG::GameCore { class WolfBroInterruptAllProjectiles; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WolfBroInterruptAllProjectiles_TypeDefinitionIndex = 21590;
+
 	class WolfBroInterruptAllProjectiles : public ::RPG::GameCore::TaskConfig
 	{
 	public:

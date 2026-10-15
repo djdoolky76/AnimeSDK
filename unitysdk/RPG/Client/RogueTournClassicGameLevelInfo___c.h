@@ -11,6 +11,8 @@ namespace System { template <typename T> class Comparison_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueTournClassicGameLevelInfo___c_TypeDefinitionIndex = 67629;
+
 	class RogueTournClassicGameLevelInfo___c : public ::System::Object
 	{
 	public:

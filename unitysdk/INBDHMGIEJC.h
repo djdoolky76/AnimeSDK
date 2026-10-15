@@ -10,6 +10,8 @@ namespace System { class String; }
 #define INBDHMGIEJC_LEENDOIIGGJ_OFFSET UNITYSDK_OFFSET(0x1C4A3000)
 #define INBDHMGIEJC_OPDOKEDPNFP_OFFSET UNITYSDK_OFFSET(0x1C4A2E90)
 
+inline static constexpr unsigned int INBDHMGIEJC_TypeDefinitionIndex = 41403;
+
 	class INBDHMGIEJC : public ::System::Object
 	{
 	public:

@@ -22,6 +22,8 @@ namespace System { class String; }
 
 namespace RPG::Client::LittleGame
 {
+	inline static constexpr unsigned int MovieGameProp_TypeDefinitionIndex = 76614;
+
 	class MovieGameProp : public ::RPG::Client::LittleGame::BaseMonoView
 	{
 	public:

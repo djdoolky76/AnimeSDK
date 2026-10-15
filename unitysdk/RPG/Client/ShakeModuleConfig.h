@@ -9,6 +9,8 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ShakeModuleConfig_TypeDefinitionIndex = 69686;
+
 	class ShakeModuleConfig : public ::RPG::Client::CameraModuleConfigBase
 	{
 	public:

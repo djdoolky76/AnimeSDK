@@ -6,6 +6,8 @@ class BPMLCFOHMDB;
 
 #define BHPAGJNNOMM_ADKMGGOCFHA_OFFSET UNITYSDK_OFFSET(0xB492B60)
 
+inline static constexpr unsigned int BHPAGJNNOMM_TypeDefinitionIndex = 69748;
+
 	class BHPAGJNNOMM : public ::System::Object
 	{
 	public:

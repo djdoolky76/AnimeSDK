@@ -3,6 +3,8 @@
 
 namespace System
 {
+	inline static constexpr unsigned int UriHostNameType_TypeDefinitionIndex = 2476;
+
 	enum class UriHostNameType : ::System::Int32
 	{
 		Unknown = 0,

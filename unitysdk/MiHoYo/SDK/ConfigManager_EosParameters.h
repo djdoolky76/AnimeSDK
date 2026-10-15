@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int ConfigManager_EosParameters_TypeDefinitionIndex = 8209;
+
 	class ConfigManager_EosParameters : public ::System::Object
 	{
 	public:

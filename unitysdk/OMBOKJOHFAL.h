@@ -26,6 +26,8 @@ namespace System { class String; }
 #define OMBOKJOHFAL_PGBFAICELLE_OFFSET UNITYSDK_OFFSET(0xBF1D1D0)
 #define OMBOKJOHFAL_SET_ISINITED_OFFSET UNITYSDK_OFFSET(0xBF1D1C0)
 
+inline static constexpr unsigned int OMBOKJOHFAL_TypeDefinitionIndex = 69484;
+
 	class OMBOKJOHFAL : public ::System::Object
 	{
 	public:

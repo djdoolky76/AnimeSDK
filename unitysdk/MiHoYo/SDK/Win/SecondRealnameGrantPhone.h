@@ -30,6 +30,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int SecondRealnameGrantPhone_TypeDefinitionIndex = 9524;
+
 	class SecondRealnameGrantPhone : public ::MiHoYo::SDK::UIElement
 	{
 	public:

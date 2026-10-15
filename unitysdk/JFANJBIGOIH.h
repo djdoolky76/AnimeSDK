@@ -33,6 +33,8 @@ namespace System { class String; }
 #define JFANJBIGOIH_OKMBMFFLBOB_OFFSET UNITYSDK_OFFSET(0x166444E0)
 #define JFANJBIGOIH_PGGHKKPBOAI_OFFSET UNITYSDK_OFFSET(0x16644F00)
 
+inline static constexpr unsigned int JFANJBIGOIH_TypeDefinitionIndex = 59046;
+
 	class JFANJBIGOIH : public ::System::Object
 	{
 	public:

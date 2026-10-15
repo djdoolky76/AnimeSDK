@@ -14,6 +14,8 @@ namespace System { template <typename T> class Predicate_1; }
 
 namespace RPG::Client::NavMap
 {
+	inline static constexpr unsigned int ComposedTabData___c_TypeDefinitionIndex = 74534;
+
 	class ComposedTabData___c : public ::System::Object
 	{
 	public:

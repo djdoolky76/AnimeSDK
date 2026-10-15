@@ -28,6 +28,8 @@ namespace UnityEngine { class GameObject; }
 #define IHBCFENMHCJ__ONBIND_OFFSET UNITYSDK_OFFSET(0x16416B00)
 #define IHBCFENMHCJ__ONDISPOSE_OFFSET UNITYSDK_OFFSET(0x16416CC0)
 
+inline static constexpr unsigned int IHBCFENMHCJ_TypeDefinitionIndex = 71255;
+
 	class IHBCFENMHCJ : public ::FMPCODLIOLG
 	{
 	public:

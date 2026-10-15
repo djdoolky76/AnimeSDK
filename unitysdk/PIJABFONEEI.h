@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define PIJABFONEEI_CTOR_OFFSET UNITYSDK_OFFSET(0xC2692B0)
 #define PIJABFONEEI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC2692E0)
 
+inline static constexpr unsigned int PIJABFONEEI_TypeDefinitionIndex = 55383;
+
 	class PIJABFONEEI
 	{
 	public:

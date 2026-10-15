@@ -11,6 +11,8 @@ namespace System { class String; }
 #define CACDBDCILBL_GET_TYPE_OFFSET UNITYSDK_OFFSET(0xC1BDDA0)
 #define CACDBDCILBL_JAILHGGFLDH_OFFSET UNITYSDK_OFFSET(0xC1BDDB0)
 
+inline static constexpr unsigned int CACDBDCILBL_TypeDefinitionIndex = 56142;
+
 	class CACDBDCILBL : public ::DBGDNLLDPFI
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FiveDimEnterHiddenAreaAction; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimEnterHiddenAreaAction_TypeDefinitionIndex = 18649;
+
 	class FiveDimEnterHiddenAreaAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
 	public:

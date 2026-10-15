@@ -20,6 +20,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MarbleBattleTimePanel_TypeDefinitionIndex = 65842;
+
 	class MarbleBattleTimePanel : public ::UnityEngine::MonoBehaviour
 	{
 	public:

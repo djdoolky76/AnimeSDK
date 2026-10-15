@@ -13,6 +13,8 @@ namespace RPG::GameCore { class GameEntity; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MapOutControlTeamLeaderData_TypeDefinitionIndex = 62921;
+
 	class MapOutControlTeamLeaderData : public ::System::Object
 	{
 	public:

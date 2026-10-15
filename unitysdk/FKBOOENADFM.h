@@ -43,6 +43,8 @@ namespace System { class String; }
 #define FKBOOENADFM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E3AA4C0)
 #define FKBOOENADFM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E3AA520)
 
+inline static constexpr unsigned int FKBOOENADFM_TypeDefinitionIndex = 33402;
+
 	class FKBOOENADFM : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System::Linq::Expressions { class LambdaExpression; }
 #define BPNKGIEADHA_FPKLDCGAJGP_OFFSET UNITYSDK_OFFSET(0x1EC65B30)
 #define BPNKGIEADHA_JBMGIFPFHCL_OFFSET UNITYSDK_OFFSET(0x1EC65BD0)
 
+inline static constexpr unsigned int BPNKGIEADHA_TypeDefinitionIndex = 44063;
+
 	class BPNKGIEADHA : public ::System::Object
 	{
 	public:

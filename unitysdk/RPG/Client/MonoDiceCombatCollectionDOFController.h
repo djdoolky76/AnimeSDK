@@ -12,6 +12,8 @@ namespace RPG::CustomRP { class RPGDepthOfField; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoDiceCombatCollectionDOFController_TypeDefinitionIndex = 63564;
+
 	class MonoDiceCombatCollectionDOFController : public ::UnityEngine::MonoBehaviour
 	{
 	public:

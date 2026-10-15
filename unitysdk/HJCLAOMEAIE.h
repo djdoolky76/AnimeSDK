@@ -15,6 +15,8 @@ namespace RPG::GameCore { class ElfWaveOrder; }
 #define HJCLAOMEAIE_MNMIJGHFGHL_OFFSET UNITYSDK_OFFSET(0x1CAEC8D0)
 #define HJCLAOMEAIE_PLKMFMMEFIN_OFFSET UNITYSDK_OFFSET(0x1CAEC940)
 
+inline static constexpr unsigned int HJCLAOMEAIE_TypeDefinitionIndex = 42117;
+
 	class HJCLAOMEAIE : public ::System::Object
 	{
 	public:

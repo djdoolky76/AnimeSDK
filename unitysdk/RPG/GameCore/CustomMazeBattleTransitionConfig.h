@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CustomMazeBattleTransitionConfig_TypeDefinitionIndex = 17613;
+
 	class CustomMazeBattleTransitionConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

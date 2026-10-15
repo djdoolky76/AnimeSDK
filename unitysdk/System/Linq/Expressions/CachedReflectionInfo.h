@@ -8,6 +8,8 @@ namespace System::Reflection { class MethodInfo; }
 
 namespace System::Linq::Expressions
 {
+	inline static constexpr unsigned int CachedReflectionInfo_TypeDefinitionIndex = 3183;
+
 	class CachedReflectionInfo : public ::System::Object
 	{
 	public:

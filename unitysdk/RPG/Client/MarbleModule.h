@@ -176,6 +176,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MarbleModule_TypeDefinitionIndex = 65808;
+
 	class MarbleModule : public ::RPG::Client::BaseModule
 	{
 	public:

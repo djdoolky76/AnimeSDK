@@ -16,6 +16,8 @@ namespace RPG::Client::FullBody { class Grounding; }
 
 namespace RPG::Client::FullBody
 {
+	inline static constexpr unsigned int Grounding_JGJCNOBMEOJ_TypeDefinitionIndex = 74245;
+
 	class Grounding_JGJCNOBMEOJ : public ::System::Object
 	{
 	public:

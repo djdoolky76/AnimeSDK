@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ComplexSkillAISourceSkillPropertyValue; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ComplexSkillAISourceSkillPropertyValue_TypeDefinitionIndex = 15535;
+
 	class ComplexSkillAISourceSkillPropertyValue : public ::RPG::GameCore::ComplexSkillAISource
 	{
 	public:

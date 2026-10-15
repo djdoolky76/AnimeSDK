@@ -7,6 +7,8 @@
 
 namespace InControl::UnityDeviceProfiles
 {
+	inline static constexpr unsigned int AmazonFireTVUnityProfile_TypeDefinitionIndex = 40925;
+
 	class AmazonFireTVUnityProfile : public ::InControl::InputDeviceProfile
 	{
 	public:

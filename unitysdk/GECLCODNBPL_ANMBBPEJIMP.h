@@ -6,6 +6,8 @@ namespace RPG::GameCore { class GameEntity; }
 
 #define GECLCODNBPL_ANMBBPEJIMP_CTOR_OFFSET UNITYSDK_OFFSET(0x159C7590)
 
+inline static constexpr unsigned int GECLCODNBPL_ANMBBPEJIMP_TypeDefinitionIndex = 71405;
+
 	class GECLCODNBPL_ANMBBPEJIMP : public ::System::Object
 	{
 	public:

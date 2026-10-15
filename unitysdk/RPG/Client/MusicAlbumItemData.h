@@ -36,6 +36,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MusicAlbumItemData_TypeDefinitionIndex = 66359;
+
 	class MusicAlbumItemData : public ::System::Object
 	{
 	public:

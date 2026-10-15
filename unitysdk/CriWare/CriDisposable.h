@@ -7,6 +7,8 @@
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriDisposable_TypeDefinitionIndex = 40195;
+
 	class CriDisposable : public ::System::Object
 	{
 	public:

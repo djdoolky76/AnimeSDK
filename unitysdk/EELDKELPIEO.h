@@ -23,6 +23,8 @@ namespace RPGTools::Timeline::Story { class BaseStoryMoveWalkData; }
 #define EELDKELPIEO_PFLPLEHIGIA_OFFSET UNITYSDK_OFFSET(0x13A352B0)
 #define EELDKELPIEO_PMMJGEDIIJD_OFFSET UNITYSDK_OFFSET(0x13A351F0)
 
+inline static constexpr unsigned int EELDKELPIEO_TypeDefinitionIndex = 53613;
+
 	class EELDKELPIEO : public ::IECNEMPGKJL
 	{
 	public:

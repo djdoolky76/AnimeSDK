@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace SRDebugger::Services::Implementation
 {
+	inline static constexpr unsigned int KeyboardShortcutListenerService_TypeDefinitionIndex = 38080;
+
 	class KeyboardShortcutListenerService
 	{
 	public:

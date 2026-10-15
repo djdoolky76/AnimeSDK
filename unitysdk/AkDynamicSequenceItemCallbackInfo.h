@@ -12,6 +12,8 @@ class AkDynamicSequenceItemCallbackInfo;
 #define AKDYNAMICSEQUENCEITEMCALLBACKINFO_GET_PLAYINGID_OFFSET UNITYSDK_OFFSET(0x1F58E930)
 #define AKDYNAMICSEQUENCEITEMCALLBACKINFO_SETCPTR_OFFSET UNITYSDK_OFFSET(0x1F580B30)
 
+inline static constexpr unsigned int AkDynamicSequenceItemCallbackInfo_TypeDefinitionIndex = 44737;
+
 	class AkDynamicSequenceItemCallbackInfo : public ::AkCallbackInfo
 	{
 	public:

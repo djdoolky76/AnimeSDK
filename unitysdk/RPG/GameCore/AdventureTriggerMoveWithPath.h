@@ -15,6 +15,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdventureTriggerMoveWithPath_TypeDefinitionIndex = 21635;
+
 	class AdventureTriggerMoveWithPath : public ::RPG::GameCore::TaskConfig
 	{
 	public:

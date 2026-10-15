@@ -7,6 +7,8 @@
 
 namespace InControl::UnityDeviceProfiles
 {
+	inline static constexpr unsigned int GreenThrottleAtlasAndroidUnityProfile_TypeDefinitionIndex = 40961;
+
 	class GreenThrottleAtlasAndroidUnityProfile : public ::InControl::InputDeviceProfile
 	{
 	public:

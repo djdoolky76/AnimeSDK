@@ -14,6 +14,8 @@ namespace UnityEngine { class AssetBundle; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int MiHoYoBaseSDK_LoadAsbDelegate_TypeDefinitionIndex = 46260;
+
 	class MiHoYoBaseSDK_LoadAsbDelegate : public ::System::MulticastDelegate
 	{
 	public:

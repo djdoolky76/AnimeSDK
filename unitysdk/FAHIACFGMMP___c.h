@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define FAHIACFGMMP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E3219D0)
 #define FAHIACFGMMP___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1E3219E0)
 
+inline static constexpr unsigned int FAHIACFGMMP___c_TypeDefinitionIndex = 26917;
+
 	class FAHIACFGMMP___c : public ::System::Object
 	{
 	public:

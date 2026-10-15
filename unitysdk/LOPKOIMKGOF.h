@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define LOPKOIMKGOF_PNMGHOBKFMN_OFFSET UNITYSDK_OFFSET(0xB813A70)
 #define LOPKOIMKGOF_POJBDKANIHE_OFFSET UNITYSDK_OFFSET(0xB812F60)
 
+inline static constexpr unsigned int LOPKOIMKGOF_TypeDefinitionIndex = 78787;
+
 	class LOPKOIMKGOF : public ::System::Object
 	{
 	public:

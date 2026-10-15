@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define OHLGEHNPAAL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DE659C0)
 #define OHLGEHNPAAL___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1DE659D0)
 
+inline static constexpr unsigned int OHLGEHNPAAL___c_TypeDefinitionIndex = 25866;
+
 	class OHLGEHNPAAL___c : public ::System::Object
 	{
 	public:

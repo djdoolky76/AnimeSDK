@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define MHBMDBMICFA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA2C930)
 #define MHBMDBMICFA___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1EA2C940)
 
+inline static constexpr unsigned int MHBMDBMICFA___c_TypeDefinitionIndex = 29038;
+
 	class MHBMDBMICFA___c : public ::System::Object
 	{
 	public:

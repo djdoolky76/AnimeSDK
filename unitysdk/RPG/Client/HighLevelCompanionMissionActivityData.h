@@ -7,6 +7,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int HighLevelCompanionMissionActivityData_TypeDefinitionIndex = 61635;
+
 	class HighLevelCompanionMissionActivityData : public ::RPG::Client::ActivityPanelData
 	{
 	public:

@@ -26,6 +26,8 @@ namespace System::Net::Security { class RemoteCertificateValidationCallback; }
 
 namespace System::Net
 {
+	inline static constexpr unsigned int ServicePointManager_TypeDefinitionIndex = 2874;
+
 	class ServicePointManager : public ::System::Object
 	{
 	public:

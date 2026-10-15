@@ -82,6 +82,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int LookAtIK_TypeDefinitionIndex = 68468;
+
 	class LookAtIK : public ::UnityEngine::MonoBehaviour
 	{
 	public:

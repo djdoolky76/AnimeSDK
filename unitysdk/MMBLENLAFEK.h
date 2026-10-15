@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define MMBLENLAFEK_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xB9BF3F0)
 #define MMBLENLAFEK_OIHADJDBPMH_OFFSET UNITYSDK_OFFSET(0xB9BFD90)
 
+inline static constexpr unsigned int MMBLENLAFEK_TypeDefinitionIndex = 76799;
+
 	class MMBLENLAFEK : public ::EMKNLNNLNKE
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class LittleGameEvent; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimEventReceiverItem_TypeDefinitionIndex = 18633;
+
 	class FiveDimEventReceiverItem : public ::RPG::GameCore::JsonConfig
 	{
 	public:

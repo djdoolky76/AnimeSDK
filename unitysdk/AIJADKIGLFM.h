@@ -17,6 +17,8 @@ namespace UnityEngine { class Material; }
 #define AIJADKIGLFM_NLGPNKOMKGA_OFFSET UNITYSDK_OFFSET(0xEBACFC0)
 #define AIJADKIGLFM_POHJFDLMOMM_OFFSET UNITYSDK_OFFSET(0xEBAD5A0)
 
+inline static constexpr unsigned int AIJADKIGLFM_TypeDefinitionIndex = 72527;
+
 	class AIJADKIGLFM : public ::System::Object
 	{
 	public:

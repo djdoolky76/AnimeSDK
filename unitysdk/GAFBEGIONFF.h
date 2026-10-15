@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define GAFBEGIONFF_OJOBNEBJCIN_OFFSET UNITYSDK_OFFSET(0x15939BF0)
 #define GAFBEGIONFF_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0x15939FD0)
 
+inline static constexpr unsigned int GAFBEGIONFF_TypeDefinitionIndex = 64237;
+
 	class GAFBEGIONFF : public ::System::Object
 	{
 	public:

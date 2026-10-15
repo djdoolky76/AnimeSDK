@@ -31,6 +31,8 @@ namespace System { class String; }
 #define CLIOFILACMC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E0F9D00)
 #define CLIOFILACMC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E0F9D60)
 
+inline static constexpr unsigned int CLIOFILACMC_TypeDefinitionIndex = 30873;
+
 	class CLIOFILACMC : public ::System::Object
 	{
 	public:

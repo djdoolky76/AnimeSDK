@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define ALNIHNLACOK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E514EC0)
 #define ALNIHNLACOK___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E514ED0)
 
+inline static constexpr unsigned int ALNIHNLACOK___c_TypeDefinitionIndex = 31983;
+
 	class ALNIHNLACOK___c : public ::System::Object
 	{
 	public:

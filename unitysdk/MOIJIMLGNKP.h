@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define MOIJIMLGNKP_CTOR_OFFSET UNITYSDK_OFFSET(0xBA2CE00)
 #define MOIJIMLGNKP_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBA2CE30)
 
+inline static constexpr unsigned int MOIJIMLGNKP_TypeDefinitionIndex = 54468;
+
 	class MOIJIMLGNKP
 	{
 	public:

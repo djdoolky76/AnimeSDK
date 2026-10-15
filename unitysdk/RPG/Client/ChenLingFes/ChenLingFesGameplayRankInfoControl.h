@@ -20,6 +20,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::ChenLingFes
 {
+	inline static constexpr unsigned int ChenLingFesGameplayRankInfoControl_TypeDefinitionIndex = 81320;
+
 	class ChenLingFesGameplayRankInfoControl : public ::Sofa::BaseSofaControl
 	{
 	public:

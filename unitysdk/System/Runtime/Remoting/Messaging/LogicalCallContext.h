@@ -26,6 +26,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System::Runtime::Remoting::Messaging
 {
+	inline static constexpr unsigned int LogicalCallContext_TypeDefinitionIndex = 1292;
+
 	class LogicalCallContext : public ::System::Object
 	{
 	public:

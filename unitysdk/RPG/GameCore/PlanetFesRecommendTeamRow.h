@@ -10,6 +10,8 @@ namespace RPG::GameCore { class PlanetFesRecommendTeamRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PlanetFesRecommendTeamRow_TypeDefinitionIndex = 12264;
+
 	class PlanetFesRecommendTeamRow : public ::System::Object
 	{
 	public:

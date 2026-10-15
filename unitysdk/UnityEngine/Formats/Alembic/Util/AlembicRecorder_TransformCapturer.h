@@ -17,6 +17,8 @@ namespace UnityEngine { class Transform; }
 
 namespace UnityEngine::Formats::Alembic::Util
 {
+	inline static constexpr unsigned int AlembicRecorder_TransformCapturer_TypeDefinitionIndex = 45770;
+
 	class AlembicRecorder_TransformCapturer : public ::UnityEngine::Formats::Alembic::Util::ComponentCapturer
 	{
 	public:

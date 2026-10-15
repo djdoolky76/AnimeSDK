@@ -6,6 +6,8 @@ namespace RPG::GameCore { class ModifierBehaviorVisual; }
 #define OOPPBPJHHJK_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0x25CF0)
 #define OOPPBPJHHJK_MDOKMJDKIMF_OFFSET UNITYSDK_OFFSET(0x25D50)
 
+inline static constexpr unsigned int OOPPBPJHHJK_TypeDefinitionIndex = 56904;
+
 	struct alignas(4) OOPPBPJHHJK
 	{
 		::System::Single PIDMDPCMHKE; // 0x10

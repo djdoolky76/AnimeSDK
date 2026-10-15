@@ -11,6 +11,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int RenderingGlobalVars___c_TypeDefinitionIndex = 37645;
+
 	class RenderingGlobalVars___c : public ::System::Object
 	{
 	public:

@@ -29,6 +29,8 @@ namespace System::Resources { class ResourceManager; }
 
 namespace System::Resources
 {
+	inline static constexpr unsigned int ResourceManager_ResourceManagerMediator_TypeDefinitionIndex = 528;
+
 	class ResourceManager_ResourceManagerMediator : public ::System::Object
 	{
 	public:

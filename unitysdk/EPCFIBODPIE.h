@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define EPCFIBODPIE_SET_BATTLEREPLAYKEY_OFFSET UNITYSDK_OFFSET(0x155CF510)
 #define EPCFIBODPIE_SET_REPLAYINFO_OFFSET UNITYSDK_OFFSET(0x155CF530)
 
+inline static constexpr unsigned int EPCFIBODPIE_TypeDefinitionIndex = 66758;
+
 	class EPCFIBODPIE : public ::System::Object
 	{
 	public:

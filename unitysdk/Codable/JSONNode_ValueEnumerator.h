@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace Codable
 {
+	inline static constexpr unsigned int JSONNode_ValueEnumerator_TypeDefinitionIndex = 46070;
+
 	struct alignas(4) JSONNode_ValueEnumerator
 	{
 		::Codable::JSONNode_Enumerator m_Enumerator; // 0x10

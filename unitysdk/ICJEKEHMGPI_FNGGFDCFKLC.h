@@ -13,6 +13,8 @@ namespace System { class String; }
 #define ICJEKEHMGPI_FNGGFDCFKLC_KAMDFKNFHFB_OFFSET UNITYSDK_OFFSET(0x15E4F970)
 #define ICJEKEHMGPI_FNGGFDCFKLC_LJOLGCNKIEH_OFFSET UNITYSDK_OFFSET(0x15E4F980)
 
+inline static constexpr unsigned int ICJEKEHMGPI_FNGGFDCFKLC_TypeDefinitionIndex = 53312;
+
 	class ICJEKEHMGPI_FNGGFDCFKLC : public ::System::Object
 	{
 	public:

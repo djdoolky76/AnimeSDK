@@ -27,6 +27,8 @@ namespace UnityEngine { class RectTransform; }
 #define BHFAHPEJDHF_PPBJHBHMFLN_OFFSET UNITYSDK_OFFSET(0xB475A30)
 #define BHFAHPEJDHF__ONBIND_OFFSET UNITYSDK_OFFSET(0xB475240)
 
+inline static constexpr unsigned int BHFAHPEJDHF_TypeDefinitionIndex = 71973;
+
 	class BHFAHPEJDHF : public ::FMPCODLIOLG
 	{
 	public:

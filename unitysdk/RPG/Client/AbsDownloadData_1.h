@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AbsDownloadData_1_TypeDefinitionIndex = 59445;
+
 	template <typename T>
 	class AbsDownloadData_1 : public ::System::Object
 	{

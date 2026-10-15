@@ -20,6 +20,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define AGFFMOLFPEF_REMOVE_ONATTRIBUTESCHANGED_OFFSET UNITYSDK_OFFSET(0x1C53D100)
 #define AGFFMOLFPEF_REMOVE_ONATTRIBUTESCHANGING_OFFSET UNITYSDK_OFFSET(0x1C53D040)
 
+inline static constexpr unsigned int AGFFMOLFPEF_TypeDefinitionIndex = 41749;
+
 	class AGFFMOLFPEF : public ::LHGAEBPLFFK
 	{
 	public:

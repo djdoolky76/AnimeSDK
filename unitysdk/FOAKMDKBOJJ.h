@@ -13,6 +13,8 @@ class NGEHNDIFKLM;
 #define FOAKMDKBOJJ_KLDPIEICGEA_OFFSET UNITYSDK_OFFSET(0x158DF770)
 #define FOAKMDKBOJJ_PPFIMGLNLMG_OFFSET UNITYSDK_OFFSET(0x158DF610)
 
+inline static constexpr unsigned int FOAKMDKBOJJ_TypeDefinitionIndex = 54012;
+
 	class FOAKMDKBOJJ : public ::System::Object
 	{
 	public:

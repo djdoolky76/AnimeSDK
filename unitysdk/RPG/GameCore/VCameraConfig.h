@@ -23,6 +23,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int VCameraConfig_TypeDefinitionIndex = 16426;
+
 	class VCameraConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

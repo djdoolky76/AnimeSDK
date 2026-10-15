@@ -22,6 +22,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 
 namespace Cysharp::Threading::Tasks
 {
+	inline static constexpr unsigned int TaskPool__GetCacheSizeInfo_d__4_TypeDefinitionIndex = 38220;
+
 	template <typename T1, typename T2, typename T3, typename T4>
 	class TaskPool__GetCacheSizeInfo_d__4 : public ::System::Object
 	{

@@ -8,6 +8,8 @@ class PGFAJJBCMDK;
 #define PGFAJJBCMDK_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D2E1800)
 #define PGFAJJBCMDK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D2E17B0)
 
+inline static constexpr unsigned int PGFAJJBCMDK_TypeDefinitionIndex = 23569;
+
 	class PGFAJJBCMDK : public ::RPG::GameCore::TaskConfig
 	{
 	public:

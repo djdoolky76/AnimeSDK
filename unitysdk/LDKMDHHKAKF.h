@@ -6,6 +6,8 @@ namespace UnityEngine { class Behaviour; }
 #define LDKMDHHKAKF_HGFKCIDPEEI_OFFSET UNITYSDK_OFFSET(0xB636DD0)
 #define LDKMDHHKAKF_MDMLJCPBPAH_OFFSET UNITYSDK_OFFSET(0xB636D70)
 
+inline static constexpr unsigned int LDKMDHHKAKF_TypeDefinitionIndex = 73658;
+
 	class LDKMDHHKAKF : public ::System::Object
 	{
 	public:

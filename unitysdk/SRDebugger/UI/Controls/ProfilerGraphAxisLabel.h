@@ -11,6 +11,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace SRDebugger::UI::Controls
 {
+	inline static constexpr unsigned int ProfilerGraphAxisLabel_TypeDefinitionIndex = 38037;
+
 	class ProfilerGraphAxisLabel : public ::SRF::SRMonoBehaviourEx
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class WaitUIOnTop; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaitUIOnTop_TypeDefinitionIndex = 24381;
+
 	class WaitUIOnTop : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore::Match3 { class SetStyleWeightAction; }
 
 namespace RPG::GameCore::Match3
 {
+	inline static constexpr unsigned int SetStyleWeightAction_TypeDefinitionIndex = 24908;
+
 	class SetStyleWeightAction : public ::RPG::GameCore::Match3::Match3ActionBase
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define KMFBMBELGDI_GICABFLDIPA_OFFSET UNITYSDK_OFFSET(0xB552230)
 #define KMFBMBELGDI_JKAJCDHLOPO_OFFSET UNITYSDK_OFFSET(0xB552190)
 
+inline static constexpr unsigned int KMFBMBELGDI_TypeDefinitionIndex = 77494;
+
 	class KMFBMBELGDI : public ::FJNNEOKOCJD
 	{
 	public:

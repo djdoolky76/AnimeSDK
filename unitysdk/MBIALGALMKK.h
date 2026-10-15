@@ -6,6 +6,8 @@ namespace RPG { template <typename T> class PoolList_1; }
 
 #define MBIALGALMKK_CTOR_OFFSET UNITYSDK_OFFSET(0x1C924B30)
 
+inline static constexpr unsigned int MBIALGALMKK_TypeDefinitionIndex = 42256;
+
 	class MBIALGALMKK : public ::System::Object
 	{
 	public:

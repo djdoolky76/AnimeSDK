@@ -8,6 +8,8 @@
 #define MNFMINCGIDD_OCIAADMCPNJ_OFFSET UNITYSDK_OFFSET(0xBA072C0)
 #define MNFMINCGIDD_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0xBA072E0)
 
+inline static constexpr unsigned int MNFMINCGIDD_TypeDefinitionIndex = 75909;
+
 	class MNFMINCGIDD : public ::System::Object
 	{
 	public:

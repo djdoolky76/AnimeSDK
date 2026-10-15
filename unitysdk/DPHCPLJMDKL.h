@@ -65,6 +65,8 @@ namespace System::IO::MemoryMappedFiles { class MemoryMappedFile; }
 #define DPHCPLJMDKL_PEECNCABGFD_OFFSET UNITYSDK_OFFSET(0x12006220)
 #define DPHCPLJMDKL_PFBOJCPAIKM_OFFSET UNITYSDK_OFFSET(0x120053B0)
 
+inline static constexpr unsigned int DPHCPLJMDKL_TypeDefinitionIndex = 60023;
+
 	class DPHCPLJMDKL : public ::System::Object
 	{
 	public:

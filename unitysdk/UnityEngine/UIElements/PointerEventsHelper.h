@@ -9,6 +9,8 @@ namespace UnityEngine::UIElements { class VisualElement; }
 
 namespace UnityEngine::UIElements
 {
+	inline static constexpr unsigned int PointerEventsHelper_TypeDefinitionIndex = 5972;
+
 	class PointerEventsHelper : public ::System::Object
 	{
 	public:

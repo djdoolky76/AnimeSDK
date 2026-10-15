@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RoadRashGameAbility_FireProjectile_TypeDefinitionIndex = 10288;
+
 	class RoadRashGameAbility_FireProjectile : public ::RPG::GameCore::BaseLittleGameAbilityTaskConfig
 	{
 	public:

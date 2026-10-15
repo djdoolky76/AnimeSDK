@@ -10,6 +10,8 @@ namespace RPG::Client { class RogueAeonData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueAeonData_TypeDefinitionIndex = 67466;
+
 	class RogueAeonData : public ::System::Object
 	{
 	public:

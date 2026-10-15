@@ -22,6 +22,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_HoudiniAsset___c_TypeDefinitionIndex = 40398;
+
 	class HEU_HoudiniAsset___c : public ::System::Object
 	{
 	public:

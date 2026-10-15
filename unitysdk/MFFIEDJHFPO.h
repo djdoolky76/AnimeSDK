@@ -4,6 +4,8 @@
 
 #define MFFIEDJHFPO_CTOR_OFFSET UNITYSDK_OFFSET(0xB8F4830)
 
+inline static constexpr unsigned int MFFIEDJHFPO_TypeDefinitionIndex = 61196;
+
 	class MFFIEDJHFPO : public ::HDJIGMBHENE
 	{
 	public:

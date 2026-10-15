@@ -9,6 +9,8 @@ namespace RPG::GameCore { class DOFConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DOFConfig_TypeDefinitionIndex = 24407;
+
 	class DOFConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

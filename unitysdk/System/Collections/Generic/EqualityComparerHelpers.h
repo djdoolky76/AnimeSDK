@@ -4,6 +4,8 @@
 
 namespace System::Collections::Generic
 {
+	inline static constexpr unsigned int EqualityComparerHelpers_TypeDefinitionIndex = 1774;
+
 	class EqualityComparerHelpers : public ::System::Object
 	{
 	public:

@@ -4,6 +4,8 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
+inline static constexpr unsigned int HMNHIKPLAFP_TypeDefinitionIndex = 57788;
+
 	struct alignas(8) HMNHIKPLAFP
 	{
 		::UnityEngine::Vector3 DAGJMMLPOPI; // 0x10

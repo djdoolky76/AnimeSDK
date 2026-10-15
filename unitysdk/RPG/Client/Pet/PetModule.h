@@ -69,6 +69,8 @@ namespace System { class String; }
 
 namespace RPG::Client::Pet
 {
+	inline static constexpr unsigned int PetModule_TypeDefinitionIndex = 75690;
+
 	class PetModule : public ::RPG::Client::BaseModule
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define JOJLNBODACH___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB2A3F20)
 #define JOJLNBODACH___C__RESETLIGHTV1_B__13_0_OFFSET UNITYSDK_OFFSET(0xB2A3F30)
 
+inline static constexpr unsigned int JOJLNBODACH___c_TypeDefinitionIndex = 49342;
+
 	class JOJLNBODACH___c : public ::System::Object
 	{
 	public:

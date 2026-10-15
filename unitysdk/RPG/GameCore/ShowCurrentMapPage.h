@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ShowCurrentMapPage; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ShowCurrentMapPage_TypeDefinitionIndex = 23845;
+
 	class ShowCurrentMapPage : public ::RPG::GameCore::TaskConfig
 	{
 	public:

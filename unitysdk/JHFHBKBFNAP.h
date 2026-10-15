@@ -35,6 +35,8 @@ namespace RPG::GameCore { class TransformComponent; }
 #define JHFHBKBFNAP_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB1B2550)
 #define JHFHBKBFNAP_TICK_OFFSET UNITYSDK_OFFSET(0xB1B0C80)
 
+inline static constexpr unsigned int JHFHBKBFNAP_TypeDefinitionIndex = 52488;
+
 	class JHFHBKBFNAP : public ::GCBMADADMDJ
 	{
 	public:

@@ -28,6 +28,8 @@ namespace System { class Object; }
 
 namespace Cysharp::Threading::Tasks
 {
+	inline static constexpr unsigned int UniTask_DelayRealtimePromise_TypeDefinitionIndex = 38240;
+
 	class UniTask_DelayRealtimePromise : public ::System::Object
 	{
 	public:

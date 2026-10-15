@@ -6,6 +6,8 @@
 
 namespace System::Diagnostics::CodeAnalysis
 {
+	inline static constexpr unsigned int DoesNotReturnAttribute_TypeDefinitionIndex = 6075;
+
 	class DoesNotReturnAttribute : public ::System::Attribute
 	{
 	public:

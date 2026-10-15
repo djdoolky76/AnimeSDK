@@ -10,6 +10,8 @@ namespace System { class Object; }
 #define NJFANBADGMB_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xBC0DA60)
 #define NJFANBADGMB_INVOKE_OFFSET UNITYSDK_OFFSET(0xBC0DA00)
 
+inline static constexpr unsigned int NJFANBADGMB_TypeDefinitionIndex = 73486;
+
 	class NJFANBADGMB : public ::System::MulticastDelegate
 	{
 	public:

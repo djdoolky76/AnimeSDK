@@ -27,6 +27,8 @@ namespace System { class String; }
 #define NCFHPBHFGLE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EADA7C0)
 #define NCFHPBHFGLE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EADA820)
 
+inline static constexpr unsigned int NCFHPBHFGLE_TypeDefinitionIndex = 30230;
+
 	class NCFHPBHFGLE : public ::System::Object
 	{
 	public:

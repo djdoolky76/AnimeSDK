@@ -5,6 +5,8 @@
 
 #define DMCEKKPFNPL_CTOR_OFFSET UNITYSDK_OFFSET(0xFEB8620)
 
+inline static constexpr unsigned int DMCEKKPFNPL_TypeDefinitionIndex = 75935;
+
 	class DMCEKKPFNPL : public ::System::Object
 	{
 	public:

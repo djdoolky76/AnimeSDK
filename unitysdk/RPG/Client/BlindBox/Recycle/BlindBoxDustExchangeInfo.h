@@ -6,6 +6,8 @@
 
 namespace RPG::Client::BlindBox::Recycle
 {
+	inline static constexpr unsigned int BlindBoxDustExchangeInfo_TypeDefinitionIndex = 74903;
+
 	class BlindBoxDustExchangeInfo : public ::System::Object
 	{
 	public:

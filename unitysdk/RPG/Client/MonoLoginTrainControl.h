@@ -18,6 +18,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoLoginTrainControl_TypeDefinitionIndex = 70155;
+
 	class MonoLoginTrainControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TravelShipHideDockMapIcon; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TravelShipHideDockMapIcon_TypeDefinitionIndex = 20977;
+
 	class TravelShipHideDockMapIcon : public ::RPG::GameCore::TaskConfig
 	{
 	public:

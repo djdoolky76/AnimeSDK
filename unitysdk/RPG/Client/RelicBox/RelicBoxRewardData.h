@@ -19,6 +19,8 @@ namespace RPG::GameCore { class ActivityRelicBoxQuestConfigRow; }
 
 namespace RPG::Client::RelicBox
 {
+	inline static constexpr unsigned int RelicBoxRewardData_TypeDefinitionIndex = 74451;
+
 	class RelicBoxRewardData : public ::System::Object
 	{
 	public:

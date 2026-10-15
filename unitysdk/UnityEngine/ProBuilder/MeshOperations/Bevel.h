@@ -20,6 +20,8 @@ namespace UnityEngine::ProBuilder { class WingedEdge; }
 
 namespace UnityEngine::ProBuilder::MeshOperations
 {
+	inline static constexpr unsigned int Bevel_TypeDefinitionIndex = 44477;
+
 	class Bevel : public ::System::Object
 	{
 	public:

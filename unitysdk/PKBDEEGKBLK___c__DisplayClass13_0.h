@@ -7,6 +7,8 @@ class PKBDEEGKBLK;
 #define PKBDEEGKBLK___C__DISPLAYCLASS13_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC2AB310)
 #define PKBDEEGKBLK___C__DISPLAYCLASS13_0__REQUESTCLAIMREWARD_B__0_OFFSET UNITYSDK_OFFSET(0xC2AB820)
 
+inline static constexpr unsigned int PKBDEEGKBLK___c__DisplayClass13_0_TypeDefinitionIndex = 61398;
+
 	class PKBDEEGKBLK___c__DisplayClass13_0 : public ::System::Object
 	{
 	public:

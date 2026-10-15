@@ -6,6 +6,8 @@
 
 namespace System::Globalization
 {
+	inline static constexpr unsigned int HebrewNumberParsingContext_TypeDefinitionIndex = 753;
+
 	struct alignas(4) HebrewNumberParsingContext
 	{
 		::System::Globalization::HebrewNumber_HS state; // 0x10

@@ -14,6 +14,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace SRDebugger::UI::Controls
 {
+	inline static constexpr unsigned int ProfilerMemoryBlock_TypeDefinitionIndex = 38030;
+
 	class ProfilerMemoryBlock : public ::SRF::SRMonoBehaviourEx
 	{
 	public:

@@ -9,6 +9,8 @@ namespace RPG::Client { class GridFightDivisionListViewExtra; }
 #define FMIFLKGJJBI_EXIT_OFFSET UNITYSDK_OFFSET(0x1585C080)
 #define FMIFLKGJJBI_TICK_OFFSET UNITYSDK_OFFSET(0x1585BE10)
 
+inline static constexpr unsigned int FMIFLKGJJBI_TypeDefinitionIndex = 64455;
+
 	class FMIFLKGJJBI : public ::System::Object
 	{
 	public:

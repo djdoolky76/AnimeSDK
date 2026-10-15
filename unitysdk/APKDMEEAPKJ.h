@@ -4,6 +4,8 @@
 
 #define APKDMEEAPKJ_CTOR_OFFSET UNITYSDK_OFFSET(0x15BACD30)
 
+inline static constexpr unsigned int APKDMEEAPKJ_TypeDefinitionIndex = 55340;
+
 	class APKDMEEAPKJ : public ::System::Object
 	{
 	public:

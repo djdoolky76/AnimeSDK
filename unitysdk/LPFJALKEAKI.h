@@ -6,6 +6,8 @@ namespace RPG::GameCore { class GameEntity; }
 
 #define LPFJALKEAKI_CTOR_OFFSET UNITYSDK_OFFSET(0xB81F8A0)
 
+inline static constexpr unsigned int LPFJALKEAKI_TypeDefinitionIndex = 55844;
+
 	class LPFJALKEAKI : public ::System::Object
 	{
 	public:

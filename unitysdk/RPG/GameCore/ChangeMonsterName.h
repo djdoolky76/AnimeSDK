@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChangeMonsterName_TypeDefinitionIndex = 23673;
+
 	class ChangeMonsterName : public ::RPG::GameCore::TaskConfig
 	{
 	public:

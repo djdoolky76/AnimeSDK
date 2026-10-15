@@ -14,6 +14,8 @@ namespace UnityEngine { class Mesh; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Eff_GpuInstanceTest_TypeDefinitionIndex = 70403;
+
 	class Eff_GpuInstanceTest : public ::UnityEngine::MonoBehaviour
 	{
 	public:

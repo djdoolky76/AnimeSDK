@@ -36,6 +36,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 
 namespace RPG::Client::ActivityFinalityBattle::Battle
 {
+	inline static constexpr unsigned int FinalityBattleBattlePauseViewModel_TypeDefinitionIndex = 82105;
+
 	class FinalityBattleBattlePauseViewModel : public ::System::Object
 	{
 	public:

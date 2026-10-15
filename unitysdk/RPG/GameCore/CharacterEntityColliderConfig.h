@@ -11,6 +11,8 @@ namespace RPG::GameCore { class EntityColliderCameraConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CharacterEntityColliderConfig_TypeDefinitionIndex = 16558;
+
 	class CharacterEntityColliderConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -84,6 +84,8 @@ namespace Entitas { class IContext; }
 #define FDPALAEIHPB_SET_UI3DGAMEINPUT_OFFSET UNITYSDK_OFFSET(0x1CA67C00)
 #define FDPALAEIHPB_SET_UI3DGAMESTATE_OFFSET UNITYSDK_OFFSET(0x1CA67C20)
 
+inline static constexpr unsigned int FDPALAEIHPB_TypeDefinitionIndex = 42094;
+
 	class FDPALAEIHPB : public ::System::Object
 	{
 	public:

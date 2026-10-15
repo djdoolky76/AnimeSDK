@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define NECBCJGIEIE_ILKLIMGPMMP_GET_STARTZ_OFFSET UNITYSDK_OFFSET(0x1C789790)
 #define NECBCJGIEIE_ILKLIMGPMMP_HMKMEJHBAGE_OFFSET UNITYSDK_OFFSET(0x1C7893F0)
 
+inline static constexpr unsigned int NECBCJGIEIE_ILKLIMGPMMP_TypeDefinitionIndex = 37302;
+
 	class NECBCJGIEIE_ILKLIMGPMMP : public ::System::Object
 	{
 	public:

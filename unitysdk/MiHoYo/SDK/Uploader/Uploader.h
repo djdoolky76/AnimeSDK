@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T> class Queue_1; }
 
 namespace MiHoYo::SDK::Uploader
 {
+	inline static constexpr unsigned int Uploader_TypeDefinitionIndex = 46667;
+
 	class Uploader : public ::System::Object
 	{
 	public:

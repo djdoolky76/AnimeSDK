@@ -5,6 +5,8 @@ namespace RPG::GameCore { class SelectMissionItemConfig; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MissionModule_SelectItem_TypeDefinitionIndex = 66137;
+
 	struct alignas(8) MissionModule_SelectItem
 	{
 		::Il2CppArray<::RPG::GameCore::SelectMissionItemConfig*>* ItemSelectConfig; // 0x10

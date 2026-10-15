@@ -7,6 +7,8 @@ namespace RPG::GameCore { class ChimeraDuelTalkNode; }
 #define HEFJABFBIKH_CTOR_OFFSET UNITYSDK_OFFSET(0x15C4E830)
 #define HEFJABFBIKH_FOJGLOJGJBA_OFFSET UNITYSDK_OFFSET(0x15C4E840)
 
+inline static constexpr unsigned int HEFJABFBIKH_TypeDefinitionIndex = 77639;
+
 	class HEFJABFBIKH : public ::HMDKMIJLJFH
 	{
 	public:

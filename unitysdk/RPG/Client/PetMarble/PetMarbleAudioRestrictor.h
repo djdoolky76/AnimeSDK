@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::Client::PetMarble
 {
+	inline static constexpr unsigned int PetMarbleAudioRestrictor_TypeDefinitionIndex = 74722;
+
 	class PetMarbleAudioRestrictor : public ::System::Object
 	{
 	public:

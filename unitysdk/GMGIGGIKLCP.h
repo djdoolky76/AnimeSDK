@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define GMGIGGIKLCP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15AD13E0)
 #define GMGIGGIKLCP_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15AD1640)
 
+inline static constexpr unsigned int GMGIGGIKLCP_TypeDefinitionIndex = 58564;
+
 	class GMGIGGIKLCP
 	{
 	public:

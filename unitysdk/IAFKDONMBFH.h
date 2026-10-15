@@ -48,6 +48,8 @@ namespace UnityEngine { class GameObject; }
 #define IAFKDONMBFH_PDJMBAKPFOL_OFFSET UNITYSDK_OFFSET(0x15E07130)
 #define IAFKDONMBFH_PHHADFLFJHG_OFFSET UNITYSDK_OFFSET(0x15E0BAA0)
 
+inline static constexpr unsigned int IAFKDONMBFH_TypeDefinitionIndex = 73787;
+
 	class IAFKDONMBFH : public ::PKABGPKKMHL
 	{
 	public:

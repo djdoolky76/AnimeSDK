@@ -10,6 +10,8 @@ namespace UnityEngine { class Sprite; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int JoyPadButtonImage_TypeDefinitionIndex = 8004;
+
 	class JoyPadButtonImage : public ::UnityEngine::MonoBehaviour
 	{
 	public:

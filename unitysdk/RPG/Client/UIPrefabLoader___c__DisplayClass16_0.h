@@ -11,6 +11,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UIPrefabLoader___c__DisplayClass16_0_TypeDefinitionIndex = 73098;
+
 	class UIPrefabLoader___c__DisplayClass16_0 : public ::System::Object
 	{
 	public:

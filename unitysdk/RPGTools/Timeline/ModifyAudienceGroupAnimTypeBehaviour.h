@@ -15,6 +15,8 @@ namespace RPGTools::Timeline { class ModifyAudienceGroupAnimTypeClipConfig; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int ModifyAudienceGroupAnimTypeBehaviour_TypeDefinitionIndex = 48194;
+
 	class ModifyAudienceGroupAnimTypeBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define NIAEBBECDDP___C_CTOR_OFFSET UNITYSDK_OFFSET(0xBBDC8D0)
 #define NIAEBBECDDP___C__SATISFY_B__0_0_OFFSET UNITYSDK_OFFSET(0xBBDC8E0)
 
+inline static constexpr unsigned int NIAEBBECDDP___c_TypeDefinitionIndex = 64913;
+
 	class NIAEBBECDDP___c : public ::System::Object
 	{
 	public:

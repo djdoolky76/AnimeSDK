@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define AAPFCLGCHLG_CTOR_OFFSET UNITYSDK_OFFSET(0xB0E1AB0)
 #define AAPFCLGCHLG_TRANSFORM_OFFSET UNITYSDK_OFFSET(0xB0E1AD0)
 
+inline static constexpr unsigned int AAPFCLGCHLG_TypeDefinitionIndex = 59183;
+
 	class AAPFCLGCHLG
 	{
 	public:

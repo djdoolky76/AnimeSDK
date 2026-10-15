@@ -6,6 +6,8 @@ namespace System { class String; }
 #define GNGCGAMDCLO_CTOR_OFFSET UNITYSDK_OFFSET(0x15B07840)
 #define GNGCGAMDCLO_OJJPFGPNNIL_OFFSET UNITYSDK_OFFSET(0x15B07660)
 
+inline static constexpr unsigned int GNGCGAMDCLO_TypeDefinitionIndex = 79159;
+
 	class GNGCGAMDCLO : public ::System::Object
 	{
 	public:

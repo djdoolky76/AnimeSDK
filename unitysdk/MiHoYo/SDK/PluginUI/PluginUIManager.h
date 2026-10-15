@@ -28,6 +28,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace MiHoYo::SDK::PluginUI
 {
+	inline static constexpr unsigned int PluginUIManager_TypeDefinitionIndex = 9258;
+
 	class PluginUIManager : public ::System::Object
 	{
 	public:

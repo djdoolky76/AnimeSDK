@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace System::Globalization
 {
+	inline static constexpr unsigned int TimeSpanParse_StringParser_TypeDefinitionIndex = 780;
+
 	struct alignas(8) TimeSpanParse_StringParser
 	{
 		::System::String* str; // 0x10

@@ -29,6 +29,8 @@ namespace System { class String; }
 #define GMDHIALLILJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E4D09B0)
 #define GMDHIALLILJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E4D0A10)
 
+inline static constexpr unsigned int GMDHIALLILJ_TypeDefinitionIndex = 25333;
+
 	class GMDHIALLILJ : public ::System::Object
 	{
 	public:

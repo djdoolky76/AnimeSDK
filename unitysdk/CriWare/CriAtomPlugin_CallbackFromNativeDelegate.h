@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriAtomPlugin_CallbackFromNativeDelegate_TypeDefinitionIndex = 39931;
+
 	class CriAtomPlugin_CallbackFromNativeDelegate : public ::System::MulticastDelegate
 	{
 	public:

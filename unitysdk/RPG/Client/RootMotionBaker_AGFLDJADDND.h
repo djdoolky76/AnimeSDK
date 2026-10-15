@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RootMotionBaker_AGFLDJADDND_TypeDefinitionIndex = 68818;
+
 	class RootMotionBaker_AGFLDJADDND : public ::System::Object
 	{
 	public:

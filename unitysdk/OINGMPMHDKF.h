@@ -68,6 +68,8 @@ namespace System { class String; }
 #define OINGMPMHDKF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE78270)
 #define OINGMPMHDKF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DE782D0)
 
+inline static constexpr unsigned int OINGMPMHDKF_TypeDefinitionIndex = 32146;
+
 	class OINGMPMHDKF : public ::System::Object
 	{
 	public:

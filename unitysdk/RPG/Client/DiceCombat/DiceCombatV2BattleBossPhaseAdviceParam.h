@@ -27,6 +27,8 @@ namespace System { class String; }
 
 namespace RPG::Client::DiceCombat
 {
+	inline static constexpr unsigned int DiceCombatV2BattleBossPhaseAdviceParam_TypeDefinitionIndex = 76193;
+
 	class DiceCombatV2BattleBossPhaseAdviceParam : public ::System::Object
 	{
 	public:

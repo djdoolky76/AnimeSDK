@@ -12,6 +12,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define JMDCIPPOELB___C__GETALLACTIVECOLLECTABLEUNSEENCARDS_B__7_0_OFFSET UNITYSDK_OFFSET(0xB262850)
 #define JMDCIPPOELB___C___GETCASEBOARDMAINPAGEUPDATESIGNATURE_B__26_0_OFFSET UNITYSDK_OFFSET(0xB262870)
 
+inline static constexpr unsigned int JMDCIPPOELB___c_TypeDefinitionIndex = 80736;
+
 	class JMDCIPPOELB___c : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ST_Side_AttachAIStatus; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ST_Side_AttachAIStatus_TypeDefinitionIndex = 20115;
+
 	class ST_Side_AttachAIStatus : public ::RPG::GameCore::STTaskConfig
 	{
 	public:

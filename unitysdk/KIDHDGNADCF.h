@@ -27,6 +27,8 @@ namespace System { class String; }
 #define KIDHDGNADCF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E8571F0)
 #define KIDHDGNADCF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E857250)
 
+inline static constexpr unsigned int KIDHDGNADCF_TypeDefinitionIndex = 27585;
+
 	class KIDHDGNADCF : public ::System::Object
 	{
 	public:

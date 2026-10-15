@@ -6,6 +6,8 @@ class PBNONKAIAMK;
 #define FMIEGACIIDH___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1585BAA0)
 #define FMIEGACIIDH___C__DISPLAYCLASS1_0__ONTASKBEGIN_B__0_OFFSET UNITYSDK_OFFSET(0x1585BAC0)
 
+inline static constexpr unsigned int FMIEGACIIDH___c__DisplayClass1_0_TypeDefinitionIndex = 55659;
+
 	class FMIEGACIIDH___c__DisplayClass1_0 : public ::System::Object
 	{
 	public:

@@ -30,6 +30,8 @@ namespace UnityEngine { class ParticleSystem; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int ParticleSystem_CustomDataModule_TypeDefinitionIndex = 5248;
+
 	struct alignas(8) ParticleSystem_CustomDataModule
 	{
 		::UnityEngine::ParticleSystem* m_ParticleSystem; // 0x10

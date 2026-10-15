@@ -14,6 +14,8 @@ namespace System::Diagnostics { class Stopwatch; }
 #define LBJLBMOOJGM___STARTBACKGROUNDSERVICESASYNC_D__3___M__FINALLY1_OFFSET UNITYSDK_OFFSET(0x1EC84B50)
 #define LBJLBMOOJGM___STARTBACKGROUNDSERVICESASYNC_D__3___M__FINALLY2_OFFSET UNITYSDK_OFFSET(0x1EC84B40)
 
+inline static constexpr unsigned int LBJLBMOOJGM___StartBackgroundServicesAsync_d__3_TypeDefinitionIndex = 44297;
+
 	template <typename T1, typename T2, typename T3>
 	class LBJLBMOOJGM___StartBackgroundServicesAsync_d__3 : public ::System::Object
 	{

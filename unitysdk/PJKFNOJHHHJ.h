@@ -30,6 +30,8 @@ namespace System { class String; }
 #define PJKFNOJHHHJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF7BF60)
 #define PJKFNOJHHHJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF7BFC0)
 
+inline static constexpr unsigned int PJKFNOJHHHJ_TypeDefinitionIndex = 31384;
+
 	class PJKFNOJHHHJ : public ::System::Object
 	{
 	public:

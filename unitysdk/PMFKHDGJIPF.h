@@ -5,6 +5,8 @@
 #define PMFKHDGJIPF_CTOR_OFFSET UNITYSDK_OFFSET(0xC31B130)
 #define PMFKHDGJIPF_JJNFOPNOPBF_OFFSET UNITYSDK_OFFSET(0xC31B160)
 
+inline static constexpr unsigned int PMFKHDGJIPF_TypeDefinitionIndex = 62457;
+
 	class PMFKHDGJIPF : public ::System::Object
 	{
 	public:

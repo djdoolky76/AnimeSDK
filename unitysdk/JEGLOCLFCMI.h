@@ -18,6 +18,8 @@ namespace System { class Object; }
 #define JEGLOCLFCMI_OOBADKHILIH_OFFSET UNITYSDK_OFFSET(0x16622610)
 #define JEGLOCLFCMI_SYSTEM_ICLONEABLE_CLONE_OFFSET UNITYSDK_OFFSET(0x166225C0)
 
+inline static constexpr unsigned int JEGLOCLFCMI_TypeDefinitionIndex = 67182;
+
 	class JEGLOCLFCMI : public ::PLMJFBPGLAK
 	{
 	public:

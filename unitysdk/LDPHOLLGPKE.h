@@ -33,6 +33,8 @@ namespace System { class String; }
 #define LDPHOLLGPKE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E902A70)
 #define LDPHOLLGPKE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E902AD0)
 
+inline static constexpr unsigned int LDPHOLLGPKE_TypeDefinitionIndex = 30474;
+
 	class LDPHOLLGPKE : public ::System::Object
 	{
 	public:

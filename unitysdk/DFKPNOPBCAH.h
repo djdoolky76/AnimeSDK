@@ -6,6 +6,8 @@ namespace UnityEngine { class Transform; }
 
 #define DFKPNOPBCAH_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA28590)
 
+inline static constexpr unsigned int DFKPNOPBCAH_TypeDefinitionIndex = 43188;
+
 	class DFKPNOPBCAH : public ::System::Object
 	{
 	public:

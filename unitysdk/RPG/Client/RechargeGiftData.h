@@ -41,6 +41,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RechargeGiftData_TypeDefinitionIndex = 66792;
+
 	class RechargeGiftData : public ::System::Object
 	{
 	public:

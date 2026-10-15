@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TargetFetchUniqueNameEntity_TypeDefinitionIndex = 23932;
+
 	class TargetFetchUniqueNameEntity : public ::RPG::GameCore::TargetEvaluator
 	{
 	public:

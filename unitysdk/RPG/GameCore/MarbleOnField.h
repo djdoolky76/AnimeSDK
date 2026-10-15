@@ -11,6 +11,8 @@ namespace RPG::GameCore { class MarbleOnField; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MarbleOnField_TypeDefinitionIndex = 16851;
+
 	class MarbleOnField : public ::RPG::GameCore::MarbleTaskConfig
 	{
 	public:

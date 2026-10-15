@@ -4,6 +4,8 @@
 
 namespace MiHoYo::SDK::PluginUI
 {
+	inline static constexpr unsigned int PluginUIConstants_MHYBindActionParam_TypeDefinitionIndex = 9208;
+
 	class PluginUIConstants_MHYBindActionParam : public ::System::Object
 	{
 	public:

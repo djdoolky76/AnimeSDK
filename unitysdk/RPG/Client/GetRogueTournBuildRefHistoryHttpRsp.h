@@ -7,6 +7,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GetRogueTournBuildRefHistoryHttpRsp_TypeDefinitionIndex = 67792;
+
 	class GetRogueTournBuildRefHistoryHttpRsp : public ::System::Object
 	{
 	public:

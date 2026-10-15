@@ -10,6 +10,8 @@ namespace RPG::GameCore { class SetDynamicValueByRogueJoyValue; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetDynamicValueByRogueJoyValue_TypeDefinitionIndex = 21792;
+
 	class SetDynamicValueByRogueJoyValue : public ::RPG::GameCore::TaskConfig
 	{
 	public:

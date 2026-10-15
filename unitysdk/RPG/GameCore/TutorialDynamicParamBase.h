@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TutorialDynamicParamBase; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TutorialDynamicParamBase_TypeDefinitionIndex = 24324;
+
 	class TutorialDynamicParamBase : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -24,6 +24,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TeamFormationComponent_MultiRowLocationContext_TypeDefinitionIndex = 57707;
+
 	class TeamFormationComponent_MultiRowLocationContext : public ::System::Object
 	{
 	public:

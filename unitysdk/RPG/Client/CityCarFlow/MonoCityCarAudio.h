@@ -19,6 +19,8 @@ namespace System { class String; }
 
 namespace RPG::Client::CityCarFlow
 {
+	inline static constexpr unsigned int MonoCityCarAudio_TypeDefinitionIndex = 82220;
+
 	class MonoCityCarAudio : public ::UnityEngine::MonoBehaviour
 	{
 	public:

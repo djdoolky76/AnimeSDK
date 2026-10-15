@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EntityManagerExtension___c__DisplayClass28_0_TypeDefinitionIndex = 57777;
+
 	class EntityManagerExtension___c__DisplayClass28_0 : public ::System::Object
 	{
 	public:

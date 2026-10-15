@@ -11,6 +11,8 @@ namespace System { class Type; }
 #define FLEEMEEIKOI_FNAAJGAHIAI_OFFSET UNITYSDK_OFFSET(0x1582E030)
 #define FLEEMEEIKOI_IHPAKOMCHGP_OFFSET UNITYSDK_OFFSET(0x1582E110)
 
+inline static constexpr unsigned int FLEEMEEIKOI_TypeDefinitionIndex = 62594;
+
 	class FLEEMEEIKOI : public ::System::Object
 	{
 	public:

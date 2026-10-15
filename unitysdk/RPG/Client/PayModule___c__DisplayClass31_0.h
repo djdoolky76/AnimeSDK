@@ -9,6 +9,8 @@ namespace RPG::Client { class Product; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PayModule___c__DisplayClass31_0_TypeDefinitionIndex = 66437;
+
 	class PayModule___c__DisplayClass31_0 : public ::System::Object
 	{
 	public:

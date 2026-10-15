@@ -25,6 +25,8 @@ namespace System { class String; }
 #define PEMMJHDFOLM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF1E4C0)
 #define PEMMJHDFOLM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF1E520)
 
+inline static constexpr unsigned int PEMMJHDFOLM_TypeDefinitionIndex = 26500;
+
 	class PEMMJHDFOLM : public ::System::Object
 	{
 	public:

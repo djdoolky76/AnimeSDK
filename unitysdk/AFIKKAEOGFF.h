@@ -11,6 +11,8 @@ namespace System { class String; }
 #define AFIKKAEOGFF_ONALLOC_OFFSET UNITYSDK_OFFSET(0x1C879A50)
 #define AFIKKAEOGFF_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0x1C879B30)
 
+inline static constexpr unsigned int AFIKKAEOGFF_TypeDefinitionIndex = 43507;
+
 	class AFIKKAEOGFF : public ::System::Object
 	{
 	public:

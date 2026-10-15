@@ -14,6 +14,8 @@
 #define BPGECKIMDKM_SET_ENDTIMEDATE_OFFSET UNITYSDK_OFFSET(0x9500)
 #define BPGECKIMDKM_SET_ENDTIMESTAMP_OFFSET UNITYSDK_OFFSET(0xDDA70)
 
+inline static constexpr unsigned int BPGECKIMDKM_TypeDefinitionIndex = 67898;
+
 	struct alignas(4) BPGECKIMDKM
 	{
 		::System::UInt32 _ActivityID_k__BackingField; // 0x10

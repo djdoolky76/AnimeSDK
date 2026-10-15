@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int IVROverlay__HideKeyboard_TypeDefinitionIndex = 39133;
+
 	class IVROverlay__HideKeyboard : public ::System::MulticastDelegate
 	{
 	public:

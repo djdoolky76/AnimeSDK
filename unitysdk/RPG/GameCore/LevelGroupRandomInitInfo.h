@@ -10,6 +10,8 @@ namespace RPG::GameCore { class LevelGroupRandomInitInfo; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelGroupRandomInitInfo_TypeDefinitionIndex = 17330;
+
 	class LevelGroupRandomInitInfo : public ::RPG::GameCore::JsonConfig
 	{
 	public:

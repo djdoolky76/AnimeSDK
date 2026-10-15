@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define MLCPGAGPBDL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA81580)
 #define MLCPGAGPBDL___C___CCTOR_B__43_0_OFFSET UNITYSDK_OFFSET(0x1EA81590)
 
+inline static constexpr unsigned int MLCPGAGPBDL___c_TypeDefinitionIndex = 28882;
+
 	class MLCPGAGPBDL___c : public ::System::Object
 	{
 	public:

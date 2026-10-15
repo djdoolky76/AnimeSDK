@@ -10,6 +10,8 @@ namespace RPG::GameCore { class AdventureCharacterControllerConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdventureCharacterControllerConfig_TypeDefinitionIndex = 16564;
+
 	class AdventureCharacterControllerConfig : public ::RPG::GameCore::ComponentConfig
 	{
 	public:

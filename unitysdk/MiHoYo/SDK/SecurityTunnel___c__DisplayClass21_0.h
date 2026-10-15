@@ -12,6 +12,8 @@ namespace System { template <typename T> class Predicate_1; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int SecurityTunnel___c__DisplayClass21_0_TypeDefinitionIndex = 46416;
+
 	class SecurityTunnel___c__DisplayClass21_0 : public ::System::Object
 	{
 	public:

@@ -18,6 +18,8 @@ namespace UnityEngine { class CanvasGroup; }
 
 namespace RPG::Client::Ui::Samples
 {
+	inline static constexpr unsigned int UINavigationFocusSampleControl_TypeDefinitionIndex = 73471;
+
 	class UINavigationFocusSampleControl
 	{
 	public:

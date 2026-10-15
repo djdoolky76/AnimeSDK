@@ -35,6 +35,8 @@ namespace System { class String; }
 
 namespace RPGCamera
 {
+	inline static constexpr unsigned int BaseCameraState_TypeDefinitionIndex = 45943;
+
 	class BaseCameraState : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@ namespace System { class String; }
 
 namespace RPG::Client::Subway
 {
+	inline static constexpr unsigned int AirlineSubwayWay_PossessionConfig_TypeDefinitionIndex = 82199;
+
 	struct alignas(8) AirlineSubwayWay_PossessionConfig
 	{
 		::System::String* AnimName; // 0x10

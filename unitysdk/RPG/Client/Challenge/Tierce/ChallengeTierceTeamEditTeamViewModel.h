@@ -27,6 +27,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 
 namespace RPG::Client::Challenge::Tierce
 {
+	inline static constexpr unsigned int ChallengeTierceTeamEditTeamViewModel_TypeDefinitionIndex = 81626;
+
 	class ChallengeTierceTeamEditTeamViewModel : public ::System::Object
 	{
 	public:

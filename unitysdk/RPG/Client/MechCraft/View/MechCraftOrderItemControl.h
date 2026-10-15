@@ -23,6 +23,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftOrderItemControl_TypeDefinitionIndex = 80013;
+
 	class MechCraftOrderItemControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

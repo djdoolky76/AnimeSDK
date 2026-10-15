@@ -12,6 +12,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int JigsawPuzzleUtils_TypeDefinitionIndex = 65762;
+
 	class JigsawPuzzleUtils : public ::System::Object
 	{
 	public:

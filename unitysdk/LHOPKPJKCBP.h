@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define LHOPKPJKCBP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB6BFE70)
 #define LHOPKPJKCBP_PPNFOMMOCMN_OFFSET UNITYSDK_OFFSET(0xB6BFED0)
 
+inline static constexpr unsigned int LHOPKPJKCBP_TypeDefinitionIndex = 55597;
+
 	class LHOPKPJKCBP
 	{
 	public:

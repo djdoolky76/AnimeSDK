@@ -16,6 +16,8 @@ namespace UnityEngine { class Animator; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int StateStandByBreak_TypeDefinitionIndex = 68845;
+
 	class StateStandByBreak : public ::UnityEngine::StateMachineBehaviour
 	{
 	public:

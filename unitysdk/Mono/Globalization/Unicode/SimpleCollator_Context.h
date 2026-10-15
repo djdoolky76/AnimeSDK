@@ -6,6 +6,8 @@
 
 namespace Mono::Globalization::Unicode
 {
+	inline static constexpr unsigned int SimpleCollator_Context_TypeDefinitionIndex = 40;
+
 	struct alignas(8) SimpleCollator_Context
 	{
 		::System::Globalization::CompareOptions Option; // 0x10

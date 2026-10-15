@@ -10,6 +10,8 @@ namespace UnityEngine::UIElements { class IPanel; }
 
 namespace UnityEngine::UIElements
 {
+	inline static constexpr unsigned int MouseEventDispatchingStrategy_TypeDefinitionIndex = 5956;
+
 	class MouseEventDispatchingStrategy : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ class IIPMDOLDENM;
 #define IIPMDOLDENM_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x16456800)
 #define IIPMDOLDENM_SET_MODEL_OFFSET UNITYSDK_OFFSET(0x164568B0)
 
+inline static constexpr unsigned int IIPMDOLDENM_TypeDefinitionIndex = 80546;
+
 	class IIPMDOLDENM : public ::System::Object
 	{
 	public:

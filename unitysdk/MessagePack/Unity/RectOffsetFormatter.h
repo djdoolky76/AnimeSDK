@@ -12,6 +12,8 @@ namespace UnityEngine { class RectOffset; }
 
 namespace MessagePack::Unity
 {
+	inline static constexpr unsigned int RectOffsetFormatter_TypeDefinitionIndex = 10134;
+
 	class RectOffsetFormatter : public ::System::Object
 	{
 	public:

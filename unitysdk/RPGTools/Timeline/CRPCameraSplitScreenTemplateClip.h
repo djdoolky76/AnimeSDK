@@ -16,6 +16,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int CRPCameraSplitScreenTemplateClip_TypeDefinitionIndex = 47911;
+
 	class CRPCameraSplitScreenTemplateClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

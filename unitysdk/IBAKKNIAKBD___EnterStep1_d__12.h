@@ -12,6 +12,8 @@ namespace System { class Object; }
 #define IBAKKNIAKBD___ENTERSTEP1_D__12_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x15E28A70)
 #define IBAKKNIAKBD___ENTERSTEP1_D__12_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15E28770)
 
+inline static constexpr unsigned int IBAKKNIAKBD___EnterStep1_d__12_TypeDefinitionIndex = 60954;
+
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10, typename T11, typename T12>
 	class IBAKKNIAKBD___EnterStep1_d__12 : public ::System::Object
 	{

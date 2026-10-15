@@ -9,6 +9,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int BackgroundWorker_TypeDefinitionIndex = 46289;
+
 	class BackgroundWorker : public ::System::Object
 	{
 	public:

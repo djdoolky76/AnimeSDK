@@ -8,6 +8,8 @@ namespace System { class String; }
 #define EPBHHKLMKNK_DMKJAJLNEBK_OFFSET UNITYSDK_OFFSET(0x1CA61C60)
 #define EPBHHKLMKNK_GKMDJFIGIID_OFFSET UNITYSDK_OFFSET(0x1CA61DF0)
 
+inline static constexpr unsigned int EPBHHKLMKNK_TypeDefinitionIndex = 43716;
+
 	class EPBHHKLMKNK : public ::System::Object
 	{
 	public:

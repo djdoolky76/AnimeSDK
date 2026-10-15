@@ -5,6 +5,8 @@ namespace RPG::GameCore { class FiveDimTriggerEventEmitterConfig; }
 
 #define BLBGBBCKGBN_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8BC3E0)
 
+inline static constexpr unsigned int BLBGBBCKGBN_TypeDefinitionIndex = 43310;
+
 	class BLBGBBCKGBN : public ::System::Object
 	{
 	public:

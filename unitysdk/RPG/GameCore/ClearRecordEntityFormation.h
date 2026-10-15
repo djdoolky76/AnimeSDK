@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ClearRecordEntityFormation; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ClearRecordEntityFormation_TypeDefinitionIndex = 22768;
+
 	class ClearRecordEntityFormation : public ::RPG::GameCore::TaskConfig
 	{
 	public:

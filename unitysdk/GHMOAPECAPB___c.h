@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define GHMOAPECAPB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E48E150)
 #define GHMOAPECAPB___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1E48E160)
 
+inline static constexpr unsigned int GHMOAPECAPB___c_TypeDefinitionIndex = 31639;
+
 	class GHMOAPECAPB___c : public ::System::Object
 	{
 	public:

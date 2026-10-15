@@ -49,6 +49,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define BGMKDGACBNI_TICK_OFFSET UNITYSDK_OFFSET(0xB18E0E0)
 #define BGMKDGACBNI__ONINITOWNERREF_OFFSET UNITYSDK_OFFSET(0xB18DDF0)
 
+inline static constexpr unsigned int BGMKDGACBNI_TypeDefinitionIndex = 53774;
+
 	class BGMKDGACBNI : public ::RPG::GameCore::AbilityComponent
 	{
 	public:

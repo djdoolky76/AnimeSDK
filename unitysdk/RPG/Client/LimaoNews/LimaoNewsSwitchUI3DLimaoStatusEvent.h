@@ -12,6 +12,8 @@ namespace RPG::Client::LimaoNews { class LimaoNewsMainEntrance3DViewModel; }
 
 namespace RPG::Client::LimaoNews
 {
+	inline static constexpr unsigned int LimaoNewsSwitchUI3DLimaoStatusEvent_TypeDefinitionIndex = 80280;
+
 	class LimaoNewsSwitchUI3DLimaoStatusEvent : public ::System::Object
 	{
 	public:

@@ -14,6 +14,8 @@ namespace System::IO { class BinaryWriter; }
 
 namespace Hdg
 {
+	inline static constexpr unsigned int rdtTcpMessageComponents_Component_TypeDefinitionIndex = 46980;
+
 	struct alignas(8) rdtTcpMessageComponents_Component
 	{
 		::System::Boolean m_canBeDisabled; // 0x10

@@ -31,6 +31,8 @@ namespace System { class String; }
 #define GNILAAACODB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E4E12E0)
 #define GNILAAACODB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E4E1340)
 
+inline static constexpr unsigned int GNILAAACODB_TypeDefinitionIndex = 34948;
+
 	class GNILAAACODB : public ::System::Object
 	{
 	public:

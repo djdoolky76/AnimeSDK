@@ -4,6 +4,8 @@
 
 #define PMKGLBJEMNM_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9F8E50)
 
+inline static constexpr unsigned int PMKGLBJEMNM_TypeDefinitionIndex = 42944;
+
 	class PMKGLBJEMNM : public ::System::Object
 	{
 	public:

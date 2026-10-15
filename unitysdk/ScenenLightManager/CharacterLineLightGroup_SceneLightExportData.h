@@ -9,6 +9,8 @@ namespace ScenenLightManager { class CharacterLineLightGroup_ExportData; }
 
 namespace ScenenLightManager
 {
+	inline static constexpr unsigned int CharacterLineLightGroup_SceneLightExportData_TypeDefinitionIndex = 49058;
+
 	class CharacterLineLightGroup_SceneLightExportData : public ::ScenenLightManager::BaseSceneLightExportData
 	{
 	public:

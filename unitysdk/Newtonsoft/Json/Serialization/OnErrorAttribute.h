@@ -6,6 +6,8 @@
 
 namespace Newtonsoft::Json::Serialization
 {
+	inline static constexpr unsigned int OnErrorAttribute_TypeDefinitionIndex = 9748;
+
 	class OnErrorAttribute : public ::System::Attribute
 	{
 	public:

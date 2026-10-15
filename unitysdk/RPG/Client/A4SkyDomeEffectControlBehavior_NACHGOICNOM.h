@@ -8,6 +8,8 @@ namespace UnityEngine { class Material; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int A4SkyDomeEffectControlBehavior_NACHGOICNOM_TypeDefinitionIndex = 70873;
+
 	class A4SkyDomeEffectControlBehavior_NACHGOICNOM : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace RPG::Client::LittleGame::FiveDim { class PhantomPlayerRecordFrames; }
 #define NBPHDOPHNKH_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C9438D0)
 #define NBPHDOPHNKH_CTOR_OFFSET UNITYSDK_OFFSET(0x1C943950)
 
+inline static constexpr unsigned int NBPHDOPHNKH_TypeDefinitionIndex = 43417;
+
 	class NBPHDOPHNKH : public ::System::Object
 	{
 	public:

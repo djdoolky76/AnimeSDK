@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::Client::LittleGame::FiveDim
 {
+	inline static constexpr unsigned int FiveDimBaseEventActionService_1_TypeDefinitionIndex = 76882;
+
 	template <typename T>
 	class FiveDimBaseEventActionService_1 : public ::System::Object
 	{

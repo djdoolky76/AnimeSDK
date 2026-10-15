@@ -140,6 +140,8 @@ namespace UnityEngine::UI { class Button; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BattleGamePageContext_TypeDefinitionIndex = 71652;
+
 	class BattleGamePageContext : public ::RPG::Client::UIController
 	{
 	public:

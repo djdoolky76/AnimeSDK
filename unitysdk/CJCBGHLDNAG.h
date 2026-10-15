@@ -20,6 +20,8 @@ namespace UnityEngine { class MonoBehaviour; }
 #define CJCBGHLDNAG_LLPOPLFFLMP_OFFSET UNITYSDK_OFFSET(0xCF93E40)
 #define CJCBGHLDNAG_OMCHFCDMIPL_OFFSET UNITYSDK_OFFSET(0xCF930D0)
 
+inline static constexpr unsigned int CJCBGHLDNAG_TypeDefinitionIndex = 69879;
+
 	class CJCBGHLDNAG : public ::RPG::Client::BehaviorBase
 	{
 	public:

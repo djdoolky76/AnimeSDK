@@ -29,6 +29,8 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TeamBuildRecipe_TypeDefinitionIndex = 68093;
+
 	class TeamBuildRecipe : public ::System::Object
 	{
 	public:

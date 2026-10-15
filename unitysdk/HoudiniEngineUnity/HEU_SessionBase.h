@@ -264,6 +264,8 @@ namespace System { class String; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_SessionBase_TypeDefinitionIndex = 40582;
+
 	class HEU_SessionBase : public ::System::Object
 	{
 	public:

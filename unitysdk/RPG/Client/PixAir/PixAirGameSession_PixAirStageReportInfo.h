@@ -14,6 +14,8 @@
 
 namespace RPG::Client::PixAir
 {
+	inline static constexpr unsigned int PixAirGameSession_PixAirStageReportInfo_TypeDefinitionIndex = 79353;
+
 	struct alignas(4) PixAirGameSession_PixAirStageReportInfo
 	{
 		::System::Int32 _StageID_k__BackingField; // 0x10

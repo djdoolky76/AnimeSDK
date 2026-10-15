@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace Mono::Security::Interface
 {
+	inline static constexpr unsigned int MonoTlsConnectionInfo_TypeDefinitionIndex = 2290;
+
 	class MonoTlsConnectionInfo : public ::System::Object
 	{
 	public:

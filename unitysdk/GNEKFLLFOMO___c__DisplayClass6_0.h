@@ -10,6 +10,8 @@ namespace RPG::GameCore { class LevelCurvePointInfo; }
 #define GNEKFLLFOMO___C__DISPLAYCLASS6_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15AFFC40)
 #define GNEKFLLFOMO___C__DISPLAYCLASS6_0___CREATEARRIVECURVE_B__0_OFFSET UNITYSDK_OFFSET(0x15AFFC50)
 
+inline static constexpr unsigned int GNEKFLLFOMO___c__DisplayClass6_0_TypeDefinitionIndex = 53434;
+
 	class GNEKFLLFOMO___c__DisplayClass6_0 : public ::System::Object
 	{
 	public:

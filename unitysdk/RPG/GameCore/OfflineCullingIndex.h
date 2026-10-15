@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int OfflineCullingIndex_TypeDefinitionIndex = 19170;
+
 	class OfflineCullingIndex : public ::RPG::GameCore::JsonConfig
 	{
 	public:

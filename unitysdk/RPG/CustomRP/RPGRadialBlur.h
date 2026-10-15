@@ -9,6 +9,8 @@ namespace UnityEngine::Rendering { class FloatParameter; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int RPGRadialBlur_TypeDefinitionIndex = 37839;
+
 	class RPGRadialBlur : public ::RPG::CustomRP::CustomVolumeComponent
 	{
 	public:

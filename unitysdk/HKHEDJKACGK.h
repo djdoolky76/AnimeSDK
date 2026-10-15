@@ -11,6 +11,8 @@
 #define HKHEDJKACGK_SET_CYCLEID_OFFSET UNITYSDK_OFFSET(0x15D44F60)
 #define HKHEDJKACGK_SET_DAY_OFFSET UNITYSDK_OFFSET(0x15D44F80)
 
+inline static constexpr unsigned int HKHEDJKACGK_TypeDefinitionIndex = 81662;
+
 	class HKHEDJKACGK : public ::System::Object
 	{
 	public:

@@ -27,6 +27,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int PushHexPuzzleBoard_TypeDefinitionIndex = 78618;
+
 	class PushHexPuzzleBoard : public ::RPG::Client::Prop::HexPuzzleBoardBase
 	{
 	public:

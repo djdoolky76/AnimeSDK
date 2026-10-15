@@ -62,6 +62,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int OtherSettings_TypeDefinitionIndex = 59363;
+
 	class OtherSettings : public ::RPG::Client::PrefGroup
 	{
 	public:

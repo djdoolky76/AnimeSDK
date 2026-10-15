@@ -37,6 +37,8 @@ namespace System { class String; }
 #define ACAKOLCGDLL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DDD7170)
 #define ACAKOLCGDLL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DDD71D0)
 
+inline static constexpr unsigned int ACAKOLCGDLL_TypeDefinitionIndex = 27989;
+
 	class ACAKOLCGDLL : public ::System::Object
 	{
 	public:

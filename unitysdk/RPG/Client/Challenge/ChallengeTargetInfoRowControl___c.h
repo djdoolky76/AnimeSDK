@@ -8,6 +8,8 @@ namespace System { class Object; }
 
 namespace RPG::Client::Challenge
 {
+	inline static constexpr unsigned int ChallengeTargetInfoRowControl___c_TypeDefinitionIndex = 81421;
+
 	class ChallengeTargetInfoRowControl___c : public ::System::Object
 	{
 	public:

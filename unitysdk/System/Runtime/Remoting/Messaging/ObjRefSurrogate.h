@@ -12,6 +12,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System::Runtime::Remoting::Messaging
 {
+	inline static constexpr unsigned int ObjRefSurrogate_TypeDefinitionIndex = 1331;
+
 	class ObjRefSurrogate : public ::System::Object
 	{
 	public:

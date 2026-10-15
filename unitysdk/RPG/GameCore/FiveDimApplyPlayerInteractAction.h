@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FiveDimApplyPlayerInteractAction; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimApplyPlayerInteractAction_TypeDefinitionIndex = 18767;
+
 	class FiveDimApplyPlayerInteractAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
 	public:

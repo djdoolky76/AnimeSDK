@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FourRotateVoxelEntranceConfig_TypeDefinitionIndex = 16754;
+
 	class FourRotateVoxelEntranceConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
 	public:

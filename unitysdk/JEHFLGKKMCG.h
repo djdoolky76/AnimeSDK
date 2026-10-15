@@ -8,6 +8,8 @@ class JEHFLGKKMCG;
 #define JEHFLGKKMCG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D01E550)
 #define JEHFLGKKMCG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D01E2E0)
 
+inline static constexpr unsigned int JEHFLGKKMCG_TypeDefinitionIndex = 13522;
+
 	class JEHFLGKKMCG : public ::System::Object
 	{
 	public:

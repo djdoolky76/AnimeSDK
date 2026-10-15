@@ -36,6 +36,8 @@ namespace System { class String; }
 #define AAFBNNALHDK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DDB9160)
 #define AAFBNNALHDK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DDB91C0)
 
+inline static constexpr unsigned int AAFBNNALHDK_TypeDefinitionIndex = 33750;
+
 	class AAFBNNALHDK : public ::System::Object
 	{
 	public:

@@ -23,6 +23,8 @@ namespace UnityEngine::Events { class UnityAction; }
 
 namespace TMPro
 {
+	inline static constexpr unsigned int ColorTween_TypeDefinitionIndex = 44551;
+
 	struct alignas(8) ColorTween
 	{
 		::TMPro::ColorTween_ColorTweenCallback* m_Target; // 0x10

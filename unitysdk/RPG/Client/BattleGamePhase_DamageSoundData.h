@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BattleGamePhase_DamageSoundData_TypeDefinitionIndex = 60962;
+
 	struct alignas(8) BattleGamePhase_DamageSoundData
 	{
 		::RPG::GameCore::GameEntity* Target; // 0x10

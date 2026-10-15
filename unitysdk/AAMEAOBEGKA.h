@@ -27,6 +27,8 @@ namespace System { class String; }
 #define AAMEAOBEGKA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DDBFF70)
 #define AAMEAOBEGKA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DDBFFD0)
 
+inline static constexpr unsigned int AAMEAOBEGKA_TypeDefinitionIndex = 29558;
+
 	class AAMEAOBEGKA : public ::System::Object
 	{
 	public:

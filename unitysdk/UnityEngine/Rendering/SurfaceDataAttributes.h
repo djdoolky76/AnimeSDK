@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int SurfaceDataAttributes_TypeDefinitionIndex = 35575;
+
 	class SurfaceDataAttributes : public ::System::Attribute
 	{
 	public:

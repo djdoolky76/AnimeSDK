@@ -13,6 +13,8 @@
 
 namespace Cinemachine
 {
+	inline static constexpr unsigned int CinemachineSameAsFollowTarget_TypeDefinitionIndex = 39788;
+
 	class CinemachineSameAsFollowTarget : public ::Cinemachine::CinemachineComponentBase
 	{
 	public:

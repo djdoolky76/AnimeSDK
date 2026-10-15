@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int JDEKPPKFFIB_CounterType_TypeDefinitionIndex = 71403;
+
 	enum class JDEKPPKFFIB_CounterType : ::System::Int32
 	{
 		Hide = 1,

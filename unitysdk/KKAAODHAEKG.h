@@ -7,6 +7,8 @@ namespace RPG::GameCore { class MarbleAddSkill; }
 #define KKAAODHAEKG_CTOR_OFFSET UNITYSDK_OFFSET(0x1C905520)
 #define KKAAODHAEKG_KDNAAOHECPD_OFFSET UNITYSDK_OFFSET(0x1C905530)
 
+inline static constexpr unsigned int KKAAODHAEKG_TypeDefinitionIndex = 43126;
+
 	class KKAAODHAEKG : public ::BKABEBEPPJK
 	{
 	public:

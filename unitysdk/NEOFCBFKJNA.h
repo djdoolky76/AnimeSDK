@@ -6,6 +6,8 @@ namespace System { class Object; }
 
 #define NEOFCBFKJNA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C92E310)
 
+inline static constexpr unsigned int NEOFCBFKJNA_TypeDefinitionIndex = 42437;
+
 	class NEOFCBFKJNA : public ::System::Object
 	{
 	public:

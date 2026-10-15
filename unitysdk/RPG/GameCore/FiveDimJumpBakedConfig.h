@@ -9,6 +9,8 @@ namespace RPG::GameCore { class FiveDimJumpBakedConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimJumpBakedConfig_TypeDefinitionIndex = 16653;
+
 	class FiveDimJumpBakedConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

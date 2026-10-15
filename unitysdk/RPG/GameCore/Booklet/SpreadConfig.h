@@ -11,6 +11,8 @@ namespace RPG::GameCore::Booklet { class SpreadStepConfig; }
 
 namespace RPG::GameCore::Booklet
 {
+	inline static constexpr unsigned int SpreadConfig_TypeDefinitionIndex = 24962;
+
 	class SpreadConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -6,6 +6,8 @@
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int UserAgreementDefine_TypeDefinitionIndex = 7585;
+
 	class UserAgreementDefine : public ::System::Object
 	{
 	public:

@@ -16,6 +16,8 @@ namespace System { class String; }
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int IdleLiveGachaWorldTagConfig_TypeDefinitionIndex = 75262;
+
 	class IdleLiveGachaWorldTagConfig : public ::System::Object
 	{
 	public:

@@ -20,6 +20,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::Client::BlindBox::Trade
 {
+	inline static constexpr unsigned int BlindBoxTradePublishOrderFriendSettings_TypeDefinitionIndex = 74886;
+
 	class BlindBoxTradePublishOrderFriendSettings : public ::System::Object
 	{
 	public:

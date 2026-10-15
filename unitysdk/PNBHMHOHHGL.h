@@ -6,6 +6,8 @@ namespace System { class String; }
 
 #define PNBHMHOHHGL_CTOR_OFFSET UNITYSDK_OFFSET(0xC332E30)
 
+inline static constexpr unsigned int PNBHMHOHHGL_TypeDefinitionIndex = 64784;
+
 	class PNBHMHOHHGL : public ::System::Object
 	{
 	public:

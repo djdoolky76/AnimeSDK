@@ -15,6 +15,8 @@ namespace Entitas { class IEntity; }
 #define JPIOGANPNOM__ONDITHERZEROVALUECHANGE_OFFSET UNITYSDK_OFFSET(0xB2C4650)
 #define JPIOGANPNOM__ONTEARDOWN_OFFSET UNITYSDK_OFFSET(0xB2C46B0)
 
+inline static constexpr unsigned int JPIOGANPNOM_TypeDefinitionIndex = 76921;
+
 	class JPIOGANPNOM
 	{
 	public:

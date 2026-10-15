@@ -17,6 +17,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::UI3DGame
 {
+	inline static constexpr unsigned int MonopolyGroundBubblePanelParam_TypeDefinitionIndex = 75813;
+
 	class MonopolyGroundBubblePanelParam : public ::System::Object
 	{
 	public:

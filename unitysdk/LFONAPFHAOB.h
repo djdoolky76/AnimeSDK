@@ -27,6 +27,8 @@ namespace System { class String; }
 #define LFONAPFHAOB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9471A0)
 #define LFONAPFHAOB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E947200)
 
+inline static constexpr unsigned int LFONAPFHAOB_TypeDefinitionIndex = 29523;
+
 	class LFONAPFHAOB : public ::System::Object
 	{
 	public:

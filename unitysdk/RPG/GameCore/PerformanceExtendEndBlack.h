@@ -10,6 +10,8 @@ namespace RPG::GameCore { class PerformanceExtendEndBlack; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PerformanceExtendEndBlack_TypeDefinitionIndex = 21919;
+
 	class PerformanceExtendEndBlack : public ::RPG::GameCore::TaskConfig
 	{
 	public:

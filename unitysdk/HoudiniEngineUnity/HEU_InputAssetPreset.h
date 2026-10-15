@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_InputAssetPreset_TypeDefinitionIndex = 40368;
+
 	class HEU_InputAssetPreset : public ::System::Object
 	{
 	public:

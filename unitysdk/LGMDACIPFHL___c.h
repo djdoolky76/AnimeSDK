@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define LGMDACIPFHL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E956CF0)
 #define LGMDACIPFHL___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E956D00)
 
+inline static constexpr unsigned int LGMDACIPFHL___c_TypeDefinitionIndex = 30780;
+
 	class LGMDACIPFHL___c : public ::System::Object
 	{
 	public:

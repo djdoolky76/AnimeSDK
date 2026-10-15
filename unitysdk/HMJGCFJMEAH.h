@@ -11,6 +11,8 @@ namespace System { class Nullable; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
+inline static constexpr unsigned int HMJGCFJMEAH_TypeDefinitionIndex = 55539;
+
 	struct alignas(8) HMJGCFJMEAH
 	{
 		::System::Nullable* CAGCHKJHMPD; // 0x10

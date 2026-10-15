@@ -6,6 +6,8 @@ namespace System { class Action; }
 
 namespace RPG::Client::LittleGame::PixAir
 {
+	inline static constexpr unsigned int PixAirProjectileView___O_TypeDefinitionIndex = 77327;
+
 	class PixAirProjectileView___O : public ::System::Object
 	{
 	public:

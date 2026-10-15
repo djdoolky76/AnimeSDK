@@ -7,6 +7,8 @@ class EFHNDMENDHI;
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace System { template <typename T> class Comparison_1; }
 
+inline static constexpr unsigned int JCPMPPGBBBF___O_TypeDefinitionIndex = 76576;
+
 	class JCPMPPGBBBF___O : public ::System::Object
 	{
 	public:

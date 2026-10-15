@@ -19,6 +19,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPGCamera
 {
+	inline static constexpr unsigned int CameraStatePostProcesser_TypeDefinitionIndex = 45951;
+
 	class CameraStatePostProcesser : public ::System::Object
 	{
 	public:

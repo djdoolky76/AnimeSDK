@@ -15,6 +15,8 @@ namespace UnityEngine { class Transform; }
 #define CJIANKCKLKA_ONSPAWNASYNC_OFFSET UNITYSDK_OFFSET(0xD2127E0)
 #define CJIANKCKLKA_USELIGHTWEIGHTDEACTIVE_OFFSET UNITYSDK_OFFSET(0xD212C60)
 
+inline static constexpr unsigned int CJIANKCKLKA_TypeDefinitionIndex = 68662;
+
 	class CJIANKCKLKA : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define OINELIEEALB_NEKBPPIDBFP_OFFSET UNITYSDK_OFFSET(0x1D286F70)
 #define OINELIEEALB_PPINHELIKIM_OFFSET UNITYSDK_OFFSET(0x1D286DA0)
 
+inline static constexpr unsigned int OINELIEEALB_TypeDefinitionIndex = 24847;
+
 	class OINELIEEALB : public ::System::Object
 	{
 	public:

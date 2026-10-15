@@ -8,6 +8,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightTraitCoreRoleChooseAction_TypeDefinitionIndex = 65361;
+
 	class GridFightTraitCoreRoleChooseAction : public ::RPG::Client::GridFightTraitChooseBaseAction
 	{
 	public:

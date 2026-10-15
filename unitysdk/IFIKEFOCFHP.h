@@ -9,6 +9,8 @@ namespace UnityEngine { class Animator; }
 #define IFIKEFOCFHP_FLIOAFDEMCN_OFFSET UNITYSDK_OFFSET(0x15F18EC0)
 #define IFIKEFOCFHP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15F18D70)
 
+inline static constexpr unsigned int IFIKEFOCFHP_TypeDefinitionIndex = 55488;
+
 	class IFIKEFOCFHP
 	{
 	public:

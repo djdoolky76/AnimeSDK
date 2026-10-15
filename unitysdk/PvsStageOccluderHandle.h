@@ -4,6 +4,8 @@
 
 #define PVSSTAGEOCCLUDERHANDLE_CTOR_OFFSET UNITYSDK_OFFSET(0xC39C670)
 
+inline static constexpr unsigned int PvsStageOccluderHandle_TypeDefinitionIndex = 47402;
+
 	class PvsStageOccluderHandle : public ::UnityEngine::MonoBehaviour
 	{
 	public:

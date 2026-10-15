@@ -9,6 +9,8 @@ namespace Mono::Globalization::Unicode { class CodePointIndexer; }
 
 namespace Mono::Globalization::Unicode
 {
+	inline static constexpr unsigned int NormalizationTableUtil_TypeDefinitionIndex = 38;
+
 	class NormalizationTableUtil : public ::System::Object
 	{
 	public:

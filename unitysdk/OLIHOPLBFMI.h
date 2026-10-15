@@ -4,6 +4,8 @@
 
 #define OLIHOPLBFMI_CTOR_OFFSET UNITYSDK_OFFSET(0xBF0D510)
 
+inline static constexpr unsigned int OLIHOPLBFMI_TypeDefinitionIndex = 49036;
+
 	class OLIHOPLBFMI : public ::System::Object
 	{
 	public:

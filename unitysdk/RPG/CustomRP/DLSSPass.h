@@ -44,6 +44,8 @@ namespace UnityEngine::Rendering { class CommandBuffer; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int DLSSPass_TypeDefinitionIndex = 37553;
+
 	class DLSSPass : public ::System::Object
 	{
 	public:

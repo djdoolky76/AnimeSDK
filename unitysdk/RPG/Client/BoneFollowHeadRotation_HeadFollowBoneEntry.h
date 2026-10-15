@@ -10,6 +10,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BoneFollowHeadRotation_HeadFollowBoneEntry_TypeDefinitionIndex = 68443;
+
 	class BoneFollowHeadRotation_HeadFollowBoneEntry : public ::System::Object
 	{
 	public:

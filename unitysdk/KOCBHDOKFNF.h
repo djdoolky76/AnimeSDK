@@ -28,6 +28,8 @@ namespace System { class String; }
 #define KOCBHDOKFNF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E8ADDE0)
 #define KOCBHDOKFNF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E8ADE40)
 
+inline static constexpr unsigned int KOCBHDOKFNF_TypeDefinitionIndex = 27721;
+
 	class KOCBHDOKFNF : public ::System::Object
 	{
 	public:

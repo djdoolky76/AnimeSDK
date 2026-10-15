@@ -16,6 +16,8 @@ namespace System { class String; }
 #define JDALBFCHGNK_SET_RARITYCOEFFICIENT_OFFSET UNITYSDK_OFFSET(0x165BE220)
 #define JDALBFCHGNK_SET_SUBAFFIXSCORE_OFFSET UNITYSDK_OFFSET(0x165BE200)
 
+inline static constexpr unsigned int JDALBFCHGNK_TypeDefinitionIndex = 74433;
+
 	class JDALBFCHGNK : public ::System::Object
 	{
 	public:

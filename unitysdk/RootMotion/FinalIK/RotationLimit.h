@@ -21,6 +21,8 @@ namespace System { class String; }
 
 namespace RootMotion::FinalIK
 {
+	inline static constexpr unsigned int RotationLimit_TypeDefinitionIndex = 46025;
+
 	class RotationLimit : public ::UnityEngine::MonoBehaviour
 	{
 	public:

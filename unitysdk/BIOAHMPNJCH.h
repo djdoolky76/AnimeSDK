@@ -22,6 +22,8 @@ namespace RPG::Client::Promises { class Promise; }
 #define BIOAHMPNJCH_ONIPNAILHIH_OFFSET UNITYSDK_OFFSET(0xB794590)
 #define BIOAHMPNJCH_PDAIJMDEAAF_OFFSET UNITYSDK_OFFSET(0xB7950E0)
 
+inline static constexpr unsigned int BIOAHMPNJCH_TypeDefinitionIndex = 82073;
+
 	class BIOAHMPNJCH : public ::System::Object
 	{
 	public:

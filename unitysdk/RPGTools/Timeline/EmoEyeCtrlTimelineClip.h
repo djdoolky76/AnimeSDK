@@ -19,6 +19,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int EmoEyeCtrlTimelineClip_TypeDefinitionIndex = 48112;
+
 	class EmoEyeCtrlTimelineClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

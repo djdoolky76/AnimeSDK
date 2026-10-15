@@ -7,6 +7,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MessageContentGotoBlock_AvatarGuideGotoCommand_TypeDefinitionIndex = 63245;
+
 	class MessageContentGotoBlock_AvatarGuideGotoCommand : public ::System::Object
 	{
 	public:

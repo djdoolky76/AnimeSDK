@@ -44,6 +44,8 @@ namespace System { class String; }
 #define AMEEHIIPMFP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E51BE60)
 #define AMEEHIIPMFP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E51BEC0)
 
+inline static constexpr unsigned int AMEEHIIPMFP_TypeDefinitionIndex = 29637;
+
 	class AMEEHIIPMFP : public ::System::Object
 	{
 	public:

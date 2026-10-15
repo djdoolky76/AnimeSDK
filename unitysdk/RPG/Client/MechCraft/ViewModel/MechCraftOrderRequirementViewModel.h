@@ -18,6 +18,8 @@ namespace RPG::Client::MechCraft::ViewModel { class MechCraftOrderOptionalCondit
 
 namespace RPG::Client::MechCraft::ViewModel
 {
+	inline static constexpr unsigned int MechCraftOrderRequirementViewModel_TypeDefinitionIndex = 79664;
+
 	class MechCraftOrderRequirementViewModel : public ::Sofa::Core::ObservableObject
 	{
 	public:

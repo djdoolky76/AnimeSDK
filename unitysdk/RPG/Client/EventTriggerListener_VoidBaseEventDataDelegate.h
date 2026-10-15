@@ -14,6 +14,8 @@ namespace UnityEngine::EventSystems { class BaseEventData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int EventTriggerListener_VoidBaseEventDataDelegate_TypeDefinitionIndex = 72531;
+
 	class EventTriggerListener_VoidBaseEventDataDelegate : public ::System::MulticastDelegate
 	{
 	public:

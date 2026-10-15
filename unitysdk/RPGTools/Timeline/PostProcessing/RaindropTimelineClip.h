@@ -13,6 +13,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline::PostProcessing
 {
+	inline static constexpr unsigned int RaindropTimelineClip_TypeDefinitionIndex = 48606;
+
 	class RaindropTimelineClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

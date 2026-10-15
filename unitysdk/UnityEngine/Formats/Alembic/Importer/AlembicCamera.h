@@ -15,6 +15,8 @@ namespace UnityEngine { class Camera; }
 
 namespace UnityEngine::Formats::Alembic::Importer
 {
+	inline static constexpr unsigned int AlembicCamera_TypeDefinitionIndex = 45851;
+
 	class AlembicCamera : public ::UnityEngine::Formats::Alembic::Importer::AlembicElement
 	{
 	public:

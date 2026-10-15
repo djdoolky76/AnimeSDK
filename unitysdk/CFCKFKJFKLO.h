@@ -15,6 +15,8 @@ namespace R3 { template <typename T> class ReadOnlyReactiveProperty_1; }
 #define CFCKFKJFKLO_LDKMIKEMHFO_OFFSET UNITYSDK_OFFSET(0xCA08C30)
 #define CFCKFKJFKLO_SET_CONDITIONDESC_OFFSET UNITYSDK_OFFSET(0xCA08C20)
 
+inline static constexpr unsigned int CFCKFKJFKLO_TypeDefinitionIndex = 79564;
+
 	class CFCKFKJFKLO : public ::System::Object
 	{
 	public:

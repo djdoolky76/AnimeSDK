@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BoxingClubUIStageEnum_TypeDefinitionIndex = 62955;
+
 	enum class BoxingClubUIStageEnum : ::System::Int32
 	{
 		PreEditTeamMode = 1,

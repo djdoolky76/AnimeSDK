@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace RPG::Client::LittleGame::ChenLing
 {
+	inline static constexpr unsigned int ChenLingEffectProfilerDebugView_ReasonRow_TypeDefinitionIndex = 77844;
+
 	class ChenLingEffectProfilerDebugView_ReasonRow : public ::System::Object
 	{
 	public:

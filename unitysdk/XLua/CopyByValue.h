@@ -358,6 +358,8 @@ namespace XLua { class ObjectTranslator; }
 
 namespace XLua
 {
+	inline static constexpr unsigned int CopyByValue_TypeDefinitionIndex = 50090;
+
 	class CopyByValue : public ::System::Object
 	{
 	public:

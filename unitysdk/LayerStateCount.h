@@ -10,6 +10,8 @@ namespace UnityEngine { class Animator; }
 #define LAYERSTATECOUNT_ONSTATEEXIT_OFFSET UNITYSDK_OFFSET(0xB837530)
 #define LAYERSTATECOUNT_ONSTATEUPDATE_OFFSET UNITYSDK_OFFSET(0xB8373E0)
 
+inline static constexpr unsigned int LayerStateCount_TypeDefinitionIndex = 47273;
+
 	class LayerStateCount : public ::UnityEngine::StateMachineBehaviour
 	{
 	public:

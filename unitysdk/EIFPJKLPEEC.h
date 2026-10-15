@@ -8,6 +8,8 @@ namespace RPG::Client { class PlayerModule; }
 #define EIFPJKLPEEC_CTOR_OFFSET UNITYSDK_OFFSET(0x154C4BA0)
 #define EIFPJKLPEEC_JDEEHBPNCPH_OFFSET UNITYSDK_OFFSET(0x154C49F0)
 
+inline static constexpr unsigned int EIFPJKLPEEC_TypeDefinitionIndex = 81056;
+
 	class EIFPJKLPEEC : public ::System::Object
 	{
 	public:

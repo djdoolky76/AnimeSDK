@@ -10,6 +10,8 @@ class DHBOGGBEMFF;
 #define EEFBIGDCEHO_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x13A2B310)
 #define EEFBIGDCEHO_NEKGALPLEOH_OFFSET UNITYSDK_OFFSET(0x13A2B390)
 
+inline static constexpr unsigned int EEFBIGDCEHO_TypeDefinitionIndex = 47354;
+
 	class EEFBIGDCEHO : public ::StageHarmonyLightModLinkSlot
 	{
 	public:

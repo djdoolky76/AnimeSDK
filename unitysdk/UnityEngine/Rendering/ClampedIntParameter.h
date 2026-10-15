@@ -8,6 +8,8 @@
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int ClampedIntParameter_TypeDefinitionIndex = 35631;
+
 	class ClampedIntParameter : public ::UnityEngine::Rendering::IntParameter
 	{
 	public:

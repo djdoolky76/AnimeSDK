@@ -33,6 +33,8 @@ namespace System { class String; }
 #define NJBNEBEFNEC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB3BCD0)
 #define NJBNEBEFNEC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB3BD30)
 
+inline static constexpr unsigned int NJBNEBEFNEC_TypeDefinitionIndex = 30803;
+
 	class NJBNEBEFNEC : public ::System::Object
 	{
 	public:

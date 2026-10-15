@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EventStuffConfigExcelTable_TypeDefinitionIndex = 14238;
+
 	class EventStuffConfigExcelTable : public ::System::Object
 	{
 	public:

@@ -5,6 +5,8 @@ namespace RPG::GameCore { class ActivityHipplenStatConfigRow; }
 
 namespace RPG::Client::ActivityHipplen
 {
+	inline static constexpr unsigned int StatusViewData_TypeDefinitionIndex = 75490;
+
 	struct alignas(8) StatusViewData
 	{
 		::RPG::GameCore::HipplenStatType StatType; // 0x10

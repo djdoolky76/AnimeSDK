@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int DataUploadReport_TypeDefinitionIndex = 7973;
+
 	class DataUploadReport : public ::System::Object
 	{
 	public:

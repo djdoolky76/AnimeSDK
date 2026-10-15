@@ -31,6 +31,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define LKHGIONKMPM_MNOJNPNILLP_1_OFFSET UNITYSDK_OFFSET(0xB74CA70)
 #define LKHGIONKMPM_MNOJNPNILLP_OFFSET UNITYSDK_OFFSET(0xB74BD70)
 
+inline static constexpr unsigned int LKHGIONKMPM_TypeDefinitionIndex = 67521;
+
 	class LKHGIONKMPM : public ::System::Object
 	{
 	public:

@@ -3,6 +3,8 @@
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int SSGIRayMarchingQuality_TypeDefinitionIndex = 4849;
+
 	enum class SSGIRayMarchingQuality : ::System::Int32
 	{
 		Low = 0,

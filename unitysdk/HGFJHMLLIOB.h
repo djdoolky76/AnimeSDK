@@ -22,6 +22,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define HGFJHMLLIOB_ONPLUGINUNINIT_OFFSET UNITYSDK_OFFSET(0x15C98410)
 #define HGFJHMLLIOB_SET_SNAPSHOTPROCESSOR_OFFSET UNITYSDK_OFFSET(0x15C98F00)
 
+inline static constexpr unsigned int HGFJHMLLIOB_TypeDefinitionIndex = 54120;
+
 	class HGFJHMLLIOB : public ::System::Object
 	{
 	public:

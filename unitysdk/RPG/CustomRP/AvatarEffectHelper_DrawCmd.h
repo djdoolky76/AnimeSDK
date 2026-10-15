@@ -8,6 +8,8 @@ namespace UnityEngine { class Renderer; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int AvatarEffectHelper_DrawCmd_TypeDefinitionIndex = 37590;
+
 	struct alignas(8) AvatarEffectHelper_DrawCmd
 	{
 		::UnityEngine::Renderer* render; // 0x10

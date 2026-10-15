@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define AJNCJAAOLJA_CTOR_OFFSET UNITYSDK_OFFSET(0x12CC7AC0)
 #define AJNCJAAOLJA_EVALUATE_OFFSET UNITYSDK_OFFSET(0x12CC7B10)
 
+inline static constexpr unsigned int AJNCJAAOLJA_TypeDefinitionIndex = 59221;
+
 	class AJNCJAAOLJA
 	{
 	public:

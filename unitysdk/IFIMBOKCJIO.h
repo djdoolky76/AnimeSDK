@@ -35,6 +35,8 @@ namespace UnityEngine::UI { class Text; }
 #define IFIMBOKCJIO__ONBIND_OFFSET UNITYSDK_OFFSET(0x15F19080)
 #define IFIMBOKCJIO__ONTICK_OFFSET UNITYSDK_OFFSET(0x15F19970)
 
+inline static constexpr unsigned int IFIMBOKCJIO_TypeDefinitionIndex = 72107;
+
 	class IFIMBOKCJIO : public ::FMPCODLIOLG
 	{
 	public:

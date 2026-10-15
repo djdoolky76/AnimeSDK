@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define CAEEGDLCCEE_CTOR_OFFSET UNITYSDK_OFFSET(0xC1BE4C0)
 #define CAEEGDLCCEE_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC1BE510)
 
+inline static constexpr unsigned int CAEEGDLCCEE_TypeDefinitionIndex = 59137;
+
 	class CAEEGDLCCEE
 	{
 	public:

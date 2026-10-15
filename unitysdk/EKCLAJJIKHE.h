@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define EKCLAJJIKHE_CTOR_OFFSET UNITYSDK_OFFSET(0x154FEE60)
 #define EKCLAJJIKHE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x154FEE90)
 
+inline static constexpr unsigned int EKCLAJJIKHE_TypeDefinitionIndex = 58560;
+
 	class EKCLAJJIKHE
 	{
 	public:

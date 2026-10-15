@@ -23,6 +23,8 @@ namespace System::Text { class StringBuilder; }
 #define DPOHJOFCIKP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x126619F0)
 #define DPOHJOFCIKP__CLONE___OFFSET UNITYSDK_OFFSET(0x12662160)
 
+inline static constexpr unsigned int DPOHJOFCIKP_TypeDefinitionIndex = 82069;
+
 	class DPOHJOFCIKP : public ::System::Object
 	{
 	public:

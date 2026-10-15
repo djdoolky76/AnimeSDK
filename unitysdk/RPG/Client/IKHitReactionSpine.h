@@ -8,6 +8,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int IKHitReactionSpine_TypeDefinitionIndex = 68456;
+
 	class IKHitReactionSpine : public ::System::Object
 	{
 	public:

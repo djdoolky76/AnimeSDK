@@ -33,6 +33,8 @@ namespace UnityEngine { class Mesh; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int CapsuleOcclusion_TypeDefinitionIndex = 51883;
+
 	class CapsuleOcclusion : public ::UnityEngine::MonoBehaviour
 	{
 	public:

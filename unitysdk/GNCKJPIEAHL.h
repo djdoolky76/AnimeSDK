@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define GNCKJPIEAHL_CTOR_OFFSET UNITYSDK_OFFSET(0x15AFE040)
 #define GNCKJPIEAHL_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15AFE120)
 
+inline static constexpr unsigned int GNCKJPIEAHL_TypeDefinitionIndex = 57985;
+
 	class GNCKJPIEAHL
 	{
 	public:

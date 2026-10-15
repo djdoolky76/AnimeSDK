@@ -17,6 +17,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 #define OAACJHDBEOE__BLOCKS_D__0_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1C4C8C40)
 #define OAACJHDBEOE__BLOCKS_D__0_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1C4C89A0)
 
+inline static constexpr unsigned int OAACJHDBEOE__Blocks_d__0_TypeDefinitionIndex = 41493;
+
 	class OAACJHDBEOE__Blocks_d__0 : public ::System::Object
 	{
 	public:

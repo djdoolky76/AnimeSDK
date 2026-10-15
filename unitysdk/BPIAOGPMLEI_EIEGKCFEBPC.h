@@ -5,6 +5,8 @@ namespace RPG::GameCore { class GameEntity; }
 
 #define BPIAOGPMLEI_EIEGKCFEBPC_CTOR_OFFSET UNITYSDK_OFFSET(0xC1A6060)
 
+inline static constexpr unsigned int BPIAOGPMLEI_EIEGKCFEBPC_TypeDefinitionIndex = 71789;
+
 	class BPIAOGPMLEI_EIEGKCFEBPC : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ApplyMonsterPhaseOverrideConfig_TypeDefinitionIndex = 22732;
+
 	class ApplyMonsterPhaseOverrideConfig : public ::RPG::GameCore::TaskConfig
 	{
 	public:

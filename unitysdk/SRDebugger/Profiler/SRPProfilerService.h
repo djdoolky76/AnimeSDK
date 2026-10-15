@@ -25,6 +25,8 @@ namespace UnityEngine { class WaitForEndOfFrame; }
 
 namespace SRDebugger::Profiler
 {
+	inline static constexpr unsigned int SRPProfilerService_TypeDefinitionIndex = 38094;
+
 	class SRPProfilerService
 	{
 	public:

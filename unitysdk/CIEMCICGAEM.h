@@ -63,6 +63,8 @@ namespace UnityEngine::UI { class Text; }
 #define CIEMCICGAEM__ONDISPOSE_OFFSET UNITYSDK_OFFSET(0xCF6BC00)
 #define CIEMCICGAEM__ONTICK_OFFSET UNITYSDK_OFFSET(0xCF6BA30)
 
+inline static constexpr unsigned int CIEMCICGAEM_TypeDefinitionIndex = 71848;
+
 	class CIEMCICGAEM : public ::FMPCODLIOLG
 	{
 	public:

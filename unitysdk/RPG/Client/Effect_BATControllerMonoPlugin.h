@@ -11,6 +11,8 @@ namespace UnityEngine { class Texture2D; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Effect_BATControllerMonoPlugin_TypeDefinitionIndex = 70433;
+
 	class Effect_BATControllerMonoPlugin
 	{
 	public:

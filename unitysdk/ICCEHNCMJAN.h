@@ -10,6 +10,8 @@ namespace System { class Object; }
 #define ICCEHNCMJAN_FEIIDFFOICL_OFFSET UNITYSDK_OFFSET(0x15E4C840)
 #define ICCEHNCMJAN_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x2E7FA60)
 
+inline static constexpr unsigned int ICCEHNCMJAN_TypeDefinitionIndex = 63854;
+
 	struct alignas(4) ICCEHNCMJAN
 	{
 		::System::UInt32 AHNBPKAGAIL; // 0x10

@@ -12,6 +12,8 @@ namespace UnityEngine { class GameObject; }
 #define JBMLJKFMLBC_KKHOMFOPFJA_OFFSET UNITYSDK_OFFSET(0x16574580)
 #define JBMLJKFMLBC__ONBIND_OFFSET UNITYSDK_OFFSET(0x165744B0)
 
+inline static constexpr unsigned int JBMLJKFMLBC_TypeDefinitionIndex = 71944;
+
 	class JBMLJKFMLBC : public ::FMPCODLIOLG
 	{
 	public:

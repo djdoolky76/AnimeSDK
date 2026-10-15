@@ -37,6 +37,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::ActivityHipplen
 {
+	inline static constexpr unsigned int HipplenGameBoard_TypeDefinitionIndex = 75541;
+
 	class HipplenGameBoard : public ::RPG::Client::Prop::PuzzleBoardBase
 	{
 	public:

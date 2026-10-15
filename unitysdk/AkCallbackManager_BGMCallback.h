@@ -11,6 +11,8 @@ namespace System { class Object; }
 #define AKCALLBACKMANAGER_BGMCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F581830)
 #define AKCALLBACKMANAGER_BGMCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F580AF0)
 
+inline static constexpr unsigned int AkCallbackManager_BGMCallback_TypeDefinitionIndex = 44828;
+
 	class AkCallbackManager_BGMCallback : public ::System::MulticastDelegate
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System { class Action; }
 
 namespace Cysharp::Threading::Tasks
 {
+	inline static constexpr unsigned int ReturnToMainThread_Awaiter_TypeDefinitionIndex = 38366;
+
 	struct alignas(4) ReturnToMainThread_Awaiter
 	{
 		::Cysharp::Threading::Tasks::PlayerLoopTiming timing; // 0x10

@@ -6,6 +6,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define SHADERPROPERTYPROFILE_CTOR_OFFSET UNITYSDK_OFFSET(0xE969810)
 
+inline static constexpr unsigned int ShaderPropertyProfile_TypeDefinitionIndex = 47551;
+
 	class ShaderPropertyProfile : public ::UnityEngine::ScriptableObject
 	{
 	public:

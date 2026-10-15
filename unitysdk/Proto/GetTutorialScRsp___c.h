@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace Proto
 {
+	inline static constexpr unsigned int GetTutorialScRsp___c_TypeDefinitionIndex = 35043;
+
 	class GetTutorialScRsp___c : public ::System::Object
 	{
 	public:

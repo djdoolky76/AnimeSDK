@@ -12,6 +12,8 @@ namespace System { class Object; }
 #define FKDCNNCPAKH_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x157E7470)
 #define FKDCNNCPAKH_TICK_OFFSET UNITYSDK_OFFSET(0x157E74C0)
 
+inline static constexpr unsigned int FKDCNNCPAKH_TypeDefinitionIndex = 58911;
+
 	class FKDCNNCPAKH : public ::GELIALJDFBL
 	{
 	public:

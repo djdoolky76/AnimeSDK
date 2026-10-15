@@ -6,6 +6,8 @@
 
 namespace RPG::Client::NavMap
 {
+	inline static constexpr unsigned int SectionBoundsParam_TypeDefinitionIndex = 74531;
+
 	class SectionBoundsParam : public ::System::Object
 	{
 	public:

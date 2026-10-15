@@ -23,6 +23,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::PetDiy
 {
+	inline static constexpr unsigned int PetDiyCameraController_TypeDefinitionIndex = 74482;
+
 	class PetDiyCameraController : public ::System::Object
 	{
 	public:

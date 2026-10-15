@@ -16,6 +16,8 @@ namespace UnityEngine::Playables { class PlayableDirector; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PlayableBindingControl_TypeDefinitionIndex = 69745;
+
 	class PlayableBindingControl : public ::System::Object
 	{
 	public:

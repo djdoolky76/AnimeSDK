@@ -7,6 +7,8 @@
 
 namespace InControl::UnityDeviceProfiles
 {
+	inline static constexpr unsigned int AndroidTVMiBoxRemoteUnityProfile_TypeDefinitionIndex = 40936;
+
 	class AndroidTVMiBoxRemoteUnityProfile : public ::InControl::InputDeviceProfile
 	{
 	public:

@@ -12,6 +12,8 @@ namespace UnityEngine::UI { class Graphic; }
 
 namespace UnityEngine::UI
 {
+	inline static constexpr unsigned int GraphicRaycaster___c_TypeDefinitionIndex = 6721;
+
 	class GraphicRaycaster___c : public ::System::Object
 	{
 	public:

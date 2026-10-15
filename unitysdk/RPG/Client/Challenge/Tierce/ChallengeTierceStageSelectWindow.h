@@ -14,6 +14,8 @@ namespace RPG::Client::Challenge::Tierce { class ChallengeTierceStageSelectViewM
 
 namespace RPG::Client::Challenge::Tierce
 {
+	inline static constexpr unsigned int ChallengeTierceStageSelectWindow_TypeDefinitionIndex = 81562;
+
 	class ChallengeTierceStageSelectWindow : public ::Sofa::BaseSofaWindow
 	{
 	public:

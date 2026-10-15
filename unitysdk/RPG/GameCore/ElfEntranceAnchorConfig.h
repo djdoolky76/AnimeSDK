@@ -9,6 +9,8 @@ namespace RPG::GameCore { class ElfEntranceAnchorConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ElfEntranceAnchorConfig_TypeDefinitionIndex = 16191;
+
 	class ElfEntranceAnchorConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

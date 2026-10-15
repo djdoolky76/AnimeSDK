@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define LDBOCEIMACL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8F2940)
 #define LDBOCEIMACL___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E8F2950)
 
+inline static constexpr unsigned int LDBOCEIMACL___c_TypeDefinitionIndex = 27239;
+
 	class LDBOCEIMACL___c : public ::System::Object
 	{
 	public:

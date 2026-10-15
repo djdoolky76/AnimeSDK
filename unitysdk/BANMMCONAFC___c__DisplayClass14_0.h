@@ -8,6 +8,8 @@ namespace System { class Action; }
 #define BANMMCONAFC___C__DISPLAYCLASS14_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15E7DA40)
 #define BANMMCONAFC___C__DISPLAYCLASS14_0___DRAWLASER_B__0_OFFSET UNITYSDK_OFFSET(0x15E7DB80)
 
+inline static constexpr unsigned int BANMMCONAFC___c__DisplayClass14_0_TypeDefinitionIndex = 77900;
+
 	class BANMMCONAFC___c__DisplayClass14_0 : public ::System::Object
 	{
 	public:

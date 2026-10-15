@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ApplyBattleGM; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ApplyBattleGM_TypeDefinitionIndex = 23423;
+
 	class ApplyBattleGM : public ::RPG::GameCore::TaskConfig
 	{
 	public:

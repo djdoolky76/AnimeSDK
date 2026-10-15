@@ -9,6 +9,8 @@ namespace RPG::GameCore { class RogueDLCBlockWeight; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueDLCBlockWeight_TypeDefinitionIndex = 17911;
+
 	class RogueDLCBlockWeight : public ::RPG::GameCore::JsonConfig
 	{
 	public:

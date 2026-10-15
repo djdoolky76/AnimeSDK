@@ -10,6 +10,8 @@ namespace RPG::GameCore { class MatchThreeScoreCurveRow; }
 #define MJAOIAHENKN_IODJPPLKCEF_OFFSET UNITYSDK_OFFSET(0x1C92C1C0)
 #define MJAOIAHENKN_JHCPJOOLJEC_OFFSET UNITYSDK_OFFSET(0x1C92C430)
 
+inline static constexpr unsigned int MJAOIAHENKN_TypeDefinitionIndex = 42308;
+
 	class MJAOIAHENKN : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline::Audio
 {
+	inline static constexpr unsigned int WwiseEventTimelineTrack_TypeDefinitionIndex = 48839;
+
 	class WwiseEventTimelineTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierPersonaRoomCardForceWashIfSelectCon
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierPersonaRoomCardForceWashIfSelectConfig_TypeDefinitionIndex = 17816;
+
 	class RogueModifierPersonaRoomCardForceWashIfSelectConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

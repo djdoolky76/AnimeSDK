@@ -10,6 +10,8 @@ namespace RPG::GameCore { class SetPerformanceResult; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetPerformanceResult_TypeDefinitionIndex = 21934;
+
 	class SetPerformanceResult : public ::RPG::GameCore::TaskConfig
 	{
 	public:

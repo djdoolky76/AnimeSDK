@@ -2,6 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
+inline static constexpr unsigned int NJCKELEOKMA_TypeDefinitionIndex = 43198;
+
 	class NJCKELEOKMA : public ::System::Object
 	{
 	public:

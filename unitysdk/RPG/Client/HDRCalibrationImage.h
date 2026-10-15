@@ -10,6 +10,8 @@ namespace UnityEngine::UI { class Image; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int HDRCalibrationImage_TypeDefinitionIndex = 72804;
+
 	class HDRCalibrationImage : public ::UnityEngine::MonoBehaviour
 	{
 	public:

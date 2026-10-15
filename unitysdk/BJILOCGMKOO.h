@@ -9,6 +9,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 #define BJILOCGMKOO_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D80E850)
 #define BJILOCGMKOO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D80E810)
 
+inline static constexpr unsigned int BJILOCGMKOO_TypeDefinitionIndex = 22876;
+
 	class BJILOCGMKOO : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -23,6 +23,8 @@ namespace System { class String; }
 #define GPMFOHDCMFF_ONACQUIRE_OFFSET UNITYSDK_OFFSET(0x15B605B0)
 #define GPMFOHDCMFF_ONRETURN_OFFSET UNITYSDK_OFFSET(0x15B607B0)
 
+inline static constexpr unsigned int GPMFOHDCMFF_TypeDefinitionIndex = 71752;
+
 	class GPMFOHDCMFF : public ::FMPCODLIOLG
 	{
 	public:

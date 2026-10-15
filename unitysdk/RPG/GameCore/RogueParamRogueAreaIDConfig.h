@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueParamRogueAreaIDConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueParamRogueAreaIDConfig_TypeDefinitionIndex = 19841;
+
 	class RogueParamRogueAreaIDConfig : public ::RPG::GameCore::RogueParameterConfigBase
 	{
 	public:

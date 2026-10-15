@@ -9,6 +9,8 @@
 
 namespace RPG
 {
+	inline static constexpr unsigned int Vector4CurveFrame_TypeDefinitionIndex = 6340;
+
 	struct alignas(4) Vector4CurveFrame
 	{
 		::System::Single TimePoint; // 0x10

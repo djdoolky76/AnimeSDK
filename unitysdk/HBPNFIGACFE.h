@@ -23,6 +23,8 @@ namespace UnityEngine { class SkinnedMeshRenderer; }
 #define HBPNFIGACFE_OOIKNGPCKEA_OFFSET UNITYSDK_OFFSET(0x15C14BE0)
 #define HBPNFIGACFE_PDPAJEPEMIM_OFFSET UNITYSDK_OFFSET(0x15C14E50)
 
+inline static constexpr unsigned int HBPNFIGACFE_TypeDefinitionIndex = 57259;
+
 	class HBPNFIGACFE : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

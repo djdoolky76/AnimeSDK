@@ -11,6 +11,8 @@ namespace System { class Object; }
 
 #define EDCEPLBIKIN_CTOR_OFFSET UNITYSDK_OFFSET(0x1330F840)
 
+inline static constexpr unsigned int EDCEPLBIKIN_TypeDefinitionIndex = 53668;
+
 	class EDCEPLBIKIN : public ::System::Object
 	{
 	public:

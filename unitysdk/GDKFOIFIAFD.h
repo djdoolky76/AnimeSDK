@@ -29,6 +29,8 @@ namespace System { class String; }
 #define GDKFOIFIAFD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E44D050)
 #define GDKFOIFIAFD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E44D0B0)
 
+inline static constexpr unsigned int GDKFOIFIAFD_TypeDefinitionIndex = 32416;
+
 	class GDKFOIFIAFD : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@ namespace ObservableCollections { template <typename T> class ObservableList_1; 
 namespace RPG::Client { class ListView; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
+inline static constexpr unsigned int EEPGMAGJAGK_TypeDefinitionIndex = 49792;
+
 	class EEPGMAGJAGK : public ::System::Object
 	{
 	public:

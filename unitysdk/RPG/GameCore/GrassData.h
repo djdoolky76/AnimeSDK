@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GrassData_TypeDefinitionIndex = 19116;
+
 	class GrassData : public ::RPG::GameCore::JsonConfig
 	{
 	public:

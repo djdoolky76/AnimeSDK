@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define DKBDECKEION___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E1D4570)
 #define DKBDECKEION___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1E1D4580)
 
+inline static constexpr unsigned int DKBDECKEION___c_TypeDefinitionIndex = 34048;
+
 	class DKBDECKEION___c : public ::System::Object
 	{
 	public:

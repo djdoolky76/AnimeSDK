@@ -8,6 +8,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Effect_FallingAnimatorCollider_TypeDefinitionIndex = 70470;
+
 	class Effect_FallingAnimatorCollider : public ::UnityEngine::MonoBehaviour
 	{
 	public:

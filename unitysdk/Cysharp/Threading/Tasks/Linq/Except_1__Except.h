@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class IEqualityCo
 
 namespace Cysharp::Threading::Tasks::Linq
 {
+	inline static constexpr unsigned int Except_1__Except_TypeDefinitionIndex = 45359;
+
 	template <typename T>
 	class Except_1__Except
 	{

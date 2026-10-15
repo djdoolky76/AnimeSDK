@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int VersionUpdateMgr___c__DisplayClass9_0_TypeDefinitionIndex = 61283;
+
 	class VersionUpdateMgr___c__DisplayClass9_0 : public ::System::Object
 	{
 	public:

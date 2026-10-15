@@ -9,6 +9,8 @@ namespace RPG::Client::B51Racing { class B51RacingReadyVehicleDetailViewModel; }
 
 namespace RPG::Client::B51Racing
 {
+	inline static constexpr unsigned int B51RacingReadyDriverPanelViewModel_TypeDefinitionIndex = 82047;
+
 	class B51RacingReadyDriverPanelViewModel : public ::System::Object
 	{
 	public:

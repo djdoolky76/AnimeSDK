@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define KOGNDOEELHI_LMFPDGFALML_OFFSET UNITYSDK_OFFSET(0xB596AD0)
 #define KOGNDOEELHI_ODAOBOJBMMH_OFFSET UNITYSDK_OFFSET(0xB596C60)
 
+inline static constexpr unsigned int KOGNDOEELHI_TypeDefinitionIndex = 80129;
+
 	class KOGNDOEELHI : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace RPG::Client { class ChimeraEvaluationDisplayData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChimeraEvaluationDisplayData_TypeDefinitionIndex = 63487;
+
 	class ChimeraEvaluationDisplayData : public ::System::Object
 	{
 	public:

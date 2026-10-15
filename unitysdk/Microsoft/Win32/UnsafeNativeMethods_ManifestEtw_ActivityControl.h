@@ -3,6 +3,8 @@
 
 namespace Microsoft::Win32
 {
+	inline static constexpr unsigned int UnsafeNativeMethods_ManifestEtw_ActivityControl_TypeDefinitionIndex = 95;
+
 	enum class UnsafeNativeMethods_ManifestEtw_ActivityControl : ::System::UInt32
 	{
 		EVENT_ACTIVITY_CTRL_GET_ID = 1,

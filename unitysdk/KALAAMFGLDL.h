@@ -9,6 +9,8 @@ namespace RPG::Client { template <typename T> class PrefHashSet_1; }
 #define KALAAMFGLDL_LEHIOIDJPCI_OFFSET UNITYSDK_OFFSET(0xB2DC9F0)
 #define KALAAMFGLDL_OMDBEJMGPCO_OFFSET UNITYSDK_OFFSET(0xB2DC8B0)
 
+inline static constexpr unsigned int KALAAMFGLDL_TypeDefinitionIndex = 80178;
+
 	class KALAAMFGLDL : public ::System::Object
 	{
 	public:

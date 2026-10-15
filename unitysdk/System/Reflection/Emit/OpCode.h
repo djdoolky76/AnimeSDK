@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace System::Reflection::Emit
 {
+	inline static constexpr unsigned int OpCode_TypeDefinitionIndex = 652;
+
 	struct alignas(4) OpCode
 	{
 		::System::Byte op1; // 0x10

@@ -26,6 +26,8 @@ namespace RPG::Client { class GridFightConsumableItemData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightConsumableItemData_TypeDefinitionIndex = 64903;
+
 	class GridFightConsumableItemData : public ::Sofa::Core::ObservableObject
 	{
 	public:

@@ -3,6 +3,8 @@
 #include "unitysdk/UnityEngine/Color.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
+inline static constexpr unsigned int KFIKLIHGCCO_IAMKIIOGCAD_TypeDefinitionIndex = 51770;
+
 	struct alignas(4) KFIKLIHGCCO_IAMKIIOGCAD
 	{
 		::UnityEngine::Vector3 INFNMPEAHJN; // 0x10

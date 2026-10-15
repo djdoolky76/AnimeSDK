@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define ONCOEBGNBEJ_PJGPHHLECBL_OFFSET UNITYSDK_OFFSET(0x1C7D9AA0)
 #define ONCOEBGNBEJ_TICK_OFFSET UNITYSDK_OFFSET(0x1C7D9E30)
 
+inline static constexpr unsigned int ONCOEBGNBEJ_TypeDefinitionIndex = 37354;
+
 	class ONCOEBGNBEJ : public ::HOCBJOJNLLC
 	{
 	public:

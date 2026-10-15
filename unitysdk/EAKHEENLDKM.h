@@ -48,6 +48,8 @@ namespace System::Collections::Generic { template <typename T> class Queue_1; }
 #define EAKHEENLDKM_PBDHNDOGENF_OFFSET UNITYSDK_OFFSET(0x1CA31760)
 #define EAKHEENLDKM_PFOHNBMAEHC_OFFSET UNITYSDK_OFFSET(0x1CA31470)
 
+inline static constexpr unsigned int EAKHEENLDKM_TypeDefinitionIndex = 41980;
+
 	class EAKHEENLDKM
 	{
 	public:

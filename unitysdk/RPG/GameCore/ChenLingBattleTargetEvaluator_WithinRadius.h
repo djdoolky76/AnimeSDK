@@ -13,6 +13,8 @@ namespace RPG::GameCore { class ChenLingBattleTargetEvaluator_WithinRadius; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChenLingBattleTargetEvaluator_WithinRadius_TypeDefinitionIndex = 15764;
+
 	class ChenLingBattleTargetEvaluator_WithinRadius : public ::RPG::GameCore::BaseChenLingBattleTargetEvaluator
 	{
 	public:

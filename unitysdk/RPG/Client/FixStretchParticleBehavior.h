@@ -22,6 +22,8 @@ namespace UnityEngine { class ParticleSystem; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FixStretchParticleBehavior_TypeDefinitionIndex = 70594;
+
 	class FixStretchParticleBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:

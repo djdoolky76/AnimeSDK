@@ -6,6 +6,8 @@
 #define CFCBPHCGEJI_CTOR_OFFSET UNITYSDK_OFFSET(0xCA08AA0)
 #define CFCBPHCGEJI_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0xCA08B10)
 
+inline static constexpr unsigned int CFCBPHCGEJI_TypeDefinitionIndex = 69522;
+
 	class CFCBPHCGEJI : public ::System::Object
 	{
 	public:

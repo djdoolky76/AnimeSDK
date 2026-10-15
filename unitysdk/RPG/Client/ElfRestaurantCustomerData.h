@@ -17,6 +17,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ElfRestaurantCustomerData_TypeDefinitionIndex = 63737;
+
 	class ElfRestaurantCustomerData : public ::System::Object
 	{
 	public:

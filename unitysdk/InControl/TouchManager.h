@@ -71,6 +71,8 @@ namespace UnityEngine { class Camera; }
 
 namespace InControl
 {
+	inline static constexpr unsigned int TouchManager_TypeDefinitionIndex = 40888;
+
 	class TouchManager
 	{
 	public:

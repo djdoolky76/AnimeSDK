@@ -34,6 +34,8 @@ namespace UnityEngine { class Transform; }
 #define KFOMKKPPMBO_NKKDBELBCDO_OFFSET UNITYSDK_OFFSET(0xB3C8CE0)
 #define KFOMKKPPMBO_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0xB3C7D20)
 
+inline static constexpr unsigned int KFOMKKPPMBO_TypeDefinitionIndex = 60519;
+
 	class KFOMKKPPMBO : public ::System::Object
 	{
 	public:

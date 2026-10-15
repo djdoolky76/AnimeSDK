@@ -17,6 +17,8 @@ namespace System::IO { class StreamWriter; }
 
 namespace RPG::Client::AssetSystem::Test
 {
+	inline static constexpr unsigned int LoadResourceTest_TypeDefinitionIndex = 82299;
+
 	class LoadResourceTest : public ::UnityEngine::MonoBehaviour
 	{
 	public:

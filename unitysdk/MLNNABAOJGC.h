@@ -31,6 +31,8 @@ namespace System { class String; }
 #define MLNNABAOJGC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA84270)
 #define MLNNABAOJGC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA842D0)
 
+inline static constexpr unsigned int MLNNABAOJGC_TypeDefinitionIndex = 30198;
+
 	class MLNNABAOJGC : public ::System::Object
 	{
 	public:

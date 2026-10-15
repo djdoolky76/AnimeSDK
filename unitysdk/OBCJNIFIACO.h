@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define OBCJNIFIACO_JOKEMACJGAN_OFFSET UNITYSDK_OFFSET(0xBD37D60)
 #define OBCJNIFIACO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBD37330)
 
+inline static constexpr unsigned int OBCJNIFIACO_TypeDefinitionIndex = 55260;
+
 	class OBCJNIFIACO
 	{
 	public:

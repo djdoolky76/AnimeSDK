@@ -10,6 +10,8 @@ class EOKOEJKEFMN;
 #define NKHHEFJBOFN_MHBFJIMHDBJ_OFFSET UNITYSDK_OFFSET(0xBC34F40)
 #define NKHHEFJBOFN_NACJHPFBGNJ_OFFSET UNITYSDK_OFFSET(0xBC34F90)
 
+inline static constexpr unsigned int NKHHEFJBOFN_TypeDefinitionIndex = 80831;
+
 	class NKHHEFJBOFN : public ::System::Object
 	{
 	public:

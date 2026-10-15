@@ -74,6 +74,8 @@ namespace System { class String; }
 #define MLNOEMIDHME_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA86D30)
 #define MLNOEMIDHME_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA86D90)
 
+inline static constexpr unsigned int MLNOEMIDHME_TypeDefinitionIndex = 34200;
+
 	class MLNOEMIDHME : public ::System::Object
 	{
 	public:

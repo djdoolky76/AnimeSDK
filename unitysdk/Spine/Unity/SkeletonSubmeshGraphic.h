@@ -10,6 +10,8 @@ namespace UnityEngine::UI { class VertexHelper; }
 
 namespace Spine::Unity
 {
+	inline static constexpr unsigned int SkeletonSubmeshGraphic_TypeDefinitionIndex = 45019;
+
 	class SkeletonSubmeshGraphic : public ::UnityEngine::UI::MaskableGraphic
 	{
 	public:

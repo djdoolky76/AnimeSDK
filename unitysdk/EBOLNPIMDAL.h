@@ -31,6 +31,8 @@ namespace System { class String; }
 #define EBOLNPIMDAL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E246430)
 #define EBOLNPIMDAL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E246490)
 
+inline static constexpr unsigned int EBOLNPIMDAL_TypeDefinitionIndex = 33117;
+
 	class EBOLNPIMDAL : public ::System::Object
 	{
 	public:

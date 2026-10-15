@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK::Protobuf::Reflection
 {
+	inline static constexpr unsigned int OneofDescriptorProto___c_TypeDefinitionIndex = 35775;
+
 	class OneofDescriptorProto___c : public ::System::Object
 	{
 	public:

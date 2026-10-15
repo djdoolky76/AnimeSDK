@@ -6,6 +6,8 @@ namespace System { class String; }
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriAtomExMic_Config_TypeDefinitionIndex = 40043;
+
 	struct alignas(8) CriAtomExMic_Config
 	{
 		::System::String* deviceId; // 0x10

@@ -4,6 +4,8 @@
 
 #define IAJEHABKDFG_CTOR_OFFSET UNITYSDK_OFFSET(0x15E10680)
 
+inline static constexpr unsigned int IAJEHABKDFG_TypeDefinitionIndex = 58024;
+
 	class IAJEHABKDFG : public ::RPG::GameCore::TaskConfig
 	{
 	public:

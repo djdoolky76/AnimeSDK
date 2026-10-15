@@ -9,6 +9,8 @@ namespace RPG::Client { class LimaoNewsDutyCheckOptionTalkInfo; }
 #define PKCEKMCOLPF_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D2F73E0)
 #define PKCEKMCOLPF_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D2F7390)
 
+inline static constexpr unsigned int PKCEKMCOLPF_TypeDefinitionIndex = 10243;
+
 	class PKCEKMCOLPF : public ::RPG::GameCore::TaskConfig
 	{
 	public:

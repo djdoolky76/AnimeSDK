@@ -27,6 +27,8 @@ namespace System { class String; }
 #define PDKHNCEKOIP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF115B0)
 #define PDKHNCEKOIP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF11610)
 
+inline static constexpr unsigned int PDKHNCEKOIP_TypeDefinitionIndex = 30988;
+
 	class PDKHNCEKOIP : public ::System::Object
 	{
 	public:

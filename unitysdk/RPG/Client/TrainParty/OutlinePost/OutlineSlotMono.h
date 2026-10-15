@@ -10,6 +10,8 @@ namespace RPG::Client::TrainParty::OutlinePost { class OutlinePostManager; }
 
 namespace RPG::Client::TrainParty::OutlinePost
 {
+	inline static constexpr unsigned int OutlineSlotMono_TypeDefinitionIndex = 74369;
+
 	class OutlineSlotMono : public ::UnityEngine::MonoBehaviour
 	{
 	public:

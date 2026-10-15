@@ -7,6 +7,8 @@ namespace System { class Action; }
 #define MPHOFLINMGF___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBA3EEB0)
 #define MPHOFLINMGF___C__DISPLAYCLASS4_0__TRYHIDE_B__0_OFFSET UNITYSDK_OFFSET(0xBA3EF60)
 
+inline static constexpr unsigned int MPHOFLINMGF___c__DisplayClass4_0_TypeDefinitionIndex = 72192;
+
 	class MPHOFLINMGF___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:

@@ -15,6 +15,8 @@
 
 namespace RPG::Client::LittleGame::FiveDim
 {
+	inline static constexpr unsigned int FiveDimGamepadDashHelper_TypeDefinitionIndex = 77209;
+
 	class FiveDimGamepadDashHelper : public ::System::Object
 	{
 	public:

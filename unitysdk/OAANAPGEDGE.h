@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define OAANAPGEDGE_HMGJEMBLELC_OFFSET UNITYSDK_OFFSET(0xBD17540)
 #define OAANAPGEDGE_KKFKKOPCLBG_OFFSET UNITYSDK_OFFSET(0xBD17660)
 
+inline static constexpr unsigned int OAANAPGEDGE_TypeDefinitionIndex = 53719;
+
 	class OAANAPGEDGE : public ::KIFCLJJAOFJ
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class WaitMechanismBarPhase; }
 #define MNGFNHPBIOB_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBA08160)
 #define MNGFNHPBIOB_TICK_OFFSET UNITYSDK_OFFSET(0xBA081B0)
 
+inline static constexpr unsigned int MNGFNHPBIOB_TypeDefinitionIndex = 55810;
+
 	class MNGFNHPBIOB : public ::GELIALJDFBL
 	{
 	public:

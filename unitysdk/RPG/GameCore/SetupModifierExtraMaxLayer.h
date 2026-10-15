@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetupModifierExtraMaxLayer_TypeDefinitionIndex = 23261;
+
 	class SetupModifierExtraMaxLayer : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System { class Object; }
 #define KPJPPOMHPDP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C90C370)
 #define KPJPPOMHPDP___C__CLEANUP_B__3_0_OFFSET UNITYSDK_OFFSET(0x1C90C380)
 
+inline static constexpr unsigned int KPJPPOMHPDP___c_TypeDefinitionIndex = 42090;
+
 	class KPJPPOMHPDP___c : public ::System::Object
 	{
 	public:

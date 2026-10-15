@@ -12,6 +12,8 @@ namespace UnityEngine::Timeline { class TimelineClip; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int ColorGradingMaskTrack_TypeDefinitionIndex = 48469;
+
 	class ColorGradingMaskTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
 	public:

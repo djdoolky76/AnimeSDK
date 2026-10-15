@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class ICollection
 
 namespace Entitas
 {
+	inline static constexpr unsigned int CollectionExtension_TypeDefinitionIndex = 10023;
+
 	class CollectionExtension : public ::System::Object
 	{
 	public:

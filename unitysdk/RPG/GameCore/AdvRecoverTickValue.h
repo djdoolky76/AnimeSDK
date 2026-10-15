@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvRecoverTickValue_TypeDefinitionIndex = 21026;
+
 	class AdvRecoverTickValue : public ::RPG::GameCore::TaskConfig
 	{
 	public:

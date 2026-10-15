@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int GUIStateObjects_TypeDefinitionIndex = 5181;
+
 	class GUIStateObjects : public ::System::Object
 	{
 	public:

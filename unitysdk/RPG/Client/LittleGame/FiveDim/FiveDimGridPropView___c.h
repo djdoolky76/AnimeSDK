@@ -15,6 +15,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace RPG::Client::LittleGame::FiveDim
 {
+	inline static constexpr unsigned int FiveDimGridPropView___c_TypeDefinitionIndex = 77184;
+
 	class FiveDimGridPropView___c : public ::System::Object
 	{
 	public:

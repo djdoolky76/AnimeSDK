@@ -3,6 +3,8 @@
 
 namespace UnityEngine::ProBuilder
 {
+	inline static constexpr unsigned int SelectMode_TypeDefinitionIndex = 44387;
+
 	enum class SelectMode : ::System::Int32
 	{
 		None = 0,

@@ -6,6 +6,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int CSharpOnlyAttribute_TypeDefinitionIndex = 4315;
+
 	class CSharpOnlyAttribute : public ::System::Attribute
 	{
 	public:

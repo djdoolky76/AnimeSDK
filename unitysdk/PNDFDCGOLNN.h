@@ -9,6 +9,8 @@ namespace RPG::GameCore { class TurnBasedModifierInstance; }
 #define PNDFDCGOLNN_JHLKCDBJJJF_OFFSET UNITYSDK_OFFSET(0xC3345C0)
 #define PNDFDCGOLNN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC333BE0)
 
+inline static constexpr unsigned int PNDFDCGOLNN_TypeDefinitionIndex = 55099;
+
 	class PNDFDCGOLNN
 	{
 	public:

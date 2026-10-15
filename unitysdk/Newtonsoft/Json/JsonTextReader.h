@@ -78,6 +78,8 @@ namespace System::IO { class TextReader; }
 
 namespace Newtonsoft::Json
 {
+	inline static constexpr unsigned int JsonTextReader_TypeDefinitionIndex = 9608;
+
 	class JsonTextReader : public ::Newtonsoft::Json::JsonReader
 	{
 	public:

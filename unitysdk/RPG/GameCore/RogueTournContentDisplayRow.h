@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueTournContentDisplayRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueTournContentDisplayRow_TypeDefinitionIndex = 15048;
+
 	class RogueTournContentDisplayRow : public ::System::Object
 	{
 	public:

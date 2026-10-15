@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TrainPartyModifierAddStatUpdateRatioConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TrainPartyModifierAddStatUpdateRatioConfig_TypeDefinitionIndex = 18099;
+
 	class TrainPartyModifierAddStatUpdateRatioConfig : public ::RPG::GameCore::TrainPartyModifierConfigBase
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class Action; }
 #define CCPFCJOHICG_CTOR_OFFSET UNITYSDK_OFFSET(0xC754070)
 #define CCPFCJOHICG_DCAJKPMEDDB_OFFSET UNITYSDK_OFFSET(0xC753FB0)
 
+inline static constexpr unsigned int CCPFCJOHICG_TypeDefinitionIndex = 49259;
+
 	class CCPFCJOHICG : public ::JHPHMGHKGEN
 	{
 	public:

@@ -13,6 +13,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdventureMovementManager_LOMFOEEBPJO_TypeDefinitionIndex = 57095;
+
 	class AdventureMovementManager_LOMFOEEBPJO : public ::System::Object
 	{
 	public:

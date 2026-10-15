@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ServerInteractVerificationRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ServerInteractVerificationRow_TypeDefinitionIndex = 15091;
+
 	class ServerInteractVerificationRow : public ::System::Object
 	{
 	public:

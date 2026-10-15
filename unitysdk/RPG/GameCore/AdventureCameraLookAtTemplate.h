@@ -14,6 +14,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdventureCameraLookAtTemplate_TypeDefinitionIndex = 22140;
+
 	class AdventureCameraLookAtTemplate : public ::RPG::GameCore::TaskConfig
 	{
 	public:

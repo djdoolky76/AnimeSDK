@@ -12,6 +12,8 @@ namespace RPG::GameCore { class WaitLevelGraphFinish; }
 #define HFFCKNLCHPM_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15C76E50)
 #define HFFCKNLCHPM_TICK_OFFSET UNITYSDK_OFFSET(0x15C76EA0)
 
+inline static constexpr unsigned int HFFCKNLCHPM_TypeDefinitionIndex = 56481;
+
 	class HFFCKNLCHPM : public ::GELIALJDFBL
 	{
 	public:

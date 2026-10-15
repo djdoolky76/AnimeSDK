@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ParamFormulaExprConfig_TypeDefinitionIndex = 17089;
+
 	class ParamFormulaExprConfig : public ::RPG::GameCore::MiParameterConfigBase
 	{
 	public:

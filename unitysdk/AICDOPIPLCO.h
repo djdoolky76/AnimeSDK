@@ -5,6 +5,8 @@ class LNHNHNPJKGD;
 
 #define AICDOPIPLCO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C88D930)
 
+inline static constexpr unsigned int AICDOPIPLCO_TypeDefinitionIndex = 43647;
+
 	class AICDOPIPLCO : public ::System::Object
 	{
 	public:

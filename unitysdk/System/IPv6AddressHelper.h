@@ -15,6 +15,8 @@ namespace System::Collections::Generic { class KeyValuePair; }
 
 namespace System
 {
+	inline static constexpr unsigned int IPv6AddressHelper_TypeDefinitionIndex = 2482;
+
 	class IPv6AddressHelper : public ::System::Object
 	{
 	public:

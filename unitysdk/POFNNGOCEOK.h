@@ -31,6 +31,8 @@ namespace System { class String; }
 #define POFNNGOCEOK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DFC9CA0)
 #define POFNNGOCEOK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DFC9D00)
 
+inline static constexpr unsigned int POFNNGOCEOK_TypeDefinitionIndex = 27835;
+
 	class POFNNGOCEOK : public ::System::Object
 	{
 	public:

@@ -5,6 +5,8 @@
 
 namespace UnityEngine::UIElements
 {
+	inline static constexpr unsigned int MouseOutEvent_TypeDefinitionIndex = 5970;
+
 	class MouseOutEvent
 	{
 	public:

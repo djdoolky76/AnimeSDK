@@ -39,6 +39,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define CDONFGBCKKA_OIDLBCNNCJL_OFFSET UNITYSDK_OFFSET(0xC770140)
 #define CDONFGBCKKA_POOCGOLDOFE_OFFSET UNITYSDK_OFFSET(0xC775AF0)
 
+inline static constexpr unsigned int CDONFGBCKKA_TypeDefinitionIndex = 77876;
+
 	class CDONFGBCKKA : public ::System::Object
 	{
 	public:

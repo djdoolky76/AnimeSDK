@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define BABMCGPMDHM_SET_ONSHIELDREMOVESEQUENCE_OFFSET UNITYSDK_OFFSET(0x15BCE5A0)
 #define BABMCGPMDHM_SET_PROTECTEDENTITYLIST_OFFSET UNITYSDK_OFFSET(0x15BCE560)
 
+inline static constexpr unsigned int BABMCGPMDHM_TypeDefinitionIndex = 57572;
+
 	class BABMCGPMDHM : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

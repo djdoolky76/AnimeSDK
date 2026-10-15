@@ -9,6 +9,8 @@ namespace RPG::GameCore { class ChimeraBattleShowNPCLeave; }
 #define BIKABCFACPH_KMFNKDMEJBC_OFFSET UNITYSDK_OFFSET(0xB4AEBD0)
 #define BIKABCFACPH_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0xB4AE930)
 
+inline static constexpr unsigned int BIKABCFACPH_TypeDefinitionIndex = 78408;
+
 	class BIKABCFACPH : public ::System::Object
 	{
 	public:

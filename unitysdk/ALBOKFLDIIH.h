@@ -29,6 +29,8 @@ namespace System { class String; }
 #define ALBOKFLDIIH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E3D45B0)
 #define ALBOKFLDIIH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E3D4610)
 
+inline static constexpr unsigned int ALBOKFLDIIH_TypeDefinitionIndex = 33466;
+
 	class ALBOKFLDIIH : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define NLOPJLCMLEN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB69D90)
 #define NLOPJLCMLEN___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1EB69DA0)
 
+inline static constexpr unsigned int NLOPJLCMLEN___c_TypeDefinitionIndex = 31259;
+
 	class NLOPJLCMLEN___c : public ::System::Object
 	{
 	public:

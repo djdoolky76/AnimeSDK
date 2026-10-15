@@ -10,6 +10,8 @@ namespace RPG::GameCore { class DiceCombatTaskConfig_BossChangePhase; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DiceCombatTaskConfig_BossChangePhase_TypeDefinitionIndex = 16078;
+
 	class DiceCombatTaskConfig_BossChangePhase : public ::RPG::GameCore::DiceCombatTaskConfig
 	{
 	public:

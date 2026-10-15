@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define INHMGEIKAPI_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CF26CA0)
 #define INHMGEIKAPI_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CF265C0)
 
+inline static constexpr unsigned int INHMGEIKAPI_TypeDefinitionIndex = 13798;
+
 	class INHMGEIKAPI : public ::System::Object
 	{
 	public:

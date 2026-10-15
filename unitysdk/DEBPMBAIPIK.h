@@ -40,6 +40,8 @@ namespace UnityEngine::Rendering { class CommandBuffer; }
 #define DEBPMBAIPIK__POSTINIT_B__32_0_OFFSET UNITYSDK_OFFSET(0xE501E40)
 #define DEBPMBAIPIK__POSTINIT_B__32_1_OFFSET UNITYSDK_OFFSET(0xE501E50)
 
+inline static constexpr unsigned int DEBPMBAIPIK_TypeDefinitionIndex = 49318;
+
 	class DEBPMBAIPIK : public ::HHJGACLHFDJ
 	{
 	public:

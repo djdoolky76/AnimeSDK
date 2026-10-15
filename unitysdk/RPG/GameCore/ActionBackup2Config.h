@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ActionBackup2Config; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ActionBackup2Config_TypeDefinitionIndex = 17060;
+
 	class ActionBackup2Config : public ::RPG::GameCore::MiActionConfigBase
 	{
 	public:

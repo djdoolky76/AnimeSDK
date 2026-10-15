@@ -9,6 +9,8 @@ class FDICOMLMBME;
 #define MDPDNACMAHF_GET_UNIQUEDIALOGUEID_OFFSET UNITYSDK_OFFSET(0xB8B4A40)
 #define MDPDNACMAHF_TRIGGERACTION_OFFSET UNITYSDK_OFFSET(0xB8B4AB0)
 
+inline static constexpr unsigned int MDPDNACMAHF_TypeDefinitionIndex = 66987;
+
 	class MDPDNACMAHF : public ::System::Object
 	{
 	public:

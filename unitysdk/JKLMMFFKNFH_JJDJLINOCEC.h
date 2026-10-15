@@ -7,6 +7,8 @@ namespace System::Collections { class IList; }
 #define JKLMMFFKNFH_JJDJLINOCEC_CTOR_OFFSET UNITYSDK_OFFSET(0xB220450)
 #define JKLMMFFKNFH_JJDJLINOCEC_PALJGILOAND_OFFSET UNITYSDK_OFFSET(0xB220460)
 
+inline static constexpr unsigned int JKLMMFFKNFH_JJDJLINOCEC_TypeDefinitionIndex = 73375;
+
 	class JKLMMFFKNFH_JJDJLINOCEC : public ::System::Object
 	{
 	public:

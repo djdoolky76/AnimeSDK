@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace EnviromentSystem
 {
+	inline static constexpr unsigned int EnviroGUIFolder_TypeDefinitionIndex = 49622;
+
 	class EnviroGUIFolder : public ::EnviromentSystem::EnviroProperty
 	{
 	public:

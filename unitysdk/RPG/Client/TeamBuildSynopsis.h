@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TeamBuildSynopsis_TypeDefinitionIndex = 68097;
+
 	class TeamBuildSynopsis : public ::System::Object
 	{
 	public:

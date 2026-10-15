@@ -9,6 +9,8 @@ namespace System::Text::RegularExpressions { class Regex; }
 #define KJABOHJJJAG_CCTOR_OFFSET UNITYSDK_OFFSET(0xB43BCD0)
 #define KJABOHJJJAG_CTOR_OFFSET UNITYSDK_OFFSET(0xB43BCC0)
 
+inline static constexpr unsigned int KJABOHJJJAG_TypeDefinitionIndex = 65306;
+
 	class KJABOHJJJAG : public ::System::Object
 	{
 	public:

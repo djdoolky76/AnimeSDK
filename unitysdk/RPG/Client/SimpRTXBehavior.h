@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SimpRTXBehavior_TypeDefinitionIndex = 70184;
+
 	class SimpRTXBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:

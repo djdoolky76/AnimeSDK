@@ -10,6 +10,8 @@ namespace RPG::GameCore { class SetDynamicValueByHPRatioClientOnly; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetDynamicValueByHPRatioClientOnly_TypeDefinitionIndex = 23581;
+
 	class SetDynamicValueByHPRatioClientOnly : public ::RPG::GameCore::SetDynamicValueByHPRatio
 	{
 	public:

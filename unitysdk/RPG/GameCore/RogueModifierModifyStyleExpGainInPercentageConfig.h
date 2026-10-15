@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierModifyStyleExpGainInPercentageConfi
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierModifyStyleExpGainInPercentageConfig_TypeDefinitionIndex = 17803;
+
 	class RogueModifierModifyStyleExpGainInPercentageConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

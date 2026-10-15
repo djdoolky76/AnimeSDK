@@ -10,6 +10,8 @@ namespace System::Reflection::Emit { class ILGenerator; }
 
 namespace MessagePack::Internal
 {
+	inline static constexpr unsigned int ArgumentField_TypeDefinitionIndex = 7295;
+
 	struct alignas(8) ArgumentField
 	{
 		::System::Int32 i; // 0x10

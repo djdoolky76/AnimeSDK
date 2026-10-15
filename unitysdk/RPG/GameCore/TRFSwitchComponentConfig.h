@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TRFSwitchComponentConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TRFSwitchComponentConfig_TypeDefinitionIndex = 18912;
+
 	class TRFSwitchComponentConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
 	public:

@@ -18,6 +18,8 @@ namespace RPG::GameCore { class WaitCustomString; }
 #define MPLFJICIMNH_PAGELPBKAOE_OFFSET UNITYSDK_OFFSET(0xBA410E0)
 #define MPLFJICIMNH_TICK_OFFSET UNITYSDK_OFFSET(0xBA41380)
 
+inline static constexpr unsigned int MPLFJICIMNH_TypeDefinitionIndex = 58880;
+
 	class MPLFJICIMNH : public ::GELIALJDFBL
 	{
 	public:

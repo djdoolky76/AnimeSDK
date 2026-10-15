@@ -3,6 +3,8 @@
 
 namespace RPG::Client::MissionReplayData
 {
+	inline static constexpr unsigned int IMissionReplayContext_TypeDefinitionIndex = 74685;
+
 	class IMissionReplayContext
 	{
 	public:

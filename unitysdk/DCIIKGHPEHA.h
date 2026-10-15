@@ -8,6 +8,8 @@ class LAECFLNNOFH;
 #define DCIIKGHPEHA_CTOR_OFFSET UNITYSDK_OFFSET(0xE2480D0)
 #define DCIIKGHPEHA_EXECUTE_OFFSET UNITYSDK_OFFSET(0xE2480E0)
 
+inline static constexpr unsigned int DCIIKGHPEHA_TypeDefinitionIndex = 77311;
+
 	class DCIIKGHPEHA : public ::System::Object
 	{
 	public:

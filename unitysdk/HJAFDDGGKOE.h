@@ -9,6 +9,8 @@ namespace System { class String; }
 #define HJAFDDGGKOE_CTOR_OFFSET UNITYSDK_OFFSET(0x1CEB54A0)
 #define HJAFDDGGKOE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CEB51D0)
 
+inline static constexpr unsigned int HJAFDDGGKOE_TypeDefinitionIndex = 22867;
+
 	class HJAFDDGGKOE : public ::RPG::GameCore::JsonConfig
 	{
 	public:

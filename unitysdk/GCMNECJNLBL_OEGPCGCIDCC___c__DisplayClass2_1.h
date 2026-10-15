@@ -7,6 +7,8 @@ namespace System { class Object; }
 #define GCMNECJNLBL_OEGPCGCIDCC___C__DISPLAYCLASS2_1_CTOR_OFFSET UNITYSDK_OFFSET(0x1598DA90)
 #define GCMNECJNLBL_OEGPCGCIDCC___C__DISPLAYCLASS2_1__RUNASYNCLINKCANCEL__B__3_OFFSET UNITYSDK_OFFSET(0x1598DB00)
 
+inline static constexpr unsigned int GCMNECJNLBL_OEGPCGCIDCC___c__DisplayClass2_1_TypeDefinitionIndex = 49228;
+
 	template <typename T>
 	class GCMNECJNLBL_OEGPCGCIDCC___c__DisplayClass2_1 : public ::System::Object
 	{

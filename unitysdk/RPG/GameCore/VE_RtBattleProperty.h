@@ -15,6 +15,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int VE_RtBattleProperty_TypeDefinitionIndex = 24269;
+
 	class VE_RtBattleProperty : public ::RPG::GameCore::ValueEvaluatorConfig
 	{
 	public:

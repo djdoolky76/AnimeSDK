@@ -51,6 +51,8 @@
 #define NACDHIMFIHJ_OEMFCABKECL_OFFSET UNITYSDK_OFFSET(0x1DD7AF10)
 #define NACDHIMFIHJ_PIOHIOOKKNC_OFFSET UNITYSDK_OFFSET(0x1DD7B7E0)
 
+inline static constexpr unsigned int NACDHIMFIHJ_TypeDefinitionIndex = 6258;
+
 	class NACDHIMFIHJ : public ::System::Object
 	{
 	public:

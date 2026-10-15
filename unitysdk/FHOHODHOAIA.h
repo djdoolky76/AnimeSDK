@@ -22,6 +22,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define FHOHODHOAIA_SET_CURRENTDATA_OFFSET UNITYSDK_OFFSET(0x15792360)
 #define FHOHODHOAIA__GETDIRTYDATA_B__14_0_OFFSET UNITYSDK_OFFSET(0x15793460)
 
+inline static constexpr unsigned int FHOHODHOAIA_TypeDefinitionIndex = 80222;
+
 	class FHOHODHOAIA : public ::System::Object
 	{
 	public:

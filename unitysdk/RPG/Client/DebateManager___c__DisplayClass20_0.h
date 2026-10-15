@@ -9,6 +9,8 @@ namespace RPG::GameCore { class DebateTestimonySetting; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int DebateManager___c__DisplayClass20_0_TypeDefinitionIndex = 60692;
+
 	class DebateManager___c__DisplayClass20_0 : public ::System::Object
 	{
 	public:

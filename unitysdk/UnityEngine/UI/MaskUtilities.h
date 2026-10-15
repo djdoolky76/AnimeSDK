@@ -22,6 +22,8 @@ namespace UnityEngine::UI { class SmoothMask; }
 
 namespace UnityEngine::UI
 {
+	inline static constexpr unsigned int MaskUtilities_TypeDefinitionIndex = 6793;
+
 	class MaskUtilities : public ::System::Object
 	{
 	public:

@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int ShaderTagId_TypeDefinitionIndex = 4769;
+
 	struct alignas(4) ShaderTagId
 	{
 		::System::Int32 m_Id; // 0x10

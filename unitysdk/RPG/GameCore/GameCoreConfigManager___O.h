@@ -5,6 +5,8 @@ namespace System { class Action; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GameCoreConfigManager___O_TypeDefinitionIndex = 56507;
+
 	class GameCoreConfigManager___O : public ::System::Object
 	{
 	public:

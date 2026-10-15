@@ -12,6 +12,8 @@ namespace System { class String; }
 #define LDKCPBOKCLA_IJMNILCFHLN_OFFSET UNITYSDK_OFFSET(0xB6363D0)
 #define LDKCPBOKCLA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB6357D0)
 
+inline static constexpr unsigned int LDKCPBOKCLA_TypeDefinitionIndex = 55672;
+
 	class LDKCPBOKCLA
 	{
 	public:

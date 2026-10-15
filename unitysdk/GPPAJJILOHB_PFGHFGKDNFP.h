@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TimeRewindMaterialOverlayConfig; }
 #define GPPAJJILOHB_PFGHFGKDNFP_CLEAR_OFFSET UNITYSDK_OFFSET(0x15B67A50)
 #define GPPAJJILOHB_PFGHFGKDNFP_CTOR_OFFSET UNITYSDK_OFFSET(0x15B67AA0)
 
+inline static constexpr unsigned int GPPAJJILOHB_PFGHFGKDNFP_TypeDefinitionIndex = 60840;
+
 	class GPPAJJILOHB_PFGHFGKDNFP : public ::System::Object
 	{
 	public:

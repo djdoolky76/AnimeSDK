@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DisableCharacterVO_TypeDefinitionIndex = 22904;
+
 	class DisableCharacterVO : public ::RPG::GameCore::TaskConfig
 	{
 	public:

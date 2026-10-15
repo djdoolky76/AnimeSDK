@@ -15,6 +15,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define IDODOAGAEHM_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15EE0740)
 #define IDODOAGAEHM_TICK_OFFSET UNITYSDK_OFFSET(0x15EE0A90)
 
+inline static constexpr unsigned int IDODOAGAEHM_TypeDefinitionIndex = 52834;
+
 	class IDODOAGAEHM : public ::GELIALJDFBL
 	{
 	public:

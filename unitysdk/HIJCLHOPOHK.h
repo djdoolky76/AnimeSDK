@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 #define HIJCLHOPOHK_CTOR_OFFSET UNITYSDK_OFFSET(0x1CACC200)
 
+inline static constexpr unsigned int HIJCLHOPOHK_TypeDefinitionIndex = 42520;
+
 	class HIJCLHOPOHK : public ::System::Object
 	{
 	public:

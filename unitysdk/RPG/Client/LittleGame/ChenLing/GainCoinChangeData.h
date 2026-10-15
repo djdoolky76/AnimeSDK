@@ -12,6 +12,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::LittleGame::ChenLing
 {
+	inline static constexpr unsigned int GainCoinChangeData_TypeDefinitionIndex = 77827;
+
 	class GainCoinChangeData : public ::System::Object
 	{
 	public:

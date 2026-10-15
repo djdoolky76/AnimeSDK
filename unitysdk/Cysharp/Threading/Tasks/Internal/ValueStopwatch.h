@@ -11,6 +11,8 @@
 
 namespace Cysharp::Threading::Tasks::Internal
 {
+	inline static constexpr unsigned int ValueStopwatch_TypeDefinitionIndex = 38690;
+
 	struct alignas(4) ValueStopwatch
 	{
 		::System::Int64 startTimestamp; // 0x10

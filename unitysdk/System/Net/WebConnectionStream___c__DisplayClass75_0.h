@@ -9,6 +9,8 @@ namespace System::Net { class WebConnectionStream; }
 
 namespace System::Net
 {
+	inline static constexpr unsigned int WebConnectionStream___c__DisplayClass75_0_TypeDefinitionIndex = 2889;
+
 	class WebConnectionStream___c__DisplayClass75_0 : public ::System::Object
 	{
 	public:

@@ -14,6 +14,8 @@
 
 namespace System::Buffers::Binary
 {
+	inline static constexpr unsigned int BinaryPrimitives_TypeDefinitionIndex = 5008;
+
 	class BinaryPrimitives : public ::System::Object
 	{
 	public:

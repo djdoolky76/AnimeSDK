@@ -13,6 +13,8 @@ namespace System::Threading { class WaitCallback; }
 
 namespace Cysharp::Threading::Tasks
 {
+	inline static constexpr unsigned int SwitchToThreadPoolAwaitable_Awaiter_TypeDefinitionIndex = 38368;
+
 	struct alignas(4) SwitchToThreadPoolAwaitable_Awaiter
 	{
 		static ::System::Threading::WaitCallback** StaticGet_switchToCallback()

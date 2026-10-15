@@ -12,6 +12,8 @@ namespace UnityEngine { class Transform; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_InputInterfaceMesh_HEU_InputDataMesh_TypeDefinitionIndex = 40649;
+
 	class HEU_InputInterfaceMesh_HEU_InputDataMesh : public ::System::Object
 	{
 	public:

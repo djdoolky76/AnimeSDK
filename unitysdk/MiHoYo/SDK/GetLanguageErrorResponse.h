@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int GetLanguageErrorResponse_TypeDefinitionIndex = 8070;
+
 	class GetLanguageErrorResponse : public ::System::Object
 	{
 	public:

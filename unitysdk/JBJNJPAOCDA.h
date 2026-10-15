@@ -43,6 +43,8 @@ namespace System { class String; }
 #define JBJNJPAOCDA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E6F87A0)
 #define JBJNJPAOCDA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E6F8800)
 
+inline static constexpr unsigned int JBJNJPAOCDA_TypeDefinitionIndex = 25922;
+
 	class JBJNJPAOCDA : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int Alert___c_TypeDefinitionIndex = 8243;
+
 	class Alert___c : public ::System::Object
 	{
 	public:

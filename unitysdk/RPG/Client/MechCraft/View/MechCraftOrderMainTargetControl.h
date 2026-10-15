@@ -24,6 +24,8 @@ namespace XLua { class LuaTable; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftOrderMainTargetControl_TypeDefinitionIndex = 79991;
+
 	class MechCraftOrderMainTargetControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -22,6 +22,8 @@ namespace Sofa::Core { class SimpleCommand; }
 
 namespace RPG::Client::ChenLingFes
 {
+	inline static constexpr unsigned int ChenLingFesGameplayFunctionBtnViewModel_TypeDefinitionIndex = 81376;
+
 	class ChenLingFesGameplayFunctionBtnViewModel : public ::Sofa::BaseViewModel
 	{
 	public:

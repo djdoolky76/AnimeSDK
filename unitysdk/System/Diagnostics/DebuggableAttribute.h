@@ -7,6 +7,8 @@
 
 namespace System::Diagnostics
 {
+	inline static constexpr unsigned int DebuggableAttribute_TypeDefinitionIndex = 1576;
+
 	class DebuggableAttribute : public ::System::Attribute
 	{
 	public:

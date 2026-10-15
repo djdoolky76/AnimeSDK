@@ -6,6 +6,8 @@ namespace RPG::GameCore::Match3 { class BirdPieceTypeWeightConfig; }
 #define BOMFGKDLHIB___C__DISPLAYCLASS130_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8D1960)
 #define BOMFGKDLHIB___C__DISPLAYCLASS130_0___GETPIECETYPEWEIGHT_B__0_OFFSET UNITYSDK_OFFSET(0x1C8DB720)
 
+inline static constexpr unsigned int BOMFGKDLHIB___c__DisplayClass130_0_TypeDefinitionIndex = 43038;
+
 	class BOMFGKDLHIB___c__DisplayClass130_0 : public ::System::Object
 	{
 	public:

@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int KCPClient_OnErrorDelegate_TypeDefinitionIndex = 46133;
+
 	class KCPClient_OnErrorDelegate : public ::System::MulticastDelegate
 	{
 	public:

@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueCurseChestPropInteract_TypeDefinitionIndex = 22101;
+
 	class RogueCurseChestPropInteract : public ::RPG::GameCore::TaskConfig
 	{
 	public:

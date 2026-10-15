@@ -23,6 +23,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int PopupDialog_TypeDefinitionIndex = 8008;
+
 	class PopupDialog : public ::MiHoYo::SDK::UIElement
 	{
 	public:

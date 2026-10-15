@@ -7,6 +7,8 @@
 
 namespace System::Runtime::Serialization
 {
+	inline static constexpr unsigned int OptionalFieldAttribute_TypeDefinitionIndex = 1120;
+
 	class OptionalFieldAttribute : public ::System::Attribute
 	{
 	public:

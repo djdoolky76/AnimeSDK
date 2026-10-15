@@ -14,6 +14,8 @@ namespace System { class Action; }
 #define GIKEHIKLMOF_NNAGLJCMMGD_OFFSET UNITYSDK_OFFSET(0x15A409A0)
 #define GIKEHIKLMOF_NONJDKKDDLE_OFFSET UNITYSDK_OFFSET(0x15A40870)
 
+inline static constexpr unsigned int GIKEHIKLMOF_TypeDefinitionIndex = 60478;
+
 	class GIKEHIKLMOF : public ::System::Object
 	{
 	public:

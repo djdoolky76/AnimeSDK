@@ -5,6 +5,8 @@
 
 #define IABMCMDFAAK_CTOR_OFFSET UNITYSDK_OFFSET(0x15DFE090)
 
+inline static constexpr unsigned int IABMCMDFAAK_TypeDefinitionIndex = 57335;
+
 	class IABMCMDFAAK : public ::System::Object
 	{
 	public:

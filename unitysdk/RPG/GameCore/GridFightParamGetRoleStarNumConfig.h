@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightParamGetRoleStarNumConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightParamGetRoleStarNumConfig_TypeDefinitionIndex = 19527;
+
 	class GridFightParamGetRoleStarNumConfig : public ::RPG::GameCore::GridFightParameterConfigBase
 	{
 	public:

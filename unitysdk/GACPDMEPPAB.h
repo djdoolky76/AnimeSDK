@@ -5,6 +5,8 @@ class DCCEKONOPCK;
 
 #define GACPDMEPPAB_CTOR_OFFSET UNITYSDK_OFFSET(0x15936A80)
 
+inline static constexpr unsigned int GACPDMEPPAB_TypeDefinitionIndex = 80573;
+
 	class GACPDMEPPAB : public ::System::Object
 	{
 	public:

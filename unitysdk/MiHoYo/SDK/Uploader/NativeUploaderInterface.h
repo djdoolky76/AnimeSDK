@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::Uploader
 {
+	inline static constexpr unsigned int NativeUploaderInterface_TypeDefinitionIndex = 46661;
+
 	class NativeUploaderInterface : public ::System::Object
 	{
 	public:

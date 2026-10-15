@@ -32,6 +32,8 @@ namespace UnityEngine { class Texture; }
 #define NBJCFGEPCEN_PKCKPFHCODN_OFFSET UNITYSDK_OFFSET(0xBAC80F0)
 #define NBJCFGEPCEN_PPEGOIODAKI_OFFSET UNITYSDK_OFFSET(0xBAC8AC0)
 
+inline static constexpr unsigned int NBJCFGEPCEN_TypeDefinitionIndex = 49502;
+
 	class NBJCFGEPCEN
 	{
 	public:

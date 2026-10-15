@@ -9,6 +9,8 @@ namespace RPG::GameCore { class LittleGamePropertyEntityVarBindingMap; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LittleGamePropertyEntityVarBindingMap_TypeDefinitionIndex = 18925;
+
 	class LittleGamePropertyEntityVarBindingMap : public ::RPG::GameCore::JsonConfig
 	{
 	public:

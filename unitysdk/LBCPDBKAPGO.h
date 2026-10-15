@@ -6,6 +6,8 @@ namespace RPG::Client { class PlanetFesEventDataBase; }
 
 #define LBCPDBKAPGO_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xB5F5960)
 
+inline static constexpr unsigned int LBCPDBKAPGO_TypeDefinitionIndex = 66555;
+
 	class LBCPDBKAPGO : public ::System::Object
 	{
 	public:

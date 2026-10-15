@@ -10,6 +10,8 @@ namespace RPG::GameCore { class HardLevelGroupRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int HardLevelGroupRow_TypeDefinitionIndex = 14182;
+
 	class HardLevelGroupRow : public ::System::Object
 	{
 	public:

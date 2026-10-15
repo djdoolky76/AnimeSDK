@@ -76,6 +76,8 @@ namespace System::Collections::Generic { template <typename T> class Queue_1; }
 #define HEOAAAKKHLC_SET_ISSIMULATING_OFFSET UNITYSDK_OFFSET(0x1CAC7290)
 #define HEOAAAKKHLC___GENPROPSIMULATEINFO_BREAKPIECE_B__29_0_OFFSET UNITYSDK_OFFSET(0x1CAC7300)
 
+inline static constexpr unsigned int HEOAAAKKHLC_TypeDefinitionIndex = 43031;
+
 	class HEOAAAKKHLC : public ::System::Object
 	{
 	public:

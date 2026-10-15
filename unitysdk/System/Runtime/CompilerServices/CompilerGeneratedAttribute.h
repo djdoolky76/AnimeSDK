@@ -6,6 +6,8 @@
 
 namespace System::Runtime::CompilerServices
 {
+	inline static constexpr unsigned int CompilerGeneratedAttribute_TypeDefinitionIndex = 1381;
+
 	class CompilerGeneratedAttribute : public ::System::Attribute
 	{
 	public:

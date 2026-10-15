@@ -11,6 +11,8 @@ namespace RPG::Client::ChenLingFes { class ChenLingFesGameAwardInfoViewModel; }
 
 namespace RPG::Client::ChenLingFes
 {
+	inline static constexpr unsigned int ChenLingFesGameAwardInfoControl_TypeDefinitionIndex = 81342;
+
 	class ChenLingFesGameAwardInfoControl : public ::Sofa::BaseSofaControl
 	{
 	public:

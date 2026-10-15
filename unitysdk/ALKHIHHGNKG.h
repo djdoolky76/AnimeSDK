@@ -5,6 +5,8 @@ namespace UnityEngine { class Camera; }
 
 #define ALKHIHHGNKG_CTOR_OFFSET UNITYSDK_OFFSET(0x10480)
 
+inline static constexpr unsigned int ALKHIHHGNKG_TypeDefinitionIndex = 73054;
+
 	struct alignas(8) ALKHIHHGNKG
 	{
 		::UnityEngine::Vector2 GBBBEOMKBPN; // 0x10

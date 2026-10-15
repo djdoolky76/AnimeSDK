@@ -37,6 +37,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 #define HDPFOEOKDDB_SET_FRAME_OFFSET UNITYSDK_OFFSET(0x15C40EB0)
 #define HDPFOEOKDDB_SET_ISSHOWFRAME_OFFSET UNITYSDK_OFFSET(0x15C40E90)
 
+inline static constexpr unsigned int HDPFOEOKDDB_TypeDefinitionIndex = 77418;
+
 	class HDPFOEOKDDB : public ::System::Object
 	{
 	public:

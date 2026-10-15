@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define EGMPACONNFP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E29A180)
 #define EGMPACONNFP___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E29A190)
 
+inline static constexpr unsigned int EGMPACONNFP___c_TypeDefinitionIndex = 33137;
+
 	class EGMPACONNFP___c : public ::System::Object
 	{
 	public:

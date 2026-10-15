@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 #define OMBBCMEHFCP__ENUMERATETRACENODEPROFILES_D__7_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0xBF17AC0)
 #define OMBBCMEHFCP__ENUMERATETRACENODEPROFILES_D__7_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBF17A80)
 
+inline static constexpr unsigned int OMBBCMEHFCP__EnumerateTraceNodeProfiles_d__7_TypeDefinitionIndex = 51992;
+
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7>
 	class OMBBCMEHFCP__EnumerateTraceNodeProfiles_d__7 : public ::System::Object
 	{

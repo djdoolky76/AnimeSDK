@@ -8,6 +8,8 @@ namespace RPG::GameCore { class TriggerSDFTextEffect; }
 #define GMFEEACGAJI_CTOR_OFFSET UNITYSDK_OFFSET(0x15ACDAB0)
 #define GMFEEACGAJI_GEOAKBLMIEG_OFFSET UNITYSDK_OFFSET(0x15ACDB60)
 
+inline static constexpr unsigned int GMFEEACGAJI_TypeDefinitionIndex = 55766;
+
 	class GMFEEACGAJI : public ::NFGENDDOCJJ
 	{
 	public:

@@ -10,6 +10,8 @@ class ALEAKDBNMKC;
 #define ACPGJEEJBPB_SET_CONTENTTEXTID_OFFSET UNITYSDK_OFFSET(0xB1333B0)
 #define ACPGJEEJBPB_SET_POSITIONINFO_OFFSET UNITYSDK_OFFSET(0xB133390)
 
+inline static constexpr unsigned int ACPGJEEJBPB_TypeDefinitionIndex = 62992;
+
 	class ACPGJEEJBPB : public ::System::Object
 	{
 	public:

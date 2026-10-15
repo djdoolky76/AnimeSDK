@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define LIBBPNHIGAG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E96A840)
 #define LIBBPNHIGAG___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E96A850)
 
+inline static constexpr unsigned int LIBBPNHIGAG___c_TypeDefinitionIndex = 28411;
+
 	class LIBBPNHIGAG___c : public ::System::Object
 	{
 	public:

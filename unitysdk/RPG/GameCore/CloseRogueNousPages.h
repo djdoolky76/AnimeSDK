@@ -10,6 +10,8 @@ namespace RPG::GameCore { class CloseRogueNousPages; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CloseRogueNousPages_TypeDefinitionIndex = 24282;
+
 	class CloseRogueNousPages : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int IPedestrianMemberExternalConfig_TypeDefinitionIndex = 69246;
+
 	class IPedestrianMemberExternalConfig : public ::System::Object
 	{
 	public:

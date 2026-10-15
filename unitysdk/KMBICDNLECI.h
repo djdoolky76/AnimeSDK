@@ -9,6 +9,8 @@ namespace System { class Object; }
 #define KMBICDNLECI__REGISTEREVENTCALLBACK_OFFSET UNITYSDK_OFFSET(0xB53C400)
 #define KMBICDNLECI__UNREGISTEREVENTCALLBACK_OFFSET UNITYSDK_OFFSET(0xB53C4C0)
 
+inline static constexpr unsigned int KMBICDNLECI_TypeDefinitionIndex = 53487;
+
 	class KMBICDNLECI
 	{
 	public:

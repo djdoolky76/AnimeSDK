@@ -8,6 +8,8 @@ namespace System { class String; }
 
 #define KMLBOMOHEDN_CTOR_OFFSET UNITYSDK_OFFSET(0xB5660B0)
 
+inline static constexpr unsigned int KMLBOMOHEDN_TypeDefinitionIndex = 82000;
+
 	class KMLBOMOHEDN : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace UnityEngine { class AnimationClip; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int VirtualCameraSampleAnimationConfig_TypeDefinitionIndex = 47831;
+
 	class VirtualCameraSampleAnimationConfig : public ::System::Object
 	{
 	public:

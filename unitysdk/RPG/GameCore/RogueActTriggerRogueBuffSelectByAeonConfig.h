@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueActTriggerRogueBuffSelectByAeonConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueActTriggerRogueBuffSelectByAeonConfig_TypeDefinitionIndex = 19649;
+
 	class RogueActTriggerRogueBuffSelectByAeonConfig : public ::RPG::GameCore::RogueActionConfigBase
 	{
 	public:

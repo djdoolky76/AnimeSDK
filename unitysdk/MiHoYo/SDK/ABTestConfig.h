@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int ABTestConfig_TypeDefinitionIndex = 7861;
+
 	class ABTestConfig : public ::System::Object
 	{
 	public:

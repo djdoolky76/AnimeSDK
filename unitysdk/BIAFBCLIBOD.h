@@ -35,6 +35,8 @@ namespace System { class String; }
 #define BIAFBCLIBOD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DDFEA00)
 #define BIAFBCLIBOD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DDFEA60)
 
+inline static constexpr unsigned int BIAFBCLIBOD_TypeDefinitionIndex = 30517;
+
 	class BIAFBCLIBOD : public ::System::Object
 	{
 	public:

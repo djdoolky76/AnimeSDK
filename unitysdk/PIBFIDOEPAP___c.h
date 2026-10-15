@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define PIBFIDOEPAP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF41470)
 #define PIBFIDOEPAP___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1DF41480)
 
+inline static constexpr unsigned int PIBFIDOEPAP___c_TypeDefinitionIndex = 28872;
+
 	class PIBFIDOEPAP___c : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace UnityEngine { class Animator; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MaterialAnimationBindingSyncMonoPlugin_TypeDefinitionIndex = 70294;
+
 	class MaterialAnimationBindingSyncMonoPlugin
 	{
 	public:

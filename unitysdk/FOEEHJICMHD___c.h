@@ -10,6 +10,8 @@ namespace System { template <typename T> class Comparison_1; }
 #define FOEEHJICMHD___C__BUILDVIEWMODEL_B__0_0_OFFSET UNITYSDK_OFFSET(0x158E7240)
 #define FOEEHJICMHD___C___GETPLAYERRANK_B__3_0_OFFSET UNITYSDK_OFFSET(0x158E72B0)
 
+inline static constexpr unsigned int FOEEHJICMHD___c_TypeDefinitionIndex = 81971;
+
 	class FOEEHJICMHD___c : public ::System::Object
 	{
 	public:

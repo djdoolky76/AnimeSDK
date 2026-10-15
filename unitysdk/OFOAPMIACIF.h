@@ -6,6 +6,8 @@
 
 #define OFOAPMIACIF_CTOR_OFFSET UNITYSDK_OFFSET(0x1C98CDB0)
 
+inline static constexpr unsigned int OFOAPMIACIF_TypeDefinitionIndex = 42266;
+
 	class OFOAPMIACIF : public ::System::Object
 	{
 	public:

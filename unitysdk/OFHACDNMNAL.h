@@ -25,6 +25,8 @@ namespace System { class String; }
 #define OFHACDNMNAL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE474C0)
 #define OFHACDNMNAL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DE47520)
 
+inline static constexpr unsigned int OFHACDNMNAL_TypeDefinitionIndex = 28109;
+
 	class OFHACDNMNAL : public ::System::Object
 	{
 	public:

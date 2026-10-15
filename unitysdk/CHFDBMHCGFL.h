@@ -64,6 +64,8 @@ namespace UnityEngine { class Transform; }
 #define CHFDBMHCGFL_PDJKNFNGICK_OFFSET UNITYSDK_OFFSET(0xCC97D40)
 #define CHFDBMHCGFL_PGOKKEHBAMK_OFFSET UNITYSDK_OFFSET(0xCC97F30)
 
+inline static constexpr unsigned int CHFDBMHCGFL_TypeDefinitionIndex = 79112;
+
 	class CHFDBMHCGFL : public ::System::Object
 	{
 	public:

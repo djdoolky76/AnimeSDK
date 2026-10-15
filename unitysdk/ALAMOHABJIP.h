@@ -33,6 +33,8 @@ namespace System { class String; }
 #define ALAMOHABJIP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E3D1C10)
 #define ALAMOHABJIP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E3D1C70)
 
+inline static constexpr unsigned int ALAMOHABJIP_TypeDefinitionIndex = 30702;
+
 	class ALAMOHABJIP : public ::System::Object
 	{
 	public:

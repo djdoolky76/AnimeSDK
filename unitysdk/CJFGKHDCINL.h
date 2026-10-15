@@ -8,6 +8,8 @@ namespace UnityEngine { class Transform; }
 #define CJFGKHDCINL_JLBEEHEEJMM_OFFSET UNITYSDK_OFFSET(0x94F0)
 #define CJFGKHDCINL_PHCDFBIJIPE_OFFSET UNITYSDK_OFFSET(0xE9840)
 
+inline static constexpr unsigned int CJFGKHDCINL_TypeDefinitionIndex = 78826;
+
 	struct alignas(8) CJFGKHDCINL
 	{
 		::UnityEngine::Transform* CNOIFDLDHNL; // 0x10

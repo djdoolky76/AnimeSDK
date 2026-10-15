@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ThrongNpcVariant_TypeDefinitionIndex = 60063;
+
 	class ThrongNpcVariant : public ::UnityEngine::ScriptableObject
 	{
 	public:

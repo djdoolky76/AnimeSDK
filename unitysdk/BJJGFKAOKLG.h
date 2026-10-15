@@ -25,6 +25,8 @@ namespace System { class String; }
 #define BJJGFKAOKLG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF47780)
 #define BJJGFKAOKLG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF477E0)
 
+inline static constexpr unsigned int BJJGFKAOKLG_TypeDefinitionIndex = 26297;
+
 	class BJJGFKAOKLG : public ::System::Object
 	{
 	public:

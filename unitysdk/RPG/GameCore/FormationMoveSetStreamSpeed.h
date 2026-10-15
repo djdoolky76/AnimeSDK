@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FormationMoveSetStreamSpeed; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FormationMoveSetStreamSpeed_TypeDefinitionIndex = 21259;
+
 	class FormationMoveSetStreamSpeed : public ::RPG::GameCore::TaskConfig
 	{
 	public:

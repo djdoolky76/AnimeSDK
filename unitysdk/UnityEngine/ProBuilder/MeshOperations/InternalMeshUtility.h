@@ -14,6 +14,8 @@ namespace UnityEngine::ProBuilder { class SharedVertex; }
 
 namespace UnityEngine::ProBuilder::MeshOperations
 {
+	inline static constexpr unsigned int InternalMeshUtility_TypeDefinitionIndex = 44499;
+
 	class InternalMeshUtility : public ::System::Object
 	{
 	public:

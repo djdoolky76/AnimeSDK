@@ -9,6 +9,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoTimelineControlGameLevelCell_FloorConfig_TypeDefinitionIndex = 60437;
+
 	class MonoTimelineControlGameLevelCell_FloorConfig : public ::System::Object
 	{
 	public:

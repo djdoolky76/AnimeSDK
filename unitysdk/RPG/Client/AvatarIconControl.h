@@ -32,6 +32,8 @@ namespace UnityEngine::UI { class Image; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AvatarIconControl_TypeDefinitionIndex = 60097;
+
 	class AvatarIconControl
 	{
 	public:

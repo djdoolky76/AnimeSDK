@@ -25,6 +25,8 @@ namespace System { class String; }
 #define JPIMBJPMFBP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E7D61D0)
 #define JPIMBJPMFBP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E7D6230)
 
+inline static constexpr unsigned int JPIMBJPMFBP_TypeDefinitionIndex = 26949;
+
 	class JPIMBJPMFBP : public ::System::Object
 	{
 	public:

@@ -17,6 +17,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 #define HGJDKPIBJBI__ENUMERATEACTIVEPATHAVATARS_D__16_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15CA3250)
 #define HGJDKPIBJBI__ENUMERATEACTIVEPATHAVATARS_D__16___M__FINALLY1_OFFSET UNITYSDK_OFFSET(0x15CA3260)
 
+inline static constexpr unsigned int HGJDKPIBJBI__EnumerateActivePathAvatars_d__16_TypeDefinitionIndex = 62669;
+
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10, typename T11, typename T12, typename T13, typename T14, typename T15, typename T16>
 	class HGJDKPIBJBI__EnumerateActivePathAvatars_d__16 : public ::System::Object
 	{

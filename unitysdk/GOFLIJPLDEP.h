@@ -7,6 +7,8 @@
 #define GOFLIJPLDEP_LOHADNFAFOJ_OFFSET UNITYSDK_OFFSET(0x15B2E6D0)
 #define GOFLIJPLDEP_OEDLCCKBABE_OFFSET UNITYSDK_OFFSET(0x15B2E6E0)
 
+inline static constexpr unsigned int GOFLIJPLDEP_TypeDefinitionIndex = 57570;
+
 	class GOFLIJPLDEP : public ::System::Object
 	{
 	public:

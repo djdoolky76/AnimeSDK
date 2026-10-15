@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TimeRewindGlobalUnselectable; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TimeRewindGlobalUnselectable_TypeDefinitionIndex = 20681;
+
 	class TimeRewindGlobalUnselectable : public ::RPG::GameCore::TaskConfig
 	{
 	public:

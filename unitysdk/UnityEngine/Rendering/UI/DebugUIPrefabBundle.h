@@ -8,6 +8,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace UnityEngine::Rendering::UI
 {
+	inline static constexpr unsigned int DebugUIPrefabBundle_TypeDefinitionIndex = 35674;
+
 	class DebugUIPrefabBundle : public ::System::Object
 	{
 	public:

@@ -19,6 +19,8 @@ namespace UnityEngine { class Coroutine; }
 
 namespace RPG::Client::B51Racing
 {
+	inline static constexpr unsigned int MonoB51RacingGameplayRoundHint_TypeDefinitionIndex = 81895;
+
 	class MonoB51RacingGameplayRoundHint : public ::Sofa::BaseSofaControl
 	{
 	public:

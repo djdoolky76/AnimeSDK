@@ -13,6 +13,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define FNEOGNKLCOH_KIGBILLGNOH_OFFSET UNITYSDK_OFFSET(0x1586BDB0)
 #define FNEOGNKLCOH_OPCKNBHNBOA_OFFSET UNITYSDK_OFFSET(0x1586BF40)
 
+inline static constexpr unsigned int FNEOGNKLCOH_TypeDefinitionIndex = 55927;
+
 	class FNEOGNKLCOH : public ::JJANGHIBICJ
 	{
 	public:

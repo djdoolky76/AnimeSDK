@@ -24,6 +24,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define ALBNIGBDDKI___CREATEFORSTORY_G__GETREALTIMECURRENTSTAGESCORE_3_1_OFFSET UNITYSDK_OFFSET(0x15560190)
 #define ALBNIGBDDKI___CREATEFORSTORY_G__GETREALTIMETOTALSCORE_3_0_OFFSET UNITYSDK_OFFSET(0x1555FF50)
 
+inline static constexpr unsigned int ALBNIGBDDKI_TypeDefinitionIndex = 81565;
+
 	class ALBNIGBDDKI : public ::System::Object
 	{
 	public:

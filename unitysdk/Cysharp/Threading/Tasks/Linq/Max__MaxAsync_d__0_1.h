@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class Comparer_1;
 
 namespace Cysharp::Threading::Tasks::Linq
 {
+	inline static constexpr unsigned int Max__MaxAsync_d__0_1_TypeDefinitionIndex = 45421;
+
 	template <typename T>
 	struct alignas(8) Max__MaxAsync_d__0_1
 	{

@@ -8,6 +8,8 @@ namespace System { class String; }
 #define HKHDFAPDOGJ_DDMFGANEIFN_OFFSET UNITYSDK_OFFSET(0x15D44D30)
 #define HKHDFAPDOGJ_NEHHFCMLODP_OFFSET UNITYSDK_OFFSET(0x15D44C60)
 
+inline static constexpr unsigned int HKHDFAPDOGJ_TypeDefinitionIndex = 66213;
+
 	class HKHDFAPDOGJ : public ::System::Object
 	{
 	public:

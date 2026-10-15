@@ -8,6 +8,8 @@ namespace UnityEngine { class Texture; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int Internal_DrawTextureArguments_TypeDefinitionIndex = 4132;
+
 	struct alignas(8) Internal_DrawTextureArguments
 	{
 		::UnityEngine::Rect screenRect; // 0x10

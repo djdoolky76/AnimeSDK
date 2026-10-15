@@ -4,6 +4,8 @@
 
 #define CIJDKICEOCD_CTOR_OFFSET UNITYSDK_OFFSET(0x1DD29B10)
 
+inline static constexpr unsigned int CIJDKICEOCD_TypeDefinitionIndex = 6314;
+
 	class CIJDKICEOCD : public ::System::Attribute
 	{
 	public:

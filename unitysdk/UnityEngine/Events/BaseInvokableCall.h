@@ -11,6 +11,8 @@ namespace System::Reflection { class MethodInfo; }
 
 namespace UnityEngine::Events
 {
+	inline static constexpr unsigned int BaseInvokableCall_TypeDefinitionIndex = 4479;
+
 	class BaseInvokableCall : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System::Reflection { class MemberInfo; }
 
 namespace System::ComponentModel::Design::Serialization
 {
+	inline static constexpr unsigned int InstanceDescriptor_TypeDefinitionIndex = 2661;
+
 	class InstanceDescriptor : public ::System::Object
 	{
 	public:

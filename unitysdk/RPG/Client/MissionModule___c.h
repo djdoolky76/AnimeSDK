@@ -11,6 +11,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MissionModule___c_TypeDefinitionIndex = 66146;
+
 	class MissionModule___c : public ::System::Object
 	{
 	public:

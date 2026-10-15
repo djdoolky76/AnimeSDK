@@ -56,6 +56,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::UI::OS
 {
+	inline static constexpr unsigned int UIFactory_TypeDefinitionIndex = 8475;
+
 	class UIFactory : public ::System::Object
 	{
 	public:

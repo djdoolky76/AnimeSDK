@@ -29,6 +29,8 @@ namespace System { class String; }
 #define HIGAMEJNCJJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E594C50)
 #define HIGAMEJNCJJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E594CB0)
 
+inline static constexpr unsigned int HIGAMEJNCJJ_TypeDefinitionIndex = 32758;
+
 	class HIGAMEJNCJJ : public ::System::Object
 	{
 	public:

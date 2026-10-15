@@ -5,6 +5,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FiveDimManager_DOFContext_TypeDefinitionIndex = 60542;
+
 	struct alignas(4) FiveDimManager_DOFContext
 	{
 		::System::Boolean IsDOFEnabled; // 0x10

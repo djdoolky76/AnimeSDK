@@ -31,6 +31,8 @@ namespace UnityEngine { class WaitForSeconds; }
 
 namespace Cysharp::Threading::Tasks
 {
+	inline static constexpr unsigned int EnumeratorAsyncExtensions_EnumeratorPromise_TypeDefinitionIndex = 38154;
+
 	class EnumeratorAsyncExtensions_EnumeratorPromise : public ::System::Object
 	{
 	public:

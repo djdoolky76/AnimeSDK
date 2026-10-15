@@ -13,6 +13,8 @@ namespace UnityEngine { class Transform; }
 #define CANPMKJJJNK_EHFLDBMLBPM_OFFSET UNITYSDK_OFFSET(0xC494FE0)
 #define CANPMKJJJNK_KHNCMBEFIKI_OFFSET UNITYSDK_OFFSET(0xC4957B0)
 
+inline static constexpr unsigned int CANPMKJJJNK_TypeDefinitionIndex = 68467;
+
 	class CANPMKJJJNK : public ::System::Object
 	{
 	public:

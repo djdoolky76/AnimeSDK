@@ -4,6 +4,8 @@
 
 #define MBGOLJBHEHA_CTOR_OFFSET UNITYSDK_OFFSET(0x1D134290)
 
+inline static constexpr unsigned int MBGOLJBHEHA_TypeDefinitionIndex = 10873;
+
 	class MBGOLJBHEHA : public ::System::Object
 	{
 	public:

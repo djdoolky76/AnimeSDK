@@ -10,6 +10,8 @@ namespace UnityEngine::EventSystems { class PointerEventData; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int BubbleTooltipHost_TypeDefinitionIndex = 9545;
+
 	class BubbleTooltipHost : public ::UnityEngine::MonoBehaviour
 	{
 	public:

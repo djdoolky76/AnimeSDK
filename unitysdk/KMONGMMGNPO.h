@@ -9,6 +9,8 @@ namespace RPG::GameCore { class FateRinCaseBoardMoveBaseInfo; }
 #define KMONGMMGNPO_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D0B5640)
 #define KMONGMMGNPO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D0B5600)
 
+inline static constexpr unsigned int KMONGMMGNPO_TypeDefinitionIndex = 19923;
+
 	class KMONGMMGNPO : public ::RPG::GameCore::TaskConfig
 	{
 	public:

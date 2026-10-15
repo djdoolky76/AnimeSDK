@@ -38,6 +38,8 @@ namespace System { class String; }
 #define EEHLDBOEFGB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E269040)
 #define EEHLDBOEFGB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E2690A0)
 
+inline static constexpr unsigned int EEHLDBOEFGB_TypeDefinitionIndex = 30640;
+
 	class EEHLDBOEFGB : public ::System::Object
 	{
 	public:

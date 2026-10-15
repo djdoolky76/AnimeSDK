@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueNousMainStoryRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueNousMainStoryRow_TypeDefinitionIndex = 14913;
+
 	class RogueNousMainStoryRow : public ::System::Object
 	{
 	public:

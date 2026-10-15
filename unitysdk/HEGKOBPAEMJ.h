@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define HEGKOBPAEMJ_CTOR_OFFSET UNITYSDK_OFFSET(0x15C50DC0)
 #define HEGKOBPAEMJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15C50DF0)
 
+inline static constexpr unsigned int HEGKOBPAEMJ_TypeDefinitionIndex = 57897;
+
 	class HEGKOBPAEMJ
 	{
 	public:

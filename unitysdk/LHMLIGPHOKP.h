@@ -28,6 +28,8 @@ namespace System { class String; }
 #define LHMLIGPHOKP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E967740)
 #define LHMLIGPHOKP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E9677A0)
 
+inline static constexpr unsigned int LHMLIGPHOKP_TypeDefinitionIndex = 29268;
+
 	class LHMLIGPHOKP : public ::System::Object
 	{
 	public:

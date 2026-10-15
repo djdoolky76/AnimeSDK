@@ -27,6 +27,8 @@ namespace System { class String; }
 #define FPMOEFOEJEE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E40E790)
 #define FPMOEFOEJEE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E40E7F0)
 
+inline static constexpr unsigned int FPMOEFOEJEE_TypeDefinitionIndex = 32174;
+
 	class FPMOEFOEJEE : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System { class String; }
 #define ONPADMPFEDI_CTOR_OFFSET UNITYSDK_OFFSET(0x1D2A64F0)
 #define ONPADMPFEDI_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D2A6110)
 
+inline static constexpr unsigned int ONPADMPFEDI_TypeDefinitionIndex = 11253;
+
 	class ONPADMPFEDI : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SubMissionRelationConfig_TypeDefinitionIndex = 19020;
+
 	class SubMissionRelationConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MessageVideoRow_TypeDefinitionIndex = 14468;
+
 	class MessageVideoRow : public ::System::Object
 	{
 	public:

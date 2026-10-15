@@ -6,6 +6,8 @@
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int HaltonSequence_TypeDefinitionIndex = 35604;
+
 	class HaltonSequence : public ::System::Object
 	{
 	public:

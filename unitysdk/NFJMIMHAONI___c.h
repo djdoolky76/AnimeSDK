@@ -9,6 +9,8 @@ namespace System { template <typename T> class Func_1; }
 #define NFJMIMHAONI___C_CTOR_OFFSET UNITYSDK_OFFSET(0xBB99410)
 #define NFJMIMHAONI___C__CREATEITEM_B__1_0_OFFSET UNITYSDK_OFFSET(0xBB99420)
 
+inline static constexpr unsigned int NFJMIMHAONI___c_TypeDefinitionIndex = 65573;
+
 	class NFJMIMHAONI___c : public ::System::Object
 	{
 	public:

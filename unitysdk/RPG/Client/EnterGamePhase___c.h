@@ -11,6 +11,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int EnterGamePhase___c_TypeDefinitionIndex = 61146;
+
 	class EnterGamePhase___c : public ::System::Object
 	{
 	public:

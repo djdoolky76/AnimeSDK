@@ -17,6 +17,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define BEKGJIEMAOF_REFRESH_OFFSET UNITYSDK_OFFSET(0xB155900)
 #define BEKGJIEMAOF_RESET_OFFSET UNITYSDK_OFFSET(0xB155860)
 
+inline static constexpr unsigned int BEKGJIEMAOF_TypeDefinitionIndex = 69605;
+
 	class BEKGJIEMAOF : public ::System::Object
 	{
 	public:

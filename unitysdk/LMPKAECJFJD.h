@@ -9,6 +9,8 @@ namespace System { class String; }
 #define LMPKAECJFJD_CTOR_OFFSET UNITYSDK_OFFSET(0xB7D3D90)
 #define LMPKAECJFJD_LIEIJEFAGPN_OFFSET UNITYSDK_OFFSET(0xB7D3E90)
 
+inline static constexpr unsigned int LMPKAECJFJD_TypeDefinitionIndex = 73662;
+
 	class LMPKAECJFJD : public ::System::Attribute
 	{
 	public:

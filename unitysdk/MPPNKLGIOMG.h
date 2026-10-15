@@ -8,6 +8,8 @@ class MPPNKLGIOMG;
 #define MPPNKLGIOMG_CTOR_OFFSET UNITYSDK_OFFSET(0x1D1E5020)
 #define MPPNKLGIOMG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D1E4E90)
 
+inline static constexpr unsigned int MPPNKLGIOMG_TypeDefinitionIndex = 13505;
+
 	class MPPNKLGIOMG : public ::System::Object
 	{
 	public:

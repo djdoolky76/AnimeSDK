@@ -6,6 +6,8 @@ namespace RPG::Client { class MonoJoyStickProvider; }
 #define BEPHNEEOMFG_CTOR_OFFSET UNITYSDK_OFFSET(0xB15C4D0)
 #define BEPHNEEOMFG_IGAHPDCHJLI_OFFSET UNITYSDK_OFFSET(0xB15C4F0)
 
+inline static constexpr unsigned int BEPHNEEOMFG_TypeDefinitionIndex = 61314;
+
 	class BEPHNEEOMFG
 	{
 	public:

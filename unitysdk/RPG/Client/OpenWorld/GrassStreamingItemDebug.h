@@ -10,6 +10,8 @@
 
 namespace RPG::Client::OpenWorld
 {
+	inline static constexpr unsigned int GrassStreamingItemDebug_TypeDefinitionIndex = 73789;
+
 	class GrassStreamingItemDebug : public ::UnityEngine::MonoBehaviour
 	{
 	public:

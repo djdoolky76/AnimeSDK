@@ -13,6 +13,8 @@ namespace System { template <typename T> class Func_1; }
 #define PECGGCEHNHN___C___CTOR_B__27_0_OFFSET UNITYSDK_OFFSET(0x1C9AABF0)
 #define PECGGCEHNHN___C___CTOR_B__27_1_OFFSET UNITYSDK_OFFSET(0x1C9AAC20)
 
+inline static constexpr unsigned int PECGGCEHNHN___c_TypeDefinitionIndex = 42625;
+
 	class PECGGCEHNHN___c : public ::System::Object
 	{
 	public:

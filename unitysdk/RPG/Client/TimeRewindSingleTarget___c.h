@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TimeRewindSingleTarget___c_TypeDefinitionIndex = 60821;
+
 	class TimeRewindSingleTarget___c : public ::System::Object
 	{
 	public:

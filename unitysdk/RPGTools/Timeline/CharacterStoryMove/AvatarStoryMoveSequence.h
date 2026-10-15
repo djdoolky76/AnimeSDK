@@ -8,6 +8,8 @@ namespace RPGTools::Timeline::CharacterStoryMove { class StoryMoveSequenceClip; 
 
 namespace RPGTools::Timeline::CharacterStoryMove
 {
+	inline static constexpr unsigned int AvatarStoryMoveSequence_TypeDefinitionIndex = 48712;
+
 	class AvatarStoryMoveSequence : public ::System::Object
 	{
 	public:

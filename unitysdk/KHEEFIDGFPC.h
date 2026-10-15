@@ -30,6 +30,8 @@ namespace UnityEngine { class GameObject; }
 #define KHEEFIDGFPC_PDOOLECJLHI_OFFSET UNITYSDK_OFFSET(0xB404CB0)
 #define KHEEFIDGFPC_TICK_OFFSET UNITYSDK_OFFSET(0xB405EF0)
 
+inline static constexpr unsigned int KHEEFIDGFPC_TypeDefinitionIndex = 57853;
+
 	class KHEEFIDGFPC : public ::GELIALJDFBL
 	{
 	public:

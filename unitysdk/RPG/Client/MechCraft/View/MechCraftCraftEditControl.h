@@ -53,6 +53,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftCraftEditControl_TypeDefinitionIndex = 79875;
+
 	class MechCraftCraftEditControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

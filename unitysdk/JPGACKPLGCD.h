@@ -31,6 +31,8 @@ namespace System { class String; }
 #define JPGACKPLGCD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E7D29B0)
 #define JPGACKPLGCD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E7D2A10)
 
+inline static constexpr unsigned int JPGACKPLGCD_TypeDefinitionIndex = 25360;
+
 	class JPGACKPLGCD : public ::System::Object
 	{
 	public:

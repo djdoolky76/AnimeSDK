@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define ODLEEMAALIP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DE20CF0)
 #define ODLEEMAALIP___C___CCTOR_B__58_0_OFFSET UNITYSDK_OFFSET(0x1DE20D00)
 
+inline static constexpr unsigned int ODLEEMAALIP___c_TypeDefinitionIndex = 31555;
+
 	class ODLEEMAALIP___c : public ::System::Object
 	{
 	public:

@@ -19,6 +19,8 @@ namespace System::Collections::Generic { template <typename T> class LinkedList_
 
 namespace RPG::Client::Promises
 {
+	inline static constexpr unsigned int PromiseTimer_TypeDefinitionIndex = 9904;
+
 	class PromiseTimer : public ::System::Object
 	{
 	public:

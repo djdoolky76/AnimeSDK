@@ -10,6 +10,8 @@ namespace System { class String; }
 #define MGCJMNOPFEB_ONCLEAR_OFFSET UNITYSDK_OFFSET(0xB916BA0)
 #define MGCJMNOPFEB_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0xB916AD0)
 
+inline static constexpr unsigned int MGCJMNOPFEB_TypeDefinitionIndex = 78178;
+
 	class MGCJMNOPFEB : public ::AJHHFMBOCEN
 	{
 	public:

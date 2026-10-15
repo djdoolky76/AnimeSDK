@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CakeRaceCurveType_TypeDefinitionIndex = 18409;
+
 	enum class CakeRaceCurveType : ::System::Int32
 	{
 		None = 0,

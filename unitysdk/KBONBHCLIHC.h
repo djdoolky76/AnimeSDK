@@ -9,6 +9,8 @@ namespace RPG::GameCore { class CakeRaceAbilityConfig; }
 
 #define KBONBHCLIHC_GOKHKDEIIEH_OFFSET UNITYSDK_OFFSET(0x1C70BBC0)
 
+inline static constexpr unsigned int KBONBHCLIHC_TypeDefinitionIndex = 37358;
+
 	class KBONBHCLIHC : public ::System::Object
 	{
 	public:

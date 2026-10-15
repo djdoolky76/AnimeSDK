@@ -19,6 +19,8 @@ namespace RPG::AvatarSystem { class IAvatar; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChallengeSnapshotAvatarProxy_TypeDefinitionIndex = 62545;
+
 	class ChallengeSnapshotAvatarProxy : public ::System::Object
 	{
 	public:

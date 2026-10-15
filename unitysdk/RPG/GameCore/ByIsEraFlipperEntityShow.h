@@ -13,6 +13,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByIsEraFlipperEntityShow_TypeDefinitionIndex = 22334;
+
 	class ByIsEraFlipperEntityShow : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

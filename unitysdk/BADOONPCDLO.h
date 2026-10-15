@@ -31,6 +31,8 @@ namespace System { class String; }
 #define BADOONPCDLO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E7B0AC0)
 #define BADOONPCDLO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E7B0B20)
 
+inline static constexpr unsigned int BADOONPCDLO_TypeDefinitionIndex = 31471;
+
 	class BADOONPCDLO : public ::System::Object
 	{
 	public:

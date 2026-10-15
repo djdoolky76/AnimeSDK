@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PingPongEnemyGroupEvent_ModifyUnit_TypeDefinitionIndex = 16998;
+
 	class PingPongEnemyGroupEvent_ModifyUnit : public ::RPG::GameCore::PingPongEnemyGroupEventBase
 	{
 	public:

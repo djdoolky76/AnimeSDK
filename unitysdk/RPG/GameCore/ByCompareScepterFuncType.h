@@ -15,6 +15,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByCompareScepterFuncType_TypeDefinitionIndex = 23107;
+
 	class ByCompareScepterFuncType : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

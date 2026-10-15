@@ -14,6 +14,8 @@ namespace System { class Object; }
 
 namespace UnityEngine::LowLevel
 {
+	inline static constexpr unsigned int PlayerLoop_TypeDefinitionIndex = 4542;
+
 	class PlayerLoop : public ::System::Object
 	{
 	public:

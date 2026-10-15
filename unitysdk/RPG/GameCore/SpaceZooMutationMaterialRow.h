@@ -9,6 +9,8 @@ namespace RPG::GameCore { class SpaceZooMutationMaterialRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SpaceZooMutationMaterialRow_TypeDefinitionIndex = 12366;
+
 	class SpaceZooMutationMaterialRow : public ::System::Object
 	{
 	public:

@@ -13,6 +13,8 @@ namespace UnityEngine::Events { class UnityEvent; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ActiveDetection_TypeDefinitionIndex = 72822;
+
 	class ActiveDetection : public ::UnityEngine::MonoBehaviour
 	{
 	public:

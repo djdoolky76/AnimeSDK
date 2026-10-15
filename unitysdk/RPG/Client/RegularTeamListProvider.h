@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RegularTeamListProvider_TypeDefinitionIndex = 68121;
+
 	class RegularTeamListProvider : public ::System::Object
 	{
 	public:

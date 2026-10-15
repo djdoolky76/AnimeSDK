@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StarFightQuestConfigExcelTable_TypeDefinitionIndex = 12395;
+
 	class StarFightQuestConfigExcelTable : public ::System::Object
 	{
 	public:

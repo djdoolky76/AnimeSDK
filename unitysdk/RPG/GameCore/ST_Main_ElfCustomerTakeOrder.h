@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ST_Main_ElfCustomerTakeOrder; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ST_Main_ElfCustomerTakeOrder_TypeDefinitionIndex = 21529;
+
 	class ST_Main_ElfCustomerTakeOrder : public ::RPG::GameCore::STTaskConfig
 	{
 	public:

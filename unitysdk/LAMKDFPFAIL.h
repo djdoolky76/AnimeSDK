@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 #define LAMKDFPFAIL_SET_MAXCASTCOUNTPERPHASE_OFFSET UNITYSDK_OFFSET(0xB5E7C70)
 #define LAMKDFPFAIL_SET_TEAMSLOTCOUNT_OFFSET UNITYSDK_OFFSET(0xB5E7BB0)
 
+inline static constexpr unsigned int LAMKDFPFAIL_TypeDefinitionIndex = 63339;
+
 	class LAMKDFPFAIL : public ::System::Object
 	{
 	public:

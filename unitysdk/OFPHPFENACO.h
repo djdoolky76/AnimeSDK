@@ -28,6 +28,8 @@ namespace System { class String; }
 #define OFPHPFENACO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE4D690)
 #define OFPHPFENACO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DE4D6F0)
 
+inline static constexpr unsigned int OFPHPFENACO_TypeDefinitionIndex = 26162;
+
 	class OFPHPFENACO : public ::System::Object
 	{
 	public:

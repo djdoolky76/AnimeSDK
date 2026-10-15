@@ -48,6 +48,8 @@ namespace System { class String; }
 #define MNDPFKFEENO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA93380)
 #define MNDPFKFEENO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA933E0)
 
+inline static constexpr unsigned int MNDPFKFEENO_TypeDefinitionIndex = 29773;
+
 	class MNDPFKFEENO : public ::System::Object
 	{
 	public:

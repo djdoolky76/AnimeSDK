@@ -4,6 +4,8 @@
 
 #define JAFFGJBJJIL_CTOR_OFFSET UNITYSDK_OFFSET(0x16541C30)
 
+inline static constexpr unsigned int JAFFGJBJJIL_TypeDefinitionIndex = 48248;
+
 	class JAFFGJBJJIL : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

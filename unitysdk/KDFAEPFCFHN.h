@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 #define KDFAEPFCFHN_INJALNOIBPF_OFFSET UNITYSDK_OFFSET(0xB34E2B0)
 #define KDFAEPFCFHN_JHMMJDKHIEG_OFFSET UNITYSDK_OFFSET(0xB34E310)
 
+inline static constexpr unsigned int KDFAEPFCFHN_TypeDefinitionIndex = 66427;
+
 	class KDFAEPFCFHN : public ::System::Object
 	{
 	public:

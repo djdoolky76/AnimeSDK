@@ -6,6 +6,8 @@
 #define OKLKGNDDDFD_CTOR_OFFSET UNITYSDK_OFFSET(0xBEED940)
 #define OKLKGNDDDFD_GNADABFLEFM_OFFSET UNITYSDK_OFFSET(0xBEED8E0)
 
+inline static constexpr unsigned int OKLKGNDDDFD_TypeDefinitionIndex = 64927;
+
 	class OKLKGNDDDFD : public ::HBIAKFCLCIG
 	{
 	public:

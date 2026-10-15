@@ -9,6 +9,8 @@ class DEBEAKKOHLN;
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChenLingFesModelView_TypeDefinitionIndex = 61461;
+
 	class ChenLingFesModelView : public ::UnityEngine::MonoBehaviour
 	{
 	public:

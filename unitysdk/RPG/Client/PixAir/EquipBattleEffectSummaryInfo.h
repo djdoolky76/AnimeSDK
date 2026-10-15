@@ -32,6 +32,8 @@ namespace RPG::Client::PixAir { class PixAirEquipInstance; }
 
 namespace RPG::Client::PixAir
 {
+	inline static constexpr unsigned int EquipBattleEffectSummaryInfo_TypeDefinitionIndex = 79320;
+
 	class EquipBattleEffectSummaryInfo : public ::System::Object
 	{
 	public:

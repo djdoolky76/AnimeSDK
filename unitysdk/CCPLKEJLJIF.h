@@ -35,6 +35,8 @@ namespace System { class String; }
 #define CCPLKEJLJIF_OGCDGGLCGDM_OFFSET UNITYSDK_OFFSET(0xC757AC0)
 #define CCPLKEJLJIF_OOJGPCHHGHM_OFFSET UNITYSDK_OFFSET(0xC7572C0)
 
+inline static constexpr unsigned int CCPLKEJLJIF_TypeDefinitionIndex = 59610;
+
 	class CCPLKEJLJIF : public ::System::Object
 	{
 	public:

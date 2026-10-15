@@ -6,6 +6,8 @@
 #define WWISEBANKREFERENCE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F637020)
 #define WWISEBANKREFERENCE_GET_WWISEOBJECTTYPE_OFFSET UNITYSDK_OFFSET(0x1F637010)
 
+inline static constexpr unsigned int WwiseBankReference_TypeDefinitionIndex = 44883;
+
 	class WwiseBankReference : public ::WwiseObjectReference
 	{
 	public:

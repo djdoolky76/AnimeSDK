@@ -9,6 +9,8 @@ namespace RPG::GameCore { class SpaceZooCatteryRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SpaceZooCatteryRow_TypeDefinitionIndex = 12375;
+
 	class SpaceZooCatteryRow : public ::System::Object
 	{
 	public:

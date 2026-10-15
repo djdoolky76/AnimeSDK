@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define LJENKGFOHLA_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB6E2560)
 #define LJENKGFOHLA_TICK_OFFSET UNITYSDK_OFFSET(0xB6E2400)
 
+inline static constexpr unsigned int LJENKGFOHLA_TypeDefinitionIndex = 52118;
+
 	class LJENKGFOHLA
 	{
 	public:

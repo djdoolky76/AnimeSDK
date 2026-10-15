@@ -20,6 +20,8 @@ namespace System { class String; }
 #define MABAODLFNPL_SETNEXTTASK_OFFSET UNITYSDK_OFFSET(0xB83DD20)
 #define MABAODLFNPL_TICK_OFFSET UNITYSDK_OFFSET(0xB83DCC0)
 
+inline static constexpr unsigned int MABAODLFNPL_TypeDefinitionIndex = 52717;
+
 	class MABAODLFNPL : public ::GELIALJDFBL
 	{
 	public:

@@ -7,6 +7,8 @@ namespace System::Collections::Generic { template <typename T> class Queue_1; }
 #define EPBKPIMAANC_LHFCIHCENCO_OFFSET UNITYSDK_OFFSET(0x155CEE90)
 #define EPBKPIMAANC_PBAEKCNJOJF_OFFSET UNITYSDK_OFFSET(0x155CECF0)
 
+inline static constexpr unsigned int EPBKPIMAANC_TypeDefinitionIndex = 79044;
+
 	class EPBKPIMAANC : public ::System::Object
 	{
 	public:

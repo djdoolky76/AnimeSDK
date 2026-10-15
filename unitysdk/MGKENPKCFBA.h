@@ -6,6 +6,8 @@ class FLGDGCPIHBP;
 #define MGKENPKCFBA_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C92AA50)
 #define MGKENPKCFBA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C92AAD0)
 
+inline static constexpr unsigned int MGKENPKCFBA_TypeDefinitionIndex = 43447;
+
 	class MGKENPKCFBA : public ::System::Object
 	{
 	public:

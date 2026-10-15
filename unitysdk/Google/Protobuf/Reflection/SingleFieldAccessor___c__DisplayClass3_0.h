@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace Google::Protobuf::Reflection
 {
+	inline static constexpr unsigned int SingleFieldAccessor___c__DisplayClass3_0_TypeDefinitionIndex = 5576;
+
 	class SingleFieldAccessor___c__DisplayClass3_0 : public ::System::Object
 	{
 	public:

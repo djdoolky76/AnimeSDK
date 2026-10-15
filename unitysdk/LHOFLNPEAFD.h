@@ -5,6 +5,8 @@
 
 #define LHOFLNPEAFD_CTOR_OFFSET UNITYSDK_OFFSET(0x1C90ED50)
 
+inline static constexpr unsigned int LHOFLNPEAFD_TypeDefinitionIndex = 42024;
+
 	class LHOFLNPEAFD : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace RPG::Client::ActivityIdleLive { class IdleLiveLikeEffect; }
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int IdleLiveGiftDanmu___c__DisplayClass42_0_TypeDefinitionIndex = 75180;
+
 	class IdleLiveGiftDanmu___c__DisplayClass42_0 : public ::System::Object
 	{
 	public:

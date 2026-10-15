@@ -51,6 +51,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int LobbyModule_TypeDefinitionIndex = 65781;
+
 	class LobbyModule : public ::RPG::Client::BaseModule
 	{
 	public:

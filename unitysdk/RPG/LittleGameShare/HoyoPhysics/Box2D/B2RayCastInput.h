@@ -6,6 +6,8 @@
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
+	inline static constexpr unsigned int B2RayCastInput_TypeDefinitionIndex = 36735;
+
 	struct alignas(4) B2RayCastInput
 	{
 		::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Vec2 origin; // 0x10

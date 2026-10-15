@@ -12,6 +12,8 @@ namespace System { class Action; }
 #define KPBPOKHFDOM_CTOR_OFFSET UNITYSDK_OFFSET(0xB5AFEB0)
 #define KPBPOKHFDOM_MBABPIHGAJN_OFFSET UNITYSDK_OFFSET(0xB5AFDB0)
 
+inline static constexpr unsigned int KPBPOKHFDOM_TypeDefinitionIndex = 49257;
+
 	class KPBPOKHFDOM : public ::MHEEJBJHLOB
 	{
 	public:

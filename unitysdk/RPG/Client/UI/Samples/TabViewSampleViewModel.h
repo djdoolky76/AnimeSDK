@@ -23,6 +23,8 @@ namespace System { class String; }
 
 namespace RPG::Client::Ui::Samples
 {
+	inline static constexpr unsigned int TabViewSampleViewModel_TypeDefinitionIndex = 73469;
+
 	class TabViewSampleViewModel : public ::Sofa::Core::ObservableObject
 	{
 	public:

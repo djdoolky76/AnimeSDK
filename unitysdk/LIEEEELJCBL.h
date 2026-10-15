@@ -11,6 +11,8 @@ namespace System { class Object; }
 #define LIEEEELJCBL_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C73C8D0)
 #define LIEEEELJCBL_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C73C890)
 
+inline static constexpr unsigned int LIEEEELJCBL_TypeDefinitionIndex = 36232;
+
 	class LIEEEELJCBL : public ::System::MulticastDelegate
 	{
 	public:

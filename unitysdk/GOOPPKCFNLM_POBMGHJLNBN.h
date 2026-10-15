@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define GOOPPKCFNLM_POBMGHJLNBN_CTOR_OFFSET UNITYSDK_OFFSET(0x1C649450)
 #define GOOPPKCFNLM_POBMGHJLNBN_FGBIFEGJPOP_OFFSET UNITYSDK_OFFSET(0x1C64BF80)
 
+inline static constexpr unsigned int GOOPPKCFNLM_POBMGHJLNBN_TypeDefinitionIndex = 37332;
+
 	class GOOPPKCFNLM_POBMGHJLNBN : public ::System::Object
 	{
 	public:

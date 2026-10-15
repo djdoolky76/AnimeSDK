@@ -9,6 +9,8 @@ namespace RPG::Client::Prop { class ChimeraDuelShopViewJumpTextEffect; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int ChimeraDuelShopViewJumpTextEffect_UpgradeBuilder_TypeDefinitionIndex = 78366;
+
 	class ChimeraDuelShopViewJumpTextEffect_UpgradeBuilder : public ::System::Object
 	{
 	public:

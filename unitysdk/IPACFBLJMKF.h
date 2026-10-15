@@ -31,6 +31,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define IPACFBLJMKF_LMKJPELJMKE_OFFSET UNITYSDK_OFFSET(0x1651CAD0)
 #define IPACFBLJMKF_OEFKOGIPPAE_OFFSET UNITYSDK_OFFSET(0x1651D100)
 
+inline static constexpr unsigned int IPACFBLJMKF_TypeDefinitionIndex = 72430;
+
 	class IPACFBLJMKF : public ::System::Object
 	{
 	public:

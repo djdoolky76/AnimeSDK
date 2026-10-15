@@ -31,6 +31,8 @@ namespace System { class String; }
 #define LGGIDOJJDCN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E952D80)
 #define LGGIDOJJDCN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E952DE0)
 
+inline static constexpr unsigned int LGGIDOJJDCN_TypeDefinitionIndex = 27447;
+
 	class LGGIDOJJDCN : public ::System::Object
 	{
 	public:

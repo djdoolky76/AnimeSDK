@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int EffectTimelineBehaviour_TypeDefinitionIndex = 48421;
+
 	class EffectTimelineBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

@@ -33,6 +33,8 @@ namespace System { class String; }
 #define OKLPMDCIEIG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE9FB90)
 #define OKLPMDCIEIG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DE9FBF0)
 
+inline static constexpr unsigned int OKLPMDCIEIG_TypeDefinitionIndex = 25574;
+
 	class OKLPMDCIEIG : public ::System::Object
 	{
 	public:

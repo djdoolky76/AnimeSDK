@@ -8,6 +8,8 @@ namespace Google::Protobuf::Reflection { class FileDescriptor; }
 
 namespace Google::Protobuf::Reflection
 {
+	inline static constexpr unsigned int DescriptorReflection_TypeDefinitionIndex = 5456;
+
 	class DescriptorReflection : public ::System::Object
 	{
 	public:

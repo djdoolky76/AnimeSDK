@@ -3,6 +3,8 @@
 
 namespace System
 {
+	inline static constexpr unsigned int ParseFlags_TypeDefinitionIndex = 263;
+
 	enum class ParseFlags : ::System::Int32
 	{
 		HaveYear = 1,

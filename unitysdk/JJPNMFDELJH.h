@@ -13,6 +13,8 @@ namespace System { class String; }
 #define JJPNMFDELJH_LMCPNFFGMCO_OFFSET UNITYSDK_OFFSET(0xB20C450)
 #define JJPNMFDELJH_TOSTRING_OFFSET UNITYSDK_OFFSET(0xB20C5D0)
 
+inline static constexpr unsigned int JJPNMFDELJH_TypeDefinitionIndex = 80140;
+
 	class JJPNMFDELJH : public ::System::Object
 	{
 	public:

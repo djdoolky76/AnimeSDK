@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FlappyPipeRebuildAnchor; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FlappyPipeRebuildAnchor_TypeDefinitionIndex = 18630;
+
 	class FlappyPipeRebuildAnchor : public ::RPG::GameCore::LittleGameComponentConfig
 	{
 	public:

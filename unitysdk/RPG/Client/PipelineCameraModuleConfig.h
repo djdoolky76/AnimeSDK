@@ -14,6 +14,8 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PipelineCameraModuleConfig_TypeDefinitionIndex = 69730;
+
 	class PipelineCameraModuleConfig : public ::UnityEngine::ScriptableObject
 	{
 	public:

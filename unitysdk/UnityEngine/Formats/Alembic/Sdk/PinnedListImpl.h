@@ -4,6 +4,8 @@
 
 namespace UnityEngine::Formats::Alembic::Sdk
 {
+	inline static constexpr unsigned int PinnedListImpl_TypeDefinitionIndex = 45844;
+
 	class PinnedListImpl : public ::System::Object
 	{
 	public:

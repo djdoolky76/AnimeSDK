@@ -15,6 +15,8 @@
 #define OEOJJDBOJBH_NFFNDOPOFEB_OFFSET UNITYSDK_OFFSET(0xBE37A30)
 #define OEOJJDBOJBH_PHPFIJCBJBI_OFFSET UNITYSDK_OFFSET(0xBE38880)
 
+inline static constexpr unsigned int OEOJJDBOJBH_TypeDefinitionIndex = 48920;
+
 	class OEOJJDBOJBH : public ::System::Object
 	{
 	public:

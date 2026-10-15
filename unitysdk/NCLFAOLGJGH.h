@@ -13,6 +13,8 @@ namespace RPG::GameCore { class FiveDimMusicJumpConfig; }
 #define NCLFAOLGJGH_FFKBFPKEPEN_OFFSET UNITYSDK_OFFSET(0xBB14F70)
 #define NCLFAOLGJGH_HKGFIGCGMFB_OFFSET UNITYSDK_OFFSET(0xBB150E0)
 
+inline static constexpr unsigned int NCLFAOLGJGH_TypeDefinitionIndex = 76984;
+
 	class NCLFAOLGJGH : public ::HOAAFFGNCPK
 	{
 	public:

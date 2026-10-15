@@ -20,6 +20,8 @@ namespace UnityEngine { class Material; }
 
 namespace EzySlice
 {
+	inline static constexpr unsigned int SlicerExtensions_TypeDefinitionIndex = 47008;
+
 	class SlicerExtensions : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EffectSurfaceOverride_TypeDefinitionIndex = 16485;
+
 	class EffectSurfaceOverride : public ::RPG::GameCore::JsonConfig
 	{
 	public:

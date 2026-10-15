@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::ActivityMarble
 {
+	inline static constexpr unsigned int MarbleEliminationRoundInfo_TypeDefinitionIndex = 75983;
+
 	class MarbleEliminationRoundInfo : public ::System::Object
 	{
 	public:

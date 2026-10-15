@@ -14,6 +14,8 @@ namespace UnityEngine { class Renderer; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int DynamicMaterialLoader_RendererLoadItem_TypeDefinitionIndex = 68410;
+
 	class DynamicMaterialLoader_RendererLoadItem : public ::System::Object
 	{
 	public:

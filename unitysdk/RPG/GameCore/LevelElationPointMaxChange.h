@@ -13,6 +13,8 @@ namespace RPG::GameCore { class LevelElationPointMaxChange; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelElationPointMaxChange_TypeDefinitionIndex = 56759;
+
 	class LevelElationPointMaxChange : public ::CMPGEAFHHDC
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System { class Object; }
 #define MGEHMMODJHE_CLEAR_OFFSET UNITYSDK_OFFSET(0xB918200)
 #define MGEHMMODJHE_CTOR_OFFSET UNITYSDK_OFFSET(0xB918250)
 
+inline static constexpr unsigned int MGEHMMODJHE_TypeDefinitionIndex = 77551;
+
 	class MGEHMMODJHE : public ::System::Object
 	{
 	public:

@@ -28,6 +28,8 @@ namespace RPG::Client { class ScheduleData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BattlePassQuestData_TypeDefinitionIndex = 62894;
+
 	class BattlePassQuestData : public ::System::Object
 	{
 	public:

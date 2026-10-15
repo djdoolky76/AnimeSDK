@@ -11,6 +11,8 @@ namespace RPG::GameCore { class GridFightAssistantMessageConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightAssistantMessageConfigRow_TypeDefinitionIndex = 13435;
+
 	class GridFightAssistantMessageConfigRow : public ::System::Object
 	{
 	public:

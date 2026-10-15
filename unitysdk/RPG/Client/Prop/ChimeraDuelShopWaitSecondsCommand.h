@@ -10,6 +10,8 @@ namespace System { class Action; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int ChimeraDuelShopWaitSecondsCommand_TypeDefinitionIndex = 78351;
+
 	class ChimeraDuelShopWaitSecondsCommand : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@ class KALAFOGJFIC;
 #define KALAFOGJFIC___C__DISPLAYCLASS15_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB2DD1E0)
 #define KALAFOGJFIC___C__DISPLAYCLASS15_0__ONDETAILCHANGE_B__0_OFFSET UNITYSDK_OFFSET(0xB2DDF70)
 
+inline static constexpr unsigned int KALAFOGJFIC___c__DisplayClass15_0_TypeDefinitionIndex = 71230;
+
 	class KALAFOGJFIC___c__DisplayClass15_0 : public ::System::Object
 	{
 	public:

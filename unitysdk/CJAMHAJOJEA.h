@@ -26,6 +26,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define CJAMHAJOJEA_NODKIPIEOMC_OFFSET UNITYSDK_OFFSET(0xCF92B90)
 #define CJAMHAJOJEA_OAIFPCFBJDJ_OFFSET UNITYSDK_OFFSET(0xCF92CE0)
 
+inline static constexpr unsigned int CJAMHAJOJEA_TypeDefinitionIndex = 52110;
+
 	class CJAMHAJOJEA : public ::System::Object
 	{
 	public:

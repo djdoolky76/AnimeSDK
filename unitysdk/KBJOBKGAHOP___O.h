@@ -5,6 +5,8 @@ class GELIALJDFBL;
 namespace System { class Action; }
 namespace System { class Object; }
 
+inline static constexpr unsigned int KBJOBKGAHOP___O_TypeDefinitionIndex = 70048;
+
 	class KBJOBKGAHOP___O : public ::System::Object
 	{
 	public:

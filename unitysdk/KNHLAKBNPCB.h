@@ -25,6 +25,8 @@ namespace System { class String; }
 #define KNHLAKBNPCB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E8A42F0)
 #define KNHLAKBNPCB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E8A4350)
 
+inline static constexpr unsigned int KNHLAKBNPCB_TypeDefinitionIndex = 34678;
+
 	class KNHLAKBNPCB : public ::System::Object
 	{
 	public:

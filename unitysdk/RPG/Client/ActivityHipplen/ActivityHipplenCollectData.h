@@ -19,6 +19,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::ActivityHipplen
 {
+	inline static constexpr unsigned int ActivityHipplenCollectData_TypeDefinitionIndex = 75498;
+
 	class ActivityHipplenCollectData : public ::System::Object
 	{
 	public:

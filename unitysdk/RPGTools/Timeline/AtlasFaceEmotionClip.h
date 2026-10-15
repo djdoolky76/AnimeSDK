@@ -14,6 +14,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int AtlasFaceEmotionClip_TypeDefinitionIndex = 48028;
+
 	class AtlasFaceEmotionClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

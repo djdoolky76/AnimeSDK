@@ -29,6 +29,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define IINEFJLAJIM_SET_ISPAUSE_OFFSET UNITYSDK_OFFSET(0x16453890)
 #define IINEFJLAJIM__ADDNOTIFYHANDLERS_OFFSET UNITYSDK_OFFSET(0x16452470)
 
+inline static constexpr unsigned int IINEFJLAJIM_TypeDefinitionIndex = 64238;
+
 	class IINEFJLAJIM : public ::RPG::Client::BaseModule
 	{
 	public:

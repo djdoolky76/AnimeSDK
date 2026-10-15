@@ -13,6 +13,8 @@ namespace RPG::GameCore { class LevelCharmMakeDamage; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelCharmMakeDamage_TypeDefinitionIndex = 56739;
+
 	class LevelCharmMakeDamage : public ::CMPGEAFHHDC
 	{
 	public:

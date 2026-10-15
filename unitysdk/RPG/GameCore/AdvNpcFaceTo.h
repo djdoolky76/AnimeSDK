@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvNpcFaceTo_TypeDefinitionIndex = 20338;
+
 	class AdvNpcFaceTo : public ::RPG::GameCore::TaskConfig
 	{
 	public:

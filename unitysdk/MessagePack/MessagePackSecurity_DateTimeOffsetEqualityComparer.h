@@ -9,6 +9,8 @@ namespace MessagePack { class MessagePackSecurity_DateTimeOffsetEqualityComparer
 
 namespace MessagePack
 {
+	inline static constexpr unsigned int MessagePackSecurity_DateTimeOffsetEqualityComparer_TypeDefinitionIndex = 7209;
+
 	class MessagePackSecurity_DateTimeOffsetEqualityComparer
 	{
 	public:

@@ -8,6 +8,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define HMCBAFHIOLP_ELPCLGDHAAG_OFFSET UNITYSDK_OFFSET(0x15D79960)
 #define HMCBAFHIOLP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15D796F0)
 
+inline static constexpr unsigned int HMCBAFHIOLP_TypeDefinitionIndex = 55235;
+
 	class HMCBAFHIOLP
 	{
 	public:

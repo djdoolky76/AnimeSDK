@@ -25,6 +25,8 @@ namespace UnityEngine { class Texture2D; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int FramePassCapturer_TypeDefinitionIndex = 37621;
+
 	class FramePassCapturer : public ::System::Object
 	{
 	public:

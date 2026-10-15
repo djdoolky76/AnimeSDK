@@ -6,6 +6,8 @@ namespace System { class String; }
 
 #define ANLADNEAIKJ_CTOR_OFFSET UNITYSDK_OFFSET(0x15898CB0)
 
+inline static constexpr unsigned int ANLADNEAIKJ_TypeDefinitionIndex = 82242;
+
 	class ANLADNEAIKJ : public ::System::Object
 	{
 	public:

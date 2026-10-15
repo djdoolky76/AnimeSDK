@@ -46,6 +46,8 @@ namespace System { class String; }
 #define ADODOFNNPEO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DDE5150)
 #define ADODOFNNPEO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DDE51B0)
 
+inline static constexpr unsigned int ADODOFNNPEO_TypeDefinitionIndex = 32012;
+
 	class ADODOFNNPEO : public ::System::Object
 	{
 	public:

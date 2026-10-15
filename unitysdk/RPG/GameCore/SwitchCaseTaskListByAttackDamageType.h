@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SwitchCaseTaskListByAttackDamageType_TypeDefinitionIndex = 23774;
+
 	class SwitchCaseTaskListByAttackDamageType : public ::RPG::GameCore::JsonConfig
 	{
 	public:

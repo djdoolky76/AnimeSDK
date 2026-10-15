@@ -13,6 +13,8 @@ namespace UnityEngine { class Transform; }
 #define AUISTATEMANAGER_GETALLTAG_OFFSET UNITYSDK_OFFSET(0x15BC1220)
 #define AUISTATEMANAGER_ONVALIDATE_OFFSET UNITYSDK_OFFSET(0x15BC11D0)
 
+inline static constexpr unsigned int AUiStateManager_TypeDefinitionIndex = 47575;
+
 	class AUiStateManager : public ::UnityEngine::MonoBehaviour
 	{
 	public:

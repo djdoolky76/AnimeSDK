@@ -15,6 +15,8 @@ class LDPHPNIPBME;
 #define LDPHPNIPBME_SET_ISPERCENTAGE_OFFSET UNITYSDK_OFFSET(0xB644D10)
 #define LDPHPNIPBME_SET_ISSHOWCURRENCY_OFFSET UNITYSDK_OFFSET(0xB644CF0)
 
+inline static constexpr unsigned int LDPHPNIPBME_TypeDefinitionIndex = 80184;
+
 	class LDPHPNIPBME : public ::System::Object
 	{
 	public:

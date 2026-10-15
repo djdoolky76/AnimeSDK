@@ -9,6 +9,8 @@ namespace RPG::GameCore { class RangeConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RangeConfig_TypeDefinitionIndex = 13072;
+
 	class RangeConfig : public ::System::Object
 	{
 	public:

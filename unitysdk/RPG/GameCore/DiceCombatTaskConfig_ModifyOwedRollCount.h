@@ -12,6 +12,8 @@ namespace RPG::GameCore { class DynamicFloat; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DiceCombatTaskConfig_ModifyOwedRollCount_TypeDefinitionIndex = 16057;
+
 	class DiceCombatTaskConfig_ModifyOwedRollCount : public ::RPG::GameCore::DiceCombatTaskConfig
 	{
 	public:

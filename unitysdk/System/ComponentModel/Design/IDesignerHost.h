@@ -3,6 +3,8 @@
 
 namespace System::ComponentModel::Design
 {
+	inline static constexpr unsigned int IDesignerHost_TypeDefinitionIndex = 2656;
+
 	class IDesignerHost
 	{
 	public:

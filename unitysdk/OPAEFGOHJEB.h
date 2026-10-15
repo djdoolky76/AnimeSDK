@@ -30,6 +30,8 @@ namespace RPG::GameCore { class TransformComponent; }
 #define OPAEFGOHJEB_OPPBIKGNJLM_OFFSET UNITYSDK_OFFSET(0xBF99A40)
 #define OPAEFGOHJEB_PNBBKGBLGBN_OFFSET UNITYSDK_OFFSET(0xBF99870)
 
+inline static constexpr unsigned int OPAEFGOHJEB_TypeDefinitionIndex = 57787;
+
 	class OPAEFGOHJEB : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System::Net { class WebException; }
 
 namespace System::Net
 {
+	inline static constexpr unsigned int ExceptionHelper_TypeDefinitionIndex = 2750;
+
 	class ExceptionHelper : public ::System::Object
 	{
 	public:

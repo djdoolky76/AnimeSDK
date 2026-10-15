@@ -28,6 +28,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BattleBuffViewData_TypeDefinitionIndex = 71518;
+
 	class BattleBuffViewData : public ::System::Object
 	{
 	public:

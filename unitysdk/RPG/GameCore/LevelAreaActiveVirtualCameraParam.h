@@ -8,6 +8,8 @@ namespace RPG::GameCore { class LevelEntityVCameraConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelAreaActiveVirtualCameraParam_TypeDefinitionIndex = 57839;
+
 	class LevelAreaActiveVirtualCameraParam : public ::System::Object
 	{
 	public:

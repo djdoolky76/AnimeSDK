@@ -23,6 +23,8 @@ namespace System::Security::Claims { class ClaimsIdentity; }
 
 namespace System::Security::Claims
 {
+	inline static constexpr unsigned int Claim_TypeDefinitionIndex = 991;
+
 	class Claim : public ::System::Object
 	{
 	public:

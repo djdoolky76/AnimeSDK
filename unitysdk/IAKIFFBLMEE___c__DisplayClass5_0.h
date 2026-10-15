@@ -9,6 +9,8 @@ namespace System { class String; }
 #define IAKIFFBLMEE___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15E17800)
 #define IAKIFFBLMEE___C__DISPLAYCLASS5_0__ONTASKBEGIN_B__0_OFFSET UNITYSDK_OFFSET(0x15E17F30)
 
+inline static constexpr unsigned int IAKIFFBLMEE___c__DisplayClass5_0_TypeDefinitionIndex = 55765;
+
 	class IAKIFFBLMEE___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:

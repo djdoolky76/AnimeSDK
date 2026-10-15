@@ -4,6 +4,8 @@
 
 #define KHEOBHMINFI_CTOR_OFFSET UNITYSDK_OFFSET(0xB4067A0)
 
+inline static constexpr unsigned int KHEOBHMINFI_TypeDefinitionIndex = 72207;
+
 	class KHEOBHMINFI : public ::System::Object
 	{
 	public:

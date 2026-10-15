@@ -9,6 +9,8 @@ namespace UnityEngine::UIElements { class IEventHandler; }
 
 namespace UnityEngine::UIElements
 {
+	inline static constexpr unsigned int MouseCaptureController_TypeDefinitionIndex = 5883;
+
 	class MouseCaptureController : public ::System::Object
 	{
 	public:

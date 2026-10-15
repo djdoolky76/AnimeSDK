@@ -8,6 +8,8 @@ class GJCHOJBIMBJ;
 #define GJCHOJBIMBJ_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CE55140)
 #define GJCHOJBIMBJ_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CE55100)
 
+inline static constexpr unsigned int GJCHOJBIMBJ_TypeDefinitionIndex = 23297;
+
 	class GJCHOJBIMBJ : public ::RPG::GameCore::TaskConfig
 	{
 	public:

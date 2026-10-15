@@ -39,6 +39,8 @@ namespace System { class String; }
 #define KHOOCKLJEDE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E84ECA0)
 #define KHOOCKLJEDE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E84ED00)
 
+inline static constexpr unsigned int KHOOCKLJEDE_TypeDefinitionIndex = 26338;
+
 	class KHOOCKLJEDE : public ::System::Object
 	{
 	public:

@@ -4,6 +4,8 @@
 
 #define NAKLLNKNLLD_ICACFJPGOJD_OFFSET UNITYSDK_OFFSET(0x1F000)
 
+inline static constexpr unsigned int NAKLLNKNLLD_TypeDefinitionIndex = 54444;
+
 	struct alignas(4) NAKLLNKNLLD
 	{
 		::System::Boolean LPDDABKJPFH; // 0x10

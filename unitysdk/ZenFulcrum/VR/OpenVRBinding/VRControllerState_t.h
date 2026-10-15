@@ -4,6 +4,8 @@
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int VRControllerState_t_TypeDefinitionIndex = 39306;
+
 	struct alignas(4) VRControllerState_t
 	{
 		::System::UInt32 unPacketNum; // 0x10

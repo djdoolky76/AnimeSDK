@@ -36,6 +36,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 
 namespace RPG::Client::TeamTowers
 {
+	inline static constexpr unsigned int TeamTowersLobby_TypeDefinitionIndex = 79046;
+
 	class TeamTowersLobby : public ::RPG::Client::BaseLobby
 	{
 	public:

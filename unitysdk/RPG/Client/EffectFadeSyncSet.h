@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int EffectFadeSyncSet_TypeDefinitionIndex = 69874;
+
 	class EffectFadeSyncSet : public ::System::Object
 	{
 	public:

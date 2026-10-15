@@ -10,6 +10,8 @@ namespace RPG::GameCore { class MarbleByIsKiller; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MarbleByIsKiller_TypeDefinitionIndex = 16876;
+
 	class MarbleByIsKiller : public ::RPG::GameCore::MarblePredicateConfig
 	{
 	public:

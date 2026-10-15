@@ -25,6 +25,8 @@ namespace System { class String; }
 #define KNDOLAFNJED_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E8A09B0)
 #define KNDOLAFNJED_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E8A0A10)
 
+inline static constexpr unsigned int KNDOLAFNJED_TypeDefinitionIndex = 29348;
+
 	class KNDOLAFNJED : public ::System::Object
 	{
 	public:

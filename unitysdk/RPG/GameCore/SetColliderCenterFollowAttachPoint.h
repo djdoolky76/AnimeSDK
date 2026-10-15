@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetColliderCenterFollowAttachPoint_TypeDefinitionIndex = 23195;
+
 	class SetColliderCenterFollowAttachPoint : public ::RPG::GameCore::TaskConfig
 	{
 	public:

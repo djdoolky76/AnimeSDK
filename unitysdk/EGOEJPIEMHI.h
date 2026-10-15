@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define EGOEJPIEMHI_CTOR_OFFSET UNITYSDK_OFFSET(0x1451EFE0)
 #define EGOEJPIEMHI_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x1451F000)
 
+inline static constexpr unsigned int EGOEJPIEMHI_TypeDefinitionIndex = 59119;
+
 	class EGOEJPIEMHI
 	{
 	public:

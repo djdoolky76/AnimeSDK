@@ -10,6 +10,8 @@ namespace RPG::Client::ActivityAlley { class AlleyPackComponent; }
 
 namespace RPG::Client::ActivityAlley
 {
+	inline static constexpr unsigned int AlleyPackComponent_AlleyPackIdleState_TypeDefinitionIndex = 74092;
+
 	class AlleyPackComponent_AlleyPackIdleState : public ::System::Object
 	{
 	public:

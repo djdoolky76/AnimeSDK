@@ -35,6 +35,8 @@ namespace System::Net { class WebHeaderCollection; }
 
 namespace MiHoYo::SDK::HttpDns
 {
+	inline static constexpr unsigned int HoYoSDKHttpWebRequest_TypeDefinitionIndex = 46703;
+
 	class HoYoSDKHttpWebRequest : public ::System::Object
 	{
 	public:

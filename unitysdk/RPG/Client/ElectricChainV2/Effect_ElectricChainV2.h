@@ -21,6 +21,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::ElectricChainV2
 {
+	inline static constexpr unsigned int Effect_ElectricChainV2_TypeDefinitionIndex = 73580;
+
 	class Effect_ElectricChainV2
 	{
 	public:

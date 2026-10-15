@@ -5,6 +5,8 @@
 #define JGNHLNJGONB_CTOR_OFFSET UNITYSDK_OFFSET(0xB1A4F10)
 #define JGNHLNJGONB_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0xB1A4F20)
 
+inline static constexpr unsigned int JGNHLNJGONB_TypeDefinitionIndex = 74845;
+
 	class JGNHLNJGONB : public ::IAJLELNJPEA
 	{
 	public:

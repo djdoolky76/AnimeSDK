@@ -2,6 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
+inline static constexpr unsigned int BCJPELCCDAP_GFBDCGALGBO_TypeDefinitionIndex = 66059;
+
 	class BCJPELCCDAP_GFBDCGALGBO : public ::System::Object
 	{
 	public:

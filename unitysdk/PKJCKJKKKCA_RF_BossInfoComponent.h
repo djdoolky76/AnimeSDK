@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int PKJCKJKKKCA_RF_BossInfoComponent_TypeDefinitionIndex = 37072;
+
 	enum class PKJCKJKKKCA_RF_BossInfoComponent : ::System::Byte
 	{
 		ConfigID = 1,

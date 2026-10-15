@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define EHNIPPFPOHN_NAGBMNBECCI_OFFSET UNITYSDK_OFFSET(0x154B8780)
 #define EHNIPPFPOHN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x154B80F0)
 
+inline static constexpr unsigned int EHNIPPFPOHN_TypeDefinitionIndex = 53880;
+
 	class EHNIPPFPOHN
 	{
 	public:

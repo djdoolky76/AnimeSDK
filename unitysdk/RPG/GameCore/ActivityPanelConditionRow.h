@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ConditionParam; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ActivityPanelConditionRow_TypeDefinitionIndex = 11207;
+
 	class ActivityPanelConditionRow : public ::System::Object
 	{
 	public:

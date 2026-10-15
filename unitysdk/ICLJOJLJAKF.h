@@ -6,6 +6,8 @@ namespace System { class String; }
 #define ICLJOJLJAKF_CCTOR_OFFSET UNITYSDK_OFFSET(0x15E520C0)
 #define ICLJOJLJAKF_CTOR_OFFSET UNITYSDK_OFFSET(0x15E520B0)
 
+inline static constexpr unsigned int ICLJOJLJAKF_TypeDefinitionIndex = 78755;
+
 	class ICLJOJLJAKF : public ::System::Object
 	{
 	public:

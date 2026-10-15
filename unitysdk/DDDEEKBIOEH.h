@@ -23,6 +23,8 @@ namespace System { class String; }
 #define DDDEEKBIOEH_MEHOHLBFGFJ_OFFSET UNITYSDK_OFFSET(0xE25E970)
 #define DDDEEKBIOEH_OJMHEDADEAL_OFFSET UNITYSDK_OFFSET(0xE25F880)
 
+inline static constexpr unsigned int DDDEEKBIOEH_TypeDefinitionIndex = 81886;
+
 	class DDDEEKBIOEH : public ::System::Object
 	{
 	public:

@@ -49,6 +49,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System::Reflection
 {
+	inline static constexpr unsigned int AssemblyName_TypeDefinitionIndex = 597;
+
 	class AssemblyName : public ::System::Object
 	{
 	public:

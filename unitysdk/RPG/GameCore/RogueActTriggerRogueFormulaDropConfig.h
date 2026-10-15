@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueActTriggerRogueFormulaDropConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueActTriggerRogueFormulaDropConfig_TypeDefinitionIndex = 19654;
+
 	class RogueActTriggerRogueFormulaDropConfig : public ::RPG::GameCore::RogueActionConfigBase
 	{
 	public:

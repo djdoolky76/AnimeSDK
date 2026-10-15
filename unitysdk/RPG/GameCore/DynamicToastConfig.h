@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DynamicToastConfig_TypeDefinitionIndex = 23839;
+
 	class DynamicToastConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

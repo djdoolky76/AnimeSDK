@@ -7,6 +7,8 @@ namespace RPG::GameCore { class GameEntity; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CharacterModelScaleEventParam_TypeDefinitionIndex = 55330;
+
 	class CharacterModelScaleEventParam : public ::System::Object
 	{
 	public:

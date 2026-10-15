@@ -27,6 +27,8 @@ namespace UnityEngine { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BlockTag_TypeDefinitionIndex = 69503;
+
 	class BlockTag : public ::UnityEngine::MonoBehaviour
 	{
 	public:

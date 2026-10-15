@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define BGGDOPNKDLK___C__DISPLAYCLASS15_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5BA900)
 #define BGGDOPNKDLK___C__DISPLAYCLASS15_0__GETFARTARGETACCURATEGOALWEIGHTCOMPUTER_B__0_OFFSET UNITYSDK_OFFSET(0x1C5BD450)
 
+inline static constexpr unsigned int BGGDOPNKDLK___c__DisplayClass15_0_TypeDefinitionIndex = 37268;
+
 	class BGGDOPNKDLK___c__DisplayClass15_0 : public ::System::Object
 	{
 	public:

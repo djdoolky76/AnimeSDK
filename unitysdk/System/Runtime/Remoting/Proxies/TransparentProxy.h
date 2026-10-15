@@ -17,6 +17,8 @@ namespace System::Runtime::Remoting::Proxies { class RealProxy; }
 
 namespace System::Runtime::Remoting::Proxies
 {
+	inline static constexpr unsigned int TransparentProxy_TypeDefinitionIndex = 1235;
+
 	class TransparentProxy : public ::System::Object
 	{
 	public:

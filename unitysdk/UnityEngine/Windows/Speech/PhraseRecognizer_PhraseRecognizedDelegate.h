@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace UnityEngine::Windows::Speech
 {
+	inline static constexpr unsigned int PhraseRecognizer_PhraseRecognizedDelegate_TypeDefinitionIndex = 4436;
+
 	class PhraseRecognizer_PhraseRecognizedDelegate : public ::System::MulticastDelegate
 	{
 	public:

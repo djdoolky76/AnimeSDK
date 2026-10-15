@@ -4,6 +4,8 @@
 namespace RPG::GameCore { class GameEntity; }
 namespace System { template <typename T> class Predicate_1; }
 
+inline static constexpr unsigned int NJIOAKCLACC___O_TypeDefinitionIndex = 57923;
+
 	class NJIOAKCLACC___O : public ::System::Object
 	{
 	public:

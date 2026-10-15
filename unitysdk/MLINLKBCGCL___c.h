@@ -9,6 +9,8 @@ namespace System { template <typename T> class Comparison_1; }
 #define MLINLKBCGCL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB9B17E0)
 #define MLINLKBCGCL___C__GETDICESURFACEDISPLAYDATALIST_B__15_0_OFFSET UNITYSDK_OFFSET(0xB9B17F0)
 
+inline static constexpr unsigned int MLINLKBCGCL___c_TypeDefinitionIndex = 66947;
+
 	class MLINLKBCGCL___c : public ::System::Object
 	{
 	public:

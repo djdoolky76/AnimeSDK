@@ -8,6 +8,8 @@
 
 namespace BigIntegerLibrary
 {
+	inline static constexpr unsigned int BigInteger_DigitContainer_TypeDefinitionIndex = 7001;
+
 	class BigInteger_DigitContainer : public ::System::Object
 	{
 	public:

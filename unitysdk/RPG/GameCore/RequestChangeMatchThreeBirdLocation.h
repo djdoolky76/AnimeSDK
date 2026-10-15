@@ -11,6 +11,8 @@ namespace RPG::GameCore { class RequestChangeMatchThreeBirdLocation; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RequestChangeMatchThreeBirdLocation_TypeDefinitionIndex = 20984;
+
 	class RequestChangeMatchThreeBirdLocation : public ::RPG::GameCore::TaskConfig
 	{
 	public:

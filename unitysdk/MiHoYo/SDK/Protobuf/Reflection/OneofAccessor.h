@@ -14,6 +14,8 @@ namespace System::Reflection { class PropertyInfo; }
 
 namespace MiHoYo::SDK::Protobuf::Reflection
 {
+	inline static constexpr unsigned int OneofAccessor_TypeDefinitionIndex = 35843;
+
 	class OneofAccessor : public ::System::Object
 	{
 	public:

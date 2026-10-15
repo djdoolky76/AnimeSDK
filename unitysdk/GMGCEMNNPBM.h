@@ -32,6 +32,8 @@ namespace System { class String; }
 #define GMGCEMNNPBM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E4D2E80)
 #define GMGCEMNNPBM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E4D2EE0)
 
+inline static constexpr unsigned int GMGCEMNNPBM_TypeDefinitionIndex = 26767;
+
 	class GMGCEMNNPBM : public ::System::Object
 	{
 	public:

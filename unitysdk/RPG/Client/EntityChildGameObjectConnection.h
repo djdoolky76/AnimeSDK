@@ -12,6 +12,8 @@ namespace RPG::GameCore { class GameEntity; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int EntityChildGameObjectConnection_TypeDefinitionIndex = 68413;
+
 	class EntityChildGameObjectConnection : public ::UnityEngine::MonoBehaviour
 	{
 	public:

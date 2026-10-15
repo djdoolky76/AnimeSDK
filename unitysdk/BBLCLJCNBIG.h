@@ -15,6 +15,8 @@ namespace System { class String; }
 #define BBLCLJCNBIG_GKEIFKABCNN_OFFSET UNITYSDK_OFFSET(0x15E908E0)
 #define BBLCLJCNBIG_KIEICGNJJMA_OFFSET UNITYSDK_OFFSET(0x15E90950)
 
+inline static constexpr unsigned int BBLCLJCNBIG_TypeDefinitionIndex = 74382;
+
 	class BBLCLJCNBIG : public ::System::Object
 	{
 	public:

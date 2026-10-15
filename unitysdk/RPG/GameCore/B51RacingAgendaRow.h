@@ -10,6 +10,8 @@ namespace RPG::GameCore { class B51RacingAgendaRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int B51RacingAgendaRow_TypeDefinitionIndex = 10954;
+
 	class B51RacingAgendaRow : public ::System::Object
 	{
 	public:

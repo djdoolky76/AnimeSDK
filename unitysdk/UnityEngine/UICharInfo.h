@@ -4,6 +4,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int UICharInfo_TypeDefinitionIndex = 5053;
+
 	struct alignas(4) UICharInfo
 	{
 		::UnityEngine::Vector2 cursorPos; // 0x10

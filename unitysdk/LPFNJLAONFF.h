@@ -29,6 +29,8 @@ namespace System { class String; }
 #define LPFNJLAONFF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9CB890)
 #define LPFNJLAONFF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E9CB8F0)
 
+inline static constexpr unsigned int LPFNJLAONFF_TypeDefinitionIndex = 31197;
+
 	class LPFNJLAONFF : public ::System::Object
 	{
 	public:

@@ -47,6 +47,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CakeCatchArrangeContext_TypeDefinitionIndex = 62980;
+
 	class CakeCatchArrangeContext : public ::System::Object
 	{
 	public:

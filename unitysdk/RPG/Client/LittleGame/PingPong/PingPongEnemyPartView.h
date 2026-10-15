@@ -6,6 +6,8 @@
 
 namespace RPG::Client::LittleGame::PingPong
 {
+	inline static constexpr unsigned int PingPongEnemyPartView_TypeDefinitionIndex = 76678;
+
 	class PingPongEnemyPartView : public ::RPG::Client::LittleGame::PingPong::PingPongView
 	{
 	public:

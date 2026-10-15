@@ -54,6 +54,8 @@ namespace System { class String; }
 #define FMHEHLIFNGJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E3E4A70)
 #define FMHEHLIFNGJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E3E4AD0)
 
+inline static constexpr unsigned int FMHEHLIFNGJ_TypeDefinitionIndex = 25770;
+
 	class FMHEHLIFNGJ : public ::System::Object
 	{
 	public:

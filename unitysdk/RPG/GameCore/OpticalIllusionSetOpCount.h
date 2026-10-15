@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int OpticalIllusionSetOpCount_TypeDefinitionIndex = 22220;
+
 	class OpticalIllusionSetOpCount : public ::RPG::GameCore::TaskConfig
 	{
 	public:

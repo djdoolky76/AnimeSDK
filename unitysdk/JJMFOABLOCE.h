@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int JJMFOABLOCE_TypeDefinitionIndex = 25370;
+
 	enum class JJMFOABLOCE : ::System::Int32
 	{
 		OHDOHHFAKMC = 0,

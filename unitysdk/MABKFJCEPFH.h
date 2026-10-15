@@ -12,6 +12,8 @@ namespace System { class String; }
 #define MABKFJCEPFH_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D12F420)
 #define MABKFJCEPFH_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D12F3D0)
 
+inline static constexpr unsigned int MABKFJCEPFH_TypeDefinitionIndex = 22864;
+
 	class MABKFJCEPFH : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -36,6 +36,8 @@ namespace System { class String; }
 #define IMOIBEFBKCL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E6BA280)
 #define IMOIBEFBKCL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E6BA2E0)
 
+inline static constexpr unsigned int IMOIBEFBKCL_TypeDefinitionIndex = 32738;
+
 	class IMOIBEFBKCL : public ::System::Object
 	{
 	public:

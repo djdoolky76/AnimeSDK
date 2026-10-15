@@ -24,6 +24,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define HLOPPNNIDCA_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CEC1F40)
 #define HLOPPNNIDCA_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CEC1810)
 
+inline static constexpr unsigned int HLOPPNNIDCA_TypeDefinitionIndex = 12164;
+
 	class HLOPPNNIDCA : public ::System::Object
 	{
 	public:

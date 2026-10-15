@@ -24,6 +24,8 @@ namespace UnityEngine { class GameObject; }
 #define KGAHHFHMPBP_NOFHFKNDBAO_OFFSET UNITYSDK_OFFSET(0xB3CB890)
 #define KGAHHFHMPBP_SET_EFFECTROOT_OFFSET UNITYSDK_OFFSET(0xB3CBA90)
 
+inline static constexpr unsigned int KGAHHFHMPBP_TypeDefinitionIndex = 76041;
+
 	class KGAHHFHMPBP : public ::System::Object
 	{
 	public:

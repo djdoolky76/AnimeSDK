@@ -45,6 +45,8 @@ namespace UnityEngine::UI { class Toggle; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int LoginByPhone_TypeDefinitionIndex = 9539;
+
 	class LoginByPhone : public ::MiHoYo::SDK::UIElement
 	{
 	public:

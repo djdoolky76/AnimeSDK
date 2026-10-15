@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TurnBasedAbilityComponent; }
 #define PKJOIDJMKDC_HELIEDLACFC_OFFSET UNITYSDK_OFFSET(0xC2C3D80)
 #define PKJOIDJMKDC_LJFDKLFDNPK_OFFSET UNITYSDK_OFFSET(0xC2C3A60)
 
+inline static constexpr unsigned int PKJOIDJMKDC_TypeDefinitionIndex = 55721;
+
 	class PKJOIDJMKDC : public ::System::Object
 	{
 	public:

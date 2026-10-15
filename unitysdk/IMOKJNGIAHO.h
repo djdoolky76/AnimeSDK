@@ -6,6 +6,8 @@ namespace RPG::GameCore { class UnBindPropsCablelines; }
 #define IMOKJNGIAHO_CTOR_OFFSET UNITYSDK_OFFSET(0x164E3A90)
 #define IMOKJNGIAHO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x164E3AC0)
 
+inline static constexpr unsigned int IMOKJNGIAHO_TypeDefinitionIndex = 58840;
+
 	class IMOKJNGIAHO
 	{
 	public:

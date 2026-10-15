@@ -13,6 +13,8 @@ namespace System::Threading { class AtomicBoolean; }
 
 namespace System::Threading
 {
+	inline static constexpr unsigned int AtomicBoolean_TypeDefinitionIndex = 797;
+
 	class AtomicBoolean : public ::System::Object
 	{
 	public:

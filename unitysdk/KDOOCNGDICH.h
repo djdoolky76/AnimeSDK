@@ -8,6 +8,8 @@
 #define KDOOCNGDICH_INJKJEMKIOJ_OFFSET UNITYSDK_OFFSET(0xB36C450)
 #define KDOOCNGDICH_SET_ISSELECTED_OFFSET UNITYSDK_OFFSET(0xB36C440)
 
+inline static constexpr unsigned int KDOOCNGDICH_TypeDefinitionIndex = 80717;
+
 	class KDOOCNGDICH : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@ namespace RPG::GameCore { class TaskContext; }
 
 #define PJOAPIGIBGC_CTOR_OFFSET UNITYSDK_OFFSET(0xC29E210)
 
+inline static constexpr unsigned int PJOAPIGIBGC_TypeDefinitionIndex = 53635;
+
 	class PJOAPIGIBGC : public ::FHLBIPIKFEJ
 	{
 	public:

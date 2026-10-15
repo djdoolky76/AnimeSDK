@@ -11,6 +11,8 @@ namespace RPG::GameCore { class WaitMusicRhythmEvent; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaitMusicRhythmEvent_TypeDefinitionIndex = 22057;
+
 	class WaitMusicRhythmEvent : public ::RPG::GameCore::TaskConfig
 	{
 	public:

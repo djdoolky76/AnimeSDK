@@ -33,6 +33,8 @@ namespace System { class String; }
 #define HGFJAHILCAA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E5790D0)
 #define HGFJAHILCAA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E579130)
 
+inline static constexpr unsigned int HGFJAHILCAA_TypeDefinitionIndex = 33452;
+
 	class HGFJAHILCAA : public ::System::Object
 	{
 	public:

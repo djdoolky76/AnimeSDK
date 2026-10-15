@@ -14,6 +14,8 @@ namespace System { template <typename T> class Func_1; }
 #define IILCHDOMOME___C__DISPLAYCLASS3_0__TRYCREATEANDOPEN_B__2_OFFSET UNITYSDK_OFFSET(0x164498B0)
 #define IILCHDOMOME___C__DISPLAYCLASS3_0__TRYCREATEANDOPEN_G___CREATELOBBY_1_OFFSET UNITYSDK_OFFSET(0x16449760)
 
+inline static constexpr unsigned int IILCHDOMOME___c__DisplayClass3_0_TypeDefinitionIndex = 66044;
+
 	class IILCHDOMOME___c__DisplayClass3_0 : public ::System::Object
 	{
 	public:

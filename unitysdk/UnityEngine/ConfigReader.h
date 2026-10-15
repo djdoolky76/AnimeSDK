@@ -11,6 +11,8 @@ namespace UnityEngine { class IConfigReader; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int ConfigReader_TypeDefinitionIndex = 4061;
+
 	class ConfigReader : public ::System::Object
 	{
 	public:

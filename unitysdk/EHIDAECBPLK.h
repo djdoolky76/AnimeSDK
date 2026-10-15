@@ -20,6 +20,8 @@ namespace Entitas { class IGroup; }
 #define EHIDAECBPLK_PKNHDELKGLA_OFFSET UNITYSDK_OFFSET(0x154AC690)
 #define EHIDAECBPLK_TEARDOWN_OFFSET UNITYSDK_OFFSET(0x154AB5F0)
 
+inline static constexpr unsigned int EHIDAECBPLK_TypeDefinitionIndex = 76946;
+
 	class EHIDAECBPLK : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int LoginByAccountOversea___c_TypeDefinitionIndex = 9534;
+
 	class LoginByAccountOversea___c : public ::System::Object
 	{
 	public:

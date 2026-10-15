@@ -4,6 +4,8 @@
 
 #define MONOCAMERAANIM_CTOR_OFFSET UNITYSDK_OFFSET(0xBA4CCF0)
 
+inline static constexpr unsigned int MonoCameraAnim_TypeDefinitionIndex = 47566;
+
 	class MonoCameraAnim : public ::UnityEngine::MonoBehaviour
 	{
 	public:

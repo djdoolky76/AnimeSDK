@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int KibanaBaseModel_TypeDefinitionIndex = 7881;
+
 	class KibanaBaseModel : public ::System::Object
 	{
 	public:

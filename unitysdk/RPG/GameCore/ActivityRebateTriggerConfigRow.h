@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ActivityRebateTriggerConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ActivityRebateTriggerConfigRow_TypeDefinitionIndex = 12331;
+
 	class ActivityRebateTriggerConfigRow : public ::System::Object
 	{
 	public:

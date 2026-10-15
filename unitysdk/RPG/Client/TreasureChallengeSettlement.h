@@ -17,6 +17,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TreasureChallengeSettlement_TypeDefinitionIndex = 66785;
+
 	class TreasureChallengeSettlement : public ::System::Object
 	{
 	public:

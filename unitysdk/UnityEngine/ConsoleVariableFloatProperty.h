@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int ConsoleVariableFloatProperty_TypeDefinitionIndex = 4058;
+
 	struct alignas(4) ConsoleVariableFloatProperty
 	{
 		::UnityEngine::ConsoleVariableProperty property; // 0x10

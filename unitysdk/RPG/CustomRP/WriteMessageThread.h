@@ -19,6 +19,8 @@ namespace System::Threading { class AutoResetEvent; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int WriteMessageThread_TypeDefinitionIndex = 37907;
+
 	class WriteMessageThread : public ::RPG::CustomRP::IOThread
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class String; }
 
 #define BNPCGCMCEOH_CTOR_OFFSET UNITYSDK_OFFSET(0xBDE5C50)
 
+inline static constexpr unsigned int BNPCGCMCEOH_TypeDefinitionIndex = 73288;
+
 	class BNPCGCMCEOH : public ::System::Object
 	{
 	public:

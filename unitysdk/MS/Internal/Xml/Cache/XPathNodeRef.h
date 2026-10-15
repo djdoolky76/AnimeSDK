@@ -9,6 +9,8 @@
 
 namespace MS::Internal::Xml::Cache
 {
+	inline static constexpr unsigned int XPathNodeRef_TypeDefinitionIndex = 1781;
+
 	struct alignas(8) XPathNodeRef
 	{
 		::Il2CppArray<::MS::Internal::Xml::Cache::XPathNode>* page; // 0x10

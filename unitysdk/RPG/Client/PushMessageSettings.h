@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PushMessageSettings_TypeDefinitionIndex = 59365;
+
 	class PushMessageSettings : public ::RPG::Client::PrefGroup
 	{
 	public:

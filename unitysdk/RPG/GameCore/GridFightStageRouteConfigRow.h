@@ -9,6 +9,8 @@ namespace RPG::GameCore { class GridFightStageRouteConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightStageRouteConfigRow_TypeDefinitionIndex = 13613;
+
 	class GridFightStageRouteConfigRow : public ::System::Object
 	{
 	public:

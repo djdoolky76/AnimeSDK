@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TryAsyncLoadUI; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TryAsyncLoadUI_TypeDefinitionIndex = 20570;
+
 	class TryAsyncLoadUI : public ::RPG::GameCore::TaskConfig
 	{
 	public:

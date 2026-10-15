@@ -35,6 +35,8 @@ namespace System { class String; }
 #define NLLDALGJENF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB66990)
 #define NLLDALGJENF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB669F0)
 
+inline static constexpr unsigned int NLLDALGJENF_TypeDefinitionIndex = 28527;
+
 	class NLLDALGJENF : public ::System::Object
 	{
 	public:

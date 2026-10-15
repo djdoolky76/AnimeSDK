@@ -11,6 +11,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoTimelineControlGameLevelCell_Debug_TypeDefinitionIndex = 60443;
+
 	class MonoTimelineControlGameLevelCell_Debug : public ::System::Object
 	{
 	public:

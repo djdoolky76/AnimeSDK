@@ -17,6 +17,8 @@ namespace UnityEngine::ProBuilder { class ProBuilderMesh; }
 
 namespace UnityEngine::ProBuilder
 {
+	inline static constexpr unsigned int Spline_TypeDefinitionIndex = 44439;
+
 	class Spline : public ::System::Object
 	{
 	public:

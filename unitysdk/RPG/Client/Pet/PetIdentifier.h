@@ -24,6 +24,8 @@ namespace System::Text { class StringBuilder; }
 
 namespace RPG::Client::Pet
 {
+	inline static constexpr unsigned int PetIdentifier_TypeDefinitionIndex = 75679;
+
 	struct alignas(4) PetIdentifier
 	{
 		::System::UInt32 _PetId_k__BackingField; // 0x10

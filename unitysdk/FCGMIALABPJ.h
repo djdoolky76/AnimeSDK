@@ -20,6 +20,8 @@ namespace UnityEngine::UI { class Button; }
 #define FCGMIALABPJ___ONBIND_B__0_0_OFFSET UNITYSDK_OFFSET(0x156BCB70)
 #define FCGMIALABPJ___ONBIND_B__0_1_OFFSET UNITYSDK_OFFSET(0x156BCB90)
 
+inline static constexpr unsigned int FCGMIALABPJ_TypeDefinitionIndex = 71189;
+
 	class FCGMIALABPJ : public ::FMPCODLIOLG
 	{
 	public:

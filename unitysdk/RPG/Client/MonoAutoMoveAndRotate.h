@@ -9,6 +9,8 @@ namespace RPG::Client { class MonoAutoMoveAndRotate_Vector3andSpace; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoAutoMoveAndRotate_TypeDefinitionIndex = 69846;
+
 	class MonoAutoMoveAndRotate : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -36,6 +36,8 @@ namespace System { class String; }
 #define CNHKFCHOEHK_PEFLJDOKOIL_OFFSET UNITYSDK_OFFSET(0x3C44D80)
 #define CNHKFCHOEHK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3C45330)
 
+inline static constexpr unsigned int CNHKFCHOEHK_TypeDefinitionIndex = 6386;
+
 	struct alignas(4) CNHKFCHOEHK
 	{
 		::System::Single PBINCNKKKCB; // 0x10

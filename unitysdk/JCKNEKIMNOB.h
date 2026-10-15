@@ -47,6 +47,8 @@ namespace UnityEngine { class Transform; }
 #define JCKNEKIMNOB_TEARDOWN_OFFSET UNITYSDK_OFFSET(0x165982E0)
 #define JCKNEKIMNOB___ADD2DBRICKTUTORIALTRIGGER_B__17_0_OFFSET UNITYSDK_OFFSET(0x165A4A00)
 
+inline static constexpr unsigned int JCKNEKIMNOB_TypeDefinitionIndex = 76818;
+
 	class JCKNEKIMNOB : public ::System::Object
 	{
 	public:

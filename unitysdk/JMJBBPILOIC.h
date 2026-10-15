@@ -4,6 +4,8 @@
 
 #define JMJBBPILOIC_CTOR_OFFSET UNITYSDK_OFFSET(0xB268DA0)
 
+inline static constexpr unsigned int JMJBBPILOIC_TypeDefinitionIndex = 72403;
+
 	class JMJBBPILOIC : public ::System::Object
 	{
 	public:

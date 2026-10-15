@@ -27,6 +27,8 @@ namespace System { class String; }
 #define CPPENGOOHGN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E1470C0)
 #define CPPENGOOHGN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E147120)
 
+inline static constexpr unsigned int CPPENGOOHGN_TypeDefinitionIndex = 33491;
+
 	class CPPENGOOHGN : public ::System::Object
 	{
 	public:

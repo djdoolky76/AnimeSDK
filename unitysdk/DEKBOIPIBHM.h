@@ -9,6 +9,8 @@ namespace System { class Object; }
 #define DEKBOIPIBHM_CTOR_OFFSET UNITYSDK_OFFSET(0xE5117C0)
 #define DEKBOIPIBHM_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xE511730)
 
+inline static constexpr unsigned int DEKBOIPIBHM_TypeDefinitionIndex = 48759;
+
 	class DEKBOIPIBHM : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

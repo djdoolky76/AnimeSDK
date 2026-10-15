@@ -24,6 +24,8 @@ namespace System { class String; }
 #define LOBFFHLFKOL_PHIBHHKLHJG_OFFSET UNITYSDK_OFFSET(0xB7F22E0)
 #define LOBFFHLFKOL_PIBAOLPLMNJ_OFFSET UNITYSDK_OFFSET(0xB7F2220)
 
+inline static constexpr unsigned int LOBFFHLFKOL_TypeDefinitionIndex = 65653;
+
 	class LOBFFHLFKOL : public ::System::Object
 	{
 	public:

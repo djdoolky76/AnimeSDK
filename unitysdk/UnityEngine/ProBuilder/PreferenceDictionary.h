@@ -35,6 +35,8 @@ namespace UnityEngine { class Material; }
 
 namespace UnityEngine::ProBuilder
 {
+	inline static constexpr unsigned int PreferenceDictionary_TypeDefinitionIndex = 44385;
+
 	class PreferenceDictionary : public ::UnityEngine::ScriptableObject
 	{
 	public:

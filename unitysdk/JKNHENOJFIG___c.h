@@ -12,6 +12,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define JKNHENOJFIG___C___CALCULATETEAMSTANDINGS_B__52_1_OFFSET UNITYSDK_OFFSET(0xB229310)
 #define JKNHENOJFIG___C___PREPAREAUTOEQUIPPEDNEWDRIVERTOAST_B__42_0_OFFSET UNITYSDK_OFFSET(0xB2292D0)
 
+inline static constexpr unsigned int JKNHENOJFIG___c_TypeDefinitionIndex = 81710;
+
 	class JKNHENOJFIG___c : public ::System::Object
 	{
 	public:

@@ -4,6 +4,8 @@
 
 #define LELCKJPOPAO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D0E53E0)
 
+inline static constexpr unsigned int LELCKJPOPAO_TypeDefinitionIndex = 10799;
+
 	class LELCKJPOPAO : public ::System::Object
 	{
 	public:

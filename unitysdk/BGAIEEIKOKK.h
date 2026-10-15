@@ -33,6 +33,8 @@ namespace System { class String; }
 #define BGAIEEIKOKK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA6F630)
 #define BGAIEEIKOKK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA6F690)
 
+inline static constexpr unsigned int BGAIEEIKOKK_TypeDefinitionIndex = 27220;
+
 	class BGAIEEIKOKK : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int ClientConfig_TypeDefinitionIndex = 7889;
+
 	class ClientConfig : public ::System::Object
 	{
 	public:

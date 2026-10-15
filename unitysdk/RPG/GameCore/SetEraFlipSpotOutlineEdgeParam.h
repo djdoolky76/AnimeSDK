@@ -10,6 +10,8 @@ namespace RPG::GameCore { class SetEraFlipSpotOutlineEdgeParam; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetEraFlipSpotOutlineEdgeParam_TypeDefinitionIndex = 22338;
+
 	class SetEraFlipSpotOutlineEdgeParam : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace System::Xml::Serialization
 {
+	inline static constexpr unsigned int EnumMap_EnumMapMember_TypeDefinitionIndex = 2061;
+
 	class EnumMap_EnumMapMember : public ::System::Object
 	{
 	public:

@@ -24,6 +24,8 @@ namespace RPG::Client { class ChimeraDuelMasterRecommendationData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChimeraDuelGameSessionCache_TypeDefinitionIndex = 63316;
+
 	class ChimeraDuelGameSessionCache : public ::System::Object
 	{
 	public:

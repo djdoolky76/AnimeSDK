@@ -63,6 +63,8 @@ namespace UnityEngine { class Transform; }
 #define OODMOIBKGCP_PECJCCCIKCH_OFFSET UNITYSDK_OFFSET(0xBF74CB0)
 #define OODMOIBKGCP_PEMDPCOCBFB_OFFSET UNITYSDK_OFFSET(0xBF77150)
 
+inline static constexpr unsigned int OODMOIBKGCP_TypeDefinitionIndex = 76655;
+
 	class OODMOIBKGCP
 	{
 	public:

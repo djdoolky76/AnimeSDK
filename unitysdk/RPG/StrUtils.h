@@ -49,6 +49,8 @@ namespace System::Text { class StringBuilder; }
 
 namespace RPG
 {
+	inline static constexpr unsigned int StrUtils_TypeDefinitionIndex = 6401;
+
 	class StrUtils : public ::System::Object
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace Entitas
 {
+	inline static constexpr unsigned int ContextStillHasRetainedEntitiesException___c_TypeDefinitionIndex = 9994;
+
 	class ContextStillHasRetainedEntitiesException___c : public ::System::Object
 	{
 	public:

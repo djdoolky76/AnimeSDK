@@ -17,6 +17,8 @@ namespace UnityEngine { class Transform; }
 #define EOADBMFNBEL_REVERSE_OFFSET UNITYSDK_OFFSET(0x155B8C50)
 #define EOADBMFNBEL_STARTWITHTARGET_OFFSET UNITYSDK_OFFSET(0x155B8810)
 
+inline static constexpr unsigned int EOADBMFNBEL_TypeDefinitionIndex = 73526;
+
 	class EOADBMFNBEL : public ::MOGBNBGMIHF
 	{
 	public:

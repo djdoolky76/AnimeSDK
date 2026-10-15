@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MapRotationAudioConfig_TypeDefinitionIndex = 17037;
+
 	class MapRotationAudioConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

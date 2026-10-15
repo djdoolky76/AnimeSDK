@@ -10,6 +10,8 @@ namespace RPG::GameCore { class BaseChimeraDuelEffectParam; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BaseChimeraDuelEffectParam_TypeDefinitionIndex = 16010;
+
 	class BaseChimeraDuelEffectParam : public ::RPG::GameCore::JsonConfig
 	{
 	public:

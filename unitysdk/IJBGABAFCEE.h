@@ -30,6 +30,8 @@ namespace System { class String; }
 #define IJBGABAFCEE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E690AA0)
 #define IJBGABAFCEE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E690B00)
 
+inline static constexpr unsigned int IJBGABAFCEE_TypeDefinitionIndex = 28995;
+
 	class IJBGABAFCEE : public ::System::Object
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System::Reflection
 {
+	inline static constexpr unsigned int ReflectionTypeLoadException_TypeDefinitionIndex = 586;
+
 	class ReflectionTypeLoadException : public ::System::SystemException
 	{
 	public:

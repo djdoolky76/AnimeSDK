@@ -27,6 +27,8 @@ namespace System { class String; }
 #define DFBBBKADPDI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E199960)
 #define DFBBBKADPDI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E1999C0)
 
+inline static constexpr unsigned int DFBBBKADPDI_TypeDefinitionIndex = 27483;
+
 	class DFBBBKADPDI : public ::System::Object
 	{
 	public:

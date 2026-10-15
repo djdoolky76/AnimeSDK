@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ComplexSkillAISourceHimokeNovaAssist_TypeDefinitionIndex = 15552;
+
 	class ComplexSkillAISourceHimokeNovaAssist : public ::RPG::GameCore::ComplexSkillAISource
 	{
 	public:

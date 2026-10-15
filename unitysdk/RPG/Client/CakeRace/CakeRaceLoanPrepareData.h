@@ -21,6 +21,8 @@ namespace RPG::Client::CakeRace { class CakeRaceLoanPrepareData; }
 
 namespace RPG::Client::CakeRace
 {
+	inline static constexpr unsigned int CakeRaceLoanPrepareData_TypeDefinitionIndex = 76467;
+
 	class CakeRaceLoanPrepareData : public ::System::Object
 	{
 	public:

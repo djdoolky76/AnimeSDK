@@ -10,6 +10,8 @@ namespace RPG::GameCore { class BoxingBreakBuffSelectConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BoxingBreakBuffSelectConfigRow_TypeDefinitionIndex = 12920;
+
 	class BoxingBreakBuffSelectConfigRow : public ::System::Object
 	{
 	public:

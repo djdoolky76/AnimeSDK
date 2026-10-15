@@ -14,6 +14,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightRolePosService_TypeDefinitionIndex = 64857;
+
 	class GridFightRolePosService : public ::System::Object
 	{
 	public:

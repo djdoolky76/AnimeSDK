@@ -10,6 +10,8 @@ namespace System { class String; }
 #define JNJKCEIJENA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB288C80)
 #define JNJKCEIJENA___C___LISTENLEVELVAR_B__15_0_OFFSET UNITYSDK_OFFSET(0xB288C90)
 
+inline static constexpr unsigned int JNJKCEIJENA___c_TypeDefinitionIndex = 77141;
+
 	class JNJKCEIJENA___c : public ::System::Object
 	{
 	public:

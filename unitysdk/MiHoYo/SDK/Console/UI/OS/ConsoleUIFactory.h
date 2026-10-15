@@ -25,6 +25,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::Console::UI::OS
 {
+	inline static constexpr unsigned int ConsoleUIFactory_TypeDefinitionIndex = 9052;
+
 	class ConsoleUIFactory : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LineupMazeBuffData_TypeDefinitionIndex = 18131;
+
 	class LineupMazeBuffData : public ::RPG::GameCore::JsonConfig
 	{
 	public:

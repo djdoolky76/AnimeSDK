@@ -13,6 +13,8 @@ namespace UnityEngine { class Material; }
 #define DEBEAKKOHLN_HNLNMJCDHJD_RESET_OFFSET UNITYSDK_OFFSET(0xF5C50)
 #define DEBEAKKOHLN_HNLNMJCDHJD_SYSTEM_COLLECTIONS_IENUMERATOR_GET_CURRENT_OFFSET UNITYSDK_OFFSET(0xF5BB0)
 
+inline static constexpr unsigned int DEBEAKKOHLN_HNLNMJCDHJD_TypeDefinitionIndex = 69809;
+
 	struct alignas(8) DEBEAKKOHLN_HNLNMJCDHJD
 	{
 		::System::Collections::Generic::List_1<::RPG::Client::RendererMaterialCache*>* MGMGMOGJLJC; // 0x10

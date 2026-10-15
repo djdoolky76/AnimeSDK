@@ -9,6 +9,8 @@ namespace MiHoYo::SDK { class JSONObject; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int PayHelper_TypeDefinitionIndex = 8024;
+
 	class PayHelper : public ::System::Object
 	{
 	public:

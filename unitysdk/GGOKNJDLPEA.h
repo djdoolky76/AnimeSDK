@@ -13,6 +13,8 @@ class BCIEMOCBCCC;
 #define GGOKNJDLPEA__ONTICK_OFFSET UNITYSDK_OFFSET(0x15A11F20)
 #define GGOKNJDLPEA__SETUPVIEW_OFFSET UNITYSDK_OFFSET(0x15A11BE0)
 
+inline static constexpr unsigned int GGOKNJDLPEA_TypeDefinitionIndex = 72363;
+
 	class GGOKNJDLPEA : public ::RPG::Client::UIController
 	{
 	public:

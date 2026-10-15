@@ -3,6 +3,8 @@
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int Compositor_CumulativeStats_TypeDefinitionIndex = 39312;
+
 	struct alignas(4) Compositor_CumulativeStats
 	{
 		::System::UInt32 m_nPid; // 0x10

@@ -17,6 +17,8 @@ namespace RPG::Client { class IRogueTournPersonaStyleModifierBattlePassive; }
 #define NANENPCCNIF_SET_SOURCETYPE_OFFSET UNITYSDK_OFFSET(0xBAA95F0)
 #define NANENPCCNIF_UPDATE_OFFSET UNITYSDK_OFFSET(0xBAA9570)
 
+inline static constexpr unsigned int NANENPCCNIF_TypeDefinitionIndex = 67703;
+
 	class NANENPCCNIF : public ::System::Object
 	{
 	public:

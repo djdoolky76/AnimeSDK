@@ -20,6 +20,8 @@ namespace Spine { template <typename T> class ExposedList_1; }
 
 namespace Spine
 {
+	inline static constexpr unsigned int SkeletonClipping_TypeDefinitionIndex = 39691;
+
 	class SkeletonClipping : public ::System::Object
 	{
 	public:

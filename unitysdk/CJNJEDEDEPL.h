@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TrainPartyEventCharacterTriggerFreeStyle; }
 #define CJNJEDEDEPL_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xD4D34E0)
 #define CJNJEDEDEPL_TICK_OFFSET UNITYSDK_OFFSET(0xD4D3530)
 
+inline static constexpr unsigned int CJNJEDEDEPL_TypeDefinitionIndex = 53424;
+
 	class CJNJEDEDEPL : public ::GELIALJDFBL
 	{
 	public:

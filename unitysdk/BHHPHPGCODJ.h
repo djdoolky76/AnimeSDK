@@ -22,6 +22,8 @@ namespace System { class String; }
 #define BHHPHPGCODJ_SET_TARGETDESC_OFFSET UNITYSDK_OFFSET(0xB48AFC0)
 #define BHHPHPGCODJ_SET_TYPE_OFFSET UNITYSDK_OFFSET(0xB48AF60)
 
+inline static constexpr unsigned int BHHPHPGCODJ_TypeDefinitionIndex = 79426;
+
 	class BHHPHPGCODJ : public ::System::Object
 	{
 	public:

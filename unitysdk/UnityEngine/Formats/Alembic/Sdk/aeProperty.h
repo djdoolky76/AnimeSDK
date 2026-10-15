@@ -18,6 +18,8 @@
 
 namespace UnityEngine::Formats::Alembic::Sdk
 {
+	inline static constexpr unsigned int aeProperty_TypeDefinitionIndex = 45791;
+
 	struct alignas(4) aeProperty
 	{
 		::System::IntPtr self; // 0x10

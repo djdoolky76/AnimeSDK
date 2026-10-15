@@ -5,6 +5,8 @@
 
 #define JLGAPJLCIKO_LPBKKFJHKNP_CTOR_OFFSET UNITYSDK_OFFSET(0x11840)
 
+inline static constexpr unsigned int JLGAPJLCIKO_LPBKKFJHKNP_TypeDefinitionIndex = 70681;
+
 	struct alignas(4) JLGAPJLCIKO_LPBKKFJHKNP
 	{
 		::System::Int32 HBBBLAMDEFF; // 0x10

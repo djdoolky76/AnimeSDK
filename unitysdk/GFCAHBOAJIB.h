@@ -29,6 +29,8 @@ namespace System { class String; }
 #define GFCAHBOAJIB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E460340)
 #define GFCAHBOAJIB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E4603A0)
 
+inline static constexpr unsigned int GFCAHBOAJIB_TypeDefinitionIndex = 34149;
+
 	class GFCAHBOAJIB : public ::System::Object
 	{
 	public:

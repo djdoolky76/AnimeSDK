@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierModifyReplenishRoomCardLevelConfig;
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierModifyReplenishRoomCardLevelConfig_TypeDefinitionIndex = 17840;
+
 	class RogueModifierModifyReplenishRoomCardLevelConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

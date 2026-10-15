@@ -33,6 +33,8 @@ namespace System { class String; }
 #define MJBANFPPEFH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA44990)
 #define MJBANFPPEFH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA449F0)
 
+inline static constexpr unsigned int MJBANFPPEFH_TypeDefinitionIndex = 30929;
+
 	class MJBANFPPEFH : public ::System::Object
 	{
 	public:

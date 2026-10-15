@@ -7,6 +7,8 @@
 
 namespace InControl::NativeDeviceProfiles
 {
+	inline static constexpr unsigned int DualShock4MFiNativeProfile_TypeDefinitionIndex = 41249;
+
 	class DualShock4MFiNativeProfile : public ::InControl::InputDeviceProfile
 	{
 	public:

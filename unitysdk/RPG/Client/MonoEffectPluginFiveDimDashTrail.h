@@ -9,6 +9,8 @@ namespace UnityEngine { class TrailRenderer; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEffectPluginFiveDimDashTrail_TypeDefinitionIndex = 70024;
+
 	class MonoEffectPluginFiveDimDashTrail : public ::RPG::Client::MonoEffectPluginBase
 	{
 	public:

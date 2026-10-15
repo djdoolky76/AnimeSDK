@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PlanetFesLevelExcelTable_TypeDefinitionIndex = 12204;
+
 	class PlanetFesLevelExcelTable : public ::System::Object
 	{
 	public:

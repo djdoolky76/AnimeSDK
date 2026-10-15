@@ -29,6 +29,8 @@ namespace System { class String; }
 #define CIOAOEGEIKH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E0D6E20)
 #define CIOAOEGEIKH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E0D6E80)
 
+inline static constexpr unsigned int CIOAOEGEIKH_TypeDefinitionIndex = 25152;
+
 	class CIOAOEGEIKH : public ::System::Object
 	{
 	public:

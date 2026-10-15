@@ -15,6 +15,8 @@ namespace UnityEngine::UI { class InputField; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int PSDelegate_OpenImeDialogDelegate_TypeDefinitionIndex = 7738;
+
 	class PSDelegate_OpenImeDialogDelegate : public ::System::MulticastDelegate
 	{
 	public:

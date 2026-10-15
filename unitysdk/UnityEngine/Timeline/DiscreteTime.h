@@ -48,6 +48,8 @@ namespace System { class String; }
 
 namespace UnityEngine::Timeline
 {
+	inline static constexpr unsigned int DiscreteTime_TypeDefinitionIndex = 38816;
+
 	struct alignas(4) DiscreteTime
 	{
 		::System::Int64 m_DiscreteTime; // 0x10

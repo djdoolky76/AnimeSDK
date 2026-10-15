@@ -20,6 +20,8 @@ namespace RPG::Client { class GridFightBattleResultDropInfo; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightBattleResultDropInfo_TypeDefinitionIndex = 64408;
+
 	class GridFightBattleResultDropInfo : public ::System::Object
 	{
 	public:

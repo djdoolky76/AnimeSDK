@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace MiniJSON_Min
 {
+	inline static constexpr unsigned int Json_TypeDefinitionIndex = 41341;
+
 	class Json : public ::System::Object
 	{
 	public:

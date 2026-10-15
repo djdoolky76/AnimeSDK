@@ -3,6 +3,8 @@
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int HTTPHeaderField_TypeDefinitionIndex = 46307;
+
 	enum class HTTPHeaderField : ::System::Int32
 	{
 		AccessControlAllowOrigin = 0,

@@ -17,6 +17,8 @@ namespace System { class Object; }
 #define DGGIIGIFHAG_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xE848760)
 #define DGGIIGIFHAG_TICK_OFFSET UNITYSDK_OFFSET(0xE8488E0)
 
+inline static constexpr unsigned int DGGIIGIFHAG_TypeDefinitionIndex = 58017;
+
 	class DGGIIGIFHAG : public ::GELIALJDFBL
 	{
 	public:

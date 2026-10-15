@@ -7,6 +7,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define KDLGAPFHIMM_CTOR_OFFSET UNITYSDK_OFFSET(0xB365DD0)
 #define KDLGAPFHIMM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB365EB0)
 
+inline static constexpr unsigned int KDLGAPFHIMM_TypeDefinitionIndex = 55802;
+
 	class KDLGAPFHIMM
 	{
 	public:

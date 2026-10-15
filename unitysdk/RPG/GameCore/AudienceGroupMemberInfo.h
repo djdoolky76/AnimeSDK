@@ -10,6 +10,8 @@ namespace RPG::GameCore { class AudienceGroupMemberInfo; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AudienceGroupMemberInfo_TypeDefinitionIndex = 21879;
+
 	class AudienceGroupMemberInfo : public ::RPG::GameCore::DynamicJsonConfig
 	{
 	public:

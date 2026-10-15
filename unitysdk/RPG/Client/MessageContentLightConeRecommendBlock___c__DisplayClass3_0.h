@@ -9,6 +9,8 @@ namespace System { class Action; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MessageContentLightConeRecommendBlock___c__DisplayClass3_0_TypeDefinitionIndex = 63259;
+
 	class MessageContentLightConeRecommendBlock___c__DisplayClass3_0 : public ::System::Object
 	{
 	public:

@@ -15,6 +15,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int MainCameraTimelineClip_TypeDefinitionIndex = 48449;
+
 	class MainCameraTimelineClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

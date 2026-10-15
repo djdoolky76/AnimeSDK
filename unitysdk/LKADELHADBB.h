@@ -53,6 +53,8 @@ namespace System { class String; }
 #define LKADELHADBB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E98ABA0)
 #define LKADELHADBB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E98AC00)
 
+inline static constexpr unsigned int LKADELHADBB_TypeDefinitionIndex = 27738;
+
 	class LKADELHADBB : public ::System::Object
 	{
 	public:

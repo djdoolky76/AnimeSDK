@@ -9,6 +9,8 @@ namespace System { class String; }
 #define CIBFGDIDPJB_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC14060)
 #define CIBFGDIDPJB_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC13D40)
 
+inline static constexpr unsigned int CIBFGDIDPJB_TypeDefinitionIndex = 14411;
+
 	class CIBFGDIDPJB : public ::System::Object
 	{
 	public:

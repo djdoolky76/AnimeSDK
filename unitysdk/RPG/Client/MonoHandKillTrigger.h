@@ -7,6 +7,8 @@ namespace UnityEngine { class Collider; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoHandKillTrigger_TypeDefinitionIndex = 68778;
+
 	class MonoHandKillTrigger : public ::UnityEngine::MonoBehaviour
 	{
 	public:

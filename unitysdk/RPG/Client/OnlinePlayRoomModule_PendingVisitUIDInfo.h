@@ -13,6 +13,8 @@ class JBJNJPAOCDA;
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int OnlinePlayRoomModule_PendingVisitUIDInfo_TypeDefinitionIndex = 66401;
+
 	class OnlinePlayRoomModule_PendingVisitUIDInfo : public ::System::Object
 	{
 	public:

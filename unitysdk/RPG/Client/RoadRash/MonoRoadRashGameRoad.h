@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace RPG::Client::RoadRash
 {
+	inline static constexpr unsigned int MonoRoadRashGameRoad_TypeDefinitionIndex = 75863;
+
 	class MonoRoadRashGameRoad : public ::UnityEngine::MonoBehaviour
 	{
 	public:

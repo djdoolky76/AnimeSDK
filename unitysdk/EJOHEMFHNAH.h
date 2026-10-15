@@ -7,6 +7,8 @@ namespace UnityEngine { class GameObject; }
 #define EJOHEMFHNAH_HFKFNFKIEON_OFFSET UNITYSDK_OFFSET(0x154F4240)
 #define EJOHEMFHNAH_INIHIKKLBFO_OFFSET UNITYSDK_OFFSET(0x154F4190)
 
+inline static constexpr unsigned int EJOHEMFHNAH_TypeDefinitionIndex = 51745;
+
 	struct alignas(8) EJOHEMFHNAH
 	{
 		::UnityEngine::GameObject* EAPFJHJHIFK; // 0x10

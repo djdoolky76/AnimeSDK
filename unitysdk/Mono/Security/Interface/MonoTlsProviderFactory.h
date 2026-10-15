@@ -7,6 +7,8 @@ namespace Mono::Security::Interface { class MonoTlsProvider; }
 
 namespace Mono::Security::Interface
 {
+	inline static constexpr unsigned int MonoTlsProviderFactory_TypeDefinitionIndex = 2295;
+
 	class MonoTlsProviderFactory : public ::System::Object
 	{
 	public:

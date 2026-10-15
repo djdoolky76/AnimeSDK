@@ -7,6 +7,8 @@
 
 namespace UnityEngine::GCFreeClosure
 {
+	inline static constexpr unsigned int SValue_ReaderInit_TypeDefinitionIndex = 4469;
+
 	class SValue_ReaderInit : public ::System::Object
 	{
 	public:

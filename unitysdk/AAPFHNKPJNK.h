@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 #define AAPFHNKPJNK_LJEKFKPJFEJ_OFFSET UNITYSDK_OFFSET(0xB0E4160)
 #define AAPFHNKPJNK_LMMEJOMMIMP_OFFSET UNITYSDK_OFFSET(0xB0E2F80)
 
+inline static constexpr unsigned int AAPFHNKPJNK_TypeDefinitionIndex = 67516;
+
 	class AAPFHNKPJNK : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace RPG::Client { class MazeChallengeSystem; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MazeChallengeSystem___c__DisplayClass3_0_TypeDefinitionIndex = 60908;
+
 	class MazeChallengeSystem___c__DisplayClass3_0 : public ::System::Object
 	{
 	public:

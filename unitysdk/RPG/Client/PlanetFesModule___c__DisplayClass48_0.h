@@ -9,6 +9,8 @@ namespace System { template <typename T> class Predicate_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PlanetFesModule___c__DisplayClass48_0_TypeDefinitionIndex = 66657;
+
 	class PlanetFesModule___c__DisplayClass48_0 : public ::System::Object
 	{
 	public:

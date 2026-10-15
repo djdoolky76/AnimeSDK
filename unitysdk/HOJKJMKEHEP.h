@@ -7,6 +7,8 @@ namespace RPG::GameCore { class MarbleByCompareBuffCount; }
 #define HOJKJMKEHEP_CTOR_OFFSET UNITYSDK_OFFSET(0x1CAF3C60)
 #define HOJKJMKEHEP_KHNFOOKHOJF_OFFSET UNITYSDK_OFFSET(0x1CAF3C80)
 
+inline static constexpr unsigned int HOJKJMKEHEP_TypeDefinitionIndex = 43147;
+
 	class HOJKJMKEHEP : public ::LHJPMDPJPEC
 	{
 	public:

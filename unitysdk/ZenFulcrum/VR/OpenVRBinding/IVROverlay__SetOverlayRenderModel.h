@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int IVROverlay__SetOverlayRenderModel_TypeDefinitionIndex = 39090;
+
 	class IVROverlay__SetOverlayRenderModel : public ::System::MulticastDelegate
 	{
 	public:

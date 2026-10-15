@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int FreeCamera_TypeDefinitionIndex = 35469;
+
 	class FreeCamera : public ::UnityEngine::MonoBehaviour
 	{
 	public:

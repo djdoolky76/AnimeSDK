@@ -33,6 +33,8 @@ namespace System { class String; }
 #define GCLPBMPOHLI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E441700)
 #define GCLPBMPOHLI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E441760)
 
+inline static constexpr unsigned int GCLPBMPOHLI_TypeDefinitionIndex = 31319;
+
 	class GCLPBMPOHLI : public ::System::Object
 	{
 	public:

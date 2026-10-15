@@ -11,6 +11,8 @@ class POKKCEHMFMJ;
 #define GGBKKLGBBII_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x15A021F0)
 #define GGBKKLGBBII_CTOR_OFFSET UNITYSDK_OFFSET(0x15A020F0)
 
+inline static constexpr unsigned int GGBKKLGBBII_TypeDefinitionIndex = 62626;
+
 	class GGBKKLGBBII : public ::System::Object
 	{
 	public:

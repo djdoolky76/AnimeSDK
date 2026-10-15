@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 #define ICPJMDDLNAC__SUBSCRIBECUSTOMEVENT_OFFSET UNITYSDK_OFFSET(0x15E66B20)
 #define ICPJMDDLNAC__UNSUBSCRIBECUSTOMEVENT_OFFSET UNITYSDK_OFFSET(0x15E66C60)
 
+inline static constexpr unsigned int ICPJMDDLNAC_TypeDefinitionIndex = 65747;
+
 	class ICPJMDDLNAC : public ::RPG::Client::SyncCheckItemBase
 	{
 	public:

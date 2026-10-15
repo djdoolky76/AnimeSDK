@@ -4,6 +4,8 @@
 class GGAGNCGAIDK;
 namespace System { class Object; }
 
+inline static constexpr unsigned int JJLLMEENHJC___c__DisplayClass13_0_TypeDefinitionIndex = 44156;
+
 	class JJLLMEENHJC___c__DisplayClass13_0 : public ::System::Object
 	{
 	public:

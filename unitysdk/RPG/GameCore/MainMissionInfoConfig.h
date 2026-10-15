@@ -17,6 +17,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MainMissionInfoConfig_TypeDefinitionIndex = 19021;
+
 	class MainMissionInfoConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

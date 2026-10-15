@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChimeraBattlePostEvent_TypeDefinitionIndex = 15845;
+
 	class ChimeraBattlePostEvent : public ::RPG::GameCore::ChimeraAbilityProgressBase
 	{
 	public:

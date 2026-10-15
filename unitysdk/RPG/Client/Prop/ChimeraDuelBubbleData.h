@@ -9,6 +9,8 @@ namespace RPG::Client { class ChimeraDuelTalkData; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int ChimeraDuelBubbleData_TypeDefinitionIndex = 78279;
+
 	class ChimeraDuelBubbleData : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace RPG::Client::ChenLingBattle
 {
+	inline static constexpr unsigned int ChenLing3DFollowDragTarget_TypeDefinitionIndex = 76396;
+
 	class ChenLing3DFollowDragTarget : public ::UnityEngine::MonoBehaviour
 	{
 	public:

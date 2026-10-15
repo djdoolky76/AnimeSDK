@@ -69,6 +69,8 @@ namespace System { class String; }
 #define EJMCJECLENI_SET_WAYPOINTSHOWRANGEMIN_OFFSET UNITYSDK_OFFSET(0x154EDBE0)
 #define EJMCJECLENI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x154EEAA0)
 
+inline static constexpr unsigned int EJMCJECLENI_TypeDefinitionIndex = 60640;
+
 	class EJMCJECLENI : public ::System::Object
 	{
 	public:

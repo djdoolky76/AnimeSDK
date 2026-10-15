@@ -16,6 +16,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByCompareSkillUsageLimit_TypeDefinitionIndex = 22987;
+
 	class ByCompareSkillUsageLimit : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

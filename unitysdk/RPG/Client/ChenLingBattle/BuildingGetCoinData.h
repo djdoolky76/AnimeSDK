@@ -7,6 +7,8 @@ namespace RPG::Client::ChenLingBattle { class Building; }
 
 namespace RPG::Client::ChenLingBattle
 {
+	inline static constexpr unsigned int BuildingGetCoinData_TypeDefinitionIndex = 76242;
+
 	class BuildingGetCoinData : public ::System::Object
 	{
 	public:

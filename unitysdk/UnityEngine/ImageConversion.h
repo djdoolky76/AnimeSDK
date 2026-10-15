@@ -23,6 +23,8 @@ namespace UnityEngine { class Texture2D; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int ImageConversion_TypeDefinitionIndex = 5205;
+
 	class ImageConversion : public ::System::Object
 	{
 	public:

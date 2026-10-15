@@ -9,6 +9,8 @@ namespace System::Xml::Serialization { class XmlSerializationWriteCallback; }
 
 namespace System::Xml::Serialization
 {
+	inline static constexpr unsigned int XmlSerializationWriter_WriteCallbackInfo_TypeDefinitionIndex = 2037;
+
 	class XmlSerializationWriter_WriteCallbackInfo : public ::System::Object
 	{
 	public:

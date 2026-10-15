@@ -39,6 +39,8 @@ namespace System { class String; }
 #define ALGDCPHADFA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E3D94B0)
 #define ALGDCPHADFA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E50D150)
 
+inline static constexpr unsigned int ALGDCPHADFA_TypeDefinitionIndex = 31992;
+
 	class ALGDCPHADFA : public ::System::Object
 	{
 	public:

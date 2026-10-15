@@ -12,6 +12,8 @@
 
 namespace Spine::Unity
 {
+	inline static constexpr unsigned int MathUtilities_TypeDefinitionIndex = 45102;
+
 	class MathUtilities : public ::System::Object
 	{
 	public:

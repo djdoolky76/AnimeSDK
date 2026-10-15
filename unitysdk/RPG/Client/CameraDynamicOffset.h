@@ -9,6 +9,8 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CameraDynamicOffset_TypeDefinitionIndex = 69721;
+
 	class CameraDynamicOffset : public ::System::Object
 	{
 	public:

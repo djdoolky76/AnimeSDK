@@ -4,6 +4,8 @@
 
 #define FOPGGMEFEKC_CTOR_OFFSET UNITYSDK_OFFSET(0x159093F0)
 
+inline static constexpr unsigned int FOPGGMEFEKC_TypeDefinitionIndex = 75562;
+
 	class FOPGGMEFEKC : public ::System::Object
 	{
 	public:

@@ -21,6 +21,8 @@ class MCPENPHEEFF;
 
 namespace RPG::Client::FateRin::MainPage
 {
+	inline static constexpr unsigned int FateRinMainPageResidentRewardViewModel_TypeDefinitionIndex = 80636;
+
 	class FateRinMainPageResidentRewardViewModel : public ::RPG::Client::FateRin::BaseViewModel
 	{
 	public:

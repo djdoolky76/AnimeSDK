@@ -19,6 +19,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RelicPresetSaveDialogViewModel_TypeDefinitionIndex = 66877;
+
 	class RelicPresetSaveDialogViewModel : public ::System::Object
 	{
 	public:

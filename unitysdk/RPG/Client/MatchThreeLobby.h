@@ -20,6 +20,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MatchThreeLobby_TypeDefinitionIndex = 65777;
+
 	class MatchThreeLobby : public ::RPG::Client::BaseLobby
 	{
 	public:

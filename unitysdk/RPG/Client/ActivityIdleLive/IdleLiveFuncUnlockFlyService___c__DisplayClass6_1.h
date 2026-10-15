@@ -9,6 +9,8 @@ namespace System { class Object; }
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int IdleLiveFuncUnlockFlyService___c__DisplayClass6_1_TypeDefinitionIndex = 75295;
+
 	template <typename T>
 	class IdleLiveFuncUnlockFlyService___c__DisplayClass6_1 : public ::System::Object
 	{

@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AbilityProperty_TypeDefinitionIndex = 10479;
+
 	enum class AbilityProperty : ::System::Int32
 	{
 		Unknow = 0,

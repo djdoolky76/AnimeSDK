@@ -10,6 +10,8 @@ namespace System::Runtime::Remoting::Metadata { class SoapAttribute; }
 
 namespace System::Runtime::Remoting
 {
+	inline static constexpr unsigned int InternalRemotingServices_TypeDefinitionIndex = 1210;
+
 	class InternalRemotingServices : public ::System::Object
 	{
 	public:

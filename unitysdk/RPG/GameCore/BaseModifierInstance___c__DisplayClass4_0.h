@@ -9,6 +9,8 @@ namespace RPG::GameCore { class BaseModifierInstance_ModifierEffectData; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BaseModifierInstance___c__DisplayClass4_0_TypeDefinitionIndex = 54433;
+
 	class BaseModifierInstance___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:

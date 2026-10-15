@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueStart; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueStart_TypeDefinitionIndex = 22269;
+
 	class RogueStart : public ::RPG::GameCore::TaskConfig
 	{
 	public:

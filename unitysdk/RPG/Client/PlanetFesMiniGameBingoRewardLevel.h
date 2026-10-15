@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PlanetFesMiniGameBingoRewardLevel_TypeDefinitionIndex = 66610;
+
 	class PlanetFesMiniGameBingoRewardLevel : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int NetworkManager___GetIPAddressAsync_d__4_TypeDefinitionIndex = 69379;
+
 	template <typename T1, typename T2, typename T3, typename T4>
 	struct alignas(8) NetworkManager___GetIPAddressAsync_d__4
 	{

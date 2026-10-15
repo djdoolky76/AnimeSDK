@@ -16,6 +16,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::UI::Internal::OS
 {
+	inline static constexpr unsigned int AlertDialog_TypeDefinitionIndex = 8442;
+
 	class AlertDialog : public ::System::Object
 	{
 	public:

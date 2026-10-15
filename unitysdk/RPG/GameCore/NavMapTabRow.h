@@ -11,6 +11,8 @@ namespace RPG::GameCore { class NavMapTabRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int NavMapTabRow_TypeDefinitionIndex = 14002;
+
 	class NavMapTabRow : public ::System::Object
 	{
 	public:

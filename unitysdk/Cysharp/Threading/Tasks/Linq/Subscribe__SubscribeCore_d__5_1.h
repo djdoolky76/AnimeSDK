@@ -10,6 +10,8 @@ namespace System { template <typename T> class IObserver_1; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
+	inline static constexpr unsigned int Subscribe__SubscribeCore_d__5_1_TypeDefinitionIndex = 45608;
+
 	template <typename T>
 	struct alignas(8) Subscribe__SubscribeCore_d__5_1
 	{

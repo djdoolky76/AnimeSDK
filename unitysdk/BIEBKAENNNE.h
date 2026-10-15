@@ -12,6 +12,8 @@ namespace RPG::GameCore { class LevelPerformanceInitialize; }
 #define BIEBKAENNNE_NOFJENGOJGE_OFFSET UNITYSDK_OFFSET(0xB4A4BE0)
 #define BIEBKAENNNE_SET_BLOCKNEW_OFFSET UNITYSDK_OFFSET(0xB4A4C40)
 
+inline static constexpr unsigned int BIEBKAENNNE_TypeDefinitionIndex = 60700;
+
 	class BIEBKAENNNE : public ::System::Object
 	{
 	public:

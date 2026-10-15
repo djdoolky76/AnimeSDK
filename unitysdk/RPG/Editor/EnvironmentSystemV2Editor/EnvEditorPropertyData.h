@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace RPG::Editor::EnvironmentSystemV2Editor
 {
+	inline static constexpr unsigned int EnvEditorPropertyData_TypeDefinitionIndex = 52075;
+
 	class EnvEditorPropertyData : public ::System::Object
 	{
 	public:

@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define AMMDOPEDNJF_SET_HASAVATARCHECKER_OFFSET UNITYSDK_OFFSET(0x15585400)
 #define AMMDOPEDNJF_SET_TEAMBUILDRECIPE_OFFSET UNITYSDK_OFFSET(0x155853E0)
 
+inline static constexpr unsigned int AMMDOPEDNJF_TypeDefinitionIndex = 68084;
+
 	class AMMDOPEDNJF : public ::System::Object
 	{
 	public:

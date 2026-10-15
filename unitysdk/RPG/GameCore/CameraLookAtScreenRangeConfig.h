@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CameraLookAtScreenRangeConfig_TypeDefinitionIndex = 20507;
+
 	class CameraLookAtScreenRangeConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -8,6 +8,8 @@ class DMGNMNNDEDE;
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MainMissionData___c__DisplayClass14_0_TypeDefinitionIndex = 66132;
+
 	class MainMissionData___c__DisplayClass14_0 : public ::System::Object
 	{
 	public:

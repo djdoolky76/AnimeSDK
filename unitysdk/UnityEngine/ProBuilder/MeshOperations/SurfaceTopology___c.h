@@ -15,6 +15,8 @@ namespace UnityEngine::ProBuilder { class Vertex; }
 
 namespace UnityEngine::ProBuilder::MeshOperations
 {
+	inline static constexpr unsigned int SurfaceTopology___c_TypeDefinitionIndex = 44515;
+
 	class SurfaceTopology___c : public ::System::Object
 	{
 	public:

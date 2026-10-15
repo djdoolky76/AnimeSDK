@@ -10,6 +10,8 @@ namespace RPG::GameCore { class PreAvatarTextmapConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PreAvatarTextmapConfigRow_TypeDefinitionIndex = 14560;
+
 	class PreAvatarTextmapConfigRow : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System { class Type; }
 
 namespace System::Runtime::Serialization::Formatters::Binary
 {
+	inline static constexpr unsigned int ObjectMapInfo_TypeDefinitionIndex = 1181;
+
 	class ObjectMapInfo : public ::System::Object
 	{
 	public:

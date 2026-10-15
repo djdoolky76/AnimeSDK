@@ -12,6 +12,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoQuadEffect_TypeDefinitionIndex = 72593;
+
 	class MonoQuadEffect : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int AutoTestLoginManager___c__DisplayClass9_0_TypeDefinitionIndex = 9272;
+
 	class AutoTestLoginManager___c__DisplayClass9_0 : public ::System::Object
 	{
 	public:

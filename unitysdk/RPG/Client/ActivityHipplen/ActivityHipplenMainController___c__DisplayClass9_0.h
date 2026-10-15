@@ -9,6 +9,8 @@ namespace RPG::Client::ActivityHipplen { class ActivityHipplenMainController; }
 
 namespace RPG::Client::ActivityHipplen
 {
+	inline static constexpr unsigned int ActivityHipplenMainController___c__DisplayClass9_0_TypeDefinitionIndex = 75477;
+
 	class ActivityHipplenMainController___c__DisplayClass9_0 : public ::System::Object
 	{
 	public:

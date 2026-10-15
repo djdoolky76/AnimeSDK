@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MusicRhythmSongRow_TypeDefinitionIndex = 14267;
+
 	class MusicRhythmSongRow : public ::System::Object
 	{
 	public:

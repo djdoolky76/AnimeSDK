@@ -22,6 +22,8 @@ namespace System { class Object; }
 #define HILEKPOCPCH_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15CF70F0)
 #define HILEKPOCPCH_TICK_OFFSET UNITYSDK_OFFSET(0x15CF71D0)
 
+inline static constexpr unsigned int HILEKPOCPCH_TypeDefinitionIndex = 52318;
+
 	class HILEKPOCPCH : public ::GELIALJDFBL
 	{
 	public:

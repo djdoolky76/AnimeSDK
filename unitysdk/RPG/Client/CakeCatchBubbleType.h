@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CakeCatchBubbleType_TypeDefinitionIndex = 62963;
+
 	enum class CakeCatchBubbleType : ::System::Int32
 	{
 		Invalid = 0,

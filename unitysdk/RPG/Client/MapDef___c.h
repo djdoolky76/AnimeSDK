@@ -13,6 +13,8 @@ namespace System::Collections::Generic { class KeyValuePair; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MapDef___c_TypeDefinitionIndex = 62081;
+
 	class MapDef___c : public ::System::Object
 	{
 	public:

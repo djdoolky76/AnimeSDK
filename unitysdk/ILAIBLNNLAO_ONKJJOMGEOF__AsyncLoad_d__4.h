@@ -12,6 +12,8 @@ namespace System { class Object; }
 #define ILAIBLNNLAO_ONKJJOMGEOF__ASYNCLOAD_D__4_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x164A6C40)
 #define ILAIBLNNLAO_ONKJJOMGEOF__ASYNCLOAD_D__4_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x164A6890)
 
+inline static constexpr unsigned int ILAIBLNNLAO_ONKJJOMGEOF__AsyncLoad_d__4_TypeDefinitionIndex = 60624;
+
 	template <typename T1, typename T2, typename T3, typename T4>
 	class ILAIBLNNLAO_ONKJJOMGEOF__AsyncLoad_d__4 : public ::System::Object
 	{

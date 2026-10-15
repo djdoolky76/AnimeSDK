@@ -5,6 +5,8 @@ namespace System { class Object; }
 
 #define APKJLMDEMLI_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5A27F0)
 
+inline static constexpr unsigned int APKJLMDEMLI_TypeDefinitionIndex = 37296;
+
 	class APKJLMDEMLI : public ::System::Object
 	{
 	public:

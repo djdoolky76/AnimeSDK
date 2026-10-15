@@ -3,6 +3,8 @@
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HAPI_ErrorCode_TypeDefinitionIndex = 40450;
+
 	enum class HAPI_ErrorCode : ::System::Int32
 	{
 		HAPI_ERRORCODE_ASSET_DEF_NOT_FOUND = 1,

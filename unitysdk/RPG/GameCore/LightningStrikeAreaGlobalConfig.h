@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LightningStrikeAreaGlobalConfig_TypeDefinitionIndex = 16817;
+
 	class LightningStrikeAreaGlobalConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

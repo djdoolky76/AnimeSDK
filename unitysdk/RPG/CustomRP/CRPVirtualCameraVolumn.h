@@ -23,6 +23,8 @@ namespace UnityEngine::Rendering { class CRPVirtualCamera; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int CRPVirtualCameraVolumn_TypeDefinitionIndex = 37692;
+
 	class CRPVirtualCameraVolumn : public ::UnityEngine::MonoBehaviour
 	{
 	public:

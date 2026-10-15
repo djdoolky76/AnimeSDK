@@ -15,6 +15,8 @@ namespace UnityEngine { class Animator; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MusicVisualization_BeatEffectElementAnimSpeed_TypeDefinitionIndex = 70810;
+
 	class MusicVisualization_BeatEffectElementAnimSpeed : public ::RPG::Client::MusicVisualization_BeatEffectElementVisualBase
 	{
 	public:

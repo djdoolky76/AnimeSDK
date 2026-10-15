@@ -24,6 +24,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define LPPJIGMBMGA_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D12E920)
 #define LPPJIGMBMGA_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D12EE50)
 
+inline static constexpr unsigned int LPPJIGMBMGA_TypeDefinitionIndex = 15399;
+
 	class LPPJIGMBMGA : public ::System::Object
 	{
 	public:

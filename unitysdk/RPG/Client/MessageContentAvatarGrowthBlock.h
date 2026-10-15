@@ -22,6 +22,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MessageContentAvatarGrowthBlock_TypeDefinitionIndex = 63255;
+
 	class MessageContentAvatarGrowthBlock : public ::RPG::Client::MessageContentFunctionCallBlock
 	{
 	public:

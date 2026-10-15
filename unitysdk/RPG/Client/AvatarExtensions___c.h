@@ -14,6 +14,8 @@ namespace System { template <typename T> class Comparison_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AvatarExtensions___c_TypeDefinitionIndex = 62572;
+
 	class AvatarExtensions___c : public ::System::Object
 	{
 	public:

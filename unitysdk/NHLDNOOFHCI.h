@@ -33,6 +33,8 @@ namespace System { class String; }
 #define NHLDNOOFHCI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB20B50)
 #define NHLDNOOFHCI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB20BB0)
 
+inline static constexpr unsigned int NHLDNOOFHCI_TypeDefinitionIndex = 33251;
+
 	class NHLDNOOFHCI : public ::System::Object
 	{
 	public:

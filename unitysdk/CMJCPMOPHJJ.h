@@ -20,6 +20,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define CMJCPMOPHJJ_IDPLOFEJCMD_OFFSET UNITYSDK_OFFSET(0xDA38B30)
 #define CMJCPMOPHJJ_LICLBMEDGJM_OFFSET UNITYSDK_OFFSET(0xDA38200)
 
+inline static constexpr unsigned int CMJCPMOPHJJ_TypeDefinitionIndex = 57030;
+
 	class CMJCPMOPHJJ : public ::BDENDNDOFLF
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class LevelPathwayLinkInfo; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelPathwayInfo_TypeDefinitionIndex = 17252;
+
 	class LevelPathwayInfo : public ::RPG::GameCore::NamedLevelObjectInfo
 	{
 	public:

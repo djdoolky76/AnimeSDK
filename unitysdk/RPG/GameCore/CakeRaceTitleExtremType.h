@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CakeRaceTitleExtremType_TypeDefinitionIndex = 11010;
+
 	enum class CakeRaceTitleExtremType : ::System::Int32
 	{
 		None = 0,

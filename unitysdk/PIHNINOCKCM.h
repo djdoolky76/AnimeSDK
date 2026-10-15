@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int PIHNINOCKCM_TypeDefinitionIndex = 26482;
+
 	enum class PIHNINOCKCM : ::System::Int32
 	{
 		NLCDGIPGFDJ = 0,

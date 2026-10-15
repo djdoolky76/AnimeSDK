@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define GALPPPMDPID_CTOR_OFFSET UNITYSDK_OFFSET(0x15942400)
 #define GALPPPMDPID_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15942430)
 
+inline static constexpr unsigned int GALPPPMDPID_TypeDefinitionIndex = 57972;
+
 	class GALPPPMDPID
 	{
 	public:

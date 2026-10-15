@@ -7,6 +7,8 @@ namespace System { class Type; }
 
 namespace Unity::Jobs::LowLevel::Unsafe
 {
+	inline static constexpr unsigned int JobProducerTypeAttribute_TypeDefinitionIndex = 3963;
+
 	class JobProducerTypeAttribute : public ::System::Attribute
 	{
 	public:

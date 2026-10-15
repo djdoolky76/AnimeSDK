@@ -121,6 +121,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define BNGHOKMIDGD_SET_LOOPREWINDSNAPTARGETRATIO_OFFSET UNITYSDK_OFFSET(0xBDD8CF0)
 #define BNGHOKMIDGD_SET_REWINDEXTRAMODE_OFFSET UNITYSDK_OFFSET(0xBDD4C80)
 
+inline static constexpr unsigned int BNGHOKMIDGD_TypeDefinitionIndex = 60792;
+
 	class BNGHOKMIDGD : public ::System::Object
 	{
 	public:

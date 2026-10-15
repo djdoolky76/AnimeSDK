@@ -28,6 +28,8 @@ namespace System { class String; }
 #define KHCBONJOLDP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E83FF80)
 #define KHCBONJOLDP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E83FFE0)
 
+inline static constexpr unsigned int KHCBONJOLDP_TypeDefinitionIndex = 32722;
+
 	class KHCBONJOLDP : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@ class PBGNKMMDBGD;
 #define PCEBNLDOGBH_CTOR_OFFSET UNITYSDK_OFFSET(0x1C7EB410)
 #define PCEBNLDOGBH_GAILDDCMCHP_OFFSET UNITYSDK_OFFSET(0x1C7EB420)
 
+inline static constexpr unsigned int PCEBNLDOGBH_TypeDefinitionIndex = 37384;
+
 	class PCEBNLDOGBH : public ::GPLOFONGBGI
 	{
 	public:

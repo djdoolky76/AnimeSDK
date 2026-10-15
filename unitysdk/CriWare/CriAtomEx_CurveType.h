@@ -3,6 +3,8 @@
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriAtomEx_CurveType_TypeDefinitionIndex = 39959;
+
 	enum class CriAtomEx_CurveType : ::System::Int32
 	{
 		Linear = 0,

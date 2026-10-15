@@ -14,6 +14,8 @@ namespace UnityEngine::UI { class HorizontalLayoutGroup; }
 #define BIOOMKFLDED_IOKAOGFPCJD_OFFSET UNITYSDK_OFFSET(0xB795660)
 #define BIOOMKFLDED_OLACLDCGBIF_OFFSET UNITYSDK_OFFSET(0xB7957E0)
 
+inline static constexpr unsigned int BIOOMKFLDED_TypeDefinitionIndex = 72664;
+
 	class BIOOMKFLDED : public ::System::Object
 	{
 	public:

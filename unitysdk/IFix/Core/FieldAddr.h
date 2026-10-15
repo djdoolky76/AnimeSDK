@@ -7,6 +7,8 @@ namespace System { class Object; }
 
 namespace IFix::Core
 {
+	inline static constexpr unsigned int FieldAddr_TypeDefinitionIndex = 7139;
+
 	class FieldAddr : public ::System::Object
 	{
 	public:

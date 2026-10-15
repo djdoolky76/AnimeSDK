@@ -7,6 +7,8 @@ class AGNMGANBNAA;
 #define DIGCDGKOBMK_GET_CONFIG_OFFSET UNITYSDK_OFFSET(0x1C54DF80)
 #define DIGCDGKOBMK_SET_CONFIG_OFFSET UNITYSDK_OFFSET(0x1C54DF90)
 
+inline static constexpr unsigned int DIGCDGKOBMK_TypeDefinitionIndex = 41788;
+
 	class DIGCDGKOBMK : public ::System::Object
 	{
 	public:

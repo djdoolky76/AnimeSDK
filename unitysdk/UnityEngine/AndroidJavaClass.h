@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int AndroidJavaClass_TypeDefinitionIndex = 5682;
+
 	class AndroidJavaClass : public ::UnityEngine::AndroidJavaObject
 	{
 	public:

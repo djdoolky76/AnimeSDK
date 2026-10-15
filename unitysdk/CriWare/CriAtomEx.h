@@ -103,6 +103,8 @@ namespace System::Text { class StringBuilder; }
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriAtomEx_TypeDefinitionIndex = 39948;
+
 	class CriAtomEx : public ::System::Object
 	{
 	public:

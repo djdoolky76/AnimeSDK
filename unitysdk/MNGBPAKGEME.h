@@ -15,6 +15,8 @@ namespace System { class String; }
 #define MNGBPAKGEME_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xBA07B10)
 #define MNGBPAKGEME_OKCJEKDDIHD_OFFSET UNITYSDK_OFFSET(0xBA07E80)
 
+inline static constexpr unsigned int MNGBPAKGEME_TypeDefinitionIndex = 81193;
+
 	class MNGBPAKGEME : public ::System::Object
 	{
 	public:

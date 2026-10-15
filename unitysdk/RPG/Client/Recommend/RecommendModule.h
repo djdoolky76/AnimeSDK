@@ -55,6 +55,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::Recommend
 {
+	inline static constexpr unsigned int RecommendModule_TypeDefinitionIndex = 74461;
+
 	class RecommendModule : public ::RPG::Client::BaseModule
 	{
 	public:

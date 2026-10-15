@@ -29,6 +29,8 @@ namespace System { class String; }
 #define DAMBPIKLCBL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E153930)
 #define DAMBPIKLCBL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E153990)
 
+inline static constexpr unsigned int DAMBPIKLCBL_TypeDefinitionIndex = 28993;
+
 	class DAMBPIKLCBL : public ::System::Object
 	{
 	public:

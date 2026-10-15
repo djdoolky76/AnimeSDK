@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 #define BMBAMHBIEEA___SETUPVIEW_B__3_0_OFFSET UNITYSDK_OFFSET(0xBA86D20)
 #define BMBAMHBIEEA___SETUPVIEW_B__3_1_OFFSET UNITYSDK_OFFSET(0xBA86EF0)
 
+inline static constexpr unsigned int BMBAMHBIEEA_TypeDefinitionIndex = 72928;
+
 	class BMBAMHBIEEA : public ::RPG::Client::UIController
 	{
 	public:

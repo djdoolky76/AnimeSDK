@@ -7,6 +7,8 @@
 
 namespace InControl::UnityDeviceProfiles
 {
+	inline static constexpr unsigned int RazerKishiAndroidUnityProfile_TypeDefinitionIndex = 40985;
+
 	class RazerKishiAndroidUnityProfile : public ::InControl::InputDeviceProfile
 	{
 	public:

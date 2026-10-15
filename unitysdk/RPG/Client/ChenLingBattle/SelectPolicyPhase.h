@@ -28,6 +28,8 @@ namespace System { class Object; }
 
 namespace RPG::Client::ChenLingBattle
 {
+	inline static constexpr unsigned int SelectPolicyPhase_TypeDefinitionIndex = 76317;
+
 	class SelectPolicyPhase : public ::RPG::Client::ChenLingBattle::GamePhase
 	{
 	public:

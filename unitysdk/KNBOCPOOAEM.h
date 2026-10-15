@@ -39,6 +39,8 @@ namespace System { class String; }
 #define KNBOCPOOAEM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E89F8A0)
 #define KNBOCPOOAEM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E89F900)
 
+inline static constexpr unsigned int KNBOCPOOAEM_TypeDefinitionIndex = 32706;
+
 	class KNBOCPOOAEM : public ::System::Object
 	{
 	public:

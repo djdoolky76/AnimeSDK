@@ -17,6 +17,8 @@ namespace System::Security::Cryptography::X509Certificates { class X509Certifica
 
 namespace System::Security::Cryptography::X509Certificates
 {
+	inline static constexpr unsigned int X509CertificateImplCollection_TypeDefinitionIndex = 2698;
+
 	class X509CertificateImplCollection : public ::System::Object
 	{
 	public:

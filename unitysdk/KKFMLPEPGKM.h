@@ -7,6 +7,8 @@ class KKFMLPEPGKM;
 #define KKFMLPEPGKM_CTOR_OFFSET UNITYSDK_OFFSET(0x1D09CD80)
 #define KKFMLPEPGKM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D09CC90)
 
+inline static constexpr unsigned int KKFMLPEPGKM_TypeDefinitionIndex = 11555;
+
 	class KKFMLPEPGKM : public ::System::Object
 	{
 	public:

@@ -58,6 +58,8 @@ namespace UnityEngine::Rendering { class CRPVirtualCamera; }
 #define CJJCNKJHNEA_SET_ISDESTROYED_OFFSET UNITYSDK_OFFSET(0xD216490)
 #define CJJCNKJHNEA_SET_RUNTIMEID_OFFSET UNITYSDK_OFFSET(0xD2164C0)
 
+inline static constexpr unsigned int CJJCNKJHNEA_TypeDefinitionIndex = 69746;
+
 	class CJJCNKJHNEA : public ::System::Object
 	{
 	public:

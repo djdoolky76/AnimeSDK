@@ -9,6 +9,8 @@ namespace RPG::Client::Prop { class AdjustContainer_ContainerController; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int AdjustContainer_ContainerController___c__DisplayClass8_0_TypeDefinitionIndex = 78198;
+
 	class AdjustContainer_ContainerController___c__DisplayClass8_0 : public ::System::Object
 	{
 	public:

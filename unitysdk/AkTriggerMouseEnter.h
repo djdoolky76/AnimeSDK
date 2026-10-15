@@ -4,6 +4,8 @@
 
 #define AKTRIGGERMOUSEENTER_CTOR_OFFSET UNITYSDK_OFFSET(0x1F619740)
 
+inline static constexpr unsigned int AkTriggerMouseEnter_TypeDefinitionIndex = 44970;
+
 	class AkTriggerMouseEnter : public ::AkTriggerBase
 	{
 	public:

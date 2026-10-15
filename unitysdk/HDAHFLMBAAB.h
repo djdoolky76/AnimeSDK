@@ -34,6 +34,8 @@ namespace System { class String; }
 #define HDAHFLMBAAB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E545EB0)
 #define HDAHFLMBAAB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E545F10)
 
+inline static constexpr unsigned int HDAHFLMBAAB_TypeDefinitionIndex = 30827;
+
 	class HDAHFLMBAAB : public ::System::Object
 	{
 	public:

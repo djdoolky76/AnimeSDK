@@ -14,6 +14,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace AK::Wwise
 {
+	inline static constexpr unsigned int Trigger_TypeDefinitionIndex = 44985;
+
 	class Trigger : public ::AK::Wwise::BaseType
 	{
 	public:

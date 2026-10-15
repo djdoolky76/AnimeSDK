@@ -4,6 +4,8 @@
 
 namespace System::Diagnostics::Tracing
 {
+	inline static constexpr unsigned int ManifestEnvelope_TypeDefinitionIndex = 1709;
+
 	struct alignas(4) ManifestEnvelope
 	{
 		::System::Diagnostics::Tracing::ManifestEnvelope_ManifestFormats Format; // 0x10

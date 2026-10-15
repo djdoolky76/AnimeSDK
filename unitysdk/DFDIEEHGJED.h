@@ -4,6 +4,8 @@
 
 #define DFDIEEHGJED_CTOR_OFFSET UNITYSDK_OFFSET(0xE825000)
 
+inline static constexpr unsigned int DFDIEEHGJED_TypeDefinitionIndex = 77705;
+
 	class DFDIEEHGJED : public ::System::Object
 	{
 	public:

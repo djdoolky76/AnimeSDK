@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define OGJCOKNPCMD_SET_BEGINPOSITION_OFFSET UNITYSDK_OFFSET(0xBE59350)
 #define OGJCOKNPCMD_SET_DESTINATIONPOSITION_OFFSET UNITYSDK_OFFSET(0xBE59370)
 
+inline static constexpr unsigned int OGJCOKNPCMD_TypeDefinitionIndex = 78517;
+
 	class OGJCOKNPCMD : public ::System::Object
 	{
 	public:

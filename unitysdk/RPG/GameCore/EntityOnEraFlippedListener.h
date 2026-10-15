@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EntityOnEraFlippedListener_TypeDefinitionIndex = 22348;
+
 	class EntityOnEraFlippedListener : public ::RPG::GameCore::TaskConfig
 	{
 	public:

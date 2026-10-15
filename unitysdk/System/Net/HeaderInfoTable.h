@@ -14,6 +14,8 @@ namespace System::Net { class HeaderParser; }
 
 namespace System::Net
 {
+	inline static constexpr unsigned int HeaderInfoTable_TypeDefinitionIndex = 2777;
+
 	class HeaderInfoTable : public ::System::Object
 	{
 	public:

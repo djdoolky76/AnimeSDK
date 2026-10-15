@@ -13,6 +13,8 @@ namespace System::Runtime::Serialization::Formatters::Binary { class __BinaryWri
 
 namespace System::Runtime::Serialization::Formatters::Binary
 {
+	inline static constexpr unsigned int BinaryMethodCall_TypeDefinitionIndex = 1150;
+
 	class BinaryMethodCall : public ::System::Object
 	{
 	public:

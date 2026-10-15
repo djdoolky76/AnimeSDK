@@ -9,6 +9,8 @@
 
 namespace Coffee::UIExtensions
 {
+	inline static constexpr unsigned int UIParticleProjectSettings_TypeDefinitionIndex = 45159;
+
 	class UIParticleProjectSettings : public ::System::Object
 	{
 	public:

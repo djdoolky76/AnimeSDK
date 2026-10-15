@@ -31,6 +31,8 @@ namespace System { class String; }
 #define PIHKLPJGEPM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF46AC0)
 #define PIHKLPJGEPM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF46B20)
 
+inline static constexpr unsigned int PIHKLPJGEPM_TypeDefinitionIndex = 29362;
+
 	class PIHKLPJGEPM : public ::System::Object
 	{
 	public:

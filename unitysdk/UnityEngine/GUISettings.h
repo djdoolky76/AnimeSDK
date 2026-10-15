@@ -13,6 +13,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int GUISettings_TypeDefinitionIndex = 5178;
+
 	class GUISettings : public ::System::Object
 	{
 	public:

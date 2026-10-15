@@ -38,6 +38,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define NLCIGKJKFNM_LPEBALABIGC_OFFSET UNITYSDK_OFFSET(0x1C96F000)
 #define NLCIGKJKFNM_OCKECNFKAIP_OFFSET UNITYSDK_OFFSET(0x1C96F0E0)
 
+inline static constexpr unsigned int NLCIGKJKFNM_TypeDefinitionIndex = 42594;
+
 	class NLCIGKJKFNM
 	{
 	public:

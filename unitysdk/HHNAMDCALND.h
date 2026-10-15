@@ -39,6 +39,8 @@ namespace System { class String; }
 #define HHNAMDCALND_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E58BDF0)
 #define HHNAMDCALND_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E58BE50)
 
+inline static constexpr unsigned int HHNAMDCALND_TypeDefinitionIndex = 32702;
+
 	class HHNAMDCALND : public ::System::Object
 	{
 	public:

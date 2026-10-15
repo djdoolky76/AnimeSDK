@@ -45,6 +45,8 @@ namespace RPG::GameCore { class ChimeraDuelUIMoveToSummonQueueNode; }
 #define LNHLOAFFHHH_MPHHNKLDHFJ_OFFSET UNITYSDK_OFFSET(0xB7E2A20)
 #define LNHLOAFFHHH_OBEJDBHIOEF_OFFSET UNITYSDK_OFFSET(0xB7E1D00)
 
+inline static constexpr unsigned int LNHLOAFFHHH_TypeDefinitionIndex = 78355;
+
 	class LNHLOAFFHHH : public ::GMOJFIOPIAD
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
+	inline static constexpr unsigned int b2RestitutionCallback_TypeDefinitionIndex = 36646;
+
 	class b2RestitutionCallback : public ::System::MulticastDelegate
 	{
 	public:

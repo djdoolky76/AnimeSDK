@@ -37,6 +37,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define ILEJNCNIMDE_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0x164AECD0)
 #define ILEJNCNIMDE_REMOVE_CHANGED_OFFSET UNITYSDK_OFFSET(0x164ADD80)
 
+inline static constexpr unsigned int ILEJNCNIMDE_TypeDefinitionIndex = 48963;
+
 	class ILEJNCNIMDE : public ::System::Object
 	{
 	public:

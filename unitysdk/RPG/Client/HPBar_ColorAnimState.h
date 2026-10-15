@@ -4,6 +4,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int HPBar_ColorAnimState_TypeDefinitionIndex = 72540;
+
 	struct alignas(4) HPBar_ColorAnimState
 	{
 		::UnityEngine::Color colorDummy; // 0x10

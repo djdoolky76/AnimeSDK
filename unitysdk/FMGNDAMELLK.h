@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define FMGNDAMELLK_GNNPFBBMFLA_OFFSET UNITYSDK_OFFSET(0x158570F0)
 #define FMGNDAMELLK_ONUNINIT_OFFSET UNITYSDK_OFFSET(0x158565F0)
 
+inline static constexpr unsigned int FMGNDAMELLK_TypeDefinitionIndex = 60149;
+
 	class FMGNDAMELLK : public ::HBCMHADMLOP
 	{
 	public:

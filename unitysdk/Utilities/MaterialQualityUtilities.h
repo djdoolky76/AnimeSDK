@@ -16,6 +16,8 @@ namespace UnityEngine::Rendering { class CommandBuffer; }
 
 namespace Utilities
 {
+	inline static constexpr unsigned int MaterialQualityUtilities_TypeDefinitionIndex = 35443;
+
 	class MaterialQualityUtilities : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ class KPHFNLMNPFC;
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChimeraEvaluationManager___c__DisplayClass10_0_TypeDefinitionIndex = 63491;
+
 	class ChimeraEvaluationManager___c__DisplayClass10_0 : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace RPGTools::Timeline::Emotion { class DiscussionFaceExpressionClip; }
 
 namespace RPGTools::Timeline::Emotion
 {
+	inline static constexpr unsigned int DiscussionFaceExpressionBehaviour_TypeDefinitionIndex = 48727;
+
 	class DiscussionFaceExpressionBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

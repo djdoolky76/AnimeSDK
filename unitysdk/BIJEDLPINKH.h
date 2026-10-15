@@ -25,6 +25,8 @@ namespace System { class String; }
 #define BIJEDLPINKH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE03100)
 #define BIJEDLPINKH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DE03160)
 
+inline static constexpr unsigned int BIJEDLPINKH_TypeDefinitionIndex = 30002;
+
 	class BIJEDLPINKH : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PassageConfig_TypeDefinitionIndex = 19157;
+
 	class PassageConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

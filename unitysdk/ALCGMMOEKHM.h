@@ -25,6 +25,8 @@ namespace System { class String; }
 #define ALCGMMOEKHM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E3D5960)
 #define ALCGMMOEKHM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E3D59C0)
 
+inline static constexpr unsigned int ALCGMMOEKHM_TypeDefinitionIndex = 30433;
+
 	class ALCGMMOEKHM : public ::System::Object
 	{
 	public:

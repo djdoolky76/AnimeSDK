@@ -14,6 +14,8 @@ namespace System::Xml { class XmlNameTable; }
 
 namespace System::Xml::Schema
 {
+	inline static constexpr unsigned int Datatype_integer_TypeDefinitionIndex = 2133;
+
 	class Datatype_integer : public ::System::Xml::Schema::Datatype_decimal
 	{
 	public:

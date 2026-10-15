@@ -131,6 +131,8 @@ namespace UnityEngine { class Texture2D; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int Texture2D_TypeDefinitionIndex = 4196;
+
 	class Texture2D : public ::UnityEngine::Texture
 	{
 	public:

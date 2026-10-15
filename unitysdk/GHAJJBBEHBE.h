@@ -31,6 +31,8 @@ namespace System { class String; }
 #define GHAJJBBEHBE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E480D70)
 #define GHAJJBBEHBE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E480DD0)
 
+inline static constexpr unsigned int GHAJJBBEHBE_TypeDefinitionIndex = 32464;
+
 	class GHAJJBBEHBE : public ::System::Object
 	{
 	public:

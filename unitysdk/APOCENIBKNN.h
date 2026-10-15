@@ -8,6 +8,8 @@ namespace System { class Action; }
 namespace System { class Object; }
 namespace UnityEngine { class Transform; }
 
+inline static constexpr unsigned int APOCENIBKNN_TypeDefinitionIndex = 49999;
+
 	class APOCENIBKNN : public ::System::Object
 	{
 	public:

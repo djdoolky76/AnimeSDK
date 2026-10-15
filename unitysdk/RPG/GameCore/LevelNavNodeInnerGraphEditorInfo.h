@@ -9,6 +9,8 @@ namespace RPG::GameCore { class LevelNavNodeInnerGraphEditorInfo; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelNavNodeInnerGraphEditorInfo_TypeDefinitionIndex = 17389;
+
 	class LevelNavNodeInnerGraphEditorInfo : public ::RPG::GameCore::JsonConfig
 	{
 	public:

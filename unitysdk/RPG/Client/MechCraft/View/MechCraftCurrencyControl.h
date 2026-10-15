@@ -11,6 +11,8 @@ namespace RPG::Client::MechCraft::View { class MechCraftCurrencyControlBinder; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftCurrencyControl_TypeDefinitionIndex = 79815;
+
 	class MechCraftCurrencyControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define CPCNMGICHEB_LLJOHJBGEHM_OFFSET UNITYSDK_OFFSET(0xDCD0350)
 #define CPCNMGICHEB_NKPPGDENJAE_OFFSET UNITYSDK_OFFSET(0xDCD0460)
 
+inline static constexpr unsigned int CPCNMGICHEB_TypeDefinitionIndex = 71412;
+
 	class CPCNMGICHEB : public ::FMPCODLIOLG
 	{
 	public:

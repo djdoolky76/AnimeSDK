@@ -12,6 +12,8 @@ class HIOEAKHGILF;
 
 namespace RPG::Client::Mono
 {
+	inline static constexpr unsigned int FiveDimTriggerRegionPlugin_TypeDefinitionIndex = 76027;
+
 	class FiveDimTriggerRegionPlugin : public ::UnityEngine::MonoBehaviour
 	{
 	public:

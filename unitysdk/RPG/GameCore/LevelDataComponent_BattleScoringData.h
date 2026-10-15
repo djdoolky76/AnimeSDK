@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelDataComponent_BattleScoringData_TypeDefinitionIndex = 57598;
+
 	struct alignas(4) LevelDataComponent_BattleScoringData
 	{
 		::RPG::GameCore::FixPoint Value; // 0x10

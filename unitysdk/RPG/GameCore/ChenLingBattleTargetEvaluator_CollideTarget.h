@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ChenLingBattleTargetEvaluator_CollideTarget; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChenLingBattleTargetEvaluator_CollideTarget_TypeDefinitionIndex = 15763;
+
 	class ChenLingBattleTargetEvaluator_CollideTarget : public ::RPG::GameCore::BaseChenLingBattleTargetEvaluator
 	{
 	public:

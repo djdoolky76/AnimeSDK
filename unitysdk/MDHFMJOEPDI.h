@@ -8,6 +8,8 @@ class MDHFMJOEPDI;
 #define MDHFMJOEPDI_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D149000)
 #define MDHFMJOEPDI_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D148FC0)
 
+inline static constexpr unsigned int MDHFMJOEPDI_TypeDefinitionIndex = 10239;
+
 	class MDHFMJOEPDI : public ::RPG::GameCore::TaskConfig
 	{
 	public:

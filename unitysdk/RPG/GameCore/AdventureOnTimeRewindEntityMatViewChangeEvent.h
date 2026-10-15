@@ -13,6 +13,8 @@ namespace RPG::GameCore { class GameEntity; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdventureOnTimeRewindEntityMatViewChangeEvent_TypeDefinitionIndex = 56646;
+
 	class AdventureOnTimeRewindEntityMatViewChangeEvent : public ::CMPGEAFHHDC
 	{
 	public:

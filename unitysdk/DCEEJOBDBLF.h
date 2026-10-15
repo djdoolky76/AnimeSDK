@@ -6,6 +6,8 @@ namespace System { class String; }
 #define DCEEJOBDBLF_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CA1B3B0)
 #define DCEEJOBDBLF_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA1B3A0)
 
+inline static constexpr unsigned int DCEEJOBDBLF_TypeDefinitionIndex = 43066;
+
 	class DCEEJOBDBLF : public ::System::Object
 	{
 	public:

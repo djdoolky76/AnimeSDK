@@ -26,6 +26,8 @@ namespace System::Collections::ObjectModel { template <typename T> class ReadOnl
 
 namespace InControl
 {
+	inline static constexpr unsigned int NativeInputDeviceManager_TypeDefinitionIndex = 40867;
+
 	class NativeInputDeviceManager : public ::InControl::InputDeviceManager
 	{
 	public:

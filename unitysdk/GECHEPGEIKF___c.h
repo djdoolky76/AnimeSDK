@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define GECHEPGEIKF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E4531C0)
 #define GECHEPGEIKF___C___CCTOR_B__53_0_OFFSET UNITYSDK_OFFSET(0x1E4531D0)
 
+inline static constexpr unsigned int GECHEPGEIKF___c_TypeDefinitionIndex = 28561;
+
 	class GECHEPGEIKF___c : public ::System::Object
 	{
 	public:

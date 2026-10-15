@@ -44,6 +44,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int IdleLiveEquipmentData_TypeDefinitionIndex = 75331;
+
 	class IdleLiveEquipmentData : public ::System::Object
 	{
 	public:

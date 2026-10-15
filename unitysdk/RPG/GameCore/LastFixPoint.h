@@ -75,6 +75,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LastFixPoint_TypeDefinitionIndex = 9946;
+
 	struct alignas(4) LastFixPoint
 	{
 		::System::Int64 m_rawValue; // 0x10

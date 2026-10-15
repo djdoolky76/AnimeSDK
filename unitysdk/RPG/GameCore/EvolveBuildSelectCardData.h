@@ -33,6 +33,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EvolveBuildSelectCardData_TypeDefinitionIndex = 53573;
+
 	class EvolveBuildSelectCardData : public ::System::Object
 	{
 	public:

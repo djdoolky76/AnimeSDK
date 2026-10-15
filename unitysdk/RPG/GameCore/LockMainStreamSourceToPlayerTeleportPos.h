@@ -10,6 +10,8 @@ namespace RPG::GameCore { class LockMainStreamSourceToPlayerTeleportPos; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LockMainStreamSourceToPlayerTeleportPos_TypeDefinitionIndex = 20501;
+
 	class LockMainStreamSourceToPlayerTeleportPos : public ::RPG::GameCore::TaskConfig
 	{
 	public:

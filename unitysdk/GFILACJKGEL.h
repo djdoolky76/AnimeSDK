@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define GFILACJKGEL_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CE3BE30)
 #define GFILACJKGEL_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CE3C330)
 
+inline static constexpr unsigned int GFILACJKGEL_TypeDefinitionIndex = 15418;
+
 	class GFILACJKGEL : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@ namespace System { class Action; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ModuleManager_OneRequest_TypeDefinitionIndex = 66211;
+
 	class ModuleManager_OneRequest : public ::System::Object
 	{
 	public:

@@ -16,6 +16,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client::Timeline
 {
+	inline static constexpr unsigned int ManaVideoTrack_TypeDefinitionIndex = 73354;
+
 	class ManaVideoTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
 	public:

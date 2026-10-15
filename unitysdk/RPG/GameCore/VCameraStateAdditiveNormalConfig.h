@@ -11,6 +11,8 @@ namespace RPG::GameCore { class VCameraStateAdditiveNormalConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int VCameraStateAdditiveNormalConfig_TypeDefinitionIndex = 16425;
+
 	class VCameraStateAdditiveNormalConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

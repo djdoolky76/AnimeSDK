@@ -17,6 +17,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define NECBCJGIEIE_OIPHGBIAPMI_OFFSET UNITYSDK_OFFSET(0x1C788340)
 #define NECBCJGIEIE_OKPFCDEKBCJ_OFFSET UNITYSDK_OFFSET(0x1C7894E0)
 
+inline static constexpr unsigned int NECBCJGIEIE_TypeDefinitionIndex = 37301;
+
 	class NECBCJGIEIE : public ::System::Object
 	{
 	public:

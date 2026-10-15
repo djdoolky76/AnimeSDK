@@ -4,6 +4,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ScopeUser_1_TypeDefinitionIndex = 41442;
+
 	template <typename T>
 	class ScopeUser_1 : public ::System::Object
 	{

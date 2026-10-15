@@ -16,6 +16,8 @@ namespace UnityEngine { class Material; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Effect_GPUCrowdAnimationBatcher_TypeDefinitionIndex = 70481;
+
 	class Effect_GPUCrowdAnimationBatcher : public ::UnityEngine::MonoBehaviour
 	{
 	public:

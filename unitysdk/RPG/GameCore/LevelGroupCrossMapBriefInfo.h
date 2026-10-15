@@ -11,6 +11,8 @@ namespace RPG::GameCore { class RtLevelGroupInstanceInfo; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelGroupCrossMapBriefInfo_TypeDefinitionIndex = 17161;
+
 	class LevelGroupCrossMapBriefInfo : public ::RPG::GameCore::JsonConfig
 	{
 	public:

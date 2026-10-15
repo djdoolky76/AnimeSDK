@@ -13,6 +13,8 @@ namespace System { class Nullable; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FateBattleManager___c__DisplayClass32_0_TypeDefinitionIndex = 56087;
+
 	class FateBattleManager___c__DisplayClass32_0 : public ::System::Object
 	{
 	public:

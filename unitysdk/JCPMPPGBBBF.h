@@ -94,6 +94,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 #define JCPMPPGBBBF_PPGMKNKPIPE_OFFSET UNITYSDK_OFFSET(0x165B6A70)
 #define JCPMPPGBBBF_TEARDOWN_OFFSET UNITYSDK_OFFSET(0x165AB580)
 
+inline static constexpr unsigned int JCPMPPGBBBF_TypeDefinitionIndex = 76575;
+
 	class JCPMPPGBBBF : public ::System::Object
 	{
 	public:

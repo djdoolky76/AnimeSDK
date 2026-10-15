@@ -7,6 +7,8 @@ namespace System { class String; }
 
 #define NLKGKLHJKBB_CTOR_OFFSET UNITYSDK_OFFSET(0x1C970000)
 
+inline static constexpr unsigned int NLKGKLHJKBB_TypeDefinitionIndex = 41934;
+
 	class NLKGKLHJKBB : public ::System::Object
 	{
 	public:

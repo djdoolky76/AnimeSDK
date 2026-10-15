@@ -8,6 +8,8 @@ class HMMHDEKAHEA;
 #define DIJKJIAGMCB_START_OFFSET UNITYSDK_OFFSET(0xF20AEF0)
 #define DIJKJIAGMCB_STOP_OFFSET UNITYSDK_OFFSET(0xF20AF90)
 
+inline static constexpr unsigned int DIJKJIAGMCB_TypeDefinitionIndex = 66675;
+
 	class DIJKJIAGMCB : public ::BHPMNMMGLHI
 	{
 	public:

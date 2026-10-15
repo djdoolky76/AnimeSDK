@@ -18,6 +18,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Effect_SlowRaindrop_TypeDefinitionIndex = 70553;
+
 	class Effect_SlowRaindrop : public ::UnityEngine::MonoBehaviour
 	{
 	public:

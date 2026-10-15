@@ -38,6 +38,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define NOEBJBDLNGN_PPPIBANJJDE_OFFSET UNITYSDK_OFFSET(0xBCEA0A0)
 #define NOEBJBDLNGN_TICK_OFFSET UNITYSDK_OFFSET(0xBCE9710)
 
+inline static constexpr unsigned int NOEBJBDLNGN_TypeDefinitionIndex = 57047;
+
 	class NOEBJBDLNGN : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

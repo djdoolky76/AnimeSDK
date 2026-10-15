@@ -38,6 +38,8 @@ namespace System { class String; }
 #define FONPCMBPHFN_MPOKDCDEFBE_OFFSET UNITYSDK_OFFSET(0x158FE980)
 #define FONPCMBPHFN_NPAPMDMPAFA_OFFSET UNITYSDK_OFFSET(0x158FEFE0)
 
+inline static constexpr unsigned int FONPCMBPHFN_TypeDefinitionIndex = 63959;
+
 	class FONPCMBPHFN : public ::System::Object
 	{
 	public:

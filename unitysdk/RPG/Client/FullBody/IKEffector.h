@@ -27,6 +27,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::FullBody
 {
+	inline static constexpr unsigned int IKEffector_TypeDefinitionIndex = 74248;
+
 	class IKEffector : public ::System::Object
 	{
 	public:

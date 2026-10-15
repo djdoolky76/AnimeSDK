@@ -40,6 +40,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TravelShipPuzzleBoard_TypeDefinitionIndex = 68801;
+
 	class TravelShipPuzzleBoard : public ::RPG::Client::Prop::PuzzleBoardBase
 	{
 	public:

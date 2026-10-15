@@ -44,6 +44,8 @@ namespace System::Reflection { class ParameterInfo; }
 
 namespace System::Reflection
 {
+	inline static constexpr unsigned int MonoProperty_TypeDefinitionIndex = 632;
+
 	class MonoProperty : public ::System::Reflection::RuntimePropertyInfo
 	{
 	public:

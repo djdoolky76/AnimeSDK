@@ -286,6 +286,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EntityTimeRewindComponent_TypeDefinitionIndex = 57469;
+
 	class EntityTimeRewindComponent : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

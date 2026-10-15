@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightCondCheckHasAffixConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightCondCheckHasAffixConfig_TypeDefinitionIndex = 19334;
+
 	class GridFightCondCheckHasAffixConfig : public ::RPG::GameCore::GridFightConditionConfigBase
 	{
 	public:

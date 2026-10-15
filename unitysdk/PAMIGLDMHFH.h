@@ -21,6 +21,8 @@ namespace System { class String; }
 #define PAMIGLDMHFH_PFNDPAILDJP_OFFSET UNITYSDK_OFFSET(0xBFD7F30)
 #define PAMIGLDMHFH_PHLHELLLGNN_OFFSET UNITYSDK_OFFSET(0xBFD7D20)
 
+inline static constexpr unsigned int PAMIGLDMHFH_TypeDefinitionIndex = 53639;
+
 	class PAMIGLDMHFH : public ::FHLBIPIKFEJ
 	{
 	public:

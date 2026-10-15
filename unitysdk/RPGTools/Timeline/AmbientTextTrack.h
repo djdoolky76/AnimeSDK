@@ -12,6 +12,8 @@ namespace UnityEngine::Timeline { class TimelineClip; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int AmbientTextTrack_TypeDefinitionIndex = 47848;
+
 	class AmbientTextTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
 	public:

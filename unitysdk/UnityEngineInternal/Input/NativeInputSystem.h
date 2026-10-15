@@ -16,6 +16,8 @@ namespace UnityEngineInternal::Input { class NativeUpdateCallback; }
 
 namespace UnityEngineInternal::Input
 {
+	inline static constexpr unsigned int NativeInputSystem_TypeDefinitionIndex = 5795;
+
 	class NativeInputSystem : public ::System::Object
 	{
 	public:

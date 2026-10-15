@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightEffectLockType_TypeDefinitionIndex = 64574;
+
 	enum class GridFightEffectLockType : ::System::Int32
 	{
 		EquipmentTrack = 1,

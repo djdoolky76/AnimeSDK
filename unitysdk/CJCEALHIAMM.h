@@ -6,6 +6,8 @@
 #define CJCEALHIAMM_GET_TIMESTAMP_OFFSET UNITYSDK_OFFSET(0xCF94150)
 #define CJCEALHIAMM_SET_TIMESTAMP_OFFSET UNITYSDK_OFFSET(0xCF94160)
 
+inline static constexpr unsigned int CJCEALHIAMM_TypeDefinitionIndex = 78055;
+
 	class CJCEALHIAMM : public ::FDLCNGPGEFP
 	{
 	public:

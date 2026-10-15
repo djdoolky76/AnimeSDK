@@ -51,6 +51,8 @@ namespace UnityEngine { class GameObject; }
 #define NEMHKMDLDAP_SET_ISFULLTRAIN_OFFSET UNITYSDK_OFFSET(0xBB73010)
 #define NEMHKMDLDAP_TICK_OFFSET UNITYSDK_OFFSET(0xBB71C20)
 
+inline static constexpr unsigned int NEMHKMDLDAP_TypeDefinitionIndex = 60248;
+
 	class NEMHKMDLDAP : public ::HBCMHADMLOP
 	{
 	public:

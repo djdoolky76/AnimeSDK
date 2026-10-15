@@ -25,6 +25,8 @@ namespace System { class String; }
 #define IAGGIFBOFDF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E604D60)
 #define IAGGIFBOFDF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E604DC0)
 
+inline static constexpr unsigned int IAGGIFBOFDF_TypeDefinitionIndex = 25680;
+
 	class IAGGIFBOFDF : public ::System::Object
 	{
 	public:

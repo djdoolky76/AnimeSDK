@@ -8,6 +8,8 @@ class FABMDCOFHCG;
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BattleFateHouguRuntime_TypeDefinitionIndex = 56091;
+
 	class BattleFateHouguRuntime : public ::System::Object
 	{
 	public:

@@ -69,6 +69,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define ECNEEKNHIOE_SET_SUMMONEDENEMYLIST_OFFSET UNITYSDK_OFFSET(0x12D14AE0)
 #define ECNEEKNHIOE_SET_SUMMONERENEMY_OFFSET UNITYSDK_OFFSET(0x12D14AC0)
 
+inline static constexpr unsigned int ECNEEKNHIOE_TypeDefinitionIndex = 81007;
+
 	class ECNEEKNHIOE : public ::System::Object
 	{
 	public:

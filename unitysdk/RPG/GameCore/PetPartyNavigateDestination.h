@@ -10,6 +10,8 @@ namespace RPG::GameCore { class PetPartyNavigateDestination; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PetPartyNavigateDestination_TypeDefinitionIndex = 21082;
+
 	class PetPartyNavigateDestination : public ::RPG::GameCore::JsonConfig
 	{
 	public:

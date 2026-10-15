@@ -25,6 +25,8 @@ namespace System { class String; }
 #define PNLGHIIDPGF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DFBCA90)
 #define PNLGHIIDPGF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DFBCAF0)
 
+inline static constexpr unsigned int PNLGHIIDPGF_TypeDefinitionIndex = 32268;
+
 	class PNLGHIIDPGF : public ::System::Object
 	{
 	public:

@@ -15,6 +15,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace SRDebugger::UI::Controls::Data
 {
+	inline static constexpr unsigned int ReadOnlyControl_TypeDefinitionIndex = 38046;
+
 	class ReadOnlyControl : public ::SRDebugger::UI::Controls::DataBoundControl
 	{
 	public:

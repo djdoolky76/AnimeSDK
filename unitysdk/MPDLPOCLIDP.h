@@ -51,6 +51,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define MPDLPOCLIDP_PLAFJPDNFNO_OFFSET UNITYSDK_OFFSET(0x1C7515F0)
 #define MPDLPOCLIDP_POPJPAFMEBP_OFFSET UNITYSDK_OFFSET(0x1C756CC0)
 
+inline static constexpr unsigned int MPDLPOCLIDP_TypeDefinitionIndex = 36504;
+
 	class MPDLPOCLIDP : public ::CGNDHCFAAPM
 	{
 	public:

@@ -26,6 +26,8 @@ namespace System { class String; }
 #define FLKFIFEENOI_PEECNCABGFD_OFFSET UNITYSDK_OFFSET(0x1C4766D0)
 #define FLKFIFEENOI_PODLKOGHGMA_OFFSET UNITYSDK_OFFSET(0x1C476830)
 
+inline static constexpr unsigned int FLKFIFEENOI_TypeDefinitionIndex = 41413;
+
 	class FLKFIFEENOI : public ::System::Object
 	{
 	public:

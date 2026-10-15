@@ -19,6 +19,8 @@ namespace System::Text { class StringBuilder; }
 #define BFELIBKIOKE_TOSTRING_OFFSET UNITYSDK_OFFSET(0xB161640)
 #define BFELIBKIOKE__CLONE___OFFSET UNITYSDK_OFFSET(0xB161AB0)
 
+inline static constexpr unsigned int BFELIBKIOKE_TypeDefinitionIndex = 81097;
+
 	class BFELIBKIOKE : public ::System::Object
 	{
 	public:

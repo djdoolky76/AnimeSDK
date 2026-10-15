@@ -10,6 +10,8 @@ namespace System { class String; }
 #define NMCFEKNEOFO_JBGIFBGMLMF_OFFSET UNITYSDK_OFFSET(0xBC817E0)
 #define NMCFEKNEOFO_MLMGEFIOION_OFFSET UNITYSDK_OFFSET(0xBC81790)
 
+inline static constexpr unsigned int NMCFEKNEOFO_TypeDefinitionIndex = 73362;
+
 	class NMCFEKNEOFO : public ::System::Object
 	{
 	public:

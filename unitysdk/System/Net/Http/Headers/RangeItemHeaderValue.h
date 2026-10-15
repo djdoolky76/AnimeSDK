@@ -17,6 +17,8 @@ namespace System { class String; }
 
 namespace System::Net::Http::Headers
 {
+	inline static constexpr unsigned int RangeItemHeaderValue_TypeDefinitionIndex = 3824;
+
 	class RangeItemHeaderValue : public ::System::Object
 	{
 	public:

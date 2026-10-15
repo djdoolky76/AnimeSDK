@@ -86,6 +86,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define NPJKDMFBDFG_PPABMJFMOHN_OFFSET UNITYSDK_OFFSET(0xBD09650)
 #define NPJKDMFBDFG_PPFIMGLNLMG_OFFSET UNITYSDK_OFFSET(0xBD08F60)
 
+inline static constexpr unsigned int NPJKDMFBDFG_TypeDefinitionIndex = 49427;
+
 	class NPJKDMFBDFG
 	{
 	public:

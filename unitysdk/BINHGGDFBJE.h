@@ -81,6 +81,8 @@ namespace System::IO { class StreamWriter; }
 #define BINHGGDFBJE_PKMCANCIIIA_OFFSET UNITYSDK_OFFSET(0xB7876E0)
 #define BINHGGDFBJE_PPPDEJCCENF_OFFSET UNITYSDK_OFFSET(0xB78EFB0)
 
+inline static constexpr unsigned int BINHGGDFBJE_TypeDefinitionIndex = 59619;
+
 	class BINHGGDFBJE : public ::System::Object
 	{
 	public:

@@ -17,6 +17,8 @@ namespace System { class String; }
 
 namespace RPG::Client::LimaoNews
 {
+	inline static constexpr unsigned int LimaoNewsSponsorItemViewModel_TypeDefinitionIndex = 80472;
+
 	class LimaoNewsSponsorItemViewModel : public ::Sofa::BaseViewModel
 	{
 	public:

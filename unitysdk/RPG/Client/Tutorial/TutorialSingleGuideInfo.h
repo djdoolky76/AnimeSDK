@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::Client::Tutorial
 {
+	inline static constexpr unsigned int TutorialSingleGuideInfo_TypeDefinitionIndex = 78996;
+
 	class TutorialSingleGuideInfo : public ::System::Object
 	{
 	public:

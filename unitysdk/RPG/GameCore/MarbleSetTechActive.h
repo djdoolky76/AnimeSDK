@@ -10,6 +10,8 @@ namespace RPG::GameCore { class MarbleSetTechActive; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MarbleSetTechActive_TypeDefinitionIndex = 16846;
+
 	class MarbleSetTechActive : public ::RPG::GameCore::MarbleTaskConfig
 	{
 	public:

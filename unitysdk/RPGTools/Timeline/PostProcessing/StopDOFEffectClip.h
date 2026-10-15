@@ -12,6 +12,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline::PostProcessing
 {
+	inline static constexpr unsigned int StopDOFEffectClip_TypeDefinitionIndex = 48619;
+
 	class StopDOFEffectClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

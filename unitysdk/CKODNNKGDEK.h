@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define CKODNNKGDEK_SYNCFULL_OFFSET UNITYSDK_OFFSET(0xD76CB00)
 #define CKODNNKGDEK_SYNCINCREMENTAL_OFFSET UNITYSDK_OFFSET(0xD76CB50)
 
+inline static constexpr unsigned int CKODNNKGDEK_TypeDefinitionIndex = 67646;
+
 	class CKODNNKGDEK : public ::System::Object
 	{
 	public:

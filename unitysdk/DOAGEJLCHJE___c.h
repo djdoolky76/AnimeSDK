@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define DOAGEJLCHJE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E1FCC00)
 #define DOAGEJLCHJE___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E1FCC10)
 
+inline static constexpr unsigned int DOAGEJLCHJE___c_TypeDefinitionIndex = 30011;
+
 	class DOAGEJLCHJE___c : public ::System::Object
 	{
 	public:

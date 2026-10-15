@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ModifyDamageData; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ModifyDamageData_TypeDefinitionIndex = 23568;
+
 	class ModifyDamageData : public ::RPG::GameCore::TaskConfig
 	{
 	public:

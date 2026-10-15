@@ -10,6 +10,8 @@ class NJGDIEAIHPD;
 #define OFDPGLDGBJG_IIHFPKJNAHP_OFFSET UNITYSDK_OFFSET(0xBE3DC90)
 #define OFDPGLDGBJG_JENEIKCAPGI_OFFSET UNITYSDK_OFFSET(0xBE3E430)
 
+inline static constexpr unsigned int OFDPGLDGBJG_TypeDefinitionIndex = 62522;
+
 	class OFDPGLDGBJG : public ::System::Object
 	{
 	public:

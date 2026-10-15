@@ -9,6 +9,8 @@ namespace System { class Object; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
+	inline static constexpr unsigned int Take_1__Take_TypeDefinitionIndex = 45651;
+
 	template <typename T>
 	class Take_1__Take : public ::Cysharp::Threading::Tasks::MoveNextSource
 	{

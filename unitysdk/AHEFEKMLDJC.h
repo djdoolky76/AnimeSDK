@@ -6,6 +6,8 @@
 #define AHEFEKMLDJC_GET_CLOSEWINDOW_OFFSET UNITYSDK_OFFSET(0xEB7D340)
 #define AHEFEKMLDJC_SET_CLOSEWINDOW_OFFSET UNITYSDK_OFFSET(0xEB7D350)
 
+inline static constexpr unsigned int AHEFEKMLDJC_TypeDefinitionIndex = 80276;
+
 	class AHEFEKMLDJC : public ::System::Object
 	{
 	public:

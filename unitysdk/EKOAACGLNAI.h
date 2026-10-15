@@ -9,6 +9,8 @@ namespace RPG::GameCore { class RtCusomtEventConfig; }
 #define EKOAACGLNAI_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CD981B0)
 #define EKOAACGLNAI_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CD98170)
 
+inline static constexpr unsigned int EKOAACGLNAI_TypeDefinitionIndex = 24196;
+
 	class EKOAACGLNAI : public ::RPG::GameCore::TaskConfig
 	{
 	public:

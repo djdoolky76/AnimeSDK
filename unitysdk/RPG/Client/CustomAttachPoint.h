@@ -11,6 +11,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CustomAttachPoint_TypeDefinitionIndex = 68406;
+
 	class CustomAttachPoint : public ::UnityEngine::MonoBehaviour
 	{
 	public:

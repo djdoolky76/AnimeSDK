@@ -7,6 +7,8 @@ class OKPFLOFNBJC;
 #define NHDIMOBAGNF_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C962190)
 #define NHDIMOBAGNF_CTOR_OFFSET UNITYSDK_OFFSET(0x1C962210)
 
+inline static constexpr unsigned int NHDIMOBAGNF_TypeDefinitionIndex = 43529;
+
 	class NHDIMOBAGNF : public ::System::Object
 	{
 	public:

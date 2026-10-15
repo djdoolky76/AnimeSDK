@@ -27,6 +27,8 @@ namespace System { class String; }
 #define EJBEEKFJAHM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E2AFAA0)
 #define EJBEEKFJAHM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E2AFB00)
 
+inline static constexpr unsigned int EJBEEKFJAHM_TypeDefinitionIndex = 33358;
+
 	class EJBEEKFJAHM : public ::System::Object
 	{
 	public:

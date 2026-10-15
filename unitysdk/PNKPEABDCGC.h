@@ -10,6 +10,8 @@ namespace System { class Type; }
 #define PNKPEABDCGC_JDIGIILPKEC_OFFSET UNITYSDK_OFFSET(0x3C27F10)
 #define PNKPEABDCGC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3C27F90)
 
+inline static constexpr unsigned int PNKPEABDCGC_TypeDefinitionIndex = 41576;
+
 	struct alignas(4) PNKPEABDCGC
 	{
 		::System::UInt64 JELBNGBLFPO; // 0x10

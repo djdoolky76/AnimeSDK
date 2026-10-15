@@ -51,6 +51,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int B51RacingCarPuzzleBoard_TypeDefinitionIndex = 78209;
+
 	class B51RacingCarPuzzleBoard : public ::RPG::Client::Prop::PuzzleBoardBase
 	{
 	public:

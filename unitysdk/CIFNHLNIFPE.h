@@ -7,6 +7,8 @@ class FCOEMCEDLNL;
 #define CIFNHLNIFPE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DC15460)
 #define CIFNHLNIFPE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC152C0)
 
+inline static constexpr unsigned int CIFNHLNIFPE_TypeDefinitionIndex = 15055;
+
 	class CIFNHLNIFPE : public ::System::Object
 	{
 	public:

@@ -31,6 +31,8 @@ namespace System { class String; }
 #define CKODNPNBOEN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E0ED3E0)
 #define CKODNPNBOEN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E0ED440)
 
+inline static constexpr unsigned int CKODNPNBOEN_TypeDefinitionIndex = 25084;
+
 	class CKODNPNBOEN : public ::System::Object
 	{
 	public:

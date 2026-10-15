@@ -7,6 +7,8 @@ namespace RPG::Client { class GridFightShopRole; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightShopReplaceRoleEvent_TypeDefinitionIndex = 65223;
+
 	class GridFightShopReplaceRoleEvent : public ::System::Object
 	{
 	public:

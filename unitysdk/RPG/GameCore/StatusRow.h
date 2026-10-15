@@ -18,6 +18,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StatusRow_TypeDefinitionIndex = 15180;
+
 	class StatusRow : public ::System::Object
 	{
 	public:

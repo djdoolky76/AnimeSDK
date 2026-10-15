@@ -16,6 +16,8 @@ namespace System { class Object; }
 #define ILGLBBBGFJJ_OBFKPBADMFD_OFFSET UNITYSDK_OFFSET(0x1EC2F950)
 #define ILGLBBBGFJJ_OINBDMGFFJL_OFFSET UNITYSDK_OFFSET(0x1EC2F800)
 
+inline static constexpr unsigned int ILGLBBBGFJJ_TypeDefinitionIndex = 35284;
+
 	struct alignas(4) ILGLBBBGFJJ
 	{
 		::System::UInt32 DHEFDLBBIIJ; // 0x10

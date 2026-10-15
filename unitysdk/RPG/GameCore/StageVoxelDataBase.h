@@ -10,6 +10,8 @@ namespace RPG::GameCore { class StageVoxelDataBase; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StageVoxelDataBase_TypeDefinitionIndex = 19155;
+
 	class StageVoxelDataBase : public ::RPG::GameCore::JsonConfig
 	{
 	public:

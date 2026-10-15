@@ -15,6 +15,8 @@ namespace System { class Object; }
 #define BDPEIBADBCK_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x163072B0)
 #define BDPEIBADBCK_TICK_OFFSET UNITYSDK_OFFSET(0x16307300)
 
+inline static constexpr unsigned int BDPEIBADBCK_TypeDefinitionIndex = 52950;
+
 	class BDPEIBADBCK : public ::GELIALJDFBL
 	{
 	public:

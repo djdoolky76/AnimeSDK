@@ -9,6 +9,8 @@ class NJGDIEAIHPD;
 #define DABOACKDKDI_CTOR_OFFSET UNITYSDK_OFFSET(0xDFBB620)
 #define DABOACKDKDI_IIHFPKJNAHP_OFFSET UNITYSDK_OFFSET(0xDFBB650)
 
+inline static constexpr unsigned int DABOACKDKDI_TypeDefinitionIndex = 62521;
+
 	class DABOACKDKDI : public ::System::Object
 	{
 	public:

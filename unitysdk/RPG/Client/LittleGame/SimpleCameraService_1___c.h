@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::Client::LittleGame
 {
+	inline static constexpr unsigned int SimpleCameraService_1___c_TypeDefinitionIndex = 76521;
+
 	template <typename T>
 	class SimpleCameraService_1___c : public ::System::Object
 	{

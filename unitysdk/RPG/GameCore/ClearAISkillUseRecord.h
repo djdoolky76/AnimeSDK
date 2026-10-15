@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ClearAISkillUseRecord; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ClearAISkillUseRecord_TypeDefinitionIndex = 22439;
+
 	class ClearAISkillUseRecord : public ::RPG::GameCore::TaskConfig
 	{
 	public:

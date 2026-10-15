@@ -17,6 +17,8 @@ namespace System::ComponentModel { class PropertyChangedEventArgs; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftTalentActorIconControl_TypeDefinitionIndex = 80052;
+
 	class MechCraftTalentActorIconControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

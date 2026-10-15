@@ -13,6 +13,8 @@ namespace Spine { template <typename T> class ExposedList_1; }
 
 namespace Spine
 {
+	inline static constexpr unsigned int ShearYTimeline_TypeDefinitionIndex = 39612;
+
 	class ShearYTimeline : public ::Spine::CurveTimeline1
 	{
 	public:

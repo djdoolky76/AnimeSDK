@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierModifyTournRoomVariantProbabilityCo
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierModifyTournRoomVariantProbabilityConfig_TypeDefinitionIndex = 17774;
+
 	class RogueModifierModifyTournRoomVariantProbabilityConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

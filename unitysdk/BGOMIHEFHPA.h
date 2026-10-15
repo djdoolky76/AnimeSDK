@@ -43,6 +43,8 @@ namespace System { class String; }
 #define BGOMIHEFHPA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DDEFE80)
 #define BGOMIHEFHPA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DDEFEE0)
 
+inline static constexpr unsigned int BGOMIHEFHPA_TypeDefinitionIndex = 29777;
+
 	class BGOMIHEFHPA : public ::System::Object
 	{
 	public:

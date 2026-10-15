@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define BNLCDPIPJBJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0xBDDCC70)
 #define BNLCDPIPJBJ_TRIGGERACTION_OFFSET UNITYSDK_OFFSET(0xBDDCD00)
 
+inline static constexpr unsigned int BNLCDPIPJBJ_TypeDefinitionIndex = 67016;
+
 	class BNLCDPIPJBJ : public ::System::Object
 	{
 	public:

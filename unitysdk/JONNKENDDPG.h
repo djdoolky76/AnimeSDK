@@ -32,6 +32,8 @@ namespace System { class String; }
 #define JONNKENDDPG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E7ACE70)
 #define JONNKENDDPG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E7ACED0)
 
+inline static constexpr unsigned int JONNKENDDPG_TypeDefinitionIndex = 31071;
+
 	class JONNKENDDPG : public ::System::Object
 	{
 	public:

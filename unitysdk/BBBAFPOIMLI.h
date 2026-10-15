@@ -29,6 +29,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define BBBAFPOIMLI_CTOR_OFFSET UNITYSDK_OFFSET(0x15E81750)
 #define BBBAFPOIMLI_IPCMLHNOBOD_OFFSET UNITYSDK_OFFSET(0x15E810C0)
 
+inline static constexpr unsigned int BBBAFPOIMLI_TypeDefinitionIndex = 65115;
+
 	class BBBAFPOIMLI : public ::RPG::Client::GridFightRole_GridFightRoleBuilder
 	{
 	public:

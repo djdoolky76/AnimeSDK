@@ -6,6 +6,8 @@
 #define PPCHBGLABDH_CIGPLCIKPLE_OFFSET UNITYSDK_OFFSET(0xC37AD50)
 #define PPCHBGLABDH_CTOR_OFFSET UNITYSDK_OFFSET(0xC37ADA0)
 
+inline static constexpr unsigned int PPCHBGLABDH_TypeDefinitionIndex = 78553;
+
 	class PPCHBGLABDH : public ::EADABGHLCIG
 	{
 	public:

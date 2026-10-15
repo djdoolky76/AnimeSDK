@@ -31,6 +31,8 @@ namespace System { class String; }
 #define DAKIMICINOH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E1527A0)
 #define DAKIMICINOH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E152800)
 
+inline static constexpr unsigned int DAKIMICINOH_TypeDefinitionIndex = 26107;
+
 	class DAKIMICINOH : public ::System::Object
 	{
 	public:

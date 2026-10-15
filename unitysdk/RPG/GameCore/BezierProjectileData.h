@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ProjectileBezierControlPoint; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BezierProjectileData_TypeDefinitionIndex = 15668;
+
 	class BezierProjectileData : public ::RPG::GameCore::NewProjectileConfig
 	{
 	public:

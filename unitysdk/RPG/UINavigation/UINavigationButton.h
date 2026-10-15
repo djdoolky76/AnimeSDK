@@ -47,6 +47,8 @@ namespace UnityEngine::UI { class Selectable; }
 
 namespace RPG::UINavigation
 {
+	inline static constexpr unsigned int UINavigationButton_TypeDefinitionIndex = 51733;
+
 	class UINavigationButton : public ::RPG::UINavigation::UINavigationArea
 	{
 	public:

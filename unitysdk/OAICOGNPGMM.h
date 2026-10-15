@@ -17,6 +17,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define OAICOGNPGMM_IBPDLHEHEDE_OFFSET UNITYSDK_OFFSET(0xBD24030)
 #define OAICOGNPGMM_IIIABCNONNO_OFFSET UNITYSDK_OFFSET(0xBD23FF0)
 
+inline static constexpr unsigned int OAICOGNPGMM_TypeDefinitionIndex = 55918;
+
 	class OAICOGNPGMM : public ::System::Object
 	{
 	public:

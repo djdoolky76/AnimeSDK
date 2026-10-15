@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace Cysharp::Threading::Tasks
 {
+	inline static constexpr unsigned int UniTask___c_TypeDefinitionIndex = 38336;
+
 	class UniTask___c : public ::System::Object
 	{
 	public:

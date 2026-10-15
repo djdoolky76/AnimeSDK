@@ -10,6 +10,8 @@ namespace System { class Action; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int DeviceTipsManager___c__DisplayClass18_0_TypeDefinitionIndex = 9331;
+
 	class DeviceTipsManager___c__DisplayClass18_0 : public ::System::Object
 	{
 	public:

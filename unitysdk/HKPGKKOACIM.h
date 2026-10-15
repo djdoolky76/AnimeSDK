@@ -22,6 +22,8 @@ namespace System { class Nullable; }
 #define HKPGKKOACIM_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15D50F50)
 #define HKPGKKOACIM_TICK_OFFSET UNITYSDK_OFFSET(0x15D50FA0)
 
+inline static constexpr unsigned int HKPGKKOACIM_TypeDefinitionIndex = 52355;
+
 	class HKPGKKOACIM : public ::GELIALJDFBL
 	{
 	public:

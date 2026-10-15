@@ -8,6 +8,8 @@ class FFKKLOGIBOA;
 #define FFKKLOGIBOA_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CDE9630)
 #define FFKKLOGIBOA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CDE9560)
 
+inline static constexpr unsigned int FFKKLOGIBOA_TypeDefinitionIndex = 21472;
+
 	class FFKKLOGIBOA : public ::RPG::GameCore::TaskConfig
 	{
 	public:

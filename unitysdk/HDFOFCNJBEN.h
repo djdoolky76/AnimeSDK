@@ -6,6 +6,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define HDFOFCNJBEN_CTOR_OFFSET UNITYSDK_OFFSET(0x15C33420)
 #define HDFOFCNJBEN_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15C333D0)
 
+inline static constexpr unsigned int HDFOFCNJBEN_TypeDefinitionIndex = 57565;
+
 	class HDFOFCNJBEN : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

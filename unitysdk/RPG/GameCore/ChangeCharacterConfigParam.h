@@ -22,6 +22,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChangeCharacterConfigParam_TypeDefinitionIndex = 23679;
+
 	class ChangeCharacterConfigParam : public ::RPG::GameCore::TaskConfig
 	{
 	public:

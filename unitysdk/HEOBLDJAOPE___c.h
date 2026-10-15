@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define HEOBLDJAOPE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E55E040)
 #define HEOBLDJAOPE___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E55E050)
 
+inline static constexpr unsigned int HEOBLDJAOPE___c_TypeDefinitionIndex = 33257;
+
 	class HEOBLDJAOPE___c : public ::System::Object
 	{
 	public:

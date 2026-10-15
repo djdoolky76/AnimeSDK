@@ -8,6 +8,8 @@ namespace UnityEngine { class Material; }
 
 namespace TMPro
 {
+	inline static constexpr unsigned int TMP_Asset_TypeDefinitionIndex = 44540;
+
 	class TMP_Asset : public ::UnityEngine::ScriptableObject
 	{
 	public:

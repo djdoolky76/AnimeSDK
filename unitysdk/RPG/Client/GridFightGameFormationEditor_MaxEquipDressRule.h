@@ -10,6 +10,8 @@ namespace RPG::Client { class GridFightFormationRole; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightGameFormationEditor_MaxEquipDressRule_TypeDefinitionIndex = 64641;
+
 	class GridFightGameFormationEditor_MaxEquipDressRule : public ::System::Object
 	{
 	public:

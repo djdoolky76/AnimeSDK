@@ -6,6 +6,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CharacterArtModelEffect_TypeDefinitionIndex = 70251;
+
 	class CharacterArtModelEffect
 	{
 	public:

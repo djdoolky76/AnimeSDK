@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define HMBCNNGGBMB_CCTOR_OFFSET UNITYSDK_OFFSET(0x15D78870)
 #define HMBCNNGGBMB_HKIDAHLOPBM_OFFSET UNITYSDK_OFFSET(0x15D78790)
 
+inline static constexpr unsigned int HMBCNNGGBMB_TypeDefinitionIndex = 59056;
+
 	class HMBCNNGGBMB : public ::System::Object
 	{
 	public:

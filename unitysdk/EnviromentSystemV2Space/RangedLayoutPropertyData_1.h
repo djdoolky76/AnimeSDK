@@ -3,6 +3,8 @@
 
 namespace EnviromentSystemV2Space
 {
+	inline static constexpr unsigned int RangedLayoutPropertyData_1_TypeDefinitionIndex = 49367;
+
 	template <typename T>
 	class RangedLayoutPropertyData_1
 	{

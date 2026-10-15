@@ -29,6 +29,8 @@ namespace System { class String; }
 #define NEDHMLJKIOA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EAF17A0)
 #define NEDHMLJKIOA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EAF1800)
 
+inline static constexpr unsigned int NEDHMLJKIOA_TypeDefinitionIndex = 29669;
+
 	class NEDHMLJKIOA : public ::System::Object
 	{
 	public:

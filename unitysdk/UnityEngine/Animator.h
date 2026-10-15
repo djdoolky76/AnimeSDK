@@ -408,6 +408,8 @@ namespace UnityEngine { class Transform; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int Animator_TypeDefinitionIndex = 5710;
+
 	class Animator : public ::UnityEngine::Behaviour
 	{
 	public:

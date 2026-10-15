@@ -9,6 +9,8 @@ namespace System { class Object; }
 #define DOEKAPONLEP_IJOONKNIDKI_OFFSET UNITYSDK_OFFSET(0x11FE1D20)
 #define DOEKAPONLEP_KPMNALHKMFA_OFFSET UNITYSDK_OFFSET(0x11FE1DD0)
 
+inline static constexpr unsigned int DOEKAPONLEP_TypeDefinitionIndex = 67260;
+
 	class DOEKAPONLEP : public ::System::Object
 	{
 	public:

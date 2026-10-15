@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueTournTitanTypeRow_TypeDefinitionIndex = 15072;
+
 	class RogueTournTitanTypeRow : public ::System::Object
 	{
 	public:

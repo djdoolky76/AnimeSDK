@@ -57,6 +57,8 @@ namespace System { class String; }
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int IdleLiveDecimal_TypeDefinitionIndex = 75120;
+
 	struct alignas(4) IdleLiveDecimal
 	{
 		::System::Numerics::BigInteger _numerator; // 0x10

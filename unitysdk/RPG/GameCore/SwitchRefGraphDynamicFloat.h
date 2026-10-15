@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SwitchRefGraphDynamicFloat_TypeDefinitionIndex = 17520;
+
 	class SwitchRefGraphDynamicFloat : public ::RPG::GameCore::SwitchRefBase
 	{
 	public:

@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TriggerUINotify_TypeDefinitionIndex = 22924;
+
 	class TriggerUINotify : public ::RPG::GameCore::TaskConfig
 	{
 	public:

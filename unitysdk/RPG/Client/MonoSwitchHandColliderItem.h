@@ -15,6 +15,8 @@ namespace UnityEngine { class Collider; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoSwitchHandColliderItem_TypeDefinitionIndex = 68780;
+
 	class MonoSwitchHandColliderItem : public ::UnityEngine::MonoBehaviour
 	{
 	public:

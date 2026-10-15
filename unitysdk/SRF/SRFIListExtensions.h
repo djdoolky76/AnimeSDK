@@ -4,6 +4,8 @@
 
 namespace SRF
 {
+	inline static constexpr unsigned int SRFIListExtensions_TypeDefinitionIndex = 35370;
+
 	class SRFIListExtensions : public ::System::Object
 	{
 	public:

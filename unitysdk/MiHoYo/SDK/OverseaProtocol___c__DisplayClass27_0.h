@@ -9,6 +9,8 @@ namespace MiHoYo::SDK { class OverseaProtocol; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int OverseaProtocol___c__DisplayClass27_0_TypeDefinitionIndex = 8252;
+
 	class OverseaProtocol___c__DisplayClass27_0 : public ::System::Object
 	{
 	public:

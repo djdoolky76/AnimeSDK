@@ -20,6 +20,8 @@ namespace System { class Object; }
 #define KCLCJKCGBCI_SETNEXTTASK_OFFSET UNITYSDK_OFFSET(0xB33BE30)
 #define KCLCJKCGBCI_TICK_OFFSET UNITYSDK_OFFSET(0xB33C330)
 
+inline static constexpr unsigned int KCLCJKCGBCI_TypeDefinitionIndex = 58263;
+
 	class KCLCJKCGBCI : public ::GELIALJDFBL
 	{
 	public:

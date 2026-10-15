@@ -28,6 +28,8 @@ namespace System { class String; }
 #define KMGDKPACAED_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E898CC0)
 #define KMGDKPACAED_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E898D20)
 
+inline static constexpr unsigned int KMGDKPACAED_TypeDefinitionIndex = 27772;
+
 	class KMGDKPACAED : public ::System::Object
 	{
 	public:

@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TriggerLoopScene_TypeDefinitionIndex = 20430;
+
 	class TriggerLoopScene : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -3,6 +3,8 @@
 
 namespace System::Threading
 {
+	inline static constexpr unsigned int AsyncLocalValueChangedArgs_1_TypeDefinitionIndex = 824;
+
 	template <typename T>
 	struct alignas(8) AsyncLocalValueChangedArgs_1
 	{

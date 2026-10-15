@@ -8,6 +8,8 @@ namespace RPG::Client { class ChallengePeakTeam; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChallengePeakTeamContext___c__DisplayClass32_0_TypeDefinitionIndex = 63195;
+
 	class ChallengePeakTeamContext___c__DisplayClass32_0 : public ::System::Object
 	{
 	public:

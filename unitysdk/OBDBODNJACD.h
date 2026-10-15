@@ -37,6 +37,8 @@ namespace System { class String; }
 #define OBDBODNJACD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EBAC2E0)
 #define OBDBODNJACD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EBAC340)
 
+inline static constexpr unsigned int OBDBODNJACD_TypeDefinitionIndex = 27991;
+
 	class OBDBODNJACD : public ::System::Object
 	{
 	public:

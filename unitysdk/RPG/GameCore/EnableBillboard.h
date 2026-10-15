@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EnableBillboard_TypeDefinitionIndex = 20462;
+
 	class EnableBillboard : public ::RPG::GameCore::TaskConfig
 	{
 	public:

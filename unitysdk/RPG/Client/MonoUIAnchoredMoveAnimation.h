@@ -17,6 +17,8 @@ namespace System { class Action; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoUIAnchoredMoveAnimation_TypeDefinitionIndex = 68970;
+
 	class MonoUIAnchoredMoveAnimation : public ::UnityEngine::MonoBehaviour
 	{
 	public:

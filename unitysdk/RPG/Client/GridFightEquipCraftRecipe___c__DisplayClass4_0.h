@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightEquipCraftRecipe___c__DisplayClass4_0_TypeDefinitionIndex = 64514;
+
 	class GridFightEquipCraftRecipe___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:

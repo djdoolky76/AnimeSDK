@@ -34,6 +34,8 @@ namespace System { class Object; }
 #define HNCOMOMAIPL___CREATESOURCEPROXY_B__2_0_OFFSET UNITYSDK_OFFSET(0x1EC70EC0)
 #define HNCOMOMAIPL___CREATETARGETPROXY_B__3_0_OFFSET UNITYSDK_OFFSET(0x1EC70F90)
 
+inline static constexpr unsigned int HNCOMOMAIPL_TypeDefinitionIndex = 44049;
+
 	class HNCOMOMAIPL : public ::System::Object
 	{
 	public:

@@ -18,6 +18,8 @@ namespace System { class Object; }
 #define FIIKLHMPDEE_OPCKNBHNBOA_OFFSET UNITYSDK_OFFSET(0x157A9A60)
 #define FIIKLHMPDEE_TICK_OFFSET UNITYSDK_OFFSET(0x157A9B10)
 
+inline static constexpr unsigned int FIIKLHMPDEE_TypeDefinitionIndex = 55858;
+
 	class FIIKLHMPDEE : public ::System::Object
 	{
 	public:

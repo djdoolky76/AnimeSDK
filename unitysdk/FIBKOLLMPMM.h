@@ -25,6 +25,8 @@ namespace System { class String; }
 #define FIBKOLLMPMM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E3950C0)
 #define FIBKOLLMPMM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E395120)
 
+inline static constexpr unsigned int FIBKOLLMPMM_TypeDefinitionIndex = 27061;
+
 	class FIBKOLLMPMM : public ::System::Object
 	{
 	public:

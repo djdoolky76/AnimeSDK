@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int DCAIKNNLALD_TweenState_TypeDefinitionIndex = 71373;
+
 	enum class DCAIKNNLALD_TweenState : ::System::Int32
 	{
 		CurrentTween = 0,

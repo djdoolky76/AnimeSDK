@@ -29,6 +29,8 @@ namespace System { class String; }
 #define MFBNEECALDM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA15840)
 #define MFBNEECALDM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA158A0)
 
+inline static constexpr unsigned int MFBNEECALDM_TypeDefinitionIndex = 34944;
+
 	class MFBNEECALDM : public ::System::Object
 	{
 	public:

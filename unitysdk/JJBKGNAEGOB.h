@@ -35,6 +35,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define JJBKGNAEGOB_PMGPKHEFAFH_OFFSET UNITYSDK_OFFSET(0x1C6FD690)
 #define JJBKGNAEGOB_POKNJPCIDKP_OFFSET UNITYSDK_OFFSET(0x1C6FE560)
 
+inline static constexpr unsigned int JJBKGNAEGOB_TypeDefinitionIndex = 36478;
+
 	class JJBKGNAEGOB : public ::GMAHGAAKIOK
 	{
 	public:

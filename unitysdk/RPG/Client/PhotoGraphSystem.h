@@ -185,6 +185,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PhotoGraphSystem_TypeDefinitionIndex = 60917;
+
 	class PhotoGraphSystem : public ::System::Object
 	{
 	public:

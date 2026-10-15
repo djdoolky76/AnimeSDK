@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define OLDDHFANEDA_KONLJMKIEMO_OFFSET UNITYSDK_OFFSET(0x1D298D40)
 #define OLDDHFANEDA_LJFPHMJEBJP_OFFSET UNITYSDK_OFFSET(0x1D298CB0)
 
+inline static constexpr unsigned int OLDDHFANEDA_TypeDefinitionIndex = 15469;
+
 	class OLDDHFANEDA : public ::System::Object
 	{
 	public:

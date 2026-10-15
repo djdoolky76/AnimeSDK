@@ -21,6 +21,8 @@ namespace RPG::GameCore { class MazePuzzleSwitchMascotRow; }
 #define BIJBAKCALII_SET_COLLECTCOINNUM_OFFSET UNITYSDK_OFFSET(0xB4AE340)
 #define BIJBAKCALII_SET_ID_OFFSET UNITYSDK_OFFSET(0xB4AE280)
 
+inline static constexpr unsigned int BIJBAKCALII_TypeDefinitionIndex = 68013;
+
 	class BIJBAKCALII : public ::System::Object
 	{
 	public:

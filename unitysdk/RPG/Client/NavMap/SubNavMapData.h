@@ -76,6 +76,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 
 namespace RPG::Client::NavMap
 {
+	inline static constexpr unsigned int SubNavMapData_TypeDefinitionIndex = 74632;
+
 	class SubNavMapData : public ::System::Object
 	{
 	public:

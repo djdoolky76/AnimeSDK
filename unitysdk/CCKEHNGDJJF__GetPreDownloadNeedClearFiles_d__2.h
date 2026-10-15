@@ -20,6 +20,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define CCKEHNGDJJF__GETPREDOWNLOADNEEDCLEARFILES_D__2_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC74B3F0)
 #define CCKEHNGDJJF__GETPREDOWNLOADNEEDCLEARFILES_D__2___M__FINALLY1_OFFSET UNITYSDK_OFFSET(0xC74B430)
 
+inline static constexpr unsigned int CCKEHNGDJJF__GetPreDownloadNeedClearFiles_d__2_TypeDefinitionIndex = 59488;
+
 	template <typename T1, typename T2>
 	class CCKEHNGDJJF__GetPreDownloadNeedClearFiles_d__2 : public ::System::Object
 	{

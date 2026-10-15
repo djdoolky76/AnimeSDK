@@ -6,6 +6,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define EFIHIKAHOJO_CTOR_OFFSET UNITYSDK_OFFSET(0x13A4D3E0)
 #define EFIHIKAHOJO_GET_AREAID_OFFSET UNITYSDK_OFFSET(0x13A4D4B0)
 
+inline static constexpr unsigned int EFIHIKAHOJO_TypeDefinitionIndex = 60639;
+
 	class EFIHIKAHOJO : public ::EJMCJECLENI
 	{
 	public:

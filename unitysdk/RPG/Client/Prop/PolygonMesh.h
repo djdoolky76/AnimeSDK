@@ -10,6 +10,8 @@
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int PolygonMesh_TypeDefinitionIndex = 78727;
+
 	class PolygonMesh : public ::System::Object
 	{
 	public:

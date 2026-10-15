@@ -8,6 +8,8 @@ class FCOEMCEDLNL;
 #define ADPCCHJNMFD_CTOR_OFFSET UNITYSDK_OFFSET(0x1CCAD2D0)
 #define ADPCCHJNMFD_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CCAD1A0)
 
+inline static constexpr unsigned int ADPCCHJNMFD_TypeDefinitionIndex = 15315;
+
 	class ADPCCHJNMFD : public ::System::Object
 	{
 	public:

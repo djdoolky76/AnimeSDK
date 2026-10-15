@@ -10,6 +10,8 @@ class DHBOGGBEMFF;
 #define LLFJBODLNAL_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xB7698F0)
 #define LLFJBODLNAL_NEKGALPLEOH_OFFSET UNITYSDK_OFFSET(0xB769970)
 
+inline static constexpr unsigned int LLFJBODLNAL_TypeDefinitionIndex = 47349;
+
 	class LLFJBODLNAL : public ::StageHarmonyLightModLinkSlot
 	{
 	public:

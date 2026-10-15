@@ -42,6 +42,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::FateRin::Battle
 {
+	inline static constexpr unsigned int FateRinBattleHudTargetSingleViewModel_TypeDefinitionIndex = 80935;
+
 	class FateRinBattleHudTargetSingleViewModel : public ::RPG::Client::FateRin::BaseViewModel
 	{
 	public:

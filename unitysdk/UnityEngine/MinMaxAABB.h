@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int MinMaxAABB_TypeDefinitionIndex = 4258;
+
 	struct alignas(4) MinMaxAABB
 	{
 		::UnityEngine::Vector3 m_Min; // 0x10

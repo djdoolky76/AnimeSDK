@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 #define EHFGOPCDBHP_OMGAPBGFKPJ_OFFSET UNITYSDK_OFFSET(0x154A4530)
 #define EHFGOPCDBHP_OPEFLHHAHNK_OFFSET UNITYSDK_OFFSET(0x154A47D0)
 
+inline static constexpr unsigned int EHFGOPCDBHP_TypeDefinitionIndex = 61860;
+
 	class EHFGOPCDBHP : public ::System::Object
 	{
 	public:

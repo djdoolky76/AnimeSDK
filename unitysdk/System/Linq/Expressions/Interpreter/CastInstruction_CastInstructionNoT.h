@@ -11,6 +11,8 @@ namespace System::Linq::Expressions::Interpreter { class InterpretedFrame; }
 
 namespace System::Linq::Expressions::Interpreter
 {
+	inline static constexpr unsigned int CastInstruction_CastInstructionNoT_TypeDefinitionIndex = 3654;
+
 	class CastInstruction_CastInstructionNoT : public ::System::Linq::Expressions::Interpreter::CastInstruction
 	{
 	public:

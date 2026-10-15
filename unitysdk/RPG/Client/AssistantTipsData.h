@@ -17,6 +17,8 @@ namespace RPG::GameCore { class AssistantTipsConfigRow; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AssistantTipsData_TypeDefinitionIndex = 62439;
+
 	class AssistantTipsData : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@ class ILOOAAOHIIG;
 #define FCLEMGPEMJJ___C__DISPLAYCLASS40_0_CTOR_OFFSET UNITYSDK_OFFSET(0x156CC7F0)
 #define FCLEMGPEMJJ___C__DISPLAYCLASS40_0__HANDLEASSISTANTRECOMMENDCHANGED_B__1_OFFSET UNITYSDK_OFFSET(0x156CD7C0)
 
+inline static constexpr unsigned int FCLEMGPEMJJ___c__DisplayClass40_0_TypeDefinitionIndex = 79467;
+
 	class FCLEMGPEMJJ___c__DisplayClass40_0 : public ::System::Object
 	{
 	public:

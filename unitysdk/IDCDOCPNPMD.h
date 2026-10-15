@@ -25,6 +25,8 @@ namespace System { class String; }
 #define IDCDOCPNPMD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E628870)
 #define IDCDOCPNPMD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E6288D0)
 
+inline static constexpr unsigned int IDCDOCPNPMD_TypeDefinitionIndex = 33684;
+
 	class IDCDOCPNPMD : public ::System::Object
 	{
 	public:

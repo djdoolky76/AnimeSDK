@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define KDHABGDIAPJ___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8002B0)
 #define KDHABGDIAPJ___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E8002C0)
 
+inline static constexpr unsigned int KDHABGDIAPJ___c_TypeDefinitionIndex = 29022;
+
 	class KDHABGDIAPJ___c : public ::System::Object
 	{
 	public:

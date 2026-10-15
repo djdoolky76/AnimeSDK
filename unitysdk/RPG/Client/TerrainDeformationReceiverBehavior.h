@@ -22,6 +22,8 @@ namespace UnityEngine { class Renderer; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TerrainDeformationReceiverBehavior_TypeDefinitionIndex = 71031;
+
 	class TerrainDeformationReceiverBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:

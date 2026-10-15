@@ -26,6 +26,8 @@ namespace System { class String; }
 
 namespace RPG::Client::TeamTowers
 {
+	inline static constexpr unsigned int TeamTowersFriendData_TypeDefinitionIndex = 79022;
+
 	class TeamTowersFriendData : public ::System::Object
 	{
 	public:

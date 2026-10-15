@@ -25,6 +25,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int ChimeraPreparationPuzzleBoard_TypeDefinitionIndex = 78474;
+
 	class ChimeraPreparationPuzzleBoard : public ::RPG::Client::Prop::PuzzleBoardBase
 	{
 	public:

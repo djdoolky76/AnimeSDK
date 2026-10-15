@@ -16,6 +16,8 @@ namespace System::IO { class UnmanagedMemoryAccessor; }
 #define DALMMKMDHOP_OLMHGLHHOEE_OFFSET UNITYSDK_OFFSET(0x1EBFEBB0)
 #define DALMMKMDHOP_PEAAIHNDOMI_OFFSET UNITYSDK_OFFSET(0x1EBFF120)
 
+inline static constexpr unsigned int DALMMKMDHOP_TypeDefinitionIndex = 35186;
+
 	class DALMMKMDHOP : public ::OBDNNGAILDC
 	{
 	public:

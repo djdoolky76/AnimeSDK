@@ -57,6 +57,8 @@ namespace UnityEngine { class TreePrototype; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int TerrainData_TypeDefinitionIndex = 5333;
+
 	class TerrainData : public ::UnityEngine::Object
 	{
 	public:

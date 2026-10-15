@@ -7,6 +7,8 @@ namespace System { class Action; }
 #define ELDKPCBCIIO___C__DISPLAYCLASS8_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1551DE90)
 #define ELDKPCBCIIO___C__DISPLAYCLASS8_0___CREATEUIMENUBGMENTERCALLBACK_B__0_OFFSET UNITYSDK_OFFSET(0x1551DF20)
 
+inline static constexpr unsigned int ELDKPCBCIIO___c__DisplayClass8_0_TypeDefinitionIndex = 80623;
+
 	class ELDKPCBCIIO___c__DisplayClass8_0 : public ::System::Object
 	{
 	public:

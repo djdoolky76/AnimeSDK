@@ -10,6 +10,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CharaEyeBlinkStateStop_TypeDefinitionIndex = 68375;
+
 	class CharaEyeBlinkStateStop : public ::System::Object
 	{
 	public:

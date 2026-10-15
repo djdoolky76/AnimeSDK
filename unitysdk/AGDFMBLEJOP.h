@@ -6,6 +6,8 @@
 
 #define AGDFMBLEJOP_CTOR_OFFSET UNITYSDK_OFFSET(0xCF26730)
 
+inline static constexpr unsigned int AGDFMBLEJOP_TypeDefinitionIndex = 55588;
+
 	class AGDFMBLEJOP : public ::System::Object
 	{
 	public:

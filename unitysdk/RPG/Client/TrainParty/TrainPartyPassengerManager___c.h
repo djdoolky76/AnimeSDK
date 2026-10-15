@@ -15,6 +15,8 @@ namespace System { template <typename T> class Predicate_1; }
 
 namespace RPG::Client::TrainParty
 {
+	inline static constexpr unsigned int TrainPartyPassengerManager___c_TypeDefinitionIndex = 74347;
+
 	class TrainPartyPassengerManager___c : public ::System::Object
 	{
 	public:

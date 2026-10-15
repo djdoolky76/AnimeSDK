@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define IOMECEHLPMF_EPJAEILEOGN_OFFSET UNITYSDK_OFFSET(0x16512300)
 #define IOMECEHLPMF_GCKBLOBMHMG_OFFSET UNITYSDK_OFFSET(0x165121E0)
 
+inline static constexpr unsigned int IOMECEHLPMF_TypeDefinitionIndex = 74435;
+
 	class IOMECEHLPMF : public ::System::Object
 	{
 	public:

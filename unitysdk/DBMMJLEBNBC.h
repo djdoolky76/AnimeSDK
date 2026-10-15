@@ -14,6 +14,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define DBMMJLEBNBC_NENOOIMIMDA_OFFSET UNITYSDK_OFFSET(0xE2336B0)
 #define DBMMJLEBNBC_ONKCKJCFIDG_OFFSET UNITYSDK_OFFSET(0xE233290)
 
+inline static constexpr unsigned int DBMMJLEBNBC_TypeDefinitionIndex = 53982;
+
 	class DBMMJLEBNBC : public ::System::Object
 	{
 	public:

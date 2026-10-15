@@ -15,6 +15,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ParallelAbility_TypeDefinitionIndex = 22689;
+
 	class ParallelAbility : public ::RPG::GameCore::JsonConfig
 	{
 	public:

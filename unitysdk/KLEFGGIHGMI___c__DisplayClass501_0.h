@@ -9,6 +9,8 @@ namespace UnityEngine { class RPGPointCloudGrassBlockData; }
 #define KLEFGGIHGMI___C__DISPLAYCLASS501_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB524070)
 #define KLEFGGIHGMI___C__DISPLAYCLASS501_0___ONPOINTCLOUDGRASSDATALOADED_B__0_OFFSET UNITYSDK_OFFSET(0xB524980)
 
+inline static constexpr unsigned int KLEFGGIHGMI___c__DisplayClass501_0_TypeDefinitionIndex = 73915;
+
 	class KLEFGGIHGMI___c__DisplayClass501_0 : public ::System::Object
 	{
 	public:

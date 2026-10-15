@@ -27,6 +27,8 @@ namespace ZLinq { class ValueEnumerable; }
 #define IMBMAKCGIPM_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CF219D0)
 #define IMBMAKCGIPM_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CF212B0)
 
+inline static constexpr unsigned int IMBMAKCGIPM_TypeDefinitionIndex = 14398;
+
 	class IMBMAKCGIPM : public ::System::Object
 	{
 	public:

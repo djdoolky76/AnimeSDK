@@ -15,6 +15,8 @@ class KKIJDPKIIKL;
 #define CMMNJAMJJCN_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xDA3C260)
 #define CMMNJAMJJCN_TICK_OFFSET UNITYSDK_OFFSET(0xDA3C140)
 
+inline static constexpr unsigned int CMMNJAMJJCN_TypeDefinitionIndex = 58831;
+
 	class CMMNJAMJJCN : public ::GELIALJDFBL
 	{
 	public:

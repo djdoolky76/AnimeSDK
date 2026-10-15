@@ -7,6 +7,8 @@ namespace RPG::GameCore { class UniversalHotFixPredicateB; }
 #define NLAJNDIGOMO_CTOR_OFFSET UNITYSDK_OFFSET(0xBC60300)
 #define NLAJNDIGOMO_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBC60380)
 
+inline static constexpr unsigned int NLAJNDIGOMO_TypeDefinitionIndex = 55791;
+
 	class NLAJNDIGOMO : public ::OGEFLHNGAEH
 	{
 	public:

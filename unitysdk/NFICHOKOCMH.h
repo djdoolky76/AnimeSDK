@@ -18,6 +18,8 @@ namespace System { class Object; }
 #define NFICHOKOCMH_SET_SHOULDTRYRAISEONENTER_OFFSET UNITYSDK_OFFSET(0xBB94E90)
 #define NFICHOKOCMH_SET_SOURCE_OFFSET UNITYSDK_OFFSET(0xBB94E70)
 
+inline static constexpr unsigned int NFICHOKOCMH_TypeDefinitionIndex = 79513;
+
 	class NFICHOKOCMH : public ::JEOCDNBFEBF
 	{
 	public:

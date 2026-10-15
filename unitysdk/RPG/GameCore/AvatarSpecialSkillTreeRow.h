@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AvatarSpecialSkillTreeRow_TypeDefinitionIndex = 12730;
+
 	class AvatarSpecialSkillTreeRow : public ::System::Object
 	{
 	public:

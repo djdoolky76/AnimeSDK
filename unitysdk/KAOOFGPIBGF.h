@@ -65,6 +65,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define KAOOFGPIBGF_SET_PAUSETRANSFORMSYNC_OFFSET UNITYSDK_OFFSET(0xB2E6F10)
 #define KAOOFGPIBGF__ONINITOWNERREF_OFFSET UNITYSDK_OFFSET(0xB2E6F20)
 
+inline static constexpr unsigned int KAOOFGPIBGF_TypeDefinitionIndex = 54048;
+
 	class KAOOFGPIBGF : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

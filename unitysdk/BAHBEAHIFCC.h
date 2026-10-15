@@ -29,6 +29,8 @@ namespace System { class String; }
 #define BAHBEAHIFCC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E7B5CA0)
 #define BAHBEAHIFCC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E7B5D00)
 
+inline static constexpr unsigned int BAHBEAHIFCC_TypeDefinitionIndex = 26174;
+
 	class BAHBEAHIFCC : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace RPG::GameCore { class ActivityConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ActivityConfigRow_TypeDefinitionIndex = 11201;
+
 	class ActivityConfigRow : public ::System::Object
 	{
 	public:

@@ -14,6 +14,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RtByCanMove_TypeDefinitionIndex = 24118;
+
 	class RtByCanMove : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

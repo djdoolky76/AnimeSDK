@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierDropThenReGetMiracleConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierDropThenReGetMiracleConfig_TypeDefinitionIndex = 17990;
+
 	class RogueModifierDropThenReGetMiracleConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

@@ -13,6 +13,8 @@ namespace RPG::Client::TeamTowers { class TeamTowersStageDetailStarsViewModel; }
 
 namespace RPG::Client::TeamTowers
 {
+	inline static constexpr unsigned int TeamTowersStageDetailTabViewModel_TypeDefinitionIndex = 79077;
+
 	class TeamTowersStageDetailTabViewModel : public ::System::Object
 	{
 	public:

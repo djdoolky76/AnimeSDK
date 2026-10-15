@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define HHFLCMLAEGO_CTOR_OFFSET UNITYSDK_OFFSET(0x15CCA5D0)
 #define HHFLCMLAEGO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15CCA600)
 
+inline static constexpr unsigned int HHFLCMLAEGO_TypeDefinitionIndex = 57899;
+
 	class HHFLCMLAEGO
 	{
 	public:

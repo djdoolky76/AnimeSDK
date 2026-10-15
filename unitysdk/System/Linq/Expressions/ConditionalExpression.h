@@ -20,6 +20,8 @@ namespace System::Linq::Expressions { class ExpressionVisitor; }
 
 namespace System::Linq::Expressions
 {
+	inline static constexpr unsigned int ConditionalExpression_TypeDefinitionIndex = 3209;
+
 	class ConditionalExpression : public ::System::Linq::Expressions::Expression
 	{
 	public:

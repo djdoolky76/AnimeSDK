@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 #define CPNHCAKCFIC__ITERATE_D__6_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1C54D570)
 #define CPNHCAKCFIC__ITERATE_D__6_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1C54D460)
 
+inline static constexpr unsigned int CPNHCAKCFIC__Iterate_d__6_TypeDefinitionIndex = 41644;
+
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6>
 	class CPNHCAKCFIC__Iterate_d__6 : public ::System::Object
 	{

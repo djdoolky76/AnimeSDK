@@ -32,6 +32,8 @@ namespace System { class String; }
 #define EMNNNCHNPKP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E2E6E20)
 #define EMNNNCHNPKP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E2E6E80)
 
+inline static constexpr unsigned int EMNNNCHNPKP_TypeDefinitionIndex = 28631;
+
 	class EMNNNCHNPKP : public ::System::Object
 	{
 	public:

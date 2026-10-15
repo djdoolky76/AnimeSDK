@@ -14,6 +14,8 @@ namespace System { class Type; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int ParamTable_Converter_TypeDefinitionIndex = 37929;
+
 	class ParamTable_Converter : public ::Newtonsoft::Json::JsonConverter
 	{
 	public:

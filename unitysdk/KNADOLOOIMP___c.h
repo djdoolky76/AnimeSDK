@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define KNADOLOOIMP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E89DE90)
 #define KNADOLOOIMP___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E89DEA0)
 
+inline static constexpr unsigned int KNADOLOOIMP___c_TypeDefinitionIndex = 26082;
+
 	class KNADOLOOIMP___c : public ::System::Object
 	{
 	public:

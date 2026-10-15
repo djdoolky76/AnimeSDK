@@ -10,6 +10,8 @@ namespace RPG::GameCore { class PlayerCondInRogueSubModeConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PlayerCondInRogueSubModeConfig_TypeDefinitionIndex = 19560;
+
 	class PlayerCondInRogueSubModeConfig : public ::RPG::GameCore::PlayerCondConfigBase
 	{
 	public:

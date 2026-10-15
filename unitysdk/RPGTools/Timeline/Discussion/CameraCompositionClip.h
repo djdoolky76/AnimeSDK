@@ -18,6 +18,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline::Discussion
 {
+	inline static constexpr unsigned int CameraCompositionClip_TypeDefinitionIndex = 48787;
+
 	class CameraCompositionClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

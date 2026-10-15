@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace System::Dynamic::Utils
 {
+	inline static constexpr unsigned int ContractUtils_TypeDefinitionIndex = 3686;
+
 	class ContractUtils : public ::System::Object
 	{
 	public:

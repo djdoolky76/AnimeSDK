@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CrosshairLayoutType_TypeDefinitionIndex = 24771;
+
 	enum class CrosshairLayoutType : ::System::Int32
 	{
 		Unknown = 0,

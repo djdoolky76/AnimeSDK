@@ -11,6 +11,8 @@ namespace System { class Nullable; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdventureModifierInitParams_TypeDefinitionIndex = 54414;
+
 	class AdventureModifierInitParams : public ::System::Object
 	{
 	public:

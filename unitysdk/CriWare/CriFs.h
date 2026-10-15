@@ -12,6 +12,8 @@
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriFs_TypeDefinitionIndex = 40095;
+
 	class CriFs : public ::System::Object
 	{
 	public:

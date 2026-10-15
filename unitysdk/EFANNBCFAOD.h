@@ -6,6 +6,8 @@ namespace System { class String; }
 
 #define EFANNBCFAOD_CTOR_OFFSET UNITYSDK_OFFSET(0x13A47110)
 
+inline static constexpr unsigned int EFANNBCFAOD_TypeDefinitionIndex = 71241;
+
 	class EFANNBCFAOD : public ::System::Object
 	{
 	public:

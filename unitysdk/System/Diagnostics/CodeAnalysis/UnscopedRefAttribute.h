@@ -6,6 +6,8 @@
 
 namespace System::Diagnostics::CodeAnalysis
 {
+	inline static constexpr unsigned int UnscopedRefAttribute_TypeDefinitionIndex = 6078;
+
 	class UnscopedRefAttribute : public ::System::Attribute
 	{
 	public:

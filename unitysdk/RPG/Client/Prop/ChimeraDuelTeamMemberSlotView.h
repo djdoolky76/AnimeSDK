@@ -18,6 +18,8 @@ namespace System { class Action; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int ChimeraDuelTeamMemberSlotView_TypeDefinitionIndex = 78360;
+
 	class ChimeraDuelTeamMemberSlotView : public ::UnityEngine::MonoBehaviour
 	{
 	public:

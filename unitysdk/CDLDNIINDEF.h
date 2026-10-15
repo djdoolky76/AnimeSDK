@@ -29,6 +29,8 @@ namespace System { class String; }
 #define CDLDNIINDEF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E0876E0)
 #define CDLDNIINDEF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E087740)
 
+inline static constexpr unsigned int CDLDNIINDEF_TypeDefinitionIndex = 30416;
+
 	class CDLDNIINDEF : public ::System::Object
 	{
 	public:

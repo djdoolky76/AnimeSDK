@@ -34,6 +34,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 
 namespace RPG::Client::ActivityMarble
 {
+	inline static constexpr unsigned int MarblePlayerProgressInfo_TypeDefinitionIndex = 75993;
+
 	class MarblePlayerProgressInfo : public ::System::Object
 	{
 	public:

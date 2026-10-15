@@ -26,6 +26,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BattleSilverWolf999CustomUIData_TypeDefinitionIndex = 71465;
+
 	class BattleSilverWolf999CustomUIData : public ::System::Object
 	{
 	public:

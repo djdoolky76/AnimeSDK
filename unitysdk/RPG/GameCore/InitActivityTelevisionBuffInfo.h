@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int InitActivityTelevisionBuffInfo_TypeDefinitionIndex = 23242;
+
 	class InitActivityTelevisionBuffInfo : public ::RPG::GameCore::TaskConfig
 	{
 	public:

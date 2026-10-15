@@ -37,6 +37,8 @@ namespace System { class String; }
 #define DNDMLICBKEF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E1F4580)
 #define DNDMLICBKEF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E1F45E0)
 
+inline static constexpr unsigned int DNDMLICBKEF_TypeDefinitionIndex = 32640;
+
 	class DNDMLICBKEF : public ::System::Object
 	{
 	public:

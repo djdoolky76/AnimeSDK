@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define GLLPONDLIBI_CTOR_OFFSET UNITYSDK_OFFSET(0x15ABD1A0)
 #define GLLPONDLIBI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15ABD1D0)
 
+inline static constexpr unsigned int GLLPONDLIBI_TypeDefinitionIndex = 57957;
+
 	class GLLPONDLIBI
 	{
 	public:

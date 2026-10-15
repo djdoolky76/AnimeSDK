@@ -50,6 +50,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace System::Diagnostics::Tracing
 {
+	inline static constexpr unsigned int EventProvider_TypeDefinitionIndex = 1681;
+
 	class EventProvider : public ::System::Object
 	{
 	public:

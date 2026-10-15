@@ -6,6 +6,8 @@
 #define IGCLGKCKACE_HGKALNHGNKL_OFFSET UNITYSDK_OFFSET(0x2E81500)
 #define IGCLGKCKACE_IEFPIFINEHC_OFFSET UNITYSDK_OFFSET(0x2E81510)
 
+inline static constexpr unsigned int IGCLGKCKACE_TypeDefinitionIndex = 73212;
+
 	struct alignas(8) IGCLGKCKACE
 	{
 		::System::UInt64 BFLIFKBEOPJ; // 0x10

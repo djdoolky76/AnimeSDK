@@ -14,6 +14,8 @@ namespace RPG::Client { class NotifyHandler; }
 #define KDLEIHJGDAP_LJOLGCNKIEH_OFFSET UNITYSDK_OFFSET(0xB365870)
 #define KDLEIHJGDAP_MHFNJCLKNMG_OFFSET UNITYSDK_OFFSET(0xB365910)
 
+inline static constexpr unsigned int KDLEIHJGDAP_TypeDefinitionIndex = 61101;
+
 	class KDLEIHJGDAP : public ::System::Object
 	{
 	public:

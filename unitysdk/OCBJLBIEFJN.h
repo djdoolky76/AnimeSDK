@@ -6,6 +6,8 @@
 #define OCBJLBIEFJN_GET_ISACTIVE_OFFSET UNITYSDK_OFFSET(0xBD57BA0)
 #define OCBJLBIEFJN_SET_ISACTIVE_OFFSET UNITYSDK_OFFSET(0xBD57BB0)
 
+inline static constexpr unsigned int OCBJLBIEFJN_TypeDefinitionIndex = 79781;
+
 	class OCBJLBIEFJN : public ::System::Object
 	{
 	public:

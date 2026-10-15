@@ -13,6 +13,8 @@ namespace UnityEngine { class Mesh; }
 
 namespace StageBudgetTool
 {
+	inline static constexpr unsigned int Prism_TypeDefinitionIndex = 47717;
+
 	class Prism : public ::System::Object
 	{
 	public:

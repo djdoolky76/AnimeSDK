@@ -17,6 +17,8 @@ namespace RPG::Client { class ParkourCrossroadPositionCalculator; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ParkourCrossroadPositionCalculator_TypeDefinitionIndex = 61833;
+
 	class ParkourCrossroadPositionCalculator : public ::System::Object
 	{
 	public:

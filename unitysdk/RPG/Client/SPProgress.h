@@ -23,6 +23,8 @@ namespace UnityEngine { class Material; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SPProgress_TypeDefinitionIndex = 72642;
+
 	class SPProgress : public ::UnityEngine::UI::MaskableGraphic
 	{
 	public:

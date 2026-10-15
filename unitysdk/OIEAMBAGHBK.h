@@ -32,6 +32,8 @@ namespace System { class String; }
 #define OIEAMBAGHBK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE6B770)
 #define OIEAMBAGHBK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DE6B7D0)
 
+inline static constexpr unsigned int OIEAMBAGHBK_TypeDefinitionIndex = 26576;
+
 	class OIEAMBAGHBK : public ::System::Object
 	{
 	public:

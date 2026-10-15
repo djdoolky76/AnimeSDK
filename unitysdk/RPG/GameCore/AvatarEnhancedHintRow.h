@@ -10,6 +10,8 @@ namespace RPG::GameCore { class AvatarEnhancedHintRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AvatarEnhancedHintRow_TypeDefinitionIndex = 12785;
+
 	class AvatarEnhancedHintRow : public ::System::Object
 	{
 	public:

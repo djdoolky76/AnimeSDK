@@ -22,6 +22,8 @@ namespace System { class String; }
 #define GADFKIHDOPK_SET_NODE_OFFSET UNITYSDK_OFFSET(0x15937630)
 #define GADFKIHDOPK_SUBSCRIBEFROM_OFFSET UNITYSDK_OFFSET(0x159378E0)
 
+inline static constexpr unsigned int GADFKIHDOPK_TypeDefinitionIndex = 79155;
+
 	class GADFKIHDOPK : public ::System::Object
 	{
 	public:

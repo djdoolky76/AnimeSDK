@@ -14,6 +14,8 @@ namespace Entitas { template <typename T> class IMatcher_1; }
 #define DFLDHKBEIFG_KCKGCBPHGBD_1_OFFSET UNITYSDK_OFFSET(0x1CA28750)
 #define DFLDHKBEIFG_KCKGCBPHGBD_OFFSET UNITYSDK_OFFSET(0x1CA286C0)
 
+inline static constexpr unsigned int DFLDHKBEIFG_TypeDefinitionIndex = 42631;
+
 	class DFLDHKBEIFG : public ::System::Object
 	{
 	public:

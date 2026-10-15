@@ -8,6 +8,8 @@
 #define EFKFAPMPJDI___C__DISPLAYCLASS13_0___CTOR_B__0_OFFSET UNITYSDK_OFFSET(0x13A54C60)
 #define EFKFAPMPJDI___C__DISPLAYCLASS13_0___CTOR_B__1_OFFSET UNITYSDK_OFFSET(0x13A54D70)
 
+inline static constexpr unsigned int EFKFAPMPJDI___c__DisplayClass13_0_TypeDefinitionIndex = 69323;
+
 	class EFKFAPMPJDI___c__DisplayClass13_0 : public ::System::Object
 	{
 	public:

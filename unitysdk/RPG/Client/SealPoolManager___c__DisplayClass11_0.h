@@ -10,6 +10,8 @@ namespace UnityEngine { class Rigidbody; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SealPoolManager___c__DisplayClass11_0_TypeDefinitionIndex = 60425;
+
 	class SealPoolManager___c__DisplayClass11_0 : public ::System::Object
 	{
 	public:

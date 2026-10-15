@@ -5,6 +5,8 @@
 
 #define PKNNKNNGPFH_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9F4340)
 
+inline static constexpr unsigned int PKNNKNNGPFH_TypeDefinitionIndex = 42943;
+
 	class PKNNKNNGPFH : public ::System::Object
 	{
 	public:

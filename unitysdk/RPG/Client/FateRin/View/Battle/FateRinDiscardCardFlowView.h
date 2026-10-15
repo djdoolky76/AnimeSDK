@@ -31,6 +31,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace RPG::Client::FateRin::View::Battle
 {
+	inline static constexpr unsigned int FateRinDiscardCardFlowView_TypeDefinitionIndex = 80678;
+
 	class FateRinDiscardCardFlowView : public ::UnityEngine::MonoBehaviour
 	{
 	public:

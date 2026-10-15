@@ -26,6 +26,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define CGAPIBGENKO_OFOIIADLNIL_OFFSET UNITYSDK_OFFSET(0xCC643F0)
 #define CGAPIBGENKO_PEBCDNLJADH_OFFSET UNITYSDK_OFFSET(0xCC641B0)
 
+inline static constexpr unsigned int CGAPIBGENKO_TypeDefinitionIndex = 54330;
+
 	class CGAPIBGENKO : public ::System::Object
 	{
 	public:

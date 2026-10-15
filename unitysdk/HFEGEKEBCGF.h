@@ -17,6 +17,8 @@ namespace RPG::GameCore { class TurnBasedGameMode; }
 #define HFEGEKEBCGF_LOMKGEBMIGP_OFFSET UNITYSDK_OFFSET(0x15C76050)
 #define HFEGEKEBCGF_TICK_OFFSET UNITYSDK_OFFSET(0x15C76340)
 
+inline static constexpr unsigned int HFEGEKEBCGF_TypeDefinitionIndex = 56277;
+
 	class HFEGEKEBCGF : public ::HBPNHCICJGF
 	{
 	public:

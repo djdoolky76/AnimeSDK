@@ -30,6 +30,8 @@ namespace System { class String; }
 #define LIOHNCDIAPM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9731D0)
 #define LIOHNCDIAPM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E973230)
 
+inline static constexpr unsigned int LIOHNCDIAPM_TypeDefinitionIndex = 33384;
+
 	class LIOHNCDIAPM : public ::System::Object
 	{
 	public:

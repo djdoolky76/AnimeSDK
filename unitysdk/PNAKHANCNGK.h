@@ -31,6 +31,8 @@ namespace System { class String; }
 #define PNAKHANCNGK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DFB0E20)
 #define PNAKHANCNGK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DFB0E80)
 
+inline static constexpr unsigned int PNAKHANCNGK_TypeDefinitionIndex = 29209;
+
 	class PNAKHANCNGK : public ::System::Object
 	{
 	public:

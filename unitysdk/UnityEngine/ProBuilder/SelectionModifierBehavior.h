@@ -3,6 +3,8 @@
 
 namespace UnityEngine::ProBuilder
 {
+	inline static constexpr unsigned int SelectionModifierBehavior_TypeDefinitionIndex = 44417;
+
 	enum class SelectionModifierBehavior : ::System::Int32
 	{
 		Add = 0,

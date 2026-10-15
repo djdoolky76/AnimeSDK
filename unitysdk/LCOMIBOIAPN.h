@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define LCOMIBOIAPN_NFDCJEIHOJH_OFFSET UNITYSDK_OFFSET(0xB61A7A0)
 #define LCOMIBOIAPN_PEJCNLBKIGN_OFFSET UNITYSDK_OFFSET(0xB61A270)
 
+inline static constexpr unsigned int LCOMIBOIAPN_TypeDefinitionIndex = 54429;
+
 	class LCOMIBOIAPN : public ::System::Object
 	{
 	public:

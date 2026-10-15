@@ -10,6 +10,8 @@ namespace RPG::GameCore { class EndmostChroniclePerformanceRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EndmostChroniclePerformanceRow_TypeDefinitionIndex = 14131;
+
 	class EndmostChroniclePerformanceRow : public ::System::Object
 	{
 	public:

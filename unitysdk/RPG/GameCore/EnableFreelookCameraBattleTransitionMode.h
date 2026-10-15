@@ -15,6 +15,8 @@ namespace RPG::GameCore { class EnableFreelookCameraBattleTransitionMode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EnableFreelookCameraBattleTransitionMode_TypeDefinitionIndex = 20425;
+
 	class EnableFreelookCameraBattleTransitionMode : public ::RPG::GameCore::TaskConfig
 	{
 	public:

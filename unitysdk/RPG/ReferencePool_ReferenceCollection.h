@@ -15,6 +15,8 @@ namespace System { class Type; }
 
 namespace RPG
 {
+	inline static constexpr unsigned int ReferencePool_ReferenceCollection_TypeDefinitionIndex = 5625;
+
 	class ReferencePool_ReferenceCollection : public ::System::Object
 	{
 	public:

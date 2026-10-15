@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace System::Net::Http
 {
+	inline static constexpr unsigned int HttpRequestException_TypeDefinitionIndex = 3772;
+
 	class HttpRequestException : public ::System::Exception
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System::Xml { class XmlNode; }
 
 namespace System::Xml
 {
+	inline static constexpr unsigned int XmlChildEnumerator_TypeDefinitionIndex = 1895;
+
 	class XmlChildEnumerator : public ::System::Object
 	{
 	public:

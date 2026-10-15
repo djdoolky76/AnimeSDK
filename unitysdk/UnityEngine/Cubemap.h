@@ -30,6 +30,8 @@ namespace UnityEngine { class Cubemap; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int Cubemap_TypeDefinitionIndex = 4198;
+
 	class Cubemap : public ::UnityEngine::Texture
 	{
 	public:

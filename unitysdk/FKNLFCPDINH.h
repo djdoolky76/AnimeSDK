@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define FKNLFCPDINH_CTOR_OFFSET UNITYSDK_OFFSET(0x158121A0)
 #define FKNLFCPDINH_EXECUTE_OFFSET UNITYSDK_OFFSET(0x15811DA0)
 
+inline static constexpr unsigned int FKNLFCPDINH_TypeDefinitionIndex = 77357;
+
 	class FKNLFCPDINH : public ::System::Object
 	{
 	public:

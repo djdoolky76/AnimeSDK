@@ -11,6 +11,8 @@ namespace RPG::GameCore { class AlleyConditionExtendParam; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AlleyBuffGridItemData_TypeDefinitionIndex = 15679;
+
 	class AlleyBuffGridItemData : public ::RPG::GameCore::AlleyBaseGridItemData
 	{
 	public:

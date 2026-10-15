@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace XLua
 {
+	inline static constexpr unsigned int XLuaWrapperMacroAttribute_TypeDefinitionIndex = 5615;
+
 	class XLuaWrapperMacroAttribute : public ::System::Attribute
 	{
 	public:

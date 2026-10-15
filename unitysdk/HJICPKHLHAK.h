@@ -15,6 +15,8 @@ class DKBCNADLOGN;
 #define HJICPKHLHAK_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x15D24420)
 #define HJICPKHLHAK_MAODDEJIDJP_OFFSET UNITYSDK_OFFSET(0x15D24390)
 
+inline static constexpr unsigned int HJICPKHLHAK_TypeDefinitionIndex = 60558;
+
 	class HJICPKHLHAK : public ::System::Object
 	{
 	public:

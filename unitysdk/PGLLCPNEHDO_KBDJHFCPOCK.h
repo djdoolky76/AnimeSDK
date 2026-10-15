@@ -7,6 +7,8 @@ namespace System { class IDisposable; }
 #define PGLLCPNEHDO_KBDJHFCPOCK_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC8F710)
 #define PGLLCPNEHDO_KBDJHFCPOCK_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1EC8F6D0)
 
+inline static constexpr unsigned int PGLLCPNEHDO_KBDJHFCPOCK_TypeDefinitionIndex = 44175;
+
 	class PGLLCPNEHDO_KBDJHFCPOCK : public ::System::Object
 	{
 	public:

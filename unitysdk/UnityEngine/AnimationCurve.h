@@ -42,6 +42,8 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int AnimationCurve_TypeDefinitionIndex = 4026;
+
 	class AnimationCurve : public ::System::Object
 	{
 	public:

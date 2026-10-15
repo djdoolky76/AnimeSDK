@@ -31,6 +31,8 @@ namespace System { class String; }
 #define GAAMMAACICO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E412400)
 #define GAAMMAACICO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E412460)
 
+inline static constexpr unsigned int GAAMMAACICO_TypeDefinitionIndex = 26266;
+
 	class GAAMMAACICO : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System { class Random; }
 #define OCCHJLMKMFL_SET_GEN_OFFSET UNITYSDK_OFFSET(0x1C7CBCA0)
 #define OCCHJLMKMFL_SET_SEED_OFFSET UNITYSDK_OFFSET(0x1C7CBCC0)
 
+inline static constexpr unsigned int OCCHJLMKMFL_TypeDefinitionIndex = 37004;
+
 	class OCCHJLMKMFL : public ::System::Object
 	{
 	public:

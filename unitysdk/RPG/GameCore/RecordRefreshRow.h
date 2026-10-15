@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RecordRefreshRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RecordRefreshRow_TypeDefinitionIndex = 14382;
+
 	class RecordRefreshRow : public ::System::Object
 	{
 	public:

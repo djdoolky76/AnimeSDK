@@ -12,6 +12,8 @@ namespace UnityEngine { class Collider; }
 #define OPDEHKNDOEG___C___DEPLOYBORDERPLAT_B__5_0_OFFSET UNITYSDK_OFFSET(0xBFA7C60)
 #define OPDEHKNDOEG___C___DEPLOYBORDERPLAT_B__5_1_OFFSET UNITYSDK_OFFSET(0xBFA7C90)
 
+inline static constexpr unsigned int OPDEHKNDOEG___c_TypeDefinitionIndex = 77066;
+
 	class OPDEHKNDOEG___c : public ::System::Object
 	{
 	public:

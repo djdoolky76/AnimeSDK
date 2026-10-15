@@ -10,6 +10,8 @@ namespace UnityEngine { class Transform; }
 #define BEOLMFABBEB_DJFIDOBFIGE_OFFSET UNITYSDK_OFFSET(0xB15B220)
 #define BEOLMFABBEB_FFHNOMIDEDE_OFFSET UNITYSDK_OFFSET(0xB15B700)
 
+inline static constexpr unsigned int BEOLMFABBEB_TypeDefinitionIndex = 68224;
+
 	class BEOLMFABBEB : public ::System::Object
 	{
 	public:

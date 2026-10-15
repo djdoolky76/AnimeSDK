@@ -444,6 +444,8 @@ namespace UnityEngine { class Transform; }
 #define AKSOUNDENGINE_UNSETMEDIA_OFFSET UNITYSDK_OFFSET(0x1F5CC850)
 #define AKSOUNDENGINE_WAKEUPFROMSUSPEND_OFFSET UNITYSDK_OFFSET(0x1F5D3960)
 
+inline static constexpr unsigned int AkSoundEngine_TypeDefinitionIndex = 44800;
+
 	class AkSoundEngine : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class DiceCombatAIEffectEvaluatorConfig_DiceOddOrEvenC
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DiceCombatAIEffectEvaluatorConfig_DiceOddOrEvenCount_TypeDefinitionIndex = 16166;
+
 	class DiceCombatAIEffectEvaluatorConfig_DiceOddOrEvenCount : public ::RPG::GameCore::DiceCombatAIEffectEvaluatorConfig
 	{
 	public:

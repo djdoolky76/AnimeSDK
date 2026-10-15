@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TriggerAbility; }
 #define MCNOKKNBMEH_NAGBMNBECCI_OFFSET UNITYSDK_OFFSET(0xB88A0A0)
 #define MCNOKKNBMEH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB889700)
 
+inline static constexpr unsigned int MCNOKKNBMEH_TypeDefinitionIndex = 55711;
+
 	class MCNOKKNBMEH
 	{
 	public:

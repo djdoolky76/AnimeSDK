@@ -12,6 +12,8 @@
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int TimeHelper_TypeDefinitionIndex = 46139;
+
 	class TimeHelper : public ::System::Object
 	{
 	public:

@@ -13,6 +13,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftCraftChipPieceShapeControl___c__DisplayClass15_0_TypeDefinitionIndex = 79870;
+
 	class MechCraftCraftChipPieceShapeControl___c__DisplayClass15_0 : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class LittleGameAbilityEffectPixAirApplyJamConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LittleGameAbilityEffectPixAirApplyJamConfig_TypeDefinitionIndex = 21343;
+
 	class LittleGameAbilityEffectPixAirApplyJamConfig : public ::RPG::GameCore::BaseLittleGameAbilityEffectConfig
 	{
 	public:

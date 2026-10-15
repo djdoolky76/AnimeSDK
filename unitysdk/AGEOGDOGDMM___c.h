@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define AGEOGDOGDMM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E12AD70)
 #define AGEOGDOGDMM___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E12AD80)
 
+inline static constexpr unsigned int AGEOGDOGDMM___c_TypeDefinitionIndex = 32913;
+
 	class AGEOGDOGDMM___c : public ::System::Object
 	{
 	public:

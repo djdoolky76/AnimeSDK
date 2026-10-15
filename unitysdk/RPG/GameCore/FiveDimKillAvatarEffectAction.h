@@ -11,6 +11,8 @@ namespace RPG::GameCore { class LittleGameKillEffectParams; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimKillAvatarEffectAction_TypeDefinitionIndex = 18742;
+
 	class FiveDimKillAvatarEffectAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
 	public:

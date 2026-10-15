@@ -45,6 +45,8 @@ namespace System { class String; }
 #define IAOPGJEOHOM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E60D780)
 #define IAOPGJEOHOM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E60D7E0)
 
+inline static constexpr unsigned int IAOPGJEOHOM_TypeDefinitionIndex = 29093;
+
 	class IAOPGJEOHOM : public ::System::Object
 	{
 	public:

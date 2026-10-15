@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TimelineIntermediaStateConfig_TypeDefinitionIndex = 16610;
+
 	class TimelineIntermediaStateConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

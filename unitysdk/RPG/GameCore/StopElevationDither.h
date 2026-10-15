@@ -10,6 +10,8 @@ namespace RPG::GameCore { class StopElevationDither; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StopElevationDither_TypeDefinitionIndex = 20630;
+
 	class StopElevationDither : public ::RPG::GameCore::TaskConfig
 	{
 	public:

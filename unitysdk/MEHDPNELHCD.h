@@ -32,6 +32,8 @@ namespace System { class String; }
 #define MEHDPNELHCD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA0C630)
 #define MEHDPNELHCD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA0C690)
 
+inline static constexpr unsigned int MEHDPNELHCD_TypeDefinitionIndex = 31914;
+
 	class MEHDPNELHCD : public ::System::Object
 	{
 	public:

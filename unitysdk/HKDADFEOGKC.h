@@ -5,6 +5,8 @@ namespace System { class String; }
 
 #define HKDADFEOGKC_CTOR_OFFSET UNITYSDK_OFFSET(0x15D3F8D0)
 
+inline static constexpr unsigned int HKDADFEOGKC_TypeDefinitionIndex = 59995;
+
 	class HKDADFEOGKC : public ::System::Object
 	{
 	public:

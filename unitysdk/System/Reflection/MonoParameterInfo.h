@@ -17,6 +17,8 @@ namespace System::Runtime::InteropServices { class MarshalAsAttribute; }
 
 namespace System::Reflection
 {
+	inline static constexpr unsigned int MonoParameterInfo_TypeDefinitionIndex = 628;
+
 	class MonoParameterInfo : public ::System::Reflection::RuntimeParameterInfo
 	{
 	public:

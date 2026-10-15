@@ -10,6 +10,8 @@ class KPNOBBFKNHA;
 #define JIAFOPELMJJ___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB1E6EF0)
 #define JIAFOPELMJJ___C__DISPLAYCLASS5_0__STARTFORTEXTMAPPACKSIZE_B__0_OFFSET UNITYSDK_OFFSET(0xB1E6F00)
 
+inline static constexpr unsigned int JIAFOPELMJJ___c__DisplayClass5_0_TypeDefinitionIndex = 59518;
+
 	class JIAFOPELMJJ___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:

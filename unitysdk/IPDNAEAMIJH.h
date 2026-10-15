@@ -10,6 +10,8 @@ namespace RPGTools::Timeline { class CharacterStoryMoveStartData; }
 #define IPDNAEAMIJH_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0x1651EF10)
 #define IPDNAEAMIJH_PREPAREFRAME_OFFSET UNITYSDK_OFFSET(0x1651EFE0)
 
+inline static constexpr unsigned int IPDNAEAMIJH_TypeDefinitionIndex = 48011;
+
 	class IPDNAEAMIJH : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

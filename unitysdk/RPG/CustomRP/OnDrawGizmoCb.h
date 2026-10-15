@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int OnDrawGizmoCb_TypeDefinitionIndex = 37697;
+
 	class OnDrawGizmoCb : public ::System::MulticastDelegate
 	{
 	public:

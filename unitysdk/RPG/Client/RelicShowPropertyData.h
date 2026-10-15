@@ -23,6 +23,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RelicShowPropertyData_TypeDefinitionIndex = 66885;
+
 	class RelicShowPropertyData : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class LevelPropMapHeliobusChallengeParam; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelPropMapHeliobusChallengeParam_TypeDefinitionIndex = 17256;
+
 	class LevelPropMapHeliobusChallengeParam : public ::RPG::GameCore::LevelPropParameter
 	{
 	public:

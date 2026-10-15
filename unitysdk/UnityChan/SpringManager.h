@@ -75,6 +75,8 @@ namespace UnityEngine { class Transform; }
 
 namespace UnityChan
 {
+	inline static constexpr unsigned int SpringManager_TypeDefinitionIndex = 47694;
+
 	class SpringManager : public ::UnityEngine::MonoBehaviour
 	{
 	public:

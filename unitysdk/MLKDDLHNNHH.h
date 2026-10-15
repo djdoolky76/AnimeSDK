@@ -13,6 +13,8 @@ namespace System { class Action; }
 #define MLKDDLHNNHH_ONCLEAR_OFFSET UNITYSDK_OFFSET(0xB9B42E0)
 #define MLKDDLHNNHH_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0xB9B42A0)
 
+inline static constexpr unsigned int MLKDDLHNNHH_TypeDefinitionIndex = 71112;
+
 	class MLKDDLHNNHH : public ::System::Object
 	{
 	public:

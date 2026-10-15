@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CakeRaceCellType_TypeDefinitionIndex = 18414;
+
 	enum class CakeRaceCellType : ::System::Int32
 	{
 		None = 0,

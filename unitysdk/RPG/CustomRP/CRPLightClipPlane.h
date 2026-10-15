@@ -16,6 +16,8 @@ namespace UnityEngine { class Light; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int CRPLightClipPlane_TypeDefinitionIndex = 37675;
+
 	class CRPLightClipPlane : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class String; }
 #define IHBHHGDMKON_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0x164178A0)
 #define IHBHHGDMKON_TOSTRING_OFFSET UNITYSDK_OFFSET(0x16417B10)
 
+inline static constexpr unsigned int IHBHHGDMKON_TypeDefinitionIndex = 82151;
+
 	class IHBHHGDMKON : public ::JEAKFMBFLJK
 	{
 	public:

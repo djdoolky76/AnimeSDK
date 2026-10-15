@@ -6,6 +6,8 @@
 #define WWISEAUXBUSREFERENCE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F636FE0)
 #define WWISEAUXBUSREFERENCE_GET_WWISEOBJECTTYPE_OFFSET UNITYSDK_OFFSET(0x1F636FD0)
 
+inline static constexpr unsigned int WwiseAuxBusReference_TypeDefinitionIndex = 44882;
+
 	class WwiseAuxBusReference : public ::WwiseObjectReference
 	{
 	public:

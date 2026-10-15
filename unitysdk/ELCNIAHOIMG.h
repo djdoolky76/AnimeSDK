@@ -27,6 +27,8 @@ namespace System { class String; }
 #define ELCNIAHOIMG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E2CB3F0)
 #define ELCNIAHOIMG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E2CB450)
 
+inline static constexpr unsigned int ELCNIAHOIMG_TypeDefinitionIndex = 32124;
+
 	class ELCNIAHOIMG : public ::System::Object
 	{
 	public:

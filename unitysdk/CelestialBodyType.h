@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int CelestialBodyType_TypeDefinitionIndex = 47303;
+
 	enum class CelestialBodyType : ::System::Byte
 	{
 		Star = 0,

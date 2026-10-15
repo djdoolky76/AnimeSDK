@@ -10,6 +10,8 @@ namespace System { class Object; }
 #define DJBJOOOOLIO_HMGBKJAHJJO_OFFSET UNITYSDK_OFFSET(0xF22BFD0)
 #define DJBJOOOOLIO_JBIMEIKLHHA_OFFSET UNITYSDK_OFFSET(0xF22C0F0)
 
+inline static constexpr unsigned int DJBJOOOOLIO_TypeDefinitionIndex = 71416;
+
 	class DJBJOOOOLIO : public ::FMPCODLIOLG
 	{
 	public:

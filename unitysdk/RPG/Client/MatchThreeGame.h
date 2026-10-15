@@ -141,6 +141,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MatchThreeGame_TypeDefinitionIndex = 65936;
+
 	class MatchThreeGame : public ::System::Object
 	{
 	public:

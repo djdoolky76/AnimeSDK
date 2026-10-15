@@ -10,6 +10,8 @@ class FPNHGPEICOG;
 #define GFGGHEHEJKC_JKEONEEPIHH_OFFSET UNITYSDK_OFFSET(0x159F70D0)
 #define GFGGHEHEJKC_NEACLNIKMHO_OFFSET UNITYSDK_OFFSET(0x159F7070)
 
+inline static constexpr unsigned int GFGGHEHEJKC_TypeDefinitionIndex = 53676;
+
 	class GFGGHEHEJKC : public ::System::Object
 	{
 	public:

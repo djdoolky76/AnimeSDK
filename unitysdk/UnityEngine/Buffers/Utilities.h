@@ -7,6 +7,8 @@
 
 namespace UnityEngine::Buffers
 {
+	inline static constexpr unsigned int Utilities_TypeDefinitionIndex = 4953;
+
 	class Utilities : public ::System::Object
 	{
 	public:

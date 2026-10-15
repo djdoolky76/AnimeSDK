@@ -9,6 +9,8 @@ namespace RPG::Client { class StaminaExchangeCalculatorResult; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int StaminaExchangeCalculator_TypeDefinitionIndex = 65744;
+
 	class StaminaExchangeCalculator : public ::System::Object
 	{
 	public:

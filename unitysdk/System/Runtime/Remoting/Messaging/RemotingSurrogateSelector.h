@@ -14,6 +14,8 @@ namespace System::Runtime::Serialization { class ISurrogateSelector; }
 
 namespace System::Runtime::Remoting::Messaging
 {
+	inline static constexpr unsigned int RemotingSurrogateSelector_TypeDefinitionIndex = 1332;
+
 	class RemotingSurrogateSelector : public ::System::Object
 	{
 	public:

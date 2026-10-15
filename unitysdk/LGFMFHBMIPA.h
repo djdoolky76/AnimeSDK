@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define LGFMFHBMIPA_CTOR_OFFSET UNITYSDK_OFFSET(0xB692320)
 #define LGFMFHBMIPA_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB692350)
 
+inline static constexpr unsigned int LGFMFHBMIPA_TypeDefinitionIndex = 53924;
+
 	class LGFMFHBMIPA
 	{
 	public:

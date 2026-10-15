@@ -42,6 +42,8 @@ namespace UnityEngine { class AnimationCurve; }
 #define KBFKLMMIPLI_OCCDCPEJPIA_OFFSET UNITYSDK_OFFSET(0xB2F7410)
 #define KBFKLMMIPLI_PFJCHJABNNN_OFFSET UNITYSDK_OFFSET(0xB2F6DF0)
 
+inline static constexpr unsigned int KBFKLMMIPLI_TypeDefinitionIndex = 75924;
+
 	class KBFKLMMIPLI : public ::System::Object
 	{
 	public:

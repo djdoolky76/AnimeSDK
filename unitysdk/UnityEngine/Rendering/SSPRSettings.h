@@ -5,6 +5,8 @@
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int SSPRSettings_TypeDefinitionIndex = 4822;
+
 	struct alignas(4) SSPRSettings
 	{
 		::System::Boolean Enabled; // 0x10

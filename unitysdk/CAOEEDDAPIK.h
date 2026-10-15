@@ -75,6 +75,8 @@ namespace UnityEngine { class Transform; }
 #define CAOEEDDAPIK___ONBINDHANDLERS_B__2_0_OFFSET UNITYSDK_OFFSET(0xC498940)
 #define CAOEEDDAPIK___ONBINDHANDLERS_B__2_1_OFFSET UNITYSDK_OFFSET(0xC4989E0)
 
+inline static constexpr unsigned int CAOEEDDAPIK_TypeDefinitionIndex = 71245;
+
 	class CAOEEDDAPIK : public ::FMPCODLIOLG
 	{
 	public:

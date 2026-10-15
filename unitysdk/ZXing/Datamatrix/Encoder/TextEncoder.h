@@ -9,6 +9,8 @@ namespace System::Text { class StringBuilder; }
 
 namespace ZXing::Datamatrix::Encoder
 {
+	inline static constexpr unsigned int TextEncoder_TypeDefinitionIndex = 7036;
+
 	class TextEncoder : public ::ZXing::Datamatrix::Encoder::C40Encoder
 	{
 	public:

@@ -5,6 +5,8 @@
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriAtomExCategory_ReactDuckerParameter_Target_TypeDefinitionIndex = 39991;
+
 	struct alignas(4) CriAtomExCategory_ReactDuckerParameter_Target
 	{
 		::CriWare::CriAtomExCategory_ReactDuckerParameter_Volume volume; // 0x10

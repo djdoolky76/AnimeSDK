@@ -5,6 +5,8 @@
 #define DNMEJAKPMCJ_CTOR_OFFSET UNITYSDK_OFFSET(0x11FD8D60)
 #define DNMEJAKPMCJ_OPMHNOIKBGA_OFFSET UNITYSDK_OFFSET(0x11FD8D00)
 
+inline static constexpr unsigned int DNMEJAKPMCJ_TypeDefinitionIndex = 62306;
+
 	class DNMEJAKPMCJ : public ::ILPPBGLJABD
 	{
 	public:

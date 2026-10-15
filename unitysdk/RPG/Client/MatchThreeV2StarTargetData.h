@@ -18,6 +18,8 @@ namespace RPG::GameCore { class MatchThreeV2StarTargetRow; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MatchThreeV2StarTargetData_TypeDefinitionIndex = 66028;
+
 	class MatchThreeV2StarTargetData : public ::System::Object
 	{
 	public:

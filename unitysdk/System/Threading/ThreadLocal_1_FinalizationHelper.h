@@ -5,6 +5,8 @@ namespace System { class Object; }
 
 namespace System::Threading
 {
+	inline static constexpr unsigned int ThreadLocal_1_FinalizationHelper_TypeDefinitionIndex = 820;
+
 	template <typename T>
 	class ThreadLocal_1_FinalizationHelper : public ::System::Object
 	{

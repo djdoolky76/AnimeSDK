@@ -73,6 +73,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::ActivityHipplen
 {
+	inline static constexpr unsigned int HipplenPickingGoodsMiniGame_TypeDefinitionIndex = 75597;
+
 	class HipplenPickingGoodsMiniGame : public ::RPG::Client::ActivityHipplen::ActivityHipplenMiniGameBase
 	{
 	public:

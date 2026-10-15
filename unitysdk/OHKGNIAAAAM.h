@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define OHKGNIAAAAM_PLGEBDDNCKC_OFFSET UNITYSDK_OFFSET(0xBE71210)
 #define OHKGNIAAAAM_SET_LEVELTURN_OFFSET UNITYSDK_OFFSET(0xBE71130)
 
+inline static constexpr unsigned int OHKGNIAAAAM_TypeDefinitionIndex = 63881;
+
 	class OHKGNIAAAAM : public ::System::Object
 	{
 	public:

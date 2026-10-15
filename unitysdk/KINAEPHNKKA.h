@@ -7,6 +7,8 @@ class PEMFMPIPNJN;
 #define KINAEPHNKKA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C901230)
 #define KINAEPHNKKA_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1C901240)
 
+inline static constexpr unsigned int KINAEPHNKKA_TypeDefinitionIndex = 42485;
+
 	class KINAEPHNKKA : public ::System::Object
 	{
 	public:

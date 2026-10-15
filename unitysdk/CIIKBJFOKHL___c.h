@@ -22,6 +22,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define CIIKBJFOKHL___C___FILTERSOLDIERBYINITPOSITION_B__13_3_OFFSET UNITYSDK_OFFSET(0xCF8AC40)
 #define CIIKBJFOKHL___C___FILTERSOLDIERBYINITPOSITION_B__13_5_OFFSET UNITYSDK_OFFSET(0xCF8AC70)
 
+inline static constexpr unsigned int CIIKBJFOKHL___c_TypeDefinitionIndex = 77870;
+
 	class CIIKBJFOKHL___c : public ::System::Object
 	{
 	public:

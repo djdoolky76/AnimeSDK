@@ -8,6 +8,8 @@ namespace RPG::Client::TrainParty { class TrainPartyBuildDIYItem; }
 
 namespace RPG::Client::TrainParty
 {
+	inline static constexpr unsigned int TrainPartyBuildDisplayWallContext_MissionPhotoComparer_TypeDefinitionIndex = 74298;
+
 	class TrainPartyBuildDisplayWallContext_MissionPhotoComparer : public ::System::Object
 	{
 	public:

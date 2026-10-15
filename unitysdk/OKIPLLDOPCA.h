@@ -6,6 +6,8 @@
 #define OKIPLLDOPCA_CTOR_OFFSET UNITYSDK_OFFSET(0xBEDBB00)
 #define OKIPLLDOPCA_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBEDBB10)
 
+inline static constexpr unsigned int OKIPLLDOPCA_TypeDefinitionIndex = 47692;
+
 	class OKIPLLDOPCA : public ::System::Object
 	{
 	public:

@@ -25,6 +25,8 @@ namespace System { class String; }
 #define PKKFNODINEM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF93D60)
 #define PKKFNODINEM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF93DC0)
 
+inline static constexpr unsigned int PKKFNODINEM_TypeDefinitionIndex = 26941;
+
 	class PKKFNODINEM : public ::System::Object
 	{
 	public:

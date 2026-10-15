@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MarbleByValueReach_TypeDefinitionIndex = 16884;
+
 	class MarbleByValueReach : public ::RPG::GameCore::MarblePredicateConfig
 	{
 	public:

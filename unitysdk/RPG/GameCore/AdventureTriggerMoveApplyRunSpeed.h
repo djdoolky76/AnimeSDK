@@ -10,6 +10,8 @@ namespace RPG::GameCore { class AdventureTriggerMoveApplyRunSpeed; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdventureTriggerMoveApplyRunSpeed_TypeDefinitionIndex = 20185;
+
 	class AdventureTriggerMoveApplyRunSpeed : public ::RPG::GameCore::AdventureTriggerMove
 	{
 	public:

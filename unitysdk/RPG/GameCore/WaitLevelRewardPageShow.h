@@ -10,6 +10,8 @@ namespace RPG::GameCore { class WaitLevelRewardPageShow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaitLevelRewardPageShow_TypeDefinitionIndex = 21246;
+
 	class WaitLevelRewardPageShow : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TrainVisitorDialogueEnd; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TrainVisitorDialogueEnd_TypeDefinitionIndex = 21595;
+
 	class TrainVisitorDialogueEnd : public ::RPG::GameCore::TaskConfig
 	{
 	public:

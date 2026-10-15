@@ -16,6 +16,8 @@ namespace UnityEngine::ProBuilder::Shapes { class Shape; }
 
 namespace UnityEngine::ProBuilder::Shapes
 {
+	inline static constexpr unsigned int Torus_TypeDefinitionIndex = 44473;
+
 	class Torus : public ::UnityEngine::ProBuilder::Shapes::Shape
 	{
 	public:

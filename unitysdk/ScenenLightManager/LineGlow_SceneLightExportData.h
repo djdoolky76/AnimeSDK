@@ -9,6 +9,8 @@ namespace ScenenLightManager { class LineGlow_ExportData; }
 
 namespace ScenenLightManager
 {
+	inline static constexpr unsigned int LineGlow_SceneLightExportData_TypeDefinitionIndex = 49060;
+
 	class LineGlow_SceneLightExportData : public ::ScenenLightManager::BaseSceneLightExportData
 	{
 	public:

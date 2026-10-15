@@ -12,6 +12,8 @@ namespace System { class Object; }
 #define DBALOBOFCED_JEBDAFCDCIO_OFFSET UNITYSDK_OFFSET(0xDFD57D0)
 #define DBALOBOFCED_NLKOAFJCKNP_OFFSET UNITYSDK_OFFSET(0xDFD5520)
 
+inline static constexpr unsigned int DBALOBOFCED_TypeDefinitionIndex = 75454;
+
 	class DBALOBOFCED : public ::System::Object
 	{
 	public:

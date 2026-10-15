@@ -28,6 +28,8 @@ namespace UnityEngine { class MaterialPropertyBlock; }
 
 namespace BansheeGz::BGSpline::Components
 {
+	inline static constexpr unsigned int BGCcVisualizationLineRenderer_TypeDefinitionIndex = 36060;
+
 	class BGCcVisualizationLineRenderer : public ::BansheeGz::BGSpline::Components::BGCcSplitterPolyline
 	{
 	public:

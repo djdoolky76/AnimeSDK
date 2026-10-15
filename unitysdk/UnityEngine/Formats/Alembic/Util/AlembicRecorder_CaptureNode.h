@@ -13,6 +13,8 @@ namespace UnityEngine::Formats::Alembic::Util { class ComponentCapturer; }
 
 namespace UnityEngine::Formats::Alembic::Util
 {
+	inline static constexpr unsigned int AlembicRecorder_CaptureNode_TypeDefinitionIndex = 45775;
+
 	class AlembicRecorder_CaptureNode : public ::System::Object
 	{
 	public:

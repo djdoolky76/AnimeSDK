@@ -26,6 +26,8 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace EnviromentSystemV2Space
 {
+	inline static constexpr unsigned int TimeOfDayFMSource_TypeDefinitionIndex = 49558;
+
 	class TimeOfDayFMSource : public ::UnityEngine::MonoBehaviour
 	{
 	public:

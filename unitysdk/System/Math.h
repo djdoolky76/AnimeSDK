@@ -60,6 +60,8 @@
 
 namespace System
 {
+	inline static constexpr unsigned int Math_TypeDefinitionIndex = 295;
+
 	class Math : public ::System::Object
 	{
 	public:

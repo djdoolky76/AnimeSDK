@@ -27,6 +27,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int ActiveVirtualCameraBehaviour_TypeDefinitionIndex = 47812;
+
 	class ActiveVirtualCameraBehaviour : public ::RPGTools::Timeline::CustomEventBehaviour
 	{
 	public:

@@ -7,6 +7,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define NACFOJKANEB_CTOR_OFFSET UNITYSDK_OFFSET(0xBA55B40)
 #define NACFOJKANEB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBA55C20)
 
+inline static constexpr unsigned int NACFOJKANEB_TypeDefinitionIndex = 55699;
+
 	class NACFOJKANEB
 	{
 	public:

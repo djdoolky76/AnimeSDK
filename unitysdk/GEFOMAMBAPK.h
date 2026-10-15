@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define GEFOMAMBAPK_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x159D4C80)
 #define GEFOMAMBAPK_TICK_OFFSET UNITYSDK_OFFSET(0x159D4CD0)
 
+inline static constexpr unsigned int GEFOMAMBAPK_TypeDefinitionIndex = 52726;
+
 	class GEFOMAMBAPK : public ::GELIALJDFBL
 	{
 	public:

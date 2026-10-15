@@ -5,6 +5,8 @@
 
 #define APMBHNMOONK_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5A2800)
 
+inline static constexpr unsigned int APMBHNMOONK_TypeDefinitionIndex = 36190;
+
 	class APMBHNMOONK : public ::System::Object
 	{
 	public:

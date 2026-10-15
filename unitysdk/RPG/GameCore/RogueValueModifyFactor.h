@@ -9,6 +9,8 @@ namespace RPG::GameCore { class RogueValueModifyFactor; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueValueModifyFactor_TypeDefinitionIndex = 18015;
+
 	class RogueValueModifyFactor : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -24,6 +24,8 @@ namespace UnityEngine { class Transform; }
 #define FCFPLEDCJKF_MHFNJCLKNMG_OFFSET UNITYSDK_OFFSET(0x156B9F80)
 #define FCFPLEDCJKF_OELCGEJKKLC_OFFSET UNITYSDK_OFFSET(0x156B9BA0)
 
+inline static constexpr unsigned int FCFPLEDCJKF_TypeDefinitionIndex = 69306;
+
 	class FCFPLEDCJKF : public ::ICOHAPENNHF
 	{
 	public:

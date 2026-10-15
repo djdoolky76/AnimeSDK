@@ -10,6 +10,8 @@ class JBFGHNLMEDI;
 #define ILEDOPGDMHB_CTOR_OFFSET UNITYSDK_OFFSET(0x164AD0F0)
 #define ILEDOPGDMHB_OKPLPEELPBC_OFFSET UNITYSDK_OFFSET(0x164AD100)
 
+inline static constexpr unsigned int ILEDOPGDMHB_TypeDefinitionIndex = 76409;
+
 	class ILEDOPGDMHB : public ::HALHKJLBIKJ
 	{
 	public:

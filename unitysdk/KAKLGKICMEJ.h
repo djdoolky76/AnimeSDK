@@ -18,6 +18,8 @@ namespace UnityEngine { class Renderer; }
 #define KAKLGKICMEJ_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xB2DAE80)
 #define KAKLGKICMEJ_LNILGFEBALK_OFFSET UNITYSDK_OFFSET(0xB2DBA30)
 
+inline static constexpr unsigned int KAKLGKICMEJ_TypeDefinitionIndex = 69892;
+
 	class KAKLGKICMEJ : public ::RPG::Client::BehaviorBase
 	{
 	public:

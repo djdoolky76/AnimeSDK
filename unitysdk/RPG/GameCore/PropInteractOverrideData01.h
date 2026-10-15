@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PropInteractOverrideData01_TypeDefinitionIndex = 20385;
+
 	class PropInteractOverrideData01 : public ::RPG::GameCore::TaskConfig
 	{
 	public:

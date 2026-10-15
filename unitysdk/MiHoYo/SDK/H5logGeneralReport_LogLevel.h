@@ -3,6 +3,8 @@
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int H5logGeneralReport_LogLevel_TypeDefinitionIndex = 46474;
+
 	enum class H5logGeneralReport_LogLevel : ::System::Int32
 	{
 		Debug = 0,

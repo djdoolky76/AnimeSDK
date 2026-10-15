@@ -20,6 +20,8 @@ namespace System { class String; }
 #define DMCMGNOBENJ_KKKPCGHMCAK_OFFSET UNITYSDK_OFFSET(0xFEB88B0)
 #define DMCMGNOBENJ_OCOLPDGEAMD_OFFSET UNITYSDK_OFFSET(0xFEB89C0)
 
+inline static constexpr unsigned int DMCMGNOBENJ_TypeDefinitionIndex = 74716;
+
 	class DMCMGNOBENJ : public ::System::Object
 	{
 	public:

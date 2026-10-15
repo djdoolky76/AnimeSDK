@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int IVRSettings__RemoveSection_TypeDefinitionIndex = 39173;
+
 	class IVRSettings__RemoveSection : public ::System::MulticastDelegate
 	{
 	public:

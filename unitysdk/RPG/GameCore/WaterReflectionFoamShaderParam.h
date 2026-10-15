@@ -10,6 +10,8 @@ namespace RPG::GameCore { class WaterReflectionFoamShaderParam; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaterReflectionFoamShaderParam_TypeDefinitionIndex = 16711;
+
 	class WaterReflectionFoamShaderParam : public ::RPG::GameCore::JsonConfig
 	{
 	public:

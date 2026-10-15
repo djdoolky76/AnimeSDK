@@ -16,6 +16,8 @@ namespace System::Net::NetworkInformation { class PhysicalAddress; }
 
 namespace System::Net::NetworkInformation
 {
+	inline static constexpr unsigned int NetworkInterface_TypeDefinitionIndex = 2932;
+
 	class NetworkInterface : public ::System::Object
 	{
 	public:

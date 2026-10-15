@@ -10,6 +10,8 @@ namespace RPG::GameCore { class SKillNavigationConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SKillNavigationConfigRow_TypeDefinitionIndex = 13823;
+
 	class SKillNavigationConfigRow : public ::System::Object
 	{
 	public:

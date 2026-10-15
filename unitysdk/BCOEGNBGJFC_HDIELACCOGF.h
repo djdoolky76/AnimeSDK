@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int BCOEGNBGJFC_HDIELACCOGF_TypeDefinitionIndex = 33303;
+
 	enum class BCOEGNBGJFC_HDIELACCOGF : ::System::Int32
 	{
 		NLCDGIPGFDJ = 0,

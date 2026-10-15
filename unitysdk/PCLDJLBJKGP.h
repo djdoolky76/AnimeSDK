@@ -11,6 +11,8 @@ namespace System { class String; }
 #define PCLDJLBJKGP_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0xC002CC0)
 #define PCLDJLBJKGP_TOSTRING_OFFSET UNITYSDK_OFFSET(0xC003050)
 
+inline static constexpr unsigned int PCLDJLBJKGP_TypeDefinitionIndex = 82137;
+
 	class PCLDJLBJKGP : public ::System::Object
 	{
 	public:

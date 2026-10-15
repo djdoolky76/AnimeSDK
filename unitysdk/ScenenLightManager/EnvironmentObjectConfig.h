@@ -7,6 +7,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace ScenenLightManager
 {
+	inline static constexpr unsigned int EnvironmentObjectConfig_TypeDefinitionIndex = 49051;
+
 	class EnvironmentObjectConfig : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierConsumeItemConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierConsumeItemConfig_TypeDefinitionIndex = 17979;
+
 	class RogueModifierConsumeItemConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

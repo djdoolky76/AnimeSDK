@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define ABLBFIGHCLE_JOKCJKOHIAJ_OFFSET UNITYSDK_OFFSET(0xB105FF0)
 #define ABLBFIGHCLE_MJEGFOMAOFH_OFFSET UNITYSDK_OFFSET(0xB1061E0)
 
+inline static constexpr unsigned int ABLBFIGHCLE_TypeDefinitionIndex = 61956;
+
 	class ABLBFIGHCLE : public ::System::Object
 	{
 	public:

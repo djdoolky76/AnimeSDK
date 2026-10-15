@@ -32,6 +32,8 @@ namespace System { class String; }
 #define MBLAIDFENOE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9E7C90)
 #define MBLAIDFENOE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E9E7CF0)
 
+inline static constexpr unsigned int MBLAIDFENOE_TypeDefinitionIndex = 34598;
+
 	class MBLAIDFENOE : public ::System::Object
 	{
 	public:

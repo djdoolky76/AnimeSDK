@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LoadLittleGameArea_TypeDefinitionIndex = 20995;
+
 	class LoadLittleGameArea : public ::RPG::GameCore::TaskConfig
 	{
 	public:

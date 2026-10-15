@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvEntityResetTransform_TypeDefinitionIndex = 20549;
+
 	class AdvEntityResetTransform : public ::RPG::GameCore::TaskConfig
 	{
 	public:

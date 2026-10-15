@@ -11,6 +11,8 @@ namespace RPG::GameCore { class DynamicString; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CreateLevelAreas_TypeDefinitionIndex = 20747;
+
 	class CreateLevelAreas : public ::RPG::GameCore::TaskConfig
 	{
 	public:

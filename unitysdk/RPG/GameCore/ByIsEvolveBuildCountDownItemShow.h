@@ -13,6 +13,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByIsEvolveBuildCountDownItemShow_TypeDefinitionIndex = 24366;
+
 	class ByIsEvolveBuildCountDownItemShow : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

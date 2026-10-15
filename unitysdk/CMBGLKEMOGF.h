@@ -32,6 +32,8 @@ namespace System { class String; }
 #define CMBGLKEMOGF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E0FF790)
 #define CMBGLKEMOGF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E0FF7F0)
 
+inline static constexpr unsigned int CMBGLKEMOGF_TypeDefinitionIndex = 31509;
+
 	class CMBGLKEMOGF : public ::System::Object
 	{
 	public:

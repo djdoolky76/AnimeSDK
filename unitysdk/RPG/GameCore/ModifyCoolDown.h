@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ModifyCoolDown_TypeDefinitionIndex = 22601;
+
 	class ModifyCoolDown : public ::RPG::GameCore::TaskConfig
 	{
 	public:

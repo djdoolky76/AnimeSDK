@@ -13,6 +13,8 @@ namespace System::ComponentModel { class DefaultPropertyAttribute; }
 
 namespace System::ComponentModel
 {
+	inline static constexpr unsigned int DefaultPropertyAttribute_TypeDefinitionIndex = 2578;
+
 	class DefaultPropertyAttribute : public ::System::Attribute
 	{
 	public:

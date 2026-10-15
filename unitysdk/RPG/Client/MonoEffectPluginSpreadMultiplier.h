@@ -17,6 +17,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEffectPluginSpreadMultiplier_TypeDefinitionIndex = 70114;
+
 	class MonoEffectPluginSpreadMultiplier : public ::RPG::Client::MonoEffectPluginBase
 	{
 	public:

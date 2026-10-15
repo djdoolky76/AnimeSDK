@@ -18,6 +18,8 @@ namespace RPG::GameCore { class TutorialNotify; }
 #define MOCPNCNDJMF_POEJHNPFGOC_OFFSET UNITYSDK_OFFSET(0xBA258D0)
 #define MOCPNCNDJMF_TICK_OFFSET UNITYSDK_OFFSET(0xBA26CF0)
 
+inline static constexpr unsigned int MOCPNCNDJMF_TypeDefinitionIndex = 58826;
+
 	class MOCPNCNDJMF : public ::GELIALJDFBL
 	{
 	public:

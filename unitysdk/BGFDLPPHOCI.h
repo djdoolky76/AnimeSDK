@@ -42,6 +42,8 @@ namespace System::IO { class StreamWriter; }
 #define BGFDLPPHOCI_PKOODBKBDAN_OFFSET UNITYSDK_OFFSET(0xB17D3C0)
 #define BGFDLPPHOCI_SET_ENABLERECORD_OFFSET UNITYSDK_OFFSET(0xB17D390)
 
+inline static constexpr unsigned int BGFDLPPHOCI_TypeDefinitionIndex = 75903;
+
 	class BGFDLPPHOCI : public ::System::Object
 	{
 	public:

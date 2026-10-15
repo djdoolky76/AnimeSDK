@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::Base::GoodsPlatform
 {
+	inline static constexpr unsigned int ThirdpartyStore___c__DisplayClass16_2_TypeDefinitionIndex = 8853;
+
 	template <typename T1, typename T2>
 	class ThirdpartyStore___c__DisplayClass16_2 : public ::System::Object
 	{

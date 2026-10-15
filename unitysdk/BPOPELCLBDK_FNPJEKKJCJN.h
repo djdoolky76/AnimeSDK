@@ -1,6 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
+inline static constexpr unsigned int BPOPELCLBDK_FNPJEKKJCJN_TypeDefinitionIndex = 57005;
+
 	struct alignas(4) BPOPELCLBDK_FNPJEKKJCJN
 	{
 		::System::Boolean IOBJFEJFLJP; // 0x10

@@ -4,6 +4,8 @@
 
 #define JAFEKIICGHB_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB8AA50)
 
+inline static constexpr unsigned int JAFEKIICGHB_TypeDefinitionIndex = 42366;
+
 	class JAFEKIICGHB : public ::System::Object
 	{
 	public:

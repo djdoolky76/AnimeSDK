@@ -10,6 +10,8 @@ namespace RPG::GameCore { class PlayerParamLineupAvatarConsumeHpCountConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PlayerParamLineupAvatarConsumeHpCountConfig_TypeDefinitionIndex = 19568;
+
 	class PlayerParamLineupAvatarConsumeHpCountConfig : public ::RPG::GameCore::PlayerParameterConfigBase
 	{
 	public:

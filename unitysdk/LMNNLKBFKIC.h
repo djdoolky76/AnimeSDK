@@ -5,6 +5,8 @@ class MJFEDNFDKDO;
 
 #define LMNNLKBFKIC_CTOR_OFFSET UNITYSDK_OFFSET(0x1C91C080)
 
+inline static constexpr unsigned int LMNNLKBFKIC_TypeDefinitionIndex = 42557;
+
 	class LMNNLKBFKIC : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace RPG::Client { class FightFestCoachSkill; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FightFestModule___c__DisplayClass148_0_TypeDefinitionIndex = 64189;
+
 	class FightFestModule___c__DisplayClass148_0 : public ::System::Object
 	{
 	public:

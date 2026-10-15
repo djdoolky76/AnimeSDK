@@ -11,6 +11,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ElationActivityData_TypeDefinitionIndex = 61613;
+
 	class ElationActivityData : public ::RPG::Client::ActivityPanelData
 	{
 	public:

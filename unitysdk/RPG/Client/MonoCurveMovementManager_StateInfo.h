@@ -7,6 +7,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoCurveMovementManager_StateInfo_TypeDefinitionIndex = 68547;
+
 	struct alignas(4) MonoCurveMovementManager_StateInfo
 	{
 		::RPG::Client::CurveEdgePointSetting fromSetting; // 0x10

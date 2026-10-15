@@ -29,6 +29,8 @@ namespace System { class String; }
 #define HOGJECBMFHD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E5E7D60)
 #define HOGJECBMFHD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E5E7DC0)
 
+inline static constexpr unsigned int HOGJECBMFHD_TypeDefinitionIndex = 29162;
+
 	class HOGJECBMFHD : public ::System::Object
 	{
 	public:

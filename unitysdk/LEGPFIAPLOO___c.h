@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define LEGPFIAPLOO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E92FD50)
 #define LEGPFIAPLOO___C___CCTOR_B__43_0_OFFSET UNITYSDK_OFFSET(0x1E92FD60)
 
+inline static constexpr unsigned int LEGPFIAPLOO___c_TypeDefinitionIndex = 29479;
+
 	class LEGPFIAPLOO___c : public ::System::Object
 	{
 	public:

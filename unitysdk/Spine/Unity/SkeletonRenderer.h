@@ -65,6 +65,8 @@ namespace UnityEngine { class MeshRenderer; }
 
 namespace Spine::Unity
 {
+	inline static constexpr unsigned int SkeletonRenderer_TypeDefinitionIndex = 45045;
+
 	class SkeletonRenderer : public ::UnityEngine::MonoBehaviour
 	{
 	public:

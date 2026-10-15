@@ -29,6 +29,8 @@ namespace System { class String; }
 #define CCOHBABCHAI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E07DFB0)
 #define CCOHBABCHAI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E07E010)
 
+inline static constexpr unsigned int CCOHBABCHAI_TypeDefinitionIndex = 31097;
+
 	class CCOHBABCHAI : public ::System::Object
 	{
 	public:

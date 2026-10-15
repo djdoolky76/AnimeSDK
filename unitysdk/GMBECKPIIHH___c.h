@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define GMBECKPIIHH___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E4C98D0)
 #define GMBECKPIIHH___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E4C98E0)
 
+inline static constexpr unsigned int GMBECKPIIHH___c_TypeDefinitionIndex = 34922;
+
 	class GMBECKPIIHH___c : public ::System::Object
 	{
 	public:

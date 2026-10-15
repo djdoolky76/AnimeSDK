@@ -30,6 +30,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ItemComposeLimitHintPart_TypeDefinitionIndex = 65748;
+
 	class ItemComposeLimitHintPart : public ::System::Object
 	{
 	public:

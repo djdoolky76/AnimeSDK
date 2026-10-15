@@ -25,6 +25,8 @@ namespace System { class String; }
 #define CAFBLIGHAMO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E0586E0)
 #define CAFBLIGHAMO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E058740)
 
+inline static constexpr unsigned int CAFBLIGHAMO_TypeDefinitionIndex = 34315;
+
 	class CAFBLIGHAMO : public ::System::Object
 	{
 	public:

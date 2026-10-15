@@ -9,6 +9,8 @@ namespace RPG::GameCore { class DrinkMakerLayerRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DrinkMakerLayerRow_TypeDefinitionIndex = 13168;
+
 	class DrinkMakerLayerRow : public ::System::Object
 	{
 	public:

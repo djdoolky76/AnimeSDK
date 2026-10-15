@@ -14,6 +14,8 @@ namespace UnityEngine::Rendering { class CommandBuffer; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SimpRTXSystemMonoPlugin_TypeDefinitionIndex = 70951;
+
 	class SimpRTXSystemMonoPlugin
 	{
 	public:

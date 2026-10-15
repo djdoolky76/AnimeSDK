@@ -10,6 +10,8 @@
 #define LDAPJCKOHNN_GET_TYPE_OFFSET UNITYSDK_OFFSET(0xB61B420)
 #define LDAPJCKOHNN_JAILHGGFLDH_OFFSET UNITYSDK_OFFSET(0xB61B430)
 
+inline static constexpr unsigned int LDAPJCKOHNN_TypeDefinitionIndex = 56108;
+
 	class LDAPJCKOHNN : public ::DBGDNLLDPFI
 	{
 	public:

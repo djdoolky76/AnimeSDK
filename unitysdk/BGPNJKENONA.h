@@ -25,6 +25,8 @@ namespace System { class String; }
 #define BGPNJKENONA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DDF1D20)
 #define BGPNJKENONA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DDF1D80)
 
+inline static constexpr unsigned int BGPNJKENONA_TypeDefinitionIndex = 26075;
+
 	class BGPNJKENONA : public ::System::Object
 	{
 	public:

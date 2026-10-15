@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetControlSkillMapping_TypeDefinitionIndex = 22711;
+
 	class SetControlSkillMapping : public ::RPG::GameCore::TaskConfig
 	{
 	public:

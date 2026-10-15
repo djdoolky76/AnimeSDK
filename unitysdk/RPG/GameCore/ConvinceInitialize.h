@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ConvinceInitialize_TypeDefinitionIndex = 21832;
+
 	class ConvinceInitialize : public ::RPG::GameCore::TaskConfig
 	{
 	public:

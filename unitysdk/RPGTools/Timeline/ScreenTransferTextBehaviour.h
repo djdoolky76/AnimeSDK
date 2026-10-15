@@ -6,6 +6,8 @@
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int ScreenTransferTextBehaviour_TypeDefinitionIndex = 48219;
+
 	class ScreenTransferTextBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

@@ -14,6 +14,8 @@ class OCGCEFDKIEA;
 #define GOFDBPOPMAJ_KNNALBFIBEA_OFFSET UNITYSDK_OFFSET(0x15B2D700)
 #define GOFDBPOPMAJ_MOAFGAJHCLE_OFFSET UNITYSDK_OFFSET(0x15B2D4E0)
 
+inline static constexpr unsigned int GOFDBPOPMAJ_TypeDefinitionIndex = 63890;
+
 	class GOFDBPOPMAJ : public ::System::Object
 	{
 	public:

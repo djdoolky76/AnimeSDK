@@ -23,6 +23,8 @@ namespace RPG::GameCore { class RestaurantMessageConfigRow; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ElfSelectEventMessageData_TypeDefinitionIndex = 63671;
+
 	class ElfSelectEventMessageData : public ::System::Object
 	{
 	public:

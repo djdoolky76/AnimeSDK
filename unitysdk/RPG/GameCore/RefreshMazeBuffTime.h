@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RefreshMazeBuffTime_TypeDefinitionIndex = 20187;
+
 	class RefreshMazeBuffTime : public ::RPG::GameCore::TaskConfig
 	{
 	public:

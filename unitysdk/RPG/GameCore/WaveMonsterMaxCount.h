@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaveMonsterMaxCount_TypeDefinitionIndex = 23398;
+
 	class WaveMonsterMaxCount : public ::RPG::GameCore::TaskConfig
 	{
 	public:

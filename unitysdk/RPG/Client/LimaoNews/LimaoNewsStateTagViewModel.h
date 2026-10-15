@@ -11,6 +11,8 @@
 
 namespace RPG::Client::LimaoNews
 {
+	inline static constexpr unsigned int LimaoNewsStateTagViewModel_TypeDefinitionIndex = 80418;
+
 	class LimaoNewsStateTagViewModel : public ::Sofa::BaseViewModel
 	{
 	public:

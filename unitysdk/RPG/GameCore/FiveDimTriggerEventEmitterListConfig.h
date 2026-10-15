@@ -11,6 +11,8 @@ namespace RPG::GameCore { class FiveDimTriggerEventEmitterListConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimTriggerEventEmitterListConfig_TypeDefinitionIndex = 18639;
+
 	class FiveDimTriggerEventEmitterListConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
 	public:

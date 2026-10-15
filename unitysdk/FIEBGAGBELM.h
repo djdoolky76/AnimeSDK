@@ -12,6 +12,8 @@ namespace System { class Type; }
 #define FIEBGAGBELM_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x3C52720)
 #define FIEBGAGBELM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3C52640)
 
+inline static constexpr unsigned int FIEBGAGBELM_TypeDefinitionIndex = 44282;
+
 	struct alignas(8) FIEBGAGBELM
 	{
 		::System::Type* BBJDHCHNAKN; // 0x10

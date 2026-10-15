@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int HelpURLAttribute_TypeDefinitionIndex = 4310;
+
 	class HelpURLAttribute : public ::System::Attribute
 	{
 	public:

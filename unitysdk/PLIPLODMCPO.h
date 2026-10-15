@@ -7,6 +7,8 @@ namespace RPG::GameCore { class FiveDimGravityFieldRingConfig; }
 #define PLIPLODMCPO_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C9F65D0)
 #define PLIPLODMCPO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9F6630)
 
+inline static constexpr unsigned int PLIPLODMCPO_TypeDefinitionIndex = 43512;
+
 	class PLIPLODMCPO : public ::System::Object
 	{
 	public:

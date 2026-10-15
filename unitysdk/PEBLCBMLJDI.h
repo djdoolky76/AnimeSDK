@@ -10,6 +10,8 @@ namespace RPG::Client::LittleGame { class ElfRestaurantGameEntity; }
 #define PEBLCBMLJDI_CTOR_OFFSET UNITYSDK_OFFSET(0xC032C80)
 #define PEBLCBMLJDI_EXECUTE_OFFSET UNITYSDK_OFFSET(0xC032D50)
 
+inline static constexpr unsigned int PEBLCBMLJDI_TypeDefinitionIndex = 77274;
+
 	class PEBLCBMLJDI : public ::System::Object
 	{
 	public:

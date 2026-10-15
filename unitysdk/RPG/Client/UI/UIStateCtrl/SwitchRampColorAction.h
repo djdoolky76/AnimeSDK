@@ -11,6 +11,8 @@ namespace UnityEngine::UI { class IRampColor; }
 
 namespace RPG::Client::UI::UIStateCtrl
 {
+	inline static constexpr unsigned int SwitchRampColorAction_TypeDefinitionIndex = 74061;
+
 	class SwitchRampColorAction : public ::RPG::Client::UI::UIStateCtrl::InstantAction
 	{
 	public:

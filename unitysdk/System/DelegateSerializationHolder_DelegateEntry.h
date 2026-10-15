@@ -12,6 +12,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System
 {
+	inline static constexpr unsigned int DelegateSerializationHolder_DelegateEntry_TypeDefinitionIndex = 390;
+
 	class DelegateSerializationHolder_DelegateEntry : public ::System::Object
 	{
 	public:

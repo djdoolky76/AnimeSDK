@@ -3,6 +3,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int EventType_TypeDefinitionIndex = 5161;
+
 	enum class EventType : ::System::Int32
 	{
 		MouseDown = 0,

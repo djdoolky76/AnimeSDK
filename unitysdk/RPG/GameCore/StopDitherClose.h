@@ -10,6 +10,8 @@ namespace RPG::GameCore { class StopDitherClose; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StopDitherClose_TypeDefinitionIndex = 20629;
+
 	class StopDitherClose : public ::RPG::GameCore::TaskConfig
 	{
 	public:

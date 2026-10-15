@@ -3,6 +3,8 @@
 
 namespace RPG::Client::LittleGameShare
 {
+	inline static constexpr unsigned int StateTreePhase_TypeDefinitionIndex = 36967;
+
 	enum class StateTreePhase : ::System::Int32
 	{
 		Ready = 0,

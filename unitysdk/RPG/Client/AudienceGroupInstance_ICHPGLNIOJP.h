@@ -11,6 +11,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AudienceGroupInstance_ICHPGLNIOJP_TypeDefinitionIndex = 69144;
+
 	class AudienceGroupInstance_ICHPGLNIOJP : public ::RPG::Client::AudienceGroupInstance_FJBBJCJGFNF
 	{
 	public:

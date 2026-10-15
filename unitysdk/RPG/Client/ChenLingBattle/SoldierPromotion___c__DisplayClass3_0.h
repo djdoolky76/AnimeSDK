@@ -8,6 +8,8 @@ namespace RPG::Client::ChenLingBattle { class Condition; }
 
 namespace RPG::Client::ChenLingBattle
 {
+	inline static constexpr unsigned int SoldierPromotion___c__DisplayClass3_0_TypeDefinitionIndex = 76374;
+
 	class SoldierPromotion___c__DisplayClass3_0 : public ::System::Object
 	{
 	public:

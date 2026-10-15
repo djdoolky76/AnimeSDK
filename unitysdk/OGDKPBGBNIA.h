@@ -7,6 +7,8 @@ class DABODGCJPHG;
 #define OGDKPBGBNIA_CTOR_OFFSET UNITYSDK_OFFSET(0xBE54E30)
 #define OGDKPBGBNIA_MGFLFCHMGPA_OFFSET UNITYSDK_OFFSET(0xBE54E40)
 
+inline static constexpr unsigned int OGDKPBGBNIA_TypeDefinitionIndex = 78252;
+
 	class OGDKPBGBNIA : public ::KNFCEJEJINK
 	{
 	public:

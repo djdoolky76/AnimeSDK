@@ -14,6 +14,8 @@ namespace UnityEngine::Events { class UnityEvent; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FightFestInputHandler_TypeDefinitionIndex = 64186;
+
 	class FightFestInputHandler : public ::UnityEngine::MonoBehaviour
 	{
 	public:

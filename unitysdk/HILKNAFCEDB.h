@@ -47,6 +47,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define HILKNAFCEDB_OVERRIDEDISPLAY_OFFSET UNITYSDK_OFFSET(0x15CF7CA0)
 #define HILKNAFCEDB_SET_ROW_OFFSET UNITYSDK_OFFSET(0x15CF7990)
 
+inline static constexpr unsigned int HILKNAFCEDB_TypeDefinitionIndex = 56923;
+
 	class HILKNAFCEDB : public ::System::Object
 	{
 	public:

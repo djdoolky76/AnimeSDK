@@ -3,6 +3,8 @@
 
 namespace UnityEngine::Formats::Alembic::Sdk
 {
+	inline static constexpr unsigned int aiPropertyType_TypeDefinitionIndex = 45805;
+
 	enum class aiPropertyType : ::System::Int32
 	{
 		Unknown = 0,

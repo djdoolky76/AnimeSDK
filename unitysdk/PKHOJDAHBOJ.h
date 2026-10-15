@@ -9,6 +9,8 @@ namespace System::ComponentModel { class PropertyChangedEventArgs; }
 #define PKHOJDAHBOJ_LNEPAFGAPJH_OFFSET UNITYSDK_OFFSET(0xC2BB5F0)
 #define PKHOJDAHBOJ_NGEJHKGHOEK_OFFSET UNITYSDK_OFFSET(0xC2BB490)
 
+inline static constexpr unsigned int PKHOJDAHBOJ_TypeDefinitionIndex = 65137;
+
 	class PKHOJDAHBOJ : public ::KKPPDDOFADO
 	{
 	public:

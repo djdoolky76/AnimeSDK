@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define FAIFIHKELEO_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1567C720)
 #define FAIFIHKELEO_TICK_OFFSET UNITYSDK_OFFSET(0x1567C300)
 
+inline static constexpr unsigned int FAIFIHKELEO_TypeDefinitionIndex = 55655;
+
 	class FAIFIHKELEO : public ::GELIALJDFBL
 	{
 	public:

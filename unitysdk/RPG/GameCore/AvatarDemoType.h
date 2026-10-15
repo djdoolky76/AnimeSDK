@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AvatarDemoType_TypeDefinitionIndex = 12773;
+
 	enum class AvatarDemoType : ::System::Int32
 	{
 		Activity = 0,

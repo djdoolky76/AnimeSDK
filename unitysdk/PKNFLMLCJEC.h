@@ -4,6 +4,8 @@
 
 #define PKNFLMLCJEC_CTOR_OFFSET UNITYSDK_OFFSET(0xC2E7BC0)
 
+inline static constexpr unsigned int PKNFLMLCJEC_TypeDefinitionIndex = 61276;
+
 	class PKNFLMLCJEC : public ::System::Exception
 	{
 	public:

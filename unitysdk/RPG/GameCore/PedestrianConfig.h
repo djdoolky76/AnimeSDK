@@ -9,6 +9,8 @@ namespace RPG::GameCore { class PedestrianConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PedestrianConfig_TypeDefinitionIndex = 17622;
+
 	class PedestrianConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

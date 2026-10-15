@@ -10,6 +10,8 @@ namespace RPG::GameCore { class BaseLittleGameAbilityTargetSelectorConfig; }
 #define GOOGNAIABBN_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CE75F50)
 #define GOOGNAIABBN_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CE75F10)
 
+inline static constexpr unsigned int GOOGNAIABBN_TypeDefinitionIndex = 21394;
+
 	class GOOGNAIABBN : public ::RPG::GameCore::BaseLittleGameAbilityTaskConfig
 	{
 	public:

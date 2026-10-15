@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetSkillTextDialogType_TypeDefinitionIndex = 22935;
+
 	class SetSkillTextDialogType : public ::RPG::GameCore::TaskConfig
 	{
 	public:

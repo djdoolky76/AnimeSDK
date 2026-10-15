@@ -4,6 +4,8 @@
 
 namespace RPG::Client::LittleGame
 {
+	inline static constexpr unsigned int TimelineControlGameWorld_MovePath_TypeDefinitionIndex = 42512;
+
 	struct alignas(4) TimelineControlGameWorld_MovePath
 	{
 		::System::Single CostTime; // 0x10

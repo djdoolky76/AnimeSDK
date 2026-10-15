@@ -30,6 +30,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define LBPCONKMBIK_SET_PASSEDLEVEL_OFFSET UNITYSDK_OFFSET(0xB60DFE0)
 #define LBPCONKMBIK_SET_TEAM_OFFSET UNITYSDK_OFFSET(0xB60DFC0)
 
+inline static constexpr unsigned int LBPCONKMBIK_TypeDefinitionIndex = 63851;
+
 	class LBPCONKMBIK : public ::System::Object
 	{
 	public:

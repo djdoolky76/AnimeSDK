@@ -10,6 +10,8 @@ namespace RPG::GameCore { class AIVariableValueSource; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AIVariableValueSource_TypeDefinitionIndex = 15612;
+
 	class AIVariableValueSource : public ::RPG::GameCore::JsonConfig
 	{
 	public:

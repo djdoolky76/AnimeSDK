@@ -33,6 +33,8 @@ namespace System { class String; }
 #define LFMDOOIGGHK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E945C60)
 #define LFMDOOIGGHK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E945CC0)
 
+inline static constexpr unsigned int LFMDOOIGGHK_TypeDefinitionIndex = 33585;
+
 	class LFMDOOIGGHK : public ::System::Object
 	{
 	public:

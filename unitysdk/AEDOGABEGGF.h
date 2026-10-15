@@ -8,6 +8,8 @@ class EEKIILDAMOL;
 #define AEDOGABEGGF_CTOR_OFFSET UNITYSDK_OFFSET(0xB14CAB0)
 #define AEDOGABEGGF_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0xB14CAD0)
 
+inline static constexpr unsigned int AEDOGABEGGF_TypeDefinitionIndex = 60344;
+
 	class AEDOGABEGGF : public ::EFNJLACKEDH
 	{
 	public:

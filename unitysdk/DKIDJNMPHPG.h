@@ -5,6 +5,8 @@ class FDPALAEIHPB;
 
 #define DKIDJNMPHPG_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA2E9A0)
 
+inline static constexpr unsigned int DKIDJNMPHPG_TypeDefinitionIndex = 42386;
+
 	class DKIDJNMPHPG : public ::HLFHMKMJNPK
 	{
 	public:

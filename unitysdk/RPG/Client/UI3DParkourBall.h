@@ -27,6 +27,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UI3DParkourBall_TypeDefinitionIndex = 61864;
+
 	class UI3DParkourBall : public ::System::Object
 	{
 	public:

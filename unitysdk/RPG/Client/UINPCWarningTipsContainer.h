@@ -31,6 +31,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UINPCWarningTipsContainer_TypeDefinitionIndex = 69104;
+
 	class UINPCWarningTipsContainer : public ::UnityEngine::MonoBehaviour
 	{
 	public:

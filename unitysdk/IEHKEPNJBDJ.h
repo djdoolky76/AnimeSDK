@@ -10,6 +10,8 @@ class JBFGHNLMEDI;
 #define IEHKEPNJBDJ_CTOR_OFFSET UNITYSDK_OFFSET(0x15EFC430)
 #define IEHKEPNJBDJ_OKPLPEELPBC_OFFSET UNITYSDK_OFFSET(0x15EFC440)
 
+inline static constexpr unsigned int IEHKEPNJBDJ_TypeDefinitionIndex = 76416;
+
 	class IEHKEPNJBDJ : public ::HALHKJLBIKJ
 	{
 	public:

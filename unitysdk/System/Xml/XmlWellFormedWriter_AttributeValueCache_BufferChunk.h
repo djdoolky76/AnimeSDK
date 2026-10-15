@@ -6,6 +6,8 @@
 
 namespace System::Xml
 {
+	inline static constexpr unsigned int XmlWellFormedWriter_AttributeValueCache_BufferChunk_TypeDefinitionIndex = 1883;
+
 	class XmlWellFormedWriter_AttributeValueCache_BufferChunk : public ::System::Object
 	{
 	public:

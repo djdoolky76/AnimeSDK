@@ -4,6 +4,8 @@
 
 #define NJDPCNLGPML_CTOR_OFFSET UNITYSDK_OFFSET(0x1D2156C0)
 
+inline static constexpr unsigned int NJDPCNLGPML_TypeDefinitionIndex = 25008;
+
 	class NJDPCNLGPML : public ::KODIMAJKOMJ
 	{
 	public:

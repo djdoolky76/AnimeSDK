@@ -4,6 +4,8 @@
 
 #define HEPGNMDHHGM_CTOR_OFFSET UNITYSDK_OFFSET(0x15C64840)
 
+inline static constexpr unsigned int HEPGNMDHHGM_TypeDefinitionIndex = 56952;
+
 	class HEPGNMDHHGM : public ::System::Object
 	{
 	public:

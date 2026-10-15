@@ -9,6 +9,8 @@
 #define DNLGHEHJOCC_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0x11FD7520)
 #define DNLGHEHJOCC_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0x11FD76C0)
 
+inline static constexpr unsigned int DNLGHEHJOCC_TypeDefinitionIndex = 72739;
+
 	class DNLGHEHJOCC : public ::System::Object
 	{
 	public:

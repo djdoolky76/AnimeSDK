@@ -10,6 +10,8 @@ class GJPIDDDMDDK;
 #define GJPIDDDMDDK_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CE5AA30)
 #define GJPIDDDMDDK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CE5A9F0)
 
+inline static constexpr unsigned int GJPIDDDMDDK_TypeDefinitionIndex = 23246;
+
 	class GJPIDDDMDDK : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueTournBuildRefTeamData_TypeDefinitionIndex = 67533;
+
 	class RogueTournBuildRefTeamData : public ::System::Object
 	{
 	public:

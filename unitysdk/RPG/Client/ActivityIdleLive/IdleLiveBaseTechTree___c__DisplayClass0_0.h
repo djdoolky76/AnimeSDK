@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int IdleLiveBaseTechTree___c__DisplayClass0_0_TypeDefinitionIndex = 75400;
+
 	class IdleLiveBaseTechTree___c__DisplayClass0_0 : public ::System::Object
 	{
 	public:

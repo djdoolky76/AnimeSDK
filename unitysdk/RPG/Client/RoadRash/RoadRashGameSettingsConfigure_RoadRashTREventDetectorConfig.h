@@ -6,6 +6,8 @@
 
 namespace RPG::Client::RoadRash
 {
+	inline static constexpr unsigned int RoadRashGameSettingsConfigure_RoadRashTREventDetectorConfig_TypeDefinitionIndex = 75900;
+
 	class RoadRashGameSettingsConfigure_RoadRashTREventDetectorConfig : public ::System::Object
 	{
 	public:

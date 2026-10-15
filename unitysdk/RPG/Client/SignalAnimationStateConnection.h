@@ -17,6 +17,8 @@ namespace RPG::Client { class SignalAnimationState; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SignalAnimationStateConnection_TypeDefinitionIndex = 70975;
+
 	class SignalAnimationStateConnection : public ::System::Object
 	{
 	public:

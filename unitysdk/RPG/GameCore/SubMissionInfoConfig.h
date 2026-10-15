@@ -28,6 +28,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SubMissionInfoConfig_TypeDefinitionIndex = 15472;
+
 	class SubMissionInfoConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

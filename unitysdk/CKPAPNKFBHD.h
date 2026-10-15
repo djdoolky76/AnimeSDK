@@ -25,6 +25,8 @@ namespace System { class String; }
 #define CKPAPNKFBHD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E0EF5B0)
 #define CKPAPNKFBHD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E0EF610)
 
+inline static constexpr unsigned int CKPAPNKFBHD_TypeDefinitionIndex = 28650;
+
 	class CKPAPNKFBHD : public ::System::Object
 	{
 	public:

@@ -53,6 +53,8 @@ namespace UnityEngine { class Transform; }
 #define EDITORLIGHTPREVIEWER_STARTPREVIEW_OFFSET UNITYSDK_OFFSET(0x155DD130)
 #define EDITORLIGHTPREVIEWER_UPDATE_OFFSET UNITYSDK_OFFSET(0x155DB760)
 
+inline static constexpr unsigned int EditorLightPreviewer_TypeDefinitionIndex = 47342;
+
 	class EditorLightPreviewer : public ::UnityEngine::MonoBehaviour
 	{
 	public:

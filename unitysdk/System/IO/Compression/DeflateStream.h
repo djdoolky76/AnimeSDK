@@ -37,6 +37,8 @@ namespace System::IO::Compression { class DeflateStreamNative; }
 
 namespace System::IO::Compression
 {
+	inline static constexpr unsigned int DeflateStream_TypeDefinitionIndex = 2717;
+
 	class DeflateStream : public ::System::IO::Stream
 	{
 	public:

@@ -11,6 +11,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int GravityBallObstacle_TypeDefinitionIndex = 78594;
+
 	class GravityBallObstacle : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System { class Object; }
 #define PHPFBBDLPNL_GDPCFEDMCHC_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xC2599F0)
 #define PHPFBBDLPNL_GDPCFEDMCHC_INVOKE_OFFSET UNITYSDK_OFFSET(0xC259940)
 
+inline static constexpr unsigned int PHPFBBDLPNL_GDPCFEDMCHC_TypeDefinitionIndex = 57137;
+
 	class PHPFBBDLPNL_GDPCFEDMCHC : public ::System::MulticastDelegate
 	{
 	public:

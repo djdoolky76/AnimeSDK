@@ -6,6 +6,8 @@
 #define FKKMDDFDDDI_NDFCJNAMFJG_OFFSET UNITYSDK_OFFSET(0x3C47A90)
 #define FKKMDDFDDDI_PEFLJDOKOIL_OFFSET UNITYSDK_OFFSET(0x3C47A20)
 
+inline static constexpr unsigned int FKKMDDFDDDI_TypeDefinitionIndex = 6254;
+
 	struct alignas(4) FKKMDDFDDDI
 	{
 		::Dest::Math::IntersectionTypes DLMLMAGCHJK; // 0x10

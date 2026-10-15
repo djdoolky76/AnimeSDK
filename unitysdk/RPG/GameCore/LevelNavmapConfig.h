@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelNavmapConfig_TypeDefinitionIndex = 17226;
+
 	class LevelNavmapConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

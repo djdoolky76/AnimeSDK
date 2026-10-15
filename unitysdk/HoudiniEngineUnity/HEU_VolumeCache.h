@@ -62,6 +62,8 @@ namespace UnityEngine { class Texture2D; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_VolumeCache_TypeDefinitionIndex = 40775;
+
 	class HEU_VolumeCache : public ::UnityEngine::ScriptableObject
 	{
 	public:

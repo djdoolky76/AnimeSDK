@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int IVRCompositor__HideMirrorWindow_TypeDefinitionIndex = 39041;
+
 	class IVRCompositor__HideMirrorWindow : public ::System::MulticastDelegate
 	{
 	public:

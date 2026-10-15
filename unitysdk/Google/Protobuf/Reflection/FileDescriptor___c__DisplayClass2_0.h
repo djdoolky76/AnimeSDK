@@ -17,6 +17,8 @@ namespace Google::Protobuf::Reflection { class ServiceDescriptorProto; }
 
 namespace Google::Protobuf::Reflection
 {
+	inline static constexpr unsigned int FileDescriptor___c__DisplayClass2_0_TypeDefinitionIndex = 5545;
+
 	class FileDescriptor___c__DisplayClass2_0 : public ::System::Object
 	{
 	public:

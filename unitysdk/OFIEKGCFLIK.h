@@ -7,6 +7,8 @@ class NDPFOOJIAIJ;
 #define OFIEKGCFLIK_KLICCELODLB_OFFSET UNITYSDK_OFFSET(0xBE42910)
 #define OFIEKGCFLIK_LKAFOOENJID_OFFSET UNITYSDK_OFFSET(0xBE42970)
 
+inline static constexpr unsigned int OFIEKGCFLIK_TypeDefinitionIndex = 64747;
+
 	class OFIEKGCFLIK : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace RPG::Client::FateRin::RedDot
 {
+	inline static constexpr unsigned int FateRinResidentRewardRedDotFilter_TypeDefinitionIndex = 80741;
+
 	class FateRinResidentRewardRedDotFilter : public ::System::Object
 	{
 	public:

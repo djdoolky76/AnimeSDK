@@ -6,6 +6,8 @@ namespace System { class Action; }
 
 #define EPLKHKBBIDK_CTOR_OFFSET UNITYSDK_OFFSET(0x155D76C0)
 
+inline static constexpr unsigned int EPLKHKBBIDK_TypeDefinitionIndex = 81995;
+
 	class EPLKHKBBIDK : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ class DEBEAKKOHLN;
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SceneShaderPropertyTransition_TypeDefinitionIndex = 68884;
+
 	class SceneShaderPropertyTransition : public ::UnityEngine::MonoBehaviour
 	{
 	public:

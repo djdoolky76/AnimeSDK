@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define MPBKPGBDOMF_CTOR_OFFSET UNITYSDK_OFFSET(0xBA38F40)
 
+inline static constexpr unsigned int MPBKPGBDOMF_TypeDefinitionIndex = 55837;
+
 	class MPBKPGBDOMF : public ::System::Object
 	{
 	public:

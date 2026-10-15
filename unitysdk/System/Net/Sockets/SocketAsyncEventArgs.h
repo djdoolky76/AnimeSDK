@@ -35,6 +35,8 @@ namespace System::Net::Sockets { class SocketAsyncResult; }
 
 namespace System::Net::Sockets
 {
+	inline static constexpr unsigned int SocketAsyncEventArgs_TypeDefinitionIndex = 2918;
+
 	class SocketAsyncEventArgs : public ::System::EventArgs
 	{
 	public:

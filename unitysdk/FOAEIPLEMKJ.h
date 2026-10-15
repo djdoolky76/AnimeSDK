@@ -41,6 +41,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define FOAEIPLEMKJ_PBPMPLNCFFO_OFFSET UNITYSDK_OFFSET(0x158DDB10)
 #define FOAEIPLEMKJ_REMOVE_ONPROGRESSCLEAR_OFFSET UNITYSDK_OFFSET(0x158DE650)
 
+inline static constexpr unsigned int FOAEIPLEMKJ_TypeDefinitionIndex = 81496;
+
 	class FOAEIPLEMKJ : public ::System::Object
 	{
 	public:

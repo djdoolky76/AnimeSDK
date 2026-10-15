@@ -36,6 +36,8 @@ namespace Entitas { template <typename T> class IMatcher_1; }
 #define KKMMAGBGDDK_PCIBFDFMNDI_OFFSET UNITYSDK_OFFSET(0x1C9074A0)
 #define KKMMAGBGDDK_PJEPBOODAMP_OFFSET UNITYSDK_OFFSET(0x1C907140)
 
+inline static constexpr unsigned int KKMMAGBGDDK_TypeDefinitionIndex = 42607;
+
 	class KKMMAGBGDDK : public ::System::Object
 	{
 	public:

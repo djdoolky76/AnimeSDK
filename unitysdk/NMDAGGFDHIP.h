@@ -9,6 +9,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define NMDAGGFDHIP_GET_FLAG_OFFSET UNITYSDK_OFFSET(0xBC81C00)
 #define NMDAGGFDHIP_LICLBMEDGJM_OFFSET UNITYSDK_OFFSET(0xBC81AE0)
 
+inline static constexpr unsigned int NMDAGGFDHIP_TypeDefinitionIndex = 57026;
+
 	class NMDAGGFDHIP : public ::BDENDNDOFLF
 	{
 	public:

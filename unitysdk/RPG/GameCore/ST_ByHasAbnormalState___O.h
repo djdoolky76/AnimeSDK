@@ -5,6 +5,8 @@ namespace System { class Object; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ST_ByHasAbnormalState___O_TypeDefinitionIndex = 20082;
+
 	class ST_ByHasAbnormalState___O : public ::System::Object
 	{
 	public:

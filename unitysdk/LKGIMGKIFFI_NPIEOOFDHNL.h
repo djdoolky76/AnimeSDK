@@ -59,6 +59,8 @@ namespace System::Collections::Generic { template <typename T> class ICollection
 #define LKGIMGKIFFI_NPIEOOFDHNL_SETPARENT_OFFSET UNITYSDK_OFFSET(0xB747C40)
 #define LKGIMGKIFFI_NPIEOOFDHNL_SET_TOPCAMERARUNTIMEID_OFFSET UNITYSDK_OFFSET(0xB7488D0)
 
+inline static constexpr unsigned int LKGIMGKIFFI_NPIEOOFDHNL_TypeDefinitionIndex = 76760;
+
 	class LKGIMGKIFFI_NPIEOOFDHNL : public ::System::Object
 	{
 	public:

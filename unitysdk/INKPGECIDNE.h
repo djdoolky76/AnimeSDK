@@ -28,6 +28,8 @@ namespace System { class String; }
 #define INKPGECIDNE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E6C5380)
 #define INKPGECIDNE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E6C53E0)
 
+inline static constexpr unsigned int INKPGECIDNE_TypeDefinitionIndex = 32910;
+
 	class INKPGECIDNE : public ::System::Object
 	{
 	public:

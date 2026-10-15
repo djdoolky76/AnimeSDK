@@ -10,6 +10,8 @@ namespace RPG::GameCore { class WolfBroSetupCameraAxis; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WolfBroSetupCameraAxis_TypeDefinitionIndex = 21586;
+
 	class WolfBroSetupCameraAxis : public ::RPG::GameCore::TaskConfig
 	{
 	public:

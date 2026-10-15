@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ScoringGroupRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ScoringGroupRow_TypeDefinitionIndex = 12884;
+
 	class ScoringGroupRow : public ::System::Object
 	{
 	public:

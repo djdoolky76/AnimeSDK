@@ -9,6 +9,8 @@ namespace System { class Object; }
 #define BPEPLABIOEB_IJOONKNIDKI_OFFSET UNITYSDK_OFFSET(0xC1A4200)
 #define BPEPLABIOEB_MNJBPJFMLJD_OFFSET UNITYSDK_OFFSET(0xC1A4380)
 
+inline static constexpr unsigned int BPEPLABIOEB_TypeDefinitionIndex = 67261;
+
 	class BPEPLABIOEB : public ::System::Object
 	{
 	public:

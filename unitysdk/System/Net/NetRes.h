@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace System::Net
 {
+	inline static constexpr unsigned int NetRes_TypeDefinitionIndex = 2782;
+
 	class NetRes : public ::System::Object
 	{
 	public:

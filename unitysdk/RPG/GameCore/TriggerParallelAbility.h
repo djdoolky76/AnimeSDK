@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TriggerParallelAbility; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TriggerParallelAbility_TypeDefinitionIndex = 22690;
+
 	class TriggerParallelAbility : public ::RPG::GameCore::TaskConfig
 	{
 	public:

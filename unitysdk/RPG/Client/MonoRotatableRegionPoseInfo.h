@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoRotatableRegionPoseInfo_TypeDefinitionIndex = 69047;
+
 	class MonoRotatableRegionPoseInfo : public ::UnityEngine::MonoBehaviour
 	{
 	public:

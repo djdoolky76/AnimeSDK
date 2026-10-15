@@ -14,6 +14,8 @@ namespace UnityEngine { class AnimationCurve; }
 #define PREVIEWTRACKCAMERA_STOPPREVIEWCAMERA_OFFSET UNITYSDK_OFFSET(0xC39C190)
 #define PREVIEWTRACKCAMERA_TICK_OFFSET UNITYSDK_OFFSET(0xC39BFE0)
 
+inline static constexpr unsigned int PreviewTrackCamera_TypeDefinitionIndex = 47278;
+
 	class PreviewTrackCamera : public ::UnityEngine::MonoBehaviour
 	{
 	public:

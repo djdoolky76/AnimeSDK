@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChimeraDuelFriendPvpInfoPacketProxy_TypeDefinitionIndex = 63337;
+
 	class ChimeraDuelFriendPvpInfoPacketProxy : public ::System::Object
 	{
 	public:

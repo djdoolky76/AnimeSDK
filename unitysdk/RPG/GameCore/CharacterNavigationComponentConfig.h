@@ -10,6 +10,8 @@ namespace RPG::GameCore { class CharacterNavigationComponentConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CharacterNavigationComponentConfig_TypeDefinitionIndex = 16565;
+
 	class CharacterNavigationComponentConfig : public ::RPG::GameCore::ComponentConfig
 	{
 	public:

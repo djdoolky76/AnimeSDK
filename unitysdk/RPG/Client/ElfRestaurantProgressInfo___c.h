@@ -13,6 +13,8 @@ namespace System { template <typename T> class Comparison_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ElfRestaurantProgressInfo___c_TypeDefinitionIndex = 63726;
+
 	class ElfRestaurantProgressInfo___c : public ::System::Object
 	{
 	public:

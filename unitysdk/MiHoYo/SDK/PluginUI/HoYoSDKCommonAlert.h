@@ -13,6 +13,8 @@ namespace MiHoYo::SDK::PluginUI { class HoYoSDKCommonAlert; }
 
 namespace MiHoYo::SDK::PluginUI
 {
+	inline static constexpr unsigned int HoYoSDKCommonAlert_TypeDefinitionIndex = 46745;
+
 	class HoYoSDKCommonAlert : public ::MiHoYo::SDK::PluginUI::MiHoYoSDKUIContainer
 	{
 	public:

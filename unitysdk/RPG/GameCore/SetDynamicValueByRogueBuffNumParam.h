@@ -10,6 +10,8 @@ namespace RPG::GameCore { class SetDynamicValueByRogueBuffNumParam; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetDynamicValueByRogueBuffNumParam_TypeDefinitionIndex = 21770;
+
 	class SetDynamicValueByRogueBuffNumParam : public ::RPG::GameCore::SetDynamicValueParamBase
 	{
 	public:

@@ -19,6 +19,8 @@ namespace System::Net::Sockets { class Socket; }
 
 namespace RPG::QA
 {
+	inline static constexpr unsigned int ProfilerSocketSender_TypeDefinitionIndex = 51820;
+
 	class ProfilerSocketSender : public ::System::Object
 	{
 	public:

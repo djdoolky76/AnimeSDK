@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int NotifySetBattleEntityViewActive_TypeDefinitionIndex = 71344;
+
 	class NotifySetBattleEntityViewActive : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace RPG::GameCore { class InclinationTypeRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int InclinationTypeRow_TypeDefinitionIndex = 13807;
+
 	class InclinationTypeRow : public ::System::Object
 	{
 	public:

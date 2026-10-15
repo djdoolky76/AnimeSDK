@@ -10,6 +10,8 @@ namespace UnityEngine::UI { class RawImage; }
 
 namespace Cinemachine
 {
+	inline static constexpr unsigned int CinemachineStoryboard_CanvasInfo_TypeDefinitionIndex = 39756;
+
 	class CinemachineStoryboard_CanvasInfo : public ::System::Object
 	{
 	public:

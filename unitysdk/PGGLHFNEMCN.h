@@ -8,6 +8,8 @@ class JIAJFGCHLJE;
 #define PGGLHFNEMCN_CTOR_OFFSET UNITYSDK_OFFSET(0xC21FCA0)
 #define PGGLHFNEMCN_KMNHKPOABLF_OFFSET UNITYSDK_OFFSET(0xC21FBB0)
 
+inline static constexpr unsigned int PGGLHFNEMCN_TypeDefinitionIndex = 68291;
+
 	class PGGLHFNEMCN : public ::System::Object
 	{
 	public:

@@ -27,6 +27,8 @@ namespace System { class Object; }
 #define OELNEBGJKHO_PBDFCIEGMFD_OFFSET UNITYSDK_OFFSET(0x1C4CCC00)
 #define OELNEBGJKHO_PLCHMLBLIJP_OFFSET UNITYSDK_OFFSET(0x1C4CCE20)
 
+inline static constexpr unsigned int OELNEBGJKHO_TypeDefinitionIndex = 41396;
+
 	class OELNEBGJKHO : public ::System::Object
 	{
 	public:

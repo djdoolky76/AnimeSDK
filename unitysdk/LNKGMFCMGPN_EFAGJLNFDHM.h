@@ -2,6 +2,8 @@
 #include "unitysdk/unitysdk.h"
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
+inline static constexpr unsigned int LNKGMFCMGPN_EFAGJLNFDHM_TypeDefinitionIndex = 81075;
+
 	struct alignas(8) LNKGMFCMGPN_EFAGJLNFDHM
 	{
 		::System::UInt32 KAFEOFKIFEK; // 0x10

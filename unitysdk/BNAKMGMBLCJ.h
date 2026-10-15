@@ -25,6 +25,8 @@ namespace System { class String; }
 #define BNAKMGMBLCJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E030910)
 #define BNAKMGMBLCJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E030970)
 
+inline static constexpr unsigned int BNAKMGMBLCJ_TypeDefinitionIndex = 26861;
+
 	class BNAKMGMBLCJ : public ::System::Object
 	{
 	public:

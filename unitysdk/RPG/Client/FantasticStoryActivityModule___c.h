@@ -20,6 +20,8 @@ namespace System::Collections::Generic { class KeyValuePair; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FantasticStoryActivityModule___c_TypeDefinitionIndex = 63973;
+
 	class FantasticStoryActivityModule___c : public ::System::Object
 	{
 	public:

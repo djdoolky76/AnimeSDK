@@ -31,6 +31,8 @@ namespace System { class String; }
 #define BDMBCADIHLN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E91B5D0)
 #define BDMBCADIHLN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E91B630)
 
+inline static constexpr unsigned int BDMBCADIHLN_TypeDefinitionIndex = 34539;
+
 	class BDMBCADIHLN : public ::System::Object
 	{
 	public:

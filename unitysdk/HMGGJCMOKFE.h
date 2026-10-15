@@ -50,6 +50,8 @@ namespace UnityEngine { class Texture2D; }
 #define HMGGJCMOKFE_PJPHENJCHCB_OFFSET UNITYSDK_OFFSET(0x1EBC60B0)
 #define HMGGJCMOKFE_PLLHCDNBPAL_OFFSET UNITYSDK_OFFSET(0x1EBBFE70)
 
+inline static constexpr unsigned int HMGGJCMOKFE_TypeDefinitionIndex = 44015;
+
 	class HMGGJCMOKFE : public ::System::Object
 	{
 	public:

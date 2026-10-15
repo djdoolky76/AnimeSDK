@@ -9,6 +9,8 @@
 
 namespace UnityEngine::Timeline
 {
+	inline static constexpr unsigned int AudioMixerProperties_TypeDefinitionIndex = 38806;
+
 	class AudioMixerProperties : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

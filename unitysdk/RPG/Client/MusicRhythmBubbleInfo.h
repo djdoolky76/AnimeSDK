@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MusicRhythmBubbleInfo_TypeDefinitionIndex = 60171;
+
 	class MusicRhythmBubbleInfo : public ::System::Object
 	{
 	public:

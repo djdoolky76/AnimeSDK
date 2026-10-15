@@ -93,6 +93,8 @@ namespace UnityEngine::EventSystems { class PointerEventData; }
 #define ECPGBDINBAB_SET_LOOKATCATCONFIGID_OFFSET UNITYSDK_OFFSET(0x133063C0)
 #define ECPGBDINBAB_SET_LOOKATTARGET_OFFSET UNITYSDK_OFFSET(0x133063A0)
 
+inline static constexpr unsigned int ECPGBDINBAB_TypeDefinitionIndex = 78014;
+
 	class ECPGBDINBAB : public ::System::Object
 	{
 	public:

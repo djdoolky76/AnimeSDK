@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TurnBasedAIDecisionResult_TypeDefinitionIndex = 57763;
+
 	enum class TurnBasedAIDecisionResult : ::System::Int32
 	{
 		NoNeed = 0,

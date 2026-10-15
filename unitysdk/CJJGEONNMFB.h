@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define CJJGEONNMFB_DFMPFLDKKHB_OFFSET UNITYSDK_OFFSET(0x1C5D6320)
 #define CJJGEONNMFB_NJHKOILGAAK_OFFSET UNITYSDK_OFFSET(0x1C581C30)
 
+inline static constexpr unsigned int CJJGEONNMFB_TypeDefinitionIndex = 36900;
+
 	class CJJGEONNMFB : public ::JBIAMEODIHF
 	{
 	public:

@@ -13,6 +13,8 @@ namespace UnityEngine { class Terrain; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int Test_Terrain_Extensions___c_TypeDefinitionIndex = 40765;
+
 	class Test_Terrain_Extensions___c : public ::System::Object
 	{
 	public:

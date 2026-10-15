@@ -7,6 +7,8 @@ class OKEBGEBIPNE;
 
 #define AEHPHKBKPJA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C581B10)
 
+inline static constexpr unsigned int AEHPHKBKPJA_TypeDefinitionIndex = 36278;
+
 	class AEHPHKBKPJA : public ::DKFLMHICIJG
 	{
 	public:

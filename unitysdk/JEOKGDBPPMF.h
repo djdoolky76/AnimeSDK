@@ -27,6 +27,8 @@ namespace System { class String; }
 #define JEOKGDBPPMF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E721B70)
 #define JEOKGDBPPMF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E721BD0)
 
+inline static constexpr unsigned int JEOKGDBPPMF_TypeDefinitionIndex = 26551;
+
 	class JEOKGDBPPMF : public ::System::Object
 	{
 	public:

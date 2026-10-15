@@ -8,6 +8,8 @@ class JGMPGPNCAFA;
 #define JGMPGPNCAFA_CTOR_OFFSET UNITYSDK_OFFSET(0xB19F140)
 #define JGMPGPNCAFA_GGBLHEHJBDO_OFFSET UNITYSDK_OFFSET(0xB19F0D0)
 
+inline static constexpr unsigned int JGMPGPNCAFA_TypeDefinitionIndex = 74971;
+
 	class JGMPGPNCAFA : public ::System::Object
 	{
 	public:

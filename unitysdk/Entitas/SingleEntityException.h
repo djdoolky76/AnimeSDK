@@ -6,6 +6,8 @@
 
 namespace Entitas
 {
+	inline static constexpr unsigned int SingleEntityException_TypeDefinitionIndex = 10024;
+
 	class SingleEntityException : public ::Entitas::EntitasException
 	{
 	public:

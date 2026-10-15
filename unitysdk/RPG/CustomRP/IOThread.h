@@ -16,6 +16,8 @@ namespace System::Threading { class Thread; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int IOThread_TypeDefinitionIndex = 37905;
+
 	class IOThread : public ::System::Object
 	{
 	public:

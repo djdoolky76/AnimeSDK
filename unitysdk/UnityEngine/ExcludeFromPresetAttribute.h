@@ -6,6 +6,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int ExcludeFromPresetAttribute_TypeDefinitionIndex = 4313;
+
 	class ExcludeFromPresetAttribute : public ::System::Attribute
 	{
 	public:

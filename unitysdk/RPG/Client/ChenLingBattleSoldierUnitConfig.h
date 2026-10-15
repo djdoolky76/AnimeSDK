@@ -22,6 +22,8 @@ namespace RPG::GameCore { class ChenLingSoldierUnitRow; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChenLingBattleSoldierUnitConfig_TypeDefinitionIndex = 61454;
+
 	class ChenLingBattleSoldierUnitConfig : public ::System::Object
 	{
 	public:

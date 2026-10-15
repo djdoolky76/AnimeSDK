@@ -18,6 +18,8 @@ namespace System { class Object; }
 #define CJADKGEAOGE_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xCF91080)
 #define CJADKGEAOGE___ONHIDELOADINGPAGE_B__8_0_OFFSET UNITYSDK_OFFSET(0xCF917D0)
 
+inline static constexpr unsigned int CJADKGEAOGE_TypeDefinitionIndex = 81494;
+
 	class CJADKGEAOGE : public ::System::Object
 	{
 	public:

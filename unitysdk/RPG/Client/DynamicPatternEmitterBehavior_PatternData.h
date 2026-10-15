@@ -20,6 +20,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int DynamicPatternEmitterBehavior_PatternData_TypeDefinitionIndex = 70895;
+
 	class DynamicPatternEmitterBehavior_PatternData : public ::System::Object
 	{
 	public:

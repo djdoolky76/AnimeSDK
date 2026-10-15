@@ -5,6 +5,8 @@ namespace UnityEngine { class GameObject; }
 
 #define BOUNDARYCAPTUREPROXY_CTOR_OFFSET UNITYSDK_OFFSET(0xC1B7270)
 
+inline static constexpr unsigned int BoundaryCaptureProxy_TypeDefinitionIndex = 47483;
+
 	class BoundaryCaptureProxy
 	{
 	public:

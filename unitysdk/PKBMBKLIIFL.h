@@ -27,6 +27,8 @@ namespace System { class String; }
 #define PKBMBKLIIFL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF871F0)
 #define PKBMBKLIIFL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF87250)
 
+inline static constexpr unsigned int PKBMBKLIIFL_TypeDefinitionIndex = 27862;
+
 	class PKBMBKLIIFL : public ::System::Object
 	{
 	public:

@@ -23,6 +23,8 @@ namespace RPG::Client { class ChallengeSettleConfirmation; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChallengeSettleConfirmation_TypeDefinitionIndex = 63201;
+
 	class ChallengeSettleConfirmation : public ::System::Object
 	{
 	public:

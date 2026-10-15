@@ -19,6 +19,8 @@ namespace System { class Object; }
 #define KPEDJNBDACG_PAPLKANKKPC_OFFSET UNITYSDK_OFFSET(0xB5B4540)
 #define KPEDJNBDACG_TICK_OFFSET UNITYSDK_OFFSET(0xB5B4B50)
 
+inline static constexpr unsigned int KPEDJNBDACG_TypeDefinitionIndex = 58928;
+
 	class KPEDJNBDACG : public ::GELIALJDFBL
 	{
 	public:

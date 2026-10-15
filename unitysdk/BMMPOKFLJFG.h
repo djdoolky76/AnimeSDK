@@ -34,6 +34,8 @@ namespace System { class String; }
 #define BMMPOKFLJFG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E02D4C0)
 #define BMMPOKFLJFG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E02D520)
 
+inline static constexpr unsigned int BMMPOKFLJFG_TypeDefinitionIndex = 30590;
+
 	class BMMPOKFLJFG : public ::System::Object
 	{
 	public:

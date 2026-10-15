@@ -23,6 +23,8 @@ namespace System { class Object; }
 #define FDHAEHHIKDL_JNCNGPMMDAG_OFFSET UNITYSDK_OFFSET(0x3C38420)
 #define FDHAEHHIKDL_NHCFLDCDLCP_OFFSET UNITYSDK_OFFSET(0x1CDDC910)
 
+inline static constexpr unsigned int FDHAEHHIKDL_TypeDefinitionIndex = 10667;
+
 	struct alignas(8) FDHAEHHIKDL
 	{
 		::LELCKJPOPAO* BEHHICMOFIE; // 0x10

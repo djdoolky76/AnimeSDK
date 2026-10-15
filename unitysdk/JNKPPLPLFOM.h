@@ -24,6 +24,8 @@ namespace RPG::Client { class WolfBroGunPlayTargetActionConfig; }
 #define JNKPPLPLFOM_LKFJFGPFEJJ_OFFSET UNITYSDK_OFFSET(0xB28A300)
 #define JNKPPLPLFOM_PLOGFHDCFJB_OFFSET UNITYSDK_OFFSET(0xB28A880)
 
+inline static constexpr unsigned int JNKPPLPLFOM_TypeDefinitionIndex = 68690;
+
 	class JNKPPLPLFOM : public ::System::Object
 	{
 	public:

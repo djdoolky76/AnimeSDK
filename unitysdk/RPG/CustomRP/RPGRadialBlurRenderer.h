@@ -16,6 +16,8 @@ namespace UnityEngine::Rendering { class CommandBuffer; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int RPGRadialBlurRenderer_TypeDefinitionIndex = 37840;
+
 	class RPGRadialBlurRenderer : public ::RPG::CustomRP::CRPPostprocessSubPass2
 	{
 	public:

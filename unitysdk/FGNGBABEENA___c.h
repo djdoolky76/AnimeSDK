@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define FGNGBABEENA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E3838D0)
 #define FGNGBABEENA___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E3838E0)
 
+inline static constexpr unsigned int FGNGBABEENA___c_TypeDefinitionIndex = 28980;
+
 	class FGNGBABEENA___c : public ::System::Object
 	{
 	public:

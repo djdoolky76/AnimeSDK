@@ -72,6 +72,8 @@ namespace System::Text { class StringBuilder; }
 
 namespace Codable
 {
+	inline static constexpr unsigned int JSONNode_TypeDefinitionIndex = 46067;
+
 	class JSONNode : public ::System::Object
 	{
 	public:

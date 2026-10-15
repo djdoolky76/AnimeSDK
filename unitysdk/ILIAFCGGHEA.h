@@ -32,6 +32,8 @@ namespace System { class String; }
 #define ILIAFCGGHEA_MJFDPEJFEBO_OFFSET UNITYSDK_OFFSET(0x164B92E0)
 #define ILIAFCGGHEA_PAHCFELAJPB_OFFSET UNITYSDK_OFFSET(0x164BA3E0)
 
+inline static constexpr unsigned int ILIAFCGGHEA_TypeDefinitionIndex = 48916;
+
 	class ILIAFCGGHEA : public ::System::Object
 	{
 	public:

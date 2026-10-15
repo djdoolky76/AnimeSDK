@@ -10,6 +10,8 @@ namespace RPG::GameCore { class StartPropSceneSelection; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StartPropSceneSelection_TypeDefinitionIndex = 22026;
+
 	class StartPropSceneSelection : public ::RPG::GameCore::TaskConfig
 	{
 	public:

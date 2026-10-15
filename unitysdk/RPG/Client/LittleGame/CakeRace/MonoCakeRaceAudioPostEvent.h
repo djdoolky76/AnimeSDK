@@ -21,6 +21,8 @@ namespace UnityEngine { class Animator; }
 
 namespace RPG::Client::LittleGame::CakeRace
 {
+	inline static constexpr unsigned int MonoCakeRaceAudioPostEvent_TypeDefinitionIndex = 77982;
+
 	class MonoCakeRaceAudioPostEvent : public ::UnityEngine::MonoBehaviour
 	{
 	public:

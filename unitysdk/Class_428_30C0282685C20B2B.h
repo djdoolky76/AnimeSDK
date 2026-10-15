@@ -6,6 +6,8 @@
 #define CLASS_428_30C0282685C20B2B_METHOD_2_OFFSET UNITYSDK_OFFSET(0x148FF720)
 #define CLASS_428_30C0282685C20B2B_METHOD_OFFSET UNITYSDK_OFFSET(0x148FFD70)
 
+inline static constexpr unsigned int Class_428_30C0282685C20B2B_TypeDefinitionIndex = 50757;
+
 	class Class_428_30C0282685C20B2B : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CartoonTransfer_Config_TypeDefinitionIndex = 72515;
+
 	class CartoonTransfer_Config : public ::System::Object
 	{
 	public:

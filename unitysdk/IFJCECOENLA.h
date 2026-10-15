@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define IFJCECOENLA_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CEF2E90)
 #define IFJCECOENLA_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CEF27B0)
 
+inline static constexpr unsigned int IFJCECOENLA_TypeDefinitionIndex = 11616;
+
 	class IFJCECOENLA : public ::System::Object
 	{
 	public:

@@ -20,6 +20,8 @@ namespace UnityEngine { class GameObject; }
 #define DFEKDGAKLAF_SOLVECALCULATESTREAMINGTASK_OFFSET UNITYSDK_OFFSET(0xE825B80)
 #define DFEKDGAKLAF__SOLVEINSTANCELODCALC_OFFSET UNITYSDK_OFFSET(0xE826540)
 
+inline static constexpr unsigned int DFEKDGAKLAF_TypeDefinitionIndex = 73985;
+
 	class DFEKDGAKLAF : public ::GDMONJOAKHD
 	{
 	public:

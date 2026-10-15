@@ -30,6 +30,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define CKHGGCPHCFD_PJHJADDPLDM_OFFSET UNITYSDK_OFFSET(0xD75D630)
 #define CKHGGCPHCFD_TICK_OFFSET UNITYSDK_OFFSET(0xD75DCF0)
 
+inline static constexpr unsigned int CKHGGCPHCFD_TypeDefinitionIndex = 52434;
+
 	class CKHGGCPHCFD : public ::GELIALJDFBL
 	{
 	public:

@@ -14,6 +14,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByIsExcludeInMultiCharacterFormation_TypeDefinitionIndex = 22645;
+
 	class ByIsExcludeInMultiCharacterFormation : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

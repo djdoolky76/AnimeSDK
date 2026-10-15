@@ -22,6 +22,8 @@ namespace System::Collections::Generic { template <typename T> class Stack_1; }
 #define PHJHLADKIAJ_ODLHKMIAFAI_OFFSET UNITYSDK_OFFSET(0xC24FD60)
 #define PHJHLADKIAJ__ONBIND_OFFSET UNITYSDK_OFFSET(0xC24F880)
 
+inline static constexpr unsigned int PHJHLADKIAJ_TypeDefinitionIndex = 72218;
+
 	class PHJHLADKIAJ : public ::FMPCODLIOLG
 	{
 	public:

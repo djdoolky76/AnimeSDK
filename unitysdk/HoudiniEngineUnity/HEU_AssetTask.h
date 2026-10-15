@@ -23,6 +23,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_AssetTask_TypeDefinitionIndex = 40603;
+
 	class HEU_AssetTask : public ::HoudiniEngineUnity::HEU_Task
 	{
 	public:

@@ -30,6 +30,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define BGFNFLBFBPC_SET_OVERKILLDAMAGEHP_OFFSET UNITYSDK_OFFSET(0xB184220)
 #define BGFNFLBFBPC_SET_UID_OFFSET UNITYSDK_OFFSET(0xB1841C0)
 
+inline static constexpr unsigned int BGFNFLBFBPC_TypeDefinitionIndex = 66757;
+
 	class BGFNFLBFBPC : public ::System::Object
 	{
 	public:

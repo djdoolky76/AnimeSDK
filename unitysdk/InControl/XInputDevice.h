@@ -14,6 +14,8 @@ namespace InControl { class XInputDeviceManager; }
 
 namespace InControl
 {
+	inline static constexpr unsigned int XInputDevice_TypeDefinitionIndex = 40919;
+
 	class XInputDevice : public ::InControl::InputDevice
 	{
 	public:

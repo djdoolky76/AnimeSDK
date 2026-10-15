@@ -14,6 +14,8 @@ namespace System::Diagnostics { class StackTrace; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int StackTraceUtility_TypeDefinitionIndex = 4343;
+
 	class StackTraceUtility : public ::System::Object
 	{
 	public:

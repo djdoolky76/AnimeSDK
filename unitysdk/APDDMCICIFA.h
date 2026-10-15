@@ -18,6 +18,8 @@ namespace UnityEngine { class GameObject; }
 #define APDDMCICIFA_TICK_OFFSET UNITYSDK_OFFSET(0x15BA6110)
 #define APDDMCICIFA_USELIGHTWEIGHTDEACTIVE_OFFSET UNITYSDK_OFFSET(0x15BA62D0)
 
+inline static constexpr unsigned int APDDMCICIFA_TypeDefinitionIndex = 54934;
+
 	class APDDMCICIFA : public ::GELIALJDFBL
 	{
 	public:

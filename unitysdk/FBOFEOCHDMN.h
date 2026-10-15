@@ -29,6 +29,8 @@ namespace System { class String; }
 #define FBOFEOCHDMN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E33C620)
 #define FBOFEOCHDMN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E33C680)
 
+inline static constexpr unsigned int FBOFEOCHDMN_TypeDefinitionIndex = 33317;
+
 	class FBOFEOCHDMN : public ::System::Object
 	{
 	public:

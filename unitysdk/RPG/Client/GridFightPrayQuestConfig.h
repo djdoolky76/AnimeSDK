@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightPrayQuestConfig_TypeDefinitionIndex = 65089;
+
 	class GridFightPrayQuestConfig : public ::System::Object
 	{
 	public:

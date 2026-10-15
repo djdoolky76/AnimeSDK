@@ -10,6 +10,8 @@ namespace System { class Type; }
 
 namespace Newtonsoft::Json::Serialization
 {
+	inline static constexpr unsigned int ResolverContractKey_TypeDefinitionIndex = 9703;
+
 	struct alignas(8) ResolverContractKey
 	{
 		::System::Type* _resolverType; // 0x10

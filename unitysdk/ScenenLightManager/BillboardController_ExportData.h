@@ -11,6 +11,8 @@ class GPFEAEOEGFA_ExtraExportData;
 
 namespace ScenenLightManager
 {
+	inline static constexpr unsigned int BillboardController_ExportData_TypeDefinitionIndex = 49103;
+
 	class BillboardController_ExportData : public ::ScenenLightManager::BaseComponentExportData
 	{
 	public:

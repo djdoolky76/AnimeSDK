@@ -8,6 +8,8 @@ namespace System { class String; }
 #define HJHOMFFGCPE_CTOR_OFFSET UNITYSDK_OFFSET(0x15D21FA0)
 #define HJHOMFFGCPE_JBIOGKPHKKC_OFFSET UNITYSDK_OFFSET(0x15D21FB0)
 
+inline static constexpr unsigned int HJHOMFFGCPE_TypeDefinitionIndex = 67721;
+
 	class HJHOMFFGCPE : public ::GOGCDNMNIKF
 	{
 	public:

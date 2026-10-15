@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetTargetPosNotifyConfig_TypeDefinitionIndex = 16966;
+
 	class SetTargetPosNotifyConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

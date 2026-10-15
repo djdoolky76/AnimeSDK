@@ -34,6 +34,8 @@ namespace System { class String; }
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriFsUtility_TypeDefinitionIndex = 40116;
+
 	class CriFsUtility : public ::System::Object
 	{
 	public:

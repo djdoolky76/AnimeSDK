@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define DPLPDHNELKD_CTOR_OFFSET UNITYSDK_OFFSET(0x1265A600)
 #define DPLPDHNELKD_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1265A650)
 
+inline static constexpr unsigned int DPLPDHNELKD_TypeDefinitionIndex = 59114;
+
 	class DPLPDHNELKD
 	{
 	public:

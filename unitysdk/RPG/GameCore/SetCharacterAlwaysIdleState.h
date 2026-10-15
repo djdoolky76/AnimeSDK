@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetCharacterAlwaysIdleState_TypeDefinitionIndex = 22764;
+
 	class SetCharacterAlwaysIdleState : public ::RPG::GameCore::TaskConfig
 	{
 	public:

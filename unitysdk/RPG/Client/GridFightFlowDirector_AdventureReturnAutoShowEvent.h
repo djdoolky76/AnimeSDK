@@ -5,6 +5,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightFlowDirector_AdventureReturnAutoShowEvent_TypeDefinitionIndex = 64586;
+
 	class GridFightFlowDirector_AdventureReturnAutoShowEvent
 	{
 	public:

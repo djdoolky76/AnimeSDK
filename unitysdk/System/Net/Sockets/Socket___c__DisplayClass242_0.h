@@ -8,6 +8,8 @@ namespace System { class IOAsyncResult; }
 
 namespace System::Net::Sockets
 {
+	inline static constexpr unsigned int Socket___c__DisplayClass242_0_TypeDefinitionIndex = 2905;
+
 	class Socket___c__DisplayClass242_0 : public ::System::Object
 	{
 	public:

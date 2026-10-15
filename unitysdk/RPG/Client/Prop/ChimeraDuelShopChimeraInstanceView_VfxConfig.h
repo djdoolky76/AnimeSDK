@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int ChimeraDuelShopChimeraInstanceView_VfxConfig_TypeDefinitionIndex = 78343;
+
 	class ChimeraDuelShopChimeraInstanceView_VfxConfig : public ::System::Object
 	{
 	public:

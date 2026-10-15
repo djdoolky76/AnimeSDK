@@ -6,6 +6,8 @@
 
 namespace TMPro
 {
+	inline static constexpr unsigned int TMP_TextElement_Legacy_TypeDefinitionIndex = 44664;
+
 	class TMP_TextElement_Legacy : public ::System::Object
 	{
 	public:

@@ -48,6 +48,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int ChimeraDuelMainPuzzleBattleView_TypeDefinitionIndex = 78371;
+
 	class ChimeraDuelMainPuzzleBattleView : public ::RPG::Client::Prop::ChimeraDuelMainPuzzleMonoStateView
 	{
 	public:

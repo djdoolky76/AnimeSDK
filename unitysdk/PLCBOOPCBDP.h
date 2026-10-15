@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define PLCBOOPCBDP_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D2FDB40)
 #define PLCBOOPCBDP_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D2FD4A0)
 
+inline static constexpr unsigned int PLCBOOPCBDP_TypeDefinitionIndex = 11149;
+
 	class PLCBOOPCBDP : public ::System::Object
 	{
 	public:

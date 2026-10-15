@@ -33,6 +33,8 @@ namespace System { class String; }
 #define INBMHMPKACI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E6BFB90)
 #define INBMHMPKACI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E6BFBF0)
 
+inline static constexpr unsigned int INBMHMPKACI_TypeDefinitionIndex = 30567;
+
 	class INBMHMPKACI : public ::System::Object
 	{
 	public:

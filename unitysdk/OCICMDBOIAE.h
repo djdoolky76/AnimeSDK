@@ -47,6 +47,8 @@ namespace UnityEngine { class Collider; }
 #define OCICMDBOIAE_PPMJGLMHFDJ_OFFSET UNITYSDK_OFFSET(0xBD6BDC0)
 #define OCICMDBOIAE_TICK_OFFSET UNITYSDK_OFFSET(0xBD68910)
 
+inline static constexpr unsigned int OCICMDBOIAE_TypeDefinitionIndex = 53504;
+
 	class OCICMDBOIAE : public ::HBCMHADMLOP
 	{
 	public:

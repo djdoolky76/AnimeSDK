@@ -13,6 +13,8 @@ namespace System::Threading { class CancellationCallbackInfo; }
 
 namespace System::Threading
 {
+	inline static constexpr unsigned int CancellationTokenRegistration_TypeDefinitionIndex = 799;
+
 	struct alignas(8) CancellationTokenRegistration
 	{
 		::System::Threading::CancellationCallbackInfo* m_callbackInfo; // 0x10

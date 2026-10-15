@@ -15,6 +15,8 @@ namespace RPG::Client { class QuestData; }
 #define FCLGAONFCME_SET_QUESTID_OFFSET UNITYSDK_OFFSET(0x156CE010)
 #define FCLGAONFCME_SET_SORTVALUE_OFFSET UNITYSDK_OFFSET(0x156CE030)
 
+inline static constexpr unsigned int FCLGAONFCME_TypeDefinitionIndex = 66972;
+
 	class FCLGAONFCME : public ::System::Object
 	{
 	public:

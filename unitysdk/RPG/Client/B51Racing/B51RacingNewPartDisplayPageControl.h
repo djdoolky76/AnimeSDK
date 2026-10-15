@@ -19,6 +19,8 @@ class PJAPDCPOBGC;
 
 namespace RPG::Client::B51Racing
 {
+	inline static constexpr unsigned int B51RacingNewPartDisplayPageControl_TypeDefinitionIndex = 81789;
+
 	class B51RacingNewPartDisplayPageControl : public ::Sofa::BaseSofaControl
 	{
 	public:

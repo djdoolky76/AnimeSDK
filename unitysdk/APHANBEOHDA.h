@@ -4,6 +4,8 @@
 
 #define APHANBEOHDA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8A9630)
 
+inline static constexpr unsigned int APHANBEOHDA_TypeDefinitionIndex = 42345;
+
 	class APHANBEOHDA : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ class LegacyGPUParticleSystem;
 #define LEGACYGPUPARTICLEKEYUTILITY_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0x1EBC81D0)
 #define LEGACYGPUPARTICLEKEYUTILITY_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1EBC7EB0)
 
+inline static constexpr unsigned int LegacyGPUParticleKeyUtility_TypeDefinitionIndex = 43988;
+
 	class LegacyGPUParticleKeyUtility : public ::UnityEngine::MonoBehaviour
 	{
 	public:

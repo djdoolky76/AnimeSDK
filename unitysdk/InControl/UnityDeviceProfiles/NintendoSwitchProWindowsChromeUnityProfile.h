@@ -7,6 +7,8 @@
 
 namespace InControl::UnityDeviceProfiles
 {
+	inline static constexpr unsigned int NintendoSwitchProWindowsChromeUnityProfile_TypeDefinitionIndex = 41055;
+
 	class NintendoSwitchProWindowsChromeUnityProfile : public ::InControl::InputDeviceProfile
 	{
 	public:

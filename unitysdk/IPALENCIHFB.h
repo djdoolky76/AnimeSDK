@@ -40,6 +40,8 @@ namespace System { class String; }
 #define IPALENCIHFB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E6DC500)
 #define IPALENCIHFB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E6DC560)
 
+inline static constexpr unsigned int IPALENCIHFB_TypeDefinitionIndex = 26798;
+
 	class IPALENCIHFB : public ::System::Object
 	{
 	public:

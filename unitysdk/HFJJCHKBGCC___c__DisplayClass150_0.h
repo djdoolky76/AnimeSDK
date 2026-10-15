@@ -9,6 +9,8 @@ namespace System { class Action; }
 #define HFJJCHKBGCC___C__DISPLAYCLASS150_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15C84430)
 #define HFJJCHKBGCC___C__DISPLAYCLASS150_0__APPLYSTACKASYNCRESLOADING_B__0_OFFSET UNITYSDK_OFFSET(0x15C87350)
 
+inline static constexpr unsigned int HFJJCHKBGCC___c__DisplayClass150_0_TypeDefinitionIndex = 49284;
+
 	class HFJJCHKBGCC___c__DisplayClass150_0 : public ::System::Object
 	{
 	public:

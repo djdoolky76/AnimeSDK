@@ -11,6 +11,8 @@ namespace System { class String; }
 #define NNCKPOAFPJL_JMCNOJFBBEB_OFFSET UNITYSDK_OFFSET(0xBC9FBA0)
 #define NNCKPOAFPJL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBC9EF40)
 
+inline static constexpr unsigned int NNCKPOAFPJL_TypeDefinitionIndex = 57852;
+
 	class NNCKPOAFPJL
 	{
 	public:

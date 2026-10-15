@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SomatoCommonCameraConfig_TypeDefinitionIndex = 16429;
+
 	class SomatoCommonCameraConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -9,6 +9,8 @@
 
 namespace Cinemachine
 {
+	inline static constexpr unsigned int DocumentationSortingAttribute_TypeDefinitionIndex = 39832;
+
 	class DocumentationSortingAttribute : public ::System::Attribute
 	{
 	public:

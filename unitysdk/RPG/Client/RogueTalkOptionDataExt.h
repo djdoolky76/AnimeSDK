@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueTalkOptionDataExt_TypeDefinitionIndex = 68042;
+
 	class RogueTalkOptionDataExt : public ::System::Object
 	{
 	public:

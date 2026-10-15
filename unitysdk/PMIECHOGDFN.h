@@ -9,6 +9,8 @@ namespace Entitas { class IEntity; }
 #define PMIECHOGDFN_ONREMOVE_OFFSET UNITYSDK_OFFSET(0xC31F6C0)
 #define PMIECHOGDFN_ONUPDATE_OFFSET UNITYSDK_OFFSET(0xC31F540)
 
+inline static constexpr unsigned int PMIECHOGDFN_TypeDefinitionIndex = 79121;
+
 	class PMIECHOGDFN
 	{
 	public:

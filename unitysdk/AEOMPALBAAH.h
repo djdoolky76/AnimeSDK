@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int AEOMPALBAAH_TypeDefinitionIndex = 25940;
+
 	enum class AEOMPALBAAH : ::System::Int32
 	{
 		NLCDGIPGFDJ = 0,

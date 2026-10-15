@@ -36,6 +36,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::Client::DiceCombat
 {
+	inline static constexpr unsigned int DiceCombatGameFlow_TypeDefinitionIndex = 76105;
+
 	class DiceCombatGameFlow : public ::RPG::Client::BaseGameFlow
 	{
 	public:

@@ -30,6 +30,8 @@ namespace System { class String; }
 #define JHKFCANMFOE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E7479A0)
 #define JHKFCANMFOE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E747A00)
 
+inline static constexpr unsigned int JHKFCANMFOE_TypeDefinitionIndex = 28205;
+
 	class JHKFCANMFOE : public ::System::Object
 	{
 	public:

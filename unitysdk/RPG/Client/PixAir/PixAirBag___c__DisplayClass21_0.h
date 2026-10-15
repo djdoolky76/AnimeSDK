@@ -8,6 +8,8 @@ namespace RPG::Client::PixAir { class PixAirSlot; }
 
 namespace RPG::Client::PixAir
 {
+	inline static constexpr unsigned int PixAirBag___c__DisplayClass21_0_TypeDefinitionIndex = 79325;
+
 	class PixAirBag___c__DisplayClass21_0 : public ::System::Object
 	{
 	public:

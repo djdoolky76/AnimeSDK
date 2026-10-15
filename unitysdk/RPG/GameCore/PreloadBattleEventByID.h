@@ -10,6 +10,8 @@ namespace RPG::GameCore { class PreloadBattleEventByID; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PreloadBattleEventByID_TypeDefinitionIndex = 22978;
+
 	class PreloadBattleEventByID : public ::RPG::GameCore::TaskConfig
 	{
 	public:

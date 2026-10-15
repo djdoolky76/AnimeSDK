@@ -45,6 +45,8 @@ namespace UnityEngine { class GameObject; }
 #define CCMOIFIMAIL_NGCDIELMKPI_OFFSET UNITYSDK_OFFSET(0xC751490)
 #define CCMOIFIMAIL_PCHMLPGEPEK_OFFSET UNITYSDK_OFFSET(0xC7509A0)
 
+inline static constexpr unsigned int CCMOIFIMAIL_TypeDefinitionIndex = 73811;
+
 	class CCMOIFIMAIL : public ::PAOIIOIGCOJ
 	{
 	public:

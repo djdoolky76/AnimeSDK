@@ -7,6 +7,8 @@ namespace RPG::GameCore { class TutorialLockControl; }
 #define INMHNHPBDOF_DISPOSE_OFFSET UNITYSDK_OFFSET(0x164F71B0)
 #define INMHNHPBDOF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x164F71F0)
 
+inline static constexpr unsigned int INMHNHPBDOF_TypeDefinitionIndex = 53457;
+
 	class INMHNHPBDOF
 	{
 	public:

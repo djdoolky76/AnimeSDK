@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int VolumeComponentMenu_TypeDefinitionIndex = 35615;
+
 	class VolumeComponentMenu : public ::System::Attribute
 	{
 	public:

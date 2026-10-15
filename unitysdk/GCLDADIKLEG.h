@@ -30,6 +30,8 @@ namespace System { class String; }
 #define GCLDADIKLEG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E440E00)
 #define GCLDADIKLEG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E440E60)
 
+inline static constexpr unsigned int GCLDADIKLEG_TypeDefinitionIndex = 29851;
+
 	class GCLDADIKLEG : public ::System::Object
 	{
 	public:

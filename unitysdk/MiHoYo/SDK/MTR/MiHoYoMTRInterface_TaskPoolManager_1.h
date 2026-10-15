@@ -5,6 +5,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace MiHoYo::SDK::MTR
 {
+	inline static constexpr unsigned int MiHoYoMTRInterface_TaskPoolManager_1_TypeDefinitionIndex = 46684;
+
 	template <typename T>
 	class MiHoYoMTRInterface_TaskPoolManager_1 : public ::System::Object
 	{

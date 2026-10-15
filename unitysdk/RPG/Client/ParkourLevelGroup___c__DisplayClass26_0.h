@@ -8,6 +8,8 @@ namespace RPG::Client { class ParkourLevel; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ParkourLevelGroup___c__DisplayClass26_0_TypeDefinitionIndex = 61857;
+
 	class ParkourLevelGroup___c__DisplayClass26_0 : public ::System::Object
 	{
 	public:

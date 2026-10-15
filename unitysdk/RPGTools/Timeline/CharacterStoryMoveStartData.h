@@ -7,6 +7,8 @@
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int CharacterStoryMoveStartData_TypeDefinitionIndex = 48013;
+
 	class CharacterStoryMoveStartData : public ::RPGTools::Timeline::CharacterStoryMoveStepData
 	{
 	public:

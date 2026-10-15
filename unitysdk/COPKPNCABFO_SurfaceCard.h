@@ -11,6 +11,8 @@
 #define COPKPNCABFO_SURFACECARD_MBOMNFBHCMK_OFFSET UNITYSDK_OFFSET(0xDCCD690)
 #define COPKPNCABFO_SURFACECARD_PCFPFBEGBBO_OFFSET UNITYSDK_OFFSET(0xDCCD6E0)
 
+inline static constexpr unsigned int COPKPNCABFO_SurfaceCard_TypeDefinitionIndex = 51755;
+
 	class COPKPNCABFO_SurfaceCard : public ::System::Object
 	{
 	public:

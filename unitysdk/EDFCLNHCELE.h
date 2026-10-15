@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TriggerFightFestBattleInMission; }
 #define EDFCLNHCELE_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x13313FA0)
 #define EDFCLNHCELE_TICK_OFFSET UNITYSDK_OFFSET(0x13313FF0)
 
+inline static constexpr unsigned int EDFCLNHCELE_TypeDefinitionIndex = 58785;
+
 	class EDFCLNHCELE : public ::GELIALJDFBL
 	{
 	public:

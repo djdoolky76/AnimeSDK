@@ -11,6 +11,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightUtils___c__DisplayClass51_0_TypeDefinitionIndex = 64888;
+
 	class GridFightUtils___c__DisplayClass51_0 : public ::System::Object
 	{
 	public:

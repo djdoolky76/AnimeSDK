@@ -14,6 +14,8 @@ namespace System { template <typename T> class Predicate_1; }
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int IdleLiveDungeonData___c_TypeDefinitionIndex = 75201;
+
 	class IdleLiveDungeonData___c : public ::System::Object
 	{
 	public:

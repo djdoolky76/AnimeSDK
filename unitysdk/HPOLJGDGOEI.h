@@ -60,6 +60,8 @@ namespace System { class String; }
 #define HPOLJGDGOEI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E5FF060)
 #define HPOLJGDGOEI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E5FF0C0)
 
+inline static constexpr unsigned int HPOLJGDGOEI_TypeDefinitionIndex = 25102;
+
 	class HPOLJGDGOEI : public ::System::Object
 	{
 	public:

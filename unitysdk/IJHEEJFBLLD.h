@@ -10,6 +10,8 @@ namespace RPG::Client::Challenge::Tierce { class ChallengeTierceSessionStageResu
 #define IJHEEJFBLLD_SET_LINEUP_OFFSET UNITYSDK_OFFSET(0x16467F70)
 #define IJHEEJFBLLD_SET_RESULT_OFFSET UNITYSDK_OFFSET(0x16467F50)
 
+inline static constexpr unsigned int IJHEEJFBLLD_TypeDefinitionIndex = 81482;
+
 	class IJHEEJFBLLD : public ::System::Object
 	{
 	public:

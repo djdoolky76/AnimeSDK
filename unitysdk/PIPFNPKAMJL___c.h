@@ -7,6 +7,8 @@ namespace System { class Object; }
 #define PIPFNPKAMJL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DDB37A0)
 #define PIPFNPKAMJL___C___CCTOR_B__49_0_OFFSET UNITYSDK_OFFSET(0x1DDB37B0)
 
+inline static constexpr unsigned int PIPFNPKAMJL___c_TypeDefinitionIndex = 43957;
+
 	class PIPFNPKAMJL___c : public ::System::Object
 	{
 	public:

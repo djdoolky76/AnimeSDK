@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace System::Threading
 {
+	inline static constexpr unsigned int ParameterizedThreadStart_TypeDefinitionIndex = 838;
+
 	class ParameterizedThreadStart : public ::System::MulticastDelegate
 	{
 	public:

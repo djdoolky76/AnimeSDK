@@ -13,6 +13,8 @@ namespace System { class Exception; }
 #define OHCMEPOMNOO_EFPFOMHCBAD_OFFSET UNITYSDK_OFFSET(0xBE5F930)
 #define OHCMEPOMNOO_FENJPHODMLN_OFFSET UNITYSDK_OFFSET(0xBE5F770)
 
+inline static constexpr unsigned int OHCMEPOMNOO_TypeDefinitionIndex = 67547;
+
 	class OHCMEPOMNOO : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int IVRSystem__GetRecommendedRenderTargetSize_TypeDefinitionIndex = 38890;
+
 	class IVRSystem__GetRecommendedRenderTargetSize : public ::System::MulticastDelegate
 	{
 	public:

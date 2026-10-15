@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftOrderSelectControl___c__DisplayClass5_0_TypeDefinitionIndex = 80003;
+
 	class MechCraftOrderSelectControl___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:

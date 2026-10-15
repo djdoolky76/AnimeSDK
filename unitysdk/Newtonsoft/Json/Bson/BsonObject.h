@@ -17,6 +17,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace Newtonsoft::Json::Bson
 {
+	inline static constexpr unsigned int BsonObject_TypeDefinitionIndex = 9852;
+
 	class BsonObject : public ::Newtonsoft::Json::Bson::BsonToken
 	{
 	public:

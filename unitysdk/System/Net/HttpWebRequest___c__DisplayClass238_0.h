@@ -10,6 +10,8 @@ namespace System::Net { class WebAsyncResult; }
 
 namespace System::Net
 {
+	inline static constexpr unsigned int HttpWebRequest___c__DisplayClass238_0_TypeDefinitionIndex = 2860;
+
 	class HttpWebRequest___c__DisplayClass238_0 : public ::System::Object
 	{
 	public:

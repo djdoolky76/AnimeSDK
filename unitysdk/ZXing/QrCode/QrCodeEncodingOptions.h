@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace ZXing::QrCode
 {
+	inline static constexpr unsigned int QrCodeEncodingOptions_TypeDefinitionIndex = 7011;
+
 	class QrCodeEncodingOptions : public ::ZXing::Common::EncodingOptions
 	{
 	public:

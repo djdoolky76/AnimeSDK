@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetLevel_TypeDefinitionIndex = 23665;
+
 	class SetLevel : public ::RPG::GameCore::TaskConfig
 	{
 	public:

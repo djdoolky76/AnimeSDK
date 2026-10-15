@@ -17,6 +17,8 @@ namespace RPG::Client { class MeshSDFRendererMonoPlugin; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SDFObjectMonoPlugin_TypeDefinitionIndex = 70948;
+
 	class SDFObjectMonoPlugin
 	{
 	public:

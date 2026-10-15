@@ -7,6 +7,8 @@ class PBGNKMMDBGD;
 #define LMIOHCMPBJB_CTOR_OFFSET UNITYSDK_OFFSET(0x1C740C00)
 #define LMIOHCMPBJB_LGFFNMEJEDL_OFFSET UNITYSDK_OFFSET(0x1C70F220)
 
+inline static constexpr unsigned int LMIOHCMPBJB_TypeDefinitionIndex = 37420;
+
 	class LMIOHCMPBJB : public ::System::Object
 	{
 	public:

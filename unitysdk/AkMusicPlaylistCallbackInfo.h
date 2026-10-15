@@ -13,6 +13,8 @@ class AkMusicPlaylistCallbackInfo;
 #define AKMUSICPLAYLISTCALLBACKINFO_GET_UPLAYLISTSELECTION_OFFSET UNITYSDK_OFFSET(0x1F5A7670)
 #define AKMUSICPLAYLISTCALLBACKINFO_SETCPTR_OFFSET UNITYSDK_OFFSET(0x1F5A7250)
 
+inline static constexpr unsigned int AkMusicPlaylistCallbackInfo_TypeDefinitionIndex = 44767;
+
 	class AkMusicPlaylistCallbackInfo : public ::AkEventCallbackInfo
 	{
 	public:

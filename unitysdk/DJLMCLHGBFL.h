@@ -7,6 +7,8 @@ namespace System { class String; }
 #define DJLMCLHGBFL_CTOR_OFFSET UNITYSDK_OFFSET(0xF23CC30)
 #define DJLMCLHGBFL_GET_STATUSCODE_OFFSET UNITYSDK_OFFSET(0xF23CD70)
 
+inline static constexpr unsigned int DJLMCLHGBFL_TypeDefinitionIndex = 69348;
+
 	class DJLMCLHGBFL : public ::FPNCAGDDHPO
 	{
 	public:

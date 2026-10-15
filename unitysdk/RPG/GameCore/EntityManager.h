@@ -100,6 +100,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EntityManager_TypeDefinitionIndex = 56560;
+
 	class EntityManager : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define KLIPBCNOPNO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E88D7E0)
 #define KLIPBCNOPNO___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E88D7F0)
 
+inline static constexpr unsigned int KLIPBCNOPNO___c_TypeDefinitionIndex = 30246;
+
 	class KLIPBCNOPNO___c : public ::System::Object
 	{
 	public:

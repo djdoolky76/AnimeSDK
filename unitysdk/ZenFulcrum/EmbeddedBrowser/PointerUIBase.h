@@ -52,6 +52,8 @@ namespace ZenFulcrum::EmbeddedBrowser { class KeyEvents; }
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
+	inline static constexpr unsigned int PointerUIBase_TypeDefinitionIndex = 39481;
+
 	class PointerUIBase : public ::UnityEngine::MonoBehaviour
 	{
 	public:

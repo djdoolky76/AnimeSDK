@@ -9,6 +9,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define LNJLGPAFMAJ_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB7E48E0)
 #define LNJLGPAFMAJ_TICK_OFFSET UNITYSDK_OFFSET(0xB7E4880)
 
+inline static constexpr unsigned int LNJLGPAFMAJ_TypeDefinitionIndex = 52285;
+
 	class LNJLGPAFMAJ
 	{
 	public:

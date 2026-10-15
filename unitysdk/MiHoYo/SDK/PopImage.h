@@ -27,6 +27,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int PopImage_TypeDefinitionIndex = 8255;
+
 	class PopImage : public ::MiHoYo::SDK::UIElement
 	{
 	public:

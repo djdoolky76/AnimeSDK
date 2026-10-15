@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define HIKOBOMBMPB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E599C20)
 #define HIKOBOMBMPB___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E599C30)
 
+inline static constexpr unsigned int HIKOBOMBMPB___c_TypeDefinitionIndex = 32673;
+
 	class HIKOBOMBMPB___c : public ::System::Object
 	{
 	public:

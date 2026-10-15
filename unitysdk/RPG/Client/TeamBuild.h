@@ -18,6 +18,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TeamBuild_TypeDefinitionIndex = 68083;
+
 	class TeamBuild : public ::System::Object
 	{
 	public:

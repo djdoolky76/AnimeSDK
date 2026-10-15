@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MThreadRunState_TypeDefinitionIndex = 59442;
+
 	enum class MThreadRunState : ::System::Int32
 	{
 		eNone = 0,

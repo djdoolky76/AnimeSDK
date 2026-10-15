@@ -14,6 +14,8 @@ namespace System::Collections::ObjectModel { template <typename T> class ReadOnl
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int IdleLiveDungeonRankInfo_TypeDefinitionIndex = 75218;
+
 	class IdleLiveDungeonRankInfo : public ::System::Object
 	{
 	public:

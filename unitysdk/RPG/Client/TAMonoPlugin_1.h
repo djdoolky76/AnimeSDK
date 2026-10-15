@@ -6,6 +6,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TAMonoPlugin_1_TypeDefinitionIndex = 70772;
+
 	template <typename T>
 	class TAMonoPlugin_1 : public ::RPG::Client::TAMonoBase
 	{

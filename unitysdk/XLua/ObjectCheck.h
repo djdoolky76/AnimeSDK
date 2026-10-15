@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace XLua
 {
+	inline static constexpr unsigned int ObjectCheck_TypeDefinitionIndex = 50230;
+
 	class ObjectCheck : public ::System::MulticastDelegate
 	{
 	public:

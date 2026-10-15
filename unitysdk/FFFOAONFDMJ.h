@@ -10,6 +10,8 @@ class HLFMLCCHMCA;
 #define FFFOAONFDMJ_KAMKOOCGNLK_OFFSET UNITYSDK_OFFSET(0x1CBDECB0)
 #define FFFOAONFDMJ_NJEFKNKHDML_OFFSET UNITYSDK_OFFSET(0x1CBDED80)
 
+inline static constexpr unsigned int FFFOAONFDMJ_TypeDefinitionIndex = 43830;
+
 	class FFFOAONFDMJ : public ::System::Object
 	{
 	public:

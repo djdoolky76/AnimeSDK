@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TrackExtensionMonoPlugin_GDDBFGDLILA_TypeDefinitionIndex = 71030;
+
 	struct alignas(4) TrackExtensionMonoPlugin_GDDBFGDLILA
 	{
 		::UnityEngine::Vector3 PECPBEOHOJC; // 0x10

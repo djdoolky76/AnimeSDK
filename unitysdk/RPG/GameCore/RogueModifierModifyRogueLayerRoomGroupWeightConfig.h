@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierModifyRogueLayerRoomGroupWeightConf
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierModifyRogueLayerRoomGroupWeightConfig_TypeDefinitionIndex = 17740;
+
 	class RogueModifierModifyRogueLayerRoomGroupWeightConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

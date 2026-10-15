@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace RPGTools::Timeline::PostProcessing
 {
+	inline static constexpr unsigned int ToneMappingTimelineBehaviour_TypeDefinitionIndex = 48621;
+
 	class ToneMappingTimelineBehaviour
 	{
 	public:

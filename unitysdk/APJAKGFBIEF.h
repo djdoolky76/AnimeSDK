@@ -7,6 +7,8 @@ class IAFKJCICCOP;
 #define APJAKGFBIEF_CTOR_OFFSET UNITYSDK_OFFSET(0x15BAC430)
 #define APJAKGFBIEF_EFHOJNKCMDL_OFFSET UNITYSDK_OFFSET(0x15BAC440)
 
+inline static constexpr unsigned int APJAKGFBIEF_TypeDefinitionIndex = 67135;
+
 	class APJAKGFBIEF : public ::LKLEBOOCADM
 	{
 	public:

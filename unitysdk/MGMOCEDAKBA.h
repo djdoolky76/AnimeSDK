@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define MGMOCEDAKBA_CTOR_OFFSET UNITYSDK_OFFSET(0xB928CC0)
 #define MGMOCEDAKBA_NMICMPPACIH_OFFSET UNITYSDK_OFFSET(0xB928D80)
 
+inline static constexpr unsigned int MGMOCEDAKBA_TypeDefinitionIndex = 62568;
+
 	class MGMOCEDAKBA : public ::System::Object
 	{
 	public:

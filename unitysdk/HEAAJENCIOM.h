@@ -9,6 +9,8 @@
 #define HEAAJENCIOM_LCKCABJFHEA_OFFSET UNITYSDK_OFFSET(0x1CABDDF0)
 #define HEAAJENCIOM_PBAEKCNJOJF_OFFSET UNITYSDK_OFFSET(0x1CABDE90)
 
+inline static constexpr unsigned int HEAAJENCIOM_TypeDefinitionIndex = 43010;
+
 	class HEAAJENCIOM : public ::System::Object
 	{
 	public:

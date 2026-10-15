@@ -56,6 +56,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::Client::ChenLingBattle
 {
+	inline static constexpr unsigned int ChenLingBattleGameFlow_TypeDefinitionIndex = 76234;
+
 	class ChenLingBattleGameFlow : public ::RPG::Client::BaseGameFlow
 	{
 	public:

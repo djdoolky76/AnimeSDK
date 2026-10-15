@@ -8,6 +8,8 @@ namespace System::Net { class SystemNetworkCredential; }
 
 namespace System::Net
 {
+	inline static constexpr unsigned int SystemNetworkCredential_TypeDefinitionIndex = 2729;
+
 	class SystemNetworkCredential : public ::System::Net::NetworkCredential
 	{
 	public:

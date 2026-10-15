@@ -32,6 +32,8 @@ namespace System::Reflection { class MemberInfo; }
 
 namespace MessagePack::Internal
 {
+	inline static constexpr unsigned int ObjectSerializationInfo___c_TypeDefinitionIndex = 7337;
+
 	class ObjectSerializationInfo___c : public ::System::Object
 	{
 	public:

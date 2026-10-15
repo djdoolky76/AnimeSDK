@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int HipplenIncidentLevelGraphStepConfig_TypeDefinitionIndex = 16808;
+
 	class HipplenIncidentLevelGraphStepConfig : public ::RPG::GameCore::HipplenIncidentStepConfig
 	{
 	public:

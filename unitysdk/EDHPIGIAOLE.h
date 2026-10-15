@@ -91,6 +91,8 @@ namespace UnityEngine::AI { class NavMeshSurface; }
 #define EDHPIGIAOLE_TICK_OFFSET UNITYSDK_OFFSET(0x13317480)
 #define EDHPIGIAOLE___FINISHMOVEINSTANCE_B__61_0_OFFSET UNITYSDK_OFFSET(0x1331E810)
 
+inline static constexpr unsigned int EDHPIGIAOLE_TypeDefinitionIndex = 57405;
+
 	class EDHPIGIAOLE : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

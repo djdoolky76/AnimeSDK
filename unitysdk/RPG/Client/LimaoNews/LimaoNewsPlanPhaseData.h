@@ -30,6 +30,8 @@ namespace System { class String; }
 
 namespace RPG::Client::LimaoNews
 {
+	inline static constexpr unsigned int LimaoNewsPlanPhaseData_TypeDefinitionIndex = 80304;
+
 	class LimaoNewsPlanPhaseData : public ::System::Object
 	{
 	public:

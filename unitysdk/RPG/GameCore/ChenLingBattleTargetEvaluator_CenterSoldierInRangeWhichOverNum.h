@@ -12,6 +12,8 @@ namespace RPG::GameCore { class ChenLingBattleTargetEvaluator_CenterSoldierInRan
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChenLingBattleTargetEvaluator_CenterSoldierInRangeWhichOverNum_TypeDefinitionIndex = 15778;
+
 	class ChenLingBattleTargetEvaluator_CenterSoldierInRangeWhichOverNum : public ::RPG::GameCore::BaseChenLingBattleTargetEvaluator
 	{
 	public:

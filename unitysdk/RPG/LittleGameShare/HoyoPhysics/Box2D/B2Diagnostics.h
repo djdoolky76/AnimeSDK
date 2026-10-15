@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
+	inline static constexpr unsigned int B2Diagnostics_TypeDefinitionIndex = 36656;
+
 	class B2Diagnostics : public ::System::Object
 	{
 	public:

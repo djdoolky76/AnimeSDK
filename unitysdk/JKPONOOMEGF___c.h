@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define JKPONOOMEGF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E772070)
 #define JKPONOOMEGF___C___CCTOR_B__43_0_OFFSET UNITYSDK_OFFSET(0x1E772080)
 
+inline static constexpr unsigned int JKPONOOMEGF___c_TypeDefinitionIndex = 32047;
+
 	class JKPONOOMEGF___c : public ::System::Object
 	{
 	public:

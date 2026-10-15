@@ -50,6 +50,8 @@ namespace UnityEngine { class Gradient; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int StageHarmonyWeatherControllerBehavior_TypeDefinitionIndex = 71016;
+
 	class StageHarmonyWeatherControllerBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:

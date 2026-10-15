@@ -69,6 +69,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Eff_VoxelUnidirOcclusionBehavior_TypeDefinitionIndex = 70404;
+
 	class Eff_VoxelUnidirOcclusionBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:

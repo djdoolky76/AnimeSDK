@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define KPAHOCBKIPC_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D0C61C0)
 #define KPAHOCBKIPC_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D0C5AE0)
 
+inline static constexpr unsigned int KPAHOCBKIPC_TypeDefinitionIndex = 14429;
+
 	class KPAHOCBKIPC : public ::System::Object
 	{
 	public:

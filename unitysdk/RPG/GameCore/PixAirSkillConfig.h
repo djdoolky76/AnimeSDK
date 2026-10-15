@@ -11,6 +11,8 @@ namespace RPG::GameCore { class PixAirSkillConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PixAirSkillConfig_TypeDefinitionIndex = 16250;
+
 	class PixAirSkillConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

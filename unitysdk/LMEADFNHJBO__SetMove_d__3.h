@@ -11,6 +11,8 @@ namespace System { class Object; }
 #define LMEADFNHJBO__SETMOVE_D__3_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0xB77B810)
 #define LMEADFNHJBO__SETMOVE_D__3_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB77B410)
 
+inline static constexpr unsigned int LMEADFNHJBO__SetMove_d__3_TypeDefinitionIndex = 70759;
+
 	template <typename T1, typename T2, typename T3>
 	class LMEADFNHJBO__SetMove_d__3 : public ::System::Object
 	{

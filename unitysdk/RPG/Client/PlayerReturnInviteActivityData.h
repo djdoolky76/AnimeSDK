@@ -8,6 +8,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PlayerReturnInviteActivityData_TypeDefinitionIndex = 61651;
+
 	class PlayerReturnInviteActivityData : public ::RPG::Client::ActivityPanelData
 	{
 	public:

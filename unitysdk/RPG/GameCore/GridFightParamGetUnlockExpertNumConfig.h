@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightParamGetUnlockExpertNumConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightParamGetUnlockExpertNumConfig_TypeDefinitionIndex = 19550;
+
 	class GridFightParamGetUnlockExpertNumConfig : public ::RPG::GameCore::GridFightParameterConfigBase
 	{
 	public:

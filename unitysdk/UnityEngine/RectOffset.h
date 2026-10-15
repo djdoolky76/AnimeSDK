@@ -30,6 +30,8 @@ namespace System { class String; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int RectOffset_TypeDefinitionIndex = 4083;
+
 	class RectOffset : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace UnityEngine { class Object; }
 #define HANCMHGEOJM___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15B98550)
 #define HANCMHGEOJM___C__DISPLAYCLASS5_0___PERSISTENTASYNCLOAD_B__0_OFFSET UNITYSDK_OFFSET(0x15B985E0)
 
+inline static constexpr unsigned int HANCMHGEOJM___c__DisplayClass5_0_TypeDefinitionIndex = 73885;
+
 	class HANCMHGEOJM___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@ namespace System { class Type; }
 
 namespace System::Threading
 {
+	inline static constexpr unsigned int OSSpecificSynchronizationContext_MonoPInvokeCallbackAttribute_TypeDefinitionIndex = 845;
+
 	class OSSpecificSynchronizationContext_MonoPInvokeCallbackAttribute : public ::System::Attribute
 	{
 	public:

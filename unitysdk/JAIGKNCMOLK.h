@@ -27,6 +27,8 @@ namespace System { class String; }
 #define JAIGKNCMOLK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E6EDE40)
 #define JAIGKNCMOLK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E6EDEA0)
 
+inline static constexpr unsigned int JAIGKNCMOLK_TypeDefinitionIndex = 30659;
+
 	class JAIGKNCMOLK : public ::System::Object
 	{
 	public:

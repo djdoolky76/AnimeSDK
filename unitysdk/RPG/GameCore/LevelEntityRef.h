@@ -9,6 +9,8 @@ namespace RPG::GameCore { class LevelEntityRef; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelEntityRef_TypeDefinitionIndex = 18899;
+
 	class LevelEntityRef : public ::RPG::GameCore::JsonConfig
 	{
 	public:

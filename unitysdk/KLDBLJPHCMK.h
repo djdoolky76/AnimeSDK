@@ -9,6 +9,8 @@ namespace System { class String; }
 #define KLDBLJPHCMK_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB4ECE00)
 #define KLDBLJPHCMK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB4ECE40)
 
+inline static constexpr unsigned int KLDBLJPHCMK_TypeDefinitionIndex = 56475;
+
 	class KLDBLJPHCMK
 	{
 	public:

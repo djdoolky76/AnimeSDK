@@ -21,6 +21,8 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 #define BFJAILBMPCJ_LFGPAMCBKAD_OFFSET UNITYSDK_OFFSET(0xB16D1B0)
 #define BFJAILBMPCJ_PEECNCABGFD_OFFSET UNITYSDK_OFFSET(0xB16D310)
 
+inline static constexpr unsigned int BFJAILBMPCJ_TypeDefinitionIndex = 69283;
+
 	class BFJAILBMPCJ : public ::System::Object
 	{
 	public:

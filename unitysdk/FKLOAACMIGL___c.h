@@ -9,6 +9,8 @@ namespace System { template <typename T> class Comparison_1; }
 #define FKLOAACMIGL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1580D7C0)
 #define FKLOAACMIGL___C___SETUPORBS_B__14_0_OFFSET UNITYSDK_OFFSET(0x1580D7D0)
 
+inline static constexpr unsigned int FKLOAACMIGL___c_TypeDefinitionIndex = 72285;
+
 	class FKLOAACMIGL___c : public ::System::Object
 	{
 	public:

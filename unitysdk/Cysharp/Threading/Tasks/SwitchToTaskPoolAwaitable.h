@@ -6,6 +6,8 @@
 
 namespace Cysharp::Threading::Tasks
 {
+	inline static constexpr unsigned int SwitchToTaskPoolAwaitable_TypeDefinitionIndex = 38369;
+
 	struct alignas(4) SwitchToTaskPoolAwaitable
 	{
 		::Cysharp::Threading::Tasks::SwitchToTaskPoolAwaitable_Awaiter GetAwaiter()

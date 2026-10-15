@@ -49,6 +49,8 @@ namespace UnityEngine::UI { class LayoutGroup; }
 #define MBLFLAMBGDH__ONBIND_OFFSET UNITYSDK_OFFSET(0xB861A20)
 #define MBLFLAMBGDH__ONTICK_OFFSET UNITYSDK_OFFSET(0xB861D80)
 
+inline static constexpr unsigned int MBLFLAMBGDH_TypeDefinitionIndex = 71535;
+
 	class MBLFLAMBGDH : public ::FMPCODLIOLG
 	{
 	public:

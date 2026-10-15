@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::Client::LittleGame
 {
+	inline static constexpr unsigned int MatchThreeBirdAudio_TypeDefinitionIndex = 76552;
+
 	class MatchThreeBirdAudio : public ::UnityEngine::MonoBehaviour
 	{
 	public:

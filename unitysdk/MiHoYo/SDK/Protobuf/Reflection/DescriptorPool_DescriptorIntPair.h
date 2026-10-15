@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK::Protobuf::Reflection
 {
+	inline static constexpr unsigned int DescriptorPool_DescriptorIntPair_TypeDefinitionIndex = 35822;
+
 	struct alignas(8) DescriptorPool_DescriptorIntPair
 	{
 		::System::Int32 number; // 0x10

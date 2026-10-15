@@ -8,6 +8,8 @@ namespace RPG::AvatarSystem { class IAvatar; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RaidModule___c__DisplayClass80_1_TypeDefinitionIndex = 66777;
+
 	template <typename T>
 	class RaidModule___c__DisplayClass80_1 : public ::System::Object
 	{

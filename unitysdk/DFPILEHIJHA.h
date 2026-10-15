@@ -9,6 +9,8 @@ namespace UnityEngine::UI { class Dropdown; }
 #define DFPILEHIJHA_IAMCNOAAALI_OFFSET UNITYSDK_OFFSET(0xE83ABF0)
 #define DFPILEHIJHA_JCKGONAAIPB_OFFSET UNITYSDK_OFFSET(0xE83AC60)
 
+inline static constexpr unsigned int DFPILEHIJHA_TypeDefinitionIndex = 72750;
+
 	class DFPILEHIJHA : public ::LBAMBIMMJKB
 	{
 	public:

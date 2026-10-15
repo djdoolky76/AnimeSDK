@@ -7,6 +7,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_InputData_TypeDefinitionIndex = 40642;
+
 	class HEU_InputData : public ::System::Object
 	{
 	public:

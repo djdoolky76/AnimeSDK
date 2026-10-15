@@ -12,6 +12,8 @@ namespace RPG::GameCore { class LevelBattleEventCreate; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelBattleEventCreate_TypeDefinitionIndex = 56771;
+
 	class LevelBattleEventCreate : public ::CMPGEAFHHDC
 	{
 	public:

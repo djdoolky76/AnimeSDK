@@ -29,6 +29,8 @@ namespace System { class String; }
 #define AEFBPMPIKNB_NAPEMFLELHM_OFFSET UNITYSDK_OFFSET(0xB14F150)
 #define AEFBPMPIKNB_TEARDOWN_OFFSET UNITYSDK_OFFSET(0xB14F2A0)
 
+inline static constexpr unsigned int AEFBPMPIKNB_TypeDefinitionIndex = 77073;
+
 	class AEFBPMPIKNB : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PropSetHP_TypeDefinitionIndex = 22069;
+
 	class PropSetHP : public ::RPG::GameCore::TaskConfig
 	{
 	public:

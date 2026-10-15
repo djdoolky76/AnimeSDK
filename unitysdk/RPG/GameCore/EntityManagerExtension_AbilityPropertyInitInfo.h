@@ -16,6 +16,8 @@ namespace System::Collections { class BitArray; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EntityManagerExtension_AbilityPropertyInitInfo_TypeDefinitionIndex = 57771;
+
 	struct alignas(8) EntityManagerExtension_AbilityPropertyInitInfo
 	{
 		::RPG::GameCore::TurnBasedAbilityComponent* Ability; // 0x10

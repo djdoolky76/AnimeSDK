@@ -25,6 +25,8 @@ namespace UnityEngine { class Transform; }
 #define OPFHIEKHJFP_MEBMMDCKNHE_OFFSET UNITYSDK_OFFSET(0xBFA81B0)
 #define OPFHIEKHJFP_OLDKLBKIDKL_OFFSET UNITYSDK_OFFSET(0xBFA7FD0)
 
+inline static constexpr unsigned int OPFHIEKHJFP_TypeDefinitionIndex = 79122;
+
 	class OPFHIEKHJFP : public ::System::Object
 	{
 	public:

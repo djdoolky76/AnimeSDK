@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int PSDelegate_OpenPremiumCheckoutDialogDelegate_TypeDefinitionIndex = 7764;
+
 	class PSDelegate_OpenPremiumCheckoutDialogDelegate : public ::System::MulticastDelegate
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ByCompareGroupPropNum; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByCompareGroupPropNum_TypeDefinitionIndex = 21232;
+
 	class ByCompareGroupPropNum : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

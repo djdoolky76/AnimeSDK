@@ -14,6 +14,8 @@ namespace System::Collections { class IEnumerator; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GlobalVars__AsyncInitEnterGameStep_d__6_TypeDefinitionIndex = 61292;
+
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6>
 	class GlobalVars__AsyncInitEnterGameStep_d__6 : public ::System::Object
 	{

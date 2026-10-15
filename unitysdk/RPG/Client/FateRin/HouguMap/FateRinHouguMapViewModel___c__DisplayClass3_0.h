@@ -13,6 +13,8 @@ namespace RPG::Client::FateRin::HouguMap { class HouguMapFightViewModel; }
 
 namespace RPG::Client::FateRin::HouguMap
 {
+	inline static constexpr unsigned int FateRinHouguMapViewModel___c__DisplayClass3_0_TypeDefinitionIndex = 80768;
+
 	class FateRinHouguMapViewModel___c__DisplayClass3_0 : public ::System::Object
 	{
 	public:

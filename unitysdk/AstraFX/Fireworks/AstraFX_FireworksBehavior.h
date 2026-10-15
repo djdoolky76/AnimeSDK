@@ -58,6 +58,8 @@ namespace UnityEngine { class Transform; }
 
 namespace AstraFX::Fireworks
 {
+	inline static constexpr unsigned int AstraFX_FireworksBehavior_TypeDefinitionIndex = 49021;
+
 	class AstraFX_FireworksBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:

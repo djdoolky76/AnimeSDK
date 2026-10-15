@@ -6,6 +6,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define DAIJNCOCMDF_CHCAOCLNDDK_OFFSET UNITYSDK_OFFSET(0xDFC3E10)
 
+inline static constexpr unsigned int DAIJNCOCMDF_TypeDefinitionIndex = 64745;
+
 	class DAIJNCOCMDF : public ::System::Object
 	{
 	public:

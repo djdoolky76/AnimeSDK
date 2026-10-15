@@ -9,6 +9,8 @@
 #define FFMLFFOMDBN_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x15747080)
 #define FFMLFFOMDBN_JAILHGGFLDH_OFFSET UNITYSDK_OFFSET(0x15747090)
 
+inline static constexpr unsigned int FFMLFFOMDBN_TypeDefinitionIndex = 56130;
+
 	class FFMLFFOMDBN : public ::DBGDNLLDPFI
 	{
 	public:

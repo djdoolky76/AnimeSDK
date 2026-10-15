@@ -77,6 +77,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MatchThreePiece_TypeDefinitionIndex = 65959;
+
 	class MatchThreePiece : public ::UnityEngine::MonoBehaviour
 	{
 	public:

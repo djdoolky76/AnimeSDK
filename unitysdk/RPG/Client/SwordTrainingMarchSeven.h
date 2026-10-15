@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SwordTrainingMarchSeven_TypeDefinitionIndex = 72932;
+
 	class SwordTrainingMarchSeven : public ::UnityEngine::MonoBehaviour
 	{
 	public:

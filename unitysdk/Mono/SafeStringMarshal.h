@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace Mono
 {
+	inline static constexpr unsigned int SafeStringMarshal_TypeDefinitionIndex = 22;
+
 	struct alignas(8) SafeStringMarshal
 	{
 		::System::String* str; // 0x10

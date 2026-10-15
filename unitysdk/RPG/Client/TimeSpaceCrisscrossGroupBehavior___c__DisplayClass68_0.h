@@ -9,6 +9,8 @@ namespace RPG::Client { class GameObjectAudio; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TimeSpaceCrisscrossGroupBehavior___c__DisplayClass68_0_TypeDefinitionIndex = 70205;
+
 	class TimeSpaceCrisscrossGroupBehavior___c__DisplayClass68_0 : public ::System::Object
 	{
 	public:

@@ -25,6 +25,8 @@ namespace System { class String; }
 #define CGMBIHBHLFK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E0B3660)
 #define CGMBIHBHLFK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E0B36C0)
 
+inline static constexpr unsigned int CGMBIHBHLFK_TypeDefinitionIndex = 32724;
+
 	class CGMBIHBHLFK : public ::System::Object
 	{
 	public:

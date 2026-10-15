@@ -33,6 +33,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define CNBKPPKILBJ_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0xDA48E00)
 #define CNBKPPKILBJ_OICLPOAJEOC_OFFSET UNITYSDK_OFFSET(0xDA48C90)
 
+inline static constexpr unsigned int CNBKPPKILBJ_TypeDefinitionIndex = 60284;
+
 	class CNBKPPKILBJ : public ::System::Object
 	{
 	public:

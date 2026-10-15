@@ -11,6 +11,8 @@ namespace RPG::GameCore { class SwitchMascotAddPickupCount; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SwitchMascotAddPickupCount_TypeDefinitionIndex = 21998;
+
 	class SwitchMascotAddPickupCount : public ::RPG::GameCore::TaskConfig
 	{
 	public:

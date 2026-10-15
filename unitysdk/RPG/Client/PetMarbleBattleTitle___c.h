@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PetMarbleBattleTitle___c_TypeDefinitionIndex = 65817;
+
 	class PetMarbleBattleTitle___c : public ::System::Object
 	{
 	public:

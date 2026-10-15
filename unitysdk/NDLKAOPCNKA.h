@@ -39,6 +39,8 @@ namespace UnityEngine { class Transform; }
 #define NDLKAOPCNKA_PJIBDPFIPLF_OFFSET UNITYSDK_OFFSET(0xBB4EAA0)
 #define NDLKAOPCNKA_TICK_OFFSET UNITYSDK_OFFSET(0xBB4F4F0)
 
+inline static constexpr unsigned int NDLKAOPCNKA_TypeDefinitionIndex = 56986;
+
 	class NDLKAOPCNKA : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

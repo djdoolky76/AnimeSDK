@@ -16,6 +16,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimDashOrbConfig_TypeDefinitionIndex = 18577;
+
 	class FiveDimDashOrbConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
 	public:

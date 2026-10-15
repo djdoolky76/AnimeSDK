@@ -27,6 +27,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RtCharacterConfig_TypeDefinitionIndex = 17650;
+
 	class RtCharacterConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

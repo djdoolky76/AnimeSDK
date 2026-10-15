@@ -25,6 +25,8 @@ namespace System { class String; }
 #define DGHLOHPCFKP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E1AD000)
 #define DGHLOHPCFKP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E1AD060)
 
+inline static constexpr unsigned int DGHLOHPCFKP_TypeDefinitionIndex = 28188;
+
 	class DGHLOHPCFKP : public ::System::Object
 	{
 	public:

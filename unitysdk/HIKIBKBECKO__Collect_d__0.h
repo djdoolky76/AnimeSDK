@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 #define HIKIBKBECKO__COLLECT_D__0_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x15CF0EF0)
 #define HIKIBKBECKO__COLLECT_D__0_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15CF0E90)
 
+inline static constexpr unsigned int HIKIBKBECKO__Collect_d__0_TypeDefinitionIndex = 75885;
+
 	class HIKIBKBECKO__Collect_d__0 : public ::System::Object
 	{
 	public:

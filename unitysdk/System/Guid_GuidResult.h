@@ -16,6 +16,8 @@ namespace System { class String; }
 
 namespace System
 {
+	inline static constexpr unsigned int Guid_GuidResult_TypeDefinitionIndex = 271;
+
 	struct alignas(8) Guid_GuidResult
 	{
 		::System::Guid parsedGuid; // 0x10

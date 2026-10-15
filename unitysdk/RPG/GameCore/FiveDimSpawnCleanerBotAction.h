@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimSpawnCleanerBotAction_TypeDefinitionIndex = 18731;
+
 	class FiveDimSpawnCleanerBotAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
 	public:

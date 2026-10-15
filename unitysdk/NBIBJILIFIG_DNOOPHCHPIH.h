@@ -11,6 +11,8 @@ namespace System { class Object; }
 #define NBIBJILIFIG_DNOOPHCHPIH_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C786120)
 #define NBIBJILIFIG_DNOOPHCHPIH_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C7860C0)
 
+inline static constexpr unsigned int NBIBJILIFIG_DNOOPHCHPIH_TypeDefinitionIndex = 36958;
+
 	class NBIBJILIFIG_DNOOPHCHPIH : public ::System::MulticastDelegate
 	{
 	public:

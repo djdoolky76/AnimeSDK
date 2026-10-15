@@ -14,6 +14,8 @@ namespace System::Collections::Immutable { template <typename T> class IImmutabl
 #define KNMJJHEKJDI_PPEDLFNLPCN_OFFSET UNITYSDK_OFFSET(0xB589260)
 #define KNMJJHEKJDI_REMOVE_ONMAYBECHANGED_OFFSET UNITYSDK_OFFSET(0xB588E20)
 
+inline static constexpr unsigned int KNMJJHEKJDI_TypeDefinitionIndex = 79678;
+
 	class KNMJJHEKJDI : public ::System::Object
 	{
 	public:

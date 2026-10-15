@@ -24,6 +24,8 @@ namespace System { class Action; }
 #define CFOBMJNKLPO_NKNAMNHNKIE_OFFSET UNITYSDK_OFFSET(0xCC59A60)
 #define CFOBMJNKLPO_OEBJKAGPDAG_OFFSET UNITYSDK_OFFSET(0xCC599D0)
 
+inline static constexpr unsigned int CFOBMJNKLPO_TypeDefinitionIndex = 76001;
+
 	class CFOBMJNKLPO : public ::System::Object
 	{
 	public:

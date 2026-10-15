@@ -25,6 +25,8 @@ namespace System { class String; }
 #define IKGLCLFLAKO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E6A0D60)
 #define IKGLCLFLAKO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E6A0DC0)
 
+inline static constexpr unsigned int IKGLCLFLAKO_TypeDefinitionIndex = 34404;
+
 	class IKGLCLFLAKO : public ::System::Object
 	{
 	public:

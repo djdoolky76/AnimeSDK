@@ -12,6 +12,8 @@ namespace UnityEngine::ProBuilder { class XYZColor; }
 
 namespace UnityEngine::ProBuilder
 {
+	inline static constexpr unsigned int XYZColor_TypeDefinitionIndex = 44348;
+
 	class XYZColor : public ::System::Object
 	{
 	public:

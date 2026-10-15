@@ -6,6 +6,8 @@
 
 namespace MessagePack
 {
+	inline static constexpr unsigned int GeneratedMessagePackResolver_HAIPKFMHKOD_TypeDefinitionIndex = 36096;
+
 	class GeneratedMessagePackResolver_HAIPKFMHKOD : public ::System::Object
 	{
 	public:

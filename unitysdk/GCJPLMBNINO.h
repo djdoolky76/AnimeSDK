@@ -11,6 +11,8 @@ namespace System { class String; }
 #define GCJPLMBNINO_HLKLBEGECHP_OFFSET UNITYSDK_OFFSET(0x15981830)
 #define GCJPLMBNINO_LMCEDCHJKFF_OFFSET UNITYSDK_OFFSET(0x15981620)
 
+inline static constexpr unsigned int GCJPLMBNINO_TypeDefinitionIndex = 56959;
+
 	class GCJPLMBNINO : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

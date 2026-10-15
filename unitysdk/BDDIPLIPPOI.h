@@ -19,6 +19,8 @@ namespace UnityEngine::UI { class Text; }
 #define BDDIPLIPPOI_SET_INDEX_OFFSET UNITYSDK_OFFSET(0x162F21A0)
 #define BDDIPLIPPOI__ONBIND_OFFSET UNITYSDK_OFFSET(0x162F20D0)
 
+inline static constexpr unsigned int BDDIPLIPPOI_TypeDefinitionIndex = 72360;
+
 	class BDDIPLIPPOI : public ::FMPCODLIOLG
 	{
 	public:

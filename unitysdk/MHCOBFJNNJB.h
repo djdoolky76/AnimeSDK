@@ -1,6 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
+inline static constexpr unsigned int MHCOBFJNNJB_TypeDefinitionIndex = 43018;
+
 	struct alignas(4) MHCOBFJNNJB
 	{
 		::System::UInt32 BMANBMAOLLD; // 0x10

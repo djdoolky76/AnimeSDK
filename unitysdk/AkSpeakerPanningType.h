@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int AkSpeakerPanningType_TypeDefinitionIndex = 44790;
+
 	enum class AkSpeakerPanningType : ::System::Int32
 	{
 		AK_DirectSpeakerAssignment = 0,

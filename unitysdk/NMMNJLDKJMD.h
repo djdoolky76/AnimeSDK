@@ -38,6 +38,8 @@ namespace UnityEngine { class Transform; }
 #define NMMNJLDKJMD_SET_HIPPLENINSTANCE_OFFSET UNITYSDK_OFFSET(0xBC8F200)
 #define NMMNJLDKJMD__ONGAMEBOARDLOAD_B__11_0_OFFSET UNITYSDK_OFFSET(0xBC8F220)
 
+inline static constexpr unsigned int NMMNJLDKJMD_TypeDefinitionIndex = 75468;
+
 	class NMMNJLDKJMD : public ::System::Object
 	{
 	public:

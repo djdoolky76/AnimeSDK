@@ -30,6 +30,8 @@ namespace System { class String; }
 #define PBFEGMDAIDN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DEF4CE0)
 #define PBFEGMDAIDN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DEF4D40)
 
+inline static constexpr unsigned int PBFEGMDAIDN_TypeDefinitionIndex = 33002;
+
 	class PBFEGMDAIDN : public ::System::Object
 	{
 	public:

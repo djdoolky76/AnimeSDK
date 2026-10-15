@@ -7,6 +7,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Scene_InstanceArrayExternalInputBridgeBehavior_TypeDefinitionIndex = 70852;
+
 	class Scene_InstanceArrayExternalInputBridgeBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:

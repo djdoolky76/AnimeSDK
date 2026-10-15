@@ -5,6 +5,8 @@ namespace System { class String; }
 #define DDPACGAFJAN_CTOR_OFFSET UNITYSDK_OFFSET(0xAF40)
 #define DDPACGAFJAN_TOSTRING_OFFSET UNITYSDK_OFFSET(0xF5880)
 
+inline static constexpr unsigned int DDPACGAFJAN_TypeDefinitionIndex = 67757;
+
 	struct alignas(4) DDPACGAFJAN
 	{
 		::System::UInt32 KLOEJIMMPJM; // 0x10

@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define IDIBFGFBHLB_LNPLLILOPPL_OFFSET UNITYSDK_OFFSET(0x15ED5810)
 #define IDIBFGFBHLB_SET_FOLLOWSOURCE_OFFSET UNITYSDK_OFFSET(0x15ED6A00)
 
+inline static constexpr unsigned int IDIBFGFBHLB_TypeDefinitionIndex = 56939;
+
 	class IDIBFGFBHLB : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

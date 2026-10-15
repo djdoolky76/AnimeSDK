@@ -9,6 +9,8 @@ namespace UnityEngine { class LineRenderer; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoLineRendererWidthSetter_TypeDefinitionIndex = 71049;
+
 	class MonoLineRendererWidthSetter : public ::UnityEngine::MonoBehaviour
 	{
 	public:

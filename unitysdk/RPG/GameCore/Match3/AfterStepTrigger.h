@@ -10,6 +10,8 @@ namespace RPG::GameCore::Match3 { class AfterStepTrigger; }
 
 namespace RPG::GameCore::Match3
 {
+	inline static constexpr unsigned int AfterStepTrigger_TypeDefinitionIndex = 24875;
+
 	class AfterStepTrigger : public ::RPG::GameCore::Match3::Match3TriggerBase
 	{
 	public:

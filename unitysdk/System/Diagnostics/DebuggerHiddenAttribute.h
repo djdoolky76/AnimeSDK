@@ -6,6 +6,8 @@
 
 namespace System::Diagnostics
 {
+	inline static constexpr unsigned int DebuggerHiddenAttribute_TypeDefinitionIndex = 1574;
+
 	class DebuggerHiddenAttribute : public ::System::Attribute
 	{
 	public:

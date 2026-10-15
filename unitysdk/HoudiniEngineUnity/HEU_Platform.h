@@ -40,6 +40,8 @@ namespace System::Text { class StringBuilder; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_Platform_TypeDefinitionIndex = 40436;
+
 	class HEU_Platform : public ::System::Object
 	{
 	public:

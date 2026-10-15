@@ -27,6 +27,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace MiHoYo::SDK::Console::CN
 {
+	inline static constexpr unsigned int BindManager_TypeDefinitionIndex = 9108;
+
 	class BindManager : public ::MiHoYo::SDK::Console::BindManagerBase
 	{
 	public:

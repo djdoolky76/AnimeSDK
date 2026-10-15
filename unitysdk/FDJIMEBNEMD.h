@@ -31,6 +31,8 @@ namespace System { class String; }
 #define FDJIMEBNEMD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E35B9E0)
 #define FDJIMEBNEMD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E35BA40)
 
+inline static constexpr unsigned int FDJIMEBNEMD_TypeDefinitionIndex = 32270;
+
 	class FDJIMEBNEMD : public ::System::Object
 	{
 	public:

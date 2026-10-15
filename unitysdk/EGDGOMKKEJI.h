@@ -32,6 +32,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define EGDGOMKKEJI_PMNNDDAPAPB_OFFSET UNITYSDK_OFFSET(0x1C5FC610)
 #define EGDGOMKKEJI_SET_ABILITYTARGETENTITY_OFFSET UNITYSDK_OFFSET(0x1C5FC600)
 
+inline static constexpr unsigned int EGDGOMKKEJI_TypeDefinitionIndex = 36392;
+
 	class EGDGOMKKEJI : public ::System::Object
 	{
 	public:

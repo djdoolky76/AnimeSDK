@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int BiliBiliDelegate_SDKLogoutDelegate_TypeDefinitionIndex = 7611;
+
 	class BiliBiliDelegate_SDKLogoutDelegate : public ::System::MulticastDelegate
 	{
 	public:

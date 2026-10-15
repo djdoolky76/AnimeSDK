@@ -11,6 +11,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonopolyEffectDisplayDataItem_TypeDefinitionIndex = 66231;
+
 	class MonopolyEffectDisplayDataItem : public ::System::Object
 	{
 	public:

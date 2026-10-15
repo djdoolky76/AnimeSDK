@@ -55,6 +55,8 @@ namespace UnityEngine { class Transform; }
 
 namespace InControl
 {
+	inline static constexpr unsigned int TouchSprite_TypeDefinitionIndex = 40893;
+
 	class TouchSprite : public ::System::Object
 	{
 	public:

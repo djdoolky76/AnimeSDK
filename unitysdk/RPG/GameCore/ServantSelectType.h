@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ServantSelectType_TypeDefinitionIndex = 18178;
+
 	enum class ServantSelectType : ::System::Int32
 	{
 		Forbidden = 0,

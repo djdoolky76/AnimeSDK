@@ -48,6 +48,8 @@ namespace System::Reflection { class ParameterInfo; }
 
 namespace System::Reflection
 {
+	inline static constexpr unsigned int MethodBase_TypeDefinitionIndex = 577;
+
 	class MethodBase : public ::System::Reflection::MemberInfo
 	{
 	public:

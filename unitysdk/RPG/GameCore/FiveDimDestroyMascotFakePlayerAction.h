@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FiveDimDestroyMascotFakePlayerAction; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimDestroyMascotFakePlayerAction_TypeDefinitionIndex = 18678;
+
 	class FiveDimDestroyMascotFakePlayerAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
 	public:

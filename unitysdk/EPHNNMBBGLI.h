@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define EPHNNMBBGLI_CTOR_OFFSET UNITYSDK_OFFSET(0x155D4F40)
 #define EPHNNMBBGLI_EVALUATE_OFFSET UNITYSDK_OFFSET(0x155D4F70)
 
+inline static constexpr unsigned int EPHNNMBBGLI_TypeDefinitionIndex = 54587;
+
 	class EPHNNMBBGLI
 	{
 	public:

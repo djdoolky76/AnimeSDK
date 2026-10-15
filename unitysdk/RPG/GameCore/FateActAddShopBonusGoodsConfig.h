@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FateActAddShopBonusGoodsConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FateActAddShopBonusGoodsConfig_TypeDefinitionIndex = 19241;
+
 	class FateActAddShopBonusGoodsConfig : public ::RPG::GameCore::FateActionConfigBase
 	{
 	public:

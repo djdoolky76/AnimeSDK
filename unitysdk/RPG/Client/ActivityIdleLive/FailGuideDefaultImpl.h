@@ -11,6 +11,8 @@
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int FailGuideDefaultImpl_TypeDefinitionIndex = 75382;
+
 	class FailGuideDefaultImpl : public ::System::Object
 	{
 	public:

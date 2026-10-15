@@ -24,6 +24,8 @@ namespace UnityEngine { class Renderer; }
 #define APCCFELCPKH_HJOJHIGBBKC_OKMNIIMIEAI_OFFSET UNITYSDK_OFFSET(0x15BA3470)
 #define APCCFELCPKH_HJOJHIGBBKC_PICCDHDLDOG_OFFSET UNITYSDK_OFFSET(0x15BA37A0)
 
+inline static constexpr unsigned int APCCFELCPKH_HJOJHIGBBKC_TypeDefinitionIndex = 60241;
+
 	class APCCFELCPKH_HJOJHIGBBKC : public ::System::Object
 	{
 	public:

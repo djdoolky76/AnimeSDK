@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ST_Main_LittleGame_SelfDestory; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ST_Main_LittleGame_SelfDestory_TypeDefinitionIndex = 21328;
+
 	class ST_Main_LittleGame_SelfDestory : public ::RPG::GameCore::STTaskConfig
 	{
 	public:

@@ -5,6 +5,8 @@
 
 #define IKCABGHHMOB_CTOR_OFFSET UNITYSDK_OFFSET(0x16482A60)
 
+inline static constexpr unsigned int IKCABGHHMOB_TypeDefinitionIndex = 52105;
+
 	class IKCABGHHMOB : public ::System::Object
 	{
 	public:

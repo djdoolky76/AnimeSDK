@@ -7,6 +7,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChimeraSettleToArrangementCommand_TypeDefinitionIndex = 63460;
+
 	class ChimeraSettleToArrangementCommand : public ::RPG::Client::ChimeraSettleCommandBase
 	{
 	public:

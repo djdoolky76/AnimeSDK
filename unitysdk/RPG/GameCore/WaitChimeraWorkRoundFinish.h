@@ -10,6 +10,8 @@ namespace RPG::GameCore { class WaitChimeraWorkRoundFinish; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaitChimeraWorkRoundFinish_TypeDefinitionIndex = 21733;
+
 	class WaitChimeraWorkRoundFinish : public ::RPG::GameCore::TaskConfig
 	{
 	public:

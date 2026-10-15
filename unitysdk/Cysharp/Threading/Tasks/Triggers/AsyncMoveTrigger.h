@@ -14,6 +14,8 @@ namespace UnityEngine::EventSystems { class AxisEventData; }
 
 namespace Cysharp::Threading::Tasks::Triggers
 {
+	inline static constexpr unsigned int AsyncMoveTrigger_TypeDefinitionIndex = 38633;
+
 	class AsyncMoveTrigger
 	{
 	public:

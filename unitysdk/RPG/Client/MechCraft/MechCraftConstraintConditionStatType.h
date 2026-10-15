@@ -3,6 +3,8 @@
 
 namespace RPG::Client::MechCraft
 {
+	inline static constexpr unsigned int MechCraftConstraintConditionStatType_TypeDefinitionIndex = 41653;
+
 	enum class MechCraftConstraintConditionStatType : ::System::Int32
 	{
 		ChipCount = 0,

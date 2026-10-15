@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define EJCCCIGMHOM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E2B1A30)
 #define EJCCCIGMHOM___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1E2B1A40)
 
+inline static constexpr unsigned int EJCCCIGMHOM___c_TypeDefinitionIndex = 28369;
+
 	class EJCCCIGMHOM___c : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class AudioGroundVoxelData; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AudioGroundVoxelData_TypeDefinitionIndex = 19156;
+
 	class AudioGroundVoxelData : public ::RPG::GameCore::StageVoxelDataBase
 	{
 	public:

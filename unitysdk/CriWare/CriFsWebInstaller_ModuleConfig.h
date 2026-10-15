@@ -5,6 +5,8 @@ namespace System { class String; }
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriFsWebInstaller_ModuleConfig_TypeDefinitionIndex = 40123;
+
 	struct alignas(8) CriFsWebInstaller_ModuleConfig
 	{
 		::System::UInt32 numInstallers; // 0x10

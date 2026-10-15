@@ -30,6 +30,8 @@ namespace System { class String; }
 #define NGHEPMFILPE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB10470)
 #define NGHEPMFILPE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB104D0)
 
+inline static constexpr unsigned int NGHEPMFILPE_TypeDefinitionIndex = 27178;
+
 	class NGHEPMFILPE : public ::System::Object
 	{
 	public:

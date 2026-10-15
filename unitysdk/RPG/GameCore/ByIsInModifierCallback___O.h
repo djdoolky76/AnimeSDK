@@ -5,6 +5,8 @@ namespace System { class Object; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByIsInModifierCallback___O_TypeDefinitionIndex = 23501;
+
 	class ByIsInModifierCallback___O : public ::System::Object
 	{
 	public:

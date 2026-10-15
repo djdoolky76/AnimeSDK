@@ -49,6 +49,8 @@ namespace System { class String; }
 #define POOMINFCCKG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DFCF490)
 #define POOMINFCCKG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DFCF4F0)
 
+inline static constexpr unsigned int POOMINFCCKG_TypeDefinitionIndex = 34827;
+
 	class POOMINFCCKG : public ::System::Object
 	{
 	public:

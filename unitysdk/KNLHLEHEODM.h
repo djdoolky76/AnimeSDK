@@ -7,6 +7,8 @@ namespace RPG::Client { class GridFightBonusResultData; }
 #define KNLHLEHEODM_CTOR_OFFSET UNITYSDK_OFFSET(0xB587DF0)
 #define KNLHLEHEODM_DISTRIBUTE_OFFSET UNITYSDK_OFFSET(0xB587E00)
 
+inline static constexpr unsigned int KNLHLEHEODM_TypeDefinitionIndex = 64418;
+
 	class KNLHLEHEODM : public ::System::Object
 	{
 	public:

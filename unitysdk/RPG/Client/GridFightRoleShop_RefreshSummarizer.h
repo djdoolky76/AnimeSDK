@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightRoleShop_RefreshSummarizer_TypeDefinitionIndex = 65227;
+
 	class GridFightRoleShop_RefreshSummarizer : public ::AMCOEFHHBPO
 	{
 	public:

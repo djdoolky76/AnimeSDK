@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ScheduleData_ScheduleDataUniqueKey_TypeDefinitionIndex = 67896;
+
 	struct alignas(4) ScheduleData_ScheduleDataUniqueKey
 	{
 		::System::UInt32 BeginTimeStamp; // 0x10

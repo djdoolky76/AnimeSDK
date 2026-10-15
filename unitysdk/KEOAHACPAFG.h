@@ -11,6 +11,8 @@ namespace System { class Nullable; }
 #define KEOAHACPAFG_CTOR_3_OFFSET UNITYSDK_OFFSET(0x1CBB7FE0)
 #define KEOAHACPAFG_CTOR_OFFSET UNITYSDK_OFFSET(0x1CBB7D00)
 
+inline static constexpr unsigned int KEOAHACPAFG_TypeDefinitionIndex = 41976;
+
 	class KEOAHACPAFG : public ::System::Object
 	{
 	public:

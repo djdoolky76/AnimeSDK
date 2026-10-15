@@ -20,6 +20,8 @@ namespace UnityEngine::UI { class Button; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int ProtocolConfirm_TypeDefinitionIndex = 8025;
+
 	class ProtocolConfirm : public ::MiHoYo::SDK::UIElement
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK::HoYoPass
 {
+	inline static constexpr unsigned int HoYoPassSDK_KibanaReportHandlerDelegate_TypeDefinitionIndex = 8296;
+
 	class HoYoPassSDK_KibanaReportHandlerDelegate : public ::System::MulticastDelegate
 	{
 	public:

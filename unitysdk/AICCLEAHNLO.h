@@ -40,6 +40,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define AICCLEAHNLO_PFJDLLGFCOD_OFFSET UNITYSDK_OFFSET(0xEB9F210)
 #define AICCLEAHNLO__ONBIND_OFFSET UNITYSDK_OFFSET(0xEB9E9D0)
 
+inline static constexpr unsigned int AICCLEAHNLO_TypeDefinitionIndex = 72338;
+
 	class AICCLEAHNLO : public ::FMPCODLIOLG
 	{
 	public:

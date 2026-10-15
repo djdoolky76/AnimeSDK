@@ -32,6 +32,8 @@ namespace System::Xml::Schema { class IXmlSchemaInfo; }
 
 namespace System::Xml
 {
+	inline static constexpr unsigned int XmlReader_TypeDefinitionIndex = 1841;
+
 	class XmlReader : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ class GLNNKBLJPLJ;
 #define GLNNKBLJPLJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1CE668A0)
 #define GLNNKBLJPLJ_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CE66610)
 
+inline static constexpr unsigned int GLNNKBLJPLJ_TypeDefinitionIndex = 13778;
+
 	class GLNNKBLJPLJ : public ::System::Object
 	{
 	public:

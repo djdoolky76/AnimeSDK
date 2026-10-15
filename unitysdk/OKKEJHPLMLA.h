@@ -29,6 +29,8 @@ namespace System { class String; }
 #define OKKEJHPLMLA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE9CA80)
 #define OKKEJHPLMLA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DE9CAE0)
 
+inline static constexpr unsigned int OKKEJHPLMLA_TypeDefinitionIndex = 26572;
+
 	class OKKEJHPLMLA : public ::System::Object
 	{
 	public:

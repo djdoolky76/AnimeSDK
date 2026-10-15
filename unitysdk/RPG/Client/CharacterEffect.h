@@ -64,6 +64,8 @@ namespace UnityEngine { class Renderer; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CharacterEffect_TypeDefinitionIndex = 69758;
+
 	class CharacterEffect : public ::UnityEngine::MonoBehaviour
 	{
 	public:

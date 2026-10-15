@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FateModifierRandomAddBuffAmplificationByMainTrai
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FateModifierRandomAddBuffAmplificationByMainTraitConfig_TypeDefinitionIndex = 19273;
+
 	class FateModifierRandomAddBuffAmplificationByMainTraitConfig : public ::RPG::GameCore::FateModifierConfigBase
 	{
 	public:

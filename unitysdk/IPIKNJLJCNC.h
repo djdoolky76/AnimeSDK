@@ -28,6 +28,8 @@ namespace System { class String; }
 #define IPIKNJLJCNC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E6E57E0)
 #define IPIKNJLJCNC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E6E5840)
 
+inline static constexpr unsigned int IPIKNJLJCNC_TypeDefinitionIndex = 30552;
+
 	class IPIKNJLJCNC : public ::System::Object
 	{
 	public:

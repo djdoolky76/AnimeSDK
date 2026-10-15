@@ -29,6 +29,8 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int VortexBoxPuzzleItem_TypeDefinitionIndex = 78860;
+
 	class VortexBoxPuzzleItem : public ::RPG::Client::Prop::ScenePuzzleItemBase
 	{
 	public:

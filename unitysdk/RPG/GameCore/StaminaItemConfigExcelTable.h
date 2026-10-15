@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StaminaItemConfigExcelTable_TypeDefinitionIndex = 14507;
+
 	class StaminaItemConfigExcelTable : public ::System::Object
 	{
 	public:

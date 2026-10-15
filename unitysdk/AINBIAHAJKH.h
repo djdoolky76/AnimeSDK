@@ -30,6 +30,8 @@ namespace System { class String; }
 #define AINBIAHAJKH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E280980)
 #define AINBIAHAJKH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E2809E0)
 
+inline static constexpr unsigned int AINBIAHAJKH_TypeDefinitionIndex = 34970;
+
 	class AINBIAHAJKH : public ::System::Object
 	{
 	public:

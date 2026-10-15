@@ -8,6 +8,8 @@ class PMFOAOOBHAL;
 #define PMFOAOOBHAL_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D3079C0)
 #define PMFOAOOBHAL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D307980)
 
+inline static constexpr unsigned int PMFOAOOBHAL_TypeDefinitionIndex = 24390;
+
 	class PMFOAOOBHAL : public ::RPG::GameCore::TaskConfig
 	{
 	public:

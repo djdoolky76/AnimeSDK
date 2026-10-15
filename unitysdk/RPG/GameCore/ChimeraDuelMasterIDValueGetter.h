@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ChimeraDuelMasterIDValueGetter; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChimeraDuelMasterIDValueGetter_TypeDefinitionIndex = 15994;
+
 	class ChimeraDuelMasterIDValueGetter : public ::RPG::GameCore::BaseChimeraDuelValueGetter
 	{
 	public:

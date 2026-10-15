@@ -47,6 +47,8 @@ namespace System { class String; }
 #define BMBFLLAKFFE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E01ED70)
 #define BMBFLLAKFFE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E01EDD0)
 
+inline static constexpr unsigned int BMBFLLAKFFE_TypeDefinitionIndex = 26884;
+
 	class BMBFLLAKFFE : public ::System::Object
 	{
 	public:

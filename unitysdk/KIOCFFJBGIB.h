@@ -23,6 +23,8 @@ namespace RPG::GameCore { class ChenLingBattleAIConfig; }
 #define KIOCFFJBGIB_NPJNODMDHNA_OFFSET UNITYSDK_OFFSET(0xB436640)
 #define KIOCFFJBGIB_PEBLIICOLAG_OFFSET UNITYSDK_OFFSET(0xB4366A0)
 
+inline static constexpr unsigned int KIOCFFJBGIB_TypeDefinitionIndex = 77932;
+
 	class KIOCFFJBGIB : public ::System::Object
 	{
 	public:

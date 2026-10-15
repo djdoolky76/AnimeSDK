@@ -9,6 +9,8 @@ namespace System { class String; }
 #define OCFCMKOKPCF_TOSTRING_OFFSET UNITYSDK_OFFSET(0xBD5F9B0)
 #define OCFCMKOKPCF_TRIGGERACTION_OFFSET UNITYSDK_OFFSET(0xBD5FA60)
 
+inline static constexpr unsigned int OCFCMKOKPCF_TypeDefinitionIndex = 67064;
+
 	class OCFCMKOKPCF : public ::System::Object
 	{
 	public:

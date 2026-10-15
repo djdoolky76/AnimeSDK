@@ -24,6 +24,8 @@ namespace UnityEngine { class Transform; }
 #define PIFGICNAFMF_POPDJKHOPOA_OFFSET UNITYSDK_OFFSET(0xC25F8B0)
 #define PIFGICNAFMF_TICK_OFFSET UNITYSDK_OFFSET(0xC25EDC0)
 
+inline static constexpr unsigned int PIFGICNAFMF_TypeDefinitionIndex = 58943;
+
 	class PIFGICNAFMF : public ::GELIALJDFBL
 	{
 	public:

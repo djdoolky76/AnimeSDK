@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define BAGCLEDHOBD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7B4C90)
 #define BAGCLEDHOBD___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E7B4CA0)
 
+inline static constexpr unsigned int BAGCLEDHOBD___c_TypeDefinitionIndex = 30686;
+
 	class BAGCLEDHOBD___c : public ::System::Object
 	{
 	public:

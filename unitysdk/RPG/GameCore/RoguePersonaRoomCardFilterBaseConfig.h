@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RoguePersonaRoomCardFilterBaseConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RoguePersonaRoomCardFilterBaseConfig_TypeDefinitionIndex = 19866;
+
 	class RoguePersonaRoomCardFilterBaseConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

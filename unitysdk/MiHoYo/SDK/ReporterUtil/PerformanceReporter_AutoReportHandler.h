@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::ReporterUtil
 {
+	inline static constexpr unsigned int PerformanceReporter_AutoReportHandler_TypeDefinitionIndex = 46643;
+
 	class PerformanceReporter_AutoReportHandler : public ::System::MulticastDelegate
 	{
 	public:

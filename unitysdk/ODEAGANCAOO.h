@@ -11,6 +11,8 @@ class ODEAGANCAOO;
 #define ODEAGANCAOO_IAFMCGPICOG_OFFSET UNITYSDK_OFFSET(0xBD91700)
 #define ODEAGANCAOO_JJBGNJFCHPL_OFFSET UNITYSDK_OFFSET(0xBD915C0)
 
+inline static constexpr unsigned int ODEAGANCAOO_TypeDefinitionIndex = 71819;
+
 	class ODEAGANCAOO : public ::System::Object
 	{
 	public:

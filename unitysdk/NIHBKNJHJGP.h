@@ -24,6 +24,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define NIHBKNJHJGP_SET_PRESENTTIME_OFFSET UNITYSDK_OFFSET(0xBBEB9E0)
 #define NIHBKNJHJGP_SET_USERID_OFFSET UNITYSDK_OFFSET(0xBBEB9C0)
 
+inline static constexpr unsigned int NIHBKNJHJGP_TypeDefinitionIndex = 66582;
+
 	class NIHBKNJHJGP : public ::System::Object
 	{
 	public:

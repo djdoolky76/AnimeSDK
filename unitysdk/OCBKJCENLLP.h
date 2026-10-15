@@ -4,6 +4,8 @@
 
 #define OCBKJCENLLP_CTOR_OFFSET UNITYSDK_OFFSET(0xBD59BC0)
 
+inline static constexpr unsigned int OCBKJCENLLP_TypeDefinitionIndex = 62304;
+
 	class OCBKJCENLLP : public ::ILPPBGLJABD
 	{
 	public:

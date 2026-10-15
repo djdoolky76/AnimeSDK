@@ -9,6 +9,8 @@ namespace System { class String; }
 #define ECDNCIBDELM_EAGMKDOAOJF_OFFSET UNITYSDK_OFFSET(0x12D0AC20)
 #define ECDNCIBDELM_JJNFOPNOPBF_OFFSET UNITYSDK_OFFSET(0x12D0AAB0)
 
+inline static constexpr unsigned int ECDNCIBDELM_TypeDefinitionIndex = 63993;
+
 	class ECDNCIBDELM : public ::System::Object
 	{
 	public:

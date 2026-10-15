@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TutorialTriggerParam; }
 #define AFBDIFAHNIL_CTOR_OFFSET UNITYSDK_OFFSET(0x1CCB3B50)
 #define AFBDIFAHNIL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CCB37D0)
 
+inline static constexpr unsigned int AFBDIFAHNIL_TypeDefinitionIndex = 15395;
+
 	class AFBDIFAHNIL : public ::System::Object
 	{
 	public:

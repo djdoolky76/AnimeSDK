@@ -8,6 +8,8 @@ namespace RPG::Client { class BattleSilverWolf999CustomUIData; }
 #define HICHCCPAIBB_DHHDFAAJMMC_OFFSET UNITYSDK_OFFSET(0x15CE0C50)
 #define HICHCCPAIBB__ONBIND_OFFSET UNITYSDK_OFFSET(0x15CE0CB0)
 
+inline static constexpr unsigned int HICHCCPAIBB_TypeDefinitionIndex = 71293;
+
 	class HICHCCPAIBB : public ::FMPCODLIOLG
 	{
 	public:

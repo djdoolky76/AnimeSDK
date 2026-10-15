@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int QteCatchGhostRewind_TypeDefinitionIndex = 22046;
+
 	class QteCatchGhostRewind : public ::RPG::GameCore::TaskConfig
 	{
 	public:

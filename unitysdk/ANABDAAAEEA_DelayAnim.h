@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int ANABDAAAEEA_DelayAnim_TypeDefinitionIndex = 71253;
+
 	enum class ANABDAAAEEA_DelayAnim : ::System::Int32
 	{
 		FadeIn = 0,

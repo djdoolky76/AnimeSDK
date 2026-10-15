@@ -13,6 +13,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace SRDebugger
 {
+	inline static constexpr unsigned int PinnedUiCanvasCreated_TypeDefinitionIndex = 37967;
+
 	class PinnedUiCanvasCreated : public ::System::MulticastDelegate
 	{
 	public:

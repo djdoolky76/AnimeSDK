@@ -7,6 +7,8 @@ class GDLKLEPOLOK;
 #define GDLKLEPOLOK_CTOR_OFFSET UNITYSDK_OFFSET(0x1CE30590)
 #define GDLKLEPOLOK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CE30440)
 
+inline static constexpr unsigned int GDLKLEPOLOK_TypeDefinitionIndex = 11992;
+
 	class GDLKLEPOLOK : public ::System::Object
 	{
 	public:

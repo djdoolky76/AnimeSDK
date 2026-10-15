@@ -8,6 +8,8 @@ class AFEBAJLJMMK;
 
 #define NAJMEPONCEL_CTOR_OFFSET UNITYSDK_OFFSET(0x1C934CE0)
 
+inline static constexpr unsigned int NAJMEPONCEL_TypeDefinitionIndex = 42908;
+
 	class NAJMEPONCEL : public ::System::Object
 	{
 	public:

@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 #define GEAKPMPCALG_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CE329D0)
 #define GEAKPMPCALG_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CE32320)
 
+inline static constexpr unsigned int GEAKPMPCALG_TypeDefinitionIndex = 12688;
+
 	class GEAKPMPCALG : public ::System::Object
 	{
 	public:

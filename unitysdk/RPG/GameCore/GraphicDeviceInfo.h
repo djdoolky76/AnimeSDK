@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GraphicDeviceInfo_TypeDefinitionIndex = 18270;
+
 	class GraphicDeviceInfo : public ::RPG::GameCore::JsonConfig
 	{
 	public:

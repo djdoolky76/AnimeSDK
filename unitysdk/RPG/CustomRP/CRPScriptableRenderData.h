@@ -17,6 +17,8 @@ namespace UnityEngine { class Shader; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int CRPScriptableRenderData_TypeDefinitionIndex = 37868;
+
 	class CRPScriptableRenderData : public ::UnityEngine::ScriptableObject
 	{
 	public:

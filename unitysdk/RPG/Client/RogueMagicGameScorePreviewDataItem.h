@@ -7,6 +7,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueMagicGameScorePreviewDataItem_TypeDefinitionIndex = 67394;
+
 	class RogueMagicGameScorePreviewDataItem : public ::System::Object
 	{
 	public:

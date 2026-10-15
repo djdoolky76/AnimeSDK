@@ -8,6 +8,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int MmtManager___c__DisplayClass13_1_TypeDefinitionIndex = 8038;
+
 	template <typename T>
 	class MmtManager___c__DisplayClass13_1 : public ::System::Object
 	{

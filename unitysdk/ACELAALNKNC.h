@@ -20,6 +20,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define ACELAALNKNC_PJAOBOBOLHF_OFFSET UNITYSDK_OFFSET(0xB119BA0)
 #define ACELAALNKNC_TICK_OFFSET UNITYSDK_OFFSET(0xB1193F0)
 
+inline static constexpr unsigned int ACELAALNKNC_TypeDefinitionIndex = 58334;
+
 	class ACELAALNKNC : public ::GELIALJDFBL
 	{
 	public:

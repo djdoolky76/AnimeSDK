@@ -20,6 +20,8 @@ namespace System { class Object; }
 #define HKIGIDJEIPF_PKNBNCEGJAO_OFFSET UNITYSDK_OFFSET(0x15D45A30)
 #define HKIGIDJEIPF_TEARDOWN_OFFSET UNITYSDK_OFFSET(0x15D45780)
 
+inline static constexpr unsigned int HKIGIDJEIPF_TypeDefinitionIndex = 76665;
+
 	class HKIGIDJEIPF : public ::System::Object
 	{
 	public:

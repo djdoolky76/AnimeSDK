@@ -6,6 +6,8 @@
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int Info_TypeDefinitionIndex = 8226;
+
 	class Info : public ::System::Object
 	{
 	public:

@@ -29,6 +29,8 @@ namespace System { class String; }
 #define COAKAAHCAJO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E1305C0)
 #define COAKAAHCAJO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E130620)
 
+inline static constexpr unsigned int COAKAAHCAJO_TypeDefinitionIndex = 31440;
+
 	class COAKAAHCAJO : public ::System::Object
 	{
 	public:

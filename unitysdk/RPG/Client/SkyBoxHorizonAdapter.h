@@ -10,6 +10,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SkyBoxHorizonAdapter_TypeDefinitionIndex = 72991;
+
 	class SkyBoxHorizonAdapter : public ::UnityEngine::MonoBehaviour
 	{
 	public:

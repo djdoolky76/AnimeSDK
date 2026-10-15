@@ -17,6 +17,8 @@ namespace System::Security::Policy { class Evidence; }
 
 namespace System::Reflection
 {
+	inline static constexpr unsigned int RuntimeAssembly_TypeDefinitionIndex = 612;
+
 	class RuntimeAssembly : public ::System::Reflection::Assembly
 	{
 	public:

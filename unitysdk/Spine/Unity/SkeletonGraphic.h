@@ -134,6 +134,8 @@ namespace UnityEngine::UI { class Graphic; }
 
 namespace Spine::Unity
 {
+	inline static constexpr unsigned int SkeletonGraphic_TypeDefinitionIndex = 45027;
+
 	class SkeletonGraphic : public ::UnityEngine::UI::MaskableGraphic
 	{
 	public:

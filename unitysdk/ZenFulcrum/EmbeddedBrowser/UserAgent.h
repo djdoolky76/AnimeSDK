@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
+	inline static constexpr unsigned int UserAgent_TypeDefinitionIndex = 39566;
+
 	class UserAgent : public ::System::Object
 	{
 	public:

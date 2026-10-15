@@ -4,6 +4,8 @@
 
 #define BAMPJJAPJJG_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8B0970)
 
+inline static constexpr unsigned int BAMPJJAPJJG_TypeDefinitionIndex = 43772;
+
 	class BAMPJJAPJJG : public ::System::Object
 	{
 	public:

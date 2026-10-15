@@ -4,6 +4,8 @@
 
 #define KNMGOHJBADH_CTOR_OFFSET UNITYSDK_OFFSET(0xB588DB0)
 
+inline static constexpr unsigned int KNMGOHJBADH_TypeDefinitionIndex = 63502;
+
 	class KNMGOHJBADH : public ::System::Object
 	{
 	public:

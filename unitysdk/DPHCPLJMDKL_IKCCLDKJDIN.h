@@ -17,6 +17,8 @@ namespace System::IO::MemoryMappedFiles { class MemoryMappedViewAccessor; }
 #define DPHCPLJMDKL_IKCCLDKJDIN_SET_FILEPATH_OFFSET UNITYSDK_OFFSET(0x1263D8B0)
 #define DPHCPLJMDKL_IKCCLDKJDIN_SET_ISDISPOSED_OFFSET UNITYSDK_OFFSET(0x1263D8E0)
 
+inline static constexpr unsigned int DPHCPLJMDKL_IKCCLDKJDIN_TypeDefinitionIndex = 60027;
+
 	class DPHCPLJMDKL_IKCCLDKJDIN : public ::System::Object
 	{
 	public:

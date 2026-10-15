@@ -30,6 +30,8 @@ namespace System { class String; }
 #define ONBLLGHELOB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DEC1EE0)
 #define ONBLLGHELOB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DEC1F40)
 
+inline static constexpr unsigned int ONBLLGHELOB_TypeDefinitionIndex = 29765;
+
 	class ONBLLGHELOB : public ::System::Object
 	{
 	public:

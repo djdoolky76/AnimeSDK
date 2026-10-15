@@ -29,6 +29,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int OverseaVerifyPhone_TypeDefinitionIndex = 9513;
+
 	class OverseaVerifyPhone : public ::MiHoYo::SDK::UIElement
 	{
 	public:

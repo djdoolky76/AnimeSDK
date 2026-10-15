@@ -40,6 +40,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define OCBJNCNNCNE_OHMHJFANEIF_OFFSET UNITYSDK_OFFSET(0xBD59690)
 #define OCBJNCNNCNE___STARTUPDATE_B__22_0_OFFSET UNITYSDK_OFFSET(0xBD59BB0)
 
+inline static constexpr unsigned int OCBJNCNNCNE_TypeDefinitionIndex = 61255;
+
 	class OCBJNCNNCNE : public ::System::Object
 	{
 	public:

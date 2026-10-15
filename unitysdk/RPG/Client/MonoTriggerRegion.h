@@ -21,6 +21,8 @@ namespace UnityEngine { class Collider; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoTriggerRegion_TypeDefinitionIndex = 68622;
+
 	class MonoTriggerRegion : public ::RPG::Client::BaseMonoTriggerRegion
 	{
 	public:

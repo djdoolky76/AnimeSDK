@@ -6,6 +6,8 @@
 
 namespace IFix::Core
 {
+	inline static constexpr unsigned int TypeInfo_TypeDefinitionIndex = 7129;
+
 	class TypeInfo : public ::System::Object
 	{
 	public:

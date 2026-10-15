@@ -59,6 +59,8 @@ namespace VLB { class VolumetricLightBeam; }
 
 namespace VLB
 {
+	inline static constexpr unsigned int BeamGeometry_TypeDefinitionIndex = 48983;
+
 	class BeamGeometry : public ::UnityEngine::MonoBehaviour
 	{
 	public:

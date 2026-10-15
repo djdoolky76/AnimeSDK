@@ -4,6 +4,8 @@ namespace System { class String; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int PPFilterStack_AudioEventParameter_TypeDefinitionIndex = 51862;
+
 	struct alignas(8) PPFilterStack_AudioEventParameter
 	{
 		::System::String* OpenAudioEvent; // 0x10

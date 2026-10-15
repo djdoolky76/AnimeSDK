@@ -8,6 +8,8 @@ namespace System::Text { class Encoding; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int Rc4Extend_TypeDefinitionIndex = 46479;
+
 	class Rc4Extend : public ::System::Object
 	{
 	public:

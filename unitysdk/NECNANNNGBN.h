@@ -29,6 +29,8 @@ namespace System { class String; }
 #define NECNANNNGBN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EAF00B0)
 #define NECNANNNGBN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EAF0110)
 
+inline static constexpr unsigned int NECNANNNGBN_TypeDefinitionIndex = 28598;
+
 	class NECNANNNGBN : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@
 
 namespace UnityEngine::Animations
 {
+	inline static constexpr unsigned int AnimatorControllerPlayable_TypeDefinitionIndex = 5760;
+
 	struct alignas(4) AnimatorControllerPlayable
 	{
 		::UnityEngine::Playables::PlayableHandle m_Handle; // 0x10

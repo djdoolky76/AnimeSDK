@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FiveDimEvilSmileDieAction; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimEvilSmileDieAction_TypeDefinitionIndex = 18787;
+
 	class FiveDimEvilSmileDieAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
 	public:

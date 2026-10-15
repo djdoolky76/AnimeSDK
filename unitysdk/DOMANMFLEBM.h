@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define DOMANMFLEBM_CTOR_OFFSET UNITYSDK_OFFSET(0x11FF0460)
 #define DOMANMFLEBM_EVALUATE_OFFSET UNITYSDK_OFFSET(0x11FF04B0)
 
+inline static constexpr unsigned int DOMANMFLEBM_TypeDefinitionIndex = 59222;
+
 	class DOMANMFLEBM
 	{
 	public:

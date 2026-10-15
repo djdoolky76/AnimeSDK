@@ -13,6 +13,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define GDELHFNPNKD_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0x1599B520)
 #define GDELHFNPNKD_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x1599AE50)
 
+inline static constexpr unsigned int GDELHFNPNKD_TypeDefinitionIndex = 58589;
+
 	class GDELHFNPNKD : public ::System::Object
 	{
 	public:

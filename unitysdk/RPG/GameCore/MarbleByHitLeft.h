@@ -11,6 +11,8 @@ namespace RPG::GameCore { class MarbleByHitLeft; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MarbleByHitLeft_TypeDefinitionIndex = 16886;
+
 	class MarbleByHitLeft : public ::RPG::GameCore::MarblePredicateConfig
 	{
 	public:

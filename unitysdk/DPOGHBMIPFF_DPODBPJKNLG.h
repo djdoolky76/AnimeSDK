@@ -3,6 +3,8 @@
 
 #define DPOGHBMIPFF_DPODBPJKNLG_CTOR_OFFSET UNITYSDK_OFFSET(0x126618F0)
 
+inline static constexpr unsigned int DPOGHBMIPFF_DPODBPJKNLG_TypeDefinitionIndex = 77166;
+
 	class DPOGHBMIPFF_DPODBPJKNLG
 	{
 	public:

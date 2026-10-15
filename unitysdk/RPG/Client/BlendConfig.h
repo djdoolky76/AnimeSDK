@@ -9,6 +9,8 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BlendConfig_TypeDefinitionIndex = 69701;
+
 	class BlendConfig : public ::System::Object
 	{
 	public:

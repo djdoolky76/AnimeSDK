@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FateParamMasterMaxHpConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FateParamMasterMaxHpConfig_TypeDefinitionIndex = 16634;
+
 	class FateParamMasterMaxHpConfig : public ::RPG::GameCore::FateParameterConfigBase
 	{
 	public:

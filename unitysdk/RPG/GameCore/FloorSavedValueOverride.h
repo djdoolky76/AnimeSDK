@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FloorSavedValueOverride_TypeDefinitionIndex = 20301;
+
 	class FloorSavedValueOverride : public ::RPG::GameCore::JsonConfig
 	{
 	public:

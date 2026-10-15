@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TryStartConnectUltraSkillFrameCapture; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TryStartConnectUltraSkillFrameCapture_TypeDefinitionIndex = 22725;
+
 	class TryStartConnectUltraSkillFrameCapture : public ::RPG::GameCore::TaskConfig
 	{
 	public:

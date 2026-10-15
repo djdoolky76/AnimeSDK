@@ -9,6 +9,8 @@ class DLECIKAMKEG;
 #define FAMBPBIPGOA_MGFLFCHMGPA_OFFSET UNITYSDK_OFFSET(0x15686530)
 #define FAMBPBIPGOA__ONSTART_B__1_0_OFFSET UNITYSDK_OFFSET(0x15686F90)
 
+inline static constexpr unsigned int FAMBPBIPGOA_TypeDefinitionIndex = 78241;
+
 	class FAMBPBIPGOA : public ::KNFCEJEJINK
 	{
 	public:

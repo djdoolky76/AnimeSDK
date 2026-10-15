@@ -10,6 +10,8 @@ namespace RPG::GameCore { class MazeCampDataRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MazeCampDataRow_TypeDefinitionIndex = 14051;
+
 	class MazeCampDataRow : public ::System::Object
 	{
 	public:

@@ -19,6 +19,8 @@ namespace System { class Nullable; }
 #define FIHBMIDBJKO_RESET_OFFSET UNITYSDK_OFFSET(0x157A6530)
 #define FIHBMIDBJKO_SET_STATECONFIGWHENRANGEATK_OFFSET UNITYSDK_OFFSET(0x157A7780)
 
+inline static constexpr unsigned int FIHBMIDBJKO_TypeDefinitionIndex = 69598;
+
 	class FIHBMIDBJKO : public ::System::Object
 	{
 	public:

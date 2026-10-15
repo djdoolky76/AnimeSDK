@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriFsInstallRequest_TypeDefinitionIndex = 40111;
+
 	class CriFsInstallRequest : public ::CriWare::CriFsRequest
 	{
 	public:

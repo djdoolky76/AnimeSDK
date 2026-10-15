@@ -15,6 +15,8 @@ namespace System { class String; }
 #define GOJMPOICNHO_MGCMFBKDGFL_OFFSET UNITYSDK_OFFSET(0x15B38560)
 #define GOJMPOICNHO_PCMAKKCOAGA_OFFSET UNITYSDK_OFFSET(0x15B386D0)
 
+inline static constexpr unsigned int GOJMPOICNHO_TypeDefinitionIndex = 80748;
+
 	class GOJMPOICNHO : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ResetTeamEntityFaceDir; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ResetTeamEntityFaceDir_TypeDefinitionIndex = 23454;
+
 	class ResetTeamEntityFaceDir : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -21,6 +21,8 @@ namespace System { class String; }
 #define AINABCFOFDL_NKEHINPANNJ_OFFSET UNITYSDK_OFFSET(0x1C42FEF0)
 #define AINABCFOFDL_OLCHIKGAJEA_OFFSET UNITYSDK_OFFSET(0x1C42FD80)
 
+inline static constexpr unsigned int AINABCFOFDL_TypeDefinitionIndex = 41485;
+
 	class AINABCFOFDL : public ::System::Object
 	{
 	public:

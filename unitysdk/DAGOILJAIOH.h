@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define DAGOILJAIOH_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1DCC8C50)
 #define DAGOILJAIOH_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1DCC85B0)
 
+inline static constexpr unsigned int DAGOILJAIOH_TypeDefinitionIndex = 11848;
+
 	class DAGOILJAIOH : public ::System::Object
 	{
 	public:

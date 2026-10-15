@@ -55,6 +55,8 @@ namespace System { class String; }
 
 namespace RPG::Client::ActivityHipplen
 {
+	inline static constexpr unsigned int ActivityHipplenMainController_TypeDefinitionIndex = 75476;
+
 	class ActivityHipplenMainController : public ::System::Object
 	{
 	public:

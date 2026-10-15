@@ -22,6 +22,8 @@ namespace System { class Object; }
 #define JOALFNGBHAG_NHCFLDCDLCP_OFFSET UNITYSDK_OFFSET(0x1D056850)
 #define JOALFNGBHAG_PLFOPEHNGMG_OFFSET UNITYSDK_OFFSET(0x3C3AE80)
 
+inline static constexpr unsigned int JOALFNGBHAG_TypeDefinitionIndex = 10650;
+
 	struct alignas(8) JOALFNGBHAG
 	{
 		::LELCKJPOPAO* BEHHICMOFIE; // 0x10

@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 #define AGDBDNGEKFP_SET_AFFECTEDPIECES_OFFSET UNITYSDK_OFFSET(0x1C53CDC0)
 #define AGDBDNGEKFP_SET_BUFF_OFFSET UNITYSDK_OFFSET(0x1C53CD80)
 
+inline static constexpr unsigned int AGDBDNGEKFP_TypeDefinitionIndex = 41747;
+
 	class AGDBDNGEKFP : public ::LHGAEBPLFFK
 	{
 	public:

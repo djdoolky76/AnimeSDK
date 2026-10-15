@@ -27,6 +27,8 @@ namespace System { class String; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int ConsoleVariableProperty_TypeDefinitionIndex = 4055;
+
 	struct alignas(8) ConsoleVariableProperty
 	{
 		::System::String* _Name_k__BackingField; // 0x10

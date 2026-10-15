@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int OpticalIllusionSwitchCamera_TypeDefinitionIndex = 22224;
+
 	class OpticalIllusionSwitchCamera : public ::RPG::GameCore::TaskConfig
 	{
 	public:

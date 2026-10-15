@@ -12,6 +12,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline::BattlePerform
 {
+	inline static constexpr unsigned int BPTalkPauseClip_TypeDefinitionIndex = 48830;
+
 	class BPTalkPauseClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

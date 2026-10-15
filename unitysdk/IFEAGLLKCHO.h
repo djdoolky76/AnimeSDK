@@ -58,6 +58,8 @@ namespace Entitas { template <typename T> class IMatcher_1; }
 #define IFEAGLLKCHO_PIKOMPIIDCA_OFFSET UNITYSDK_OFFSET(0x1CB0B360)
 #define IFEAGLLKCHO_PNAFAJCLLGB_OFFSET UNITYSDK_OFFSET(0x1CB0B660)
 
+inline static constexpr unsigned int IFEAGLLKCHO_TypeDefinitionIndex = 42570;
+
 	class IFEAGLLKCHO : public ::System::Object
 	{
 	public:

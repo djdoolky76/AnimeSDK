@@ -4,6 +4,8 @@ namespace System { class String; }
 
 namespace UnityEngine::Windows::Speech
 {
+	inline static constexpr unsigned int SemanticMeaning_TypeDefinitionIndex = 4446;
+
 	struct alignas(8) SemanticMeaning
 	{
 		::System::String* key; // 0x10

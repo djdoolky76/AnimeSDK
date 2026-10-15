@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define KEGNPEGPLPM_PBFOFDPFCPH_OFFSET UNITYSDK_OFFSET(0xB37A6A0)
 #define KEGNPEGPLPM_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0xB378FB0)
 
+inline static constexpr unsigned int KEGNPEGPLPM_TypeDefinitionIndex = 69645;
+
 	class KEGNPEGPLPM : public ::System::Object
 	{
 	public:

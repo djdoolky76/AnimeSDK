@@ -15,6 +15,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace AK::Wwise
 {
+	inline static constexpr unsigned int Switch_TypeDefinitionIndex = 44984;
+
 	class Switch : public ::AK::Wwise::BaseGroupType
 	{
 	public:

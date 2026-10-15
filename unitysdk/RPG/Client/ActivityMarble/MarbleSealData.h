@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 
 namespace RPG::Client::ActivityMarble
 {
+	inline static constexpr unsigned int MarbleSealData_TypeDefinitionIndex = 75971;
+
 	class MarbleSealData : public ::System::Object
 	{
 	public:

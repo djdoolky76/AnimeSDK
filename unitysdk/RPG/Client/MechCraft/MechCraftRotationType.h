@@ -3,6 +3,8 @@
 
 namespace RPG::Client::MechCraft
 {
+	inline static constexpr unsigned int MechCraftRotationType_TypeDefinitionIndex = 41660;
+
 	enum class MechCraftRotationType : ::System::Int32
 	{
 		Ccw0Degrees = 0,

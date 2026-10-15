@@ -7,6 +7,8 @@
 
 namespace RPG::Client::B51Racing
 {
+	inline static constexpr unsigned int B51RacingPauseDialogViewModel_TypeDefinitionIndex = 82042;
+
 	class B51RacingPauseDialogViewModel : public ::System::Object
 	{
 	public:

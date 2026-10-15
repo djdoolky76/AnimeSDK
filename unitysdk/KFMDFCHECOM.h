@@ -32,6 +32,8 @@ namespace System { class String; }
 #define KFMDFCHECOM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E81FB70)
 #define KFMDFCHECOM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E81FBD0)
 
+inline static constexpr unsigned int KFMDFCHECOM_TypeDefinitionIndex = 32206;
+
 	class KFMDFCHECOM : public ::System::Object
 	{
 	public:

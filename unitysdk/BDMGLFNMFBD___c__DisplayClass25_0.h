@@ -7,6 +7,8 @@ namespace UnityEngine { class GameObject; }
 #define BDMGLFNMFBD___C__DISPLAYCLASS25_0_CTOR_OFFSET UNITYSDK_OFFSET(0x163019E0)
 #define BDMGLFNMFBD___C__DISPLAYCLASS25_0___PLAYEFFECTONBRICK_B__0_OFFSET UNITYSDK_OFFSET(0x16302230)
 
+inline static constexpr unsigned int BDMGLFNMFBD___c__DisplayClass25_0_TypeDefinitionIndex = 79118;
+
 	class BDMGLFNMFBD___c__DisplayClass25_0 : public ::System::Object
 	{
 	public:

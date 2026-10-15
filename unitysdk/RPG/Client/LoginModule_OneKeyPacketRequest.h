@@ -8,6 +8,8 @@ namespace System { class Action; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int LoginModule_OneKeyPacketRequest_TypeDefinitionIndex = 65784;
+
 	class LoginModule_OneKeyPacketRequest : public ::System::Object
 	{
 	public:

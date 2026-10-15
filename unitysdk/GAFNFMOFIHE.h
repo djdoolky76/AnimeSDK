@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define GAFNFMOFIHE_CTOR_OFFSET UNITYSDK_OFFSET(0x1593A060)
 #define GAFNFMOFIHE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1593A090)
 
+inline static constexpr unsigned int GAFNFMOFIHE_TypeDefinitionIndex = 55327;
+
 	class GAFNFMOFIHE
 	{
 	public:

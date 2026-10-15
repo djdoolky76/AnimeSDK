@@ -4,6 +4,8 @@
 
 #define MKLEDJMIOBJ_CTOR_OFFSET UNITYSDK_OFFSET(0xB99CEB0)
 
+inline static constexpr unsigned int MKLEDJMIOBJ_TypeDefinitionIndex = 70504;
+
 	class MKLEDJMIOBJ : public ::UnityEngine::PropertyAttribute
 	{
 	public:

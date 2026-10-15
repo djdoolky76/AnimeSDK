@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define CCIGPDIEKGE_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1DA0C600)
 #define CCIGPDIEKGE_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1DA0BFA0)
 
+inline static constexpr unsigned int CCIGPDIEKGE_TypeDefinitionIndex = 10996;
+
 	class CCIGPDIEKGE : public ::System::Object
 	{
 	public:

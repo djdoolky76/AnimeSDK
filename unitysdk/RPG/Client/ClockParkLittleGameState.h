@@ -41,6 +41,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ClockParkLittleGameState_TypeDefinitionIndex = 61501;
+
 	class ClockParkLittleGameState : public ::RPG::Client::BaseClockParkGameState
 	{
 	public:

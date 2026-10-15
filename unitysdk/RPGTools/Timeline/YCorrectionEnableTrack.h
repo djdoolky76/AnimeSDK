@@ -10,6 +10,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int YCorrectionEnableTrack_TypeDefinitionIndex = 48420;
+
 	class YCorrectionEnableTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
 	public:

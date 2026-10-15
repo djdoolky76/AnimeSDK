@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::HoYoPass
 {
+	inline static constexpr unsigned int LoginManager_HoYoPassLoginCallbackDelegate_TypeDefinitionIndex = 8304;
+
 	class LoginManager_HoYoPassLoginCallbackDelegate : public ::System::MulticastDelegate
 	{
 	public:

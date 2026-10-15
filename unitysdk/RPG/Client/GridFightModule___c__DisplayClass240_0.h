@@ -9,6 +9,8 @@ namespace RPG::Client { template <typename T> class PrefHashSet_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightModule___c__DisplayClass240_0_TypeDefinitionIndex = 64873;
+
 	class GridFightModule___c__DisplayClass240_0 : public ::System::Object
 	{
 	public:

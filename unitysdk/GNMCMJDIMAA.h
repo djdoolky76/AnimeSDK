@@ -58,6 +58,8 @@ namespace UnityEngine { class Transform; }
 #define GNMCMJDIMAA__ONBIND_OFFSET UNITYSDK_OFFSET(0x15B16DB0)
 #define GNMCMJDIMAA__ONTICK_OFFSET UNITYSDK_OFFSET(0x15B17660)
 
+inline static constexpr unsigned int GNMCMJDIMAA_TypeDefinitionIndex = 71527;
+
 	class GNMCMJDIMAA : public ::FMPCODLIOLG
 	{
 	public:

@@ -20,6 +20,8 @@ class LNHACPACCKH;
 #define MANCPDFHDHO_NOJIPMKAGON_OFFSET UNITYSDK_OFFSET(0x1C747660)
 #define MANCPDFHDHO_PNJODACLLPH_OFFSET UNITYSDK_OFFSET(0x1C747650)
 
+inline static constexpr unsigned int MANCPDFHDHO_TypeDefinitionIndex = 37182;
+
 	class MANCPDFHDHO : public ::System::Object
 	{
 	public:

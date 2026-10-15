@@ -30,6 +30,8 @@ namespace System { class String; }
 #define AHCLMAGAHPN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E26CEE0)
 #define AHCLMAGAHPN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E26CF40)
 
+inline static constexpr unsigned int AHCLMAGAHPN_TypeDefinitionIndex = 32318;
+
 	class AHCLMAGAHPN : public ::System::Object
 	{
 	public:

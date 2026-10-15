@@ -3,6 +3,8 @@
 
 namespace System::Net::Sockets
 {
+	inline static constexpr unsigned int SocketOperation_TypeDefinitionIndex = 2921;
+
 	enum class SocketOperation : ::System::Int32
 	{
 		Accept = 0,

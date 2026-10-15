@@ -22,6 +22,8 @@ namespace System::Collections::ObjectModel { template <typename T> class ReadOnl
 
 namespace EnviromentSystemV2Space
 {
+	inline static constexpr unsigned int EnvDynamicPropLayoutProfile_TypeDefinitionIndex = 49379;
+
 	class EnvDynamicPropLayoutProfile : public ::UnityEngine::ScriptableObject
 	{
 	public:

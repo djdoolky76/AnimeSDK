@@ -9,6 +9,8 @@ namespace RPG::Client { class GridFightPortalData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightPortalServerData___c__DisplayClass2_0_TypeDefinitionIndex = 65085;
+
 	class GridFightPortalServerData___c__DisplayClass2_0 : public ::System::Object
 	{
 	public:

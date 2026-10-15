@@ -11,6 +11,8 @@ namespace RPG::GameCore::Match3 { class BirdSkillActionGenerateBomb; }
 
 namespace RPG::GameCore::Match3
 {
+	inline static constexpr unsigned int BirdSkillActionGenerateBomb_TypeDefinitionIndex = 24930;
+
 	class BirdSkillActionGenerateBomb : public ::RPG::GameCore::Match3::Match3ActionBase
 	{
 	public:

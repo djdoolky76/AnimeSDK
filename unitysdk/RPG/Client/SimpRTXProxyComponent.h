@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SimpRTXProxyComponent_TypeDefinitionIndex = 70193;
+
 	class SimpRTXProxyComponent : public ::UnityEngine::MonoBehaviour
 	{
 	public:

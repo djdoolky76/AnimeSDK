@@ -16,6 +16,8 @@ namespace System { class String; }
 
 namespace RPG::Client::Debugging
 {
+	inline static constexpr unsigned int DebugHudText_TypeDefinitionIndex = 82131;
+
 	class DebugHudText : public ::UnityEngine::MonoBehaviour
 	{
 	public:

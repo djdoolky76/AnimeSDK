@@ -40,6 +40,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PlanetFesSkillBuffDisplayData_TypeDefinitionIndex = 66634;
+
 	class PlanetFesSkillBuffDisplayData : public ::System::Object
 	{
 	public:

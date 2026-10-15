@@ -23,6 +23,8 @@ namespace RPG::GameCore { class TransformComponent; }
 #define KBPLABAKKCM_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB327110)
 #define KBPLABAKKCM_TICK_OFFSET UNITYSDK_OFFSET(0xB326940)
 
+inline static constexpr unsigned int KBPLABAKKCM_TypeDefinitionIndex = 52435;
+
 	class KBPLABAKKCM : public ::GELIALJDFBL
 	{
 	public:

@@ -5,6 +5,8 @@
 
 #define PKGNIOAKKKA_CTOR_OFFSET UNITYSDK_OFFSET(0xC2BAA00)
 
+inline static constexpr unsigned int PKGNIOAKKKA_TypeDefinitionIndex = 69916;
+
 	class PKGNIOAKKKA : public ::System::Object
 	{
 	public:

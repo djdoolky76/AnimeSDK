@@ -5,6 +5,8 @@ namespace RPG::Client { class LuaUIController; }
 namespace RPG::Client::Promises { class Promise; }
 namespace System { class Action; }
 
+inline static constexpr unsigned int ELDKPCBCIIO___c__DisplayClass6_0_1_TypeDefinitionIndex = 80621;
+
 	template <typename T>
 	class ELDKPCBCIIO___c__DisplayClass6_0_1 : public ::System::Object
 	{

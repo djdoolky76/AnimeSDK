@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ActivityDiceCombatAIGroupRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ActivityDiceCombatAIGroupRow_TypeDefinitionIndex = 11263;
+
 	class ActivityDiceCombatAIGroupRow : public ::System::Object
 	{
 	public:

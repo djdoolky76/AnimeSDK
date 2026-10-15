@@ -28,6 +28,8 @@
 
 namespace Cinemachine
 {
+	inline static constexpr unsigned int CinemachineDialogueShot_TypeDefinitionIndex = 49639;
+
 	class CinemachineDialogueShot : public ::Cinemachine::CinemachineShotBase
 	{
 	public:

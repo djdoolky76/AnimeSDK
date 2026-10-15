@@ -4,6 +4,8 @@
 #define HLGICBNPGOO_LOFLKAKANFN_1_OFFSET UNITYSDK_OFFSET(0x15D5F590)
 #define HLGICBNPGOO_LOFLKAKANFN_OFFSET UNITYSDK_OFFSET(0x15D5F550)
 
+inline static constexpr unsigned int HLGICBNPGOO_TypeDefinitionIndex = 57160;
+
 	struct alignas(4) HLGICBNPGOO
 	{
 		::System::UInt32 NKCNINBAGME; // 0x10

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FateModifierModifyMasterAffixRarityProbabilityCo
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FateModifierModifyMasterAffixRarityProbabilityConfig_TypeDefinitionIndex = 19275;
+
 	class FateModifierModifyMasterAffixRarityProbabilityConfig : public ::RPG::GameCore::FateModifierConfigBase
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MarblePVPRankConfigRow_TypeDefinitionIndex = 11875;
+
 	class MarblePVPRankConfigRow : public ::System::Object
 	{
 	public:

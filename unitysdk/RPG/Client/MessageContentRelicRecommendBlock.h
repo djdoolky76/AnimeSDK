@@ -23,6 +23,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MessageContentRelicRecommendBlock_TypeDefinitionIndex = 63262;
+
 	class MessageContentRelicRecommendBlock : public ::RPG::Client::MessageContentFunctionCallBlock
 	{
 	public:

@@ -17,6 +17,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define LOIPKPKDGGD_NIJJPBOIGBI_OFFSET UNITYSDK_OFFSET(0xB805930)
 #define LOIPKPKDGGD_NOAALDOOBLN_OFFSET UNITYSDK_OFFSET(0xB805D20)
 
+inline static constexpr unsigned int LOIPKPKDGGD_TypeDefinitionIndex = 71854;
+
 	class LOIPKPKDGGD : public ::FMPCODLIOLG
 	{
 	public:

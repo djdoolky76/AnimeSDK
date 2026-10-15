@@ -13,6 +13,8 @@ namespace System { class Nullable; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int DefaultForceKillMarkData___c__DisplayClass21_0_TypeDefinitionIndex = 71671;
+
 	class DefaultForceKillMarkData___c__DisplayClass21_0 : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
+	inline static constexpr unsigned int BrowserNative_Calltype_zfb_setAPMCrashTest_TypeDefinitionIndex = 39400;
+
 	class BrowserNative_Calltype_zfb_setAPMCrashTest : public ::System::MulticastDelegate
 	{
 	public:

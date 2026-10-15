@@ -9,6 +9,8 @@ namespace System { template <typename T> class Predicate_1; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_Parameters___c__DisplayClass82_0_TypeDefinitionIndex = 40553;
+
 	class HEU_Parameters___c__DisplayClass82_0 : public ::System::Object
 	{
 	public:

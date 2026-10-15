@@ -20,6 +20,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int CharacterStorySteerBehaviour_TypeDefinitionIndex = 48019;
+
 	class CharacterStorySteerBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

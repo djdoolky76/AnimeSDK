@@ -145,6 +145,8 @@ namespace UnityEngine { class Coroutine; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int LoginManager_TypeDefinitionIndex = 9440;
+
 	class LoginManager : public ::System::Object
 	{
 	public:

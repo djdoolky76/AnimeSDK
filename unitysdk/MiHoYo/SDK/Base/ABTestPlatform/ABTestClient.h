@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace MiHoYo::SDK::Base::ABTestPlatform
 {
+	inline static constexpr unsigned int ABTestClient_TypeDefinitionIndex = 8855;
+
 	class ABTestClient : public ::System::Object
 	{
 	public:

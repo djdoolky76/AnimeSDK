@@ -15,6 +15,8 @@ namespace RPG::GameCore { class StageRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AetherDivideMonsterRowData_TypeDefinitionIndex = 56936;
+
 	class AetherDivideMonsterRowData : public ::RPG::GameCore::MonsterRowData
 	{
 	public:

@@ -13,6 +13,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ST_ByAIHangUp_TypeDefinitionIndex = 20077;
+
 	class ST_ByAIHangUp : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

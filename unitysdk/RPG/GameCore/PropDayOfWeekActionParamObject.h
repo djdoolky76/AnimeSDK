@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PropDayOfWeekActionParamObject_TypeDefinitionIndex = 22075;
+
 	class PropDayOfWeekActionParamObject : public ::RPG::GameCore::JsonConfig
 	{
 	public:

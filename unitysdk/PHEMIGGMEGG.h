@@ -30,6 +30,8 @@ namespace System { class Object; }
 #define PHEMIGGMEGG_SETNEXTTASK_OFFSET UNITYSDK_OFFSET(0xC248430)
 #define PHEMIGGMEGG_TICK_OFFSET UNITYSDK_OFFSET(0xC247980)
 
+inline static constexpr unsigned int PHEMIGGMEGG_TypeDefinitionIndex = 53104;
+
 	class PHEMIGGMEGG : public ::GELIALJDFBL
 	{
 	public:

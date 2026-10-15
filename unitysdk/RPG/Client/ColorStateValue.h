@@ -7,6 +7,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ColorStateValue_TypeDefinitionIndex = 71010;
+
 	class ColorStateValue : public ::RPG::Client::StateValueEntry
 	{
 	public:

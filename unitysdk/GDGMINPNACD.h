@@ -31,6 +31,8 @@ namespace System { class String; }
 #define GDGMINPNACD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E44A010)
 #define GDGMINPNACD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E44A070)
 
+inline static constexpr unsigned int GDGMINPNACD_TypeDefinitionIndex = 33984;
+
 	class GDGMINPNACD : public ::System::Object
 	{
 	public:

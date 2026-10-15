@@ -14,6 +14,8 @@ namespace RPG::GameCore { class ChimeraDuelEntityValueSum; }
 #define HGNBCNMOBAO_HKELDKHOPGM_OFFSET UNITYSDK_OFFSET(0x15CB2810)
 #define HGNBCNMOBAO_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0x15CB2680)
 
+inline static constexpr unsigned int HGNBCNMOBAO_TypeDefinitionIndex = 77574;
+
 	class HGNBCNMOBAO : public ::System::Object
 	{
 	public:

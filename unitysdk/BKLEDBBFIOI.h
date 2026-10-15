@@ -6,6 +6,8 @@ namespace System { class String; }
 #define BKLEDBBFIOI_CTOR_OFFSET UNITYSDK_OFFSET(0xBA5AD90)
 #define BKLEDBBFIOI_HKILPOPCDPJ_OFFSET UNITYSDK_OFFSET(0xBA5AC30)
 
+inline static constexpr unsigned int BKLEDBBFIOI_TypeDefinitionIndex = 76353;
+
 	class BKLEDBBFIOI : public ::ODLJOLJDLNI
 	{
 	public:

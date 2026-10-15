@@ -3,6 +3,8 @@
 
 namespace XLua
 {
+	inline static constexpr unsigned int XLuaWrapRegistrationKind_TypeDefinitionIndex = 50281;
+
 	enum class XLuaWrapRegistrationKind : ::System::Int32
 	{
 		NormalWrap = 0,

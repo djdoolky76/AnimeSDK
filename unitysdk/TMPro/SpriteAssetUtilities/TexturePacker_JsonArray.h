@@ -6,6 +6,8 @@
 
 namespace TMPro::SpriteAssetUtilities
 {
+	inline static constexpr unsigned int TexturePacker_JsonArray_TypeDefinitionIndex = 44698;
+
 	class TexturePacker_JsonArray : public ::System::Object
 	{
 	public:

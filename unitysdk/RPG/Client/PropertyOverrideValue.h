@@ -11,6 +11,8 @@ namespace UnityEngine { class Shader; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PropertyOverrideValue_TypeDefinitionIndex = 71021;
+
 	class PropertyOverrideValue : public ::System::Object
 	{
 	public:

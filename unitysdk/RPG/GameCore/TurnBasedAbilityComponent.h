@@ -501,6 +501,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TurnBasedAbilityComponent_TypeDefinitionIndex = 54850;
+
 	class TurnBasedAbilityComponent : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

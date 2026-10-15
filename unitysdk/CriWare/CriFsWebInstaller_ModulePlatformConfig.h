@@ -5,6 +5,8 @@
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriFsWebInstaller_ModulePlatformConfig_TypeDefinitionIndex = 40124;
+
 	struct alignas(4) CriFsWebInstaller_ModulePlatformConfig
 	{
 		::System::Byte reserved; // 0x10

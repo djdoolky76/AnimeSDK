@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define MFOAPFLEACC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB90FCB0)
 #define MFOAPFLEACC_TICK_OFFSET UNITYSDK_OFFSET(0xB910090)
 
+inline static constexpr unsigned int MFOAPFLEACC_TypeDefinitionIndex = 55278;
+
 	class MFOAPFLEACC
 	{
 	public:

@@ -6,6 +6,8 @@
 
 namespace DesperateDevs::CodeGeneration::CodeGenerator::Unity::Editor
 {
+	inline static constexpr unsigned int Compile_TypeDefinitionIndex = 47032;
+
 	class Compile : public ::System::Object
 	{
 	public:

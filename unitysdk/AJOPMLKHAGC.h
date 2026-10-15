@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define AJOPMLKHAGC_DISPOSE_OFFSET UNITYSDK_OFFSET(0x12CC84D0)
 #define AJOPMLKHAGC_GIBPGBDMHML_OFFSET UNITYSDK_OFFSET(0x12CC8510)
 
+inline static constexpr unsigned int AJOPMLKHAGC_TypeDefinitionIndex = 60313;
+
 	class AJOPMLKHAGC : public ::System::Object
 	{
 	public:

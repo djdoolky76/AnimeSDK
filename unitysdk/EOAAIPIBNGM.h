@@ -29,6 +29,8 @@ namespace System { class String; }
 #define EOAAIPIBNGM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E2F5010)
 #define EOAAIPIBNGM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E2F5070)
 
+inline static constexpr unsigned int EOAAIPIBNGM_TypeDefinitionIndex = 26711;
+
 	class EOAAIPIBNGM : public ::System::Object
 	{
 	public:

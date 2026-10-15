@@ -25,6 +25,8 @@ namespace UnityEngine { class MaterialPropertyBlock; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TimeSpaceCrisscrossIRIBehavior_TypeDefinitionIndex = 70226;
+
 	class TimeSpaceCrisscrossIRIBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:

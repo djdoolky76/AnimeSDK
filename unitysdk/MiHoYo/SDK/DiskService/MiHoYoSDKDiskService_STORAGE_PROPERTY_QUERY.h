@@ -3,6 +3,8 @@
 
 namespace MiHoYo::SDK::DiskService
 {
+	inline static constexpr unsigned int MiHoYoSDKDiskService_STORAGE_PROPERTY_QUERY_TypeDefinitionIndex = 46674;
+
 	struct alignas(8) MiHoYoSDKDiskService_STORAGE_PROPERTY_QUERY
 	{
 		::System::UInt32 PropertyId; // 0x10

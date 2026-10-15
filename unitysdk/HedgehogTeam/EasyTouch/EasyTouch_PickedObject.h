@@ -8,6 +8,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace HedgehogTeam::EasyTouch
 {
+	inline static constexpr unsigned int EasyTouch_PickedObject_TypeDefinitionIndex = 40288;
+
 	class EasyTouch_PickedObject : public ::System::Object
 	{
 	public:

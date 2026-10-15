@@ -13,6 +13,8 @@ namespace System { template <typename T> class Func_1; }
 #define BAAADOPPCPM___C___CTOR_B__14_0_OFFSET UNITYSDK_OFFSET(0x1C8ADD20)
 #define BAAADOPPCPM___C___CTOR_B__14_1_OFFSET UNITYSDK_OFFSET(0x1C8ADD50)
 
+inline static constexpr unsigned int BAAADOPPCPM___c_TypeDefinitionIndex = 42588;
+
 	class BAAADOPPCPM___c : public ::System::Object
 	{
 	public:

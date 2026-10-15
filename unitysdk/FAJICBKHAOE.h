@@ -5,6 +5,8 @@ namespace System { class String; }
 
 #define FAJICBKHAOE_CTOR_OFFSET UNITYSDK_OFFSET(0x25920)
 
+inline static constexpr unsigned int FAJICBKHAOE_TypeDefinitionIndex = 36945;
+
 	struct alignas(8) FAJICBKHAOE
 	{
 		::RPG::Client::LittleGameShare::FightServerLogLevel DEBCCPPNIGH; // 0x10

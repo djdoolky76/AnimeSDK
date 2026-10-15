@@ -61,6 +61,8 @@ namespace System { class Action; }
 #define OMOEFAHFJFL__STARTNEXT_B__25_0_OFFSET UNITYSDK_OFFSET(0xBF470C0)
 #define OMOEFAHFJFL__START_B__12_0_OFFSET UNITYSDK_OFFSET(0xBF46FA0)
 
+inline static constexpr unsigned int OMOEFAHFJFL_TypeDefinitionIndex = 81505;
+
 	class OMOEFAHFJFL : public ::BHPMNMMGLHI
 	{
 	public:

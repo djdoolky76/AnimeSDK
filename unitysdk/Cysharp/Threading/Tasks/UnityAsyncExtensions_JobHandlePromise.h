@@ -19,6 +19,8 @@ namespace System { class Object; }
 
 namespace Cysharp::Threading::Tasks
 {
+	inline static constexpr unsigned int UnityAsyncExtensions_JobHandlePromise_TypeDefinitionIndex = 38455;
+
 	class UnityAsyncExtensions_JobHandlePromise : public ::System::Object
 	{
 	public:

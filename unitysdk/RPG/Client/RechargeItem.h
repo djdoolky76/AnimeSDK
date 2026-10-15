@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RechargeItem_TypeDefinitionIndex = 66434;
+
 	class RechargeItem : public ::System::Object
 	{
 	public:

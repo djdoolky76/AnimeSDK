@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace System::Net
 {
+	inline static constexpr unsigned int ValidationHelper_TypeDefinitionIndex = 2749;
+
 	class ValidationHelper : public ::System::Object
 	{
 	public:

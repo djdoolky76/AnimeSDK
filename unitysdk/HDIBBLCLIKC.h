@@ -7,6 +7,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 #define HDIBBLCLIKC_CTOR_OFFSET UNITYSDK_OFFSET(0x15C34EA0)
 #define HDIBBLCLIKC_KKKIONIDKFA_OFFSET UNITYSDK_OFFSET(0x15C35000)
 
+inline static constexpr unsigned int HDIBBLCLIKC_TypeDefinitionIndex = 61718;
+
 	class HDIBBLCLIKC : public ::System::Object
 	{
 	public:

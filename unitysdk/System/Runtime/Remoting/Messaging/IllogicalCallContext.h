@@ -16,6 +16,8 @@ namespace System::Runtime::Remoting::Messaging { class IllogicalCallContext; }
 
 namespace System::Runtime::Remoting::Messaging
 {
+	inline static constexpr unsigned int IllogicalCallContext_TypeDefinitionIndex = 1291;
+
 	class IllogicalCallContext : public ::System::Object
 	{
 	public:

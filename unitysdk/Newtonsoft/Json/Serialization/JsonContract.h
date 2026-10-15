@@ -46,6 +46,8 @@ namespace System::Reflection { class MethodInfo; }
 
 namespace Newtonsoft::Json::Serialization
 {
+	inline static constexpr unsigned int JsonContract_TypeDefinitionIndex = 9725;
+
 	class JsonContract : public ::System::Object
 	{
 	public:

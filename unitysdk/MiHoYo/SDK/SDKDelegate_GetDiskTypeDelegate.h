@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int SDKDelegate_GetDiskTypeDelegate_TypeDefinitionIndex = 7801;
+
 	class SDKDelegate_GetDiskTypeDelegate : public ::System::MulticastDelegate
 	{
 	public:

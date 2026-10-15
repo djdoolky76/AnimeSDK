@@ -11,6 +11,8 @@ namespace RPG::GameCore { class GameEntryUIConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GameEntryUIConfig_TypeDefinitionIndex = 16460;
+
 	class GameEntryUIConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

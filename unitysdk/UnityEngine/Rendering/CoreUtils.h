@@ -98,6 +98,8 @@ namespace UnityEngine::Rendering { class RTHandle; }
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int CoreUtils_TypeDefinitionIndex = 35598;
+
 	class CoreUtils : public ::System::Object
 	{
 	public:

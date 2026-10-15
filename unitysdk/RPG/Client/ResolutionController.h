@@ -17,6 +17,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ResolutionController_TypeDefinitionIndex = 72870;
+
 	class ResolutionController : public ::UnityEngine::MonoBehaviour
 	{
 	public:

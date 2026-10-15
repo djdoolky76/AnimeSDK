@@ -11,6 +11,8 @@ namespace RPG::Client { class RogueFinishInfo; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueSeasonFinishInfo_TypeDefinitionIndex = 67458;
+
 	class RogueSeasonFinishInfo : public ::System::Object
 	{
 	public:

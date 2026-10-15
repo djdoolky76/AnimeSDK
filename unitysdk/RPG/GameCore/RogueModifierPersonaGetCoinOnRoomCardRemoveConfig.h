@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierPersonaGetCoinOnRoomCardRemoveConfi
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierPersonaGetCoinOnRoomCardRemoveConfig_TypeDefinitionIndex = 17866;
+
 	class RogueModifierPersonaGetCoinOnRoomCardRemoveConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System { class Object; }
 #define LIENBCAHFMA_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C73C990)
 #define LIENBCAHFMA_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C73C950)
 
+inline static constexpr unsigned int LIENBCAHFMA_TypeDefinitionIndex = 36235;
+
 	class LIENBCAHFMA : public ::System::MulticastDelegate
 	{
 	public:

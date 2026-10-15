@@ -18,6 +18,8 @@ namespace System { class Object; }
 #define HBFIBDGJLHE_FKACNFLBPAG_SET_ISCLOSEINTERSECTION_OFFSET UNITYSDK_OFFSET(0x15BFD430)
 #define HBFIBDGJLHE_FKACNFLBPAG_SET_PROXY_OFFSET UNITYSDK_OFFSET(0x15BFD3F0)
 
+inline static constexpr unsigned int HBFIBDGJLHE_FKACNFLBPAG_TypeDefinitionIndex = 82178;
+
 	class HBFIBDGJLHE_FKACNFLBPAG : public ::System::Object
 	{
 	public:

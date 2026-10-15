@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueTournEnterNextRoom; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueTournEnterNextRoom_TypeDefinitionIndex = 22099;
+
 	class RogueTournEnterNextRoom : public ::RPG::GameCore::TaskConfig
 	{
 	public:

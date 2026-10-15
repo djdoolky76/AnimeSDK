@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::PluginUI
 {
+	inline static constexpr unsigned int UIBridgeElementStatusChangedMessage_TypeDefinitionIndex = 46788;
+
 	class UIBridgeElementStatusChangedMessage : public ::System::Object
 	{
 	public:

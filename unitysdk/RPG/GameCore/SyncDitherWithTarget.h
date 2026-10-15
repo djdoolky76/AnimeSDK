@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SyncDitherWithTarget_TypeDefinitionIndex = 20227;
+
 	class SyncDitherWithTarget : public ::RPG::GameCore::TaskConfig
 	{
 	public:

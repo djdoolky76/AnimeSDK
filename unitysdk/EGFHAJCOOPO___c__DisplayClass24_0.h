@@ -8,6 +8,8 @@ namespace RPG::Client::B51Racing { class B51RacingNewCarDisplayPageViewModel; }
 #define EGFHAJCOOPO___C__DISPLAYCLASS24_0_CTOR_OFFSET UNITYSDK_OFFSET(0x14515140)
 #define EGFHAJCOOPO___C__DISPLAYCLASS24_0__SHOWNEWCARDISPLAYPAGEASYNC_B__0_OFFSET UNITYSDK_OFFSET(0x14516290)
 
+inline static constexpr unsigned int EGFHAJCOOPO___c__DisplayClass24_0_TypeDefinitionIndex = 81749;
+
 	class EGFHAJCOOPO___c__DisplayClass24_0 : public ::System::Object
 	{
 	public:

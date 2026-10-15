@@ -33,6 +33,8 @@ namespace System { class String; }
 #define CPHOIPHAPDJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E13EF80)
 #define CPHOIPHAPDJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E13EFE0)
 
+inline static constexpr unsigned int CPHOIPHAPDJ_TypeDefinitionIndex = 31749;
+
 	class CPHOIPHAPDJ : public ::System::Object
 	{
 	public:

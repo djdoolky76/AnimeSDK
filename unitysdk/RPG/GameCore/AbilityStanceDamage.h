@@ -22,6 +22,8 @@ namespace RPG::GameCore { class GameEntity; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AbilityStanceDamage_TypeDefinitionIndex = 56595;
+
 	class AbilityStanceDamage : public ::CMPGEAFHHDC
 	{
 	public:

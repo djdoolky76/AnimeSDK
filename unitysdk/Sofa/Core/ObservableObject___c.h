@@ -12,6 +12,8 @@ namespace System::ComponentModel { class PropertyChangedEventArgs; }
 
 namespace Sofa::Core
 {
+	inline static constexpr unsigned int ObservableObject___c_TypeDefinitionIndex = 44108;
+
 	class ObservableObject___c : public ::System::Object
 	{
 	public:

@@ -28,6 +28,8 @@ namespace System { class String; }
 
 namespace RPG::Client::ParkourGame
 {
+	inline static constexpr unsigned int MonoParkourRoad_TypeDefinitionIndex = 74155;
+
 	class MonoParkourRoad : public ::UnityEngine::MonoBehaviour
 	{
 	public:

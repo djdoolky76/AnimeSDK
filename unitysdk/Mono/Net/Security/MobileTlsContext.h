@@ -27,6 +27,8 @@ namespace System::Security::Cryptography::X509Certificates { class X509Chain; }
 
 namespace Mono::Net::Security
 {
+	inline static constexpr unsigned int MobileTlsContext_TypeDefinitionIndex = 2443;
+
 	class MobileTlsContext : public ::System::Object
 	{
 	public:

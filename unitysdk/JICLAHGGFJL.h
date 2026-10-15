@@ -7,6 +7,8 @@ class JICLAHGGFJL;
 #define JICLAHGGFJL_CTOR_OFFSET UNITYSDK_OFFSET(0x1D0345F0)
 #define JICLAHGGFJL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D034480)
 
+inline static constexpr unsigned int JICLAHGGFJL_TypeDefinitionIndex = 11694;
+
 	class JICLAHGGFJL : public ::System::Object
 	{
 	public:

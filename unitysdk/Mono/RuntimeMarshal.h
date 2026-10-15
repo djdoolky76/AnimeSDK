@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace Mono
 {
+	inline static constexpr unsigned int RuntimeMarshal_TypeDefinitionIndex = 11;
+
 	class RuntimeMarshal : public ::System::Object
 	{
 	public:

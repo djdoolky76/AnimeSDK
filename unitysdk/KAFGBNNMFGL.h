@@ -9,6 +9,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define KAFGBNNMFGL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB2D55F0)
 #define KAFGBNNMFGL_PAHMFNJPGCD_OFFSET UNITYSDK_OFFSET(0xB2D5D30)
 
+inline static constexpr unsigned int KAFGBNNMFGL_TypeDefinitionIndex = 52649;
+
 	class KAFGBNNMFGL
 	{
 	public:

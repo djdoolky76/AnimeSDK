@@ -12,6 +12,8 @@ namespace RPG::GameCore { class PropComponent; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int TeleportGateSwitch_TypeDefinitionIndex = 78905;
+
 	class TeleportGateSwitch : public ::UnityEngine::MonoBehaviour
 	{
 	public:

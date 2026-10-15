@@ -8,6 +8,8 @@ class JCLBAEHIBLA;
 #define BELHFBCAFKI_CTOR_OFFSET UNITYSDK_OFFSET(0xB156520)
 #define BELHFBCAFKI_LFFBCABFBOK_OFFSET UNITYSDK_OFFSET(0xB156530)
 
+inline static constexpr unsigned int BELHFBCAFKI_TypeDefinitionIndex = 60355;
+
 	class BELHFBCAFKI : public ::DAMIINECKKH
 	{
 	public:

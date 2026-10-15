@@ -27,6 +27,8 @@ namespace UnityEngine::UI { class Text; }
 #define CGDPAMEHOKC__ONBIND_OFFSET UNITYSDK_OFFSET(0xCC85FE0)
 #define CGDPAMEHOKC___SETUPNORMALBUFFLIST_B__11_0_OFFSET UNITYSDK_OFFSET(0xCC86E00)
 
+inline static constexpr unsigned int CGDPAMEHOKC_TypeDefinitionIndex = 71185;
+
 	class CGDPAMEHOKC : public ::FMPCODLIOLG
 	{
 	public:

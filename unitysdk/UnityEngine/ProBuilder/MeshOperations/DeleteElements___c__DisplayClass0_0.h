@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace UnityEngine::ProBuilder::MeshOperations
 {
+	inline static constexpr unsigned int DeleteElements___c__DisplayClass0_0_TypeDefinitionIndex = 44491;
+
 	class DeleteElements___c__DisplayClass0_0 : public ::System::Object
 	{
 	public:

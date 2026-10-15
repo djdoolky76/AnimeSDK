@@ -27,6 +27,8 @@ namespace System { class String; }
 #define LENDBHPIOJK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9370A0)
 #define LENDBHPIOJK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E937100)
 
+inline static constexpr unsigned int LENDBHPIOJK_TypeDefinitionIndex = 26412;
+
 	class LENDBHPIOJK : public ::System::Object
 	{
 	public:

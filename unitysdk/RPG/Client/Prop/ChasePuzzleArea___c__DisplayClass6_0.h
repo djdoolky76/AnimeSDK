@@ -9,6 +9,8 @@ namespace RPG::GameCore { class GameEntity; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int ChasePuzzleArea___c__DisplayClass6_0_TypeDefinitionIndex = 78223;
+
 	class ChasePuzzleArea___c__DisplayClass6_0 : public ::System::Object
 	{
 	public:

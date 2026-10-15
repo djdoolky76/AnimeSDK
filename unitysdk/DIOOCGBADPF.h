@@ -14,6 +14,8 @@ namespace System::IO { class Stream; }
 #define DIOOCGBADPF_KNEHEDGMFKB_OFFSET UNITYSDK_OFFSET(0x1EC05C70)
 #define DIOOCGBADPF_NDHICLCLKBH_OFFSET UNITYSDK_OFFSET(0x1EC060B0)
 
+inline static constexpr unsigned int DIOOCGBADPF_TypeDefinitionIndex = 35270;
+
 	class DIOOCGBADPF : public ::System::Object
 	{
 	public:

@@ -4,6 +4,8 @@
 
 namespace RPG::Client::TAUtils
 {
+	inline static constexpr unsigned int MeshSelfIntersectionDebugger_JHCHCMJGKNO_TypeDefinitionIndex = 73636;
+
 	struct alignas(4) MeshSelfIntersectionDebugger_JHCHCMJGKNO
 	{
 		::UnityEngine::Vector3 HGKHAKGHJFK; // 0x10

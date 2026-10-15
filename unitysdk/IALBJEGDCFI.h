@@ -28,6 +28,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define IALBJEGDCFI_SET_ATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x15E185C0)
 #define IALBJEGDCFI_SET_TRAIT_OFFSET UNITYSDK_OFFSET(0x15E185E0)
 
+inline static constexpr unsigned int IALBJEGDCFI_TypeDefinitionIndex = 79493;
+
 	class IALBJEGDCFI : public ::System::Object
 	{
 	public:

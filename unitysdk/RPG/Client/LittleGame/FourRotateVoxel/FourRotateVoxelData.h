@@ -13,6 +13,8 @@ namespace UnityEngine { class Coroutine; }
 
 namespace RPG::Client::LittleGame::FourRotateVoxel
 {
+	inline static constexpr unsigned int FourRotateVoxelData_TypeDefinitionIndex = 76853;
+
 	class FourRotateVoxelData : public ::UnityEngine::MonoBehaviour
 	{
 	public:

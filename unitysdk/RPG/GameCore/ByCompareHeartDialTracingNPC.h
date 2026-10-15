@@ -13,6 +13,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByCompareHeartDialTracingNPC_TypeDefinitionIndex = 21898;
+
 	class ByCompareHeartDialTracingNPC : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

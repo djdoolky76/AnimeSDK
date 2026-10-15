@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define KOKAABJDLFL_OHCJOIANPFG_OFFSET UNITYSDK_OFFSET(0xB59BA90)
 #define KOKAABJDLFL_PPFADNDGHHM_OFFSET UNITYSDK_OFFSET(0xB59B960)
 
+inline static constexpr unsigned int KOKAABJDLFL_TypeDefinitionIndex = 66715;
+
 	class KOKAABJDLFL : public ::System::Object
 	{
 	public:

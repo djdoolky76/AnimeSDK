@@ -19,6 +19,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PlanetFesFloatingCoin_TypeDefinitionIndex = 66484;
+
 	class PlanetFesFloatingCoin : public ::UnityEngine::MonoBehaviour
 	{
 	public:

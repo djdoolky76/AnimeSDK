@@ -8,6 +8,8 @@ class GFCOHGKHIPJ;
 #define GFCOHGKHIPJ_ALJIOCDBMKO_OFFSET UNITYSDK_OFFSET(0x1C63B6E0)
 #define GFCOHGKHIPJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1C63B800)
 
+inline static constexpr unsigned int GFCOHGKHIPJ_TypeDefinitionIndex = 36200;
+
 	class GFCOHGKHIPJ : public ::System::Object
 	{
 	public:

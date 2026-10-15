@@ -13,6 +13,8 @@ namespace UnityEngine { class Animation; }
 #define EMCHOHGMEME_LJBCDJNNBJH_OFFSET UNITYSDK_OFFSET(0x15530810)
 #define EMCHOHGMEME__ONBIND_OFFSET UNITYSDK_OFFSET(0x15530730)
 
+inline static constexpr unsigned int EMCHOHGMEME_TypeDefinitionIndex = 72201;
+
 	class EMCHOHGMEME : public ::FMPCODLIOLG
 	{
 	public:

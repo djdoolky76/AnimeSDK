@@ -5,6 +5,8 @@ namespace RPG::Client::TAUtils { template <typename T> class ReusableList_1; }
 
 namespace RPG::Client::TAUtils
 {
+	inline static constexpr unsigned int ReusableList_1__GetEnumerator_d__10_TypeDefinitionIndex = 73641;
+
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10>
 	class ReusableList_1__GetEnumerator_d__10 : public ::System::Object
 	{

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class LevelSelectBuffConfirm; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelSelectBuffConfirm_TypeDefinitionIndex = 56819;
+
 	class LevelSelectBuffConfirm : public ::CMPGEAFHHDC
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class SwitchAudioListenerToCamera; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SwitchAudioListenerToCamera_TypeDefinitionIndex = 22250;
+
 	class SwitchAudioListenerToCamera : public ::RPG::GameCore::TaskConfig
 	{
 	public:

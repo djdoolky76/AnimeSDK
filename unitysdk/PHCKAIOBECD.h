@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TurnBasedModifierInstance; }
 
 #define PHCKAIOBECD_MHKLAHPGHAE_OFFSET UNITYSDK_OFFSET(0xC2394F0)
 
+inline static constexpr unsigned int PHCKAIOBECD_TypeDefinitionIndex = 54440;
+
 	class PHCKAIOBECD : public ::System::Object
 	{
 	public:

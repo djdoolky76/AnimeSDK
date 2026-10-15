@@ -24,6 +24,8 @@ namespace System { class Object; }
 #define DEDGCGEBHBJ_NFFBGMOBNNO_OFFSET UNITYSDK_OFFSET(0xE5033E0)
 #define DEDGCGEBHBJ_NOOHIAJGOOB_OFFSET UNITYSDK_OFFSET(0xE504040)
 
+inline static constexpr unsigned int DEDGCGEBHBJ_TypeDefinitionIndex = 75807;
+
 	class DEDGCGEBHBJ : public ::System::Object
 	{
 	public:

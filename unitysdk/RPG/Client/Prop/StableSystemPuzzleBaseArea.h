@@ -16,6 +16,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int StableSystemPuzzleBaseArea_TypeDefinitionIndex = 78871;
+
 	class StableSystemPuzzleBaseArea : public ::UnityEngine::MonoBehaviour
 	{
 	public:

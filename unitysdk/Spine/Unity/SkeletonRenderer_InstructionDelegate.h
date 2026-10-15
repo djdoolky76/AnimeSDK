@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace Spine::Unity
 {
+	inline static constexpr unsigned int SkeletonRenderer_InstructionDelegate_TypeDefinitionIndex = 45047;
+
 	class SkeletonRenderer_InstructionDelegate : public ::System::MulticastDelegate
 	{
 	public:

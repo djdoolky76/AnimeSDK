@@ -6,6 +6,8 @@
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int NoticeManager_WebEventDataModel_TypeDefinitionIndex = 9395;
+
 	class NoticeManager_WebEventDataModel : public ::System::Object
 	{
 	public:

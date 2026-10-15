@@ -30,6 +30,8 @@ namespace System { class String; }
 #define EJKNEDLPMIB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E2BB330)
 #define EJKNEDLPMIB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E2BB390)
 
+inline static constexpr unsigned int EJKNEDLPMIB_TypeDefinitionIndex = 27186;
+
 	class EJKNEDLPMIB : public ::System::Object
 	{
 	public:

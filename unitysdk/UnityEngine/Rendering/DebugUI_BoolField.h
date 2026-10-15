@@ -5,6 +5,8 @@
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int DebugUI_BoolField_TypeDefinitionIndex = 35529;
+
 	class DebugUI_BoolField
 	{
 	public:

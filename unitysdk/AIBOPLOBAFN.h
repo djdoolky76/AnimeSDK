@@ -118,6 +118,8 @@ namespace UnityEngine { class Transform; }
 #define AIBOPLOBAFN_PPJFOGPPGPH_OFFSET UNITYSDK_OFFSET(0xEB9CAE0)
 #define AIBOPLOBAFN_SET_AUTOSETROOTACTIVE_OFFSET UNITYSDK_OFFSET(0xEB9E6C0)
 
+inline static constexpr unsigned int AIBOPLOBAFN_TypeDefinitionIndex = 59384;
+
 	class AIBOPLOBAFN : public ::System::Object
 	{
 	public:

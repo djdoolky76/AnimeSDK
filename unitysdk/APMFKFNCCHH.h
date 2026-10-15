@@ -97,6 +97,8 @@ namespace UnityEngine { class TextAsset; }
 #define APMFKFNCCHH_SET_DATADIRTY_OFFSET UNITYSDK_OFFSET(0x15BBE930)
 #define APMFKFNCCHH_SET_USEBINARYDATA_OFFSET UNITYSDK_OFFSET(0x15BB4B70)
 
+inline static constexpr unsigned int APMFKFNCCHH_TypeDefinitionIndex = 73776;
+
 	class APMFKFNCCHH : public ::System::Object
 	{
 	public:

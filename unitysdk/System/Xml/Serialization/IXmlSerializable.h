@@ -3,6 +3,8 @@
 
 namespace System::Xml::Serialization
 {
+	inline static constexpr unsigned int IXmlSerializable_TypeDefinitionIndex = 1989;
+
 	class IXmlSerializable
 	{
 	public:

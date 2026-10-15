@@ -13,6 +13,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int YCorrectionEnableClip_TypeDefinitionIndex = 48418;
+
 	class YCorrectionEnableClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

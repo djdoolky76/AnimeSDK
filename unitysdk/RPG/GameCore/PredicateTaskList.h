@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PredicateTaskList_TypeDefinitionIndex = 23815;
+
 	class PredicateTaskList : public ::RPG::GameCore::TaskConfig
 	{
 	public:

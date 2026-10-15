@@ -8,6 +8,8 @@ namespace RPG::Client { class StaticListView; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftOrderMainTargetControlBinder_TypeDefinitionIndex = 79992;
+
 	class MechCraftOrderMainTargetControlBinder : public ::RPG::Client::MechCraft::View::MechCraftBinderBase
 	{
 	public:

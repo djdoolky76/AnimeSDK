@@ -31,6 +31,8 @@ namespace System { class Object; }
 #define KJPENGJCKCO_PEDFLCNLIOC_OFFSET UNITYSDK_OFFSET(0xB45EC70)
 #define KJPENGJCKCO_SET_INPUTDATA_OFFSET UNITYSDK_OFFSET(0xB45F6E0)
 
+inline static constexpr unsigned int KJPENGJCKCO_TypeDefinitionIndex = 57546;
+
 	class KJPENGJCKCO : public ::System::Object
 	{
 	public:

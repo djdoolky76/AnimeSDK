@@ -11,6 +11,8 @@ namespace RPG::GameCore { class WaitPropPuzzleLoadingFinish; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaitPropPuzzleLoadingFinish_TypeDefinitionIndex = 22169;
+
 	class WaitPropPuzzleLoadingFinish : public ::RPG::GameCore::TaskConfig
 	{
 	public:

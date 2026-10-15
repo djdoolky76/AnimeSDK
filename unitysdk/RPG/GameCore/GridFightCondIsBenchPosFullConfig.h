@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightCondIsBenchPosFullConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightCondIsBenchPosFullConfig_TypeDefinitionIndex = 19329;
+
 	class GridFightCondIsBenchPosFullConfig : public ::RPG::GameCore::GridFightConditionConfigBase
 	{
 	public:

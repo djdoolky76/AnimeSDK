@@ -17,6 +17,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 #define JGNCIONCKNN___GETAVATARBUTTONGROUPPANELS_D__11_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB1A4B00)
 #define JGNCIONCKNN___GETAVATARBUTTONGROUPPANELS_D__11___M__FINALLY1_OFFSET UNITYSDK_OFFSET(0xB1A4B10)
 
+inline static constexpr unsigned int JGNCIONCKNN___GetAvatarButtonGroupPanels_d__11_TypeDefinitionIndex = 71963;
+
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10, typename T11>
 	class JGNCIONCKNN___GetAvatarButtonGroupPanels_d__11 : public ::System::Object
 	{

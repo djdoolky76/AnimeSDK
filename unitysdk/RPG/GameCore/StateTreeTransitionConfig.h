@@ -16,6 +16,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StateTreeTransitionConfig_TypeDefinitionIndex = 15492;
+
 	class StateTreeTransitionConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

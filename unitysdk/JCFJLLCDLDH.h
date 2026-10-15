@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define JCFJLLCDLDH_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D017180)
 #define JCFJLLCDLDH_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D016D20)
 
+inline static constexpr unsigned int JCFJLLCDLDH_TypeDefinitionIndex = 13700;
+
 	class JCFJLLCDLDH : public ::System::Object
 	{
 	public:

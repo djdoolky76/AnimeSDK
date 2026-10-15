@@ -6,6 +6,8 @@ class KDAELFIKPHH;
 
 #define LJNLMENLKND_CTOR_OFFSET UNITYSDK_OFFSET(0x1C90F530)
 
+inline static constexpr unsigned int LJNLMENLKND_TypeDefinitionIndex = 43730;
+
 	class LJNLMENLKND : public ::System::Object
 	{
 	public:

@@ -36,6 +36,8 @@ namespace System { class String; }
 #define EKLIDIDKFHC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E2C5380)
 #define EKLIDIDKFHC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E2C53E0)
 
+inline static constexpr unsigned int EKLIDIDKFHC_TypeDefinitionIndex = 26414;
+
 	class EKLIDIDKFHC : public ::System::Object
 	{
 	public:

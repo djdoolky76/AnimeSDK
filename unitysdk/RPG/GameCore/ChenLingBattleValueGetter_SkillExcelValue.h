@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ChenLingBattleValueGetter_SkillExcelValue; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChenLingBattleValueGetter_SkillExcelValue_TypeDefinitionIndex = 15801;
+
 	class ChenLingBattleValueGetter_SkillExcelValue : public ::RPG::GameCore::BaseChenLingBattleValueGetter
 	{
 	public:

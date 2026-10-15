@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define OKBILIPEDPP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DE8F420)
 #define OKBILIPEDPP___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1DE8F430)
 
+inline static constexpr unsigned int OKBILIPEDPP___c_TypeDefinitionIndex = 28160;
+
 	class OKBILIPEDPP___c : public ::System::Object
 	{
 	public:

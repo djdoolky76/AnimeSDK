@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ShowSubPackage; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ShowSubPackage_TypeDefinitionIndex = 21707;
+
 	class ShowSubPackage : public ::RPG::GameCore::TaskConfig
 	{
 	public:

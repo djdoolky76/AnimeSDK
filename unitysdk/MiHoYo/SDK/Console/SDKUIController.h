@@ -15,6 +15,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace MiHoYo::SDK::Console
 {
+	inline static constexpr unsigned int SDKUIController_TypeDefinitionIndex = 8971;
+
 	class SDKUIController : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define LAPOAFHDNCM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8D57E0)
 #define LAPOAFHDNCM___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E8D57F0)
 
+inline static constexpr unsigned int LAPOAFHDNCM___c_TypeDefinitionIndex = 29504;
+
 	class LAPOAFHDNCM___c : public ::System::Object
 	{
 	public:

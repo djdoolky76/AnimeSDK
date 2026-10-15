@@ -12,6 +12,8 @@ namespace System { class Object; }
 #define CLPEDLAFEEB__PROCESSCHALLENGESETTLE_D__2_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0xDA22DA0)
 #define CLPEDLAFEEB__PROCESSCHALLENGESETTLE_D__2_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xDA228B0)
 
+inline static constexpr unsigned int CLPEDLAFEEB__ProcessChallengeSettle_d__2_TypeDefinitionIndex = 80756;
+
 	template <typename T1, typename T2>
 	class CLPEDLAFEEB__ProcessChallengeSettle_d__2 : public ::System::Object
 	{

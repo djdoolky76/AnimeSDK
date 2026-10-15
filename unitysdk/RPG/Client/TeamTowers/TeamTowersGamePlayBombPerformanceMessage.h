@@ -18,6 +18,8 @@ namespace System { class Action; }
 
 namespace RPG::Client::TeamTowers
 {
+	inline static constexpr unsigned int TeamTowersGamePlayBombPerformanceMessage_TypeDefinitionIndex = 79015;
+
 	class TeamTowersGamePlayBombPerformanceMessage : public ::System::Object
 	{
 	public:

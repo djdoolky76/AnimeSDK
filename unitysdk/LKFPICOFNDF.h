@@ -7,6 +7,8 @@ namespace RPG::GameCore { class ChenLingBattleEffectConfig; }
 
 #define LKFPICOFNDF_CTOR_OFFSET UNITYSDK_OFFSET(0x1C90F5C0)
 
+inline static constexpr unsigned int LKFPICOFNDF_TypeDefinitionIndex = 43733;
+
 	class LKFPICOFNDF : public ::System::Object
 	{
 	public:

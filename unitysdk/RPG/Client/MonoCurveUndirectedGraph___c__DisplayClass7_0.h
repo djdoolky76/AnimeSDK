@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoCurveUndirectedGraph___c__DisplayClass7_0_TypeDefinitionIndex = 68577;
+
 	class MonoCurveUndirectedGraph___c__DisplayClass7_0 : public ::System::Object
 	{
 	public:

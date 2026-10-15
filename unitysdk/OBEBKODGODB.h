@@ -31,6 +31,8 @@ namespace System { class String; }
 #define OBEBKODGODB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EBACE30)
 #define OBEBKODGODB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EBACE90)
 
+inline static constexpr unsigned int OBEBKODGODB_TypeDefinitionIndex = 31741;
+
 	class OBEBKODGODB : public ::System::Object
 	{
 	public:

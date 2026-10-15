@@ -35,6 +35,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define AAKOGNIOPLK_NKHPHJIAMFE_OFFSET UNITYSDK_OFFSET(0x1C57F820)
 #define AAKOGNIOPLK_PDNKHKCJGAH_OFFSET UNITYSDK_OFFSET(0x1C57EB70)
 
+inline static constexpr unsigned int AAKOGNIOPLK_TypeDefinitionIndex = 37335;
+
 	class AAKOGNIOPLK : public ::System::Object
 	{
 	public:

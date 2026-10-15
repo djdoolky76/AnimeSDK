@@ -12,6 +12,8 @@ namespace RPG::GameCore { class ComplexSkillAISource; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ComplexSkillAIAllAdjoinCombine_TypeDefinitionIndex = 15542;
+
 	class ComplexSkillAIAllAdjoinCombine : public ::RPG::GameCore::ComplexSkillAISource
 	{
 	public:

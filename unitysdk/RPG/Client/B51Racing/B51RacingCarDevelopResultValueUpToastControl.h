@@ -18,6 +18,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::B51Racing
 {
+	inline static constexpr unsigned int B51RacingCarDevelopResultValueUpToastControl_TypeDefinitionIndex = 81806;
+
 	class B51RacingCarDevelopResultValueUpToastControl : public ::Sofa::BaseSofaControl
 	{
 	public:

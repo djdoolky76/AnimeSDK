@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 
 namespace Newtonsoft::Json::Serialization
 {
+	inline static constexpr unsigned int ExtensionDataGetter_TypeDefinitionIndex = 9724;
+
 	class ExtensionDataGetter : public ::System::MulticastDelegate
 	{
 	public:

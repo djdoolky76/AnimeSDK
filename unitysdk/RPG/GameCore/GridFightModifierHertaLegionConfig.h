@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightModifierHertaLegionConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightModifierHertaLegionConfig_TypeDefinitionIndex = 19399;
+
 	class GridFightModifierHertaLegionConfig : public ::RPG::GameCore::GridFightModifierConfigBase
 	{
 	public:

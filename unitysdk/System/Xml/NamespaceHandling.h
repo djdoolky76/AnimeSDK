@@ -3,6 +3,8 @@
 
 namespace System::Xml
 {
+	inline static constexpr unsigned int NamespaceHandling_TypeDefinitionIndex = 1819;
+
 	enum class NamespaceHandling : ::System::Int32
 	{
 		Default = 0,

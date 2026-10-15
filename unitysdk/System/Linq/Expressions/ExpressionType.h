@@ -3,6 +3,8 @@
 
 namespace System::Linq::Expressions
 {
+	inline static constexpr unsigned int ExpressionType_TypeDefinitionIndex = 3219;
+
 	enum class ExpressionType : ::System::Int32
 	{
 		Add = 0,

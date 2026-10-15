@@ -8,6 +8,8 @@ class PBGNKMMDBGD;
 #define ILLFCCCEAPD_CTOR_OFFSET UNITYSDK_OFFSET(0x1C6E24D0)
 #define ILLFCCCEAPD_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1C6E24E0)
 
+inline static constexpr unsigned int ILLFCCCEAPD_TypeDefinitionIndex = 37439;
+
 	class ILLFCCCEAPD : public ::System::Object
 	{
 	public:

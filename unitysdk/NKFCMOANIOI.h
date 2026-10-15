@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define NKFCMOANIOI_CHAKABNICEL_OFFSET UNITYSDK_OFFSET(0xBC330C0)
 #define NKFCMOANIOI_CTOR_OFFSET UNITYSDK_OFFSET(0xBC33180)
 
+inline static constexpr unsigned int NKFCMOANIOI_TypeDefinitionIndex = 77519;
+
 	class NKFCMOANIOI : public ::System::Object
 	{
 	public:

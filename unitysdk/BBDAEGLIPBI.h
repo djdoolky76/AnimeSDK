@@ -8,6 +8,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define BBDAEGLIPBI_MJPDNDBFKJC_OFFSET UNITYSDK_OFFSET(0x15E838A0)
 #define BBDAEGLIPBI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15E83120)
 
+inline static constexpr unsigned int BBDAEGLIPBI_TypeDefinitionIndex = 58497;
+
 	class BBDAEGLIPBI
 	{
 	public:

@@ -15,6 +15,8 @@ namespace UnityEngine { class Animator; }
 
 namespace RPG::Client::UI3DGame
 {
+	inline static constexpr unsigned int MonopolyBillboard_TypeDefinitionIndex = 75811;
+
 	class MonopolyBillboard : public ::RPG::Client::UI3DGame::MonoUI3DGameView
 	{
 	public:

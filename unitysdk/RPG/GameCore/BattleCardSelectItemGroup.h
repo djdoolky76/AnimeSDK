@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BattleCardSelectItemGroup_TypeDefinitionIndex = 22543;
+
 	class BattleCardSelectItemGroup : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -48,6 +48,8 @@ namespace UnityEngine::UI { class Text; }
 #define IBENMKNIKHP_PEGNJCBFPFB_OFFSET UNITYSDK_OFFSET(0x15E2F560)
 #define IBENMKNIKHP__ONBIND_OFFSET UNITYSDK_OFFSET(0x15E2EF40)
 
+inline static constexpr unsigned int IBENMKNIKHP_TypeDefinitionIndex = 72244;
+
 	class IBENMKNIKHP : public ::CAOEEDDAPIK
 	{
 	public:

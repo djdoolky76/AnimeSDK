@@ -6,6 +6,8 @@ namespace System { class String; }
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriAtomExAcf_SelectorLabelInfo_TypeDefinitionIndex = 40038;
+
 	struct alignas(8) CriAtomExAcf_SelectorLabelInfo
 	{
 		::System::String* selectorName; // 0x10

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class FiveDimSetAnimatorCullingModeAction; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimSetAnimatorCullingModeAction_TypeDefinitionIndex = 18707;
+
 	class FiveDimSetAnimatorCullingModeAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
 	public:

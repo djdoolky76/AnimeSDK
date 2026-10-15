@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::Client::Subway
 {
+	inline static constexpr unsigned int AirshipSubwayTimetable_TypeDefinitionIndex = 82217;
+
 	class AirshipSubwayTimetable : public ::UnityEngine::MonoBehaviour
 	{
 	public:

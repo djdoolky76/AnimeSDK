@@ -11,6 +11,8 @@ namespace RPG::GameCore { class DynamicFloat; }
 #define BALFAPGPFGA_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CCF1C60)
 #define BALFAPGPFGA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CCF1C20)
 
+inline static constexpr unsigned int BALFAPGPFGA_TypeDefinitionIndex = 23163;
+
 	class BALFAPGPFGA : public ::RPG::GameCore::TaskConfig
 	{
 	public:

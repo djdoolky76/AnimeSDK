@@ -7,6 +7,8 @@ namespace System { class String; }
 
 #define BAPHDHLHJNP_CTOR_OFFSET UNITYSDK_OFFSET(0x15E80E60)
 
+inline static constexpr unsigned int BAPHDHLHJNP_TypeDefinitionIndex = 65819;
+
 	class BAPHDHLHJNP : public ::System::Object
 	{
 	public:

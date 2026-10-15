@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ClearChallengeBossInfoPanelState; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ClearChallengeBossInfoPanelState_TypeDefinitionIndex = 23220;
+
 	class ClearChallengeBossInfoPanelState : public ::RPG::GameCore::TaskConfig
 	{
 	public:

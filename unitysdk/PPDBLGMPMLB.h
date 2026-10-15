@@ -9,6 +9,8 @@
 #define PPDBLGMPMLB_EHFGFNEONHF_OFFSET UNITYSDK_OFFSET(0xC37B970)
 #define PPDBLGMPMLB_IIKFLDECIOK_OFFSET UNITYSDK_OFFSET(0xC37B5F0)
 
+inline static constexpr unsigned int PPDBLGMPMLB_TypeDefinitionIndex = 69699;
+
 	class PPDBLGMPMLB : public ::System::Object
 	{
 	public:

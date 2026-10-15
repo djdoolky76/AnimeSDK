@@ -22,6 +22,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define HEKNGJEEMMJ_SET_FINISHCOUNT_OFFSET UNITYSDK_OFFSET(0x15C5A5E0)
 #define HEKNGJEEMMJ_SET_RATIO_OFFSET UNITYSDK_OFFSET(0x15C5A5C0)
 
+inline static constexpr unsigned int HEKNGJEEMMJ_TypeDefinitionIndex = 66617;
+
 	class HEKNGJEEMMJ : public ::System::Object
 	{
 	public:

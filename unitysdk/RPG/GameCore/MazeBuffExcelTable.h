@@ -34,6 +34,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MazeBuffExcelTable_TypeDefinitionIndex = 14029;
+
 	class MazeBuffExcelTable : public ::System::Object
 	{
 	public:

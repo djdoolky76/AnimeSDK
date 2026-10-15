@@ -28,6 +28,8 @@ namespace System { class String; }
 #define FKCDLPGBLEE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E3AB7E0)
 #define FKCDLPGBLEE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E3AB840)
 
+inline static constexpr unsigned int FKCDLPGBLEE_TypeDefinitionIndex = 26156;
+
 	class FKCDLPGBLEE : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ class PCBAPNFAENH;
 #define PCBAPNFAENH_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D2CA6E0)
 #define PCBAPNFAENH_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D2CA610)
 
+inline static constexpr unsigned int PCBAPNFAENH_TypeDefinitionIndex = 20889;
+
 	class PCBAPNFAENH : public ::RPG::GameCore::TaskConfig
 	{
 	public:

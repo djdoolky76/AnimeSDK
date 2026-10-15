@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define PABKMCIOHDM___C_CTOR_OFFSET UNITYSDK_OFFSET(0xBFC4F80)
 #define PABKMCIOHDM___C__UPDATEASSOCIATEFINISHCONDITIONMISSION_B__0_0_OFFSET UNITYSDK_OFFSET(0xBFC4F90)
 
+inline static constexpr unsigned int PABKMCIOHDM___c_TypeDefinitionIndex = 56497;
+
 	class PABKMCIOHDM___c : public ::System::Object
 	{
 	public:

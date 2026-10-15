@@ -9,6 +9,8 @@ class MBBBCMLOCFI;
 #define CINNKNDDBDM_CTOR_OFFSET UNITYSDK_OFFSET(0xCF8FFA0)
 #define CINNKNDDBDM_OEJDHFKEDJB_OFFSET UNITYSDK_OFFSET(0xCF8FF40)
 
+inline static constexpr unsigned int CINNKNDDBDM_TypeDefinitionIndex = 62632;
+
 	class CINNKNDDBDM : public ::System::Object
 	{
 	public:

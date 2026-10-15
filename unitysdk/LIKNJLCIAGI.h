@@ -35,6 +35,8 @@ namespace System { class String; }
 #define LIKNJLCIAGI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E971810)
 #define LIKNJLCIAGI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E971870)
 
+inline static constexpr unsigned int LIKNJLCIAGI_TypeDefinitionIndex = 28540;
+
 	class LIKNJLCIAGI : public ::System::Object
 	{
 	public:

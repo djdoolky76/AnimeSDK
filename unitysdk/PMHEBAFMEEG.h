@@ -27,6 +27,8 @@ namespace System { class String; }
 #define PMHEBAFMEEG_SET_MANALEVEL_OFFSET UNITYSDK_OFFSET(0xC31CD10)
 #define PMHEBAFMEEG_SET_STRENGTHLEVEL_OFFSET UNITYSDK_OFFSET(0xC31CCB0)
 
+inline static constexpr unsigned int PMHEBAFMEEG_TypeDefinitionIndex = 80776;
+
 	class PMHEBAFMEEG : public ::HFBADOAGDHH
 	{
 	public:

@@ -17,6 +17,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int Motion_TypeDefinitionIndex = 5727;
+
 	class Motion : public ::UnityEngine::Object
 	{
 	public:

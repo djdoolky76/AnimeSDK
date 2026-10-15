@@ -7,6 +7,8 @@ namespace RPG::Client { class MuseumPropertyData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MuseumTurnResult_TypeDefinitionIndex = 66340;
+
 	class MuseumTurnResult : public ::System::Object
 	{
 	public:

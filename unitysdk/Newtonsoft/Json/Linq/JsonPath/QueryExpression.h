@@ -6,6 +6,8 @@
 
 namespace Newtonsoft::Json::Linq::JsonPath
 {
+	inline static constexpr unsigned int QueryExpression_TypeDefinitionIndex = 9806;
+
 	class QueryExpression : public ::System::Object
 	{
 	public:

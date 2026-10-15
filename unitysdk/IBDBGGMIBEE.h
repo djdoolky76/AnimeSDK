@@ -13,6 +13,8 @@ class HFCPGANBGMI;
 #define IBDBGGMIBEE_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x1CB06B60)
 #define IBDBGGMIBEE_SET__STATEMACHINE_OFFSET UNITYSDK_OFFSET(0x1CB07180)
 
+inline static constexpr unsigned int IBDBGGMIBEE_TypeDefinitionIndex = 43659;
+
 	class IBDBGGMIBEE : public ::System::Object
 	{
 	public:

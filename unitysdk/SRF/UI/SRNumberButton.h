@@ -12,6 +12,8 @@ namespace UnityEngine::EventSystems { class PointerEventData; }
 
 namespace SRF::UI
 {
+	inline static constexpr unsigned int SRNumberButton_TypeDefinitionIndex = 35390;
+
 	class SRNumberButton : public ::UnityEngine::UI::Button
 	{
 	public:

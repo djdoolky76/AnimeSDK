@@ -4,6 +4,8 @@
 
 #define LMLNCLGDEJO_CTOR_OFFSET UNITYSDK_OFFSET(0xB7CF940)
 
+inline static constexpr unsigned int LMLNCLGDEJO_TypeDefinitionIndex = 54284;
+
 	class LMLNCLGDEJO : public ::FDNCLPGAKOA
 	{
 	public:

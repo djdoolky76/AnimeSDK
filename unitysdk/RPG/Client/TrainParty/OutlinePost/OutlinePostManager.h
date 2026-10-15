@@ -30,6 +30,8 @@ namespace UnityEngine { class MeshRenderer; }
 
 namespace RPG::Client::TrainParty::OutlinePost
 {
+	inline static constexpr unsigned int OutlinePostManager_TypeDefinitionIndex = 74368;
+
 	class OutlinePostManager : public ::System::Object
 	{
 	public:

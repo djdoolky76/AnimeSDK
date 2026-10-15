@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define JLJPFFILKIO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E77EA00)
 #define JLJPFFILKIO___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E77EA10)
 
+inline static constexpr unsigned int JLJPFFILKIO___c_TypeDefinitionIndex = 32329;
+
 	class JLJPFFILKIO___c : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@
 
 namespace System::Runtime::CompilerServices
 {
+	inline static constexpr unsigned int SuppressIldasmAttribute_TypeDefinitionIndex = 1393;
+
 	class SuppressIldasmAttribute : public ::System::Attribute
 	{
 	public:

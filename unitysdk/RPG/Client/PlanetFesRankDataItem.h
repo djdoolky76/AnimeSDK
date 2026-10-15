@@ -29,6 +29,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PlanetFesRankDataItem_TypeDefinitionIndex = 66640;
+
 	class PlanetFesRankDataItem : public ::System::Object
 	{
 	public:

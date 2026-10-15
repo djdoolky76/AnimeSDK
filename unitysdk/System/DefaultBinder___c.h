@@ -11,6 +11,8 @@ namespace System { template <typename T> class Predicate_1; }
 
 namespace System
 {
+	inline static constexpr unsigned int DefaultBinder___c_TypeDefinitionIndex = 231;
+
 	class DefaultBinder___c : public ::System::Object
 	{
 	public:

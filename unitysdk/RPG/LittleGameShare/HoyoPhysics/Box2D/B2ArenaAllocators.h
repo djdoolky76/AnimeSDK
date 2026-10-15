@@ -12,6 +12,8 @@ namespace RPG::LittleGameShare::HoyoPhysics::Box2D { class B2ArenaAllocator; }
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
+	inline static constexpr unsigned int B2ArenaAllocators_TypeDefinitionIndex = 36576;
+
 	class B2ArenaAllocators : public ::System::Object
 	{
 	public:

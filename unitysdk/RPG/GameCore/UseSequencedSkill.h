@@ -10,6 +10,8 @@ namespace RPG::GameCore { class UseSequencedSkill; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int UseSequencedSkill_TypeDefinitionIndex = 22436;
+
 	class UseSequencedSkill : public ::RPG::GameCore::TaskConfig
 	{
 	public:

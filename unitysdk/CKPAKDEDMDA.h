@@ -8,6 +8,8 @@ class FCOEMCEDLNL;
 #define CKPAKDEDMDA_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC1F3F0)
 #define CKPAKDEDMDA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC1F3B0)
 
+inline static constexpr unsigned int CKPAKDEDMDA_TypeDefinitionIndex = 10237;
+
 	class CKPAKDEDMDA : public ::RPG::GameCore::TaskConfig
 	{
 	public:

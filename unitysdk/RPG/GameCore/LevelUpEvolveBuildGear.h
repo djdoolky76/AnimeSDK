@@ -10,6 +10,8 @@ namespace RPG::GameCore { class LevelUpEvolveBuildGear; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelUpEvolveBuildGear_TypeDefinitionIndex = 23100;
+
 	class LevelUpEvolveBuildGear : public ::RPG::GameCore::TaskConfig
 	{
 	public:

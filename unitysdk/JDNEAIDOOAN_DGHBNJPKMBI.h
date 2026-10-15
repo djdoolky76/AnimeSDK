@@ -4,6 +4,8 @@ namespace UnityEngine { class Transform; }
 
 #define JDNEAIDOOAN_DGHBNJPKMBI_CTOR_OFFSET UNITYSDK_OFFSET(0x10480)
 
+inline static constexpr unsigned int JDNEAIDOOAN_DGHBNJPKMBI_TypeDefinitionIndex = 48945;
+
 	struct alignas(8) JDNEAIDOOAN_DGHBNJPKMBI
 	{
 		::UnityEngine::Transform* JPDBDLEEHGK; // 0x10

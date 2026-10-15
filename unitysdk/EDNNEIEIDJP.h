@@ -7,6 +7,8 @@ class IJFIHJJPHNA;
 #define EDNNEIEIDJP_ALJIOCDBMKO_OFFSET UNITYSDK_OFFSET(0x1C5FB370)
 #define EDNNEIEIDJP_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5FB3D0)
 
+inline static constexpr unsigned int EDNNEIEIDJP_TypeDefinitionIndex = 36199;
+
 	class EDNNEIEIDJP : public ::System::Object
 	{
 	public:

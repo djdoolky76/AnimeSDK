@@ -3,6 +3,8 @@
 #include "unitysdk/System/Object.h"
 namespace System { template <typename T1, typename T2> class Func_2; }
 
+inline static constexpr unsigned int COLDDJCPBKG___O_TypeDefinitionIndex = 77459;
+
 	class COLDDJCPBKG___O : public ::System::Object
 	{
 	public:

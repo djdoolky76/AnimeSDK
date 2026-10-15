@@ -12,6 +12,8 @@ namespace RPG::GameCore { class ParkourTriggerEventRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ParkourTriggerEventRow_TypeDefinitionIndex = 12110;
+
 	class ParkourTriggerEventRow : public ::System::Object
 	{
 	public:

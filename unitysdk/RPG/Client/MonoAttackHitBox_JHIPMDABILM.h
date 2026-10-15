@@ -14,6 +14,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoAttackHitBox_JHIPMDABILM_TypeDefinitionIndex = 68530;
+
 	class MonoAttackHitBox_JHIPMDABILM : public ::System::MulticastDelegate
 	{
 	public:

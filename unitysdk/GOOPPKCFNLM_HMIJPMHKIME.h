@@ -17,6 +17,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define GOOPPKCFNLM_HMIJPMHKIME_MCLLMLMLLIJ_OFFSET UNITYSDK_OFFSET(0x1C64B940)
 #define GOOPPKCFNLM_HMIJPMHKIME_POCHNMACBKN_OFFSET UNITYSDK_OFFSET(0x1C648CB0)
 
+inline static constexpr unsigned int GOOPPKCFNLM_HMIJPMHKIME_TypeDefinitionIndex = 37330;
+
 	class GOOPPKCFNLM_HMIJPMHKIME : public ::System::Object
 	{
 	public:

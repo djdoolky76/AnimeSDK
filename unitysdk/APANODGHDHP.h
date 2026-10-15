@@ -39,6 +39,8 @@ namespace System { class Nullable; }
 #define APANODGHDHP_SET_TRANSITINTIME_OFFSET UNITYSDK_OFFSET(0x158CA0F0)
 #define APANODGHDHP_SET_TRANSITOUTTIME_OFFSET UNITYSDK_OFFSET(0x158CA110)
 
+inline static constexpr unsigned int APANODGHDHP_TypeDefinitionIndex = 69545;
+
 	class APANODGHDHP : public ::System::Object
 	{
 	public:

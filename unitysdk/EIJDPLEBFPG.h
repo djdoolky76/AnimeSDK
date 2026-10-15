@@ -21,6 +21,8 @@ namespace RPG::GameCore { class TransformComponent; }
 #define EIJDPLEBFPG_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0x154CD080)
 #define EIJDPLEBFPG_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0x154CD370)
 
+inline static constexpr unsigned int EIJDPLEBFPG_TypeDefinitionIndex = 52416;
+
 	class EIJDPLEBFPG : public ::System::Object
 	{
 	public:

@@ -14,6 +14,8 @@ namespace UnityEngine { class Transform; }
 #define HFBEIAEHLJB_GET_DEFAULT_OFFSET UNITYSDK_OFFSET(0x15C68870)
 #define HFBEIAEHLJB_OCDEKPOLHOM_OFFSET UNITYSDK_OFFSET(0x15C68790)
 
+inline static constexpr unsigned int HFBEIAEHLJB_TypeDefinitionIndex = 59028;
+
 	class HFBEIAEHLJB : public ::System::Object
 	{
 	public:

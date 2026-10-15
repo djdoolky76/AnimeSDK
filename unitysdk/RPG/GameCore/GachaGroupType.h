@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GachaGroupType_TypeDefinitionIndex = 13360;
+
 	enum class GachaGroupType : ::System::Int32
 	{
 		Unknown = 0,

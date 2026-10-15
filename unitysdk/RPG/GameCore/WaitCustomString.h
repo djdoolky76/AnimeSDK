@@ -12,6 +12,8 @@ namespace RPG::GameCore { class WaitCustomString; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaitCustomString_TypeDefinitionIndex = 23758;
+
 	class WaitCustomString : public ::RPG::GameCore::TaskConfig
 	{
 	public:

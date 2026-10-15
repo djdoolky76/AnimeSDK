@@ -24,6 +24,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace RPG::Client::Challenge::Boss
 {
+	inline static constexpr unsigned int ChallengeBossTagDetailWindowParams_TypeDefinitionIndex = 81644;
+
 	class ChallengeBossTagDetailWindowParams : public ::System::Object
 	{
 	public:

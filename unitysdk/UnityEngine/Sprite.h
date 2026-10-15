@@ -74,6 +74,8 @@ namespace UnityEngine { class Texture2D; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int Sprite_TypeDefinitionIndex = 4420;
+
 	class Sprite : public ::UnityEngine::Object
 	{
 	public:

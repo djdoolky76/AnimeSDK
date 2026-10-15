@@ -18,6 +18,8 @@ namespace System::Text { class StringBuilder; }
 
 namespace R3
 {
+	inline static constexpr unsigned int ObservableTracker_TypeDefinitionIndex = 35926;
+
 	class ObservableTracker : public ::System::Object
 	{
 	public:

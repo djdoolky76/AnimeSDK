@@ -33,6 +33,8 @@ namespace System { class String; }
 #define LPMJNCECOFE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9D3BB0)
 #define LPMJNCECOFE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E9D3C10)
 
+inline static constexpr unsigned int LPMJNCECOFE_TypeDefinitionIndex = 33493;
+
 	class LPMJNCECOFE : public ::System::Object
 	{
 	public:

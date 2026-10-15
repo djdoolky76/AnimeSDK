@@ -7,6 +7,8 @@ namespace UnityEngine { class Texture2D; }
 
 namespace RPGTools::Timeline::PostProcessing
 {
+	inline static constexpr unsigned int SpeedLineParameter_TypeDefinitionIndex = 48615;
+
 	struct alignas(8) SpeedLineParameter
 	{
 		::System::Boolean SpeedLineOverrideState; // 0x10

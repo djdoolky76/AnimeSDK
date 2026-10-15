@@ -6,6 +6,8 @@
 
 namespace RPG::Client::PixAir
 {
+	inline static constexpr unsigned int PixAirBackpack_TypeDefinitionIndex = 79321;
+
 	class PixAirBackpack : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ReactionItemConfig_TypeDefinitionIndex = 15636;
+
 	class ReactionItemConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

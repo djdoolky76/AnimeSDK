@@ -27,6 +27,8 @@ namespace RPG::Client { class ScheduleData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MatchThreeV2ActivityInfo_TypeDefinitionIndex = 65993;
+
 	class MatchThreeV2ActivityInfo : public ::System::Object
 	{
 	public:

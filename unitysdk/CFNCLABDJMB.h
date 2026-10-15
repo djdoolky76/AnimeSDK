@@ -9,6 +9,8 @@ namespace UnityEngine { class Transform; }
 #define CFNCLABDJMB_CLEAR_OFFSET UNITYSDK_OFFSET(0xCC590E0)
 #define CFNCLABDJMB_CTOR_OFFSET UNITYSDK_OFFSET(0xCC59140)
 
+inline static constexpr unsigned int CFNCLABDJMB_TypeDefinitionIndex = 56994;
+
 	class CFNCLABDJMB : public ::System::Object
 	{
 	public:

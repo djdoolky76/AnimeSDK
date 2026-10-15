@@ -4,6 +4,8 @@
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int MHYSDKC_PSInfo_TypeDefinitionIndex = 46229;
+
 	class MHYSDKC_PSInfo : public ::System::Object
 	{
 	public:

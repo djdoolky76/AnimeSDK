@@ -7,6 +7,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define LNEPPDLABKI_FAFGAKLPDJA_OFFSET UNITYSDK_OFFSET(0x1B150)
 #define LNEPPDLABKI_GBGALBKMCBN_OFFSET UNITYSDK_OFFSET(0x1B100)
 
+inline static constexpr unsigned int LNEPPDLABKI_TypeDefinitionIndex = 57699;
+
 	struct alignas(8) LNEPPDLABKI
 	{
 		::NBHCDAEKHGJ* HAFKKAFAJPL; // 0x10

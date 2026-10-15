@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int AccountList_AccountListItemInfo_TypeDefinitionIndex = 9293;
+
 	class AccountList_AccountListItemInfo : public ::System::Object
 	{
 	public:

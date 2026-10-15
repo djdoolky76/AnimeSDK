@@ -16,6 +16,8 @@ namespace System { template <typename T> class Predicate_1; }
 
 namespace RPG::Client::NavMap::FiveDim
 {
+	inline static constexpr unsigned int Face___c_TypeDefinitionIndex = 74662;
+
 	class Face___c : public ::System::Object
 	{
 	public:

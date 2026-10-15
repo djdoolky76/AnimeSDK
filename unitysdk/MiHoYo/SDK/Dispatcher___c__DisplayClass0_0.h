@@ -9,6 +9,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int Dispatcher___c__DisplayClass0_0_TypeDefinitionIndex = 46300;
+
 	class Dispatcher___c__DisplayClass0_0 : public ::System::Object
 	{
 	public:

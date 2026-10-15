@@ -5,6 +5,8 @@ class HMBIHENJNMJ;
 
 #define IOJFBCMGMCB_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB8A430)
 
+inline static constexpr unsigned int IOJFBCMGMCB_TypeDefinitionIndex = 43231;
+
 	class IOJFBCMGMCB : public ::System::Object
 	{
 	public:

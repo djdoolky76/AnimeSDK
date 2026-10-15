@@ -53,6 +53,8 @@ namespace System { class String; }
 #define LCEDDGELBMJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E8E9EC0)
 #define LCEDDGELBMJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E8E9F20)
 
+inline static constexpr unsigned int LCEDDGELBMJ_TypeDefinitionIndex = 27587;
+
 	class LCEDDGELBMJ : public ::System::Object
 	{
 	public:

@@ -58,6 +58,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int IdleLiveInGameTeamSlotPanel_TypeDefinitionIndex = 75184;
+
 	class IdleLiveInGameTeamSlotPanel : public ::UnityEngine::MonoBehaviour
 	{
 	public:

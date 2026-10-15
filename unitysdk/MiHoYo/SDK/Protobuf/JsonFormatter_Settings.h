@@ -13,6 +13,8 @@ namespace MiHoYo::SDK::Protobuf::Reflection { class TypeRegistry; }
 
 namespace MiHoYo::SDK::Protobuf
 {
+	inline static constexpr unsigned int JsonFormatter_Settings_TypeDefinitionIndex = 35726;
+
 	class JsonFormatter_Settings : public ::System::Object
 	{
 	public:

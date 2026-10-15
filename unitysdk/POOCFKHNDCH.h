@@ -21,6 +21,8 @@ namespace System { class String; }
 #define POOCFKHNDCH_SET_PLANEID_OFFSET UNITYSDK_OFFSET(0xC3746B0)
 #define POOCFKHNDCH_SET_ROW_OFFSET UNITYSDK_OFFSET(0xC374620)
 
+inline static constexpr unsigned int POOCFKHNDCH_TypeDefinitionIndex = 66443;
+
 	class POOCFKHNDCH : public ::System::Object
 	{
 	public:

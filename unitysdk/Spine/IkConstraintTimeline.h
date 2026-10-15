@@ -15,6 +15,8 @@ namespace Spine { template <typename T> class ExposedList_1; }
 
 namespace Spine
 {
+	inline static constexpr unsigned int IkConstraintTimeline_TypeDefinitionIndex = 39622;
+
 	class IkConstraintTimeline : public ::Spine::CurveTimeline
 	{
 	public:

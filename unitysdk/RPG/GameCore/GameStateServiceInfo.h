@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GameStateServiceInfo_TypeDefinitionIndex = 13371;
+
 	enum class GameStateServiceInfo : ::System::Int32
 	{
 		T_CriticalThread = 1001,

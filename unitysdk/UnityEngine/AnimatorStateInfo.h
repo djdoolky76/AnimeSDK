@@ -16,6 +16,8 @@ namespace System { class String; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int AnimatorStateInfo_TypeDefinitionIndex = 5706;
+
 	struct alignas(4) AnimatorStateInfo
 	{
 		::System::Int32 m_Name; // 0x10

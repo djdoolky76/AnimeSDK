@@ -9,6 +9,8 @@ namespace System { template <typename T> class Comparison_1; }
 #define CNLEKPEHMGG___C_CTOR_OFFSET UNITYSDK_OFFSET(0xDA58D10)
 #define CNLEKPEHMGG___C__GETBATTLETARGETITEMSINBATTLE_B__2_0_OFFSET UNITYSDK_OFFSET(0xDA58D20)
 
+inline static constexpr unsigned int CNLEKPEHMGG___c_TypeDefinitionIndex = 82100;
+
 	class CNLEKPEHMGG___c : public ::System::Object
 	{
 	public:

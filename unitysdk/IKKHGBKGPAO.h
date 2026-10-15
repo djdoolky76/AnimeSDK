@@ -8,6 +8,8 @@ namespace RPG::Client { class LocalizedText; }
 #define IKKHGBKGPAO_NKPPGDENJAE_OFFSET UNITYSDK_OFFSET(0x16491F30)
 #define IKKHGBKGPAO__ONBIND_OFFSET UNITYSDK_OFFSET(0x16491EB0)
 
+inline static constexpr unsigned int IKKHGBKGPAO_TypeDefinitionIndex = 71601;
+
 	class IKKHGBKGPAO : public ::FMPCODLIOLG
 	{
 	public:

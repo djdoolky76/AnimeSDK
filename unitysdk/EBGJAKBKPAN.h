@@ -30,6 +30,8 @@ namespace System { class String; }
 #define EBGJAKBKPAN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E237130)
 #define EBGJAKBKPAN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E237190)
 
+inline static constexpr unsigned int EBGJAKBKPAN_TypeDefinitionIndex = 34273;
+
 	class EBGJAKBKPAN : public ::System::Object
 	{
 	public:

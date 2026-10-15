@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define AJHPHMDACGG_SET_ISBATTLEEVENT_OFFSET UNITYSDK_OFFSET(0x12CBE370)
 #define AJHPHMDACGG_SET_SPECIALMARKDICT_OFFSET UNITYSDK_OFFSET(0x12CBE390)
 
+inline static constexpr unsigned int AJHPHMDACGG_TypeDefinitionIndex = 81010;
+
 	class AJHPHMDACGG : public ::System::Object
 	{
 	public:

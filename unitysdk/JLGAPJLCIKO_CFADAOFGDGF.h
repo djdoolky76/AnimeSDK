@@ -5,6 +5,8 @@ namespace System { class Object; }
 #define JLGAPJLCIKO_CFADAOFGDGF_EQUALS_OFFSET UNITYSDK_OFFSET(0x117E0)
 #define JLGAPJLCIKO_CFADAOFGDGF_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x117F0)
 
+inline static constexpr unsigned int JLGAPJLCIKO_CFADAOFGDGF_TypeDefinitionIndex = 70685;
+
 	struct alignas(4) JLGAPJLCIKO_CFADAOFGDGF
 	{
 		::System::Int32 NBPINLGNJOJ; // 0x10

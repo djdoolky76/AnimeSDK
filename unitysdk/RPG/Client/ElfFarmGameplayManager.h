@@ -63,6 +63,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ElfFarmGameplayManager_TypeDefinitionIndex = 68660;
+
 	class ElfFarmGameplayManager : public ::System::Object
 	{
 	public:

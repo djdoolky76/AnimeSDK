@@ -6,6 +6,8 @@ namespace System { class String; }
 
 namespace TMPro
 {
+	inline static constexpr unsigned int FontAssetCreationSettings_TypeDefinitionIndex = 44574;
+
 	struct alignas(8) FontAssetCreationSettings
 	{
 		::System::String* sourceFontFileName; // 0x10

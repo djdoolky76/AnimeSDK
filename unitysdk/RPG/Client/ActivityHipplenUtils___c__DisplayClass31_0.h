@@ -8,6 +8,8 @@ namespace System { class Action; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ActivityHipplenUtils___c__DisplayClass31_0_TypeDefinitionIndex = 61529;
+
 	class ActivityHipplenUtils___c__DisplayClass31_0 : public ::System::Object
 	{
 	public:

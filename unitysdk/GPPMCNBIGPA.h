@@ -9,6 +9,8 @@ namespace UnityEngine { class MaterialPropertyBlock; }
 #define GPPMCNBIGPA_SETPROPERTY_1_OFFSET UNITYSDK_OFFSET(0x15B69020)
 #define GPPMCNBIGPA_SETPROPERTY_OFFSET UNITYSDK_OFFSET(0x15B68F40)
 
+inline static constexpr unsigned int GPPMCNBIGPA_TypeDefinitionIndex = 69824;
+
 	class GPPMCNBIGPA : public ::System::Object
 	{
 	public:

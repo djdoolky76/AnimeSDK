@@ -129,6 +129,8 @@ namespace System::Collections::ObjectModel { template <typename T> class ReadOnl
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ActivityPanelData_TypeDefinitionIndex = 61694;
+
 	class ActivityPanelData : public ::System::Object
 	{
 	public:

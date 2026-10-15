@@ -11,6 +11,8 @@ namespace UnityEngine { class Transform; }
 #define OKPCEOHNKMM_KAGICIAJEEA_OFFSET UNITYSDK_OFFSET(0xBEFAAC0)
 #define OKPCEOHNKMM_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0xBEFA800)
 
+inline static constexpr unsigned int OKPCEOHNKMM_TypeDefinitionIndex = 79092;
+
 	class OKPCEOHNKMM : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdventureTriggerFastRun_TypeDefinitionIndex = 20186;
+
 	class AdventureTriggerFastRun : public ::RPG::GameCore::TaskConfig
 	{
 	public:

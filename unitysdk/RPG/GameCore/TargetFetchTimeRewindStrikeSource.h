@@ -13,6 +13,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TargetFetchTimeRewindStrikeSource_TypeDefinitionIndex = 23887;
+
 	class TargetFetchTimeRewindStrikeSource : public ::RPG::GameCore::TargetEvaluator
 	{
 	public:

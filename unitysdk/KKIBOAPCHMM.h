@@ -9,6 +9,8 @@ class KKIBOAPCHMM;
 #define KKIBOAPCHMM_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1D09D460)
 #define KKIBOAPCHMM_GGBLHEHJBDO_OFFSET UNITYSDK_OFFSET(0x1D09D400)
 
+inline static constexpr unsigned int KKIBOAPCHMM_TypeDefinitionIndex = 15459;
+
 	class KKIBOAPCHMM : public ::System::Object
 	{
 	public:

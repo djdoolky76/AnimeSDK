@@ -7,6 +7,8 @@ namespace System { class String; }
 #define FPNCAGDDHPO_CTOR_OFFSET UNITYSDK_OFFSET(0x15920DC0)
 #define FPNCAGDDHPO_GET_REQUEST_OFFSET UNITYSDK_OFFSET(0x15920E30)
 
+inline static constexpr unsigned int FPNCAGDDHPO_TypeDefinitionIndex = 69346;
+
 	class FPNCAGDDHPO : public ::System::Exception
 	{
 	public:

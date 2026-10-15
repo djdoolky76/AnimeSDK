@@ -13,6 +13,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByHasUnGottenLevelReward_TypeDefinitionIndex = 21238;
+
 	class ByHasUnGottenLevelReward : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

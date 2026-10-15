@@ -11,6 +11,8 @@ namespace RPG::GameCore { class FiveDimSuiyangConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimSuiyangConfig_TypeDefinitionIndex = 18827;
+
 	class FiveDimSuiyangConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
 	public:

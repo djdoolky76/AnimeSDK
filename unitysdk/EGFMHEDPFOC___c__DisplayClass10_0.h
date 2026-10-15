@@ -9,6 +9,8 @@ namespace System { class Tuple; }
 #define EGFMHEDPFOC___C__DISPLAYCLASS10_0_CTOR_OFFSET UNITYSDK_OFFSET(0x14517980)
 #define EGFMHEDPFOC___C__DISPLAYCLASS10_0___ONUIBATTLESETDAMAGETEXTSTYLE_B__0_OFFSET UNITYSDK_OFFSET(0x14517E70)
 
+inline static constexpr unsigned int EGFMHEDPFOC___c__DisplayClass10_0_TypeDefinitionIndex = 71597;
+
 	class EGFMHEDPFOC___c__DisplayClass10_0 : public ::System::Object
 	{
 	public:

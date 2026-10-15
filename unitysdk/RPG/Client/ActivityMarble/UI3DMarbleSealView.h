@@ -20,6 +20,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::ActivityMarble
 {
+	inline static constexpr unsigned int UI3DMarbleSealView_TypeDefinitionIndex = 75980;
+
 	class UI3DMarbleSealView : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ConvinceAnchorConfig_AnchorData_TypeDefinitionIndex = 60674;
+
 	class ConvinceAnchorConfig_AnchorData : public ::System::Object
 	{
 	public:

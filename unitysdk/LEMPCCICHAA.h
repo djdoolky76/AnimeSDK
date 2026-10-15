@@ -6,6 +6,8 @@ namespace System { class String; }
 #define LEMPCCICHAA_CTOR_OFFSET UNITYSDK_OFFSET(0xB65DB60)
 #define LEMPCCICHAA_GAGLFGLKEOJ_OFFSET UNITYSDK_OFFSET(0xB65DA60)
 
+inline static constexpr unsigned int LEMPCCICHAA_TypeDefinitionIndex = 77558;
+
 	class LEMPCCICHAA : public ::EHDCFBBIJIM
 	{
 	public:

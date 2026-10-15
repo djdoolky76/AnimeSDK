@@ -11,6 +11,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int RealNameManager___c_TypeDefinitionIndex = 9358;
+
 	class RealNameManager___c : public ::System::Object
 	{
 	public:

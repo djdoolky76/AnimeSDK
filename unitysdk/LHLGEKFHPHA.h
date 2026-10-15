@@ -8,6 +8,8 @@ class LHLGEKFHPHA;
 #define LHLGEKFHPHA_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D0F38B0)
 #define LHLGEKFHPHA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D0F37E0)
 
+inline static constexpr unsigned int LHLGEKFHPHA_TypeDefinitionIndex = 21329;
+
 	class LHLGEKFHPHA : public ::RPG::GameCore::STTaskConfig
 	{
 	public:

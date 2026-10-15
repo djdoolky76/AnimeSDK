@@ -10,6 +10,8 @@ namespace RPG::GameCore { class LevelNPCNearbyAnimConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelNPCNearbyAnimConfig_TypeDefinitionIndex = 17273;
+
 	class LevelNPCNearbyAnimConfig : public ::RPG::GameCore::LevelNPCNearbyConfig
 	{
 	public:

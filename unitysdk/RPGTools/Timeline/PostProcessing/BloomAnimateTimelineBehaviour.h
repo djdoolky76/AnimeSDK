@@ -11,6 +11,8 @@ namespace System { class Object; }
 
 namespace RPGTools::Timeline::PostProcessing
 {
+	inline static constexpr unsigned int BloomAnimateTimelineBehaviour_TypeDefinitionIndex = 48547;
+
 	class BloomAnimateTimelineBehaviour
 	{
 	public:

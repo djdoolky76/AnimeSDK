@@ -35,6 +35,8 @@ namespace System::Threading { class WaitHandle; }
 
 namespace System::Threading
 {
+	inline static constexpr unsigned int WaitHandle_TypeDefinitionIndex = 871;
+
 	class WaitHandle : public ::System::MarshalByRefObject
 	{
 	public:

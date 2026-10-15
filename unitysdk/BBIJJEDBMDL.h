@@ -5,6 +5,8 @@ class KAPEMBCNNIG;
 
 #define BBIJJEDBMDL_ABNMKAPKMGF_OFFSET UNITYSDK_OFFSET(0x15E8D840)
 
+inline static constexpr unsigned int BBIJJEDBMDL_TypeDefinitionIndex = 71580;
+
 	class BBIJJEDBMDL : public ::System::Object
 	{
 	public:

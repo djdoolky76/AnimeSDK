@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EReplayTag_TypeDefinitionIndex = 56196;
+
 	enum class EReplayTag : ::System::Int32
 	{
 		Undefine = 0,

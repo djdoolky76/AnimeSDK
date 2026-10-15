@@ -8,6 +8,8 @@ class FCOEMCEDLNL;
 #define DELLLJFOGIN_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CD13980)
 #define DELLLJFOGIN_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CD138B0)
 
+inline static constexpr unsigned int DELLLJFOGIN_TypeDefinitionIndex = 23229;
+
 	class DELLLJFOGIN : public ::RPG::GameCore::TaskConfig
 	{
 	public:

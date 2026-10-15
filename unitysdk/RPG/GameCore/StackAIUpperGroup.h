@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StackAIUpperGroup_TypeDefinitionIndex = 23717;
+
 	class StackAIUpperGroup : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -13,6 +13,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByIsDirectKillBattle_TypeDefinitionIndex = 23055;
+
 	class ByIsDirectKillBattle : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

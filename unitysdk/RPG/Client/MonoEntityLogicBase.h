@@ -12,6 +12,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEntityLogicBase_TypeDefinitionIndex = 68587;
+
 	class MonoEntityLogicBase : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -8,6 +8,8 @@ namespace RPG::Client { class ComposeItemMaterial; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ComposeItemData___c__DisplayClass83_0_TypeDefinitionIndex = 65760;
+
 	class ComposeItemData___c__DisplayClass83_0 : public ::System::Object
 	{
 	public:

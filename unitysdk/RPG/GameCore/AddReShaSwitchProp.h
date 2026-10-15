@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AddReShaSwitchProp_TypeDefinitionIndex = 22030;
+
 	class AddReShaSwitchProp : public ::RPG::GameCore::TaskConfig
 	{
 	public:

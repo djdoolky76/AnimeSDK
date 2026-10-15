@@ -7,6 +7,8 @@
 #define DBDPJLEIAIB_CLEAR_OFFSET UNITYSDK_OFFSET(0xDFDD130)
 #define DBDPJLEIAIB_CTOR_OFFSET UNITYSDK_OFFSET(0xDFDD170)
 
+inline static constexpr unsigned int DBDPJLEIAIB_TypeDefinitionIndex = 55236;
+
 	class DBDPJLEIAIB : public ::System::Object
 	{
 	public:

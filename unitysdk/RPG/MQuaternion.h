@@ -28,6 +28,8 @@ namespace System { class String; }
 
 namespace RPG
 {
+	inline static constexpr unsigned int MQuaternion_TypeDefinitionIndex = 6388;
+
 	struct alignas(4) MQuaternion
 	{
 		::System::Single x; // 0x10

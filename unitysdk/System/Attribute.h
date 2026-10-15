@@ -43,6 +43,8 @@ namespace System::Reflection { class PropertyInfo; }
 
 namespace System
 {
+	inline static constexpr unsigned int Attribute_TypeDefinitionIndex = 200;
+
 	class Attribute : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace UnityEngine::UIElements { class VisualElement; }
 
 namespace UnityEngine::UIElements
 {
+	inline static constexpr unsigned int VisualElementExtensions_TypeDefinitionIndex = 5904;
+
 	class VisualElementExtensions : public ::System::Object
 	{
 	public:

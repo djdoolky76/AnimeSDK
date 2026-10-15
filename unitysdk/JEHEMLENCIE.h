@@ -89,6 +89,8 @@ namespace UnityEngine { class Transform; }
 #define JEHEMLENCIE_SET_ROBOT3DROOT_OFFSET UNITYSDK_OFFSET(0x16627300)
 #define JEHEMLENCIE__OPENGAMEWINDOW_B__2_0_OFFSET UNITYSDK_OFFSET(0x166275C0)
 
+inline static constexpr unsigned int JEHEMLENCIE_TypeDefinitionIndex = 79042;
+
 	class JEHEMLENCIE : public ::System::Object
 	{
 	public:

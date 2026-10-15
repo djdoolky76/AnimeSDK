@@ -12,6 +12,8 @@ namespace RPG::Client::Billboard { class IBillboardTypeData; }
 
 namespace RPG::Client::Billboard
 {
+	inline static constexpr unsigned int FloatingTextBillboardData_TypeDefinitionIndex = 74982;
+
 	class FloatingTextBillboardData : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierShopBuyReturnMoneyConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierShopBuyReturnMoneyConfig_TypeDefinitionIndex = 17994;
+
 	class RogueModifierShopBuyReturnMoneyConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

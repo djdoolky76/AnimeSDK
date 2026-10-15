@@ -7,6 +7,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoMouseFollower_TypeDefinitionIndex = 72823;
+
 	class MonoMouseFollower : public ::UnityEngine::MonoBehaviour
 	{
 	public:

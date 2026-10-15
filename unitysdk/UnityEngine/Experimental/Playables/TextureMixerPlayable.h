@@ -7,6 +7,8 @@
 
 namespace UnityEngine::Experimental::Playables
 {
+	inline static constexpr unsigned int TextureMixerPlayable_TypeDefinitionIndex = 4935;
+
 	struct alignas(4) TextureMixerPlayable
 	{
 		::UnityEngine::Playables::PlayableHandle m_Handle; // 0x10

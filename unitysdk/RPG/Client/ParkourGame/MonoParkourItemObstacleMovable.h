@@ -10,6 +10,8 @@ namespace RPG::Client::ParkourGame { class MonoParkourCharacter; }
 
 namespace RPG::Client::ParkourGame
 {
+	inline static constexpr unsigned int MonoParkourItemObstacleMovable_TypeDefinitionIndex = 74144;
+
 	class MonoParkourItemObstacleMovable : public ::RPG::Client::ParkourGame::MonoParkourItemObstacle
 	{
 	public:

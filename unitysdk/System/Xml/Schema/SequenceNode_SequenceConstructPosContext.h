@@ -7,6 +7,8 @@ namespace System::Xml::Schema { class SequenceNode; }
 
 namespace System::Xml::Schema
 {
+	inline static constexpr unsigned int SequenceNode_SequenceConstructPosContext_TypeDefinitionIndex = 2073;
+
 	struct alignas(8) SequenceNode_SequenceConstructPosContext
 	{
 		::System::Xml::Schema::SequenceNode* this_; // 0x10

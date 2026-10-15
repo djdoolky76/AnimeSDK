@@ -10,6 +10,8 @@ namespace RPG::GameCore { class AlleyStageRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AlleyStageRow_TypeDefinitionIndex = 12638;
+
 	class AlleyStageRow : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RtDamageExtraDataBase; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RtDamageExtraDataBase_TypeDefinitionIndex = 24161;
+
 	class RtDamageExtraDataBase : public ::RPG::GameCore::JsonConfig
 	{
 	public:

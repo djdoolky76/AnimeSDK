@@ -10,6 +10,8 @@ namespace RPG::GameCore { class AlleyActivityQuestRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AlleyActivityQuestRow_TypeDefinitionIndex = 12634;
+
 	class AlleyActivityQuestRow : public ::System::Object
 	{
 	public:

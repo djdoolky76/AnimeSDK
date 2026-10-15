@@ -7,6 +7,8 @@ namespace RPG::GameCore { class MarbleAddBuff; }
 #define OGDEFNGMMDD_CTOR_OFFSET UNITYSDK_OFFSET(0x1C98CEE0)
 #define OGDEFNGMMDD_KDNAAOHECPD_OFFSET UNITYSDK_OFFSET(0x1C98CEF0)
 
+inline static constexpr unsigned int OGDEFNGMMDD_TypeDefinitionIndex = 43095;
+
 	class OGDEFNGMMDD : public ::BKABEBEPPJK
 	{
 	public:

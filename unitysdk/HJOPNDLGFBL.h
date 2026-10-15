@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define HJOPNDLGFBL_SET_SETTLED_OFFSET UNITYSDK_OFFSET(0x15D35E00)
 #define HJOPNDLGFBL_UPDATE_OFFSET UNITYSDK_OFFSET(0x15D358F0)
 
+inline static constexpr unsigned int HJOPNDLGFBL_TypeDefinitionIndex = 67706;
+
 	class HJOPNDLGFBL : public ::System::Object
 	{
 	public:

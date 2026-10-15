@@ -37,6 +37,8 @@ namespace UnityEngine { class Renderer; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AirshipBird_TypeDefinitionIndex = 59799;
+
 	class AirshipBird : public ::UnityEngine::MonoBehaviour
 	{
 	public:

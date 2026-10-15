@@ -21,6 +21,8 @@ namespace UnityEngine { class GameObject; }
 #define AKAUXSENDARRAY_RESET_OFFSET UNITYSDK_OFFSET(0x1F577F50)
 #define AKAUXSENDARRAY_SETVALUES_OFFSET UNITYSDK_OFFSET(0x1F578750)
 
+inline static constexpr unsigned int AkAuxSendArray_TypeDefinitionIndex = 44861;
+
 	class AkAuxSendArray : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@
 
 namespace UnityEngine::Formats::Alembic::Sdk
 {
+	inline static constexpr unsigned int aeCameraData_TypeDefinitionIndex = 45788;
+
 	struct alignas(4) aeCameraData
 	{
 		::UnityEngine::Formats::Alembic::Sdk::Bool visibility; // 0x10

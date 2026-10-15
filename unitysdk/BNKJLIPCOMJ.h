@@ -4,6 +4,8 @@
 
 #define BNKJLIPCOMJ_CTOR_OFFSET UNITYSDK_OFFSET(0xBDDCBE0)
 
+inline static constexpr unsigned int BNKJLIPCOMJ_TypeDefinitionIndex = 48046;
+
 	class BNKJLIPCOMJ : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

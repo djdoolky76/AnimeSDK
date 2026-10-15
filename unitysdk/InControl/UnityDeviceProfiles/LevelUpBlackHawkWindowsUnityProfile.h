@@ -7,6 +7,8 @@
 
 namespace InControl::UnityDeviceProfiles
 {
+	inline static constexpr unsigned int LevelUpBlackHawkWindowsUnityProfile_TypeDefinitionIndex = 41071;
+
 	class LevelUpBlackHawkWindowsUnityProfile : public ::InControl::InputDeviceProfile
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class WaitPerformanceEnd; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaitPerformanceEnd_TypeDefinitionIndex = 21848;
+
 	class WaitPerformanceEnd : public ::RPG::GameCore::TaskConfig
 	{
 	public:

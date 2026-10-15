@@ -15,6 +15,8 @@ namespace System { class String; }
 #define PKLHEGFGFLI_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC2E40C0)
 #define PKLHEGFGFLI_TICK_OFFSET UNITYSDK_OFFSET(0xC2E4150)
 
+inline static constexpr unsigned int PKLHEGFGFLI_TypeDefinitionIndex = 58784;
+
 	class PKLHEGFGFLI : public ::GELIALJDFBL
 	{
 	public:

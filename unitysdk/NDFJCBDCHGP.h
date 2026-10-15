@@ -8,6 +8,8 @@ namespace System { class String; }
 #define NDFJCBDCHGP_CTOR_OFFSET UNITYSDK_OFFSET(0x1D1F7CB0)
 #define NDFJCBDCHGP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D1F7B30)
 
+inline static constexpr unsigned int NDFJCBDCHGP_TypeDefinitionIndex = 11647;
+
 	class NDFJCBDCHGP : public ::System::Object
 	{
 	public:

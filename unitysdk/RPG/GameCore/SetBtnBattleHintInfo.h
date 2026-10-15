@@ -11,6 +11,8 @@ namespace RPG::GameCore { class SetBtnBattleHintInfo; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetBtnBattleHintInfo_TypeDefinitionIndex = 23459;
+
 	class SetBtnBattleHintInfo : public ::RPG::GameCore::TaskConfig
 	{
 	public:

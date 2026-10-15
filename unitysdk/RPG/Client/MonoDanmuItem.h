@@ -24,6 +24,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoDanmuItem_TypeDefinitionIndex = 68949;
+
 	class MonoDanmuItem : public ::UnityEngine::MonoBehaviour
 	{
 	public:

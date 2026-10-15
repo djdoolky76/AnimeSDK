@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define EIOCFENBIHO_GET_MAXENHANCEDSEASON_OFFSET UNITYSDK_OFFSET(0x154D34A0)
 #define EIOCFENBIHO_SET_MAXENHANCEDSEASON_OFFSET UNITYSDK_OFFSET(0x154D34B0)
 
+inline static constexpr unsigned int EIOCFENBIHO_TypeDefinitionIndex = 62759;
+
 	class EIOCFENBIHO : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace UnityEngine::UIElements { template <typename T> class ObjectPool_1; }
 
 namespace UnityEngine::UIElements
 {
+	inline static constexpr unsigned int VisualElementListPool_TypeDefinitionIndex = 5901;
+
 	class VisualElementListPool : public ::System::Object
 	{
 	public:

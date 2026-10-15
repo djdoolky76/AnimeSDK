@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 #define PBCIMAJMHPM_SET_REPLAYFILEPATH_OFFSET UNITYSDK_OFFSET(0xBFE1E10)
 #define PBCIMAJMHPM_SET_SCREENDEBUGLOGOWNERID_OFFSET UNITYSDK_OFFSET(0xBFE1ED0)
 
+inline static constexpr unsigned int PBCIMAJMHPM_TypeDefinitionIndex = 76431;
+
 	class PBCIMAJMHPM : public ::System::Object
 	{
 	public:

@@ -3,6 +3,8 @@
 
 namespace ZLinq::Internal
 {
+	inline static constexpr unsigned int InlineArray27_1_TypeDefinitionIndex = 6153;
+
 	template <typename T>
 	struct alignas(8) InlineArray27_1
 	{

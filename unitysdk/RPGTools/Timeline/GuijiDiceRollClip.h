@@ -18,6 +18,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int GuijiDiceRollClip_TypeDefinitionIndex = 48132;
+
 	class GuijiDiceRollClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

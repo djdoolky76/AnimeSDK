@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ApplyCacheCharacterAtlasFaceEmotion_TypeDefinitionIndex = 20628;
+
 	class ApplyCacheCharacterAtlasFaceEmotion : public ::RPG::GameCore::TaskConfig
 	{
 	public:

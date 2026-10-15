@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define FLPMBEPBPGN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E3DE150)
 #define FLPMBEPBPGN___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E3DE160)
 
+inline static constexpr unsigned int FLPMBEPBPGN___c_TypeDefinitionIndex = 34769;
+
 	class FLPMBEPBPGN___c : public ::System::Object
 	{
 	public:

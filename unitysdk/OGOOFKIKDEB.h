@@ -27,6 +27,8 @@ namespace System { class String; }
 #define OGOOFKIKDEB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE59EB0)
 #define OGOOFKIKDEB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DE59F10)
 
+inline static constexpr unsigned int OGOOFKIKDEB_TypeDefinitionIndex = 25996;
+
 	class OGOOFKIKDEB : public ::System::Object
 	{
 	public:

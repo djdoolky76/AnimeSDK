@@ -5,6 +5,8 @@
 
 namespace RPGTools::LDWhiteBox
 {
+	inline static constexpr unsigned int PathNodePoint_TypeDefinitionIndex = 48954;
+
 	struct alignas(4) PathNodePoint
 	{
 		::UnityEngine::Vector3 LocalPos; // 0x10

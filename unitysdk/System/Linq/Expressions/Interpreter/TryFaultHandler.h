@@ -6,6 +6,8 @@
 
 namespace System::Linq::Expressions::Interpreter
 {
+	inline static constexpr unsigned int TryFaultHandler_TypeDefinitionIndex = 3480;
+
 	class TryFaultHandler : public ::System::Object
 	{
 	public:

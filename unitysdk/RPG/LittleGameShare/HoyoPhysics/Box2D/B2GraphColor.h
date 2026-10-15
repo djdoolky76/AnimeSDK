@@ -10,6 +10,8 @@ namespace RPG::LittleGameShare::HoyoPhysics::Box2D { class B2JointSim; }
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
+	inline static constexpr unsigned int B2GraphColor_TypeDefinitionIndex = 36682;
+
 	struct alignas(8) B2GraphColor
 	{
 		::RPG::LittleGameShare::HoyoPhysics::Box2D::B2BitSet bodySet; // 0x10

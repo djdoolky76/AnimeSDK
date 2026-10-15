@@ -29,6 +29,8 @@ namespace System { class String; }
 #define FMJDDIHBELC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E3E7F90)
 #define FMJDDIHBELC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E3E7FF0)
 
+inline static constexpr unsigned int FMJDDIHBELC_TypeDefinitionIndex = 29364;
+
 	class FMJDDIHBELC : public ::System::Object
 	{
 	public:

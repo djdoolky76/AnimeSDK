@@ -8,6 +8,8 @@
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int OpticalIllusionPuzzleCube_TypeDefinitionIndex = 78714;
+
 	class OpticalIllusionPuzzleCube : public ::UnityEngine::MonoBehaviour
 	{
 	public:

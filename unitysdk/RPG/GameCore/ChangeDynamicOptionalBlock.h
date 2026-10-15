@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChangeDynamicOptionalBlock_TypeDefinitionIndex = 21699;
+
 	class ChangeDynamicOptionalBlock : public ::RPG::GameCore::TaskConfig
 	{
 	public:

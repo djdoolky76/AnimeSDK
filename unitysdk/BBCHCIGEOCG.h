@@ -9,6 +9,8 @@ class DMDPOFBLBIE;
 #define BBCHCIGEOCG_LNGKNPJIOML_OFFSET UNITYSDK_OFFSET(0x15E82CE0)
 #define BBCHCIGEOCG_SET_TARGETELEMENTID_OFFSET UNITYSDK_OFFSET(0x15E82CD0)
 
+inline static constexpr unsigned int BBCHCIGEOCG_TypeDefinitionIndex = 72437;
+
 	class BBCHCIGEOCG : public ::System::Object
 	{
 	public:

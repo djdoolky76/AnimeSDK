@@ -11,6 +11,8 @@ namespace MiHoYo::SDK::HttpDns { class HoYoSDKHttpWebResponse; }
 
 namespace MiHoYo::SDK::HttpDns
 {
+	inline static constexpr unsigned int HoYoSDKHttpWebRequest___c__DisplayClass0_0_TypeDefinitionIndex = 46704;
+
 	class HoYoSDKHttpWebRequest___c__DisplayClass0_0 : public ::System::Object
 	{
 	public:

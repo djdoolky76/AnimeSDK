@@ -7,6 +7,8 @@ namespace MiHoYo::SDK { class MiHoYoSDKUserDataModel; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int MiHoYoSDKAccountInfoModel_TypeDefinitionIndex = 46333;
+
 	class MiHoYoSDKAccountInfoModel : public ::System::Object
 	{
 	public:

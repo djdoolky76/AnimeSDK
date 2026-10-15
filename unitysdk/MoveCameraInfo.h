@@ -9,6 +9,8 @@ namespace UnityEngine { class AnimationCurve; }
 #define MOVECAMERAINFO_CTOR_OFFSET UNITYSDK_OFFSET(0xBA4FB30)
 #define MOVECAMERAINFO_GET_ISFINISH_OFFSET UNITYSDK_OFFSET(0xBA4FB20)
 
+inline static constexpr unsigned int MoveCameraInfo_TypeDefinitionIndex = 47268;
+
 	class MoveCameraInfo : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class AddFinishMissionData_ResultValue; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AddFinishMissionData_ResultValue_TypeDefinitionIndex = 21576;
+
 	class AddFinishMissionData_ResultValue : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -25,6 +25,8 @@ namespace System { class String; }
 #define SERIALIZEDWARMUPPSO_NBHCPBBGAKA_OFFSET UNITYSDK_OFFSET(0xE968910)
 #define SERIALIZEDWARMUPPSO_OLCHHDKKPLI_OFFSET UNITYSDK_OFFSET(0xE968670)
 
+inline static constexpr unsigned int SerializedWarmupPSO_TypeDefinitionIndex = 47419;
+
 	class SerializedWarmupPSO : public ::System::Object
 	{
 	public:

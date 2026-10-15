@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::Challenge::Tierce
 {
+	inline static constexpr unsigned int ChallengeTierceStageMonsterDataProvider_TypeDefinitionIndex = 81574;
+
 	class ChallengeTierceStageMonsterDataProvider : public ::RPG::Client::Monster::MonsterDataProviderViewModelBase
 	{
 	public:

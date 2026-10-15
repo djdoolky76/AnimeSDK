@@ -27,6 +27,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CameraDecalRaycast_TypeDefinitionIndex = 63071;
+
 	class CameraDecalRaycast : public ::System::Object
 	{
 	public:

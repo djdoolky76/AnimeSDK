@@ -11,6 +11,8 @@ namespace RPG::GameCore { class LevelSelectEvolveBuildCardReRoll; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelSelectEvolveBuildCardReRoll_TypeDefinitionIndex = 56825;
+
 	class LevelSelectEvolveBuildCardReRoll : public ::CMPGEAFHHDC
 	{
 	public:

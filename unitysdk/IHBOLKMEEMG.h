@@ -45,6 +45,8 @@ namespace System { class String; }
 #define IHBOLKMEEMG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E658EF0)
 #define IHBOLKMEEMG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E658F50)
 
+inline static constexpr unsigned int IHBOLKMEEMG_TypeDefinitionIndex = 27520;
+
 	class IHBOLKMEEMG : public ::System::Object
 	{
 	public:

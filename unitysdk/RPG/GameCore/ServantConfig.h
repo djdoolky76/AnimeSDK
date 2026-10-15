@@ -16,6 +16,8 @@ namespace RPG::GameCore { class ServantConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ServantConfig_TypeDefinitionIndex = 16528;
+
 	class ServantConfig : public ::RPG::GameCore::CharacterConfig
 	{
 	public:

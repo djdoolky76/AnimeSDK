@@ -24,6 +24,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightConsumableItemConfig_TypeDefinitionIndex = 64508;
+
 	class GridFightConsumableItemConfig : public ::System::Object
 	{
 	public:

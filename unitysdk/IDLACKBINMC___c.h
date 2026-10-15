@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define IDLACKBINMC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E62FDD0)
 #define IDLACKBINMC___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E62FDE0)
 
+inline static constexpr unsigned int IDLACKBINMC___c_TypeDefinitionIndex = 25238;
+
 	class IDLACKBINMC___c : public ::System::Object
 	{
 	public:

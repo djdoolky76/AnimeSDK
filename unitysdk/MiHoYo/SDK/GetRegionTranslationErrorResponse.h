@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int GetRegionTranslationErrorResponse_TypeDefinitionIndex = 7955;
+
 	class GetRegionTranslationErrorResponse : public ::System::Object
 	{
 	public:

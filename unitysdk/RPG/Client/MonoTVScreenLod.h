@@ -14,6 +14,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoTVScreenLod_TypeDefinitionIndex = 70745;
+
 	class MonoTVScreenLod : public ::UnityEngine::MonoBehaviour
 	{
 	public:

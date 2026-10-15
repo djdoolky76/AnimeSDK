@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ClockParkStoryWaitPlayerClick; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ClockParkStoryWaitPlayerClick_TypeDefinitionIndex = 20947;
+
 	class ClockParkStoryWaitPlayerClick : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightParamGetSilverWolf999RoleIdConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightParamGetSilverWolf999RoleIdConfig_TypeDefinitionIndex = 19551;
+
 	class GridFightParamGetSilverWolf999RoleIdConfig : public ::RPG::GameCore::GridFightParameterConfigBase
 	{
 	public:

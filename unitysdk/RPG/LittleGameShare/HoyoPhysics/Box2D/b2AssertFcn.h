@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
+	inline static constexpr unsigned int b2AssertFcn_TypeDefinitionIndex = 36641;
+
 	class b2AssertFcn : public ::System::MulticastDelegate
 	{
 	public:

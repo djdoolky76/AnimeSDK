@@ -122,6 +122,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonopolyUtils_TypeDefinitionIndex = 66278;
+
 	class MonopolyUtils : public ::System::Object
 	{
 	public:

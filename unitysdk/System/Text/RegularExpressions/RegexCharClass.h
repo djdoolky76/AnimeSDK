@@ -53,6 +53,8 @@ namespace System::Text::RegularExpressions { class RegexCharClass_SingleRange; }
 
 namespace System::Text::RegularExpressions
 {
+	inline static constexpr unsigned int RegexCharClass_TypeDefinitionIndex = 2506;
+
 	class RegexCharClass : public ::System::Object
 	{
 	public:

@@ -22,6 +22,8 @@ namespace System { template <typename T> class Func_1; }
 #define AAKEKBEKPJA_MIFPPBGJNHN_OFFSET UNITYSDK_OFFSET(0xB0CD610)
 #define AAKEKBEKPJA_NMGAJKMDOHH_OFFSET UNITYSDK_OFFSET(0xB0CD360)
 
+inline static constexpr unsigned int AAKEKBEKPJA_TypeDefinitionIndex = 81852;
+
 	class AAKEKBEKPJA : public ::System::Object
 	{
 	public:

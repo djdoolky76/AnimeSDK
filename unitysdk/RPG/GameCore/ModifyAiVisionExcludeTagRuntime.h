@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ModifyAiVisionExcludeTagRuntime_TypeDefinitionIndex = 21746;
+
 	class ModifyAiVisionExcludeTagRuntime : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -29,6 +29,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int PhysicsScene2D_TypeDefinitionIndex = 5799;
+
 	struct alignas(4) PhysicsScene2D
 	{
 		::System::Int32 m_Handle; // 0x10

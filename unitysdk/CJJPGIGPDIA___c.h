@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define CJJPGIGPDIA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E0E2160)
 #define CJJPGIGPDIA___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E0E2170)
 
+inline static constexpr unsigned int CJJPGIGPDIA___c_TypeDefinitionIndex = 30169;
+
 	class CJJPGIGPDIA___c : public ::System::Object
 	{
 	public:

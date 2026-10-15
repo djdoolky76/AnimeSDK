@@ -12,6 +12,8 @@ namespace UnityEngine { class Animator; }
 #define JONAOEKOCEI_CAEJNKICJLN_FIIPIACAIAC_OFFSET UNITYSDK_OFFSET(0xB2AAA10)
 #define JONAOEKOCEI_CAEJNKICJLN_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0xB2AA290)
 
+inline static constexpr unsigned int JONAOEKOCEI_CAEJNKICJLN_TypeDefinitionIndex = 60182;
+
 	class JONAOEKOCEI_CAEJNKICJLN : public ::System::Object
 	{
 	public:

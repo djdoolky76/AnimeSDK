@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CumulativeScoreBoardConfigData_TypeDefinitionIndex = 52089;
+
 	class CumulativeScoreBoardConfigData : public ::System::Object
 	{
 	public:

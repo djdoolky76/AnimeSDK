@@ -43,6 +43,8 @@ namespace System::Xml { class XmlWriterSettings; }
 
 namespace System::Xml
 {
+	inline static constexpr unsigned int QueryOutputWriter_TypeDefinitionIndex = 1821;
+
 	class QueryOutputWriter : public ::System::Xml::XmlRawWriter
 	{
 	public:

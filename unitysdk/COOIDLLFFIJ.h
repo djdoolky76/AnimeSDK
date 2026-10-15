@@ -32,6 +32,8 @@ namespace System { class String; }
 #define COOIDLLFFIJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E1389F0)
 #define COOIDLLFFIJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E138A50)
 
+inline static constexpr unsigned int COOIDLLFFIJ_TypeDefinitionIndex = 33814;
+
 	class COOIDLLFFIJ : public ::System::Object
 	{
 	public:

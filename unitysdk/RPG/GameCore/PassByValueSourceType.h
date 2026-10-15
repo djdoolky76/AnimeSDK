@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PassByValueSourceType_TypeDefinitionIndex = 24510;
+
 	enum class PassByValueSourceType : ::System::Int32
 	{
 		FCV = 0,

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class DiceCombatPredicateConfig_IsChallenger; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DiceCombatPredicateConfig_IsChallenger_TypeDefinitionIndex = 16109;
+
 	class DiceCombatPredicateConfig_IsChallenger : public ::RPG::GameCore::DiceCombatPredicateConfig
 	{
 	public:

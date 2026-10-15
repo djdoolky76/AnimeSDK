@@ -15,6 +15,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEffectManager_EffectSpawnAsyncCallback_TypeDefinitionIndex = 69853;
+
 	class MonoEffectManager_EffectSpawnAsyncCallback : public ::System::Object
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::Client::DiceCombat
 {
+	inline static constexpr unsigned int DiceCombatV2RankLevelData_TypeDefinitionIndex = 76157;
+
 	class DiceCombatV2RankLevelData : public ::System::Object
 	{
 	public:

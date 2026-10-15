@@ -136,6 +136,8 @@ namespace System::Collections::Generic { template <typename T> class Queue_1; }
 #define KKHNFGNFJFD_POOMPHLBIHD_OFFSET UNITYSDK_OFFSET(0xB4C9D00)
 #define KKHNFGNFJFD__SKILLPREVIEWSORTBYACTIONDELAYCMP_G___GETOVERRIDEVALUE_22_0_OFFSET UNITYSDK_OFFSET(0xB4BE8F0)
 
+inline static constexpr unsigned int KKHNFGNFJFD_TypeDefinitionIndex = 71305;
+
 	class KKHNFGNFJFD : public ::System::Object
 	{
 	public:

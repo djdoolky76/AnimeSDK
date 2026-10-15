@@ -24,6 +24,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define ACEKNFHCIII_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CCA48C0)
 #define ACEKNFHCIII_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CCA41E0)
 
+inline static constexpr unsigned int ACEKNFHCIII_TypeDefinitionIndex = 10882;
+
 	class ACEKNFHCIII : public ::System::Object
 	{
 	public:

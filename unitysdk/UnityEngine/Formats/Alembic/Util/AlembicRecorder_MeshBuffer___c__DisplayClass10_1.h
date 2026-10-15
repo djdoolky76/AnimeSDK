@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace UnityEngine::Formats::Alembic::Util
 {
+	inline static constexpr unsigned int AlembicRecorder_MeshBuffer___c__DisplayClass10_1_TypeDefinitionIndex = 45765;
+
 	template <typename T>
 	class AlembicRecorder_MeshBuffer___c__DisplayClass10_1 : public ::System::Object
 	{

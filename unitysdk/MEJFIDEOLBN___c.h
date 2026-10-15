@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define MEJFIDEOLBN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA0DE00)
 #define MEJFIDEOLBN___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1EA0DE10)
 
+inline static constexpr unsigned int MEJFIDEOLBN___c_TypeDefinitionIndex = 34538;
+
 	class MEJFIDEOLBN___c : public ::System::Object
 	{
 	public:

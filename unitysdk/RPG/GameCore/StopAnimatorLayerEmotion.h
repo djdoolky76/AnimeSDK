@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StopAnimatorLayerEmotion_TypeDefinitionIndex = 20600;
+
 	class StopAnimatorLayerEmotion : public ::RPG::GameCore::TaskConfig
 	{
 	public:

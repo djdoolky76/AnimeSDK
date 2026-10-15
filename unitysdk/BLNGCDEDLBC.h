@@ -37,6 +37,8 @@ namespace RPG::Client { class ExpeditionBattleTeamMember; }
 #define BLNGCDEDLBC_OMKMLGHODOL_OFFSET UNITYSDK_OFFSET(0xBA7C980)
 #define BLNGCDEDLBC_OOAFFKKPHBC_OFFSET UNITYSDK_OFFSET(0xBA7CE90)
 
+inline static constexpr unsigned int BLNGCDEDLBC_TypeDefinitionIndex = 63933;
+
 	class BLNGCDEDLBC : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class Action; }
 #define HFGEKEIELBI_NECEALBHFAB_OFFSET UNITYSDK_OFFSET(0x15C795C0)
 #define HFGEKEIELBI_NHPDCPKMNAM_OFFSET UNITYSDK_OFFSET(0x15C79410)
 
+inline static constexpr unsigned int HFGEKEIELBI_TypeDefinitionIndex = 81911;
+
 	class HFGEKEIELBI : public ::System::Object
 	{
 	public:

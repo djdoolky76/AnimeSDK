@@ -11,6 +11,8 @@ namespace System { template <typename T> class Comparison_1; }
 #define MIDAKCNMMPF___C___SORT_B__15_0_OFFSET UNITYSDK_OFFSET(0x1C92BC20)
 #define MIDAKCNMMPF___C___SORT_B__15_1_OFFSET UNITYSDK_OFFSET(0x1C92BCA0)
 
+inline static constexpr unsigned int MIDAKCNMMPF___c_TypeDefinitionIndex = 43640;
+
 	class MIDAKCNMMPF___c : public ::System::Object
 	{
 	public:

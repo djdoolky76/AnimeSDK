@@ -10,6 +10,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoTextDanmuView_TypeDefinitionIndex = 68953;
+
 	class MonoTextDanmuView : public ::RPG::Client::MonoDanmuViewBase
 	{
 	public:

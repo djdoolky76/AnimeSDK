@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ShowChallegeStoryWavePanel; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ShowChallegeStoryWavePanel_TypeDefinitionIndex = 23463;
+
 	class ShowChallegeStoryWavePanel : public ::RPG::GameCore::TaskConfig
 	{
 	public:

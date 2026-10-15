@@ -4,6 +4,8 @@
 
 namespace System::Collections::Immutable
 {
+	inline static constexpr unsigned int ImmutableStack_TypeDefinitionIndex = 6657;
+
 	class ImmutableStack : public ::System::Object
 	{
 	public:

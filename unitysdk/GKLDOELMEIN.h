@@ -27,6 +27,8 @@ namespace System { class String; }
 #define GKLDOELMEIN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E4B9970)
 #define GKLDOELMEIN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E4B99D0)
 
+inline static constexpr unsigned int GKLDOELMEIN_TypeDefinitionIndex = 29511;
+
 	class GKLDOELMEIN : public ::System::Object
 	{
 	public:

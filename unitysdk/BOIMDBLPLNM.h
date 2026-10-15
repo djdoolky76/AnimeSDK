@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define BOIMDBLPLNM_CTOR_OFFSET UNITYSDK_OFFSET(0xC192800)
 #define BOIMDBLPLNM_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC192830)
 
+inline static constexpr unsigned int BOIMDBLPLNM_TypeDefinitionIndex = 53892;
+
 	class BOIMDBLPLNM
 	{
 	public:

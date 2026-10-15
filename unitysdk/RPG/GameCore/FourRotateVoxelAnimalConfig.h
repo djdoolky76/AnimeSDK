@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FourRotateVoxelAnimalConfig_TypeDefinitionIndex = 16735;
+
 	class FourRotateVoxelAnimalConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -17,6 +17,8 @@ namespace System { class String; }
 #define HGKHKLCFDBJ_SAMPLEDELAY_OFFSET UNITYSDK_OFFSET(0x15CA8FA0)
 #define HGKHKLCFDBJ_SET_OWNERFMSYSTEM_OFFSET UNITYSDK_OFFSET(0x15CA8E70)
 
+inline static constexpr unsigned int HGKHKLCFDBJ_TypeDefinitionIndex = 49566;
+
 	class HGKHKLCFDBJ : public ::RPG::Client::TABehaviorBase
 	{
 	public:

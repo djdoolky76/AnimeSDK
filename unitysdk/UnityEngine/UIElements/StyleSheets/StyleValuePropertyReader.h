@@ -6,6 +6,8 @@
 
 namespace UnityEngine::UIElements::StyleSheets
 {
+	inline static constexpr unsigned int StyleValuePropertyReader_TypeDefinitionIndex = 6011;
+
 	class StyleValuePropertyReader : public ::System::Object
 	{
 	public:

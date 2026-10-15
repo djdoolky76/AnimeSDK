@@ -29,6 +29,8 @@ namespace System { class String; }
 #define JKPOIHGIFFG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E770E00)
 #define JKPOIHGIFFG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E770E60)
 
+inline static constexpr unsigned int JKPOIHGIFFG_TypeDefinitionIndex = 29231;
+
 	class JKPOIHGIFFG : public ::System::Object
 	{
 	public:

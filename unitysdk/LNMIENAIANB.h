@@ -8,6 +8,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define LNMIENAIANB_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB7E9050)
 #define LNMIENAIANB_TICK_OFFSET UNITYSDK_OFFSET(0xB7E8FF0)
 
+inline static constexpr unsigned int LNMIENAIANB_TypeDefinitionIndex = 54146;
+
 	class LNMIENAIANB
 	{
 	public:

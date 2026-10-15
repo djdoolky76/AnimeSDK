@@ -11,6 +11,8 @@ class EPHNBOCNHDD;
 #define DJMGAAHIMOJ_SET_ENHANCEDCOUNT_OFFSET UNITYSDK_OFFSET(0xF23E0F0)
 #define DJMGAAHIMOJ_SET_MAXENHANCEDCOUNT_OFFSET UNITYSDK_OFFSET(0xF23E110)
 
+inline static constexpr unsigned int DJMGAAHIMOJ_TypeDefinitionIndex = 71462;
+
 	class DJMGAAHIMOJ : public ::System::Object
 	{
 	public:

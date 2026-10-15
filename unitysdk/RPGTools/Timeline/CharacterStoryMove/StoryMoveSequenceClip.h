@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace RPGTools::Timeline::CharacterStoryMove
 {
+	inline static constexpr unsigned int StoryMoveSequenceClip_TypeDefinitionIndex = 48714;
+
 	class StoryMoveSequenceClip : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::Client::FateRin::Card { class IFateRinHandbookCardTabViewModel; }
 #define EFONDDJNOEA_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x13A5EF80)
 #define EFONDDJNOEA_CTOR_OFFSET UNITYSDK_OFFSET(0x13A5EED0)
 
+inline static constexpr unsigned int EFONDDJNOEA_TypeDefinitionIndex = 81187;
+
 	class EFONDDJNOEA : public ::System::Object
 	{
 	public:

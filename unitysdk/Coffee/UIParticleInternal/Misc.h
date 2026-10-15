@@ -10,6 +10,8 @@ namespace UnityEngine { class Object; }
 
 namespace Coffee::UIParticleInternal
 {
+	inline static constexpr unsigned int Misc_TypeDefinitionIndex = 45136;
+
 	class Misc : public ::System::Object
 	{
 	public:

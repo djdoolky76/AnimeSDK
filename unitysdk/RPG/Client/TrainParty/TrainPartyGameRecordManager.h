@@ -26,6 +26,8 @@ namespace System::Collections::Generic { template <typename T> class Queue_1; }
 
 namespace RPG::Client::TrainParty
 {
+	inline static constexpr unsigned int TrainPartyGameRecordManager_TypeDefinitionIndex = 74357;
+
 	class TrainPartyGameRecordManager : public ::System::Object
 	{
 	public:

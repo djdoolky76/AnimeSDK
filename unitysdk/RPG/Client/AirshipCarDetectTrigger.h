@@ -20,6 +20,8 @@ namespace UnityEngine { class Collider; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AirshipCarDetectTrigger_TypeDefinitionIndex = 59814;
+
 	class AirshipCarDetectTrigger : public ::UnityEngine::MonoBehaviour
 	{
 	public:

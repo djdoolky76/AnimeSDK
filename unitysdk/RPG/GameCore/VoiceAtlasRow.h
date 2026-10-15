@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int VoiceAtlasRow_TypeDefinitionIndex = 12680;
+
 	class VoiceAtlasRow : public ::System::Object
 	{
 	public:

@@ -53,6 +53,8 @@ namespace RPG::GameCore { class NPCComponent; }
 #define CHOEPDCHGMF_PIJFCPIBNDI_OFFSET UNITYSDK_OFFSET(0xCF63350)
 #define CHOEPDCHGMF_PNBOGEOGBPF_OFFSET UNITYSDK_OFFSET(0xCF62930)
 
+inline static constexpr unsigned int CHOEPDCHGMF_TypeDefinitionIndex = 57133;
+
 	class CHOEPDCHGMF : public ::System::Object
 	{
 	public:

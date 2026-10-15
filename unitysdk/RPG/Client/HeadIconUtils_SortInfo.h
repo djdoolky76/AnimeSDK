@@ -5,6 +5,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int HeadIconUtils_SortInfo_TypeDefinitionIndex = 65650;
+
 	struct alignas(4) HeadIconUtils_SortInfo
 	{
 		::System::Boolean IsNew; // 0x10

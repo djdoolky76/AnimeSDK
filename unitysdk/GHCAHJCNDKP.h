@@ -10,6 +10,8 @@ namespace System { class String; }
 #define GHCAHJCNDKP_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x15A15110)
 #define GHCAHJCNDKP_JAILHGGFLDH_OFFSET UNITYSDK_OFFSET(0x15A15120)
 
+inline static constexpr unsigned int GHCAHJCNDKP_TypeDefinitionIndex = 56102;
+
 	class GHCAHJCNDKP : public ::DBGDNLLDPFI
 	{
 	public:

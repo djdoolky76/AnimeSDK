@@ -27,6 +27,8 @@ namespace System { class String; }
 #define LDMNIHIFDFG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E8FD600)
 #define LDMNIHIFDFG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E8FD660)
 
+inline static constexpr unsigned int LDMNIHIFDFG_TypeDefinitionIndex = 29149;
+
 	class LDMNIHIFDFG : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TriggerInfoConfigItem_TypeDefinitionIndex = 68910;
+
 	class TriggerInfoConfigItem : public ::System::Object
 	{
 	public:

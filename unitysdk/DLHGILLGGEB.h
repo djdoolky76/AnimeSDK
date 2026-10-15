@@ -6,6 +6,8 @@ namespace RPG::GameCore { class UnlockTargetHP; }
 #define DLHGILLGGEB_CTOR_OFFSET UNITYSDK_OFFSET(0xF8A0710)
 #define DLHGILLGGEB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xF8A0740)
 
+inline static constexpr unsigned int DLHGILLGGEB_TypeDefinitionIndex = 55793;
+
 	class DLHGILLGGEB
 	{
 	public:

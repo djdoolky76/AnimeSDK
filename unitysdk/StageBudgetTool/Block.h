@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace StageBudgetTool
 {
+	inline static constexpr unsigned int Block_TypeDefinitionIndex = 47721;
+
 	class Block : public ::System::Object
 	{
 	public:

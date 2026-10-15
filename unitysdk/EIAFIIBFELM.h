@@ -12,6 +12,8 @@ namespace System { class Type; }
 #define EIAFIIBFELM_IHPAKOMCHGP_OFFSET UNITYSDK_OFFSET(0x154BAC00)
 #define EIAFIIBFELM_MGPPINJHOBE_OFFSET UNITYSDK_OFFSET(0x154BAD20)
 
+inline static constexpr unsigned int EIAFIIBFELM_TypeDefinitionIndex = 62597;
+
 	class EIAFIIBFELM : public ::System::Object
 	{
 	public:

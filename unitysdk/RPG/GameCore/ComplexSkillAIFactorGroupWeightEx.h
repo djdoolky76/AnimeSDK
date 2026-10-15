@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ValueEvaluatorConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ComplexSkillAIFactorGroupWeightEx_TypeDefinitionIndex = 17671;
+
 	class ComplexSkillAIFactorGroupWeightEx : public ::RPG::GameCore::ComplexSkillAIFactorGroupWeight
 	{
 	public:

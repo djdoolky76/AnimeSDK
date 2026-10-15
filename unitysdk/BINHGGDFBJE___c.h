@@ -16,6 +16,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define BINHGGDFBJE___C__GETNEEDDOWNLOADVIDEOSIZE_B__44_0_OFFSET UNITYSDK_OFFSET(0xB793ED0)
 #define BINHGGDFBJE___C___SAVEVIDEOLIST_B__58_0_OFFSET UNITYSDK_OFFSET(0xB793EF0)
 
+inline static constexpr unsigned int BINHGGDFBJE___c_TypeDefinitionIndex = 59620;
+
 	class BINHGGDFBJE___c : public ::System::Object
 	{
 	public:

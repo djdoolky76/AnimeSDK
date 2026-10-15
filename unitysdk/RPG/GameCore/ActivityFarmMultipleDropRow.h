@@ -13,6 +13,8 @@ namespace RPG::GameCore { class ActivityFarmMultipleDropRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ActivityFarmMultipleDropRow_TypeDefinitionIndex = 11476;
+
 	class ActivityFarmMultipleDropRow : public ::System::Object
 	{
 	public:

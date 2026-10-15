@@ -25,6 +25,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GameObjectAudio_TypeDefinitionIndex = 68431;
+
 	class GameObjectAudio : public ::UnityEngine::MonoBehaviour
 	{
 	public:

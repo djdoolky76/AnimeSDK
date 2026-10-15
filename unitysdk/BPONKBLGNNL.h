@@ -30,6 +30,8 @@ namespace System { class String; }
 #define BPONKBLGNNL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E051890)
 #define BPONKBLGNNL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E0518F0)
 
+inline static constexpr unsigned int BPONKBLGNNL_TypeDefinitionIndex = 32838;
+
 	class BPONKBLGNNL : public ::System::Object
 	{
 	public:

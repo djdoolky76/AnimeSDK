@@ -3,6 +3,8 @@
 
 namespace RPGTools::RoadGenerator
 {
+	inline static constexpr unsigned int CurveCreateMode_TypeDefinitionIndex = 48862;
+
 	enum class CurveCreateMode : ::System::Int32
 	{
 		Arc = 0,

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int InterruptSkillExecution_TypeDefinitionIndex = 23132;
+
 	class InterruptSkillExecution : public ::RPG::GameCore::TaskConfig
 	{
 	public:

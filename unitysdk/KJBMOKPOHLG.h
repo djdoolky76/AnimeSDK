@@ -6,6 +6,8 @@ namespace ObservableCollections { template <typename T> class IObservableCollect
 namespace RPG::Client { class TabView; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
+inline static constexpr unsigned int KJBMOKPOHLG_TypeDefinitionIndex = 49811;
+
 	class KJBMOKPOHLG : public ::System::Object
 	{
 	public:

@@ -27,6 +27,8 @@ namespace UnityEngine { class Transform; }
 #define IEEICGEBPNF_SET_IGNORECOLLIDER_OFFSET UNITYSDK_OFFSET(0x15EF0B10)
 #define IEEICGEBPNF_SET_SHOWTIPANGLE_OFFSET UNITYSDK_OFFSET(0x15EF0AF0)
 
+inline static constexpr unsigned int IEEICGEBPNF_TypeDefinitionIndex = 69434;
+
 	class IEEICGEBPNF : public ::System::Object
 	{
 	public:

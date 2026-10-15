@@ -9,6 +9,8 @@ namespace RPG::GameCore { class GameLevelHeartDialNPCConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GameLevelHeartDialNPCConfig_TypeDefinitionIndex = 17420;
+
 	class GameLevelHeartDialNPCConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

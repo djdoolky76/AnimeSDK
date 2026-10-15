@@ -10,6 +10,8 @@ namespace RPG::Client { class WaitPlanetFesGetUseItemFirstTime; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int WaitPlanetFesGetUseItemFirstTime_TypeDefinitionIndex = 10277;
+
 	class WaitPlanetFesGetUseItemFirstTime : public ::RPG::GameCore::TaskConfig
 	{
 	public:

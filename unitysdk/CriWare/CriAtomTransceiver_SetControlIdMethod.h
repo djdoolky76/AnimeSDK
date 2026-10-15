@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriAtomTransceiver_SetControlIdMethod_TypeDefinitionIndex = 39946;
+
 	class CriAtomTransceiver_SetControlIdMethod : public ::System::MulticastDelegate
 	{
 	public:

@@ -27,6 +27,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define IIIHPECEIGK_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CF14D00)
 #define IIIHPECEIGK_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CF14620)
 
+inline static constexpr unsigned int IIIHPECEIGK_TypeDefinitionIndex = 11876;
+
 	class IIIHPECEIGK : public ::System::Object
 	{
 	public:

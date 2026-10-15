@@ -26,6 +26,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define BNOFEODOAAO_MMFEEJAHPLJ_OFFSET UNITYSDK_OFFSET(0xBDE4870)
 #define BNOFEODOAAO_PNFAHABNEMH_OFFSET UNITYSDK_OFFSET(0xBDE51E0)
 
+inline static constexpr unsigned int BNOFEODOAAO_TypeDefinitionIndex = 54074;
+
 	class BNOFEODOAAO : public ::System::Object
 	{
 	public:

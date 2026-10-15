@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EntityScoreConfig_TypeDefinitionIndex = 16572;
+
 	class EntityScoreConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -34,6 +34,8 @@ namespace System { class String; }
 #define CEKMLMOCLHF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E098280)
 #define CEKMLMOCLHF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E0982E0)
 
+inline static constexpr unsigned int CEKMLMOCLHF_TypeDefinitionIndex = 28044;
+
 	class CEKMLMOCLHF : public ::System::Object
 	{
 	public:

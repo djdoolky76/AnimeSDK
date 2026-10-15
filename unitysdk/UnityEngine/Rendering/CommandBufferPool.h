@@ -13,6 +13,8 @@ namespace UnityEngine::Rendering { template <typename T> class ObjectPool_1; }
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int CommandBufferPool_TypeDefinitionIndex = 35470;
+
 	class CommandBufferPool : public ::System::Object
 	{
 	public:

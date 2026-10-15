@@ -25,6 +25,8 @@ namespace System { class Object; }
 #define BOJCFOEHDFG_SET_NEGATIVEBPDISPLAYCOUNT_OFFSET UNITYSDK_OFFSET(0xC1937E0)
 #define BOJCFOEHDFG_SET_POSITIVEBPDISPLAYCOUNT_OFFSET UNITYSDK_OFFSET(0xC193780)
 
+inline static constexpr unsigned int BOJCFOEHDFG_TypeDefinitionIndex = 71411;
+
 	class BOJCFOEHDFG : public ::System::Object
 	{
 	public:

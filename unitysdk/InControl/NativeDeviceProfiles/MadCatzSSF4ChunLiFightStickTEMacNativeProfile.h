@@ -7,6 +7,8 @@
 
 namespace InControl::NativeDeviceProfiles
 {
+	inline static constexpr unsigned int MadCatzSSF4ChunLiFightStickTEMacNativeProfile_TypeDefinitionIndex = 41187;
+
 	class MadCatzSSF4ChunLiFightStickTEMacNativeProfile : public ::InControl::NativeDeviceProfiles::Xbox360DriverMacNativeProfile
 	{
 	public:

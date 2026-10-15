@@ -30,6 +30,8 @@ namespace System { class String; }
 #define ELOKPEJFACN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E2D8FB0)
 #define ELOKPEJFACN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E2D9010)
 
+inline static constexpr unsigned int ELOKPEJFACN_TypeDefinitionIndex = 34229;
+
 	class ELOKPEJFACN : public ::System::Object
 	{
 	public:

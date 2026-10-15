@@ -8,6 +8,8 @@ class CKJALKLPNKB;
 #define CKJALKLPNKB_GAJGBBFELEL_OFFSET UNITYSDK_OFFSET(0xD75E990)
 #define CKJALKLPNKB_LCHPEIGGGKJ_OFFSET UNITYSDK_OFFSET(0xD75EBA0)
 
+inline static constexpr unsigned int CKJALKLPNKB_TypeDefinitionIndex = 68231;
+
 	class CKJALKLPNKB : public ::System::Object
 	{
 	public:

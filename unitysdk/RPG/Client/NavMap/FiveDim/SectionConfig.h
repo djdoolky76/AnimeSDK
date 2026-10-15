@@ -23,6 +23,8 @@ namespace System { class Nullable; }
 
 namespace RPG::Client::NavMap::FiveDim
 {
+	inline static constexpr unsigned int SectionConfig_TypeDefinitionIndex = 74670;
+
 	class SectionConfig : public ::System::Object
 	{
 	public:

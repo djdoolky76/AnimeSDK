@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TriggerAetherDivideBattle; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TriggerAetherDivideBattle_TypeDefinitionIndex = 21697;
+
 	class TriggerAetherDivideBattle : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightRoleSkillComeFrom_TypeDefinitionIndex = 13538;
+
 	enum class GridFightRoleSkillComeFrom : ::System::Int32
 	{
 		FrontAvatar = 0,

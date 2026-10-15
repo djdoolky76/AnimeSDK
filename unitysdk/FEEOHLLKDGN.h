@@ -7,6 +7,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define FEEOHLLKDGN_CTOR_OFFSET UNITYSDK_OFFSET(0x156E8880)
 #define FEEOHLLKDGN_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x156E8890)
 
+inline static constexpr unsigned int FEEOHLLKDGN_TypeDefinitionIndex = 56639;
+
 	class FEEOHLLKDGN : public ::HMFOPIJNNDI
 	{
 	public:

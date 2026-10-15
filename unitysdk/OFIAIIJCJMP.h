@@ -16,6 +16,8 @@ namespace System { class String; }
 #define OFIAIIJCJMP_OLDLDICBGNH_OFFSET UNITYSDK_OFFSET(0xBE41D90)
 #define OFIAIIJCJMP_PDAENODHFCM_OFFSET UNITYSDK_OFFSET(0xBE41C90)
 
+inline static constexpr unsigned int OFIAIIJCJMP_TypeDefinitionIndex = 63381;
+
 	class OFIAIIJCJMP : public ::System::Object
 	{
 	public:

@@ -105,6 +105,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BattleUIUtils_TypeDefinitionIndex = 72079;
+
 	class BattleUIUtils : public ::System::Object
 	{
 	public:

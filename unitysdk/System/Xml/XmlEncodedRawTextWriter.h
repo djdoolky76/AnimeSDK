@@ -73,6 +73,8 @@ namespace System::Xml { class XmlWriterSettings; }
 
 namespace System::Xml
 {
+	inline static constexpr unsigned int XmlEncodedRawTextWriter_TypeDefinitionIndex = 1834;
+
 	class XmlEncodedRawTextWriter : public ::System::Xml::XmlRawWriter
 	{
 	public:

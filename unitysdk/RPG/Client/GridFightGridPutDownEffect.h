@@ -17,6 +17,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightGridPutDownEffect_TypeDefinitionIndex = 64498;
+
 	class GridFightGridPutDownEffect : public ::UnityEngine::MonoBehaviour
 	{
 	public:

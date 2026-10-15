@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PopupMenuProxy_Option_TypeDefinitionIndex = 72488;
+
 	class PopupMenuProxy_Option : public ::System::Object
 	{
 	public:

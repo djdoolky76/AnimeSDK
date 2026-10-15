@@ -15,6 +15,8 @@ namespace System { class String; }
 #define IKBFPOBPCHE_PBBFABLNIGC_OFFSET UNITYSDK_OFFSET(0x16482800)
 #define IKBFPOBPCHE_SET_PRECISION_OFFSET UNITYSDK_OFFSET(0x16482A10)
 
+inline static constexpr unsigned int IKBFPOBPCHE_TypeDefinitionIndex = 73379;
+
 	class IKBFPOBPCHE : public ::System::Object
 	{
 	public:

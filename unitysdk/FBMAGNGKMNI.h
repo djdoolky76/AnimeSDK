@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define FBMAGNGKMNI_LEEPJIGMNDK_OFFSET UNITYSDK_OFFSET(0x156A5410)
 #define FBMAGNGKMNI_NODPBIKOJCF_OFFSET UNITYSDK_OFFSET(0x156A5350)
 
+inline static constexpr unsigned int FBMAGNGKMNI_TypeDefinitionIndex = 77633;
+
 	class FBMAGNGKMNI : public ::OCFMCBFNLND
 	{
 	public:

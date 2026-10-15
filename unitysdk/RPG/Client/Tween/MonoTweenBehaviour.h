@@ -11,6 +11,8 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace RPG::Client::Tween
 {
+	inline static constexpr unsigned int MonoTweenBehaviour_TypeDefinitionIndex = 73481;
+
 	class MonoTweenBehaviour : public ::UnityEngine::MonoBehaviour
 	{
 	public:

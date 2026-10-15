@@ -14,6 +14,8 @@ namespace System::Net { class IPHostEntry; }
 
 namespace System::Net
 {
+	inline static constexpr unsigned int Dns_GetHostEntryNameCallback_TypeDefinitionIndex = 2833;
+
 	class Dns_GetHostEntryNameCallback : public ::System::MulticastDelegate
 	{
 	public:

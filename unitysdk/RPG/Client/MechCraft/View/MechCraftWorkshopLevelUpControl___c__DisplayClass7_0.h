@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftWorkshopLevelUpControl___c__DisplayClass7_0_TypeDefinitionIndex = 80077;
+
 	class MechCraftWorkshopLevelUpControl___c__DisplayClass7_0 : public ::System::Object
 	{
 	public:

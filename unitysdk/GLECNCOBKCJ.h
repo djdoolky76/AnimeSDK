@@ -34,6 +34,8 @@ namespace System { class String; }
 #define GLECNCOBKCJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E4BEDA0)
 #define GLECNCOBKCJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E4BEE00)
 
+inline static constexpr unsigned int GLECNCOBKCJ_TypeDefinitionIndex = 31798;
+
 	class GLECNCOBKCJ : public ::System::Object
 	{
 	public:

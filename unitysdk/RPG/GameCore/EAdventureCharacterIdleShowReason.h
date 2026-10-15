@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EAdventureCharacterIdleShowReason_TypeDefinitionIndex = 57017;
+
 	enum class EAdventureCharacterIdleShowReason : ::System::Int32
 	{
 		Default = 0,

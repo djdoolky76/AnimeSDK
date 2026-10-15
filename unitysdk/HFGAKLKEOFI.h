@@ -6,6 +6,8 @@ class JLLEGKDHCIE;
 #define HFGAKLKEOFI_CLEAR_OFFSET UNITYSDK_OFFSET(0x1CAC8290)
 #define HFGAKLKEOFI_CTOR_OFFSET UNITYSDK_OFFSET(0x1CAC8310)
 
+inline static constexpr unsigned int HFGAKLKEOFI_TypeDefinitionIndex = 43498;
+
 	class HFGAKLKEOFI : public ::System::Object
 	{
 	public:

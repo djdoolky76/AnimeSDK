@@ -20,6 +20,8 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FloatCurve_TypeDefinitionIndex = 16337;
+
 	class FloatCurve : public ::RPG::GameCore::JsonConfig
 	{
 	public:

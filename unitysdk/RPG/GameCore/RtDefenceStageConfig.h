@@ -17,6 +17,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RtDefenceStageConfig_TypeDefinitionIndex = 18070;
+
 	class RtDefenceStageConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

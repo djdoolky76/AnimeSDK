@@ -44,6 +44,8 @@ namespace System { class String; }
 #define JDPDGMBJKML_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E7116C0)
 #define JDPDGMBJKML_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E711720)
 
+inline static constexpr unsigned int JDPDGMBJKML_TypeDefinitionIndex = 25665;
+
 	class JDPDGMBJKML : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@ namespace System::Collections::Generic { class KeyValuePair; }
 #define BLOHPFEHNPK___C__DISPLAYCLASS24_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBA80BD0)
 #define BLOHPFEHNPK___C__DISPLAYCLASS24_0__CONTAINSROLEID_B__0_OFFSET UNITYSDK_OFFSET(0xBA81D40)
 
+inline static constexpr unsigned int BLOHPFEHNPK___c__DisplayClass24_0_TypeDefinitionIndex = 64687;
+
 	class BLOHPFEHNPK___c__DisplayClass24_0 : public ::System::Object
 	{
 	public:

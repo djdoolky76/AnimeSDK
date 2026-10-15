@@ -30,6 +30,8 @@ namespace System { class String; }
 #define KDIHMOLCGED_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E8016A0)
 #define KDIHMOLCGED_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E801700)
 
+inline static constexpr unsigned int KDIHMOLCGED_TypeDefinitionIndex = 28447;
+
 	class KDIHMOLCGED : public ::System::Object
 	{
 	public:

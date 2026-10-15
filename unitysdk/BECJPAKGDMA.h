@@ -19,6 +19,8 @@ namespace System { class Object; }
 #define BECJPAKGDMA__ONTASKBEGIN_B__6_1_OFFSET UNITYSDK_OFFSET(0x1630FDE0)
 #define BECJPAKGDMA___ASYNCREQUESTFINISHFINALACT_B__7_0_OFFSET UNITYSDK_OFFSET(0x1630FDF0)
 
+inline static constexpr unsigned int BECJPAKGDMA_TypeDefinitionIndex = 58159;
+
 	class BECJPAKGDMA
 	{
 	public:

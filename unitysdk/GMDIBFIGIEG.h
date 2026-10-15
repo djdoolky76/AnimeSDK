@@ -11,6 +11,8 @@ class FFJMOFNDDEH;
 #define GMDIBFIGIEG_IAAGHEIDABL_OFFSET UNITYSDK_OFFSET(0x1C5577F0)
 #define GMDIBFIGIEG_SET_ISACTIVE_OFFSET UNITYSDK_OFFSET(0x1C557860)
 
+inline static constexpr unsigned int GMDIBFIGIEG_TypeDefinitionIndex = 41877;
+
 	class GMDIBFIGIEG : public ::System::Object
 	{
 	public:

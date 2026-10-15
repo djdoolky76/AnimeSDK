@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define OLCDONOEKMO_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D297190)
 #define OLCDONOEKMO_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D296AB0)
 
+inline static constexpr unsigned int OLCDONOEKMO_TypeDefinitionIndex = 12374;
+
 	class OLCDONOEKMO : public ::System::Object
 	{
 	public:

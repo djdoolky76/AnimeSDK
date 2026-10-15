@@ -6,6 +6,8 @@ namespace System { class Object; }
 #define JPHPCHGPBNO_CTOR_OFFSET UNITYSDK_OFFSET(0xB2C0C50)
 #define JPHPCHGPBNO_JMBFOHAMFGI_OFFSET UNITYSDK_OFFSET(0xB2C0C00)
 
+inline static constexpr unsigned int JPHPCHGPBNO_TypeDefinitionIndex = 71754;
+
 	class JPHPCHGPBNO : public ::EIDJMCKOHEK
 	{
 	public:

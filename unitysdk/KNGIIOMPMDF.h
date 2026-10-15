@@ -8,6 +8,8 @@ namespace RPG::Client { class MaterialSwitchBehavior; }
 #define KNGIIOMPMDF_HLEELJKDCFI_OFFSET UNITYSDK_OFFSET(0xB583B50)
 #define KNGIIOMPMDF_LFJHDLLFIMP_OFFSET UNITYSDK_OFFSET(0xB583AB0)
 
+inline static constexpr unsigned int KNGIIOMPMDF_TypeDefinitionIndex = 57362;
+
 	class KNGIIOMPMDF : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

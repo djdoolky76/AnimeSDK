@@ -10,6 +10,8 @@ namespace RPG::GameCore { class MiAtomConfigBase; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MiAtomConfigBase_TypeDefinitionIndex = 17068;
+
 	class MiAtomConfigBase : public ::RPG::GameCore::JsonConfig
 	{
 	public:

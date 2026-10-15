@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DynamicRadiusType_TypeDefinitionIndex = 18387;
+
 	enum class DynamicRadiusType : ::System::Int32
 	{
 		None = 0,

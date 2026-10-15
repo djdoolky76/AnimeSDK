@@ -7,6 +7,8 @@ namespace RPG::GameCore { class DiceCombatAIEffectEvaluatorConfig_DicePointInSpe
 #define HIBAJBOCOON_CTOR_OFFSET UNITYSDK_OFFSET(0x1C6674A0)
 #define HIBAJBOCOON_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0x1C6674B0)
 
+inline static constexpr unsigned int HIBAJBOCOON_TypeDefinitionIndex = 36218;
+
 	class HIBAJBOCOON : public ::PNECKGBKMEL
 	{
 	public:

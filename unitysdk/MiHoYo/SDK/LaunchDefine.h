@@ -6,6 +6,8 @@
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int LaunchDefine_TypeDefinitionIndex = 7584;
+
 	class LaunchDefine : public ::System::Object
 	{
 	public:

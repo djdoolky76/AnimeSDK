@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class IComparer_1
 
 namespace RPG::Client::TrainParty
 {
+	inline static constexpr unsigned int TrainPartyBuildDisplayWallContext_SlotComparerSelector_TypeDefinitionIndex = 74291;
+
 	class TrainPartyBuildDisplayWallContext_SlotComparerSelector : public ::System::Object
 	{
 	public:

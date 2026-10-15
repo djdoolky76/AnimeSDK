@@ -18,6 +18,8 @@ namespace UnityEngine { class Texture2D; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEffectPluginCharaPropFaceSpecialEye_TypeDefinitionIndex = 69962;
+
 	class MonoEffectPluginCharaPropFaceSpecialEye : public ::RPG::Client::MonoEffectPluginCharaPropBase
 	{
 	public:

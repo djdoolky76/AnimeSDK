@@ -31,6 +31,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define OAMEEKBFMHL_OPLBGPHCOKL_OFFSET UNITYSDK_OFFSET(0xBD2CD20)
 #define OAMEEKBFMHL_POGAKEJHMEO_OFFSET UNITYSDK_OFFSET(0xBD2D480)
 
+inline static constexpr unsigned int OAMEEKBFMHL_TypeDefinitionIndex = 75623;
+
 	class OAMEEKBFMHL : public ::System::Object
 	{
 	public:

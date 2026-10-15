@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace Mono::Security::X509
 {
+	inline static constexpr unsigned int SafeBag_TypeDefinitionIndex = 54;
+
 	class SafeBag : public ::System::Object
 	{
 	public:

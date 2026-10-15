@@ -22,6 +22,8 @@ namespace UnityEngine { class Transform; }
 #define DOFODCADEHG_OINOLCLLOGH_OFFSET UNITYSDK_OFFSET(0x11FE7DC0)
 #define DOFODCADEHG_PPJPFEBEHDL_OFFSET UNITYSDK_OFFSET(0x11FE7C80)
 
+inline static constexpr unsigned int DOFODCADEHG_TypeDefinitionIndex = 78985;
+
 	class DOFODCADEHG : public ::System::Object
 	{
 	public:

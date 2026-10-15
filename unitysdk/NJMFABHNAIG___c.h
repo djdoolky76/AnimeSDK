@@ -14,6 +14,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define NJMFABHNAIG___C__FINISHCURBATTLENODEBYUSERQUIT_B__12_1_OFFSET UNITYSDK_OFFSET(0xBC1E6F0)
 #define NJMFABHNAIG___C___DELAYFORCEQUIT_B__30_0_OFFSET UNITYSDK_OFFSET(0xBC1E7E0)
 
+inline static constexpr unsigned int NJMFABHNAIG___c_TypeDefinitionIndex = 75152;
+
 	class NJMFABHNAIG___c : public ::System::Object
 	{
 	public:

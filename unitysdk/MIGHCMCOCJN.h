@@ -22,6 +22,8 @@ namespace Entitas { class IGroup; }
 #define MIGHCMCOCJN_OIIBCFGCJHI_OFFSET UNITYSDK_OFFSET(0xB955790)
 #define MIGHCMCOCJN_TEARDOWN_OFFSET UNITYSDK_OFFSET(0xB9551B0)
 
+inline static constexpr unsigned int MIGHCMCOCJN_TypeDefinitionIndex = 77150;
+
 	class MIGHCMCOCJN : public ::System::Object
 	{
 	public:

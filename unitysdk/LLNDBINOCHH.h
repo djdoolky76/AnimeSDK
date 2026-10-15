@@ -6,6 +6,8 @@
 #define LLNDBINOCHH_GET_VALUE_OFFSET UNITYSDK_OFFSET(0xB7749C0)
 #define LLNDBINOCHH_SET_VALUE_OFFSET UNITYSDK_OFFSET(0xB7749D0)
 
+inline static constexpr unsigned int LLNDBINOCHH_TypeDefinitionIndex = 74012;
+
 	class LLNDBINOCHH : public ::HONIFDCKPFM
 	{
 	public:

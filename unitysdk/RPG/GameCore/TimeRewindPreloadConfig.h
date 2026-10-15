@@ -9,6 +9,8 @@ namespace RPG::GameCore { class TimeRewindPreloadConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TimeRewindPreloadConfig_TypeDefinitionIndex = 16592;
+
 	class TimeRewindPreloadConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

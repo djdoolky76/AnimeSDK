@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace Google::Protobuf
 {
+	inline static constexpr unsigned int FieldCodec_TypeDefinitionIndex = 5377;
+
 	class FieldCodec : public ::System::Object
 	{
 	public:

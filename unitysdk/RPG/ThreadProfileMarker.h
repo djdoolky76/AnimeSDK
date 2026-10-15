@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG
 {
+	inline static constexpr unsigned int ThreadProfileMarker_TypeDefinitionIndex = 35158;
+
 	class ThreadProfileMarker : public ::System::Object
 	{
 	public:

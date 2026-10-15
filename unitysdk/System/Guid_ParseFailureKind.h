@@ -3,6 +3,8 @@
 
 namespace System
 {
+	inline static constexpr unsigned int Guid_ParseFailureKind_TypeDefinitionIndex = 270;
+
 	enum class Guid_ParseFailureKind : ::System::Int32
 	{
 		None = 0,

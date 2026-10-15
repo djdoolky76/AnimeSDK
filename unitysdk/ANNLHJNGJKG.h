@@ -5,6 +5,8 @@
 #define ANNLHJNGJKG_CTOR_OFFSET UNITYSDK_OFFSET(0x158A08B0)
 #define ANNLHJNGJKG_LKINLAMMGID_OFFSET UNITYSDK_OFFSET(0x158A08C0)
 
+inline static constexpr unsigned int ANNLHJNGJKG_TypeDefinitionIndex = 49650;
+
 	class ANNLHJNGJKG : public ::BOFJHGFAJBN
 	{
 	public:

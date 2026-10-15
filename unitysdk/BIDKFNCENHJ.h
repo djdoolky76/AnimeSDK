@@ -14,6 +14,8 @@ namespace RPG::GameCore { class ChimeraDuelEntityValueComparePredicate; }
 #define BIDKFNCENHJ_LMNJJMBPHJA_OFFSET UNITYSDK_OFFSET(0xB4A40C0)
 #define BIDKFNCENHJ_NDPFLFNHHAM_OFFSET UNITYSDK_OFFSET(0xB4A41A0)
 
+inline static constexpr unsigned int BIDKFNCENHJ_TypeDefinitionIndex = 77573;
+
 	class BIDKFNCENHJ : public ::System::Object
 	{
 	public:

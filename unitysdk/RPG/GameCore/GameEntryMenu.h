@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GameEntryMenu; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GameEntryMenu_TypeDefinitionIndex = 16458;
+
 	class GameEntryMenu : public ::RPG::GameCore::JsonConfig
 	{
 	public:

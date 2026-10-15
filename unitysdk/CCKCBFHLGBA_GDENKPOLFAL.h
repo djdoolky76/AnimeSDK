@@ -8,6 +8,8 @@ namespace System { class String; }
 #define CCKCBFHLGBA_GDENKPOLFAL_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0xE620)
 #define CCKCBFHLGBA_GDENKPOLFAL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3C40460)
 
+inline static constexpr unsigned int CCKCBFHLGBA_GDENKPOLFAL_TypeDefinitionIndex = 15296;
+
 	struct alignas(4) CCKCBFHLGBA_GDENKPOLFAL
 	{
 		::RPG::Client::TextID PHFMCACHFIJ; // 0x10

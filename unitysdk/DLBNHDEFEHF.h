@@ -5,6 +5,8 @@ namespace System { class String; }
 
 #define DLBNHDEFEHF_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA2EAB0)
 
+inline static constexpr unsigned int DLBNHDEFEHF_TypeDefinitionIndex = 42544;
+
 	class DLBNHDEFEHF : public ::System::Object
 	{
 	public:

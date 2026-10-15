@@ -46,6 +46,8 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int CablePuzzleBoard_TypeDefinitionIndex = 78602;
+
 	class CablePuzzleBoard : public ::RPG::Client::Prop::BlockScreenHexPuzzle
 	{
 	public:

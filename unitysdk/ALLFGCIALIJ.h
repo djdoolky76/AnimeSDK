@@ -31,6 +31,8 @@ namespace System { class String; }
 #define ALLFGCIALIJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E5116E0)
 #define ALLFGCIALIJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E511740)
 
+inline static constexpr unsigned int ALLFGCIALIJ_TypeDefinitionIndex = 31698;
+
 	class ALLFGCIALIJ : public ::System::Object
 	{
 	public:

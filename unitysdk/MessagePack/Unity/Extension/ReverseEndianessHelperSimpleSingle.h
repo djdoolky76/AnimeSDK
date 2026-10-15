@@ -6,6 +6,8 @@
 
 namespace MessagePack::Unity::Extension
 {
+	inline static constexpr unsigned int ReverseEndianessHelperSimpleSingle_TypeDefinitionIndex = 10155;
+
 	struct alignas(4) ReverseEndianessHelperSimpleSingle
 	{
 		::System::Void ReverseEndianess(::System::Span_1_0C0D59FF8BC7380B<::System::Byte> a1)

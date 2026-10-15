@@ -9,6 +9,8 @@ namespace System { class Action; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SpaceZooUtils___c__DisplayClass1_0_TypeDefinitionIndex = 67978;
+
 	class SpaceZooUtils___c__DisplayClass1_0 : public ::System::Object
 	{
 	public:

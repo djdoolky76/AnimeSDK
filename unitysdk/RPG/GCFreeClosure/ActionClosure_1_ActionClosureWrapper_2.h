@@ -6,6 +6,8 @@ namespace RPG::GCFreeClosure { template <typename T1, typename T2> class ActionB
 
 namespace RPG::GCFreeClosure
 {
+	inline static constexpr unsigned int ActionClosure_1_ActionClosureWrapper_2_TypeDefinitionIndex = 6420;
+
 	template <typename T1, typename T2>
 	class ActionClosure_1_ActionClosureWrapper_2 : public ::System::Object
 	{

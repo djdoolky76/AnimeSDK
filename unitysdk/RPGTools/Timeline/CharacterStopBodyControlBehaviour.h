@@ -8,6 +8,8 @@ namespace RPGTools::Timeline { class CharacterStopBodyControlData; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int CharacterStopBodyControlBehaviour_TypeDefinitionIndex = 47942;
+
 	class CharacterStopBodyControlBehaviour : public ::RPGTools::Timeline::CustomEventBehaviour
 	{
 	public:

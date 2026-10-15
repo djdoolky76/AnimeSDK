@@ -8,6 +8,8 @@ namespace System { class String; }
 #define NKFNCKAGOJO_JJNLKPGLJHF_OFFSET UNITYSDK_OFFSET(0xBC33B00)
 #define NKFNCKAGOJO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBC338B0)
 
+inline static constexpr unsigned int NKFNCKAGOJO_TypeDefinitionIndex = 58609;
+
 	class NKFNCKAGOJO
 	{
 	public:

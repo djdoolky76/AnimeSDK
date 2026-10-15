@@ -4,6 +4,8 @@
 
 #define KDFAFCFAHOI_CTOR_OFFSET UNITYSDK_OFFSET(0xB34E830)
 
+inline static constexpr unsigned int KDFAFCFAHOI_TypeDefinitionIndex = 48352;
+
 	class KDFAFCFAHOI : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define AADIBKNAJJI_GET_TEAMHEALTH_OFFSET UNITYSDK_OFFSET(0xB0C1B90)
 #define AADIBKNAJJI_GET_TEAMSTATUSES_OFFSET UNITYSDK_OFFSET(0xB0C1BA0)
 
+inline static constexpr unsigned int AADIBKNAJJI_TypeDefinitionIndex = 80821;
+
 	class AADIBKNAJJI : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ManikinAvatarConfig_TypeDefinitionIndex = 18967;
+
 	class ManikinAvatarConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System::IO { class BinaryWriter; }
 
 namespace Hdg
 {
+	inline static constexpr unsigned int rdtSerializerInt_TypeDefinitionIndex = 46959;
+
 	class rdtSerializerInt : public ::System::Object
 	{
 	public:

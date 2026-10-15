@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace ScenenLightManager
 {
+	inline static constexpr unsigned int BaseSceneLightExportData_TypeDefinitionIndex = 49144;
+
 	class BaseSceneLightExportData : public ::ScenenLightManager::MinimalLightImportData
 	{
 	public:

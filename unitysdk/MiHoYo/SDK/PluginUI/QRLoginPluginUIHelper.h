@@ -31,6 +31,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace MiHoYo::SDK::PluginUI
 {
+	inline static constexpr unsigned int QRLoginPluginUIHelper_TypeDefinitionIndex = 9141;
+
 	class QRLoginPluginUIHelper : public ::System::Object
 	{
 	public:

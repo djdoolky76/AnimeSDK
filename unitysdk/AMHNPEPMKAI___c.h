@@ -15,6 +15,8 @@ namespace System { template <typename T> class Comparison_1; }
 #define AMHNPEPMKAI___C__CREATE_B__1_2_OFFSET UNITYSDK_OFFSET(0x155814D0)
 #define AMHNPEPMKAI___C___SELECTCAROUSELPETS_B__4_0_OFFSET UNITYSDK_OFFSET(0x15581500)
 
+inline static constexpr unsigned int AMHNPEPMKAI___c_TypeDefinitionIndex = 74935;
+
 	class AMHNPEPMKAI___c : public ::System::Object
 	{
 	public:

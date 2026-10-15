@@ -10,6 +10,8 @@ namespace CriWare { class CriManaConfig_WebGLConfig; }
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriManaConfig_TypeDefinitionIndex = 40169;
+
 	class CriManaConfig : public ::System::Object
 	{
 	public:

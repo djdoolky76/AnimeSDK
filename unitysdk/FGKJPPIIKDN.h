@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define FGKJPPIIKDN_CTOR_OFFSET UNITYSDK_OFFSET(0x15766A10)
 #define FGKJPPIIKDN_HEPPBBLLBPN_OFFSET UNITYSDK_OFFSET(0x15766950)
 
+inline static constexpr unsigned int FGKJPPIIKDN_TypeDefinitionIndex = 56311;
+
 	class FGKJPPIIKDN : public ::System::Object
 	{
 	public:

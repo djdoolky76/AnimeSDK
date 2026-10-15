@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define MBMAGILKFGP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E9EA6E0)
 #define MBMAGILKFGP___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E9EA6F0)
 
+inline static constexpr unsigned int MBMAGILKFGP___c_TypeDefinitionIndex = 31868;
+
 	class MBMAGILKFGP___c : public ::System::Object
 	{
 	public:

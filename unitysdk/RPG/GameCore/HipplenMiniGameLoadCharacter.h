@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int HipplenMiniGameLoadCharacter_TypeDefinitionIndex = 16791;
+
 	class HipplenMiniGameLoadCharacter : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -28,6 +28,8 @@ namespace System { class String; }
 #define CGBKKJENEOF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E0ABAA0)
 #define CGBKKJENEOF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E0ABB00)
 
+inline static constexpr unsigned int CGBKKJENEOF_TypeDefinitionIndex = 33658;
+
 	class CGBKKJENEOF : public ::System::Object
 	{
 	public:

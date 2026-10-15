@@ -60,6 +60,8 @@ namespace UnityEngine::UI { class Text; }
 #define MKFBEMBLFKO_PEJBDKOLMMF_OFFSET UNITYSDK_OFFSET(0xB996510)
 #define MKFBEMBLFKO__ONBIND_OFFSET UNITYSDK_OFFSET(0xB993890)
 
+inline static constexpr unsigned int MKFBEMBLFKO_TypeDefinitionIndex = 71410;
+
 	class MKFBEMBLFKO : public ::FMPCODLIOLG
 	{
 	public:

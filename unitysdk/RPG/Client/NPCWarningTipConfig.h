@@ -10,6 +10,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int NPCWarningTipConfig_TypeDefinitionIndex = 69103;
+
 	class NPCWarningTipConfig : public ::System::Object
 	{
 	public:

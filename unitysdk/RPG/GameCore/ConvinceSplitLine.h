@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ConvinceSplitLine; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ConvinceSplitLine_TypeDefinitionIndex = 21833;
+
 	class ConvinceSplitLine : public ::RPG::GameCore::TaskConfig
 	{
 	public:

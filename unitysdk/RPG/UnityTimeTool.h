@@ -9,6 +9,8 @@
 
 namespace RPG
 {
+	inline static constexpr unsigned int UnityTimeTool_TypeDefinitionIndex = 35177;
+
 	class UnityTimeTool : public ::System::Object
 	{
 	public:

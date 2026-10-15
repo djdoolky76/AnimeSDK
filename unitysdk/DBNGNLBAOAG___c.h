@@ -9,6 +9,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define DBNGNLBAOAG___C_CTOR_OFFSET UNITYSDK_OFFSET(0xE233D00)
 #define DBNGNLBAOAG___C__ISALLREWARDCLAIMED_B__10_0_OFFSET UNITYSDK_OFFSET(0xE233D10)
 
+inline static constexpr unsigned int DBNGNLBAOAG___c_TypeDefinitionIndex = 61409;
+
 	class DBNGNLBAOAG___c : public ::System::Object
 	{
 	public:

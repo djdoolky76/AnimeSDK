@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MapEntranceUnlockRow_TypeDefinitionIndex = 14066;
+
 	class MapEntranceUnlockRow : public ::System::Object
 	{
 	public:

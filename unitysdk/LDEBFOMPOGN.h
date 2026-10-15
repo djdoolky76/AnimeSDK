@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int LDEBFOMPOGN_TypeDefinitionIndex = 28104;
+
 	enum class LDEBFOMPOGN : ::System::Int32
 	{
 		NLCDGIPGFDJ = 0,

@@ -3,6 +3,8 @@
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 #include "unitysdk/RPG/GameCore/RtBehaviorFlag.h"
 
+inline static constexpr unsigned int JGNFBMGBDGM_TypeDefinitionIndex = 53966;
+
 	struct alignas(8) JGNFBMGBDGM
 	{
 		::System::Single CCAOGMEFNLB; // 0x10

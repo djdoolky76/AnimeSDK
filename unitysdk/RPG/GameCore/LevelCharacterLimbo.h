@@ -14,6 +14,8 @@ namespace RPG::GameCore { class LevelCharacterLimbo; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelCharacterLimbo_TypeDefinitionIndex = 56766;
+
 	class LevelCharacterLimbo : public ::CMPGEAFHHDC
 	{
 	public:

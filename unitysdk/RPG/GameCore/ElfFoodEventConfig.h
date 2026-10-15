@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ElfFoodEventConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ElfFoodEventConfig_TypeDefinitionIndex = 18472;
+
 	class ElfFoodEventConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

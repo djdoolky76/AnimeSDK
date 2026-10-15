@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace Google::Protobuf::Reflection
 {
+	inline static constexpr unsigned int DescriptorProto_Types_ExtensionRange___c_TypeDefinitionIndex = 5464;
+
 	class DescriptorProto_Types_ExtensionRange___c : public ::System::Object
 	{
 	public:

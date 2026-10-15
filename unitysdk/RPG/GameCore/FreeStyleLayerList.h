@@ -9,6 +9,8 @@ namespace RPG::GameCore { class FreeStyleLayerList; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FreeStyleLayerList_TypeDefinitionIndex = 16319;
+
 	class FreeStyleLayerList : public ::RPG::GameCore::JsonConfig
 	{
 	public:

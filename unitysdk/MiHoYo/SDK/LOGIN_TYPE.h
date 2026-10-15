@@ -3,6 +3,8 @@
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int LOGIN_TYPE_TypeDefinitionIndex = 8090;
+
 	enum class LOGIN_TYPE : ::System::Int32
 	{
 		PHONE_MESSAGE = 0,

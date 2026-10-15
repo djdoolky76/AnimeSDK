@@ -16,6 +16,8 @@ namespace RPG::GameCore { class TarotBookEnergyRow; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TarotBookEnergyGotHint_TypeDefinitionIndex = 68059;
+
 	class TarotBookEnergyGotHint : public ::System::Object
 	{
 	public:

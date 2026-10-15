@@ -10,6 +10,8 @@ namespace RPG::Client { class RoadRashFireProjectileLaunchPoint; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RoadRashFireProjectileLaunchPoint_TypeDefinitionIndex = 10287;
+
 	class RoadRashFireProjectileLaunchPoint : public ::RPG::GameCore::JsonConfig
 	{
 	public:

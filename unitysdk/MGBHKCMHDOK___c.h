@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define MGBHKCMHDOK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA20910)
 #define MGBHKCMHDOK___C___CCTOR_B__57_0_OFFSET UNITYSDK_OFFSET(0x1EA20920)
 
+inline static constexpr unsigned int MGBHKCMHDOK___c_TypeDefinitionIndex = 29155;
+
 	class MGBHKCMHDOK___c : public ::System::Object
 	{
 	public:

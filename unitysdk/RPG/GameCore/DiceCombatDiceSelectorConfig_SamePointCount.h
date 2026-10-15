@@ -12,6 +12,8 @@ namespace RPG::GameCore { class DynamicFloat; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DiceCombatDiceSelectorConfig_SamePointCount_TypeDefinitionIndex = 16140;
+
 	class DiceCombatDiceSelectorConfig_SamePointCount : public ::RPG::GameCore::DiceCombatDiceSelectorConfig
 	{
 	public:

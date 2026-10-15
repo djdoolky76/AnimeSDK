@@ -12,6 +12,8 @@ namespace RPG::GameCore { class PlayerHPRatioCheck; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PlayerHPRatioCheck_TypeDefinitionIndex = 22959;
+
 	class PlayerHPRatioCheck : public ::RPG::GameCore::TaskConfig
 	{
 	public:

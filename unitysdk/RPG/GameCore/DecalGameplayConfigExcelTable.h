@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DecalGameplayConfigExcelTable_TypeDefinitionIndex = 13128;
+
 	class DecalGameplayConfigExcelTable : public ::System::Object
 	{
 	public:

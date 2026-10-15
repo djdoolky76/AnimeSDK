@@ -9,6 +9,8 @@ namespace RPG::GameCore { template <typename T> class RtPropertyComponent_1; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RtPropertyComponent_1_TypeDefinitionIndex = 54010;
+
 	template <typename T>
 	class RtPropertyComponent_1 : public ::RPG::GameCore::GameComponentBase
 	{

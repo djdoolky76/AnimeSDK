@@ -14,6 +14,8 @@
 
 namespace Mono::Security
 {
+	inline static constexpr unsigned int BitConverterLE_96C1C30290C9BD8F_TypeDefinitionIndex = 2259;
+
 	class BitConverterLE_96C1C30290C9BD8F : public ::System::Object
 	{
 	public:

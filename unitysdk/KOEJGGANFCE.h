@@ -2,6 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
+inline static constexpr unsigned int KOEJGGANFCE_TypeDefinitionIndex = 43583;
+
 	class KOEJGGANFCE : public ::System::Object
 	{
 	public:

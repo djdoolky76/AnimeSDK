@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TutorialGuideHintAdaptConfig_TypeDefinitionIndex = 24394;
+
 	class TutorialGuideHintAdaptConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

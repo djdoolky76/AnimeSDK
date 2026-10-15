@@ -10,6 +10,8 @@ namespace RPG::GameCore { class AdvNpcPetSearchFollow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvNpcPetSearchFollow_TypeDefinitionIndex = 19991;
+
 	class AdvNpcPetSearchFollow : public ::RPG::GameCore::TaskConfig
 	{
 	public:

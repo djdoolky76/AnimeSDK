@@ -21,6 +21,8 @@ namespace UnityEngine::UI { class Button; }
 #define IDEGLFHLFPE_PKLFICMKCOI_OFFSET UNITYSDK_OFFSET(0x15EC3FD0)
 #define IDEGLFHLFPE__ONBIND_OFFSET UNITYSDK_OFFSET(0x15EC3B90)
 
+inline static constexpr unsigned int IDEGLFHLFPE_TypeDefinitionIndex = 72264;
+
 	class IDEGLFHLFPE : public ::FMPCODLIOLG
 	{
 	public:

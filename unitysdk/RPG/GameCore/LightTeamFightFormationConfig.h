@@ -12,6 +12,8 @@ namespace RPG::GameCore { class LightTeamFightFormationParams; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LightTeamFightFormationConfig_TypeDefinitionIndex = 16578;
+
 	class LightTeamFightFormationConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

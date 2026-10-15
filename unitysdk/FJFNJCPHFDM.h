@@ -28,6 +28,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define FJFNJCPHFDM_NPDNFPFIDEO_OFFSET UNITYSDK_OFFSET(0x1C553EC0)
 #define FJFNJCPHFDM_PKFIMCEEHHD_OFFSET UNITYSDK_OFFSET(0x1C553A90)
 
+inline static constexpr unsigned int FJFNJCPHFDM_TypeDefinitionIndex = 41886;
+
 	class FJFNJCPHFDM : public ::System::Object
 	{
 	public:

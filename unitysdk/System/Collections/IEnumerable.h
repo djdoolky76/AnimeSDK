@@ -3,6 +3,8 @@
 
 namespace System::Collections
 {
+	inline static constexpr unsigned int IEnumerable_TypeDefinitionIndex = 1483;
+
 	class IEnumerable
 	{
 	public:

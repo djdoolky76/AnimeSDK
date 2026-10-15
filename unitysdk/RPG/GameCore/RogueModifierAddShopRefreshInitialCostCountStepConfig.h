@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierAddShopRefreshInitialCostCountStepC
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierAddShopRefreshInitialCostCountStepConfig_TypeDefinitionIndex = 17829;
+
 	class RogueModifierAddShopRefreshInitialCostCountStepConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

@@ -4,6 +4,8 @@
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
+	inline static constexpr unsigned int B2SegmentDistanceResult_TypeDefinitionIndex = 36746;
+
 	struct alignas(4) B2SegmentDistanceResult
 	{
 		::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Vec2 closest1; // 0x10

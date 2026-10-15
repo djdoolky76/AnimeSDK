@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ChimeraDuelHighestAtkAllySelectorConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChimeraDuelHighestAtkAllySelectorConfig_TypeDefinitionIndex = 15938;
+
 	class ChimeraDuelHighestAtkAllySelectorConfig : public ::RPG::GameCore::BaseChimeraDuelEntitiesSelectorConfig
 	{
 	public:

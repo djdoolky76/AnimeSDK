@@ -4,6 +4,8 @@
 
 #define OEDBOINBMPM_CTOR_OFFSET UNITYSDK_OFFSET(0xBE26240)
 
+inline static constexpr unsigned int OEDBOINBMPM_TypeDefinitionIndex = 59966;
+
 	class OEDBOINBMPM : public ::System::Object
 	{
 	public:

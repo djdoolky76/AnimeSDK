@@ -25,6 +25,8 @@ namespace System { class Object; }
 #define GMOEJIONOII_NHCFLDCDLCP_OFFSET UNITYSDK_OFFSET(0x1CE6BC80)
 #define GMOEJIONOII_OOGKECBIKHC_OFFSET UNITYSDK_OFFSET(0x1CE6C070)
 
+inline static constexpr unsigned int GMOEJIONOII_TypeDefinitionIndex = 10697;
+
 	class GMOEJIONOII : public ::System::Object
 	{
 	public:

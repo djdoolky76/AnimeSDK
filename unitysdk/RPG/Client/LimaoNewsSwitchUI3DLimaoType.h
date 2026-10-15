@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int LimaoNewsSwitchUI3DLimaoType_TypeDefinitionIndex = 10325;
+
 	enum class LimaoNewsSwitchUI3DLimaoType : ::System::Int32
 	{
 		FadeInAndFadeOut = 0,

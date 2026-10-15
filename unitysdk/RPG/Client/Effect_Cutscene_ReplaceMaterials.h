@@ -19,6 +19,8 @@ namespace UnityEngine { class Material; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Effect_Cutscene_ReplaceMaterials_TypeDefinitionIndex = 70438;
+
 	class Effect_Cutscene_ReplaceMaterials : public ::RPG::Client::MonoEffectPluginBase
 	{
 	public:

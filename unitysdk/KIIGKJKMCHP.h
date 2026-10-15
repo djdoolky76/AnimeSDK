@@ -26,6 +26,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define KIIGKJKMCHP_SET_SKILLID_OFFSET UNITYSDK_OFFSET(0xB430950)
 #define KIIGKJKMCHP_SET_SLOTTYPE_OFFSET UNITYSDK_OFFSET(0xB4308F0)
 
+inline static constexpr unsigned int KIIGKJKMCHP_TypeDefinitionIndex = 81694;
+
 	class KIIGKJKMCHP : public ::System::Object
 	{
 	public:

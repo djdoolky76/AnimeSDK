@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ChenLingBattleAbility_ShowTalk; }
 #define HCPMIPMCDNC_HKKFFCBJOKM_OFFSET UNITYSDK_OFFSET(0x15C2F4A0)
 #define HCPMIPMCDNC_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0x15C2F580)
 
+inline static constexpr unsigned int HCPMIPMCDNC_TypeDefinitionIndex = 77921;
+
 	class HCPMIPMCDNC : public ::JNALBIEDNLH
 	{
 	public:

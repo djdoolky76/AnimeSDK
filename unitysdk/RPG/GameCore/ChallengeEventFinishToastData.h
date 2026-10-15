@@ -6,6 +6,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChallengeEventFinishToastData_TypeDefinitionIndex = 53320;
+
 	class ChallengeEventFinishToastData : public ::System::Object
 	{
 	public:

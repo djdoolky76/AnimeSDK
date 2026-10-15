@@ -17,6 +17,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::LittleGame::ChenLing
 {
+	inline static constexpr unsigned int ChenLingEffectProfilerDebugView_TypeDefinitionIndex = 77842;
+
 	class ChenLingEffectProfilerDebugView : public ::UnityEngine::MonoBehaviour
 	{
 	public:

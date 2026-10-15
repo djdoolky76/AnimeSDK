@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace System::IO
 {
+	inline static constexpr unsigned int Directory_SearchData_TypeDefinitionIndex = 665;
+
 	class Directory_SearchData : public ::System::Object
 	{
 	public:

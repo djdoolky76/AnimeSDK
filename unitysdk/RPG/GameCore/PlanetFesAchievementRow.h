@@ -9,6 +9,8 @@ namespace RPG::GameCore { class PlanetFesAchievementRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PlanetFesAchievementRow_TypeDefinitionIndex = 12223;
+
 	class PlanetFesAchievementRow : public ::System::Object
 	{
 	public:

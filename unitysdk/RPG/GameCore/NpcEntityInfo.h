@@ -11,6 +11,8 @@ namespace RPG::GameCore { class NpcEntityInfo; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int NpcEntityInfo_TypeDefinitionIndex = 20288;
+
 	class NpcEntityInfo : public ::RPG::GameCore::GroupEntityInfo
 	{
 	public:

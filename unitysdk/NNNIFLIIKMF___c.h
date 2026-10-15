@@ -11,6 +11,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define NNNIFLIIKMF___C___CREATEFORMEMORY_B__1_0_OFFSET UNITYSDK_OFFSET(0xBCD5DA0)
 #define NNNIFLIIKMF___C___CREATEFORSTORY_B__2_0_OFFSET UNITYSDK_OFFSET(0xBCD5EA0)
 
+inline static constexpr unsigned int NNNIFLIIKMF___c_TypeDefinitionIndex = 81468;
+
 	class NNNIFLIIKMF___c : public ::System::Object
 	{
 	public:

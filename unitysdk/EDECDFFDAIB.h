@@ -41,6 +41,8 @@ namespace System { class String; }
 #define EDECDFFDAIB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E25CF70)
 #define EDECDFFDAIB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E25CFD0)
 
+inline static constexpr unsigned int EDECDFFDAIB_TypeDefinitionIndex = 28512;
+
 	class EDECDFFDAIB : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@ namespace RPG { template <typename T> class PoolList_1; }
 #define GEOLICLPBPJ_CLEAR_OFFSET UNITYSDK_OFFSET(0x1CA89930)
 #define GEOLICLPBPJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA89990)
 
+inline static constexpr unsigned int GEOLICLPBPJ_TypeDefinitionIndex = 42279;
+
 	class GEOLICLPBPJ : public ::System::Object
 	{
 	public:

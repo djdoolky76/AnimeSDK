@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int PSDelegate_UnlockTrophyDelegate_TypeDefinitionIndex = 7741;
+
 	class PSDelegate_UnlockTrophyDelegate : public ::System::MulticastDelegate
 	{
 	public:

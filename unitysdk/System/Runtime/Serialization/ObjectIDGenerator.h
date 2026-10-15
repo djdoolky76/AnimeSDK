@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace System::Runtime::Serialization
 {
+	inline static constexpr unsigned int ObjectIDGenerator_TypeDefinitionIndex = 1108;
+
 	class ObjectIDGenerator : public ::System::Object
 	{
 	public:

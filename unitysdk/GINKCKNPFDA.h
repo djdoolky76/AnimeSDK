@@ -31,6 +31,8 @@ namespace System { class String; }
 #define GINKCKNPFDA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E4A2890)
 #define GINKCKNPFDA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E4A28F0)
 
+inline static constexpr unsigned int GINKCKNPFDA_TypeDefinitionIndex = 33836;
+
 	class GINKCKNPFDA : public ::System::Object
 	{
 	public:

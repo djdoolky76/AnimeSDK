@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T> class Queue_1; }
 #define NOBFCPPBLFD_LCKPDMFLDBE_OFFSET UNITYSDK_OFFSET(0xBCE4B30)
 #define NOBFCPPBLFD_PCMOHGCOEBA_OFFSET UNITYSDK_OFFSET(0xBCE4F30)
 
+inline static constexpr unsigned int NOBFCPPBLFD_TypeDefinitionIndex = 66743;
+
 	class NOBFCPPBLFD : public ::System::Object
 	{
 	public:

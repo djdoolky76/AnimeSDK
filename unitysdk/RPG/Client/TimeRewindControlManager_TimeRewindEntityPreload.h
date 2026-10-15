@@ -21,6 +21,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TimeRewindControlManager_TimeRewindEntityPreload_TypeDefinitionIndex = 60825;
+
 	class TimeRewindControlManager_TimeRewindEntityPreload : public ::System::Object
 	{
 	public:

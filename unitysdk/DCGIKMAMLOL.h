@@ -4,6 +4,8 @@ class PHMHMHLCFMG;
 namespace R3 { class Observable; }
 namespace System { class String; }
 
+inline static constexpr unsigned int DCGIKMAMLOL_TypeDefinitionIndex = 49981;
+
 	class DCGIKMAMLOL
 	{
 	public:

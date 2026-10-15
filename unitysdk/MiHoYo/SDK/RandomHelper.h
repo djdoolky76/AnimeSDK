@@ -10,6 +10,8 @@ namespace System { class Random; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int RandomHelper_TypeDefinitionIndex = 46138;
+
 	class RandomHelper : public ::System::Object
 	{
 	public:

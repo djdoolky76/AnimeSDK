@@ -28,6 +28,8 @@ namespace System { class String; }
 #define CLFABOEKMJI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E0F7F10)
 #define CLFABOEKMJI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E0F7F70)
 
+inline static constexpr unsigned int CLFABOEKMJI_TypeDefinitionIndex = 29334;
+
 	class CLFABOEKMJI : public ::System::Object
 	{
 	public:

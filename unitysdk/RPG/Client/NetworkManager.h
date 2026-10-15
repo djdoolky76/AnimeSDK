@@ -1561,6 +1561,8 @@ namespace UnityEngine { class Coroutine; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int NetworkManager_TypeDefinitionIndex = 69368;
+
 	class NetworkManager : public ::System::Object
 	{
 	public:

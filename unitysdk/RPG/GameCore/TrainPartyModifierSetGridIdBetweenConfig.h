@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TrainPartyModifierSetGridIdBetweenConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TrainPartyModifierSetGridIdBetweenConfig_TypeDefinitionIndex = 18096;
+
 	class TrainPartyModifierSetGridIdBetweenConfig : public ::RPG::GameCore::TrainPartyModifierConfigBase
 	{
 	public:

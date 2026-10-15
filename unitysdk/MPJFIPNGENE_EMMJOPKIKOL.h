@@ -21,6 +21,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define MPJFIPNGENE_EMMJOPKIKOL_SET_ISFINISHED_OFFSET UNITYSDK_OFFSET(0x1EC506F0)
 #define MPJFIPNGENE_EMMJOPKIKOL_SET_ISSTARTED_OFFSET UNITYSDK_OFFSET(0x1EC506D0)
 
+inline static constexpr unsigned int MPJFIPNGENE_EMMJOPKIKOL_TypeDefinitionIndex = 44029;
+
 	class MPJFIPNGENE_EMMJOPKIKOL : public ::System::Object
 	{
 	public:

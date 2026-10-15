@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define KLBGMAEDODL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E883460)
 #define KLBGMAEDODL___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E883470)
 
+inline static constexpr unsigned int KLBGMAEDODL___c_TypeDefinitionIndex = 33574;
+
 	class KLBGMAEDODL___c : public ::System::Object
 	{
 	public:

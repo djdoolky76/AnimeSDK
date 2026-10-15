@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetUseTemporaryLockTarget_TypeDefinitionIndex = 22481;
+
 	class SetUseTemporaryLockTarget : public ::RPG::GameCore::TaskConfig
 	{
 	public:

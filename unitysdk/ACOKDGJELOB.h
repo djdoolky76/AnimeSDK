@@ -9,6 +9,8 @@ class MKADHMMGGNA;
 #define ACOKDGJELOB_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB12AB20)
 #define ACOKDGJELOB_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0xB12ABA0)
 
+inline static constexpr unsigned int ACOKDGJELOB_TypeDefinitionIndex = 78551;
+
 	class ACOKDGJELOB : public ::System::Object
 	{
 	public:

@@ -36,6 +36,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define OFKAKOLDDIC_MIBPFFJMONL_OFFSET UNITYSDK_OFFSET(0xBE44100)
 #define OFKAKOLDDIC_NEDEEAMBBBF_OFFSET UNITYSDK_OFFSET(0xBE44540)
 
+inline static constexpr unsigned int OFKAKOLDDIC_TypeDefinitionIndex = 61251;
+
 	class OFKAKOLDDIC : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int OnControlEraFlipperLightDeviceListener_TypeDefinitionIndex = 22351;
+
 	class OnControlEraFlipperLightDeviceListener : public ::RPG::GameCore::TaskConfig
 	{
 	public:

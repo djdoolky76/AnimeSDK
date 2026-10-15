@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int EffectParameter_TypeDefinitionIndex = 48422;
+
 	class EffectParameter : public ::System::Object
 	{
 	public:

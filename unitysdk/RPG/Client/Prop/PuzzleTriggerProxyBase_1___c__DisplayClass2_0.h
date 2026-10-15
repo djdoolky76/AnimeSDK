@@ -6,6 +6,8 @@ namespace System { class Action; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int PuzzleTriggerProxyBase_1___c__DisplayClass2_0_TypeDefinitionIndex = 78886;
+
 	template <typename T>
 	class PuzzleTriggerProxyBase_1___c__DisplayClass2_0 : public ::System::Object
 	{

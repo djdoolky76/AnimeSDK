@@ -31,6 +31,8 @@ namespace System { class String; }
 #define BDJOLGFOHLM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E918B90)
 #define BDJOLGFOHLM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E918BF0)
 
+inline static constexpr unsigned int BDJOLGFOHLM_TypeDefinitionIndex = 31464;
+
 	class BDJOLGFOHLM : public ::System::Object
 	{
 	public:

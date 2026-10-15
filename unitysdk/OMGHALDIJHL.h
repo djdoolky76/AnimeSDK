@@ -14,6 +14,8 @@ class IKCOHFPIHIA;
 #define OMGHALDIJHL_OCJGBBNEGBO_OFFSET UNITYSDK_OFFSET(0xBF27810)
 #define OMGHALDIJHL_PIFFBNNOCJC_OFFSET UNITYSDK_OFFSET(0xBF27890)
 
+inline static constexpr unsigned int OMGHALDIJHL_TypeDefinitionIndex = 64036;
+
 	class OMGHALDIJHL : public ::System::Object
 	{
 	public:

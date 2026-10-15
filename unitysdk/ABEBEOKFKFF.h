@@ -30,6 +30,8 @@ namespace System { class String; }
 #define ABEBEOKFKFF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DDC9320)
 #define ABEBEOKFKFF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DDC9380)
 
+inline static constexpr unsigned int ABEBEOKFKFF_TypeDefinitionIndex = 31489;
+
 	class ABEBEOKFKFF : public ::System::Object
 	{
 	public:

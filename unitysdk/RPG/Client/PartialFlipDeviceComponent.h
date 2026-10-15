@@ -85,6 +85,8 @@ namespace VLB { class VolumetricLightBeam; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PartialFlipDeviceComponent_TypeDefinitionIndex = 73319;
+
 	class PartialFlipDeviceComponent : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

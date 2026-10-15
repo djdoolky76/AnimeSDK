@@ -4,6 +4,8 @@
 #define HOBKANOJDMA_CTOR_OFFSET UNITYSDK_OFFSET(0x111F0)
 #define HOBKANOJDMA_MJLLHMGLOHL_OFFSET UNITYSDK_OFFSET(0x2E7F250)
 
+inline static constexpr unsigned int HOBKANOJDMA_TypeDefinitionIndex = 62049;
+
 	struct alignas(4) HOBKANOJDMA
 	{
 		::System::Int32 KDMHBDFCNMG; // 0x10

@@ -50,6 +50,8 @@ namespace System { class String; }
 #define CGMCMAKMJDK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E0B3D90)
 #define CGMCMAKMJDK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E0B3DF0)
 
+inline static constexpr unsigned int CGMCMAKMJDK_TypeDefinitionIndex = 27293;
+
 	class CGMCMAKMJDK : public ::System::Object
 	{
 	public:

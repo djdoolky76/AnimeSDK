@@ -5,6 +5,8 @@
 
 #define MGJHLLCENKL_HJPKCLNEFHI_CTOR_OFFSET UNITYSDK_OFFSET(0x1C74BA30)
 
+inline static constexpr unsigned int MGJHLLCENKL_HJPKCLNEFHI_TypeDefinitionIndex = 36491;
+
 	class MGJHLLCENKL_HJPKCLNEFHI : public ::System::Object
 	{
 	public:

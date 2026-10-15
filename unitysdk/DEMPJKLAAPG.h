@@ -6,6 +6,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define DEMPJKLAAPG_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA259C0)
 
+inline static constexpr unsigned int DEMPJKLAAPG_TypeDefinitionIndex = 43713;
+
 	class DEMPJKLAAPG : public ::System::Object
 	{
 	public:

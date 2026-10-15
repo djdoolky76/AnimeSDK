@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace SRDebugger::Services::Implementation
 {
+	inline static constexpr unsigned int SRDebugService___c__DisplayClass45_0_TypeDefinitionIndex = 38087;
+
 	class SRDebugService___c__DisplayClass45_0 : public ::System::Object
 	{
 	public:

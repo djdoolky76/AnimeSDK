@@ -9,6 +9,8 @@ namespace System { class Object; }
 
 namespace Mono
 {
+	inline static constexpr unsigned int RuntimePropertyHandle_TypeDefinitionIndex = 9;
+
 	struct alignas(4) RuntimePropertyHandle
 	{
 		::System::IntPtr value; // 0x10

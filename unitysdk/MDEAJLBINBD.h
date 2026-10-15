@@ -22,6 +22,8 @@ namespace System { class String; }
 #define MDEAJLBINBD_ODPBMNDJDKH_OFFSET UNITYSDK_OFFSET(0xB8A1DB0)
 #define MDEAJLBINBD_OHFLPJBGLIJ_OFFSET UNITYSDK_OFFSET(0xB8A1ED0)
 
+inline static constexpr unsigned int MDEAJLBINBD_TypeDefinitionIndex = 60211;
+
 	class MDEAJLBINBD : public ::System::Object
 	{
 	public:

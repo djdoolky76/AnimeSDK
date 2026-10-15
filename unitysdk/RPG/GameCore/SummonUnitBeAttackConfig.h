@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SummonUnitBeAttackConfig_TypeDefinitionIndex = 17598;
+
 	class SummonUnitBeAttackConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

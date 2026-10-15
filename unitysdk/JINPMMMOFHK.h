@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define JINPMMMOFHK_MAPIDKMGMIE_OFFSET UNITYSDK_OFFSET(0x1C564130)
 #define JINPMMMOFHK__ITERATEAFFECTEDCELLS_G__ISINRANGE_4_0_OFFSET UNITYSDK_OFFSET(0x1C564CD0)
 
+inline static constexpr unsigned int JINPMMMOFHK_TypeDefinitionIndex = 41778;
+
 	class JINPMMMOFHK : public ::FBKKFMONGAA
 	{
 	public:

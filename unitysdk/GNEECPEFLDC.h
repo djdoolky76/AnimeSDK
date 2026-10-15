@@ -7,6 +7,8 @@ class OEIKFPLBOMH;
 namespace Sofa { class BaseSofaControl; }
 namespace System { class IDisposable; }
 
+inline static constexpr unsigned int GNEECPEFLDC_TypeDefinitionIndex = 49841;
+
 	class GNEECPEFLDC : public ::System::Object
 	{
 	public:

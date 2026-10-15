@@ -18,6 +18,8 @@ class AkVertex;
 #define AKVERTEX_SET_Z_OFFSET UNITYSDK_OFFSET(0x1F61A970)
 #define AKVERTEX_ZERO_OFFSET UNITYSDK_OFFSET(0x1F61A7C0)
 
+inline static constexpr unsigned int AkVertex_TypeDefinitionIndex = 44855;
+
 	class AkVertex : public ::System::Object
 	{
 	public:

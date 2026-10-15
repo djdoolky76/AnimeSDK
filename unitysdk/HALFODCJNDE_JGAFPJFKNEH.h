@@ -4,6 +4,8 @@
 
 #define HALFODCJNDE_JGAFPJFKNEH_HKLDNDMJCLH_OFFSET UNITYSDK_OFFSET(0x15B8A410)
 
+inline static constexpr unsigned int HALFODCJNDE_JGAFPJFKNEH_TypeDefinitionIndex = 51779;
+
 	struct alignas(4) HALFODCJNDE_JGAFPJFKNEH
 	{
 		::UnityEngine::Vector3 JJCOAJIPIID; // 0x10

@@ -16,6 +16,8 @@ namespace System::Collections::Generic { class KeyValuePair; }
 #define BOPECJBFFNJ___C___UNLOADALLLOADITEM_B__72_2_OFFSET UNITYSDK_OFFSET(0x1C44AD70)
 #define BOPECJBFFNJ___C___UNLOADALLLOADITEM_B__72_3_OFFSET UNITYSDK_OFFSET(0x1C44B0A0)
 
+inline static constexpr unsigned int BOPECJBFFNJ___c_TypeDefinitionIndex = 41575;
+
 	class BOPECJBFFNJ___c : public ::System::Object
 	{
 	public:

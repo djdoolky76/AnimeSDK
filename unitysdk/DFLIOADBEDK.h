@@ -34,6 +34,8 @@ namespace System { class String; }
 #define DFLIOADBEDK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E1A6310)
 #define DFLIOADBEDK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E1A6370)
 
+inline static constexpr unsigned int DFLIOADBEDK_TypeDefinitionIndex = 27916;
+
 	class DFLIOADBEDK : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@ namespace RPG::Client { class NullTeamBlockBattleBuffGroupViewData; }
 
 #define LGFFIJLEPGJ_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xB691570)
 
+inline static constexpr unsigned int LGFFIJLEPGJ_TypeDefinitionIndex = 71523;
+
 	class LGFFIJLEPGJ : public ::System::Object
 	{
 	public:

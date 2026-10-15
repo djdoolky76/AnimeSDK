@@ -11,6 +11,8 @@ namespace RPG::GameCore { class DynamicFloat; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BattleCollegeAimShow_TypeDefinitionIndex = 23703;
+
 	class BattleCollegeAimShow : public ::RPG::GameCore::TaskConfig
 	{
 	public:

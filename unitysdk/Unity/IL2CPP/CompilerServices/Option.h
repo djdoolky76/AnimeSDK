@@ -3,6 +3,8 @@
 
 namespace Unity::IL2CPP::CompilerServices
 {
+	inline static constexpr unsigned int Option_TypeDefinitionIndex = 1772;
+
 	enum class Option : ::System::Int32
 	{
 		NullChecks = 1,

@@ -32,6 +32,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace MiHoYo::SDK::Console::UI::OS
 {
+	inline static constexpr unsigned int ConsoleAgeGateAgeAppealOptionDialog_TypeDefinitionIndex = 9027;
+
 	class ConsoleAgeGateAgeAppealOptionDialog : public ::MiHoYo::SDK::Console::ConsoleDialogBase
 	{
 	public:

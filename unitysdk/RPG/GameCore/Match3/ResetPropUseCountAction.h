@@ -10,6 +10,8 @@ namespace RPG::GameCore::Match3 { class ResetPropUseCountAction; }
 
 namespace RPG::GameCore::Match3
 {
+	inline static constexpr unsigned int ResetPropUseCountAction_TypeDefinitionIndex = 24913;
+
 	class ResetPropUseCountAction : public ::RPG::GameCore::Match3::Match3ActionBase
 	{
 	public:

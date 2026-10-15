@@ -57,6 +57,8 @@ namespace RPG::Client::Promises { class Promise; }
 #define KMDEHNNGIDD___STARTRECONNECTGAMEPLAY_B__21_0_OFFSET UNITYSDK_OFFSET(0xB543060)
 #define KMDEHNNGIDD___TRYRECONNECTGAMEPLAY_B__20_0_OFFSET UNITYSDK_OFFSET(0xB543050)
 
+inline static constexpr unsigned int KMDEHNNGIDD_TypeDefinitionIndex = 63055;
+
 	class KMDEHNNGIDD : public ::System::Object
 	{
 	public:

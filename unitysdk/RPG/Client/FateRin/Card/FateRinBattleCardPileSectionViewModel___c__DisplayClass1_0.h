@@ -9,6 +9,8 @@ class COOONBGCCCM;
 
 namespace RPG::Client::FateRin::Card
 {
+	inline static constexpr unsigned int FateRinBattleCardPileSectionViewModel___c__DisplayClass1_0_TypeDefinitionIndex = 81117;
+
 	class FateRinBattleCardPileSectionViewModel___c__DisplayClass1_0 : public ::System::Object
 	{
 	public:

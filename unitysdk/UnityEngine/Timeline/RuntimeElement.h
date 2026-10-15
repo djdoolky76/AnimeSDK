@@ -9,6 +9,8 @@
 
 namespace UnityEngine::Timeline
 {
+	inline static constexpr unsigned int RuntimeElement_TypeDefinitionIndex = 38824;
+
 	class RuntimeElement : public ::System::Object
 	{
 	public:

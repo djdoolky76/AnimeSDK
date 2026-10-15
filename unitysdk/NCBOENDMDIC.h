@@ -41,6 +41,8 @@ namespace System { class String; }
 #define NCBOENDMDIC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EAD78E0)
 #define NCBOENDMDIC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EAD7940)
 
+inline static constexpr unsigned int NCBOENDMDIC_TypeDefinitionIndex = 28437;
+
 	class NCBOENDMDIC : public ::System::Object
 	{
 	public:

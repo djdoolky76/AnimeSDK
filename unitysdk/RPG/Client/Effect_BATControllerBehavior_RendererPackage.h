@@ -11,6 +11,8 @@ namespace UnityEngine { class Texture; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Effect_BATControllerBehavior_RendererPackage_TypeDefinitionIndex = 70432;
+
 	class Effect_BATControllerBehavior_RendererPackage : public ::System::Object
 	{
 	public:

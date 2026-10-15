@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightModifierExecActionAfterPlayerLevelUpCon
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightModifierExecActionAfterPlayerLevelUpConfig_TypeDefinitionIndex = 19365;
+
 	class GridFightModifierExecActionAfterPlayerLevelUpConfig : public ::RPG::GameCore::GridFightModifierConfigBase
 	{
 	public:

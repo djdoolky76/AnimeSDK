@@ -20,6 +20,8 @@ namespace System { class String; }
 #define NILIFHBDPEN_PFEODCIJKPH_OFFSET UNITYSDK_OFFSET(0xBBFA030)
 #define NILIFHBDPEN_TICK_OFFSET UNITYSDK_OFFSET(0xBBF97F0)
 
+inline static constexpr unsigned int NILIFHBDPEN_TypeDefinitionIndex = 58265;
+
 	class NILIFHBDPEN : public ::GELIALJDFBL
 	{
 	public:

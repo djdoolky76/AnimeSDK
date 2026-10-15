@@ -4,6 +4,8 @@
 
 namespace System::Net::NetworkInformation
 {
+	inline static constexpr unsigned int sockaddr_in6_TypeDefinitionIndex = 2948;
+
 	struct alignas(4) sockaddr_in6
 	{
 		::System::UInt16 sin6_family; // 0x10

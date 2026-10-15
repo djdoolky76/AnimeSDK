@@ -14,6 +14,8 @@ namespace System { class Object; }
 #define ECCAOEBLPIA___DELAYCANCELCONTROL_D__3_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x12D08430)
 #define ECCAOEBLPIA___DELAYCANCELCONTROL_D__3_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x12D08360)
 
+inline static constexpr unsigned int ECCAOEBLPIA___DelayCancelControl_d__3_TypeDefinitionIndex = 58293;
+
 	template <typename T1, typename T2, typename T3>
 	class ECCAOEBLPIA___DelayCancelControl_d__3 : public ::System::Object
 	{

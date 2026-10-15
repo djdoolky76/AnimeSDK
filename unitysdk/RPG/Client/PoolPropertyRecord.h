@@ -8,6 +8,8 @@ namespace RPG::Client { class PropertyRecord; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PoolPropertyRecord_TypeDefinitionIndex = 72627;
+
 	class PoolPropertyRecord : public ::System::Object
 	{
 	public:

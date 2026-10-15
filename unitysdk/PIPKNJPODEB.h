@@ -12,6 +12,8 @@ namespace UnityEngine { class GameObject; }
 #define PIPKNJPODEB_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC276370)
 #define PIPKNJPODEB_TICK_OFFSET UNITYSDK_OFFSET(0xC2763C0)
 
+inline static constexpr unsigned int PIPKNJPODEB_TypeDefinitionIndex = 53422;
+
 	class PIPKNJPODEB : public ::GELIALJDFBL
 	{
 	public:

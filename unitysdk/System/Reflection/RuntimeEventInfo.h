@@ -18,6 +18,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System::Reflection
 {
+	inline static constexpr unsigned int RuntimeEventInfo_TypeDefinitionIndex = 615;
+
 	class RuntimeEventInfo : public ::System::Reflection::EventInfo
 	{
 	public:

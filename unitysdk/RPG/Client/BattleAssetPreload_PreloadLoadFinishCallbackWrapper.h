@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BattleAssetPreload_PreloadLoadFinishCallbackWrapper_TypeDefinitionIndex = 59659;
+
 	class BattleAssetPreload_PreloadLoadFinishCallbackWrapper : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define CNMDLBDENDC_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xDA595C0)
 #define CNMDLBDENDC_TICK_OFFSET UNITYSDK_OFFSET(0xDA59610)
 
+inline static constexpr unsigned int CNMDLBDENDC_TypeDefinitionIndex = 52139;
+
 	class CNMDLBDENDC
 	{
 	public:

@@ -30,6 +30,8 @@ namespace System { class String; }
 #define HIFFJEEAFAA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E594330)
 #define HIFFJEEAFAA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E594390)
 
+inline static constexpr unsigned int HIFFJEEAFAA_TypeDefinitionIndex = 27641;
+
 	class HIFFJEEAFAA : public ::System::Object
 	{
 	public:

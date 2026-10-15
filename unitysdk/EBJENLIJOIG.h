@@ -8,6 +8,8 @@ namespace RPG::GameCore { class SwordTrainingEffectRow; }
 #define EBJENLIJOIG_CTOR_OFFSET UNITYSDK_OFFSET(0x12CFF820)
 #define EBJENLIJOIG_FMPJJHKCNGG_OFFSET UNITYSDK_OFFSET(0x12CFF870)
 
+inline static constexpr unsigned int EBJENLIJOIG_TypeDefinitionIndex = 75030;
+
 	class EBJENLIJOIG : public ::System::Object
 	{
 	public:

@@ -16,6 +16,8 @@ namespace RPG::LittleGameShare::HoyoPhysics::Box2D { class B2World; }
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
+	inline static constexpr unsigned int B2SolverSets_TypeDefinitionIndex = 36779;
+
 	class B2SolverSets : public ::System::Object
 	{
 	public:

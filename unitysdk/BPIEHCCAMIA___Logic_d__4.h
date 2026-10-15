@@ -13,6 +13,8 @@ namespace System { class Object; }
 #define BPIEHCCAMIA___LOGIC_D__4_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0xC1A6C50)
 #define BPIEHCCAMIA___LOGIC_D__4_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC1A66B0)
 
+inline static constexpr unsigned int BPIEHCCAMIA___Logic_d__4_TypeDefinitionIndex = 60883;
+
 	template <typename T1, typename T2, typename T3, typename T4>
 	class BPIEHCCAMIA___Logic_d__4 : public ::System::Object
 	{

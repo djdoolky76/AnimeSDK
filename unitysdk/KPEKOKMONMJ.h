@@ -13,6 +13,8 @@ namespace System { class Action; }
 #define KPEKOKMONMJ_REMOVE_ONCHANGED_OFFSET UNITYSDK_OFFSET(0x1C56CE60)
 #define KPEKOKMONMJ___CTOR_B__12_0_OFFSET UNITYSDK_OFFSET(0x1C56D2C0)
 
+inline static constexpr unsigned int KPEKOKMONMJ_TypeDefinitionIndex = 41776;
+
 	class KPEKOKMONMJ : public ::System::Object
 	{
 	public:

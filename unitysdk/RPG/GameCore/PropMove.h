@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PropMove_TypeDefinitionIndex = 21965;
+
 	class PropMove : public ::RPG::GameCore::TaskConfig
 	{
 	public:

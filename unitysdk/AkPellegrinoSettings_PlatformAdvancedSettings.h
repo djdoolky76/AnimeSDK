@@ -6,6 +6,8 @@ class AkPlatformInitSettings;
 #define AKPELLEGRINOSETTINGS_PLATFORMADVANCEDSETTINGS_COPYTO_OFFSET UNITYSDK_OFFSET(0x1F5ACE30)
 #define AKPELLEGRINOSETTINGS_PLATFORMADVANCEDSETTINGS_CTOR_OFFSET UNITYSDK_OFFSET(0x1F5ACD30)
 
+inline static constexpr unsigned int AkPellegrinoSettings_PlatformAdvancedSettings_TypeDefinitionIndex = 44898;
+
 	class AkPellegrinoSettings_PlatformAdvancedSettings : public ::AkCommonAdvancedSettings
 	{
 	public:

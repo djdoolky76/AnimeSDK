@@ -28,6 +28,8 @@ namespace System::Collections::Immutable { template <typename T> class IImmutabl
 #define BLDDCOCBMMD_PPEDLFNLPCN_OFFSET UNITYSDK_OFFSET(0xBA68F50)
 #define BLDDCOCBMMD_REMOVE_ONMAYBECHANGED_OFFSET UNITYSDK_OFFSET(0xBA68B40)
 
+inline static constexpr unsigned int BLDDCOCBMMD_TypeDefinitionIndex = 79680;
+
 	class BLDDCOCBMMD : public ::System::Object
 	{
 	public:

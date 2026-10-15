@@ -11,6 +11,8 @@ class NJKFOJJDGGG;
 #define CDAGBOJJOPO_MGEIPEOOFEO_OFFSET UNITYSDK_OFFSET(0xC75E4A0)
 #define CDAGBOJJOPO_OJIOFLCLDDH_OFFSET UNITYSDK_OFFSET(0xC75E400)
 
+inline static constexpr unsigned int CDAGBOJJOPO_TypeDefinitionIndex = 64999;
+
 	class CDAGBOJJOPO : public ::RPG::Client::GridFightGameModifier
 	{
 	public:

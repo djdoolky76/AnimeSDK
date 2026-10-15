@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace Cysharp::Threading::Tasks
 {
+	inline static constexpr unsigned int SwitchToTaskPoolAwaitable_Awaiter_TypeDefinitionIndex = 38370;
+
 	struct alignas(4) SwitchToTaskPoolAwaitable_Awaiter
 	{
 		static ::System::Action** StaticGet_switchToCallback()

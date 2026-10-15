@@ -45,6 +45,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int LocalReflection_TypeDefinitionIndex = 37636;
+
 	class LocalReflection : public ::UnityEngine::MonoBehaviour
 	{
 	public:

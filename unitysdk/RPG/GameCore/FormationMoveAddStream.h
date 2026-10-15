@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FormationMoveAddStream; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FormationMoveAddStream_TypeDefinitionIndex = 21254;
+
 	class FormationMoveAddStream : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -42,6 +42,8 @@ namespace UnityEngine { class GameObject; }
 #define AKGKDDMPGPA_ONUNINIT_OFFSET UNITYSDK_OFFSET(0x12CCF140)
 #define AKGKDDMPGPA_TICK_OFFSET UNITYSDK_OFFSET(0x12CCF230)
 
+inline static constexpr unsigned int AKGKDDMPGPA_TypeDefinitionIndex = 60152;
+
 	class AKGKDDMPGPA : public ::HBCMHADMLOP
 	{
 	public:

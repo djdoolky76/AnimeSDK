@@ -13,6 +13,8 @@ namespace RPG::GameCore { class ItemConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ExpeditionDataRow_TypeDefinitionIndex = 13261;
+
 	class ExpeditionDataRow : public ::System::Object
 	{
 	public:

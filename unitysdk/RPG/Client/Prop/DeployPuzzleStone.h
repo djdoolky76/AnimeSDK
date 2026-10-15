@@ -22,6 +22,8 @@ namespace RPG::GameCore { class PropComponent; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int DeployPuzzleStone_TypeDefinitionIndex = 78537;
+
 	class DeployPuzzleStone : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -6,6 +6,8 @@ namespace RPG::GameCore { class FreeStyleController; }
 #define IMPNPPMLNPH_CTOR_OFFSET UNITYSDK_OFFSET(0x164E58E0)
 #define IMPNPPMLNPH_PKADDEPKJFN_OFFSET UNITYSDK_OFFSET(0x164E5890)
 
+inline static constexpr unsigned int IMPNPPMLNPH_TypeDefinitionIndex = 57273;
+
 	class IMPNPPMLNPH : public ::System::Object
 	{
 	public:

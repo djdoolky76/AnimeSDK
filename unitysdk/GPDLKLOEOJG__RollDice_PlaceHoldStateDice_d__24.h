@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define GPDLKLOEOJG__ROLLDICE_PLACEHOLDSTATEDICE_D__24_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x15B51260)
 #define GPDLKLOEOJG__ROLLDICE_PLACEHOLDSTATEDICE_D__24_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15B501D0)
 
+inline static constexpr unsigned int GPDLKLOEOJG__RollDice_PlaceHoldStateDice_d__24_TypeDefinitionIndex = 60327;
+
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10, typename T11, typename T12, typename T13, typename T14, typename T15, typename T16, typename T17, typename T18, typename T19, typename T20, typename T21, typename T22, typename T23, typename T24>
 	class GPDLKLOEOJG__RollDice_PlaceHoldStateDice_d__24 : public ::System::Object
 	{

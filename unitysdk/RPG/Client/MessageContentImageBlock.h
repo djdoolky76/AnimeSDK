@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MessageContentImageBlock_TypeDefinitionIndex = 63246;
+
 	class MessageContentImageBlock : public ::RPG::Client::MessageContentBlock
 	{
 	public:

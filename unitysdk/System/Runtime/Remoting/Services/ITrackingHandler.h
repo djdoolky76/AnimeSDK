@@ -3,6 +3,8 @@
 
 namespace System::Runtime::Remoting::Services
 {
+	inline static constexpr unsigned int ITrackingHandler_TypeDefinitionIndex = 1232;
+
 	class ITrackingHandler
 	{
 	public:

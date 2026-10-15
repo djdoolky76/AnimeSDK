@@ -14,6 +14,8 @@
 
 namespace RootMotion
 {
+	inline static constexpr unsigned int V3Tools_TypeDefinitionIndex = 45980;
+
 	class V3Tools : public ::System::Object
 	{
 	public:

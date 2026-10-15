@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int LOKFDBENEKJ_TriggerType_TypeDefinitionIndex = 75495;
+
 	enum class LOKFDBENEKJ_TriggerType : ::System::Int32
 	{
 		None = 0,

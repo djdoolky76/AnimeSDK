@@ -6,6 +6,8 @@ namespace RPG::Client::OpenWorld { template <typename T> class QuadTreeNode_1; }
 
 namespace RPG::Client::OpenWorld
 {
+	inline static constexpr unsigned int QuadTree_1_TypeDefinitionIndex = 73891;
+
 	template <typename T>
 	class QuadTree_1 : public ::System::Object
 	{

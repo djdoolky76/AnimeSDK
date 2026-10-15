@@ -9,6 +9,8 @@ namespace Hdg { class rdtTcpMessage; }
 
 namespace Hdg
 {
+	inline static constexpr unsigned int ReadMessageThread___c__DisplayClass15_0_TypeDefinitionIndex = 46939;
+
 	class ReadMessageThread___c__DisplayClass15_0 : public ::System::Object
 	{
 	public:

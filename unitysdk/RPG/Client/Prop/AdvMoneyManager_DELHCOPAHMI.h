@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int AdvMoneyManager_DELHCOPAHMI_TypeDefinitionIndex = 78191;
+
 	class AdvMoneyManager_DELHCOPAHMI : public ::System::Object
 	{
 	public:

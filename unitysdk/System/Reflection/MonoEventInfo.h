@@ -11,6 +11,8 @@ namespace System::Reflection { class MonoEvent; }
 
 namespace System::Reflection
 {
+	inline static constexpr unsigned int MonoEventInfo_TypeDefinitionIndex = 614;
+
 	struct alignas(8) MonoEventInfo
 	{
 		::System::Type* declaring_type; // 0x10

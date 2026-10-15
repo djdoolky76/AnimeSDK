@@ -9,6 +9,8 @@ namespace RPG::GameCore { class LevelAreaConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelAreaConfig_TypeDefinitionIndex = 18322;
+
 	class LevelAreaConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

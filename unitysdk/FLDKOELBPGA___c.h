@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define FLDKOELBPGA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E3B88E0)
 #define FLDKOELBPGA___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1E3B88F0)
 
+inline static constexpr unsigned int FLDKOELBPGA___c_TypeDefinitionIndex = 27899;
+
 	class FLDKOELBPGA___c : public ::System::Object
 	{
 	public:

@@ -18,6 +18,8 @@ namespace UnityEngine { class Coroutine; }
 
 namespace RPG::Client::LittleGame::FiveDim
 {
+	inline static constexpr unsigned int FiveDimFixedUpdateProxyView_TypeDefinitionIndex = 77175;
+
 	class FiveDimFixedUpdateProxyView : public ::RPG::Client::LittleGame::FiveDim::FiveDimView
 	{
 	public:

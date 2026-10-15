@@ -8,6 +8,8 @@
 #define JEIMGBCINDN_KHKDHMEPCOD_OFFSET UNITYSDK_OFFSET(0x1662CE60)
 #define JEIMGBCINDN_MBOMDOAMNHP_OFFSET UNITYSDK_OFFSET(0x1662CE20)
 
+inline static constexpr unsigned int JEIMGBCINDN_TypeDefinitionIndex = 68681;
+
 	class JEIMGBCINDN : public ::System::Object
 	{
 	public:

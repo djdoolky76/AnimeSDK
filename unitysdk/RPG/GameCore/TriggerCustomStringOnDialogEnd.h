@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TriggerCustomStringOnDialogEnd; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TriggerCustomStringOnDialogEnd_TypeDefinitionIndex = 20750;
+
 	class TriggerCustomStringOnDialogEnd : public ::RPG::GameCore::TriggerCustomString
 	{
 	public:

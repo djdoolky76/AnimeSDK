@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int EmptyPageContext_TypeDefinitionIndex = 72765;
+
 	class EmptyPageContext : public ::RPG::Client::UIController
 	{
 	public:

@@ -16,6 +16,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int CRPCameraSmallWindowSyncUIRect_TypeDefinitionIndex = 47897;
+
 	class CRPCameraSmallWindowSyncUIRect : public ::System::Object
 	{
 	public:

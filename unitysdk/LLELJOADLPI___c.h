@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define LLELJOADLPI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E99A4D0)
 #define LLELJOADLPI___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E99A4E0)
 
+inline static constexpr unsigned int LLELJOADLPI___c_TypeDefinitionIndex = 27460;
+
 	class LLELJOADLPI___c : public ::System::Object
 	{
 	public:

@@ -76,6 +76,8 @@ namespace Entitas { template <typename T> class IMatcher_1; }
 #define APJINKFBMCI_PENOFOJPCOJ_OFFSET UNITYSDK_OFFSET(0x1C8A9F10)
 #define APJINKFBMCI_PIGCOOOCHPI_OFFSET UNITYSDK_OFFSET(0x1C8A9BB0)
 
+inline static constexpr unsigned int APJINKFBMCI_TypeDefinitionIndex = 42562;
+
 	class APJINKFBMCI : public ::System::Object
 	{
 	public:

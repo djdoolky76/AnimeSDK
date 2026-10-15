@@ -38,6 +38,8 @@ namespace System::IO { class BinaryReader; }
 
 namespace Newtonsoft::Json::Bson
 {
+	inline static constexpr unsigned int BsonReader_TypeDefinitionIndex = 9848;
+
 	class BsonReader : public ::Newtonsoft::Json::JsonReader
 	{
 	public:

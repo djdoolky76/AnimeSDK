@@ -38,6 +38,8 @@ namespace System { class String; }
 #define ECDINHEHKOJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E24D380)
 #define ECDINHEHKOJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E24D3E0)
 
+inline static constexpr unsigned int ECDINHEHKOJ_TypeDefinitionIndex = 34710;
+
 	class ECDINHEHKOJ : public ::System::Object
 	{
 	public:

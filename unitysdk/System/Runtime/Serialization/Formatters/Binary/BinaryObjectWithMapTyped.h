@@ -16,6 +16,8 @@ namespace System::Runtime::Serialization::Formatters::Binary { class __BinaryWri
 
 namespace System::Runtime::Serialization::Formatters::Binary
 {
+	inline static constexpr unsigned int BinaryObjectWithMapTyped_TypeDefinitionIndex = 1157;
+
 	class BinaryObjectWithMapTyped : public ::System::Object
 	{
 	public:

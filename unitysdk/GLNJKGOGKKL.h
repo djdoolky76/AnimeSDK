@@ -28,6 +28,8 @@ namespace System { class String; }
 #define GLNJKGOGKKL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E4C7440)
 #define GLNJKGOGKKL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E4C74A0)
 
+inline static constexpr unsigned int GLNJKGOGKKL_TypeDefinitionIndex = 32157;
+
 	class GLNJKGOGKKL : public ::System::Object
 	{
 	public:

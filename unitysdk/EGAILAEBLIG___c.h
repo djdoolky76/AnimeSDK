@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define EGAILAEBLIG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E291640)
 #define EGAILAEBLIG___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E291650)
 
+inline static constexpr unsigned int EGAILAEBLIG___c_TypeDefinitionIndex = 33426;
+
 	class EGAILAEBLIG___c : public ::System::Object
 	{
 	public:

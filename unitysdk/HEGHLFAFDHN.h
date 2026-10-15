@@ -6,6 +6,8 @@ namespace System { class String; }
 
 #define HEGHLFAFDHN_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CABDFA0)
 
+inline static constexpr unsigned int HEGHLFAFDHN_TypeDefinitionIndex = 42788;
+
 	class HEGHLFAFDHN : public ::System::Object
 	{
 	public:

@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define NCFDMBOBAGN_JEBBIJBOFCL_OFFSET UNITYSDK_OFFSET(0xBB0C140)
 #define NCFDMBOBAGN_PKJLGKGIAGN_OFFSET UNITYSDK_OFFSET(0xBB0BC30)
 
+inline static constexpr unsigned int NCFDMBOBAGN_TypeDefinitionIndex = 65313;
+
 	class NCFDMBOBAGN : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class LodDetail; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LodDetail_TypeDefinitionIndex = 19197;
+
 	class LodDetail : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueParamBattleWinTimeConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueParamBattleWinTimeConfig_TypeDefinitionIndex = 19863;
+
 	class RogueParamBattleWinTimeConfig : public ::RPG::GameCore::RogueParameterConfigBase
 	{
 	public:

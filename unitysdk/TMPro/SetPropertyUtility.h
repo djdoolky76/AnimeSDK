@@ -7,6 +7,8 @@
 
 namespace TMPro
 {
+	inline static constexpr unsigned int SetPropertyUtility_TypeDefinitionIndex = 44607;
+
 	class SetPropertyUtility : public ::System::Object
 	{
 	public:

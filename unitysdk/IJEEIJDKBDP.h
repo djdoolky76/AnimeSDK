@@ -37,6 +37,8 @@ namespace System { class String; }
 #define IJEEIJDKBDP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E692840)
 #define IJEEIJDKBDP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E6928A0)
 
+inline static constexpr unsigned int IJEEIJDKBDP_TypeDefinitionIndex = 34129;
+
 	class IJEEIJDKBDP : public ::System::Object
 	{
 	public:

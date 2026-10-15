@@ -24,6 +24,8 @@ namespace RPG::GameCore { class FateRinCaseBoardDoubleTeamInfo; }
 
 namespace RPG::Client::FateRin::CaseBoard
 {
+	inline static constexpr unsigned int DoubleTeamViewModel_TypeDefinitionIndex = 80812;
+
 	class DoubleTeamViewModel : public ::RPG::Client::FateRin::CaseBoard::TeamViewModel
 	{
 	public:

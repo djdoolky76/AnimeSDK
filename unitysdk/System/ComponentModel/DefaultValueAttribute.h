@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace System::ComponentModel
 {
+	inline static constexpr unsigned int DefaultValueAttribute_TypeDefinitionIndex = 2579;
+
 	class DefaultValueAttribute : public ::System::Attribute
 	{
 	public:

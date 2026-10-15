@@ -29,6 +29,8 @@ namespace System { class String; }
 #define HPIEHAMDJAP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E5F8020)
 #define HPIEHAMDJAP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E5F8080)
 
+inline static constexpr unsigned int HPIEHAMDJAP_TypeDefinitionIndex = 30596;
+
 	class HPIEHAMDJAP : public ::System::Object
 	{
 	public:

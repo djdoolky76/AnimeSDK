@@ -10,6 +10,8 @@ namespace System { class String; }
 #define GDJGNCBPLFI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x159A0250)
 #define GDJGNCBPLFI___C___LISTENLEVELVAR_B__9_0_OFFSET UNITYSDK_OFFSET(0x159A0260)
 
+inline static constexpr unsigned int GDJGNCBPLFI___c_TypeDefinitionIndex = 76755;
+
 	class GDJGNCBPLFI___c : public ::System::Object
 	{
 	public:

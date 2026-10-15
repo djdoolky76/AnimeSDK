@@ -11,6 +11,8 @@ namespace System { template <typename T> class Comparison_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ToastQueueModule___c_TypeDefinitionIndex = 68151;
+
 	class ToastQueueModule___c : public ::System::Object
 	{
 	public:

@@ -34,6 +34,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define AKCALLBACKMANAGER_SET_ISLOGGINGENABLED_OFFSET UNITYSDK_OFFSET(0x1F57DE30)
 #define AKCALLBACKMANAGER_TERM_OFFSET UNITYSDK_OFFSET(0x1F57ECD0)
 
+inline static constexpr unsigned int AkCallbackManager_TypeDefinitionIndex = 44822;
+
 	class AkCallbackManager : public ::System::Object
 	{
 	public:

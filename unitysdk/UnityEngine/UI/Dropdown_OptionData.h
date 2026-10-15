@@ -17,6 +17,8 @@ namespace UnityEngine { class Sprite; }
 
 namespace UnityEngine::UI
 {
+	inline static constexpr unsigned int Dropdown_OptionData_TypeDefinitionIndex = 6709;
+
 	class Dropdown_OptionData : public ::System::Object
 	{
 	public:

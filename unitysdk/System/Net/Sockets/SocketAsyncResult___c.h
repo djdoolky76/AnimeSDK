@@ -10,6 +10,8 @@ namespace System::Threading { class WaitCallback; }
 
 namespace System::Net::Sockets
 {
+	inline static constexpr unsigned int SocketAsyncResult___c_TypeDefinitionIndex = 2920;
+
 	class SocketAsyncResult___c : public ::System::Object
 	{
 	public:

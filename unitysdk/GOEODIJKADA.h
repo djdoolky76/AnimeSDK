@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define GOEODIJKADA_FLFLCMEJEPM_OFFSET UNITYSDK_OFFSET(0x15B2CDA0)
 #define GOEODIJKADA_FNPMJDIAOCM_OFFSET UNITYSDK_OFFSET(0x15B2CB10)
 
+inline static constexpr unsigned int GOEODIJKADA_TypeDefinitionIndex = 73299;
+
 	class GOEODIJKADA : public ::System::Object
 	{
 	public:

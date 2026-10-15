@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace System::Threading
 {
+	inline static constexpr unsigned int SendOrPostCallback_TypeDefinitionIndex = 840;
+
 	class SendOrPostCallback : public ::System::MulticastDelegate
 	{
 	public:

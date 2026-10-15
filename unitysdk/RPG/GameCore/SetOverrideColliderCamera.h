@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetOverrideColliderCamera_TypeDefinitionIndex = 22396;
+
 	class SetOverrideColliderCamera : public ::RPG::GameCore::TaskConfig
 	{
 	public:

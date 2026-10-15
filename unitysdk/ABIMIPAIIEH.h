@@ -4,6 +4,8 @@
 #define ABIMIPAIIEH_DADCFBHGLOH_OFFSET UNITYSDK_OFFSET(0x3C36210)
 #define ABIMIPAIIEH_DJJBNDDBKIH_OFFSET UNITYSDK_OFFSET(0x3C36230)
 
+inline static constexpr unsigned int ABIMIPAIIEH_TypeDefinitionIndex = 10817;
+
 	struct alignas(4) ABIMIPAIIEH
 	{
 		::System::UInt64 MLOKKFFLEFE; // 0x10

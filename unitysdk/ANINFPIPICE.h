@@ -24,6 +24,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define ANINFPIPICE_NAKIGFCHAMF_OFFSET UNITYSDK_OFFSET(0x15598F40)
 #define ANINFPIPICE_ODPIODABKFK_OFFSET UNITYSDK_OFFSET(0x155993D0)
 
+inline static constexpr unsigned int ANINFPIPICE_TypeDefinitionIndex = 61990;
+
 	class ANINFPIPICE : public ::System::Object
 	{
 	public:

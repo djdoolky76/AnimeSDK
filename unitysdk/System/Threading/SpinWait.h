@@ -8,6 +8,8 @@
 
 namespace System::Threading
 {
+	inline static constexpr unsigned int SpinWait_TypeDefinitionIndex = 813;
+
 	struct alignas(4) SpinWait
 	{
 		::System::Int32 m_count; // 0x10

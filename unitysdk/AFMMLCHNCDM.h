@@ -7,6 +7,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define AFMMLCHNCDM_ACMKLFOMPFC_OFFSET UNITYSDK_OFFSET(0xCF19080)
 #define AFMMLCHNCDM_CTOR_OFFSET UNITYSDK_OFFSET(0xCF19240)
 
+inline static constexpr unsigned int AFMMLCHNCDM_TypeDefinitionIndex = 61404;
+
 	class AFMMLCHNCDM : public ::System::Object
 	{
 	public:

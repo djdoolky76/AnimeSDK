@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define JPBMIDPNFMP_MFMGMEEIMKP_OFFSET UNITYSDK_OFFSET(0xB2AFEE0)
 #define JPBMIDPNFMP_OIIKCEBBHCH_OFFSET UNITYSDK_OFFSET(0xB2AFD80)
 
+inline static constexpr unsigned int JPBMIDPNFMP_TypeDefinitionIndex = 57823;
+
 	class JPBMIDPNFMP : public ::System::Object
 	{
 	public:

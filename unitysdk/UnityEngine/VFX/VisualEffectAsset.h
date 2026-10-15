@@ -6,6 +6,8 @@
 
 namespace UnityEngine::VFX
 {
+	inline static constexpr unsigned int VisualEffectAsset_TypeDefinitionIndex = 6044;
+
 	class VisualEffectAsset : public ::UnityEngine::VFX::VisualEffectObject
 	{
 	public:

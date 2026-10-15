@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int HNJJAFEFDLN_TypeDefinitionIndex = 28127;
+
 	enum class HNJJAFEFDLN : ::System::Int32
 	{
 		MMNFGNKHNLL = 0,

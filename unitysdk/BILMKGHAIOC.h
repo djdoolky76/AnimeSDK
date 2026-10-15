@@ -9,6 +9,8 @@
 
 #define BILMKGHAIOC_CFOOBPHMJJC_OFFSET UNITYSDK_OFFSET(0x3C2F300)
 
+inline static constexpr unsigned int BILMKGHAIOC_TypeDefinitionIndex = 43259;
+
 	struct alignas(4) BILMKGHAIOC
 	{
 		::System::Boolean OCAAKECGCFK; // 0x10

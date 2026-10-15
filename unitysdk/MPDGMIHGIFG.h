@@ -30,6 +30,8 @@ namespace System { class String; }
 #define MPDGMIHGIFG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EAB5CC0)
 #define MPDGMIHGIFG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EAB5D20)
 
+inline static constexpr unsigned int MPDGMIHGIFG_TypeDefinitionIndex = 31521;
+
 	class MPDGMIHGIFG : public ::System::Object
 	{
 	public:

@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TutorialGuideTalkDataExcelTable_TypeDefinitionIndex = 15389;
+
 	class TutorialGuideTalkDataExcelTable : public ::System::Object
 	{
 	public:

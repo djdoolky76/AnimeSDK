@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_ThreadedTaskLoadGeo_HEU_LoadObject_TypeDefinitionIndex = 40617;
+
 	class HEU_ThreadedTaskLoadGeo_HEU_LoadObject : public ::System::Object
 	{
 	public:

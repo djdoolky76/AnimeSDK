@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AddBehaviorFlagForModifier_TypeDefinitionIndex = 23629;
+
 	class AddBehaviorFlagForModifier : public ::RPG::GameCore::TaskConfig
 	{
 	public:

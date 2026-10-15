@@ -21,6 +21,8 @@ namespace UnityEngine::Rendering { class CommandBuffer; }
 
 namespace EnviromentSystem
 {
+	inline static constexpr unsigned int EnviroWindZoneProperty_TypeDefinitionIndex = 49628;
+
 	class EnviroWindZoneProperty : public ::EnviromentSystem::EnviroAssetProperty
 	{
 	public:

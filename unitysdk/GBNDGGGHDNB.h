@@ -9,6 +9,8 @@ class GBNDGGGHDNB;
 #define GBNDGGGHDNB_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CE28150)
 #define GBNDGGGHDNB_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CE28110)
 
+inline static constexpr unsigned int GBNDGGGHDNB_TypeDefinitionIndex = 10224;
+
 	class GBNDGGGHDNB : public ::RPG::GameCore::TaskConfig
 	{
 	public:

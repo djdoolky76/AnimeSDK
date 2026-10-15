@@ -10,6 +10,8 @@ namespace RPG::GameCore { class CakeRaceActionSlopeSlide; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CakeRaceActionSlopeSlide_TypeDefinitionIndex = 18353;
+
 	class CakeRaceActionSlopeSlide : public ::RPG::GameCore::CakeRaceActionBase
 	{
 	public:

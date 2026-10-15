@@ -9,6 +9,8 @@ namespace UnityEngine { class Material; }
 
 namespace UnityEngine::Formats::Alembic::Importer
 {
+	inline static constexpr unsigned int AlembicStreamPlayer___c__DisplayClass51_0_TypeDefinitionIndex = 45872;
+
 	class AlembicStreamPlayer___c__DisplayClass51_0 : public ::System::Object
 	{
 	public:

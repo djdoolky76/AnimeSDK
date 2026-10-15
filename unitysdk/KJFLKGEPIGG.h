@@ -28,6 +28,8 @@ namespace System { class String; }
 #define KJFLKGEPIGG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E86BD60)
 #define KJFLKGEPIGG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E86BDC0)
 
+inline static constexpr unsigned int KJFLKGEPIGG_TypeDefinitionIndex = 31012;
+
 	class KJFLKGEPIGG : public ::System::Object
 	{
 	public:

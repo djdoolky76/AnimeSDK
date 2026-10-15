@@ -22,6 +22,8 @@ namespace System { class Object; }
 
 namespace RootMotion::FinalIK
 {
+	inline static constexpr unsigned int GroundingThread_TypeDefinitionIndex = 45999;
+
 	class GroundingThread : public ::System::Object
 	{
 	public:

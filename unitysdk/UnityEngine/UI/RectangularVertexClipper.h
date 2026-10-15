@@ -12,6 +12,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace UnityEngine::UI
 {
+	inline static constexpr unsigned int RectangularVertexClipper_TypeDefinitionIndex = 6702;
+
 	class RectangularVertexClipper : public ::System::Object
 	{
 	public:

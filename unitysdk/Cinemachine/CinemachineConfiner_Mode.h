@@ -3,6 +3,8 @@
 
 namespace Cinemachine
 {
+	inline static constexpr unsigned int CinemachineConfiner_Mode_TypeDefinitionIndex = 39731;
+
 	enum class CinemachineConfiner_Mode : ::System::Int32
 	{
 		Confine2D = 0,

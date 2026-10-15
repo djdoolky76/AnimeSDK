@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierExecuteActionOnSelectAeonOptionConf
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierExecuteActionOnSelectAeonOptionConfig_TypeDefinitionIndex = 17682;
+
 	class RogueModifierExecuteActionOnSelectAeonOptionConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

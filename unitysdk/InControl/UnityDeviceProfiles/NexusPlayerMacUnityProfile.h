@@ -7,6 +7,8 @@
 
 namespace InControl::UnityDeviceProfiles
 {
+	inline static constexpr unsigned int NexusPlayerMacUnityProfile_TypeDefinitionIndex = 41021;
+
 	class NexusPlayerMacUnityProfile : public ::InControl::InputDeviceProfile
 	{
 	public:

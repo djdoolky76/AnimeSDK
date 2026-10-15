@@ -35,6 +35,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int LookAtTargetData_TypeDefinitionIndex = 68475;
+
 	struct alignas(8) LookAtTargetData
 	{
 		::System::Boolean _ForceChangeTargetThisFrame_k__BackingField; // 0x10

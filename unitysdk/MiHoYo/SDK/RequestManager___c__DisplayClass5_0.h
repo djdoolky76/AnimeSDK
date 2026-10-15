@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int RequestManager___c__DisplayClass5_0_TypeDefinitionIndex = 8059;
+
 	class RequestManager___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:

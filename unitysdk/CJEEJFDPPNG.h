@@ -139,6 +139,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define CJEEJFDPPNG_SET_ISINIT_OFFSET UNITYSDK_OFFSET(0xD201670)
 #define CJEEJFDPPNG_TICK_OFFSET UNITYSDK_OFFSET(0xD200C30)
 
+inline static constexpr unsigned int CJEEJFDPPNG_TypeDefinitionIndex = 56941;
+
 	class CJEEJFDPPNG : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

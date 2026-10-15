@@ -4,6 +4,8 @@
 
 #define PHLMAIEDEGC_CTOR_OFFSET UNITYSDK_OFFSET(0xC255860)
 
+inline static constexpr unsigned int PHLMAIEDEGC_TypeDefinitionIndex = 59946;
+
 	class PHLMAIEDEGC : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define PCACAFAEGGP_NMMENJBPAMO_OFFSET UNITYSDK_OFFSET(0xBFF8D00)
 #define PCACAFAEGGP_NNGCPBFBFPG_OFFSET UNITYSDK_OFFSET(0xBFF9760)
 
+inline static constexpr unsigned int PCACAFAEGGP_TypeDefinitionIndex = 62417;
+
 	class PCACAFAEGGP : public ::System::Object
 	{
 	public:

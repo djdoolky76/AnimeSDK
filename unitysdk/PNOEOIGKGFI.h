@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define PNOEOIGKGFI_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D313D80)
 #define PNOEOIGKGFI_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D3136A0)
 
+inline static constexpr unsigned int PNOEOIGKGFI_TypeDefinitionIndex = 12529;
+
 	class PNOEOIGKGFI : public ::System::Object
 	{
 	public:

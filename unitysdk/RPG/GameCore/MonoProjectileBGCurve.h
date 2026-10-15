@@ -19,6 +19,8 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MonoProjectileBGCurve_TypeDefinitionIndex = 53599;
+
 	class MonoProjectileBGCurve : public ::UnityEngine::MonoBehaviour
 	{
 	public:

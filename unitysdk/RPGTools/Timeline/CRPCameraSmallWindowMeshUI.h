@@ -25,6 +25,8 @@ namespace UnityEngine { class MeshRenderer; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int CRPCameraSmallWindowMeshUI_TypeDefinitionIndex = 47898;
+
 	struct alignas(8) CRPCameraSmallWindowMeshUI
 	{
 		::RPGTools::Timeline::CRPCameraSmallWindowMeshUI_MeshUIOutlineType OutlineType; // 0x10

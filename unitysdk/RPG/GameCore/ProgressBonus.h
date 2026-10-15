@@ -9,6 +9,8 @@ namespace RPG::GameCore { class ProgressBonus; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ProgressBonus_TypeDefinitionIndex = 15324;
+
 	class ProgressBonus : public ::System::Object
 	{
 	public:

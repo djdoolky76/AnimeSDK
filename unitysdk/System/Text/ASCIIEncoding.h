@@ -32,6 +32,8 @@ namespace System::Text { class EncoderNLS; }
 
 namespace System::Text
 {
+	inline static constexpr unsigned int ASCIIEncoding_TypeDefinitionIndex = 466;
+
 	class ASCIIEncoding : public ::System::Text::Encoding
 	{
 	public:

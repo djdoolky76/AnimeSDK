@@ -6,6 +6,8 @@
 
 namespace XLua
 {
+	inline static constexpr unsigned int AutoGenTagAttribute_TypeDefinitionIndex = 5606;
+
 	class AutoGenTagAttribute : public ::System::Attribute
 	{
 	public:

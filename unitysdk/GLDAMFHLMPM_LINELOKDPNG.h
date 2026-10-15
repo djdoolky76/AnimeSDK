@@ -6,6 +6,8 @@ class GLDAMFHLMPM_BCDMCGDEKNP;
 
 #define GLDAMFHLMPM_LINELOKDPNG_CTOR_OFFSET UNITYSDK_OFFSET(0x15AAEA50)
 
+inline static constexpr unsigned int GLDAMFHLMPM_LINELOKDPNG_TypeDefinitionIndex = 59855;
+
 	class GLDAMFHLMPM_LINELOKDPNG : public ::System::Object
 	{
 	public:

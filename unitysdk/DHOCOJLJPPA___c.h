@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define DHOCOJLJPPA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E1B9BF0)
 #define DHOCOJLJPPA___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E1B9C00)
 
+inline static constexpr unsigned int DHOCOJLJPPA___c_TypeDefinitionIndex = 29553;
+
 	class DHOCOJLJPPA___c : public ::System::Object
 	{
 	public:

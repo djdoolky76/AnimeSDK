@@ -18,6 +18,8 @@ namespace UnityEngine::UI { class ToggleGroup; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int LogoutConfirm_TypeDefinitionIndex = 9301;
+
 	class LogoutConfirm : public ::MiHoYo::SDK::UIElement
 	{
 	public:

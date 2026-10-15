@@ -9,6 +9,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System::Data
 {
+	inline static constexpr unsigned int RowNotInTableException_TypeDefinitionIndex = 3756;
+
 	class RowNotInTableException : public ::System::Data::DataException
 	{
 	public:

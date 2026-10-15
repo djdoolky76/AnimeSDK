@@ -10,6 +10,8 @@ namespace System { class String; }
 #define KPOFNCOJJAN_GET_TYPE_OFFSET UNITYSDK_OFFSET(0xB5D00C0)
 #define KPOFNCOJJAN_JAILHGGFLDH_OFFSET UNITYSDK_OFFSET(0xB5D00D0)
 
+inline static constexpr unsigned int KPOFNCOJJAN_TypeDefinitionIndex = 56133;
+
 	class KPOFNCOJJAN : public ::DBGDNLLDPFI
 	{
 	public:

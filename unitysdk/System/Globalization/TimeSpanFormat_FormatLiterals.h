@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace System::Globalization
 {
+	inline static constexpr unsigned int TimeSpanFormat_FormatLiterals_TypeDefinitionIndex = 769;
+
 	struct alignas(8) TimeSpanFormat_FormatLiterals
 	{
 		::System::String* AppCompatLiteral; // 0x10

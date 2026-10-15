@@ -7,6 +7,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Effect_LineRendererSkinning_BoneData_TypeDefinitionIndex = 70510;
+
 	class Effect_LineRendererSkinning_BoneData : public ::System::Object
 	{
 	public:

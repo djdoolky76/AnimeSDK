@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define GNLAIADPCFM_HGHCGAENJDJ_OFFSET UNITYSDK_OFFSET(0x15B15B00)
 #define GNLAIADPCFM_NEIMPLFMLAL_OFFSET UNITYSDK_OFFSET(0x15B15C70)
 
+inline static constexpr unsigned int GNLAIADPCFM_TypeDefinitionIndex = 80535;
+
 	class GNLAIADPCFM : public ::System::Object
 	{
 	public:

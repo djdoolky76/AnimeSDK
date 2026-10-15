@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define HDEIAANGMDB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E54B740)
 #define HDEIAANGMDB___C___CCTOR_B__46_0_OFFSET UNITYSDK_OFFSET(0x1E54B750)
 
+inline static constexpr unsigned int HDEIAANGMDB___c_TypeDefinitionIndex = 29196;
+
 	class HDEIAANGMDB___c : public ::System::Object
 	{
 	public:

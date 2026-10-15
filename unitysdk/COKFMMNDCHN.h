@@ -27,6 +27,8 @@ namespace System { class String; }
 #define COKFMMNDCHN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E1350C0)
 #define COKFMMNDCHN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E135120)
 
+inline static constexpr unsigned int COKFMMNDCHN_TypeDefinitionIndex = 33431;
+
 	class COKFMMNDCHN : public ::System::Object
 	{
 	public:

@@ -17,6 +17,8 @@ namespace UnityEngine { class Mesh; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int MeshRenderer_TypeDefinitionIndex = 4185;
+
 	class MeshRenderer : public ::UnityEngine::Renderer
 	{
 	public:

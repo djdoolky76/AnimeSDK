@@ -11,6 +11,8 @@ namespace System { template <typename T1, typename T2> class Converter_2; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int HeartDialModule___c_TypeDefinitionIndex = 65656;
+
 	class HeartDialModule___c : public ::System::Object
 	{
 	public:

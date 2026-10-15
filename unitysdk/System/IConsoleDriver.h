@@ -3,6 +3,8 @@
 
 namespace System
 {
+	inline static constexpr unsigned int IConsoleDriver_TypeDefinitionIndex = 401;
+
 	class IConsoleDriver
 	{
 	public:

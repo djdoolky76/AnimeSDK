@@ -21,6 +21,8 @@ namespace System { class String; }
 #define KFEEHFMJOKD_NMBPGKJJMDP_OFFSET UNITYSDK_OFFSET(0xB396AD0)
 #define KFEEHFMJOKD_PLGPIOPKBMA_OFFSET UNITYSDK_OFFSET(0xB396D30)
 
+inline static constexpr unsigned int KFEEHFMJOKD_TypeDefinitionIndex = 56036;
+
 	class KFEEHFMJOKD : public ::System::Object
 	{
 	public:

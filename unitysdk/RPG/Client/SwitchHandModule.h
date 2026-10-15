@@ -67,6 +67,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SwitchHandModule_TypeDefinitionIndex = 68006;
+
 	class SwitchHandModule : public ::RPG::Client::BaseModule
 	{
 	public:

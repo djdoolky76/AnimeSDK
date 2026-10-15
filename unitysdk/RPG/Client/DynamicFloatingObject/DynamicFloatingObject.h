@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace RPG::Client::DynamicFloatingObject
 {
+	inline static constexpr unsigned int DynamicFloatingObject_TypeDefinitionIndex = 73573;
+
 	class DynamicFloatingObject
 	{
 	public:

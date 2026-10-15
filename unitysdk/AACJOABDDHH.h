@@ -10,6 +10,8 @@ namespace RPG::GameCore { class UnLockPlayerControl; }
 #define AACJOABDDHH_ONSKIP_OFFSET UNITYSDK_OFFSET(0xB0C1B30)
 #define AACJOABDDHH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB0C1840)
 
+inline static constexpr unsigned int AACJOABDDHH_TypeDefinitionIndex = 53459;
+
 	class AACJOABDDHH
 	{
 	public:

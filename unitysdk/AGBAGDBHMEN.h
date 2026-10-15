@@ -9,6 +9,8 @@ namespace System { class String; }
 #define AGBAGDBHMEN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xCF25560)
 #define AGBAGDBHMEN_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xCF25790)
 
+inline static constexpr unsigned int AGBAGDBHMEN_TypeDefinitionIndex = 52256;
+
 	class AGBAGDBHMEN
 	{
 	public:

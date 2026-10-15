@@ -9,6 +9,8 @@ class PKHEJCHNMGI;
 #define CKJDKGMNKBP_OLPAEPFGFIE_OFFSET UNITYSDK_OFFSET(0xD75EDC0)
 #define CKJDKGMNKBP_PIMCHDILMMJ_OFFSET UNITYSDK_OFFSET(0xD75EE50)
 
+inline static constexpr unsigned int CKJDKGMNKBP_TypeDefinitionIndex = 80785;
+
 	class CKJDKGMNKBP : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define GELPCBJABLK_NFBPDEHAFEF_OFFSET UNITYSDK_OFFSET(0x159E0AA0)
 #define GELPCBJABLK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x159E09F0)
 
+inline static constexpr unsigned int GELPCBJABLK_TypeDefinitionIndex = 52942;
+
 	class GELPCBJABLK
 	{
 	public:

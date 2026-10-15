@@ -9,6 +9,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define MJCLAKNBIAH_BDDEFKKBMMD___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB969990)
 #define MJCLAKNBIAH_BDDEFKKBMMD___C___CREATETRAITS_B__10_0_OFFSET UNITYSDK_OFFSET(0xB9699A0)
 
+inline static constexpr unsigned int MJCLAKNBIAH_BDDEFKKBMMD___c_TypeDefinitionIndex = 79740;
+
 	class MJCLAKNBIAH_BDDEFKKBMMD___c : public ::System::Object
 	{
 	public:

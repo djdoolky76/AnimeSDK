@@ -4,6 +4,8 @@
 
 #define JNIPDECJLLH_CTOR_OFFSET UNITYSDK_OFFSET(0xB283090)
 
+inline static constexpr unsigned int JNIPDECJLLH_TypeDefinitionIndex = 47876;
+
 	class JNIPDECJLLH : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

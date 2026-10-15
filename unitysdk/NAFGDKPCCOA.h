@@ -33,6 +33,8 @@ namespace UnityEngine { class Transform; }
 #define NAFGDKPCCOA_SET_SOFTDEATHAREARATIO_OFFSET UNITYSDK_OFFSET(0xBA97CA0)
 #define NAFGDKPCCOA_SET_TARGETPOSTYPE_OFFSET UNITYSDK_OFFSET(0xBA97CE0)
 
+inline static constexpr unsigned int NAFGDKPCCOA_TypeDefinitionIndex = 57645;
+
 	class NAFGDKPCCOA : public ::System::Object
 	{
 	public:

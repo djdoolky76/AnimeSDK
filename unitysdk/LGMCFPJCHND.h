@@ -7,6 +7,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define LGMCFPJCHND_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB69C680)
 #define LGMCFPJCHND_GAIPMAHIPDC_OFFSET UNITYSDK_OFFSET(0xB69C6D0)
 
+inline static constexpr unsigned int LGMCFPJCHND_TypeDefinitionIndex = 54530;
+
 	class LGMCFPJCHND
 	{
 	public:

@@ -99,6 +99,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChimeraStatic_TypeDefinitionIndex = 63417;
+
 	class ChimeraStatic : public ::System::Object
 	{
 	public:

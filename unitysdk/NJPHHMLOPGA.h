@@ -28,6 +28,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define NJPHHMLOPGA_SET_NEXTITEMIDS_OFFSET UNITYSDK_OFFSET(0xBC2A500)
 #define NJPHHMLOPGA_SET_SENDER_OFFSET UNITYSDK_OFFSET(0xBC2A520)
 
+inline static constexpr unsigned int NJPHHMLOPGA_TypeDefinitionIndex = 80289;
+
 	class NJPHHMLOPGA : public ::System::Object
 	{
 	public:

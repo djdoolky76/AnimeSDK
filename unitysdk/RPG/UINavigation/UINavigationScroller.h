@@ -21,6 +21,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace RPG::UINavigation
 {
+	inline static constexpr unsigned int UINavigationScroller_TypeDefinitionIndex = 51740;
+
 	class UINavigationScroller : public ::RPG::UINavigation::UINavigationInControlAction
 	{
 	public:

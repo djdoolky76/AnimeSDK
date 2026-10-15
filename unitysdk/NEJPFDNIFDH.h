@@ -18,6 +18,8 @@ namespace UnityEngine { class Animator; }
 #define NEJPFDNIFDH_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBB68EE0)
 #define NEJPFDNIFDH_TICK_OFFSET UNITYSDK_OFFSET(0xBB68F70)
 
+inline static constexpr unsigned int NEJPFDNIFDH_TypeDefinitionIndex = 55228;
+
 	class NEJPFDNIFDH : public ::GELIALJDFBL
 	{
 	public:

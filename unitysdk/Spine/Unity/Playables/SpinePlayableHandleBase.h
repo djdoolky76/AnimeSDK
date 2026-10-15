@@ -12,6 +12,8 @@ namespace Spine::Unity::Playables { class SpineEventDelegate; }
 
 namespace Spine::Unity::Playables
 {
+	inline static constexpr unsigned int SpinePlayableHandleBase_TypeDefinitionIndex = 45906;
+
 	class SpinePlayableHandleBase : public ::UnityEngine::MonoBehaviour
 	{
 	public:

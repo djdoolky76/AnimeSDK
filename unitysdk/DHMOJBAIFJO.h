@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define DHMOJBAIFJO_MHOCLAENKBF_OFFSET UNITYSDK_OFFSET(0xEBEAC80)
 #define DHMOJBAIFJO_OKEGKAKBPCL_OFFSET UNITYSDK_OFFSET(0xEBEAF60)
 
+inline static constexpr unsigned int DHMOJBAIFJO_TypeDefinitionIndex = 60834;
+
 	class DHMOJBAIFJO : public ::System::Object
 	{
 	public:

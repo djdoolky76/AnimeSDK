@@ -4,6 +4,8 @@
 
 #define NPJKDMFBDFG___C__DISPLAYCLASS65_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBD08F30)
 
+inline static constexpr unsigned int NPJKDMFBDFG___c__DisplayClass65_0_TypeDefinitionIndex = 49438;
+
 	class NPJKDMFBDFG___c__DisplayClass65_0 : public ::System::Object
 	{
 	public:

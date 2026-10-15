@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int HoYoSDKHttpDnsService___c__DisplayClass4_0_TypeDefinitionIndex = 46104;
+
 	class HoYoSDKHttpDnsService___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:

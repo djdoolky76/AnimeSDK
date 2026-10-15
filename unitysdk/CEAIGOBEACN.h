@@ -30,6 +30,8 @@ namespace System { class String; }
 #define CEAIGOBEACN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E08DF10)
 #define CEAIGOBEACN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E08DF70)
 
+inline static constexpr unsigned int CEAIGOBEACN_TypeDefinitionIndex = 26384;
+
 	class CEAIGOBEACN : public ::System::Object
 	{
 	public:

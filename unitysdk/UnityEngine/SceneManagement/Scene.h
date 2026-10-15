@@ -24,6 +24,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace UnityEngine::SceneManagement
 {
+	inline static constexpr unsigned int Scene_TypeDefinitionIndex = 4508;
+
 	struct alignas(4) Scene
 	{
 		::System::Int32 m_Handle; // 0x10

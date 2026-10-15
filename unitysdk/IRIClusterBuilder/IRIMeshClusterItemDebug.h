@@ -9,6 +9,8 @@ namespace UnityEngine { class Mesh; }
 
 namespace IRIClusterBuilder
 {
+	inline static constexpr unsigned int IRIMeshClusterItemDebug_TypeDefinitionIndex = 47748;
+
 	class IRIMeshClusterItemDebug : public ::IRIClusterBuilder::IRIMeshClusterItem
 	{
 	public:

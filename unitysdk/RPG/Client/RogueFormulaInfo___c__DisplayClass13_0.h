@@ -8,6 +8,8 @@ namespace RPG::Client { class RogueFormulaData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueFormulaInfo___c__DisplayClass13_0_TypeDefinitionIndex = 67218;
+
 	class RogueFormulaInfo___c__DisplayClass13_0 : public ::System::Object
 	{
 	public:

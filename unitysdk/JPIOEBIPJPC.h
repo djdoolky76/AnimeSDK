@@ -12,6 +12,8 @@ namespace UnityEngine { class GameObject; }
 #define JPIOEBIPJPC_LINMJBKNEIH_OFFSET UNITYSDK_OFFSET(0xB2C4190)
 #define JPIOEBIPJPC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB2C2C30)
 
+inline static constexpr unsigned int JPIOEBIPJPC_TypeDefinitionIndex = 54831;
+
 	class JPIOEBIPJPC
 	{
 	public:

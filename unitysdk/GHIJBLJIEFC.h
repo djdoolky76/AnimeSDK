@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define GHIJBLJIEFC_SET_OFFSET_OFFSET UNITYSDK_OFFSET(0x15A23380)
 #define GHIJBLJIEFC_SET_SIZE_OFFSET UNITYSDK_OFFSET(0x15A233A0)
 
+inline static constexpr unsigned int GHIJBLJIEFC_TypeDefinitionIndex = 52058;
+
 	class GHIJBLJIEFC : public ::System::Object
 	{
 	public:

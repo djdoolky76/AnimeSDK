@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierModifiyCardLevelOnKongConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierModifiyCardLevelOnKongConfig_TypeDefinitionIndex = 17824;
+
 	class RogueModifierModifiyCardLevelOnKongConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

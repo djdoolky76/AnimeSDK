@@ -12,6 +12,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client::LittleGame::FiveDim
 {
+	inline static constexpr unsigned int FiveDimGridPropView_JIPLAJGFIEB_TypeDefinitionIndex = 77182;
+
 	class FiveDimGridPropView_JIPLAJGFIEB : public ::System::Object
 	{
 	public:

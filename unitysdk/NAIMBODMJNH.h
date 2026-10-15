@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define NAIMBODMJNH_NIPLGNHHFIJ_OFFSET UNITYSDK_OFFSET(0xBA9DEA0)
 #define NAIMBODMJNH__ONBIND_OFFSET UNITYSDK_OFFSET(0xBA9DBB0)
 
+inline static constexpr unsigned int NAIMBODMJNH_TypeDefinitionIndex = 71812;
+
 	class NAIMBODMJNH : public ::FMPCODLIOLG
 	{
 	public:

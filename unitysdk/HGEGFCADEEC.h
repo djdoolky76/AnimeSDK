@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define HGEGFCADEEC_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0x15C95430)
 #define HGEGFCADEEC_NBJFLGNEBED_OFFSET UNITYSDK_OFFSET(0x15C94F30)
 
+inline static constexpr unsigned int HGEGFCADEEC_TypeDefinitionIndex = 69795;
+
 	class HGEGFCADEEC : public ::System::Object
 	{
 	public:

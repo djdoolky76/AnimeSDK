@@ -9,6 +9,8 @@ namespace RPG::GameCore { class RoguePersonaRoomCardConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RoguePersonaRoomCardConfig_TypeDefinitionIndex = 19781;
+
 	class RoguePersonaRoomCardConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

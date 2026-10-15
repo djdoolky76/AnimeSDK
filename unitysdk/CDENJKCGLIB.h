@@ -3,6 +3,8 @@
 
 #define CDENJKCGLIB_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8DD4E0)
 
+inline static constexpr unsigned int CDENJKCGLIB_TypeDefinitionIndex = 43183;
+
 	class CDENJKCGLIB
 	{
 	public:

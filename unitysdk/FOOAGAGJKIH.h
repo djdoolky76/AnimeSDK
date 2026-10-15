@@ -8,6 +8,8 @@ namespace RPG::Client { class PedestrianMemberExternalConfig_Floating; }
 #define FOOAGAGJKIH_ELGGMMHMOEE_OFFSET UNITYSDK_OFFSET(0x158FF410)
 #define FOOAGAGJKIH_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0x158FF390)
 
+inline static constexpr unsigned int FOOAGAGJKIH_TypeDefinitionIndex = 69260;
+
 	class FOOAGAGJKIH : public ::System::Object
 	{
 	public:

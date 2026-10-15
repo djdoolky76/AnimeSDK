@@ -3,6 +3,8 @@
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HAPI_ParmChoiceInfo_TypeDefinitionIndex = 40500;
+
 	struct alignas(4) HAPI_ParmChoiceInfo
 	{
 		::System::Int32 parentParmId; // 0x10

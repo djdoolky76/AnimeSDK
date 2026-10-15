@@ -9,6 +9,8 @@ namespace RPG::Client { template <typename T1, typename T2> class LRUCache_2; }
 #define MGCCNIAPJIF_EGFCFCBHJJP_OFFSET UNITYSDK_OFFSET(0xB915DF0)
 #define MGCCNIAPJIF_IAONPECOKLB_OFFSET UNITYSDK_OFFSET(0xB915D70)
 
+inline static constexpr unsigned int MGCCNIAPJIF_TypeDefinitionIndex = 62791;
+
 	class MGCCNIAPJIF : public ::System::Object
 	{
 	public:

@@ -5,6 +5,8 @@ namespace Cysharp::Threading::Tasks { template <typename T> class IUniTaskAsyncE
 
 namespace Cysharp::Threading::Tasks::Linq
 {
+	inline static constexpr unsigned int Buffer_1_TypeDefinitionIndex = 45269;
+
 	template <typename T>
 	class Buffer_1 : public ::System::Object
 	{

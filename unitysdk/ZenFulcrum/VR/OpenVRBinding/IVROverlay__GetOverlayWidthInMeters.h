@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int IVROverlay__GetOverlayWidthInMeters_TypeDefinitionIndex = 39082;
+
 	class IVROverlay__GetOverlayWidthInMeters : public ::System::MulticastDelegate
 	{
 	public:

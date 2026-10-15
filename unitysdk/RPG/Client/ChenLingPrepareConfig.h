@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChenLingPrepareConfig_TypeDefinitionIndex = 72467;
+
 	class ChenLingPrepareConfig : public ::UnityEngine::MonoBehaviour
 	{
 	public:

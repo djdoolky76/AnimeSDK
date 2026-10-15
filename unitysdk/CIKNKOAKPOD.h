@@ -3,6 +3,8 @@
 #include "unitysdk/Dest/Math/IntersectionTypes.h"
 #include "unitysdk/RPG/MVector3.h"
 
+inline static constexpr unsigned int CIKNKOAKPOD_TypeDefinitionIndex = 6229;
+
 	struct alignas(4) CIKNKOAKPOD
 	{
 		::Dest::Math::IntersectionTypes DLMLMAGCHJK; // 0x10

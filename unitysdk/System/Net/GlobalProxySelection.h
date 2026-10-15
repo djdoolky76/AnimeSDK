@@ -8,6 +8,8 @@ namespace System::Net { class IWebProxy; }
 
 namespace System::Net
 {
+	inline static constexpr unsigned int GlobalProxySelection_TypeDefinitionIndex = 2732;
+
 	class GlobalProxySelection : public ::System::Object
 	{
 	public:

@@ -21,6 +21,8 @@ namespace Entitas { class IGroup; }
 #define AMOHLGIOFCH_NAKJMKKEHKC_OFFSET UNITYSDK_OFFSET(0x1558C230)
 #define AMOHLGIOFCH_NKLJBLOGLCA_OFFSET UNITYSDK_OFFSET(0x1558A2C0)
 
+inline static constexpr unsigned int AMOHLGIOFCH_TypeDefinitionIndex = 76658;
+
 	class AMOHLGIOFCH : public ::System::Object
 	{
 	public:

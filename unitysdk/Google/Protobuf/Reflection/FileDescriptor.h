@@ -53,6 +53,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 
 namespace Google::Protobuf::Reflection
 {
+	inline static constexpr unsigned int FileDescriptor_TypeDefinitionIndex = 5543;
+
 	class FileDescriptor : public ::System::Object
 	{
 	public:

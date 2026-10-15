@@ -16,6 +16,8 @@ namespace RPG::Client::Challenge::Tierce { class ChallengeTierceTeamEditViewMode
 
 namespace RPG::Client::Challenge::Tierce
 {
+	inline static constexpr unsigned int ChallengeTierceTeamEditViewModel_Factory_TypeDefinitionIndex = 81631;
+
 	class ChallengeTierceTeamEditViewModel_Factory : public ::System::Object
 	{
 	public:

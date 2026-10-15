@@ -12,6 +12,8 @@ namespace UnityEngine { class Renderer; }
 #define INSTANCETEST_UNAPPLY_OFFSET UNITYSDK_OFFSET(0x1CBEA8D0)
 #define INSTANCETEST_UPDATE_OFFSET UNITYSDK_OFFSET(0x1CBEA8F0)
 
+inline static constexpr unsigned int InstanceTest_TypeDefinitionIndex = 37486;
+
 	class InstanceTest : public ::UnityEngine::MonoBehaviour
 	{
 	public:

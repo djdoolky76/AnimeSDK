@@ -25,6 +25,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace RPG::Client::PetMarble
 {
+	inline static constexpr unsigned int PetMarbleBattleTimePanel_TypeDefinitionIndex = 74702;
+
 	class PetMarbleBattleTimePanel : public ::UnityEngine::MonoBehaviour
 	{
 	public:

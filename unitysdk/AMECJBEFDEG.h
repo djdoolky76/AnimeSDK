@@ -7,6 +7,8 @@ namespace System { class String; }
 #define AMECJBEFDEG_ALEBBJAFIOG_OFFSET UNITYSDK_OFFSET(0x1557BBE0)
 #define AMECJBEFDEG_CTOR_OFFSET UNITYSDK_OFFSET(0x1557BEA0)
 
+inline static constexpr unsigned int AMECJBEFDEG_TypeDefinitionIndex = 64982;
+
 	class AMECJBEFDEG : public ::System::Object
 	{
 	public:

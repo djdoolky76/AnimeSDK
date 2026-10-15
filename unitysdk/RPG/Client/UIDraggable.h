@@ -28,6 +28,8 @@ namespace UnityEngine::EventSystems { class PointerEventData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UIDraggable_TypeDefinitionIndex = 69084;
+
 	class UIDraggable : public ::UnityEngine::MonoBehaviour
 	{
 	public:

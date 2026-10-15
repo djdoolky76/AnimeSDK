@@ -400,6 +400,8 @@ namespace UnityEngine::AI { class RVOAgent; }
 
 namespace RPG::Client::LittleGame
 {
+	inline static constexpr unsigned int ElfRestaurantGameEntity_TypeDefinitionIndex = 42585;
+
 	class ElfRestaurantGameEntity : public ::Entitas::Entity
 	{
 	public:

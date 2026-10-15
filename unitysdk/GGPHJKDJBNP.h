@@ -4,6 +4,8 @@
 
 #define GGPHJKDJBNP_CTOR_OFFSET UNITYSDK_OFFSET(0x15A12F60)
 
+inline static constexpr unsigned int GGPHJKDJBNP_TypeDefinitionIndex = 47807;
+
 	class GGPHJKDJBNP : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

@@ -21,6 +21,8 @@ class JNNPOLGAAHB;
 #define PPEJPEMHNAO_SET_ACTIVITY_OFFSET UNITYSDK_OFFSET(0xC380D30)
 #define PPEJPEMHNAO_SET_ISINITIALIZED_OFFSET UNITYSDK_OFFSET(0xC380D50)
 
+inline static constexpr unsigned int PPEJPEMHNAO_TypeDefinitionIndex = 81659;
+
 	class PPEJPEMHNAO : public ::System::Object
 	{
 	public:

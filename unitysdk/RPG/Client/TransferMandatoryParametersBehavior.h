@@ -19,6 +19,8 @@ namespace UnityEngine { class Material; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TransferMandatoryParametersBehavior_TypeDefinitionIndex = 70313;
+
 	class TransferMandatoryParametersBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:

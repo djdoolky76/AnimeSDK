@@ -27,6 +27,8 @@ namespace System { class String; }
 #define KGONMGJNBLA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E83C500)
 #define KGONMGJNBLA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E83C560)
 
+inline static constexpr unsigned int KGONMGJNBLA_TypeDefinitionIndex = 34905;
+
 	class KGONMGJNBLA : public ::System::Object
 	{
 	public:

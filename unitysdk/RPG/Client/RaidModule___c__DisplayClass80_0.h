@@ -9,6 +9,8 @@ namespace RPG::Client { class MemberData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RaidModule___c__DisplayClass80_0_TypeDefinitionIndex = 66776;
+
 	class RaidModule___c__DisplayClass80_0 : public ::System::Object
 	{
 	public:

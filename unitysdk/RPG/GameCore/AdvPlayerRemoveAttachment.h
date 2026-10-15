@@ -11,6 +11,8 @@ namespace RPG::GameCore { class DynamicString; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvPlayerRemoveAttachment_TypeDefinitionIndex = 21050;
+
 	class AdvPlayerRemoveAttachment : public ::RPG::GameCore::TaskConfig
 	{
 	public:

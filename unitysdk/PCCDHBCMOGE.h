@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define PCCDHBCMOGE_FKACEBELLNH_OFFSET UNITYSDK_OFFSET(0xBFFD3E0)
 #define PCCDHBCMOGE_PIJKIFIHEGA_OFFSET UNITYSDK_OFFSET(0xBFFD1E0)
 
+inline static constexpr unsigned int PCCDHBCMOGE_TypeDefinitionIndex = 61080;
+
 	class PCCDHBCMOGE : public ::System::Object
 	{
 	public:

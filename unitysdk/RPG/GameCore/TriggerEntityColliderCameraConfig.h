@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TriggerEntityColliderCameraConfig_TypeDefinitionIndex = 23455;
+
 	class TriggerEntityColliderCameraConfig : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -9,6 +9,8 @@ namespace Entitas { class IEntity; }
 #define IIGOFEDFDIG_ONREMOVE_OFFSET UNITYSDK_OFFSET(0x1643C840)
 #define IIGOFEDFDIG_ONUPDATE_OFFSET UNITYSDK_OFFSET(0x1643C050)
 
+inline static constexpr unsigned int IIGOFEDFDIG_TypeDefinitionIndex = 79115;
+
 	class IIGOFEDFDIG
 	{
 	public:

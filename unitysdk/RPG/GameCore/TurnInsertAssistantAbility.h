@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TurnInsertAssistantAbility; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TurnInsertAssistantAbility_TypeDefinitionIndex = 23575;
+
 	class TurnInsertAssistantAbility : public ::RPG::GameCore::TaskConfig
 	{
 	public:

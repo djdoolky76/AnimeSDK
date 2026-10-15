@@ -17,6 +17,8 @@ namespace UnityEngine { class Transform; }
 #define OCEKPCDJMAD_PRELOAD_OFFSET UNITYSDK_OFFSET(0xBD5E130)
 #define OCEKPCDJMAD_RETURN_OFFSET UNITYSDK_OFFSET(0xBD5E420)
 
+inline static constexpr unsigned int OCEKPCDJMAD_TypeDefinitionIndex = 74085;
+
 	class OCEKPCDJMAD : public ::System::Object
 	{
 	public:

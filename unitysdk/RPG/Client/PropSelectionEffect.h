@@ -33,6 +33,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PropSelectionEffect_TypeDefinitionIndex = 60258;
+
 	class PropSelectionEffect : public ::UnityEngine::MonoBehaviour
 	{
 	public:

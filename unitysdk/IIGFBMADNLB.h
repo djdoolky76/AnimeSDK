@@ -17,6 +17,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define IIGFBMADNLB_OGADKAPHHFD_OFFSET UNITYSDK_OFFSET(0x1643B090)
 #define IIGFBMADNLB_SET_LOCKKEY_OFFSET UNITYSDK_OFFSET(0x1643B080)
 
+inline static constexpr unsigned int IIGFBMADNLB_TypeDefinitionIndex = 55144;
+
 	class IIGFBMADNLB : public ::System::Object
 	{
 	public:

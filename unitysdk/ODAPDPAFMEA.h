@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define ODAPDPAFMEA_CTOR_OFFSET UNITYSDK_OFFSET(0xBD77D40)
 #define ODAPDPAFMEA_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBD77D70)
 
+inline static constexpr unsigned int ODAPDPAFMEA_TypeDefinitionIndex = 52584;
+
 	class ODAPDPAFMEA
 	{
 	public:

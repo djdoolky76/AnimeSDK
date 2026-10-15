@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int KFCMCPILLKE_TypeDefinitionIndex = 26027;
+
 	enum class KFCMCPILLKE : ::System::Int32
 	{
 		HBPEDDCOJDB = 0,

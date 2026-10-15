@@ -32,6 +32,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MazeChallengeData_TypeDefinitionIndex = 60906;
+
 	class MazeChallengeData : public ::System::Object
 	{
 	public:

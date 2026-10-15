@@ -19,6 +19,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TargetFetchAdvPropEx_TypeDefinitionIndex = 23875;
+
 	class TargetFetchAdvPropEx : public ::RPG::GameCore::TargetEvaluator
 	{
 	public:

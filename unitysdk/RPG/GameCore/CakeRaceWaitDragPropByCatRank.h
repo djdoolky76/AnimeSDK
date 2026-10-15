@@ -10,6 +10,8 @@ namespace RPG::GameCore { class CakeRaceWaitDragPropByCatRank; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CakeRaceWaitDragPropByCatRank_TypeDefinitionIndex = 24302;
+
 	class CakeRaceWaitDragPropByCatRank : public ::RPG::GameCore::TaskConfig
 	{
 	public:

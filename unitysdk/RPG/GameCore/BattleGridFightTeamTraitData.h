@@ -32,6 +32,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BattleGridFightTeamTraitData_TypeDefinitionIndex = 56285;
+
 	class BattleGridFightTeamTraitData : public ::System::Object
 	{
 	public:

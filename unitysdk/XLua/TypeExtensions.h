@@ -21,6 +21,8 @@ namespace System { class Type; }
 
 namespace XLua
 {
+	inline static constexpr unsigned int TypeExtensions_TypeDefinitionIndex = 50262;
+
 	class TypeExtensions : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int NoInterpMinFloatParameter_TypeDefinitionIndex = 35636;
+
 	class NoInterpMinFloatParameter
 	{
 	public:

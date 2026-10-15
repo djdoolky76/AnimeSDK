@@ -35,6 +35,8 @@ namespace System { class String; }
 #define PEGDMEJLFML_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF19000)
 #define PEGDMEJLFML_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF19060)
 
+inline static constexpr unsigned int PEGDMEJLFML_TypeDefinitionIndex = 29091;
+
 	class PEGDMEJLFML : public ::System::Object
 	{
 	public:

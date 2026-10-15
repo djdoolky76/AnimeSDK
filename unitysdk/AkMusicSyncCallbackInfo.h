@@ -23,6 +23,8 @@ namespace System { class String; }
 #define AKMUSICSYNCCALLBACKINFO_GET_USERCUENAME_OFFSET UNITYSDK_OFFSET(0x1F5A8AA0)
 #define AKMUSICSYNCCALLBACKINFO_SETCPTR_OFFSET UNITYSDK_OFFSET(0x1F5A8020)
 
+inline static constexpr unsigned int AkMusicSyncCallbackInfo_TypeDefinitionIndex = 44769;
+
 	class AkMusicSyncCallbackInfo : public ::AkCallbackInfo
 	{
 	public:

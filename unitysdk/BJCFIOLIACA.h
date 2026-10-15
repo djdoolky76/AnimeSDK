@@ -11,6 +11,8 @@
 #define BJCFIOLIACA_PFMJGBNEJFH_OFFSET UNITYSDK_OFFSET(0x1A780)
 #define BJCFIOLIACA_PILDNFCHMJC_OFFSET UNITYSDK_OFFSET(0x1A780)
 
+inline static constexpr unsigned int BJCFIOLIACA_TypeDefinitionIndex = 69615;
+
 	struct alignas(4) BJCFIOLIACA
 	{
 		::System::Boolean NCPOGCJPCCP; // 0x10

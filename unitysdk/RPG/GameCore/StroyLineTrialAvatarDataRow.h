@@ -9,6 +9,8 @@ namespace RPG::GameCore { class StroyLineTrialAvatarDataRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StroyLineTrialAvatarDataRow_TypeDefinitionIndex = 15200;
+
 	class StroyLineTrialAvatarDataRow : public ::System::Object
 	{
 	public:

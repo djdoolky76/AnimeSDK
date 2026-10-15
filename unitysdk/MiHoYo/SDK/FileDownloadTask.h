@@ -38,6 +38,8 @@ namespace System::Net { class WebResponse; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int FileDownloadTask_TypeDefinitionIndex = 46293;
+
 	class FileDownloadTask : public ::System::Object
 	{
 	public:

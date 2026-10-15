@@ -6,6 +6,8 @@ namespace Proto { class MonopolyActionResult; }
 #define LEOAIFECBCI_CTOR_OFFSET UNITYSDK_OFFSET(0xB65DC10)
 #define LEOAIFECBCI_TRIGGER_OFFSET UNITYSDK_OFFSET(0xB65DB70)
 
+inline static constexpr unsigned int LEOAIFECBCI_TypeDefinitionIndex = 66248;
+
 	class LEOAIFECBCI : public ::System::Object
 	{
 	public:

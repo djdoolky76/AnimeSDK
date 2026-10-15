@@ -4,6 +4,8 @@ namespace RPG::Client::CityCarFlow { class MonoCityCar; }
 
 namespace RPG::Client::CityCarFlow
 {
+	inline static constexpr unsigned int MonoCityCarEmitter_Rule_TypeDefinitionIndex = 82226;
+
 	struct alignas(8) MonoCityCarEmitter_Rule
 	{
 		::RPG::Client::CityCarFlow::MonoCityCar* Car; // 0x10

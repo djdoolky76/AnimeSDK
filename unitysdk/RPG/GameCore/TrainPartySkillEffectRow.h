@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TrainPartySkillEffectRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TrainPartySkillEffectRow_TypeDefinitionIndex = 15335;
+
 	class TrainPartySkillEffectRow : public ::System::Object
 	{
 	public:

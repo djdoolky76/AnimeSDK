@@ -16,6 +16,8 @@ namespace UnityEngine { class Gradient; }
 #define BEEACNMDGNA_CTOR_OFFSET UNITYSDK_OFFSET(0x163117C0)
 #define BEEACNMDGNA_FFFJBMKNJNK_OFFSET UNITYSDK_OFFSET(0x16311770)
 
+inline static constexpr unsigned int BEEACNMDGNA_TypeDefinitionIndex = 49457;
+
 	class BEEACNMDGNA : public ::GNPPNJNBKAI
 	{
 	public:

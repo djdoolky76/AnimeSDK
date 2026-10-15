@@ -27,6 +27,8 @@ namespace System { class String; }
 #define IBECKBPHMFH_SET_TAGLIST_OFFSET UNITYSDK_OFFSET(0x15E2C900)
 #define IBECKBPHMFH_SET_VIEWJSONPATH_OFFSET UNITYSDK_OFFSET(0x15E2C960)
 
+inline static constexpr unsigned int IBECKBPHMFH_TypeDefinitionIndex = 81287;
+
 	class IBECKBPHMFH : public ::System::Object
 	{
 	public:

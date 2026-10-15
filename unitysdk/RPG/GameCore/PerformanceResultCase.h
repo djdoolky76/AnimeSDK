@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PerformanceResultCase_TypeDefinitionIndex = 21243;
+
 	class PerformanceResultCase : public ::RPG::GameCore::JsonConfig
 	{
 	public:

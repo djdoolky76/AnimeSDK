@@ -8,6 +8,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define EIKBBAPBBAB_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x154CE5A0)
 #define EIKBBAPBBAB_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x154CE550)
 
+inline static constexpr unsigned int EIKBBAPBBAB_TypeDefinitionIndex = 56836;
+
 	class EIKBBAPBBAB : public ::System::Object
 	{
 	public:

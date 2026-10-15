@@ -9,6 +9,8 @@ namespace System::Collections { class IEnumerator; }
 #define PACKAGENAMERECORD_MAJNMDJNOLP_OFFSET UNITYSDK_OFFSET(0xC39A070)
 #define PACKAGENAMERECORD_WRITEANDUPLOADBRANCHDATA_OFFSET UNITYSDK_OFFSET(0xC399AE0)
 
+inline static constexpr unsigned int PackageNameRecord_TypeDefinitionIndex = 47580;
+
 	class PackageNameRecord : public ::UnityEngine::MonoBehaviour
 	{
 	public:

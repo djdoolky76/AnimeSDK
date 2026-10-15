@@ -18,6 +18,8 @@ namespace UnityEngine::UI { class Image; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ImageColorGradingScanline_TypeDefinitionIndex = 71044;
+
 	class ImageColorGradingScanline : public ::UnityEngine::EventSystems::UIBehaviour
 	{
 	public:

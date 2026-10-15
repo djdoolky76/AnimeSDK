@@ -45,6 +45,8 @@ namespace UnityEngine { class GameObject; }
 #define GFHHOMONMKN__BNEEDCHECKSTREAMING_OFFSET UNITYSDK_OFFSET(0x159F9970)
 #define GFHHOMONMKN__SOLVEINSTANCELODCALC_OFFSET UNITYSDK_OFFSET(0x159F8CB0)
 
+inline static constexpr unsigned int GFHHOMONMKN_TypeDefinitionIndex = 73847;
+
 	class GFHHOMONMKN : public ::GDMONJOAKHD
 	{
 	public:

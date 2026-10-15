@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int VolumetricCloudMgr_TypeDefinitionIndex = 37735;
+
 	class VolumetricCloudMgr : public ::System::Object
 	{
 	public:

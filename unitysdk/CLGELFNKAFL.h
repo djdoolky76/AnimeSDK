@@ -8,6 +8,8 @@ namespace System { class Type; }
 #define CLGELFNKAFL_GET_ALIAS_OFFSET UNITYSDK_OFFSET(0xD77ED80)
 #define CLGELFNKAFL_GET_COMPONENTTYPE_OFFSET UNITYSDK_OFFSET(0xD77ED90)
 
+inline static constexpr unsigned int CLGELFNKAFL_TypeDefinitionIndex = 49035;
+
 	class CLGELFNKAFL : public ::System::Attribute
 	{
 	public:

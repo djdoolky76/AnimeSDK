@@ -19,6 +19,8 @@ namespace UnityEngine { class MonoBehaviour; }
 #define MCDMAAEEJLF_LJDAEBEEFOG_OFFSET UNITYSDK_OFFSET(0xB877A10)
 #define MCDMAAEEJLF_OBPMCIELGBH_OFFSET UNITYSDK_OFFSET(0xB875A10)
 
+inline static constexpr unsigned int MCDMAAEEJLF_TypeDefinitionIndex = 70366;
+
 	class MCDMAAEEJLF : public ::RPG::Client::BehaviorBase
 	{
 	public:

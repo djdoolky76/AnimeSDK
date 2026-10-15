@@ -11,6 +11,8 @@ class LMJPODEEGKK;
 #define EHKFLGBPFDL_EXECUTE_OFFSET UNITYSDK_OFFSET(0x154AD4E0)
 #define EHKFLGBPFDL_LCJBLHAKCGC_OFFSET UNITYSDK_OFFSET(0x154AE040)
 
+inline static constexpr unsigned int EHKFLGBPFDL_TypeDefinitionIndex = 77600;
+
 	class EHKFLGBPFDL : public ::System::Object
 	{
 	public:

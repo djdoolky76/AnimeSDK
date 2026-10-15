@@ -3,6 +3,8 @@
 
 namespace System::Xml::XPath
 {
+	inline static constexpr unsigned int XPathNodeType_TypeDefinitionIndex = 1978;
+
 	enum class XPathNodeType : ::System::Int32
 	{
 		Root = 0,

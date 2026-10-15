@@ -18,6 +18,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System
 {
+	inline static constexpr unsigned int OperationCanceledException_TypeDefinitionIndex = 311;
+
 	class OperationCanceledException : public ::System::SystemException
 	{
 	public:

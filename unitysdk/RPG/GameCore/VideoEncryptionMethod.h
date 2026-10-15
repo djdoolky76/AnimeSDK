@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int VideoEncryptionMethod_TypeDefinitionIndex = 15457;
+
 	enum class VideoEncryptionMethod : ::System::Int32
 	{
 		ADX = 0,

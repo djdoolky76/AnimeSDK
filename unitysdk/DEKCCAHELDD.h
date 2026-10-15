@@ -24,6 +24,8 @@ namespace UnityEngine { class RectTransform; }
 #define DEKCCAHELDD_NJBDJBHEBAN_OFFSET UNITYSDK_OFFSET(0xE511880)
 #define DEKCCAHELDD_ODGLEFLLDPI_OFFSET UNITYSDK_OFFSET(0xE511D90)
 
+inline static constexpr unsigned int DEKCCAHELDD_TypeDefinitionIndex = 71873;
+
 	class DEKCCAHELDD : public ::FMPCODLIOLG
 	{
 	public:

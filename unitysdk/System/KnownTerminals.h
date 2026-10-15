@@ -8,6 +8,8 @@
 
 namespace System
 {
+	inline static constexpr unsigned int KnownTerminals_TypeDefinitionIndex = 403;
+
 	class KnownTerminals : public ::System::Object
 	{
 	public:

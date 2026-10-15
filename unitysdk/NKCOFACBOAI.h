@@ -22,6 +22,8 @@ namespace System { class String; }
 #define NKCOFACBOAI_OOKFNPPHHEK_OFFSET UNITYSDK_OFFSET(0xBC2FF50)
 #define NKCOFACBOAI_OPCKNBHNBOA_OFFSET UNITYSDK_OFFSET(0xBC30400)
 
+inline static constexpr unsigned int NKCOFACBOAI_TypeDefinitionIndex = 54387;
+
 	class NKCOFACBOAI : public ::System::Object
 	{
 	public:

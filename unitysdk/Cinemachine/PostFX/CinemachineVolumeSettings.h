@@ -6,6 +6,8 @@
 
 namespace Cinemachine::PostFX
 {
+	inline static constexpr unsigned int CinemachineVolumeSettings_TypeDefinitionIndex = 39885;
+
 	class CinemachineVolumeSettings : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -22,6 +22,8 @@ namespace System::Net::Http::Headers { class ContentRangeHeaderValue; }
 
 namespace System::Net::Http::Headers
 {
+	inline static constexpr unsigned int ContentRangeHeaderValue_TypeDefinitionIndex = 3783;
+
 	class ContentRangeHeaderValue : public ::System::Object
 	{
 	public:

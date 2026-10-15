@@ -11,6 +11,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define EGLMGCKMJDM___C___ENSUREBLENDCONFIGSLOADED_B__13_0_OFFSET UNITYSDK_OFFSET(0x1451EBC0)
 #define EGLMGCKMJDM___C___ENSUREBLENDCONFIGSLOADED_B__13_1_OFFSET UNITYSDK_OFFSET(0x1451EBE0)
 
+inline static constexpr unsigned int EGLMGCKMJDM___c_TypeDefinitionIndex = 81763;
+
 	class EGLMGCKMJDM___c : public ::System::Object
 	{
 	public:

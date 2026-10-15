@@ -7,6 +7,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int VulkanFeaturesConfig_TypeDefinitionIndex = 4204;
+
 	class VulkanFeaturesConfig : public ::System::Object
 	{
 	public:

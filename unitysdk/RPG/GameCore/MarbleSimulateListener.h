@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MarbleSimulateListener_TypeDefinitionIndex = 24293;
+
 	class MarbleSimulateListener : public ::RPG::GameCore::TaskConfig
 	{
 	public:

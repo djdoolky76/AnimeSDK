@@ -11,6 +11,8 @@ namespace RPG::GameCore { class FourRotateVoxelDirectionRuleConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FourRotateVoxelDirectionRuleConfig_TypeDefinitionIndex = 16757;
+
 	class FourRotateVoxelDirectionRuleConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
 	public:

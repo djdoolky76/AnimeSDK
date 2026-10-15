@@ -5,6 +5,8 @@ namespace System { class Object; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByAvatarBaseType___O_TypeDefinitionIndex = 22562;
+
 	class ByAvatarBaseType___O : public ::System::Object
 	{
 	public:

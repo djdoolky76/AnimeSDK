@@ -20,6 +20,8 @@ namespace UnityEngine::Formats::Alembic::Sdk { template <typename T> class Pinne
 
 namespace UnityEngine::Formats::Alembic::Importer
 {
+	inline static constexpr unsigned int AlembicCurvesElement_TypeDefinitionIndex = 45852;
+
 	class AlembicCurvesElement : public ::UnityEngine::Formats::Alembic::Importer::AlembicElement
 	{
 	public:

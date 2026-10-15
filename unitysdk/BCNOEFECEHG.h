@@ -6,6 +6,8 @@ namespace RPG::Client { class MonopolyContentTrigger; }
 
 #define BCNOEFECEHG_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x162E9BD0)
 
+inline static constexpr unsigned int BCNOEFECEHG_TypeDefinitionIndex = 66280;
+
 	class BCNOEFECEHG : public ::System::Object
 	{
 	public:

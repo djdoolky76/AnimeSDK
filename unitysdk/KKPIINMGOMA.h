@@ -4,6 +4,8 @@
 
 #define KKPIINMGOMA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C908440)
 
+inline static constexpr unsigned int KKPIINMGOMA_TypeDefinitionIndex = 42918;
+
 	class KKPIINMGOMA : public ::System::Object
 	{
 	public:

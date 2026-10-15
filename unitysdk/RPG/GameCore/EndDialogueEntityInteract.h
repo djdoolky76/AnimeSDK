@@ -11,6 +11,8 @@ namespace RPG::GameCore { class EndDialogueEntityInteract; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EndDialogueEntityInteract_TypeDefinitionIndex = 20395;
+
 	class EndDialogueEntityInteract : public ::RPG::GameCore::TaskConfig
 	{
 	public:

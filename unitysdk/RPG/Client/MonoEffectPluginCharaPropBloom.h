@@ -11,6 +11,8 @@ namespace UnityEngine { class Material; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEffectPluginCharaPropBloom_TypeDefinitionIndex = 69950;
+
 	class MonoEffectPluginCharaPropBloom : public ::RPG::Client::MonoEffectPluginCharaPropBase
 	{
 	public:

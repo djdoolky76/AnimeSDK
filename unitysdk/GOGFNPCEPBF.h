@@ -10,6 +10,8 @@ namespace System { class Type; }
 #define GOGFNPCEPBF_FNAAJGAHIAI_OFFSET UNITYSDK_OFFSET(0x15B2F1B0)
 #define GOGFNPCEPBF_IHPAKOMCHGP_OFFSET UNITYSDK_OFFSET(0x15B2F440)
 
+inline static constexpr unsigned int GOGFNPCEPBF_TypeDefinitionIndex = 62596;
+
 	class GOGFNPCEPBF : public ::System::Object
 	{
 	public:

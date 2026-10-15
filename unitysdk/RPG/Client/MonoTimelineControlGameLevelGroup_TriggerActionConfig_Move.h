@@ -7,6 +7,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoTimelineControlGameLevelGroup_TriggerActionConfig_Move_TypeDefinitionIndex = 60446;
+
 	class MonoTimelineControlGameLevelGroup_TriggerActionConfig_Move : public ::RPG::Client::MonoTimelineControlGameLevelGroup_TriggerActionConfig
 	{
 	public:

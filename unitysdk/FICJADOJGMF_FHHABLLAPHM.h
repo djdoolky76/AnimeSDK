@@ -29,6 +29,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 #define FICJADOJGMF_FHHABLLAPHM_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0x1579C140)
 #define FICJADOJGMF_FHHABLLAPHM_PODJJPBKLDC_OFFSET UNITYSDK_OFFSET(0x157A1F80)
 
+inline static constexpr unsigned int FICJADOJGMF_FHHABLLAPHM_TypeDefinitionIndex = 68752;
+
 	class FICJADOJGMF_FHHABLLAPHM : public ::System::Object
 	{
 	public:

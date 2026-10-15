@@ -14,6 +14,8 @@ namespace UnityEngine::UI { class Toggle; }
 #define OHHIDJIFFGD_IAMCNOAAALI_OFFSET UNITYSDK_OFFSET(0xBE6B150)
 #define OHHIDJIFFGD_JCKGONAAIPB_OFFSET UNITYSDK_OFFSET(0xBE6B1C0)
 
+inline static constexpr unsigned int OHHIDJIFFGD_TypeDefinitionIndex = 72869;
+
 	class OHHIDJIFFGD : public ::LBAMBIMMJKB
 	{
 	public:

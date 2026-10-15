@@ -10,6 +10,8 @@ namespace RPG::GameCore { class AIDecisionUnitConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AIDecisionGroup_TypeDefinitionIndex = 15488;
+
 	class AIDecisionGroup : public ::RPG::GameCore::JsonConfig
 	{
 	public:

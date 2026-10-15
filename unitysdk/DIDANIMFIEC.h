@@ -21,6 +21,8 @@ namespace System { class Object; }
 #define DIDANIMFIEC_JNCNGPMMDAG_OFFSET UNITYSDK_OFFSET(0x3C36820)
 #define DIDANIMFIEC_NHCFLDCDLCP_OFFSET UNITYSDK_OFFSET(0x1CD25630)
 
+inline static constexpr unsigned int DIDANIMFIEC_TypeDefinitionIndex = 10664;
+
 	struct alignas(8) DIDANIMFIEC
 	{
 		::LELCKJPOPAO* BEHHICMOFIE; // 0x10

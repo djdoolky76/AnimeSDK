@@ -30,6 +30,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define HNIICFCDBGB_PMJLIMECKJB_OFFSET UNITYSDK_OFFSET(0x15D99550)
 #define HNIICFCDBGB_PNAOFJDFFEO_OFFSET UNITYSDK_OFFSET(0x15D98D40)
 
+inline static constexpr unsigned int HNIICFCDBGB_TypeDefinitionIndex = 69221;
+
 	class HNIICFCDBGB : public ::System::Object
 	{
 	public:

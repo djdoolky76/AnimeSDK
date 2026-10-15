@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 #define BAIGCLGBNKJ_FILLRSPCMDIDSTO_OFFSET UNITYSDK_OFFSET(0x15E6CD50)
 #define BAIGCLGBNKJ__DOCHECKIMPL_OFFSET UNITYSDK_OFFSET(0x15E6CDE0)
 
+inline static constexpr unsigned int BAIGCLGBNKJ_TypeDefinitionIndex = 59881;
+
 	class BAIGCLGBNKJ : public ::RPG::Client::SyncCheckItemBase
 	{
 	public:

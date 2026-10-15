@@ -28,6 +28,8 @@ namespace System { class String; }
 #define GDKCEFMKPOB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E44C860)
 #define GDKCEFMKPOB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E44C8C0)
 
+inline static constexpr unsigned int GDKCEFMKPOB_TypeDefinitionIndex = 31436;
+
 	class GDKCEFMKPOB : public ::System::Object
 	{
 	public:

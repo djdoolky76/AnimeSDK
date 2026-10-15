@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define AIIAOELLFAP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E27CB20)
 #define AIIAOELLFAP___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1E27CB30)
 
+inline static constexpr unsigned int AIIAOELLFAP___c_TypeDefinitionIndex = 27954;
+
 	class AIIAOELLFAP___c : public ::System::Object
 	{
 	public:

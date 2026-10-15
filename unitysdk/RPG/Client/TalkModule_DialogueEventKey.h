@@ -7,6 +7,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TalkModule_DialogueEventKey_TypeDefinitionIndex = 68034;
+
 	struct alignas(4) TalkModule_DialogueEventKey
 	{
 		::System::UInt32 RogueNPCID; // 0x10

@@ -7,6 +7,8 @@ namespace System { class String; }
 
 #define AMBNKDFFEKK_CTOR_OFFSET UNITYSDK_OFFSET(0x15576530)
 
+inline static constexpr unsigned int AMBNKDFFEKK_TypeDefinitionIndex = 48935;
+
 	class AMBNKDFFEKK : public ::System::Object
 	{
 	public:

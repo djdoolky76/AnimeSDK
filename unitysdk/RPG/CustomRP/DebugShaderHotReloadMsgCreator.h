@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int DebugShaderHotReloadMsgCreator_TypeDefinitionIndex = 37750;
+
 	class DebugShaderHotReloadMsgCreator
 	{
 	public:

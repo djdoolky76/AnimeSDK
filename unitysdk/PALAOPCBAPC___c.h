@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define PALAOPCBAPC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DEF03C0)
 #define PALAOPCBAPC___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1DEF03D0)
 
+inline static constexpr unsigned int PALAOPCBAPC___c_TypeDefinitionIndex = 33773;
+
 	class PALAOPCBAPC___c : public ::System::Object
 	{
 	public:

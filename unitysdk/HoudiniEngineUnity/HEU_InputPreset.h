@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_InputPreset_TypeDefinitionIndex = 40366;
+
 	class HEU_InputPreset : public ::System::Object
 	{
 	public:

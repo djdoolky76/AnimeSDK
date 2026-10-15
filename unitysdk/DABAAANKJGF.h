@@ -41,6 +41,8 @@ namespace System { class String; }
 #define DABAAANKJGF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E149040)
 #define DABAAANKJGF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E1490A0)
 
+inline static constexpr unsigned int DABAAANKJGF_TypeDefinitionIndex = 30638;
+
 	class DABAAANKJGF : public ::System::Object
 	{
 	public:

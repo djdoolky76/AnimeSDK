@@ -9,6 +9,8 @@ namespace Entitas { class IContext; }
 
 namespace RPG::Client::LittleGameShare
 {
+	inline static constexpr unsigned int ClientAutonomousSnapShotSendProcessor_1_TypeDefinitionIndex = 36901;
+
 	template <typename T>
 	class ClientAutonomousSnapShotSendProcessor_1 : public ::System::Object
 	{

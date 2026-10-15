@@ -7,6 +7,8 @@ namespace System { class Nullable; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GotoMapParam_TypeDefinitionIndex = 65643;
+
 	class GotoMapParam : public ::System::Object
 	{
 	public:

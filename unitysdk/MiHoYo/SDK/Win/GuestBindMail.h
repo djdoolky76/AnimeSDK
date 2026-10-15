@@ -23,6 +23,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int GuestBindMail_TypeDefinitionIndex = 9497;
+
 	class GuestBindMail : public ::MiHoYo::SDK::UIElement
 	{
 	public:

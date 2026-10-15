@@ -16,6 +16,8 @@ namespace UnityEngine::UIElements::StyleSheets { class InheritedStylesData; }
 
 namespace UnityEngine::UIElements::StyleSheets
 {
+	inline static constexpr unsigned int InheritedStylesData_TypeDefinitionIndex = 6010;
+
 	class InheritedStylesData : public ::System::Object
 	{
 	public:

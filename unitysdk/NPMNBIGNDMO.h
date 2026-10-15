@@ -6,6 +6,8 @@
 #define NPMNBIGNDMO_CTOR_OFFSET UNITYSDK_OFFSET(0xBD10440)
 #define NPMNBIGNDMO_NOMLNGPMDLO_OFFSET UNITYSDK_OFFSET(0xBD10250)
 
+inline static constexpr unsigned int NPMNBIGNDMO_TypeDefinitionIndex = 70868;
+
 	class NPMNBIGNDMO : public ::KKAKDKDKNKM
 	{
 	public:

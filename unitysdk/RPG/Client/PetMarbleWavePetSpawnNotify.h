@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PetMarbleWavePetSpawnNotify_TypeDefinitionIndex = 65832;
+
 	class PetMarbleWavePetSpawnNotify : public ::System::Object
 	{
 	public:

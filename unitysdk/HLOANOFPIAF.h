@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define HLOANOFPIAF_CTOR_OFFSET UNITYSDK_OFFSET(0x15D736A0)
 #define HLOANOFPIAF_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15D736D0)
 
+inline static constexpr unsigned int HLOANOFPIAF_TypeDefinitionIndex = 54484;
+
 	class HLOANOFPIAF
 	{
 	public:

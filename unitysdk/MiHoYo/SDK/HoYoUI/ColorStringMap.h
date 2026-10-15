@@ -6,6 +6,8 @@
 
 namespace MiHoYo::SDK::HoYoUI
 {
+	inline static constexpr unsigned int ColorStringMap_TypeDefinitionIndex = 46728;
+
 	class ColorStringMap : public ::MiHoYo::SDK::JSONObject
 	{
 	public:

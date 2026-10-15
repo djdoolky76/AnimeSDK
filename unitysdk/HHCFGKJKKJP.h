@@ -4,6 +4,8 @@
 
 #define HHCFGKJKKJP_CTOR_OFFSET UNITYSDK_OFFSET(0x15CB4760)
 
+inline static constexpr unsigned int HHCFGKJKKJP_TypeDefinitionIndex = 61273;
+
 	class HHCFGKJKKJP : public ::System::Exception
 	{
 	public:

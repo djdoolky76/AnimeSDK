@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SubLevelGraphDynamicStringOverride_TypeDefinitionIndex = 20717;
+
 	class SubLevelGraphDynamicStringOverride : public ::RPG::GameCore::JsonConfig
 	{
 	public:

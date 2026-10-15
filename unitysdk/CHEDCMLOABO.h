@@ -13,6 +13,8 @@ namespace System { class Object; }
 #define CHEDCMLOABO_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C5D4E50)
 #define CHEDCMLOABO_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C5D4DD0)
 
+inline static constexpr unsigned int CHEDCMLOABO_TypeDefinitionIndex = 36243;
+
 	class CHEDCMLOABO : public ::System::MulticastDelegate
 	{
 	public:

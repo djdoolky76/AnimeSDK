@@ -13,6 +13,8 @@ namespace UnityEngine { class Transform; }
 #define TRANSFORMVERSIONTRACKER_INIT_OFFSET UNITYSDK_OFFSET(0x1F636410)
 #define TRANSFORMVERSIONTRACKER_UPDATEVERSION_OFFSET UNITYSDK_OFFSET(0x1F636490)
 
+inline static constexpr unsigned int TransformVersionTracker_TypeDefinitionIndex = 44973;
+
 	class TransformVersionTracker : public ::System::Object
 	{
 	public:

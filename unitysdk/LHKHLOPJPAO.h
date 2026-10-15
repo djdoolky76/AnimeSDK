@@ -7,6 +7,8 @@ class KNFCEJEJINK;
 #define LHKHLOPJPAO_CTOR_OFFSET UNITYSDK_OFFSET(0xB6B6AA0)
 #define LHKHLOPJPAO_HJMLOLJBBPH_OFFSET UNITYSDK_OFFSET(0xB6B6A20)
 
+inline static constexpr unsigned int LHKHLOPJPAO_TypeDefinitionIndex = 77702;
+
 	class LHKHLOPJPAO : public ::HBLDGJCDJPF
 	{
 	public:

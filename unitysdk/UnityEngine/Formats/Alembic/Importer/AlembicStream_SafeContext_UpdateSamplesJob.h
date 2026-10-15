@@ -6,6 +6,8 @@
 
 namespace UnityEngine::Formats::Alembic::Importer
 {
+	inline static constexpr unsigned int AlembicStream_SafeContext_UpdateSamplesJob_TypeDefinitionIndex = 45864;
+
 	struct alignas(4) AlembicStream_SafeContext_UpdateSamplesJob
 	{
 		::UnityEngine::Formats::Alembic::Sdk::aiContext context; // 0x10

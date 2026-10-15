@@ -39,6 +39,8 @@ namespace System { class String; }
 #define GLLAALNAHNE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E4C2110)
 #define GLLAALNAHNE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E4C2170)
 
+inline static constexpr unsigned int GLLAALNAHNE_TypeDefinitionIndex = 33935;
+
 	class GLLAALNAHNE : public ::System::Object
 	{
 	public:

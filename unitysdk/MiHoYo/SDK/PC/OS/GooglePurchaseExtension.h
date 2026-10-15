@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::PC::OS
 {
+	inline static constexpr unsigned int GooglePurchaseExtension_TypeDefinitionIndex = 8536;
+
 	class GooglePurchaseExtension : public ::System::Object
 	{
 	public:

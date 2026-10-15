@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int RenderStateBlock_TypeDefinitionIndex = 4765;
+
 	struct alignas(4) RenderStateBlock
 	{
 		::UnityEngine::Rendering::BlendState m_BlendState; // 0x10

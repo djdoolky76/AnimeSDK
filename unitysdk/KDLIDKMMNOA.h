@@ -16,6 +16,8 @@ namespace System::Text { class StringBuilder; }
 #define KDLIDKMMNOA_SET_ID_OFFSET UNITYSDK_OFFSET(0xAF40)
 #define KDLIDKMMNOA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x13990)
 
+inline static constexpr unsigned int KDLIDKMMNOA_TypeDefinitionIndex = 51957;
+
 	struct alignas(4) KDLIDKMMNOA
 	{
 		::System::UInt32 _ID_k__BackingField; // 0x10

@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define PHPEPPKFMJO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF3FB20)
 #define PHPEPPKFMJO___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1DF3FB30)
 
+inline static constexpr unsigned int PHPEPPKFMJO___c_TypeDefinitionIndex = 35130;
+
 	class PHPEPPKFMJO___c : public ::System::Object
 	{
 	public:

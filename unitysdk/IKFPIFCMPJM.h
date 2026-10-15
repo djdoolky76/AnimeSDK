@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define IKFPIFCMPJM_MPJOHNOMFHP_OFFSET UNITYSDK_OFFSET(0x164899B0)
 #define IKFPIFCMPJM_TEARDOWN_OFFSET UNITYSDK_OFFSET(0x16489020)
 
+inline static constexpr unsigned int IKFPIFCMPJM_TypeDefinitionIndex = 75945;
+
 	class IKFPIFCMPJM : public ::System::Object
 	{
 	public:

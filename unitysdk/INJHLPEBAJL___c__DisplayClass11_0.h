@@ -7,6 +7,8 @@ class INJHLPEBAJL;
 #define INJHLPEBAJL___C__DISPLAYCLASS11_0_CTOR_OFFSET UNITYSDK_OFFSET(0x164F0960)
 #define INJHLPEBAJL___C__DISPLAYCLASS11_0__ONDETAILCHANGE_B__0_OFFSET UNITYSDK_OFFSET(0x164F17A0)
 
+inline static constexpr unsigned int INJHLPEBAJL___c__DisplayClass11_0_TypeDefinitionIndex = 71270;
+
 	class INJHLPEBAJL___c__DisplayClass11_0 : public ::System::Object
 	{
 	public:

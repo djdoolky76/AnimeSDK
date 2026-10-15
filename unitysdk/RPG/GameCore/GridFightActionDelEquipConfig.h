@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightActionDelEquipConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightActionDelEquipConfig_TypeDefinitionIndex = 19324;
+
 	class GridFightActionDelEquipConfig : public ::RPG::GameCore::GridFightActionConfigBase
 	{
 	public:

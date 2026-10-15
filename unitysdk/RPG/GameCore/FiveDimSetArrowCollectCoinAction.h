@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FiveDimSetArrowCollectCoinAction; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimSetArrowCollectCoinAction_TypeDefinitionIndex = 18781;
+
 	class FiveDimSetArrowCollectCoinAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
 	public:

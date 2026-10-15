@@ -18,6 +18,8 @@ namespace UnityEngine::Rendering { class CommandBuffer; }
 #define JDLBJEFHFPK_ODBJPBFIHPE_OFFSET UNITYSDK_OFFSET(0x165D53C0)
 #define JDLBJEFHFPK_PKADDEPKJFN_OFFSET UNITYSDK_OFFSET(0x165D5690)
 
+inline static constexpr unsigned int JDLBJEFHFPK_TypeDefinitionIndex = 49360;
+
 	class JDLBJEFHFPK : public ::HHJGACLHFDJ
 	{
 	public:

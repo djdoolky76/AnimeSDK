@@ -9,6 +9,8 @@ namespace System { class String; }
 #define ABBNDLOOJJB_EXECUTE_OFFSET UNITYSDK_OFFSET(0xB0EBCF0)
 #define ABBNDLOOJJB_TICK_OFFSET UNITYSDK_OFFSET(0xB0EBD70)
 
+inline static constexpr unsigned int ABBNDLOOJJB_TypeDefinitionIndex = 78345;
+
 	class ABBNDLOOJJB : public ::System::Object
 	{
 	public:

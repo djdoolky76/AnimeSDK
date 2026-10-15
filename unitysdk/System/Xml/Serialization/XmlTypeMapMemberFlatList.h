@@ -9,6 +9,8 @@ namespace System::Xml::Serialization { class ListMap; }
 
 namespace System::Xml::Serialization
 {
+	inline static constexpr unsigned int XmlTypeMapMemberFlatList_TypeDefinitionIndex = 2052;
+
 	class XmlTypeMapMemberFlatList : public ::System::Xml::Serialization::XmlTypeMapMemberExpandable
 	{
 	public:

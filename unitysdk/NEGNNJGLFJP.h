@@ -28,6 +28,8 @@ namespace System { class String; }
 #define NEGNNJGLFJP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EAF4D80)
 #define NEGNNJGLFJP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EAF4DE0)
 
+inline static constexpr unsigned int NEGNNJGLFJP_TypeDefinitionIndex = 27319;
+
 	class NEGNNJGLFJP : public ::System::Object
 	{
 	public:

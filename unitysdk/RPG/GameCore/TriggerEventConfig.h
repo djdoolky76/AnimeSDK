@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TriggerEventConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TriggerEventConfig_TypeDefinitionIndex = 18636;
+
 	class TriggerEventConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

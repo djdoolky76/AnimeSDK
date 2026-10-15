@@ -16,6 +16,8 @@ namespace RPG::GameCore { class TriggerEntityColliderCameraConfig; }
 #define OOOIFLEEDLJ_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBF93610)
 #define OOOIFLEEDLJ_TICK_OFFSET UNITYSDK_OFFSET(0xBF936C0)
 
+inline static constexpr unsigned int OOOIFLEEDLJ_TypeDefinitionIndex = 55737;
+
 	class OOOIFLEEDLJ : public ::GELIALJDFBL
 	{
 	public:

@@ -7,6 +7,8 @@ namespace System { class String; }
 #define KELONCAICPO_PPJLCJPKCAD_GET_PREFABPATH_OFFSET UNITYSDK_OFFSET(0xB37E510)
 #define KELONCAICPO_PPJLCJPKCAD_GET_TEXTPATH_OFFSET UNITYSDK_OFFSET(0xB37E580)
 
+inline static constexpr unsigned int KELONCAICPO_PPJLCJPKCAD_TypeDefinitionIndex = 71690;
+
 	class KELONCAICPO_PPJLCJPKCAD : public ::System::Object
 	{
 	public:

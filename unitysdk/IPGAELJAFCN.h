@@ -4,6 +4,8 @@
 
 #define IPGAELJAFCN_CTOR_OFFSET UNITYSDK_OFFSET(0x1651F930)
 
+inline static constexpr unsigned int IPGAELJAFCN_TypeDefinitionIndex = 61274;
+
 	class IPGAELJAFCN : public ::System::Exception
 	{
 	public:

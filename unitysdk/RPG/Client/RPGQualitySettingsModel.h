@@ -11,6 +11,8 @@ namespace RPG::Client { class RPGQualitySettingsModel; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RPGQualitySettingsModel_TypeDefinitionIndex = 67924;
+
 	class RPGQualitySettingsModel : public ::System::Object
 	{
 	public:

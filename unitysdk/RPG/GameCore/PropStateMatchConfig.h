@@ -11,6 +11,8 @@ namespace RPG::GameCore { class PropStateMatchConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PropStateMatchConfig_TypeDefinitionIndex = 22034;
+
 	class PropStateMatchConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define MGGBPKANFOA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA255C0)
 #define MGGBPKANFOA___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1EA255D0)
 
+inline static constexpr unsigned int MGGBPKANFOA___c_TypeDefinitionIndex = 33395;
+
 	class MGGBPKANFOA___c : public ::System::Object
 	{
 	public:

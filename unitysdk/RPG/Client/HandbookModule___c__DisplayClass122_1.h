@@ -7,6 +7,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int HandbookModule___c__DisplayClass122_1_TypeDefinitionIndex = 65635;
+
 	template <typename T>
 	class HandbookModule___c__DisplayClass122_1 : public ::System::Object
 	{

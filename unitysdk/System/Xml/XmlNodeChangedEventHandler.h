@@ -13,6 +13,8 @@ namespace System::Xml { class XmlNodeChangedEventArgs; }
 
 namespace System::Xml
 {
+	inline static constexpr unsigned int XmlNodeChangedEventHandler_TypeDefinitionIndex = 1916;
+
 	class XmlNodeChangedEventHandler : public ::System::MulticastDelegate
 	{
 	public:

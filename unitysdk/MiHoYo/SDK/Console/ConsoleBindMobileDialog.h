@@ -25,6 +25,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace MiHoYo::SDK::Console
 {
+	inline static constexpr unsigned int ConsoleBindMobileDialog_TypeDefinitionIndex = 8964;
+
 	class ConsoleBindMobileDialog : public ::MiHoYo::SDK::Console::ConsoleDialogBase
 	{
 	public:

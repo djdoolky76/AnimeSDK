@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define BODBGCCAANO_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D9EEB80)
 #define BODBGCCAANO_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D9EE4A0)
 
+inline static constexpr unsigned int BODBGCCAANO_TypeDefinitionIndex = 14435;
+
 	class BODBGCCAANO : public ::System::Object
 	{
 	public:

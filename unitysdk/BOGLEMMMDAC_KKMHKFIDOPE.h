@@ -7,6 +7,8 @@ namespace UnityEngine { class ParticleSystem; }
 
 #define BOGLEMMMDAC_KKMHKFIDOPE_CTOR_OFFSET UNITYSDK_OFFSET(0xC191210)
 
+inline static constexpr unsigned int BOGLEMMMDAC_KKMHKFIDOPE_TypeDefinitionIndex = 69888;
+
 	class BOGLEMMMDAC_KKMHKFIDOPE : public ::System::Object
 	{
 	public:

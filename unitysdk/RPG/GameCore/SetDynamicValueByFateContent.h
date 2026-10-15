@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetDynamicValueByFateContent_TypeDefinitionIndex = 23284;
+
 	class SetDynamicValueByFateContent : public ::RPG::GameCore::SetDynamicValueBase
 	{
 	public:

@@ -5,6 +5,8 @@
 
 #define CANFFHPKHGB_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5C8D80)
 
+inline static constexpr unsigned int CANFFHPKHGB_TypeDefinitionIndex = 36831;
+
 	class CANFFHPKHGB : public ::System::Object
 	{
 	public:

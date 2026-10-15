@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightModifierAugmentNodeBanEnemyDifficultyCo
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightModifierAugmentNodeBanEnemyDifficultyConfig_TypeDefinitionIndex = 19486;
+
 	class GridFightModifierAugmentNodeBanEnemyDifficultyConfig : public ::RPG::GameCore::GridFightModifierConfigBase
 	{
 	public:

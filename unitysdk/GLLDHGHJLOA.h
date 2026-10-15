@@ -44,6 +44,8 @@ namespace System { class String; }
 #define GLLDHGHJLOA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E4C31E0)
 #define GLLDHGHJLOA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E4C3240)
 
+inline static constexpr unsigned int GLLDHGHJLOA_TypeDefinitionIndex = 27559;
+
 	class GLLDHGHJLOA : public ::System::Object
 	{
 	public:

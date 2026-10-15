@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int ContextMenu_TypeDefinitionIndex = 4306;
+
 	class ContextMenu : public ::System::Attribute
 	{
 	public:

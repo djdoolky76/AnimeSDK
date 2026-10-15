@@ -14,6 +14,8 @@ namespace System { class String; }
 #define IJJGPIPMNAE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CF18B40)
 #define IJJGPIPMNAE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CF18B00)
 
+inline static constexpr unsigned int IJJGPIPMNAE_TypeDefinitionIndex = 23375;
+
 	class IJJGPIPMNAE : public ::RPG::GameCore::SetDynamicValueBase
 	{
 	public:

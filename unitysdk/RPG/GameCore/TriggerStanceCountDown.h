@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TriggerStanceCountDown; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TriggerStanceCountDown_TypeDefinitionIndex = 22717;
+
 	class TriggerStanceCountDown : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -14,6 +14,8 @@ namespace UnityEngine { class Light; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int Light_OnParticleLightEvent_TypeDefinitionIndex = 4147;
+
 	class Light_OnParticleLightEvent : public ::System::MulticastDelegate
 	{
 	public:

@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define DMNMAKAGOGN_CTOR_OFFSET UNITYSDK_OFFSET(0xFEC7CC0)
 #define DMNMAKAGOGN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xFEC7CF0)
 
+inline static constexpr unsigned int DMNMAKAGOGN_TypeDefinitionIndex = 58587;
+
 	class DMNMAKAGOGN
 	{
 	public:

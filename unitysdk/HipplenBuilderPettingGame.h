@@ -17,6 +17,8 @@ namespace UnityEngine { class SkinnedMeshRenderer; }
 #define HIPPLENBUILDERPETTINGGAME_START_OFFSET UNITYSDK_OFFSET(0x15DED9C0)
 #define HIPPLENBUILDERPETTINGGAME_UPDATE_OFFSET UNITYSDK_OFFSET(0x15DEDB00)
 
+inline static constexpr unsigned int HipplenBuilderPettingGame_TypeDefinitionIndex = 47205;
+
 	class HipplenBuilderPettingGame : public ::UnityEngine::MonoBehaviour
 	{
 	public:

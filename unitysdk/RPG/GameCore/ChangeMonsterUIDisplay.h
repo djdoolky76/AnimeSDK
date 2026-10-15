@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ChangeMonsterUIDisplay; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChangeMonsterUIDisplay_TypeDefinitionIndex = 23675;
+
 	class ChangeMonsterUIDisplay : public ::RPG::GameCore::ChangeCharacterUIDisplay
 	{
 	public:

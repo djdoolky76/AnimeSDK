@@ -110,6 +110,8 @@ namespace System { template <typename T> class Func_1; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int MiHoYoSDKWebView_TypeDefinitionIndex = 46592;
+
 	class MiHoYoSDKWebView : public ::UnityEngine::MonoBehaviour
 	{
 	public:

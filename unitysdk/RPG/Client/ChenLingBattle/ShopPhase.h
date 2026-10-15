@@ -32,6 +32,8 @@ namespace System { class Object; }
 
 namespace RPG::Client::ChenLingBattle
 {
+	inline static constexpr unsigned int ShopPhase_TypeDefinitionIndex = 76321;
+
 	class ShopPhase : public ::RPG::Client::ChenLingBattle::GamePhase
 	{
 	public:

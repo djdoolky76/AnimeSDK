@@ -10,6 +10,8 @@ namespace UnityEngine { class Collider; }
 #define MDCFOMBACAK_KFLNENIGDIN_OFFSET UNITYSDK_OFFSET(0xB89E860)
 #define MDCFOMBACAK_PGKPGNJJMMB_OFFSET UNITYSDK_OFFSET(0xB89E980)
 
+inline static constexpr unsigned int MDCFOMBACAK_TypeDefinitionIndex = 54742;
+
 	class MDCFOMBACAK : public ::GGJEMEHMBNL
 	{
 	public:

@@ -28,6 +28,8 @@ namespace System { class String; }
 #define MCHADDCNKPC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9F53E0)
 #define MCHADDCNKPC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E9F5440)
 
+inline static constexpr unsigned int MCHADDCNKPC_TypeDefinitionIndex = 34732;
+
 	class MCHADDCNKPC : public ::System::Object
 	{
 	public:

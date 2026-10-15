@@ -149,6 +149,8 @@ namespace System { class String; }
 
 namespace System::Numerics
 {
+	inline static constexpr unsigned int BigInteger_TypeDefinitionIndex = 3835;
+
 	struct alignas(8) BigInteger
 	{
 		::System::Int32 _sign; // 0x10

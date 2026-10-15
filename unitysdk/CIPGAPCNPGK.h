@@ -7,6 +7,8 @@ class NCINHOOPPNG;
 #define CIPGAPCNPGK_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xCF90EA0)
 #define CIPGAPCNPGK_CTOR_OFFSET UNITYSDK_OFFSET(0xCF91050)
 
+inline static constexpr unsigned int CIPGAPCNPGK_TypeDefinitionIndex = 62611;
+
 	class CIPGAPCNPGK : public ::System::Object
 	{
 	public:

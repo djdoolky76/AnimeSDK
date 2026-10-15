@@ -8,6 +8,8 @@ namespace UnityEngine::Timeline { class TimelineClip; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int TimeScaleTrack_TypeDefinitionIndex = 48517;
+
 	class TimeScaleTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
 	public:

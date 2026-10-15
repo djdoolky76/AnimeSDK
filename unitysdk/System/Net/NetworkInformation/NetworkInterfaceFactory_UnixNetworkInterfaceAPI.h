@@ -8,6 +8,8 @@
 
 namespace System::Net::NetworkInformation
 {
+	inline static constexpr unsigned int NetworkInterfaceFactory_UnixNetworkInterfaceAPI_TypeDefinitionIndex = 2955;
+
 	class NetworkInterfaceFactory_UnixNetworkInterfaceAPI : public ::System::Net::NetworkInformation::NetworkInterfaceFactory
 	{
 	public:

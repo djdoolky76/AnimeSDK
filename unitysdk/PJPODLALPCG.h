@@ -13,6 +13,8 @@ namespace System { class String; }
 #define PJPODLALPCG_GMLKMFDNNFP_OFFSET UNITYSDK_OFFSET(0xC2A0490)
 #define PJPODLALPCG_JDAGFHEPMHF_OFFSET UNITYSDK_OFFSET(0xC2A03A0)
 
+inline static constexpr unsigned int PJPODLALPCG_TypeDefinitionIndex = 60311;
+
 	class PJPODLALPCG : public ::System::Object
 	{
 	public:

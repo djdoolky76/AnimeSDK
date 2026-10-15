@@ -7,6 +7,8 @@ namespace System { class Type; }
 
 namespace UnityEngine::Timeline
 {
+	inline static constexpr unsigned int SupportsChildTracksAttribute_TypeDefinitionIndex = 38861;
+
 	class SupportsChildTracksAttribute : public ::System::Attribute
 	{
 	public:

@@ -6,6 +6,8 @@
 
 namespace UnityEngine::Timeline
 {
+	inline static constexpr unsigned int ControlTrack_TypeDefinitionIndex = 38815;
+
 	class ControlTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
 	public:

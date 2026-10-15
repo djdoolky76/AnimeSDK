@@ -5,6 +5,8 @@ namespace System { class Object; }
 
 #define CEFOCMCFGBK_CTOR_OFFSET UNITYSDK_OFFSET(0xC9D5760)
 
+inline static constexpr unsigned int CEFOCMCFGBK_TypeDefinitionIndex = 77731;
+
 	class CEFOCMCFGBK : public ::System::Object
 	{
 	public:

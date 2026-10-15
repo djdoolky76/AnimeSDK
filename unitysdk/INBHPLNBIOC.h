@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 #define INBHPLNBIOC_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CF25DC0)
 #define INBHPLNBIOC_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CF25D20)
 
+inline static constexpr unsigned int INBHPLNBIOC_TypeDefinitionIndex = 22612;
+
 	class INBHPLNBIOC : public ::RPG::GameCore::TaskConfig
 	{
 	public:

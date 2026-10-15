@@ -10,6 +10,8 @@ namespace MiHoYo::SDK::Win { class CNPayPlatManager; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int CNPayPlatManager___c__DisplayClass54_0_TypeDefinitionIndex = 9278;
+
 	class CNPayPlatManager___c__DisplayClass54_0 : public ::System::Object
 	{
 	public:

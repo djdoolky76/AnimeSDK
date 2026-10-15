@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::LittleGame::ChenLing
 {
+	inline static constexpr unsigned int ChenLingSoldierWalkEffects_TypeDefinitionIndex = 77980;
+
 	class ChenLingSoldierWalkEffects : public ::UnityEngine::MonoBehaviour
 	{
 	public:

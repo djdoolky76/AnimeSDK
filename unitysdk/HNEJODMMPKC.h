@@ -22,6 +22,8 @@ namespace System { class String; }
 #define HNEJODMMPKC_MOMDALOFBEE_OFFSET UNITYSDK_OFFSET(0x1CAEDD10)
 #define HNEJODMMPKC_NBCKMAFIBPI_OFFSET UNITYSDK_OFFSET(0x1CAED6E0)
 
+inline static constexpr unsigned int HNEJODMMPKC_TypeDefinitionIndex = 42066;
+
 	class HNEJODMMPKC : public ::System::Object
 	{
 	public:

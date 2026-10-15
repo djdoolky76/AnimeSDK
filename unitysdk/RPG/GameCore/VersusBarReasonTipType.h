@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int VersusBarReasonTipType_TypeDefinitionIndex = 24699;
+
 	enum class VersusBarReasonTipType : ::System::Int32
 	{
 		Small = 0,

@@ -29,6 +29,8 @@ namespace System { class String; }
 #define MOMHHDACBOF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EAAFA00)
 #define MOMHHDACBOF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EAAFA60)
 
+inline static constexpr unsigned int MOMHHDACBOF_TypeDefinitionIndex = 34897;
+
 	class MOMHHDACBOF : public ::System::Object
 	{
 	public:

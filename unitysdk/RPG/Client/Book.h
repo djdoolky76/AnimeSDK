@@ -32,6 +32,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Book_TypeDefinitionIndex = 66372;
+
 	class Book : public ::System::Object
 	{
 	public:

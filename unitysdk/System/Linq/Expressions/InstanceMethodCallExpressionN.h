@@ -13,6 +13,8 @@ namespace System::Reflection { class MethodInfo; }
 
 namespace System::Linq::Expressions
 {
+	inline static constexpr unsigned int InstanceMethodCallExpressionN_TypeDefinitionIndex = 3253;
+
 	class InstanceMethodCallExpressionN : public ::System::Linq::Expressions::InstanceMethodCallExpression
 	{
 	public:

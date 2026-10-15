@@ -26,6 +26,8 @@ namespace System { class String; }
 #define PEFPJIEKKNP_SET_LOGPREFIX_OFFSET UNITYSDK_OFFSET(0xC03C920)
 #define PEFPJIEKKNP_SET_SIMPLELOGONLY_OFFSET UNITYSDK_OFFSET(0xC03C9A0)
 
+inline static constexpr unsigned int PEFPJIEKKNP_TypeDefinitionIndex = 73780;
+
 	class PEFPJIEKKNP : public ::System::Attribute
 	{
 	public:

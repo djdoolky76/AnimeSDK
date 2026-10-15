@@ -28,6 +28,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define AONPHMEKJJE_OGFJMAAFAOI_OKMBOOPOPGE_OFFSET UNITYSDK_OFFSET(0x158C5B50)
 #define AONPHMEKJJE_OGFJMAAFAOI_ONCLICK_OFFSET UNITYSDK_OFFSET(0x158C5E10)
 
+inline static constexpr unsigned int AONPHMEKJJE_OGFJMAAFAOI_TypeDefinitionIndex = 60252;
+
 	class AONPHMEKJJE_OGFJMAAFAOI : public ::System::Object
 	{
 	public:

@@ -15,6 +15,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MatchThreeV2Module___c_TypeDefinitionIndex = 66035;
+
 	class MatchThreeV2Module___c : public ::System::Object
 	{
 	public:

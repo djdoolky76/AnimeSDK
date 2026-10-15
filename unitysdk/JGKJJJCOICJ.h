@@ -18,6 +18,8 @@ namespace UnityEngine { class GameObject; }
 #define JGKJJJCOICJ_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0xB19C6F0)
 #define JGKJJJCOICJ_OJGPHAIABGK_OFFSET UNITYSDK_OFFSET(0xB19BC90)
 
+inline static constexpr unsigned int JGKJJJCOICJ_TypeDefinitionIndex = 78721;
+
 	class JGKJJJCOICJ : public ::FKPLNMJHANM
 	{
 	public:

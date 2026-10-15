@@ -28,6 +28,8 @@ namespace System { class String; }
 #define LDNPBALACDB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9007A0)
 #define LDNPBALACDB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E900800)
 
+inline static constexpr unsigned int LDNPBALACDB_TypeDefinitionIndex = 29686;
+
 	class LDNPBALACDB : public ::System::Object
 	{
 	public:

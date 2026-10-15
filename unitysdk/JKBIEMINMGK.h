@@ -18,6 +18,8 @@ class OIKDEOMMOAM;
 #define JKBIEMINMGK_OHNHPOFCONB_OFFSET UNITYSDK_OFFSET(0xB2122F0)
 #define JKBIEMINMGK_SET_OWNER_OFFSET UNITYSDK_OFFSET(0xB2122E0)
 
+inline static constexpr unsigned int JKBIEMINMGK_TypeDefinitionIndex = 54197;
+
 	class JKBIEMINMGK : public ::System::Object
 	{
 	public:

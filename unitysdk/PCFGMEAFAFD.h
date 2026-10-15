@@ -11,6 +11,8 @@ class OPCJCLBGKOK;
 #define PCFGMEAFAFD_SET_FIREBUTTON_OFFSET UNITYSDK_OFFSET(0xBFFF5B0)
 #define PCFGMEAFAFD__ONBIND_OFFSET UNITYSDK_OFFSET(0xBFFF150)
 
+inline static constexpr unsigned int PCFGMEAFAFD_TypeDefinitionIndex = 71916;
+
 	class PCFGMEAFAFD : public ::FMPCODLIOLG
 	{
 	public:

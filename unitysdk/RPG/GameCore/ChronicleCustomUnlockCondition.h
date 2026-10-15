@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChronicleCustomUnlockCondition_TypeDefinitionIndex = 18971;
+
 	enum class ChronicleCustomUnlockCondition : ::System::Int32
 	{
 		EnterMap = 1,

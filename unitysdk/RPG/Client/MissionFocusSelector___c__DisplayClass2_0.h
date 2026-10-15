@@ -9,6 +9,8 @@ namespace RPG::Client { class MainMissionData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MissionFocusSelector___c__DisplayClass2_0_TypeDefinitionIndex = 66164;
+
 	class MissionFocusSelector___c__DisplayClass2_0 : public ::System::Object
 	{
 	public:

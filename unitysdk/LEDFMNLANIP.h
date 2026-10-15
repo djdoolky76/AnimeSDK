@@ -7,6 +7,8 @@
 #define LEDFMNLANIP_HADOHLNHHGB_OFFSET UNITYSDK_OFFSET(0x1C73A8A0)
 #define LEDFMNLANIP_HKKFFCBJOKM_OFFSET UNITYSDK_OFFSET(0x1C73A6F0)
 
+inline static constexpr unsigned int LEDFMNLANIP_TypeDefinitionIndex = 37140;
+
 	class LEDFMNLANIP : public ::System::Object
 	{
 	public:

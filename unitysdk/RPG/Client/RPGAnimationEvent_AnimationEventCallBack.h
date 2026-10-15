@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RPGAnimationEvent_AnimationEventCallBack_TypeDefinitionIndex = 72859;
+
 	class RPGAnimationEvent_AnimationEventCallBack : public ::System::MulticastDelegate
 	{
 	public:

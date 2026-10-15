@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define GEDICCGGDGI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E454610)
 #define GEDICCGGDGI___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E454620)
 
+inline static constexpr unsigned int GEDICCGGDGI___c_TypeDefinitionIndex = 27762;
+
 	class GEDICCGGDGI___c : public ::System::Object
 	{
 	public:

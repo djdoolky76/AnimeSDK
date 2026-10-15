@@ -10,6 +10,8 @@ namespace RPG::GameCore { class LevelNPCTrainPassengerParam; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelNPCTrainPassengerParam_TypeDefinitionIndex = 17270;
+
 	class LevelNPCTrainPassengerParam : public ::RPG::GameCore::LevelNPCOverrideBehaviorParameter
 	{
 	public:

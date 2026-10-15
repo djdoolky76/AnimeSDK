@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueActTriggerRogueFormulaSelectWithActivationB
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueActTriggerRogueFormulaSelectWithActivationBuffConfig_TypeDefinitionIndex = 19653;
+
 	class RogueActTriggerRogueFormulaSelectWithActivationBuffConfig : public ::RPG::GameCore::RogueActionConfigBase
 	{
 	public:

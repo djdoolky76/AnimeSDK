@@ -17,6 +17,8 @@ namespace VLB { class VolumetricLightBeam; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MusicVisualization_BeatEffectElementLightSimple_TypeDefinitionIndex = 70812;
+
 	class MusicVisualization_BeatEffectElementLightSimple : public ::RPG::Client::MusicVisualization_BeatEffectElementVisualBase
 	{
 	public:

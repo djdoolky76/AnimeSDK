@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TimeRewindEntityControlMode_TypeDefinitionIndex = 24529;
+
 	enum class TimeRewindEntityControlMode : ::System::Int32
 	{
 		LongPress = 0,

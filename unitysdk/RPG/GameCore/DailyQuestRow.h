@@ -9,6 +9,8 @@ namespace RPG::GameCore { class DailyQuestRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DailyQuestRow_TypeDefinitionIndex = 13119;
+
 	class DailyQuestRow : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client::ParkourGame
 {
+	inline static constexpr unsigned int ParkourGameLevelConfigAsset_TypeDefinitionIndex = 74210;
+
 	class ParkourGameLevelConfigAsset : public ::UnityEngine::ScriptableObject
 	{
 	public:

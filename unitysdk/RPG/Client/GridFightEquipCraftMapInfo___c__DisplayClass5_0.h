@@ -9,6 +9,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightEquipCraftMapInfo___c__DisplayClass5_0_TypeDefinitionIndex = 64522;
+
 	class GridFightEquipCraftMapInfo___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:

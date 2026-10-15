@@ -30,6 +30,8 @@ namespace System { class String; }
 #define EBOPMIBKNBE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E247050)
 #define EBOPMIBKNBE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E2470B0)
 
+inline static constexpr unsigned int EBOPMIBKNBE_TypeDefinitionIndex = 27025;
+
 	class EBOPMIBKNBE : public ::System::Object
 	{
 	public:

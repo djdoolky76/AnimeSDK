@@ -17,6 +17,8 @@ namespace System::Text { class StringBuilder; }
 #define EFANACEOGDH_PRINTMEMBERS_OFFSET UNITYSDK_OFFSET(0x3C52490)
 #define EFANACEOGDH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3C52480)
 
+inline static constexpr unsigned int EFANACEOGDH_TypeDefinitionIndex = 44189;
+
 	struct alignas(8) EFANACEOGDH
 	{
 		::System::Func_2<::System::Threading::CancellationToken, ::Cysharp::Threading::Tasks::UniTask>* IMDLGFPMPEK; // 0x10

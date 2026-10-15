@@ -30,6 +30,8 @@ namespace System { class String; }
 #define NJMHBOMPING_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB4D910)
 #define NJMHBOMPING_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB4D970)
 
+inline static constexpr unsigned int NJMHBOMPING_TypeDefinitionIndex = 29785;
+
 	class NJMHBOMPING : public ::System::Object
 	{
 	public:

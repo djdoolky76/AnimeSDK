@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace MiHoYo::SDK::PluginUI
 {
+	inline static constexpr unsigned int IPluginUIService_ShowPluginUITask_TypeDefinitionIndex = 9151;
+
 	class IPluginUIService_ShowPluginUITask : public ::System::MulticastDelegate
 	{
 	public:

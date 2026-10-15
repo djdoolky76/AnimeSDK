@@ -8,6 +8,8 @@ namespace System::Buffers { template <typename T> class ArrayPool_1; }
 
 namespace Collections::Pooled
 {
+	inline static constexpr unsigned int PooledListForClass_1_TypeDefinitionIndex = 5113;
+
 	template <typename T>
 	class PooledListForClass_1 : public ::System::Object
 	{

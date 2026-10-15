@@ -9,6 +9,8 @@ namespace System { class Action; }
 #define CLOCIDKMMAL_EXECUTE_OFFSET UNITYSDK_OFFSET(0xDA1E970)
 #define CLOCIDKMMAL_TICK_OFFSET UNITYSDK_OFFSET(0xDA1EA20)
 
+inline static constexpr unsigned int CLOCIDKMMAL_TypeDefinitionIndex = 78349;
+
 	class CLOCIDKMMAL : public ::System::Object
 	{
 	public:

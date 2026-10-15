@@ -8,6 +8,8 @@
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int UIBase_TypeDefinitionIndex = 8227;
+
 	class UIBase : public ::UnityEngine::MonoBehaviour
 	{
 	public:

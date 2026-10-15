@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define CAPKINMFNIL_SET_LEVELID_OFFSET UNITYSDK_OFFSET(0x1C546AA0)
 #define CAPKINMFNIL_SET_REMAININGROUND_OFFSET UNITYSDK_OFFSET(0x1C546AE0)
 
+inline static constexpr unsigned int CAPKINMFNIL_TypeDefinitionIndex = 41914;
+
 	class CAPKINMFNIL : public ::System::Object
 	{
 	public:

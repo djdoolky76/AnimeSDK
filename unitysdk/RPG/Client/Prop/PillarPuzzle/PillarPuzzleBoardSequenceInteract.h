@@ -19,6 +19,8 @@ namespace System::Collections { class IEnumerator; }
 
 namespace RPG::Client::Prop::PillarPuzzle
 {
+	inline static constexpr unsigned int PillarPuzzleBoardSequenceInteract_TypeDefinitionIndex = 78971;
+
 	class PillarPuzzleBoardSequenceInteract : public ::RPG::Client::Prop::PillarPuzzle::PillarPuzzleBoardSeqenceHit
 	{
 	public:

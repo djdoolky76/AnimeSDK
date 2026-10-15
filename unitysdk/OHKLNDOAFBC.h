@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TurnBasedModifierInstance; }
 #define OHKLNDOAFBC_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xBE71DD0)
 #define OHKLNDOAFBC_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xBE71D60)
 
+inline static constexpr unsigned int OHKLNDOAFBC_TypeDefinitionIndex = 56600;
+
 	class OHKLNDOAFBC : public ::CMPGEAFHHDC
 	{
 	public:

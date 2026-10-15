@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FateBattleArcherProgressReachLimit; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FateBattleArcherProgressReachLimit_TypeDefinitionIndex = 23293;
+
 	class FateBattleArcherProgressReachLimit : public ::RPG::GameCore::TaskConfig
 	{
 	public:

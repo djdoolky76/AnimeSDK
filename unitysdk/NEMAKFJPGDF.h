@@ -25,6 +25,8 @@ namespace System { class String; }
 #define NEMAKFJPGDF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EAF9DA0)
 #define NEMAKFJPGDF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EAF9E00)
 
+inline static constexpr unsigned int NEMAKFJPGDF_TypeDefinitionIndex = 29541;
+
 	class NEMAKFJPGDF : public ::System::Object
 	{
 	public:

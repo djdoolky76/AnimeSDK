@@ -6,6 +6,8 @@ class HCAJDCFFEAE;
 
 #define AAKEKBEKPJA_LIBLAELCOLE_CTOR_OFFSET UNITYSDK_OFFSET(0xB0CD090)
 
+inline static constexpr unsigned int AAKEKBEKPJA_LIBLAELCOLE_TypeDefinitionIndex = 81853;
+
 	class AAKEKBEKPJA_LIBLAELCOLE : public ::System::Object
 	{
 	public:

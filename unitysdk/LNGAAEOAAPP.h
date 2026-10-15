@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define LNGAAEOAAPP_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D11B940)
 #define LNGAAEOAAPP_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D11B260)
 
+inline static constexpr unsigned int LNGAAEOAAPP_TypeDefinitionIndex = 14696;
+
 	class LNGAAEOAAPP : public ::System::Object
 	{
 	public:

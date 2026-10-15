@@ -24,6 +24,8 @@ namespace System { class Exception; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ServerSelectPhase_TypeDefinitionIndex = 61163;
+
 	class ServerSelectPhase : public ::RPG::Client::LoginPhase
 	{
 	public:

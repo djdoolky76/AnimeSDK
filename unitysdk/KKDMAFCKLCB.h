@@ -37,6 +37,8 @@ namespace System { class String; }
 #define KKDMAFCKLCB_PPJPCGIMICH_OFFSET UNITYSDK_OFFSET(0xB4B9380)
 #define KKDMAFCKLCB_SET_FIRETIME_OFFSET UNITYSDK_OFFSET(0xB4BB0D0)
 
+inline static constexpr unsigned int KKDMAFCKLCB_TypeDefinitionIndex = 60304;
+
 	class KKDMAFCKLCB : public ::FIMDJOBJCNE
 	{
 	public:

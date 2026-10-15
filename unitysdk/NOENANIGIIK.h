@@ -8,6 +8,8 @@ class NOENANIGIIK;
 #define NOENANIGIIK_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D2407F0)
 #define NOENANIGIIK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D2407B0)
 
+inline static constexpr unsigned int NOENANIGIIK_TypeDefinitionIndex = 21043;
+
 	class NOENANIGIIK : public ::RPG::GameCore::TaskConfig
 	{
 	public:

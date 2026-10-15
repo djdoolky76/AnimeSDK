@@ -34,6 +34,8 @@ namespace UnityEngine { class RectTransform; }
 #define PFELEAAJODJ_PHGCJGAPNJD_OFFSET UNITYSDK_OFFSET(0xC20B510)
 #define PFELEAAJODJ__ONBIND_OFFSET UNITYSDK_OFFSET(0xC20B310)
 
+inline static constexpr unsigned int PFELEAAJODJ_TypeDefinitionIndex = 71995;
+
 	class PFELEAAJODJ : public ::FMPCODLIOLG
 	{
 	public:

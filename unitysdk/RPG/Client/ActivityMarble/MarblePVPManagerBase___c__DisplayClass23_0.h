@@ -15,6 +15,8 @@ namespace System { class Action; }
 
 namespace RPG::Client::ActivityMarble
 {
+	inline static constexpr unsigned int MarblePVPManagerBase___c__DisplayClass23_0_TypeDefinitionIndex = 76011;
+
 	class MarblePVPManagerBase___c__DisplayClass23_0 : public ::System::Object
 	{
 	public:

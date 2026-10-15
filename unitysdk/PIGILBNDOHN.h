@@ -9,6 +9,8 @@ namespace AstraFX::Fireworks { class AstraFX_FireworksMonoPlugin; }
 #define PIGILBNDOHN_CTOR_OFFSET UNITYSDK_OFFSET(0xC25FFB0)
 #define PIGILBNDOHN_RESETSIMULATIONSTATE_OFFSET UNITYSDK_OFFSET(0xC25FCD0)
 
+inline static constexpr unsigned int PIGILBNDOHN_TypeDefinitionIndex = 49024;
+
 	class PIGILBNDOHN : public ::UnityEngine::AstraFXRendererDelegate
 	{
 	public:

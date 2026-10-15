@@ -9,6 +9,8 @@ namespace System { class Type; }
 #define KIEEIEMHEFD_CCTOR_OFFSET UNITYSDK_OFFSET(0xB41C9D0)
 #define KIEEIEMHEFD_LMMDFHDLDAD_OFFSET UNITYSDK_OFFSET(0xB41C800)
 
+inline static constexpr unsigned int KIEEIEMHEFD_TypeDefinitionIndex = 53629;
+
 	class KIEEIEMHEFD : public ::System::Object
 	{
 	public:

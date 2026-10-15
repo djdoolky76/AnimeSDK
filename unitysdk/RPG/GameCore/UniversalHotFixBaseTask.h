@@ -12,6 +12,8 @@ namespace RPG::GameCore { class UniversalHotFixTaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int UniversalHotFixBaseTask_TypeDefinitionIndex = 23356;
+
 	class UniversalHotFixBaseTask : public ::RPG::GameCore::TaskConfig
 	{
 	public:

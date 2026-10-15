@@ -9,6 +9,8 @@ namespace HoudiniEngineUnity { class Test_TreeInstance; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int Test_TreeInstance_TypeDefinitionIndex = 40757;
+
 	class Test_TreeInstance : public ::System::Object
 	{
 	public:

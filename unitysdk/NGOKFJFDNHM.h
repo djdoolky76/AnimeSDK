@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define NGOKFJFDNHM_LMCKAHPJAEE_OFFSET UNITYSDK_OFFSET(0xBBB3010)
 #define NGOKFJFDNHM_SET_UNLOCKEDLEVEL_OFFSET UNITYSDK_OFFSET(0xBBB30D0)
 
+inline static constexpr unsigned int NGOKFJFDNHM_TypeDefinitionIndex = 80723;
+
 	class NGOKFJFDNHM : public ::System::Object
 	{
 	public:

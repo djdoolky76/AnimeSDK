@@ -9,6 +9,8 @@ namespace System { class Type; }
 
 namespace MessagePack::Internal
 {
+	inline static constexpr unsigned int DynamicObjectTypeBuilder___c__DisplayClass5_0_TypeDefinitionIndex = 7330;
+
 	class DynamicObjectTypeBuilder___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:

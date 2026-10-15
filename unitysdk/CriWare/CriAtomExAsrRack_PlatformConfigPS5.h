@@ -7,6 +7,8 @@
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriAtomExAsrRack_PlatformConfigPS5_TypeDefinitionIndex = 39916;
+
 	struct alignas(4) CriAtomExAsrRack_PlatformConfigPS5
 	{
 		::System::Int32 userId; // 0x10

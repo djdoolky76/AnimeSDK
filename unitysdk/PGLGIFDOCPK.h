@@ -11,6 +11,8 @@ namespace RPG::GameCore { class WaitRotatableRegionLoadFinish; }
 #define PGLGIFDOCPK_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC228210)
 #define PGLGIFDOCPK_TICK_OFFSET UNITYSDK_OFFSET(0xC228260)
 
+inline static constexpr unsigned int PGLGIFDOCPK_TypeDefinitionIndex = 52995;
+
 	class PGLGIFDOCPK : public ::GELIALJDFBL
 	{
 	public:

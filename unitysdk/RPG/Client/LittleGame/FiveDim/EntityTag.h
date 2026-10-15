@@ -3,6 +3,8 @@
 
 namespace RPG::Client::LittleGame::FiveDim
 {
+	inline static constexpr unsigned int EntityTag_TypeDefinitionIndex = 43274;
+
 	enum class EntityTag : ::System::Int32
 	{
 		Unknown = 0,

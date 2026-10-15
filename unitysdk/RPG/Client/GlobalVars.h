@@ -130,6 +130,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GlobalVars_TypeDefinitionIndex = 61291;
+
 	class GlobalVars : public ::System::Object
 	{
 	public:

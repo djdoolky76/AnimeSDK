@@ -10,6 +10,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Effect_Scale_TypeDefinitionIndex = 70549;
+
 	class Effect_Scale : public ::UnityEngine::MonoBehaviour
 	{
 	public:

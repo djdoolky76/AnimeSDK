@@ -5,6 +5,8 @@ namespace System { class Object; }
 namespace System { class Type; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 
+inline static constexpr unsigned int LCKOODGJNGH_TypeDefinitionIndex = 49503;
+
 	class LCKOODGJNGH
 	{
 	public:

@@ -5,6 +5,8 @@ namespace System { class Object; }
 
 namespace Google::Protobuf::Collections
 {
+	inline static constexpr unsigned int MapField_2_Codec_MessageAdapter_TypeDefinitionIndex = 5582;
+
 	template <typename T1, typename T2>
 	class MapField_2_Codec_MessageAdapter : public ::System::Object
 	{

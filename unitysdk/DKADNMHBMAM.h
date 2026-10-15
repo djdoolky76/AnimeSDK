@@ -26,6 +26,8 @@ namespace UnityEngine::UI { class Text; }
 #define DKADNMHBMAM_PEGNJCBFPFB_OFFSET UNITYSDK_OFFSET(0xF2533D0)
 #define DKADNMHBMAM__ONBIND_OFFSET UNITYSDK_OFFSET(0xF2530F0)
 
+inline static constexpr unsigned int DKADNMHBMAM_TypeDefinitionIndex = 71298;
+
 	class DKADNMHBMAM : public ::CAOEEDDAPIK
 	{
 	public:

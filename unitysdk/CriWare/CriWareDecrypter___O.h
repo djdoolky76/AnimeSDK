@@ -5,6 +5,8 @@ namespace CriWare { class CriWareDecrypter_CallbackFromNativeDelegate; }
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriWareDecrypter___O_TypeDefinitionIndex = 40142;
+
 	class CriWareDecrypter___O : public ::System::Object
 	{
 	public:

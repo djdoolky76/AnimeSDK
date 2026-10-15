@@ -8,6 +8,8 @@ class PLAJONHLDJN;
 
 #define FENBIHEDDPB_CTOR_OFFSET UNITYSDK_OFFSET(0x15727020)
 
+inline static constexpr unsigned int FENBIHEDDPB_TypeDefinitionIndex = 60383;
+
 	class FENBIHEDDPB : public ::ILEDHBPJGFC
 	{
 	public:

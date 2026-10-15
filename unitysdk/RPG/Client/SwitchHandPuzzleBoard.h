@@ -33,6 +33,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SwitchHandPuzzleBoard_TypeDefinitionIndex = 68787;
+
 	class SwitchHandPuzzleBoard : public ::RPG::Client::Prop::PuzzleBoardBase
 	{
 	public:

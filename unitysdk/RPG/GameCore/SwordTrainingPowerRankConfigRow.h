@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SwordTrainingPowerRankConfigRow_TypeDefinitionIndex = 12435;
+
 	class SwordTrainingPowerRankConfigRow : public ::System::Object
 	{
 	public:

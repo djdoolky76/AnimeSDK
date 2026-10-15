@@ -20,6 +20,8 @@ namespace UnityEngine::Rendering { class BatchAnimationInstance; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int BAThrowEvent_TypeDefinitionIndex = 37876;
+
 	class BAThrowEvent : public ::RPG::CustomRP::BatchAnimationEvent
 	{
 	public:

@@ -14,6 +14,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int ShowSDFTextClip_TypeDefinitionIndex = 48250;
+
 	class ShowSDFTextClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

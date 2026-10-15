@@ -7,6 +7,8 @@ namespace System { class String; }
 #define MIDEBCKDIJK_CTOR_OFFSET UNITYSDK_OFFSET(0xB951CB0)
 #define MIDEBCKDIJK_ONPLAYABLEDESTROY_OFFSET UNITYSDK_OFFSET(0xB951BF0)
 
+inline static constexpr unsigned int MIDEBCKDIJK_TypeDefinitionIndex = 48820;
+
 	class MIDEBCKDIJK : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

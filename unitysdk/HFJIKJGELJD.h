@@ -6,6 +6,8 @@ namespace RPG::GameCore { class WolfBroGunEnableBulletTime; }
 #define HFJIKJGELJD_CTOR_OFFSET UNITYSDK_OFFSET(0x15C7D440)
 #define HFJIKJGELJD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15C7D470)
 
+inline static constexpr unsigned int HFJIKJGELJD_TypeDefinitionIndex = 58953;
+
 	class HFJIKJGELJD
 	{
 	public:

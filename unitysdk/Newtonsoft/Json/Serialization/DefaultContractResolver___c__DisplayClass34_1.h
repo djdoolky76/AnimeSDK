@@ -12,6 +12,8 @@ namespace System { template <typename T> class Func_1; }
 
 namespace Newtonsoft::Json::Serialization
 {
+	inline static constexpr unsigned int DefaultContractResolver___c__DisplayClass34_1_TypeDefinitionIndex = 9710;
+
 	template <typename T>
 	class DefaultContractResolver___c__DisplayClass34_1 : public ::System::Object
 	{

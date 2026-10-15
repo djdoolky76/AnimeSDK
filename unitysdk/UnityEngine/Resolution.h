@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int Resolution_TypeDefinitionIndex = 4131;
+
 	struct alignas(4) Resolution
 	{
 		::System::Int32 m_Width; // 0x10

@@ -42,6 +42,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::Client::B51Racing
 {
+	inline static constexpr unsigned int B51RacingNewPartHintDialogControl_TypeDefinitionIndex = 81790;
+
 	class B51RacingNewPartHintDialogControl : public ::Sofa::BaseSofaControl
 	{
 	public:

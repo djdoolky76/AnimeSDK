@@ -11,6 +11,8 @@ namespace RPG::GameCore { class LittleGameAbilityValueGetterCountTargetsConfig; 
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LittleGameAbilityValueGetterCountTargetsConfig_TypeDefinitionIndex = 21387;
+
 	class LittleGameAbilityValueGetterCountTargetsConfig : public ::RPG::GameCore::BaseLittleGameAbilityValueGetterConfig
 	{
 	public:

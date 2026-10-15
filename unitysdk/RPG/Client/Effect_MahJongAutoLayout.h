@@ -21,6 +21,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Effect_MahJongAutoLayout_TypeDefinitionIndex = 70020;
+
 	class Effect_MahJongAutoLayout : public ::RPG::Client::MonoEffectPluginBase
 	{
 	public:

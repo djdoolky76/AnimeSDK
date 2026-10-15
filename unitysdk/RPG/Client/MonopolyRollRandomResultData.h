@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonopolyRollRandomResultData_TypeDefinitionIndex = 66255;
+
 	class MonopolyRollRandomResultData : public ::System::Object
 	{
 	public:

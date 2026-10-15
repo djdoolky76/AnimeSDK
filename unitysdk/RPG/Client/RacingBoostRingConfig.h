@@ -10,6 +10,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RacingBoostRingConfig_TypeDefinitionIndex = 59772;
+
 	class RacingBoostRingConfig : public ::System::Object
 	{
 	public:

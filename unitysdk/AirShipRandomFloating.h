@@ -14,6 +14,8 @@ namespace UnityEngine { class AnimationCurve; }
 #define AIRSHIPRANDOMFLOATING_TICK_OFFSET UNITYSDK_OFFSET(0x15BC3460)
 #define AIRSHIPRANDOMFLOATING_UPDATE_OFFSET UNITYSDK_OFFSET(0x15BC3400)
 
+inline static constexpr unsigned int AirShipRandomFloating_TypeDefinitionIndex = 47066;
+
 	class AirShipRandomFloating : public ::UnityEngine::MonoBehaviour
 	{
 	public:

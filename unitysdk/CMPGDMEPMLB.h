@@ -9,6 +9,8 @@
 #define CMPGDMEPMLB_ICNEKGBHIHP_OFFSET UNITYSDK_OFFSET(0xDA45910)
 #define CMPGDMEPMLB_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0xDA45A90)
 
+inline static constexpr unsigned int CMPGDMEPMLB_TypeDefinitionIndex = 77042;
+
 	class CMPGDMEPMLB : public ::MPOEEGPIIPA
 	{
 	public:

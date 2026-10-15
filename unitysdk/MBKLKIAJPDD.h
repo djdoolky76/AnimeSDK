@@ -43,6 +43,8 @@ namespace System { class String; }
 #define MBKLKIAJPDD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9E6BF0)
 #define MBKLKIAJPDD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E9E6C50)
 
+inline static constexpr unsigned int MBKLKIAJPDD_TypeDefinitionIndex = 31195;
+
 	class MBKLKIAJPDD : public ::System::Object
 	{
 	public:

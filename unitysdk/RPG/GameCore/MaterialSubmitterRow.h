@@ -10,6 +10,8 @@ namespace RPG::GameCore { class MaterialSubmitterRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MaterialSubmitterRow_TypeDefinitionIndex = 11959;
+
 	class MaterialSubmitterRow : public ::System::Object
 	{
 	public:

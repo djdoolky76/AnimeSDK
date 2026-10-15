@@ -6,6 +6,8 @@
 
 namespace Mono::Globalization::Unicode
 {
+	inline static constexpr unsigned int Level2Map_TypeDefinitionIndex = 34;
+
 	class Level2Map : public ::System::Object
 	{
 	public:

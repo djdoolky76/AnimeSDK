@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define OHAPDILPEAO_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xBE5E800)
 #define OHAPDILPEAO_CCTOR_OFFSET UNITYSDK_OFFSET(0xBE5EC60)
 
+inline static constexpr unsigned int OHAPDILPEAO_TypeDefinitionIndex = 75332;
+
 	struct alignas(8) OHAPDILPEAO
 	{
 		::System::UInt32 PMIEAEGJNMJ; // 0x10

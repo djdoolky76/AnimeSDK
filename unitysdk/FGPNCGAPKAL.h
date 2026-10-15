@@ -9,6 +9,8 @@ class HAPKJCJOJLF;
 #define FGPNCGAPKAL_HHMFILFAMNA_OFFSET UNITYSDK_OFFSET(0x1576FBF0)
 #define FGPNCGAPKAL_LDAMHBBILAD_OFFSET UNITYSDK_OFFSET(0x1576FC10)
 
+inline static constexpr unsigned int FGPNCGAPKAL_TypeDefinitionIndex = 59761;
+
 	class FGPNCGAPKAL : public ::System::Object
 	{
 	public:

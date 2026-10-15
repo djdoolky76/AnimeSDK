@@ -18,6 +18,8 @@ namespace UnityEngine::UI { class RawImage; }
 
 namespace MiHoYo::SDK::Watermark
 {
+	inline static constexpr unsigned int WatermarkOverlayManager_TypeDefinitionIndex = 8872;
+
 	class WatermarkOverlayManager : public ::System::Object
 	{
 	public:

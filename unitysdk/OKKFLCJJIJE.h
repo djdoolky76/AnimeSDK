@@ -4,6 +4,8 @@
 
 #define OKKFLCJJIJE_CTOR_OFFSET UNITYSDK_OFFSET(0xBEE9430)
 
+inline static constexpr unsigned int OKKFLCJJIJE_TypeDefinitionIndex = 61269;
+
 	class OKKFLCJJIJE : public ::System::Exception
 	{
 	public:

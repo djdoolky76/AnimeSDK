@@ -11,6 +11,8 @@ namespace RPG::GameCore { class FiveDimTriggerGameLoadingViewAction; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimTriggerGameLoadingViewAction_TypeDefinitionIndex = 18657;
+
 	class FiveDimTriggerGameLoadingViewAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
 	public:

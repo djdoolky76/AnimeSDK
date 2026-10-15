@@ -9,6 +9,8 @@ namespace System::Threading { class SendOrPostCallback; }
 
 namespace System::Threading
 {
+	inline static constexpr unsigned int OSSpecificSynchronizationContext_InvocationContext_TypeDefinitionIndex = 846;
+
 	class OSSpecificSynchronizationContext_InvocationContext : public ::System::Object
 	{
 	public:

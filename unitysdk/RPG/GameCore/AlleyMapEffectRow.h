@@ -12,6 +12,8 @@ namespace RPG::GameCore { class AlleyMapEffectRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AlleyMapEffectRow_TypeDefinitionIndex = 12602;
+
 	class AlleyMapEffectRow : public ::System::Object
 	{
 	public:

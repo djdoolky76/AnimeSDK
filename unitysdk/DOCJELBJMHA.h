@@ -24,6 +24,8 @@ namespace System { class String; }
 #define DOCJELBJMHA_PGOLCLMMANO_OFFSET UNITYSDK_OFFSET(0x11FDFA40)
 #define DOCJELBJMHA_PLMIIKONDEO_OFFSET UNITYSDK_OFFSET(0x11FDFB60)
 
+inline static constexpr unsigned int DOCJELBJMHA_TypeDefinitionIndex = 47372;
+
 	class DOCJELBJMHA : public ::System::Object
 	{
 	public:

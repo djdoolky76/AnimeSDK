@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int HipplenGameWaitEvent_TypeDefinitionIndex = 21320;
+
 	class HipplenGameWaitEvent : public ::RPG::GameCore::TaskConfig
 	{
 	public:

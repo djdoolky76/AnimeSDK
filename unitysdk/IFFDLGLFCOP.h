@@ -42,6 +42,8 @@ namespace RPG::GameCore { class DriftComponentData; }
 #define IFFDLGLFCOP_NOJJPKNMICO_OFFSET UNITYSDK_OFFSET(0x3C3A980)
 #define IFFDLGLFCOP_OJJEPHMHLEJ_OFFSET UNITYSDK_OFFSET(0x3C3A600)
 
+inline static constexpr unsigned int IFFDLGLFCOP_TypeDefinitionIndex = 10674;
+
 	struct alignas(8) IFFDLGLFCOP
 	{
 		::LELCKJPOPAO* BEHHICMOFIE; // 0x10

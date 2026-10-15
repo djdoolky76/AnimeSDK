@@ -6,6 +6,8 @@
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int MiHoYoSDKDefine_TypeDefinitionIndex = 46332;
+
 	class MiHoYoSDKDefine : public ::System::Object
 	{
 	public:

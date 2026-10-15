@@ -6,6 +6,8 @@ namespace System { class Object; }
 namespace UnityEngine::Events { class UnityAction; }
 namespace UnityEngine::UI { class Toggle; }
 
+inline static constexpr unsigned int CHGFBCPNMMC___c__0_1_TypeDefinitionIndex = 49954;
+
 	template <typename T>
 	class CHGFBCPNMMC___c__0_1 : public ::System::Object
 	{

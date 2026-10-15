@@ -4,6 +4,8 @@
 
 #define DFELFHOKCDF_CTOR_OFFSET UNITYSDK_OFFSET(0x1CD15720)
 
+inline static constexpr unsigned int DFELFHOKCDF_TypeDefinitionIndex = 24995;
+
 	class DFELFHOKCDF : public ::System::Attribute
 	{
 	public:

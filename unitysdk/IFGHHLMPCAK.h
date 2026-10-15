@@ -127,6 +127,8 @@ namespace RPG::GameCore { class PlayerParameterConfigBase; }
 #define IFGHHLMPCAK_PMCGMLLCBLF_OFFSET UNITYSDK_OFFSET(0x1CEF0A90)
 #define IFGHHLMPCAK_POMEKLECEMK_OFFSET UNITYSDK_OFFSET(0x1CEF0090)
 
+inline static constexpr unsigned int IFGHHLMPCAK_TypeDefinitionIndex = 19564;
+
 	class IFGHHLMPCAK : public ::System::Object
 	{
 	public:

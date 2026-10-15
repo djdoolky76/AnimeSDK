@@ -26,6 +26,8 @@ namespace System { class String; }
 
 namespace RPG::Client::LittleGame::FiveDim
 {
+	inline static constexpr unsigned int FiveDimFluteNewGuideData_TypeDefinitionIndex = 77218;
+
 	class FiveDimFluteNewGuideData : public ::System::Object
 	{
 	public:

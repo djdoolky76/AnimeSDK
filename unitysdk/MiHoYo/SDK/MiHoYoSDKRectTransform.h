@@ -30,6 +30,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int MiHoYoSDKRectTransform_TypeDefinitionIndex = 8007;
+
 	class MiHoYoSDKRectTransform : public ::System::Object
 	{
 	public:

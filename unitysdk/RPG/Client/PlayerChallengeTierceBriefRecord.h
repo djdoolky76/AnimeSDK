@@ -19,6 +19,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PlayerChallengeTierceBriefRecord_TypeDefinitionIndex = 64279;
+
 	class PlayerChallengeTierceBriefRecord : public ::System::Object
 	{
 	public:

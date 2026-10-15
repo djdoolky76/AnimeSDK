@@ -11,6 +11,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace MiHoYo::SDK::Protobuf::Reflection
 {
+	inline static constexpr unsigned int MessageDescriptor___c_TypeDefinitionIndex = 35841;
+
 	class MessageDescriptor___c : public ::System::Object
 	{
 	public:

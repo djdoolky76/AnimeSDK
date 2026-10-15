@@ -7,6 +7,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define HCJAIOODMPC_CTOR_OFFSET UNITYSDK_OFFSET(0x15C1FE10)
 #define HCJAIOODMPC_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15C1FDA0)
 
+inline static constexpr unsigned int HCJAIOODMPC_TypeDefinitionIndex = 67557;
+
 	class HCJAIOODMPC : public ::FDPFMFINJCO
 	{
 	public:

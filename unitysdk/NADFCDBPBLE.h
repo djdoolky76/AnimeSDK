@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define NADFCDBPBLE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBA55F50)
 #define NADFCDBPBLE_PAHMFNJPGCD_OFFSET UNITYSDK_OFFSET(0xBA56450)
 
+inline static constexpr unsigned int NADFCDBPBLE_TypeDefinitionIndex = 52674;
+
 	class NADFCDBPBLE
 	{
 	public:

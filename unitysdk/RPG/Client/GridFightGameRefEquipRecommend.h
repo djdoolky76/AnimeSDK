@@ -10,6 +10,8 @@ namespace RPG::Client { class GridFightRole; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightGameRefEquipRecommend_TypeDefinitionIndex = 64743;
+
 	class GridFightGameRefEquipRecommend : public ::System::Object
 	{
 	public:

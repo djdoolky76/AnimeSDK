@@ -6,6 +6,8 @@
 
 namespace System
 {
+	inline static constexpr unsigned int TimeProvider_SystemTimeProvider_TypeDefinitionIndex = 10174;
+
 	class TimeProvider_SystemTimeProvider : public ::System::TimeProvider
 	{
 	public:

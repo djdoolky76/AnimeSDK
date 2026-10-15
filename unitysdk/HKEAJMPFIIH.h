@@ -5,6 +5,8 @@
 
 #define HKEAJMPFIIH_MNGGAOFNGIP_OFFSET UNITYSDK_OFFSET(0x15D40600)
 
+inline static constexpr unsigned int HKEAJMPFIIH_TypeDefinitionIndex = 56335;
+
 	class HKEAJMPFIIH : public ::System::Object
 	{
 	public:

@@ -39,6 +39,8 @@ namespace System::Text { class Encoding; }
 
 namespace System::IO
 {
+	inline static constexpr unsigned int BinaryReader_TypeDefinitionIndex = 662;
+
 	class BinaryReader : public ::System::Object
 	{
 	public:

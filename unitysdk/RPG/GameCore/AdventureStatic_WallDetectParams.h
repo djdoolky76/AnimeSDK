@@ -10,6 +10,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdventureStatic_WallDetectParams_TypeDefinitionIndex = 59023;
+
 	class AdventureStatic_WallDetectParams : public ::System::Object
 	{
 	public:

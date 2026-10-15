@@ -5,6 +5,8 @@ namespace System { class String; }
 
 #define KBBOACOPFPL_OMLEGBGDEAC_OFFSET UNITYSDK_OFFSET(0xB2ED9E0)
 
+inline static constexpr unsigned int KBBOACOPFPL_TypeDefinitionIndex = 60112;
+
 	class KBBOACOPFPL : public ::System::Object
 	{
 	public:

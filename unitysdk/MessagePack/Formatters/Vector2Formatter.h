@@ -14,6 +14,8 @@ namespace MessagePack::Formatters { class IMessagePackFormatter; }
 
 namespace MessagePack::Formatters
 {
+	inline static constexpr unsigned int Vector2Formatter_TypeDefinitionIndex = 7497;
+
 	class Vector2Formatter : public ::System::Object
 	{
 	public:

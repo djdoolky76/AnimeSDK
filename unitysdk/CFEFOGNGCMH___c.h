@@ -9,6 +9,8 @@ namespace System { class Object; }
 #define CFEFOGNGCMH___C_CTOR_OFFSET UNITYSDK_OFFSET(0xCA11510)
 #define CFEFOGNGCMH___C___STARTFINISHEDENDMATCHPROMISE_B__66_0_OFFSET UNITYSDK_OFFSET(0xCA11520)
 
+inline static constexpr unsigned int CFEFOGNGCMH___c_TypeDefinitionIndex = 81866;
+
 	class CFEFOGNGCMH___c : public ::System::Object
 	{
 	public:

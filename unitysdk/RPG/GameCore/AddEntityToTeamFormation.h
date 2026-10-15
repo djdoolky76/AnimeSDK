@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AddEntityToTeamFormation_TypeDefinitionIndex = 22639;
+
 	class AddEntityToTeamFormation : public ::RPG::GameCore::TaskConfig
 	{
 	public:

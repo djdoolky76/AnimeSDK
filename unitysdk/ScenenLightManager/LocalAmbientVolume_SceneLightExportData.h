@@ -9,6 +9,8 @@ namespace ScenenLightManager { class LocalAmbientVolume_ExportData; }
 
 namespace ScenenLightManager
 {
+	inline static constexpr unsigned int LocalAmbientVolume_SceneLightExportData_TypeDefinitionIndex = 49053;
+
 	class LocalAmbientVolume_SceneLightExportData : public ::ScenenLightManager::BaseSceneLightExportData
 	{
 	public:

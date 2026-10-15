@@ -17,6 +17,8 @@ namespace UnityEngine { class Rigidbody; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int Collision_TypeDefinitionIndex = 5306;
+
 	class Collision : public ::System::Object
 	{
 	public:

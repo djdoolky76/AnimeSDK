@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ChimeraTriggerWorkPerformance; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChimeraTriggerWorkPerformance_TypeDefinitionIndex = 15869;
+
 	class ChimeraTriggerWorkPerformance : public ::RPG::GameCore::ChimeraAbilityProgressBase
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::Client::Challenge::Tierce { class ChallengeTierceStageMonsterData
 
 namespace RPG::Client::Challenge::Tierce
 {
+	inline static constexpr unsigned int ChallengeTierceStageMonsterDataProvider_Factory_TypeDefinitionIndex = 81575;
+
 	class ChallengeTierceStageMonsterDataProvider_Factory : public ::System::Object
 	{
 	public:

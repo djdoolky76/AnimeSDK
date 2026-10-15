@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define MKFCCNOIDNB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA57550)
 #define MKFCCNOIDNB___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1EA57560)
 
+inline static constexpr unsigned int MKFCCNOIDNB___c_TypeDefinitionIndex = 26998;
+
 	class MKFCCNOIDNB___c : public ::System::Object
 	{
 	public:

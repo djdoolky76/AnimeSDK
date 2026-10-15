@@ -16,6 +16,8 @@ namespace System::ComponentModel { class TypeDescriptionProvider; }
 
 namespace System::ComponentModel
 {
+	inline static constexpr unsigned int DelegatingTypeDescriptionProvider_TypeDefinitionIndex = 2580;
+
 	class DelegatingTypeDescriptionProvider : public ::System::ComponentModel::TypeDescriptionProvider
 	{
 	public:

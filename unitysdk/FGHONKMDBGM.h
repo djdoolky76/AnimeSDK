@@ -33,6 +33,8 @@ namespace System { class String; }
 #define FGHONKMDBGM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E37FA50)
 #define FGHONKMDBGM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E37FAB0)
 
+inline static constexpr unsigned int FGHONKMDBGM_TypeDefinitionIndex = 26906;
+
 	class FGHONKMDBGM : public ::System::Object
 	{
 	public:

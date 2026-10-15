@@ -34,6 +34,8 @@ namespace System { class String; }
 #define BLJEJFMKEII_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF65000)
 #define BLJEJFMKEII_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF65060)
 
+inline static constexpr unsigned int BLJEJFMKEII_TypeDefinitionIndex = 25565;
+
 	class BLJEJFMKEII : public ::System::Object
 	{
 	public:

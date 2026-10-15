@@ -50,6 +50,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 #define CJGNCPIDGNH__TRYGIVEUPANDQUITCURLOBBY_B__6_9_OFFSET UNITYSDK_OFFSET(0xD20FE60)
 #define CJGNCPIDGNH__TRYGIVEUP_B__11_3_OFFSET UNITYSDK_OFFSET(0xD20FF10)
 
+inline static constexpr unsigned int CJGNCPIDGNH_TypeDefinitionIndex = 80265;
+
 	class CJGNCPIDGNH : public ::BHPMNMMGLHI
 	{
 	public:

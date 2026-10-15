@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace EnviromentSystemV2Space
 {
+	inline static constexpr unsigned int EnvResourceDataAdapterPropertyData_TypeDefinitionIndex = 49389;
+
 	class EnvResourceDataAdapterPropertyData
 	{
 	public:

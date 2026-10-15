@@ -10,6 +10,8 @@ namespace RPG::GameCore { class EquipmentRow; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GachaLightConeItemData_TypeDefinitionIndex = 64300;
+
 	class GachaLightConeItemData : public ::RPG::Client::GachaItemData
 	{
 	public:

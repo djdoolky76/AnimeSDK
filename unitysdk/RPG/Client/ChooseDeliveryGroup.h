@@ -8,6 +8,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChooseDeliveryGroup_TypeDefinitionIndex = 63520;
+
 	class ChooseDeliveryGroup : public ::System::Object
 	{
 	public:

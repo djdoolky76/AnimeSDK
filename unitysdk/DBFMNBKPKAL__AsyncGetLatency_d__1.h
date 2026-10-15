@@ -12,6 +12,8 @@ namespace UnityEngine { class WWW; }
 #define DBFMNBKPKAL__ASYNCGETLATENCY_D__1_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0xDFE10E0)
 #define DBFMNBKPKAL__ASYNCGETLATENCY_D__1_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xDFE0DC0)
 
+inline static constexpr unsigned int DBFMNBKPKAL__AsyncGetLatency_d__1_TypeDefinitionIndex = 69343;
+
 	template <typename T>
 	class DBFMNBKPKAL__AsyncGetLatency_d__1 : public ::System::Object
 	{

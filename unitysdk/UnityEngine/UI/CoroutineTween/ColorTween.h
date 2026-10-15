@@ -23,6 +23,8 @@ namespace UnityEngine::UI::CoroutineTween { class ColorTween_ColorTweenCallback;
 
 namespace UnityEngine::UI::CoroutineTween
 {
+	inline static constexpr unsigned int ColorTween_TypeDefinitionIndex = 6896;
+
 	struct alignas(8) ColorTween
 	{
 		::UnityEngine::UI::CoroutineTween::ColorTween_ColorTweenCallback* m_Target; // 0x10

@@ -35,6 +35,8 @@ namespace UnityEngine::UI { class Image; }
 
 namespace RPG::Client::B51Racing
 {
+	inline static constexpr unsigned int B51RacingCarDriverSelectPageControl_TypeDefinitionIndex = 81833;
+
 	class B51RacingCarDriverSelectPageControl : public ::Sofa::BaseSofaControl
 	{
 	public:

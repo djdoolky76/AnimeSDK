@@ -9,6 +9,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelCreatePlayerTeamFinish_TypeDefinitionIndex = 56728;
+
 	class LevelCreatePlayerTeamFinish : public ::System::Object
 	{
 	public:

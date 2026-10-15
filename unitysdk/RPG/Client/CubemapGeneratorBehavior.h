@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CubemapGeneratorBehavior_TypeDefinitionIndex = 71040;
+
 	class CubemapGeneratorBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:

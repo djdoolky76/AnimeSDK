@@ -5,6 +5,8 @@
 #define BJAPDDEENCN_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5BF8D0)
 #define BJAPDDEENCN_FKIFAEOAGLL_OFFSET UNITYSDK_OFFSET(0x1C5BF8F0)
 
+inline static constexpr unsigned int BJAPDDEENCN_TypeDefinitionIndex = 36193;
+
 	class BJAPDDEENCN : public ::System::Object
 	{
 	public:

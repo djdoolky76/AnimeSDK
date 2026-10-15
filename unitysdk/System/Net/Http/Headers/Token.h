@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace System::Net::Http::Headers
 {
+	inline static constexpr unsigned int Token_TypeDefinitionIndex = 3800;
+
 	struct alignas(4) Token
 	{
 		::System::Net::Http::Headers::Token_Type type; // 0x10

@@ -14,6 +14,8 @@ namespace UnityEngine { class Renderer; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int EntityEnvAdjust_TypeDefinitionIndex = 70273;
+
 	class EntityEnvAdjust : public ::UnityEngine::MonoBehaviour
 	{
 	public:

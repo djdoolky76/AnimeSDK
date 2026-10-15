@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChimeraTriggerPerformanceByPhase_TypeDefinitionIndex = 21723;
+
 	class ChimeraTriggerPerformanceByPhase : public ::RPG::GameCore::TaskConfig
 	{
 	public:

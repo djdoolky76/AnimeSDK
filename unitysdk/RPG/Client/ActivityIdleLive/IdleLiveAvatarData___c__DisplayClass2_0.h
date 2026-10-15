@@ -8,6 +8,8 @@ namespace RPG::Client::ActivityIdleLive { class IdleLiveAvatarPromotionBaseData;
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int IdleLiveAvatarData___c__DisplayClass2_0_TypeDefinitionIndex = 75074;
+
 	class IdleLiveAvatarData___c__DisplayClass2_0 : public ::System::Object
 	{
 	public:

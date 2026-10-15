@@ -14,6 +14,8 @@ namespace System { class Object; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int IVRCompositor__WaitGetPoses_TypeDefinitionIndex = 39017;
+
 	class IVRCompositor__WaitGetPoses : public ::System::MulticastDelegate
 	{
 	public:

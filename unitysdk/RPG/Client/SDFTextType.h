@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SDFTextType_TypeDefinitionIndex = 70711;
+
 	enum class SDFTextType : ::System::Int32
 	{
 		Dense = 0,

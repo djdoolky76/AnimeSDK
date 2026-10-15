@@ -5,6 +5,8 @@
 #define SETTRANSFORMONSTART_CTOR_OFFSET UNITYSDK_OFFSET(0xE968B20)
 #define SETTRANSFORMONSTART_START_OFFSET UNITYSDK_OFFSET(0xE968AA0)
 
+inline static constexpr unsigned int SetTransformOnStart_TypeDefinitionIndex = 47593;
+
 	class SetTransformOnStart : public ::UnityEngine::MonoBehaviour
 	{
 	public:

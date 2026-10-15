@@ -32,6 +32,8 @@ namespace System { class String; }
 #define OKFKPPNGCOD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE95240)
 #define OKFKPPNGCOD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DE952A0)
 
+inline static constexpr unsigned int OKFKPPNGCOD_TypeDefinitionIndex = 29045;
+
 	class OKFKPPNGCOD : public ::System::Object
 	{
 	public:

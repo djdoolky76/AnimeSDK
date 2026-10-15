@@ -52,6 +52,8 @@ namespace System { class String; }
 
 namespace RPG::Client::TeamTowers
 {
+	inline static constexpr unsigned int TeamTowersPVPService_TypeDefinitionIndex = 79049;
+
 	class TeamTowersPVPService : public ::RPG::Client::Multiplayer::BaseMPGameService
 	{
 	public:

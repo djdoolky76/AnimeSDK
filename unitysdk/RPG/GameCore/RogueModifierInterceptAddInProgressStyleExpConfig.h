@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierInterceptAddInProgressStyleExpConfi
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierInterceptAddInProgressStyleExpConfig_TypeDefinitionIndex = 17804;
+
 	class RogueModifierInterceptAddInProgressStyleExpConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

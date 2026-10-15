@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int LifeCycleEventArgument_TypeDefinitionIndex = 48153;
+
 	class LifeCycleEventArgument : public ::System::Object
 	{
 	public:

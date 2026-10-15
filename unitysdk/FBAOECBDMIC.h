@@ -31,6 +31,8 @@ class LNHACPACCKH;
 #define FBAOECBDMIC_PGCBPNFMBGH_OFFSET UNITYSDK_OFFSET(0x1C610F80)
 #define FBAOECBDMIC_PNJODACLLPH_OFFSET UNITYSDK_OFFSET(0x1C610D30)
 
+inline static constexpr unsigned int FBAOECBDMIC_TypeDefinitionIndex = 37073;
+
 	class FBAOECBDMIC : public ::System::Object
 	{
 	public:

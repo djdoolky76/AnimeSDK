@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChallengeLineup_TypeDefinitionIndex = 63128;
+
 	class ChallengeLineup : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define BOLHAANCCII_KKFKKOPCLBG_OFFSET UNITYSDK_OFFSET(0xC196980)
 #define BOLHAANCCII_NLBNJGKAMII_OFFSET UNITYSDK_OFFSET(0xC196480)
 
+inline static constexpr unsigned int BOLHAANCCII_TypeDefinitionIndex = 53761;
+
 	class BOLHAANCCII : public ::GJPFGOGOLBI
 	{
 	public:

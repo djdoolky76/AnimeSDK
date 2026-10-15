@@ -17,6 +17,8 @@ namespace System::Net { class SocketAddress; }
 #define AGNHKELDDAH_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1DD9A380)
 #define AGNHKELDDAH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DD9A590)
 
+inline static constexpr unsigned int AGNHKELDDAH_TypeDefinitionIndex = 43939;
+
 	class AGNHKELDDAH : public ::System::Net::IPEndPoint
 	{
 	public:

@@ -43,6 +43,8 @@ namespace System { class String; }
 #define CHOPOIIJCPD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E0CD330)
 #define CHOPOIIJCPD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E0CD390)
 
+inline static constexpr unsigned int CHOPOIIJCPD_TypeDefinitionIndex = 34469;
+
 	class CHOPOIIJCPD : public ::System::Object
 	{
 	public:

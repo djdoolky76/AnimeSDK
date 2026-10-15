@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierModifyWorkbenchMagicUnitShopConfig;
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierModifyWorkbenchMagicUnitShopConfig_TypeDefinitionIndex = 17885;
+
 	class RogueModifierModifyWorkbenchMagicUnitShopConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

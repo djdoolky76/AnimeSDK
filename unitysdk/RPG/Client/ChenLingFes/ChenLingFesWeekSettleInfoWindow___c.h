@@ -8,6 +8,8 @@ namespace System { class Object; }
 
 namespace RPG::Client::ChenLingFes
 {
+	inline static constexpr unsigned int ChenLingFesWeekSettleInfoWindow___c_TypeDefinitionIndex = 81350;
+
 	class ChenLingFesWeekSettleInfoWindow___c : public ::System::Object
 	{
 	public:

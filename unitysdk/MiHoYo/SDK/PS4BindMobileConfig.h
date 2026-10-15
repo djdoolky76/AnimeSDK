@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int PS4BindMobileConfig_TypeDefinitionIndex = 7925;
+
 	class PS4BindMobileConfig : public ::System::Object
 	{
 	public:

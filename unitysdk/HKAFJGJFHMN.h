@@ -18,6 +18,8 @@ namespace RPG::Client { class WolfBroGunPlayPuzzleBoard; }
 #define HKAFJGJFHMN_JHBMHCNLAME_OFFSET UNITYSDK_OFFSET(0x15D3ACF0)
 #define HKAFJGJFHMN_MEOLLONEOGC_OFFSET UNITYSDK_OFFSET(0x15D3ABE0)
 
+inline static constexpr unsigned int HKAFJGJFHMN_TypeDefinitionIndex = 68739;
+
 	class HKAFJGJFHMN : public ::FICJADOJGMF
 	{
 	public:

@@ -9,6 +9,8 @@ namespace RPG::GameCore { class RollShopRewardRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RollShopRewardRow_TypeDefinitionIndex = 15080;
+
 	class RollShopRewardRow : public ::System::Object
 	{
 	public:

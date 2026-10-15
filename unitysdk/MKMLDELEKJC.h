@@ -11,6 +11,8 @@ namespace UnityEngine { class RectTransform; }
 #define MKMLDELEKJC_EPFNMBNMOJJ_OFFSET UNITYSDK_OFFSET(0xB99E150)
 #define MKMLDELEKJC_OEFNECLNDEC_OFFSET UNITYSDK_OFFSET(0xB99DFA0)
 
+inline static constexpr unsigned int MKMLDELEKJC_TypeDefinitionIndex = 68990;
+
 	class MKMLDELEKJC : public ::System::Object
 	{
 	public:

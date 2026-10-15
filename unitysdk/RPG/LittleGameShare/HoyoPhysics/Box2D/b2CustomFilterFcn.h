@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
+	inline static constexpr unsigned int b2CustomFilterFcn_TypeDefinitionIndex = 36647;
+
 	class b2CustomFilterFcn : public ::System::MulticastDelegate
 	{
 	public:

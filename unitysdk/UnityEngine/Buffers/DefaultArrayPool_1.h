@@ -4,6 +4,8 @@ namespace System { class Object; }
 
 namespace UnityEngine::Buffers
 {
+	inline static constexpr unsigned int DefaultArrayPool_1_TypeDefinitionIndex = 4951;
+
 	template <typename T>
 	class DefaultArrayPool_1
 	{

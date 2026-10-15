@@ -11,6 +11,8 @@ namespace System { class Type; }
 #define MNKPCKFEOMJ_GET_ISPARTIALSAVE_OFFSET UNITYSDK_OFFSET(0x1EC398F0)
 #define MNKPCKFEOMJ_LOAD_OFFSET UNITYSDK_OFFSET(0x1EC38BD0)
 
+inline static constexpr unsigned int MNKPCKFEOMJ_TypeDefinitionIndex = 35316;
+
 	class MNKPCKFEOMJ : public ::ILHCHHNKIHI
 	{
 	public:

@@ -17,6 +17,8 @@ namespace System::Reflection { class FieldInfo; }
 
 namespace Hdg
 {
+	inline static constexpr unsigned int rdtTypeExtensions_TypeDefinitionIndex = 46991;
+
 	class rdtTypeExtensions : public ::System::Object
 	{
 	public:

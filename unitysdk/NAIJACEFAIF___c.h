@@ -9,6 +9,8 @@ namespace System { template <typename T> class Predicate_1; }
 #define NAIJACEFAIF___C_CTOR_OFFSET UNITYSDK_OFFSET(0xBA9D880)
 #define NAIJACEFAIF___C__ONTASKSUCCESS_B__9_0_OFFSET UNITYSDK_OFFSET(0xBA9D890)
 
+inline static constexpr unsigned int NAIJACEFAIF___c_TypeDefinitionIndex = 52361;
+
 	class NAIJACEFAIF___c : public ::System::Object
 	{
 	public:

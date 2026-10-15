@@ -10,6 +10,8 @@ namespace RPG::GameCore { class OverridePerformanceEndCrack; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int OverridePerformanceEndCrack_TypeDefinitionIndex = 21916;
+
 	class OverridePerformanceEndCrack : public ::RPG::GameCore::TaskConfig
 	{
 	public:

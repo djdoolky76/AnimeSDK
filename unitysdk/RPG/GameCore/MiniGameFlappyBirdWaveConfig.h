@@ -11,6 +11,8 @@ namespace RPG::GameCore { class MiniGameFlappyBirdWaveConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MiniGameFlappyBirdWaveConfig_TypeDefinitionIndex = 18811;
+
 	class MiniGameFlappyBirdWaveConfig : public ::RPG::GameCore::BaseScrollGameWaveConfig
 	{
 	public:

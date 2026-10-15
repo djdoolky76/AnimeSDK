@@ -5,6 +5,8 @@
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HAPI_SessionInfo_TypeDefinitionIndex = 40493;
+
 	struct alignas(8) HAPI_SessionInfo
 	{
 		::System::Int32 connectionCount; // 0x10

@@ -8,6 +8,8 @@ namespace RPG::Client { class MonopolySelectFriendData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonopolySelectFriendData_TypeDefinitionIndex = 66256;
+
 	class MonopolySelectFriendData : public ::System::Object
 	{
 	public:

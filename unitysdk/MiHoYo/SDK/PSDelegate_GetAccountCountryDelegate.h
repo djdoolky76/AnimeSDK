@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int PSDelegate_GetAccountCountryDelegate_TypeDefinitionIndex = 7727;
+
 	class PSDelegate_GetAccountCountryDelegate : public ::System::MulticastDelegate
 	{
 	public:

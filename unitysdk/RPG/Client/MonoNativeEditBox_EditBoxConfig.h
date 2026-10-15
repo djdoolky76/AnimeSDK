@@ -5,6 +5,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoNativeEditBox_EditBoxConfig_TypeDefinitionIndex = 71159;
+
 	struct alignas(8) MonoNativeEditBox_EditBoxConfig
 	{
 		::System::Boolean multiline; // 0x10

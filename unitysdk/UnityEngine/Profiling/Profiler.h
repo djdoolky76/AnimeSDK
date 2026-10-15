@@ -43,6 +43,8 @@ namespace UnityEngine { class Object; }
 
 namespace UnityEngine::Profiling
 {
+	inline static constexpr unsigned int Profiler_TypeDefinitionIndex = 4516;
+
 	class Profiler : public ::System::Object
 	{
 	public:

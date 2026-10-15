@@ -24,6 +24,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define BAOKEMOLJDL_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15E7F050)
 #define BAOKEMOLJDL_TICK_OFFSET UNITYSDK_OFFSET(0x15E7F0C0)
 
+inline static constexpr unsigned int BAOKEMOLJDL_TypeDefinitionIndex = 58691;
+
 	class BAOKEMOLJDL : public ::GELIALJDFBL
 	{
 	public:

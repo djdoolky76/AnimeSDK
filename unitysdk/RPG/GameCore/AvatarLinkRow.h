@@ -9,6 +9,8 @@ namespace RPG::GameCore { class AvatarLinkRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AvatarLinkRow_TypeDefinitionIndex = 12797;
+
 	class AvatarLinkRow : public ::System::Object
 	{
 	public:

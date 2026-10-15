@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ExpeditionBattleFlowStateConfig_TypeDefinitionIndex = 16225;
+
 	class ExpeditionBattleFlowStateConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -6,6 +6,8 @@ namespace System { class String; }
 #define JGLPONENAKN_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC93050)
 #define JGLPONENAKN_GET_CONSTKEY_OFFSET UNITYSDK_OFFSET(0x1CC930D0)
 
+inline static constexpr unsigned int JGLPONENAKN_TypeDefinitionIndex = 43872;
+
 	class JGLPONENAKN : public ::System::Attribute
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class LevelFloorBakedSubmapSummaryInfo; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelFloorBakedSubmapSummaryCollectionInfo_TypeDefinitionIndex = 17166;
+
 	class LevelFloorBakedSubmapSummaryCollectionInfo : public ::RPG::GameCore::JsonConfig
 	{
 	public:

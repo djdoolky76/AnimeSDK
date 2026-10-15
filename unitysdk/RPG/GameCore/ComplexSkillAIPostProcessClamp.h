@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ComplexSkillAIPostProcessClamp; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ComplexSkillAIPostProcessClamp_TypeDefinitionIndex = 15560;
+
 	class ComplexSkillAIPostProcessClamp : public ::RPG::GameCore::ComplexSkillAIPostProcess
 	{
 	public:

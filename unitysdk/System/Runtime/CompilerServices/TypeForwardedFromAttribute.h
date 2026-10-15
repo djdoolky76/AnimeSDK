@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace System::Runtime::CompilerServices
 {
+	inline static constexpr unsigned int TypeForwardedFromAttribute_TypeDefinitionIndex = 1375;
+
 	class TypeForwardedFromAttribute : public ::System::Attribute
 	{
 	public:

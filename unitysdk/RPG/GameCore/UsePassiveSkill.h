@@ -11,6 +11,8 @@ namespace RPG::GameCore { class UsePassiveSkill; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int UsePassiveSkill_TypeDefinitionIndex = 23424;
+
 	class UsePassiveSkill : public ::RPG::GameCore::TaskConfig
 	{
 	public:

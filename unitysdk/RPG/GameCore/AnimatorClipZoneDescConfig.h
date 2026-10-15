@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AnimatorClipZoneDescConfig_TypeDefinitionIndex = 16329;
+
 	class AnimatorClipZoneDescConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -6,6 +6,8 @@
 
 #define MPOLCKFBMID_CCTOR_OFFSET UNITYSDK_OFFSET(0xBA44C90)
 
+inline static constexpr unsigned int MPOLCKFBMID_TypeDefinitionIndex = 69924;
+
 	class MPOLCKFBMID : public ::System::Object
 	{
 	public:

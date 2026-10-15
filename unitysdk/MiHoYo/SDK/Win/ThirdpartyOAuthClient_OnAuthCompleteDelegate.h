@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int ThirdpartyOAuthClient_OnAuthCompleteDelegate_TypeDefinitionIndex = 9264;
+
 	class ThirdpartyOAuthClient_OnAuthCompleteDelegate : public ::System::MulticastDelegate
 	{
 	public:

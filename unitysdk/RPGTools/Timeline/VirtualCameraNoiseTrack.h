@@ -12,6 +12,8 @@ namespace UnityEngine::Timeline { class TimelineClip; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int VirtualCameraNoiseTrack_TypeDefinitionIndex = 47829;
+
 	class VirtualCameraNoiseTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
 	public:

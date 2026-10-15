@@ -28,6 +28,8 @@ namespace System { class String; }
 #define ONNHDODIIED_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DED1260)
 #define ONNHDODIIED_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DED12C0)
 
+inline static constexpr unsigned int ONNHDODIIED_TypeDefinitionIndex = 25787;
+
 	class ONNHDODIIED : public ::System::Object
 	{
 	public:

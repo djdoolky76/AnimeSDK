@@ -10,6 +10,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ClockParkInstance_ClockParkStoryState_TypeDefinitionIndex = 61474;
+
 	class ClockParkInstance_ClockParkStoryState : public ::RPG::Client::BaseClockParkGameState
 	{
 	public:

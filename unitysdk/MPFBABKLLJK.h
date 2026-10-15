@@ -29,6 +29,8 @@ namespace System { class String; }
 #define MPFBABKLLJK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EAB7310)
 #define MPFBABKLLJK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EAB7370)
 
+inline static constexpr unsigned int MPFBABKLLJK_TypeDefinitionIndex = 30956;
+
 	class MPFBABKLLJK : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@ namespace System { class Type; }
 #define FPHJNNCIBGJ_CTOR_OFFSET UNITYSDK_OFFSET(0x15919940)
 #define FPHJNNCIBGJ_HDOPNKLJLBO_OFFSET UNITYSDK_OFFSET(0x15919950)
 
+inline static constexpr unsigned int FPHJNNCIBGJ_TypeDefinitionIndex = 49517;
+
 	class FPHJNNCIBGJ : public ::System::Attribute
 	{
 	public:

@@ -7,6 +7,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int DelayEnableGameObject_TypeDefinitionIndex = 70054;
+
 	class DelayEnableGameObject : public ::System::Object
 	{
 	public:

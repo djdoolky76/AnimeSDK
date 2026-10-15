@@ -11,6 +11,8 @@
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int SetStoryDanmuEnableBehaviour_TypeDefinitionIndex = 48065;
+
 	class SetStoryDanmuEnableBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

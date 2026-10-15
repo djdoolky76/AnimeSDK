@@ -26,6 +26,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int IdleLiveAdvTechTree_TypeDefinitionIndex = 75397;
+
 	class IdleLiveAdvTechTree : public ::System::Object
 	{
 	public:

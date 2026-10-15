@@ -5,6 +5,8 @@
 #define BLEKOPCKPJP_CTOR_OFFSET UNITYSDK_OFFSET(0xBA6BB10)
 #define BLEKOPCKPJP_SETUPDATA_OFFSET UNITYSDK_OFFSET(0xBA6B340)
 
+inline static constexpr unsigned int BLEKOPCKPJP_TypeDefinitionIndex = 64232;
+
 	class BLEKOPCKPJP : public ::RPG::Client::FloorConnectivityData
 	{
 	public:

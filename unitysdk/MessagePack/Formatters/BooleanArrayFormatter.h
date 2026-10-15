@@ -13,6 +13,8 @@ namespace MessagePack::Formatters { class BooleanArrayFormatter; }
 
 namespace MessagePack::Formatters
 {
+	inline static constexpr unsigned int BooleanArrayFormatter_TypeDefinitionIndex = 7470;
+
 	class BooleanArrayFormatter : public ::System::Object
 	{
 	public:

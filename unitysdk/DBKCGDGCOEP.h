@@ -15,6 +15,8 @@ namespace UnityEngine { class Transform; }
 #define DBKCGDGCOEP_PRINTMEMBERS_OFFSET UNITYSDK_OFFSET(0xF2A60)
 #define DBKCGDGCOEP_TOSTRING_OFFSET UNITYSDK_OFFSET(0xF2A50)
 
+inline static constexpr unsigned int DBKCGDGCOEP_TypeDefinitionIndex = 49752;
+
 	struct alignas(8) DBKCGDGCOEP
 	{
 		::System::String* BDACPPLKLGL; // 0x10

@@ -65,6 +65,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int HeliobusRedDotFilter_TypeDefinitionIndex = 66842;
+
 	class HeliobusRedDotFilter : public ::RPG::Client::BaseRedDotFilter
 	{
 	public:

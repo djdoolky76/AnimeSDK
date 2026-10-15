@@ -25,6 +25,8 @@ namespace System { class String; }
 #define HAOAFJLCIMO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E50AD10)
 #define HAOAFJLCIMO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E50AD70)
 
+inline static constexpr unsigned int HAOAFJLCIMO_TypeDefinitionIndex = 34607;
+
 	class HAOAFJLCIMO : public ::System::Object
 	{
 	public:

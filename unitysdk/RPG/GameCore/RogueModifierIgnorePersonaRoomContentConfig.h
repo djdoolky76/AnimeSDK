@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierIgnorePersonaRoomContentConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierIgnorePersonaRoomContentConfig_TypeDefinitionIndex = 17799;
+
 	class RogueModifierIgnorePersonaRoomContentConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

@@ -21,6 +21,8 @@ namespace System { class String; }
 
 namespace RPG::Client::ChenLingBattle
 {
+	inline static constexpr unsigned int Enchant_TypeDefinitionIndex = 76361;
+
 	class Enchant : public ::System::Object
 	{
 	public:

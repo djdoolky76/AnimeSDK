@@ -53,6 +53,8 @@ namespace System { class Object; }
 
 namespace RPG::Client::BlindBox::Trade
 {
+	inline static constexpr unsigned int BlindBoxTradeFlowService_TypeDefinitionIndex = 74893;
+
 	class BlindBoxTradeFlowService : public ::System::Object
 	{
 	public:

@@ -36,6 +36,8 @@ namespace System { class String; }
 #define FECGDOJFDIM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E3602A0)
 #define FECGDOJFDIM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E360300)
 
+inline static constexpr unsigned int FECGDOJFDIM_TypeDefinitionIndex = 30899;
+
 	class FECGDOJFDIM : public ::System::Object
 	{
 	public:

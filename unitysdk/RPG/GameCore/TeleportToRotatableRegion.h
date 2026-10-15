@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TeleportToRotatableRegion; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TeleportToRotatableRegion_TypeDefinitionIndex = 20917;
+
 	class TeleportToRotatableRegion : public ::RPG::GameCore::TaskConfig
 	{
 	public:

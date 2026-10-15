@@ -4,6 +4,8 @@
 
 #define CPNOEPCJHOC_CTOR_OFFSET UNITYSDK_OFFSET(0x1C4E2CD0)
 
+inline static constexpr unsigned int CPNOEPCJHOC_TypeDefinitionIndex = 5597;
+
 	class CPNOEPCJHOC : public ::System::Attribute
 	{
 	public:

@@ -6,6 +6,8 @@ namespace UnityEngine { class GameObject; }
 #define EMFHLHBEDKP_CTOR_OFFSET UNITYSDK_OFFSET(0x15534690)
 #define EMFHLHBEDKP_HOAHHKDMAFB_OFFSET UNITYSDK_OFFSET(0x15534610)
 
+inline static constexpr unsigned int EMFHLHBEDKP_TypeDefinitionIndex = 81976;
+
 	class EMFHLHBEDKP : public ::System::Object
 	{
 	public:

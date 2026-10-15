@@ -10,6 +10,8 @@ namespace RPG::Client::LimaoNews { class LimaoNewsWorkProgressRecordItemViewMode
 
 namespace RPG::Client::LimaoNews
 {
+	inline static constexpr unsigned int LimaoNewsWorkProgressRecordItemViewModel___c__DisplayClass0_0_TypeDefinitionIndex = 80449;
+
 	class LimaoNewsWorkProgressRecordItemViewModel___c__DisplayClass0_0 : public ::System::Object
 	{
 	public:

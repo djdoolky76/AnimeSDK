@@ -27,6 +27,8 @@ namespace System { class String; }
 #define PIFMLFKCOOG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF44E90)
 #define PIFMLFKCOOG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF44EF0)
 
+inline static constexpr unsigned int PIFMLFKCOOG_TypeDefinitionIndex = 29332;
+
 	class PIFMLFKCOOG : public ::System::Object
 	{
 	public:

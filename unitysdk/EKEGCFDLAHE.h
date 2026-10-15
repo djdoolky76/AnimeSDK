@@ -14,6 +14,8 @@ namespace UnityEngine { class Transform; }
 #define EKEGCFDLAHE_ICCGMLBAINJ_OFFSET UNITYSDK_OFFSET(0x155017E0)
 #define EKEGCFDLAHE_UNITYENGINE_EVENTSYSTEMS_IEXECUTEEVENTBLOCKER_ISEVENTBLOCK_OFFSET UNITYSDK_OFFSET(0x15501DF0)
 
+inline static constexpr unsigned int EKEGCFDLAHE_TypeDefinitionIndex = 68227;
+
 	class EKEGCFDLAHE : public ::System::Object
 	{
 	public:

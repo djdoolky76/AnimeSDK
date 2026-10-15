@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BlockUntilUIPageOpen_TypeDefinitionIndex = 24286;
+
 	class BlockUntilUIPageOpen : public ::RPG::GameCore::TaskConfig
 	{
 	public:

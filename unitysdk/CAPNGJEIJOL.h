@@ -16,6 +16,8 @@ namespace System { class String; }
 #define CAPNGJEIJOL_KNANGHAGDAK_OFFSET UNITYSDK_OFFSET(0xC49D050)
 #define CAPNGJEIJOL_PPECFHCOMDH_OFFSET UNITYSDK_OFFSET(0xC49D480)
 
+inline static constexpr unsigned int CAPNGJEIJOL_TypeDefinitionIndex = 55784;
+
 	class CAPNGJEIJOL : public ::System::Object
 	{
 	public:

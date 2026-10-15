@@ -8,6 +8,8 @@ namespace RPGTools::Timeline::VFX { class PageTearFadeConfig; }
 
 namespace RPGTools::Timeline::VFX
 {
+	inline static constexpr unsigned int TalkPageTearFadeData_TypeDefinitionIndex = 48680;
+
 	class TalkPageTearFadeData : public ::System::Object
 	{
 	public:

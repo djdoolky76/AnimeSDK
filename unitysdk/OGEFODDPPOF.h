@@ -6,6 +6,8 @@ class OCAMFPAJPDH;
 
 #define OGEFODDPPOF_CTOR_OFFSET UNITYSDK_OFFSET(0xBE57080)
 
+inline static constexpr unsigned int OGEFODDPPOF_TypeDefinitionIndex = 78572;
+
 	class OGEFODDPPOF : public ::System::Object
 	{
 	public:

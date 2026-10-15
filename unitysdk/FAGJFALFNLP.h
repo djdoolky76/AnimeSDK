@@ -5,6 +5,8 @@
 #define FAGJFALFNLP_CTOR_OFFSET UNITYSDK_OFFSET(0x1567ADC0)
 #define FAGJFALFNLP_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1567AC60)
 
+inline static constexpr unsigned int FAGJFALFNLP_TypeDefinitionIndex = 68598;
+
 	class FAGJFALFNLP
 	{
 	public:

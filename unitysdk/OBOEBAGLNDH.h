@@ -45,6 +45,8 @@ namespace UnityEngine::UI { class Image; }
 #define OBOEBAGLNDH__ONDISPOSE_OFFSET UNITYSDK_OFFSET(0xBD4EDD0)
 #define OBOEBAGLNDH__ONTICK_OFFSET UNITYSDK_OFFSET(0xBD4EE20)
 
+inline static constexpr unsigned int OBOEBAGLNDH_TypeDefinitionIndex = 71261;
+
 	class OBOEBAGLNDH : public ::FMPCODLIOLG
 	{
 	public:

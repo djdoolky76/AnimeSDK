@@ -7,6 +7,8 @@ namespace RPG::GameCore { class FiveDimOneSidePassConfig; }
 #define BDPFHLPNFJL_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C8B8450)
 #define BDPFHLPNFJL_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8B84B0)
 
+inline static constexpr unsigned int BDPFHLPNFJL_TypeDefinitionIndex = 43456;
+
 	class BDPFHLPNFJL : public ::System::Object
 	{
 	public:

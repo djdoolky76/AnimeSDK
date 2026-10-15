@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define MIOPABKHLLL_CTOR_OFFSET UNITYSDK_OFFSET(0xB960BF0)
 #define MIOPABKHLLL_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB960C20)
 
+inline static constexpr unsigned int MIOPABKHLLL_TypeDefinitionIndex = 52757;
+
 	class MIOPABKHLLL
 	{
 	public:

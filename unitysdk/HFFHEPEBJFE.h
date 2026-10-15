@@ -20,6 +20,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define HFFHEPEBJFE_OMHLHHDMCBN_OFFSET UNITYSDK_OFFSET(0x15C77D50)
 #define HFFHEPEBJFE_SET_NEEDTICK_OFFSET UNITYSDK_OFFSET(0x15C78190)
 
+inline static constexpr unsigned int HFFHEPEBJFE_TypeDefinitionIndex = 60200;
+
 	class HFFHEPEBJFE : public ::System::Object
 	{
 	public:

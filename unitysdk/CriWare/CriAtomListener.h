@@ -30,6 +30,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriAtomListener_TypeDefinitionIndex = 39934;
+
 	class CriAtomListener : public ::CriWare::CriMonoBehaviour
 	{
 	public:

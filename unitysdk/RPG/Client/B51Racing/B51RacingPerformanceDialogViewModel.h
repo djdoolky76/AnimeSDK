@@ -6,6 +6,8 @@
 
 namespace RPG::Client::B51Racing
 {
+	inline static constexpr unsigned int B51RacingPerformanceDialogViewModel_TypeDefinitionIndex = 82044;
+
 	class B51RacingPerformanceDialogViewModel : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ class PBNONKAIAMK;
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelDataComponent___c__DisplayClass21_0_TypeDefinitionIndex = 57599;
+
 	class LevelDataComponent___c__DisplayClass21_0 : public ::System::Object
 	{
 	public:

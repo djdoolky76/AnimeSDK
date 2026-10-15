@@ -23,6 +23,8 @@ namespace System { class String; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int CameraShakeBehaviour_TypeDefinitionIndex = 47808;
+
 	class CameraShakeBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

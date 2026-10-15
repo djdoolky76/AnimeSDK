@@ -11,6 +11,8 @@ class GBLEOHLLHNA;
 #define DFHADNIAOAD_PAACMDEDAIN_OFFSET UNITYSDK_OFFSET(0xE82DA20)
 #define DFHADNIAOAD_SET_STATE_OFFSET UNITYSDK_OFFSET(0xE82DA10)
 
+inline static constexpr unsigned int DFHADNIAOAD_TypeDefinitionIndex = 75768;
+
 	class DFHADNIAOAD : public ::System::Object
 	{
 	public:

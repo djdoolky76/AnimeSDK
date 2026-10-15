@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int IVRChaperoneSetup__RevertWorkingCopy_TypeDefinitionIndex = 38995;
+
 	class IVRChaperoneSetup__RevertWorkingCopy : public ::System::MulticastDelegate
 	{
 	public:

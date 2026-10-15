@@ -14,6 +14,8 @@ namespace System::Xml { class XmlNameTable; }
 
 namespace System::Xml::Schema
 {
+	inline static constexpr unsigned int Datatype_yearMonthDuration_TypeDefinitionIndex = 2102;
+
 	class Datatype_yearMonthDuration : public ::System::Xml::Schema::Datatype_duration
 	{
 	public:

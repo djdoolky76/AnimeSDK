@@ -27,6 +27,8 @@ namespace UnityEngine { class Transform; }
 #define LKELIHAOFPE_PMFLANHKLEG_2_OFFSET UNITYSDK_OFFSET(0xB731B50)
 #define LKELIHAOFPE_PMFLANHKLEG_OFFSET UNITYSDK_OFFSET(0xB7313C0)
 
+inline static constexpr unsigned int LKELIHAOFPE_TypeDefinitionIndex = 74276;
+
 	class LKELIHAOFPE : public ::System::Object
 	{
 	public:

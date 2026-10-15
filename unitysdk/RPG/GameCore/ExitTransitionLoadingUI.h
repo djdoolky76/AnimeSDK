@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ExitTransitionLoadingUI; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ExitTransitionLoadingUI_TypeDefinitionIndex = 21710;
+
 	class ExitTransitionLoadingUI : public ::RPG::GameCore::TaskConfig
 	{
 	public:

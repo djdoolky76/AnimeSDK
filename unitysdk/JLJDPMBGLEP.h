@@ -33,6 +33,8 @@ namespace System { class String; }
 #define JLJDPMBGLEP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E77C780)
 #define JLJDPMBGLEP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E77C7E0)
 
+inline static constexpr unsigned int JLJDPMBGLEP_TypeDefinitionIndex = 34940;
+
 	class JLJDPMBGLEP : public ::System::Object
 	{
 	public:

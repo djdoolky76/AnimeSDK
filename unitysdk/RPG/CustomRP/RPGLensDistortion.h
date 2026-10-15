@@ -12,6 +12,8 @@ namespace UnityEngine::Rendering { class Vector4Parameter; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int RPGLensDistortion_TypeDefinitionIndex = 37819;
+
 	class RPGLensDistortion : public ::RPG::CustomRP::CustomVolumeComponent
 	{
 	public:

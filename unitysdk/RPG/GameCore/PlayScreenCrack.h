@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PlayScreenCrack_TypeDefinitionIndex = 20888;
+
 	class PlayScreenCrack : public ::RPG::GameCore::TaskConfig
 	{
 	public:

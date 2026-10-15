@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EnhancedAvatarRow_TypeDefinitionIndex = 12711;
+
 	class EnhancedAvatarRow : public ::System::Object
 	{
 	public:

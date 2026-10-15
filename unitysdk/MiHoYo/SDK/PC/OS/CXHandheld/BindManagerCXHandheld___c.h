@@ -11,6 +11,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK::PC::OS::CXHandheld
 {
+	inline static constexpr unsigned int BindManagerCXHandheld___c_TypeDefinitionIndex = 8745;
+
 	class BindManagerCXHandheld___c : public ::System::Object
 	{
 	public:

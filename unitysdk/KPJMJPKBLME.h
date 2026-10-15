@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int KPJMJPKBLME_TypeDefinitionIndex = 29733;
+
 	enum class KPJMJPKBLME : ::System::Int32
 	{
 		LHIBILLPCIL = 0,

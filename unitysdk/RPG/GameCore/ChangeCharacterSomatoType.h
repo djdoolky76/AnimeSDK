@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChangeCharacterSomatoType_TypeDefinitionIndex = 23678;
+
 	class ChangeCharacterSomatoType : public ::RPG::GameCore::TaskConfig
 	{
 	public:

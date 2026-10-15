@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int IdleLiveBossData_TypeDefinitionIndex = 75146;
+
 	class IdleLiveBossData : public ::System::Object
 	{
 	public:

@@ -16,6 +16,8 @@ namespace System { class String; }
 #define KFGNLEGMMNC_IDLNIPDPKEI_OFFSET UNITYSDK_OFFSET(0xB3A0050)
 #define KFGNLEGMMNC_KPFKKLMJBOA_OFFSET UNITYSDK_OFFSET(0xB39FF00)
 
+inline static constexpr unsigned int KFGNLEGMMNC_TypeDefinitionIndex = 69733;
+
 	class KFGNLEGMMNC : public ::System::Object
 	{
 	public:

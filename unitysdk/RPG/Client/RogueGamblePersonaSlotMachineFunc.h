@@ -13,6 +13,8 @@ namespace RPG::Client { class RogueGamblePersonaSlotMachineFunc; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueGamblePersonaSlotMachineFunc_TypeDefinitionIndex = 67224;
+
 	class RogueGamblePersonaSlotMachineFunc : public ::RPG::Client::RogueGambleBaseFunc
 	{
 	public:

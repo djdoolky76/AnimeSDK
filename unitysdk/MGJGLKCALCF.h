@@ -34,6 +34,8 @@ namespace UnityEngine { class GameObject; }
 #define MGJGLKCALCF_PEPLLKMBKFJ_OFFSET UNITYSDK_OFFSET(0xB921A60)
 #define MGJGLKCALCF_PNJLKONAPKG_OFFSET UNITYSDK_OFFSET(0xB921F70)
 
+inline static constexpr unsigned int MGJGLKCALCF_TypeDefinitionIndex = 81845;
+
 	class MGJGLKCALCF : public ::System::Object
 	{
 	public:

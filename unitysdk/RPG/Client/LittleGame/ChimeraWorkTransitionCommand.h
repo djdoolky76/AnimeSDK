@@ -10,6 +10,8 @@ namespace System { class Action; }
 
 namespace RPG::Client::LittleGame
 {
+	inline static constexpr unsigned int ChimeraWorkTransitionCommand_TypeDefinitionIndex = 76639;
+
 	class ChimeraWorkTransitionCommand : public ::System::Object
 	{
 	public:

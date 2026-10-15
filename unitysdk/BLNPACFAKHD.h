@@ -14,6 +14,8 @@ class BLNPACFAKHD;
 #define BLNPACFAKHD_PDBMMICONOF_OFFSET UNITYSDK_OFFSET(0x1DD12A10)
 #define BLNPACFAKHD_PEFLJDOKOIL_OFFSET UNITYSDK_OFFSET(0x1DD12A40)
 
+inline static constexpr unsigned int BLNPACFAKHD_TypeDefinitionIndex = 6181;
+
 	class BLNPACFAKHD : public ::System::Object
 	{
 	public:

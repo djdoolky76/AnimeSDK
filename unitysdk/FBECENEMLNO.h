@@ -12,6 +12,8 @@ namespace System { class String; }
 #define FBECENEMLNO_SET_COMMENTNPCNAME_OFFSET UNITYSDK_OFFSET(0x15697530)
 #define FBECENEMLNO_SET_COMMENT_OFFSET UNITYSDK_OFFSET(0x15697550)
 
+inline static constexpr unsigned int FBECENEMLNO_TypeDefinitionIndex = 79734;
+
 	class FBECENEMLNO : public ::System::Object
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
+	inline static constexpr unsigned int BrowserNative_Calltype_zfb_evalJS_TypeDefinitionIndex = 39446;
+
 	class BrowserNative_Calltype_zfb_evalJS : public ::System::MulticastDelegate
 	{
 	public:

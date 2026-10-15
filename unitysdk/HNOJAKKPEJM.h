@@ -11,6 +11,8 @@ namespace System { class Object; }
 #define HNOJAKKPEJM_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x15DA6B90)
 #define HNOJAKKPEJM_INVOKE_OFFSET UNITYSDK_OFFSET(0x15DA6B50)
 
+inline static constexpr unsigned int HNOJAKKPEJM_TypeDefinitionIndex = 78062;
+
 	class HNOJAKKPEJM : public ::System::MulticastDelegate
 	{
 	public:

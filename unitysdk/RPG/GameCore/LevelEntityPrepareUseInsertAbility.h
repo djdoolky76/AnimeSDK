@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelEntityPrepareUseInsertAbility_TypeDefinitionIndex = 56753;
+
 	class LevelEntityPrepareUseInsertAbility : public ::CMPGEAFHHDC
 	{
 	public:

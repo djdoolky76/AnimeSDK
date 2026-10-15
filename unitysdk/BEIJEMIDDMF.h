@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define BEIJEMIDDMF_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CD01EB0)
 #define BEIJEMIDDMF_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CD01790)
 
+inline static constexpr unsigned int BEIJEMIDDMF_TypeDefinitionIndex = 11644;
+
 	class BEIJEMIDDMF : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int HeartDialScriptInfo_NotifyParam_TypeDefinitionIndex = 65660;
+
 	class HeartDialScriptInfo_NotifyParam : public ::System::Object
 	{
 	public:

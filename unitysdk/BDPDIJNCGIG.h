@@ -10,6 +10,8 @@ namespace System { class String; }
 #define BDPDIJNCGIG_MNJOCIFNCFK_OFFSET UNITYSDK_OFFSET(0x16306E60)
 #define BDPDIJNCGIG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x16306EF0)
 
+inline static constexpr unsigned int BDPDIJNCGIG_TypeDefinitionIndex = 59271;
+
 	class BDPDIJNCGIG : public ::System::Object
 	{
 	public:

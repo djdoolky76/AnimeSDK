@@ -11,6 +11,8 @@ namespace SimpleJSON { class JSONNode; }
 #define MCAIABAKIJJ_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D139600)
 #define MCAIABAKIJJ_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D1395C0)
 
+inline static constexpr unsigned int MCAIABAKIJJ_TypeDefinitionIndex = 19895;
+
 	class MCAIABAKIJJ : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

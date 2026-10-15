@@ -8,6 +8,8 @@ namespace RPG::Client { class RogueTournPersonaRoomCardDeckInfo; }
 #define COMDMAKOBFO_CTOR_OFFSET UNITYSDK_OFFSET(0xDCBF190)
 #define COMDMAKOBFO_JAGMPHPNAHM_OFFSET UNITYSDK_OFFSET(0xDCBF1A0)
 
+inline static constexpr unsigned int COMDMAKOBFO_TypeDefinitionIndex = 67107;
+
 	class COMDMAKOBFO : public ::OBDGDODGFAM
 	{
 	public:

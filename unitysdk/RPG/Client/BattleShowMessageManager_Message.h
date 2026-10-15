@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BattleShowMessageManager_Message_TypeDefinitionIndex = 71857;
+
 	class BattleShowMessageManager_Message : public ::System::Object
 	{
 	public:

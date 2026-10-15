@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define NDLMAMEGFDM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EAEB040)
 #define NDLMAMEGFDM___C___CCTOR_B__53_0_OFFSET UNITYSDK_OFFSET(0x1EAEB050)
 
+inline static constexpr unsigned int NDLMAMEGFDM___c_TypeDefinitionIndex = 34727;
+
 	class NDLMAMEGFDM___c : public ::System::Object
 	{
 	public:

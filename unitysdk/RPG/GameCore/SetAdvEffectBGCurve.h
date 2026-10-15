@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetAdvEffectBGCurve_TypeDefinitionIndex = 22321;
+
 	class SetAdvEffectBGCurve : public ::RPG::GameCore::TaskConfig
 	{
 	public:

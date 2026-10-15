@@ -7,6 +7,8 @@ class FCOEMCEDLNL;
 #define CNCHEGIMEJM_CTOR_OFFSET UNITYSDK_OFFSET(0x1DCB1DF0)
 #define CNCHEGIMEJM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DCB1D00)
 
+inline static constexpr unsigned int CNCHEGIMEJM_TypeDefinitionIndex = 11409;
+
 	class CNCHEGIMEJM : public ::System::Object
 	{
 	public:

@@ -17,6 +17,8 @@ namespace UnityEngine { class Object; }
 #define BNFHFJMLEMO_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0xBDCBF10)
 #define BNFHFJMLEMO_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0xBDCB980)
 
+inline static constexpr unsigned int BNFHFJMLEMO_TypeDefinitionIndex = 49265;
+
 	class BNFHFJMLEMO : public ::System::Object
 	{
 	public:

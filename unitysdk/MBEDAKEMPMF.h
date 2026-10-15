@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define MBEDAKEMPMF_CONVERT_OFFSET UNITYSDK_OFFSET(0x1CC935E0)
 #define MBEDAKEMPMF_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC936D0)
 
+inline static constexpr unsigned int MBEDAKEMPMF_TypeDefinitionIndex = 43904;
+
 	class MBEDAKEMPMF : public ::System::Object
 	{
 	public:

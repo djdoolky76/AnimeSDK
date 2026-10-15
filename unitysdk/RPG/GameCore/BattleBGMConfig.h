@@ -10,6 +10,8 @@ namespace RPG::GameCore { class BattleBGMStateConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BattleBGMConfig_TypeDefinitionIndex = 18119;
+
 	class BattleBGMConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

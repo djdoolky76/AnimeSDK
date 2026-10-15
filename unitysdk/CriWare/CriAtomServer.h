@@ -20,6 +20,8 @@ namespace System { class Action; }
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriAtomServer_TypeDefinitionIndex = 39940;
+
 	class CriAtomServer : public ::CriWare::CriMonoBehaviour
 	{
 	public:

@@ -19,6 +19,8 @@ namespace UnityEngine { class Material; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int LightRubikCubePuzzleBlock_TypeDefinitionIndex = 78678;
+
 	class LightRubikCubePuzzleBlock : public ::UnityEngine::MonoBehaviour
 	{
 	public:

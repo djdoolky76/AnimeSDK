@@ -16,6 +16,8 @@ namespace System { class Object; }
 #define BCIFDHMKADE_OPCKNPGJDLN_PJPIHOEJCBP_OFFSET UNITYSDK_OFFSET(0x15EAA1F0)
 #define BCIFDHMKADE_OPCKNPGJDLN_POAACIDJOKM_OFFSET UNITYSDK_OFFSET(0x15EAA120)
 
+inline static constexpr unsigned int BCIFDHMKADE_OPCKNPGJDLN_TypeDefinitionIndex = 78642;
+
 	class BCIFDHMKADE_OPCKNPGJDLN : public ::System::Object
 	{
 	public:

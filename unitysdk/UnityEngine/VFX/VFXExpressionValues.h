@@ -8,6 +8,8 @@ namespace UnityEngine::VFX { class VFXExpressionValues; }
 
 namespace UnityEngine::VFX
 {
+	inline static constexpr unsigned int VFXExpressionValues_TypeDefinitionIndex = 6039;
+
 	class VFXExpressionValues : public ::System::Object
 	{
 	public:

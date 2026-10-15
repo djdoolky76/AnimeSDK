@@ -10,6 +10,8 @@ namespace System { class String; }
 #define PIJDOMOGHNF_HCFINLKPIHL_OFFSET UNITYSDK_OFFSET(0xC2694E0)
 #define PIJDOMOGHNF_IGBFHCJEHNK_OFFSET UNITYSDK_OFFSET(0xC269580)
 
+inline static constexpr unsigned int PIJDOMOGHNF_TypeDefinitionIndex = 73298;
+
 	class PIJDOMOGHNF : public ::System::Object
 	{
 	public:

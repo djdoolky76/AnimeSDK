@@ -30,6 +30,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BattleElationPointDetailItemData_TypeDefinitionIndex = 72144;
+
 	class BattleElationPointDetailItemData : public ::System::Object
 	{
 	public:

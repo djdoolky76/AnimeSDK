@@ -13,6 +13,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int StoryPropTriggerAnimStateClip_TypeDefinitionIndex = 48255;
+
 	class StoryPropTriggerAnimStateClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

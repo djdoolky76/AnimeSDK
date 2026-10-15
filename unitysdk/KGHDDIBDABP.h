@@ -35,6 +35,8 @@ namespace System { class String; }
 #define KGHDDIBDABP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E836F40)
 #define KGHDDIBDABP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E836FA0)
 
+inline static constexpr unsigned int KGHDDIBDABP_TypeDefinitionIndex = 27563;
+
 	class KGHDDIBDABP : public ::System::Object
 	{
 	public:

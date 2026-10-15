@@ -8,6 +8,8 @@ namespace RPG::GameCore { class AvatarRowData; }
 #define FKKFNNAILAC_CCTOR_OFFSET UNITYSDK_OFFSET(0x15807040)
 #define FKKFNNAILAC_CTOR_OFFSET UNITYSDK_OFFSET(0x15806FF0)
 
+inline static constexpr unsigned int FKKFNNAILAC_TypeDefinitionIndex = 51993;
+
 	class FKKFNNAILAC : public ::System::Object
 	{
 	public:

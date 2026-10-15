@@ -3,6 +3,8 @@
 #include "unitysdk/System/Object.h"
 class AkCallbackManager_EventCallback;
 
+inline static constexpr unsigned int AkAudioInputManager___O_TypeDefinitionIndex = 44815;
+
 	class AkAudioInputManager___O : public ::System::Object
 	{
 	public:

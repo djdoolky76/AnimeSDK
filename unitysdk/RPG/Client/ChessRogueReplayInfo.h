@@ -29,6 +29,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChessRogueReplayInfo_TypeDefinitionIndex = 66969;
+
 	class ChessRogueReplayInfo : public ::System::Object
 	{
 	public:

@@ -26,6 +26,8 @@ namespace System { class Object; }
 
 namespace RPG::Client::PetDiy
 {
+	inline static constexpr unsigned int PetDiyData_TypeDefinitionIndex = 74484;
+
 	class PetDiyData : public ::System::Object
 	{
 	public:

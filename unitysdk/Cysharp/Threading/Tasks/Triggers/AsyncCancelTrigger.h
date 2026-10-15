@@ -14,6 +14,8 @@ namespace UnityEngine::EventSystems { class BaseEventData; }
 
 namespace Cysharp::Threading::Tasks::Triggers
 {
+	inline static constexpr unsigned int AsyncCancelTrigger_TypeDefinitionIndex = 38621;
+
 	class AsyncCancelTrigger
 	{
 	public:

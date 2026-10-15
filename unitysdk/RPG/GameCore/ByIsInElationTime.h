@@ -13,6 +13,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByIsInElationTime_TypeDefinitionIndex = 22617;
+
 	class ByIsInElationTime : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

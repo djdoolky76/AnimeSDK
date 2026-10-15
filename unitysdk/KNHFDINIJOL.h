@@ -25,6 +25,8 @@ namespace System { class String; }
 #define KNHFDINIJOL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E8A30B0)
 #define KNHFDINIJOL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E8A3110)
 
+inline static constexpr unsigned int KNHFDINIJOL_TypeDefinitionIndex = 31725;
+
 	class KNHFDINIJOL : public ::System::Object
 	{
 	public:

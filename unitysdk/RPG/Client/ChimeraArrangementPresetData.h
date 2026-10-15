@@ -14,6 +14,8 @@ namespace RPG::GameCore { class ChimeraArrangementPresetRow; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChimeraArrangementPresetData_TypeDefinitionIndex = 63405;
+
 	class ChimeraArrangementPresetData : public ::System::Object
 	{
 	public:

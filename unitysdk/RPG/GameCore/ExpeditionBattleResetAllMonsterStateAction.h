@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ExpeditionBattleResetAllMonsterStateAction; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ExpeditionBattleResetAllMonsterStateAction_TypeDefinitionIndex = 16220;
+
 	class ExpeditionBattleResetAllMonsterStateAction : public ::RPG::GameCore::BaseExpeditionBattleAction
 	{
 	public:

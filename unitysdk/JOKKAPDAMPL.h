@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 #define JOKKAPDAMPL_UPDATEAFTER_OFFSET UNITYSDK_OFFSET(0xB2A7020)
 #define JOKKAPDAMPL_UPDATEBEFORE_OFFSET UNITYSDK_OFFSET(0xB2A6990)
 
+inline static constexpr unsigned int JOKKAPDAMPL_TypeDefinitionIndex = 65343;
+
 	class JOKKAPDAMPL : public ::AMCOEFHHBPO
 	{
 	public:

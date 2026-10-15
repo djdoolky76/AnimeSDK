@@ -21,6 +21,8 @@ namespace UnityEngine { class Transform; }
 #define FIFFPFPIEDN_MADEODJIOAH_OFFSET UNITYSDK_OFFSET(0x157A4F40)
 #define FIFFPFPIEDN_MHJCIKKCMOL_OFFSET UNITYSDK_OFFSET(0x157A56E0)
 
+inline static constexpr unsigned int FIFFPFPIEDN_TypeDefinitionIndex = 59684;
+
 	class FIFFPFPIEDN : public ::System::Object
 	{
 	public:

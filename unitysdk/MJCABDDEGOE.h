@@ -40,6 +40,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define MJCABDDEGOE_PGOMOIBANED_OFFSET UNITYSDK_OFFSET(0xB9657D0)
 #define MJCABDDEGOE_PKLLMBIKJAA_OFFSET UNITYSDK_OFFSET(0xB9646E0)
 
+inline static constexpr unsigned int MJCABDDEGOE_TypeDefinitionIndex = 62356;
+
 	class MJCABDDEGOE : public ::System::Object
 	{
 	public:

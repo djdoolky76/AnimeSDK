@@ -8,6 +8,8 @@
 
 namespace SRF::UI
 {
+	inline static constexpr unsigned int SRRetinaScaler_TypeDefinitionIndex = 35392;
+
 	class SRRetinaScaler : public ::SRF::SRMonoBehaviour
 	{
 	public:

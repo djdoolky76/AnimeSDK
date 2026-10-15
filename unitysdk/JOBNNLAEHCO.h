@@ -10,6 +10,8 @@ namespace System { class String; }
 #define JOBNNLAEHCO_ONALLOC_OFFSET UNITYSDK_OFFSET(0x1CBA69C0)
 #define JOBNNLAEHCO_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0x1CBA6AA0)
 
+inline static constexpr unsigned int JOBNNLAEHCO_TypeDefinitionIndex = 43511;
+
 	class JOBNNLAEHCO : public ::System::Object
 	{
 	public:

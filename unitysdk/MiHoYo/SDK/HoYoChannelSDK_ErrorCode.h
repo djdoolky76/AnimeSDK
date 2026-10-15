@@ -3,6 +3,8 @@
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int HoYoChannelSDK_ErrorCode_TypeDefinitionIndex = 46549;
+
 	enum class HoYoChannelSDK_ErrorCode : ::System::Int32
 	{
 		SUCCESS = 0,

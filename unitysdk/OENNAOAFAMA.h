@@ -31,6 +31,8 @@ namespace System { class String; }
 #define OENNAOAFAMA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE31E10)
 #define OENNAOAFAMA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DE31E70)
 
+inline static constexpr unsigned int OENNAOAFAMA_TypeDefinitionIndex = 29720;
+
 	class OENNAOAFAMA : public ::System::Object
 	{
 	public:

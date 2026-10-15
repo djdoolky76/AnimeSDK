@@ -15,6 +15,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace MiHoYo::SDK::PS
 {
+	inline static constexpr unsigned int PayManager___c_TypeDefinitionIndex = 8915;
+
 	class PayManager___c : public ::System::Object
 	{
 	public:

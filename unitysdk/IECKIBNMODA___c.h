@@ -13,6 +13,8 @@ namespace System { template <typename T> class Func_1; }
 #define IECKIBNMODA___C___CTOR_B__9_0_OFFSET UNITYSDK_OFFSET(0x1CB08140)
 #define IECKIBNMODA___C___CTOR_B__9_1_OFFSET UNITYSDK_OFFSET(0x1CB08170)
 
+inline static constexpr unsigned int IECKIBNMODA___c_TypeDefinitionIndex = 42602;
+
 	class IECKIBNMODA___c : public ::System::Object
 	{
 	public:

@@ -18,6 +18,8 @@ namespace UnityEngine { class BoxCollider; }
 
 namespace RPG::Client::LittleGame::FiveDim
 {
+	inline static constexpr unsigned int FiveDimGarbageBinView_TypeDefinitionIndex = 77177;
+
 	class FiveDimGarbageBinView : public ::RPG::Client::LittleGame::FiveDim::FiveDimPropView
 	{
 	public:

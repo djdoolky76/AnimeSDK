@@ -9,6 +9,8 @@
 #define MMIGJCAKGLM_CTOR_OFFSET UNITYSDK_OFFSET(0xB9D1260)
 #define MMIGJCAKGLM_ICNEKGBHIHP_OFFSET UNITYSDK_OFFSET(0xB9D0E00)
 
+inline static constexpr unsigned int MMIGJCAKGLM_TypeDefinitionIndex = 77028;
+
 	class MMIGJCAKGLM : public ::KBLKHFKCCBC
 	{
 	public:

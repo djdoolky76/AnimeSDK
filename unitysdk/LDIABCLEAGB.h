@@ -5,6 +5,8 @@ class DBNGMGPFPPB;
 class JJNNBBAINJI;
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 
+inline static constexpr unsigned int LDIABCLEAGB_TypeDefinitionIndex = 44165;
+
 	class LDIABCLEAGB : public ::System::Object
 	{
 	public:

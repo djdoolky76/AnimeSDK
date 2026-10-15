@@ -17,6 +17,8 @@ namespace System { class String; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int ReflectionSetting_SSGISettingData_TypeDefinitionIndex = 37854;
+
 	class ReflectionSetting_SSGISettingData : public ::System::Object
 	{
 	public:

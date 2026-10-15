@@ -10,6 +10,8 @@
 
 namespace IFix::Core
 {
+	inline static constexpr unsigned int Cleanner_TypeDefinitionIndex = 7140;
+
 	class Cleanner : public ::System::Object
 	{
 	public:

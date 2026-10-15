@@ -9,6 +9,8 @@ namespace MiHoYo::SDK { class JSONNode; }
 
 namespace MiHoYo::SDK::Base::GoodsPlatform
 {
+	inline static constexpr unsigned int ThirdpartyStore___c__DisplayClass16_1_TypeDefinitionIndex = 8852;
+
 	template <typename T>
 	class ThirdpartyStore___c__DisplayClass16_1 : public ::System::Object
 	{

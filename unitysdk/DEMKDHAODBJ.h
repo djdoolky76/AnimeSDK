@@ -27,6 +27,8 @@ namespace System { class String; }
 #define DEMKDHAODBJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E1978B0)
 #define DEMKDHAODBJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E197910)
 
+inline static constexpr unsigned int DEMKDHAODBJ_TypeDefinitionIndex = 28244;
+
 	class DEMKDHAODBJ : public ::System::Object
 	{
 	public:

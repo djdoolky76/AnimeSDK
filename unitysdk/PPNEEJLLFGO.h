@@ -12,6 +12,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define PPNEEJLLFGO_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xC395220)
 #define PPNEEJLLFGO_JFCHEALPNIA_OFFSET UNITYSDK_OFFSET(0xC3952E0)
 
+inline static constexpr unsigned int PPNEEJLLFGO_TypeDefinitionIndex = 56685;
+
 	class PPNEEJLLFGO : public ::System::Object
 	{
 	public:

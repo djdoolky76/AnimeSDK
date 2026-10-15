@@ -36,6 +36,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define NEEFLBCNHJD_SET_GROUPID_OFFSET UNITYSDK_OFFSET(0xBB5A2E0)
 #define NEEFLBCNHJD_SET_INSTANCEID_OFFSET UNITYSDK_OFFSET(0xBB5A300)
 
+inline static constexpr unsigned int NEEFLBCNHJD_TypeDefinitionIndex = 74601;
+
 	class NEEFLBCNHJD : public ::System::Object
 	{
 	public:

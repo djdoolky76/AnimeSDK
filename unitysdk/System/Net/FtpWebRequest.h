@@ -99,6 +99,8 @@ namespace System::Text { class Encoding; }
 
 namespace System::Net
 {
+	inline static constexpr unsigned int FtpWebRequest_TypeDefinitionIndex = 2843;
+
 	class FtpWebRequest : public ::System::Net::WebRequest
 	{
 	public:

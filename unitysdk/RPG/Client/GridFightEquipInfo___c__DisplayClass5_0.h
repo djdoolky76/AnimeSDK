@@ -8,6 +8,8 @@ namespace RPG::Client { class GridFightEquipItemData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightEquipInfo___c__DisplayClass5_0_TypeDefinitionIndex = 64967;
+
 	class GridFightEquipInfo___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:

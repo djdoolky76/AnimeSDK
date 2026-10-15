@@ -10,6 +10,8 @@ namespace RPG::GameCore { class MonopolyContentDisplayRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MonopolyContentDisplayRow_TypeDefinitionIndex = 12087;
+
 	class MonopolyContentDisplayRow : public ::System::Object
 	{
 	public:

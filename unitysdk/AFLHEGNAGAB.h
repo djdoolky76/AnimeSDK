@@ -43,6 +43,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define AFLHEGNAGAB_PALLCENBCAP_OFFSET UNITYSDK_OFFSET(0xCF13380)
 #define AFLHEGNAGAB_SET_REGIONCONFIGPROVIDER_OFFSET UNITYSDK_OFFSET(0xCF12C90)
 
+inline static constexpr unsigned int AFLHEGNAGAB_TypeDefinitionIndex = 78030;
+
 	class AFLHEGNAGAB : public ::System::Object
 	{
 	public:

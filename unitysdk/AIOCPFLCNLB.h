@@ -35,6 +35,8 @@ namespace System { class String; }
 #define AIOCPFLCNLB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E282020)
 #define AIOCPFLCNLB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E282080)
 
+inline static constexpr unsigned int AIOCPFLCNLB_TypeDefinitionIndex = 34842;
+
 	class AIOCPFLCNLB : public ::System::Object
 	{
 	public:

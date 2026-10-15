@@ -9,6 +9,8 @@ namespace System { class Type; }
 #define MHBIHCBKKMB_MFCDKJIHDEH_OFFSET UNITYSDK_OFFSET(0xB92F830)
 #define MHBIHCBKKMB_PCNAKDOLCCD_OFFSET UNITYSDK_OFFSET(0xB92F7F0)
 
+inline static constexpr unsigned int MHBIHCBKKMB_TypeDefinitionIndex = 74002;
+
 	class MHBIHCBKKMB : public ::System::Object
 	{
 	public:

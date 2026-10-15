@@ -8,6 +8,8 @@ namespace System { class Action; }
 
 #define AKBKPOFPBAL_CTOR_OFFSET UNITYSDK_OFFSET(0x12CC91F0)
 
+inline static constexpr unsigned int AKBKPOFPBAL_TypeDefinitionIndex = 73119;
+
 	class AKBKPOFPBAL : public ::System::Object
 	{
 	public:

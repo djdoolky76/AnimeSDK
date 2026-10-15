@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int OpticalIllusionExitPerformance_TypeDefinitionIndex = 22223;
+
 	class OpticalIllusionExitPerformance : public ::RPG::GameCore::TaskConfig
 	{
 	public:

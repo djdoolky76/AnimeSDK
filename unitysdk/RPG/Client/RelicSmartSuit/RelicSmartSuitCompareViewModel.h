@@ -43,6 +43,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::RelicSmartSuit
 {
+	inline static constexpr unsigned int RelicSmartSuitCompareViewModel_TypeDefinitionIndex = 74403;
+
 	class RelicSmartSuitCompareViewModel : public ::System::Object
 	{
 	public:

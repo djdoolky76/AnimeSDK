@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define HOONMGBJLEH_CTOR_OFFSET UNITYSDK_OFFSET(0x15DBEA00)
 #define HOONMGBJLEH_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x15DBEA20)
 
+inline static constexpr unsigned int HOONMGBJLEH_TypeDefinitionIndex = 59232;
+
 	class HOONMGBJLEH
 	{
 	public:

@@ -29,6 +29,8 @@ namespace Sofa::Core { class SimpleCommand; }
 
 namespace RPG::Client::ActivityFinalityBattle::Activity
 {
+	inline static constexpr unsigned int FinalityBattleActivityPanelViewModel_TypeDefinitionIndex = 82111;
+
 	class FinalityBattleActivityPanelViewModel : public ::System::Object
 	{
 	public:

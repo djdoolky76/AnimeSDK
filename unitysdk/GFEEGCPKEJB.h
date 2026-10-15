@@ -9,6 +9,8 @@ class GFEEGCPKEJB;
 #define GFEEGCPKEJB_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CE3B9E0)
 #define GFEEGCPKEJB_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CE3B9A0)
 
+inline static constexpr unsigned int GFEEGCPKEJB_TypeDefinitionIndex = 19935;
+
 	class GFEEGCPKEJB : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -71,6 +71,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::FateRin::Card
 {
+	inline static constexpr unsigned int FateRinSingleDeckEditViewModel_TypeDefinitionIndex = 81174;
+
 	class FateRinSingleDeckEditViewModel : public ::RPG::Client::FateRin::BaseViewModel
 	{
 	public:

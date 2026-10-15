@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace UnityEngine::Playables
 {
+	inline static constexpr unsigned int ScriptPlayableOutput_TypeDefinitionIndex = 4928;
+
 	struct alignas(4) ScriptPlayableOutput
 	{
 		::UnityEngine::Playables::PlayableOutputHandle m_Handle; // 0x10

@@ -13,6 +13,8 @@ namespace XLua { class LuaTable; }
 
 namespace RPG::Client::B51Racing
 {
+	inline static constexpr unsigned int B51RacingDevelopValueIconListControl_TypeDefinitionIndex = 81825;
+
 	class B51RacingDevelopValueIconListControl : public ::Sofa::BaseSofaControl
 	{
 	public:

@@ -33,6 +33,8 @@ namespace System { class String; }
 #define LEJFIEPMMGG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E933B20)
 #define LEJFIEPMMGG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E933B80)
 
+inline static constexpr unsigned int LEJFIEPMMGG_TypeDefinitionIndex = 33012;
+
 	class LEJFIEPMMGG : public ::System::Object
 	{
 	public:

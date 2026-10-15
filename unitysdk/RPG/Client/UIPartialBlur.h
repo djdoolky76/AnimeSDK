@@ -21,6 +21,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UIPartialBlur_TypeDefinitionIndex = 73089;
+
 	class UIPartialBlur : public ::UnityEngine::MonoBehaviour
 	{
 	public:

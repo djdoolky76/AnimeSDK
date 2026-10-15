@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace XLua::TemplateEngine
 {
+	inline static constexpr unsigned int TemplateFormatException_TypeDefinitionIndex = 50287;
+
 	class TemplateFormatException : public ::System::Exception
 	{
 	public:

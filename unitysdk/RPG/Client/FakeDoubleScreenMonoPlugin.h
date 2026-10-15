@@ -16,6 +16,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FakeDoubleScreenMonoPlugin_TypeDefinitionIndex = 70590;
+
 	class FakeDoubleScreenMonoPlugin
 	{
 	public:

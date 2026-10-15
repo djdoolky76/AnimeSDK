@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TriggerHitTarget; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TriggerHitTarget_TypeDefinitionIndex = 20213;
+
 	class TriggerHitTarget : public ::RPG::GameCore::TaskConfig
 	{
 	public:

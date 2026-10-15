@@ -36,6 +36,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int RubikCubePuzzleBoard_TypeDefinitionIndex = 78817;
+
 	class RubikCubePuzzleBoard : public ::RPG::Client::Prop::PuzzleBoardBase
 	{
 	public:

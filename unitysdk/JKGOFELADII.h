@@ -11,6 +11,8 @@ namespace System { class String; }
 #define JKGOFELADII_CTOR_OFFSET UNITYSDK_OFFSET(0x1D042BE0)
 #define JKGOFELADII_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D0423E0)
 
+inline static constexpr unsigned int JKGOFELADII_TypeDefinitionIndex = 11521;
+
 	class JKGOFELADII : public ::System::Object
 	{
 	public:

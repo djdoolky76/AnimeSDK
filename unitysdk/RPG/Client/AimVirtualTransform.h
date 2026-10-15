@@ -12,6 +12,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AimVirtualTransform_TypeDefinitionIndex = 68489;
+
 	class AimVirtualTransform : public ::System::Object
 	{
 	public:

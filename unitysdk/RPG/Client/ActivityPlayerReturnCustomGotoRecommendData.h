@@ -9,6 +9,8 @@ namespace RPG::Client { class ConditionChecker; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ActivityPlayerReturnCustomGotoRecommendData_TypeDefinitionIndex = 61877;
+
 	class ActivityPlayerReturnCustomGotoRecommendData : public ::RPG::Client::ActivityPlayerReturnRecommendData
 	{
 	public:

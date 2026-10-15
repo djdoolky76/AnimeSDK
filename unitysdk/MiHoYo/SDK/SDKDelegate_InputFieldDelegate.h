@@ -13,6 +13,8 @@ namespace UnityEngine::UI { class InputField; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int SDKDelegate_InputFieldDelegate_TypeDefinitionIndex = 7774;
+
 	class SDKDelegate_InputFieldDelegate : public ::System::MulticastDelegate
 	{
 	public:

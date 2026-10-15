@@ -56,6 +56,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define NEJLIGKNHCC_OGBLPKJEFDM_OFFSET UNITYSDK_OFFSET(0xBB60670)
 #define NEJLIGKNHCC_PHHDCONJBBN_OFFSET UNITYSDK_OFFSET(0xBB61AE0)
 
+inline static constexpr unsigned int NEJLIGKNHCC_TypeDefinitionIndex = 69286;
+
 	class NEJLIGKNHCC : public ::System::Object
 	{
 	public:

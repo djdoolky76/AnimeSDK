@@ -12,6 +12,8 @@ namespace RPG::GameCore { class DynamicFloat; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvModifyMaxMazeMP_TypeDefinitionIndex = 21823;
+
 	class AdvModifyMaxMazeMP : public ::RPG::GameCore::TaskConfig
 	{
 	public:

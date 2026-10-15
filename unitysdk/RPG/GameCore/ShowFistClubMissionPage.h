@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ShowFistClubMissionPage_TypeDefinitionIndex = 21940;
+
 	class ShowFistClubMissionPage : public ::RPG::GameCore::TaskConfig
 	{
 	public:

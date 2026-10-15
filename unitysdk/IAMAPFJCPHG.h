@@ -9,6 +9,8 @@ namespace System { class Exception; }
 #define IAMAPFJCPHG__ONTASKBEGIN_B__1_0_OFFSET UNITYSDK_OFFSET(0x15E1A9E0)
 #define IAMAPFJCPHG__ONTASKBEGIN_B__1_1_OFFSET UNITYSDK_OFFSET(0x15E1A9F0)
 
+inline static constexpr unsigned int IAMAPFJCPHG_TypeDefinitionIndex = 52793;
+
 	class IAMAPFJCPHG
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define JEEFPOLFCOO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E716680)
 #define JEEFPOLFCOO___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1E716690)
 
+inline static constexpr unsigned int JEEFPOLFCOO___c_TypeDefinitionIndex = 26729;
+
 	class JEEFPOLFCOO___c : public ::System::Object
 	{
 	public:

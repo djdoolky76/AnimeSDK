@@ -6,6 +6,8 @@
 #define CLASS_820_F135EC100CECC036_METHOD_2_OFFSET UNITYSDK_OFFSET(0x149ACA10)
 #define CLASS_820_F135EC100CECC036_METHOD_OFFSET UNITYSDK_OFFSET(0x149AD060)
 
+inline static constexpr unsigned int Class_820_F135EC100CECC036_TypeDefinitionIndex = 51155;
+
 	class Class_820_F135EC100CECC036 : public ::System::Object
 	{
 	public:

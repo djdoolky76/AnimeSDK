@@ -9,6 +9,8 @@ namespace RPG::Client::ParkourGame { class MonoParkourCharacter; }
 
 namespace RPG::Client::ParkourGame
 {
+	inline static constexpr unsigned int MonoParkourCharacterCollision_TypeDefinitionIndex = 74134;
+
 	class MonoParkourCharacterCollision : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueCondPersonaRoomIsSuperConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueCondPersonaRoomIsSuperConfig_TypeDefinitionIndex = 19808;
+
 	class RogueCondPersonaRoomIsSuperConfig : public ::RPG::GameCore::RogueConditionConfigBase
 	{
 	public:

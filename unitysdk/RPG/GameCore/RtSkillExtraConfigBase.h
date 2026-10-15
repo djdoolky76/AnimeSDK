@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RtSkillExtraConfigBase; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RtSkillExtraConfigBase_TypeDefinitionIndex = 17674;
+
 	class RtSkillExtraConfigBase : public ::RPG::GameCore::JsonConfig
 	{
 	public:

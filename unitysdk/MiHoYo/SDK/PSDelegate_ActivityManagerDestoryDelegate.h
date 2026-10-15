@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int PSDelegate_ActivityManagerDestoryDelegate_TypeDefinitionIndex = 7751;
+
 	class PSDelegate_ActivityManagerDestoryDelegate : public ::System::MulticastDelegate
 	{
 	public:

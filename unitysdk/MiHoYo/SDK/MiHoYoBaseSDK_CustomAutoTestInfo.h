@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int MiHoYoBaseSDK_CustomAutoTestInfo_TypeDefinitionIndex = 46262;
+
 	class MiHoYoBaseSDK_CustomAutoTestInfo : public ::System::Object
 	{
 	public:

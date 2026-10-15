@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BattleUITeamBlockItemViewData_TypeDefinitionIndex = 71526;
+
 	class BattleUITeamBlockItemViewData : public ::System::Object
 	{
 	public:

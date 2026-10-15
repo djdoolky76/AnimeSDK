@@ -4,6 +4,8 @@
 
 #define DOGCOHFLPOH_CTOR_OFFSET UNITYSDK_OFFSET(0x1CBA810)
 
+inline static constexpr unsigned int DOGCOHFLPOH_TypeDefinitionIndex = 73968;
+
 	struct alignas(4) DOGCOHFLPOH
 	{
 		::UnityEngine::Vector3 BBFOLEOPPPL; // 0x10

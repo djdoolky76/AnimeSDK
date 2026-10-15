@@ -61,6 +61,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int EntityInspector_TypeDefinitionIndex = 68418;
+
 	class EntityInspector : public ::UnityEngine::MonoBehaviour
 	{
 	public:

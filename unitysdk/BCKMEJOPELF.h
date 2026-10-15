@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define BCKMEJOPELF_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CCFA0B0)
 #define BCKMEJOPELF_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CCF99D0)
 
+inline static constexpr unsigned int BCKMEJOPELF_TypeDefinitionIndex = 11008;
+
 	class BCKMEJOPELF : public ::System::Object
 	{
 	public:

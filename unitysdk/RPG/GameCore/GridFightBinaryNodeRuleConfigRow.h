@@ -9,6 +9,8 @@ namespace RPG::GameCore { class GridFightBinaryNodeRuleConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightBinaryNodeRuleConfigRow_TypeDefinitionIndex = 13619;
+
 	class GridFightBinaryNodeRuleConfigRow : public ::System::Object
 	{
 	public:

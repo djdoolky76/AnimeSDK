@@ -35,6 +35,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define CHGHIALKMFM_SET_ISRECOMMENDED_OFFSET UNITYSDK_OFFSET(0x1C54A6D0)
 #define CHGHIALKMFM_SET_PRIMARYATTRIBUTETYPE_OFFSET UNITYSDK_OFFSET(0x1C54A6B0)
 
+inline static constexpr unsigned int CHGHIALKMFM_TypeDefinitionIndex = 41803;
+
 	class CHGHIALKMFM : public ::System::Object
 	{
 	public:

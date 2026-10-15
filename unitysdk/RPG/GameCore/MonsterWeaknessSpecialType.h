@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MonsterWeaknessSpecialType_TypeDefinitionIndex = 24773;
+
 	enum class MonsterWeaknessSpecialType : ::System::Int32
 	{
 		SilverWolf999 = 0,

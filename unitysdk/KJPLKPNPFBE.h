@@ -25,6 +25,8 @@ namespace System { class String; }
 #define KJPLKPNPFBE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E874410)
 #define KJPLKPNPFBE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E874470)
 
+inline static constexpr unsigned int KJPLKPNPFBE_TypeDefinitionIndex = 26008;
+
 	class KJPLKPNPFBE : public ::System::Object
 	{
 	public:

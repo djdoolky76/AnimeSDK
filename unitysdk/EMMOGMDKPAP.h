@@ -13,6 +13,8 @@ namespace System { class Nullable; }
 #define EMMOGMDKPAP_MDLNPMMHOJI_OFFSET UNITYSDK_OFFSET(0x15554970)
 #define EMMOGMDKPAP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x155535F0)
 
+inline static constexpr unsigned int EMMOGMDKPAP_TypeDefinitionIndex = 54165;
+
 	class EMMOGMDKPAP
 	{
 	public:

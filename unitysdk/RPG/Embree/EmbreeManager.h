@@ -30,6 +30,8 @@ namespace UnityEngine { class Mesh; }
 
 namespace RPG::Embree
 {
+	inline static constexpr unsigned int EmbreeManager_TypeDefinitionIndex = 47015;
+
 	class EmbreeManager : public ::UnityEngine::MonoBehaviour
 	{
 	public:

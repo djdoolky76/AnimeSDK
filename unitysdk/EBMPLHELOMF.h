@@ -18,6 +18,8 @@ namespace UnityEngine { class Transform; }
 #define EBMPLHELOMF_NKPPGDENJAE_OFFSET UNITYSDK_OFFSET(0x12D040D0)
 #define EBMPLHELOMF__ONBIND_OFFSET UNITYSDK_OFFSET(0x12D03DE0)
 
+inline static constexpr unsigned int EBMPLHELOMF_TypeDefinitionIndex = 71703;
+
 	class EBMPLHELOMF : public ::FMPCODLIOLG
 	{
 	public:

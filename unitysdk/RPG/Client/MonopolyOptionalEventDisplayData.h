@@ -9,6 +9,8 @@ namespace RPG::Client { class MonopolyOptionalEventDisplayData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonopolyOptionalEventDisplayData_TypeDefinitionIndex = 66287;
+
 	class MonopolyOptionalEventDisplayData : public ::System::Object
 	{
 	public:

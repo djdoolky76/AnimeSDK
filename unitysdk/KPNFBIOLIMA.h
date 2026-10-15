@@ -17,6 +17,8 @@ namespace UnityEngine { class Transform; }
 #define KPNFBIOLIMA_MGHMEAPNJNA_OFFSET UNITYSDK_OFFSET(0xB5C71C0)
 #define KPNFBIOLIMA_NHONNHCIOOJ_OFFSET UNITYSDK_OFFSET(0xB5C7120)
 
+inline static constexpr unsigned int KPNFBIOLIMA_TypeDefinitionIndex = 68441;
+
 	class KPNFBIOLIMA : public ::System::Object
 	{
 	public:

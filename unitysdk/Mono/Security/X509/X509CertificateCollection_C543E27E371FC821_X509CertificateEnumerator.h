@@ -15,6 +15,8 @@ namespace System::Collections { class IEnumerator; }
 
 namespace Mono::Security::X509
 {
+	inline static constexpr unsigned int X509CertificateCollection_C543E27E371FC821_X509CertificateEnumerator_TypeDefinitionIndex = 2269;
+
 	class X509CertificateCollection_C543E27E371FC821_X509CertificateEnumerator : public ::System::Object
 	{
 	public:

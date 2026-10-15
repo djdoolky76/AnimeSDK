@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define PAGCOHJPPCD_FILTER_OFFSET UNITYSDK_OFFSET(0x1C9A4520)
 #define PAGCOHJPPCD_GETTRIGGER_OFFSET UNITYSDK_OFFSET(0x1C9A4400)
 
+inline static constexpr unsigned int PAGCOHJPPCD_TypeDefinitionIndex = 42870;
+
 	class PAGCOHJPPCD
 	{
 	public:

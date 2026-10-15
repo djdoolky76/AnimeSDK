@@ -29,6 +29,8 @@ namespace System { class String; }
 #define ENOABFIPHOB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E2F2B30)
 #define ENOABFIPHOB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E2F2B90)
 
+inline static constexpr unsigned int ENOABFIPHOB_TypeDefinitionIndex = 26264;
+
 	class ENOABFIPHOB : public ::System::Object
 	{
 	public:

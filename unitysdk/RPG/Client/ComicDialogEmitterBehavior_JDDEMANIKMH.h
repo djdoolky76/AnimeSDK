@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ComicDialogEmitterBehavior_JDDEMANIKMH_TypeDefinitionIndex = 70878;
+
 	struct alignas(4) ComicDialogEmitterBehavior_JDDEMANIKMH
 	{
 		::System::Int32 HOOKIFOLFLA; // 0x10

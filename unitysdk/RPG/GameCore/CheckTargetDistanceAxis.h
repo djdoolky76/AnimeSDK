@@ -11,6 +11,8 @@ namespace RPG::GameCore { class CheckTargetDistanceAxis; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CheckTargetDistanceAxis_TypeDefinitionIndex = 15513;
+
 	class CheckTargetDistanceAxis : public ::RPG::GameCore::ConsiderationAxisConfig
 	{
 	public:

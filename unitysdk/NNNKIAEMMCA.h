@@ -6,6 +6,8 @@ class DMDPOFBLBIE;
 #define NNNKIAEMMCA_CTOR_OFFSET UNITYSDK_OFFSET(0xBCD6220)
 #define NNNKIAEMMCA_LNGKNPJIOML_OFFSET UNITYSDK_OFFSET(0xBCD60A0)
 
+inline static constexpr unsigned int NNNKIAEMMCA_TypeDefinitionIndex = 72434;
+
 	class NNNKIAEMMCA : public ::System::Object
 	{
 	public:

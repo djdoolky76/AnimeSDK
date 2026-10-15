@@ -4,6 +4,8 @@
 
 #define MONORAILTRACKGENERATOR_CTOR_OFFSET UNITYSDK_OFFSET(0xBA4F020)
 
+inline static constexpr unsigned int MonoRailTrackGenerator_TypeDefinitionIndex = 47503;
+
 	class MonoRailTrackGenerator : public ::UnityEngine::MonoBehaviour
 	{
 	public:

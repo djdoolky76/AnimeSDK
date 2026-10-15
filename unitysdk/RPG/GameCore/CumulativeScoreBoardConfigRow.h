@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CumulativeScoreBoardConfigRow_TypeDefinitionIndex = 15187;
+
 	class CumulativeScoreBoardConfigRow : public ::System::Object
 	{
 	public:

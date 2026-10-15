@@ -9,6 +9,8 @@ namespace RPG::GameCore { class NPCMonsterTrackConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int NPCMonsterTrackConfigRow_TypeDefinitionIndex = 14286;
+
 	class NPCMonsterTrackConfigRow : public ::System::Object
 	{
 	public:

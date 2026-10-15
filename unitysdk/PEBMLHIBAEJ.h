@@ -5,6 +5,8 @@
 #define PEBMLHIBAEJ_CTOR_OFFSET UNITYSDK_OFFSET(0xC033300)
 #define PEBMLHIBAEJ_FHAAHMEJMCI_OFFSET UNITYSDK_OFFSET(0xC033210)
 
+inline static constexpr unsigned int PEBMLHIBAEJ_TypeDefinitionIndex = 66514;
+
 	class PEBMLHIBAEJ : public ::FMIHMGNLBPN
 	{
 	public:

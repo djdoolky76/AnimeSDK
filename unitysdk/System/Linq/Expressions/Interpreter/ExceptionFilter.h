@@ -6,6 +6,8 @@
 
 namespace System::Linq::Expressions::Interpreter
 {
+	inline static constexpr unsigned int ExceptionFilter_TypeDefinitionIndex = 3477;
+
 	class ExceptionFilter : public ::System::Object
 	{
 	public:

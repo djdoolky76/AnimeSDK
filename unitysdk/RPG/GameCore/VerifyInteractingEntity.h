@@ -11,6 +11,8 @@ namespace RPG::GameCore { class VerifyInteractingEntity; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int VerifyInteractingEntity_TypeDefinitionIndex = 20854;
+
 	class VerifyInteractingEntity : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -10,6 +10,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int QuaternionRotationControlBehavior_SingleRotation_TypeDefinitionIndex = 70756;
+
 	class QuaternionRotationControlBehavior_SingleRotation : public ::System::Object
 	{
 	public:

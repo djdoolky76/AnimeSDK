@@ -29,6 +29,8 @@ namespace System { class String; }
 #define DIAGLMMBKIP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E1BA810)
 #define DIAGLMMBKIP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E1BA870)
 
+inline static constexpr unsigned int DIAGLMMBKIP_TypeDefinitionIndex = 34463;
+
 	class DIAGLMMBKIP : public ::System::Object
 	{
 	public:

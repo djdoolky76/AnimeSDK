@@ -10,6 +10,8 @@ namespace System { template <typename T> class Func_1; }
 #define DJEGNALJODF___C___CREATEBIGDATARECOMMEND_B__4_0_OFFSET UNITYSDK_OFFSET(0xF230240)
 #define DJEGNALJODF___C___CREATESYSTEMRECOMMEND_B__3_0_OFFSET UNITYSDK_OFFSET(0xF2301A0)
 
+inline static constexpr unsigned int DJEGNALJODF___c_TypeDefinitionIndex = 65584;
+
 	class DJEGNALJODF___c : public ::System::Object
 	{
 	public:

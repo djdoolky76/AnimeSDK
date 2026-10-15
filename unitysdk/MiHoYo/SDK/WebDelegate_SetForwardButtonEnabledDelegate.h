@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int WebDelegate_SetForwardButtonEnabledDelegate_TypeDefinitionIndex = 7830;
+
 	class WebDelegate_SetForwardButtonEnabledDelegate : public ::System::MulticastDelegate
 	{
 	public:

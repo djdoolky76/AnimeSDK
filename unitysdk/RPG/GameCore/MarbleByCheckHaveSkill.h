@@ -11,6 +11,8 @@ namespace RPG::GameCore { class MarbleByCheckHaveSkill; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MarbleByCheckHaveSkill_TypeDefinitionIndex = 16889;
+
 	class MarbleByCheckHaveSkill : public ::RPG::GameCore::MarblePredicateConfig
 	{
 	public:

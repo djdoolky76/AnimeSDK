@@ -35,6 +35,8 @@ namespace System { class String; }
 #define MGFAALHCHEF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA23540)
 #define MGFAALHCHEF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA235A0)
 
+inline static constexpr unsigned int MGFAALHCHEF_TypeDefinitionIndex = 30847;
+
 	class MGFAALHCHEF : public ::System::Object
 	{
 	public:

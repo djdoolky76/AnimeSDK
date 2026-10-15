@@ -7,6 +7,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChessRogueBoardEventNotifyParam_TypeDefinitionIndex = 66927;
+
 	class ChessRogueBoardEventNotifyParam : public ::System::Object
 	{
 	public:

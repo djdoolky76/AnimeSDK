@@ -11,6 +11,8 @@ namespace MiHoYo::SDK { class UIManager; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int LoadingWheel_TypeDefinitionIndex = 8247;
+
 	class LoadingWheel : public ::MiHoYo::SDK::UIElement
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::Client::MechCraft::View { class MechCraftOrderRequirementControl;
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftOrderDetailInfoControlBinder_TypeDefinitionIndex = 79988;
+
 	class MechCraftOrderDetailInfoControlBinder : public ::RPG::Client::MechCraft::View::MechCraftBinderBase
 	{
 	public:

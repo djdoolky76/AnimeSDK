@@ -5,6 +5,8 @@ namespace System { template <typename T> class Func_1; }
 
 namespace Google::Protobuf
 {
+	inline static constexpr unsigned int MessageParser_1___c__DisplayClass2_0_TypeDefinitionIndex = 5410;
+
 	template <typename T>
 	class MessageParser_1___c__DisplayClass2_0 : public ::System::Object
 	{

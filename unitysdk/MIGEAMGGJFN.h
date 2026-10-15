@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define MIGEAMGGJFN_OOGCDFGOFIM_1_OFFSET UNITYSDK_OFFSET(0xB953E00)
 #define MIGEAMGGJFN_OOGCDFGOFIM_OFFSET UNITYSDK_OFFSET(0xB9539E0)
 
+inline static constexpr unsigned int MIGEAMGGJFN_TypeDefinitionIndex = 62212;
+
 	class MIGEAMGGJFN : public ::System::Object
 	{
 	public:

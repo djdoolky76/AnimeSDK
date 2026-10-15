@@ -5,6 +5,8 @@ namespace RPG::GameCore { class TurnBasedModifierConfig; }
 
 #define DPJEFJDNCDN_ILODFDMLENI_OFFSET UNITYSDK_OFFSET(0x12640E50)
 
+inline static constexpr unsigned int DPJEFJDNCDN_TypeDefinitionIndex = 56501;
+
 	class DPJEFJDNCDN : public ::System::Object
 	{
 	public:

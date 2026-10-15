@@ -12,6 +12,8 @@ namespace System::Runtime::Remoting::Messaging { class IMessageSink; }
 
 namespace System::Runtime::Remoting::Contexts
 {
+	inline static constexpr unsigned int CrossContextChannel_ContextRestoreSink_TypeDefinitionIndex = 1251;
+
 	class CrossContextChannel_ContextRestoreSink : public ::System::Object
 	{
 	public:

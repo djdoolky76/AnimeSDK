@@ -8,6 +8,8 @@
 #define HIPNGPHHCJC_SET_LEVEL_OFFSET UNITYSDK_OFFSET(0x15D012F0)
 #define HIPNGPHHCJC_SET_QUESTID_OFFSET UNITYSDK_OFFSET(0x15D01310)
 
+inline static constexpr unsigned int HIPNGPHHCJC_TypeDefinitionIndex = 79034;
+
 	class HIPNGPHHCJC : public ::System::Object
 	{
 	public:

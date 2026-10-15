@@ -7,6 +7,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define BEKEOHJKJNA_DNKPBLIOAOB_OFFSET UNITYSDK_OFFSET(0x2E81270)
 #define BEKEOHJKJNA_HADOHLNHHGB_OFFSET UNITYSDK_OFFSET(0xF8A0)
 
+inline static constexpr unsigned int BEKEOHJKJNA_TypeDefinitionIndex = 78622;
+
 	struct alignas(8) BEKEOHJKJNA
 	{
 		::NBCAOOBFHEA BHCMCMADHBF; // 0x10

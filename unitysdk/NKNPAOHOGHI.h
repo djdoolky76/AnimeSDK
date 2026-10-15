@@ -36,6 +36,8 @@ namespace System { class String; }
 #define NKNPAOHOGHI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB5CE80)
 #define NKNPAOHOGHI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB5CEE0)
 
+inline static constexpr unsigned int NKNPAOHOGHI_TypeDefinitionIndex = 33456;
+
 	class NKNPAOHOGHI : public ::System::Object
 	{
 	public:

@@ -18,6 +18,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define NAIJACEFAIF_TICK_OFFSET UNITYSDK_OFFSET(0xBA9D1C0)
 #define NAIJACEFAIF__ONTASKSUCCESS_B__9_1_OFFSET UNITYSDK_OFFSET(0xBA9D7D0)
 
+inline static constexpr unsigned int NAIJACEFAIF_TypeDefinitionIndex = 52360;
+
 	class NAIJACEFAIF : public ::GELIALJDFBL
 	{
 	public:

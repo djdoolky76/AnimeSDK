@@ -12,6 +12,8 @@ class IJOGMDLDMCB;
 #define ILEICNLJLEF_MLHFDGKCOAB_OFFSET UNITYSDK_OFFSET(0x164AD9B0)
 #define ILEICNLJLEF_SET_USEPRESHOW_OFFSET UNITYSDK_OFFSET(0x164ADC80)
 
+inline static constexpr unsigned int ILEICNLJLEF_TypeDefinitionIndex = 71461;
+
 	class ILEICNLJLEF : public ::System::Object
 	{
 	public:

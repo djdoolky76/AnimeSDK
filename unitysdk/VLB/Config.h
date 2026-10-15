@@ -23,6 +23,8 @@ namespace VLB { class Config; }
 
 namespace VLB
 {
+	inline static constexpr unsigned int Config_TypeDefinitionIndex = 48985;
+
 	class Config : public ::UnityEngine::ScriptableObject
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class StageItemAlias; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetStageItemState_TypeDefinitionIndex = 22252;
+
 	class SetStageItemState : public ::RPG::GameCore::TaskConfig
 	{
 	public:

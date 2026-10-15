@@ -51,6 +51,8 @@ namespace System { class Action; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PlayGoManager_TypeDefinitionIndex = 68303;
+
 	class PlayGoManager : public ::System::Object
 	{
 	public:

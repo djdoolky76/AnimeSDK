@@ -7,6 +7,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define HMFIAKBFICH_CTOR_OFFSET UNITYSDK_OFFSET(0x15D7C5C0)
 
+inline static constexpr unsigned int HMFIAKBFICH_TypeDefinitionIndex = 80551;
+
 	class HMFIAKBFICH : public ::System::Object
 	{
 	public:

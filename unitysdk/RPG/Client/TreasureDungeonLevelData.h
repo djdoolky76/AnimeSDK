@@ -31,6 +31,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TreasureDungeonLevelData_TypeDefinitionIndex = 68192;
+
 	class TreasureDungeonLevelData : public ::System::Object
 	{
 	public:

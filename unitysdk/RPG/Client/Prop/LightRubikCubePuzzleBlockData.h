@@ -6,6 +6,8 @@
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int LightRubikCubePuzzleBlockData_TypeDefinitionIndex = 78677;
+
 	class LightRubikCubePuzzleBlockData : public ::System::Object
 	{
 	public:

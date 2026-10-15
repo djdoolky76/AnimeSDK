@@ -24,6 +24,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define JFGJEFAIDAB_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D024B10)
 #define JFGJEFAIDAB_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D024430)
 
+inline static constexpr unsigned int JFGJEFAIDAB_TypeDefinitionIndex = 13526;
+
 	class JFGJEFAIDAB : public ::System::Object
 	{
 	public:

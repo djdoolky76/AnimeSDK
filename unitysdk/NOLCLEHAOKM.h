@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int NOLCLEHAOKM_TypeDefinitionIndex = 31544;
+
 	enum class NOLCLEHAOKM : ::System::Int32
 	{
 		NLCDGIPGFDJ = 0,

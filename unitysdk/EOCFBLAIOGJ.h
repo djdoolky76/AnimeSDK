@@ -9,6 +9,8 @@ namespace Entitas { class IEntity; }
 #define EOCFBLAIOGJ_IKPONCFJCEE_OFFSET UNITYSDK_OFFSET(0x155BBA50)
 #define EOCFBLAIOGJ_OFPNFHKDOKG_OFFSET UNITYSDK_OFFSET(0x155BB980)
 
+inline static constexpr unsigned int EOCFBLAIOGJ_TypeDefinitionIndex = 77381;
+
 	class EOCFBLAIOGJ : public ::System::Object
 	{
 	public:

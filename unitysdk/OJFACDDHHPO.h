@@ -12,6 +12,8 @@ namespace RPG::Client::Prop { class IChimeraDuelMainPuzzleStateMachine; }
 #define OJFACDDHHPO_ONEXIT_OFFSET UNITYSDK_OFFSET(0xBEAEDB0)
 #define OJFACDDHHPO_PREPAREONSTARTPUZZLE_OFFSET UNITYSDK_OFFSET(0xBEAECF0)
 
+inline static constexpr unsigned int OJFACDDHHPO_TypeDefinitionIndex = 78385;
+
 	class OJFACDDHHPO : public ::System::Object
 	{
 	public:

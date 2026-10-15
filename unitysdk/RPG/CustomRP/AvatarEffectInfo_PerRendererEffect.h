@@ -12,6 +12,8 @@ namespace UnityEngine { class Renderer; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int AvatarEffectInfo_PerRendererEffect_TypeDefinitionIndex = 37583;
+
 	class AvatarEffectInfo_PerRendererEffect : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace ScenenLightManager
 {
+	inline static constexpr unsigned int LightWeightPrefab_ExportData_TypeDefinitionIndex = 49110;
+
 	class LightWeightPrefab_ExportData : public ::ScenenLightManager::BaseComponentExportData
 	{
 	public:

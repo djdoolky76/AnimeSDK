@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ActivityNewbiePromoteRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ActivityNewbiePromoteRow_TypeDefinitionIndex = 11225;
+
 	class ActivityNewbiePromoteRow : public ::System::Object
 	{
 	public:

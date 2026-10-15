@@ -9,6 +9,8 @@ namespace RPG::Client { class SwordTrainingGameInstance; }
 #define CEFJPOIEOBN_GNJMGFBAACI_OFFSET UNITYSDK_OFFSET(0xC9D5280)
 #define CEFJPOIEOBN_JKOKFFCBJLJ_OFFSET UNITYSDK_OFFSET(0xC9D4C70)
 
+inline static constexpr unsigned int CEFJPOIEOBN_TypeDefinitionIndex = 75047;
+
 	class CEFJPOIEOBN : public ::NBEKHGCNJFD
 	{
 	public:

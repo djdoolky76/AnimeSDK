@@ -28,6 +28,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define MODJFJKGCFB_NNOHCEEEJPH_OFFSET UNITYSDK_OFFSET(0xBA28590)
 #define MODJFJKGCFB_NPKMGFOJOHN_OFFSET UNITYSDK_OFFSET(0xBA28370)
 
+inline static constexpr unsigned int MODJFJKGCFB_TypeDefinitionIndex = 81093;
+
 	class MODJFJKGCFB : public ::System::Object
 	{
 	public:

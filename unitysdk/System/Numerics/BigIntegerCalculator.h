@@ -67,6 +67,8 @@ namespace System { class Object; }
 
 namespace System::Numerics
 {
+	inline static constexpr unsigned int BigIntegerCalculator_TypeDefinitionIndex = 3837;
+
 	class BigIntegerCalculator : public ::System::Object
 	{
 	public:

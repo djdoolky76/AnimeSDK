@@ -14,6 +14,8 @@ class OMNJCDDMLHI;
 #define FDJAONPOGII_JOLMCAGPKOC_OFFSET UNITYSDK_OFFSET(0x156DD6F0)
 #define FDJAONPOGII_MFBMHCAMAEI_OFFSET UNITYSDK_OFFSET(0x156DDAC0)
 
+inline static constexpr unsigned int FDJAONPOGII_TypeDefinitionIndex = 77860;
+
 	class FDJAONPOGII : public ::System::Object
 	{
 	public:

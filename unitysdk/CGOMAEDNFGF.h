@@ -44,6 +44,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define CGOMAEDNFGF_OJBCFODDNNB_OFFSET UNITYSDK_OFFSET(0x1C5D49D0)
 #define CGOMAEDNFGF_PGMMHGKJHNH_OFFSET UNITYSDK_OFFSET(0x1C5D3EE0)
 
+inline static constexpr unsigned int CGOMAEDNFGF_TypeDefinitionIndex = 37436;
+
 	class CGOMAEDNFGF : public ::System::Object
 	{
 	public:

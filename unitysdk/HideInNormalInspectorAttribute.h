@@ -4,6 +4,8 @@
 
 #define HIDEINNORMALINSPECTORATTRIBUTE_CTOR_OFFSET UNITYSDK_OFFSET(0xAF4F000)
 
+inline static constexpr unsigned int HideInNormalInspectorAttribute_TypeDefinitionIndex = 45920;
+
 	class HideInNormalInspectorAttribute : public ::UnityEngine::PropertyAttribute
 	{
 	public:

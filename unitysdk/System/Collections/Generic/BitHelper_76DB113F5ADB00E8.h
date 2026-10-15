@@ -10,6 +10,8 @@
 
 namespace System::Collections::Generic
 {
+	inline static constexpr unsigned int BitHelper_76DB113F5ADB00E8_TypeDefinitionIndex = 3695;
+
 	class BitHelper_76DB113F5ADB00E8 : public ::System::Object
 	{
 	public:

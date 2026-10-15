@@ -26,6 +26,8 @@ namespace XLua { class LuaTable; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int LuaUIGameFlowContext_TypeDefinitionIndex = 64326;
+
 	class LuaUIGameFlowContext : public ::RPG::Client::BaseGameFlowContext
 	{
 	public:

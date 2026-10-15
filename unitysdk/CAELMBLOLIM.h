@@ -51,6 +51,8 @@ namespace System::Collections::Generic { template <typename T> class Stack_1; }
 #define CAELMBLOLIM_PGDMGGFIBAC_OFFSET UNITYSDK_OFFSET(0xC479800)
 #define CAELMBLOLIM___OPENUI_B__15_0_OFFSET UNITYSDK_OFFSET(0xC47A2A0)
 
+inline static constexpr unsigned int CAELMBLOLIM_TypeDefinitionIndex = 60559;
+
 	class CAELMBLOLIM : public ::System::Object
 	{
 	public:

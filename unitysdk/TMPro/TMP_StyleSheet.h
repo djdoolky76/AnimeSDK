@@ -16,6 +16,8 @@ namespace TMPro { class TMP_Style; }
 
 namespace TMPro
 {
+	inline static constexpr unsigned int TMP_StyleSheet_TypeDefinitionIndex = 44640;
+
 	class TMP_StyleSheet : public ::UnityEngine::ScriptableObject
 	{
 	public:

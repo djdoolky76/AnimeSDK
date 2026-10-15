@@ -9,6 +9,8 @@ namespace System::Runtime::Serialization::Formatters::Binary { class __BinaryPar
 
 namespace System::Runtime::Serialization::Formatters::Binary
 {
+	inline static constexpr unsigned int BinaryCrossAppDomainAssembly_TypeDefinitionIndex = 1148;
+
 	class BinaryCrossAppDomainAssembly : public ::System::Object
 	{
 	public:

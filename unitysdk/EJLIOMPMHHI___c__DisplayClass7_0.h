@@ -12,6 +12,8 @@ namespace System { class Object; }
 #define EJLIOMPMHHI___C__DISPLAYCLASS7_0__ADDMULTIDOWNLOAD_B__1_OFFSET UNITYSDK_OFFSET(0x154EAC90)
 #define EJLIOMPMHHI___C__DISPLAYCLASS7_0__ADDMULTIDOWNLOAD_B__2_OFFSET UNITYSDK_OFFSET(0x154EAD00)
 
+inline static constexpr unsigned int EJLIOMPMHHI___c__DisplayClass7_0_TypeDefinitionIndex = 59568;
+
 	class EJLIOMPMHHI___c__DisplayClass7_0 : public ::System::Object
 	{
 	public:

@@ -4,6 +4,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AudienceLayoutConfig_CrowdConfig_TypeDefinitionIndex = 69150;
+
 	struct alignas(4) AudienceLayoutConfig_CrowdConfig
 	{
 		::RPG::GameCore::NPCBodySize bodySize; // 0x10

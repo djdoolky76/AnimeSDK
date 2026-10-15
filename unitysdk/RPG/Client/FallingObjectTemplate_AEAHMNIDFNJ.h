@@ -8,6 +8,8 @@ namespace UnityEngine { class Mesh; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FallingObjectTemplate_AEAHMNIDFNJ_TypeDefinitionIndex = 70935;
+
 	class FallingObjectTemplate_AEAHMNIDFNJ : public ::System::Object
 	{
 	public:

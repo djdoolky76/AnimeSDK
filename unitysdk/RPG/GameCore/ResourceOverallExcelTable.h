@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ResourceOverallExcelTable_TypeDefinitionIndex = 14655;
+
 	class ResourceOverallExcelTable : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class WaitHeartDialScriptStepChange; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaitHeartDialScriptStepChange_TypeDefinitionIndex = 21218;
+
 	class WaitHeartDialScriptStepChange : public ::RPG::GameCore::TaskConfig
 	{
 	public:

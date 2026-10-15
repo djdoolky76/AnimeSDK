@@ -8,6 +8,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define FNDLLJDDGAN_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1586B700)
 #define FNDLLJDDGAN_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1586B390)
 
+inline static constexpr unsigned int FNDLLJDDGAN_TypeDefinitionIndex = 54724;
+
 	class FNDLLJDDGAN
 	{
 	public:

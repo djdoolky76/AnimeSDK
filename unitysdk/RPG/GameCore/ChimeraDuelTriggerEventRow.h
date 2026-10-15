@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChimeraDuelTriggerEventRow_TypeDefinitionIndex = 11148;
+
 	class ChimeraDuelTriggerEventRow : public ::System::Object
 	{
 	public:

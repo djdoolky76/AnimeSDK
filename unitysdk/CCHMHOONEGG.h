@@ -29,6 +29,8 @@ namespace System { class String; }
 #define CCHMHOONEGG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E074870)
 #define CCHMHOONEGG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E0748D0)
 
+inline static constexpr unsigned int CCHMHOONEGG_TypeDefinitionIndex = 34958;
+
 	class CCHMHOONEGG : public ::System::Object
 	{
 	public:

@@ -20,6 +20,8 @@ namespace System { class String; }
 
 namespace Newtonsoft::Json::Serialization
 {
+	inline static constexpr unsigned int JsonSerializerInternalBase_TypeDefinitionIndex = 9733;
+
 	class JsonSerializerInternalBase : public ::System::Object
 	{
 	public:

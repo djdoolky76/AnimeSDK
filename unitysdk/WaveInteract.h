@@ -2,6 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
+inline static constexpr unsigned int WaveInteract_TypeDefinitionIndex = 47492;
+
 	struct alignas(4) WaveInteract
 	{
 		::UnityEngine::Vector3 pos; // 0x10

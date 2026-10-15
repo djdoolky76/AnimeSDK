@@ -6,6 +6,8 @@
 
 namespace RPG::Editor
 {
+	inline static constexpr unsigned int CubemapGeneratorUtils_TypeDefinitionIndex = 52015;
+
 	class CubemapGeneratorUtils : public ::System::Object
 	{
 	public:

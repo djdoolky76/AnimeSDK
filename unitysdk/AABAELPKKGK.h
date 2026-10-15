@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TurnBasedAbilityComponent; }
 #define AABAELPKKGK_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB0C0CF0)
 #define AABAELPKKGK_TICK_OFFSET UNITYSDK_OFFSET(0xB0C0D40)
 
+inline static constexpr unsigned int AABAELPKKGK_TypeDefinitionIndex = 55269;
+
 	class AABAELPKKGK : public ::GELIALJDFBL
 	{
 	public:

@@ -25,6 +25,8 @@ namespace System { class String; }
 #define GMFGIAEEAFC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E4D13A0)
 #define GMFGIAEEAFC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E4D1400)
 
+inline static constexpr unsigned int GMFGIAEEAFC_TypeDefinitionIndex = 32696;
+
 	class GMFGIAEEAFC : public ::System::Object
 	{
 	public:

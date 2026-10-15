@@ -8,6 +8,8 @@ namespace RPG::Client { class RogueTournBuildRefHttpDataItem; }
 #define DFMJONKENEM_FNCNMCEOALF_OFFSET UNITYSDK_OFFSET(0xE833200)
 #define DFMJONKENEM_GGLPLMALONK_OFFSET UNITYSDK_OFFSET(0xE833570)
 
+inline static constexpr unsigned int DFMJONKENEM_TypeDefinitionIndex = 67510;
+
 	class DFMJONKENEM : public ::System::Object
 	{
 	public:

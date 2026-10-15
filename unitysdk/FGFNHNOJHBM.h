@@ -9,6 +9,8 @@ class FGFNHNOJHBM;
 #define FGFNHNOJHBM_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CDEC5C0)
 #define FGFNHNOJHBM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CDEC580)
 
+inline static constexpr unsigned int FGFNHNOJHBM_TypeDefinitionIndex = 21333;
+
 	class FGFNHNOJHBM : public ::RPG::GameCore::STTaskConfig
 	{
 	public:

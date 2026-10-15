@@ -31,6 +31,8 @@ namespace RPG::GameCore { class CakeRaceMoveStateConfig; }
 #define JHJJIENKMDN_SET_STARTPOS_OFFSET UNITYSDK_OFFSET(0xB1B7120)
 #define JHJJIENKMDN_SET_V0_OFFSET UNITYSDK_OFFSET(0xB1B7180)
 
+inline static constexpr unsigned int JHJJIENKMDN_TypeDefinitionIndex = 78118;
+
 	class JHJJIENKMDN : public ::DEHLMHKDEKC
 	{
 	public:

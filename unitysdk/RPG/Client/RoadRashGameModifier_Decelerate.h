@@ -11,6 +11,8 @@ namespace RPG::Client { class RoadRashGameModifier_Decelerate; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RoadRashGameModifier_Decelerate_TypeDefinitionIndex = 10311;
+
 	class RoadRashGameModifier_Decelerate : public ::RPG::GameCore::BaseLittleGameAbilityTaskConfig
 	{
 	public:

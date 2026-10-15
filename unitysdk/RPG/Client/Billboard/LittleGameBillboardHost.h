@@ -37,6 +37,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::Billboard
 {
+	inline static constexpr unsigned int LittleGameBillboardHost_TypeDefinitionIndex = 74988;
+
 	class LittleGameBillboardHost : public ::System::Object
 	{
 	public:

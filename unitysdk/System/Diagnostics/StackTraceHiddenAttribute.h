@@ -6,6 +6,8 @@
 
 namespace System::Diagnostics
 {
+	inline static constexpr unsigned int StackTraceHiddenAttribute_TypeDefinitionIndex = 35893;
+
 	class StackTraceHiddenAttribute : public ::System::Attribute
 	{
 	public:

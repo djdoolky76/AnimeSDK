@@ -6,6 +6,8 @@
 
 namespace System::Runtime::CompilerServices
 {
+	inline static constexpr unsigned int CallerLineNumberAttribute_TypeDefinitionIndex = 1360;
+
 	class CallerLineNumberAttribute : public ::System::Attribute
 	{
 	public:

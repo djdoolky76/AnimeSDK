@@ -8,6 +8,8 @@
 
 namespace RPG::Client::PixAir
 {
+	inline static constexpr unsigned int PixAirGameProgressNodeViewModel_TypeDefinitionIndex = 79257;
+
 	class PixAirGameProgressNodeViewModel : public ::Sofa::BaseViewModel
 	{
 	public:

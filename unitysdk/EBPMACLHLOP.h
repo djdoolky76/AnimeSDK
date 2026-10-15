@@ -27,6 +27,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define EBPMACLHLOP_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0x1CA33280)
 #define EBPMACLHLOP_POOHEAJAGAG_OFFSET UNITYSDK_OFFSET(0x1CA32C70)
 
+inline static constexpr unsigned int EBPMACLHLOP_TypeDefinitionIndex = 43326;
+
 	class EBPMACLHLOP : public ::System::Object
 	{
 	public:

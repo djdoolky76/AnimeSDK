@@ -37,6 +37,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace SRDebugger::Services::Implementation
 {
+	inline static constexpr unsigned int PinnedUIServiceImpl_TypeDefinitionIndex = 38085;
+
 	class PinnedUIServiceImpl
 	{
 	public:

@@ -4,6 +4,8 @@
 
 #define GKAKGEHMEGK_CTOR_OFFSET UNITYSDK_OFFSET(0x1C643310)
 
+inline static constexpr unsigned int GKAKGEHMEGK_TypeDefinitionIndex = 36439;
+
 	class GKAKGEHMEGK : public ::System::Object
 	{
 	public:

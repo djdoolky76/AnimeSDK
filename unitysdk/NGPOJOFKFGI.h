@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 #define NGPOJOFKFGI_CTOR_OFFSET UNITYSDK_OFFSET(0x1DD7FE80)
 #define NGPOJOFKFGI_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0x1DD7FAC0)
 
+inline static constexpr unsigned int NGPOJOFKFGI_TypeDefinitionIndex = 6190;
+
 	class NGPOJOFKFGI : public ::System::Object
 	{
 	public:

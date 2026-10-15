@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define PHIMNIFMBMI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF3D430)
 #define PHIMNIFMBMI___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1DF3D440)
 
+inline static constexpr unsigned int PHIMNIFMBMI___c_TypeDefinitionIndex = 26648;
+
 	class PHIMNIFMBMI___c : public ::System::Object
 	{
 	public:

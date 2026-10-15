@@ -14,6 +14,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByContainsParamFlag_TypeDefinitionIndex = 23538;
+
 	class ByContainsParamFlag : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

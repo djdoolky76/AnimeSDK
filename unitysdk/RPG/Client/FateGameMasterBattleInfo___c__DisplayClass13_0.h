@@ -9,6 +9,8 @@ namespace RPG::Client { class IFateGameMasterInfoItem; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FateGameMasterBattleInfo___c__DisplayClass13_0_TypeDefinitionIndex = 64090;
+
 	class FateGameMasterBattleInfo___c__DisplayClass13_0 : public ::System::Object
 	{
 	public:

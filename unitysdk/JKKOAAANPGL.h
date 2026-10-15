@@ -80,6 +80,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define JKKOAAANPGL_REMOVE_ONFIRESPAWNBRICKEFFECT_OFFSET UNITYSDK_OFFSET(0x1C7064C0)
 #define JKKOAAANPGL_REMOVE_ONGAMEFINISHED_OFFSET UNITYSDK_OFFSET(0x1C7063C0)
 
+inline static constexpr unsigned int JKKOAAANPGL_TypeDefinitionIndex = 37156;
+
 	class JKKOAAANPGL : public ::HNNHKPKCMJD
 	{
 	public:

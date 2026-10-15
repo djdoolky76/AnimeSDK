@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int ShowLiveRoomIconEditService_TypeDefinitionIndex = 75366;
+
 	class ShowLiveRoomIconEditService : public ::System::Object
 	{
 	public:

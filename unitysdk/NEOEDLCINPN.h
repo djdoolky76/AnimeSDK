@@ -7,6 +7,8 @@ namespace RPG::GameCore { class MarbleByOtherFaction; }
 #define NEOEDLCINPN_CTOR_OFFSET UNITYSDK_OFFSET(0x1C930F10)
 #define NEOEDLCINPN_KHNFOOKHOJF_OFFSET UNITYSDK_OFFSET(0x1C956340)
 
+inline static constexpr unsigned int NEOEDLCINPN_TypeDefinitionIndex = 43142;
+
 	class NEOEDLCINPN : public ::LHJPMDPJPEC
 	{
 	public:

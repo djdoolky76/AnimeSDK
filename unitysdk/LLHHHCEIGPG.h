@@ -12,6 +12,8 @@ namespace System { class Object; }
 #define LLHHHCEIGPG_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C73FE90)
 #define LLHHHCEIGPG_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C73FE40)
 
+inline static constexpr unsigned int LLHHHCEIGPG_TypeDefinitionIndex = 36239;
+
 	class LLHHHCEIGPG : public ::System::MulticastDelegate
 	{
 	public:

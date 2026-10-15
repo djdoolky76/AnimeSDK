@@ -13,6 +13,8 @@ namespace System { class Object; }
 #define BEHEGJCEGIC_MIKFBHOGENJ_OFFSET UNITYSDK_OFFSET(0x16322910)
 #define BEHEGJCEGIC_TICK_OFFSET UNITYSDK_OFFSET(0x16322BA0)
 
+inline static constexpr unsigned int BEHEGJCEGIC_TypeDefinitionIndex = 67443;
+
 	class BEHEGJCEGIC : public ::System::Object
 	{
 	public:

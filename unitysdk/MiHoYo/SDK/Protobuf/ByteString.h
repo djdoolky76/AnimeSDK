@@ -29,6 +29,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 
 namespace MiHoYo::SDK::Protobuf
 {
+	inline static constexpr unsigned int ByteString_TypeDefinitionIndex = 35710;
+
 	class ByteString : public ::System::Object
 	{
 	public:

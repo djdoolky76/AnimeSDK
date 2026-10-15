@@ -6,6 +6,8 @@ namespace System { class String; }
 
 #define HMGOCKOHCCE_CTOR_OFFSET UNITYSDK_OFFSET(0x15D817B0)
 
+inline static constexpr unsigned int HMGOCKOHCCE_TypeDefinitionIndex = 69347;
+
 	class HMGOCKOHCCE : public ::FPNCAGDDHPO
 	{
 	public:

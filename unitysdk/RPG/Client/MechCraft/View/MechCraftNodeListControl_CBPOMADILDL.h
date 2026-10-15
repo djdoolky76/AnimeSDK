@@ -14,6 +14,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftNodeListControl_CBPOMADILDL_TypeDefinitionIndex = 79822;
+
 	class MechCraftNodeListControl_CBPOMADILDL : public ::System::MulticastDelegate
 	{
 	public:

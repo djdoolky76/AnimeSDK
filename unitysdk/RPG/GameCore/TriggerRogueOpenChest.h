@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TriggerRogueOpenChest; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TriggerRogueOpenChest_TypeDefinitionIndex = 22267;
+
 	class TriggerRogueOpenChest : public ::RPG::GameCore::TaskConfig
 	{
 	public:

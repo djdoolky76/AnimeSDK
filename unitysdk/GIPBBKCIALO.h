@@ -8,6 +8,8 @@ class OMNJCDDMLHI;
 #define GIPBBKCIALO_CTOR_OFFSET UNITYSDK_OFFSET(0x15A4CF10)
 #define GIPBBKCIALO_EXECUTE_OFFSET UNITYSDK_OFFSET(0x15A4CF20)
 
+inline static constexpr unsigned int GIPBBKCIALO_TypeDefinitionIndex = 77953;
+
 	class GIPBBKCIALO : public ::System::Object
 	{
 	public:

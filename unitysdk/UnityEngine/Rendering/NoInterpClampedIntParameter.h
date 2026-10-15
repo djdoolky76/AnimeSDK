@@ -7,6 +7,8 @@
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int NoInterpClampedIntParameter_TypeDefinitionIndex = 35632;
+
 	class NoInterpClampedIntParameter
 	{
 	public:

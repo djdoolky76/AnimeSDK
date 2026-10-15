@@ -11,6 +11,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace RPG::Client::LittleGame::ChenLing
 {
+	inline static constexpr unsigned int ChenLingRTDamageCollection___c_TypeDefinitionIndex = 77832;
+
 	class ChenLingRTDamageCollection___c : public ::System::Object
 	{
 	public:

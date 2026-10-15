@@ -8,6 +8,8 @@ namespace RPG::Client { class RogueGambleGroupData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueGambleBaseFunc___c__DisplayClass1_0_TypeDefinitionIndex = 67233;
+
 	class RogueGambleBaseFunc___c__DisplayClass1_0 : public ::System::Object
 	{
 	public:

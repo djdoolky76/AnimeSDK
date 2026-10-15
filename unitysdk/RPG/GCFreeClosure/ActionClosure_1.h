@@ -5,6 +5,8 @@ namespace RPG::GCFreeClosure { template <typename T1, typename T2> class ActionB
 
 namespace RPG::GCFreeClosure
 {
+	inline static constexpr unsigned int ActionClosure_1_TypeDefinitionIndex = 6417;
+
 	template <typename T>
 	struct alignas(8) ActionClosure_1
 	{

@@ -4,6 +4,8 @@
 
 #define KADCHOIJMLL_CTOR_OFFSET UNITYSDK_OFFSET(0x1CBA8800)
 
+inline static constexpr unsigned int KADCHOIJMLL_TypeDefinitionIndex = 42348;
+
 	class KADCHOIJMLL : public ::System::Object
 	{
 	public:

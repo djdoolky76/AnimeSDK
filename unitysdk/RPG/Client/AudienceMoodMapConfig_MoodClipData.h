@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AudienceMoodMapConfig_MoodClipData_TypeDefinitionIndex = 69156;
+
 	class AudienceMoodMapConfig_MoodClipData : public ::System::Object
 	{
 	public:

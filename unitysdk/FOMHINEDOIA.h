@@ -7,6 +7,8 @@ namespace RPG::AvatarSystem { class AvatarServant; }
 #define FOMHINEDOIA_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x158FB120)
 #define FOMHINEDOIA_CTOR_OFFSET UNITYSDK_OFFSET(0x158FB310)
 
+inline static constexpr unsigned int FOMHINEDOIA_TypeDefinitionIndex = 62607;
+
 	class FOMHINEDOIA : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@
 #define NBJLLEBFGPD_GET_VALUE_OFFSET UNITYSDK_OFFSET(0x1C9438B0)
 #define NBJLLEBFGPD_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x1C9438C0)
 
+inline static constexpr unsigned int NBJLLEBFGPD_TypeDefinitionIndex = 41940;
+
 	class NBJLLEBFGPD : public ::System::Object
 	{
 	public:

@@ -14,6 +14,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define HAKLCHPOPMO_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15B842C0)
 #define HAKLCHPOPMO_TICK_OFFSET UNITYSDK_OFFSET(0x15B84B20)
 
+inline static constexpr unsigned int HAKLCHPOPMO_TypeDefinitionIndex = 52471;
+
 	class HAKLCHPOPMO : public ::GELIALJDFBL
 	{
 	public:

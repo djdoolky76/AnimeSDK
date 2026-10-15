@@ -8,6 +8,8 @@ class EOKOEJKEFMN;
 #define MMOGAOBBKME_JHPEMIJGELL_OFFSET UNITYSDK_OFFSET(0xB9DF810)
 #define MMOGAOBBKME_LJNFLLLICCN_OFFSET UNITYSDK_OFFSET(0xB9DF990)
 
+inline static constexpr unsigned int MMOGAOBBKME_TypeDefinitionIndex = 81048;
+
 	class MMOGAOBBKME : public ::System::Object
 	{
 	public:

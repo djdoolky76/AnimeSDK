@@ -6,6 +6,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 #define GHMLIAKEMMC_MLJHDMDHDOH_OFFSET UNITYSDK_OFFSET(0x15A2A370)
 
+inline static constexpr unsigned int GHMLIAKEMMC_TypeDefinitionIndex = 74539;
+
 	class GHMLIAKEMMC : public ::System::Object
 	{
 	public:

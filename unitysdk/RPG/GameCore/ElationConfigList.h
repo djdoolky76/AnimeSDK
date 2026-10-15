@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ElationConfigList; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ElationConfigList_TypeDefinitionIndex = 16543;
+
 	class ElationConfigList : public ::RPG::GameCore::JsonConfig
 	{
 	public:

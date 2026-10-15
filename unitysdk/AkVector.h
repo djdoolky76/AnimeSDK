@@ -14,6 +14,8 @@ class AkVector;
 #define AKVECTOR_SET_Z_OFFSET UNITYSDK_OFFSET(0x1F61A680)
 #define AKVECTOR_ZERO_OFFSET UNITYSDK_OFFSET(0x1F61A4D0)
 
+inline static constexpr unsigned int AkVector_TypeDefinitionIndex = 44854;
+
 	class AkVector : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GroupFilterHoyoTagExpression; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GroupFilterHoyoTagExpression_TypeDefinitionIndex = 17396;
+
 	class GroupFilterHoyoTagExpression : public ::RPG::GameCore::GroupFilterExpression
 	{
 	public:

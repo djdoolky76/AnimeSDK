@@ -27,6 +27,8 @@ namespace System { class String; }
 #define KIFALDPCHGB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E858CB0)
 #define KIFALDPCHGB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E858D10)
 
+inline static constexpr unsigned int KIFALDPCHGB_TypeDefinitionIndex = 33298;
+
 	class KIFALDPCHGB : public ::System::Object
 	{
 	public:

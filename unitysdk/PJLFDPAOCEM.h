@@ -10,6 +10,8 @@ namespace System { class String; }
 #define PJLFDPAOCEM_JCNBIKCAHMJ_3_OFFSET UNITYSDK_OFFSET(0xC29A0C0)
 #define PJLFDPAOCEM_JCNBIKCAHMJ_OFFSET UNITYSDK_OFFSET(0xC299C30)
 
+inline static constexpr unsigned int PJLFDPAOCEM_TypeDefinitionIndex = 73425;
+
 	class PJLFDPAOCEM : public ::System::Object
 	{
 	public:

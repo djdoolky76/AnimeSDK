@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::Watermark
 {
+	inline static constexpr unsigned int WatermarkReport_TypeDefinitionIndex = 8879;
+
 	class WatermarkReport : public ::System::Object
 	{
 	public:

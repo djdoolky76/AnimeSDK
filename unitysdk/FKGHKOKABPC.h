@@ -18,6 +18,8 @@ namespace UnityEngine { class Transform; }
 #define FKGHKOKABPC_MPFIJBMEHCE_OFFSET UNITYSDK_OFFSET(0x157F37C0)
 #define FKGHKOKABPC_NDJLEDDJDCK_OFFSET UNITYSDK_OFFSET(0x157F36C0)
 
+inline static constexpr unsigned int FKGHKOKABPC_TypeDefinitionIndex = 78023;
+
 	class FKGHKOKABPC : public ::EFENAEKOKBI
 	{
 	public:

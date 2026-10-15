@@ -18,6 +18,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoRemainTimerText_TypeDefinitionIndex = 72600;
+
 	class MonoRemainTimerText : public ::RPG::Client::MonoRemainTimerEvent
 	{
 	public:

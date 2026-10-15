@@ -16,6 +16,8 @@ namespace RPG::GameCore { class LevelTurnUltraSkillExecutingBegin; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelTurnUltraSkillExecutingBegin_TypeDefinitionIndex = 56724;
+
 	class LevelTurnUltraSkillExecutingBegin : public ::CMPGEAFHHDC
 	{
 	public:

@@ -12,6 +12,8 @@ namespace RPGTools::Timeline { class SwitchStillGradeAnimClip; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int SwitchStillGradeAnimBehaviour_TypeDefinitionIndex = 48370;
+
 	class SwitchStillGradeAnimBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

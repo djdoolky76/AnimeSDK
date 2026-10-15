@@ -281,6 +281,8 @@ namespace System::Xml::Schema { class XmlSchemaException; }
 
 namespace System::Xml
 {
+	inline static constexpr unsigned int XmlTextReaderImpl_TypeDefinitionIndex = 1846;
+
 	class XmlTextReaderImpl : public ::System::Xml::XmlReader
 	{
 	public:

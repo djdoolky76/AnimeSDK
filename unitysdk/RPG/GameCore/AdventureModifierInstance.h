@@ -82,6 +82,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdventureModifierInstance_TypeDefinitionIndex = 54410;
+
 	class AdventureModifierInstance : public ::RPG::GameCore::BaseModifierInstance
 	{
 	public:

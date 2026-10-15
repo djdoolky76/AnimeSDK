@@ -3,6 +3,8 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Object; }
 
+inline static constexpr unsigned int FNLODLDBEPE___O_TypeDefinitionIndex = 67916;
+
 	class FNLODLDBEPE___O : public ::System::Object
 	{
 	public:

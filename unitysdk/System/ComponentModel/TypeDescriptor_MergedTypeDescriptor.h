@@ -11,6 +11,8 @@ namespace System::ComponentModel { class TypeConverter; }
 
 namespace System::ComponentModel
 {
+	inline static constexpr unsigned int TypeDescriptor_MergedTypeDescriptor_TypeDefinitionIndex = 2641;
+
 	class TypeDescriptor_MergedTypeDescriptor : public ::System::Object
 	{
 	public:

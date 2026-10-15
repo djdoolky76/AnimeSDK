@@ -10,6 +10,8 @@ namespace RPG::GameCore { class PlayerCondConfigBase; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PlayerCondConfigBase_TypeDefinitionIndex = 19559;
+
 	class PlayerCondConfigBase : public ::RPG::GameCore::MiConditionConfigBase
 	{
 	public:

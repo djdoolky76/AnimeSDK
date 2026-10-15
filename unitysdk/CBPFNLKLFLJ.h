@@ -14,6 +14,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define CBPFNLKLFLJ_KKKIONIDKFA_OFFSET UNITYSDK_OFFSET(0x2FA52C0)
 #define CBPFNLKLFLJ_MBABPIHGAJN_1_OFFSET UNITYSDK_OFFSET(0x3C43F70)
 
+inline static constexpr unsigned int CBPFNLKLFLJ_TypeDefinitionIndex = 6479;
+
 	struct alignas(8) CBPFNLKLFLJ
 	{
 		::ICFEIEJDMIB APKCDIIEJLO; // 0x10

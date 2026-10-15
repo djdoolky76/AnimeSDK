@@ -38,6 +38,8 @@ namespace System::Security::Cryptography::X509Certificates { class X509Chain; }
 #define IOOIEOKJKMM_OKNIAIIGKKN_OFFSET UNITYSDK_OFFSET(0x1651A9A0)
 #define IOOIEOKJKMM_OONGLJHMJOA_OFFSET UNITYSDK_OFFSET(0x16518640)
 
+inline static constexpr unsigned int IOOIEOKJKMM_TypeDefinitionIndex = 60978;
+
 	class IOOIEOKJKMM : public ::System::Object
 	{
 	public:

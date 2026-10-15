@@ -38,6 +38,8 @@ namespace UnityEngine { class SphereCollider; }
 #define ICPHAEHBEMP_PLINLIIFAPF_OFFSET UNITYSDK_OFFSET(0x15E63920)
 #define ICPHAEHBEMP_POJBKNGKIMP_OFFSET UNITYSDK_OFFSET(0x15E63BD0)
 
+inline static constexpr unsigned int ICPHAEHBEMP_TypeDefinitionIndex = 68658;
+
 	class ICPHAEHBEMP : public ::RPG::Client::BehaviorBase
 	{
 	public:

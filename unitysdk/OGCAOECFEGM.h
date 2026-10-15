@@ -22,6 +22,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define OGCAOECFEGM_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBE52920)
 #define OGCAOECFEGM_TICK_OFFSET UNITYSDK_OFFSET(0xBE52970)
 
+inline static constexpr unsigned int OGCAOECFEGM_TypeDefinitionIndex = 52721;
+
 	class OGCAOECFEGM : public ::GELIALJDFBL
 	{
 	public:

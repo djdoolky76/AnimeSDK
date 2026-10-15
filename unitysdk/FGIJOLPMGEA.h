@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TriggerPamActionPhaseDone; }
 #define FGIJOLPMGEA_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15764940)
 #define FGIJOLPMGEA_TICK_OFFSET UNITYSDK_OFFSET(0x15764990)
 
+inline static constexpr unsigned int FGIJOLPMGEA_TypeDefinitionIndex = 58979;
+
 	class FGIJOLPMGEA : public ::GELIALJDFBL
 	{
 	public:

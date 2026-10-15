@@ -11,6 +11,8 @@ namespace System { class Action; }
 #define LHLLAIAEFGK_NNAGLJCMMGD_OFFSET UNITYSDK_OFFSET(0xB6BC550)
 #define LHLLAIAEFGK_NONJDKKDDLE_OFFSET UNITYSDK_OFFSET(0xB6BC430)
 
+inline static constexpr unsigned int LHLLAIAEFGK_TypeDefinitionIndex = 60467;
+
 	class LHLLAIAEFGK : public ::System::Object
 	{
 	public:

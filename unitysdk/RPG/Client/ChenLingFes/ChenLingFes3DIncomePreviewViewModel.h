@@ -26,6 +26,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace RPG::Client::ChenLingFes
 {
+	inline static constexpr unsigned int ChenLingFes3DIncomePreviewViewModel_TypeDefinitionIndex = 81366;
+
 	class ChenLingFes3DIncomePreviewViewModel : public ::Sofa::BaseViewModel
 	{
 	public:

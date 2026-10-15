@@ -37,6 +37,8 @@ class EJFDBAPPMDM;
 #define EJFDBAPPMDM_PNDMINMOEGN_1_OFFSET UNITYSDK_OFFSET(0x1DD3C8B0)
 #define EJFDBAPPMDM_PNDMINMOEGN_OFFSET UNITYSDK_OFFSET(0x1DD3C770)
 
+inline static constexpr unsigned int EJFDBAPPMDM_TypeDefinitionIndex = 6259;
+
 	class EJFDBAPPMDM : public ::System::Object
 	{
 	public:

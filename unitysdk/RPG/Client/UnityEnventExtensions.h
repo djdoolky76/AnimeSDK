@@ -13,6 +13,8 @@ namespace UnityEngine::Events { class UnityEvent; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UnityEnventExtensions_TypeDefinitionIndex = 72785;
+
 	class UnityEnventExtensions : public ::System::Object
 	{
 	public:

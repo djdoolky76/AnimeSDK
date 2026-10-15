@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace System::Threading
 {
+	inline static constexpr unsigned int InternalThread_TypeDefinitionIndex = 878;
+
 	class InternalThread : public ::System::Runtime::ConstrainedExecution::CriticalFinalizerObject
 	{
 	public:

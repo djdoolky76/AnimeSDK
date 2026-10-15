@@ -13,6 +13,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace HedgehogTeam::EasyTouch
 {
+	inline static constexpr unsigned int BaseFinger_TypeDefinitionIndex = 40284;
+
 	class BaseFinger : public ::System::Object
 	{
 	public:

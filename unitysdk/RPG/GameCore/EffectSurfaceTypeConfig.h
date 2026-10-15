@@ -10,6 +10,8 @@ namespace RPG::GameCore { class EffectSurfaceTypeConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EffectSurfaceTypeConfig_TypeDefinitionIndex = 16486;
+
 	class EffectSurfaceTypeConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

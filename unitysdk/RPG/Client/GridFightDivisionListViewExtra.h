@@ -44,6 +44,8 @@ namespace XLua { class LuaTable; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightDivisionListViewExtra_TypeDefinitionIndex = 64453;
+
 	class GridFightDivisionListViewExtra : public ::UnityEngine::MonoBehaviour
 	{
 	public:

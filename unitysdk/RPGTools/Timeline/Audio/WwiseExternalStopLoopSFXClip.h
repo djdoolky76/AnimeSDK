@@ -13,6 +13,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline::Audio
 {
+	inline static constexpr unsigned int WwiseExternalStopLoopSFXClip_TypeDefinitionIndex = 48853;
+
 	class WwiseExternalStopLoopSFXClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

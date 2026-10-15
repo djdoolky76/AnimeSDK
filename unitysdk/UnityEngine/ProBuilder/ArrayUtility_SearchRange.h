@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace UnityEngine::ProBuilder
 {
+	inline static constexpr unsigned int ArrayUtility_SearchRange_TypeDefinitionIndex = 44329;
+
 	struct alignas(4) ArrayUtility_SearchRange
 	{
 		::System::Int32 begin; // 0x10

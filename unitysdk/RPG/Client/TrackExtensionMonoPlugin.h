@@ -15,6 +15,8 @@ namespace BansheeGz::BGSpline::Curve { class BGCurve; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TrackExtensionMonoPlugin_TypeDefinitionIndex = 71029;
+
 	class TrackExtensionMonoPlugin
 	{
 	public:

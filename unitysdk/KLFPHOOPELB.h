@@ -25,6 +25,8 @@ namespace System { class String; }
 #define KLFPHOOPELB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E88A620)
 #define KLFPHOOPELB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E88A680)
 
+inline static constexpr unsigned int KLFPHOOPELB_TypeDefinitionIndex = 32762;
+
 	class KLFPHOOPELB : public ::System::Object
 	{
 	public:

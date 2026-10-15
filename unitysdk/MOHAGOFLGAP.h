@@ -46,6 +46,8 @@ namespace System { class String; }
 #define MOHAGOFLGAP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EAA9070)
 #define MOHAGOFLGAP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EAA90D0)
 
+inline static constexpr unsigned int MOHAGOFLGAP_TypeDefinitionIndex = 25730;
+
 	class MOHAGOFLGAP : public ::System::Object
 	{
 	public:

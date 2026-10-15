@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int CharacterStoryMoveMixer_TypeDefinitionIndex = 48007;
+
 	class CharacterStoryMoveMixer : public ::RPGTools::Timeline::OverrideTransformMixer
 	{
 	public:

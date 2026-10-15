@@ -33,6 +33,8 @@ namespace UnityEngine { class Collider; }
 #define OOIAGHIMPDJ_PGKPGNJJMMB_OFFSET UNITYSDK_OFFSET(0xBF84CD0)
 #define OOIAGHIMPDJ_SET_FIRSTFRAMEOCCLUSION_OFFSET UNITYSDK_OFFSET(0xBF86F50)
 
+inline static constexpr unsigned int OOIAGHIMPDJ_TypeDefinitionIndex = 54739;
+
 	class OOIAGHIMPDJ : public ::GGJEMEHMBNL
 	{
 	public:

@@ -3,6 +3,8 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class OnAssetOperationDelegate; }
 
+inline static constexpr unsigned int DLOBFPLDEBC___O_TypeDefinitionIndex = 48498;
+
 	class DLOBFPLDEBC___O : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define MACGIEKOBNM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E9D6A40)
 #define MACGIEKOBNM___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E9D6A50)
 
+inline static constexpr unsigned int MACGIEKOBNM___c_TypeDefinitionIndex = 31578;
+
 	class MACGIEKOBNM___c : public ::System::Object
 	{
 	public:

@@ -13,6 +13,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline::Emotion
 {
+	inline static constexpr unsigned int DiscussionEyeBloomClip_TypeDefinitionIndex = 48718;
+
 	class DiscussionEyeBloomClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

@@ -37,6 +37,8 @@ namespace UnityEngine { class SphereCollider; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_InputInterfaceMesh_TypeDefinitionIndex = 40645;
+
 	class HEU_InputInterfaceMesh : public ::HoudiniEngineUnity::HEU_InputInterface
 	{
 	public:

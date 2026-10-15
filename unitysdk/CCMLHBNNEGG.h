@@ -9,6 +9,8 @@ namespace UnityEngine::UI { class Button; }
 #define CCMLHBNNEGG_IAMCNOAAALI_OFFSET UNITYSDK_OFFSET(0xC74F4B0)
 #define CCMLHBNNEGG_JCKGONAAIPB_OFFSET UNITYSDK_OFFSET(0xC74F520)
 
+inline static constexpr unsigned int CCMLHBNNEGG_TypeDefinitionIndex = 72862;
+
 	class CCMLHBNNEGG : public ::LBAMBIMMJKB
 	{
 	public:

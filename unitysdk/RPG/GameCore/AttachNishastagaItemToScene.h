@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AttachNishastagaItemToScene_TypeDefinitionIndex = 22141;
+
 	class AttachNishastagaItemToScene : public ::RPG::GameCore::TaskConfig
 	{
 	public:

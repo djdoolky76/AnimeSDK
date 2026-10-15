@@ -4,6 +4,8 @@ namespace System { class String; }
 
 namespace RPG::Client::CrowdAnimator
 {
+	inline static constexpr unsigned int CrowdPrototype_AnimationClipInfo_TypeDefinitionIndex = 73720;
+
 	struct alignas(8) CrowdPrototype_AnimationClipInfo
 	{
 		::System::String* path; // 0x10

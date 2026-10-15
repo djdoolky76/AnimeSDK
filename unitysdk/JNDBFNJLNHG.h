@@ -8,6 +8,8 @@ namespace UnityEngine { class Renderer; }
 #define JNDBFNJLNHG_PGJGDNBDHIL_OFFSET UNITYSDK_OFFSET(0xB27A390)
 #define JNDBFNJLNHG_TOSTRING_OFFSET UNITYSDK_OFFSET(0xB27A430)
 
+inline static constexpr unsigned int JNDBFNJLNHG_TypeDefinitionIndex = 70178;
+
 	class JNDBFNJLNHG : public ::System::Object
 	{
 	public:

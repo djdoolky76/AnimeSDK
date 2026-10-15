@@ -69,6 +69,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ActivityFeverTimeModule_TypeDefinitionIndex = 61514;
+
 	class ActivityFeverTimeModule : public ::RPG::Client::BaseModule
 	{
 	public:

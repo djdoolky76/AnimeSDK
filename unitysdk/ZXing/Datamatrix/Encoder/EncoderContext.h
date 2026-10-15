@@ -34,6 +34,8 @@ namespace ZXing::Datamatrix::Encoder { class SymbolInfo; }
 
 namespace ZXing::Datamatrix::Encoder
 {
+	inline static constexpr unsigned int EncoderContext_TypeDefinitionIndex = 7037;
+
 	class EncoderContext : public ::System::Object
 	{
 	public:

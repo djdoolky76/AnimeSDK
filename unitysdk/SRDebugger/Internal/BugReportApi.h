@@ -22,6 +22,8 @@ namespace UnityEngine::Networking { class UnityWebRequest; }
 
 namespace SRDebugger::Internal
 {
+	inline static constexpr unsigned int BugReportApi_TypeDefinitionIndex = 38098;
+
 	class BugReportApi : public ::System::Object
 	{
 	public:

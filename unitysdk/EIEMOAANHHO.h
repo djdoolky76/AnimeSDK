@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define EIEMOAANHHO_CTOR_OFFSET UNITYSDK_OFFSET(0x154C13A0)
 
+inline static constexpr unsigned int EIEMOAANHHO_TypeDefinitionIndex = 61093;
+
 	class EIEMOAANHHO : public ::System::Object
 	{
 	public:

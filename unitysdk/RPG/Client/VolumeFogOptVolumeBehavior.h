@@ -15,6 +15,8 @@ namespace UnityEngine { class Camera; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int VolumeFogOptVolumeBehavior_TypeDefinitionIndex = 70839;
+
 	class VolumeFogOptVolumeBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:

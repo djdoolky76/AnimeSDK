@@ -30,6 +30,8 @@ namespace UnityEngine::Timeline { class TimeNotificationBehaviour; }
 
 namespace UnityEngine::Timeline
 {
+	inline static constexpr unsigned int TimeNotificationBehaviour_TypeDefinitionIndex = 38851;
+
 	class TimeNotificationBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

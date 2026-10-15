@@ -34,6 +34,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define EBBBJDPGDFG_ONPLUGINUNINIT_OFFSET UNITYSDK_OFFSET(0x12CE50E0)
 #define EBBBJDPGDFG_PMICKFMADDF_OFFSET UNITYSDK_OFFSET(0x12CE51C0)
 
+inline static constexpr unsigned int EBBBJDPGDFG_TypeDefinitionIndex = 54127;
+
 	class EBBBJDPGDFG : public ::System::Object
 	{
 	public:

@@ -69,6 +69,8 @@ namespace System { class Nullable; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MonsterDataComponent_TypeDefinitionIndex = 57641;
+
 	class MonsterDataComponent : public ::RPG::GameCore::CharacterDataComponent
 	{
 	public:

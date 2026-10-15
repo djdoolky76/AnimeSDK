@@ -9,6 +9,8 @@ namespace System::Reflection { class EventInfo; }
 
 namespace XLua
 {
+	inline static constexpr unsigned int Utils___c__DisplayClass12_0_TypeDefinitionIndex = 50269;
+
 	class Utils___c__DisplayClass12_0 : public ::System::Object
 	{
 	public:

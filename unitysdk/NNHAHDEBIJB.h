@@ -60,6 +60,8 @@ namespace UnityEngine { class Collider; }
 #define NNHAHDEBIJB_OAABFENBMLG_OFFSET UNITYSDK_OFFSET(0xBCAACF0)
 #define NNHAHDEBIJB_TEARDOWN_OFFSET UNITYSDK_OFFSET(0xBCA9610)
 
+inline static constexpr unsigned int NNHAHDEBIJB_TypeDefinitionIndex = 77152;
+
 	class NNHAHDEBIJB : public ::System::Object
 	{
 	public:

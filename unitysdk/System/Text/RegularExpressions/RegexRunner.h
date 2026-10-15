@@ -31,6 +31,8 @@ namespace System::Text::RegularExpressions { class Regex; }
 
 namespace System::Text::RegularExpressions
 {
+	inline static constexpr unsigned int RegexRunner_TypeDefinitionIndex = 2527;
+
 	class RegexRunner : public ::System::Object
 	{
 	public:

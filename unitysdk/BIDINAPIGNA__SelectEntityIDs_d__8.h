@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 #define BIDINAPIGNA__SELECTENTITYIDS_D__8_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0xB4A3C40)
 #define BIDINAPIGNA__SELECTENTITYIDS_D__8_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB4A3B10)
 
+inline static constexpr unsigned int BIDINAPIGNA__SelectEntityIDs_d__8_TypeDefinitionIndex = 77625;
+
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8>
 	class BIDINAPIGNA__SelectEntityIDs_d__8 : public ::System::Object
 	{

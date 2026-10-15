@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MessageContentQuestBlock_TypeDefinitionIndex = 63267;
+
 	class MessageContentQuestBlock : public ::RPG::Client::MessageContentBlock
 	{
 	public:

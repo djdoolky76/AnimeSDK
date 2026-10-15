@@ -27,6 +27,8 @@ namespace System { class String; }
 #define DJEECBNBGMN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E1C6750)
 #define DJEECBNBGMN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E1C67B0)
 
+inline static constexpr unsigned int DJEECBNBGMN_TypeDefinitionIndex = 33423;
+
 	class DJEECBNBGMN : public ::System::Object
 	{
 	public:

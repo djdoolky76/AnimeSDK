@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FateModifierModifyMasterReijuAffixProbabilityByI
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FateModifierModifyMasterReijuAffixProbabilityByIDConfig_TypeDefinitionIndex = 19276;
+
 	class FateModifierModifyMasterReijuAffixProbabilityByIDConfig : public ::RPG::GameCore::FateModifierConfigBase
 	{
 	public:

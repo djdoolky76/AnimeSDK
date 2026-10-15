@@ -35,6 +35,8 @@ namespace UnityEngine { class Transform; }
 #define KMMMMKICJIE_SET_INDEX_OFFSET UNITYSDK_OFFSET(0xB566B70)
 #define KMMMMKICJIE__ONBIND_OFFSET UNITYSDK_OFFSET(0xB5669C0)
 
+inline static constexpr unsigned int KMMMMKICJIE_TypeDefinitionIndex = 71603;
+
 	class KMMMMKICJIE : public ::FMPCODLIOLG
 	{
 	public:

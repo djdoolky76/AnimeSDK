@@ -44,6 +44,8 @@ namespace System { class String; }
 #define NMADMOMNBMO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB6B950)
 #define NMADMOMNBMO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB6B9B0)
 
+inline static constexpr unsigned int NMADMOMNBMO_TypeDefinitionIndex = 26744;
+
 	class NMADMOMNBMO : public ::System::Object
 	{
 	public:

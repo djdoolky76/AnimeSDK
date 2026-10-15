@@ -4,6 +4,8 @@
 namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
 namespace UnityEngine { class Object; }
 
+inline static constexpr unsigned int DHNCKKPIJGN_TypeDefinitionIndex = 44151;
+
 	class DHNCKKPIJGN : public ::System::Object
 	{
 	public:

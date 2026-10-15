@@ -8,6 +8,8 @@ namespace RPG::Client::Prop { class RubikCubePuzzleBrick; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int RubikCubePuzzleBrickData_TypeDefinitionIndex = 78818;
+
 	class RubikCubePuzzleBrickData : public ::System::Object
 	{
 	public:

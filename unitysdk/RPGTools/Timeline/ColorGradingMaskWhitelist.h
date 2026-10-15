@@ -4,6 +4,8 @@ namespace System { class Object; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int ColorGradingMaskWhitelist_TypeDefinitionIndex = 48462;
+
 	struct alignas(8) ColorGradingMaskWhitelist
 	{
 		::System::Boolean InvertMask; // 0x10

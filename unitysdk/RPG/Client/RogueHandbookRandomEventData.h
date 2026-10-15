@@ -26,6 +26,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueHandbookRandomEventData_TypeDefinitionIndex = 67373;
+
 	class RogueHandbookRandomEventData : public ::System::Object
 	{
 	public:

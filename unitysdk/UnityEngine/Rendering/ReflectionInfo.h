@@ -8,6 +8,8 @@ namespace UnityEngine { class Camera; }
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int ReflectionInfo_TypeDefinitionIndex = 4812;
+
 	struct alignas(4) ReflectionInfo
 	{
 		::System::Int32 rtInstanceID; // 0x10

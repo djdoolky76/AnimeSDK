@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GuideChallengeTabExcelTable_TypeDefinitionIndex = 13385;
+
 	class GuideChallengeTabExcelTable : public ::System::Object
 	{
 	public:

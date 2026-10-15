@@ -15,6 +15,8 @@ namespace RPG::GameCore { class PixAirAreaRow; }
 
 namespace RPG::Client::PixAir
 {
+	inline static constexpr unsigned int PixAirAreaData_TypeDefinitionIndex = 79299;
+
 	class PixAirAreaData : public ::System::Object
 	{
 	public:

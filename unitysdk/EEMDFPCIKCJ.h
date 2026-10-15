@@ -121,6 +121,8 @@ namespace UnityEngine { class Transform; }
 #define EEMDFPCIKCJ_TICK_OFFSET UNITYSDK_OFFSET(0x13A3A660)
 #define EEMDFPCIKCJ__ONINITOWNERREF_OFFSET UNITYSDK_OFFSET(0x13A398F0)
 
+inline static constexpr unsigned int EEMDFPCIKCJ_TypeDefinitionIndex = 57344;
+
 	class EEMDFPCIKCJ : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

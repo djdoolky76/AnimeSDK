@@ -14,6 +14,8 @@ namespace UnityEngine::UI { class Selectable; }
 
 namespace Cysharp::Threading::Tasks
 {
+	inline static constexpr unsigned int UnityBindingExtensions__BindToCore_d__9_TypeDefinitionIndex = 38491;
+
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9>
 	struct alignas(8) UnityBindingExtensions__BindToCore_d__9
 	{

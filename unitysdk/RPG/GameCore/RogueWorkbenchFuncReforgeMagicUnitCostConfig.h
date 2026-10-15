@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueWorkbenchFuncReforgeMagicUnitCostConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueWorkbenchFuncReforgeMagicUnitCostConfig_TypeDefinitionIndex = 18032;
+
 	class RogueWorkbenchFuncReforgeMagicUnitCostConfig : public ::RPG::GameCore::RogueWorkbenchFuncBaseConfig
 	{
 	public:

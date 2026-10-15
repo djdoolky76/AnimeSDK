@@ -39,6 +39,8 @@ namespace System { class String; }
 #define CJJHNFICDIM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E0E0C20)
 #define CJJHNFICDIM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E0E0C80)
 
+inline static constexpr unsigned int CJJHNFICDIM_TypeDefinitionIndex = 28143;
+
 	class CJJHNFICDIM : public ::System::Object
 	{
 	public:

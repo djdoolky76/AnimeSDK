@@ -9,6 +9,8 @@ namespace UnityEngine { class Transform; }
 
 namespace EnviromentSystem
 {
+	inline static constexpr unsigned int WindTriggerData_TypeDefinitionIndex = 49630;
+
 	struct alignas(8) WindTriggerData
 	{
 		::EnviromentSystem::WindTriggerBufferData bufferData; // 0x10

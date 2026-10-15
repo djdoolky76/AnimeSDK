@@ -10,6 +10,8 @@ namespace RPG::GameCore { class PerformanceEndBlackText; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PerformanceEndBlackText_TypeDefinitionIndex = 21922;
+
 	class PerformanceEndBlackText : public ::RPG::GameCore::TaskConfig
 	{
 	public:

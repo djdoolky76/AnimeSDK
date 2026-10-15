@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CommandPartner_TypeDefinitionIndex = 22696;
+
 	class CommandPartner : public ::RPG::GameCore::TaskConfig
 	{
 	public:

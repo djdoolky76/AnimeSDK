@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RetrySwordTrainingFinalBattle; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RetrySwordTrainingFinalBattle_TypeDefinitionIndex = 20331;
+
 	class RetrySwordTrainingFinalBattle : public ::RPG::GameCore::TaskConfig
 	{
 	public:

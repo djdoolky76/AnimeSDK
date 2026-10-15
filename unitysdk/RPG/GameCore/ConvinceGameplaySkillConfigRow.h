@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ConvinceGameplaySkillConfigRow_TypeDefinitionIndex = 13099;
+
 	class ConvinceGameplaySkillConfigRow : public ::System::Object
 	{
 	public:

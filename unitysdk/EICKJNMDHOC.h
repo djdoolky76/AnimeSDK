@@ -11,6 +11,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define EICKJNMDHOC_JDEKJLHMPLG_OFFSET UNITYSDK_OFFSET(0x154BCD30)
 #define EICKJNMDHOC_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0x154BCE00)
 
+inline static constexpr unsigned int EICKJNMDHOC_TypeDefinitionIndex = 54305;
+
 	class EICKJNMDHOC : public ::System::Object
 	{
 	public:

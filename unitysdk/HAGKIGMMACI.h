@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define HAGKIGMMACI_CTOR_OFFSET UNITYSDK_OFFSET(0x15B76550)
 #define HAGKIGMMACI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15B76580)
 
+inline static constexpr unsigned int HAGKIGMMACI_TypeDefinitionIndex = 55239;
+
 	class HAGKIGMMACI
 	{
 	public:

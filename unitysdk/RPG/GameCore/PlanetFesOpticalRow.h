@@ -10,6 +10,8 @@ namespace RPG::GameCore { class PlanetFesOpticalRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PlanetFesOpticalRow_TypeDefinitionIndex = 12282;
+
 	class PlanetFesOpticalRow : public ::System::Object
 	{
 	public:

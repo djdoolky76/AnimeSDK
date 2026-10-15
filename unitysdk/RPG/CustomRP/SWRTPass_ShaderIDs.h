@@ -6,6 +6,8 @@
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int SWRTPass_ShaderIDs_TypeDefinitionIndex = 37871;
+
 	class SWRTPass_ShaderIDs : public ::System::Object
 	{
 	public:

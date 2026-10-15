@@ -5,6 +5,8 @@ class FILCLOOIFKF;
 
 #define ELFIKKJOJPP_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA61510)
 
+inline static constexpr unsigned int ELFIKKJOJPP_TypeDefinitionIndex = 43206;
+
 	class ELFIKKJOJPP : public ::System::Object
 	{
 	public:

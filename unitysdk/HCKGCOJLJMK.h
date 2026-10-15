@@ -21,6 +21,8 @@ namespace RPG { template <typename T1, typename T2> class PoolDictionary_2; }
 #define HCKGCOJLJMK_SET_CURRENTSTATE_OFFSET UNITYSDK_OFFSET(0x15C20AA0)
 #define HCKGCOJLJMK_SET_SERVICES_OFFSET UNITYSDK_OFFSET(0x15C20AC0)
 
+inline static constexpr unsigned int HCKGCOJLJMK_TypeDefinitionIndex = 76933;
+
 	class HCKGCOJLJMK : public ::System::Object
 	{
 	public:

@@ -13,6 +13,8 @@ namespace ZenFulcrum::EmbeddedBrowser { class BrowserNative_ChangeFunc; }
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
+	inline static constexpr unsigned int BrowserNative_Calltype_zfb_registerChangeCallback_TypeDefinitionIndex = 39448;
+
 	class BrowserNative_Calltype_zfb_registerChangeCallback : public ::System::MulticastDelegate
 	{
 	public:

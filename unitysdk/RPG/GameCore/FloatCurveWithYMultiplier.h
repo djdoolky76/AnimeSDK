@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FloatCurveWithYMultiplier; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FloatCurveWithYMultiplier_TypeDefinitionIndex = 16649;
+
 	class FloatCurveWithYMultiplier : public ::RPG::GameCore::JsonConfig
 	{
 	public:

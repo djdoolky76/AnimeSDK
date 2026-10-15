@@ -12,6 +12,8 @@ namespace RPG::GameCore { class VCameraConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RtBattleCharacterCameraConfig_TypeDefinitionIndex = 18039;
+
 	class RtBattleCharacterCameraConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
+	inline static constexpr unsigned int BrowserNative_ReadyFunc_TypeDefinitionIndex = 39374;
+
 	class BrowserNative_ReadyFunc : public ::System::MulticastDelegate
 	{
 	public:

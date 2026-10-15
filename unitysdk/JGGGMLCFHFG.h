@@ -8,6 +8,8 @@
 #define JGGGMLCFHFG_SET_EVALUATIONID_OFFSET UNITYSDK_OFFSET(0xB199970)
 #define JGGGMLCFHFG_SET_PROGRESS_OFFSET UNITYSDK_OFFSET(0xB199990)
 
+inline static constexpr unsigned int JGGGMLCFHFG_TypeDefinitionIndex = 63493;
+
 	class JGGGMLCFHFG : public ::System::Object
 	{
 	public:

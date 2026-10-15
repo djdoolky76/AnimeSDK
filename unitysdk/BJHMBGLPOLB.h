@@ -93,6 +93,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define BJHMBGLPOLB_SET_CURRENTPILETYPE_OFFSET UNITYSDK_OFFSET(0xB79DFA0)
 #define BJHMBGLPOLB_SET_PLAYTARGET_OFFSET UNITYSDK_OFFSET(0xB79DE40)
 
+inline static constexpr unsigned int BJHMBGLPOLB_TypeDefinitionIndex = 55964;
+
 	class BJHMBGLPOLB : public ::System::Object
 	{
 	public:

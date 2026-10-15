@@ -31,6 +31,8 @@ namespace System { class String; }
 #define NJABIIKAJEK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB39D30)
 #define NJABIIKAJEK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB39D90)
 
+inline static constexpr unsigned int NJABIIKAJEK_TypeDefinitionIndex = 30012;
+
 	class NJABIIKAJEK : public ::System::Object
 	{
 	public:

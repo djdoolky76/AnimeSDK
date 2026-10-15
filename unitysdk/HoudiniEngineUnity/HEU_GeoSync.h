@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_GeoSync_TypeDefinitionIndex = 40597;
+
 	class HEU_GeoSync : public ::HoudiniEngineUnity::HEU_BaseSync
 	{
 	public:

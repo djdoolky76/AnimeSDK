@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TraceOrigamiByColony; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TraceOrigamiByColony_TypeDefinitionIndex = 21172;
+
 	class TraceOrigamiByColony : public ::RPG::GameCore::TaskConfig
 	{
 	public:

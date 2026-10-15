@@ -6,6 +6,8 @@
 
 namespace System::Xml::Schema
 {
+	inline static constexpr unsigned int XmlSchemaCompilationSettings_TypeDefinitionIndex = 2189;
+
 	class XmlSchemaCompilationSettings : public ::System::Object
 	{
 	public:

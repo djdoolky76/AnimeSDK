@@ -27,6 +27,8 @@ namespace System { class String; }
 #define PIIJEIADMFP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF69110)
 #define PIIJEIADMFP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF69170)
 
+inline static constexpr unsigned int PIIJEIADMFP_TypeDefinitionIndex = 27157;
+
 	class PIIJEIADMFP : public ::System::Object
 	{
 	public:

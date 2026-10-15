@@ -12,6 +12,8 @@ namespace RPG::GameCore { class ChenLingDeathEffectConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChenLingDeathEffectConfig_TypeDefinitionIndex = 15687;
+
 	class ChenLingDeathEffectConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

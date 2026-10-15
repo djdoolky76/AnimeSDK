@@ -13,6 +13,8 @@ namespace UnityEngine { class Transform; }
 #define JFOJBNDEJFB_DPGGDECJENG_OFFSET UNITYSDK_OFFSET(0x1665B4A0)
 #define JFOJBNDEJFB__ONBIND_OFFSET UNITYSDK_OFFSET(0x1665B3D0)
 
+inline static constexpr unsigned int JFOJBNDEJFB_TypeDefinitionIndex = 71391;
+
 	class JFOJBNDEJFB : public ::FMPCODLIOLG
 	{
 	public:

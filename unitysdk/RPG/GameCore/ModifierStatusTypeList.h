@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ModifierStatusTypeList; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ModifierStatusTypeList_TypeDefinitionIndex = 17108;
+
 	class ModifierStatusTypeList : public ::RPG::GameCore::JsonConfig
 	{
 	public:

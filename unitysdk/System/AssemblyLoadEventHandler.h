@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace System
 {
+	inline static constexpr unsigned int AssemblyLoadEventHandler_TypeDefinitionIndex = 381;
+
 	class AssemblyLoadEventHandler : public ::System::MulticastDelegate
 	{
 	public:

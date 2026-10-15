@@ -9,6 +9,8 @@ namespace System { class Action; }
 #define MGHOGONCDLM_KOLDOPHICAF_OFFSET UNITYSDK_OFFSET(0x3C2FE10)
 #define MGHOGONCDLM_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0x3C2FE00)
 
+inline static constexpr unsigned int MGHOGONCDLM_TypeDefinitionIndex = 43514;
+
 	struct alignas(8) MGHOGONCDLM
 	{
 		::System::Boolean NOOJOFHAIAA; // 0x10

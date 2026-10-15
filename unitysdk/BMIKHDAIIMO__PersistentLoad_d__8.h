@@ -12,6 +12,8 @@ namespace System::Collections { class IEnumerator; }
 #define BMIKHDAIIMO__PERSISTENTLOAD_D__8_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0xBDBD1B0)
 #define BMIKHDAIIMO__PERSISTENTLOAD_D__8_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBDBCD80)
 
+inline static constexpr unsigned int BMIKHDAIIMO__PersistentLoad_d__8_TypeDefinitionIndex = 73883;
+
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8>
 	class BMIKHDAIIMO__PersistentLoad_d__8 : public ::System::Object
 	{

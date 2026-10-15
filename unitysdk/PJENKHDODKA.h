@@ -34,6 +34,8 @@ namespace System { class String; }
 #define PJENKHDODKA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF75880)
 #define PJENKHDODKA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF758E0)
 
+inline static constexpr unsigned int PJENKHDODKA_TypeDefinitionIndex = 25078;
+
 	class PJENKHDODKA : public ::System::Object
 	{
 	public:

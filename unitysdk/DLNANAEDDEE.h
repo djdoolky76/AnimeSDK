@@ -30,6 +30,8 @@ namespace System { class String; }
 #define DLNANAEDDEE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E1E83F0)
 #define DLNANAEDDEE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E1E8450)
 
+inline static constexpr unsigned int DLNANAEDDEE_TypeDefinitionIndex = 33176;
+
 	class DLNANAEDDEE : public ::System::Object
 	{
 	public:

@@ -14,6 +14,8 @@ namespace RPG::GameCore { class ChimeraAbilityDisplayRow; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChimeraAbilityDisplayData_TypeDefinitionIndex = 63406;
+
 	class ChimeraAbilityDisplayData : public ::System::Object
 	{
 	public:

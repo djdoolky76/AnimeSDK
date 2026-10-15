@@ -18,6 +18,8 @@ namespace System { class String; }
 #define NMLKGGGNGBP__CUSTOMBINDVIEW_OFFSET UNITYSDK_OFFSET(0xBC8B680)
 #define NMLKGGGNGBP__SETUPVIEW_OFFSET UNITYSDK_OFFSET(0xBC8BB20)
 
+inline static constexpr unsigned int NMLKGGGNGBP_TypeDefinitionIndex = 72749;
+
 	class NMLKGGGNGBP : public ::RPG::Client::UIController
 	{
 	public:

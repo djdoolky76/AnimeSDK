@@ -6,6 +6,8 @@ class IKIGGAKDIGO;
 #define GMCDFACFANF_CLEAR_OFFSET UNITYSDK_OFFSET(0x1CAB1C70)
 #define GMCDFACFANF_CTOR_OFFSET UNITYSDK_OFFSET(0x1CAB1CD0)
 
+inline static constexpr unsigned int GMCDFACFANF_TypeDefinitionIndex = 43268;
+
 	class GMCDFACFANF : public ::System::Object
 	{
 	public:

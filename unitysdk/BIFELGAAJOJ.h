@@ -7,6 +7,8 @@ namespace RPG::GameCore { class OptionTalkInfo; }
 #define BIFELGAAJOJ_CTOR_OFFSET UNITYSDK_OFFSET(0xB4A51D0)
 #define BIFELGAAJOJ_FMDIFLLEHCJ_OFFSET UNITYSDK_OFFSET(0xB4A5110)
 
+inline static constexpr unsigned int BIFELGAAJOJ_TypeDefinitionIndex = 68026;
+
 	class BIFELGAAJOJ : public ::System::Object
 	{
 	public:

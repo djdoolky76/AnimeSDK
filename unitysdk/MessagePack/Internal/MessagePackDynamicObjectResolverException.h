@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace MessagePack::Internal
 {
+	inline static constexpr unsigned int MessagePackDynamicObjectResolverException_TypeDefinitionIndex = 7342;
+
 	class MessagePackDynamicObjectResolverException : public ::MessagePack::MessagePackSerializationException
 	{
 	public:

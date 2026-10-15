@@ -7,6 +7,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoPrefabLightFadeInOutMonoPlugin_TypeDefinitionIndex = 70925;
+
 	class MonoPrefabLightFadeInOutMonoPlugin
 	{
 	public:

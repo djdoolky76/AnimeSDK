@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int ChimeraGalleryStateController_ActConfig_TypeDefinitionIndex = 78495;
+
 	class ChimeraGalleryStateController_ActConfig : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace UnityEngine::UI { class Dropdown; }
 #define NNGFEKMBBHE_IAMCNOAAALI_OFFSET UNITYSDK_OFFSET(0xBCA8890)
 #define NNGFEKMBBHE_JCKGONAAIPB_OFFSET UNITYSDK_OFFSET(0xBCA8900)
 
+inline static constexpr unsigned int NNGFEKMBBHE_TypeDefinitionIndex = 72815;
+
 	class NNGFEKMBBHE : public ::LBAMBIMMJKB
 	{
 	public:

@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoDestructibleObject_DestructibleState_TypeDefinitionIndex = 68581;
+
 	enum class MonoDestructibleObject_DestructibleState : ::System::Int32
 	{
 		WaitInit = 0,

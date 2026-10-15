@@ -10,6 +10,8 @@ namespace RPG::GameCore { class AdvCharacterFindChest; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvCharacterFindChest_TypeDefinitionIndex = 20238;
+
 	class AdvCharacterFindChest : public ::RPG::GameCore::TaskConfig
 	{
 	public:

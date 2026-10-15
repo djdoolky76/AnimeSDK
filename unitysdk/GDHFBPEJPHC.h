@@ -12,6 +12,8 @@ namespace UnityEngine { class ParticleSystem; }
 #define GDHFBPEJPHC_HPNDIIPEFLJ_OFFSET UNITYSDK_OFFSET(0x1599CD20)
 #define GDHFBPEJPHC_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x1599C680)
 
+inline static constexpr unsigned int GDHFBPEJPHC_TypeDefinitionIndex = 70475;
+
 	class GDHFBPEJPHC : public ::RPG::Client::BehaviorBase
 	{
 	public:

@@ -29,6 +29,8 @@ namespace System { class String; }
 #define OPOCANGAEHJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DEE7560)
 #define OPOCANGAEHJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DEE75C0)
 
+inline static constexpr unsigned int OPOCANGAEHJ_TypeDefinitionIndex = 27210;
+
 	class OPOCANGAEHJ : public ::System::Object
 	{
 	public:

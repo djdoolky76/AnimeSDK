@@ -10,6 +10,8 @@ namespace System { class String; }
 #define ALHIEAKIBKI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1556CC60)
 #define ALHIEAKIBKI___C___BINDLEVELVAR_B__11_0_OFFSET UNITYSDK_OFFSET(0x1556CC70)
 
+inline static constexpr unsigned int ALHIEAKIBKI___c_TypeDefinitionIndex = 76944;
+
 	class ALHIEAKIBKI___c : public ::System::Object
 	{
 	public:

@@ -26,6 +26,8 @@ namespace System { class String; }
 #define AKOUTPUTSETTINGS_SET_EPANNINGRULE_OFFSET UNITYSDK_OFFSET(0x1F5AC5B0)
 #define AKOUTPUTSETTINGS_SET_IDDEVICE_OFFSET UNITYSDK_OFFSET(0x1F5AC440)
 
+inline static constexpr unsigned int AkOutputSettings_TypeDefinitionIndex = 44772;
+
 	class AkOutputSettings : public ::System::Object
 	{
 	public:

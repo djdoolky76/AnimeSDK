@@ -23,6 +23,8 @@ namespace UnityEngine { class Renderer; }
 #define CITYATMOSPHERECOMMONANIMEVENT_REFRESHCHILDOBJ_OFFSET UNITYSDK_OFFSET(0xDF9F2E0)
 #define CITYATMOSPHERECOMMONANIMEVENT_REFRESHCOLOR_OFFSET UNITYSDK_OFFSET(0xDF9F6B0)
 
+inline static constexpr unsigned int CityAtmosphereCommonAnimEvent_TypeDefinitionIndex = 47082;
+
 	class CityAtmosphereCommonAnimEvent : public ::RPG::Client::PolymerEffectControllBase
 	{
 	public:

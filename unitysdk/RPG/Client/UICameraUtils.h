@@ -8,6 +8,8 @@ namespace RPG::Client { class ICameraFightState; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UICameraUtils_TypeDefinitionIndex = 73168;
+
 	class UICameraUtils : public ::System::Object
 	{
 	public:

@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int JKJGPOOLLKF_TypeDefinitionIndex = 33589;
+
 	enum class JKJGPOOLLKF : ::System::Int32
 	{
 		NLCDGIPGFDJ = 0,

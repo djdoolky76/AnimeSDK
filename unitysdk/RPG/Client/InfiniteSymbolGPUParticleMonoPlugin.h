@@ -8,6 +8,8 @@ namespace UnityEngine { class GPUParticlesAsset; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int InfiniteSymbolGPUParticleMonoPlugin_TypeDefinitionIndex = 70312;
+
 	class InfiniteSymbolGPUParticleMonoPlugin
 	{
 	public:

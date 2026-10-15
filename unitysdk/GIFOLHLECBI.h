@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ItemConfig; }
 #define GIFOLHLECBI_CTOR_OFFSET UNITYSDK_OFFSET(0x15A363C0)
 #define GIFOLHLECBI_LAIOBHPLOAL_OFFSET UNITYSDK_OFFSET(0x15A36050)
 
+inline static constexpr unsigned int GIFOLHLECBI_TypeDefinitionIndex = 65705;
+
 	class GIFOLHLECBI : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System::Linq::Expressions::Interpreter { class ExceptionFilter; }
 
 namespace System::Linq::Expressions::Interpreter
 {
+	inline static constexpr unsigned int ExceptionHandler_TypeDefinitionIndex = 3478;
+
 	class ExceptionHandler : public ::System::Object
 	{
 	public:

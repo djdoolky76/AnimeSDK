@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightActionCopyEquipConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightActionCopyEquipConfig_TypeDefinitionIndex = 19298;
+
 	class GridFightActionCopyEquipConfig : public ::RPG::GameCore::GridFightActionConfigBase
 	{
 	public:

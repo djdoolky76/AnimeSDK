@@ -10,6 +10,8 @@ class SceneLightVolume;
 #define LOMCBEKCFIH_IIDHEPDGDPJ_OFFSET UNITYSDK_OFFSET(0xB80D6F0)
 #define LOMCBEKCFIH_OJKKOFJJCHA_OFFSET UNITYSDK_OFFSET(0xB80D5D0)
 
+inline static constexpr unsigned int LOMCBEKCFIH_TypeDefinitionIndex = 49094;
+
 	class LOMCBEKCFIH : public ::System::Object
 	{
 	public:

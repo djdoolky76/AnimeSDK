@@ -22,6 +22,8 @@ class NEFDNOMJMNF;
 #define NEFDNOMJMNF_LFBKBOCOIFP_OFFSET UNITYSDK_OFFSET(0xBB5CB20)
 #define NEFDNOMJMNF_OJOKOMLHOHE_OFFSET UNITYSDK_OFFSET(0xBB5D160)
 
+inline static constexpr unsigned int NEFDNOMJMNF_TypeDefinitionIndex = 56283;
+
 	class NEFDNOMJMNF : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace UnityEngine::EventSystems { class PointerEventData; }
 
 namespace UnityEngine::UI
 {
+	inline static constexpr unsigned int MultipleDisplayUtilities_TypeDefinitionIndex = 6798;
+
 	class MultipleDisplayUtilities : public ::System::Object
 	{
 	public:

@@ -15,6 +15,8 @@ namespace UnityEngine::Playables { class PlayableDirector; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int ChimeraGoalsToNewMembersStateController_TypeDefinitionIndex = 78498;
+
 	class ChimeraGoalsToNewMembersStateController : public ::RPG::Client::Prop::ChimeraPreparationStateControllerBase
 	{
 	public:

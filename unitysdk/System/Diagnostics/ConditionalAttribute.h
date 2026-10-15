@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace System::Diagnostics
 {
+	inline static constexpr unsigned int ConditionalAttribute_TypeDefinitionIndex = 1572;
+
 	class ConditionalAttribute : public ::System::Attribute
 	{
 	public:

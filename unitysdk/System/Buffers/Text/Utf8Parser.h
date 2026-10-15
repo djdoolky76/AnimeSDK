@@ -13,6 +13,8 @@
 
 namespace System::Buffers::Text
 {
+	inline static constexpr unsigned int Utf8Parser_TypeDefinitionIndex = 5006;
+
 	class Utf8Parser : public ::System::Object
 	{
 	public:

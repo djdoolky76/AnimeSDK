@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 #define HMNIDFGMLOB__ITERATEIDS_D__0_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15D88690)
 #define HMNIDFGMLOB__ITERATEIDS_D__0___M__FINALLY1_OFFSET UNITYSDK_OFFSET(0x15D886B0)
 
+inline static constexpr unsigned int HMNIDFGMLOB__IterateIDs_d__0_TypeDefinitionIndex = 80135;
+
 	class HMNIDFGMLOB__IterateIDs_d__0 : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class PreviewCellPerformConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PreviewCellPerformConfig_TypeDefinitionIndex = 18438;
+
 	class PreviewCellPerformConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

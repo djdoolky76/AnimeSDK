@@ -9,6 +9,8 @@ namespace RPG::GameCore { class TalkSentenceMultiVoiceRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TalkSentenceMultiVoiceRow_TypeDefinitionIndex = 15224;
+
 	class TalkSentenceMultiVoiceRow : public ::System::Object
 	{
 	public:

@@ -14,6 +14,8 @@ namespace RPG::GameCore { class ScreenTransferTextInfo; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PlayFullScreenTransfer_TypeDefinitionIndex = 20862;
+
 	class PlayFullScreenTransfer : public ::RPG::GameCore::TaskConfig
 	{
 	public:

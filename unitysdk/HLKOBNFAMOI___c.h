@@ -15,6 +15,8 @@ namespace System { class Object; }
 #define HLKOBNFAMOI___C__TAKEOFFLIGHTCONE_B__3_0_OFFSET UNITYSDK_OFFSET(0x15D63E70)
 #define HLKOBNFAMOI___C__TAKEOFFRELICS_B__5_0_OFFSET UNITYSDK_OFFSET(0x15D63E90)
 
+inline static constexpr unsigned int HLKOBNFAMOI___c_TypeDefinitionIndex = 62761;
+
 	class HLKOBNFAMOI___c : public ::System::Object
 	{
 	public:

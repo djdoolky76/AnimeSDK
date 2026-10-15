@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define IEFLNHDCNNA_UPDATEBEFORE_OFFSET UNITYSDK_OFFSET(0x15EF5A80)
 #define IEFLNHDCNNA_UPDATEMODIFIER_OFFSET UNITYSDK_OFFSET(0x15EF5E60)
 
+inline static constexpr unsigned int IEFLNHDCNNA_TypeDefinitionIndex = 65256;
+
 	class IEFLNHDCNNA : public ::AMCOEFHHBPO
 	{
 	public:

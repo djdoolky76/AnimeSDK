@@ -13,6 +13,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByPamAnchorContinous_TypeDefinitionIndex = 20016;
+
 	class ByPamAnchorContinous : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

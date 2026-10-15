@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::Client::LittleGame
 {
+	inline static constexpr unsigned int LittleGameRuntimeButton_TypeDefinitionIndex = 76523;
+
 	class LittleGameRuntimeButton : public ::RPG::GameCore::ButtonListTrigger_RuntimeButton
 	{
 	public:

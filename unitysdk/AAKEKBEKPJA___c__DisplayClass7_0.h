@@ -8,6 +8,8 @@ class HBFPEEPJOPK;
 #define AAKEKBEKPJA___C__DISPLAYCLASS7_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB0CD760)
 #define AAKEKBEKPJA___C__DISPLAYCLASS7_0___SENDNORMALENDMATCHASYNC_B__0_OFFSET UNITYSDK_OFFSET(0xB0CD980)
 
+inline static constexpr unsigned int AAKEKBEKPJA___c__DisplayClass7_0_TypeDefinitionIndex = 81855;
+
 	class AAKEKBEKPJA___c__DisplayClass7_0 : public ::System::Object
 	{
 	public:

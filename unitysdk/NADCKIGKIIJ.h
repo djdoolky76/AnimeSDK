@@ -85,6 +85,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define NADCKIGKIIJ_PBKGMICHBOB_OFFSET UNITYSDK_OFFSET(0x1C92F5F0)
 #define NADCKIGKIIJ_PEGFGIPNING_OFFSET UNITYSDK_OFFSET(0x1C92EBB0)
 
+inline static constexpr unsigned int NADCKIGKIIJ_TypeDefinitionIndex = 43165;
+
 	class NADCKIGKIIJ : public ::System::Object
 	{
 	public:

@@ -94,6 +94,8 @@ namespace UnityEngine::UI { class Text; }
 #define IAAPILPOGNF__ONBIND_OFFSET UNITYSDK_OFFSET(0x15DF66C0)
 #define IAAPILPOGNF__ONTICK_OFFSET UNITYSDK_OFFSET(0x15DF9870)
 
+inline static constexpr unsigned int IAAPILPOGNF_TypeDefinitionIndex = 71485;
+
 	class IAAPILPOGNF : public ::FMPCODLIOLG
 	{
 	public:

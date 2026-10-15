@@ -8,6 +8,8 @@ namespace RPG::GameCore { class DynamicFloat; }
 #define EKCDBPBNIEM_CTOR_OFFSET UNITYSDK_OFFSET(0x1CD94D50)
 #define EKCDBPBNIEM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CD94AF0)
 
+inline static constexpr unsigned int EKCDBPBNIEM_TypeDefinitionIndex = 22865;
+
 	class EKCDBPBNIEM : public ::RPG::GameCore::JsonConfig
 	{
 	public:

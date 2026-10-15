@@ -6,6 +6,8 @@ namespace System { class Object; }
 #define PJPIEKNGCMC_EQUALS_OFFSET UNITYSDK_OFFSET(0xDE570)
 #define PJPIEKNGCMC_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0xDE600)
 
+inline static constexpr unsigned int PJPIEKNGCMC_TypeDefinitionIndex = 73816;
+
 	struct alignas(4) PJPIEKNGCMC
 	{
 		::System::Int32 PCOMBGJBKBB; // 0x10

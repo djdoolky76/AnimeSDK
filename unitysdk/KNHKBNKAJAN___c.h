@@ -11,6 +11,8 @@ namespace System { class Object; }
 #define KNHKBNKAJAN___C___CCTOR_B__38_1_OFFSET UNITYSDK_OFFSET(0x1E8A3FB0)
 #define KNHKBNKAJAN___C___CCTOR_B__38_2_OFFSET UNITYSDK_OFFSET(0x1E8A3FC0)
 
+inline static constexpr unsigned int KNHKBNKAJAN___c_TypeDefinitionIndex = 26379;
+
 	class KNHKBNKAJAN___c : public ::System::Object
 	{
 	public:

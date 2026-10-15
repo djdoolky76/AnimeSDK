@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int IVRSystem__GetEventTypeNameFromEnum_TypeDefinitionIndex = 38921;
+
 	class IVRSystem__GetEventTypeNameFromEnum : public ::System::MulticastDelegate
 	{
 	public:

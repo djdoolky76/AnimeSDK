@@ -8,6 +8,8 @@ namespace Proto { class ItemCost; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ItemCostCalculator___c__DisplayClass20_0_TypeDefinitionIndex = 65698;
+
 	class ItemCostCalculator___c__DisplayClass20_0 : public ::System::Object
 	{
 	public:

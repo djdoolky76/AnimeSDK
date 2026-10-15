@@ -12,6 +12,8 @@ namespace RPG::GameCore { class WaitMapRotationEnergyStateChange; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaitMapRotationEnergyStateChange_TypeDefinitionIndex = 20923;
+
 	class WaitMapRotationEnergyStateChange : public ::RPG::GameCore::AdvWaitingEventBase
 	{
 	public:

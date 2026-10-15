@@ -30,6 +30,8 @@ namespace System { class String; }
 #define NBDKNCJGOMN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EACE980)
 #define NBDKNCJGOMN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EACE9E0)
 
+inline static constexpr unsigned int NBDKNCJGOMN_TypeDefinitionIndex = 33926;
+
 	class NBDKNCJGOMN : public ::System::Object
 	{
 	public:

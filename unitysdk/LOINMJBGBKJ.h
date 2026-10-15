@@ -12,6 +12,8 @@ namespace System { class String; }
 #define LOINMJBGBKJ_SET_RECOMMENDMAINAFFIXBONUS_OFFSET UNITYSDK_OFFSET(0xB805700)
 #define LOINMJBGBKJ_SET_RELICSCORERESULTINFO_OFFSET UNITYSDK_OFFSET(0xB8056E0)
 
+inline static constexpr unsigned int LOINMJBGBKJ_TypeDefinitionIndex = 74434;
+
 	class LOINMJBGBKJ : public ::System::Object
 	{
 	public:

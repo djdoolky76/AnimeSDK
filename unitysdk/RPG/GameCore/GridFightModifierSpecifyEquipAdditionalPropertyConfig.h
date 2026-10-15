@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightModifierSpecifyEquipAdditionalPropertyC
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightModifierSpecifyEquipAdditionalPropertyConfig_TypeDefinitionIndex = 19383;
+
 	class GridFightModifierSpecifyEquipAdditionalPropertyConfig : public ::RPG::GameCore::GridFightModifierConfigBase
 	{
 	public:

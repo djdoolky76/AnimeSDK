@@ -30,6 +30,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define BNGBNGONIKP_LNHALPCGMME_OFFSET UNITYSDK_OFFSET(0xBDCEFC0)
 #define BNGBNGONIKP_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0xBDCCB10)
 
+inline static constexpr unsigned int BNGBNGONIKP_TypeDefinitionIndex = 47065;
+
 	class BNGBNGONIKP : public ::System::Object
 	{
 	public:

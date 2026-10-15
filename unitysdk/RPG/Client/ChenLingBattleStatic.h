@@ -18,6 +18,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChenLingBattleStatic_TypeDefinitionIndex = 61422;
+
 	class ChenLingBattleStatic : public ::System::Object
 	{
 	public:

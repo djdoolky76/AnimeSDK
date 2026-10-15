@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define DCABBJOBMHL_CTOR_OFFSET UNITYSDK_OFFSET(0xE2354F0)
 #define DCABBJOBMHL_KOKCIONMPDI_OFFSET UNITYSDK_OFFSET(0xE235500)
 
+inline static constexpr unsigned int DCABBJOBMHL_TypeDefinitionIndex = 80122;
+
 	class DCABBJOBMHL : public ::System::Object
 	{
 	public:

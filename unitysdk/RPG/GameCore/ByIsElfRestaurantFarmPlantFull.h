@@ -13,6 +13,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByIsElfRestaurantFarmPlantFull_TypeDefinitionIndex = 24371;
+
 	class ByIsElfRestaurantFarmPlantFull : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

@@ -291,6 +291,8 @@ namespace UnityEngine { class Texture; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int Material_TypeDefinitionIndex = 4140;
+
 	class Material : public ::UnityEngine::Object
 	{
 	public:

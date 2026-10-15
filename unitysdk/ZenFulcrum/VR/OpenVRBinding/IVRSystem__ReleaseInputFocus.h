@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int IVRSystem__ReleaseInputFocus_TypeDefinitionIndex = 38929;
+
 	class IVRSystem__ReleaseInputFocus : public ::System::MulticastDelegate
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class SwitchRefFloorCustomFloat; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SwitchRefFloorCustomFloat_TypeDefinitionIndex = 17522;
+
 	class SwitchRefFloorCustomFloat : public ::RPG::GameCore::SwitchRefBase
 	{
 	public:

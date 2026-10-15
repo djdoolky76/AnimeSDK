@@ -3,6 +3,8 @@
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HAPI_PDG_WorkItemOutputFile_TypeDefinitionIndex = 40520;
+
 	struct alignas(4) HAPI_PDG_WorkItemOutputFile
 	{
 		::System::Int32 filePathSH; // 0x10

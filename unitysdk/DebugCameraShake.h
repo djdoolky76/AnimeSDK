@@ -11,6 +11,8 @@ namespace UnityEngine { class AnimationCurve; }
 #define DEBUGCAMERASHAKE_START_OFFSET UNITYSDK_OFFSET(0x12666640)
 #define DEBUGCAMERASHAKE_UPDATE_OFFSET UNITYSDK_OFFSET(0x126667E0)
 
+inline static constexpr unsigned int DebugCameraShake_TypeDefinitionIndex = 47244;
+
 	class DebugCameraShake : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -17,6 +17,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define OMEKABNECCO_IDPLOFEJCMD_OFFSET UNITYSDK_OFFSET(0xBF24830)
 #define OMEKABNECCO_LICLBMEDGJM_OFFSET UNITYSDK_OFFSET(0xBF24770)
 
+inline static constexpr unsigned int OMEKABNECCO_TypeDefinitionIndex = 57031;
+
 	class OMEKABNECCO : public ::CMJCPMOPHJJ
 	{
 	public:

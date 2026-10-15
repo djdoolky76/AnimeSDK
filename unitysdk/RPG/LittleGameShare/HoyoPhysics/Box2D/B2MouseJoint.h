@@ -7,6 +7,8 @@
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
+	inline static constexpr unsigned int B2MouseJoint_TypeDefinitionIndex = 36715;
+
 	struct alignas(4) B2MouseJoint
 	{
 		::System::Single hertz; // 0x10

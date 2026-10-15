@@ -42,6 +42,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define KECODLJICEB_PKPMAJDLMNI_OFFSET UNITYSDK_OFFSET(0xB374200)
 #define KECODLJICEB_PLPDHLEKGGM_OFFSET UNITYSDK_OFFSET(0xB373040)
 
+inline static constexpr unsigned int KECODLJICEB_TypeDefinitionIndex = 69213;
+
 	class KECODLJICEB : public ::System::Object
 	{
 	public:

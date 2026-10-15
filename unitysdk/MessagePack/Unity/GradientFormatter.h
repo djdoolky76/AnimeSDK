@@ -12,6 +12,8 @@ namespace UnityEngine { class Gradient; }
 
 namespace MessagePack::Unity
 {
+	inline static constexpr unsigned int GradientFormatter_TypeDefinitionIndex = 10132;
+
 	class GradientFormatter : public ::System::Object
 	{
 	public:

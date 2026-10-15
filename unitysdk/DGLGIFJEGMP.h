@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define DGLGIFJEGMP_HGHEOGLMHBC_OFFSET UNITYSDK_OFFSET(0xE851930)
 #define DGLGIFJEGMP_HJIDBNJHKFA_OFFSET UNITYSDK_OFFSET(0xE8517B0)
 
+inline static constexpr unsigned int DGLGIFJEGMP_TypeDefinitionIndex = 49551;
+
 	class DGLGIFJEGMP : public ::System::Object
 	{
 	public:

@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 #define CAHNLBKBGMH_PFHJBAMGNPO_OFFSET UNITYSDK_OFFSET(0xC47F640)
 #define CAHNLBKBGMH_PLODAFJKDJP_OFFSET UNITYSDK_OFFSET(0xC47F3C0)
 
+inline static constexpr unsigned int CAHNLBKBGMH_TypeDefinitionIndex = 65279;
+
 	class CAHNLBKBGMH : public ::HEOLKMLMPML
 	{
 	public:

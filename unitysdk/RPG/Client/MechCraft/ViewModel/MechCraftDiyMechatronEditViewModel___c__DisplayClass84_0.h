@@ -9,6 +9,8 @@ namespace RPG::Client::MechCraft::ViewModel { class MechCraftDiyMechatronEditVie
 
 namespace RPG::Client::MechCraft::ViewModel
 {
+	inline static constexpr unsigned int MechCraftDiyMechatronEditViewModel___c__DisplayClass84_0_TypeDefinitionIndex = 79610;
+
 	class MechCraftDiyMechatronEditViewModel___c__DisplayClass84_0 : public ::System::Object
 	{
 	public:

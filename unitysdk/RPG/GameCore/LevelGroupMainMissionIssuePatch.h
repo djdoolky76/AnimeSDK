@@ -9,6 +9,8 @@ namespace RPG::GameCore { class LevelGroupMainMissionIssuePatch; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelGroupMainMissionIssuePatch_TypeDefinitionIndex = 17365;
+
 	class LevelGroupMainMissionIssuePatch : public ::RPG::GameCore::JsonConfig
 	{
 	public:

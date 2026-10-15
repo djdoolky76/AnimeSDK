@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define CDLDNIINDEF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E087C30)
 #define CDLDNIINDEF___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E087C40)
 
+inline static constexpr unsigned int CDLDNIINDEF___c_TypeDefinitionIndex = 30417;
+
 	class CDLDNIINDEF___c : public ::System::Object
 	{
 	public:

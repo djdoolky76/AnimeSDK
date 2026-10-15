@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetDynamicValueByTotalHPFromMonsterID_TypeDefinitionIndex = 22769;
+
 	class SetDynamicValueByTotalHPFromMonsterID : public ::RPG::GameCore::TaskConfig
 	{
 	public:

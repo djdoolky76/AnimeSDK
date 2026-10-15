@@ -56,6 +56,8 @@ namespace System { class String; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int Vector4_TypeDefinitionIndex = 4232;
+
 	struct alignas(4) Vector4
 	{
 		::System::Single x; // 0x10

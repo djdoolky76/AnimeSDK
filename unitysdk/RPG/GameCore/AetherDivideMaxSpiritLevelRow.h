@@ -9,6 +9,8 @@ namespace RPG::GameCore { class AetherDivideMaxSpiritLevelRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AetherDivideMaxSpiritLevelRow_TypeDefinitionIndex = 10938;
+
 	class AetherDivideMaxSpiritLevelRow : public ::System::Object
 	{
 	public:

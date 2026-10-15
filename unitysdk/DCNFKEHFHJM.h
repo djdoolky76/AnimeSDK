@@ -8,6 +8,8 @@ namespace RPG::GameCore { class CakeRaceActionAddBuff; }
 #define DCNFKEHFHJM_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5E7F50)
 #define DCNFKEHFHJM_GAILDDCMCHP_OFFSET UNITYSDK_OFFSET(0x1C5E7F60)
 
+inline static constexpr unsigned int DCNFKEHFHJM_TypeDefinitionIndex = 37376;
+
 	class DCNFKEHFHJM : public ::GPLOFONGBGI
 	{
 	public:

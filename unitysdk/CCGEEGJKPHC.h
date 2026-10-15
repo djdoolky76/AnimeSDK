@@ -5,6 +5,8 @@
 
 #define CCGEEGJKPHC_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8DD380)
 
+inline static constexpr unsigned int CCGEEGJKPHC_TypeDefinitionIndex = 43678;
+
 	class CCGEEGJKPHC : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace RPGTools::Timeline { class FloorCustomBoolClip; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int FloorCustomBoolBehaviour_TypeDefinitionIndex = 48125;
+
 	class FloorCustomBoolBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

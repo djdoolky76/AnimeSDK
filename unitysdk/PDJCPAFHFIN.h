@@ -41,6 +41,8 @@ namespace UnityEngine { class Renderer; }
 #define PDJCPAFHFIN_OOMLFJGCECD_OFFSET UNITYSDK_OFFSET(0xC018030)
 #define PDJCPAFHFIN_PLOLEHDCPNM_OFFSET UNITYSDK_OFFSET(0xC017380)
 
+inline static constexpr unsigned int PDJCPAFHFIN_TypeDefinitionIndex = 69837;
+
 	class PDJCPAFHFIN : public ::System::Object
 	{
 	public:

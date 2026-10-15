@@ -44,6 +44,8 @@ namespace UnityEngine::Timeline { class TrackAsset; }
 
 namespace RPGTools::Timeline::Emotion
 {
+	inline static constexpr unsigned int BaseEmoTimelineTrackV2_TypeDefinitionIndex = 48744;
+
 	class BaseEmoTimelineTrackV2 : public ::RPGTools::Timeline::Emotion::BaseEmoTrack
 	{
 	public:

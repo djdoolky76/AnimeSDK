@@ -72,6 +72,8 @@ namespace UnityEngine { class GUIStyle; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int GUISkin_TypeDefinitionIndex = 5179;
+
 	class GUISkin : public ::UnityEngine::ScriptableObject
 	{
 	public:

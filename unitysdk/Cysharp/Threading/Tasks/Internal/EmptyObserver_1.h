@@ -5,6 +5,8 @@ namespace Cysharp::Threading::Tasks::Internal { template <typename T> class Empt
 
 namespace Cysharp::Threading::Tasks::Internal
 {
+	inline static constexpr unsigned int EmptyObserver_1_TypeDefinitionIndex = 38698;
+
 	template <typename T>
 	class EmptyObserver_1 : public ::System::Object
 	{

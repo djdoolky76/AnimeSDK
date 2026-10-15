@@ -9,6 +9,8 @@ namespace UnityEngine { class Camera; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CustomCRPSampleSetings_TypeDefinitionIndex = 70112;
+
 	class CustomCRPSampleSetings : public ::System::Object
 	{
 	public:

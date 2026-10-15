@@ -6,6 +6,8 @@
 
 namespace System::Runtime::ExceptionServices
 {
+	inline static constexpr unsigned int HandleProcessCorruptedStateExceptionsAttribute_TypeDefinitionIndex = 1338;
+
 	class HandleProcessCorruptedStateExceptionsAttribute : public ::System::Attribute
 	{
 	public:

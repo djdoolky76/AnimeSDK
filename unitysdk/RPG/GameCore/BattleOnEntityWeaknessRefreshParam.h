@@ -7,6 +7,8 @@ namespace RPG::GameCore { class GameEntity; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BattleOnEntityWeaknessRefreshParam_TypeDefinitionIndex = 57741;
+
 	class BattleOnEntityWeaknessRefreshParam : public ::System::Object
 	{
 	public:

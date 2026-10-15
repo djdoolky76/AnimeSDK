@@ -13,6 +13,8 @@ namespace System { class Object; }
 #define FAHINIEDBKN_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1567BCA0)
 #define FAHINIEDBKN_TICK_OFFSET UNITYSDK_OFFSET(0x1567BF50)
 
+inline static constexpr unsigned int FAHINIEDBKN_TypeDefinitionIndex = 53478;
+
 	class FAHINIEDBKN : public ::GELIALJDFBL
 	{
 	public:

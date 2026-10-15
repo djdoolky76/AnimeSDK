@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define KFHGFEFAOHN_GET_POSINDEXS_OFFSET UNITYSDK_OFFSET(0xB3A3840)
 #define KFHGFEFAOHN_SET_POSINDEXS_OFFSET UNITYSDK_OFFSET(0xB3A3850)
 
+inline static constexpr unsigned int KFHGFEFAOHN_TypeDefinitionIndex = 65005;
+
 	class KFHGFEFAOHN : public ::RPG::Client::GridFightGameModifier
 	{
 	public:

@@ -16,6 +16,8 @@ namespace UnityEngine::UI { class Image; }
 
 namespace RPG::Client::DiceCombat
 {
+	inline static constexpr unsigned int DiceCombatV2SideBarTacticsCardToastItem_TypeDefinitionIndex = 76209;
+
 	class DiceCombatV2SideBarTacticsCardToastItem : public ::RPG::Client::DiceCombat::DiceCombatV2SideBarToastItem
 	{
 	public:

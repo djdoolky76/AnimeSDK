@@ -13,6 +13,8 @@ namespace UnityEngine { class Transform; }
 #define ATTACHPOINTSET_REFRESHLASTTARGETSCALE_OFFSET UNITYSDK_OFFSET(0x15BCC0E0)
 #define ATTACHPOINTSET_SELFDESTROY_OFFSET UNITYSDK_OFFSET(0x15BCC460)
 
+inline static constexpr unsigned int AttachPointSet_TypeDefinitionIndex = 47246;
+
 	class AttachPointSet : public ::UnityEngine::MonoBehaviour
 	{
 	public:

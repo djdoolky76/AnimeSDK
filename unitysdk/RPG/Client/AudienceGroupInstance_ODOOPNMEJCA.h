@@ -9,6 +9,8 @@ namespace RPG::GameCore { class LevelCurveInstance; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AudienceGroupInstance_ODOOPNMEJCA_TypeDefinitionIndex = 69145;
+
 	class AudienceGroupInstance_ODOOPNMEJCA : public ::RPG::Client::AudienceGroupInstance_FJBBJCJGFNF
 	{
 	public:

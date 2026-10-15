@@ -11,6 +11,8 @@ namespace UnityEngine { class ParticleSystem; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEffectPluginFiveDimDestructiblePlat_TypeDefinitionIndex = 70025;
+
 	class MonoEffectPluginFiveDimDestructiblePlat : public ::RPG::Client::MonoEffectPluginBase
 	{
 	public:

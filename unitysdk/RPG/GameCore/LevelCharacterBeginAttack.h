@@ -14,6 +14,8 @@ namespace RPG::GameCore { class LevelCharacterBeginAttack; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelCharacterBeginAttack_TypeDefinitionIndex = 56785;
+
 	class LevelCharacterBeginAttack : public ::CMPGEAFHHDC
 	{
 	public:

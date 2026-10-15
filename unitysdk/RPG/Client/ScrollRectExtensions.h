@@ -7,6 +7,8 @@ namespace UnityEngine::UI { class ScrollRect; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ScrollRectExtensions_TypeDefinitionIndex = 72783;
+
 	class ScrollRectExtensions : public ::System::Object
 	{
 	public:

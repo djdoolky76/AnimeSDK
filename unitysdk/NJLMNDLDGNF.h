@@ -191,6 +191,8 @@ namespace System::Collections::Concurrent { template <typename T1, typename T2> 
 #define NJLMNDLDGNF_PPKGKFIHOJL_OFFSET UNITYSDK_OFFSET(0x1D22C4C0)
 #define NJLMNDLDGNF__FROMBINARY_DYNAMICVALUELOOKUP_G___GETREADINFO_54_0_OFFSET UNITYSDK_OFFSET(0x1D22AD20)
 
+inline static constexpr unsigned int NJLMNDLDGNF_TypeDefinitionIndex = 10819;
+
 	class NJLMNDLDGNF : public ::System::Object
 	{
 	public:

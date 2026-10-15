@@ -28,6 +28,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define FNLODLDBEPE_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x158812D0)
 #define FNLODLDBEPE_MOANLPNBIEC_OFFSET UNITYSDK_OFFSET(0x15880680)
 
+inline static constexpr unsigned int FNLODLDBEPE_TypeDefinitionIndex = 67913;
+
 	class FNLODLDBEPE : public ::System::Object
 	{
 	public:

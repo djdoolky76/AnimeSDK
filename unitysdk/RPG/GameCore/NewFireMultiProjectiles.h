@@ -11,6 +11,8 @@ namespace RPG::GameCore { class NewProjectileDataList; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int NewFireMultiProjectiles_TypeDefinitionIndex = 22590;
+
 	class NewFireMultiProjectiles : public ::RPG::GameCore::FireMultiProjectilesBase
 	{
 	public:

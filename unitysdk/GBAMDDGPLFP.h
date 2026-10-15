@@ -4,6 +4,8 @@
 
 #define GBAMDDGPLFP_CPGODLFKMEN_OFFSET UNITYSDK_OFFSET(0x15945A90)
 
+inline static constexpr unsigned int GBAMDDGPLFP_TypeDefinitionIndex = 59640;
+
 	class GBAMDDGPLFP : public ::System::Object
 	{
 	public:

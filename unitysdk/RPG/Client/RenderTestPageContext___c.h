@@ -11,6 +11,8 @@ namespace System { template <typename T> class Comparison_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RenderTestPageContext___c_TypeDefinitionIndex = 72866;
+
 	class RenderTestPageContext___c : public ::System::Object
 	{
 	public:

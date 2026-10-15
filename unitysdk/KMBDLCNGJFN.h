@@ -199,6 +199,8 @@ namespace RPG::GameCore { class TargetSeqOperation; }
 #define KMBDLCNGJFN_PMCGMLLCBLF_OFFSET UNITYSDK_OFFSET(0x1D0AE330)
 #define KMBDLCNGJFN_POMEKLECEMK_OFFSET UNITYSDK_OFFSET(0x1D0AD530)
 
+inline static constexpr unsigned int KMBDLCNGJFN_TypeDefinitionIndex = 23741;
+
 	class KMBDLCNGJFN : public ::System::Object
 	{
 	public:

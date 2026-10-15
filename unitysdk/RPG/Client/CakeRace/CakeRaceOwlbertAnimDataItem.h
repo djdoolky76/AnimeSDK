@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace RPG::Client::CakeRace
 {
+	inline static constexpr unsigned int CakeRaceOwlbertAnimDataItem_TypeDefinitionIndex = 76469;
+
 	class CakeRaceOwlbertAnimDataItem : public ::System::Object
 	{
 	public:

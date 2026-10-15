@@ -8,6 +8,8 @@ class FCOEMCEDLNL;
 #define AOPAEHANNBO_CTOR_OFFSET UNITYSDK_OFFSET(0x1CCEC110)
 #define AOPAEHANNBO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CCEBF40)
 
+inline static constexpr unsigned int AOPAEHANNBO_TypeDefinitionIndex = 14424;
+
 	class AOPAEHANNBO : public ::System::Object
 	{
 	public:

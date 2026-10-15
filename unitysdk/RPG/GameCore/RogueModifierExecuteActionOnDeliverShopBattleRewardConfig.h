@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierExecuteActionOnDeliverShopBattleRew
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierExecuteActionOnDeliverShopBattleRewardConfig_TypeDefinitionIndex = 17687;
+
 	class RogueModifierExecuteActionOnDeliverShopBattleRewardConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

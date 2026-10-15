@@ -8,6 +8,8 @@ namespace System::Xml { class XmlTextEncoder; }
 
 namespace System::Xml
 {
+	inline static constexpr unsigned int XmlTextWriterBase64Encoder_TypeDefinitionIndex = 1789;
+
 	class XmlTextWriterBase64Encoder : public ::System::Xml::Base64Encoder
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System::Net
 {
+	inline static constexpr unsigned int ProtocolViolationException_TypeDefinitionIndex = 2755;
+
 	class ProtocolViolationException : public ::System::InvalidOperationException
 	{
 	public:

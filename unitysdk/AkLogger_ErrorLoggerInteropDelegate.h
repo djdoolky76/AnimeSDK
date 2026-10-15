@@ -11,6 +11,8 @@ namespace System { class String; }
 #define AKLOGGER_ERRORLOGGERINTEROPDELEGATE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F59D450)
 #define AKLOGGER_ERRORLOGGERINTEROPDELEGATE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F59D410)
 
+inline static constexpr unsigned int AkLogger_ErrorLoggerInteropDelegate_TypeDefinitionIndex = 44847;
+
 	class AkLogger_ErrorLoggerInteropDelegate : public ::System::MulticastDelegate
 	{
 	public:

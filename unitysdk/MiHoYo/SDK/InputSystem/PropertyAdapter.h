@@ -21,6 +21,8 @@ namespace MiHoYo::SDK::InputSystem { class PropertyAdapter; }
 
 namespace MiHoYo::SDK::InputSystem
 {
+	inline static constexpr unsigned int PropertyAdapter_TypeDefinitionIndex = 10098;
+
 	class PropertyAdapter : public ::System::Object
 	{
 	public:

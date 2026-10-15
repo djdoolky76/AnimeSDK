@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int StageHarmonySignalDynamicDialogMonoPlugin_TypeDefinitionIndex = 70996;
+
 	class StageHarmonySignalDynamicDialogMonoPlugin
 	{
 	public:

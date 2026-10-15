@@ -27,6 +27,8 @@ namespace System { class String; }
 #define DNGFEGEBEID_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E1F5D40)
 #define DNGFEGEBEID_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E1F5DA0)
 
+inline static constexpr unsigned int DNGFEGEBEID_TypeDefinitionIndex = 25992;
+
 	class DNGFEGEBEID : public ::System::Object
 	{
 	public:

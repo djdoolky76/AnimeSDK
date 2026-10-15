@@ -20,6 +20,8 @@ namespace System { class String; }
 #define NCDOGNCMFNK_LBPJICHOIEM_OFFSET UNITYSDK_OFFSET(0xBB074E0)
 #define NCDOGNCMFNK_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0xBB06B80)
 
+inline static constexpr unsigned int NCDOGNCMFNK_TypeDefinitionIndex = 49719;
+
 	class NCDOGNCMFNK : public ::System::Object
 	{
 	public:

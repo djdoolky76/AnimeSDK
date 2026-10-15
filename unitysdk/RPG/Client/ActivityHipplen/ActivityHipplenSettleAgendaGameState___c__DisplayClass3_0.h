@@ -9,6 +9,8 @@ namespace RPG::Client::ActivityHipplen { class ActivityHipplenSettleAgendaGameSt
 
 namespace RPG::Client::ActivityHipplen
 {
+	inline static constexpr unsigned int ActivityHipplenSettleAgendaGameState___c__DisplayClass3_0_TypeDefinitionIndex = 75525;
+
 	class ActivityHipplenSettleAgendaGameState___c__DisplayClass3_0 : public ::System::Object
 	{
 	public:

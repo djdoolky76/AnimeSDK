@@ -20,6 +20,8 @@ namespace RPG::Client::ActivityMarble { class MarbleBattleScoreDisplayParams; }
 
 namespace RPG::Client::ActivityMarble
 {
+	inline static constexpr unsigned int MarbleBattleScoreDisplayParams_TypeDefinitionIndex = 75963;
+
 	class MarbleBattleScoreDisplayParams : public ::System::Object
 	{
 	public:

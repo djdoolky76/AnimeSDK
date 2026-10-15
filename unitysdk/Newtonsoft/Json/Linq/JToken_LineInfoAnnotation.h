@@ -6,6 +6,8 @@
 
 namespace Newtonsoft::Json::Linq
 {
+	inline static constexpr unsigned int JToken_LineInfoAnnotation_TypeDefinitionIndex = 9781;
+
 	class JToken_LineInfoAnnotation : public ::System::Object
 	{
 	public:

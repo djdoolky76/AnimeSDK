@@ -7,6 +7,8 @@ namespace RPG::GameCore { class MarbleRemoveBuff; }
 #define LOIKPPMHNPJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1C91ED70)
 #define LOIKPPMHNPJ_KDNAAOHECPD_OFFSET UNITYSDK_OFFSET(0x1C91ED80)
 
+inline static constexpr unsigned int LOIKPPMHNPJ_TypeDefinitionIndex = 43096;
+
 	class LOIKPPMHNPJ : public ::BKABEBEPPJK
 	{
 	public:

@@ -29,6 +29,8 @@ namespace System { class String; }
 #define CAGKEDMHEOI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E05A1D0)
 #define CAGKEDMHEOI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E05A230)
 
+inline static constexpr unsigned int CAGKEDMHEOI_TypeDefinitionIndex = 27791;
+
 	class CAGKEDMHEOI : public ::System::Object
 	{
 	public:

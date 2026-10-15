@@ -20,6 +20,8 @@ namespace System::IO { class TextReader; }
 
 namespace System::IO
 {
+	inline static constexpr unsigned int TextReader_TypeDefinitionIndex = 697;
+
 	class TextReader : public ::System::MarshalByRefObject
 	{
 	public:

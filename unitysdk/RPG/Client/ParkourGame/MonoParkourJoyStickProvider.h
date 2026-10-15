@@ -33,6 +33,8 @@ namespace UnityEngine::UI { class Image; }
 
 namespace RPG::Client::ParkourGame
 {
+	inline static constexpr unsigned int MonoParkourJoyStickProvider_TypeDefinitionIndex = 74147;
+
 	class MonoParkourJoyStickProvider : public ::UnityEngine::MonoBehaviour
 	{
 	public:

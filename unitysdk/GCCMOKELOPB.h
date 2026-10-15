@@ -8,6 +8,8 @@ class GCCMOKELOPB;
 #define GCCMOKELOPB_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CE2BBC0)
 #define GCCMOKELOPB_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CE2BAF0)
 
+inline static constexpr unsigned int GCCMOKELOPB_TypeDefinitionIndex = 24190;
+
 	class GCCMOKELOPB : public ::RPG::GameCore::TaskConfig
 	{
 	public:

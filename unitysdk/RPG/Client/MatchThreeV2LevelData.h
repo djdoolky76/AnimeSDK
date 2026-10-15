@@ -47,6 +47,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MatchThreeV2LevelData_TypeDefinitionIndex = 66001;
+
 	class MatchThreeV2LevelData : public ::System::Object
 	{
 	public:

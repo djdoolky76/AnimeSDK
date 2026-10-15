@@ -23,6 +23,8 @@ namespace System { class Action; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RuntimeGroupManager_HoYoGroupStreamingInfo_TypeDefinitionIndex = 62067;
+
 	class RuntimeGroupManager_HoYoGroupStreamingInfo : public ::System::Object
 	{
 	public:

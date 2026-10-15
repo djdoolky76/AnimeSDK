@@ -14,6 +14,8 @@ namespace System { class String; }
 #define DIGENCBFCNJ_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xEBF6450)
 #define DIGENCBFCNJ_TICK_OFFSET UNITYSDK_OFFSET(0xEBF64A0)
 
+inline static constexpr unsigned int DIGENCBFCNJ_TypeDefinitionIndex = 53099;
+
 	class DIGENCBFCNJ : public ::GELIALJDFBL
 	{
 	public:

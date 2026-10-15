@@ -2,6 +2,8 @@
 #include "unitysdk/unitysdk.h"
 namespace System { class String; }
 
+inline static constexpr unsigned int NKCMOFKJLBE_TypeDefinitionIndex = 43472;
+
 	struct alignas(8) NKCMOFKJLBE
 	{
 		::System::Boolean NOOJOFHAIAA; // 0x10

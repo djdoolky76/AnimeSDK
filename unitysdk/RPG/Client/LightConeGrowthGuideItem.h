@@ -9,6 +9,8 @@ namespace System { template <typename T> class Func_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int LightConeGrowthGuideItem_TypeDefinitionIndex = 65553;
+
 	class LightConeGrowthGuideItem : public ::RPG::Client::BaseGrowthGuideItem
 	{
 	public:

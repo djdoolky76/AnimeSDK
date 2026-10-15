@@ -12,6 +12,8 @@ namespace RPG::GameCore { class NotifyVersusBarQuestChange; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int NotifyVersusBarQuestChange_TypeDefinitionIndex = 23148;
+
 	class NotifyVersusBarQuestChange : public ::RPG::GameCore::TaskConfig
 	{
 	public:

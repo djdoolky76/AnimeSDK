@@ -9,6 +9,8 @@ namespace RPG::GameCore { class PlayerRoomSlotOffsetRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PlayerRoomSlotOffsetRow_TypeDefinitionIndex = 14551;
+
 	class PlayerRoomSlotOffsetRow : public ::System::Object
 	{
 	public:

@@ -15,6 +15,8 @@ namespace RPG::GameCore { class DiceCombatSkillPreviewConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DiceCombatSkillConfig_TypeDefinitionIndex = 16122;
+
 	class DiceCombatSkillConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

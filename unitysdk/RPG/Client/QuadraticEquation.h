@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int QuadraticEquation_TypeDefinitionIndex = 73257;
+
 	struct alignas(4) QuadraticEquation
 	{
 		::System::Single a; // 0x10

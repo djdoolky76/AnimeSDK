@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ShowBossHPValue; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ShowBossHPValue_TypeDefinitionIndex = 22938;
+
 	class ShowBossHPValue : public ::RPG::GameCore::TaskConfig
 	{
 	public:

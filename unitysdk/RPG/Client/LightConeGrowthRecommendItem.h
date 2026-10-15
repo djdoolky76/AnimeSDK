@@ -12,6 +12,8 @@ namespace System { template <typename T> class Func_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int LightConeGrowthRecommendItem_TypeDefinitionIndex = 65554;
+
 	class LightConeGrowthRecommendItem : public ::RPG::Client::BaseLightConeRecommendGuideItem
 	{
 	public:

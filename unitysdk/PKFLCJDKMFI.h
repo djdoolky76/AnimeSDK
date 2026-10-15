@@ -20,6 +20,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define PKFLCJDKMFI_OMLAIALDLEO_OFFSET UNITYSDK_OFFSET(0xC2B5740)
 #define PKFLCJDKMFI_OOBLHLACAKI_OFFSET UNITYSDK_OFFSET(0xC2B5EA0)
 
+inline static constexpr unsigned int PKFLCJDKMFI_TypeDefinitionIndex = 76577;
+
 	class PKFLCJDKMFI : public ::System::Object
 	{
 	public:

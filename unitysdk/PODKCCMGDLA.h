@@ -9,6 +9,8 @@ namespace System { class Object; }
 #define PODKCCMGDLA__REGISTEREVENTCALLBACK_OFFSET UNITYSDK_OFFSET(0xC35A1D0)
 #define PODKCCMGDLA__UNREGISTEREVENTCALLBACK_OFFSET UNITYSDK_OFFSET(0xC35A270)
 
+inline static constexpr unsigned int PODKCCMGDLA_TypeDefinitionIndex = 58923;
+
 	class PODKCCMGDLA
 	{
 	public:

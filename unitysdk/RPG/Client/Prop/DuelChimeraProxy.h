@@ -48,6 +48,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int DuelChimeraProxy_TypeDefinitionIndex = 78375;
+
 	class DuelChimeraProxy : public ::Sofa::Core::ObservableObject
 	{
 	public:

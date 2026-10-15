@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MissionActivePlaneType_TypeDefinitionIndex = 18987;
+
 	enum class MissionActivePlaneType : ::System::Int32
 	{
 		Default = 0,

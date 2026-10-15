@@ -33,6 +33,8 @@ namespace System { class String; }
 
 namespace RPG::Client::Badge
 {
+	inline static constexpr unsigned int BadgeData_TypeDefinitionIndex = 74990;
+
 	class BadgeData : public ::System::Object
 	{
 	public:

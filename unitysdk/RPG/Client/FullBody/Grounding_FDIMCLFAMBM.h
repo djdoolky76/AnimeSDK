@@ -15,6 +15,8 @@ namespace System { class Object; }
 
 namespace RPG::Client::FullBody
 {
+	inline static constexpr unsigned int Grounding_FDIMCLFAMBM_TypeDefinitionIndex = 74242;
+
 	class Grounding_FDIMCLFAMBM : public ::System::MulticastDelegate
 	{
 	public:

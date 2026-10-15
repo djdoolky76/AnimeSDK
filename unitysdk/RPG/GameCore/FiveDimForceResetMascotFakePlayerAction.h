@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FiveDimForceResetMascotFakePlayerAction; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimForceResetMascotFakePlayerAction_TypeDefinitionIndex = 18688;
+
 	class FiveDimForceResetMascotFakePlayerAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
 	public:

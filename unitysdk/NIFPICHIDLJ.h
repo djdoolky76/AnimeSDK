@@ -38,6 +38,8 @@ namespace System { class String; }
 #define NIFPICHIDLJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB2E8A0)
 #define NIFPICHIDLJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB2E900)
 
+inline static constexpr unsigned int NIFPICHIDLJ_TypeDefinitionIndex = 25582;
+
 	class NIFPICHIDLJ : public ::System::Object
 	{
 	public:

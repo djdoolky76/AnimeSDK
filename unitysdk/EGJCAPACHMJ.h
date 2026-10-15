@@ -39,6 +39,8 @@ namespace System { class String; }
 #define EGJCAPACHMJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E294D50)
 #define EGJCAPACHMJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E294DB0)
 
+inline static constexpr unsigned int EGJCAPACHMJ_TypeDefinitionIndex = 26218;
+
 	class EGJCAPACHMJ : public ::System::Object
 	{
 	public:

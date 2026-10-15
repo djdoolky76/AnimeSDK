@@ -20,6 +20,8 @@ namespace RPG::Client::ChenLingBattle { class IEntity; }
 
 namespace RPG::Client::ChenLingBattle
 {
+	inline static constexpr unsigned int Grid_TypeDefinitionIndex = 76362;
+
 	class Grid : public ::System::Object
 	{
 	public:

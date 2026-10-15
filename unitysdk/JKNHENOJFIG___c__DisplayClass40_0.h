@@ -6,6 +6,8 @@ class JKNHENOJFIG;
 #define JKNHENOJFIG___C__DISPLAYCLASS40_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB228880)
 #define JKNHENOJFIG___C__DISPLAYCLASS40_0___ONAGENDACOMPLETED_B__0_OFFSET UNITYSDK_OFFSET(0xB2293F0)
 
+inline static constexpr unsigned int JKNHENOJFIG___c__DisplayClass40_0_TypeDefinitionIndex = 81713;
+
 	class JKNHENOJFIG___c__DisplayClass40_0 : public ::System::Object
 	{
 	public:

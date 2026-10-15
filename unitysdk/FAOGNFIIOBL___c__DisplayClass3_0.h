@@ -8,6 +8,8 @@ class IOIIFAENPNH;
 #define FAOGNFIIOBL___C__DISPLAYCLASS3_0__TRYREMOVESHOWDATA_B__0_OFFSET UNITYSDK_OFFSET(0x15689360)
 #define FAOGNFIIOBL___C__DISPLAYCLASS3_0__TRYREMOVESHOWDATA_B__1_OFFSET UNITYSDK_OFFSET(0x15689380)
 
+inline static constexpr unsigned int FAOGNFIIOBL___c__DisplayClass3_0_TypeDefinitionIndex = 72076;
+
 	class FAOGNFIIOBL___c__DisplayClass3_0 : public ::System::Object
 	{
 	public:

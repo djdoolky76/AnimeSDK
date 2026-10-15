@@ -10,6 +10,8 @@ namespace System { class String; }
 #define ELBMEFNEMHP_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CD99D00)
 #define ELBMEFNEMHP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CD99C60)
 
+inline static constexpr unsigned int ELBMEFNEMHP_TypeDefinitionIndex = 21066;
+
 	class ELBMEFNEMHP : public ::RPG::GameCore::TaskConfig
 	{
 	public:

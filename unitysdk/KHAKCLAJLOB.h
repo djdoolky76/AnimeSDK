@@ -9,6 +9,8 @@ namespace UnityEngine { class GameObject; }
 #define KHAKCLAJLOB_CTOR_OFFSET UNITYSDK_OFFSET(0xB3FC400)
 #define KHAKCLAJLOB_FGDCNFFPOGI_OFFSET UNITYSDK_OFFSET(0xB3FBFD0)
 
+inline static constexpr unsigned int KHAKCLAJLOB_TypeDefinitionIndex = 49353;
+
 	class KHAKCLAJLOB : public ::ONLKOENMDNA
 	{
 	public:

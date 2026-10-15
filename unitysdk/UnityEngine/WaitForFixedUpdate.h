@@ -6,6 +6,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int WaitForFixedUpdate_TypeDefinitionIndex = 4367;
+
 	class WaitForFixedUpdate : public ::UnityEngine::YieldInstruction
 	{
 	public:

@@ -14,6 +14,8 @@
 
 namespace Newtonsoft::Json::Utilities
 {
+	inline static constexpr unsigned int DateTimeParser_TypeDefinitionIndex = 9630;
+
 	struct alignas(8) DateTimeParser
 	{
 		::System::Int32 Year; // 0x10

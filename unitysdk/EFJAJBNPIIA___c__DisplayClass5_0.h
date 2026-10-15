@@ -6,6 +6,8 @@ namespace RPG::Client::Promises { class Promise; }
 #define EFJAJBNPIIA___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0x13A4E750)
 #define EFJAJBNPIIA___C__DISPLAYCLASS5_0___SHOWROGUENOUSNEWMAINSTORYPAGE_B__0_OFFSET UNITYSDK_OFFSET(0x13A4EBC0)
 
+inline static constexpr unsigned int EFJAJBNPIIA___c__DisplayClass5_0_TypeDefinitionIndex = 67483;
+
 	class EFJAJBNPIIA___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:

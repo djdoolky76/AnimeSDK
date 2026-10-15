@@ -13,6 +13,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int TalkBgEffectFrameShowClip_TypeDefinitionIndex = 48380;
+
 	class TalkBgEffectFrameShowClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

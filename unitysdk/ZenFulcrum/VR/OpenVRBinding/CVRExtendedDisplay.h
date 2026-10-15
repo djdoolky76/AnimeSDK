@@ -11,6 +11,8 @@
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int CVRExtendedDisplay_TypeDefinitionIndex = 39196;
+
 	class CVRExtendedDisplay : public ::System::Object
 	{
 	public:

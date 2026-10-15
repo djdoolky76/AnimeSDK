@@ -31,6 +31,8 @@ namespace System { class String; }
 #define CFGGOBEDJOK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E0A2840)
 #define CFGGOBEDJOK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E0A28A0)
 
+inline static constexpr unsigned int CFGGOBEDJOK_TypeDefinitionIndex = 26380;
+
 	class CFGGOBEDJOK : public ::System::Object
 	{
 	public:

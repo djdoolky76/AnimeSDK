@@ -12,6 +12,8 @@ namespace System::Runtime::InteropServices { class StructLayoutAttribute; }
 
 namespace System::Runtime::InteropServices
 {
+	inline static constexpr unsigned int StructLayoutAttribute_TypeDefinitionIndex = 1422;
+
 	class StructLayoutAttribute : public ::System::Attribute
 	{
 	public:

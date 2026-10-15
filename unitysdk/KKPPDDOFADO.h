@@ -9,6 +9,8 @@ class OFAKEFLLHNP;
 #define KKPPDDOFADO_GEMKFCFDNDO_OFFSET UNITYSDK_OFFSET(0xB4DC230)
 #define KKPPDDOFADO_PAMKOLICNOL_OFFSET UNITYSDK_OFFSET(0xB4DC150)
 
+inline static constexpr unsigned int KKPPDDOFADO_TypeDefinitionIndex = 65134;
+
 	class KKPPDDOFADO : public ::System::Object
 	{
 	public:

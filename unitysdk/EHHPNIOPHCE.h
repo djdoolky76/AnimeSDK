@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define EHHPNIOPHCE_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x154A9360)
 #define EHHPNIOPHCE_PJCGAIICFAH_OFFSET UNITYSDK_OFFSET(0x154A92B0)
 
+inline static constexpr unsigned int EHHPNIOPHCE_TypeDefinitionIndex = 52241;
+
 	class EHHPNIOPHCE
 	{
 	public:

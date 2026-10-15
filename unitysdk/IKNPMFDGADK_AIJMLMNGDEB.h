@@ -4,6 +4,8 @@
 
 #define IKNPMFDGADK_AIJMLMNGDEB_CTOR_OFFSET UNITYSDK_OFFSET(0x1649F280)
 
+inline static constexpr unsigned int IKNPMFDGADK_AIJMLMNGDEB_TypeDefinitionIndex = 79589;
+
 	class IKNPMFDGADK_AIJMLMNGDEB : public ::System::Object
 	{
 	public:

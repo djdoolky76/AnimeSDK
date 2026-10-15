@@ -14,6 +14,8 @@ namespace RPG::Client::FateRin::Battle { class FateRinBattleHudHoverBrain; }
 #define OMCMJNICFCH_ONHOVER_OFFSET UNITYSDK_OFFSET(0xBF21230)
 #define OMCMJNICFCH_POFHPJFCFFJ_OFFSET UNITYSDK_OFFSET(0xBF212D0)
 
+inline static constexpr unsigned int OMCMJNICFCH_TypeDefinitionIndex = 81000;
+
 	class OMCMJNICFCH : public ::System::Object
 	{
 	public:

@@ -14,6 +14,8 @@ namespace UnityEngine { class Collider; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoProjectileEffect_TypeDefinitionIndex = 70145;
+
 	class MonoProjectileEffect : public ::UnityEngine::MonoBehaviour
 	{
 	public:

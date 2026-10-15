@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int IPPKHOFKMHM_TypeDefinitionIndex = 34365;
+
 	enum class IPPKHOFKMHM : ::System::Int32
 	{
 		KLHMFENBDID = 0,

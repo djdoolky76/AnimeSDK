@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int CKHKFIEAAII_TypeDefinitionIndex = 28672;
+
 	enum class CKHKFIEAAII : ::System::Int32
 	{
 		FMIEDHLAEDM = 0,

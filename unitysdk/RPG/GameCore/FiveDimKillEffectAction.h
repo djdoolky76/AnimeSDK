@@ -11,6 +11,8 @@ namespace RPG::GameCore { class LittleGameKillEffectParams; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimKillEffectAction_TypeDefinitionIndex = 18740;
+
 	class FiveDimKillEffectAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
 	public:

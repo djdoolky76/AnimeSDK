@@ -9,6 +9,8 @@ namespace RPG::GameCore { class BattlePassLevelRewardRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BattlePassLevelRewardRow_TypeDefinitionIndex = 12869;
+
 	class BattlePassLevelRewardRow : public ::System::Object
 	{
 	public:

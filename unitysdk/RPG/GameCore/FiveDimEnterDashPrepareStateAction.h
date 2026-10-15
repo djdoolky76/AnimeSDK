@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FiveDimEnterDashPrepareStateAction; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimEnterDashPrepareStateAction_TypeDefinitionIndex = 18739;
+
 	class FiveDimEnterDashPrepareStateAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
 	public:

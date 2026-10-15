@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetTeamRootOffset_TypeDefinitionIndex = 22498;
+
 	class SetTeamRootOffset : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -16,6 +16,8 @@ namespace System::IO { class MemoryStream; }
 
 namespace RPG::Client::LittleGameShare
 {
+	inline static constexpr unsigned int SnapshotSendSystem_1_TypeDefinitionIndex = 36938;
+
 	template <typename T>
 	class SnapshotSendSystem_1 : public ::System::Object
 	{

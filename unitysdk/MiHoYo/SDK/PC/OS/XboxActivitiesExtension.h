@@ -7,6 +7,8 @@ namespace MiHoYo::SDK::PC::OS { class XboxActivityInfo; }
 
 namespace MiHoYo::SDK::PC::OS
 {
+	inline static constexpr unsigned int XboxActivitiesExtension_TypeDefinitionIndex = 8686;
+
 	class XboxActivitiesExtension : public ::System::Object
 	{
 	public:

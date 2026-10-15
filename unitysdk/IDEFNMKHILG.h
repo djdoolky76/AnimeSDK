@@ -14,6 +14,8 @@ namespace RPG::GameCore { class TrainPartyCreateManikinEntity; }
 #define IDEFNMKHILG_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15EC34D0)
 #define IDEFNMKHILG_TICK_OFFSET UNITYSDK_OFFSET(0x15EC3520)
 
+inline static constexpr unsigned int IDEFNMKHILG_TypeDefinitionIndex = 53421;
+
 	class IDEFNMKHILG : public ::GELIALJDFBL
 	{
 	public:

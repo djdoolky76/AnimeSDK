@@ -7,6 +7,8 @@ class JLGDBJAMIPN;
 #define JLGDBJAMIPN_CTOR_OFFSET UNITYSDK_OFFSET(0xB24AD20)
 #define JLGDBJAMIPN_OKPLPEELPBC_OFFSET UNITYSDK_OFFSET(0xB24AD30)
 
+inline static constexpr unsigned int JLGDBJAMIPN_TypeDefinitionIndex = 65989;
+
 	class JLGDBJAMIPN : public ::System::Object
 	{
 	public:

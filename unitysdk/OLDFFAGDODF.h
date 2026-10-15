@@ -15,6 +15,8 @@ namespace System { class String; }
 #define OLDFFAGDODF_NDMBDGKAJEK_OFFSET UNITYSDK_OFFSET(0xBF011B0)
 #define OLDFFAGDODF_NJIBMEAFLGM_OFFSET UNITYSDK_OFFSET(0xBF01BB0)
 
+inline static constexpr unsigned int OLDFFAGDODF_TypeDefinitionIndex = 65292;
+
 	class OLDFFAGDODF : public ::HEOLKMLMPML
 	{
 	public:

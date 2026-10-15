@@ -50,6 +50,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::Challenge::Tierce
 {
+	inline static constexpr unsigned int ChallengeTierceFriendLineupRecommendationViewModel_TypeDefinitionIndex = 81601;
+
 	class ChallengeTierceFriendLineupRecommendationViewModel : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelAdventureAddBuffEvent_TypeDefinitionIndex = 56619;
+
 	class LevelAdventureAddBuffEvent : public ::System::Object
 	{
 	public:

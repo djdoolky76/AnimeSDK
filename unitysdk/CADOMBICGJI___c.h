@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define CADOMBICGJI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E056F10)
 #define CADOMBICGJI___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1E056F20)
 
+inline static constexpr unsigned int CADOMBICGJI___c_TypeDefinitionIndex = 26132;
+
 	class CADOMBICGJI___c : public ::System::Object
 	{
 	public:

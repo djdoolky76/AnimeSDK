@@ -7,6 +7,8 @@ namespace Proto { class MonopolyActionResult; }
 #define OINEIPPCHIH_CTOR_OFFSET UNITYSDK_OFFSET(0xBEA24C0)
 #define OINEIPPCHIH_TRIGGER_OFFSET UNITYSDK_OFFSET(0xBEA25E0)
 
+inline static constexpr unsigned int OINEIPPCHIH_TypeDefinitionIndex = 66230;
+
 	class OINEIPPCHIH : public ::System::Object
 	{
 	public:

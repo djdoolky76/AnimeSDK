@@ -10,6 +10,8 @@ namespace RPG::GameCore { class WaitLastKillFinish; }
 #define GAJMCFJOMPF_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1593DD30)
 #define GAJMCFJOMPF_TICK_OFFSET UNITYSDK_OFFSET(0x1593DD80)
 
+inline static constexpr unsigned int GAJMCFJOMPF_TypeDefinitionIndex = 58900;
+
 	class GAJMCFJOMPF : public ::GELIALJDFBL
 	{
 	public:

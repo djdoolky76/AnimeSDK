@@ -9,6 +9,8 @@ namespace System { class Object; }
 
 namespace System::ComponentModel
 {
+	inline static constexpr unsigned int WeakHashtable_WeakKeyComparer_TypeDefinitionIndex = 2654;
+
 	class WeakHashtable_WeakKeyComparer : public ::System::Object
 	{
 	public:

@@ -15,6 +15,8 @@ namespace System { class String; }
 #define EDEHCKDJFAF_HFIDHKKOEOA_OFFSET UNITYSDK_OFFSET(0x133123D0)
 #define EDEHCKDJFAF_JAGPJGOOALH_OFFSET UNITYSDK_OFFSET(0x13312260)
 
+inline static constexpr unsigned int EDEHCKDJFAF_TypeDefinitionIndex = 65594;
+
 	class EDEHCKDJFAF : public ::System::Object
 	{
 	public:

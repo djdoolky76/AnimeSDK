@@ -5,6 +5,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define APCCFELCPKH_KIEJFANMCJO_CTOR_OFFSET UNITYSDK_OFFSET(0x15BA3C40)
 
+inline static constexpr unsigned int APCCFELCPKH_KIEJFANMCJO_TypeDefinitionIndex = 60239;
+
 	class APCCFELCPKH_KIEJFANMCJO : public ::System::Object
 	{
 	public:

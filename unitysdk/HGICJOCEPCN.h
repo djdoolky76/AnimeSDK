@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define HGICJOCEPCN_FILTER_OFFSET UNITYSDK_OFFSET(0x1CACA800)
 #define HGICJOCEPCN_GETTRIGGER_OFFSET UNITYSDK_OFFSET(0x1CACA6E0)
 
+inline static constexpr unsigned int HGICJOCEPCN_TypeDefinitionIndex = 42869;
+
 	class HGICJOCEPCN
 	{
 	public:

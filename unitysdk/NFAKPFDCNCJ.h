@@ -4,6 +4,8 @@
 #define NFAKPFDCNCJ_CCTOR_OFFSET UNITYSDK_OFFSET(0xBB76E20)
 #define NFAKPFDCNCJ_HGKALNHGNKL_OFFSET UNITYSDK_OFFSET(0x20530)
 
+inline static constexpr unsigned int NFAKPFDCNCJ_TypeDefinitionIndex = 73211;
+
 	struct alignas(4) NFAKPFDCNCJ
 	{
 		::System::UInt64 BFLIFKBEOPJ; // 0x10

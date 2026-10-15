@@ -24,6 +24,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define KEILCHAPOCP_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D089D20)
 #define KEILCHAPOCP_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D0895F0)
 
+inline static constexpr unsigned int KEILCHAPOCP_TypeDefinitionIndex = 14692;
+
 	class KEILCHAPOCP : public ::System::Object
 	{
 	public:

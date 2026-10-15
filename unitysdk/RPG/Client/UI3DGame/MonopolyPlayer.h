@@ -20,6 +20,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::UI3DGame
 {
+	inline static constexpr unsigned int MonopolyPlayer_TypeDefinitionIndex = 75814;
+
 	class MonopolyPlayer : public ::RPG::Client::UI3DGame::MonoUI3DGameView
 	{
 	public:

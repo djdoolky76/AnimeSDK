@@ -11,6 +11,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace SRDebugger::UI::Other
 {
+	inline static constexpr unsigned int FloatOverElement_TypeDefinitionIndex = 38005;
+
 	class FloatOverElement : public ::UnityEngine::EventSystems::UIBehaviour
 	{
 	public:

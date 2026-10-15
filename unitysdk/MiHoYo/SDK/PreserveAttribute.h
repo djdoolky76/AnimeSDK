@@ -6,6 +6,8 @@
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int PreserveAttribute_TypeDefinitionIndex = 7598;
+
 	class PreserveAttribute : public ::System::Attribute
 	{
 	public:

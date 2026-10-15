@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define LGGMCNNPELH_FILTER_OFFSET UNITYSDK_OFFSET(0xB6975F0)
 #define LGGMCNNPELH_GETTRIGGER_OFFSET UNITYSDK_OFFSET(0xB697520)
 
+inline static constexpr unsigned int LGGMCNNPELH_TypeDefinitionIndex = 75780;
+
 	class LGGMCNNPELH
 	{
 	public:

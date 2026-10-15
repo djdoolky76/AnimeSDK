@@ -16,6 +16,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int CharacterInfo_TypeDefinitionIndex = 5052;
+
 	struct alignas(4) CharacterInfo
 	{
 		::System::Int32 index; // 0x10

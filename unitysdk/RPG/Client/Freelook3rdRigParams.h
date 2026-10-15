@@ -7,6 +7,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Freelook3rdRigParams_TypeDefinitionIndex = 69675;
+
 	class Freelook3rdRigParams : public ::System::Object
 	{
 	public:

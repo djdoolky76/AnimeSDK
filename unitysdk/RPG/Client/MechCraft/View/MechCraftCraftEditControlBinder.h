@@ -35,6 +35,8 @@ namespace UnityEngine::UI { class ScrollRect; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftCraftEditControlBinder_TypeDefinitionIndex = 79877;
+
 	class MechCraftCraftEditControlBinder : public ::RPG::Client::MechCraft::View::MechCraftBinderBase
 	{
 	public:

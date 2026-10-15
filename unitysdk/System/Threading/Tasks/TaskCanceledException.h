@@ -11,6 +11,8 @@ namespace System::Threading::Tasks { class Task; }
 
 namespace System::Threading::Tasks
 {
+	inline static constexpr unsigned int TaskCanceledException_TypeDefinitionIndex = 915;
+
 	class TaskCanceledException : public ::System::OperationCanceledException
 	{
 	public:

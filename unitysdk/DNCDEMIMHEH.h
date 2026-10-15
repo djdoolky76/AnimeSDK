@@ -7,6 +7,8 @@ namespace System { class String; }
 #define DNCDEMIMHEH_CTOR_1_OFFSET UNITYSDK_OFFSET(0x11940B60)
 #define DNCDEMIMHEH_CTOR_OFFSET UNITYSDK_OFFSET(0x11940B00)
 
+inline static constexpr unsigned int DNCDEMIMHEH_TypeDefinitionIndex = 67505;
+
 	class DNCDEMIMHEH : public ::System::Exception
 	{
 	public:

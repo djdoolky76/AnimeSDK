@@ -5,6 +5,8 @@ namespace System { class String; }
 
 #define OOHIKDKFGFF_CTOR_OFFSET UNITYSDK_OFFSET(0xBF848C0)
 
+inline static constexpr unsigned int OOHIKDKFGFF_TypeDefinitionIndex = 48934;
+
 	class OOHIKDKFGFF : public ::System::Object
 	{
 	public:

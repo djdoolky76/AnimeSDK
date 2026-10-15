@@ -11,6 +11,8 @@ namespace System::Collections::Specialized { class NameObjectCollectionBase; }
 
 namespace System::Collections::Specialized
 {
+	inline static constexpr unsigned int NameObjectCollectionBase_NameObjectKeysEnumerator_TypeDefinitionIndex = 2996;
+
 	class NameObjectCollectionBase_NameObjectKeysEnumerator : public ::System::Object
 	{
 	public:

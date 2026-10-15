@@ -13,6 +13,8 @@ namespace RPG::GameCore { class WaitPerformanceReplayEnd; }
 #define MFFPJLJNLCC_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB8F5D00)
 #define MFFPJLJNLCC_TICK_OFFSET UNITYSDK_OFFSET(0xB8F5E60)
 
+inline static constexpr unsigned int MFFPJLJNLCC_TypeDefinitionIndex = 58909;
+
 	class MFFPJLJNLCC : public ::GELIALJDFBL
 	{
 	public:

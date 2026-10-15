@@ -15,6 +15,8 @@ namespace RPG::Client::PixAir { class PixAirBattleSettlementData; }
 
 namespace RPG::Client::PixAir
 {
+	inline static constexpr unsigned int PixAirBattleSettlementData_TypeDefinitionIndex = 79359;
+
 	class PixAirBattleSettlementData : public ::System::Object
 	{
 	public:

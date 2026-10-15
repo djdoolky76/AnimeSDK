@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int ConsoleDelegate_GetCurrentSessionIdDelegate_TypeDefinitionIndex = 7653;
+
 	class ConsoleDelegate_GetCurrentSessionIdDelegate : public ::System::MulticastDelegate
 	{
 	public:

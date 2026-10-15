@@ -10,6 +10,8 @@
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int IdleLiveSetSpecialChatPhaseBehaviour_TypeDefinitionIndex = 47793;
+
 	class IdleLiveSetSpecialChatPhaseBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

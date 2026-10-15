@@ -5,6 +5,8 @@ namespace System { class Object; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TriggerSDFTextEffect___O_TypeDefinitionIndex = 23636;
+
 	class TriggerSDFTextEffect___O : public ::System::Object
 	{
 	public:

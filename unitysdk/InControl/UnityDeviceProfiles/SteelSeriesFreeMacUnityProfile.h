@@ -7,6 +7,8 @@
 
 namespace InControl::UnityDeviceProfiles
 {
+	inline static constexpr unsigned int SteelSeriesFreeMacUnityProfile_TypeDefinitionIndex = 41029;
+
 	class SteelSeriesFreeMacUnityProfile : public ::InControl::InputDeviceProfile
 	{
 	public:

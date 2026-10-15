@@ -11,6 +11,8 @@ namespace UnityEngine { class Renderer; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEffectPluginDialogRendererModelCapture___c_TypeDefinitionIndex = 69997;
+
 	class MonoEffectPluginDialogRendererModelCapture___c : public ::System::Object
 	{
 	public:

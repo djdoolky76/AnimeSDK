@@ -28,6 +28,8 @@ namespace System { class String; }
 #define JJOKPIPHCAK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E7655F0)
 #define JJOKPIPHCAK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E765650)
 
+inline static constexpr unsigned int JJOKPIPHCAK_TypeDefinitionIndex = 34562;
+
 	class JJOKPIPHCAK : public ::System::Object
 	{
 	public:

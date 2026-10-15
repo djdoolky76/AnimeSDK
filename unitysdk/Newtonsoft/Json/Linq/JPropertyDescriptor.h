@@ -7,6 +7,8 @@ namespace System { class Type; }
 
 namespace Newtonsoft::Json::Linq
 {
+	inline static constexpr unsigned int JPropertyDescriptor_TypeDefinitionIndex = 9752;
+
 	class JPropertyDescriptor : public ::System::ComponentModel::PropertyDescriptor
 	{
 	public:

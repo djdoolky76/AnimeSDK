@@ -3,6 +3,8 @@
 
 namespace RPG::Client::LittleGame
 {
+	inline static constexpr unsigned int TransformInterpolateMode_TypeDefinitionIndex = 76544;
+
 	enum class TransformInterpolateMode : ::System::Int32
 	{
 		Lerp = 0,

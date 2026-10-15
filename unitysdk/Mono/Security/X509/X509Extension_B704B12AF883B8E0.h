@@ -15,6 +15,8 @@ namespace System::Text { class StringBuilder; }
 
 namespace Mono::Security::X509
 {
+	inline static constexpr unsigned int X509Extension_B704B12AF883B8E0_TypeDefinitionIndex = 2270;
+
 	class X509Extension_B704B12AF883B8E0 : public ::System::Object
 	{
 	public:

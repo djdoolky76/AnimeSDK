@@ -30,6 +30,8 @@ namespace UnityEngine { class GameObject; }
 #define FBIMPHOPAPH_PBKMHGAGIMB_OFFSET UNITYSDK_OFFSET(0x156A0530)
 #define FBIMPHOPAPH_SET_TIMESCALE_OFFSET UNITYSDK_OFFSET(0x156A0F40)
 
+inline static constexpr unsigned int FBIMPHOPAPH_TypeDefinitionIndex = 59806;
+
 	class FBIMPHOPAPH : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightModifierAddMazeBuffAfterDressConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightModifierAddMazeBuffAfterDressConfig_TypeDefinitionIndex = 19415;
+
 	class GridFightModifierAddMazeBuffAfterDressConfig : public ::RPG::GameCore::GridFightModifierConfigBase
 	{
 	public:

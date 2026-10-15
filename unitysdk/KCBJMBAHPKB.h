@@ -13,6 +13,8 @@ class OAIPJANPCEK;
 #define KCBJMBAHPKB_LMFGGFFJCLO_OFFSET UNITYSDK_OFFSET(0xB32FE00)
 #define KCBJMBAHPKB_NJIKIPKOIFD_OFFSET UNITYSDK_OFFSET(0xB32FA00)
 
+inline static constexpr unsigned int KCBJMBAHPKB_TypeDefinitionIndex = 77760;
+
 	class KCBJMBAHPKB : public ::System::Object
 	{
 	public:

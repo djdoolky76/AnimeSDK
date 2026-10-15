@@ -15,6 +15,8 @@ namespace System { class Nullable; }
 #define HJKBCBHNDEN_ONLOGINFINISH_OFFSET UNITYSDK_OFFSET(0x15D280A0)
 #define HJKBCBHNDEN___DOSHOWEXITCONFIRM_B__10_0_OFFSET UNITYSDK_OFFSET(0x15D28A10)
 
+inline static constexpr unsigned int HJKBCBHNDEN_TypeDefinitionIndex = 64354;
+
 	class HJKBCBHNDEN : public ::RPG::Client::BaseModule
 	{
 	public:

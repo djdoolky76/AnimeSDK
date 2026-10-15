@@ -6,6 +6,8 @@ namespace RPG::GameCore { class FiveDimWaterReflectionConfig; }
 
 #define BHDEADOCFDD_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8BADE0)
 
+inline static constexpr unsigned int BHDEADOCFDD_TypeDefinitionIndex = 43493;
+
 	class BHDEADOCFDD : public ::System::Object
 	{
 	public:

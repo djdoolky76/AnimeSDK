@@ -5,6 +5,8 @@
 
 #define HPBACLDPGFP_DLNBNJDJPCP_OFFSET UNITYSDK_OFFSET(0x15DC0DC0)
 
+inline static constexpr unsigned int HPBACLDPGFP_TypeDefinitionIndex = 47900;
+
 	class HPBACLDPGFP : public ::System::Object
 	{
 	public:

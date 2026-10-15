@@ -29,6 +29,8 @@ namespace System { class String; }
 #define AACJBNFGABA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DDB79F0)
 #define AACJBNFGABA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DDB7A50)
 
+inline static constexpr unsigned int AACJBNFGABA_TypeDefinitionIndex = 32840;
+
 	class AACJBNFGABA : public ::System::Object
 	{
 	public:

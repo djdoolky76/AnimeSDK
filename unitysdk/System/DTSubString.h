@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace System
 {
+	inline static constexpr unsigned int DTSubString_TypeDefinitionIndex = 259;
+
 	struct alignas(8) DTSubString
 	{
 		::System::String* s; // 0x10

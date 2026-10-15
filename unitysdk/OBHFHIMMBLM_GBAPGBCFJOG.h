@@ -19,6 +19,8 @@ namespace UnityEngine { class Material; }
 #define OBHFHIMMBLM_GBAPGBCFJOG_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0xBD46530)
 #define OBHFHIMMBLM_GBAPGBCFJOG_PLNCKDADELF_OFFSET UNITYSDK_OFFSET(0xBD460A0)
 
+inline static constexpr unsigned int OBHFHIMMBLM_GBAPGBCFJOG_TypeDefinitionIndex = 57468;
+
 	class OBHFHIMMBLM_GBAPGBCFJOG : public ::System::Object
 	{
 	public:

@@ -27,6 +27,8 @@ namespace System { class String; }
 #define AAKNOOFGMIC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DDBD880)
 #define AAKNOOFGMIC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DDBD8E0)
 
+inline static constexpr unsigned int AAKNOOFGMIC_TypeDefinitionIndex = 26736;
+
 	class AAKNOOFGMIC : public ::System::Object
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
+	inline static constexpr unsigned int BrowserNative_ForwardJSCallFunc_TypeDefinitionIndex = 39376;
+
 	class BrowserNative_ForwardJSCallFunc : public ::System::MulticastDelegate
 	{
 	public:

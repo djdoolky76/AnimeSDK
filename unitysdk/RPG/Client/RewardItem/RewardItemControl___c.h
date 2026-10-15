@@ -56,6 +56,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace RPG::Client::RewardItem
 {
+	inline static constexpr unsigned int RewardItemControl___c_TypeDefinitionIndex = 79135;
+
 	class RewardItemControl___c : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ class BOGLEMMMDAC;
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEffectPluginParticleBackward_TypeDefinitionIndex = 70087;
+
 	class MonoEffectPluginParticleBackward : public ::UnityEngine::MonoBehaviour
 	{
 	public:

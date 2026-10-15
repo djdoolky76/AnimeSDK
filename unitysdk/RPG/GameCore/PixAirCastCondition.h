@@ -12,6 +12,8 @@ namespace RPG::GameCore { class PixAirCastCondition; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PixAirCastCondition_TypeDefinitionIndex = 16249;
+
 	class PixAirCastCondition : public ::RPG::GameCore::JsonConfig
 	{
 	public:

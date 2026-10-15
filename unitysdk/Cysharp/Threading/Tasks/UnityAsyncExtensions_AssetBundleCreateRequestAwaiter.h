@@ -13,6 +13,8 @@ namespace UnityEngine { class AsyncOperation; }
 
 namespace Cysharp::Threading::Tasks
 {
+	inline static constexpr unsigned int UnityAsyncExtensions_AssetBundleCreateRequestAwaiter_TypeDefinitionIndex = 38465;
+
 	struct alignas(8) UnityAsyncExtensions_AssetBundleCreateRequestAwaiter
 	{
 		::UnityEngine::AssetBundleCreateRequest* asyncOperation; // 0x10

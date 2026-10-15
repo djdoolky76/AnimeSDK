@@ -9,6 +9,8 @@ namespace RPG::Client { class RogueNousStoryInfo; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueNousStoryInfo___c__DisplayClass8_0_TypeDefinitionIndex = 67485;
+
 	class RogueNousStoryInfo___c__DisplayClass8_0 : public ::System::Object
 	{
 	public:

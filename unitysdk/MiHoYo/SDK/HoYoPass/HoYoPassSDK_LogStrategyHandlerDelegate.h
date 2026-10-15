@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK::HoYoPass
 {
+	inline static constexpr unsigned int HoYoPassSDK_LogStrategyHandlerDelegate_TypeDefinitionIndex = 8298;
+
 	class HoYoPassSDK_LogStrategyHandlerDelegate : public ::System::MulticastDelegate
 	{
 	public:

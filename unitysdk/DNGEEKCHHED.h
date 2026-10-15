@@ -30,6 +30,8 @@ namespace System { class String; }
 #define DNGEEKCHHED_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E1F53A0)
 #define DNGEEKCHHED_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E1F5400)
 
+inline static constexpr unsigned int DNGEEKCHHED_TypeDefinitionIndex = 32898;
+
 	class DNGEEKCHHED : public ::System::Object
 	{
 	public:

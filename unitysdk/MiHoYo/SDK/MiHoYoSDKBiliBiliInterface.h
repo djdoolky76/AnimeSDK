@@ -26,6 +26,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int MiHoYoSDKBiliBiliInterface_TypeDefinitionIndex = 46309;
+
 	class MiHoYoSDKBiliBiliInterface : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int BilibiliConfigModel_TypeDefinitionIndex = 7893;
+
 	class BilibiliConfigModel : public ::System::Object
 	{
 	public:

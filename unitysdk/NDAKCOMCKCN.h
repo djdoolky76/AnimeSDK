@@ -9,6 +9,8 @@ namespace RPG::Client::LittleGameShare { class ST_Main_CakeRaceTransfer; }
 #define NDAKCOMCKCN_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1C7865C0)
 #define NDAKCOMCKCN_TICK_OFFSET UNITYSDK_OFFSET(0x1C786560)
 
+inline static constexpr unsigned int NDAKCOMCKCN_TypeDefinitionIndex = 36992;
+
 	class NDAKCOMCKCN
 	{
 	public:

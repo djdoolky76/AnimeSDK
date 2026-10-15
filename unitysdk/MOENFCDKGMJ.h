@@ -27,6 +27,8 @@ namespace System { class String; }
 #define MOENFCDKGMJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EAA7050)
 #define MOENFCDKGMJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EAA70B0)
 
+inline static constexpr unsigned int MOENFCDKGMJ_TypeDefinitionIndex = 29370;
+
 	class MOENFCDKGMJ : public ::System::Object
 	{
 	public:

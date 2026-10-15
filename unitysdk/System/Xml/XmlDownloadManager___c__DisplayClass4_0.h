@@ -9,6 +9,8 @@ namespace System::IO { class Stream; }
 
 namespace System::Xml
 {
+	inline static constexpr unsigned int XmlDownloadManager___c__DisplayClass4_0_TypeDefinitionIndex = 1945;
+
 	class XmlDownloadManager___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:

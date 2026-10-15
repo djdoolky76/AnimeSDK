@@ -28,6 +28,8 @@ namespace System { class String; }
 #define PEMJOICNGMM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF1DC50)
 #define PEMJOICNGMM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF1DCB0)
 
+inline static constexpr unsigned int PEMJOICNGMM_TypeDefinitionIndex = 31420;
+
 	class PEMJOICNGMM : public ::System::Object
 	{
 	public:

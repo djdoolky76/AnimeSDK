@@ -7,6 +7,8 @@
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int PPFilterStack_BlinkParameter_TypeDefinitionIndex = 51857;
+
 	struct alignas(4) PPFilterStack_BlinkParameter
 	{
 		::System::Boolean BlinkOverrideState; // 0x10

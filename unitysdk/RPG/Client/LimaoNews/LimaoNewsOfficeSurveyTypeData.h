@@ -23,6 +23,8 @@ namespace System { class String; }
 
 namespace RPG::Client::LimaoNews
 {
+	inline static constexpr unsigned int LimaoNewsOfficeSurveyTypeData_TypeDefinitionIndex = 80296;
+
 	class LimaoNewsOfficeSurveyTypeData : public ::System::Object
 	{
 	public:

@@ -23,6 +23,8 @@
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int ColorUtils_TypeDefinitionIndex = 35597;
+
 	class ColorUtils : public ::System::Object
 	{
 	public:

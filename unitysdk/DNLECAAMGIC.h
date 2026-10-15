@@ -24,6 +24,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define DNLECAAMGIC_REMOVE_ONATTRIBUTESCHANGED_OFFSET UNITYSDK_OFFSET(0x1C54E140)
 #define DNLECAAMGIC_REMOVE_ONATTRIBUTESCHANGING_OFFSET UNITYSDK_OFFSET(0x1C54E080)
 
+inline static constexpr unsigned int DNLECAAMGIC_TypeDefinitionIndex = 41751;
+
 	class DNLECAAMGIC : public ::System::Object
 	{
 	public:

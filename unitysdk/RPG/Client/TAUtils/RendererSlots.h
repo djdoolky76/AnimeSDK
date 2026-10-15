@@ -16,6 +16,8 @@ namespace UnityEngine { class Renderer; }
 
 namespace RPG::Client::TAUtils
 {
+	inline static constexpr unsigned int RendererSlots_TypeDefinitionIndex = 73648;
+
 	class RendererSlots : public ::System::Object
 	{
 	public:

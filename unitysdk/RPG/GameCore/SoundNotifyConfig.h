@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SoundNotifyConfig_TypeDefinitionIndex = 16956;
+
 	class SoundNotifyConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

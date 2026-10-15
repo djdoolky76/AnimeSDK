@@ -48,6 +48,8 @@ namespace System { class String; }
 #define AFALNHPPKAD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E1115C0)
 #define AFALNHPPKAD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E111620)
 
+inline static constexpr unsigned int AFALNHPPKAD_TypeDefinitionIndex = 26898;
+
 	class AFALNHPPKAD : public ::System::Object
 	{
 	public:

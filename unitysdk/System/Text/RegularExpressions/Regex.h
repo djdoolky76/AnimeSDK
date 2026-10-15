@@ -70,6 +70,8 @@ namespace System::Text::RegularExpressions { class SharedReference; }
 
 namespace System::Text::RegularExpressions
 {
+	inline static constexpr unsigned int Regex_TypeDefinitionIndex = 2497;
+
 	class Regex : public ::System::Object
 	{
 	public:

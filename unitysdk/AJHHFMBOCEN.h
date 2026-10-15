@@ -5,6 +5,8 @@
 #define AJHHFMBOCEN_CKMKPDAMPBD_OFFSET UNITYSDK_OFFSET(0x12CBE250)
 #define AJHHFMBOCEN_CTOR_OFFSET UNITYSDK_OFFSET(0x12CBE2A0)
 
+inline static constexpr unsigned int AJHHFMBOCEN_TypeDefinitionIndex = 78163;
+
 	class AJHHFMBOCEN : public ::MLKDDLHNNHH
 	{
 	public:

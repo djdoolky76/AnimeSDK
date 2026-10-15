@@ -10,6 +10,8 @@ namespace System { class String; }
 #define NIIGMOENOGN_OECIHKHGCFD_1_OFFSET UNITYSDK_OFFSET(0xBBEC520)
 #define NIIGMOENOGN_OECIHKHGCFD_OFFSET UNITYSDK_OFFSET(0xBBEC4D0)
 
+inline static constexpr unsigned int NIIGMOENOGN_TypeDefinitionIndex = 70237;
+
 	class NIIGMOENOGN : public ::System::Object
 	{
 	public:

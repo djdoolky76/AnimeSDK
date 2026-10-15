@@ -14,6 +14,8 @@ namespace RPG::GameCore { class PerformanceShiftBlockCfgRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PerformanceShiftBlockCfgRow_TypeDefinitionIndex = 14358;
+
 	class PerformanceShiftBlockCfgRow : public ::System::Object
 	{
 	public:

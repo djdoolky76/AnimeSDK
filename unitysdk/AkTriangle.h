@@ -23,6 +23,8 @@ class AkTriangle;
 #define AKTRIANGLE_SET_POINT2_OFFSET UNITYSDK_OFFSET(0x1F60D8D0)
 #define AKTRIANGLE_SET_SURFACE_OFFSET UNITYSDK_OFFSET(0x1F60D990)
 
+inline static constexpr unsigned int AkTriangle_TypeDefinitionIndex = 44794;
+
 	class AkTriangle : public ::System::Object
 	{
 	public:

@@ -4,6 +4,8 @@
 
 #define STAGEHARMONYTARGETLIGHT_CTOR_OFFSET UNITYSDK_OFFSET(0xE996330)
 
+inline static constexpr unsigned int StageHarmonyTargetLight_TypeDefinitionIndex = 47542;
+
 	class StageHarmonyTargetLight : public ::System::Object
 	{
 	public:

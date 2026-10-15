@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AreaMapMenuIconRow_TypeDefinitionIndex = 14006;
+
 	class AreaMapMenuIconRow : public ::System::Object
 	{
 	public:

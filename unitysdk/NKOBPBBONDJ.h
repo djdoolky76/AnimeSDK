@@ -30,6 +30,8 @@ namespace System { class String; }
 #define NKOBPBBONDJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB5DE00)
 #define NKOBPBBONDJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB5DE60)
 
+inline static constexpr unsigned int NKOBPBBONDJ_TypeDefinitionIndex = 33038;
+
 	class NKOBPBBONDJ : public ::System::Object
 	{
 	public:

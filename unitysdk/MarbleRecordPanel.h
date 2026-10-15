@@ -7,6 +7,8 @@
 #define MARBLERECORDPANEL_SETSEALHP_OFFSET UNITYSDK_OFFSET(0xBA45950)
 #define MARBLERECORDPANEL_SETSEALVISIBLE_OFFSET UNITYSDK_OFFSET(0xBA45D90)
 
+inline static constexpr unsigned int MarbleRecordPanel_TypeDefinitionIndex = 47135;
+
 	class MarbleRecordPanel : public ::UnityEngine::MonoBehaviour
 	{
 	public:

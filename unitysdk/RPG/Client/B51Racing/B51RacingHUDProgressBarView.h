@@ -18,6 +18,8 @@ namespace UnityEngine::UI { class SmoothMask; }
 
 namespace RPG::Client::B51Racing
 {
+	inline static constexpr unsigned int B51RacingHUDProgressBarView_TypeDefinitionIndex = 81902;
+
 	class B51RacingHUDProgressBarView : public ::UnityEngine::MonoBehaviour
 	{
 	public:

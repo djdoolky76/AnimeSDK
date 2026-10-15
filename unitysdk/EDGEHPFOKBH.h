@@ -29,6 +29,8 @@ namespace System { class String; }
 #define EDGEHPFOKBH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E25EC30)
 #define EDGEHPFOKBH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E25EC90)
 
+inline static constexpr unsigned int EDGEHPFOKBH_TypeDefinitionIndex = 31193;
+
 	class EDGEHPFOKBH : public ::System::Object
 	{
 	public:

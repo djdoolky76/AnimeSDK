@@ -15,6 +15,8 @@ namespace System::IO { class BinaryWriter; }
 
 namespace Hdg
 {
+	inline static constexpr unsigned int rdtSerializerTexture_TypeDefinitionIndex = 46972;
+
 	class rdtSerializerTexture : public ::System::Object
 	{
 	public:

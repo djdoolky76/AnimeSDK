@@ -24,6 +24,8 @@ namespace RPG::GameCore { class TurnBasedModifierInstance; }
 #define CPCDBIANNDE_SET_MAXSTACK_OFFSET UNITYSDK_OFFSET(0xDCCED00)
 #define CPCDBIANNDE_SET_MODIFIER_OFFSET UNITYSDK_OFFSET(0xDCCED20)
 
+inline static constexpr unsigned int CPCDBIANNDE_TypeDefinitionIndex = 54443;
+
 	class CPCDBIANNDE : public ::System::Object
 	{
 	public:

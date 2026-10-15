@@ -4,6 +4,8 @@
 
 #define FEMPCEMMCNH_EONDBIEIDJL_CTOR_OFFSET UNITYSDK_OFFSET(0x1C4757C0)
 
+inline static constexpr unsigned int FEMPCEMMCNH_EONDBIEIDJL_TypeDefinitionIndex = 41460;
+
 	class FEMPCEMMCNH_EONDBIEIDJL : public ::System::Object
 	{
 	public:

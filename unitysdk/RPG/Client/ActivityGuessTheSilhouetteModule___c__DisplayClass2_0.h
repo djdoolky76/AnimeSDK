@@ -8,6 +8,8 @@ namespace RPG::Client { class ActivityGuessTheSilhouetteData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ActivityGuessTheSilhouetteModule___c__DisplayClass2_0_TypeDefinitionIndex = 61522;
+
 	class ActivityGuessTheSilhouetteModule___c__DisplayClass2_0 : public ::System::Object
 	{
 	public:

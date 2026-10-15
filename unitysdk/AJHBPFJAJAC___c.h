@@ -14,6 +14,8 @@ namespace System { template <typename T1, typename T2, typename T3> class Func_3
 #define AJHBPFJAJAC___C__INIT_B__1_1_OFFSET UNITYSDK_OFFSET(0x12CBD130)
 #define AJHBPFJAJAC___C__INIT_B__1_2_OFFSET UNITYSDK_OFFSET(0x12CBD140)
 
+inline static constexpr unsigned int AJHBPFJAJAC___c_TypeDefinitionIndex = 61335;
+
 	class AJHBPFJAJAC___c : public ::System::Object
 	{
 	public:

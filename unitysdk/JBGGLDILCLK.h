@@ -30,6 +30,8 @@ namespace System { class String; }
 #define JBGGLDILCLK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E6F4EC0)
 #define JBGGLDILCLK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E6F4F20)
 
+inline static constexpr unsigned int JBGGLDILCLK_TypeDefinitionIndex = 34744;
+
 	class JBGGLDILCLK : public ::System::Object
 	{
 	public:

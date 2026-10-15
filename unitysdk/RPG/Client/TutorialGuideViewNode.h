@@ -11,6 +11,8 @@ namespace UnityEngine { class Component; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TutorialGuideViewNode_TypeDefinitionIndex = 68213;
+
 	class TutorialGuideViewNode : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace SRDebugger::UI::Controls
 {
+	inline static constexpr unsigned int ProfilerEnableControl_TypeDefinitionIndex = 38036;
+
 	class ProfilerEnableControl : public ::SRF::SRMonoBehaviourEx
 	{
 	public:

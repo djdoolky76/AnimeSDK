@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TakePhoto; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TakePhoto_TypeDefinitionIndex = 22174;
+
 	class TakePhoto : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -31,6 +31,8 @@ namespace UnityEngine { class Camera; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int VirtualCamera_TypeDefinitionIndex = 37933;
+
 	class VirtualCamera : public ::System::Object
 	{
 	public:

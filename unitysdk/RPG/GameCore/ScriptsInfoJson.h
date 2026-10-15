@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ScriptsInfoJson_TypeDefinitionIndex = 19063;
+
 	class ScriptsInfoJson : public ::RPG::GameCore::JsonConfig
 	{
 	public:

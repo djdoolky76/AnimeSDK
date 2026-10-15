@@ -30,6 +30,8 @@ namespace XLua { class LuaTable; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PlanetFesPileToast_TypeDefinitionIndex = 66502;
+
 	class PlanetFesPileToast : public ::UnityEngine::MonoBehaviour
 	{
 	public:

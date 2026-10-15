@@ -29,6 +29,8 @@ namespace System { class String; }
 #define DNOLOCILBDG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E1FABE0)
 #define DNOLOCILBDG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E1FAC40)
 
+inline static constexpr unsigned int DNOLOCILBDG_TypeDefinitionIndex = 35010;
+
 	class DNOLOCILBDG : public ::System::Object
 	{
 	public:

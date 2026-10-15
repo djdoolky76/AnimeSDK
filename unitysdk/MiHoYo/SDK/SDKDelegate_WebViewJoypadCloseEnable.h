@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int SDKDelegate_WebViewJoypadCloseEnable_TypeDefinitionIndex = 7803;
+
 	class SDKDelegate_WebViewJoypadCloseEnable : public ::System::MulticastDelegate
 	{
 	public:

@@ -15,6 +15,8 @@ namespace RPG::Client { class FateStatisticsAvatarDataItem; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FateStatisticsAvatarDataItem_TypeDefinitionIndex = 64127;
+
 	class FateStatisticsAvatarDataItem : public ::System::Object
 	{
 	public:

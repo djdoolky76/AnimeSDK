@@ -25,6 +25,8 @@ namespace XLua { class LuaTable; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftExamDetailControl_TypeDefinitionIndex = 79958;
+
 	class MechCraftExamDetailControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

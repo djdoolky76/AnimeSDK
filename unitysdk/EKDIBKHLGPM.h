@@ -10,6 +10,8 @@ namespace Entitas { class IGroup; }
 #define EKDIBKHLGPM_CTOR_OFFSET UNITYSDK_OFFSET(0x15501190)
 #define EKDIBKHLGPM_EXECUTE_OFFSET UNITYSDK_OFFSET(0x15501230)
 
+inline static constexpr unsigned int EKDIBKHLGPM_TypeDefinitionIndex = 77164;
+
 	class EKDIBKHLGPM : public ::System::Object
 	{
 	public:

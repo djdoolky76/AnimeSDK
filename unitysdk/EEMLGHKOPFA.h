@@ -7,6 +7,8 @@ class NJKFOJJDGGG;
 #define EEMLGHKOPFA_IGIGCDNODHI_OFFSET UNITYSDK_OFFSET(0x13A3E990)
 #define EEMLGHKOPFA_UPDATE_OFFSET UNITYSDK_OFFSET(0x13A3E940)
 
+inline static constexpr unsigned int EEMLGHKOPFA_TypeDefinitionIndex = 65029;
+
 	class EEMLGHKOPFA : public ::RPG::Client::GridFightGameModifier
 	{
 	public:

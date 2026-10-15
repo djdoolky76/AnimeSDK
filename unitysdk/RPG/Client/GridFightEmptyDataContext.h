@@ -48,6 +48,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightEmptyDataContext_TypeDefinitionIndex = 64530;
+
 	class GridFightEmptyDataContext : public ::System::Object
 	{
 	public:

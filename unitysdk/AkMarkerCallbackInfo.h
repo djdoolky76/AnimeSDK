@@ -13,6 +13,8 @@ namespace System { class String; }
 #define AKMARKERCALLBACKINFO_GET_UPOSITION_OFFSET UNITYSDK_OFFSET(0x1F5A56B0)
 #define AKMARKERCALLBACKINFO_SETCPTR_OFFSET UNITYSDK_OFFSET(0x1F5A5340)
 
+inline static constexpr unsigned int AkMarkerCallbackInfo_TypeDefinitionIndex = 44761;
+
 	class AkMarkerCallbackInfo : public ::AkEventCallbackInfo
 	{
 	public:

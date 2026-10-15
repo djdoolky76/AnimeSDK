@@ -7,6 +7,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define MHCPMOCBBGG_CTOR_OFFSET UNITYSDK_OFFSET(0xB930070)
 #define MHCPMOCBBGG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB9300A0)
 
+inline static constexpr unsigned int MHCPMOCBBGG_TypeDefinitionIndex = 54915;
+
 	class MHCPMOCBBGG : public ::IMFMODIMICL
 	{
 	public:

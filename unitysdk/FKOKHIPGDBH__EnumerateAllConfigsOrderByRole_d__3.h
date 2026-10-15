@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 #define FKOKHIPGDBH__ENUMERATEALLCONFIGSORDERBYROLE_D__3_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15824C40)
 #define FKOKHIPGDBH__ENUMERATEALLCONFIGSORDERBYROLE_D__3___M__FINALLY1_OFFSET UNITYSDK_OFFSET(0x15824C80)
 
+inline static constexpr unsigned int FKOKHIPGDBH__EnumerateAllConfigsOrderByRole_d__3_TypeDefinitionIndex = 62775;
+
 	template <typename T1, typename T2, typename T3>
 	class FKOKHIPGDBH__EnumerateAllConfigsOrderByRole_d__3 : public ::System::Object
 	{

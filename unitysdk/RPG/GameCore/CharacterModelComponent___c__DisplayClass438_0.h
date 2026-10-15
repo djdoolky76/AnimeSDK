@@ -10,6 +10,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CharacterModelComponent___c__DisplayClass438_0_TypeDefinitionIndex = 57183;
+
 	class CharacterModelComponent___c__DisplayClass438_0 : public ::System::Object
 	{
 	public:

@@ -3,6 +3,8 @@
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int VoxelIrradianceCacheShadingFallback_TypeDefinitionIndex = 4862;
+
 	enum class VoxelIrradianceCacheShadingFallback : ::System::Int32
 	{
 		FallbackInDecodingPass = 0,

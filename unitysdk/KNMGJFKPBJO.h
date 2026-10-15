@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TrainPartyEventCharacterTriggerEmotion; }
 #define KNMGJFKPBJO_CTOR_OFFSET UNITYSDK_OFFSET(0xB588C40)
 #define KNMGJFKPBJO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB588C70)
 
+inline static constexpr unsigned int KNMGJFKPBJO_TypeDefinitionIndex = 53423;
+
 	class KNMGJFKPBJO
 	{
 	public:

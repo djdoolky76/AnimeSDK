@@ -10,6 +10,8 @@ namespace RPG::Client::MechCraft::View { class MechCraftCraftBoardGroundControl;
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftCraftBoardControlBinder_TypeDefinitionIndex = 79843;
+
 	class MechCraftCraftBoardControlBinder : public ::RPG::Client::MechCraft::View::MechCraftBinderBase
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ResetActionDelay_TypeDefinitionIndex = 23281;
+
 	class ResetActionDelay : public ::RPG::GameCore::TaskConfig
 	{
 	public:

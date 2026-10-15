@@ -55,6 +55,8 @@ namespace System { class String; }
 #define LEFAKCMDGNB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E926F40)
 #define LEFAKCMDGNB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E926FA0)
 
+inline static constexpr unsigned int LEFAKCMDGNB_TypeDefinitionIndex = 33186;
+
 	class LEFAKCMDGNB : public ::System::Object
 	{
 	public:

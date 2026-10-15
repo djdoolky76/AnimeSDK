@@ -7,6 +7,8 @@ namespace RPG::Client::LittleGame::FiveDim { class FiveDimEntityBehaviour; }
 
 namespace RPG::Client::LittleGame::FiveDim
 {
+	inline static constexpr unsigned int FiveDimViewDebugConnection_TypeDefinitionIndex = 76872;
+
 	class FiveDimViewDebugConnection : public ::UnityEngine::MonoBehaviour
 	{
 	public:

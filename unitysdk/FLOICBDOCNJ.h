@@ -61,6 +61,8 @@ namespace System { class String; }
 #define FLOICBDOCNJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E3DB420)
 #define FLOICBDOCNJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E3DB480)
 
+inline static constexpr unsigned int FLOICBDOCNJ_TypeDefinitionIndex = 25080;
+
 	class FLOICBDOCNJ : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace EnviromentSystemV2Space
 {
+	inline static constexpr unsigned int TextCurveData_TypeDefinitionIndex = 49397;
+
 	class TextCurveData : public ::System::Object
 	{
 	public:

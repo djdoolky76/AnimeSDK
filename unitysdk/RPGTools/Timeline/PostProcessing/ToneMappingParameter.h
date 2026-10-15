@@ -5,6 +5,8 @@
 
 namespace RPGTools::Timeline::PostProcessing
 {
+	inline static constexpr unsigned int ToneMappingParameter_TypeDefinitionIndex = 48620;
+
 	struct alignas(4) ToneMappingParameter
 	{
 		::System::Single ToeStrength; // 0x10

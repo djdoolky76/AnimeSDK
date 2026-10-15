@@ -11,6 +11,8 @@ namespace RPG::GameCore { class PetTeamFollowSlotConstValue; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PetTeamFollowSlotConstValue_TypeDefinitionIndex = 15618;
+
 	class PetTeamFollowSlotConstValue : public ::RPG::GameCore::FollowSlotConstValue
 	{
 	public:

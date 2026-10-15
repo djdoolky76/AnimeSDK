@@ -5,6 +5,8 @@ namespace System { class String; }
 
 namespace Cinemachine
 {
+	inline static constexpr unsigned int CinemachineBlenderSettings_CustomBlend_TypeDefinitionIndex = 39808;
+
 	struct alignas(8) CinemachineBlenderSettings_CustomBlend
 	{
 		::System::String* m_From; // 0x10

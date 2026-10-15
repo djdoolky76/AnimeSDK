@@ -10,6 +10,8 @@ namespace UnityEngine { class Transform; }
 #define LLJAOGKDNFD_STARTWITHTARGET_OFFSET UNITYSDK_OFFSET(0xB773BC0)
 #define LLJAOGKDNFD_STEP_OFFSET UNITYSDK_OFFSET(0xB773AB0)
 
+inline static constexpr unsigned int LLJAOGKDNFD_TypeDefinitionIndex = 73533;
+
 	class LLJAOGKDNFD : public ::LEEEMFAEDLN
 	{
 	public:

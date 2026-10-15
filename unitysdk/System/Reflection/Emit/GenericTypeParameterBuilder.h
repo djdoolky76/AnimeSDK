@@ -59,6 +59,8 @@ namespace System::Reflection { class PropertyInfo; }
 
 namespace System::Reflection::Emit
 {
+	inline static constexpr unsigned int GenericTypeParameterBuilder_TypeDefinitionIndex = 646;
+
 	class GenericTypeParameterBuilder : public ::System::Reflection::TypeInfo
 	{
 	public:

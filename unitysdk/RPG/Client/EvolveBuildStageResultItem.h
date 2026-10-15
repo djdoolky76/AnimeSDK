@@ -18,6 +18,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int EvolveBuildStageResultItem_TypeDefinitionIndex = 63783;
+
 	class EvolveBuildStageResultItem : public ::System::Object
 	{
 	public:

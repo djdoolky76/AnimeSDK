@@ -6,6 +6,8 @@ namespace UnityEngine { class Texture; }
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int SimpRTXSceneResources_TypeDefinitionIndex = 4895;
+
 	struct alignas(8) SimpRTXSceneResources
 	{
 		::UnityEngine::ComputeBuffer* BVHNodes; // 0x10

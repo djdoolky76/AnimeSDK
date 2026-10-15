@@ -26,6 +26,8 @@ namespace System { class Nullable; }
 #define LBJHOHLLJDE_SET_OVERRIDEXCLAMPDEADZONE_OFFSET UNITYSDK_OFFSET(0xB600BE0)
 #define LBJHOHLLJDE_SET_OVERRIDEXCLAMPSOFTZONE_OFFSET UNITYSDK_OFFSET(0xB600BC0)
 
+inline static constexpr unsigned int LBJHOHLLJDE_TypeDefinitionIndex = 69664;
+
 	class LBJHOHLLJDE : public ::System::Object
 	{
 	public:

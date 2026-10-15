@@ -7,6 +7,8 @@
 
 namespace System::Timers
 {
+	inline static constexpr unsigned int ElapsedEventArgs_TypeDefinitionIndex = 2496;
+
 	class ElapsedEventArgs : public ::System::EventArgs
 	{
 	public:

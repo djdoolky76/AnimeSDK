@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
+	inline static constexpr unsigned int FileLocations_CEFDirs_TypeDefinitionIndex = 39506;
+
 	class FileLocations_CEFDirs : public ::System::Object
 	{
 	public:

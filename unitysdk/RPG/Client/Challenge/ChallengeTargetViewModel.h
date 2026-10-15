@@ -22,6 +22,8 @@ namespace System { class Object; }
 
 namespace RPG::Client::Challenge
 {
+	inline static constexpr unsigned int ChallengeTargetViewModel_TypeDefinitionIndex = 81427;
+
 	class ChallengeTargetViewModel : public ::Sofa::Core::ObservableObject
 	{
 	public:

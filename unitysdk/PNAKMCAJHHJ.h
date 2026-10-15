@@ -5,6 +5,8 @@
 
 #define PNAKMCAJHHJ_CTOR_OFFSET UNITYSDK_OFFSET(0xC330E20)
 
+inline static constexpr unsigned int PNAKMCAJHHJ_TypeDefinitionIndex = 82049;
+
 	class PNAKMCAJHHJ : public ::System::Object
 	{
 	public:

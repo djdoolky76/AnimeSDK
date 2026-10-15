@@ -21,6 +21,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define GMPEPADNIKE_HPCNGBNHIDP_OFFSET UNITYSDK_OFFSET(0x15ADD520)
 #define GMPEPADNIKE_JFJOIIHAJIP_OFFSET UNITYSDK_OFFSET(0x15ADCB60)
 
+inline static constexpr unsigned int GMPEPADNIKE_TypeDefinitionIndex = 78802;
+
 	class GMPEPADNIKE : public ::System::Object
 	{
 	public:

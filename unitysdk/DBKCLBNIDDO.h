@@ -12,6 +12,8 @@ namespace GeometryEdit { class Prism; }
 #define DBKCLBNIDDO_KJAMHAFONMN_OFFSET UNITYSDK_OFFSET(0xE229F30)
 #define DBKCLBNIDDO_LAEFMCADGAK_OFFSET UNITYSDK_OFFSET(0xE229FF0)
 
+inline static constexpr unsigned int DBKCLBNIDDO_TypeDefinitionIndex = 47394;
+
 	class DBKCLBNIDDO : public ::System::Object
 	{
 	public:

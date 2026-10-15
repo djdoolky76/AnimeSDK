@@ -8,6 +8,8 @@ class LFMNBJEMDIK;
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TrainModule___c__DisplayClass3_0_TypeDefinitionIndex = 68158;
+
 	class TrainModule___c__DisplayClass3_0 : public ::System::Object
 	{
 	public:

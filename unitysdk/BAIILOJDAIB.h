@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int BAIILOJDAIB_TypeDefinitionIndex = 26074;
+
 	enum class BAIILOJDAIB : ::System::Int32
 	{
 		NLCDGIPGFDJ = 0,

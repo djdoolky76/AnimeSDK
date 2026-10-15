@@ -20,6 +20,8 @@ namespace System { class Object; }
 #define EMGMPPGCBKM_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15537590)
 #define EMGMPPGCBKM_TICK_OFFSET UNITYSDK_OFFSET(0x15537770)
 
+inline static constexpr unsigned int EMGMPPGCBKM_TypeDefinitionIndex = 52163;
+
 	class EMGMPPGCBKM
 	{
 	public:

@@ -8,6 +8,8 @@ namespace RPG::Client::LittleGameShare { class ST_Main_LittleGameShare_DoNothing
 #define LNGEPOIAMFH_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1C740FC0)
 #define LNGEPOIAMFH_TICK_OFFSET UNITYSDK_OFFSET(0x1C741010)
 
+inline static constexpr unsigned int LNGEPOIAMFH_TypeDefinitionIndex = 37003;
+
 	class LNGEPOIAMFH
 	{
 	public:

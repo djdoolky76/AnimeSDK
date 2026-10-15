@@ -27,6 +27,8 @@ namespace System { class String; }
 #define EMKKAIGDENF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E2E5040)
 #define EMKKAIGDENF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E2E50A0)
 
+inline static constexpr unsigned int EMKKAIGDENF_TypeDefinitionIndex = 28181;
+
 	class EMKKAIGDENF : public ::System::Object
 	{
 	public:

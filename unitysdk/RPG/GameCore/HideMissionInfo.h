@@ -10,6 +10,8 @@ namespace RPG::GameCore { class HideMissionInfo; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int HideMissionInfo_TypeDefinitionIndex = 24065;
+
 	class HideMissionInfo : public ::RPG::GameCore::TaskConfig
 	{
 	public:

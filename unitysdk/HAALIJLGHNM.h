@@ -30,6 +30,8 @@ namespace System { class String; }
 #define HAALIJLGHNM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E5013C0)
 #define HAALIJLGHNM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E501420)
 
+inline static constexpr unsigned int HAALIJLGHNM_TypeDefinitionIndex = 27937;
+
 	class HAALIJLGHNM : public ::System::Object
 	{
 	public:

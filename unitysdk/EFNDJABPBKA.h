@@ -8,6 +8,8 @@ namespace RPG::GameCore { class CheckTargetDistanceAxis; }
 #define EFNDJABPBKA_CTOR_OFFSET UNITYSDK_OFFSET(0x13A5D7F0)
 #define EFNDJABPBKA_MNAKIEOGPDK_OFFSET UNITYSDK_OFFSET(0x13A5D800)
 
+inline static constexpr unsigned int EFNDJABPBKA_TypeDefinitionIndex = 54374;
+
 	class EFNDJABPBKA : public ::BEMKNPIFMBI
 	{
 	public:

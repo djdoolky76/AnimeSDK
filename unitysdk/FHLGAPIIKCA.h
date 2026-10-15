@@ -25,6 +25,8 @@ namespace System { class String; }
 #define FHLGAPIIKCA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E38FB80)
 #define FHLGAPIIKCA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E38FBE0)
 
+inline static constexpr unsigned int FHLGAPIIKCA_TypeDefinitionIndex = 34123;
+
 	class FHLGAPIIKCA : public ::System::Object
 	{
 	public:

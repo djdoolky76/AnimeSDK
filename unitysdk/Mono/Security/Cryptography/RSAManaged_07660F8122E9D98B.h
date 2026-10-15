@@ -13,6 +13,8 @@ namespace Mono::Security::Cryptography { class RSAManaged_07660F8122E9D98B_KeyGe
 
 namespace Mono::Security::Cryptography
 {
+	inline static constexpr unsigned int RSAManaged_07660F8122E9D98B_TypeDefinitionIndex = 2311;
+
 	class RSAManaged_07660F8122E9D98B : public ::System::Security::Cryptography::RSA
 	{
 	public:

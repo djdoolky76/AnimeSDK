@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RtBattleVCameraConfigChange; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RtBattleVCameraConfigChange_TypeDefinitionIndex = 24098;
+
 	class RtBattleVCameraConfigChange : public ::RPG::GameCore::VCameraConfigChange
 	{
 	public:

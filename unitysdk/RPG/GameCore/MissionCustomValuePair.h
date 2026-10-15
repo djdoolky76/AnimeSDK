@@ -11,6 +11,8 @@ namespace RPG::GameCore { class MissionCustomValuePair; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MissionCustomValuePair_TypeDefinitionIndex = 18990;
+
 	class MissionCustomValuePair : public ::RPG::GameCore::JsonConfig
 	{
 	public:

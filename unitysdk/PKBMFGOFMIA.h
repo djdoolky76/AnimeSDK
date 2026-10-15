@@ -11,6 +11,8 @@ namespace System { class Nullable; }
 #define PKBMFGOFMIA_OHNHFLKMONK_OFFSET UNITYSDK_OFFSET(0xC2AC130)
 #define PKBMFGOFMIA_PCPEHHEHLPH_OFFSET UNITYSDK_OFFSET(0xC2AC310)
 
+inline static constexpr unsigned int PKBMFGOFMIA_TypeDefinitionIndex = 80931;
+
 	class PKBMFGOFMIA : public ::System::Object
 	{
 	public:

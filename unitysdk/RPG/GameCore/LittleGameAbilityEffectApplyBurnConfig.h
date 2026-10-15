@@ -11,6 +11,8 @@ namespace RPG::GameCore { class LittleGameAbilityEffectApplyBurnConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LittleGameAbilityEffectApplyBurnConfig_TypeDefinitionIndex = 21339;
+
 	class LittleGameAbilityEffectApplyBurnConfig : public ::RPG::GameCore::BaseLittleGameAbilityEffectConfig
 	{
 	public:

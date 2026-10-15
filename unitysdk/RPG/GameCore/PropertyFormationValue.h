@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PropertyFormationValue_TypeDefinitionIndex = 15525;
+
 	class PropertyFormationValue : public ::RPG::GameCore::JsonConfig
 	{
 	public:

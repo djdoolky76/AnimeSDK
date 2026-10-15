@@ -10,6 +10,8 @@ namespace System { class String; }
 #define BLHIMGKDACJ_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xBA734F0)
 #define BLHIMGKDACJ_SET_CHARACTERUNIQUENAME_OFFSET UNITYSDK_OFFSET(0xBA734E0)
 
+inline static constexpr unsigned int BLHIMGKDACJ_TypeDefinitionIndex = 48093;
+
 	class BLHIMGKDACJ : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

@@ -13,6 +13,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByFromBattleViewModeChange_TypeDefinitionIndex = 22424;
+
 	class ByFromBattleViewModeChange : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define GHNIDOJKJMP___C__GETCROSSHAIRCONFIGS_B__0_0_OFFSET UNITYSDK_OFFSET(0x15A2B280)
 #define GHNIDOJKJMP___C__GETCROSSHAIRCONFIGS_B__0_1_OFFSET UNITYSDK_OFFSET(0x15A2B380)
 
+inline static constexpr unsigned int GHNIDOJKJMP___c_TypeDefinitionIndex = 71578;
+
 	class GHNIDOJKJMP___c : public ::System::Object
 	{
 	public:

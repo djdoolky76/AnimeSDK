@@ -7,6 +7,8 @@ class LPNPMKNMMOK;
 #define AELMAJAHPCP___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCF029D0)
 #define AELMAJAHPCP___C__DISPLAYCLASS5_0__COUNTMODIFIERCALLBACKEVENTSTACK_B__0_OFFSET UNITYSDK_OFFSET(0xCF02AA0)
 
+inline static constexpr unsigned int AELMAJAHPCP___c__DisplayClass5_0_TypeDefinitionIndex = 56186;
+
 	class AELMAJAHPCP___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:

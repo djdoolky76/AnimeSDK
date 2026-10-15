@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define JIBBEEAIDIC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E749040)
 #define JIBBEEAIDIC___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E749050)
 
+inline static constexpr unsigned int JIBBEEAIDIC___c_TypeDefinitionIndex = 32681;
+
 	class JIBBEEAIDIC___c : public ::System::Object
 	{
 	public:

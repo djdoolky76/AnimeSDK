@@ -32,6 +32,8 @@ namespace System { class String; }
 #define ENOBKLGCHOD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E2F3990)
 #define ENOBKLGCHOD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E2F39F0)
 
+inline static constexpr unsigned int ENOBKLGCHOD_TypeDefinitionIndex = 32674;
+
 	class ENOBKLGCHOD : public ::System::Object
 	{
 	public:

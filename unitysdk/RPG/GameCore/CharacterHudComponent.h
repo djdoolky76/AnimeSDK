@@ -49,6 +49,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CharacterHudComponent_TypeDefinitionIndex = 57180;
+
 	class CharacterHudComponent : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

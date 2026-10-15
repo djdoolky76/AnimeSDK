@@ -11,6 +11,8 @@ namespace System { class Object; }
 #define NFGIHNCHEDO_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xBB92880)
 #define NFGIHNCHEDO_INVOKE_OFFSET UNITYSDK_OFFSET(0xBB92800)
 
+inline static constexpr unsigned int NFGIHNCHEDO_TypeDefinitionIndex = 57109;
+
 	class NFGIHNCHEDO : public ::System::MulticastDelegate
 	{
 	public:

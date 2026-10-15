@@ -32,6 +32,8 @@ namespace UnityEngine { class MeshRenderer; }
 #define KPDABHOKLNM_TICK_OFFSET UNITYSDK_OFFSET(0xB5B2F60)
 #define KPDABHOKLNM_UNSERIALIZEASYNC_OFFSET UNITYSDK_OFFSET(0xB5B31C0)
 
+inline static constexpr unsigned int KPDABHOKLNM_TypeDefinitionIndex = 70788;
+
 	class KPDABHOKLNM : public ::ADKLKMMEEHH
 	{
 	public:

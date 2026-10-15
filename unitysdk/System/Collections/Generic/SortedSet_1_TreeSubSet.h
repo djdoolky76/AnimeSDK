@@ -4,6 +4,8 @@ namespace System::Collections::Generic { template <typename T> class SortedSet_1
 
 namespace System::Collections::Generic
 {
+	inline static constexpr unsigned int SortedSet_1_TreeSubSet_TypeDefinitionIndex = 3041;
+
 	template <typename T>
 	class SortedSet_1_TreeSubSet
 	{

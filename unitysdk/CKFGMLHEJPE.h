@@ -14,6 +14,8 @@ namespace System { class String; }
 #define CKFGMLHEJPE_OLGDCGGNABH_OFFSET UNITYSDK_OFFSET(0xD759D60)
 #define CKFGMLHEJPE_PADPNJGCPBJ_OFFSET UNITYSDK_OFFSET(0xD759E90)
 
+inline static constexpr unsigned int CKFGMLHEJPE_TypeDefinitionIndex = 72099;
+
 	class CKFGMLHEJPE : public ::System::Object
 	{
 	public:

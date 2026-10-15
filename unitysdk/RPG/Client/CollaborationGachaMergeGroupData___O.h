@@ -6,6 +6,8 @@ namespace System { template <typename T> class Comparison_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CollaborationGachaMergeGroupData___O_TypeDefinitionIndex = 64316;
+
 	class CollaborationGachaMergeGroupData___O : public ::System::Object
 	{
 	public:

@@ -33,6 +33,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::Console::CN
 {
+	inline static constexpr unsigned int PayManagerCX_TypeDefinitionIndex = 9124;
+
 	class PayManagerCX : public ::MiHoYo::SDK::Console::PayManagerBase
 	{
 	public:

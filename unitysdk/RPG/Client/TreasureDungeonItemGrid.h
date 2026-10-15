@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TreasureDungeonItemGrid_TypeDefinitionIndex = 68194;
+
 	class TreasureDungeonItemGrid : public ::RPG::Client::TreasureDungeonBaseGrid
 	{
 	public:

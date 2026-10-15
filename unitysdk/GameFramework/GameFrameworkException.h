@@ -13,6 +13,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace GameFramework
 {
+	inline static constexpr unsigned int GameFrameworkException_TypeDefinitionIndex = 43842;
+
 	class GameFrameworkException : public ::System::Exception
 	{
 	public:

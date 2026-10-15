@@ -11,6 +11,8 @@ namespace RPG::GameCore { class DynamicString; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DestroyCurvePropGroupPuzzle_TypeDefinitionIndex = 21685;
+
 	class DestroyCurvePropGroupPuzzle : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -33,6 +33,8 @@ namespace System { class String; }
 #define IMOKENFAECD_OGHLPCEKACG_OFFSET UNITYSDK_OFFSET(0x164E2200)
 #define IMOKENFAECD_OPPKPPIPFFO_OFFSET UNITYSDK_OFFSET(0x164E3A20)
 
+inline static constexpr unsigned int IMOKENFAECD_TypeDefinitionIndex = 60301;
+
 	class IMOKENFAECD : public ::FIMDJOBJCNE
 	{
 	public:

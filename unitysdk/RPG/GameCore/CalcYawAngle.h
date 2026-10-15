@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CalcYawAngle_TypeDefinitionIndex = 20245;
+
 	class CalcYawAngle : public ::RPG::GameCore::TaskConfig
 	{
 	public:

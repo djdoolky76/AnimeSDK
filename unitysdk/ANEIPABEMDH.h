@@ -49,6 +49,8 @@ namespace System { class String; }
 #define ANEIPABEMDH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E52AA30)
 #define ANEIPABEMDH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E52AA90)
 
+inline static constexpr unsigned int ANEIPABEMDH_TypeDefinitionIndex = 26865;
+
 	class ANEIPABEMDH : public ::System::Object
 	{
 	public:

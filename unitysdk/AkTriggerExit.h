@@ -7,6 +7,8 @@ namespace UnityEngine { class GameObject; }
 #define AKTRIGGEREXIT_CTOR_OFFSET UNITYSDK_OFFSET(0x1F618650)
 #define AKTRIGGEREXIT_ONTRIGGEREXIT_OFFSET UNITYSDK_OFFSET(0x1F618580)
 
+inline static constexpr unsigned int AkTriggerExit_TypeDefinitionIndex = 44966;
+
 	class AkTriggerExit : public ::AkTriggerBase
 	{
 	public:

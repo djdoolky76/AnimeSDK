@@ -14,6 +14,8 @@ namespace System::Collections { class BitArray; }
 
 namespace MessagePack::Formatters
 {
+	inline static constexpr unsigned int BitArrayFormatter_TypeDefinitionIndex = 7494;
+
 	class BitArrayFormatter : public ::System::Object
 	{
 	public:

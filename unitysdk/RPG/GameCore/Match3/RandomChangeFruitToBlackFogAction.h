@@ -10,6 +10,8 @@ namespace RPG::GameCore::Match3 { class RandomChangeFruitToBlackFogAction; }
 
 namespace RPG::GameCore::Match3
 {
+	inline static constexpr unsigned int RandomChangeFruitToBlackFogAction_TypeDefinitionIndex = 24919;
+
 	class RandomChangeFruitToBlackFogAction : public ::RPG::GameCore::Match3::Match3ActionBase
 	{
 	public:

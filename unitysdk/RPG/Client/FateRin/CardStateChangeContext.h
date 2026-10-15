@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 
 namespace RPG::Client::FateRin
 {
+	inline static constexpr unsigned int CardStateChangeContext_TypeDefinitionIndex = 80600;
+
 	class CardStateChangeContext : public ::System::Object
 	{
 	public:

@@ -20,6 +20,8 @@ namespace WeLing::SDK { class PipeWrapper_OnSensorCallbackFun; }
 
 namespace WeLing::SDK
 {
+	inline static constexpr unsigned int PipeWrapper_TypeDefinitionIndex = 7537;
+
 	class PipeWrapper : public ::System::Object
 	{
 	public:

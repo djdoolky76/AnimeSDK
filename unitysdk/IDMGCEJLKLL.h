@@ -6,6 +6,8 @@ namespace RPG::GameCore { class GameEntity; }
 
 #define IDMGCEJLKLL_CTOR_OFFSET UNITYSDK_OFFSET(0x15EDC040)
 
+inline static constexpr unsigned int IDMGCEJLKLL_TypeDefinitionIndex = 60836;
+
 	class IDMGCEJLKLL : public ::System::Object
 	{
 	public:

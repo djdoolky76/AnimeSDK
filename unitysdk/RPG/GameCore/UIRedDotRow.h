@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int UIRedDotRow_TypeDefinitionIndex = 15402;
+
 	class UIRedDotRow : public ::System::Object
 	{
 	public:

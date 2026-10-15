@@ -9,6 +9,8 @@
 
 namespace RPG::Client::OpenWorld
 {
+	inline static constexpr unsigned int SharedSerializationDataMono_TypeDefinitionIndex = 73846;
+
 	class SharedSerializationDataMono : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -22,6 +22,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChallengeBossSingleNodeInfo_TypeDefinitionIndex = 63081;
+
 	class ChallengeBossSingleNodeInfo : public ::System::Object
 	{
 	public:

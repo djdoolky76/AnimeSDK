@@ -30,6 +30,8 @@ namespace System { class String; }
 #define FBCPGPMNECG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E331C90)
 #define FBCPGPMNECG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E331CF0)
 
+inline static constexpr unsigned int FBCPGPMNECG_TypeDefinitionIndex = 29009;
+
 	class FBCPGPMNECG : public ::System::Object
 	{
 	public:

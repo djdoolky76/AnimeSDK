@@ -17,6 +17,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define NCPCFGHPHDM_DBBLBFFPENN_OFFSET UNITYSDK_OFFSET(0xBB1D260)
 #define NCPCFGHPHDM_KNLEEEGBCCC_OFFSET UNITYSDK_OFFSET(0xBB1D060)
 
+inline static constexpr unsigned int NCPCFGHPHDM_TypeDefinitionIndex = 62505;
+
 	class NCPCFGHPHDM : public ::System::Object
 	{
 	public:

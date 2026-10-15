@@ -33,6 +33,8 @@ namespace System::Text { class StringBuilder; }
 
 namespace System::Globalization
 {
+	inline static constexpr unsigned int FormatProvider_Number_TypeDefinitionIndex = 3846;
+
 	class FormatProvider_Number : public ::System::Object
 	{
 	public:

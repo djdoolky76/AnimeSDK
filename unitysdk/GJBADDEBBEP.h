@@ -4,6 +4,8 @@
 
 #define GJBADDEBBEP_CTOR_OFFSET UNITYSDK_OFFSET(0x1C554720)
 
+inline static constexpr unsigned int GJBADDEBBEP_TypeDefinitionIndex = 41774;
+
 	class GJBADDEBBEP : public ::CFGFAHEKNPD
 	{
 	public:

@@ -76,6 +76,8 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PlanetFesBusinessDayData_TypeDefinitionIndex = 66562;
+
 	class PlanetFesBusinessDayData : public ::System::Object
 	{
 	public:

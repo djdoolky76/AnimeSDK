@@ -26,6 +26,8 @@ namespace System { class Object; }
 #define MFDCBMBNALK_OCNMAKONNMG_OFFSET UNITYSDK_OFFSET(0xB8EFA60)
 #define MFDCBMBNALK_OJFKOKFENJD_OFFSET UNITYSDK_OFFSET(0xB8F02F0)
 
+inline static constexpr unsigned int MFDCBMBNALK_TypeDefinitionIndex = 72028;
+
 	class MFDCBMBNALK : public ::FMPCODLIOLG
 	{
 	public:

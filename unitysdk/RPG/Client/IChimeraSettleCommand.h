@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int IChimeraSettleCommand_TypeDefinitionIndex = 63466;
+
 	class IChimeraSettleCommand
 	{
 	public:

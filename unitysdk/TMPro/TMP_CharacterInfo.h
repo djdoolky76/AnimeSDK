@@ -13,6 +13,8 @@ namespace UnityEngine { class Material; }
 
 namespace TMPro
 {
+	inline static constexpr unsigned int TMP_CharacterInfo_TypeDefinitionIndex = 44545;
+
 	struct alignas(8) TMP_CharacterInfo
 	{
 		::System::Char character; // 0x10

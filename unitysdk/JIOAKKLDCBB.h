@@ -34,6 +34,8 @@ namespace System { class String; }
 #define JIOAKKLDCBB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E754390)
 #define JIOAKKLDCBB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E7543F0)
 
+inline static constexpr unsigned int JIOAKKLDCBB_TypeDefinitionIndex = 26823;
+
 	class JIOAKKLDCBB : public ::System::Object
 	{
 	public:

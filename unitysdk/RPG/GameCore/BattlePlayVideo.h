@@ -15,6 +15,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BattlePlayVideo_TypeDefinitionIndex = 23384;
+
 	class BattlePlayVideo : public ::RPG::GameCore::TaskConfig
 	{
 	public:

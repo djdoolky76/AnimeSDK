@@ -13,6 +13,8 @@
 
 namespace System::Security
 {
+	inline static constexpr unsigned int SecureString_TypeDefinitionIndex = 948;
+
 	class SecureString : public ::System::Object
 	{
 	public:

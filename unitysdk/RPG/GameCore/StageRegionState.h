@@ -10,6 +10,8 @@ namespace RPG::GameCore { class StageRegionState; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StageRegionState_TypeDefinitionIndex = 19191;
+
 	class StageRegionState : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -6,6 +6,8 @@
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int JoyPadType_TypeDefinitionIndex = 7576;
+
 	class JoyPadType : public ::System::Object
 	{
 	public:

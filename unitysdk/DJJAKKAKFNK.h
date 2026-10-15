@@ -7,6 +7,8 @@
 #define DJJAKKAKFNK_KIGBILLGNOH_OFFSET UNITYSDK_OFFSET(0xF235AD0)
 #define DJJAKKAKFNK_LJOLGCNKIEH_OFFSET UNITYSDK_OFFSET(0xF235BE0)
 
+inline static constexpr unsigned int DJJAKKAKFNK_TypeDefinitionIndex = 77101;
+
 	class DJJAKKAKFNK : public ::GJOFNOCMMKL
 	{
 	public:

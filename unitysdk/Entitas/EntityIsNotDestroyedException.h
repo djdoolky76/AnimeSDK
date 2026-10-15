@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace Entitas
 {
+	inline static constexpr unsigned int EntityIsNotDestroyedException_TypeDefinitionIndex = 9995;
+
 	class EntityIsNotDestroyedException : public ::Entitas::EntitasException
 	{
 	public:

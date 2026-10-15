@@ -37,6 +37,8 @@ namespace System { class String; }
 #define IDGMALDABBE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E62B430)
 #define IDGMALDABBE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E62B490)
 
+inline static constexpr unsigned int IDGMALDABBE_TypeDefinitionIndex = 27612;
+
 	class IDGMALDABBE : public ::System::Object
 	{
 	public:

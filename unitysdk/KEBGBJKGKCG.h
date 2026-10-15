@@ -7,6 +7,8 @@
 #define KEBGBJKGKCG_JPDHOPECIBM_OFFSET UNITYSDK_OFFSET(0xB370F90)
 #define KEBGBJKGKCG_LKINLAMMGID_OFFSET UNITYSDK_OFFSET(0xB370F40)
 
+inline static constexpr unsigned int KEBGBJKGKCG_TypeDefinitionIndex = 49654;
+
 	class KEBGBJKGKCG : public ::BOFJHGFAJBN
 	{
 	public:

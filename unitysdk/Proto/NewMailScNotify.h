@@ -30,6 +30,8 @@ namespace System { class String; }
 
 namespace Proto
 {
+	inline static constexpr unsigned int NewMailScNotify_TypeDefinitionIndex = 30502;
+
 	class NewMailScNotify : public ::System::Object
 	{
 	public:

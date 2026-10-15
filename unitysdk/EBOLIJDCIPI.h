@@ -4,6 +4,8 @@
 
 #define EBOLIJDCIPI_CTOR_OFFSET UNITYSDK_OFFSET(0x1CD62730)
 
+inline static constexpr unsigned int EBOLIJDCIPI_TypeDefinitionIndex = 25012;
+
 	class EBOLIJDCIPI : public ::IEAMIIFFDKL
 	{
 	public:

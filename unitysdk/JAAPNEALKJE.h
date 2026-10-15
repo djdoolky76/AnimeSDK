@@ -40,6 +40,8 @@ namespace System { class String; }
 #define JAAPNEALKJE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E6E9310)
 #define JAAPNEALKJE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E6E9370)
 
+inline static constexpr unsigned int JAAPNEALKJE_TypeDefinitionIndex = 34238;
+
 	class JAAPNEALKJE : public ::System::Object
 	{
 	public:

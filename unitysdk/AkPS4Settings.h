@@ -11,6 +11,8 @@ class AkPS4Settings_PlatformAdvancedSettings;
 #define AKPS4SETTINGS_GETCOMMSSETTINGS_OFFSET UNITYSDK_OFFSET(0x1F5ACB40)
 #define AKPS4SETTINGS_GETUSERSETTINGS_OFFSET UNITYSDK_OFFSET(0x1F5ACAC0)
 
+inline static constexpr unsigned int AkPS4Settings_TypeDefinitionIndex = 44895;
+
 	class AkPS4Settings : public ::AkWwiseInitializationSettings_PlatformSettings
 	{
 	public:

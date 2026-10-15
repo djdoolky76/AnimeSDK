@@ -23,6 +23,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::LittleGame::ChenLing
 {
+	inline static constexpr unsigned int ChenLingRagdollPart_TypeDefinitionIndex = 77976;
+
 	class ChenLingRagdollPart : public ::UnityEngine::MonoBehaviour
 	{
 	public:

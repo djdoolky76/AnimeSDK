@@ -4,6 +4,8 @@
 #define JKMCJGPMHKA_LEVELCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x111F0)
 #define JKMCJGPMHKA_LEVELCONFIG_GET_DEFAULT_OFFSET UNITYSDK_OFFSET(0xB220700)
 
+inline static constexpr unsigned int JKMCJGPMHKA_LevelConfig_TypeDefinitionIndex = 51809;
+
 	struct alignas(4) JKMCJGPMHKA_LevelConfig
 	{
 		::System::Int32 level1TriggerInterval; // 0x10

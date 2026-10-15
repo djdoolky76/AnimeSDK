@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TeamTowersPassiveSkillConfig; }
 #define GEDEFLBBAOA_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x1C63A380)
 #define GEDEFLBBAOA_MEFDOMKEHFD_OFFSET UNITYSDK_OFFSET(0x1C63A5E0)
 
+inline static constexpr unsigned int GEDEFLBBAOA_TypeDefinitionIndex = 37121;
+
 	class GEDEFLBBAOA : public ::System::Object
 	{
 	public:

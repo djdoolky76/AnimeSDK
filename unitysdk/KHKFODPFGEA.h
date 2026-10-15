@@ -15,6 +15,8 @@ class NFHKMGFPINI;
 #define KHKFODPFGEA_SET_DEVELOPMENT_OFFSET UNITYSDK_OFFSET(0xB40BAF0)
 #define KHKFODPFGEA_SET_MATCH_OFFSET UNITYSDK_OFFSET(0xB40BAD0)
 
+inline static constexpr unsigned int KHKFODPFGEA_TypeDefinitionIndex = 81663;
+
 	class KHKFODPFGEA : public ::System::Object
 	{
 	public:

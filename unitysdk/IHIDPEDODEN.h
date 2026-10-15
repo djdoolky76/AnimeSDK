@@ -45,6 +45,8 @@ namespace System { class String; }
 #define IHIDPEDODEN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E67DC10)
 #define IHIDPEDODEN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E67DC70)
 
+inline static constexpr unsigned int IHIDPEDODEN_TypeDefinitionIndex = 25515;
+
 	class IHIDPEDODEN : public ::System::Object
 	{
 	public:

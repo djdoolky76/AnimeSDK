@@ -61,6 +61,8 @@ namespace UnityEngine { class Transform; }
 #define FNLEMEHLPDI_TICK_OFFSET UNITYSDK_OFFSET(0x1587B3A0)
 #define FNLEMEHLPDI__ONINITOWNERREF_OFFSET UNITYSDK_OFFSET(0x1587A710)
 
+inline static constexpr unsigned int FNLEMEHLPDI_TypeDefinitionIndex = 57489;
+
 	class FNLEMEHLPDI : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

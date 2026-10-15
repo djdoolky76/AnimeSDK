@@ -11,6 +11,8 @@ class OMNJCDDMLHI;
 #define KMAOPFJGIIJ_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0xB53B7B0)
 #define KMAOPFJGIIJ_PBDNAIDEIPK_OFFSET UNITYSDK_OFFSET(0xB53B820)
 
+inline static constexpr unsigned int KMAOPFJGIIJ_TypeDefinitionIndex = 77957;
+
 	class KMAOPFJGIIJ : public ::System::Object
 	{
 	public:

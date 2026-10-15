@@ -4,6 +4,8 @@
 
 #define MNHBKGOGEIA_CTOR_OFFSET UNITYSDK_OFFSET(0x1E9E0)
 
+inline static constexpr unsigned int MNHBKGOGEIA_TypeDefinitionIndex = 73133;
+
 	struct alignas(4) MNHBKGOGEIA
 	{
 		::RPG::Client::UITransitionAnimType CEMOGKMHOPE; // 0x10

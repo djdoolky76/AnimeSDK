@@ -22,6 +22,8 @@ namespace UnityEngine::Events { class UnityEventBase; }
 
 namespace UnityEngine::Events
 {
+	inline static constexpr unsigned int PersistentCall_TypeDefinitionIndex = 4487;
+
 	class PersistentCall : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@ namespace UnityEngine { class Renderer; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int InstanceInfo_TypeDefinitionIndex = 37579;
+
 	class InstanceInfo : public ::System::Object
 	{
 	public:

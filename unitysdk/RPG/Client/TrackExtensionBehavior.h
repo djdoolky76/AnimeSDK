@@ -15,6 +15,8 @@ namespace RPG::Client { class TrackExtensionMonoPlugin; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TrackExtensionBehavior_TypeDefinitionIndex = 71028;
+
 	class TrackExtensionBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:

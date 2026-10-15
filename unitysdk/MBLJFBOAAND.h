@@ -19,6 +19,8 @@ namespace UnityEngine { class Transform; }
 #define MBLJFBOAAND_NLKPKABOIPJ_OFFSET UNITYSDK_OFFSET(0xB862890)
 #define MBLJFBOAAND_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0xB862940)
 
+inline static constexpr unsigned int MBLJFBOAAND_TypeDefinitionIndex = 69708;
+
 	class MBLJFBOAAND : public ::System::Object
 	{
 	public:

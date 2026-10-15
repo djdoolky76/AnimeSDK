@@ -20,6 +20,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define HLFPDKHEBAB_NFDHENMGIBA_OFFSET UNITYSDK_OFFSET(0x15D5EC50)
 #define HLFPDKHEBAB_TICK_OFFSET UNITYSDK_OFFSET(0x15D5F060)
 
+inline static constexpr unsigned int HLFPDKHEBAB_TypeDefinitionIndex = 77661;
+
 	class HLFPDKHEBAB : public ::System::Object
 	{
 	public:

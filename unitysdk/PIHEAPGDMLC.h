@@ -30,6 +30,8 @@ namespace System { class String; }
 #define PIHEAPGDMLC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF46110)
 #define PIHEAPGDMLC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF46170)
 
+inline static constexpr unsigned int PIHEAPGDMLC_TypeDefinitionIndex = 28165;
+
 	class PIHEAPGDMLC : public ::System::Object
 	{
 	public:

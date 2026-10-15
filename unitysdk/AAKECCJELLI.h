@@ -29,6 +29,8 @@ namespace System { class String; }
 #define AAKECCJELLI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DDBC7D0)
 #define AAKECCJELLI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DDBC830)
 
+inline static constexpr unsigned int AAKECCJELLI_TypeDefinitionIndex = 25364;
+
 	class AAKECCJELLI : public ::System::Object
 	{
 	public:

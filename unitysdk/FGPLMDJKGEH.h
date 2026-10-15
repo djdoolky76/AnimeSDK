@@ -8,6 +8,8 @@ namespace RPG::Client { class RogueTournPersonaRoomCardDeckInfo; }
 #define FGPLMDJKGEH_CTOR_OFFSET UNITYSDK_OFFSET(0x1576FAC0)
 #define FGPLMDJKGEH_JAGMPHPNAHM_OFFSET UNITYSDK_OFFSET(0x1576FAD0)
 
+inline static constexpr unsigned int FGPLMDJKGEH_TypeDefinitionIndex = 67108;
+
 	class FGPLMDJKGEH : public ::OBDGDODGFAM
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PostureTypeTasksConfig_TypeDefinitionIndex = 17619;
+
 	class PostureTypeTasksConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

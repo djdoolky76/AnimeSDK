@@ -40,6 +40,8 @@ namespace UnityEngine::Events { class UnityEvent; }
 
 namespace Coffee::UIExtensions
 {
+	inline static constexpr unsigned int UIParticleAttractor_TypeDefinitionIndex = 45156;
+
 	class UIParticleAttractor : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class WaitBattleWinWithTargetCount; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaitBattleWinWithTargetCount_TypeDefinitionIndex = 21267;
+
 	class WaitBattleWinWithTargetCount : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ParseUrlCallBack_TypeDefinitionIndex = 59307;
+
 	class ParseUrlCallBack : public ::System::MulticastDelegate
 	{
 	public:

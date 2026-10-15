@@ -9,6 +9,8 @@ class PMMOFOBCINL;
 
 namespace RPG::Client::Challenge::Tierce
 {
+	inline static constexpr unsigned int ChallengeTierceSessionStageResultBase_TypeDefinitionIndex = 81486;
+
 	class ChallengeTierceSessionStageResultBase : public ::System::Object
 	{
 	public:

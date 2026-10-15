@@ -9,6 +9,8 @@ namespace RPG::GameCore { class LevelPedestrianV2EmitInfo; }
 #define NEJLIGKNHCC_BELACLLOLOJ_MFFIFNOHIDM_OFFSET UNITYSDK_OFFSET(0xBB67B40)
 #define NEJLIGKNHCC_BELACLLOLOJ_NKJJNFGGIIA_OFFSET UNITYSDK_OFFSET(0xBB5FDA0)
 
+inline static constexpr unsigned int NEJLIGKNHCC_BELACLLOLOJ_TypeDefinitionIndex = 69287;
+
 	class NEJLIGKNHCC_BELACLLOLOJ : public ::System::Object
 	{
 	public:

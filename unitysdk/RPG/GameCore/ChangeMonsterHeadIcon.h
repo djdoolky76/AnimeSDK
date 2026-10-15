@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChangeMonsterHeadIcon_TypeDefinitionIndex = 23672;
+
 	class ChangeMonsterHeadIcon : public ::RPG::GameCore::TaskConfig
 	{
 	public:

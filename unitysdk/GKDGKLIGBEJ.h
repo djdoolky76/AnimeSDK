@@ -35,6 +35,8 @@ namespace UnityEngine { class Transform; }
 #define GKDGKLIGBEJ__ONTICK_OFFSET UNITYSDK_OFFSET(0x15A92890)
 #define GKDGKLIGBEJ___ONBIND_B__0_1_OFFSET UNITYSDK_OFFSET(0x15A93400)
 
+inline static constexpr unsigned int GKDGKLIGBEJ_TypeDefinitionIndex = 72046;
+
 	class GKDGKLIGBEJ : public ::FMPCODLIOLG
 	{
 	public:

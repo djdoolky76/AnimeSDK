@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define CDDIGGIDLNK_JDJKCGGFPBM_OFFSET UNITYSDK_OFFSET(0xC7632A0)
 #define CDDIGGIDLNK_REMOVEPROXY_OFFSET UNITYSDK_OFFSET(0xC763590)
 
+inline static constexpr unsigned int CDDIGGIDLNK_TypeDefinitionIndex = 78232;
+
 	class CDDIGGIDLNK : public ::NJMLJBNICND
 	{
 	public:

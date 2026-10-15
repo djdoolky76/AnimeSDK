@@ -10,6 +10,8 @@ namespace RPG::GameCore { class PhotoGraphTipRangeConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PhotoGraphTipRangeConfig_TypeDefinitionIndex = 21638;
+
 	class PhotoGraphTipRangeConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

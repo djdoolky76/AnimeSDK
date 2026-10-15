@@ -19,6 +19,8 @@ namespace System { class String; }
 #define DNBDHGNLIPK_SET_STATID_OFFSET UNITYSDK_OFFSET(0x119403C0)
 #define DNBDHGNLIPK_SET_TIERREQUIREVALUELIST_OFFSET UNITYSDK_OFFSET(0x11940440)
 
+inline static constexpr unsigned int DNBDHGNLIPK_TypeDefinitionIndex = 81697;
+
 	class DNBDHGNLIPK : public ::System::Object
 	{
 	public:

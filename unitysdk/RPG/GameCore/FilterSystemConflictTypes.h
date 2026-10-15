@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FilterSystemConflictTypes; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FilterSystemConflictTypes_TypeDefinitionIndex = 16494;
+
 	class FilterSystemConflictTypes : public ::RPG::GameCore::JsonConfig
 	{
 	public:

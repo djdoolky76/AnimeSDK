@@ -12,6 +12,8 @@ namespace UnityEngine::Timeline { class TimelineClip; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int ChangePropLocationTrack_TypeDefinitionIndex = 47919;
+
 	class ChangePropLocationTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
 	public:

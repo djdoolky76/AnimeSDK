@@ -39,6 +39,8 @@ namespace System { class String; }
 #define ABOIDFLIHMB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DDD2170)
 #define ABOIDFLIHMB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DDD21D0)
 
+inline static constexpr unsigned int ABOIDFLIHMB_TypeDefinitionIndex = 26614;
+
 	class ABOIDFLIHMB : public ::System::Object
 	{
 	public:

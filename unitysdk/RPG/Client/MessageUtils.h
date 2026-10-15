@@ -17,6 +17,8 @@ namespace RPG::Client { class MessageSectionData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MessageUtils_TypeDefinitionIndex = 66078;
+
 	class MessageUtils : public ::System::Object
 	{
 	public:

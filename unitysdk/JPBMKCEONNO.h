@@ -28,6 +28,8 @@ namespace System { class Action; }
 #define JPBMKCEONNO_JBCCHPLBNMB_OFFSET UNITYSDK_OFFSET(0xB2B0650)
 #define JPBMKCEONNO_OBJKJGIKJBE_OFFSET UNITYSDK_OFFSET(0xB2B15A0)
 
+inline static constexpr unsigned int JPBMKCEONNO_TypeDefinitionIndex = 57617;
+
 	class JPBMKCEONNO : public ::System::Object
 	{
 	public:

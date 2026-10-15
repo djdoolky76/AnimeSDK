@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace Entitas
 {
+	inline static constexpr unsigned int ContextInfo_TypeDefinitionIndex = 10001;
+
 	class ContextInfo : public ::System::Object
 	{
 	public:

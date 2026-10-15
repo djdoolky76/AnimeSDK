@@ -34,6 +34,8 @@ namespace System { class String; }
 #define LMMLGKHALLA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9AB850)
 #define LMMLGKHALLA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E9AB8B0)
 
+inline static constexpr unsigned int LMMLGKHALLA_TypeDefinitionIndex = 28141;
+
 	class LMMLGKHALLA : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System { class Object; }
 #define HJCACNIJNFI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x15D03F70)
 #define HJCACNIJNFI___C__TRYEMITPLUSPEDESTRIAN_B__6_0_OFFSET UNITYSDK_OFFSET(0x15D03F80)
 
+inline static constexpr unsigned int HJCACNIJNFI___c_TypeDefinitionIndex = 69318;
+
 	class HJCACNIJNFI___c : public ::System::Object
 	{
 	public:

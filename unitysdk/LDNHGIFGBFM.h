@@ -16,6 +16,8 @@ namespace System { class Object; }
 #define LDNHGIFGBFM_NIBBJCDPNCJ_OFFSET UNITYSDK_OFFSET(0xB63E700)
 #define LDNHGIFGBFM_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0xB63EAB0)
 
+inline static constexpr unsigned int LDNHGIFGBFM_TypeDefinitionIndex = 79484;
+
 	class LDNHGIFGBFM : public ::System::Object
 	{
 	public:

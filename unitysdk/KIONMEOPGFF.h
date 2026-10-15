@@ -62,6 +62,8 @@ namespace UnityEngine::UI { class Image; }
 #define KIONMEOPGFF__ONBIND_OFFSET UNITYSDK_OFFSET(0xB436C20)
 #define KIONMEOPGFF__ONTICK_OFFSET UNITYSDK_OFFSET(0xB4373A0)
 
+inline static constexpr unsigned int KIONMEOPGFF_TypeDefinitionIndex = 71558;
+
 	class KIONMEOPGFF : public ::FMPCODLIOLG
 	{
 	public:

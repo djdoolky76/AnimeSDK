@@ -61,6 +61,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueFormulaData_TypeDefinitionIndex = 67214;
+
 	class RogueFormulaData : public ::System::Object
 	{
 	public:

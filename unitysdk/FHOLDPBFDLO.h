@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define FHOLDPBFDLO_CTOR_OFFSET UNITYSDK_OFFSET(0x15793830)
 
+inline static constexpr unsigned int FHOLDPBFDLO_TypeDefinitionIndex = 69227;
+
 	class FHOLDPBFDLO : public ::System::Object
 	{
 	public:

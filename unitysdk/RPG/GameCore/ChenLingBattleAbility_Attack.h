@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ChenLingBattleAbility_Attack; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChenLingBattleAbility_Attack_TypeDefinitionIndex = 15745;
+
 	class ChenLingBattleAbility_Attack : public ::RPG::GameCore::BaseChenLingBattleAbilityNodeConfig
 	{
 	public:

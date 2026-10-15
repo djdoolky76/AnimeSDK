@@ -32,6 +32,8 @@ namespace System { class String; }
 #define OIAAPGFCOEH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE68260)
 #define OIAAPGFCOEH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DE682C0)
 
+inline static constexpr unsigned int OIAAPGFCOEH_TypeDefinitionIndex = 26890;
+
 	class OIAAPGFCOEH : public ::System::Object
 	{
 	public:

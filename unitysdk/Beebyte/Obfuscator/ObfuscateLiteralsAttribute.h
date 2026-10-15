@@ -6,6 +6,8 @@
 
 namespace Beebyte::Obfuscator
 {
+	inline static constexpr unsigned int ObfuscateLiteralsAttribute_TypeDefinitionIndex = 47035;
+
 	class ObfuscateLiteralsAttribute : public ::System::Attribute
 	{
 	public:

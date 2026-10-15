@@ -6,6 +6,8 @@ class NBFCOGKMDGA;
 
 #define HEHGNAHJINL_CTOR_OFFSET UNITYSDK_OFFSET(0x1CABEFF0)
 
+inline static constexpr unsigned int HEHGNAHJINL_TypeDefinitionIndex = 41958;
+
 	class HEHGNAHJINL : public ::System::Object
 	{
 	public:

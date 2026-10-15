@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightEquipCraftMapInfo___c_TypeDefinitionIndex = 64519;
+
 	class GridFightEquipCraftMapInfo___c : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ class MOMODPMFIKE;
 #define GBBMJFIIHAO_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0x1594AA80)
 #define GBBMJFIIHAO_SET_OWNER_OFFSET UNITYSDK_OFFSET(0x1594AB70)
 
+inline static constexpr unsigned int GBBMJFIIHAO_TypeDefinitionIndex = 54027;
+
 	class GBBMJFIIHAO : public ::System::Object
 	{
 	public:

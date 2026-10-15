@@ -34,6 +34,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::Protobuf::WellKnownTypes
 {
+	inline static constexpr unsigned int Timestamp_TypeDefinitionIndex = 35755;
+
 	class Timestamp : public ::System::Object
 	{
 	public:

@@ -32,6 +32,8 @@ namespace UnityEngine { class GameObject; }
 #define NNKPAIAPPHP__ONDISPOSE_OFFSET UNITYSDK_OFFSET(0xBCC85C0)
 #define NNKPAIAPPHP__ONTICK_OFFSET UNITYSDK_OFFSET(0xBCC82C0)
 
+inline static constexpr unsigned int NNKPAIAPPHP_TypeDefinitionIndex = 65844;
+
 	class NNKPAIAPPHP : public ::FMPCODLIOLG
 	{
 	public:

@@ -16,6 +16,8 @@ namespace System { class String; }
 #define GKIENEOOMBC_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0x1C644330)
 #define GKIENEOOMBC_PLNCKLJOJME_OFFSET UNITYSDK_OFFSET(0x1C644280)
 
+inline static constexpr unsigned int GKIENEOOMBC_TypeDefinitionIndex = 36427;
+
 	class GKIENEOOMBC : public ::System::Object
 	{
 	public:

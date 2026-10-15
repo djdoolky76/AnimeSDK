@@ -9,6 +9,8 @@ namespace System { class Object; }
 #define BEBMFHAGBLK_FNLKLLKLMBO_OFFSET UNITYSDK_OFFSET(0x1630C720)
 #define BEBMFHAGBLK_IJOONKNIDKI_OFFSET UNITYSDK_OFFSET(0x1630C680)
 
+inline static constexpr unsigned int BEBMFHAGBLK_TypeDefinitionIndex = 67249;
+
 	class BEBMFHAGBLK : public ::System::Object
 	{
 	public:

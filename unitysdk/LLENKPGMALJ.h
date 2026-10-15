@@ -20,6 +20,8 @@ namespace UnityEngine { class MonoBehaviour; }
 #define LLENKPGMALJ_LFDOLBEBGBK_OFFSET UNITYSDK_OFFSET(0xB766540)
 #define LLENKPGMALJ_OFOLBOAMHJA_OFFSET UNITYSDK_OFFSET(0xB768340)
 
+inline static constexpr unsigned int LLENKPGMALJ_TypeDefinitionIndex = 70368;
+
 	class LLENKPGMALJ : public ::RPG::Client::BehaviorBase
 	{
 	public:

@@ -26,6 +26,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define HMMIFGMDOBF_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CEC7E20)
 #define HMMIFGMDOBF_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CEC7700)
 
+inline static constexpr unsigned int HMMIFGMDOBF_TypeDefinitionIndex = 12525;
+
 	class HMMIFGMDOBF : public ::System::Object
 	{
 	public:

@@ -32,6 +32,8 @@ namespace System { class String; }
 #define KGALHFLMAKC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E833680)
 #define KGALHFLMAKC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E8336E0)
 
+inline static constexpr unsigned int KGALHFLMAKC_TypeDefinitionIndex = 31306;
+
 	class KGALHFLMAKC : public ::System::Object
 	{
 	public:

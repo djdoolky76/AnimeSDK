@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TreasureDungeonGroupConfigRow_TypeDefinitionIndex = 12522;
+
 	class TreasureDungeonGroupConfigRow : public ::System::Object
 	{
 	public:

@@ -4,6 +4,8 @@
 
 namespace Unity::Collections
 {
+	inline static constexpr unsigned int NativeArray_1_Enumerator_TypeDefinitionIndex = 3989;
+
 	template <typename T>
 	struct alignas(8) NativeArray_1_Enumerator
 	{

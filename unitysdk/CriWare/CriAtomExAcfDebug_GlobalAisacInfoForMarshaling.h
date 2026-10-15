@@ -6,6 +6,8 @@
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriAtomExAcfDebug_GlobalAisacInfoForMarshaling_TypeDefinitionIndex = 40188;
+
 	struct alignas(4) CriAtomExAcfDebug_GlobalAisacInfoForMarshaling
 	{
 		::System::IntPtr namePtr; // 0x10

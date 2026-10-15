@@ -63,6 +63,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightBattleUtils_TypeDefinitionIndex = 72271;
+
 	class GridFightBattleUtils : public ::System::Object
 	{
 	public:

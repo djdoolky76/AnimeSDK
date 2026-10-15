@@ -7,6 +7,8 @@ class IMKCHCHHJPC;
 #define BGGIEMPODMD_CTOR_OFFSET UNITYSDK_OFFSET(0xB184FC0)
 #define BGGIEMPODMD_MGFLFCHMGPA_OFFSET UNITYSDK_OFFSET(0xB184FD0)
 
+inline static constexpr unsigned int BGGIEMPODMD_TypeDefinitionIndex = 78263;
+
 	class BGGIEMPODMD : public ::KNFCEJEJINK
 	{
 	public:

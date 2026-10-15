@@ -33,6 +33,8 @@ namespace System { class String; }
 #define OGHAIFPHMPE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE52C40)
 #define OGHAIFPHMPE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DE52CA0)
 
+inline static constexpr unsigned int OGHAIFPHMPE_TypeDefinitionIndex = 25054;
+
 	class OGHAIFPHMPE : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define BAKKENDDMOL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7BAB00)
 #define BAKKENDDMOL___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1E7BAB10)
 
+inline static constexpr unsigned int BAKKENDDMOL___c_TypeDefinitionIndex = 28018;
+
 	class BAKKENDDMOL___c : public ::System::Object
 	{
 	public:

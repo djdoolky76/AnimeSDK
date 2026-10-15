@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define JNNPOLGAAHB_SET_LASTCYCLEID_OFFSET UNITYSDK_OFFSET(0xB28F5A0)
 #define JNNPOLGAAHB_SET_UNLOCKEDDRIVERIDS_OFFSET UNITYSDK_OFFSET(0xB28F5E0)
 
+inline static constexpr unsigned int JNNPOLGAAHB_TypeDefinitionIndex = 81660;
+
 	class JNNPOLGAAHB : public ::System::Object
 	{
 	public:

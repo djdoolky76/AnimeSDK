@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define ILEPNPGJBMB_IPPMJHAPKLD_OFFSET UNITYSDK_OFFSET(0x164B0220)
 #define ILEPNPGJBMB_PKALFLHMICO_OFFSET UNITYSDK_OFFSET(0x164B0020)
 
+inline static constexpr unsigned int ILEPNPGJBMB_TypeDefinitionIndex = 63446;
+
 	class ILEPNPGJBMB : public ::System::Object
 	{
 	public:

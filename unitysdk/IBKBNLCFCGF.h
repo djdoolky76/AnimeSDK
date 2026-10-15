@@ -5,6 +5,8 @@
 #define IBKBNLCFCGF_CTOR_OFFSET UNITYSDK_OFFSET(0x15E3CB60)
 #define IBKBNLCFCGF_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0x15E3CB70)
 
+inline static constexpr unsigned int IBKBNLCFCGF_TypeDefinitionIndex = 74846;
+
 	class IBKBNLCFCGF : public ::IAJLELNJPEA
 	{
 	public:

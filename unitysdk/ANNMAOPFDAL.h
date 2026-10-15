@@ -25,6 +25,8 @@ namespace System { class String; }
 #define ANNMAOPFDAL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E664F00)
 #define ANNMAOPFDAL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E664F60)
 
+inline static constexpr unsigned int ANNMAOPFDAL_TypeDefinitionIndex = 31241;
+
 	class ANNMAOPFDAL : public ::System::Object
 	{
 	public:

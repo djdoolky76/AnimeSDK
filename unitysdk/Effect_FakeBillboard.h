@@ -12,6 +12,8 @@ namespace UnityEngine { class GameObject; }
 #define EFFECT_FAKEBILLBOARD_START_OFFSET UNITYSDK_OFFSET(0x155E11C0)
 #define EFFECT_FAKEBILLBOARD_UPDATE_OFFSET UNITYSDK_OFFSET(0x155E1210)
 
+inline static constexpr unsigned int Effect_FakeBillboard_TypeDefinitionIndex = 47452;
+
 	class Effect_FakeBillboard : public ::UnityEngine::MonoBehaviour
 	{
 	public:

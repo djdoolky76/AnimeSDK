@@ -17,6 +17,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define JBIDJHKBOFD_GET_STAGEID_OFFSET UNITYSDK_OFFSET(0x16570960)
 #define JBIDJHKBOFD_SET_INDEX_OFFSET UNITYSDK_OFFSET(0x16570980)
 
+inline static constexpr unsigned int JBIDJHKBOFD_TypeDefinitionIndex = 75158;
+
 	class JBIDJHKBOFD : public ::System::Object
 	{
 	public:

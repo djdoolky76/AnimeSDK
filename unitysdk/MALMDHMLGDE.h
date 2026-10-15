@@ -14,6 +14,8 @@ namespace System { class String; }
 #define MALMDHMLGDE_SET_PRIORITY_OFFSET UNITYSDK_OFFSET(0xB852F40)
 #define MALMDHMLGDE_SET_UIINDEX_OFFSET UNITYSDK_OFFSET(0xB852F60)
 
+inline static constexpr unsigned int MALMDHMLGDE_TypeDefinitionIndex = 80824;
+
 	class MALMDHMLGDE : public ::System::Object
 	{
 	public:

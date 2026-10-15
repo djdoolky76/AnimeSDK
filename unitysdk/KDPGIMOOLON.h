@@ -34,6 +34,8 @@ namespace System { class String; }
 #define KDPGIMOOLON_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E807DD0)
 #define KDPGIMOOLON_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E807E30)
 
+inline static constexpr unsigned int KDPGIMOOLON_TypeDefinitionIndex = 31131;
+
 	class KDPGIMOOLON : public ::System::Object
 	{
 	public:

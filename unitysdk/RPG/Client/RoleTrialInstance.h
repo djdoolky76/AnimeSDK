@@ -15,6 +15,8 @@ namespace RPG::GameCore { class AvatarDemoConfigRow; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RoleTrialInstance_TypeDefinitionIndex = 67884;
+
 	class RoleTrialInstance : public ::System::Object
 	{
 	public:

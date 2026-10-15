@@ -10,6 +10,8 @@ namespace MiHoYo::SDK::PluginUI { class HoYoSDKCommonLoading; }
 
 namespace MiHoYo::SDK::PluginUI
 {
+	inline static constexpr unsigned int HoYoSDKCommonLoading_TypeDefinitionIndex = 46747;
+
 	class HoYoSDKCommonLoading : public ::MiHoYo::SDK::PluginUI::MiHoYoSDKUIContainer
 	{
 	public:

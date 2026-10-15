@@ -18,6 +18,8 @@ namespace System { class String; }
 #define KHMLAOFIOJD_NMNOOCNLJNL_OFFSET UNITYSDK_OFFSET(0x14690)
 #define KHMLAOFIOJD_PCIDGLJOGAP_OFFSET UNITYSDK_OFFSET(0x148B0)
 
+inline static constexpr unsigned int KHMLAOFIOJD_TypeDefinitionIndex = 59078;
+
 	struct alignas(8) KHMLAOFIOJD
 	{
 		::System::String* BBEBFJLHMKG; // 0x10

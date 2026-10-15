@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int DebugUIAdapter_TypeDefinitionIndex = 72759;
+
 	class DebugUIAdapter : public ::UnityEngine::MonoBehaviour
 	{
 	public:

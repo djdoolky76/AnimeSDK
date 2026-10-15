@@ -3,6 +3,8 @@
 
 namespace RPG::Client::LittleGameShare::CakeRaceCore
 {
+	inline static constexpr unsigned int LevelStateType_TypeDefinitionIndex = 37217;
+
 	enum class LevelStateType : ::System::Int32
 	{
 		None = 0,

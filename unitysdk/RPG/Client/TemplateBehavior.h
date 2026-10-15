@@ -15,6 +15,8 @@ namespace RPG::Client { class TemplateMonoPlugin; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TemplateBehavior_TypeDefinitionIndex = 70777;
+
 	class TemplateBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:

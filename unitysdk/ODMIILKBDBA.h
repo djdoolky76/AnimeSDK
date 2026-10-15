@@ -7,6 +7,8 @@ class CAINPBIGHGM;
 #define ODMIILKBDBA_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xBDEE180)
 #define ODMIILKBDBA_CTOR_OFFSET UNITYSDK_OFFSET(0xBDEFDF0)
 
+inline static constexpr unsigned int ODMIILKBDBA_TypeDefinitionIndex = 62705;
+
 	class ODMIILKBDBA : public ::System::Object
 	{
 	public:

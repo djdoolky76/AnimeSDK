@@ -11,6 +11,8 @@ namespace MiHoYo::SDK { class NetworkResponseModel; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int BiliBiliManager___c__DisplayClass22_0_TypeDefinitionIndex = 9322;
+
 	class BiliBiliManager___c__DisplayClass22_0 : public ::System::Object
 	{
 	public:

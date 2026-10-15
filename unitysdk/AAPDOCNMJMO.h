@@ -100,6 +100,8 @@ namespace UnityEngine { class Transform; }
 #define AAPDOCNMJMO_PLDFBNAMPOC_OFFSET UNITYSDK_OFFSET(0xB0DA880)
 #define AAPDOCNMJMO_TICK_OFFSET UNITYSDK_OFFSET(0xB0DE2D0)
 
+inline static constexpr unsigned int AAPDOCNMJMO_TypeDefinitionIndex = 52909;
+
 	class AAPDOCNMJMO : public ::GELIALJDFBL
 	{
 	public:

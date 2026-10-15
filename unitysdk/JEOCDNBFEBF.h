@@ -9,6 +9,8 @@ namespace System { class Object; }
 #define JEOCDNBFEBF_KIGBILLGNOH_OFFSET UNITYSDK_OFFSET(0x16641C10)
 #define JEOCDNBFEBF_LBBLNALEPMN_OFFSET UNITYSDK_OFFSET(0x16641CD0)
 
+inline static constexpr unsigned int JEOCDNBFEBF_TypeDefinitionIndex = 79506;
+
 	class JEOCDNBFEBF : public ::System::Object
 	{
 	public:

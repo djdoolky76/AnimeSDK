@@ -6,6 +6,8 @@ namespace System { class String; }
 #define CONFLICT_NORMALGROUPNPCINDEXKEY_EQUALS_OFFSET UNITYSDK_OFFSET(0xF12F0)
 #define CONFLICT_NORMALGROUPNPCINDEXKEY_TOSTRING_OFFSET UNITYSDK_OFFSET(0xF1360)
 
+inline static constexpr unsigned int Conflict_NormalGroupNPCIndexKey_TypeDefinitionIndex = 47152;
+
 	struct alignas(4) Conflict_NormalGroupNPCIndexKey
 	{
 		::System::UInt32 GroupID; // 0x10

@@ -349,6 +349,8 @@ namespace System::Collections::Generic { template <typename T> class Stack_1; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TurnBasedModifierInstance_TypeDefinitionIndex = 54843;
+
 	class TurnBasedModifierInstance : public ::RPG::GameCore::BaseModifierInstance
 	{
 	public:

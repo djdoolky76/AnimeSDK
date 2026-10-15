@@ -48,6 +48,8 @@ namespace System::Net::Http::Headers { class NameValueHeaderValue; }
 
 namespace System::Net::Http::Headers
 {
+	inline static constexpr unsigned int CacheControlHeaderValue_TypeDefinitionIndex = 3778;
+
 	class CacheControlHeaderValue : public ::System::Object
 	{
 	public:

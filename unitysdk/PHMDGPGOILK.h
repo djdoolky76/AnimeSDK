@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define PHMDGPGOILK_TICK_OFFSET UNITYSDK_OFFSET(0xC2560F0)
 #define PHMDGPGOILK__ONTASKBEGIN_B__2_0_OFFSET UNITYSDK_OFFSET(0xC256150)
 
+inline static constexpr unsigned int PHMDGPGOILK_TypeDefinitionIndex = 52945;
+
 	class PHMDGPGOILK : public ::GELIALJDFBL
 	{
 	public:

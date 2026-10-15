@@ -15,6 +15,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetHP_TypeDefinitionIndex = 22626;
+
 	class SetHP : public ::RPG::GameCore::TaskConfig
 	{
 	public:

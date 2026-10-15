@@ -42,6 +42,8 @@ namespace System { class String; }
 #define POBLGKIGINE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DFC3DA0)
 #define POBLGKIGINE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DFC3E00)
 
+inline static constexpr unsigned int POBLGKIGINE_TypeDefinitionIndex = 25924;
+
 	class POBLGKIGINE : public ::System::Object
 	{
 	public:

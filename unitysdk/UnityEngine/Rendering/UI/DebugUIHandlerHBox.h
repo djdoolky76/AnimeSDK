@@ -12,6 +12,8 @@ namespace UnityEngine::Rendering::UI { class DebugUIHandlerWidget; }
 
 namespace UnityEngine::Rendering::UI
 {
+	inline static constexpr unsigned int DebugUIHandlerHBox_TypeDefinitionIndex = 35687;
+
 	class DebugUIHandlerHBox : public ::UnityEngine::Rendering::UI::DebugUIHandlerWidget
 	{
 	public:

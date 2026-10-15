@@ -4,6 +4,8 @@
 
 #define HKKAKOCGGFD_CTOR_OFFSET UNITYSDK_OFFSET(0x1C667980)
 
+inline static constexpr unsigned int HKKAKOCGGFD_TypeDefinitionIndex = 37168;
+
 	class HKKAKOCGGFD : public ::System::Object
 	{
 	public:

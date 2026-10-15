@@ -6,6 +6,8 @@
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriAtomEx_CuePos3dInfo_TypeDefinitionIndex = 39970;
+
 	struct alignas(4) CriAtomEx_CuePos3dInfo
 	{
 		::System::Single coneInsideAngle; // 0x10

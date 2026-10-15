@@ -8,6 +8,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RelicRecommendSuitData_TypeDefinitionIndex = 66816;
+
 	class RelicRecommendSuitData : public ::System::Object
 	{
 	public:

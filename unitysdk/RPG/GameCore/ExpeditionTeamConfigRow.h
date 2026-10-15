@@ -9,6 +9,8 @@ namespace RPG::GameCore { class ExpeditionTeamConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ExpeditionTeamConfigRow_TypeDefinitionIndex = 13255;
+
 	class ExpeditionTeamConfigRow : public ::System::Object
 	{
 	public:

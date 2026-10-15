@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define MOOEMCFGGNM_PICKDNMPCLL_CTOR_OFFSET UNITYSDK_OFFSET(0xBA367F0)
 #define MOOEMCFGGNM_PICKDNMPCLL_OLNFALCHJKB_OFFSET UNITYSDK_OFFSET(0xBA36710)
 
+inline static constexpr unsigned int MOOEMCFGGNM_PICKDNMPCLL_TypeDefinitionIndex = 56081;
+
 	class MOOEMCFGGNM_PICKDNMPCLL : public ::System::Object
 	{
 	public:

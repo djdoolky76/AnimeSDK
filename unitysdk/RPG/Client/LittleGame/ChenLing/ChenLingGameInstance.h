@@ -34,6 +34,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::LittleGame::ChenLing
 {
+	inline static constexpr unsigned int ChenLingGameInstance_TypeDefinitionIndex = 77798;
+
 	class ChenLingGameInstance : public ::HCLPKMIIANI
 	{
 	public:

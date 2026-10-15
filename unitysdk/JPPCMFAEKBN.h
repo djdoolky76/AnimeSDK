@@ -9,6 +9,8 @@ namespace System { class String; }
 #define JPPCMFAEKBN_ONALLOC_OFFSET UNITYSDK_OFFSET(0xB2CF200)
 #define JPPCMFAEKBN_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0xB2CF240)
 
+inline static constexpr unsigned int JPPCMFAEKBN_TypeDefinitionIndex = 54817;
+
 	class JPPCMFAEKBN : public ::System::Object
 	{
 	public:

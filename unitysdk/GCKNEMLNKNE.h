@@ -7,6 +7,8 @@ namespace System { class Object; }
 #define GCKNEMLNKNE_CTOR_OFFSET UNITYSDK_OFFSET(0x159826A0)
 #define GCKNEMLNKNE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x159826D0)
 
+inline static constexpr unsigned int GCKNEMLNKNE_TypeDefinitionIndex = 55424;
+
 	class GCKNEMLNKNE
 	{
 	public:

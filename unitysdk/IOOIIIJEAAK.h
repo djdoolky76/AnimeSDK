@@ -5,6 +5,8 @@
 
 #define IOOIIIJEAAK_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB8A460)
 
+inline static constexpr unsigned int IOOIIIJEAAK_TypeDefinitionIndex = 41995;
+
 	class IOOIIIJEAAK : public ::System::Object
 	{
 	public:

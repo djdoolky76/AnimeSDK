@@ -19,6 +19,8 @@ namespace UnityEngine { class Material; }
 
 namespace Spine::Unity
 {
+	inline static constexpr unsigned int MeshRendererBuffers_TypeDefinitionIndex = 45083;
+
 	class MeshRendererBuffers : public ::System::Object
 	{
 	public:

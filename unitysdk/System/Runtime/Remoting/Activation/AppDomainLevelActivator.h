@@ -12,6 +12,8 @@ namespace System::Runtime::Remoting::Activation { class IConstructionReturnMessa
 
 namespace System::Runtime::Remoting::Activation
 {
+	inline static constexpr unsigned int AppDomainLevelActivator_TypeDefinitionIndex = 1278;
+
 	class AppDomainLevelActivator : public ::System::Object
 	{
 	public:

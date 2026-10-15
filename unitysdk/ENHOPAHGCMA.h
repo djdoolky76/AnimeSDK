@@ -37,6 +37,8 @@ namespace System { class String; }
 #define ENHOPAHGCMA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E2EF3B0)
 #define ENHOPAHGCMA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E2EF410)
 
+inline static constexpr unsigned int ENHOPAHGCMA_TypeDefinitionIndex = 34329;
+
 	class ENHOPAHGCMA : public ::System::Object
 	{
 	public:

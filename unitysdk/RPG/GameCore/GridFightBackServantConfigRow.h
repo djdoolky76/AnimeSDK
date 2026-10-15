@@ -9,6 +9,8 @@ namespace RPG::GameCore { class GridFightBackServantConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightBackServantConfigRow_TypeDefinitionIndex = 13509;
+
 	class GridFightBackServantConfigRow : public ::System::Object
 	{
 	public:

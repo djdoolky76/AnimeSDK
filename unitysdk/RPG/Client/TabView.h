@@ -63,6 +63,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TabView_TypeDefinitionIndex = 72676;
+
 	class TabView : public ::UnityEngine::MonoBehaviour
 	{
 	public:

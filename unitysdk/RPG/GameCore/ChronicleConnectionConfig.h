@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ChronicleConnectionConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChronicleConnectionConfig_TypeDefinitionIndex = 18975;
+
 	class ChronicleConnectionConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

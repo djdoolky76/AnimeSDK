@@ -31,6 +31,8 @@ namespace System { class String; }
 #define LOEBAOEFMDC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9BB500)
 #define LOEBAOEFMDC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E9BB560)
 
+inline static constexpr unsigned int LOEBAOEFMDC_TypeDefinitionIndex = 31153;
+
 	class LOEBAOEFMDC : public ::System::Object
 	{
 	public:

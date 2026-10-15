@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define LMAIEJIPINA_CTOR_OFFSET UNITYSDK_OFFSET(0xB779890)
 #define LMAIEJIPINA_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB7798C0)
 
+inline static constexpr unsigned int LMAIEJIPINA_TypeDefinitionIndex = 54683;
+
 	class LMAIEJIPINA
 	{
 	public:

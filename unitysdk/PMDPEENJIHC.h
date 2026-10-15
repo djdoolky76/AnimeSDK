@@ -7,6 +7,8 @@ namespace System { class String; }
 #define PMDPEENJIHC_BBKMHKOHEMC_OFFSET UNITYSDK_OFFSET(0xC317E60)
 #define PMDPEENJIHC_CTOR_OFFSET UNITYSDK_OFFSET(0xC318160)
 
+inline static constexpr unsigned int PMDPEENJIHC_TypeDefinitionIndex = 64778;
+
 	class PMDPEENJIHC : public ::System::Object
 	{
 	public:

@@ -20,6 +20,8 @@ namespace RPG::GameCore { class PerformanceSortedItem; }
 
 namespace RPG::Client::MissionReplayData
 {
+	inline static constexpr unsigned int NormalMissionReplayPerformanceData_TypeDefinitionIndex = 74688;
+
 	class NormalMissionReplayPerformanceData : public ::System::Object
 	{
 	public:

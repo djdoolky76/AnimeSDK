@@ -27,6 +27,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace Cinemachine
 {
+	inline static constexpr unsigned int CinemachineTriggerAction_TypeDefinitionIndex = 39857;
+
 	class CinemachineTriggerAction : public ::UnityEngine::MonoBehaviour
 	{
 	public:

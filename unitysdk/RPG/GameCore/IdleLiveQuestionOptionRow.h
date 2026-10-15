@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int IdleLiveQuestionOptionRow_TypeDefinitionIndex = 11827;
+
 	class IdleLiveQuestionOptionRow : public ::System::Object
 	{
 	public:

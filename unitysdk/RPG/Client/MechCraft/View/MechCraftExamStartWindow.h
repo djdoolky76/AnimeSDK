@@ -14,6 +14,8 @@ namespace System { class Action; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftExamStartWindow_TypeDefinitionIndex = 79967;
+
 	class MechCraftExamStartWindow : public ::Sofa::BaseSofaWindow
 	{
 	public:

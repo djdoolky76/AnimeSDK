@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PropInstanceMatConfigBase_TypeDefinitionIndex = 70751;
+
 	class PropInstanceMatConfigBase : public ::System::Object
 	{
 	public:

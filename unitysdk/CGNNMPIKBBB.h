@@ -31,6 +31,8 @@ namespace System { class String; }
 #define CGNNMPIKBBB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E0B7050)
 #define CGNNMPIKBBB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E0B70B0)
 
+inline static constexpr unsigned int CGNNMPIKBBB_TypeDefinitionIndex = 32662;
+
 	class CGNNMPIKBBB : public ::System::Object
 	{
 	public:

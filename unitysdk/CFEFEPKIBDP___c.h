@@ -11,6 +11,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define CFEFEPKIBDP___C___CTOR_B__3_0_OFFSET UNITYSDK_OFFSET(0xCA0BF50)
 #define CFEFEPKIBDP___C___CTOR_B__3_1_OFFSET UNITYSDK_OFFSET(0xCA0BFE0)
 
+inline static constexpr unsigned int CFEFEPKIBDP___c_TypeDefinitionIndex = 78481;
+
 	class CFEFEPKIBDP___c : public ::System::Object
 	{
 	public:

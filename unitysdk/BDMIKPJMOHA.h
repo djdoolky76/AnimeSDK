@@ -19,6 +19,8 @@ namespace UnityEngine { class Coroutine; }
 #define BDMIKPJMOHA_ONCLEAR_OFFSET UNITYSDK_OFFSET(0x163039E0)
 #define BDMIKPJMOHA_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x16303710)
 
+inline static constexpr unsigned int BDMIKPJMOHA_TypeDefinitionIndex = 80856;
+
 	class BDMIKPJMOHA : public ::MLKDDLHNNHH
 	{
 	public:

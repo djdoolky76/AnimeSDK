@@ -179,6 +179,8 @@ namespace UnityEngine::UI { class InputField; }
 
 namespace MiHoYo::SDK::Console
 {
+	inline static constexpr unsigned int MiHoYoSDKDll_TypeDefinitionIndex = 8950;
+
 	class MiHoYoSDKDll : public ::UnityEngine::MonoBehaviour
 	{
 	public:

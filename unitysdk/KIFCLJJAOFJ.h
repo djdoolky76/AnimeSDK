@@ -13,6 +13,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define KIFCLJJAOFJ_JIKPFKJFKIC_OFFSET UNITYSDK_OFFSET(0xB41D6E0)
 #define KIFCLJJAOFJ_NLBNJGKAMII_OFFSET UNITYSDK_OFFSET(0xB41D810)
 
+inline static constexpr unsigned int KIFCLJJAOFJ_TypeDefinitionIndex = 53773;
+
 	class KIFCLJJAOFJ : public ::System::Object
 	{
 	public:

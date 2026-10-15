@@ -42,6 +42,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::FullBody
 {
+	inline static constexpr unsigned int GrounderQuadruped_TypeDefinitionIndex = 74234;
+
 	class GrounderQuadruped : public ::RPG::Client::FullBody::Grounder
 	{
 	public:

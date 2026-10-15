@@ -19,6 +19,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CakeRaceActivityData_TypeDefinitionIndex = 61599;
+
 	class CakeRaceActivityData : public ::RPG::Client::ActivityPanelData
 	{
 	public:

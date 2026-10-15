@@ -28,6 +28,8 @@ namespace System { class String; }
 #define PBAPKAGHGFB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DEF3C40)
 #define PBAPKAGHGFB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DEF3CA0)
 
+inline static constexpr unsigned int PBAPKAGHGFB_TypeDefinitionIndex = 31921;
+
 	class PBAPKAGHGFB : public ::System::Object
 	{
 	public:

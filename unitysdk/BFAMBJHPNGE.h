@@ -27,6 +27,8 @@ namespace System { class String; }
 #define BFAMBJHPNGE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA68DF0)
 #define BFAMBJHPNGE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA68E50)
 
+inline static constexpr unsigned int BFAMBJHPNGE_TypeDefinitionIndex = 32884;
+
 	class BFAMBJHPNGE : public ::System::Object
 	{
 	public:

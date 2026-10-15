@@ -13,6 +13,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TargetFetchAidDefender_TypeDefinitionIndex = 24007;
+
 	class TargetFetchAidDefender : public ::RPG::GameCore::TargetEvaluator
 	{
 	public:

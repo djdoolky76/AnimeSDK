@@ -85,6 +85,8 @@ namespace System::Collections { class IEnumerator; }
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriAtom_TypeDefinitionIndex = 39905;
+
 	class CriAtom : public ::CriWare::CriMonoBehaviour
 	{
 	public:

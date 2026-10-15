@@ -37,6 +37,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define OLABFALNLJM_SET_TYPE_OFFSET UNITYSDK_OFFSET(0xBEFDB90)
 #define OLABFALNLJM__ONINITOWNERREF_OFFSET UNITYSDK_OFFSET(0xBEFCBE0)
 
+inline static constexpr unsigned int OLABFALNLJM_TypeDefinitionIndex = 56944;
+
 	class OLABFALNLJM : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

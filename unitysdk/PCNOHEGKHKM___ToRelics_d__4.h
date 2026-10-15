@@ -20,6 +20,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 #define PCNOHEGKHKM___TORELICS_D__4___M__FINALLY1_OFFSET UNITYSDK_OFFSET(0xC009540)
 #define PCNOHEGKHKM___TORELICS_D__4___M__FINALLY2_OFFSET UNITYSDK_OFFSET(0xC009640)
 
+inline static constexpr unsigned int PCNOHEGKHKM___ToRelics_d__4_TypeDefinitionIndex = 62824;
+
 	template <typename T1, typename T2, typename T3, typename T4>
 	class PCNOHEGKHKM___ToRelics_d__4 : public ::System::Object
 	{

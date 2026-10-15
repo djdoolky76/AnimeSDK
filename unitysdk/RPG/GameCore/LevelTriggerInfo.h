@@ -12,6 +12,8 @@ namespace RPG::GameCore { class LevelTriggerInfo; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelTriggerInfo_TypeDefinitionIndex = 17228;
+
 	class LevelTriggerInfo : public ::RPG::GameCore::JsonConfig
 	{
 	public:

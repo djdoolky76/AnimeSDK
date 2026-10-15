@@ -58,6 +58,8 @@ namespace System { class String; }
 #define CGNGOLJKBMP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E0B5AF0)
 #define CGNGOLJKBMP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E0B5B50)
 
+inline static constexpr unsigned int CGNGOLJKBMP_TypeDefinitionIndex = 33640;
+
 	class CGNGOLJKBMP : public ::System::Object
 	{
 	public:

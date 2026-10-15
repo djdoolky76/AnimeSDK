@@ -7,6 +7,8 @@
 
 namespace RPG::Client::LittleGame
 {
+	inline static constexpr unsigned int TimelineControlGameWorld_LevelGroupAction_Move_TypeDefinitionIndex = 42522;
+
 	class TimelineControlGameWorld_LevelGroupAction_Move : public ::RPG::Client::LittleGame::TimelineControlGameWorld_LevelGroupAction
 	{
 	public:

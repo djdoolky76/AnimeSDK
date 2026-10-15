@@ -22,6 +22,8 @@ namespace UnityEngine::ProBuilder { class Vertex; }
 
 namespace UnityEngine::ProBuilder
 {
+	inline static constexpr unsigned int VertexPositioning_TypeDefinitionIndex = 44453;
+
 	class VertexPositioning : public ::System::Object
 	{
 	public:

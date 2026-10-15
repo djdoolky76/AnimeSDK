@@ -12,6 +12,8 @@ namespace System { class Object; }
 #define HENHIIJNLCK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C664D70)
 #define HENHIIJNLCK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C664C80)
 
+inline static constexpr unsigned int HENHIIJNLCK_TypeDefinitionIndex = 36258;
+
 	class HENHIIJNLCK : public ::System::MulticastDelegate
 	{
 	public:

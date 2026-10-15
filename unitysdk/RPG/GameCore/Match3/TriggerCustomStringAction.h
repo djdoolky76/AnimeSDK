@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore::Match3
 {
+	inline static constexpr unsigned int TriggerCustomStringAction_TypeDefinitionIndex = 24906;
+
 	class TriggerCustomStringAction : public ::RPG::GameCore::Match3::Match3ActionBase
 	{
 	public:

@@ -14,6 +14,8 @@ namespace System { class Object; }
 
 namespace Cysharp::Threading::Tasks
 {
+	inline static constexpr unsigned int UniTask_CanceledResultSource_TypeDefinitionIndex = 38245;
+
 	class UniTask_CanceledResultSource : public ::System::Object
 	{
 	public:

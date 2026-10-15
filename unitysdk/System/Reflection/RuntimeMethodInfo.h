@@ -26,6 +26,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System::Reflection
 {
+	inline static constexpr unsigned int RuntimeMethodInfo_TypeDefinitionIndex = 621;
+
 	class RuntimeMethodInfo : public ::System::Reflection::MethodInfo
 	{
 	public:

@@ -7,6 +7,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UIColorUtils_HPColorInfo_TypeDefinitionIndex = 73170;
+
 	class UIColorUtils_HPColorInfo : public ::System::Object
 	{
 	public:

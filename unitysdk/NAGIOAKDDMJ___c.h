@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define NAGIOAKDDMJ___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EAC2DB0)
 #define NAGIOAKDDMJ___C___CCTOR_B__48_0_OFFSET UNITYSDK_OFFSET(0x1EAC2DC0)
 
+inline static constexpr unsigned int NAGIOAKDDMJ___c_TypeDefinitionIndex = 25119;
+
 	class NAGIOAKDDMJ___c : public ::System::Object
 	{
 	public:

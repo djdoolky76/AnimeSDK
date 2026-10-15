@@ -10,6 +10,8 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace RPGTools::Timeline::Emotion
 {
+	inline static constexpr unsigned int EmoBakedPoseData_TypeDefinitionIndex = 48747;
+
 	class EmoBakedPoseData : public ::UnityEngine::ScriptableObject
 	{
 	public:

@@ -9,6 +9,8 @@ namespace UnityEngine { class Texture2D; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PhotoGraphFilterConfig_TypeDefinitionIndex = 69446;
+
 	class PhotoGraphFilterConfig : public ::System::Object
 	{
 	public:

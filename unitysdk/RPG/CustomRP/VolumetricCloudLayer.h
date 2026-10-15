@@ -35,6 +35,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int VolumetricCloudLayer_TypeDefinitionIndex = 37736;
+
 	class VolumetricCloudLayer : public ::UnityEngine::MonoBehaviour
 	{
 	public:

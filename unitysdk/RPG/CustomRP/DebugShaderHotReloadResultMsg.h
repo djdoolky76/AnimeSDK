@@ -14,6 +14,8 @@ namespace System::IO { class BinaryWriter; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int DebugShaderHotReloadResultMsg_TypeDefinitionIndex = 37749;
+
 	class DebugShaderHotReloadResultMsg : public ::System::Object
 	{
 	public:

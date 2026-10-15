@@ -6,6 +6,8 @@ namespace System::Threading { class WaitCallback; }
 
 namespace System::Threading::Tasks
 {
+	inline static constexpr unsigned int UnwrapPromise_1___c_TypeDefinitionIndex = 914;
+
 	template <typename T>
 	class UnwrapPromise_1___c : public ::System::Object
 	{

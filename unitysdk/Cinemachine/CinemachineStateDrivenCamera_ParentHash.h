@@ -5,6 +5,8 @@
 
 namespace Cinemachine
 {
+	inline static constexpr unsigned int CinemachineStateDrivenCamera_ParentHash_TypeDefinitionIndex = 39752;
+
 	struct alignas(4) CinemachineStateDrivenCamera_ParentHash
 	{
 		::System::Int32 m_Hash; // 0x10

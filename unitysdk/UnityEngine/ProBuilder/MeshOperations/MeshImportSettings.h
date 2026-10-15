@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace UnityEngine::ProBuilder::MeshOperations
 {
+	inline static constexpr unsigned int MeshImportSettings_TypeDefinitionIndex = 44504;
+
 	class MeshImportSettings : public ::System::Object
 	{
 	public:

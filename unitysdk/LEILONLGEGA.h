@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define LEILONLGEGA_LEODENEDNIE_OFFSET UNITYSDK_OFFSET(0xB656E00)
 #define LEILONLGEGA_PABAGIKEDFI_OFFSET UNITYSDK_OFFSET(0xB6558D0)
 
+inline static constexpr unsigned int LEILONLGEGA_TypeDefinitionIndex = 57351;
+
 	class LEILONLGEGA : public ::System::Object
 	{
 	public:

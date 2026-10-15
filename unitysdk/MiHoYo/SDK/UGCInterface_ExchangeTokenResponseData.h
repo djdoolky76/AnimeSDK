@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int UGCInterface_ExchangeTokenResponseData_TypeDefinitionIndex = 46430;
+
 	class UGCInterface_ExchangeTokenResponseData : public ::System::Object
 	{
 	public:

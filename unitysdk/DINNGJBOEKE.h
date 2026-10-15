@@ -20,6 +20,8 @@ namespace RPG::Client::LittleGameShare { class ST_Main_CakeRacePathFind; }
 #define DINNGJBOEKE_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1C5F1B80)
 #define DINNGJBOEKE_TICK_OFFSET UNITYSDK_OFFSET(0x1C5F1BD0)
 
+inline static constexpr unsigned int DINNGJBOEKE_TypeDefinitionIndex = 36987;
+
 	class DINNGJBOEKE
 	{
 	public:

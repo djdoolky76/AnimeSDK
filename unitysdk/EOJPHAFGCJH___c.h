@@ -9,6 +9,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define EOJPHAFGCJH___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C610A10)
 #define EOJPHAFGCJH___C__TRYSHOWBOSSPERSISTENTTIPSPERFORMANCE_B__48_0_OFFSET UNITYSDK_OFFSET(0x1C610A20)
 
+inline static constexpr unsigned int EOJPHAFGCJH___c_TypeDefinitionIndex = 36482;
+
 	class EOJPHAFGCJH___c : public ::System::Object
 	{
 	public:

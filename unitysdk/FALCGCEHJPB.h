@@ -10,6 +10,8 @@ namespace System { class String; }
 #define FALCGCEHJPB_JBGIFBGMLMF_OFFSET UNITYSDK_OFFSET(0x15683040)
 #define FALCGCEHJPB_MLMGEFIOION_OFFSET UNITYSDK_OFFSET(0x15682FD0)
 
+inline static constexpr unsigned int FALCGCEHJPB_TypeDefinitionIndex = 73360;
+
 	class FALCGCEHJPB : public ::System::Object
 	{
 	public:

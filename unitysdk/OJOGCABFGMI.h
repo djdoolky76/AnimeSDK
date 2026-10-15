@@ -29,6 +29,8 @@ namespace System { class String; }
 #define OJOGCABFGMI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE8C660)
 #define OJOGCABFGMI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DE8C6C0)
 
+inline static constexpr unsigned int OJOGCABFGMI_TypeDefinitionIndex = 28121;
+
 	class OJOGCABFGMI : public ::System::Object
 	{
 	public:

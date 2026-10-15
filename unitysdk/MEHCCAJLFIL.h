@@ -111,6 +111,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define MEHCCAJLFIL_PJNLIJIDFCF_OFFSET UNITYSDK_OFFSET(0xB8CB320)
 #define MEHCCAJLFIL_PNOJKCIKMAD_OFFSET UNITYSDK_OFFSET(0xB8CB640)
 
+inline static constexpr unsigned int MEHCCAJLFIL_TypeDefinitionIndex = 73957;
+
 	class MEHCCAJLFIL : public ::PAOIIOIGCOJ
 	{
 	public:

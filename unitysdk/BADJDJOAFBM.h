@@ -4,6 +4,8 @@
 
 #define BADJDJOAFBM_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8AFFB0)
 
+inline static constexpr unsigned int BADJDJOAFBM_TypeDefinitionIndex = 42166;
+
 	class BADJDJOAFBM : public ::System::Object
 	{
 	public:

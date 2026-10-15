@@ -13,6 +13,8 @@ namespace UnityEngine::EventSystems { class PointerEventData; }
 
 namespace UnityEngine::UI
 {
+	inline static constexpr unsigned int TouchFilter_TypeDefinitionIndex = 6871;
+
 	class TouchFilter : public ::System::Object
 	{
 	public:

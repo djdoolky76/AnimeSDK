@@ -23,6 +23,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FreeDecal_TypeDefinitionIndex = 68863;
+
 	class FreeDecal : public ::UnityEngine::MonoBehaviour
 	{
 	public:

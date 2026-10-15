@@ -24,6 +24,8 @@ namespace UnityEngine::EventSystems { class PointerEventData; }
 #define NALOOJPFPIG_OFDGHPFCBHK_OFFSET UNITYSDK_OFFSET(0xBAA6920)
 #define NALOOJPFPIG_POENAHPBHMI_OFFSET UNITYSDK_OFFSET(0xBAA6C80)
 
+inline static constexpr unsigned int NALOOJPFPIG_TypeDefinitionIndex = 77755;
+
 	class NALOOJPFPIG : public ::System::Object
 	{
 	public:

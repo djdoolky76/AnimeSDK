@@ -6,6 +6,8 @@ namespace System { class Type; }
 #define GNFKMKHOCKD_CTOR_OFFSET UNITYSDK_OFFSET(0x15B02330)
 #define GNFKMKHOCKD_GET_COMPONENTINTERFACES_OFFSET UNITYSDK_OFFSET(0x15B02320)
 
+inline static constexpr unsigned int GNFKMKHOCKD_TypeDefinitionIndex = 74064;
+
 	class GNFKMKHOCKD : public ::System::Attribute
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System::Net { class WebRequest; }
 
 namespace System::Net
 {
+	inline static constexpr unsigned int HttpRequestCreator_TypeDefinitionIndex = 2855;
+
 	class HttpRequestCreator : public ::System::Object
 	{
 	public:

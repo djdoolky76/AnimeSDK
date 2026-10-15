@@ -11,6 +11,8 @@ namespace UnityEngine { class Texture3D; }
 #define KPGLPOPHMBC_NLADOOHBMHD_OFFSET UNITYSDK_OFFSET(0xB5BD220)
 #define KPGLPOPHMBC_PNAODHAHKKE_OFFSET UNITYSDK_OFFSET(0xB5BD300)
 
+inline static constexpr unsigned int KPGLPOPHMBC_TypeDefinitionIndex = 49007;
+
 	class KPGLPOPHMBC : public ::System::Object
 	{
 	public:

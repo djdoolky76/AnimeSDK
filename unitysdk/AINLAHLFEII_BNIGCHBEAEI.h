@@ -3,6 +3,8 @@
 
 #define AINLAHLFEII_BNIGCHBEAEI_COMPARETO_OFFSET UNITYSDK_OFFSET(0x2305C50)
 
+inline static constexpr unsigned int AINLAHLFEII_BNIGCHBEAEI_TypeDefinitionIndex = 57280;
+
 	struct alignas(4) AINLAHLFEII_BNIGCHBEAEI
 	{
 		::System::Int32 BJOCBPFKJDP; // 0x10

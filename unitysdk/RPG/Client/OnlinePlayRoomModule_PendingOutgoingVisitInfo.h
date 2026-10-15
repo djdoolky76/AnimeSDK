@@ -15,6 +15,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int OnlinePlayRoomModule_PendingOutgoingVisitInfo_TypeDefinitionIndex = 66400;
+
 	class OnlinePlayRoomModule_PendingOutgoingVisitInfo : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ShowPuzzleHudWolfBro; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ShowPuzzleHudWolfBro_TypeDefinitionIndex = 22300;
+
 	class ShowPuzzleHudWolfBro : public ::RPG::GameCore::TaskConfig
 	{
 	public:

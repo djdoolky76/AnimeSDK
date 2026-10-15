@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TrackPhotoNpcConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TrackPhotoNpcConfigRow_TypeDefinitionIndex = 12513;
+
 	class TrackPhotoNpcConfigRow : public ::System::Object
 	{
 	public:

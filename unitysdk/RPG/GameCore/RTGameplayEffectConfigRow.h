@@ -16,6 +16,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RTGameplayEffectConfigRow_TypeDefinitionIndex = 14607;
+
 	class RTGameplayEffectConfigRow : public ::System::Object
 	{
 	public:

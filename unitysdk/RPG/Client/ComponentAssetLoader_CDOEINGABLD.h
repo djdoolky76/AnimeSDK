@@ -17,6 +17,8 @@ namespace UnityEngine { class Material; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ComponentAssetLoader_CDOEINGABLD_TypeDefinitionIndex = 68398;
+
 	class ComponentAssetLoader_CDOEINGABLD : public ::RPG::Client::ComponentAssetLoader_KPIMOEDONLE
 	{
 	public:

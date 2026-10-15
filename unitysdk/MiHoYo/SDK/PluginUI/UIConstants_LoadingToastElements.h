@@ -4,6 +4,8 @@
 
 namespace MiHoYo::SDK::PluginUI
 {
+	inline static constexpr unsigned int UIConstants_LoadingToastElements_TypeDefinitionIndex = 46803;
+
 	class UIConstants_LoadingToastElements : public ::System::Object
 	{
 	public:

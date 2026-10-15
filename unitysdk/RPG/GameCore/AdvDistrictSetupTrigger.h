@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TriggerValidGuestConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvDistrictSetupTrigger_TypeDefinitionIndex = 21194;
+
 	class AdvDistrictSetupTrigger : public ::RPG::GameCore::TaskConfig
 	{
 	public:

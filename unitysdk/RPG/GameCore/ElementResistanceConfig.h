@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ElementResistanceConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ElementResistanceConfig_TypeDefinitionIndex = 13074;
+
 	class ElementResistanceConfig : public ::System::Object
 	{
 	public:

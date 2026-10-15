@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DiceCombatTaskConfig_WriteCustomValue_EntityData_TypeDefinitionIndex = 16073;
+
 	class DiceCombatTaskConfig_WriteCustomValue_EntityData : public ::RPG::GameCore::DiceCombatTaskConfig
 	{
 	public:

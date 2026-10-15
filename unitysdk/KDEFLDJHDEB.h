@@ -10,6 +10,8 @@ namespace System { class String; }
 #define KDEFLDJHDEB_CTOR_OFFSET UNITYSDK_OFFSET(0xB34D590)
 #define KDEFLDJHDEB_KKNLGJMFJCN_OFFSET UNITYSDK_OFFSET(0xB34D320)
 
+inline static constexpr unsigned int KDEFLDJHDEB_TypeDefinitionIndex = 73750;
+
 	class KDEFLDJHDEB : public ::System::Object
 	{
 	public:

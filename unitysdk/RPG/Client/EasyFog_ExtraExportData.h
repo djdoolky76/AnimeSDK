@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int EasyFog_ExtraExportData_TypeDefinitionIndex = 70784;
+
 	class EasyFog_ExtraExportData : public ::System::Object
 	{
 	public:

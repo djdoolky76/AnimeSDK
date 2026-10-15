@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RtUnstackInvisible; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RtUnstackInvisible_TypeDefinitionIndex = 24121;
+
 	class RtUnstackInvisible : public ::RPG::GameCore::TaskConfig
 	{
 	public:

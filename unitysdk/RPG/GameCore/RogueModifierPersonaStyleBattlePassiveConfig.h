@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierPersonaStyleBattlePassiveConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierPersonaStyleBattlePassiveConfig_TypeDefinitionIndex = 17763;
+
 	class RogueModifierPersonaStyleBattlePassiveConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

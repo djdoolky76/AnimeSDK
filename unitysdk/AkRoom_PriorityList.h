@@ -17,6 +17,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define AKROOM_PRIORITYLIST_GET_ITEM_OFFSET UNITYSDK_OFFSET(0x1F5BA910)
 #define AKROOM_PRIORITYLIST_REMOVE_OFFSET UNITYSDK_OFFSET(0x1F5BA7E0)
 
+inline static constexpr unsigned int AkRoom_PriorityList_TypeDefinitionIndex = 44944;
+
 	class AkRoom_PriorityList : public ::System::Object
 	{
 	public:

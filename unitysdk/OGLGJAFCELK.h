@@ -9,6 +9,8 @@ namespace System { class String; }
 #define OGLGJAFCELK_SET_COUNT_OFFSET UNITYSDK_OFFSET(0xBE59ED0)
 #define OGLGJAFCELK_SET_REASON_OFFSET UNITYSDK_OFFSET(0xBE59EB0)
 
+inline static constexpr unsigned int OGLGJAFCELK_TypeDefinitionIndex = 77847;
+
 	class OGLGJAFCELK : public ::System::Object
 	{
 	public:

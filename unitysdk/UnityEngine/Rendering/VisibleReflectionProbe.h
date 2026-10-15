@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int VisibleReflectionProbe_TypeDefinitionIndex = 4780;
+
 	struct alignas(4) VisibleReflectionProbe
 	{
 		::UnityEngine::Bounds m_Bounds; // 0x10

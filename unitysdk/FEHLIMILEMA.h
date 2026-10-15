@@ -90,6 +90,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define FEHLIMILEMA_PBIEJAKMKAM_OFFSET UNITYSDK_OFFSET(0x156E9E40)
 #define FEHLIMILEMA_PGGDJCAIDNL_OFFSET UNITYSDK_OFFSET(0x156ECBF0)
 
+inline static constexpr unsigned int FEHLIMILEMA_TypeDefinitionIndex = 62095;
+
 	class FEHLIMILEMA : public ::System::Object
 	{
 	public:

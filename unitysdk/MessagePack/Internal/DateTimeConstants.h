@@ -7,6 +7,8 @@
 
 namespace MessagePack::Internal
 {
+	inline static constexpr unsigned int DateTimeConstants_TypeDefinitionIndex = 7289;
+
 	class DateTimeConstants : public ::System::Object
 	{
 	public:

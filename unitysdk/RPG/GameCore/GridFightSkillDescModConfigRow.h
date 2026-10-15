@@ -11,6 +11,8 @@ namespace RPG::GameCore { class GridFightSkillDescModConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightSkillDescModConfigRow_TypeDefinitionIndex = 13556;
+
 	class GridFightSkillDescModConfigRow : public ::System::Object
 	{
 	public:

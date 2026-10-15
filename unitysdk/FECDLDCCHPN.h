@@ -30,6 +30,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define FECDLDCCHPN_SET_DISPLAYNAME_OFFSET UNITYSDK_OFFSET(0x156E5260)
 #define FECDLDCCHPN_SET_PARAMETERS_OFFSET UNITYSDK_OFFSET(0x156E5280)
 
+inline static constexpr unsigned int FECDLDCCHPN_TypeDefinitionIndex = 73993;
+
 	class FECDLDCCHPN : public ::System::Object
 	{
 	public:

@@ -30,6 +30,8 @@ namespace System { class String; }
 #define PELDIEOMMDM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF1B770)
 #define PELDIEOMMDM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF1B7D0)
 
+inline static constexpr unsigned int PELDIEOMMDM_TypeDefinitionIndex = 25241;
+
 	class PELDIEOMMDM : public ::System::Object
 	{
 	public:

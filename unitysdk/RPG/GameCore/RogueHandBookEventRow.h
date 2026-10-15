@@ -11,6 +11,8 @@ namespace RPG::GameCore { class RogueHandBookEventRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueHandBookEventRow_TypeDefinitionIndex = 14831;
+
 	class RogueHandBookEventRow : public ::System::Object
 	{
 	public:

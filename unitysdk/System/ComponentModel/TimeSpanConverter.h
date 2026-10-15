@@ -14,6 +14,8 @@ namespace System::Globalization { class CultureInfo; }
 
 namespace System::ComponentModel
 {
+	inline static constexpr unsigned int TimeSpanConverter_TypeDefinitionIndex = 2629;
+
 	class TimeSpanConverter : public ::System::ComponentModel::TypeConverter
 	{
 	public:

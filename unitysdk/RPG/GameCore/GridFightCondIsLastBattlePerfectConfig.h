@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightCondIsLastBattlePerfectConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightCondIsLastBattlePerfectConfig_TypeDefinitionIndex = 19330;
+
 	class GridFightCondIsLastBattlePerfectConfig : public ::RPG::GameCore::GridFightConditionConfigBase
 	{
 	public:

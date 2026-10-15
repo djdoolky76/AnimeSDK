@@ -15,6 +15,8 @@ namespace Sofa::Core { class SimpleCommand; }
 
 namespace RPG::Client::ActivityFinalityBattle::Badge
 {
+	inline static constexpr unsigned int FinalityBattleBadgeObtainViewModel_TypeDefinitionIndex = 82107;
+
 	class FinalityBattleBadgeObtainViewModel : public ::System::Object
 	{
 	public:

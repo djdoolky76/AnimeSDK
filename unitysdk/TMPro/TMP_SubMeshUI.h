@@ -65,6 +65,8 @@ namespace UnityEngine { class Transform; }
 
 namespace TMPro
 {
+	inline static constexpr unsigned int TMP_SubMeshUI_TypeDefinitionIndex = 44642;
+
 	class TMP_SubMeshUI : public ::UnityEngine::UI::MaskableGraphic
 	{
 	public:

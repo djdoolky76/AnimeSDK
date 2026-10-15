@@ -16,6 +16,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int UnitCustomTriggerConfig_TypeDefinitionIndex = 17600;
+
 	class UnitCustomTriggerConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define BJJIBNNEOGL_FILTER_OFFSET UNITYSDK_OFFSET(0x1C8BBB60)
 #define BJJIBNNEOGL_GETTRIGGER_OFFSET UNITYSDK_OFFSET(0x1C8BBA40)
 
+inline static constexpr unsigned int BJJIBNNEOGL_TypeDefinitionIndex = 42864;
+
 	class BJJIBNNEOGL
 	{
 	public:

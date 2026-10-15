@@ -24,6 +24,8 @@ namespace System { class String; }
 #define OIGGMJMBMBC_PMHNHAKGJPJ_OFFSET UNITYSDK_OFFSET(0xBE8EAC0)
 #define OIGGMJMBMBC__ONBIND_OFFSET UNITYSDK_OFFSET(0xBE8E860)
 
+inline static constexpr unsigned int OIGGMJMBMBC_TypeDefinitionIndex = 72251;
+
 	class OIGGMJMBMBC : public ::FMPCODLIOLG
 	{
 	public:

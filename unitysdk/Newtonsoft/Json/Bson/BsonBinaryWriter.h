@@ -9,6 +9,8 @@ namespace System::Text { class Encoding; }
 
 namespace Newtonsoft::Json::Bson
 {
+	inline static constexpr unsigned int BsonBinaryWriter_TypeDefinitionIndex = 9847;
+
 	class BsonBinaryWriter : public ::System::Object
 	{
 	public:

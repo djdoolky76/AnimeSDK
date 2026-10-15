@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define GDKJJCJNGEN_ONPLUGININIT_OFFSET UNITYSDK_OFFSET(0x159A3680)
 #define GDKJJCJNGEN_ONPLUGINUNINIT_OFFSET UNITYSDK_OFFSET(0x159A3710)
 
+inline static constexpr unsigned int GDKJJCJNGEN_TypeDefinitionIndex = 54123;
+
 	class GDKJJCJNGEN : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ class AkPellegrinoSettings_PlatformAdvancedSettings;
 #define AKPELLEGRINOSETTINGS_GETCOMMSSETTINGS_OFFSET UNITYSDK_OFFSET(0x1F5ACDF0)
 #define AKPELLEGRINOSETTINGS_GETUSERSETTINGS_OFFSET UNITYSDK_OFFSET(0x1F5ACD70)
 
+inline static constexpr unsigned int AkPellegrinoSettings_TypeDefinitionIndex = 44897;
+
 	class AkPellegrinoSettings : public ::AkWwiseInitializationSettings_PlatformSettings
 	{
 	public:

@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EnableFreelookCameraDragMode_TypeDefinitionIndex = 20832;
+
 	class EnableFreelookCameraDragMode : public ::RPG::GameCore::TaskConfig
 	{
 	public:

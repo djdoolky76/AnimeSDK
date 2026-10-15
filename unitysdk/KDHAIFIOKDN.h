@@ -41,6 +41,8 @@ namespace System { class String; }
 #define KDHAIFIOKDN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E8006E0)
 #define KDHAIFIOKDN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E800740)
 
+inline static constexpr unsigned int KDHAIFIOKDN_TypeDefinitionIndex = 33485;
+
 	class KDHAIFIOKDN : public ::System::Object
 	{
 	public:

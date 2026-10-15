@@ -8,6 +8,8 @@ namespace System { class String; }
 #define OKOBELFNAKC_MNGGAOFNGIP_OFFSET UNITYSDK_OFFSET(0x1EC3BC40)
 #define OKOBELFNAKC_SET_OFFSET UNITYSDK_OFFSET(0x1EC3BBC0)
 
+inline static constexpr unsigned int OKOBELFNAKC_TypeDefinitionIndex = 35203;
+
 	class OKOBELFNAKC : public ::System::Object
 	{
 	public:

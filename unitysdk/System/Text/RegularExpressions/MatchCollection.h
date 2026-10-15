@@ -22,6 +22,8 @@ namespace System::Text::RegularExpressions { class Regex; }
 
 namespace System::Text::RegularExpressions
 {
+	inline static constexpr unsigned int MatchCollection_TypeDefinitionIndex = 2520;
+
 	class MatchCollection : public ::System::Object
 	{
 	public:

@@ -14,6 +14,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RetargetList_TypeDefinitionIndex = 22909;
+
 	class RetargetList : public ::RPG::GameCore::TaskConfig
 	{
 	public:

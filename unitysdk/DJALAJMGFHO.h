@@ -27,6 +27,8 @@ namespace System { class String; }
 #define DJALAJMGFHO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E1C4820)
 #define DJALAJMGFHO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E1C4880)
 
+inline static constexpr unsigned int DJALAJMGFHO_TypeDefinitionIndex = 27949;
+
 	class DJALAJMGFHO : public ::System::Object
 	{
 	public:

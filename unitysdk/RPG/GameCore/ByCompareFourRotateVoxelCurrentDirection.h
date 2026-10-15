@@ -13,6 +13,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByCompareFourRotateVoxelCurrentDirection_TypeDefinitionIndex = 20993;
+
 	class ByCompareFourRotateVoxelCurrentDirection : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System::Threading::Tasks { class Task; }
 
 namespace Cysharp::Threading::Tasks
 {
+	inline static constexpr unsigned int UniTaskExtensions___c_TypeDefinitionIndex = 38410;
+
 	class UniTaskExtensions___c : public ::System::Object
 	{
 	public:

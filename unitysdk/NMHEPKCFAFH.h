@@ -8,6 +8,8 @@ namespace System { class String; }
 #define NMHEPKCFAFH_CTOR_OFFSET UNITYSDK_OFFSET(0x1D237950)
 #define NMHEPKCFAFH_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D237800)
 
+inline static constexpr unsigned int NMHEPKCFAFH_TypeDefinitionIndex = 11689;
+
 	class NMHEPKCFAFH : public ::System::Object
 	{
 	public:

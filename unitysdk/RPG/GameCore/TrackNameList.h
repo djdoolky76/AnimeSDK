@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TrackNameList_TypeDefinitionIndex = 17095;
+
 	class TrackNameList : public ::RPG::GameCore::JsonConfig
 	{
 	public:

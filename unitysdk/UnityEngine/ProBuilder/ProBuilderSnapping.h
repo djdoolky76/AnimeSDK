@@ -16,6 +16,8 @@ namespace UnityEngine::ProBuilder { class ProBuilderMesh; }
 
 namespace UnityEngine::ProBuilder
 {
+	inline static constexpr unsigned int ProBuilderSnapping_TypeDefinitionIndex = 44410;
+
 	class ProBuilderSnapping : public ::System::Object
 	{
 	public:

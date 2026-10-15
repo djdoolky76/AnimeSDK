@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TestHotUpdateRow_TypeDefinitionIndex = 15281;
+
 	class TestHotUpdateRow : public ::System::Object
 	{
 	public:

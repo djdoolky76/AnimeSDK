@@ -7,6 +7,8 @@ class NPCKPMGEFLE;
 #define NPCKPMGEFLE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D2446E0)
 #define NPCKPMGEFLE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D2445F0)
 
+inline static constexpr unsigned int NPCKPMGEFLE_TypeDefinitionIndex = 13738;
+
 	class NPCKPMGEFLE : public ::System::Object
 	{
 	public:

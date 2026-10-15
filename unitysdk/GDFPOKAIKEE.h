@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define GDFPOKAIKEE_HKEPJLDBGIG_OFFSET UNITYSDK_OFFSET(0x1C4786C0)
 #define GDFPOKAIKEE_OHCJOIANPFG_OFFSET UNITYSDK_OFFSET(0x1C4776B0)
 
+inline static constexpr unsigned int GDFPOKAIKEE_TypeDefinitionIndex = 41537;
+
 	class GDFPOKAIKEE : public ::System::Object
 	{
 	public:

@@ -19,6 +19,8 @@ namespace System::Threading { class SynchronizationContext; }
 
 namespace System::Threading
 {
+	inline static constexpr unsigned int SynchronizationContext_TypeDefinitionIndex = 842;
+
 	class SynchronizationContext : public ::System::Object
 	{
 	public:

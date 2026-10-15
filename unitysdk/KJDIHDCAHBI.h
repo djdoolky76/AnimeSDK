@@ -10,6 +10,8 @@ namespace RPG::Client { class MonoEffectPluginTargetCentricReveal; }
 #define KJDIHDCAHBI_NOCCHICMCBF_OFFSET UNITYSDK_OFFSET(0xB441E00)
 #define KJDIHDCAHBI_PNIEFOONFOP_OFFSET UNITYSDK_OFFSET(0xB4420B0)
 
+inline static constexpr unsigned int KJDIHDCAHBI_TypeDefinitionIndex = 69904;
+
 	class KJDIHDCAHBI : public ::RPG::Client::BehaviorBase
 	{
 	public:

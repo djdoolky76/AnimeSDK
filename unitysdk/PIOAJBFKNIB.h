@@ -30,6 +30,8 @@ namespace System { class String; }
 #define PIOAJBFKNIB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF6FB40)
 #define PIOAJBFKNIB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF6FBA0)
 
+inline static constexpr unsigned int PIOAJBFKNIB_TypeDefinitionIndex = 26902;
+
 	class PIOAJBFKNIB : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class DynamicFloat; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CreateOrigamiByPropStateChange_TypeDefinitionIndex = 21174;
+
 	class CreateOrigamiByPropStateChange : public ::RPG::GameCore::TaskConfig
 	{
 	public:

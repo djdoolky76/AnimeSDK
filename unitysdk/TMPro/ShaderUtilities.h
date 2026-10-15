@@ -20,6 +20,8 @@ namespace UnityEngine { class Shader; }
 
 namespace TMPro
 {
+	inline static constexpr unsigned int ShaderUtilities_TypeDefinitionIndex = 44631;
+
 	class ShaderUtilities : public ::System::Object
 	{
 	public:

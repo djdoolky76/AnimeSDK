@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int WormCompassFinishRoute_TypeDefinitionIndex = 78925;
+
 	class WormCompassFinishRoute : public ::System::Object
 	{
 	public:

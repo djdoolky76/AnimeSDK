@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightTraitElationEffect_GridFightTraitElationAddItemSummarizer_TypeDefinitionIndex = 65384;
+
 	class GridFightTraitElationEffect_GridFightTraitElationAddItemSummarizer : public ::AMCOEFHHBPO
 	{
 	public:

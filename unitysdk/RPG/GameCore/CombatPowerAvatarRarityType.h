@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CombatPowerAvatarRarityType_TypeDefinitionIndex = 10474;
+
 	enum class CombatPowerAvatarRarityType : ::System::Int32
 	{
 		CombatPowerAvatarRarityType4 = 4,

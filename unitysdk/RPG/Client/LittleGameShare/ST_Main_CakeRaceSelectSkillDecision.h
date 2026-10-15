@@ -10,6 +10,8 @@ namespace RPG::Client::LittleGameShare { class ST_Main_CakeRaceSelectSkillDecisi
 
 namespace RPG::Client::LittleGameShare
 {
+	inline static constexpr unsigned int ST_Main_CakeRaceSelectSkillDecision_TypeDefinitionIndex = 10341;
+
 	class ST_Main_CakeRaceSelectSkillDecision : public ::RPG::Client::LittleGameShare::LittleGameSTTaskConfig
 	{
 	public:

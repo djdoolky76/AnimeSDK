@@ -30,6 +30,8 @@ namespace UnityEngine { class GameObject; }
 #define EJPKILIHMFL_SET_CURRENTSETTINGCULLINGMODE_OFFSET UNITYSDK_OFFSET(0x154F9EF0)
 #define EJPKILIHMFL_SET_INITED_OFFSET UNITYSDK_OFFSET(0x154F9EC0)
 
+inline static constexpr unsigned int EJPKILIHMFL_TypeDefinitionIndex = 57251;
+
 	class EJPKILIHMFL : public ::System::Object
 	{
 	public:

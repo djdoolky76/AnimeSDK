@@ -7,6 +7,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ItemComposeModule___c__DisplayClass31_0_TypeDefinitionIndex = 65754;
+
 	class ItemComposeModule___c__DisplayClass31_0 : public ::System::Object
 	{
 	public:

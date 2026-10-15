@@ -12,6 +12,8 @@ namespace RPGTools::Timeline { class TalkImageV2HideClip; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int TalkImageV2HideBehaviour_TypeDefinitionIndex = 48392;
+
 	class TalkImageV2HideBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

@@ -5,6 +5,8 @@ namespace RPG::LittleGameShare::HoyoPhysics::Box2D { class b2ManifoldFcn; }
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
+	inline static constexpr unsigned int B2Contacts___O_TypeDefinitionIndex = 36634;
+
 	class B2Contacts___O : public ::System::Object
 	{
 	public:

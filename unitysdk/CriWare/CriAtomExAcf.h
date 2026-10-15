@@ -90,6 +90,8 @@ namespace System { class String; }
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriAtomExAcf_TypeDefinitionIndex = 40023;
+
 	class CriAtomExAcf : public ::System::Object
 	{
 	public:

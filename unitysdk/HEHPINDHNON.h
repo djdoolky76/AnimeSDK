@@ -6,6 +6,8 @@
 #define HEHPINDHNON_CLEAR_OFFSET UNITYSDK_OFFSET(0x1CABF000)
 #define HEHPINDHNON_CTOR_OFFSET UNITYSDK_OFFSET(0x1CABF060)
 
+inline static constexpr unsigned int HEHPINDHNON_TypeDefinitionIndex = 43284;
+
 	class HEHPINDHNON : public ::System::Object
 	{
 	public:

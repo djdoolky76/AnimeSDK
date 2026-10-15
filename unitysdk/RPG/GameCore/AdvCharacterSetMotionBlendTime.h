@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvCharacterSetMotionBlendTime_TypeDefinitionIndex = 20607;
+
 	class AdvCharacterSetMotionBlendTime : public ::RPG::GameCore::TaskConfig
 	{
 	public:

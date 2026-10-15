@@ -13,6 +13,8 @@ namespace RPG::GameCore { class DrinkMakerTagRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DrinkMakerTagRow_TypeDefinitionIndex = 13158;
+
 	class DrinkMakerTagRow : public ::System::Object
 	{
 	public:

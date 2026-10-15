@@ -6,6 +6,8 @@ namespace System { template <typename T> class Comparison_1; }
 
 namespace EnviromentSystem
 {
+	inline static constexpr unsigned int EnviroBlockDataTransProperty___O_TypeDefinitionIndex = 49594;
+
 	class EnviroBlockDataTransProperty___O : public ::System::Object
 	{
 	public:

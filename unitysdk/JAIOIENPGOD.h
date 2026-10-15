@@ -27,6 +27,8 @@ namespace System { class String; }
 #define JAIOIENPGOD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E6EE610)
 #define JAIOIENPGOD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E6EE670)
 
+inline static constexpr unsigned int JAIOIENPGOD_TypeDefinitionIndex = 34349;
+
 	class JAIOIENPGOD : public ::System::Object
 	{
 	public:

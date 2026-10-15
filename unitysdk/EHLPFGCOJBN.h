@@ -27,6 +27,8 @@ namespace System { class String; }
 #define EHLPFGCOJBN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E2A1820)
 #define EHLPFGCOJBN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E2A1880)
 
+inline static constexpr unsigned int EHLPFGCOJBN_TypeDefinitionIndex = 33746;
+
 	class EHLPFGCOJBN : public ::System::Object
 	{
 	public:

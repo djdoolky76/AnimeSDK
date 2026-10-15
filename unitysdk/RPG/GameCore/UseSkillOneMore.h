@@ -11,6 +11,8 @@ namespace RPG::GameCore { class UseSkillOneMore; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int UseSkillOneMore_TypeDefinitionIndex = 22609;
+
 	class UseSkillOneMore : public ::RPG::GameCore::TaskConfig
 	{
 	public:

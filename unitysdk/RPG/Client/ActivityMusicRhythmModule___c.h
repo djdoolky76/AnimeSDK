@@ -13,6 +13,8 @@ namespace System { template <typename T> class Comparison_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ActivityMusicRhythmModule___c_TypeDefinitionIndex = 61804;
+
 	class ActivityMusicRhythmModule___c : public ::System::Object
 	{
 	public:

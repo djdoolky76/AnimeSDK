@@ -15,6 +15,8 @@ namespace System { class Type; }
 #define BCCCCPPIJDB_LOAD_OFFSET UNITYSDK_OFFSET(0x1EBEEB90)
 #define BCCCCPPIJDB_MAFMNMOJKAO_OFFSET UNITYSDK_OFFSET(0x1EBEEB20)
 
+inline static constexpr unsigned int BCCCCPPIJDB_TypeDefinitionIndex = 35313;
+
 	class BCCCCPPIJDB : public ::System::Object
 	{
 	public:

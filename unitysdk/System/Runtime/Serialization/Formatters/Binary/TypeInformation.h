@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace System::Runtime::Serialization::Formatters::Binary
 {
+	inline static constexpr unsigned int TypeInformation_TypeDefinitionIndex = 1186;
+
 	class TypeInformation : public ::System::Object
 	{
 	public:

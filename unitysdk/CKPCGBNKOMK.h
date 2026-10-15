@@ -6,6 +6,8 @@ class IGACELAIJCM;
 #define CKPCGBNKOMK_CTOR_OFFSET UNITYSDK_OFFSET(0xD76CCB0)
 #define CKPCGBNKOMK_OPBFNDKICAC_OFFSET UNITYSDK_OFFSET(0xD76CCC0)
 
+inline static constexpr unsigned int CKPCGBNKOMK_TypeDefinitionIndex = 67178;
+
 	class CKPCGBNKOMK : public ::DFLONJKEAKP
 	{
 	public:

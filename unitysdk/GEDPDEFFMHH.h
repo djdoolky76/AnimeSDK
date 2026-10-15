@@ -21,6 +21,8 @@ namespace System { class Object; }
 #define GEDPDEFFMHH_NFINIHKKLPK_OFFSET UNITYSDK_OFFSET(0x159CFD30)
 #define GEDPDEFFMHH_NGOHCBGKBKN_OFFSET UNITYSDK_OFFSET(0x159CFC50)
 
+inline static constexpr unsigned int GEDPDEFFMHH_TypeDefinitionIndex = 62725;
+
 	class GEDPDEFFMHH : public ::System::Object
 	{
 	public:

@@ -28,6 +28,8 @@ namespace System { class String; }
 #define EJAKBKOEEPC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E2AF180)
 #define EJAKBKOEEPC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E2AF1E0)
 
+inline static constexpr unsigned int EJAKBKOEEPC_TypeDefinitionIndex = 28875;
+
 	class EJAKBKOEEPC : public ::System::Object
 	{
 	public:

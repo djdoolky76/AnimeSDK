@@ -22,6 +22,8 @@ namespace UnityEngine { class RectTransform; }
 #define DHLCCHNLPIC__ONBIND_OFFSET UNITYSDK_OFFSET(0xEBE77F0)
 #define DHLCCHNLPIC__ONTICK_OFFSET UNITYSDK_OFFSET(0xEBE7B60)
 
+inline static constexpr unsigned int DHLCCHNLPIC_TypeDefinitionIndex = 71250;
+
 	class DHLCCHNLPIC : public ::FMPCODLIOLG
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System { class String; }
 #define GKCNCLIOFDA_GBLKBKFGNLB_GET_UNIQUENAME_OFFSET UNITYSDK_OFFSET(0x15A905F0)
 #define GKCNCLIOFDA_GBLKBKFGNLB_MNBAGHPEFBC_OFFSET UNITYSDK_OFFSET(0x15A8F0A0)
 
+inline static constexpr unsigned int GKCNCLIOFDA_GBLKBKFGNLB_TypeDefinitionIndex = 53539;
+
 	class GKCNCLIOFDA_GBLKBKFGNLB : public ::System::Object
 	{
 	public:

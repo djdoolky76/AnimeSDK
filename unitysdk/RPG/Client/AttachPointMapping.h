@@ -39,6 +39,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AttachPointMapping_TypeDefinitionIndex = 68360;
+
 	class AttachPointMapping : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -50,6 +50,8 @@ namespace System::Threading { template <typename T> class ThreadLocal_1; }
 #define PIPFNPKAMJL_OPMHCBMGCLA_OFFSET UNITYSDK_OFFSET(0x1DDB1F90)
 #define PIPFNPKAMJL_SET_ISIPV6_OFFSET UNITYSDK_OFFSET(0x1DDB35D0)
 
+inline static constexpr unsigned int PIPFNPKAMJL_TypeDefinitionIndex = 43955;
+
 	class PIPFNPKAMJL : public ::System::Object
 	{
 	public:

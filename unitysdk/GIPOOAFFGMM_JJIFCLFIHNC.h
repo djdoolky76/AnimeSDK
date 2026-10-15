@@ -8,6 +8,8 @@ namespace System { template <typename T> class Func_1; }
 
 #define GIPOOAFFGMM_JJIFCLFIHNC_CTOR_OFFSET UNITYSDK_OFFSET(0x15A55490)
 
+inline static constexpr unsigned int GIPOOAFFGMM_JJIFCLFIHNC_TypeDefinitionIndex = 72062;
+
 	class GIPOOAFFGMM_JJIFCLFIHNC : public ::System::Object
 	{
 	public:

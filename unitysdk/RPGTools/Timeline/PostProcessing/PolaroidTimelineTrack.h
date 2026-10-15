@@ -11,6 +11,8 @@ namespace UnityEngine::Timeline { class TimelineClip; }
 
 namespace RPGTools::Timeline::PostProcessing
 {
+	inline static constexpr unsigned int PolaroidTimelineTrack_TypeDefinitionIndex = 48596;
+
 	class PolaroidTimelineTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
 	public:

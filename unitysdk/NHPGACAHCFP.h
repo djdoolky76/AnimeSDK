@@ -25,6 +25,8 @@ namespace System { class String; }
 #define NHPGACAHCFP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB24140)
 #define NHPGACAHCFP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB241A0)
 
+inline static constexpr unsigned int NHPGACAHCFP_TypeDefinitionIndex = 33774;
+
 	class NHPGACAHCFP : public ::System::Object
 	{
 	public:

@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LockBattleOperation_TypeDefinitionIndex = 23276;
+
 	class LockBattleOperation : public ::RPG::GameCore::TaskConfig
 	{
 	public:

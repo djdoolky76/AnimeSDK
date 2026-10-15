@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DeployPuzzleGiveBackStone_TypeDefinitionIndex = 21980;
+
 	class DeployPuzzleGiveBackStone : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -30,6 +30,8 @@ namespace System { class String; }
 #define AGAAHIBNOBP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E1257D0)
 #define AGAAHIBNOBP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E125830)
 
+inline static constexpr unsigned int AGAAHIBNOBP_TypeDefinitionIndex = 34000;
+
 	class AGAAHIBNOBP : public ::System::Object
 	{
 	public:

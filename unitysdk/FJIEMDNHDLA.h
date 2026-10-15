@@ -16,6 +16,8 @@ namespace System { class String; }
 #define FJIEMDNHDLA_KFBBCCCCFKK_OFFSET UNITYSDK_OFFSET(0x157CE970)
 #define FJIEMDNHDLA_TEARDOWN_OFFSET UNITYSDK_OFFSET(0x157CF3D0)
 
+inline static constexpr unsigned int FJIEMDNHDLA_TypeDefinitionIndex = 76747;
+
 	class FJIEMDNHDLA : public ::System::Object
 	{
 	public:

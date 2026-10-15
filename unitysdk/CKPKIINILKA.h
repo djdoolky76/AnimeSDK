@@ -30,6 +30,8 @@ namespace System { class String; }
 #define CKPKIINILKA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E0F04C0)
 #define CKPKIINILKA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E0F0520)
 
+inline static constexpr unsigned int CKPKIINILKA_TypeDefinitionIndex = 32954;
+
 	class CKPKIINILKA : public ::System::Object
 	{
 	public:

@@ -3,6 +3,8 @@
 
 namespace MiHoYo::SDK::Protobuf::WellKnownTypes
 {
+	inline static constexpr unsigned int Value_KindOneofCase_TypeDefinitionIndex = 35750;
+
 	enum class Value_KindOneofCase : ::System::Int32
 	{
 		None = 0,

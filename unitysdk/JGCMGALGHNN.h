@@ -5,6 +5,8 @@
 
 #define JGCMGALGHNN_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB94700)
 
+inline static constexpr unsigned int JGCMGALGHNN_TypeDefinitionIndex = 43790;
+
 	class JGCMGALGHNN : public ::System::Object
 	{
 	public:

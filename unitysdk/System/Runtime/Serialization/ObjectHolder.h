@@ -58,6 +58,8 @@ namespace System::Runtime::Serialization { class ValueTypeFixupInfo; }
 
 namespace System::Runtime::Serialization
 {
+	inline static constexpr unsigned int ObjectHolder_TypeDefinitionIndex = 1110;
+
 	class ObjectHolder : public ::System::Object
 	{
 	public:

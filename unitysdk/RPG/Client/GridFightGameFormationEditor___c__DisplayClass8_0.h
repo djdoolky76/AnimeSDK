@@ -9,6 +9,8 @@ namespace RPG::Client { class GridFightGameFormationEditor_EquipDressRule; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightGameFormationEditor___c__DisplayClass8_0_TypeDefinitionIndex = 64661;
+
 	class GridFightGameFormationEditor___c__DisplayClass8_0 : public ::System::Object
 	{
 	public:

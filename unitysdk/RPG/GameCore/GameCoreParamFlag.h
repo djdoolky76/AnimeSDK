@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GameCoreParamFlag_TypeDefinitionIndex = 10505;
+
 	enum class GameCoreParamFlag : ::System::UInt32
 	{
 		IsFakeAvatarAttack = 1,

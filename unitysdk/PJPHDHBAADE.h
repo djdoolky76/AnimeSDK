@@ -5,6 +5,8 @@ namespace System { class Type; }
 
 #define PJPHDHBAADE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D2F66B0)
 
+inline static constexpr unsigned int PJPHDHBAADE_TypeDefinitionIndex = 25021;
+
 	class PJPHDHBAADE : public ::System::Attribute
 	{
 	public:

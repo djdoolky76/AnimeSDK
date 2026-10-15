@@ -13,6 +13,8 @@ namespace UnityEngine::Rendering { class DebugManager; }
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int DebugManager___c_TypeDefinitionIndex = 35517;
+
 	class DebugManager___c : public ::System::Object
 	{
 	public:

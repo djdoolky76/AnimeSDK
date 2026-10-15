@@ -3,6 +3,8 @@
 
 namespace RPG::Client::NavMap
 {
+	inline static constexpr unsigned int ICartographerIdentifier_TypeDefinitionIndex = 74511;
+
 	class ICartographerIdentifier
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class CloseTimeRewindPage; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CloseTimeRewindPage_TypeDefinitionIndex = 20651;
+
 	class CloseTimeRewindPage : public ::RPG::GameCore::TaskConfig
 	{
 	public:

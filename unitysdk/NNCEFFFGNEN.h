@@ -37,6 +37,8 @@ namespace System { class String; }
 #define NNCEFFFGNEN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB7F7F0)
 #define NNCEFFFGNEN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB7F850)
 
+inline static constexpr unsigned int NNCEFFFGNEN_TypeDefinitionIndex = 32500;
+
 	class NNCEFFFGNEN : public ::System::Object
 	{
 	public:

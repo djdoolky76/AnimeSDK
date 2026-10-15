@@ -22,6 +22,8 @@ namespace RPG::GameCore { class RogueTournModuleRow; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueTournSeasonData_TypeDefinitionIndex = 67823;
+
 	class RogueTournSeasonData : public ::System::Object
 	{
 	public:

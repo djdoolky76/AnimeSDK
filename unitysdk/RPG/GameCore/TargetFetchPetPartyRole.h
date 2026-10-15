@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TargetFetchPetPartyRole_TypeDefinitionIndex = 17543;
+
 	class TargetFetchPetPartyRole : public ::RPG::GameCore::TargetEvaluator
 	{
 	public:

@@ -5,6 +5,8 @@
 
 #define BEFKINHLJDC_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8B84D0)
 
+inline static constexpr unsigned int BEFKINHLJDC_TypeDefinitionIndex = 42242;
+
 	class BEFKINHLJDC : public ::System::Object
 	{
 	public:

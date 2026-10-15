@@ -13,6 +13,8 @@ namespace RPG::GameCore { class LevelEventApplyOperation; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelEventApplyOperation_TypeDefinitionIndex = 56808;
+
 	class LevelEventApplyOperation : public ::CMPGEAFHHDC
 	{
 	public:

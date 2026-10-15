@@ -5,6 +5,8 @@
 
 namespace UnityEngine::Formats::Alembic::Sdk
 {
+	inline static constexpr unsigned int aiPointsData_TypeDefinitionIndex = 45817;
+
 	struct alignas(4) aiPointsData
 	{
 		::UnityEngine::Formats::Alembic::Sdk::Bool visibility; // 0x10

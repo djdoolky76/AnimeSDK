@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ItemConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ActivityDiceCombatShopGoodsRow_TypeDefinitionIndex = 11247;
+
 	class ActivityDiceCombatShopGoodsRow : public ::System::Object
 	{
 	public:

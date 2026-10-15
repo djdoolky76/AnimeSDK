@@ -35,6 +35,8 @@ namespace System { class String; }
 #define IMFBPGDPEOI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E6B64D0)
 #define IMFBPGDPEOI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E6B6530)
 
+inline static constexpr unsigned int IMFBPGDPEOI_TypeDefinitionIndex = 26595;
+
 	class IMFBPGDPEOI : public ::System::Object
 	{
 	public:

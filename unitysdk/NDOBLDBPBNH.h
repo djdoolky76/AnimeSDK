@@ -9,6 +9,8 @@ namespace System { class Exception; }
 #define NDOBLDBPBNH__ONTASKBEGIN_B__1_0_OFFSET UNITYSDK_OFFSET(0xBB55D10)
 #define NDOBLDBPBNH__ONTASKBEGIN_B__1_1_OFFSET UNITYSDK_OFFSET(0xBB55D20)
 
+inline static constexpr unsigned int NDOBLDBPBNH_TypeDefinitionIndex = 52798;
+
 	class NDOBLDBPBNH
 	{
 	public:

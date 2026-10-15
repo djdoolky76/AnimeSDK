@@ -9,6 +9,8 @@ namespace RPG::GameCore { class BattleBulletCommentItem; }
 #define FFHMNHPIJNH_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CDE6B80)
 #define FFHMNHPIJNH_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CDE6B40)
 
+inline static constexpr unsigned int FFHMNHPIJNH_TypeDefinitionIndex = 23252;
+
 	class FFHMNHPIJNH : public ::RPG::GameCore::TaskConfig
 	{
 	public:

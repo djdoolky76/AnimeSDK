@@ -206,6 +206,8 @@ namespace System::Runtime::InteropServices { class StructLayoutAttribute; }
 
 namespace System
 {
+	inline static constexpr unsigned int Type_TypeDefinitionIndex = 351;
+
 	class Type : public ::System::Reflection::MemberInfo
 	{
 	public:

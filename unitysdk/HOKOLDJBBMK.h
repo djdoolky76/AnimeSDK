@@ -34,6 +34,8 @@ namespace System { class String; }
 #define HOKOLDJBBMK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E5ECAD0)
 #define HOKOLDJBBMK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E5ECB30)
 
+inline static constexpr unsigned int HOKOLDJBBMK_TypeDefinitionIndex = 28149;
+
 	class HOKOLDJBBMK : public ::System::Object
 	{
 	public:

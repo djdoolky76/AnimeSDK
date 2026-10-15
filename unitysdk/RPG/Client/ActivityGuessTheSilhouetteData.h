@@ -34,6 +34,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ActivityGuessTheSilhouetteData_TypeDefinitionIndex = 61517;
+
 	class ActivityGuessTheSilhouetteData : public ::System::Object
 	{
 	public:

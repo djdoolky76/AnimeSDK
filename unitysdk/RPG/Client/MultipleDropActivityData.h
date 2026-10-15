@@ -19,6 +19,8 @@ namespace RPG::GameCore { class ActivityFarmMultipleDropRow; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MultipleDropActivityData_TypeDefinitionIndex = 61642;
+
 	class MultipleDropActivityData : public ::RPG::Client::ActivityPanelData
 	{
 	public:

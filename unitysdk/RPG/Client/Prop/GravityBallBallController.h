@@ -36,6 +36,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int GravityBallBallController_TypeDefinitionIndex = 78588;
+
 	class GravityBallBallController : public ::UnityEngine::MonoBehaviour
 	{
 	public:

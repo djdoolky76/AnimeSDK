@@ -21,6 +21,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TravelBrochureUtils_TypeDefinitionIndex = 68182;
+
 	class TravelBrochureUtils : public ::System::Object
 	{
 	public:

@@ -4,6 +4,8 @@
 
 namespace System
 {
+	inline static constexpr unsigned int Func_9_TypeDefinitionIndex = 185;
+
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9>
 	class Func_9 : public ::System::MulticastDelegate
 	{

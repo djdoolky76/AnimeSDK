@@ -60,6 +60,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define DBLAIJKEJKA___APPLYRANDOMCHANGEFRUITTOBLACKFOG_B__33_0_OFFSET UNITYSDK_OFFSET(0x1CA1A620)
 #define DBLAIJKEJKA___APPLYRANDOMCHANGEFRUITTOLINEBOMB_B__32_0_OFFSET UNITYSDK_OFFSET(0x1CA1A590)
 
+inline static constexpr unsigned int DBLAIJKEJKA_TypeDefinitionIndex = 42307;
+
 	class DBLAIJKEJKA : public ::System::Object
 	{
 	public:

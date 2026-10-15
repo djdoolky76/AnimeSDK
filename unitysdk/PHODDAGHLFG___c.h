@@ -14,6 +14,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define PHODDAGHLFG___C__TOSTRING_B__1_2_OFFSET UNITYSDK_OFFSET(0xC257F40)
 #define PHODDAGHLFG___C__TOSTRING_B__1_3_OFFSET UNITYSDK_OFFSET(0xC257F60)
 
+inline static constexpr unsigned int PHODDAGHLFG___c_TypeDefinitionIndex = 67520;
+
 	class PHODDAGHLFG___c : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System::Resources
 {
+	inline static constexpr unsigned int MissingManifestResourceException_TypeDefinitionIndex = 521;
+
 	class MissingManifestResourceException : public ::System::SystemException
 	{
 	public:

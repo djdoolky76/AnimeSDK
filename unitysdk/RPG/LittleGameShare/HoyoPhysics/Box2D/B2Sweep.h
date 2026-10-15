@@ -7,6 +7,8 @@
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
+	inline static constexpr unsigned int B2Sweep_TypeDefinitionIndex = 36786;
+
 	struct alignas(4) B2Sweep
 	{
 		::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Vec2 localCenter; // 0x10

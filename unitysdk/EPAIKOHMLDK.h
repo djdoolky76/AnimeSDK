@@ -27,6 +27,8 @@ namespace System { class String; }
 #define EPAIKOHMLDK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E3019A0)
 #define EPAIKOHMLDK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E301A00)
 
+inline static constexpr unsigned int EPAIKOHMLDK_TypeDefinitionIndex = 31251;
+
 	class EPAIKOHMLDK : public ::System::Object
 	{
 	public:

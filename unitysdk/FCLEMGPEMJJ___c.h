@@ -9,6 +9,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define FCLEMGPEMJJ___C_CTOR_OFFSET UNITYSDK_OFFSET(0x156CD780)
 #define FCLEMGPEMJJ___C__HANDLEASSISTANTRECOMMENDCHANGED_B__40_0_OFFSET UNITYSDK_OFFSET(0x156CD790)
 
+inline static constexpr unsigned int FCLEMGPEMJJ___c_TypeDefinitionIndex = 79466;
+
 	class FCLEMGPEMJJ___c : public ::System::Object
 	{
 	public:

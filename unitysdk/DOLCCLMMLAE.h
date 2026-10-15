@@ -5,6 +5,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define DOLCCLMMLAE_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA2FE20)
 
+inline static constexpr unsigned int DOLCCLMMLAE_TypeDefinitionIndex = 41963;
+
 	class DOLCCLMMLAE : public ::System::Object
 	{
 	public:

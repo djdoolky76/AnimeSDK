@@ -11,6 +11,8 @@ namespace System { class String; }
 #define LCBEBJMFPMC_LFPNIPDMOOM_OFFSET UNITYSDK_OFFSET(0xB610B90)
 #define LCBEBJMFPMC_MNLPJLBAJKJ_OFFSET UNITYSDK_OFFSET(0xB610B20)
 
+inline static constexpr unsigned int LCBEBJMFPMC_TypeDefinitionIndex = 72197;
+
 	class LCBEBJMFPMC : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@
 
 namespace RPG::Client::Challenge::Tierce
 {
+	inline static constexpr unsigned int ChallengeTierceMazeViewModel_ProgressHintMessage_TypeDefinitionIndex = 81593;
+
 	class ChallengeTierceMazeViewModel_ProgressHintMessage : public ::System::Object
 	{
 	public:

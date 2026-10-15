@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define KGMDLAMBNKI_JIGJDOFEJMI_OFFSET UNITYSDK_OFFSET(0xB3F5F10)
 #define KGMDLAMBNKI_TRANSFORM_OFFSET UNITYSDK_OFFSET(0xB3F5F60)
 
+inline static constexpr unsigned int KGMDLAMBNKI_TypeDefinitionIndex = 59170;
+
 	class KGMDLAMBNKI
 	{
 	public:

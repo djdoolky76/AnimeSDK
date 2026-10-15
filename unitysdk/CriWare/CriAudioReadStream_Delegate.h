@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriAudioReadStream_Delegate_TypeDefinitionIndex = 40089;
+
 	class CriAudioReadStream_Delegate : public ::System::MulticastDelegate
 	{
 	public:

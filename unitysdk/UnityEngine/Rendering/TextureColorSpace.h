@@ -3,6 +3,8 @@
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int TextureColorSpace_TypeDefinitionIndex = 35569;
+
 	enum class TextureColorSpace : ::System::Int32
 	{
 		kTexColorSpaceLinear = 0,

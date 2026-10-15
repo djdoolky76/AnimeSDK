@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define JDBEFNOBCFF_TICK_OFFSET UNITYSDK_OFFSET(0x165BEF40)
 #define JDBEFNOBCFF__ONTASKBEGIN_B__4_0_OFFSET UNITYSDK_OFFSET(0x165BF0A0)
 
+inline static constexpr unsigned int JDBEFNOBCFF_TypeDefinitionIndex = 52314;
+
 	class JDBEFNOBCFF : public ::GELIALJDFBL
 	{
 	public:

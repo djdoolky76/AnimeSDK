@@ -30,6 +30,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AnniversaryCollectionRedDotFilter_TypeDefinitionIndex = 62407;
+
 	class AnniversaryCollectionRedDotFilter : public ::RPG::Client::BaseRedDotFilter
 	{
 	public:

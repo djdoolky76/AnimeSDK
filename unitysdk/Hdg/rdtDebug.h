@@ -24,6 +24,8 @@ namespace System { class String; }
 
 namespace Hdg
 {
+	inline static constexpr unsigned int rdtDebug_TypeDefinitionIndex = 46949;
+
 	class rdtDebug : public ::System::Object
 	{
 	public:

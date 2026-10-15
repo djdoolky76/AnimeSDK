@@ -21,6 +21,8 @@ namespace UnityEngine::Rendering { class BatchAnimationInstance; }
 #define BATCHANIMATIONINSTPROPMANAGER_SETINSTANCEDPROP_1_OFFSET UNITYSDK_OFFSET(0xC1B4750)
 #define BATCHANIMATIONINSTPROPMANAGER_SETINSTANCEDPROP_OFFSET UNITYSDK_OFFSET(0xC1B46D0)
 
+inline static constexpr unsigned int BatchAnimationInstPropManager_TypeDefinitionIndex = 47289;
+
 	class BatchAnimationInstPropManager : public ::UnityEngine::MonoBehaviour
 	{
 	public:

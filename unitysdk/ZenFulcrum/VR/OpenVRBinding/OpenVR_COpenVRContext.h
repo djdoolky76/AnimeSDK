@@ -30,6 +30,8 @@ namespace ZenFulcrum::VR::OpenVRBinding { class CVRTrackedCamera; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int OpenVR_COpenVRContext_TypeDefinitionIndex = 39328;
+
 	class OpenVR_COpenVRContext : public ::System::Object
 	{
 	public:

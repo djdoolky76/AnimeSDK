@@ -10,6 +10,8 @@ namespace RPG::GameCore { class BattleAreaFilterExpression; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BattleAreaFilterExpression_TypeDefinitionIndex = 17409;
+
 	class BattleAreaFilterExpression : public ::RPG::GameCore::JsonConfig
 	{
 	public:

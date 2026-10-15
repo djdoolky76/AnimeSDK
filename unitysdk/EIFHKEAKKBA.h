@@ -5,6 +5,8 @@
 
 #define EIFHKEAKKBA_CCTOR_OFFSET UNITYSDK_OFFSET(0x154C1AA0)
 
+inline static constexpr unsigned int EIFHKEAKKBA_TypeDefinitionIndex = 59048;
+
 	class EIFHKEAKKBA : public ::System::Object
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define JBDOALOEMAB_NODPBIKOJCF_OFFSET UNITYSDK_OFFSET(0x16568CB0)
 #define JBDOALOEMAB_OCABBBNJKLD_OFFSET UNITYSDK_OFFSET(0x16569580)
 
+inline static constexpr unsigned int JBDOALOEMAB_TypeDefinitionIndex = 77636;
+
 	class JBDOALOEMAB : public ::OCFMCBFNLND
 	{
 	public:

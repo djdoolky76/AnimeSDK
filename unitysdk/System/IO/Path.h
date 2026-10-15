@@ -42,6 +42,8 @@ namespace System::Text { class StringBuilder; }
 
 namespace System::IO
 {
+	inline static constexpr unsigned int Path_TypeDefinitionIndex = 725;
+
 	class Path : public ::System::Object
 	{
 	public:

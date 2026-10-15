@@ -35,6 +35,8 @@ namespace System { class String; }
 
 namespace Proto
 {
+	inline static constexpr unsigned int TutorialGuide_TypeDefinitionIndex = 35038;
+
 	class TutorialGuide : public ::System::Object
 	{
 	public:

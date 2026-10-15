@@ -6,6 +6,8 @@
 #define LIAOGHFPIJP_CTOR_OFFSET UNITYSDK_OFFSET(0xB6C1FB0)
 #define LIAOGHFPIJP_LLGBOKAFNNL_OFFSET UNITYSDK_OFFSET(0xB6C1FD0)
 
+inline static constexpr unsigned int LIAOGHFPIJP_TypeDefinitionIndex = 61194;
+
 	class LIAOGHFPIJP : public ::HDJIGMBHENE
 	{
 	public:

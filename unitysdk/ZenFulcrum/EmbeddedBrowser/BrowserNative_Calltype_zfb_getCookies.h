@@ -13,6 +13,8 @@ namespace ZenFulcrum::EmbeddedBrowser { class BrowserNative_GetCookieFunc; }
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
+	inline static constexpr unsigned int BrowserNative_Calltype_zfb_getCookies_TypeDefinitionIndex = 39457;
+
 	class BrowserNative_Calltype_zfb_getCookies : public ::System::MulticastDelegate
 	{
 	public:

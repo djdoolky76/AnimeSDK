@@ -13,6 +13,8 @@ namespace Cysharp::Threading::Tasks::Triggers { class IAsyncOnWillRenderObjectHa
 
 namespace Cysharp::Threading::Tasks::Triggers
 {
+	inline static constexpr unsigned int AsyncWillRenderObjectTrigger_TypeDefinitionIndex = 38613;
+
 	class AsyncWillRenderObjectTrigger
 	{
 	public:

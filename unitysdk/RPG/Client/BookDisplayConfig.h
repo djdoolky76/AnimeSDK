@@ -8,6 +8,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BookDisplayConfig_TypeDefinitionIndex = 66376;
+
 	class BookDisplayConfig : public ::System::Object
 	{
 	public:

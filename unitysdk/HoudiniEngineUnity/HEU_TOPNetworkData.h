@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_TOPNetworkData_TypeDefinitionIndex = 40538;
+
 	class HEU_TOPNetworkData : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace RPG::Client { class RechargeShopModule; }
 #define HMHFCDLJFLD_CTOR_OFFSET UNITYSDK_OFFSET(0x15D82320)
 #define HMHFCDLJFLD_PFKOENKLFON_OFFSET UNITYSDK_OFFSET(0x15D823A0)
 
+inline static constexpr unsigned int HMHFCDLJFLD_TypeDefinitionIndex = 66789;
+
 	class HMHFCDLJFLD : public ::System::Object
 	{
 	public:

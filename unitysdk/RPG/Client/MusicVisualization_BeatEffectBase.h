@@ -33,6 +33,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MusicVisualization_BeatEffectBase_TypeDefinitionIndex = 70804;
+
 	class MusicVisualization_BeatEffectBase : public ::RPG::Client::PolymerEffectControllBase
 	{
 	public:

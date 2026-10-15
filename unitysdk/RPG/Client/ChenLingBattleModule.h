@@ -52,6 +52,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChenLingBattleModule_TypeDefinitionIndex = 61421;
+
 	class ChenLingBattleModule : public ::RPG::Client::BaseModule
 	{
 	public:

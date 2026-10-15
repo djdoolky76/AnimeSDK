@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TriggerMagicUnitOnScepter; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TriggerMagicUnitOnScepter_TypeDefinitionIndex = 23101;
+
 	class TriggerMagicUnitOnScepter : public ::RPG::GameCore::TaskConfig
 	{
 	public:

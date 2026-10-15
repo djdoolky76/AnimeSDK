@@ -5,6 +5,8 @@ namespace RPG::Client::FateRin::Battle { class IFateRinBattleHudHandCardViewMode
 #define JMCEHJCEHEB_BGPLHPNDJGM_OFFSET UNITYSDK_OFFSET(0x11DD0)
 #define JMCEHJCEHEB_CCTOR_OFFSET UNITYSDK_OFFSET(0xB25E540)
 
+inline static constexpr unsigned int JMCEHJCEHEB_TypeDefinitionIndex = 80964;
+
 	struct alignas(8) JMCEHJCEHEB
 	{
 		::RPG::Client::FateRin::Battle::IFateRinBattleHudHandCardViewModel* NBBACHCJOCL; // 0x10

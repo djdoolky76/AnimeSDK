@@ -12,6 +12,8 @@ namespace UnityEngine { class Shader; }
 
 namespace CriWare::CriMana::Detail
 {
+	inline static constexpr unsigned int AutoResisterRendererResourceFactories_RendererResourceFactorySofdecPrimeYuvRawData_TypeDefinitionIndex = 40231;
+
 	class AutoResisterRendererResourceFactories_RendererResourceFactorySofdecPrimeYuvRawData : public ::CriWare::CriMana::Detail::RendererResourceFactory
 	{
 	public:

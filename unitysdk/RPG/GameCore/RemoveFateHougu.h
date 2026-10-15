@@ -11,6 +11,8 @@ namespace RPG::GameCore { class RemoveFateHougu; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RemoveFateHougu_TypeDefinitionIndex = 23287;
+
 	class RemoveFateHougu : public ::RPG::GameCore::TaskConfig
 	{
 	public:

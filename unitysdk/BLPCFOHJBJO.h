@@ -7,6 +7,8 @@ namespace System { class String; }
 #define BLPCFOHJBJO_KAJOBJFIAMJ_OFFSET UNITYSDK_OFFSET(0xBA836A0)
 #define BLPCFOHJBJO_NCAPOIMNKCF_OFFSET UNITYSDK_OFFSET(0xBA83710)
 
+inline static constexpr unsigned int BLPCFOHJBJO_TypeDefinitionIndex = 77568;
+
 	class BLPCFOHJBJO : public ::LEMPCCICHAA
 	{
 	public:

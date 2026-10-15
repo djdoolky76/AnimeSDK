@@ -13,6 +13,8 @@ namespace RPG::GameCore { class LevelEntityEscape; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelEntityEscape_TypeDefinitionIndex = 56769;
+
 	class LevelEntityEscape : public ::CMPGEAFHHDC
 	{
 	public:

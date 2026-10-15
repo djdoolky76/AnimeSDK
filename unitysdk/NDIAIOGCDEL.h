@@ -10,6 +10,8 @@ namespace RPG::Client { class GridFightTrait; }
 #define NDIAIOGCDEL_MIADPFMELOM_OFFSET UNITYSDK_OFFSET(0xBB49660)
 #define NDIAIOGCDEL_SET_EQUIPID_OFFSET UNITYSDK_OFFSET(0xBB49AE0)
 
+inline static constexpr unsigned int NDIAIOGCDEL_TypeDefinitionIndex = 65491;
+
 	class NDIAIOGCDEL : public ::System::Object
 	{
 	public:

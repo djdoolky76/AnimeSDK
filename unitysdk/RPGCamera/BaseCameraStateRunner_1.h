@@ -5,6 +5,8 @@
 
 namespace RPGCamera
 {
+	inline static constexpr unsigned int BaseCameraStateRunner_1_TypeDefinitionIndex = 45953;
+
 	template <typename T>
 	class BaseCameraStateRunner_1 : public ::System::Object
 	{

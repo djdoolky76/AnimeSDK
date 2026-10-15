@@ -102,6 +102,8 @@ namespace System::Text { class EncodingProvider; }
 
 namespace System::Text
 {
+	inline static constexpr unsigned int Encoding_TypeDefinitionIndex = 489;
+
 	class Encoding : public ::System::Object
 	{
 	public:

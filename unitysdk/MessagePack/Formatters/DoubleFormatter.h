@@ -13,6 +13,8 @@ namespace MessagePack::Formatters { class DoubleFormatter; }
 
 namespace MessagePack::Formatters
 {
+	inline static constexpr unsigned int DoubleFormatter_TypeDefinitionIndex = 7465;
+
 	class DoubleFormatter : public ::System::Object
 	{
 	public:

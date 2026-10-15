@@ -10,6 +10,8 @@ namespace RPG::GameCore { class SetIgnoreSendEnlightSection; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetIgnoreSendEnlightSection_TypeDefinitionIndex = 21926;
+
 	class SetIgnoreSendEnlightSection : public ::RPG::GameCore::TaskConfig
 	{
 	public:

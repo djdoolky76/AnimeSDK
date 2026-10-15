@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WheelSelectConfigExcelTable_TypeDefinitionIndex = 13322;
+
 	class WheelSelectConfigExcelTable : public ::System::Object
 	{
 	public:

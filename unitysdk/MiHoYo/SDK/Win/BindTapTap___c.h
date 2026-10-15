@@ -11,6 +11,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int BindTapTap___c_TypeDefinitionIndex = 9509;
+
 	class BindTapTap___c : public ::System::Object
 	{
 	public:

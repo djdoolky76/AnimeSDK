@@ -17,6 +17,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ActivitySwordTrainingEndingHIntInfo_TypeDefinitionIndex = 61942;
+
 	class ActivitySwordTrainingEndingHIntInfo : public ::System::Object
 	{
 	public:

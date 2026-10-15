@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueActSetSavedValueConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueActSetSavedValueConfig_TypeDefinitionIndex = 19709;
+
 	class RogueActSetSavedValueConfig : public ::RPG::GameCore::RogueActionConfigBase
 	{
 	public:

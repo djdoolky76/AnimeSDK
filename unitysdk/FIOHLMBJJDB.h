@@ -25,6 +25,8 @@ namespace System { class String; }
 #define FIOHLMBJJDB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E39DD10)
 #define FIOHLMBJJDB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E39DD70)
 
+inline static constexpr unsigned int FIOHLMBJJDB_TypeDefinitionIndex = 28054;
+
 	class FIOHLMBJJDB : public ::System::Object
 	{
 	public:

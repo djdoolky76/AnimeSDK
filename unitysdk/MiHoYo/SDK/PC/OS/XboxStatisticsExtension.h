@@ -7,6 +7,8 @@ namespace MiHoYo::SDK::PC::OS { class XboxStatisticEntry; }
 
 namespace MiHoYo::SDK::PC::OS
 {
+	inline static constexpr unsigned int XboxStatisticsExtension_TypeDefinitionIndex = 8681;
+
 	class XboxStatisticsExtension : public ::System::Object
 	{
 	public:

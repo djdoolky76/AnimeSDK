@@ -16,6 +16,8 @@ namespace UnityEngine::UI { class Button_ButtonClickedEvent; }
 #define PCIEKNCMJKN_PKBGADFFCCP_OFFSET UNITYSDK_OFFSET(0xC0008F0)
 #define PCIEKNCMJKN_UNITYENGINE_EVENTSYSTEMS_IEXECUTEEVENTBLOCKER_ISEVENTBLOCK_OFFSET UNITYSDK_OFFSET(0xC000F90)
 
+inline static constexpr unsigned int PCIEKNCMJKN_TypeDefinitionIndex = 68225;
+
 	class PCIEKNCMJKN : public ::System::Object
 	{
 	public:

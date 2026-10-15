@@ -29,6 +29,8 @@ namespace System { class String; }
 #define PFPPACPMFDJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF2B200)
 #define PFPPACPMFDJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF2B260)
 
+inline static constexpr unsigned int PFPPACPMFDJ_TypeDefinitionIndex = 27053;
+
 	class PFPPACPMFDJ : public ::System::Object
 	{
 	public:

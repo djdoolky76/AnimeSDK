@@ -12,6 +12,8 @@ namespace System { class Object; }
 #define EEHCJFEEOLF_KLAJGAKAFCP_OFFSET UNITYSDK_OFFSET(0x13A2D390)
 #define EEHCJFEEOLF_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0x13A2D600)
 
+inline static constexpr unsigned int EEHCJFEEOLF_TypeDefinitionIndex = 79507;
+
 	class EEHCJFEEOLF : public ::System::Object
 	{
 	public:

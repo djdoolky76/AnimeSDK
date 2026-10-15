@@ -26,6 +26,8 @@ namespace System { class Type; }
 
 namespace UnityEngine::Pooled
 {
+	inline static constexpr unsigned int ThrowHelper_TypeDefinitionIndex = 4536;
+
 	class ThrowHelper : public ::System::Object
 	{
 	public:

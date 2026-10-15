@@ -10,6 +10,8 @@ namespace RPG::GameCore { class CharacterPhaseUIConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CharacterPhaseUIConfig_TypeDefinitionIndex = 16505;
+
 	class CharacterPhaseUIConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TriggeBattleLoadFinishPerformance; }
 #define DECNAACHGFG_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xE502420)
 #define DECNAACHGFG_TICK_OFFSET UNITYSDK_OFFSET(0xE502A50)
 
+inline static constexpr unsigned int DECNAACHGFG_TypeDefinitionIndex = 55710;
+
 	class DECNAACHGFG : public ::GELIALJDFBL
 	{
 	public:

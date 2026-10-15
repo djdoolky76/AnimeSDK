@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define DICKPDFNEHP_MMFMHFDHHKK_OFFSET UNITYSDK_OFFSET(0xEBF1100)
 #define DICKPDFNEHP_OCGKMGIBKKF_OFFSET UNITYSDK_OFFSET(0xEBF0E90)
 
+inline static constexpr unsigned int DICKPDFNEHP_TypeDefinitionIndex = 78096;
+
 	class DICKPDFNEHP : public ::System::Object
 	{
 	public:

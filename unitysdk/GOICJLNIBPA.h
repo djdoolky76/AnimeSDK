@@ -10,6 +10,8 @@ namespace UnityEngine { class GameObject; }
 #define GOICJLNIBPA_GETBOUNDCENTER_OFFSET UNITYSDK_OFFSET(0x15B338E0)
 #define GOICJLNIBPA_GETRECT_OFFSET UNITYSDK_OFFSET(0x15B33950)
 
+inline static constexpr unsigned int GOICJLNIBPA_TypeDefinitionIndex = 47504;
+
 	class GOICJLNIBPA : public ::System::Object
 	{
 	public:

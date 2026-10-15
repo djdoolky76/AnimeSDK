@@ -17,6 +17,8 @@ namespace UnityEngine { class GameObject; }
 #define BFPNLKFMEMN_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB1751C0)
 #define BFPNLKFMEMN_TICK_OFFSET UNITYSDK_OFFSET(0xB175210)
 
+inline static constexpr unsigned int BFPNLKFMEMN_TypeDefinitionIndex = 58656;
+
 	class BFPNLKFMEMN : public ::GELIALJDFBL
 	{
 	public:

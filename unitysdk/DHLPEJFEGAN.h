@@ -32,6 +32,8 @@ namespace System { class String; }
 #define DHLPEJFEGAN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E1B7980)
 #define DHLPEJFEGAN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E1B79E0)
 
+inline static constexpr unsigned int DHLPEJFEGAN_TypeDefinitionIndex = 31527;
+
 	class DHLPEJFEGAN : public ::System::Object
 	{
 	public:

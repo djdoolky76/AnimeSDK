@@ -9,6 +9,8 @@ namespace RPG::GameCore { class RogueMagicScoreRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueMagicScoreRow_TypeDefinitionIndex = 14876;
+
 	class RogueMagicScoreRow : public ::System::Object
 	{
 	public:

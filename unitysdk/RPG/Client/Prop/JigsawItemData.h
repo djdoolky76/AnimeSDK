@@ -7,6 +7,8 @@
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int JigsawItemData_TypeDefinitionIndex = 78647;
+
 	class JigsawItemData : public ::System::Object
 	{
 	public:

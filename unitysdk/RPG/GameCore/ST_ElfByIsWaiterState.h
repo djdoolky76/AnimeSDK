@@ -14,6 +14,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ST_ElfByIsWaiterState_TypeDefinitionIndex = 21546;
+
 	class ST_ElfByIsWaiterState : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

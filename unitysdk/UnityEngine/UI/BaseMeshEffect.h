@@ -18,6 +18,8 @@ namespace UnityEngine::UI { class Graphic; }
 
 namespace UnityEngine::UI
 {
+	inline static constexpr unsigned int BaseMeshEffect_TypeDefinitionIndex = 6888;
+
 	class BaseMeshEffect : public ::UnityEngine::EventSystems::UIBehaviour
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TreasureDungeonGridConfigRow_TypeDefinitionIndex = 12528;
+
 	class TreasureDungeonGridConfigRow : public ::System::Object
 	{
 	public:

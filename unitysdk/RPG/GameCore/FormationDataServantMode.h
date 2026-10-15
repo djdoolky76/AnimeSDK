@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FormationDataServantMode_TypeDefinitionIndex = 17130;
+
 	enum class FormationDataServantMode : ::System::Int32
 	{
 		Follow = 0,

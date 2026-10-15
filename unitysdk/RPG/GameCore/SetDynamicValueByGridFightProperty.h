@@ -17,6 +17,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetDynamicValueByGridFightProperty_TypeDefinitionIndex = 22529;
+
 	class SetDynamicValueByGridFightProperty : public ::RPG::GameCore::SetDynamicValueBase
 	{
 	public:

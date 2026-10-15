@@ -4,6 +4,8 @@
 
 #define DHLGELKPKML_CTOR_OFFSET UNITYSDK_OFFSET(0x1CD22670)
 
+inline static constexpr unsigned int DHLGELKPKML_TypeDefinitionIndex = 25028;
+
 	class DHLGELKPKML : public ::System::Attribute
 	{
 	public:

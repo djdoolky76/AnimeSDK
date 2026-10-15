@@ -4,6 +4,8 @@
 
 #define FKEPGDPBEHH_CTOR_OFFSET UNITYSDK_OFFSET(0x157EF570)
 
+inline static constexpr unsigned int FKEPGDPBEHH_TypeDefinitionIndex = 49655;
+
 	class FKEPGDPBEHH : public ::BOFJHGFAJBN
 	{
 	public:

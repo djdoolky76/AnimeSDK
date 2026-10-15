@@ -34,6 +34,8 @@
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int AABB_TypeDefinitionIndex = 37892;
+
 	struct alignas(4) AABB
 	{
 		::UnityEngine::Vector3 min; // 0x10

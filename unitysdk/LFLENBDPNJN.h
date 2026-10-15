@@ -31,6 +31,8 @@ namespace System { class String; }
 #define LFLENBDPNJN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E944530)
 #define LFLENBDPNJN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E944590)
 
+inline static constexpr unsigned int LFLENBDPNJN_TypeDefinitionIndex = 25641;
+
 	class LFLENBDPNJN : public ::System::Object
 	{
 	public:

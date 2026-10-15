@@ -9,6 +9,8 @@ namespace System { class String; }
 #define JPNMPGDPPLF_SET_AMOUNT_OFFSET UNITYSDK_OFFSET(0xB2CE520)
 #define JPNMPGDPPLF_SET_DESC_OFFSET UNITYSDK_OFFSET(0xB2CE500)
 
+inline static constexpr unsigned int JPNMPGDPPLF_TypeDefinitionIndex = 79719;
+
 	class JPNMPGDPPLF : public ::System::Object
 	{
 	public:

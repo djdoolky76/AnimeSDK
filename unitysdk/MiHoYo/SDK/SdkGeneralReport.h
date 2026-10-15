@@ -13,6 +13,8 @@ namespace MiHoYo::SDK { class SdkGeneralReport; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int SdkGeneralReport_TypeDefinitionIndex = 46487;
+
 	class SdkGeneralReport : public ::System::Object
 	{
 	public:

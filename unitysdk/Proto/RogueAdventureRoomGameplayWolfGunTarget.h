@@ -42,6 +42,8 @@ namespace System { class String; }
 
 namespace Proto
 {
+	inline static constexpr unsigned int RogueAdventureRoomGameplayWolfGunTarget_TypeDefinitionIndex = 32932;
+
 	class RogueAdventureRoomGameplayWolfGunTarget : public ::System::Object
 	{
 	public:

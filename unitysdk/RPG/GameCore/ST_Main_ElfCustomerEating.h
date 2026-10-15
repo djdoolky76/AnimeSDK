@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ST_Main_ElfCustomerEating; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ST_Main_ElfCustomerEating_TypeDefinitionIndex = 21531;
+
 	class ST_Main_ElfCustomerEating : public ::RPG::GameCore::STTaskConfig
 	{
 	public:

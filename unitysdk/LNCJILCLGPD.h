@@ -13,6 +13,8 @@ namespace System { class String; }
 #define LNCJILCLGPD_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xB7D6750)
 #define LNCJILCLGPD_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xB7D6630)
 
+inline static constexpr unsigned int LNCJILCLGPD_TypeDefinitionIndex = 54076;
+
 	class LNCJILCLGPD : public ::CMPGEAFHHDC
 	{
 	public:

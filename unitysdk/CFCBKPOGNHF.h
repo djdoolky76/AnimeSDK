@@ -31,6 +31,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define CFCBKPOGNHF_POFIDDFMHFP_OFFSET UNITYSDK_OFFSET(0xCA08A20)
 #define CFCBKPOGNHF_PPFMDABNMOA_OFFSET UNITYSDK_OFFSET(0xCA071F0)
 
+inline static constexpr unsigned int CFCBKPOGNHF_TypeDefinitionIndex = 78083;
+
 	class CFCBKPOGNHF : public ::System::Object
 	{
 	public:

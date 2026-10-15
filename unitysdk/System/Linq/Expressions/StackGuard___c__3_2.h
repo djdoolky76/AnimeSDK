@@ -6,6 +6,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace System::Linq::Expressions
 {
+	inline static constexpr unsigned int StackGuard___c__3_2_TypeDefinitionIndex = 3274;
+
 	template <typename T1, typename T2>
 	class StackGuard___c__3_2 : public ::System::Object
 	{

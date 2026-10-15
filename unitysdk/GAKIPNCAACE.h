@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define GAKIPNCAACE_CTOR_OFFSET UNITYSDK_OFFSET(0x15940BB0)
 #define GAKIPNCAACE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15940BE0)
 
+inline static constexpr unsigned int GAKIPNCAACE_TypeDefinitionIndex = 55168;
+
 	class GAKIPNCAACE
 	{
 	public:

@@ -29,6 +29,8 @@ namespace System { class String; }
 #define CBDMGEGELFM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E064600)
 #define CBDMGEGELFM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E064660)
 
+inline static constexpr unsigned int CBDMGEGELFM_TypeDefinitionIndex = 33008;
+
 	class CBDMGEGELFM : public ::System::Object
 	{
 	public:

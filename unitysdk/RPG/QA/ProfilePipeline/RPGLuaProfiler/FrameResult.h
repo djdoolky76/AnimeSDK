@@ -9,6 +9,8 @@ namespace System::Collections { class Hashtable; }
 
 namespace RPG::QA::ProfilePipeline::RPGLuaProfiler
 {
+	inline static constexpr unsigned int FrameResult_TypeDefinitionIndex = 51825;
+
 	class FrameResult : public ::System::Object
 	{
 	public:

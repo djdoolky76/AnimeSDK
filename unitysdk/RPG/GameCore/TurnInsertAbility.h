@@ -22,6 +22,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TurnInsertAbility_TypeDefinitionIndex = 22664;
+
 	class TurnInsertAbility : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -9,6 +9,8 @@ namespace RPG::GameCore { class RoguePersonaAttributeConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RoguePersonaAttributeConfig_TypeDefinitionIndex = 18003;
+
 	class RoguePersonaAttributeConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

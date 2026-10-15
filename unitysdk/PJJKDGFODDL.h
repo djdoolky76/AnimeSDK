@@ -75,6 +75,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define PJJKDGFODDL_PNGAHOGHECD_OFFSET UNITYSDK_OFFSET(0xC291F90)
 #define PJJKDGFODDL_PNKGOAAFCLO_OFFSET UNITYSDK_OFFSET(0xC290360)
 
+inline static constexpr unsigned int PJJKDGFODDL_TypeDefinitionIndex = 75633;
+
 	class PJJKDGFODDL : public ::System::Object
 	{
 	public:

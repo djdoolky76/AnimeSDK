@@ -45,6 +45,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define PGLLCPNEHDO_SET_MESSENGER_OFFSET UNITYSDK_OFFSET(0x1EC8BF10)
 #define PGLLCPNEHDO_SET_TICKDRIVER_OFFSET UNITYSDK_OFFSET(0x1EC8BF50)
 
+inline static constexpr unsigned int PGLLCPNEHDO_TypeDefinitionIndex = 44174;
+
 	class PGLLCPNEHDO : public ::System::Object
 	{
 	public:

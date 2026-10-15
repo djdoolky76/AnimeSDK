@@ -7,6 +7,8 @@ namespace System { class Action; }
 #define GAPLMNEDDEH_CCTOR_OFFSET UNITYSDK_OFFSET(0x15944D80)
 #define GAPLMNEDDEH_PDBFIPDHACD_OFFSET UNITYSDK_OFFSET(0x15944CF0)
 
+inline static constexpr unsigned int GAPLMNEDDEH_TypeDefinitionIndex = 49768;
+
 	class GAPLMNEDDEH : public ::System::Object
 	{
 	public:

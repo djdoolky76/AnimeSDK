@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define FKCIBPKMODK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E3AC870)
 #define FKCIBPKMODK___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E3AC880)
 
+inline static constexpr unsigned int FKCIBPKMODK___c_TypeDefinitionIndex = 29717;
+
 	class FKCIBPKMODK___c : public ::System::Object
 	{
 	public:

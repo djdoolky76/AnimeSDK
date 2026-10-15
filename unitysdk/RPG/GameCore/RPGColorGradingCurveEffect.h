@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RPGColorGradingCurveEffect_TypeDefinitionIndex = 23746;
+
 	class RPGColorGradingCurveEffect : public ::RPG::GameCore::TaskConfig
 	{
 	public:

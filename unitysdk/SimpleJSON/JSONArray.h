@@ -27,6 +27,8 @@ namespace System::IO { class BinaryWriter; }
 
 namespace SimpleJSON
 {
+	inline static constexpr unsigned int JSONArray_TypeDefinitionIndex = 9956;
+
 	class JSONArray : public ::SimpleJSON::JSONNode
 	{
 	public:

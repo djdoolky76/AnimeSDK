@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define DHADINIAOAA_FPKLDCGAJGP_OFFSET UNITYSDK_OFFSET(0xE85D170)
 #define DHADINIAOAA_OCABOKGMPMC_OFFSET UNITYSDK_OFFSET(0xE85D020)
 
+inline static constexpr unsigned int DHADINIAOAA_TypeDefinitionIndex = 59828;
+
 	class DHADINIAOAA : public ::System::Object
 	{
 	public:

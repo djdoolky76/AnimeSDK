@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace MessagePack::Unity::Extension
 {
+	inline static constexpr unsigned int UnityBlitResolverGetFormatterHelper_TypeDefinitionIndex = 10151;
+
 	class UnityBlitResolverGetFormatterHelper : public ::System::Object
 	{
 	public:

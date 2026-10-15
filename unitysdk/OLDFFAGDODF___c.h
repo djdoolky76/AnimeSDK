@@ -9,6 +9,8 @@ namespace System::Collections::Generic { class KeyValuePair; }
 #define OLDFFAGDODF___C_CTOR_OFFSET UNITYSDK_OFFSET(0xBF02640)
 #define OLDFFAGDODF___C___TRYGETPROPERTYDESC_B__7_0_OFFSET UNITYSDK_OFFSET(0xBF02650)
 
+inline static constexpr unsigned int OLDFFAGDODF___c_TypeDefinitionIndex = 65293;
+
 	class OLDFFAGDODF___c : public ::System::Object
 	{
 	public:

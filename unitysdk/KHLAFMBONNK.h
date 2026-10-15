@@ -25,6 +25,8 @@ namespace System { class String; }
 #define KHLAFMBONNK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E848E00)
 #define KHLAFMBONNK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E848E60)
 
+inline static constexpr unsigned int KHLAFMBONNK_TypeDefinitionIndex = 27182;
+
 	class KHLAFMBONNK : public ::System::Object
 	{
 	public:

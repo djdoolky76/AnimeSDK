@@ -41,6 +41,8 @@ namespace System { class String; }
 #define APHKOFKECCK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E675B10)
 #define APHKOFKECCK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E675B70)
 
+inline static constexpr unsigned int APHKOFKECCK_TypeDefinitionIndex = 27821;
+
 	class APHKOFKECCK : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define BOEGLNNBNOC_CTOR_OFFSET UNITYSDK_OFFSET(0xC18F620)
 #define BOEGLNNBNOC_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC18F650)
 
+inline static constexpr unsigned int BOEGLNNBNOC_TypeDefinitionIndex = 53925;
+
 	class BOEGLNNBNOC
 	{
 	public:

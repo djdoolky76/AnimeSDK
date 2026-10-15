@@ -4,6 +4,8 @@
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int VRTextureWithPose_t_TypeDefinitionIndex = 39279;
+
 	struct alignas(4) VRTextureWithPose_t
 	{
 		::ZenFulcrum::VR::OpenVRBinding::HmdMatrix34_t mDeviceToAbsoluteTracking; // 0x10

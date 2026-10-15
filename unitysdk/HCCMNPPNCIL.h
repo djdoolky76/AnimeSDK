@@ -21,6 +21,8 @@ namespace System { class Object; }
 #define HCCMNPPNCIL_KOCKKEIPIDM_OFFSET UNITYSDK_OFFSET(0x3C39860)
 #define HCCMNPPNCIL_NHCFLDCDLCP_OFFSET UNITYSDK_OFFSET(0x1CE8B790)
 
+inline static constexpr unsigned int HCCMNPPNCIL_TypeDefinitionIndex = 10663;
+
 	struct alignas(8) HCCMNPPNCIL
 	{
 		::LELCKJPOPAO* BEHHICMOFIE; // 0x10

@@ -7,6 +7,8 @@ namespace System { class String; }
 #define DMGNMNNDEDE_CTOR_OFFSET UNITYSDK_OFFSET(0xFEC01C0)
 #define DMGNMNNDEDE_EQUALS_OFFSET UNITYSDK_OFFSET(0xFEC0130)
 
+inline static constexpr unsigned int DMGNMNNDEDE_TypeDefinitionIndex = 66129;
+
 	class DMGNMNNDEDE : public ::System::Object
 	{
 	public:

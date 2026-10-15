@@ -31,6 +31,8 @@ namespace System { class String; }
 #define NFIDNDFHJGN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB02850)
 #define NFIDNDFHJGN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB028B0)
 
+inline static constexpr unsigned int NFIDNDFHJGN_TypeDefinitionIndex = 29625;
+
 	class NFIDNDFHJGN : public ::System::Object
 	{
 	public:

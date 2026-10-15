@@ -10,6 +10,8 @@ namespace RPG::GameCore { class UITriggerMonopolyModifier; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int UITriggerMonopolyModifier_TypeDefinitionIndex = 21725;
+
 	class UITriggerMonopolyModifier : public ::RPG::GameCore::TaskConfig
 	{
 	public:

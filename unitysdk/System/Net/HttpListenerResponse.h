@@ -38,6 +38,8 @@ namespace System::Text { class Encoding; }
 
 namespace System::Net
 {
+	inline static constexpr unsigned int HttpListenerResponse_TypeDefinitionIndex = 2854;
+
 	class HttpListenerResponse : public ::System::Object
 	{
 	public:

@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AssistWayPointTimelineStateCondition_TypeDefinitionIndex = 19001;
+
 	class AssistWayPointTimelineStateCondition : public ::RPG::GameCore::AssistWayPointCondition
 	{
 	public:

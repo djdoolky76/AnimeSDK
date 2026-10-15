@@ -8,6 +8,8 @@ namespace System::Collections { class ListDictionaryInternal_DictionaryNode; }
 
 namespace System::Collections
 {
+	inline static constexpr unsigned int ListDictionaryInternal_DictionaryNode_TypeDefinitionIndex = 1494;
+
 	class ListDictionaryInternal_DictionaryNode : public ::System::Object
 	{
 	public:

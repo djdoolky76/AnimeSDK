@@ -7,6 +7,8 @@ namespace UnityEngine { class Texture2D; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TextureReplaceItem_TypeDefinitionIndex = 70736;
+
 	class TextureReplaceItem : public ::System::Object
 	{
 	public:

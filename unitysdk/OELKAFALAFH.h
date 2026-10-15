@@ -11,6 +11,8 @@ namespace RPG::Client { class MonoInflatableFighter; }
 #define OELKAFALAFH_KHJNHDOJDDP_OFFSET UNITYSDK_OFFSET(0xBE320E0)
 #define OELKAFALAFH_KKOFJAJIKHI_OFFSET UNITYSDK_OFFSET(0xBE32190)
 
+inline static constexpr unsigned int OELKAFALAFH_TypeDefinitionIndex = 68685;
+
 	class OELKAFALAFH : public ::System::Object
 	{
 	public:

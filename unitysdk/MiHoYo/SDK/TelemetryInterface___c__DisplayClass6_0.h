@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int TelemetryInterface___c__DisplayClass6_0_TypeDefinitionIndex = 46573;
+
 	class TelemetryInterface___c__DisplayClass6_0 : public ::System::Object
 	{
 	public:

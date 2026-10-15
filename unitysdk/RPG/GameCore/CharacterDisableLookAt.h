@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CharacterDisableLookAt_TypeDefinitionIndex = 20867;
+
 	class CharacterDisableLookAt : public ::RPG::GameCore::TaskConfig
 	{
 	public:

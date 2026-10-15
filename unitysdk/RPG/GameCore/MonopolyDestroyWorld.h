@@ -10,6 +10,8 @@ namespace RPG::GameCore { class MonopolyDestroyWorld; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MonopolyDestroyWorld_TypeDefinitionIndex = 20934;
+
 	class MonopolyDestroyWorld : public ::RPG::GameCore::TaskConfig
 	{
 	public:

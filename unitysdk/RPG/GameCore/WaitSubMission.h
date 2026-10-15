@@ -10,6 +10,8 @@ namespace RPG::GameCore { class WaitSubMission; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaitSubMission_TypeDefinitionIndex = 21698;
+
 	class WaitSubMission : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -30,6 +30,8 @@ namespace System { class String; }
 #define KODDIJEAMHF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E8AF430)
 #define KODDIJEAMHF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E8AF490)
 
+inline static constexpr unsigned int KODDIJEAMHF_TypeDefinitionIndex = 34690;
+
 	class KODDIJEAMHF : public ::System::Object
 	{
 	public:

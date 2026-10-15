@@ -17,6 +17,8 @@ class KJCPCOELJAG;
 
 namespace RPG::Client::FateRin
 {
+	inline static constexpr unsigned int FateRinModule_TypeDefinitionIndex = 80631;
+
 	class FateRinModule : public ::RPG::Client::BaseModule
 	{
 	public:

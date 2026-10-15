@@ -26,6 +26,8 @@ namespace UnityEngine { class CubemapArray; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int CubemapArray_TypeDefinitionIndex = 4201;
+
 	class CubemapArray : public ::UnityEngine::Texture
 	{
 	public:

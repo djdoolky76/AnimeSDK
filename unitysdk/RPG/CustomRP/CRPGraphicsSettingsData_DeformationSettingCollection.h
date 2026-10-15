@@ -7,6 +7,8 @@
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int CRPGraphicsSettingsData_DeformationSettingCollection_TypeDefinitionIndex = 37673;
+
 	class CRPGraphicsSettingsData_DeformationSettingCollection : public ::System::Object
 	{
 	public:

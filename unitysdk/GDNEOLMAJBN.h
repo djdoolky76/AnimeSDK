@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define GDNEOLMAJBN_FMINKHFIFAC_OFFSET UNITYSDK_OFFSET(0x159B7B40)
 #define GDNEOLMAJBN_GGHIDBNAJFA_OFFSET UNITYSDK_OFFSET(0x159B78C0)
 
+inline static constexpr unsigned int GDNEOLMAJBN_TypeDefinitionIndex = 54731;
+
 	class GDNEOLMAJBN
 	{
 	public:

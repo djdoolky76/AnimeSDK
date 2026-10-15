@@ -12,6 +12,8 @@ namespace System { class String; }
 #define CFAFCENLLLD_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xC9FB480)
 #define CFAFCENLLLD_INVOKE_OFFSET UNITYSDK_OFFSET(0xC9FB3E0)
 
+inline static constexpr unsigned int CFAFCENLLLD_TypeDefinitionIndex = 59536;
+
 	class CFAFCENLLLD : public ::System::MulticastDelegate
 	{
 	public:

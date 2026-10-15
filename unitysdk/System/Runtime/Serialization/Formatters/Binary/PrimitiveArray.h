@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace System::Runtime::Serialization::Formatters::Binary
 {
+	inline static constexpr unsigned int PrimitiveArray_TypeDefinitionIndex = 1200;
+
 	class PrimitiveArray : public ::System::Object
 	{
 	public:

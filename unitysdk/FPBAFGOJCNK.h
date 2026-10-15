@@ -19,6 +19,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define FPBAFGOJCNK_JGIONOJIDDB_OFFSET UNITYSDK_OFFSET(0x1590C180)
 #define FPBAFGOJCNK_PAKJHBKAKPB_OFFSET UNITYSDK_OFFSET(0x1590B800)
 
+inline static constexpr unsigned int FPBAFGOJCNK_TypeDefinitionIndex = 63906;
+
 	class FPBAFGOJCNK : public ::System::Object
 	{
 	public:

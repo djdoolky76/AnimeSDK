@@ -11,6 +11,8 @@ class OAKPPPHIOCN_ItemData;
 #define OAKPPPHIOCN_JHLKOCHCPMC_OFFSET UNITYSDK_OFFSET(0xBD29ED0)
 #define OAKPPPHIOCN_OAHDHIIHIDK_OFFSET UNITYSDK_OFFSET(0xBD29AC0)
 
+inline static constexpr unsigned int OAKPPPHIOCN_TypeDefinitionIndex = 48865;
+
 	class OAKPPPHIOCN : public ::System::Object
 	{
 	public:

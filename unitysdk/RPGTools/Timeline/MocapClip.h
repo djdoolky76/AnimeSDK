@@ -17,6 +17,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int MocapClip_TypeDefinitionIndex = 48188;
+
 	class MocapClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

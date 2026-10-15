@@ -7,6 +7,8 @@ namespace System { class Action; }
 #define FKEGHFCBHIM_CTOR_OFFSET UNITYSDK_OFFSET(0x157EEA00)
 #define FKEGHFCBHIM_DMKJAJLNEBK_OFFSET UNITYSDK_OFFSET(0x157EEA10)
 
+inline static constexpr unsigned int FKEGHFCBHIM_TypeDefinitionIndex = 79709;
+
 	class FKEGHFCBHIM : public ::CKAAHMNPJPA
 	{
 	public:

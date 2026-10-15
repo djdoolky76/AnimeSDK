@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace System::IO
 {
+	inline static constexpr unsigned int SearchResult_TypeDefinitionIndex = 677;
+
 	class SearchResult : public ::System::Object
 	{
 	public:

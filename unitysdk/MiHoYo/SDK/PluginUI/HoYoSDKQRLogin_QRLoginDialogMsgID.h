@@ -3,6 +3,8 @@
 
 namespace MiHoYo::SDK::PluginUI
 {
+	inline static constexpr unsigned int HoYoSDKQRLogin_QRLoginDialogMsgID_TypeDefinitionIndex = 46771;
+
 	enum class HoYoSDKQRLogin_QRLoginDialogMsgID : ::System::Int32
 	{
 		QR_CODE_LOADING = 0,

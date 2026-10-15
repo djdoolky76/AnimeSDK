@@ -5,6 +5,8 @@ namespace R3 { template <typename T> class ReactiveProperty_1; }
 namespace RPG::Client { class ListView; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
+inline static constexpr unsigned int MGACEGEOEGH_TypeDefinitionIndex = 49790;
+
 	struct alignas(8) MGACEGEOEGH
 	{
 		::KBAFKOIJEMH JGAGHCKHGFK; // 0x0

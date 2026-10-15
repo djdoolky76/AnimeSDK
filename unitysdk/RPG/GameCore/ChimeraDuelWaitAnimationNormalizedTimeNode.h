@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ChimeraDuelWaitAnimationNormalizedTimeNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChimeraDuelWaitAnimationNormalizedTimeNode_TypeDefinitionIndex = 15948;
+
 	class ChimeraDuelWaitAnimationNormalizedTimeNode : public ::RPG::GameCore::BaseChimeraDuelNode
 	{
 	public:

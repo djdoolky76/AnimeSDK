@@ -4,6 +4,8 @@
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int MHYSDKC_ComboConfig_TypeDefinitionIndex = 46190;
+
 	class MHYSDKC_ComboConfig : public ::System::Object
 	{
 	public:

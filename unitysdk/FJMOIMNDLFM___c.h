@@ -9,6 +9,8 @@ namespace System { template <typename T> class Comparison_1; }
 #define FJMOIMNDLFM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x157DA8B0)
 #define FJMOIMNDLFM___C___SELECTLOADINGSTRATEGYBYCONDITION_B__7_0_OFFSET UNITYSDK_OFFSET(0x157DA8C0)
 
+inline static constexpr unsigned int FJMOIMNDLFM___c_TypeDefinitionIndex = 60464;
+
 	class FJMOIMNDLFM___c : public ::System::Object
 	{
 	public:

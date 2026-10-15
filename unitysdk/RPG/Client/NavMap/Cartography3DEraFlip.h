@@ -27,6 +27,8 @@ namespace System { class String; }
 
 namespace RPG::Client::NavMap
 {
+	inline static constexpr unsigned int Cartography3DEraFlip_TypeDefinitionIndex = 74507;
+
 	class Cartography3DEraFlip : public ::RPG::Client::NavMap::Cartography3DBase
 	{
 	public:

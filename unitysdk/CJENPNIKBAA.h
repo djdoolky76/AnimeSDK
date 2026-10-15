@@ -4,6 +4,8 @@
 
 #define CJENPNIKBAA_CTOR_OFFSET UNITYSDK_OFFSET(0xD2023B0)
 
+inline static constexpr unsigned int CJENPNIKBAA_TypeDefinitionIndex = 81996;
+
 	class CJENPNIKBAA : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@
 #define MPFEJOJKKFL_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C92E320)
 #define MPFEJOJKKFL_CTOR_OFFSET UNITYSDK_OFFSET(0x1C92E3D0)
 
+inline static constexpr unsigned int MPFEJOJKKFL_TypeDefinitionIndex = 43531;
+
 	class MPFEJOJKKFL : public ::OKPFLOFNBJC
 	{
 	public:

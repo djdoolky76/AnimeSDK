@@ -18,6 +18,8 @@ namespace System { class String; }
 #define GKOGPFKEOEI_PPGMPEMDMHC_OFFSET UNITYSDK_OFFSET(0x15AA8190)
 #define GKOGPFKEOEI_SET_INTERVIEWCONTENTID_OFFSET UNITYSDK_OFFSET(0x15AA8420)
 
+inline static constexpr unsigned int GKOGPFKEOEI_TypeDefinitionIndex = 80284;
+
 	class GKOGPFKEOEI : public ::System::Object
 	{
 	public:

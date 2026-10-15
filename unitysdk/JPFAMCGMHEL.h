@@ -11,6 +11,8 @@
 #define JPFAMCGMHEL_SET_EXPECTEDVALUE_OFFSET UNITYSDK_OFFSET(0xB2BCA20)
 #define JPFAMCGMHEL_SET_INITIALVALUE_OFFSET UNITYSDK_OFFSET(0xB2BC9E0)
 
+inline static constexpr unsigned int JPFAMCGMHEL_TypeDefinitionIndex = 77853;
+
 	class JPFAMCGMHEL : public ::System::Object
 	{
 	public:

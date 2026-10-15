@@ -16,6 +16,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FateGameBattleZoneInfo_TypeDefinitionIndex = 64029;
+
 	class FateGameBattleZoneInfo : public ::System::Object
 	{
 	public:

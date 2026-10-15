@@ -7,6 +7,8 @@ namespace System { class Type; }
 
 namespace AOT
 {
+	inline static constexpr unsigned int MonoPInvokeCallbackAttribute_TypeDefinitionIndex = 3916;
+
 	class MonoPInvokeCallbackAttribute : public ::System::Attribute
 	{
 	public:

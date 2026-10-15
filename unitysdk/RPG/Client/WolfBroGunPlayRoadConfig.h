@@ -7,6 +7,8 @@ namespace RPG::Client { class WolfBroGunPlayTargetActionConfig; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int WolfBroGunPlayRoadConfig_TypeDefinitionIndex = 68749;
+
 	class WolfBroGunPlayRoadConfig : public ::UnityEngine::ScriptableObject
 	{
 	public:

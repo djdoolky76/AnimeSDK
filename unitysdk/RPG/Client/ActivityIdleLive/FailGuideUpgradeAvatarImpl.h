@@ -11,6 +11,8 @@
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int FailGuideUpgradeAvatarImpl_TypeDefinitionIndex = 75388;
+
 	class FailGuideUpgradeAvatarImpl : public ::System::Object
 	{
 	public:

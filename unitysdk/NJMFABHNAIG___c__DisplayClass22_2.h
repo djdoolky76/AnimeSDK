@@ -9,6 +9,8 @@ namespace System { class Object; }
 #define NJMFABHNAIG___C__DISPLAYCLASS22_2__ASYNCREQUESTSTARTNODE_B__4_OFFSET UNITYSDK_OFFSET(0xBC1F050)
 #define NJMFABHNAIG___C__DISPLAYCLASS22_2__ASYNCREQUESTSTARTNODE_B__5_OFFSET UNITYSDK_OFFSET(0xBC1F1C0)
 
+inline static constexpr unsigned int NJMFABHNAIG___c__DisplayClass22_2_TypeDefinitionIndex = 75155;
+
 	template <typename T1, typename T2>
 	class NJMFABHNAIG___c__DisplayClass22_2 : public ::System::Object
 	{

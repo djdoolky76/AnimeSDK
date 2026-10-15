@@ -9,6 +9,8 @@ namespace UnityEngine::Rendering::UI { class DebugUIHandlerWidget; }
 
 namespace UnityEngine::Rendering::UI
 {
+	inline static constexpr unsigned int DebugUIHandlerCanvas___c__DisplayClass13_0_TypeDefinitionIndex = 35677;
+
 	class DebugUIHandlerCanvas___c__DisplayClass13_0 : public ::System::Object
 	{
 	public:

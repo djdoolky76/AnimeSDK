@@ -10,6 +10,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RaidCollectionActivityUtils_TypeDefinitionIndex = 66766;
+
 	class RaidCollectionActivityUtils : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System { class String; }
 #define AELPODDGDHG_GET_TYPE_OFFSET UNITYSDK_OFFSET(0xCF02CD0)
 #define AELPODDGDHG_JAILHGGFLDH_OFFSET UNITYSDK_OFFSET(0xCF02CE0)
 
+inline static constexpr unsigned int AELPODDGDHG_TypeDefinitionIndex = 56137;
+
 	class AELPODDGDHG : public ::DBGDNLLDPFI
 	{
 	public:

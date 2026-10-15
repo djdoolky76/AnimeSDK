@@ -33,6 +33,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AimSolverAimer_TypeDefinitionIndex = 68432;
+
 	class AimSolverAimer : public ::System::Object
 	{
 	public:

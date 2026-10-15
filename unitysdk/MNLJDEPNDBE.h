@@ -12,6 +12,8 @@ namespace System { class Object; }
 #define MNLJDEPNDBE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C74FFB0)
 #define MNLJDEPNDBE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C74FEF0)
 
+inline static constexpr unsigned int MNLJDEPNDBE_TypeDefinitionIndex = 36259;
+
 	class MNLJDEPNDBE : public ::System::MulticastDelegate
 	{
 	public:

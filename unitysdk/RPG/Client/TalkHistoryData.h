@@ -29,6 +29,8 @@ namespace RPG::Client { class TalkHistoryData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TalkHistoryData_TypeDefinitionIndex = 68031;
+
 	class TalkHistoryData : public ::System::Object
 	{
 	public:

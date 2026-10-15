@@ -33,6 +33,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int HDROutputSettings_TypeDefinitionIndex = 4130;
+
 	class HDROutputSettings : public ::System::Object
 	{
 	public:

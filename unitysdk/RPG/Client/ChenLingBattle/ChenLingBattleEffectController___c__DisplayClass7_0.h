@@ -10,6 +10,8 @@ namespace System { class Action; }
 
 namespace RPG::Client::ChenLingBattle
 {
+	inline static constexpr unsigned int ChenLingBattleEffectController___c__DisplayClass7_0_TypeDefinitionIndex = 76404;
+
 	class ChenLingBattleEffectController___c__DisplayClass7_0 : public ::System::Object
 	{
 	public:

@@ -14,6 +14,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AddFinishMissionData_SelectConsumeItem_TypeDefinitionIndex = 21575;
+
 	class AddFinishMissionData_SelectConsumeItem : public ::RPG::GameCore::TaskConfig
 	{
 	public:

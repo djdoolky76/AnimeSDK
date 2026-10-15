@@ -122,6 +122,8 @@ namespace System { class String; }
 #define LCCJKNEADPL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E8E4FD0)
 #define LCCJKNEADPL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E8E5030)
 
+inline static constexpr unsigned int LCCJKNEADPL_TypeDefinitionIndex = 25653;
+
 	class LCCJKNEADPL : public ::System::Object
 	{
 	public:

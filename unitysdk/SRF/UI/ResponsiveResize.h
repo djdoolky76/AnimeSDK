@@ -8,6 +8,8 @@ namespace System { class Object; }
 
 namespace SRF::UI
 {
+	inline static constexpr unsigned int ResponsiveResize_TypeDefinitionIndex = 35387;
+
 	class ResponsiveResize : public ::SRF::UI::ResponsiveBase
 	{
 	public:

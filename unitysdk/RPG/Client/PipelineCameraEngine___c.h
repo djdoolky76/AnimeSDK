@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PipelineCameraEngine___c_TypeDefinitionIndex = 69717;
+
 	class PipelineCameraEngine___c : public ::System::Object
 	{
 	public:

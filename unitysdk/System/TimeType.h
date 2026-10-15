@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace System
 {
+	inline static constexpr unsigned int TimeType_TypeDefinitionIndex = 436;
+
 	class TimeType : public ::System::Object
 	{
 	public:

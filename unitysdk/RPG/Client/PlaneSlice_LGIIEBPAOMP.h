@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PlaneSlice_LGIIEBPAOMP_TypeDefinitionIndex = 70699;
+
 	struct alignas(4) PlaneSlice_LGIIEBPAOMP
 	{
 		::System::Int32 HBBBLAMDEFF; // 0x10

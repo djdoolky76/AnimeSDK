@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int GPNGEMMFFAK_TypeDefinitionIndex = 30642;
+
 	enum class GPNGEMMFFAK : ::System::Int32
 	{
 		NLCDGIPGFDJ = 0,

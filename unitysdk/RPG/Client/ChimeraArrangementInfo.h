@@ -56,6 +56,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChimeraArrangementInfo_TypeDefinitionIndex = 63402;
+
 	class ChimeraArrangementInfo : public ::System::Object
 	{
 	public:

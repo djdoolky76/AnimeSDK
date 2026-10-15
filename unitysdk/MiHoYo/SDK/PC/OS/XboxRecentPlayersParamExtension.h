@@ -7,6 +7,8 @@ namespace MiHoYo::SDK::PC::OS { class XboxRecentPlayerEntry; }
 
 namespace MiHoYo::SDK::PC::OS
 {
+	inline static constexpr unsigned int XboxRecentPlayersParamExtension_TypeDefinitionIndex = 8676;
+
 	class XboxRecentPlayersParamExtension : public ::System::Object
 	{
 	public:

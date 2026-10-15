@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore::Booklet
 {
+	inline static constexpr unsigned int SectionSynopsis_TypeDefinitionIndex = 24960;
+
 	class SectionSynopsis : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -17,6 +17,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int Remodifier_TypeDefinitionIndex = 23628;
+
 	class Remodifier : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -27,6 +27,8 @@ namespace System { class String; }
 #define PLOBOMJLAPE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DFA4260)
 #define PLOBOMJLAPE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DFA42C0)
 
+inline static constexpr unsigned int PLOBOMJLAPE_TypeDefinitionIndex = 26366;
+
 	class PLOBOMJLAPE : public ::System::Object
 	{
 	public:

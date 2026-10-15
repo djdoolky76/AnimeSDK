@@ -22,6 +22,8 @@ namespace UnityEngine { class Transform; }
 #define PCGKKAMOHBE_OPOCHDENOHL_OFFSET UNITYSDK_OFFSET(0xC0003B0)
 #define PCGKKAMOHBE__ONBIND_OFFSET UNITYSDK_OFFSET(0xBFFFBB0)
 
+inline static constexpr unsigned int PCGKKAMOHBE_TypeDefinitionIndex = 71609;
+
 	class PCGKKAMOHBE : public ::FMPCODLIOLG
 	{
 	public:

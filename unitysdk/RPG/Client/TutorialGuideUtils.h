@@ -69,6 +69,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TutorialGuideUtils_TypeDefinitionIndex = 68210;
+
 	class TutorialGuideUtils : public ::System::Object
 	{
 	public:

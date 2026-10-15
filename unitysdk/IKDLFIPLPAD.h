@@ -10,6 +10,8 @@ class ODCELNBAEIB;
 #define IKDLFIPLPAD_KAGICIAJEEA_OFFSET UNITYSDK_OFFSET(0x16484A00)
 #define IKDLFIPLPAD_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0x164848E0)
 
+inline static constexpr unsigned int IKDLFIPLPAD_TypeDefinitionIndex = 79089;
+
 	class IKDLFIPLPAD : public ::System::Object
 	{
 	public:

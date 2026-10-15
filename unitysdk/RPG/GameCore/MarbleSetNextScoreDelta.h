@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MarbleSetNextScoreDelta_TypeDefinitionIndex = 16861;
+
 	class MarbleSetNextScoreDelta : public ::RPG::GameCore::MarbleTaskConfig
 	{
 	public:

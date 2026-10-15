@@ -8,6 +8,8 @@ namespace RPG::AvatarSystem { class IAvatar; }
 #define GEGEEDOOOCC_HFIDHKKOEOA_OFFSET UNITYSDK_OFFSET(0x159D5100)
 #define GEGEEDOOOCC_JAGPJGOOALH_OFFSET UNITYSDK_OFFSET(0x159D50B0)
 
+inline static constexpr unsigned int GEGEEDOOOCC_TypeDefinitionIndex = 65591;
+
 	class GEGEEDOOOCC : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define MAOPBKPKCEK_JLCPCOLBPIF_OFFSET UNITYSDK_OFFSET(0xB856B20)
 #define MAOPBKPKCEK_NJCMKMCGHGI_OFFSET UNITYSDK_OFFSET(0xB856C40)
 
+inline static constexpr unsigned int MAOPBKPKCEK_TypeDefinitionIndex = 62022;
+
 	class MAOPBKPKCEK : public ::System::Object
 	{
 	public:

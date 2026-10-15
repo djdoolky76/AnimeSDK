@@ -39,6 +39,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int NishastagaTriggerV2_TypeDefinitionIndex = 78961;
+
 	class NishastagaTriggerV2 : public ::UnityEngine::MonoBehaviour
 	{
 	public:

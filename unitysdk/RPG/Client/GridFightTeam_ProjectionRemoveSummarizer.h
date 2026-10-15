@@ -7,6 +7,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightTeam_ProjectionRemoveSummarizer_TypeDefinitionIndex = 65157;
+
 	class GridFightTeam_ProjectionRemoveSummarizer : public ::AMCOEFHHBPO
 	{
 	public:

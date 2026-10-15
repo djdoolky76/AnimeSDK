@@ -5,6 +5,8 @@ namespace RPG::GameCore { class SomatoCommonCameraConfig; }
 
 #define PFBOPCJOKDO_CTOR_OFFSET UNITYSDK_OFFSET(0xC207600)
 
+inline static constexpr unsigned int PFBOPCJOKDO_TypeDefinitionIndex = 56490;
+
 	class PFBOPCJOKDO : public ::System::Object
 	{
 	public:

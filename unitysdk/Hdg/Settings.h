@@ -7,6 +7,8 @@
 
 namespace Hdg
 {
+	inline static constexpr unsigned int Settings_TypeDefinitionIndex = 46946;
+
 	class Settings : public ::System::Object
 	{
 	public:

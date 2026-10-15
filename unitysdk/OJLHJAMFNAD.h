@@ -10,6 +10,8 @@ namespace System { class Object; }
 #define OJLHJAMFNAD_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC8AE80)
 #define OJLHJAMFNAD_KEBEIGGJIPA_OFFSET UNITYSDK_OFFSET(0x1EC8AE90)
 
+inline static constexpr unsigned int OJLHJAMFNAD_TypeDefinitionIndex = 44313;
+
 	class OJLHJAMFNAD : public ::System::Object
 	{
 	public:

@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StageIslandConfig_TypeDefinitionIndex = 19131;
+
 	class StageIslandConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

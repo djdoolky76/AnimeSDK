@@ -28,6 +28,8 @@ namespace System::Collections::Generic { template <typename T> class Queue_1; }
 #define IKEGOBMEPID_SET_PARALLELNAME_OFFSET UNITYSDK_OFFSET(0x16485C20)
 #define IKEGOBMEPID_TOSTRING_OFFSET UNITYSDK_OFFSET(0x16486A80)
 
+inline static constexpr unsigned int IKEGOBMEPID_TypeDefinitionIndex = 71116;
+
 	class IKEGOBMEPID : public ::System::Object
 	{
 	public:

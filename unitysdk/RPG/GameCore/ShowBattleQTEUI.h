@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ShowBattleQTEUI; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ShowBattleQTEUI_TypeDefinitionIndex = 23346;
+
 	class ShowBattleQTEUI : public ::RPG::GameCore::TaskConfig
 	{
 	public:

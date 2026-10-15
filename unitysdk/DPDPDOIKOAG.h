@@ -11,6 +11,8 @@ namespace RPG::AvatarSystem { class Avatar; }
 #define DPDPDOIKOAG_CTOR_OFFSET UNITYSDK_OFFSET(0x11FFAE40)
 #define DPDPDOIKOAG_LGAHHFJDAJD_OFFSET UNITYSDK_OFFSET(0x11FFB040)
 
+inline static constexpr unsigned int DPDPDOIKOAG_TypeDefinitionIndex = 62538;
+
 	class DPDPDOIKOAG : public ::System::Object
 	{
 	public:

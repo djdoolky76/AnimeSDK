@@ -7,6 +7,8 @@ namespace RPGTools::Octree::Generation { class OctreeData; }
 
 namespace RPGTools::Octree::Generation
 {
+	inline static constexpr unsigned int OctreeAsset_TypeDefinitionIndex = 48874;
+
 	class OctreeAsset : public ::UnityEngine::ScriptableObject
 	{
 	public:

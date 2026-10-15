@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TriggerBlendShapesEmotion_TypeDefinitionIndex = 21890;
+
 	class TriggerBlendShapesEmotion : public ::RPG::GameCore::TaskConfig
 	{
 	public:

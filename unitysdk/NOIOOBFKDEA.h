@@ -7,6 +7,8 @@ class IFFJIHFGOBO;
 #define NOIOOBFKDEA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C961F30)
 #define NOIOOBFKDEA_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0x1C9761F0)
 
+inline static constexpr unsigned int NOIOOBFKDEA_TypeDefinitionIndex = 43062;
+
 	class NOIOOBFKDEA : public ::IKNAEDLKKKE
 	{
 	public:

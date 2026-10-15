@@ -9,6 +9,8 @@
 
 namespace JetBrains::Annotations
 {
+	inline static constexpr unsigned int UsedImplicitlyAttribute_TypeDefinitionIndex = 4010;
+
 	class UsedImplicitlyAttribute : public ::System::Attribute
 	{
 	public:

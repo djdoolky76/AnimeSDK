@@ -22,6 +22,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelPerformanceInitialize_TypeDefinitionIndex = 21856;
+
 	class LevelPerformanceInitialize : public ::RPG::GameCore::TaskConfig
 	{
 	public:

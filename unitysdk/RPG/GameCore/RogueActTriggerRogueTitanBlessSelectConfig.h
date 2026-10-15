@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueActTriggerRogueTitanBlessSelectConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueActTriggerRogueTitanBlessSelectConfig_TypeDefinitionIndex = 19699;
+
 	class RogueActTriggerRogueTitanBlessSelectConfig : public ::RPG::GameCore::RogueActionConfigBase
 	{
 	public:

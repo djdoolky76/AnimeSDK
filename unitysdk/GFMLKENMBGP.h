@@ -27,6 +27,8 @@ namespace System { class String; }
 #define GFMLKENMBGP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E472910)
 #define GFMLKENMBGP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E472970)
 
+inline static constexpr unsigned int GFMLKENMBGP_TypeDefinitionIndex = 30388;
+
 	class GFMLKENMBGP : public ::System::Object
 	{
 	public:

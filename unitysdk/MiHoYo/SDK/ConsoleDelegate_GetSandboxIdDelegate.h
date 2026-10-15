@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int ConsoleDelegate_GetSandboxIdDelegate_TypeDefinitionIndex = 7672;
+
 	class ConsoleDelegate_GetSandboxIdDelegate : public ::System::MulticastDelegate
 	{
 	public:

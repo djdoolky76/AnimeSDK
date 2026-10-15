@@ -28,6 +28,8 @@ namespace System { class String; }
 #define EMEEKFKDPFD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E2DF750)
 #define EMEEKFKDPFD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E2DF7B0)
 
+inline static constexpr unsigned int EMEEKFKDPFD_TypeDefinitionIndex = 34772;
+
 	class EMEEKFKDPFD : public ::System::Object
 	{
 	public:

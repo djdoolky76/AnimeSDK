@@ -77,6 +77,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define AKOBFMCEJKL_SET_DRAGPOINTDELTA_OFFSET UNITYSDK_OFFSET(0x12CDEC90)
 #define AKOBFMCEJKL_SET_ISSCREENPOINTERDOWN_OFFSET UNITYSDK_OFFSET(0x12CDEC70)
 
+inline static constexpr unsigned int AKOBFMCEJKL_TypeDefinitionIndex = 72355;
+
 	class AKOBFMCEJKL : public ::System::Object
 	{
 	public:

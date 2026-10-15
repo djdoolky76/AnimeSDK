@@ -9,6 +9,8 @@ namespace System { class Object; }
 
 namespace Newtonsoft::Json::Serialization
 {
+	inline static constexpr unsigned int JsonSerializerInternalBase_ReferenceEqualsEqualityComparer_TypeDefinitionIndex = 9734;
+
 	class JsonSerializerInternalBase_ReferenceEqualsEqualityComparer : public ::System::Object
 	{
 	public:

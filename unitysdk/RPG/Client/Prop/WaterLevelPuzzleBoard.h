@@ -10,6 +10,8 @@
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int WaterLevelPuzzleBoard_TypeDefinitionIndex = 78854;
+
 	class WaterLevelPuzzleBoard : public ::RPG::Client::Prop::BoxmanPuzzleBoard
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int OverrideSkillReadyCamera_TypeDefinitionIndex = 22837;
+
 	class OverrideSkillReadyCamera : public ::RPG::GameCore::TaskConfig
 	{
 	public:

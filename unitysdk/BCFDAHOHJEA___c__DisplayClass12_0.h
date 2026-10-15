@@ -7,6 +7,8 @@ class LJABAMCMDLI;
 #define BCFDAHOHJEA___C__DISPLAYCLASS12_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15EA5FB0)
 #define BCFDAHOHJEA___C__DISPLAYCLASS12_0__SETUPVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x15EA64C0)
 
+inline static constexpr unsigned int BCFDAHOHJEA___c__DisplayClass12_0_TypeDefinitionIndex = 71493;
+
 	class BCFDAHOHJEA___c__DisplayClass12_0 : public ::System::Object
 	{
 	public:

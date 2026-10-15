@@ -12,6 +12,8 @@
 
 namespace RPG
 {
+	inline static constexpr unsigned int ReferencePoolComponent_TypeDefinitionIndex = 51713;
+
 	class ReferencePoolComponent : public ::UnityEngine::MonoBehaviour
 	{
 	public:

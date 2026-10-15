@@ -9,6 +9,8 @@ namespace RPG::Client { class CurveUndirectedEdge; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoCurveUndirectedGraph___c__DisplayClass7_1_TypeDefinitionIndex = 68578;
+
 	template <typename T>
 	class MonoCurveUndirectedGraph___c__DisplayClass7_1 : public ::System::Object
 	{

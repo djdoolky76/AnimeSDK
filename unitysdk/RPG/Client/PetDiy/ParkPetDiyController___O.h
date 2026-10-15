@@ -6,6 +6,8 @@ namespace System { class Action; }
 
 namespace RPG::Client::PetDiy
 {
+	inline static constexpr unsigned int ParkPetDiyController___O_TypeDefinitionIndex = 74477;
+
 	class ParkPetDiyController___O : public ::System::Object
 	{
 	public:

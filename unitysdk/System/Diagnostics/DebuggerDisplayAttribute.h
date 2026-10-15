@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace System::Diagnostics
 {
+	inline static constexpr unsigned int DebuggerDisplayAttribute_TypeDefinitionIndex = 1581;
+
 	class DebuggerDisplayAttribute : public ::System::Attribute
 	{
 	public:

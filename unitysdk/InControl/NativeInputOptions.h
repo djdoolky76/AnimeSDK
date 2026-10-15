@@ -3,6 +3,8 @@
 
 namespace InControl
 {
+	inline static constexpr unsigned int NativeInputOptions_TypeDefinitionIndex = 40871;
+
 	struct alignas(4) NativeInputOptions
 	{
 		::System::UInt16 updateRate; // 0x10

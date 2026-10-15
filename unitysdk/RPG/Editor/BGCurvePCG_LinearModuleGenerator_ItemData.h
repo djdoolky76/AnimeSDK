@@ -9,6 +9,8 @@
 
 namespace RPG::Editor
 {
+	inline static constexpr unsigned int BGCurvePCG_LinearModuleGenerator_ItemData_TypeDefinitionIndex = 52026;
+
 	class BGCurvePCG_LinearModuleGenerator_ItemData : public ::System::Object
 	{
 	public:

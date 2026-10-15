@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define DNMIKPBMABO_GEJNOLBPEBO_OFFSET UNITYSDK_OFFSET(0x11FD9310)
 #define DNMIKPBMABO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x11FD8F20)
 
+inline static constexpr unsigned int DNMIKPBMABO_TypeDefinitionIndex = 55336;
+
 	class DNMIKPBMABO
 	{
 	public:

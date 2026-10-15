@@ -12,6 +12,8 @@ namespace System { class Object; }
 #define IEBGGIJGJLL_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C692C20)
 #define IEBGGIJGJLL_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C692BD0)
 
+inline static constexpr unsigned int IEBGGIJGJLL_TypeDefinitionIndex = 36241;
+
 	class IEBGGIJGJLL : public ::System::MulticastDelegate
 	{
 	public:

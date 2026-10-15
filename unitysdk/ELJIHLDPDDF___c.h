@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define ELJIHLDPDDF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E2D4550)
 #define ELJIHLDPDDF___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1E2D4560)
 
+inline static constexpr unsigned int ELJIHLDPDDF___c_TypeDefinitionIndex = 33795;
+
 	class ELJIHLDPDDF___c : public ::System::Object
 	{
 	public:

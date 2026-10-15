@@ -63,6 +63,8 @@ namespace UnityEngine::UI { class SmoothMask; }
 #define LFBLEFCCFIH__ONBIND_OFFSET UNITYSDK_OFFSET(0xB660660)
 #define LFBLEFCCFIH__ONTICK_OFFSET UNITYSDK_OFFSET(0xB660F20)
 
+inline static constexpr unsigned int LFBLEFCCFIH_TypeDefinitionIndex = 72330;
+
 	class LFBLEFCCFIH : public ::FMPCODLIOLG
 	{
 	public:

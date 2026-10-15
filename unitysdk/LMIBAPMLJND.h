@@ -16,6 +16,8 @@ namespace System { class Action; }
 #define LMIBAPMLJND_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0xB783AC0)
 #define LMIBAPMLJND_SET_ISFINISHED_OFFSET UNITYSDK_OFFSET(0xB784980)
 
+inline static constexpr unsigned int LMIBAPMLJND_TypeDefinitionIndex = 78441;
+
 	class LMIBAPMLJND : public ::System::Object
 	{
 	public:

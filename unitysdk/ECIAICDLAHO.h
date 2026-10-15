@@ -11,6 +11,8 @@ namespace System { class Type; }
 #define ECIAICDLAHO_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1EC691D0)
 #define ECIAICDLAHO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EC69100)
 
+inline static constexpr unsigned int ECIAICDLAHO_TypeDefinitionIndex = 44281;
+
 	class ECIAICDLAHO : public ::System::Object
 	{
 	public:

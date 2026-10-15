@@ -10,6 +10,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoPamSkinProcessController_TypeDefinitionIndex = 72851;
+
 	class MonoPamSkinProcessController : public ::UnityEngine::MonoBehaviour
 	{
 	public:

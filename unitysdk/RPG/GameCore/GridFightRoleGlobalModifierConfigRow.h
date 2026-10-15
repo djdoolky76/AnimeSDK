@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightRoleGlobalModifierConfigRow_TypeDefinitionIndex = 13566;
+
 	class GridFightRoleGlobalModifierConfigRow : public ::System::Object
 	{
 	public:

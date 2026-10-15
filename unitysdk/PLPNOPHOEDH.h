@@ -32,6 +32,8 @@ namespace System { class String; }
 #define PLPNOPHOEDH_OHMHJFANEIF_OFFSET UNITYSDK_OFFSET(0xC310730)
 #define PLPNOPHOEDH_TICK_OFFSET UNITYSDK_OFFSET(0xC30E900)
 
+inline static constexpr unsigned int PLPNOPHOEDH_TypeDefinitionIndex = 61148;
+
 	class PLPNOPHOEDH : public ::RPG::Client::LoginPhase
 	{
 	public:

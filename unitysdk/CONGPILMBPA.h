@@ -9,6 +9,8 @@ class ICCKHJDEIJB;
 #define CONGPILMBPA_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DCBB180)
 #define CONGPILMBPA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DCBB010)
 
+inline static constexpr unsigned int CONGPILMBPA_TypeDefinitionIndex = 21062;
+
 	class CONGPILMBPA : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int GEOOCKILLEF_TypeDefinitionIndex = 32008;
+
 	enum class GEOOCKILLEF : ::System::Int32
 	{
 		DAJIEGLJFAK = 0,

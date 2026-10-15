@@ -15,6 +15,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::BlindBox::Pool::Ui
 {
+	inline static constexpr unsigned int StartPositionOffsetCompensationClipAsset_TypeDefinitionIndex = 74968;
+
 	class StartPositionOffsetCompensationClipAsset : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

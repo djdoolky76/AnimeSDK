@@ -41,6 +41,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int PageInfo_TypeDefinitionIndex = 46364;
+
 	class PageInfo : public ::System::Object
 	{
 	public:

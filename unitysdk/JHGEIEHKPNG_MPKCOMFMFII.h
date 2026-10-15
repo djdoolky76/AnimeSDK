@@ -8,6 +8,8 @@ namespace System { class Nullable; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace UnityEngine::Events { class UnityAction; }
 
+inline static constexpr unsigned int JHGEIEHKPNG_MPKCOMFMFII_TypeDefinitionIndex = 49877;
+
 	class JHGEIEHKPNG_MPKCOMFMFII : public ::System::Object
 	{
 	public:

@@ -14,6 +14,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByEntityOriginalEraConfig_TypeDefinitionIndex = 22335;
+
 	class ByEntityOriginalEraConfig : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

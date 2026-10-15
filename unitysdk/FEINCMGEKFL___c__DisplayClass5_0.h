@@ -7,6 +7,8 @@ class IFEABBJBIGK;
 #define FEINCMGEKFL___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15723830)
 #define FEINCMGEKFL___C__DISPLAYCLASS5_0___STARTCHILD_B__0_OFFSET UNITYSDK_OFFSET(0x15723BC0)
 
+inline static constexpr unsigned int FEINCMGEKFL___c__DisplayClass5_0_TypeDefinitionIndex = 80854;
+
 	class FEINCMGEKFL___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:

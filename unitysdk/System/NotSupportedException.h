@@ -13,6 +13,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System
 {
+	inline static constexpr unsigned int NotSupportedException_TypeDefinitionIndex = 305;
+
 	class NotSupportedException : public ::System::SystemException
 	{
 	public:

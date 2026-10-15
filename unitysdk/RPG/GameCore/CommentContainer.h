@@ -10,6 +10,8 @@ namespace RPG::GameCore { class CommentContainer; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CommentContainer_TypeDefinitionIndex = 22259;
+
 	class CommentContainer : public ::RPG::GameCore::TaskConfig
 	{
 	public:

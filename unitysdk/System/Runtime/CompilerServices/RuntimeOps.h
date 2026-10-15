@@ -13,6 +13,8 @@ namespace System::Dynamic { class ExpandoObject; }
 
 namespace System::Runtime::CompilerServices
 {
+	inline static constexpr unsigned int RuntimeOps_TypeDefinitionIndex = 3667;
+
 	class RuntimeOps : public ::System::Object
 	{
 	public:

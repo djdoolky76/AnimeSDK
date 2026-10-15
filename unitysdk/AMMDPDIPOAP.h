@@ -13,6 +13,8 @@ namespace System { class String; }
 #define AMMDPDIPOAP_KJNJBOBIJII_1_OFFSET UNITYSDK_OFFSET(0x1C594610)
 #define AMMDPDIPOAP_KJNJBOBIJII_OFFSET UNITYSDK_OFFSET(0x1C594540)
 
+inline static constexpr unsigned int AMMDPDIPOAP_TypeDefinitionIndex = 37199;
+
 	class AMMDPDIPOAP : public ::System::Object
 	{
 	public:

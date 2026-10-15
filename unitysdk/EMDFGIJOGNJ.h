@@ -12,6 +12,8 @@ namespace RPG::GameCore { class IdleLiveGiftRow; }
 #define EMDFGIJOGNJ_LKGAKJJNFAF_OFFSET UNITYSDK_OFFSET(0x15530B20)
 #define EMDFGIJOGNJ_OBIAKNEEBIC_OFFSET UNITYSDK_OFFSET(0x15531000)
 
+inline static constexpr unsigned int EMDFGIJOGNJ_TypeDefinitionIndex = 75340;
+
 	class EMDFGIJOGNJ : public ::System::Object
 	{
 	public:

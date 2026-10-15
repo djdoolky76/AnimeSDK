@@ -34,6 +34,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueTournPersonaRoomCardDeckInfo_TypeDefinitionIndex = 67740;
+
 	class RogueTournPersonaRoomCardDeckInfo : public ::System::Object
 	{
 	public:

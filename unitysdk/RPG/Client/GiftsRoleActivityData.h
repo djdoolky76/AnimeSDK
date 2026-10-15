@@ -11,6 +11,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GiftsRoleActivityData_TypeDefinitionIndex = 61629;
+
 	class GiftsRoleActivityData : public ::RPG::Client::ActivityPanelData
 	{
 	public:

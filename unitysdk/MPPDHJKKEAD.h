@@ -33,6 +33,8 @@ namespace System { class String; }
 #define MPPDHJKKEAD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EABBFA0)
 #define MPPDHJKKEAD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EABC000)
 
+inline static constexpr unsigned int MPPDHJKKEAD_TypeDefinitionIndex = 31537;
+
 	class MPPDHJKKEAD : public ::System::Object
 	{
 	public:

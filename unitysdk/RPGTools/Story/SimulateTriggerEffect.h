@@ -7,6 +7,8 @@ namespace RPG::GameCore { class TriggerEffectList; }
 
 namespace RPGTools::Story
 {
+	inline static constexpr unsigned int SimulateTriggerEffect_TypeDefinitionIndex = 48968;
+
 	class SimulateTriggerEffect : public ::RPGTools::Story::CapturePropConfig
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::Client::LimaoNews
 {
+	inline static constexpr unsigned int LimaoNewsPostZoomInViewModel_TypeDefinitionIndex = 80479;
+
 	class LimaoNewsPostZoomInViewModel : public ::Sofa::BaseViewModel
 	{
 	public:

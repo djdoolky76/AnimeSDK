@@ -27,6 +27,8 @@ namespace System { class String; }
 #define PLPGNCMHKHB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DFA78C0)
 #define PLPGNCMHKHB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DFA7920)
 
+inline static constexpr unsigned int PLPGNCMHKHB_TypeDefinitionIndex = 34019;
+
 	class PLPGNCMHKHB : public ::System::Object
 	{
 	public:

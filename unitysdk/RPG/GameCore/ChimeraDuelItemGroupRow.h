@@ -9,6 +9,8 @@ namespace RPG::GameCore { class ChimeraDuelItemGroupRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChimeraDuelItemGroupRow_TypeDefinitionIndex = 11143;
+
 	class ChimeraDuelItemGroupRow : public ::System::Object
 	{
 	public:

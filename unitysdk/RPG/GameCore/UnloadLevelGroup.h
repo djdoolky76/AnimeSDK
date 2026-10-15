@@ -10,6 +10,8 @@ namespace RPG::GameCore { class UnloadLevelGroup; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int UnloadLevelGroup_TypeDefinitionIndex = 20428;
+
 	class UnloadLevelGroup : public ::RPG::GameCore::TaskConfig
 	{
 	public:

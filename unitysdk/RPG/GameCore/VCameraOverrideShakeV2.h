@@ -11,6 +11,8 @@ namespace RPG::GameCore { class VCameraOverrideShakeV2; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int VCameraOverrideShakeV2_TypeDefinitionIndex = 16418;
+
 	class VCameraOverrideShakeV2 : public ::RPG::GameCore::JsonConfig
 	{
 	public:

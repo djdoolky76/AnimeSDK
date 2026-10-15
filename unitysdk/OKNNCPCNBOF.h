@@ -27,6 +27,8 @@ namespace UnityEngine { class AnimationCurve; }
 #define OKNNCPCNBOF_PLFDCONMOKD_OFFSET UNITYSDK_OFFSET(0xBEF01D0)
 #define OKNNCPCNBOF_PPEGOIODAKI_OFFSET UNITYSDK_OFFSET(0xBEF0980)
 
+inline static constexpr unsigned int OKNNCPCNBOF_TypeDefinitionIndex = 49507;
+
 	class OKNNCPCNBOF
 	{
 	public:

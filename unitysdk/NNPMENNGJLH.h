@@ -19,6 +19,8 @@ namespace System { class String; }
 #define NNPMENNGJLH_SET_STARTNAVAREA_OFFSET UNITYSDK_OFFSET(0xBCDF250)
 #define NNPMENNGJLH_SET_STARTNAVQUERYINFO_OFFSET UNITYSDK_OFFSET(0xBCDF230)
 
+inline static constexpr unsigned int NNPMENNGJLH_TypeDefinitionIndex = 74567;
+
 	class NNPMENNGJLH : public ::System::Exception
 	{
 	public:

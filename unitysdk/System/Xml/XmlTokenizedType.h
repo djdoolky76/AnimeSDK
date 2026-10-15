@@ -3,6 +3,8 @@
 
 namespace System::Xml
 {
+	inline static constexpr unsigned int XmlTokenizedType_TypeDefinitionIndex = 1937;
+
 	enum class XmlTokenizedType : ::System::Int32
 	{
 		CDATA = 0,

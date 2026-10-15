@@ -19,6 +19,8 @@ namespace UnityEngine::Timeline { class ActivationMixerPlayable; }
 
 namespace UnityEngine::Timeline
 {
+	inline static constexpr unsigned int ActivationMixerPlayable_TypeDefinitionIndex = 38764;
+
 	class ActivationMixerPlayable : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

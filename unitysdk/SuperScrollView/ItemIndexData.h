@@ -6,6 +6,8 @@
 
 namespace SuperScrollView
 {
+	inline static constexpr unsigned int ItemIndexData_TypeDefinitionIndex = 47675;
+
 	class ItemIndexData : public ::System::Object
 	{
 	public:

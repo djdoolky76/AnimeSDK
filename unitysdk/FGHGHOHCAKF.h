@@ -15,6 +15,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define FGHGHOHCAKF_SET_PARENTCONTEXT_OFFSET UNITYSDK_OFFSET(0x15762AE0)
 #define FGHGHOHCAKF__GETSELFINSTANCE_OFFSET UNITYSDK_OFFSET(0x15762AF0)
 
+inline static constexpr unsigned int FGHGHOHCAKF_TypeDefinitionIndex = 54775;
+
 	class FGHGHOHCAKF : public ::RPG::GameCore::TaskContext
 	{
 	public:

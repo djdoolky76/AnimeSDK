@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimStopDanmuAction_TypeDefinitionIndex = 18704;
+
 	class FiveDimStopDanmuAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
 	public:

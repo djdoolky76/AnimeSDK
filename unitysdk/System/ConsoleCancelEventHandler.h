@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace System
 {
+	inline static constexpr unsigned int ConsoleCancelEventHandler_TypeDefinitionIndex = 212;
+
 	class ConsoleCancelEventHandler : public ::System::MulticastDelegate
 	{
 	public:

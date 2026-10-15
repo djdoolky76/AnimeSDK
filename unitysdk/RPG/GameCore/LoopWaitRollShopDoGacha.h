@@ -10,6 +10,8 @@ namespace RPG::GameCore { class LoopWaitRollShopDoGacha; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LoopWaitRollShopDoGacha_TypeDefinitionIndex = 21214;
+
 	class LoopWaitRollShopDoGacha : public ::RPG::GameCore::TaskConfig
 	{
 	public:

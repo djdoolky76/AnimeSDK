@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TutorialWaitCustomString; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TutorialWaitCustomString_TypeDefinitionIndex = 24376;
+
 	class TutorialWaitCustomString : public ::RPG::GameCore::WaitCustomString
 	{
 	public:

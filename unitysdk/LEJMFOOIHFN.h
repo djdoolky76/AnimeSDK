@@ -29,6 +29,8 @@ namespace System { class String; }
 #define LEJMFOOIHFN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9345E0)
 #define LEJMFOOIHFN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E934640)
 
+inline static constexpr unsigned int LEJMFOOIHFN_TypeDefinitionIndex = 33986;
+
 	class LEJMFOOIHFN : public ::System::Object
 	{
 	public:

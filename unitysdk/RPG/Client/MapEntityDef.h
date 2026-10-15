@@ -40,6 +40,8 @@ namespace RPG::GameCore { class LevelGraphValueSource; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MapEntityDef_TypeDefinitionIndex = 62103;
+
 	class MapEntityDef : public ::System::Object
 	{
 	public:

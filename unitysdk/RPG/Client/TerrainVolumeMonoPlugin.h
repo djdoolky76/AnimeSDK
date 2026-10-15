@@ -11,6 +11,8 @@ namespace UnityEngine { class Texture2D; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TerrainVolumeMonoPlugin_TypeDefinitionIndex = 71035;
+
 	class TerrainVolumeMonoPlugin
 	{
 	public:

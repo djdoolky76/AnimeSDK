@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TriggerPamActionPhaseDone; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TriggerPamActionPhaseDone_TypeDefinitionIndex = 20033;
+
 	class TriggerPamActionPhaseDone : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -27,6 +27,8 @@ namespace System { class Object; }
 
 namespace IFix
 {
+	inline static constexpr unsigned int ILFixInterfaceBridge_EBC751F5E8C2B8F3_TypeDefinitionIndex = 41917;
+
 	class ILFixInterfaceBridge_EBC751F5E8C2B8F3 : public ::IFix::Core::AnonymousStorey
 	{
 	public:

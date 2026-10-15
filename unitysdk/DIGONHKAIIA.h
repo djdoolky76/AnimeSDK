@@ -7,6 +7,8 @@ namespace RPG::GameCore { class MarbleByDefenderFaction; }
 #define DIGONHKAIIA_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA2A8A0)
 #define DIGONHKAIIA_KHNFOOKHOJF_OFFSET UNITYSDK_OFFSET(0x1CA2A8C0)
 
+inline static constexpr unsigned int DIGONHKAIIA_TypeDefinitionIndex = 43141;
+
 	class DIGONHKAIIA : public ::LHJPMDPJPEC
 	{
 	public:

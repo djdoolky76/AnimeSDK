@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierChangePropDestructGenerateNumberCon
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierChangePropDestructGenerateNumberConfig_TypeDefinitionIndex = 17973;
+
 	class RogueModifierChangePropDestructGenerateNumberConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System { class Object; }
 #define GKCNCLIOFDA_GGAIDJKMAKP_GET_DEFINITION_OFFSET UNITYSDK_OFFSET(0x1D30)
 #define GKCNCLIOFDA_GGAIDJKMAKP_GET_PARTICIPANTS_OFFSET UNITYSDK_OFFSET(0x1D40)
 
+inline static constexpr unsigned int GKCNCLIOFDA_GGAIDJKMAKP_TypeDefinitionIndex = 53531;
+
 	struct alignas(8) GKCNCLIOFDA_GGAIDJKMAKP
 	{
 		::RPG::GameCore::PetPartyInteractionDefinition* _Definition_k__BackingField; // 0x10

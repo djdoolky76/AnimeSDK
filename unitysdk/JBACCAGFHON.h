@@ -94,6 +94,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define JBACCAGFHON_SET_VIEWSERVICE_OFFSET UNITYSDK_OFFSET(0x1655DA30)
 #define JBACCAGFHON___CREATESERVICES_B__108_0_OFFSET UNITYSDK_OFFSET(0x1655ECD0)
 
+inline static constexpr unsigned int JBACCAGFHON_TypeDefinitionIndex = 78008;
+
 	class JBACCAGFHON
 	{
 	public:

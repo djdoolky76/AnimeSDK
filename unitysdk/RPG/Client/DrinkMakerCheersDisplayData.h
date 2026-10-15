@@ -12,6 +12,8 @@ namespace RPG::GameCore { class DrinkMakerCheersFormulaRow; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int DrinkMakerCheersDisplayData_TypeDefinitionIndex = 63617;
+
 	class DrinkMakerCheersDisplayData : public ::System::Object
 	{
 	public:

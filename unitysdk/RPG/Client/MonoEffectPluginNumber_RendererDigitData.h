@@ -8,6 +8,8 @@ namespace UnityEngine { class Renderer; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEffectPluginNumber_RendererDigitData_TypeDefinitionIndex = 70084;
+
 	class MonoEffectPluginNumber_RendererDigitData : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class SingleBlockModifierConstKeys; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SingleBlockModifierConstKeys_TypeDefinitionIndex = 17105;
+
 	class SingleBlockModifierConstKeys : public ::RPG::GameCore::JsonConfig
 	{
 	public:

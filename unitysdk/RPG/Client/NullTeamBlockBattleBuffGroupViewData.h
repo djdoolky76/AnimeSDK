@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int NullTeamBlockBattleBuffGroupViewData_TypeDefinitionIndex = 71525;
+
 	class NullTeamBlockBattleBuffGroupViewData : public ::System::Object
 	{
 	public:

@@ -33,6 +33,8 @@ namespace System { class String; }
 #define APIIDMEFDJJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E676BB0)
 #define APIIDMEFDJJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E676C10)
 
+inline static constexpr unsigned int APIIDMEFDJJ_TypeDefinitionIndex = 31215;
+
 	class APIIDMEFDJJ : public ::System::Object
 	{
 	public:

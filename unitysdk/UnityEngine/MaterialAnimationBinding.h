@@ -10,6 +10,8 @@ namespace UnityEngine { class Material; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int MaterialAnimationBinding_TypeDefinitionIndex = 4380;
+
 	class MaterialAnimationBinding : public ::UnityEngine::Component
 	{
 	public:

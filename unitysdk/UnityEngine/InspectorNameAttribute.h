@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int InspectorNameAttribute_TypeDefinitionIndex = 4238;
+
 	class InspectorNameAttribute : public ::UnityEngine::PropertyAttribute
 	{
 	public:

@@ -28,6 +28,8 @@ namespace RPG::GameCore { class GridFightTraitRemarkRow; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightTraitRemarkLineConfig_TypeDefinitionIndex = 65477;
+
 	class GridFightTraitRemarkLineConfig : public ::System::Object
 	{
 	public:

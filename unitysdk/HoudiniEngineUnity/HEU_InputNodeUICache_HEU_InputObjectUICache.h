@@ -6,6 +6,8 @@
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_InputNodeUICache_HEU_InputObjectUICache_TypeDefinitionIndex = 40410;
+
 	class HEU_InputNodeUICache_HEU_InputObjectUICache : public ::System::Object
 	{
 	public:

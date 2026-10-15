@@ -14,6 +14,8 @@ namespace MiHoYo::SDK::InputSystem { class MouseAdapter; }
 
 namespace MiHoYo::SDK::InputSystem
 {
+	inline static constexpr unsigned int MouseAdapter_TypeDefinitionIndex = 10097;
+
 	class MouseAdapter : public ::System::Object
 	{
 	public:

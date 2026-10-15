@@ -30,6 +30,8 @@ namespace System { class String; }
 #define CEFEIJFPCKE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E092340)
 #define CEFEIJFPCKE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E0923A0)
 
+inline static constexpr unsigned int CEFEIJFPCKE_TypeDefinitionIndex = 34756;
+
 	class CEFEIJFPCKE : public ::System::Object
 	{
 	public:

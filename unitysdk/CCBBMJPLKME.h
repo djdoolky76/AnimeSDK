@@ -3,6 +3,8 @@
 
 #define CCBBMJPLKME_CTOR_OFFSET UNITYSDK_OFFSET(0xBA30)
 
+inline static constexpr unsigned int CCBBMJPLKME_TypeDefinitionIndex = 56980;
+
 	struct alignas(4) CCBBMJPLKME
 	{
 		::System::Single PKHMIPPMAHJ; // 0x10

@@ -10,6 +10,8 @@ namespace System { class String; }
 #define FMACLPPJNMB_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CE08870)
 #define FMACLPPJNMB_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CE08830)
 
+inline static constexpr unsigned int FMACLPPJNMB_TypeDefinitionIndex = 21502;
+
 	class FMACLPPJNMB : public ::RPG::GameCore::TaskConfig
 	{
 	public:

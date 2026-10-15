@@ -14,6 +14,8 @@ namespace MessagePack::Formatters { class IMessagePackFormatter; }
 
 namespace MessagePack::Formatters
 {
+	inline static constexpr unsigned int TimeSpanFormatter_TypeDefinitionIndex = 7487;
+
 	class TimeSpanFormatter : public ::System::Object
 	{
 	public:

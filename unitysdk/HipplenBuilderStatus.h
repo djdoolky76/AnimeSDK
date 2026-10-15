@@ -27,6 +27,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define HIPPLENBUILDERSTATUS_PCAMBLIOKFL_OFFSET UNITYSDK_OFFSET(0x15DF0F80)
 #define HIPPLENBUILDERSTATUS_RECORDSTATYESTERDAY_OFFSET UNITYSDK_OFFSET(0x15DE5B10)
 
+inline static constexpr unsigned int HipplenBuilderStatus_TypeDefinitionIndex = 47207;
+
 	class HipplenBuilderStatus : public ::UnityEngine::MonoBehaviour
 	{
 	public:

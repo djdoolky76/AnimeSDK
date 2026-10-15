@@ -18,6 +18,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StreamingBlockVolumeComponentData_TypeDefinitionIndex = 19122;
+
 	class StreamingBlockVolumeComponentData : public ::RPG::GameCore::StageVolumeComponentData
 	{
 	public:

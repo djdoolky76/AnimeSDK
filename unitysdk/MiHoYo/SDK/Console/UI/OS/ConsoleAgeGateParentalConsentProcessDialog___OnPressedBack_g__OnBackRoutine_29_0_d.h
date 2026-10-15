@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK::Console::UI::OS
 {
+	inline static constexpr unsigned int ConsoleAgeGateParentalConsentProcessDialog___OnPressedBack_g__OnBackRoutine_29_0_d_TypeDefinitionIndex = 9039;
+
 	class ConsoleAgeGateParentalConsentProcessDialog___OnPressedBack_g__OnBackRoutine_29_0_d : public ::System::Object
 	{
 	public:

@@ -30,6 +30,8 @@ namespace System { class String; }
 #define DBIAIJKONFB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E15CE50)
 #define DBIAIJKONFB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E15CEB0)
 
+inline static constexpr unsigned int DBIAIJKONFB_TypeDefinitionIndex = 26280;
+
 	class DBIAIJKONFB : public ::System::Object
 	{
 	public:

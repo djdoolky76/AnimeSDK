@@ -25,6 +25,8 @@ namespace System::Runtime::CompilerServices { class IStrongBox; }
 
 namespace System::Linq::Expressions::Interpreter
 {
+	inline static constexpr unsigned int LightLambda_TypeDefinitionIndex = 3495;
+
 	class LightLambda : public ::System::Object
 	{
 	public:

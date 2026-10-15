@@ -10,6 +10,8 @@ namespace System { class String; }
 #define LHHPIOCKPMF_HIMJHKLMOFO_OFFSET UNITYSDK_OFFSET(0xB6B4260)
 #define LHHPIOCKPMF_KHPGDMBFIHA_OFFSET UNITYSDK_OFFSET(0xB6B42B0)
 
+inline static constexpr unsigned int LHHPIOCKPMF_TypeDefinitionIndex = 67295;
+
 	class LHHPIOCKPMF : public ::System::Object
 	{
 	public:

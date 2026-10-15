@@ -17,6 +17,8 @@ namespace RPG::GameCore { class GameWorld; }
 #define CECPDHFNNEK_MBHGFCLIKNN_OFFSET UNITYSDK_OFFSET(0xC77D870)
 #define CECPDHFNNEK_OLCCEBLHJIL_OFFSET UNITYSDK_OFFSET(0xC77D690)
 
+inline static constexpr unsigned int CECPDHFNNEK_TypeDefinitionIndex = 69534;
+
 	class CECPDHFNNEK : public ::System::Object
 	{
 	public:

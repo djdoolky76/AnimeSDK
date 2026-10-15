@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class Queue_1; }
 #define ICBGIKEMGPE_NMJMJELPOBE_OFFSET UNITYSDK_OFFSET(0x15E4A160)
 #define ICBGIKEMGPE_OICGPNAMNAI_OFFSET UNITYSDK_OFFSET(0x15E4A2F0)
 
+inline static constexpr unsigned int ICBGIKEMGPE_TypeDefinitionIndex = 76625;
+
 	class ICBGIKEMGPE : public ::System::Object
 	{
 	public:

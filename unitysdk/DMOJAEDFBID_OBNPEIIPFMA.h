@@ -5,6 +5,8 @@ class KOAOAKKCCPK;
 
 #define DMOJAEDFBID_OBNPEIIPFMA_CTOR_OFFSET UNITYSDK_OFFSET(0xFECDBA0)
 
+inline static constexpr unsigned int DMOJAEDFBID_OBNPEIIPFMA_TypeDefinitionIndex = 71316;
+
 	class DMOJAEDFBID_OBNPEIIPFMA : public ::System::Object
 	{
 	public:

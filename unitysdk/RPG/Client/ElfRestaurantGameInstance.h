@@ -100,6 +100,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ElfRestaurantGameInstance_TypeDefinitionIndex = 60385;
+
 	class ElfRestaurantGameInstance : public ::HCLPKMIIANI
 	{
 	public:

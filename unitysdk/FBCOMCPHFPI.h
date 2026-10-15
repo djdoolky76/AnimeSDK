@@ -11,6 +11,8 @@ namespace System { class String; }
 #define FBCOMCPHFPI_ONFADINGEND_OFFSET UNITYSDK_OFFSET(0x15696F10)
 #define FBCOMCPHFPI_ONFADING_OFFSET UNITYSDK_OFFSET(0x15696DD0)
 
+inline static constexpr unsigned int FBCOMCPHFPI_TypeDefinitionIndex = 49307;
+
 	class FBCOMCPHFPI : public ::IEJMFJKDEHJ
 	{
 	public:

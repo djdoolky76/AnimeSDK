@@ -31,6 +31,8 @@ namespace System { class String; }
 #define MNJNHIAPNKD_POPELHBODOG_OFFSET UNITYSDK_OFFSET(0xBA0EBC0)
 #define MNJNHIAPNKD__ONBIND_OFFSET UNITYSDK_OFFSET(0xBA0D560)
 
+inline static constexpr unsigned int MNJNHIAPNKD_TypeDefinitionIndex = 71951;
+
 	class MNJNHIAPNKD : public ::FMPCODLIOLG
 	{
 	public:

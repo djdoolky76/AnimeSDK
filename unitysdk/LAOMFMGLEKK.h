@@ -11,6 +11,8 @@ namespace System { class String; }
 #define LAOMFMGLEKK_GET_TYPE_OFFSET UNITYSDK_OFFSET(0xB5E9450)
 #define LAOMFMGLEKK_JAILHGGFLDH_OFFSET UNITYSDK_OFFSET(0xB5E9460)
 
+inline static constexpr unsigned int LAOMFMGLEKK_TypeDefinitionIndex = 56141;
+
 	class LAOMFMGLEKK : public ::DBGDNLLDPFI
 	{
 	public:

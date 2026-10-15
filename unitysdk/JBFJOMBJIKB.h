@@ -20,6 +20,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define JBFJOMBJIKB_NAPEKHMJGHF_OFFSET UNITYSDK_OFFSET(0x1656D820)
 #define JBFJOMBJIKB_PGEAGALIFDK_OFFSET UNITYSDK_OFFSET(0x1656C7F0)
 
+inline static constexpr unsigned int JBFJOMBJIKB_TypeDefinitionIndex = 81890;
+
 	class JBFJOMBJIKB : public ::System::Object
 	{
 	public:

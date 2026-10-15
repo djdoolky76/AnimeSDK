@@ -15,6 +15,8 @@ namespace UnityEngine { class Transform; }
 #define PAFPMNHFBME_NNCHPNEAGKE_OFFSET UNITYSDK_OFFSET(0xBFC8B90)
 #define PAFPMNHFBME_OGBDMDNNFPI_OFFSET UNITYSDK_OFFSET(0xBFC8B30)
 
+inline static constexpr unsigned int PAFPMNHFBME_TypeDefinitionIndex = 72373;
+
 	class PAFPMNHFBME : public ::System::Object
 	{
 	public:

@@ -14,6 +14,8 @@ namespace RPG::Client { class MonoAnimationTrigger; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftWorkshopLevelUpControlBinder_TypeDefinitionIndex = 80078;
+
 	class MechCraftWorkshopLevelUpControlBinder : public ::RPG::Client::MechCraft::View::MechCraftBinderBase
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueParamRoguePersonaRoomCardNumByFilterConfig;
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueParamRoguePersonaRoomCardNumByFilterConfig_TypeDefinitionIndex = 19848;
+
 	class RogueParamRoguePersonaRoomCardNumByFilterConfig : public ::RPG::GameCore::RogueParameterConfigBase
 	{
 	public:

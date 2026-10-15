@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define BMNFEEFMOEM_CTOR_OFFSET UNITYSDK_OFFSET(0xBDBF120)
 #define BMNFEEFMOEM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBDBF150)
 
+inline static constexpr unsigned int BMNFEEFMOEM_TypeDefinitionIndex = 58718;
+
 	class BMNFEEFMOEM
 	{
 	public:

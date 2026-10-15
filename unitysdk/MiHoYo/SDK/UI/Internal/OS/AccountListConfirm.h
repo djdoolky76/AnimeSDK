@@ -17,6 +17,8 @@ namespace UnityEngine::UI { class Toggle; }
 
 namespace MiHoYo::SDK::UI::Internal::OS
 {
+	inline static constexpr unsigned int AccountListConfirm_TypeDefinitionIndex = 8436;
+
 	class AccountListConfirm : public ::MiHoYo::SDK::UIElement
 	{
 	public:

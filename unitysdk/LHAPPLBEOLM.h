@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define LHAPPLBEOLM_TICK_OFFSET UNITYSDK_OFFSET(0xB6A4790)
 #define LHAPPLBEOLM__ONTASKBEGIN_B__4_0_OFFSET UNITYSDK_OFFSET(0xB6A47F0)
 
+inline static constexpr unsigned int LHAPPLBEOLM_TypeDefinitionIndex = 52621;
+
 	class LHAPPLBEOLM : public ::GELIALJDFBL
 	{
 	public:

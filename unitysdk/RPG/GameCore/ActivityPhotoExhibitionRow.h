@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ActivityPhotoExhibitionRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ActivityPhotoExhibitionRow_TypeDefinitionIndex = 12116;
+
 	class ActivityPhotoExhibitionRow : public ::System::Object
 	{
 	public:

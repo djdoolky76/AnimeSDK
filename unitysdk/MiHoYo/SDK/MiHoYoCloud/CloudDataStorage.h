@@ -26,6 +26,8 @@ namespace UnityEngine { class Coroutine; }
 
 namespace MiHoYo::SDK::MiHoYoCloud
 {
+	inline static constexpr unsigned int CloudDataStorage_TypeDefinitionIndex = 9132;
+
 	class CloudDataStorage : public ::System::Object
 	{
 	public:

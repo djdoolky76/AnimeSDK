@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int BindInfo_TypeDefinitionIndex = 7953;
+
 	class BindInfo : public ::System::Object
 	{
 	public:

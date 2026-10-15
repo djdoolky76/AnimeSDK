@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define FCOEDHAMAMD_CTOR_OFFSET UNITYSDK_OFFSET(0x156CFB10)
 #define FCOEDHAMAMD_EVALUATE_OFFSET UNITYSDK_OFFSET(0x156CFB40)
 
+inline static constexpr unsigned int FCOEDHAMAMD_TypeDefinitionIndex = 52599;
+
 	class FCOEDHAMAMD
 	{
 	public:

@@ -16,6 +16,8 @@
 #define BHOFLJKBALH_SET_PASSEDLEVELBEFORE_OFFSET UNITYSDK_OFFSET(0xB492550)
 #define BHOFLJKBALH_SET_ROUND_OFFSET UNITYSDK_OFFSET(0xB492590)
 
+inline static constexpr unsigned int BHOFLJKBALH_TypeDefinitionIndex = 81020;
+
 	class BHOFLJKBALH : public ::System::Object
 	{
 	public:

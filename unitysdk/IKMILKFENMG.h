@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define IKMILKFENMG_CTOR_OFFSET UNITYSDK_OFFSET(0x1649B7F0)
 #define IKMILKFENMG_HKKFFCBJOKM_OFFSET UNITYSDK_OFFSET(0x1649B800)
 
+inline static constexpr unsigned int IKMILKFENMG_TypeDefinitionIndex = 79277;
+
 	class IKMILKFENMG : public ::EEBDFMJEMBM
 	{
 	public:

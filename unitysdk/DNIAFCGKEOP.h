@@ -29,6 +29,8 @@ namespace System { class String; }
 #define DNIAFCGKEOP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E1F70F0)
 #define DNIAFCGKEOP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E1F7150)
 
+inline static constexpr unsigned int DNIAFCGKEOP_TypeDefinitionIndex = 34883;
+
 	class DNIAFCGKEOP : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int HexPuzzleItemBase_TypeDefinitionIndex = 78613;
+
 	class HexPuzzleItemBase : public ::RPG::Client::Prop::InteractPuzzleItemBase
 	{
 	public:

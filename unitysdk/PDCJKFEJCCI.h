@@ -5,6 +5,8 @@ class KMDMCCENAPE;
 
 #define PDCJKFEJCCI_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CC94240)
 
+inline static constexpr unsigned int PDCJKFEJCCI_TypeDefinitionIndex = 43873;
+
 	class PDCJKFEJCCI : public ::System::Object
 	{
 	public:

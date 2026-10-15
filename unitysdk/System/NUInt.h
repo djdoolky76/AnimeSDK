@@ -9,6 +9,8 @@
 
 namespace System
 {
+	inline static constexpr unsigned int NUInt_TypeDefinitionIndex = 4970;
+
 	struct alignas(8) NUInt
 	{
 		::PVOID _value; // 0x10

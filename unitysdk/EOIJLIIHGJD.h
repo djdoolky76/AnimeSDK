@@ -7,6 +7,8 @@ namespace RPG::Client { class PlayerSettingItem; }
 #define EOIJLIIHGJD_CTOR_OFFSET UNITYSDK_OFFSET(0x155C3C80)
 #define EOIJLIIHGJD_LFNIDOPEMEA_OFFSET UNITYSDK_OFFSET(0x155C2B60)
 
+inline static constexpr unsigned int EOIJLIIHGJD_TypeDefinitionIndex = 66694;
+
 	class EOIJLIIHGJD : public ::System::Object
 	{
 	public:

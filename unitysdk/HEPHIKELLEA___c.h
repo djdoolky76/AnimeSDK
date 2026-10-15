@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define HEPHIKELLEA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E55F4B0)
 #define HEPHIKELLEA___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E55F4C0)
 
+inline static constexpr unsigned int HEPHIKELLEA___c_TypeDefinitionIndex = 26556;
+
 	class HEPHIKELLEA___c : public ::System::Object
 	{
 	public:

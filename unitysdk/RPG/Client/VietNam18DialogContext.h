@@ -20,6 +20,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int VietNam18DialogContext_TypeDefinitionIndex = 72489;
+
 	class VietNam18DialogContext : public ::RPG::Client::UIController
 	{
 	public:

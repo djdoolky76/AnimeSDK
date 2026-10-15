@@ -5,6 +5,8 @@ namespace System { class Array; }
 
 namespace System
 {
+	inline static constexpr unsigned int Array_InternalEnumerator_1_TypeDefinitionIndex = 138;
+
 	template <typename T>
 	class Array_InternalEnumerator_1 : public ::System::Object
 	{

@@ -6,6 +6,8 @@ class DLEBDFILNJC;
 #define GJEKKFJDCAJ___C__DISPLAYCLASS6_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15A63990)
 #define GJEKKFJDCAJ___C__DISPLAYCLASS6_0__GETOFFICEEVENT_B__0_OFFSET UNITYSDK_OFFSET(0x15A64C30)
 
+inline static constexpr unsigned int GJEKKFJDCAJ___c__DisplayClass6_0_TypeDefinitionIndex = 80329;
+
 	class GJEKKFJDCAJ___c__DisplayClass6_0 : public ::System::Object
 	{
 	public:

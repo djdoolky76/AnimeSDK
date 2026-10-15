@@ -11,6 +11,8 @@ namespace RPG::Client { class ActivityPhotoExhibitionModule; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PhotoExhibitionActivityPanelData_TypeDefinitionIndex = 61710;
+
 	class PhotoExhibitionActivityPanelData : public ::RPG::Client::ActivityPanelData
 	{
 	public:

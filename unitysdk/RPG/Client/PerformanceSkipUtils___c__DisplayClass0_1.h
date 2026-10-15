@@ -9,6 +9,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PerformanceSkipUtils___c__DisplayClass0_1_TypeDefinitionIndex = 60744;
+
 	template <typename T>
 	class PerformanceSkipUtils___c__DisplayClass0_1 : public ::System::Object
 	{

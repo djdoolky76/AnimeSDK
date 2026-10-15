@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::Challenge::Boss
 {
+	inline static constexpr unsigned int ChallengeBossBuffSelectTeamInfoViewModel_TypeDefinitionIndex = 81645;
+
 	class ChallengeBossBuffSelectTeamInfoViewModel : public ::System::Object
 	{
 	public:

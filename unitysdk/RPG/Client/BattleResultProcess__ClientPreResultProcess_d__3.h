@@ -14,6 +14,8 @@ namespace System::Collections { class IEnumerator; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BattleResultProcess__ClientPreResultProcess_d__3_TypeDefinitionIndex = 60998;
+
 	template <typename T1, typename T2, typename T3>
 	class BattleResultProcess__ClientPreResultProcess_d__3 : public ::System::Object
 	{

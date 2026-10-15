@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int EJCOIDCJDHM_TypeDefinitionIndex = 26506;
+
 	enum class EJCOIDCJDHM : ::System::Int32
 	{
 		NLCDGIPGFDJ = 0,

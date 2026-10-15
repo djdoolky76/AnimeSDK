@@ -21,6 +21,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define DGDCNMMBMKA_PNACMPEPHCI_OFFSET UNITYSDK_OFFSET(0xE844740)
 #define DGDCNMMBMKA_TICK_OFFSET UNITYSDK_OFFSET(0xE8446D0)
 
+inline static constexpr unsigned int DGDCNMMBMKA_TypeDefinitionIndex = 60714;
+
 	class DGDCNMMBMKA : public ::System::Object
 	{
 	public:

@@ -25,6 +25,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightGameRefExpiredSummary___c_TypeDefinitionIndex = 64751;
+
 	class GridFightGameRefExpiredSummary___c : public ::System::Object
 	{
 	public:

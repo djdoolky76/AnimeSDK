@@ -9,6 +9,8 @@ namespace RPG::GameCore { class DiceCombatTaskConfig_WaitSecond; }
 #define CAHIJKEIGFL_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0x1C5C8D00)
 #define CAHIJKEIGFL_MLKLPMJEHPF_OFFSET UNITYSDK_OFFSET(0x1C5C8C60)
 
+inline static constexpr unsigned int CAHIJKEIGFL_TypeDefinitionIndex = 36296;
+
 	class CAHIJKEIGFL : public ::AJBKGPOEBFG
 	{
 	public:

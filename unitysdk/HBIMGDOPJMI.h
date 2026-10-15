@@ -15,6 +15,8 @@ namespace RPG::GameCore { class RtDamageConstConfig; }
 #define HBIMGDOPJMI_PPFIFCMFDLE_OFFSET UNITYSDK_OFFSET(0x15C059E0)
 #define HBIMGDOPJMI_SET_DAMAGECONST_OFFSET UNITYSDK_OFFSET(0x15C05A60)
 
+inline static constexpr unsigned int HBIMGDOPJMI_TypeDefinitionIndex = 54107;
+
 	class HBIMGDOPJMI : public ::System::Object
 	{
 	public:

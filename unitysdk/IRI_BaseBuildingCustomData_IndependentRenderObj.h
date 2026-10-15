@@ -11,6 +11,8 @@ namespace UnityEngine { class Transform; }
 #define IRI_BASEBUILDINGCUSTOMDATA_INDEPENDENTRENDEROBJ_MFCDKJIHDEH_OFFSET UNITYSDK_OFFSET(0x165332C0)
 #define IRI_BASEBUILDINGCUSTOMDATA_INDEPENDENTRENDEROBJ_PCNAKDOLCCD_OFFSET UNITYSDK_OFFSET(0x16532B70)
 
+inline static constexpr unsigned int IRI_BaseBuildingCustomData_IndependentRenderObj_TypeDefinitionIndex = 47163;
+
 	class IRI_BaseBuildingCustomData_IndependentRenderObj : public ::System::Object
 	{
 	public:

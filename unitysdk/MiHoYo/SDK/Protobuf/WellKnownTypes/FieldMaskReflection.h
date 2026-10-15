@@ -8,6 +8,8 @@ namespace MiHoYo::SDK::Protobuf::Reflection { class FileDescriptor; }
 
 namespace MiHoYo::SDK::Protobuf::WellKnownTypes
 {
+	inline static constexpr unsigned int FieldMaskReflection_TypeDefinitionIndex = 35742;
+
 	class FieldMaskReflection : public ::System::Object
 	{
 	public:

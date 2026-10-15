@@ -10,6 +10,8 @@
 
 namespace System::Runtime::Serialization::Formatters::Binary
 {
+	inline static constexpr unsigned int InternalFE_TypeDefinitionIndex = 1198;
+
 	class InternalFE : public ::System::Object
 	{
 	public:

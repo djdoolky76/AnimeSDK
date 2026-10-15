@@ -5,6 +5,8 @@ class NEOCEOCDEAF;
 
 #define MKCGPPKDOKG_CTOR_OFFSET UNITYSDK_OFFSET(0xB98A610)
 
+inline static constexpr unsigned int MKCGPPKDOKG_TypeDefinitionIndex = 57419;
+
 	class MKCGPPKDOKG : public ::System::Object
 	{
 	public:

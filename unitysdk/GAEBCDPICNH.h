@@ -37,6 +37,8 @@ namespace System { class String; }
 #define GAEBCDPICNH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E417AD0)
 #define GAEBCDPICNH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E417B30)
 
+inline static constexpr unsigned int GAEBCDPICNH_TypeDefinitionIndex = 26152;
+
 	class GAEBCDPICNH : public ::System::Object
 	{
 	public:

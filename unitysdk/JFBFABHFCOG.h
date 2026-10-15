@@ -30,6 +30,8 @@ namespace System { class String; }
 #define JFBFABHFCOG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E722480)
 #define JFBFABHFCOG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E7224E0)
 
+inline static constexpr unsigned int JFBFABHFCOG_TypeDefinitionIndex = 30427;
+
 	class JFBFABHFCOG : public ::System::Object
 	{
 	public:

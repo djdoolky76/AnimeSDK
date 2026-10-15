@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define KGLIOOODBPN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E839EE0)
 #define KGLIOOODBPN___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E839EF0)
 
+inline static constexpr unsigned int KGLIOOODBPN___c_TypeDefinitionIndex = 33165;
+
 	class KGLIOOODBPN___c : public ::System::Object
 	{
 	public:

@@ -17,6 +17,8 @@ namespace UnityEngine::Timeline { class TimelineClip; }
 
 namespace RPGTools::Timeline::BattlePerform
 {
+	inline static constexpr unsigned int BPTalkClip_TypeDefinitionIndex = 48826;
+
 	class BPTalkClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

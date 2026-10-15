@@ -20,6 +20,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace RPG::Client::ParkourGame
 {
+	inline static constexpr unsigned int MonoParkourTalkEvent_TypeDefinitionIndex = 74169;
+
 	class MonoParkourTalkEvent : public ::UnityEngine::MonoBehaviour
 	{
 	public:

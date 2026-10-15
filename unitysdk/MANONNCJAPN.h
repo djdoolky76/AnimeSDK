@@ -5,6 +5,8 @@ class CJCHKDLALDN;
 
 #define MANONNCJAPN_CTOR_OFFSET UNITYSDK_OFFSET(0x1C747B70)
 
+inline static constexpr unsigned int MANONNCJAPN_TypeDefinitionIndex = 36203;
+
 	class MANONNCJAPN : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace UnityEngine::Events { class UnityEvent; }
 
 namespace RPG::Client::Challenge
 {
+	inline static constexpr unsigned int ChallengeFocusChangeDetectControl_TypeDefinitionIndex = 81416;
+
 	class ChallengeFocusChangeDetectControl : public ::Sofa::BaseSofaControl
 	{
 	public:

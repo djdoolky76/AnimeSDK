@@ -27,6 +27,8 @@ namespace System { class String; }
 #define JLBCPCBGHOO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E772A00)
 #define JLBCPCBGHOO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E772A60)
 
+inline static constexpr unsigned int JLBCPCBGHOO_TypeDefinitionIndex = 34035;
+
 	class JLBCPCBGHOO : public ::System::Object
 	{
 	public:

@@ -56,6 +56,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int UI3DVirtualCameraComponent_TypeDefinitionIndex = 57553;
+
 	class UI3DVirtualCameraComponent : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DeployMapPoseSwitcher_TypeDefinitionIndex = 20920;
+
 	class DeployMapPoseSwitcher : public ::RPG::GameCore::TaskConfig
 	{
 	public:

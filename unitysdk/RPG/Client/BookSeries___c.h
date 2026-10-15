@@ -14,6 +14,8 @@ namespace System::Collections::Generic { class KeyValuePair; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BookSeries___c_TypeDefinitionIndex = 66379;
+
 	class BookSeries___c : public ::System::Object
 	{
 	public:

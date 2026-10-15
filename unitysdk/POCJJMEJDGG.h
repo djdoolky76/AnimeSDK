@@ -45,6 +45,8 @@ namespace System { class String; }
 #define POCJJMEJDGG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DFC6560)
 #define POCJJMEJDGG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DFC65C0)
 
+inline static constexpr unsigned int POCJJMEJDGG_TypeDefinitionIndex = 27421;
+
 	class POCJJMEJDGG : public ::System::Object
 	{
 	public:

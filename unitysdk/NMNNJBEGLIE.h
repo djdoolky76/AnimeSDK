@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define NMNNJBEGLIE_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBC93B70)
 #define NMNNJBEGLIE_TICK_OFFSET UNITYSDK_OFFSET(0xBC914D0)
 
+inline static constexpr unsigned int NMNNJBEGLIE_TypeDefinitionIndex = 56423;
+
 	class NMNNJBEGLIE : public ::GELIALJDFBL
 	{
 	public:

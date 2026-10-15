@@ -43,6 +43,8 @@ namespace System { class String; }
 #define AFCBKJEFKPG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E113610)
 #define AFCBKJEFKPG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E113670)
 
+inline static constexpr unsigned int AFCBKJEFKPG_TypeDefinitionIndex = 29168;
+
 	class AFCBKJEFKPG : public ::System::Object
 	{
 	public:

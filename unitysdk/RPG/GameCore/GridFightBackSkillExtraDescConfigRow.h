@@ -11,6 +11,8 @@ namespace RPG::GameCore { class GridFightBackSkillExtraDescConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightBackSkillExtraDescConfigRow_TypeDefinitionIndex = 13542;
+
 	class GridFightBackSkillExtraDescConfigRow : public ::System::Object
 	{
 	public:

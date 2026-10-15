@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PropCurveMoveModifySpeed_TypeDefinitionIndex = 21013;
+
 	class PropCurveMoveModifySpeed : public ::RPG::GameCore::TaskConfig
 	{
 	public:

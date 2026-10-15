@@ -30,6 +30,8 @@ namespace System { class String; }
 #define GBDODOMIMIF_SET_SMALLICONPATH_OFFSET UNITYSDK_OFFSET(0x1594B7D0)
 #define GBDODOMIMIF_SET_TALKICONPATH_OFFSET UNITYSDK_OFFSET(0x1594B830)
 
+inline static constexpr unsigned int GBDODOMIMIF_TypeDefinitionIndex = 51962;
+
 	class GBDODOMIMIF : public ::System::Object
 	{
 	public:

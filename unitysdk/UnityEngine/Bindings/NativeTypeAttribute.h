@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace UnityEngine::Bindings
 {
+	inline static constexpr unsigned int NativeTypeAttribute_TypeDefinitionIndex = 3729;
+
 	class NativeTypeAttribute : public ::System::Attribute
 	{
 	public:

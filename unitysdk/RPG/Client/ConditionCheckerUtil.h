@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ConditionCheckerUtil_TypeDefinitionIndex = 59902;
+
 	class ConditionCheckerUtil : public ::System::Object
 	{
 	public:

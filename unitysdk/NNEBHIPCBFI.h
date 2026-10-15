@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T> class Stack_1; }
 #define NNEBHIPCBFI_KHNCMBEFIKI_OFFSET UNITYSDK_OFFSET(0xBCA04A0)
 #define NNEBHIPCBFI_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xBC9FEC0)
 
+inline static constexpr unsigned int NNEBHIPCBFI_TypeDefinitionIndex = 49355;
+
 	class NNEBHIPCBFI : public ::System::Object
 	{
 	public:

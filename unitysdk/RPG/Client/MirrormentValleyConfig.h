@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MirrormentValleyConfig_TypeDefinitionIndex = 60044;
+
 	class MirrormentValleyConfig : public ::UnityEngine::ScriptableObject
 	{
 	public:

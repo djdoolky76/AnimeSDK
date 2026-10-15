@@ -8,6 +8,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define OIOCPENEBOH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBEA3620)
 #define OIOCPENEBOH_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBEA36B0)
 
+inline static constexpr unsigned int OIOCPENEBOH_TypeDefinitionIndex = 52239;
+
 	class OIOCPENEBOH
 	{
 	public:

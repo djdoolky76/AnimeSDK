@@ -28,6 +28,8 @@ namespace System { class String; }
 #define GKHLACNDNHA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E4B5F30)
 #define GKHLACNDNHA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E4B5F90)
 
+inline static constexpr unsigned int GKHLACNDNHA_TypeDefinitionIndex = 30556;
+
 	class GKHLACNDNHA : public ::System::Object
 	{
 	public:

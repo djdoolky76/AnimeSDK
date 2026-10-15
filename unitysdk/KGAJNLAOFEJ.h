@@ -16,6 +16,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define KGAJNLAOFEJ_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB3CC4A0)
 #define KGAJNLAOFEJ_TICK_OFFSET UNITYSDK_OFFSET(0xB3CC200)
 
+inline static constexpr unsigned int KGAJNLAOFEJ_TypeDefinitionIndex = 52517;
+
 	class KGAJNLAOFEJ : public ::GCBMADADMDJ
 	{
 	public:

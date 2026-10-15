@@ -31,6 +31,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::LittleGame::CakeRace
 {
+	inline static constexpr unsigned int CakeRaceGameplayTalkBubbleMonoView_TypeDefinitionIndex = 78155;
+
 	class CakeRaceGameplayTalkBubbleMonoView : public ::UnityEngine::MonoBehaviour
 	{
 	public:

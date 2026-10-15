@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_UnityMaterialInfo_TypeDefinitionIndex = 40581;
+
 	class HEU_UnityMaterialInfo : public ::System::Object
 	{
 	public:

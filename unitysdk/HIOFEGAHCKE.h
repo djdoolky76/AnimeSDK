@@ -27,6 +27,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define HIOFEGAHCKE_MEFLNMNDCJG_OFFSET UNITYSDK_OFFSET(0x15CFD410)
 #define HIOFEGAHCKE_NIHAKMGLCAD_OFFSET UNITYSDK_OFFSET(0x15CFC940)
 
+inline static constexpr unsigned int HIOFEGAHCKE_TypeDefinitionIndex = 80793;
+
 	class HIOFEGAHCKE : public ::System::Object
 	{
 	public:

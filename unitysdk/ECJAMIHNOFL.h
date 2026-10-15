@@ -52,6 +52,8 @@ namespace System { class String; }
 #define ECJAMIHNOFL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E251510)
 #define ECJAMIHNOFL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E251570)
 
+inline static constexpr unsigned int ECJAMIHNOFL_TypeDefinitionIndex = 33225;
+
 	class ECJAMIHNOFL : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvNpcMoveTo_TypeDefinitionIndex = 21957;
+
 	class AdvNpcMoveTo : public ::RPG::GameCore::TaskConfig
 	{
 	public:

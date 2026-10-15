@@ -13,6 +13,8 @@ namespace UnityEngine { class MeshRenderer; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoUIMaterialSwitcher_TypeDefinitionIndex = 68979;
+
 	class MonoUIMaterialSwitcher : public ::UnityEngine::MonoBehaviour
 	{
 	public:

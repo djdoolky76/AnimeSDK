@@ -3,6 +3,8 @@
 
 namespace UnityEngine::UI
 {
+	inline static constexpr unsigned int Scrollbar_Direction_TypeDefinitionIndex = 6834;
+
 	enum class Scrollbar_Direction : ::System::Int32
 	{
 		LeftToRight = 0,

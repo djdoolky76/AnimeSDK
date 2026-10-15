@@ -9,6 +9,8 @@ namespace RPG::GameCore::Match3 { class OneOnOneConfig; }
 
 namespace RPG::GameCore::Match3
 {
+	inline static constexpr unsigned int OneOnOneConfig_TypeDefinitionIndex = 24871;
+
 	class OneOnOneConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

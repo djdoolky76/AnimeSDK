@@ -28,6 +28,8 @@ namespace UnityEngine::EventSystems { class PointerEventData; }
 #define FKIDOBBEGFD_OGCMEGLGIKE_OFFSET UNITYSDK_OFFSET(0x157FC2A0)
 #define FKIDOBBEGFD_TEARDOWN_OFFSET UNITYSDK_OFFSET(0x157FB720)
 
+inline static constexpr unsigned int FKIDOBBEGFD_TypeDefinitionIndex = 77779;
+
 	class FKIDOBBEGFD : public ::System::Object
 	{
 	public:

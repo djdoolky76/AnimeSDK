@@ -12,6 +12,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::UI3DGame
 {
+	inline static constexpr unsigned int ChimeraBattleNPCView_EBAFJPCINHG_TypeDefinitionIndex = 75774;
+
 	class ChimeraBattleNPCView_EBAFJPCINHG : public ::System::Object
 	{
 	public:

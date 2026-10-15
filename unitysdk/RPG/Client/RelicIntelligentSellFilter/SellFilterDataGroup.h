@@ -28,6 +28,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::RelicIntelligentSellFilter
 {
+	inline static constexpr unsigned int SellFilterDataGroup_TypeDefinitionIndex = 74445;
+
 	class SellFilterDataGroup : public ::System::Object
 	{
 	public:

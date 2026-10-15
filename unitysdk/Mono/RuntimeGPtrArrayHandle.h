@@ -10,6 +10,8 @@
 
 namespace Mono
 {
+	inline static constexpr unsigned int RuntimeGPtrArrayHandle_TypeDefinitionIndex = 10;
+
 	struct alignas(8) RuntimeGPtrArrayHandle
 	{
 		::PVOID value; // 0x10

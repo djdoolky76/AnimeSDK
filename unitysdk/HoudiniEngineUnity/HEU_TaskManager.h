@@ -20,6 +20,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_TaskManager_TypeDefinitionIndex = 40605;
+
 	class HEU_TaskManager : public ::System::Object
 	{
 	public:

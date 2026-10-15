@@ -13,6 +13,8 @@ namespace UnityEngine { class Animator; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AnimatorCullingModeSwitcher_TypeDefinitionIndex = 71108;
+
 	class AnimatorCullingModeSwitcher : public ::UnityEngine::MonoBehaviour
 	{
 	public:

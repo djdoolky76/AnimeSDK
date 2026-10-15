@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int CEDABACHBDP_TypeDefinitionIndex = 27493;
+
 	enum class CEDABACHBDP : ::System::Int32
 	{
 		NLCDGIPGFDJ = 0,

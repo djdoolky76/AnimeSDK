@@ -12,6 +12,8 @@ namespace RPG::Client { class BattleSilverWolf999CustomUIData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BattleAvatarCustomData_TypeDefinitionIndex = 71459;
+
 	class BattleAvatarCustomData : public ::System::Object
 	{
 	public:

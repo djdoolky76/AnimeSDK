@@ -13,6 +13,8 @@ namespace RPG::GameCore { class AvatarSourceConfigRow; }
 #define MCDGHECAKBG_SET_FATERINAVATARROW_OFFSET UNITYSDK_OFFSET(0xB874850)
 #define MCDGHECAKBG_SET_OWNERTYPE_OFFSET UNITYSDK_OFFSET(0xB874830)
 
+inline static constexpr unsigned int MCDGHECAKBG_TypeDefinitionIndex = 81214;
+
 	class MCDGHECAKBG : public ::System::Object
 	{
 	public:

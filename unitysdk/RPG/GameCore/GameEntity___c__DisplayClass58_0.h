@@ -9,6 +9,8 @@ class HIOAMIPNLIN;
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GameEntity___c__DisplayClass58_0_TypeDefinitionIndex = 53556;
+
 	class GameEntity___c__DisplayClass58_0 : public ::System::Object
 	{
 	public:

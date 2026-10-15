@@ -13,6 +13,8 @@ namespace RPG::GameCore { class HipplenIncidentStoryStepConfig; }
 #define BBHBCLAHCIO_CTOR_OFFSET UNITYSDK_OFFSET(0x15E8A620)
 #define BBHBCLAHCIO_KLDGDIIJOOH_OFFSET UNITYSDK_OFFSET(0x15E8A7B0)
 
+inline static constexpr unsigned int BBHBCLAHCIO_TypeDefinitionIndex = 75558;
+
 	class BBHBCLAHCIO : public ::JCHBFEIOIHA
 	{
 	public:

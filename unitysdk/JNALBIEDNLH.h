@@ -9,6 +9,8 @@ namespace RPG::GameCore { class BaseChenLingBattleAbilityNodeConfig; }
 #define JNALBIEDNLH_CTOR_OFFSET UNITYSDK_OFFSET(0xB274900)
 #define JNALBIEDNLH_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0xB274910)
 
+inline static constexpr unsigned int JNALBIEDNLH_TypeDefinitionIndex = 77864;
+
 	class JNALBIEDNLH : public ::System::Object
 	{
 	public:

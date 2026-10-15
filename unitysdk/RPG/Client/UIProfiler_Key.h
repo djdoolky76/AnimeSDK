@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UIProfiler_Key_TypeDefinitionIndex = 73178;
+
 	struct alignas(8) UIProfiler_Key
 	{
 		::RPG::Client::UIProfiler_SampleType Type; // 0x10

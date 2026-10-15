@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define NIDANEOAAFG_CTOR_OFFSET UNITYSDK_OFFSET(0xBBDFC80)
 #define NIDANEOAAFG_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBBDFCB0)
 
+inline static constexpr unsigned int NIDANEOAAFG_TypeDefinitionIndex = 54729;
+
 	class NIDANEOAAFG
 	{
 	public:

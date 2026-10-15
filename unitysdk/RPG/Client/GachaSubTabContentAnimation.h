@@ -13,6 +13,8 @@ namespace UnityEngine { class AnimationClip; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GachaSubTabContentAnimation_TypeDefinitionIndex = 72802;
+
 	class GachaSubTabContentAnimation : public ::UnityEngine::MonoBehaviour
 	{
 	public:

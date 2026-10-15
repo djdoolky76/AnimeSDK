@@ -7,6 +7,8 @@ namespace RPG::GameCore { class MarbleAbsorbTeammates; }
 #define JOHIFMHFMPL_CTOR_OFFSET UNITYSDK_OFFSET(0x1CBA7820)
 #define JOHIFMHFMPL_KDNAAOHECPD_OFFSET UNITYSDK_OFFSET(0x1CBA7830)
 
+inline static constexpr unsigned int JOHIFMHFMPL_TypeDefinitionIndex = 43113;
+
 	class JOHIFMHFMPL : public ::BKABEBEPPJK
 	{
 	public:

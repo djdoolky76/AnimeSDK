@@ -14,6 +14,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdventureModifierConfig_TypeDefinitionIndex = 17502;
+
 	class AdventureModifierConfig : public ::RPG::GameCore::ModifierConfig
 	{
 	public:

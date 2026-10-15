@@ -45,6 +45,8 @@ namespace System { class String; }
 #define PNEGDOHOLDN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DFB5CC0)
 #define PNEGDOHOLDN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DFB5D20)
 
+inline static constexpr unsigned int PNEGDOHOLDN_TypeDefinitionIndex = 31292;
+
 	class PNEGDOHOLDN : public ::System::Object
 	{
 	public:

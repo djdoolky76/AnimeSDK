@@ -10,6 +10,8 @@ namespace System { class Action; }
 
 namespace MiHoYo::SDK::PC::OS
 {
+	inline static constexpr unsigned int AgeGatePayManager___c__DisplayClass24_0_TypeDefinitionIndex = 8484;
+
 	class AgeGatePayManager___c__DisplayClass24_0 : public ::System::Object
 	{
 	public:

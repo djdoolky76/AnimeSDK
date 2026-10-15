@@ -34,6 +34,8 @@ namespace System { class String; }
 #define NMACHAFCGNI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB6A2F0)
 #define NMACHAFCGNI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB6A350)
 
+inline static constexpr unsigned int NMACHAFCGNI_TypeDefinitionIndex = 31609;
+
 	class NMACHAFCGNI : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System { class String; }
 #define KOCFKACIOND__REGISTEREVENTCALLBACK_OFFSET UNITYSDK_OFFSET(0xB590B30)
 #define KOCFKACIOND__UNREGISTEREVENTCALLBACK_OFFSET UNITYSDK_OFFSET(0xB590C10)
 
+inline static constexpr unsigned int KOCFKACIOND_TypeDefinitionIndex = 53477;
+
 	class KOCFKACIOND
 	{
 	public:

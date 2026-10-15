@@ -6,6 +6,8 @@ namespace Sofa { class BaseSofaWindow; }
 
 #define MLDCHIAKLOC_NNFCCNGKPBI_OFFSET UNITYSDK_OFFSET(0xB9A7050)
 
+inline static constexpr unsigned int MLDCHIAKLOC_TypeDefinitionIndex = 72996;
+
 	class MLDCHIAKLOC : public ::System::Object
 	{
 	public:

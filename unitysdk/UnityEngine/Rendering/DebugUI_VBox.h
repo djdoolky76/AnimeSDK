@@ -6,6 +6,8 @@
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int DebugUI_VBox_TypeDefinitionIndex = 35527;
+
 	class DebugUI_VBox : public ::UnityEngine::Rendering::DebugUI_Container
 	{
 	public:

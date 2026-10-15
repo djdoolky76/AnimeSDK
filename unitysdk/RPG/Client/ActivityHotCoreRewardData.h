@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ActivityHotCoreRewardData_TypeDefinitionIndex = 61532;
+
 	class ActivityHotCoreRewardData : public ::System::Object
 	{
 	public:

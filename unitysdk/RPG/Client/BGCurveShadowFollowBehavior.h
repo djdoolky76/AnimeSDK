@@ -23,6 +23,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BGCurveShadowFollowBehavior_TypeDefinitionIndex = 70356;
+
 	class BGCurveShadowFollowBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:

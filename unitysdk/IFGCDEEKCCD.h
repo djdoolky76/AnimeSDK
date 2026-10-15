@@ -44,6 +44,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define IFGCDEEKCCD_SET_ENTRANCEWEIGHT_OFFSET UNITYSDK_OFFSET(0x15F11990)
 #define IFGCDEEKCCD_SET_TELEPORTWEIGHT_OFFSET UNITYSDK_OFFSET(0x15F11970)
 
+inline static constexpr unsigned int IFGCDEEKCCD_TypeDefinitionIndex = 74561;
+
 	class IFGCDEEKCCD : public ::System::Object
 	{
 	public:

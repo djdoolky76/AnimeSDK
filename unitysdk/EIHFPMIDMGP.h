@@ -4,6 +4,8 @@
 
 #define EIHFPMIDMGP_CTOR_OFFSET UNITYSDK_OFFSET(0x1CD8A400)
 
+inline static constexpr unsigned int EIHFPMIDMGP_TypeDefinitionIndex = 25027;
+
 	class EIHFPMIDMGP : public ::System::Attribute
 	{
 	public:

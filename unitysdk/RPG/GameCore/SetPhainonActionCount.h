@@ -11,6 +11,8 @@ namespace RPG::GameCore { class SetPhainonActionCount; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetPhainonActionCount_TypeDefinitionIndex = 23157;
+
 	class SetPhainonActionCount : public ::RPG::GameCore::TaskConfig
 	{
 	public:

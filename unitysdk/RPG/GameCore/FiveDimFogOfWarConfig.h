@@ -12,6 +12,8 @@ namespace RPG::GameCore { class FiveDimSingleFogOfWarConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimFogOfWarConfig_TypeDefinitionIndex = 18525;
+
 	class FiveDimFogOfWarConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

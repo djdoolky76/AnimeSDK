@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define HKIJNBKHOGM_CTOR_OFFSET UNITYSDK_OFFSET(0x15D46B40)
 #define HKIJNBKHOGM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15D46C70)
 
+inline static constexpr unsigned int HKIJNBKHOGM_TypeDefinitionIndex = 55277;
+
 	class HKIJNBKHOGM
 	{
 	public:

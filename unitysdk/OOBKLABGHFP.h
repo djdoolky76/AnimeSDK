@@ -7,6 +7,8 @@ namespace RPG::GameCore { class DiceCombatTaskConfig_BossChangePhase; }
 #define OOBKLABGHFP_CTOR_OFFSET UNITYSDK_OFFSET(0x1C7E4160)
 #define OOBKLABGHFP_MLKLPMJEHPF_OFFSET UNITYSDK_OFFSET(0x1C7E4170)
 
+inline static constexpr unsigned int OOBKLABGHFP_TypeDefinitionIndex = 36330;
+
 	class OOBKLABGHFP : public ::AJBKGPOEBFG
 	{
 	public:

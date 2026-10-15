@@ -33,6 +33,8 @@ namespace System { class String; }
 #define PCGMJHKDCOG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF08B80)
 #define PCGMJHKDCOG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF08BE0)
 
+inline static constexpr unsigned int PCGMJHKDCOG_TypeDefinitionIndex = 29928;
+
 	class PCGMJHKDCOG : public ::System::Object
 	{
 	public:

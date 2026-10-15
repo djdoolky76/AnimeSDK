@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int NpcMonoLod_TypeDefinitionIndex = 68633;
+
 	class NpcMonoLod : public ::UnityEngine::MonoBehaviour
 	{
 	public:

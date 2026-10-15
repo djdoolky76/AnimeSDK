@@ -10,6 +10,8 @@ namespace RPG::GameCore { class WaitTrackingMission; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaitTrackingMission_TypeDefinitionIndex = 21160;
+
 	class WaitTrackingMission : public ::RPG::GameCore::TaskConfig
 	{
 	public:

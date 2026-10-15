@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ActivityFindTrotterConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ActivityFindTrotterConfigRow_TypeDefinitionIndex = 11611;
+
 	class ActivityFindTrotterConfigRow : public ::System::Object
 	{
 	public:

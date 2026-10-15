@@ -10,6 +10,8 @@ namespace RPG::GameCore { class CustomMazeBattleTransitionConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AvatarTransitionConfig_TypeDefinitionIndex = 17614;
+
 	class AvatarTransitionConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

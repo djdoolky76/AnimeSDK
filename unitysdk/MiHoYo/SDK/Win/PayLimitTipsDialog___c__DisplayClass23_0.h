@@ -8,6 +8,8 @@ namespace MiHoYo::SDK::Win { class PayLimitTipsDialog; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int PayLimitTipsDialog___c__DisplayClass23_0_TypeDefinitionIndex = 9559;
+
 	class PayLimitTipsDialog___c__DisplayClass23_0 : public ::System::Object
 	{
 	public:

@@ -22,6 +22,8 @@ namespace UnityEngine { class RectTransform; }
 #define NPOFBAGHOEI_PLOMMNFNBHN_OFFSET UNITYSDK_OFFSET(0xBD11BA0)
 #define NPOFBAGHOEI_TICK_OFFSET UNITYSDK_OFFSET(0xBD12020)
 
+inline static constexpr unsigned int NPOFBAGHOEI_TypeDefinitionIndex = 58704;
+
 	class NPOFBAGHOEI : public ::GELIALJDFBL
 	{
 	public:

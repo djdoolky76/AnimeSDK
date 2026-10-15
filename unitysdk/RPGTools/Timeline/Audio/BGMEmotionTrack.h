@@ -13,6 +13,8 @@ namespace UnityEngine::Timeline { class TimelineClip; }
 
 namespace RPGTools::Timeline::Audio
 {
+	inline static constexpr unsigned int BGMEmotionTrack_TypeDefinitionIndex = 48836;
+
 	class BGMEmotionTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define GHGCKEMFMDM_LKFBHLBHPDI_OFFSET UNITYSDK_OFFSET(0x15A1E850)
 #define GHGCKEMFMDM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15A1E720)
 
+inline static constexpr unsigned int GHGCKEMFMDM_TypeDefinitionIndex = 52363;
+
 	class GHGCKEMFMDM
 	{
 	public:

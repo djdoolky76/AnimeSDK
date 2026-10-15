@@ -7,6 +7,8 @@ class CDPCDCCGEJN_CFLILJECMKA;
 #define CDPCDCCGEJN___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC7776F0)
 #define CDPCDCCGEJN___C__DISPLAYCLASS5_0___ONITEMSTARTBYTHREAD_B__0_OFFSET UNITYSDK_OFFSET(0xC778830)
 
+inline static constexpr unsigned int CDPCDCCGEJN___c__DisplayClass5_0_TypeDefinitionIndex = 59577;
+
 	class CDPCDCCGEJN___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:

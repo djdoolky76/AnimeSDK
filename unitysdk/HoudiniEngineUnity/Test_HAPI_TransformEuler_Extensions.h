@@ -8,6 +8,8 @@ namespace HoudiniEngineUnity { class Test_HAPI_TransformEuler; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int Test_HAPI_TransformEuler_Extensions_TypeDefinitionIndex = 40707;
+
 	class Test_HAPI_TransformEuler_Extensions : public ::System::Object
 	{
 	public:

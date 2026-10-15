@@ -11,6 +11,8 @@ namespace RPGTools::Timeline::PostProcessing { class RPGDepthOfFieldParamter; }
 
 namespace RPGTools::Timeline::PostProcessing
 {
+	inline static constexpr unsigned int RPGDepthOfFieldParamter_TypeDefinitionIndex = 48563;
+
 	class RPGDepthOfFieldParamter : public ::System::Object
 	{
 	public:

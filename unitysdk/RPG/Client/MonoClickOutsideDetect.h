@@ -22,6 +22,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoClickOutsideDetect_TypeDefinitionIndex = 72576;
+
 	class MonoClickOutsideDetect : public ::UnityEngine::MonoBehaviour
 	{
 	public:

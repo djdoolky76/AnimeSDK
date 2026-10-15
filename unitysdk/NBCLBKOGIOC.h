@@ -8,6 +8,8 @@ namespace RPG::Client { class FatePhaseInfoItem; }
 #define NBCLBKOGIOC_CTOR_OFFSET UNITYSDK_OFFSET(0xBABE220)
 #define NBCLBKOGIOC_PALPEDBACDA_OFFSET UNITYSDK_OFFSET(0xBABE4D0)
 
+inline static constexpr unsigned int NBCLBKOGIOC_TypeDefinitionIndex = 64111;
+
 	class NBCLBKOGIOC : public ::System::Object
 	{
 	public:

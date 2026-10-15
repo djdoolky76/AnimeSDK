@@ -7,6 +7,8 @@
 
 namespace MessagePack::LZ4
 {
+	inline static constexpr unsigned int LZ4Codec_HashTablePool_TypeDefinitionIndex = 7280;
+
 	class LZ4Codec_HashTablePool : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierSetCountByConsumeCoinConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierSetCountByConsumeCoinConfig_TypeDefinitionIndex = 17717;
+
 	class RogueModifierSetCountByConsumeCoinConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define EDAIOGKPLCK_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CD6F810)
 #define EDAIOGKPLCK_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CD6F130)
 
+inline static constexpr unsigned int EDAIOGKPLCK_TypeDefinitionIndex = 11311;
+
 	class EDAIOGKPLCK : public ::System::Object
 	{
 	public:

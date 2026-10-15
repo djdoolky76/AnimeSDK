@@ -10,6 +10,8 @@ namespace System::Linq { template <typename T1, typename T2> class IGrouping_2; 
 
 namespace Cysharp::Threading::Tasks::Linq
 {
+	inline static constexpr unsigned int GroupBy_3__GroupBy_TypeDefinitionIndex = 45373;
+
 	template <typename T1, typename T2, typename T3>
 	class GroupBy_3__GroupBy : public ::Cysharp::Threading::Tasks::MoveNextSource
 	{

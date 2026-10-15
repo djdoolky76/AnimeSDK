@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GrassSettings_TypeDefinitionIndex = 67937;
+
 	class GrassSettings : public ::System::Object
 	{
 	public:

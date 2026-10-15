@@ -15,6 +15,8 @@ namespace UnityEngine { class Transform; }
 #define AHPMEFEPEBD_ONKHPOCEODP_OFFSET UNITYSDK_OFFSET(0xEB8DAE0)
 #define AHPMEFEPEBD_SET_ISACTIVE_OFFSET UNITYSDK_OFFSET(0xEB8E0F0)
 
+inline static constexpr unsigned int AHPMEFEPEBD_TypeDefinitionIndex = 57084;
+
 	class AHPMEFEPEBD : public ::System::Object
 	{
 	public:

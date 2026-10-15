@@ -10,6 +10,8 @@ namespace RPG::GameCore { class VideoCaptionConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int VideoCaptionConfig_TypeDefinitionIndex = 17016;
+
 	class VideoCaptionConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

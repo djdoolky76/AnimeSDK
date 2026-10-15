@@ -7,6 +7,8 @@ namespace System { class String; }
 #define HKEDDEOMHMA_CTOR_OFFSET UNITYSDK_OFFSET(0x15D40CB0)
 #define HKEDDEOMHMA_EXECUTE_OFFSET UNITYSDK_OFFSET(0x15D40AC0)
 
+inline static constexpr unsigned int HKEDDEOMHMA_TypeDefinitionIndex = 54263;
+
 	class HKEDDEOMHMA : public ::BHDAFDOMINP
 	{
 	public:

@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace System::Xml::Serialization
 {
+	inline static constexpr unsigned int XmlChoiceIdentifierAttribute_TypeDefinitionIndex = 2005;
+
 	class XmlChoiceIdentifierAttribute : public ::System::Attribute
 	{
 	public:

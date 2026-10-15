@@ -5,6 +5,8 @@ namespace System { class Action; }
 
 namespace RPG::Client::Promises
 {
+	inline static constexpr unsigned int ProgressHandler_TypeDefinitionIndex = 9912;
+
 	struct alignas(8) ProgressHandler
 	{
 		::System::Action* callback; // 0x10

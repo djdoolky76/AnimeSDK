@@ -47,6 +47,8 @@ namespace UnityEngine::UI { class ScrollRect; }
 
 namespace SRF::UI::Layout
 {
+	inline static constexpr unsigned int VirtualVerticalLayoutGroup_TypeDefinitionIndex = 35404;
+
 	class VirtualVerticalLayoutGroup : public ::UnityEngine::UI::LayoutGroup
 	{
 	public:

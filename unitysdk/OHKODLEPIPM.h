@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define OHKODLEPIPM_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBE740F0)
 #define OHKODLEPIPM_TICK_OFFSET UNITYSDK_OFFSET(0xBE74140)
 
+inline static constexpr unsigned int OHKODLEPIPM_TypeDefinitionIndex = 58601;
+
 	class OHKODLEPIPM : public ::GELIALJDFBL
 	{
 	public:

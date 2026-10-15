@@ -28,6 +28,8 @@ namespace System { class String; }
 #define FPNDOBPMNED_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E40F0B0)
 #define FPNDOBPMNED_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E40F110)
 
+inline static constexpr unsigned int FPNDOBPMNED_TypeDefinitionIndex = 33489;
+
 	class FPNDOBPMNED : public ::System::Object
 	{
 	public:

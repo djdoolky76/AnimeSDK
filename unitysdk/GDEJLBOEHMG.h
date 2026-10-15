@@ -7,6 +7,8 @@
 #define GDEJLBOEHMG_CTOR_OFFSET UNITYSDK_OFFSET(0x1599A720)
 #define GDEJLBOEHMG_NMOCNLLMIDH_OFFSET UNITYSDK_OFFSET(0x1599A780)
 
+inline static constexpr unsigned int GDEJLBOEHMG_TypeDefinitionIndex = 62020;
+
 	class GDEJLBOEHMG : public ::System::Object
 	{
 	public:

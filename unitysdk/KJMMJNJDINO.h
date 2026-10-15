@@ -7,6 +7,8 @@ namespace System { class IDisposable; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
+inline static constexpr unsigned int KJMMJNJDINO_TypeDefinitionIndex = 49967;
+
 	class KJMMJNJDINO : public ::System::Object
 	{
 	public:

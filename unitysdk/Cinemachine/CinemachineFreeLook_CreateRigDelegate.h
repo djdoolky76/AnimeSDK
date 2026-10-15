@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace Cinemachine
 {
+	inline static constexpr unsigned int CinemachineFreeLook_CreateRigDelegate_TypeDefinitionIndex = 39740;
+
 	class CinemachineFreeLook_CreateRigDelegate : public ::System::MulticastDelegate
 	{
 	public:

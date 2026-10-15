@@ -10,6 +10,8 @@ namespace RPG::GameCore { class MapEntryGroupRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MapEntryGroupRow_TypeDefinitionIndex = 14060;
+
 	class MapEntryGroupRow : public ::System::Object
 	{
 	public:

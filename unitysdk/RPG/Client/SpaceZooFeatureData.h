@@ -15,6 +15,8 @@ namespace RPG::GameCore { class SpaceZooFeatureConfigRow; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SpaceZooFeatureData_TypeDefinitionIndex = 67972;
+
 	class SpaceZooFeatureData : public ::System::Object
 	{
 	public:

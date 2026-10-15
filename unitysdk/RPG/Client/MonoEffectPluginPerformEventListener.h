@@ -16,6 +16,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEffectPluginPerformEventListener_TypeDefinitionIndex = 70095;
+
 	class MonoEffectPluginPerformEventListener : public ::RPG::Client::MonoEffectPluginBase
 	{
 	public:

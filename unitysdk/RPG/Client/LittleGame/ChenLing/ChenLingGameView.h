@@ -26,6 +26,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 
 namespace RPG::Client::LittleGame::ChenLing
 {
+	inline static constexpr unsigned int ChenLingGameView_TypeDefinitionIndex = 77972;
+
 	class ChenLingGameView : public ::RPG::Client::LittleGame::BaseMonoGenericView
 	{
 	public:

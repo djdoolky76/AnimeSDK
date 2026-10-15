@@ -9,6 +9,8 @@ namespace RPG::Client { class ActivityLocalLegendRewardGroup; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ActivityLocalLegendRewardData___c__DisplayClass2_0_TypeDefinitionIndex = 61564;
+
 	class ActivityLocalLegendRewardData___c__DisplayClass2_0 : public ::System::Object
 	{
 	public:

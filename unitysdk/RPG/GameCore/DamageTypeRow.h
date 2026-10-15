@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DamageTypeRow_TypeDefinitionIndex = 13125;
+
 	class DamageTypeRow : public ::System::Object
 	{
 	public:

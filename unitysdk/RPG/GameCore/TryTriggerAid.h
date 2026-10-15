@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TryTriggerAid; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TryTriggerAid_TypeDefinitionIndex = 23640;
+
 	class TryTriggerAid : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -10,6 +10,8 @@
 
 namespace UnityEngine::Profiling::Experimental
 {
+	inline static constexpr unsigned int DebugScreenCapture_TypeDefinitionIndex = 4520;
+
 	struct alignas(8) DebugScreenCapture
 	{
 		::Unity::Collections::NativeArray_1<::System::Byte> _rawImageDataReference_k__BackingField; // 0x10

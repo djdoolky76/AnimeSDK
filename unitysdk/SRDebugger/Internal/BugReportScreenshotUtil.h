@@ -8,6 +8,8 @@ namespace System::Collections { class IEnumerator; }
 
 namespace SRDebugger::Internal
 {
+	inline static constexpr unsigned int BugReportScreenshotUtil_TypeDefinitionIndex = 38100;
+
 	class BugReportScreenshotUtil : public ::System::Object
 	{
 	public:

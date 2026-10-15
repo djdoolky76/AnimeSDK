@@ -19,6 +19,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define IONPCEGPNIN_MLKBNNGJMJG_OFFSET UNITYSDK_OFFSET(0x16515CA0)
 #define IONPCEGPNIN_NADMPNCJINC_OFFSET UNITYSDK_OFFSET(0x16515F90)
 
+inline static constexpr unsigned int IONPCEGPNIN_TypeDefinitionIndex = 56518;
+
 	class IONPCEGPNIN : public ::System::Object
 	{
 	public:

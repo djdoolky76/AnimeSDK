@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RoadRashGameAbility_FireProjectileCast_TypeDefinitionIndex = 10290;
+
 	class RoadRashGameAbility_FireProjectileCast : public ::RPG::GameCore::BaseLittleGameAbilityTaskConfig
 	{
 	public:

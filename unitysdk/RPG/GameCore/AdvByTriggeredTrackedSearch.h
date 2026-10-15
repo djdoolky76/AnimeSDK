@@ -13,6 +13,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvByTriggeredTrackedSearch_TypeDefinitionIndex = 20017;
+
 	class AdvByTriggeredTrackedSearch : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

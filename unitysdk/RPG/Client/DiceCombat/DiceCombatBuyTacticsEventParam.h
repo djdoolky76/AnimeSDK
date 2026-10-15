@@ -10,6 +10,8 @@
 
 namespace RPG::Client::DiceCombat
 {
+	inline static constexpr unsigned int DiceCombatBuyTacticsEventParam_TypeDefinitionIndex = 76162;
+
 	class DiceCombatBuyTacticsEventParam : public ::System::Object
 	{
 	public:

@@ -5,6 +5,8 @@
 
 #define CBMNFKJDDCL_CTOR_OFFSET UNITYSDK_OFFSET(0xC4AFB10)
 
+inline static constexpr unsigned int CBMNFKJDDCL_TypeDefinitionIndex = 57758;
+
 	class CBMNFKJDDCL : public ::System::Object
 	{
 	public:

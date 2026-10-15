@@ -3,6 +3,8 @@
 
 namespace BansheeGz::BGSpline::Curve
 {
+	inline static constexpr unsigned int BGCurve_EventModeEnum_TypeDefinitionIndex = 35990;
+
 	enum class BGCurve_EventModeEnum : ::System::Int32
 	{
 		Update = 0,

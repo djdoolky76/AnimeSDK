@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define NFLMAIFOINP_CTOR_OFFSET UNITYSDK_OFFSET(0xBB9A600)
 #define NFLMAIFOINP_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBB9A650)
 
+inline static constexpr unsigned int NFLMAIFOINP_TypeDefinitionIndex = 59182;
+
 	class NFLMAIFOINP
 	{
 	public:

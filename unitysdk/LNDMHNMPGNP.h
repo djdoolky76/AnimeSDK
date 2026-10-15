@@ -28,6 +28,8 @@ namespace System { class String; }
 #define LNDMHNMPGNP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9B25F0)
 #define LNDMHNMPGNP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E9B2650)
 
+inline static constexpr unsigned int LNDMHNMPGNP_TypeDefinitionIndex = 30749;
+
 	class LNDMHNMPGNP : public ::System::Object
 	{
 	public:

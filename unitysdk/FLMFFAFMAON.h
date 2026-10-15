@@ -8,6 +8,8 @@ class KKAOOEJHHHE;
 #define FLMFFAFMAON_COIEFOLMLFO_OFFSET UNITYSDK_OFFSET(0x1583F4A0)
 #define FLMFFAFMAON_CTOR_OFFSET UNITYSDK_OFFSET(0x1583F5D0)
 
+inline static constexpr unsigned int FLMFFAFMAON_TypeDefinitionIndex = 54243;
+
 	class FLMFFAFMAON : public ::MFEAIMEDPNF
 	{
 	public:

@@ -21,6 +21,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define PLUGINMSGHANDLER_REMOVERECEIVER_OFFSET UNITYSDK_OFFSET(0x1C370FC0)
 #define PLUGINMSGHANDLER_SENDMSGTOPLUGIN_OFFSET UNITYSDK_OFFSET(0x1C3712D0)
 
+inline static constexpr unsigned int PluginMsgHandler_TypeDefinitionIndex = 41339;
+
 	class PluginMsgHandler : public ::UnityEngine::MonoBehaviour
 	{
 	public:

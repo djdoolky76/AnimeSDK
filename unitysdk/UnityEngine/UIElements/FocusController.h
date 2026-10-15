@@ -23,6 +23,8 @@ namespace UnityEngine::UIElements { class IFocusRing; }
 
 namespace UnityEngine::UIElements
 {
+	inline static constexpr unsigned int FocusController_TypeDefinitionIndex = 5878;
+
 	class FocusController : public ::System::Object
 	{
 	public:

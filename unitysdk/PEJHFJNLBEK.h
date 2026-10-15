@@ -2288,6 +2288,8 @@ namespace System { class String; }
 #define PEJHFJNLBEK_METHOD_9_OFFSET UNITYSDK_OFFSET(0xC0406E0)
 #define PEJHFJNLBEK_METHOD_OFFSET UNITYSDK_OFFSET(0xC03EF30)
 
+inline static constexpr unsigned int PEJHFJNLBEK_TypeDefinitionIndex = 50318;
+
 	class PEJHFJNLBEK : public ::System::Object
 	{
 	public:

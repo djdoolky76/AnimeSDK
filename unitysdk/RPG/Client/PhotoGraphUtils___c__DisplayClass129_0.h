@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PhotoGraphUtils___c__DisplayClass129_0_TypeDefinitionIndex = 69467;
+
 	class PhotoGraphUtils___c__DisplayClass129_0 : public ::System::Object
 	{
 	public:

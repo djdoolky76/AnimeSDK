@@ -25,6 +25,8 @@ namespace System { class String; }
 #define GHDBOHHNOME_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E485D00)
 #define GHDBOHHNOME_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E485D60)
 
+inline static constexpr unsigned int GHDBOHHNOME_TypeDefinitionIndex = 33470;
+
 	class GHDBOHHNOME : public ::System::Object
 	{
 	public:

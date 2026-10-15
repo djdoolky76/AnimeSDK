@@ -31,6 +31,8 @@ namespace System { class String; }
 #define KBEFGELEMLB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E7ECEE0)
 #define KBEFGELEMLB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E7ECF40)
 
+inline static constexpr unsigned int KBEFGELEMLB_TypeDefinitionIndex = 32054;
+
 	class KBEFGELEMLB : public ::System::Object
 	{
 	public:

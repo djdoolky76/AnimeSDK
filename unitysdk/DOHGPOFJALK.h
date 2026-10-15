@@ -15,6 +15,8 @@ namespace UnityEngine { class Rigidbody; }
 #define DOHGPOFJALK_KMMFCCGJNMP_OFFSET UNITYSDK_OFFSET(0x11FE8CB0)
 #define DOHGPOFJALK_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x11FE8B00)
 
+inline static constexpr unsigned int DOHGPOFJALK_TypeDefinitionIndex = 76959;
+
 	class DOHGPOFJALK : public ::System::Object
 	{
 	public:

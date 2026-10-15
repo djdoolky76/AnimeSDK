@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ApplySwordTrainingOptionStrategy; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ApplySwordTrainingOptionStrategy_TypeDefinitionIndex = 20849;
+
 	class ApplySwordTrainingOptionStrategy : public ::RPG::GameCore::TaskConfig
 	{
 	public:

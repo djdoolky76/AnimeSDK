@@ -21,6 +21,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define LNKGMFCMGPN__MODIFYDECKS_B__5_0_OFFSET UNITYSDK_OFFSET(0xB7E5840)
 #define LNKGMFCMGPN__SETCURRENTDECK_B__6_0_OFFSET UNITYSDK_OFFSET(0xB7E5C20)
 
+inline static constexpr unsigned int LNKGMFCMGPN_TypeDefinitionIndex = 81074;
+
 	class LNKGMFCMGPN : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System { class Action; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ActivityMarbleUtils___c__DisplayClass23_0_TypeDefinitionIndex = 65796;
+
 	class ActivityMarbleUtils___c__DisplayClass23_0 : public ::System::Object
 	{
 	public:

@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PropPlayGachaMachine_TypeDefinitionIndex = 21969;
+
 	class PropPlayGachaMachine : public ::RPG::GameCore::TaskConfig
 	{
 	public:

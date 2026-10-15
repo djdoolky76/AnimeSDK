@@ -10,6 +10,8 @@ namespace UnityEngine { class Texture2D; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int JigsawEditorHelper_TypeDefinitionIndex = 68503;
+
 	class JigsawEditorHelper : public ::UnityEngine::MonoBehaviour
 	{
 	public:

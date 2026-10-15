@@ -17,6 +17,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define DLIBCMNBLGF_CTOR_OFFSET UNITYSDK_OFFSET(0xF8A08F0)
 
+inline static constexpr unsigned int DLIBCMNBLGF_TypeDefinitionIndex = 56880;
+
 	class DLIBCMNBLGF : public ::HLHIKGINAHB
 	{
 	public:

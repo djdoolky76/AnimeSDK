@@ -9,6 +9,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int LoopGenerator_SliderTemplate_TypeDefinitionIndex = 72972;
+
 	struct alignas(8) LoopGenerator_SliderTemplate
 	{
 		::System::String* NickName; // 0x10

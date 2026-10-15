@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace System::Net
 {
+	inline static constexpr unsigned int WebExceptionMapping_TypeDefinitionIndex = 2761;
+
 	class WebExceptionMapping : public ::System::Object
 	{
 	public:

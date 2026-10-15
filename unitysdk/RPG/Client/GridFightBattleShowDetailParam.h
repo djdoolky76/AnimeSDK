@@ -30,6 +30,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightBattleShowDetailParam_TypeDefinitionIndex = 72269;
+
 	class GridFightBattleShowDetailParam : public ::System::Object
 	{
 	public:

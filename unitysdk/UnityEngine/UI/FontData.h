@@ -48,6 +48,8 @@ namespace UnityEngine::UI { class FontData; }
 
 namespace UnityEngine::UI
 {
+	inline static constexpr unsigned int FontData_TypeDefinitionIndex = 6714;
+
 	class FontData : public ::System::Object
 	{
 	public:

@@ -26,6 +26,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define GFLCBHJDAAO_SET_SORTEDATTRIBUTES_OFFSET UNITYSDK_OFFSET(0x159FB1E0)
 #define GFLCBHJDAAO_SET_TARGETATTRIBUTELEVELS_OFFSET UNITYSDK_OFFSET(0x159FB220)
 
+inline static constexpr unsigned int GFLCBHJDAAO_TypeDefinitionIndex = 79736;
+
 	class GFLCBHJDAAO : public ::System::Object
 	{
 	public:

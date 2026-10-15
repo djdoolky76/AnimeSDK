@@ -15,6 +15,8 @@ namespace RPG::Client { class ExpeditionBattleRoute; }
 #define LOCEIACFACA_HNFMGPFAIDK_OFFSET UNITYSDK_OFFSET(0xB7F4670)
 #define LOCEIACFACA_LPDKNJKMCFO_OFFSET UNITYSDK_OFFSET(0xB7F44D0)
 
+inline static constexpr unsigned int LOCEIACFACA_TypeDefinitionIndex = 63834;
+
 	class LOCEIACFACA : public ::System::Object
 	{
 	public:

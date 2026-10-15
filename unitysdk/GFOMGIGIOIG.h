@@ -14,6 +14,8 @@ namespace System { class String; }
 #define GFOMGIGIOIG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x159FF470)
 #define GFOMGIGIOIG_OPGPNPLNNHA_OFFSET UNITYSDK_OFFSET(0x159FF4F0)
 
+inline static constexpr unsigned int GFOMGIGIOIG_TypeDefinitionIndex = 55903;
+
 	class GFOMGIGIOIG
 	{
 	public:

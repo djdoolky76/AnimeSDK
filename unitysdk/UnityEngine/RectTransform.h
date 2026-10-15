@@ -60,6 +60,8 @@ namespace UnityEngine { class RectTransform_ReapplyDrivenProperties; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int RectTransform_TypeDefinitionIndex = 4404;
+
 	class RectTransform : public ::UnityEngine::Transform
 	{
 	public:

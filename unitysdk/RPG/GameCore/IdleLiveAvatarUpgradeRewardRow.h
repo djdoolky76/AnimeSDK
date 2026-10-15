@@ -10,6 +10,8 @@ namespace RPG::GameCore { class IdleLiveAvatarUpgradeRewardRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int IdleLiveAvatarUpgradeRewardRow_TypeDefinitionIndex = 11718;
+
 	class IdleLiveAvatarUpgradeRewardRow : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class SwitchCharacterAnchor; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LockMainStreamSourceToSwitchAnchorPos_TypeDefinitionIndex = 20502;
+
 	class LockMainStreamSourceToSwitchAnchorPos : public ::RPG::GameCore::TaskConfig
 	{
 	public:

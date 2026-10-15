@@ -30,6 +30,8 @@ namespace System { class String; }
 
 namespace Google::Protobuf::Reflection
 {
+	inline static constexpr unsigned int GeneratedCodeInfo_TypeDefinitionIndex = 5521;
+
 	class GeneratedCodeInfo : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int CRPVirtualCameraMask_TypeDefinitionIndex = 37689;
+
 	class CRPVirtualCameraMask : public ::UnityEngine::MonoBehaviour
 	{
 	public:

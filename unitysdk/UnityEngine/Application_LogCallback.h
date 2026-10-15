@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int Application_LogCallback_TypeDefinitionIndex = 4030;
+
 	class Application_LogCallback : public ::System::MulticastDelegate
 	{
 	public:

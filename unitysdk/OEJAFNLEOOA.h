@@ -18,6 +18,8 @@ namespace UnityEngine { class Transform; }
 #define OEJAFNLEOOA_REVERSE_OFFSET UNITYSDK_OFFSET(0xBE301B0)
 #define OEJAFNLEOOA_STARTWITHTARGET_OFFSET UNITYSDK_OFFSET(0xBE300C0)
 
+inline static constexpr unsigned int OEJAFNLEOOA_TypeDefinitionIndex = 73559;
+
 	class OEJAFNLEOOA : public ::GHJDEAEBHGA
 	{
 	public:

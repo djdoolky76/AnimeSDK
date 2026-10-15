@@ -10,6 +10,8 @@ namespace RPG::GameCore { class SwitchHandChangeUICoinCntActive; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SwitchHandChangeUICoinCntActive_TypeDefinitionIndex = 20968;
+
 	class SwitchHandChangeUICoinCntActive : public ::RPG::GameCore::TaskConfig
 	{
 	public:

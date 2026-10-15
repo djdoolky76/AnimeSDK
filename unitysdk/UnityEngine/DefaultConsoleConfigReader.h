@@ -21,6 +21,8 @@ namespace UnityEngine { class DefaultConsoleConfigReader_ReadDeviceProfileContex
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int DefaultConsoleConfigReader_TypeDefinitionIndex = 4063;
+
 	class DefaultConsoleConfigReader : public ::System::Object
 	{
 	public:

@@ -27,6 +27,8 @@ namespace System { class Object; }
 
 namespace System::Net::Sockets
 {
+	inline static constexpr unsigned int Socket___c_TypeDefinitionIndex = 2904;
+
 	class Socket___c : public ::System::Object
 	{
 	public:

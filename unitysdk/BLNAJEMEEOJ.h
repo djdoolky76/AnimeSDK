@@ -5,6 +5,8 @@ namespace System { class Type; }
 
 #define BLNAJEMEEOJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9E0970)
 
+inline static constexpr unsigned int BLNAJEMEEOJ_TypeDefinitionIndex = 24997;
+
 	class BLNAJEMEEOJ : public ::System::Attribute
 	{
 	public:

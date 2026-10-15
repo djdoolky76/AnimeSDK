@@ -10,6 +10,8 @@ namespace RPG::Client::NavMap { class IMapDataSource; }
 #define AHOIDHJKFDB_HLNGJPODDFP_OFFSET UNITYSDK_OFFSET(0xEB8A120)
 #define AHOIDHJKFDB_KCFIMIPOGMP_OFFSET UNITYSDK_OFFSET(0xEB8A180)
 
+inline static constexpr unsigned int AHOIDHJKFDB_TypeDefinitionIndex = 74530;
+
 	class AHOIDHJKFDB : public ::System::Object
 	{
 	public:

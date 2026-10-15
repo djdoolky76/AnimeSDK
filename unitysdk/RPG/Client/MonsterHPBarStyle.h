@@ -29,6 +29,8 @@ namespace RPG::GameCore { class GameEntity; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonsterHPBarStyle_TypeDefinitionIndex = 71678;
+
 	class MonsterHPBarStyle : public ::System::Object
 	{
 	public:

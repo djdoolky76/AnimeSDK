@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int ShowSDFTextData_TypeDefinitionIndex = 48249;
+
 	class ShowSDFTextData : public ::System::Object
 	{
 	public:

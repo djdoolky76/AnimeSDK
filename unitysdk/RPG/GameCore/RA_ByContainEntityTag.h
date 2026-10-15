@@ -15,6 +15,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RA_ByContainEntityTag_TypeDefinitionIndex = 20048;
+
 	class RA_ByContainEntityTag : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class MiniGameFlappyBirdBlockConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MiniGameFlappyBirdBlockConfig_TypeDefinitionIndex = 18810;
+
 	class MiniGameFlappyBirdBlockConfig : public ::RPG::GameCore::BaseScrollGameBlockConfig
 	{
 	public:

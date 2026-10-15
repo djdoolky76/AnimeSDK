@@ -9,6 +9,8 @@ namespace RPG::Client::Prop { class ChimeraDuelMainPuzzleBattleView; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int ChimeraDuelMainPuzzleBattleView___c__DisplayClass24_0_TypeDefinitionIndex = 78374;
+
 	class ChimeraDuelMainPuzzleBattleView___c__DisplayClass24_0 : public ::System::Object
 	{
 	public:

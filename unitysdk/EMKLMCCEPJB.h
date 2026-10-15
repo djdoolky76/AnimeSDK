@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define EMKLMCCEPJB_EQUALS_OFFSET UNITYSDK_OFFSET(0x3C29FD0)
 #define EMKLMCCEPJB_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x3C2A160)
 
+inline static constexpr unsigned int EMKLMCCEPJB_TypeDefinitionIndex = 36398;
+
 	struct alignas(4) EMKLMCCEPJB
 	{
 		::AKPPOAIOOHN MNOGOAMMHCB; // 0x10

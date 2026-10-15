@@ -5,6 +5,8 @@ namespace System { class String; }
 
 #define NJKFDOFOCLO_CTOR_OFFSET UNITYSDK_OFFSET(0xBC1A5E0)
 
+inline static constexpr unsigned int NJKFDOFOCLO_TypeDefinitionIndex = 55849;
+
 	class NJKFDOFOCLO : public ::System::Object
 	{
 	public:

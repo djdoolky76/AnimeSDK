@@ -12,6 +12,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_Vector3SerializationSurrogate_TypeDefinitionIndex = 40373;
+
 	class HEU_Vector3SerializationSurrogate : public ::System::Object
 	{
 	public:

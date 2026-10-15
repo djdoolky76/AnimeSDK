@@ -67,6 +67,8 @@ namespace System::Threading { class WaitHandle; }
 
 namespace System::Diagnostics
 {
+	inline static constexpr unsigned int Process_TypeDefinitionIndex = 2546;
+
 	class Process : public ::System::ComponentModel::Component
 	{
 	public:

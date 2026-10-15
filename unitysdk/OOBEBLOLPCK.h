@@ -7,6 +7,8 @@ namespace UnityEngine { class GameObject; }
 
 #define OOBEBLOLPCK_GDGIGAJPDAD_OFFSET UNITYSDK_OFFSET(0xBF62F70)
 
+inline static constexpr unsigned int OOBEBLOLPCK_TypeDefinitionIndex = 55743;
+
 	class OOBEBLOLPCK : public ::System::Object
 	{
 	public:

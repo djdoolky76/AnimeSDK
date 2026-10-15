@@ -29,6 +29,8 @@ namespace System { class String; }
 #define KCADLPJDECG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E7F20F0)
 #define KCADLPJDECG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E7F2150)
 
+inline static constexpr unsigned int KCADLPJDECG_TypeDefinitionIndex = 29645;
+
 	class KCADLPJDECG : public ::System::Object
 	{
 	public:

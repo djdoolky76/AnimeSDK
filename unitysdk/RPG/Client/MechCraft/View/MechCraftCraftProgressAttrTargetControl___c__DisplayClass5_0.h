@@ -10,6 +10,8 @@ class BHHPHPGCODJ;
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftCraftProgressAttrTargetControl___c__DisplayClass5_0_TypeDefinitionIndex = 79916;
+
 	class MechCraftCraftProgressAttrTargetControl___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:

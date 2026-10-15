@@ -18,6 +18,8 @@ namespace System::Reflection { class ConstructorInfo; }
 
 namespace Newtonsoft::Json::Utilities
 {
+	inline static constexpr unsigned int CollectionUtils_TypeDefinitionIndex = 9675;
+
 	class CollectionUtils : public ::System::Object
 	{
 	public:

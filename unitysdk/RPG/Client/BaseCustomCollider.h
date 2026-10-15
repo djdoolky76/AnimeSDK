@@ -10,6 +10,8 @@ namespace UnityEngine { class PolygonCollider2D; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BaseCustomCollider_TypeDefinitionIndex = 68900;
+
 	class BaseCustomCollider : public ::UnityEngine::MonoBehaviour
 	{
 	public:

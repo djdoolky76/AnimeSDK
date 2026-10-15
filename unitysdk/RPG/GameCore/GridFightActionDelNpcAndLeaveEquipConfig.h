@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightActionDelNpcAndLeaveEquipConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightActionDelNpcAndLeaveEquipConfig_TypeDefinitionIndex = 19316;
+
 	class GridFightActionDelNpcAndLeaveEquipConfig : public ::RPG::GameCore::GridFightActionConfigBase
 	{
 	public:

@@ -30,6 +30,8 @@ namespace System { class String; }
 #define OKBILIPEDPP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE8EE70)
 #define OKBILIPEDPP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DE8EED0)
 
+inline static constexpr unsigned int OKBILIPEDPP_TypeDefinitionIndex = 28159;
+
 	class OKBILIPEDPP : public ::System::Object
 	{
 	public:

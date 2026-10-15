@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightActionTriggerAugmentSelectConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightActionTriggerAugmentSelectConfig_TypeDefinitionIndex = 19309;
+
 	class GridFightActionTriggerAugmentSelectConfig : public ::RPG::GameCore::GridFightActionConfigBase
 	{
 	public:

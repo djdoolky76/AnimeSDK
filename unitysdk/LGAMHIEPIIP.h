@@ -27,6 +27,8 @@ namespace System { class String; }
 #define LGAMHIEPIIP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9491B0)
 #define LGAMHIEPIIP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E949210)
 
+inline static constexpr unsigned int LGAMHIEPIIP_TypeDefinitionIndex = 31213;
+
 	class LGAMHIEPIIP : public ::System::Object
 	{
 	public:

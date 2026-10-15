@@ -36,6 +36,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define ABCPIKLPIGI_PDOCMMCMDLN_OFFSET UNITYSDK_OFFSET(0xB0EE510)
 #define ABCPIKLPIGI_PJKNNBLLECF_OFFSET UNITYSDK_OFFSET(0xB0EE340)
 
+inline static constexpr unsigned int ABCPIKLPIGI_TypeDefinitionIndex = 74602;
+
 	class ABCPIKLPIGI : public ::System::Object
 	{
 	public:

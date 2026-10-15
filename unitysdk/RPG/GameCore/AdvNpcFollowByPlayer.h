@@ -14,6 +14,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvNpcFollowByPlayer_TypeDefinitionIndex = 19989;
+
 	class AdvNpcFollowByPlayer : public ::RPG::GameCore::TaskConfig
 	{
 	public:

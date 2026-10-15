@@ -21,6 +21,8 @@ namespace System { class String; }
 
 namespace RPG::Client::ChenLingFes
 {
+	inline static constexpr unsigned int ChenLingFesGameBuffRewardViewModel_TypeDefinitionIndex = 81400;
+
 	class ChenLingFesGameBuffRewardViewModel : public ::Sofa::BaseViewModel
 	{
 	public:

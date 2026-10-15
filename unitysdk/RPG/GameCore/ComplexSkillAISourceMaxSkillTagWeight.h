@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ComplexSkillAISourceMaxSkillTagWeight; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ComplexSkillAISourceMaxSkillTagWeight_TypeDefinitionIndex = 15537;
+
 	class ComplexSkillAISourceMaxSkillTagWeight : public ::RPG::GameCore::ComplexSkillAISource
 	{
 	public:

@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define PPJFJOGLHGL_GET_CURRENTPERFORMFORTASK_OFFSET UNITYSDK_OFFSET(0xC38C2B0)
 #define PPJFJOGLHGL_SET_CURRENTPERFORMFORTASK_OFFSET UNITYSDK_OFFSET(0xC38C2C0)
 
+inline static constexpr unsigned int PPJFJOGLHGL_TypeDefinitionIndex = 80789;
+
 	class PPJFJOGLHGL : public ::System::Object
 	{
 	public:

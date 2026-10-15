@@ -29,6 +29,8 @@ namespace System { class String; }
 #define EAAHHGIGLNN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E220C20)
 #define EAAHHGIGLNN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E220C80)
 
+inline static constexpr unsigned int EAAHHGIGLNN_TypeDefinitionIndex = 32102;
+
 	class EAAHHGIGLNN : public ::System::Object
 	{
 	public:

@@ -17,6 +17,8 @@
 
 namespace RPG::Rendering
 {
+	inline static constexpr unsigned int SDFBoundsData_TypeDefinitionIndex = 51796;
+
 	class SDFBoundsData : public ::UnityEngine::ScriptableObject
 	{
 	public:

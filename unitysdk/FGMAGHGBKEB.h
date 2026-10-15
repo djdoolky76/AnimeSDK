@@ -5,6 +5,8 @@ namespace R3 { template <typename T> class ReactiveProperty_1; }
 namespace RPG::Client { class UIDropTarget; }
 namespace System { class Action; }
 
+inline static constexpr unsigned int FGMAGHGBKEB_TypeDefinitionIndex = 49869;
+
 	class FGMAGHGBKEB : public ::System::Object
 	{
 	public:

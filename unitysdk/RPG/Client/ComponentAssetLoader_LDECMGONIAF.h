@@ -12,6 +12,8 @@ namespace UnityEngine { class Component; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ComponentAssetLoader_LDECMGONIAF_TypeDefinitionIndex = 68397;
+
 	class ComponentAssetLoader_LDECMGONIAF : public ::RPG::Client::ComponentAssetLoader_KPIMOEDONLE
 	{
 	public:

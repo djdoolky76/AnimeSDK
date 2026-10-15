@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightPrepTutorialPopupPanelVisibleParam; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightPrepTutorialPopupPanelVisibleParam_TypeDefinitionIndex = 19968;
+
 	class GridFightPrepTutorialPopupPanelVisibleParam : public ::RPG::GameCore::JsonConfig
 	{
 	public:

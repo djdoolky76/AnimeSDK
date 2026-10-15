@@ -70,6 +70,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::ChenLingGameBoy
 {
+	inline static constexpr unsigned int ChenLingGameBoyPuzzleData_TypeDefinitionIndex = 74797;
+
 	class ChenLingGameBoyPuzzleData : public ::EJKAHJBMLAE
 	{
 	public:

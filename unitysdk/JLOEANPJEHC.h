@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define JLOEANPJEHC_DMGEEEDLGHF_2_OFFSET UNITYSDK_OFFSET(0xB252050)
 #define JLOEANPJEHC_DMGEEEDLGHF_OFFSET UNITYSDK_OFFSET(0xB251D40)
 
+inline static constexpr unsigned int JLOEANPJEHC_TypeDefinitionIndex = 79797;
+
 	class JLOEANPJEHC : public ::System::Object
 	{
 	public:

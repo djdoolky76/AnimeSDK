@@ -3,6 +3,8 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Action; }
 
+inline static constexpr unsigned int JANKDPCJDKH___O_TypeDefinitionIndex = 13252;
+
 	class JANKDPCJDKH___O : public ::System::Object
 	{
 	public:

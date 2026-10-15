@@ -8,6 +8,8 @@ class GJMAAIHEABO;
 #define GJMAAIHEABO_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CE57830)
 #define GJMAAIHEABO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CE57760)
 
+inline static constexpr unsigned int GJMAAIHEABO_TypeDefinitionIndex = 23808;
+
 	class GJMAAIHEABO : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System { template <typename T> class Predicate_1; }
 #define KJHMLHKIMOM___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB458470)
 #define KJHMLHKIMOM___C___REMOVEMAXSPEEDMODIFIER_B__9_0_OFFSET UNITYSDK_OFFSET(0xB458480)
 
+inline static constexpr unsigned int KJHMLHKIMOM___c_TypeDefinitionIndex = 58427;
+
 	class KJHMLHKIMOM___c : public ::System::Object
 	{
 	public:

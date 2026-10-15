@@ -24,6 +24,8 @@ namespace System { class String; }
 #define KLDACPIHCCN_DFIDIAFMJLJ_NJCMLGIINEO_OFFSET UNITYSDK_OFFSET(0xB4ECC70)
 #define KLDACPIHCCN_DFIDIAFMJLJ_PPAKDDBDDFC_OFFSET UNITYSDK_OFFSET(0xB4ECCF0)
 
+inline static constexpr unsigned int KLDACPIHCCN_DFIDIAFMJLJ_TypeDefinitionIndex = 56209;
+
 	class KLDACPIHCCN_DFIDIAFMJLJ : public ::System::Object
 	{
 	public:

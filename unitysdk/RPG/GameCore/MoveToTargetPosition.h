@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MoveToTargetPosition_TypeDefinitionIndex = 22461;
+
 	class MoveToTargetPosition : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -9,6 +9,8 @@ class KHLDHMFKOCP;
 #define IKNAEDLKKKE_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0x1CB782C0)
 #define IKNAEDLKKKE_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0x1CB78300)
 
+inline static constexpr unsigned int IKNAEDLKKKE_TypeDefinitionIndex = 43060;
+
 	class IKNAEDLKKKE : public ::System::Object
 	{
 	public:

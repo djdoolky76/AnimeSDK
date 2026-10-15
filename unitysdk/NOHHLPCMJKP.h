@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TriggerBattle; }
 #define NOHHLPCMJKP_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBCEF700)
 #define NOHHLPCMJKP_TICK_OFFSET UNITYSDK_OFFSET(0xBCEFC90)
 
+inline static constexpr unsigned int NOHHLPCMJKP_TypeDefinitionIndex = 58771;
+
 	class NOHHLPCMJKP : public ::GELIALJDFBL
 	{
 	public:

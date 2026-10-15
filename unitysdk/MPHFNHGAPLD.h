@@ -7,6 +7,8 @@ namespace System { class String; }
 #define MPHFNHGAPLD_CTOR_OFFSET UNITYSDK_OFFSET(0xBA3E380)
 #define MPHFNHGAPLD_GETNODEICON_OFFSET UNITYSDK_OFFSET(0xBA3E340)
 
+inline static constexpr unsigned int MPHFNHGAPLD_TypeDefinitionIndex = 75157;
+
 	class MPHFNHGAPLD : public ::System::Object
 	{
 	public:

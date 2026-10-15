@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace Cinemachine
 {
+	inline static constexpr unsigned int NoiseSettings_TypeDefinitionIndex = 39840;
+
 	class NoiseSettings : public ::Cinemachine::SignalSourceAsset
 	{
 	public:

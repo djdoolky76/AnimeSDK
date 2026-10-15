@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::Client::FateRin::Card
 {
+	inline static constexpr unsigned int FateRinCardManaCostViewModel_TypeDefinitionIndex = 81145;
+
 	class FateRinCardManaCostViewModel : public ::RPG::Client::FateRin::BaseViewModel
 	{
 	public:

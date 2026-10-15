@@ -8,6 +8,8 @@ namespace RPG::GameCore { class CharacterVisibleComponent; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int FastDeliverPuzzleBoard___c__DisplayClass118_0_TypeDefinitionIndex = 78583;
+
 	class FastDeliverPuzzleBoard___c__DisplayClass118_0 : public ::System::Object
 	{
 	public:

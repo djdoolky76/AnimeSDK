@@ -22,6 +22,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::B51Racing
 {
+	inline static constexpr unsigned int B51RacingGameplayRoundHintHostControl_TypeDefinitionIndex = 81894;
+
 	class B51RacingGameplayRoundHintHostControl : public ::Sofa::BaseSofaControl
 	{
 	public:

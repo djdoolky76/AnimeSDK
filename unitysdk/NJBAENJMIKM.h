@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define NJBAENJMIKM_GET_CONDITIONS_OFFSET UNITYSDK_OFFSET(0xBC08E20)
 #define NJBAENJMIKM_LNGKNPJIOML_OFFSET UNITYSDK_OFFSET(0xBC08E30)
 
+inline static constexpr unsigned int NJBAENJMIKM_TypeDefinitionIndex = 63275;
+
 	class NJBAENJMIKM : public ::System::Object
 	{
 	public:

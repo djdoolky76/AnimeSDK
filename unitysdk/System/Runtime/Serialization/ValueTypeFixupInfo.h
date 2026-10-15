@@ -10,6 +10,8 @@ namespace System::Reflection { class FieldInfo; }
 
 namespace System::Runtime::Serialization
 {
+	inline static constexpr unsigned int ValueTypeFixupInfo_TypeDefinitionIndex = 1139;
+
 	class ValueTypeFixupInfo : public ::System::Object
 	{
 	public:

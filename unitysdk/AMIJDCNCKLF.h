@@ -6,6 +6,8 @@ namespace System { class String; }
 
 #define AMIJDCNCKLF_BGGIFMCPKBB_OFFSET UNITYSDK_OFFSET(0x15581A50)
 
+inline static constexpr unsigned int AMIJDCNCKLF_TypeDefinitionIndex = 56212;
+
 	class AMIJDCNCKLF : public ::System::Object
 	{
 	public:

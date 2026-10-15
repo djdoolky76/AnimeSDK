@@ -36,6 +36,8 @@ namespace System { class String; }
 #define JAIPALPGNKD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E6EEF10)
 #define JAIPALPGNKD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E6EEF70)
 
+inline static constexpr unsigned int JAIPALPGNKD_TypeDefinitionIndex = 30649;
+
 	class JAIPALPGNKD : public ::System::Object
 	{
 	public:

@@ -24,6 +24,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define MNOAGHLDCOI_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D1DA790)
 #define MNOAGHLDCOI_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D1DA0F0)
 
+inline static constexpr unsigned int MNOAGHLDCOI_TypeDefinitionIndex = 13359;
+
 	class MNOAGHLDCOI : public ::System::Object
 	{
 	public:

@@ -29,6 +29,8 @@ namespace System { class String; }
 #define FLMODPLLMNF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E3DA540)
 #define FLMODPLLMNF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E3DA5A0)
 
+inline static constexpr unsigned int FLMODPLLMNF_TypeDefinitionIndex = 32104;
+
 	class FLMODPLLMNF : public ::System::Object
 	{
 	public:

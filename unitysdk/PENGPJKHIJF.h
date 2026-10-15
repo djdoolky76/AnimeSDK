@@ -9,6 +9,8 @@ namespace RPG::GameCore { class ItemConfig; }
 #define PENGPJKHIJF_CTOR_OFFSET UNITYSDK_OFFSET(0x1D2D7320)
 #define PENGPJKHIJF_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D2D6DE0)
 
+inline static constexpr unsigned int PENGPJKHIJF_TypeDefinitionIndex = 12995;
+
 	class PENGPJKHIJF : public ::System::Object
 	{
 	public:

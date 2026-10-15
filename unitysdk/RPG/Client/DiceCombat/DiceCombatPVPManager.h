@@ -62,6 +62,8 @@ namespace RPG::Client::Promises { class Promise; }
 
 namespace RPG::Client::DiceCombat
 {
+	inline static constexpr unsigned int DiceCombatPVPManager_TypeDefinitionIndex = 76137;
+
 	class DiceCombatPVPManager : public ::System::Object
 	{
 	public:

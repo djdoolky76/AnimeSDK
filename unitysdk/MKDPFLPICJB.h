@@ -40,6 +40,8 @@ namespace System { class String; }
 #define MKDPFLPICJB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA556B0)
 #define MKDPFLPICJB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA55710)
 
+inline static constexpr unsigned int MKDPFLPICJB_TypeDefinitionIndex = 34738;
+
 	class MKDPFLPICJB : public ::System::Object
 	{
 	public:

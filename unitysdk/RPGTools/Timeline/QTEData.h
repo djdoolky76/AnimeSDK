@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int QTEData_TypeDefinitionIndex = 48260;
+
 	class QTEData : public ::System::Object
 	{
 	public:

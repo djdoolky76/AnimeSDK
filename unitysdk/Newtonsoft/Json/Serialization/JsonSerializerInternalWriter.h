@@ -66,6 +66,8 @@ namespace System::Runtime::Serialization { class ISerializable; }
 
 namespace Newtonsoft::Json::Serialization
 {
+	inline static constexpr unsigned int JsonSerializerInternalWriter_TypeDefinitionIndex = 9740;
+
 	class JsonSerializerInternalWriter : public ::Newtonsoft::Json::Serialization::JsonSerializerInternalBase
 	{
 	public:

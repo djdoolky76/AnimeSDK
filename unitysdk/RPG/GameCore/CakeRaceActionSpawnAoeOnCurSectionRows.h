@@ -11,6 +11,8 @@ namespace RPG::GameCore { class CakeRaceAoeConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CakeRaceActionSpawnAoeOnCurSectionRows_TypeDefinitionIndex = 18361;
+
 	class CakeRaceActionSpawnAoeOnCurSectionRows : public ::RPG::GameCore::CakeRaceActionBase
 	{
 	public:

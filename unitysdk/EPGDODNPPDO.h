@@ -33,6 +33,8 @@ namespace System { class String; }
 #define EPGDODNPPDO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E30ACA0)
 #define EPGDODNPPDO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E30AD00)
 
+inline static constexpr unsigned int EPGDODNPPDO_TypeDefinitionIndex = 30398;
+
 	class EPGDODNPPDO : public ::System::Object
 	{
 	public:

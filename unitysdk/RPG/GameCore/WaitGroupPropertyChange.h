@@ -13,6 +13,8 @@ namespace RPG::GameCore { class WaitGroupPropertyChange; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaitGroupPropertyChange_TypeDefinitionIndex = 20734;
+
 	class WaitGroupPropertyChange : public ::RPG::GameCore::AdvWaitingEventBase
 	{
 	public:

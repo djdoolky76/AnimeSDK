@@ -7,6 +7,8 @@
 
 namespace RPG::Client::CrowdAnimator
 {
+	inline static constexpr unsigned int ClipData_TypeDefinitionIndex = 73730;
+
 	class ClipData : public ::System::Object
 	{
 	public:

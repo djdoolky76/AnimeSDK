@@ -8,6 +8,8 @@ namespace System { class Object; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int GUILayoutOption_TypeDefinitionIndex = 5174;
+
 	class GUILayoutOption : public ::System::Object
 	{
 	public:

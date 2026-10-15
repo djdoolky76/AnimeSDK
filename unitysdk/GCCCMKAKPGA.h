@@ -5,6 +5,8 @@
 
 #define GCCCMKAKPGA_CTOR_OFFSET UNITYSDK_OFFSET(0x15960F90)
 
+inline static constexpr unsigned int GCCCMKAKPGA_TypeDefinitionIndex = 55071;
+
 	class GCCCMKAKPGA : public ::System::Object
 	{
 	public:

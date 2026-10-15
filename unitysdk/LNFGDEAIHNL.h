@@ -25,6 +25,8 @@ namespace System { class String; }
 #define LNFGDEAIHNL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9B3970)
 #define LNFGDEAIHNL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E9B39D0)
 
+inline static constexpr unsigned int LNFGDEAIHNL_TypeDefinitionIndex = 26530;
+
 	class LNFGDEAIHNL : public ::System::Object
 	{
 	public:

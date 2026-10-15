@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 #define DEAKIBIJJEE__SELECTTARGET_D__0_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xE4F3430)
 #define DEAKIBIJJEE__SELECTTARGET_D__0___M__FINALLY1_OFFSET UNITYSDK_OFFSET(0xE4F3470)
 
+inline static constexpr unsigned int DEAKIBIJJEE__SelectTarget_d__0_TypeDefinitionIndex = 77505;
+
 	class DEAKIBIJJEE__SelectTarget_d__0 : public ::System::Object
 	{
 	public:

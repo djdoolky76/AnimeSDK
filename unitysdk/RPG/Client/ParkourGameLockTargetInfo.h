@@ -12,6 +12,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ParkourGameLockTargetInfo_TypeDefinitionIndex = 61846;
+
 	class ParkourGameLockTargetInfo : public ::System::Object
 	{
 	public:

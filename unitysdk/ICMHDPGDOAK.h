@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define ICMHDPGDOAK_FBGHGOFHLAA_OFFSET UNITYSDK_OFFSET(0x15E528F0)
 #define ICMHDPGDOAK_IBGJBMFBEHK_OFFSET UNITYSDK_OFFSET(0x15E52A40)
 
+inline static constexpr unsigned int ICMHDPGDOAK_TypeDefinitionIndex = 59100;
+
 	class ICMHDPGDOAK
 	{
 	public:

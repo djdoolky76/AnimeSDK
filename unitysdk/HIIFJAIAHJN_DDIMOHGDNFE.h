@@ -18,6 +18,8 @@ namespace UnityEngine { class ObjectInstantiateRequest; }
 #define HIIFJAIAHJN_DDIMOHGDNFE_HNLHPGKIAIC_OFFSET UNITYSDK_OFFSET(0x15CE6A60)
 #define HIIFJAIAHJN_DDIMOHGDNFE_IKHJMENJMHJ_OFFSET UNITYSDK_OFFSET(0x15CE9350)
 
+inline static constexpr unsigned int HIIFJAIAHJN_DDIMOHGDNFE_TypeDefinitionIndex = 59681;
+
 	class HIIFJAIAHJN_DDIMOHGDNFE : public ::System::Object
 	{
 	public:

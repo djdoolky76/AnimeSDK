@@ -8,6 +8,8 @@ class INGIDLEONOC;
 
 namespace RPG::Client::Ui::Samples
 {
+	inline static constexpr unsigned int FriendChatFriendTabContentControl_TypeDefinitionIndex = 73435;
+
 	class FriendChatFriendTabContentControl
 	{
 	public:

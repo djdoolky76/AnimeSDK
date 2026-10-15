@@ -4,6 +4,8 @@
 
 namespace ObservableCollections::Internal
 {
+	inline static constexpr unsigned int CloneCollection_1_EnumerableCollection_TypeDefinitionIndex = 35885;
+
 	template <typename T>
 	class CloneCollection_1_EnumerableCollection : public ::System::Object
 	{

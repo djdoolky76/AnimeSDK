@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace IRIClusterBuilder::Test
 {
+	inline static constexpr unsigned int IRICarTestManager_PlatformInfoMessage_TypeDefinitionIndex = 47760;
+
 	class IRICarTestManager_PlatformInfoMessage : public ::System::Object
 	{
 	public:

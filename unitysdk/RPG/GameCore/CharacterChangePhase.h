@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CharacterChangePhase_TypeDefinitionIndex = 22479;
+
 	class CharacterChangePhase : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define LDCFLPGNOJE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8F3E00)
 #define LDCFLPGNOJE___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E8F3E10)
 
+inline static constexpr unsigned int LDCFLPGNOJE___c_TypeDefinitionIndex = 28898;
+
 	class LDCFLPGNOJE___c : public ::System::Object
 	{
 	public:

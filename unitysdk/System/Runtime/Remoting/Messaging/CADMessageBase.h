@@ -25,6 +25,8 @@ namespace System::Runtime::Remoting::Messaging { class LogicalCallContext; }
 
 namespace System::Runtime::Remoting::Messaging
 {
+	inline static constexpr unsigned int CADMessageBase_TypeDefinitionIndex = 1302;
+
 	class CADMessageBase : public ::System::Object
 	{
 	public:

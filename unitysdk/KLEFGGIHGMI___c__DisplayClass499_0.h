@@ -9,6 +9,8 @@ namespace UnityEngine { class RPGDensityMapGrassBlockData; }
 #define KLEFGGIHGMI___C__DISPLAYCLASS499_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB523C60)
 #define KLEFGGIHGMI___C__DISPLAYCLASS499_0___ONDENSITYMAPGRASSDATALOADED_B__0_OFFSET UNITYSDK_OFFSET(0xB5246D0)
 
+inline static constexpr unsigned int KLEFGGIHGMI___c__DisplayClass499_0_TypeDefinitionIndex = 73914;
+
 	class KLEFGGIHGMI___c__DisplayClass499_0 : public ::System::Object
 	{
 	public:

@@ -55,6 +55,8 @@ namespace System { class String; }
 #define NINLEFEPGCC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB38740)
 #define NINLEFEPGCC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB387A0)
 
+inline static constexpr unsigned int NINLEFEPGCC_TypeDefinitionIndex = 25092;
+
 	class NINLEFEPGCC : public ::System::Object
 	{
 	public:

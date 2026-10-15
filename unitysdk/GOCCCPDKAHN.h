@@ -33,6 +33,8 @@ namespace UnityEngine::UI { class Text; }
 #define GOCCCPDKAHN__ONBIND_OFFSET UNITYSDK_OFFSET(0x15B29110)
 #define GOCCCPDKAHN__ONDISPOSE_OFFSET UNITYSDK_OFFSET(0x15B294C0)
 
+inline static constexpr unsigned int GOCCCPDKAHN_TypeDefinitionIndex = 71727;
+
 	class GOCCCPDKAHN : public ::FMPCODLIOLG
 	{
 	public:

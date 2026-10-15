@@ -10,6 +10,8 @@ namespace Mono::Globalization::Unicode { class ContractionComparer; }
 
 namespace Mono::Globalization::Unicode
 {
+	inline static constexpr unsigned int ContractionComparer_TypeDefinitionIndex = 33;
+
 	class ContractionComparer : public ::System::Object
 	{
 	public:

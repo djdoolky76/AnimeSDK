@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TreasureDungeonAvatarConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TreasureDungeonAvatarConfigRow_TypeDefinitionIndex = 12538;
+
 	class TreasureDungeonAvatarConfigRow : public ::System::Object
 	{
 	public:

@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define ACIOKIEAOGE_LFGMKNLELMM_OFFSET UNITYSDK_OFFSET(0xB122FA0)
 #define ACIOKIEAOGE__ONINITOWNERREF_OFFSET UNITYSDK_OFFSET(0xB122890)
 
+inline static constexpr unsigned int ACIOKIEAOGE_TypeDefinitionIndex = 56988;
+
 	class ACIOKIEAOGE : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

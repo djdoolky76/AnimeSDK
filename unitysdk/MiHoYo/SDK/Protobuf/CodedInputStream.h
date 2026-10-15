@@ -46,6 +46,8 @@ namespace System::IO { class Stream; }
 
 namespace MiHoYo::SDK::Protobuf
 {
+	inline static constexpr unsigned int CodedInputStream_TypeDefinitionIndex = 35711;
+
 	class CodedInputStream : public ::System::Object
 	{
 	public:

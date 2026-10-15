@@ -29,6 +29,8 @@ namespace System { class String; }
 #define GLIFOLCEMIN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E4C0DD0)
 #define GLIFOLCEMIN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E4C0E30)
 
+inline static constexpr unsigned int GLIFOLCEMIN_TypeDefinitionIndex = 29635;
+
 	class GLIFOLCEMIN : public ::System::Object
 	{
 	public:

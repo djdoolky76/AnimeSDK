@@ -9,6 +9,8 @@ namespace RPG::UINavigation { class UINavigationZone; }
 
 namespace RPG::Client::ChenLingFes
 {
+	inline static constexpr unsigned int ChenLingFesGameplayWindow___c__DisplayClass67_0_TypeDefinitionIndex = 81335;
+
 	class ChenLingFesGameplayWindow___c__DisplayClass67_0 : public ::System::Object
 	{
 	public:

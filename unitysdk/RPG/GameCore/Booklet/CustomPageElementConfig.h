@@ -10,6 +10,8 @@ namespace RPG::GameCore::Booklet { class CustomPageElementConfig; }
 
 namespace RPG::GameCore::Booklet
 {
+	inline static constexpr unsigned int CustomPageElementConfig_TypeDefinitionIndex = 24967;
+
 	class CustomPageElementConfig : public ::RPG::GameCore::Booklet::ElementConfig
 	{
 	public:

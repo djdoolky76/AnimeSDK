@@ -12,6 +12,8 @@ namespace System::Text { class StringBuilder; }
 
 namespace System
 {
+	inline static constexpr unsigned int PointerSpec_TypeDefinitionIndex = 446;
+
 	class PointerSpec : public ::System::Object
 	{
 	public:

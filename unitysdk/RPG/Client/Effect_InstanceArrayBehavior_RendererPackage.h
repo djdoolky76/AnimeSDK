@@ -10,6 +10,8 @@ namespace UnityEngine { class Mesh; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Effect_InstanceArrayBehavior_RendererPackage_TypeDefinitionIndex = 70612;
+
 	class Effect_InstanceArrayBehavior_RendererPackage : public ::System::Object
 	{
 	public:

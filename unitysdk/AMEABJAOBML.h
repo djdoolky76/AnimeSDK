@@ -34,6 +34,8 @@ namespace System { class String; }
 #define AMEABJAOBML_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E51AF90)
 #define AMEABJAOBML_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E51AFF0)
 
+inline static constexpr unsigned int AMEABJAOBML_TypeDefinitionIndex = 26578;
+
 	class AMEABJAOBML : public ::System::Object
 	{
 	public:

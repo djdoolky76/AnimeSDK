@@ -7,6 +7,8 @@ class MGBHGAFEMHM;
 #define MGBHGAFEMHM_CTOR_OFFSET UNITYSDK_OFFSET(0x1D164710)
 #define MGBHGAFEMHM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D164620)
 
+inline static constexpr unsigned int MGBHGAFEMHM_TypeDefinitionIndex = 11374;
+
 	class MGBHGAFEMHM : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define LAOOKLNMLPH___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8D38B0)
 #define LAOOKLNMLPH___C___CCTOR_B__83_0_OFFSET UNITYSDK_OFFSET(0x1E8D38C0)
 
+inline static constexpr unsigned int LAOOKLNMLPH___c_TypeDefinitionIndex = 26544;
+
 	class LAOOKLNMLPH___c : public ::System::Object
 	{
 	public:

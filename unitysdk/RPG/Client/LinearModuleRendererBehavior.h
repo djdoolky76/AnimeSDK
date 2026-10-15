@@ -26,6 +26,8 @@ namespace UnityEngine { class Material; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int LinearModuleRendererBehavior_TypeDefinitionIndex = 70900;
+
 	class LinearModuleRendererBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:

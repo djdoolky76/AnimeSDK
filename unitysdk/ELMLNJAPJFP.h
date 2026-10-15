@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define ELMLNJAPJFP_CTOR_OFFSET UNITYSDK_OFFSET(0x15528E30)
 #define ELMLNJAPJFP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15528E60)
 
+inline static constexpr unsigned int ELMLNJAPJFP_TypeDefinitionIndex = 53055;
+
 	class ELMLNJAPJFP
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class DiceCombatPredicateConfig_HasModifier; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DiceCombatPredicateConfig_HasModifier_TypeDefinitionIndex = 16089;
+
 	class DiceCombatPredicateConfig_HasModifier : public ::RPG::GameCore::DiceCombatPredicateConfig
 	{
 	public:

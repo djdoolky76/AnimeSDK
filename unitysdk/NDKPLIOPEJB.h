@@ -6,6 +6,8 @@
 #define NDKPLIOPEJB_CCTOR_OFFSET UNITYSDK_OFFSET(0xBB4BD30)
 #define NDKPLIOPEJB_CTOR_OFFSET UNITYSDK_OFFSET(0xBB4BD20)
 
+inline static constexpr unsigned int NDKPLIOPEJB_TypeDefinitionIndex = 59672;
+
 	class NDKPLIOPEJB : public ::System::Object
 	{
 	public:

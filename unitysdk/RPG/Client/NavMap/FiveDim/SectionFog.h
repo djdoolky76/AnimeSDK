@@ -17,6 +17,8 @@ namespace UnityEngine::UI { class VertexHelper; }
 
 namespace RPG::Client::NavMap::FiveDim
 {
+	inline static constexpr unsigned int SectionFog_TypeDefinitionIndex = 74682;
+
 	class SectionFog : public ::UnityEngine::UI::MaskableGraphic
 	{
 	public:

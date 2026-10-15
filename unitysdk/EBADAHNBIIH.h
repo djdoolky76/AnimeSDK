@@ -29,6 +29,8 @@ namespace System { class String; }
 #define EBADAHNBIIH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E230340)
 #define EBADAHNBIIH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E2303A0)
 
+inline static constexpr unsigned int EBADAHNBIIH_TypeDefinitionIndex = 34094;
+
 	class EBADAHNBIIH : public ::System::Object
 	{
 	public:

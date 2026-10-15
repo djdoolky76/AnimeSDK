@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int PSDelegate_GetCommunicationRestrictionStatusDelegate_TypeDefinitionIndex = 7765;
+
 	class PSDelegate_GetCommunicationRestrictionStatusDelegate : public ::System::MulticastDelegate
 	{
 	public:

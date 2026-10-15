@@ -28,6 +28,8 @@ namespace System { class String; }
 #define ELJDPDFMLPM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E2D39D0)
 #define ELJDPDFMLPM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E2D3A30)
 
+inline static constexpr unsigned int ELJDPDFMLPM_TypeDefinitionIndex = 33113;
+
 	class ELJDPDFMLPM : public ::System::Object
 	{
 	public:

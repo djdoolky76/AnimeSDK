@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define IBMHOBKCOKD___C__DEEPCOPY_B__3_0_OFFSET UNITYSDK_OFFSET(0x15E41340)
 #define IBMHOBKCOKD___C__DEEPCOPY_B__3_1_OFFSET UNITYSDK_OFFSET(0x15E41350)
 
+inline static constexpr unsigned int IBMHOBKCOKD___c_TypeDefinitionIndex = 78737;
+
 	class IBMHOBKCOKD___c : public ::System::Object
 	{
 	public:

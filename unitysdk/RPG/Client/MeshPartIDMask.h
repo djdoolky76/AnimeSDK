@@ -7,6 +7,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MeshPartIDMask_TypeDefinitionIndex = 69757;
+
 	class MeshPartIDMask : public ::System::Object
 	{
 	public:

@@ -19,6 +19,8 @@ namespace RPG::Client::FateRin::Card { class IFateRinBattleCardViewModel; }
 #define DGGGMPHKPCJ_MBCNOAEIDME_OFFSET UNITYSDK_OFFSET(0xE847040)
 #define DGGGMPHKPCJ_OBOJEIPJBBJ_OFFSET UNITYSDK_OFFSET(0xE846EE0)
 
+inline static constexpr unsigned int DGGGMPHKPCJ_TypeDefinitionIndex = 81128;
+
 	class DGGGMPHKPCJ : public ::System::Object
 	{
 	public:

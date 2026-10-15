@@ -24,6 +24,8 @@ namespace UnityEngine::Timeline { class TrackAsset; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int OverrideTransformMixer_TypeDefinitionIndex = 47996;
+
 	class OverrideTransformMixer : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

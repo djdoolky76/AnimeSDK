@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GameEntity; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelEntityActionDelayExceed_TypeDefinitionIndex = 56783;
+
 	class LevelEntityActionDelayExceed : public ::System::Object
 	{
 	public:

@@ -63,6 +63,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CurveMovementHandler_TypeDefinitionIndex = 68545;
+
 	class CurveMovementHandler : public ::System::Object
 	{
 	public:

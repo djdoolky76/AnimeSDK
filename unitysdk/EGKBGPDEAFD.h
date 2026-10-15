@@ -9,6 +9,8 @@ namespace RPG::GameCore { class CheckSkillBPAxis; }
 #define EGKBGPDEAFD_CTOR_OFFSET UNITYSDK_OFFSET(0x1451C8B0)
 #define EGKBGPDEAFD_MNAKIEOGPDK_OFFSET UNITYSDK_OFFSET(0x1451C8C0)
 
+inline static constexpr unsigned int EGKBGPDEAFD_TypeDefinitionIndex = 54370;
+
 	class EGKBGPDEAFD : public ::BEMKNPIFMBI
 	{
 	public:

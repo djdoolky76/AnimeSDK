@@ -34,6 +34,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::FullBody
 {
+	inline static constexpr unsigned int IKSolverFullBody_TypeDefinitionIndex = 74261;
+
 	class IKSolverFullBody : public ::RPG::Client::FullBody::IKSolver
 	{
 	public:

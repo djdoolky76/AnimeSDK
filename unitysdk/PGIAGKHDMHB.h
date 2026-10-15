@@ -5,6 +5,8 @@
 
 #define PGIAGKHDMHB_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9E8F10)
 
+inline static constexpr unsigned int PGIAGKHDMHB_TypeDefinitionIndex = 42246;
+
 	class PGIAGKHDMHB : public ::System::Object
 	{
 	public:

@@ -51,6 +51,8 @@ namespace System { class Object; }
 #define FMBPAEBCDLE_SET_PCCAMERAOBSERVEDELTA_OFFSET UNITYSDK_OFFSET(0x1584C890)
 #define FMBPAEBCDLE_SET_PCCAMERAOBSERVING_OFFSET UNITYSDK_OFFSET(0x1584C870)
 
+inline static constexpr unsigned int FMBPAEBCDLE_TypeDefinitionIndex = 76956;
+
 	class FMBPAEBCDLE : public ::System::Object
 	{
 	public:

@@ -13,6 +13,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByHasInsertAbilityExecutingDuringGameModePause_TypeDefinitionIndex = 23534;
+
 	class ByHasInsertAbilityExecutingDuringGameModePause : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

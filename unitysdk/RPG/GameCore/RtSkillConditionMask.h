@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RtSkillConditionMask_TypeDefinitionIndex = 17668;
+
 	enum class RtSkillConditionMask : ::System::UInt32
 	{
 		None = 0,

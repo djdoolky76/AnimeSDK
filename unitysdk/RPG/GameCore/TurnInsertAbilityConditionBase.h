@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TurnInsertAbilityConditionBase; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TurnInsertAbilityConditionBase_TypeDefinitionIndex = 22661;
+
 	class TurnInsertAbilityConditionBase : public ::RPG::GameCore::JsonConfig
 	{
 	public:

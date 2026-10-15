@@ -6,6 +6,8 @@
 
 namespace EnviromentSystemV2Space
 {
+	inline static constexpr unsigned int BlendingValBase_TypeDefinitionIndex = 49320;
+
 	class BlendingValBase : public ::System::Object
 	{
 	public:

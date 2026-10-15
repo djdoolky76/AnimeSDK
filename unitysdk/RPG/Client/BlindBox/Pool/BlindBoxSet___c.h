@@ -11,6 +11,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace RPG::Client::BlindBox::Pool
 {
+	inline static constexpr unsigned int BlindBoxSet___c_TypeDefinitionIndex = 74919;
+
 	class BlindBoxSet___c : public ::System::Object
 	{
 	public:

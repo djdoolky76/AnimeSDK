@@ -11,6 +11,8 @@ namespace System { class Type; }
 
 namespace Mono
 {
+	inline static constexpr unsigned int RuntimeGenericParamInfoHandle_TypeDefinitionIndex = 7;
+
 	struct alignas(8) RuntimeGenericParamInfoHandle
 	{
 		::PVOID value; // 0x10

@@ -6,6 +6,8 @@ namespace RPG::GameCore { class ChimeraEvaluationCondition; }
 #define JDBMKCENODH_AMPLNFFNNJI_OFFSET UNITYSDK_OFFSET(0x165BF0E0)
 #define JDBMKCENODH_CTOR_OFFSET UNITYSDK_OFFSET(0x165BF0D0)
 
+inline static constexpr unsigned int JDBMKCENODH_TypeDefinitionIndex = 63479;
+
 	class JDBMKCENODH : public ::GEJKIKIKHFK
 	{
 	public:

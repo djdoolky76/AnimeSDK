@@ -70,6 +70,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int AccountManager_TypeDefinitionIndex = 7949;
+
 	class AccountManager : public ::System::Object
 	{
 	public:

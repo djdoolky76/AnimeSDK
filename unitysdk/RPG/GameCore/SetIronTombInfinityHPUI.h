@@ -10,6 +10,8 @@ namespace RPG::GameCore { class SetIronTombInfinityHPUI; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetIronTombInfinityHPUI_TypeDefinitionIndex = 23648;
+
 	class SetIronTombInfinityHPUI : public ::RPG::GameCore::TaskConfig
 	{
 	public:

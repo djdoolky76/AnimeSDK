@@ -13,6 +13,8 @@ namespace RPG::GameCore { class ChenLingStageWaveRow; }
 #define FCHFCKDICNA_SET_STAGEID_OFFSET UNITYSDK_OFFSET(0x156BCF70)
 #define FCHFCKDICNA_SET_WAVEID_OFFSET UNITYSDK_OFFSET(0x156BCF90)
 
+inline static constexpr unsigned int FCHFCKDICNA_TypeDefinitionIndex = 61460;
+
 	class FCHFCKDICNA : public ::System::Object
 	{
 	public:

@@ -27,6 +27,8 @@ namespace UnityEngine::UI { class VertexHelper; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int MiHoYoSDKLinkImageText_TypeDefinitionIndex = 46456;
+
 	class MiHoYoSDKLinkImageText : public ::MiHoYo::SDK::HoYoUI::HoYoText
 	{
 	public:

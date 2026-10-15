@@ -78,6 +78,8 @@ namespace System { class Type; }
 
 namespace System
 {
+	inline static constexpr unsigned int Enum_TypeDefinitionIndex = 237;
+
 	class Enum : public ::System::ValueType
 	{
 	public:

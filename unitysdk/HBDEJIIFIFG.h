@@ -8,6 +8,8 @@ class HBDEJIIFIFG;
 #define HBDEJIIFIFG_CTOR_OFFSET UNITYSDK_OFFSET(0x1CE83FA0)
 #define HBDEJIIFIFG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CE83DA0)
 
+inline static constexpr unsigned int HBDEJIIFIFG_TypeDefinitionIndex = 13924;
+
 	class HBDEJIIFIFG : public ::System::Object
 	{
 	public:

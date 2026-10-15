@@ -7,6 +7,8 @@ namespace RPG::GameCore { class GameEntity; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonsterPhaseChangeParams_TypeDefinitionIndex = 72306;
+
 	class MonsterPhaseChangeParams : public ::System::Object
 	{
 	public:

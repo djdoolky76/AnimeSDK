@@ -5,6 +5,8 @@ class KAJJEJMHCGD;
 
 #define OIKDLNCBPFM_CTOR_OFFSET UNITYSDK_OFFSET(0x1C7CFEC0)
 
+inline static constexpr unsigned int OIKDLNCBPFM_TypeDefinitionIndex = 37252;
+
 	class OIKDLNCBPFM : public ::System::Object
 	{
 	public:

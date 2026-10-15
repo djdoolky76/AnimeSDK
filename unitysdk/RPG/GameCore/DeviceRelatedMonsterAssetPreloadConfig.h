@@ -11,6 +11,8 @@ namespace RPG::GameCore { class MonsterAssetPreloadConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DeviceRelatedMonsterAssetPreloadConfig_TypeDefinitionIndex = 16475;
+
 	class DeviceRelatedMonsterAssetPreloadConfig : public ::RPG::GameCore::DeviceRelatedConfigBase
 	{
 	public:

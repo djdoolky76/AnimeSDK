@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PreReleaseScheduleState_TypeDefinitionIndex = 66705;
+
 	enum class PreReleaseScheduleState : ::System::Int32
 	{
 		None = 0,

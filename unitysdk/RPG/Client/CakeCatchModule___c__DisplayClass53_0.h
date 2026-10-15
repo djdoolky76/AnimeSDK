@@ -8,6 +8,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CakeCatchModule___c__DisplayClass53_0_TypeDefinitionIndex = 62969;
+
 	class CakeCatchModule___c__DisplayClass53_0 : public ::System::Object
 	{
 	public:

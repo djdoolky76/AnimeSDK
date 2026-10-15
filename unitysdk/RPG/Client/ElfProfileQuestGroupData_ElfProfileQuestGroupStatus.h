@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ElfProfileQuestGroupData_ElfProfileQuestGroupStatus_TypeDefinitionIndex = 63712;
+
 	enum class ElfProfileQuestGroupData_ElfProfileQuestGroupStatus : ::System::Int32
 	{
 		Invalid = 0,

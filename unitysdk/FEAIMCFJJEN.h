@@ -5,6 +5,8 @@ class HKFAAEBFADK;
 
 #define FEAIMCFJJEN_MMKEDDICDHK_OFFSET UNITYSDK_OFFSET(0x156E44F0)
 
+inline static constexpr unsigned int FEAIMCFJJEN_TypeDefinitionIndex = 74655;
+
 	class FEAIMCFJJEN : public ::System::Object
 	{
 	public:

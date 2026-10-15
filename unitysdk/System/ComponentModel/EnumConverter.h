@@ -21,6 +21,8 @@ namespace System::Globalization { class CultureInfo; }
 
 namespace System::ComponentModel
 {
+	inline static constexpr unsigned int EnumConverter_TypeDefinitionIndex = 2591;
+
 	class EnumConverter : public ::System::ComponentModel::TypeConverter
 	{
 	public:

@@ -14,6 +14,8 @@ namespace System { class Object; }
 #define DLEHCNOCGNJ_TICK_OFFSET UNITYSDK_OFFSET(0xF89ACC0)
 #define DLEHCNOCGNJ__ONTASKBEGIN_B__3_0_OFFSET UNITYSDK_OFFSET(0xF89B320)
 
+inline static constexpr unsigned int DLEHCNOCGNJ_TypeDefinitionIndex = 58676;
+
 	class DLEHCNOCGNJ : public ::GELIALJDFBL
 	{
 	public:

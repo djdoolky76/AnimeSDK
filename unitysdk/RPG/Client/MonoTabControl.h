@@ -42,6 +42,8 @@ namespace UnityEngine::UI { class ScrollRect; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoTabControl_TypeDefinitionIndex = 72607;
+
 	class MonoTabControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

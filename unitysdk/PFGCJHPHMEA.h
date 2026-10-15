@@ -13,6 +13,8 @@ namespace System { class String; }
 #define PFGCJHPHMEA_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC20E140)
 #define PFGCJHPHMEA_TICK_OFFSET UNITYSDK_OFFSET(0xC20DE20)
 
+inline static constexpr unsigned int PFGCJHPHMEA_TypeDefinitionIndex = 58458;
+
 	class PFGCJHPHMEA : public ::GELIALJDFBL
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace RPGTools::Octree::Generation
 {
+	inline static constexpr unsigned int OctreeLinkData_TypeDefinitionIndex = 48876;
+
 	class OctreeLinkData : public ::System::Object
 	{
 	public:

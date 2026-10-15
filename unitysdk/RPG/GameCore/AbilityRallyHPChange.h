@@ -16,6 +16,8 @@ namespace RPG::GameCore { class AbilityRallyHPChange; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AbilityRallyHPChange_TypeDefinitionIndex = 56594;
+
 	class AbilityRallyHPChange : public ::CMPGEAFHHDC
 	{
 	public:

@@ -16,6 +16,8 @@ namespace System { class Object; }
 
 namespace RPG::Client::NavMap
 {
+	inline static constexpr unsigned int MazeFloorCartographerIdentifier_TypeDefinitionIndex = 74513;
+
 	struct alignas(4) MazeFloorCartographerIdentifier
 	{
 		::System::UInt32 _FloorID_k__BackingField; // 0x10

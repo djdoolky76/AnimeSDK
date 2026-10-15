@@ -4,6 +4,8 @@
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
+inline static constexpr unsigned int FIHMGKLCINA_TypeDefinitionIndex = 43436;
+
 	struct alignas(4) FIHMGKLCINA
 	{
 		::System::Boolean CIMEJODGFDE; // 0x10

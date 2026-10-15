@@ -16,6 +16,8 @@ namespace System { class Object; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int BPCharacterTimeSlowBehaviour_TypeDefinitionIndex = 47805;
+
 	class BPCharacterTimeSlowBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

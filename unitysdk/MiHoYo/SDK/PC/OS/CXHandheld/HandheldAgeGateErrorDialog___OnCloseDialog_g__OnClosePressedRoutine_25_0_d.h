@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK::PC::OS::CXHandheld
 {
+	inline static constexpr unsigned int HandheldAgeGateErrorDialog___OnCloseDialog_g__OnClosePressedRoutine_25_0_d_TypeDefinitionIndex = 8786;
+
 	class HandheldAgeGateErrorDialog___OnCloseDialog_g__OnClosePressedRoutine_25_0_d : public ::System::Object
 	{
 	public:

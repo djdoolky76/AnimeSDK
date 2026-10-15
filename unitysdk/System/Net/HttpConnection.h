@@ -50,6 +50,8 @@ namespace System::Threading { class Timer; }
 
 namespace System::Net
 {
+	inline static constexpr unsigned int HttpConnection_TypeDefinitionIndex = 2846;
+
 	class HttpConnection : public ::System::Object
 	{
 	public:

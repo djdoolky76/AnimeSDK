@@ -12,6 +12,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int DanmuAddSequenceClip_TypeDefinitionIndex = 48061;
+
 	class DanmuAddSequenceClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int PSDelegate_ShowEmptyStoreDialogDelegate_TypeDefinitionIndex = 7744;
+
 	class PSDelegate_ShowEmptyStoreDialogDelegate : public ::System::MulticastDelegate
 	{
 	public:

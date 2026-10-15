@@ -19,6 +19,8 @@ namespace UnityEngine { class RenderTexture; }
 
 namespace RPG
 {
+	inline static constexpr unsigned int OutlinePostFXBehavior_TypeDefinitionIndex = 51716;
+
 	class OutlinePostFXBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:

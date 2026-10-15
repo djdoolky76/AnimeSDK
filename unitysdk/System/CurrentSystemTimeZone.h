@@ -12,6 +12,8 @@ namespace System { class TimeZoneInfo; }
 
 namespace System
 {
+	inline static constexpr unsigned int CurrentSystemTimeZone_TypeDefinitionIndex = 435;
+
 	class CurrentSystemTimeZone : public ::System::TimeZone
 	{
 	public:

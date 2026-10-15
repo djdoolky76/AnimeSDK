@@ -17,6 +17,8 @@ namespace System::ComponentModel { class PropertyChangedEventHandler; }
 #define SROPTIONS_SYSTEM_COMPONENTMODEL_INOTIFYPROPERTYCHANGED_ADD_PROPERTYCHANGED_OFFSET UNITYSDK_OFFSET(0xB0BEF60)
 #define SROPTIONS_SYSTEM_COMPONENTMODEL_INOTIFYPROPERTYCHANGED_REMOVE_PROPERTYCHANGED_OFFSET UNITYSDK_OFFSET(0xB0BEFC0)
 
+inline static constexpr unsigned int SROptions_TypeDefinitionIndex = 45922;
+
 	class SROptions : public ::System::Object
 	{
 	public:

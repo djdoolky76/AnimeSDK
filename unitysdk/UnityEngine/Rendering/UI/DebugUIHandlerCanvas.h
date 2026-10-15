@@ -29,6 +29,8 @@ namespace UnityEngine::Rendering::UI { class DebugUIPrefabBundle; }
 
 namespace UnityEngine::Rendering::UI
 {
+	inline static constexpr unsigned int DebugUIHandlerCanvas_TypeDefinitionIndex = 35675;
+
 	class DebugUIHandlerCanvas : public ::UnityEngine::MonoBehaviour
 	{
 	public:

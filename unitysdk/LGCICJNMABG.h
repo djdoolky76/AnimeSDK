@@ -17,6 +17,8 @@ namespace System { class Random; }
 #define LGCICJNMABG_OFBGMNOLCEG_OFFSET UNITYSDK_OFFSET(0xB68EE40)
 #define LGCICJNMABG_PNHPCALOHDN_OFFSET UNITYSDK_OFFSET(0xB68F420)
 
+inline static constexpr unsigned int LGCICJNMABG_TypeDefinitionIndex = 76569;
+
 	class LGCICJNMABG : public ::System::Object
 	{
 	public:

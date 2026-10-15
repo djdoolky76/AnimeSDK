@@ -34,6 +34,8 @@ namespace System { class String; }
 
 namespace System::Xml
 {
+	inline static constexpr unsigned int XmlCharType_TypeDefinitionIndex = 1939;
+
 	struct alignas(8) XmlCharType
 	{
 		::Il2CppArray<::System::Byte>* charProperties; // 0x10

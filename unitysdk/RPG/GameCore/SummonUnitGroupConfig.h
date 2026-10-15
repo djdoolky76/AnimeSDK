@@ -14,6 +14,8 @@ namespace RPG::GameCore { class SummonUnitInteractionDestroyRule; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SummonUnitGroupConfig_TypeDefinitionIndex = 17607;
+
 	class SummonUnitGroupConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

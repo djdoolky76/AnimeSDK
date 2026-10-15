@@ -13,6 +13,8 @@ namespace UnityEngine::Playables { class PlayableDirector; }
 
 namespace Cinemachine::Timeline
 {
+	inline static constexpr unsigned int CinemachineMixer_MasterDirectorDelegate_TypeDefinitionIndex = 39880;
+
 	class CinemachineMixer_MasterDirectorDelegate : public ::System::MulticastDelegate
 	{
 	public:

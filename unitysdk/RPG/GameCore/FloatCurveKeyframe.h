@@ -13,6 +13,8 @@ namespace RPG::GameCore { class FloatCurveKeyframe; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FloatCurveKeyframe_TypeDefinitionIndex = 16336;
+
 	class FloatCurveKeyframe : public ::RPG::GameCore::JsonConfig
 	{
 	public:

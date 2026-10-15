@@ -12,6 +12,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int TalkBackgroundCGPauseClip_TypeDefinitionIndex = 48375;
+
 	class TalkBackgroundCGPauseClip : public ::RPGTools::Timeline::CustomEventClip
 	{
 	public:

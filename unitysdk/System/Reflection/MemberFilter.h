@@ -13,6 +13,8 @@ namespace System::Reflection { class MemberInfo; }
 
 namespace System::Reflection
 {
+	inline static constexpr unsigned int MemberFilter_TypeDefinitionIndex = 572;
+
 	class MemberFilter : public ::System::MulticastDelegate
 	{
 	public:

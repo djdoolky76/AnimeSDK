@@ -21,6 +21,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FateDifficultyDataItem_TypeDefinitionIndex = 63988;
+
 	class FateDifficultyDataItem : public ::System::Object
 	{
 	public:

@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define FGDHMAKEPFL_NOKCDLMPKBF_OFFSET UNITYSDK_OFFSET(0x15757AF0)
 #define FGDHMAKEPFL_PAMCFLCNAPG_OFFSET UNITYSDK_OFFSET(0x15757B60)
 
+inline static constexpr unsigned int FGDHMAKEPFL_TypeDefinitionIndex = 74429;
+
 	class FGDHMAKEPFL : public ::System::Object
 	{
 	public:

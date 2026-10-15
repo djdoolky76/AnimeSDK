@@ -30,6 +30,8 @@ namespace System { class String; }
 
 namespace RPG::Client::FateRin::CaseBoard
 {
+	inline static constexpr unsigned int TeamViewModel_TypeDefinitionIndex = 80816;
+
 	class TeamViewModel : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace RPG::GameCore { class TriggerEnergyBarEffect; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TriggerEnergyBarEffectParam_TypeDefinitionIndex = 55735;
+
 	class TriggerEnergyBarEffectParam : public ::System::Object
 	{
 	public:

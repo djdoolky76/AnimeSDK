@@ -10,6 +10,8 @@ namespace RPG { template <typename T> class PoolList_1; }
 #define ALNBCEADIGC_CTOR_OFFSET UNITYSDK_OFFSET(0x1556FC60)
 #define ALNBCEADIGC_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1556FDB0)
 
+inline static constexpr unsigned int ALNBCEADIGC_TypeDefinitionIndex = 76919;
+
 	class ALNBCEADIGC : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System::Reflection
 {
+	inline static constexpr unsigned int TargetParameterCountException_TypeDefinitionIndex = 589;
+
 	class TargetParameterCountException : public ::System::ApplicationException
 	{
 	public:

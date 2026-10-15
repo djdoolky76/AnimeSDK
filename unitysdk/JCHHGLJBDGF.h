@@ -7,6 +7,8 @@ namespace System { class String; }
 #define JCHHGLJBDGF_CTOR_OFFSET UNITYSDK_OFFSET(0x16592DB0)
 #define JCHHGLJBDGF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16592DE0)
 
+inline static constexpr unsigned int JCHHGLJBDGF_TypeDefinitionIndex = 54842;
+
 	class JCHHGLJBDGF
 	{
 	public:

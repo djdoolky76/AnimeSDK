@@ -29,6 +29,8 @@ namespace System { class String; }
 #define MMEDLCAENAL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA8BE80)
 #define MMEDLCAENAL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA8BEE0)
 
+inline static constexpr unsigned int MMEDLCAENAL_TypeDefinitionIndex = 29374;
+
 	class MMEDLCAENAL : public ::System::Object
 	{
 	public:

@@ -29,6 +29,8 @@ namespace System { class String; }
 #define AKHEHAMBLEB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E3CB720)
 #define AKHEHAMBLEB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E3CB780)
 
+inline static constexpr unsigned int AKHEHAMBLEB_TypeDefinitionIndex = 29258;
+
 	class AKHEHAMBLEB : public ::System::Object
 	{
 	public:

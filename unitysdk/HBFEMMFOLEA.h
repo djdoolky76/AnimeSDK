@@ -8,6 +8,8 @@ class HBFEMMFOLEA;
 #define HBFEMMFOLEA_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CE84DA0)
 #define HBFEMMFOLEA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CE84CD0)
 
+inline static constexpr unsigned int HBFEMMFOLEA_TypeDefinitionIndex = 21148;
+
 	class HBFEMMFOLEA : public ::RPG::GameCore::TaskConfig
 	{
 	public:

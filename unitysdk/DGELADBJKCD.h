@@ -8,6 +8,8 @@ class DGELADBJKCD;
 #define DGELADBJKCD_GET_BIRDID_OFFSET UNITYSDK_OFFSET(0xE846100)
 #define DGELADBJKCD_SET_BIRDID_OFFSET UNITYSDK_OFFSET(0xE846110)
 
+inline static constexpr unsigned int DGELADBJKCD_TypeDefinitionIndex = 66069;
+
 	class DGELADBJKCD : public ::System::Object
 	{
 	public:

@@ -125,6 +125,8 @@ namespace UnityEngine { class RenderTexture; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int RenderTexture_TypeDefinitionIndex = 4202;
+
 	class RenderTexture : public ::UnityEngine::Texture
 	{
 	public:

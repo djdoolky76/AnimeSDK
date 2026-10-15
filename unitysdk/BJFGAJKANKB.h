@@ -8,6 +8,8 @@ class EEKIILDAMOL;
 #define BJFGAJKANKB_CTOR_OFFSET UNITYSDK_OFFSET(0xB799570)
 #define BJFGAJKANKB_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0xB799590)
 
+inline static constexpr unsigned int BJFGAJKANKB_TypeDefinitionIndex = 60346;
+
 	class BJFGAJKANKB : public ::EFNJLACKEDH
 	{
 	public:

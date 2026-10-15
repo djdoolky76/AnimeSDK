@@ -21,6 +21,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define PMFKLNKNKDA_POOKPLGCKFE_OFFSET UNITYSDK_OFFSET(0xC31BF90)
 #define PMFKLNKNKDA_TICK_OFFSET UNITYSDK_OFFSET(0xC31C090)
 
+inline static constexpr unsigned int PMFKLNKNKDA_TypeDefinitionIndex = 70890;
+
 	class PMFKLNKNKDA : public ::RPG::Client::TABehaviorBase
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class WolfBroStunTargetArchive; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WolfBroStunTargetArchive_TypeDefinitionIndex = 21991;
+
 	class WolfBroStunTargetArchive : public ::RPG::GameCore::TaskConfig
 	{
 	public:

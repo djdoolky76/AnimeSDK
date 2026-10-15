@@ -33,6 +33,8 @@ namespace System { class String; }
 #define DJALOMIEKNP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E1C5100)
 #define DJALOMIEKNP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E1C5160)
 
+inline static constexpr unsigned int DJALOMIEKNP_TypeDefinitionIndex = 32302;
+
 	class DJALOMIEKNP : public ::System::Object
 	{
 	public:

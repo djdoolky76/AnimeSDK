@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int OnSceneOperationDelegate_TypeDefinitionIndex = 59429;
+
 	class OnSceneOperationDelegate : public ::System::MulticastDelegate
 	{
 	public:

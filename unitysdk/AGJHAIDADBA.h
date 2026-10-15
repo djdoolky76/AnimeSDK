@@ -26,6 +26,8 @@ namespace System::Threading { class Thread; }
 #define AGJHAIDADBA_KPLAKIOBNPA_OFFSET UNITYSDK_OFFSET(0xCF35590)
 #define AGJHAIDADBA_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0xCF33B50)
 
+inline static constexpr unsigned int AGJHAIDADBA_TypeDefinitionIndex = 48910;
+
 	class AGJHAIDADBA : public ::OMCOBKDLALA
 	{
 	public:

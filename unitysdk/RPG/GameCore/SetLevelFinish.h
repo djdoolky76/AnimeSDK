@@ -10,6 +10,8 @@ namespace RPG::GameCore { class SetLevelFinish; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetLevelFinish_TypeDefinitionIndex = 23429;
+
 	class SetLevelFinish : public ::RPG::GameCore::TaskConfig
 	{
 	public:

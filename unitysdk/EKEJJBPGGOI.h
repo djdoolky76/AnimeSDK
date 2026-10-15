@@ -4,6 +4,8 @@
 
 #define EKEJJBPGGOI_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA54EB0)
 
+inline static constexpr unsigned int EKEJJBPGGOI_TypeDefinitionIndex = 42257;
+
 	class EKEJJBPGGOI : public ::System::Object
 	{
 	public:

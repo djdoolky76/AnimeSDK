@@ -3,6 +3,8 @@
 
 namespace Newtonsoft::Json::Converters
 {
+	inline static constexpr unsigned int IXmlElement_TypeDefinitionIndex = 9833;
+
 	class IXmlElement
 	{
 	public:

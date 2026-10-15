@@ -3,6 +3,8 @@
 
 namespace HedgehogTeam::EasyTouch
 {
+	inline static constexpr unsigned int EasyTouch_SwipeDirection_TypeDefinitionIndex = 40331;
+
 	enum class EasyTouch_SwipeDirection : ::System::Int32
 	{
 		None = 0,

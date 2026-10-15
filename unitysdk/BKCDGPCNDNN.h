@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define BKCDGPCNDNN_CTOR_OFFSET UNITYSDK_OFFSET(0xB7ACEC0)
 #define BKCDGPCNDNN_GMCFMKCBCBN_OFFSET UNITYSDK_OFFSET(0xB7ACED0)
 
+inline static constexpr unsigned int BKCDGPCNDNN_TypeDefinitionIndex = 80151;
+
 	class BKCDGPCNDNN : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MusicVisualization_BeatEffectElementSetAnim_CueEventNameLookUp_TypeDefinitionIndex = 70820;
+
 	class MusicVisualization_BeatEffectElementSetAnim_CueEventNameLookUp : public ::System::Object
 	{
 	public:

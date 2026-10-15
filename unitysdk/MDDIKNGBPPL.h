@@ -53,6 +53,8 @@ namespace System { class String; }
 #define MDDIKNGBPPL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9FEFD0)
 #define MDDIKNGBPPL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E9FF030)
 
+inline static constexpr unsigned int MDDIKNGBPPL_TypeDefinitionIndex = 27729;
+
 	class MDDIKNGBPPL : public ::System::Object
 	{
 	public:

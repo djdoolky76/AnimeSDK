@@ -27,6 +27,8 @@ namespace System { class String; }
 #define OPHOEIDJDMO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DEE2510)
 #define OPHOEIDJDMO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DEE2570)
 
+inline static constexpr unsigned int OPHOEIDJDMO_TypeDefinitionIndex = 28404;
+
 	class OPHOEIDJDMO : public ::System::Object
 	{
 	public:

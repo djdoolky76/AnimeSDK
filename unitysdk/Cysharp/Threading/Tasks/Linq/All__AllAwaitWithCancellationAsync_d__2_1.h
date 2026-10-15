@@ -11,6 +11,8 @@ namespace System { template <typename T1, typename T2, typename T3> class Func_3
 
 namespace Cysharp::Threading::Tasks::Linq
 {
+	inline static constexpr unsigned int All__AllAwaitWithCancellationAsync_d__2_1_TypeDefinitionIndex = 45217;
+
 	template <typename T>
 	struct alignas(8) All__AllAwaitWithCancellationAsync_d__2_1
 	{

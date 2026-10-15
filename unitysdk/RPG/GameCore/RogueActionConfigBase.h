@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueActionConfigBase; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueActionConfigBase_TypeDefinitionIndex = 19582;
+
 	class RogueActionConfigBase : public ::RPG::GameCore::PlayerActionConfigBase
 	{
 	public:

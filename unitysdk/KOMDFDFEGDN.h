@@ -27,6 +27,8 @@ namespace System { class String; }
 #define KOMDFDFEGDN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E8B41A0)
 #define KOMDFDFEGDN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E8B4200)
 
+inline static constexpr unsigned int KOMDFDFEGDN_TypeDefinitionIndex = 32140;
+
 	class KOMDFDFEGDN : public ::System::Object
 	{
 	public:

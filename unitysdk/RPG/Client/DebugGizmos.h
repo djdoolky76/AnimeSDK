@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int DebugGizmos_TypeDefinitionIndex = 68337;
+
 	class DebugGizmos : public ::UnityEngine::MonoBehaviour
 	{
 	public:

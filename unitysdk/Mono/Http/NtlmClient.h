@@ -17,6 +17,8 @@ namespace System::Runtime::CompilerServices { template <typename T1, typename T2
 
 namespace Mono::Http
 {
+	inline static constexpr unsigned int NtlmClient_TypeDefinitionIndex = 2453;
+
 	class NtlmClient : public ::System::Object
 	{
 	public:

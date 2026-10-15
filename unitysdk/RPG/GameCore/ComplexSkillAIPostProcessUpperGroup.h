@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ComplexSkillAIPostProcessUpperGroup_TypeDefinitionIndex = 15563;
+
 	class ComplexSkillAIPostProcessUpperGroup : public ::RPG::GameCore::ComplexSkillAIPostProcess
 	{
 	public:

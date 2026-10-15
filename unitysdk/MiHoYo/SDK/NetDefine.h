@@ -6,6 +6,8 @@
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int NetDefine_TypeDefinitionIndex = 7583;
+
 	class NetDefine : public ::System::Object
 	{
 	public:

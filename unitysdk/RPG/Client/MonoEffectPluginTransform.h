@@ -13,6 +13,8 @@ namespace UnityEngine { class ParticleSystem; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEffectPluginTransform_TypeDefinitionIndex = 70127;
+
 	class MonoEffectPluginTransform : public ::UnityEngine::MonoBehaviour
 	{
 	public:

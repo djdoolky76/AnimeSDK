@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define KOPOINICDPH_LKPHONPDJMK_OFFSET UNITYSDK_OFFSET(0x1EC32710)
 #define KOPOINICDPH_MCKJFEGPDHF_OFFSET UNITYSDK_OFFSET(0x1EC32660)
 
+inline static constexpr unsigned int KOPOINICDPH_TypeDefinitionIndex = 35171;
+
 	class KOPOINICDPH : public ::System::Object
 	{
 	public:

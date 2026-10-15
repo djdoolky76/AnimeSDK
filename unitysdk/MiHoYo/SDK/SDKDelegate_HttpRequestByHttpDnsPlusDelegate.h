@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int SDKDelegate_HttpRequestByHttpDnsPlusDelegate_TypeDefinitionIndex = 7799;
+
 	class SDKDelegate_HttpRequestByHttpDnsPlusDelegate : public ::System::MulticastDelegate
 	{
 	public:

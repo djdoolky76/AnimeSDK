@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int DIKCFAICOHB_TypeDefinitionIndex = 28733;
+
 	enum class DIKCFAICOHB : ::System::Int32
 	{
 		EJDLGGAGBEA = 0,

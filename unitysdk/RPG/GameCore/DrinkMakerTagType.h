@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DrinkMakerTagType_TypeDefinitionIndex = 13154;
+
 	enum class DrinkMakerTagType : ::System::Int32
 	{
 		Temperature = 1,

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ResetAbilityStartTimeStamp; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ResetAbilityStartTimeStamp_TypeDefinitionIndex = 22693;
+
 	class ResetAbilityStartTimeStamp : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
+	inline static constexpr unsigned int BrowserNative_Calltype_zfb_addUrlFolderMapping_TypeDefinitionIndex = 39415;
+
 	class BrowserNative_Calltype_zfb_addUrlFolderMapping : public ::System::MulticastDelegate
 	{
 	public:

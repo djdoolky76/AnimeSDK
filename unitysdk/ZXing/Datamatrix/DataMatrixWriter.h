@@ -18,6 +18,8 @@ namespace ZXing::QrCode::Internal { class ByteMatrix; }
 
 namespace ZXing::Datamatrix
 {
+	inline static constexpr unsigned int DataMatrixWriter_TypeDefinitionIndex = 7054;
+
 	class DataMatrixWriter : public ::System::Object
 	{
 	public:

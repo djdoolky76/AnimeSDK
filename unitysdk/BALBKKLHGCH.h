@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define BALBKKLHGCH_OENLACGNMAI_OFFSET UNITYSDK_OFFSET(0x15E73600)
 #define BALBKKLHGCH_PILFBNHPPMC_OFFSET UNITYSDK_OFFSET(0x15E72A30)
 
+inline static constexpr unsigned int BALBKKLHGCH_TypeDefinitionIndex = 81090;
+
 	class BALBKKLHGCH : public ::System::Object
 	{
 	public:

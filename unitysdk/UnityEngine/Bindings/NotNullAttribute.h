@@ -6,6 +6,8 @@
 
 namespace UnityEngine::Bindings
 {
+	inline static constexpr unsigned int NotNullAttribute_TypeDefinitionIndex = 3730;
+
 	class NotNullAttribute : public ::System::Attribute
 	{
 	public:

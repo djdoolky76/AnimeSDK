@@ -8,6 +8,8 @@ namespace RPG::GameCore { class DiceCombatInsertAbilityConfig; }
 
 #define GGGFJIPDCKA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C63CC00)
 
+inline static constexpr unsigned int GGGFJIPDCKA_TypeDefinitionIndex = 36428;
+
 	class GGGFJIPDCKA : public ::System::Object
 	{
 	public:

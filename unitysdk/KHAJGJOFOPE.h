@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define KHAJGJOFOPE_ELEPDOMDAGA_OFFSET UNITYSDK_OFFSET(0xB3FBA00)
 #define KHAJGJOFOPE_KCHJGCLDMMM_OFFSET UNITYSDK_OFFSET(0xB3FBC80)
 
+inline static constexpr unsigned int KHAJGJOFOPE_TypeDefinitionIndex = 56199;
+
 	class KHAJGJOFOPE : public ::System::Object
 	{
 	public:

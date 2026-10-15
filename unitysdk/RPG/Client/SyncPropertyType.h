@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SyncPropertyType_TypeDefinitionIndex = 70118;
+
 	enum class SyncPropertyType : ::System::Int32
 	{
 		CharaWorldPos = 0,

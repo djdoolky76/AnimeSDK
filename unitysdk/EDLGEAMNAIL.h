@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define EDLGEAMNAIL_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1332B080)
 #define EDLGEAMNAIL_TICK_OFFSET UNITYSDK_OFFSET(0x1332B0D0)
 
+inline static constexpr unsigned int EDLGEAMNAIL_TypeDefinitionIndex = 58399;
+
 	class EDLGEAMNAIL : public ::GELIALJDFBL
 	{
 	public:

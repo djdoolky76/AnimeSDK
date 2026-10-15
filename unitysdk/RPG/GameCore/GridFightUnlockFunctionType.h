@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightUnlockFunctionType_TypeDefinitionIndex = 13569;
+
 	enum class GridFightUnlockFunctionType : ::System::Int32
 	{
 		SeasonExpLine = 1,

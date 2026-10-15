@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int LoopGenerator_GenerateConfig_TypeDefinitionIndex = 72976;
+
 	struct alignas(8) LoopGenerator_GenerateConfig
 	{
 		::System::Single Speed; // 0x10

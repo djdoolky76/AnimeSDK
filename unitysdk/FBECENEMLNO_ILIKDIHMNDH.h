@@ -8,6 +8,8 @@ namespace System { class String; }
 #define FBECENEMLNO_ILIKDIHMNDH_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x15697590)
 #define FBECENEMLNO_ILIKDIHMNDH_CTOR_OFFSET UNITYSDK_OFFSET(0x15697650)
 
+inline static constexpr unsigned int FBECENEMLNO_ILIKDIHMNDH_TypeDefinitionIndex = 79735;
+
 	class FBECENEMLNO_ILIKDIHMNDH : public ::System::Object
 	{
 	public:

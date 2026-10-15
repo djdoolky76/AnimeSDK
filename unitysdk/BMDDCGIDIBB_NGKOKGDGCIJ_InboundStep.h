@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int BMDDCGIDIBB_NGKOKGDGCIJ_InboundStep_TypeDefinitionIndex = 69175;
+
 	enum class BMDDCGIDIBB_NGKOKGDGCIJ_InboundStep : ::System::Int32
 	{
 		WalkToWait = 0,

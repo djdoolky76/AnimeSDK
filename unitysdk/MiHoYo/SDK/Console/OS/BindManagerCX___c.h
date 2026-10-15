@@ -11,6 +11,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK::Console::OS
 {
+	inline static constexpr unsigned int BindManagerCX___c_TypeDefinitionIndex = 9076;
+
 	class BindManagerCX___c : public ::System::Object
 	{
 	public:

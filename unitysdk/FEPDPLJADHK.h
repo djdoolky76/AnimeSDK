@@ -28,6 +28,8 @@ namespace System { class String; }
 #define FEPDPLJADHK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E369AE0)
 #define FEPDPLJADHK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E369B40)
 
+inline static constexpr unsigned int FEPDPLJADHK_TypeDefinitionIndex = 27019;
+
 	class FEPDPLJADHK : public ::System::Object
 	{
 	public:

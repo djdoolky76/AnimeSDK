@@ -41,6 +41,8 @@ namespace System::Xml::Schema { class SchemaAttDef; }
 
 namespace System::Xml::Schema
 {
+	inline static constexpr unsigned int SchemaAttDef_TypeDefinitionIndex = 2169;
+
 	class SchemaAttDef : public ::System::Xml::Schema::SchemaDeclBase
 	{
 	public:

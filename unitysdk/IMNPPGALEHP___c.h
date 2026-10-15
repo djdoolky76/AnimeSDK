@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define IMNPPGALEHP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E6B9B80)
 #define IMNPPGALEHP___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1E6B9B90)
 
+inline static constexpr unsigned int IMNPPGALEHP___c_TypeDefinitionIndex = 31255;
+
 	class IMNPPGALEHP___c : public ::System::Object
 	{
 	public:

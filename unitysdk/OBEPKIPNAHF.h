@@ -22,6 +22,8 @@ namespace System { class Object; }
 #define OBEPKIPNAHF_MJKKFEOGNGJ_OFFSET UNITYSDK_OFFSET(0xBD3A530)
 #define OBEPKIPNAHF_SET_STATUS_OFFSET UNITYSDK_OFFSET(0xBD3A5E0)
 
+inline static constexpr unsigned int OBEPKIPNAHF_TypeDefinitionIndex = 56189;
+
 	class OBEPKIPNAHF : public ::System::Object
 	{
 	public:

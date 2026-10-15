@@ -12,6 +12,8 @@ namespace UnityEngine { class GameObject; }
 #define AJLKMKLPPBI_DISPOSE_OFFSET UNITYSDK_OFFSET(0x12CC5780)
 #define AJLKMKLPPBI_JJJJGFJDKOJ_OFFSET UNITYSDK_OFFSET(0x12CC56E0)
 
+inline static constexpr unsigned int AJLKMKLPPBI_TypeDefinitionIndex = 49906;
+
 	class AJLKMKLPPBI : public ::System::Object
 	{
 	public:

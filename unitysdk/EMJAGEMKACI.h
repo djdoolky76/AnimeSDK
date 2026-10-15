@@ -7,6 +7,8 @@ namespace RPG::GameCore { class ComplexSkillAIConfig; }
 
 #define EMJAGEMKACI_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0x15544FF0)
 
+inline static constexpr unsigned int EMJAGEMKACI_TypeDefinitionIndex = 54345;
+
 	class EMJAGEMKACI : public ::System::Object
 	{
 	public:

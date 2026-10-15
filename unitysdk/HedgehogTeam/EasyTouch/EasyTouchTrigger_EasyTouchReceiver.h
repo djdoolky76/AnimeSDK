@@ -11,6 +11,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace HedgehogTeam::EasyTouch
 {
+	inline static constexpr unsigned int EasyTouchTrigger_EasyTouchReceiver_TypeDefinitionIndex = 40247;
+
 	class EasyTouchTrigger_EasyTouchReceiver : public ::System::Object
 	{
 	public:

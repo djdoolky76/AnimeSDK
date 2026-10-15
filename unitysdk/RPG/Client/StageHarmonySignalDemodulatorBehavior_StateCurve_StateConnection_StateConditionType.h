@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int StageHarmonySignalDemodulatorBehavior_StateCurve_StateConnection_StateConditionType_TypeDefinitionIndex = 70991;
+
 	enum class StageHarmonySignalDemodulatorBehavior_StateCurve_StateConnection_StateConditionType : ::System::Int32
 	{
 		Greater = 0,

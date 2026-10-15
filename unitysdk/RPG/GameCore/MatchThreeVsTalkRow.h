@@ -10,6 +10,8 @@ namespace RPG::GameCore { class MatchThreeVsTalkRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MatchThreeVsTalkRow_TypeDefinitionIndex = 11923;
+
 	class MatchThreeVsTalkRow : public ::System::Object
 	{
 	public:

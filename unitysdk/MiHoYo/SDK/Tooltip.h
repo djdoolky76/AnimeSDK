@@ -14,6 +14,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int Tooltip_TypeDefinitionIndex = 8017;
+
 	class Tooltip : public ::MiHoYo::SDK::UIElement
 	{
 	public:

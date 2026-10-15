@@ -13,6 +13,8 @@ namespace UnityEngine::Timeline { class TimelineClip; }
 #define AKTIMELINEEVENTPLAYABLE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F610890)
 #define AKTIMELINEEVENTPLAYABLE_UNITYENGINE_TIMELINE_ITIMELINECLIPASSET_GET_CLIPCAPS_OFFSET UNITYSDK_OFFSET(0x1F6102E0)
 
+inline static constexpr unsigned int AkTimelineEventPlayable_TypeDefinitionIndex = 44876;
+
 	class AkTimelineEventPlayable : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

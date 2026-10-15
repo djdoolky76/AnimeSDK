@@ -11,6 +11,8 @@ namespace UnityEngine { class MeshRenderer; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TimeSpaceCrisscrossIRIMonoPlugin_TypeDefinitionIndex = 70227;
+
 	class TimeSpaceCrisscrossIRIMonoPlugin
 	{
 	public:

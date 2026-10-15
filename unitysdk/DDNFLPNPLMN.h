@@ -30,6 +30,8 @@ namespace System { class String; }
 #define DDNFLPNPLMN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E18A0C0)
 #define DDNFLPNPLMN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E18A120)
 
+inline static constexpr unsigned int DDNFLPNPLMN_TypeDefinitionIndex = 33930;
+
 	class DDNFLPNPLMN : public ::System::Object
 	{
 	public:

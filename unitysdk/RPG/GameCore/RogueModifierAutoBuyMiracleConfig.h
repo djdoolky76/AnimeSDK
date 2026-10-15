@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierAutoBuyMiracleConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierAutoBuyMiracleConfig_TypeDefinitionIndex = 17993;
+
 	class RogueModifierAutoBuyMiracleConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

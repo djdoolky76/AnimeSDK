@@ -13,6 +13,8 @@ namespace RPG::GameCore { class ChenLingFesRegionItemConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChenLingFesRegionConfig_TypeDefinitionIndex = 18444;
+
 	class ChenLingFesRegionConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
 	public:

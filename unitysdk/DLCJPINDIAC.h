@@ -44,6 +44,8 @@ namespace System { class String; }
 #define DLCJPINDIAC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E1DF000)
 #define DLCJPINDIAC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E1DF060)
 
+inline static constexpr unsigned int DLCJPINDIAC_TypeDefinitionIndex = 31301;
+
 	class DLCJPINDIAC : public ::System::Object
 	{
 	public:

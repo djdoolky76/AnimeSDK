@@ -9,6 +9,8 @@ namespace System { class Object; }
 #define IIEFJEMPJLC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x16439940)
 #define IIEFJEMPJLC___C__ONTASKBEGIN_B__2_0_OFFSET UNITYSDK_OFFSET(0x16439950)
 
+inline static constexpr unsigned int IIEFJEMPJLC___c_TypeDefinitionIndex = 53897;
+
 	class IIEFJEMPJLC___c : public ::System::Object
 	{
 	public:

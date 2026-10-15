@@ -9,6 +9,8 @@
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int TimeScaleBehaviour_TypeDefinitionIndex = 48515;
+
 	class TimeScaleBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

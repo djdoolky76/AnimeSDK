@@ -10,6 +10,8 @@ namespace RPG::GameCore { class DiceCombatTaskConfig_MarkWeatherInEffect; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DiceCombatTaskConfig_MarkWeatherInEffect_TypeDefinitionIndex = 16159;
+
 	class DiceCombatTaskConfig_MarkWeatherInEffect : public ::RPG::GameCore::DiceCombatTaskConfig
 	{
 	public:

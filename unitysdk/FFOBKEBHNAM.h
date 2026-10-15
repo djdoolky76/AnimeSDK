@@ -15,6 +15,8 @@ namespace UnityEngine { class Animator; }
 #define FFOBKEBHNAM_PPOAJKIINKG_OFFSET UNITYSDK_OFFSET(0x1574D0B0)
 #define FFOBKEBHNAM__ONBIND_OFFSET UNITYSDK_OFFSET(0x1574CD40)
 
+inline static constexpr unsigned int FFOBKEBHNAM_TypeDefinitionIndex = 71705;
+
 	class FFOBKEBHNAM : public ::FMPCODLIOLG
 	{
 	public:

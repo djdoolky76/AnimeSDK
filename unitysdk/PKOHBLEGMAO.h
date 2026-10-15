@@ -28,6 +28,8 @@ namespace System { class String; }
 #define PKOHBLEGMAO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF94AF0)
 #define PKOHBLEGMAO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF94B50)
 
+inline static constexpr unsigned int PKOHBLEGMAO_TypeDefinitionIndex = 33020;
+
 	class PKOHBLEGMAO : public ::System::Object
 	{
 	public:

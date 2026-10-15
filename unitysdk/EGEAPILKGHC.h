@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define EGEAPILKGHC_CTOR_OFFSET UNITYSDK_OFFSET(0x13A64570)
 #define EGEAPILKGHC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x13A645A0)
 
+inline static constexpr unsigned int EGEAPILKGHC_TypeDefinitionIndex = 53025;
+
 	class EGEAPILKGHC
 	{
 	public:

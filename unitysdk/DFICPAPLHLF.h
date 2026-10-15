@@ -15,6 +15,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define DFICPAPLHLF_ONKHPOCEODP_OFFSET UNITYSDK_OFFSET(0xE82E4A0)
 #define DFICPAPLHLF_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0xE82E180)
 
+inline static constexpr unsigned int DFICPAPLHLF_TypeDefinitionIndex = 57065;
+
 	class DFICPAPLHLF : public ::System::Object
 	{
 	public:

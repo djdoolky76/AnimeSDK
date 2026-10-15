@@ -6,6 +6,8 @@
 
 namespace RPG::Client::B51Racing
 {
+	inline static constexpr unsigned int RoadRashFireProjectileLaunchedNotifyData_TypeDefinitionIndex = 81676;
+
 	class RoadRashFireProjectileLaunchedNotifyData : public ::System::Object
 	{
 	public:

@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 #define NHPILKKHIMK_NOJFKNJHIFD_OFFSET UNITYSDK_OFFSET(0xBBDB560)
 #define NHPILKKHIMK_PAAKFGJAJKB_OFFSET UNITYSDK_OFFSET(0xBBDB170)
 
+inline static constexpr unsigned int NHPILKKHIMK_TypeDefinitionIndex = 77383;
+
 	class NHPILKKHIMK : public ::System::Object
 	{
 	public:

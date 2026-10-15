@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChronicleCustomShowCondition_TypeDefinitionIndex = 18976;
+
 	class ChronicleCustomShowCondition : public ::RPG::GameCore::JsonConfig
 	{
 	public:

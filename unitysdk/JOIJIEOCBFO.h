@@ -7,6 +7,8 @@ namespace RPG::Client::LittleGame::RoadRash { class RoadRashAbilityValueModifer;
 #define JOIJIEOCBFO_FHAFHANKIJL_OFFSET UNITYSDK_OFFSET(0x1CBA7BA0)
 #define JOIJIEOCBFO_MIJGMJAHHDO_OFFSET UNITYSDK_OFFSET(0x1CBA7960)
 
+inline static constexpr unsigned int JOIJIEOCBFO_TypeDefinitionIndex = 42886;
+
 	class JOIJIEOCBFO : public ::System::Object
 	{
 	public:

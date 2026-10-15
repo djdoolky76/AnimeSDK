@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueActSetGlobalValueConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueActSetGlobalValueConfig_TypeDefinitionIndex = 19710;
+
 	class RogueActSetGlobalValueConfig : public ::RPG::GameCore::RogueActionConfigBase
 	{
 	public:

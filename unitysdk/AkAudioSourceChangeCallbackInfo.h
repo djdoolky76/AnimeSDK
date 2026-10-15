@@ -12,6 +12,8 @@ class AkAudioSourceChangeCallbackInfo;
 #define AKAUDIOSOURCECHANGECALLBACKINFO_GET_BOTHERAUDIOPLAYING_OFFSET UNITYSDK_OFFSET(0x1F577AC0)
 #define AKAUDIOSOURCECHANGECALLBACKINFO_SETCPTR_OFFSET UNITYSDK_OFFSET(0x1F577690)
 
+inline static constexpr unsigned int AkAudioSourceChangeCallbackInfo_TypeDefinitionIndex = 44718;
+
 	class AkAudioSourceChangeCallbackInfo : public ::System::Object
 	{
 	public:

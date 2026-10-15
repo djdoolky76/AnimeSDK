@@ -11,6 +11,8 @@ namespace RPG::Client { class MonoAttackHitBox; }
 #define APLLEHCKBLJ_LCFJCCKJJJI_OFFSET UNITYSDK_OFFSET(0x15BB1EA0)
 #define APLLEHCKBLJ_LMCEDCHJKFF_OFFSET UNITYSDK_OFFSET(0x15BB1DC0)
 
+inline static constexpr unsigned int APLLEHCKBLJ_TypeDefinitionIndex = 57083;
+
 	class APLLEHCKBLJ : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

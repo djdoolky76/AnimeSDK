@@ -15,6 +15,8 @@ namespace System::Xml::Schema { class DatatypeImplementation_SchemaDatatypeMap; 
 
 namespace System::Xml::Schema
 {
+	inline static constexpr unsigned int DatatypeImplementation_SchemaDatatypeMap_TypeDefinitionIndex = 2090;
+
 	class DatatypeImplementation_SchemaDatatypeMap : public ::System::Object
 	{
 	public:

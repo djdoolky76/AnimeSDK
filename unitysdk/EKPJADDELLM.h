@@ -20,6 +20,8 @@ namespace RPG::GameCore { class TurnBasedGameMode; }
 #define EKPJADDELLM_LLBALBNFBDL_OFFSET UNITYSDK_OFFSET(0x15518EC0)
 #define EKPJADDELLM_SET__STUCKTURNSTATE_OFFSET UNITYSDK_OFFSET(0x15519860)
 
+inline static constexpr unsigned int EKPJADDELLM_TypeDefinitionIndex = 60983;
+
 	class EKPJADDELLM : public ::System::Object
 	{
 	public:

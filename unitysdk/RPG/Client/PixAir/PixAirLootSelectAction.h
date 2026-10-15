@@ -19,6 +19,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::PixAir
 {
+	inline static constexpr unsigned int PixAirLootSelectAction_TypeDefinitionIndex = 79291;
+
 	class PixAirLootSelectAction : public ::RPG::Client::PixAir::BasePixAirPendingAction
 	{
 	public:

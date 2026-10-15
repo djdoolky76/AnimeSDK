@@ -5,6 +5,8 @@ namespace System { class Action; }
 
 #define NEOFADECOGH_HGMMGGLJNPN_CTOR_OFFSET UNITYSDK_OFFSET(0xBB74E00)
 
+inline static constexpr unsigned int NEOFADECOGH_HGMMGGLJNPN_TypeDefinitionIndex = 49289;
+
 	class NEOFADECOGH_HGMMGGLJNPN : public ::System::Object
 	{
 	public:

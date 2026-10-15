@@ -11,6 +11,8 @@ namespace UnityEngine { class MeshCollider; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int Test_MeshCollider_Extensions_TypeDefinitionIndex = 40732;
+
 	class Test_MeshCollider_Extensions : public ::System::Object
 	{
 	public:

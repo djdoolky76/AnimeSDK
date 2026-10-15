@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TeamTowersInfiniteModeConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TeamTowersInfiniteModeConfig_TypeDefinitionIndex = 18952;
+
 	class TeamTowersInfiniteModeConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AirshipBirdEmitter_EmitterLevelInfo_TypeDefinitionIndex = 59805;
+
 	class AirshipBirdEmitter_EmitterLevelInfo : public ::System::Object
 	{
 	public:

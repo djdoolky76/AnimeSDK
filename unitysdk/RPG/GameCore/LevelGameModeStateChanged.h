@@ -12,6 +12,8 @@ namespace RPG::GameCore { class LevelGameModeStateChanged; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelGameModeStateChanged_TypeDefinitionIndex = 56694;
+
 	class LevelGameModeStateChanged : public ::CMPGEAFHHDC
 	{
 	public:

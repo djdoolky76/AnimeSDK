@@ -8,6 +8,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define LOKONKELPCN_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0xB80B620)
 #define LOKONKELPCN_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xB80B5D0)
 
+inline static constexpr unsigned int LOKONKELPCN_TypeDefinitionIndex = 56658;
+
 	class LOKONKELPCN : public ::System::Object
 	{
 	public:

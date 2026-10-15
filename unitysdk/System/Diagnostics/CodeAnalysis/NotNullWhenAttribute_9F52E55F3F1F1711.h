@@ -6,6 +6,8 @@
 
 namespace System::Diagnostics::CodeAnalysis
 {
+	inline static constexpr unsigned int NotNullWhenAttribute_9F52E55F3F1F1711_TypeDefinitionIndex = 35895;
+
 	class NotNullWhenAttribute_9F52E55F3F1F1711 : public ::System::Attribute
 	{
 	public:

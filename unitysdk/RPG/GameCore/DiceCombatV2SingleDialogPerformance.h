@@ -12,6 +12,8 @@ namespace RPG::GameCore { class DiceCombatV2SingleDialogPerformanceTriggerCondit
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DiceCombatV2SingleDialogPerformance_TypeDefinitionIndex = 16187;
+
 	class DiceCombatV2SingleDialogPerformance : public ::RPG::GameCore::JsonConfig
 	{
 	public:

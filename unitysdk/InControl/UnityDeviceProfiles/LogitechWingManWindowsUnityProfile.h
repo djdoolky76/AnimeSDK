@@ -7,6 +7,8 @@
 
 namespace InControl::UnityDeviceProfiles
 {
+	inline static constexpr unsigned int LogitechWingManWindowsUnityProfile_TypeDefinitionIndex = 41078;
+
 	class LogitechWingManWindowsUnityProfile : public ::InControl::InputDeviceProfile
 	{
 	public:

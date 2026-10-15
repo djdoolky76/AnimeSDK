@@ -11,6 +11,8 @@ namespace RPG::GameCore { class SetBossPluralityHP; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetBossPluralityHP_TypeDefinitionIndex = 22939;
+
 	class SetBossPluralityHP : public ::RPG::GameCore::TaskConfig
 	{
 	public:

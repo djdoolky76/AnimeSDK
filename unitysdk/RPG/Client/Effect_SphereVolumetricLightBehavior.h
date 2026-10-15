@@ -33,6 +33,8 @@ namespace UnityEngine::Rendering { class CommandBuffer; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Effect_SphereVolumetricLightBehavior_TypeDefinitionIndex = 70557;
+
 	class Effect_SphereVolumetricLightBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:

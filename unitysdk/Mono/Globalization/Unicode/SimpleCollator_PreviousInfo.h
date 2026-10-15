@@ -5,6 +5,8 @@
 
 namespace Mono::Globalization::Unicode
 {
+	inline static constexpr unsigned int SimpleCollator_PreviousInfo_TypeDefinitionIndex = 41;
+
 	struct alignas(8) SimpleCollator_PreviousInfo
 	{
 		::System::Int32 Code; // 0x10

@@ -31,6 +31,8 @@ namespace System { class String; }
 #define CIOMBHPBEDG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E0D7A60)
 #define CIOMBHPBEDG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E0D7AC0)
 
+inline static constexpr unsigned int CIOMBHPBEDG_TypeDefinitionIndex = 25256;
+
 	class CIOMBHPBEDG : public ::System::Object
 	{
 	public:

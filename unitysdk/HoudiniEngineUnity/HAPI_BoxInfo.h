@@ -5,6 +5,8 @@
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HAPI_BoxInfo_TypeDefinitionIndex = 40516;
+
 	struct alignas(8) HAPI_BoxInfo
 	{
 		::Il2CppArray<::System::Single>* center; // 0x10

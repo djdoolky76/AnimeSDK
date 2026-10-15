@@ -54,6 +54,8 @@ namespace UnityEngine { class GameObject; }
 #define HGGJJOGGCFG_NNGFGPJDDIM_OFFSET UNITYSDK_OFFSET(0x15C9D1B0)
 #define HGGJJOGGCFG_PCJAHPKPPKE_OFFSET UNITYSDK_OFFSET(0x15C9C460)
 
+inline static constexpr unsigned int HGGJJOGGCFG_TypeDefinitionIndex = 69336;
+
 	class HGGJJOGGCFG : public ::GNHANKEMGLG
 	{
 	public:

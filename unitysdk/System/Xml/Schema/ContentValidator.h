@@ -12,6 +12,8 @@ namespace System::Xml::Schema { class ContentValidator; }
 
 namespace System::Xml::Schema
 {
+	inline static constexpr unsigned int ContentValidator_TypeDefinitionIndex = 2079;
+
 	class ContentValidator : public ::System::Object
 	{
 	public:

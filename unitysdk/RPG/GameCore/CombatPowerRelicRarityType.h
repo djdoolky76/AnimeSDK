@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CombatPowerRelicRarityType_TypeDefinitionIndex = 10476;
+
 	enum class CombatPowerRelicRarityType : ::System::Int32
 	{
 		CombatPowerRelicRarity1 = 1,

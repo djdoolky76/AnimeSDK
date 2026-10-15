@@ -5,6 +5,8 @@ class JBFFCBPMKEF;
 
 #define EAEOPDAKGAE_ILLKOBGDEHE_OFFSET UNITYSDK_OFFSET(0x12675290)
 
+inline static constexpr unsigned int EAEOPDAKGAE_TypeDefinitionIndex = 57768;
+
 	class EAEOPDAKGAE : public ::System::Object
 	{
 	public:

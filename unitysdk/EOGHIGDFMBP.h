@@ -4,6 +4,8 @@
 
 #define EOGHIGDFMBP_CTOR_OFFSET UNITYSDK_OFFSET(0x155BF9B0)
 
+inline static constexpr unsigned int EOGHIGDFMBP_TypeDefinitionIndex = 70154;
+
 	class EOGHIGDFMBP : public ::System::Attribute
 	{
 	public:

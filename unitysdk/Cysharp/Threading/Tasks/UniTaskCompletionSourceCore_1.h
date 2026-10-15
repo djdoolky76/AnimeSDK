@@ -5,6 +5,8 @@ namespace System { class Object; }
 
 namespace Cysharp::Threading::Tasks
 {
+	inline static constexpr unsigned int UniTaskCompletionSourceCore_1_TypeDefinitionIndex = 38393;
+
 	template <typename T>
 	struct alignas(8) UniTaskCompletionSourceCore_1
 	{

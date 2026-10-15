@@ -9,6 +9,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define OJACCBLPEPG___C_CTOR_OFFSET UNITYSDK_OFFSET(0xBEA9900)
 #define OJACCBLPEPG___C__SKIPVIRTUALTIMETABLETONEXTSUBWAYARRIVED_B__25_0_OFFSET UNITYSDK_OFFSET(0xBEA9910)
 
+inline static constexpr unsigned int OJACCBLPEPG___c_TypeDefinitionIndex = 59823;
+
 	class OJACCBLPEPG___c : public ::System::Object
 	{
 	public:

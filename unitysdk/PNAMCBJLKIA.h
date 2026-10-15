@@ -36,6 +36,8 @@ namespace UnityEngine { class Animation; }
 #define PNAMCBJLKIA_NPLMFDNEKIO_OFFSET UNITYSDK_OFFSET(0xC331990)
 #define PNAMCBJLKIA__ONBIND_OFFSET UNITYSDK_OFFSET(0xC330E30)
 
+inline static constexpr unsigned int PNAMCBJLKIA_TypeDefinitionIndex = 72336;
+
 	class PNAMCBJLKIA : public ::FMPCODLIOLG
 	{
 	public:

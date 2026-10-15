@@ -5,6 +5,8 @@ namespace System { class String; }
 
 #define ABNAFNHPNMB_CTOR_OFFSET UNITYSDK_OFFSET(0x1C877A00)
 
+inline static constexpr unsigned int ABNAFNHPNMB_TypeDefinitionIndex = 43752;
+
 	class ABNAFNHPNMB : public ::System::Object
 	{
 	public:

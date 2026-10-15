@@ -14,6 +14,8 @@ namespace UnityEngine::Video { class VideoPlayer; }
 
 namespace UnityEngine::Video
 {
+	inline static constexpr unsigned int VideoPlayer_ErrorEventHandler_TypeDefinitionIndex = 6058;
+
 	class VideoPlayer_ErrorEventHandler : public ::System::MulticastDelegate
 	{
 	public:

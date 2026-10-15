@@ -11,6 +11,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FateModule___c_TypeDefinitionIndex = 64027;
+
 	class FateModule___c : public ::System::Object
 	{
 	public:

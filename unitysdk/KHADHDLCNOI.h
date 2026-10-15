@@ -29,6 +29,8 @@ namespace System { class String; }
 #define KHADHDLCNOI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E83F220)
 #define KHADHDLCNOI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E83F280)
 
+inline static constexpr unsigned int KHADHDLCNOI_TypeDefinitionIndex = 25362;
+
 	class KHADHDLCNOI : public ::System::Object
 	{
 	public:

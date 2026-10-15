@@ -20,6 +20,8 @@ namespace UnityEngine::UI { class ScrollRect; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftTalentedPartnersDetailControlBinder_TypeDefinitionIndex = 79836;
+
 	class MechCraftTalentedPartnersDetailControlBinder : public ::RPG::Client::MechCraft::View::MechCraftBinderBase
 	{
 	public:

@@ -7,6 +7,8 @@ namespace RPG::Client { class WolfBroGunPlayTargetActionConfig; }
 
 #define KJPLGONHCCM_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xB4605D0)
 
+inline static constexpr unsigned int KJPLGONHCCM_TypeDefinitionIndex = 68688;
+
 	class KJPLGONHCCM : public ::System::Object
 	{
 	public:

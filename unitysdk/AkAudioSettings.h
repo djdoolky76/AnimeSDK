@@ -15,6 +15,8 @@ class AkAudioSettings;
 #define AKAUDIOSETTINGS_SET_UNUMSAMPLESPERFRAME_OFFSET UNITYSDK_OFFSET(0x1F5772D0)
 #define AKAUDIOSETTINGS_SET_UNUMSAMPLESPERSECOND_OFFSET UNITYSDK_OFFSET(0x1F577440)
 
+inline static constexpr unsigned int AkAudioSettings_TypeDefinitionIndex = 44717;
+
 	class AkAudioSettings : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { template <typename T> class Func_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int InventoryModule___O_TypeDefinitionIndex = 65685;
+
 	class InventoryModule___O : public ::System::Object
 	{
 	public:

@@ -43,6 +43,8 @@
 
 namespace UnityEngine::Formats::Alembic::Importer
 {
+	inline static constexpr unsigned int AlembicStreamSettings_TypeDefinitionIndex = 45860;
+
 	class AlembicStreamSettings : public ::System::Object
 	{
 	public:

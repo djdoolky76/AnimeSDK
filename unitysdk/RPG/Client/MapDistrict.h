@@ -41,6 +41,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MapDistrict_TypeDefinitionIndex = 60876;
+
 	class MapDistrict : public ::System::Object
 	{
 	public:

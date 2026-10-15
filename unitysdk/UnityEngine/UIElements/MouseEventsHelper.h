@@ -9,6 +9,8 @@ namespace UnityEngine::UIElements { class VisualElement; }
 
 namespace UnityEngine::UIElements
 {
+	inline static constexpr unsigned int MouseEventsHelper_TypeDefinitionIndex = 5971;
+
 	class MouseEventsHelper : public ::System::Object
 	{
 	public:

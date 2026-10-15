@@ -16,6 +16,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MessageContentBlock_TypeDefinitionIndex = 63233;
+
 	class MessageContentBlock : public ::System::Object
 	{
 	public:

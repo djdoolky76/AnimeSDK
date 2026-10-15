@@ -69,6 +69,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client::LittleGame::FourRotateVoxel
 {
+	inline static constexpr unsigned int FourRotateVoxelUIViewContext_TypeDefinitionIndex = 76832;
+
 	class FourRotateVoxelUIViewContext : public ::System::Object
 	{
 	public:

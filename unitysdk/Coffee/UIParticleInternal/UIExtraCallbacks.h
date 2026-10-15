@@ -21,6 +21,8 @@ namespace System { class Action; }
 
 namespace Coffee::UIParticleInternal
 {
+	inline static constexpr unsigned int UIExtraCallbacks_TypeDefinitionIndex = 45144;
+
 	class UIExtraCallbacks : public ::System::Object
 	{
 	public:

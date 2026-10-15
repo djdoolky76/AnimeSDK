@@ -4,6 +4,8 @@
 
 #define BKCLEAHHCOI_CTOR_OFFSET UNITYSDK_OFFSET(0xB7ADAC0)
 
+inline static constexpr unsigned int BKCLEAHHCOI_TypeDefinitionIndex = 57845;
+
 	class BKCLEAHHCOI : public ::System::Object
 	{
 	public:

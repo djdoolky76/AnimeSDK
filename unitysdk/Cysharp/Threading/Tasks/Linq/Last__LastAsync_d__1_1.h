@@ -10,6 +10,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
+	inline static constexpr unsigned int Last__LastAsync_d__1_1_TypeDefinitionIndex = 45412;
+
 	template <typename T>
 	struct alignas(8) Last__LastAsync_d__1_1
 	{

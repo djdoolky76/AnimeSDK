@@ -6,6 +6,8 @@ namespace UnityEngine { class Rigidbody; }
 
 #define LAHPDJJAJNA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C90C760)
 
+inline static constexpr unsigned int LAHPDJJAJNA_TypeDefinitionIndex = 43196;
+
 	class LAHPDJJAJNA : public ::System::Object
 	{
 	public:

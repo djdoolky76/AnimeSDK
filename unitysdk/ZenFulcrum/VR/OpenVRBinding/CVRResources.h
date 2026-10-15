@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int CVRResources_TypeDefinitionIndex = 39211;
+
 	class CVRResources : public ::System::Object
 	{
 	public:

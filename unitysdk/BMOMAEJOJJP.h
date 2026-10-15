@@ -17,6 +17,8 @@ namespace System { class String; }
 #define BMOMAEJOJJP_NPEBFFNNNNA_OFFSET UNITYSDK_OFFSET(0xBDC1B70)
 #define BMOMAEJOJJP_PKADDEPKJFN_OFFSET UNITYSDK_OFFSET(0xBDC1950)
 
+inline static constexpr unsigned int BMOMAEJOJJP_TypeDefinitionIndex = 56905;
+
 	class BMOMAEJOJJP : public ::System::Object
 	{
 	public:

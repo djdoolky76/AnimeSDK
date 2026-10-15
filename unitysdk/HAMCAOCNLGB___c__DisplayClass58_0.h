@@ -8,6 +8,8 @@ class NKIJFPHFJCO;
 #define HAMCAOCNLGB___C__DISPLAYCLASS58_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15B932C0)
 #define HAMCAOCNLGB___C__DISPLAYCLASS58_0__INIT_B__14_OFFSET UNITYSDK_OFFSET(0x15B932D0)
 
+inline static constexpr unsigned int HAMCAOCNLGB___c__DisplayClass58_0_TypeDefinitionIndex = 79542;
+
 	class HAMCAOCNLGB___c__DisplayClass58_0 : public ::System::Object
 	{
 	public:

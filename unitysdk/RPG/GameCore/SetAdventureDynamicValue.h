@@ -10,6 +10,8 @@ namespace RPG::GameCore { class SetAdventureDynamicValue; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetAdventureDynamicValue_TypeDefinitionIndex = 21803;
+
 	class SetAdventureDynamicValue : public ::RPG::GameCore::TaskConfig
 	{
 	public:

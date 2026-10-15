@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ActivityHipplenInteractionRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ActivityHipplenInteractionRow_TypeDefinitionIndex = 11655;
+
 	class ActivityHipplenInteractionRow : public ::System::Object
 	{
 	public:

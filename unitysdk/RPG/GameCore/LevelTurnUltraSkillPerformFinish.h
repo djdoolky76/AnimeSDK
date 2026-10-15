@@ -15,6 +15,8 @@ namespace RPG::GameCore { class LevelTurnUltraSkillPerformFinish; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelTurnUltraSkillPerformFinish_TypeDefinitionIndex = 56721;
+
 	class LevelTurnUltraSkillPerformFinish : public ::CMPGEAFHHDC
 	{
 	public:

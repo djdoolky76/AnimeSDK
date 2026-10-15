@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ChenLingBattleLaserSplitWithTargetConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChenLingBattleLaserSplitWithTargetConfig_TypeDefinitionIndex = 15743;
+
 	class ChenLingBattleLaserSplitWithTargetConfig : public ::RPG::GameCore::ChenLingBattleLaserSplitConfig
 	{
 	public:

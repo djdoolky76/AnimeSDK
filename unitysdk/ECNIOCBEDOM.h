@@ -22,6 +22,8 @@ namespace RPG::GameCore { class ChenLingFesPosition; }
 #define ECNIOCBEDOM_NCPGAGEHCOL_OFFSET UNITYSDK_OFFSET(0x12D158E0)
 #define ECNIOCBEDOM_PDLJGFDCBLM_OFFSET UNITYSDK_OFFSET(0x12D15A00)
 
+inline static constexpr unsigned int ECNIOCBEDOM_TypeDefinitionIndex = 77745;
+
 	class ECNIOCBEDOM : public ::System::Object
 	{
 	public:

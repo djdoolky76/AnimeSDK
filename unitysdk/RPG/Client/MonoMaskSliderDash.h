@@ -13,6 +13,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoMaskSliderDash_TypeDefinitionIndex = 72589;
+
 	class MonoMaskSliderDash : public ::UnityEngine::MonoBehaviour
 	{
 	public:

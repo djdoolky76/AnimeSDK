@@ -43,6 +43,8 @@ namespace System { class String; }
 #define CFEDPOMHPCP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E0A0210)
 #define CFEDPOMHPCP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E0A0270)
 
+inline static constexpr unsigned int CFEDPOMHPCP_TypeDefinitionIndex = 28161;
+
 	class CFEDPOMHPCP : public ::System::Object
 	{
 	public:

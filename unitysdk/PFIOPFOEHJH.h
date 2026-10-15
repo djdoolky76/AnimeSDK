@@ -9,6 +9,8 @@ class LEEEHNMHAAP;
 #define PFIOPFOEHJH_FIADDJLKIGB_OFFSET UNITYSDK_OFFSET(0xC2138B0)
 #define PFIOPFOEHJH__ONBIND_OFFSET UNITYSDK_OFFSET(0xC213850)
 
+inline static constexpr unsigned int PFIOPFOEHJH_TypeDefinitionIndex = 71428;
+
 	class PFIOPFOEHJH : public ::AGAGNDEHIOI
 	{
 	public:

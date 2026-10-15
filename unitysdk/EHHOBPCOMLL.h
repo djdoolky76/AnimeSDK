@@ -11,6 +11,8 @@ namespace System { class Object; }
 #define EHHOBPCOMLL_MHNKIKBCHBJ_OFFSET UNITYSDK_OFFSET(0x154A87F0)
 #define EHHOBPCOMLL_NNPKEJJNLNL_OFFSET UNITYSDK_OFFSET(0x154A8840)
 
+inline static constexpr unsigned int EHHOBPCOMLL_TypeDefinitionIndex = 72417;
+
 	class EHHOBPCOMLL : public ::BLOFHFCGJHA
 	{
 	public:

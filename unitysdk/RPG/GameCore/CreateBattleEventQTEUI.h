@@ -11,6 +11,8 @@ namespace RPG::GameCore { class DynamicFloat; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CreateBattleEventQTEUI_TypeDefinitionIndex = 23341;
+
 	class CreateBattleEventQTEUI : public ::RPG::GameCore::TaskConfig
 	{
 	public:

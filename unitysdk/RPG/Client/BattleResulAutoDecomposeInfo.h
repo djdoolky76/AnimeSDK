@@ -18,6 +18,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BattleResulAutoDecomposeInfo_TypeDefinitionIndex = 62885;
+
 	class BattleResulAutoDecomposeInfo : public ::System::Object
 	{
 	public:

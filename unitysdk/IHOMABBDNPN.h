@@ -87,6 +87,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define IHOMABBDNPN_TICK_OFFSET UNITYSDK_OFFSET(0x164275A0)
 #define IHOMABBDNPN__ONINITOWNERREF_OFFSET UNITYSDK_OFFSET(0x16427460)
 
+inline static constexpr unsigned int IHOMABBDNPN_TypeDefinitionIndex = 57326;
+
 	class IHOMABBDNPN : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

@@ -14,6 +14,8 @@ namespace System { class Action; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MessageBoxDialogUtil_TypeDefinitionIndex = 72818;
+
 	class MessageBoxDialogUtil : public ::System::Object
 	{
 	public:

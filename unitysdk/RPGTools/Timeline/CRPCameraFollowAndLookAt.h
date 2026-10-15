@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int CRPCameraFollowAndLookAt_TypeDefinitionIndex = 47884;
+
 	class CRPCameraFollowAndLookAt : public ::System::Object
 	{
 	public:

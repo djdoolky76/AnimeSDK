@@ -286,6 +286,8 @@ namespace UnityEngine::Rendering { class CommandBuffer; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int Camera_TypeDefinitionIndex = 4039;
+
 	class Camera : public ::UnityEngine::Behaviour
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define HDJHPJPDBAH_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15C38810)
 #define HDJHPJPDBAH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15C38970)
 
+inline static constexpr unsigned int HDJHPJPDBAH_TypeDefinitionIndex = 55042;
+
 	class HDJHPJPDBAH
 	{
 	public:

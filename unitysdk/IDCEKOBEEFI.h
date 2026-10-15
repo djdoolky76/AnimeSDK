@@ -33,6 +33,8 @@ namespace System { class String; }
 #define IDCEKOBEEFI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E628F20)
 #define IDCEKOBEEFI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E628F80)
 
+inline static constexpr unsigned int IDCEKOBEEFI_TypeDefinitionIndex = 33380;
+
 	class IDCEKOBEEFI : public ::System::Object
 	{
 	public:

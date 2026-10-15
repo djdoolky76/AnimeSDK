@@ -16,6 +16,8 @@
 #define HJBCFPGFKND_SET_OPERATIONCOUNTER_OFFSET UNITYSDK_OFFSET(0x15D02870)
 #define HJBCFPGFKND_SET_RANDOMCOUNTER_OFFSET UNITYSDK_OFFSET(0x15D02850)
 
+inline static constexpr unsigned int HJBCFPGFKND_TypeDefinitionIndex = 56198;
+
 	class HJBCFPGFKND : public ::System::Object
 	{
 	public:

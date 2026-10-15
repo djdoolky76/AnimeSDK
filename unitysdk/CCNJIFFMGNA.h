@@ -34,6 +34,8 @@ namespace System { class String; }
 #define CCNJIFFMGNA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E07C8C0)
 #define CCNJIFFMGNA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E07C920)
 
+inline static constexpr unsigned int CCNJIFFMGNA_TypeDefinitionIndex = 30546;
+
 	class CCNJIFFMGNA : public ::System::Object
 	{
 	public:

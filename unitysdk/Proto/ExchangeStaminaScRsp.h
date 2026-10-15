@@ -39,6 +39,8 @@ namespace System { class String; }
 
 namespace Proto
 {
+	inline static constexpr unsigned int ExchangeStaminaScRsp_TypeDefinitionIndex = 32042;
+
 	class ExchangeStaminaScRsp : public ::System::Object
 	{
 	public:

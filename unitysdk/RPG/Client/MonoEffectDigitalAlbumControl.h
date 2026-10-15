@@ -22,6 +22,8 @@ namespace UnityEngine { class Texture2D; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEffectDigitalAlbumControl_TypeDefinitionIndex = 70733;
+
 	class MonoEffectDigitalAlbumControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

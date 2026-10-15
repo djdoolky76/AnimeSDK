@@ -22,6 +22,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoTimelineControlGameLevelGroup_TypeDefinitionIndex = 60444;
+
 	class MonoTimelineControlGameLevelGroup : public ::UnityEngine::MonoBehaviour
 	{
 	public:

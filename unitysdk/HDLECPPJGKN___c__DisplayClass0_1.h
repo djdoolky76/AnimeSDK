@@ -6,6 +6,8 @@ namespace RPG::Client { class GridFightEquipItemData; }
 #define HDLECPPJGKN___C__DISPLAYCLASS0_1_CTOR_OFFSET UNITYSDK_OFFSET(0x15C3D420)
 #define HDLECPPJGKN___C__DISPLAYCLASS0_1__SATISFY_B__4_OFFSET UNITYSDK_OFFSET(0x15C3D430)
 
+inline static constexpr unsigned int HDLECPPJGKN___c__DisplayClass0_1_TypeDefinitionIndex = 64985;
+
 	template <typename T>
 	class HDLECPPJGKN___c__DisplayClass0_1 : public ::System::Object
 	{

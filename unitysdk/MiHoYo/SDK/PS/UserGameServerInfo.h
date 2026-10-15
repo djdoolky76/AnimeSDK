@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::PS
 {
+	inline static constexpr unsigned int UserGameServerInfo_TypeDefinitionIndex = 8934;
+
 	class UserGameServerInfo : public ::System::Object
 	{
 	public:

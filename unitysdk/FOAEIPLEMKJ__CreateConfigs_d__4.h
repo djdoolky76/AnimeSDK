@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 #define FOAEIPLEMKJ__CREATECONFIGS_D__4___M__FINALLY2_OFFSET UNITYSDK_OFFSET(0x158DE8B0)
 #define FOAEIPLEMKJ__CREATECONFIGS_D__4___M__FINALLY3_OFFSET UNITYSDK_OFFSET(0x158DE8D0)
 
+inline static constexpr unsigned int FOAEIPLEMKJ__CreateConfigs_d__4_TypeDefinitionIndex = 81498;
+
 	template <typename T1, typename T2, typename T3, typename T4>
 	class FOAEIPLEMKJ__CreateConfigs_d__4 : public ::System::Object
 	{

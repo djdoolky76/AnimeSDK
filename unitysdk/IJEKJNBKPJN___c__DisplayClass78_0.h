@@ -9,6 +9,8 @@ namespace System { class Action; }
 #define IJEKJNBKPJN___C__DISPLAYCLASS78_0_CTOR_OFFSET UNITYSDK_OFFSET(0x16464180)
 #define IJEKJNBKPJN___C__DISPLAYCLASS78_0__ASYNCLOADGAMEOBJECT_B__0_OFFSET UNITYSDK_OFFSET(0x16465B80)
 
+inline static constexpr unsigned int IJEKJNBKPJN___c__DisplayClass78_0_TypeDefinitionIndex = 57150;
+
 	class IJEKJNBKPJN___c__DisplayClass78_0 : public ::System::Object
 	{
 	public:

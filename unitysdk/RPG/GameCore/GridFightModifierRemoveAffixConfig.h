@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightModifierRemoveAffixConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightModifierRemoveAffixConfig_TypeDefinitionIndex = 19483;
+
 	class GridFightModifierRemoveAffixConfig : public ::RPG::GameCore::GridFightModifierConfigBase
 	{
 	public:

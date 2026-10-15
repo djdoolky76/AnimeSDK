@@ -21,6 +21,8 @@ namespace System { class String; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int ChimeraDuelChimeraModelView_PartsConfig_TypeDefinitionIndex = 78327;
+
 	class ChimeraDuelChimeraModelView_PartsConfig : public ::System::Object
 	{
 	public:

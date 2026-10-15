@@ -10,6 +10,8 @@ namespace RPG::GameCore { class AvatarDemoModuleConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AvatarDemoModuleConfigRow_TypeDefinitionIndex = 12775;
+
 	class AvatarDemoModuleConfigRow : public ::System::Object
 	{
 	public:

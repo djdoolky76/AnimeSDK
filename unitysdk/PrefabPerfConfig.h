@@ -6,6 +6,8 @@ namespace UnityEngine { class GameObject; }
 
 #define PREFABPERFCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0xC39BF70)
 
+inline static constexpr unsigned int PrefabPerfConfig_TypeDefinitionIndex = 47478;
+
 	class PrefabPerfConfig : public ::UnityEngine::ScriptableObject
 	{
 	public:

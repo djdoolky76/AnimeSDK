@@ -14,6 +14,8 @@ namespace UnityEngine { class Texture2D; }
 #define CPUTEXTUREBUFFER_LLBFLDPGGNN_OFFSET UNITYSDK_OFFSET(0xDFB4160)
 #define CPUTEXTUREBUFFER_MGPCEEKGIMK_OFFSET UNITYSDK_OFFSET(0xDFB3CE0)
 
+inline static constexpr unsigned int CpuTextureBuffer_TypeDefinitionIndex = 47484;
+
 	class CpuTextureBuffer : public ::UnityEngine::ScriptableObject
 	{
 	public:

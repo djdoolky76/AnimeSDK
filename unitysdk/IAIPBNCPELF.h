@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define IAIPBNCPELF_LJADELJLPFO_OFFSET UNITYSDK_OFFSET(0x15E10550)
 #define IAIPBNCPELF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15E0FF20)
 
+inline static constexpr unsigned int IAIPBNCPELF_TypeDefinitionIndex = 57887;
+
 	class IAIPBNCPELF
 	{
 	public:

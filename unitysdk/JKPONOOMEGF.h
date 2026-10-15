@@ -35,6 +35,8 @@ namespace System { class String; }
 #define JKPONOOMEGF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E7718C0)
 #define JKPONOOMEGF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E771920)
 
+inline static constexpr unsigned int JKPONOOMEGF_TypeDefinitionIndex = 32046;
+
 	class JKPONOOMEGF : public ::System::Object
 	{
 	public:

@@ -13,6 +13,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdventureIsTriggerBattleByNpcMonster_TypeDefinitionIndex = 21665;
+
 	class AdventureIsTriggerBattleByNpcMonster : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

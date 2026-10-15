@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ShowUIPage_TypeDefinitionIndex = 23840;
+
 	class ShowUIPage : public ::RPG::GameCore::TaskConfig
 	{
 	public:

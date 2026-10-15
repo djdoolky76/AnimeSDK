@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChimeraDuelChimeraLevelInfo_LevelSkillMapping_TypeDefinitionIndex = 63350;
+
 	class ChimeraDuelChimeraLevelInfo_LevelSkillMapping : public ::System::Object
 	{
 	public:

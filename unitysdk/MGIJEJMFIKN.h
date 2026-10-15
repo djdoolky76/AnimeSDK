@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define MGIJEJMFIKN_GET_LEVELS_OFFSET UNITYSDK_OFFSET(0xB920930)
 #define MGIJEJMFIKN_GKKDODPDBLA_OFFSET UNITYSDK_OFFSET(0xB9209C0)
 
+inline static constexpr unsigned int MGIJEJMFIKN_TypeDefinitionIndex = 63926;
+
 	class MGIJEJMFIKN : public ::System::Object
 	{
 	public:

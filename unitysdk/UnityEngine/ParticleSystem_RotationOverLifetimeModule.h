@@ -39,6 +39,8 @@ namespace UnityEngine { class ParticleSystem; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int ParticleSystem_RotationOverLifetimeModule_TypeDefinitionIndex = 5240;
+
 	struct alignas(8) ParticleSystem_RotationOverLifetimeModule
 	{
 		::UnityEngine::ParticleSystem* m_ParticleSystem; // 0x10

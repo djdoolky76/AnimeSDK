@@ -3,6 +3,8 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Object; }
 
+inline static constexpr unsigned int MBPOHBNACLH___O_TypeDefinitionIndex = 24238;
+
 	class MBPOHBNACLH___O : public ::System::Object
 	{
 	public:

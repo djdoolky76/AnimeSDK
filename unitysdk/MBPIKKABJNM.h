@@ -15,6 +15,8 @@ namespace System { class Object; }
 #define MBPIKKABJNM_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB871D80)
 #define MBPIKKABJNM_TICK_OFFSET UNITYSDK_OFFSET(0xB871E90)
 
+inline static constexpr unsigned int MBPIKKABJNM_TypeDefinitionIndex = 53493;
+
 	class MBPIKKABJNM : public ::GELIALJDFBL
 	{
 	public:

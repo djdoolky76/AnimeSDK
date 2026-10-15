@@ -10,6 +10,8 @@ namespace UnityEngine::UI { class Image; }
 
 namespace RPG::Client::Ui::Samples
 {
+	inline static constexpr unsigned int BagItemControl_TypeDefinitionIndex = 73426;
+
 	class BagItemControl
 	{
 	public:

@@ -9,6 +9,8 @@ namespace RPG::Client::ActivityIdleLive { class IdleLiveTeamSlotData; }
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int IdleLiveBaseTeamInfo___c__DisplayClass38_0_TypeDefinitionIndex = 75098;
+
 	class IdleLiveBaseTeamInfo___c__DisplayClass38_0 : public ::System::Object
 	{
 	public:

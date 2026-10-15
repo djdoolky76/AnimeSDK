@@ -13,6 +13,8 @@ namespace RPG::Client { class IMonopolyVisualEffectTrigger; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonopolyEffectTriggerFactory_TypeDefinitionIndex = 66234;
+
 	class MonopolyEffectTriggerFactory : public ::System::Object
 	{
 	public:

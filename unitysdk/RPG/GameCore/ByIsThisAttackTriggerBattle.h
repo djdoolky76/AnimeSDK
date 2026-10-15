@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ByIsThisAttackTriggerBattle; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByIsThisAttackTriggerBattle_TypeDefinitionIndex = 20785;
+
 	class ByIsThisAttackTriggerBattle : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

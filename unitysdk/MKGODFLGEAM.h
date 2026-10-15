@@ -35,6 +35,8 @@ namespace System { class String; }
 #define MKGODFLGEAM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA598A0)
 #define MKGODFLGEAM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA59900)
 
+inline static constexpr unsigned int MKGODFLGEAM_TypeDefinitionIndex = 26633;
+
 	class MKGODFLGEAM : public ::System::Object
 	{
 	public:

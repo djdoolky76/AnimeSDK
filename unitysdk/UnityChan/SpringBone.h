@@ -22,6 +22,8 @@ namespace UnityEngine { class Transform; }
 
 namespace UnityChan
 {
+	inline static constexpr unsigned int SpringBone_TypeDefinitionIndex = 47682;
+
 	class SpringBone : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::Client::ActivityHipplen { class ActivityHipplenEffectResultData; 
 #define OIGNHMFBECE_CTOR_OFFSET UNITYSDK_OFFSET(0xBE91500)
 #define OIGNHMFBECE_OLMFDADHOMP_OFFSET UNITYSDK_OFFSET(0xBE914B0)
 
+inline static constexpr unsigned int OIGNHMFBECE_TypeDefinitionIndex = 75486;
+
 	class OIGNHMFBECE : public ::LOKFDBENEKJ
 	{
 	public:

@@ -14,6 +14,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define EEDKHKMLMBF_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x13A2A5F0)
 #define EEDKHKMLMBF_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x13A2A530)
 
+inline static constexpr unsigned int EEDKHKMLMBF_TypeDefinitionIndex = 54084;
+
 	class EEDKHKMLMBF : public ::CMPGEAFHHDC
 	{
 	public:

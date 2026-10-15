@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AddMenuItem_TypeDefinitionIndex = 21128;
+
 	class AddMenuItem : public ::RPG::GameCore::TaskConfig
 	{
 	public:

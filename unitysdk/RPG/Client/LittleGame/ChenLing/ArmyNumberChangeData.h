@@ -12,6 +12,8 @@
 
 namespace RPG::Client::LittleGame::ChenLing
 {
+	inline static constexpr unsigned int ArmyNumberChangeData_TypeDefinitionIndex = 77824;
+
 	class ArmyNumberChangeData : public ::System::Object
 	{
 	public:

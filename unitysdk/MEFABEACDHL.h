@@ -15,6 +15,8 @@ namespace RPG::GameCore { class ThreadTaskConfig; }
 #define MEFABEACDHL_ONENABLE_OFFSET UNITYSDK_OFFSET(0xB8BDCB0)
 #define MEFABEACDHL_SET_CONFIG_OFFSET UNITYSDK_OFFSET(0xB8BDD40)
 
+inline static constexpr unsigned int MEFABEACDHL_TypeDefinitionIndex = 71090;
+
 	class MEFABEACDHL
 	{
 	public:

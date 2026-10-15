@@ -19,6 +19,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define COAHAADDEKK_PLLIKOCFDBA_1_OFFSET UNITYSDK_OFFSET(0x1DD2D930)
 #define COAHAADDEKK_PLLIKOCFDBA_OFFSET UNITYSDK_OFFSET(0x1DD2D3E0)
 
+inline static constexpr unsigned int COAHAADDEKK_TypeDefinitionIndex = 6266;
+
 	class COAHAADDEKK : public ::System::Object
 	{
 	public:

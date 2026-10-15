@@ -7,6 +7,8 @@ class FAJOKAOEELI_AJCIPGLGNJO;
 #define FAJOKAOEELI___C__DISPLAYCLASS9_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1C551B70)
 #define FAJOKAOEELI___C__DISPLAYCLASS9_0___SUBSCRIBE_B__0_OFFSET UNITYSDK_OFFSET(0x1C552210)
 
+inline static constexpr unsigned int FAJOKAOEELI___c__DisplayClass9_0_TypeDefinitionIndex = 41844;
+
 	class FAJOKAOEELI___c__DisplayClass9_0 : public ::System::Object
 	{
 	public:

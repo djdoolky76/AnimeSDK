@@ -17,6 +17,8 @@ namespace System { class String; }
 #define KEIEKPLHGMM_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xB37B100)
 #define KEIEKPLHGMM_LOGDICCEOHH_OFFSET UNITYSDK_OFFSET(0xB37B580)
 
+inline static constexpr unsigned int KEIEKPLHGMM_TypeDefinitionIndex = 62997;
+
 	class KEIEKPLHGMM : public ::System::Object
 	{
 	public:

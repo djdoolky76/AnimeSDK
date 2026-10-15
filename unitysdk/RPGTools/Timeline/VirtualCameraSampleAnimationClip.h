@@ -20,6 +20,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int VirtualCameraSampleAnimationClip_TypeDefinitionIndex = 47832;
+
 	class VirtualCameraSampleAnimationClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

@@ -11,6 +11,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StreamingSceneScaleData_TypeDefinitionIndex = 19145;
+
 	class StreamingSceneScaleData : public ::RPG::GameCore::JsonConfig
 	{
 	public:

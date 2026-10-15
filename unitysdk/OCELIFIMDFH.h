@@ -24,6 +24,8 @@ namespace System { class String; }
 #define OCELIFIMDFH_PANFNDDCBDN_OFFSET UNITYSDK_OFFSET(0xBD5F680)
 #define OCELIFIMDFH_PPNKPEPHKHI_OFFSET UNITYSDK_OFFSET(0xBD5F770)
 
+inline static constexpr unsigned int OCELIFIMDFH_TypeDefinitionIndex = 56034;
+
 	class OCELIFIMDFH : public ::System::Object
 	{
 	public:

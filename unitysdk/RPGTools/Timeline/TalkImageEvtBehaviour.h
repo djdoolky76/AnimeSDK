@@ -9,6 +9,8 @@ namespace RPG::GameCore { class TalkImage; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int TalkImageEvtBehaviour_TypeDefinitionIndex = 48388;
+
 	class TalkImageEvtBehaviour : public ::RPGTools::Timeline::CustomEventBehaviour
 	{
 	public:

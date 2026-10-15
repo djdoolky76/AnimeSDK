@@ -5,6 +5,8 @@
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HAPI_ThriftServerOptions_TypeDefinitionIndex = 40494;
+
 	struct alignas(4) HAPI_ThriftServerOptions
 	{
 		::System::Boolean autoClose; // 0x10

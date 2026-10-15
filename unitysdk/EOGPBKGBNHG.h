@@ -19,6 +19,8 @@ namespace System { class String; }
 #define EOGPBKGBNHG_NHOCLKNNDIJ_OFFSET UNITYSDK_OFFSET(0x155C0700)
 #define EOGPBKGBNHG_OHHJCALLOEA_OFFSET UNITYSDK_OFFSET(0x155C06C0)
 
+inline static constexpr unsigned int EOGPBKGBNHG_TypeDefinitionIndex = 72335;
+
 	class EOGPBKGBNHG : public ::System::Object
 	{
 	public:

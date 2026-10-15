@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define CDNLGOOMBAG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E08B400)
 #define CDNLGOOMBAG___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E08B410)
 
+inline static constexpr unsigned int CDNLGOOMBAG___c_TypeDefinitionIndex = 34136;
+
 	class CDNLGOOMBAG___c : public ::System::Object
 	{
 	public:

@@ -15,6 +15,8 @@ namespace UnityEngine { class Transform; }
 #define KKABKIOKMOP_PRINTMEMBERS_OFFSET UNITYSDK_OFFSET(0x153A0)
 #define KKABKIOKMOP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x15390)
 
+inline static constexpr unsigned int KKABKIOKMOP_TypeDefinitionIndex = 49756;
+
 	struct alignas(8) KKABKIOKMOP
 	{
 		::System::String* BDACPPLKLGL; // 0x10

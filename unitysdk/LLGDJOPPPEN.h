@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define LLGDJOPPPEN_CTOR_OFFSET UNITYSDK_OFFSET(0xB76C580)
 #define LLGDJOPPPEN_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB76C5D0)
 
+inline static constexpr unsigned int LLGDJOPPPEN_TypeDefinitionIndex = 59229;
+
 	class LLGDJOPPPEN
 	{
 	public:

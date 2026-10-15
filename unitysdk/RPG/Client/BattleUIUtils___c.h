@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BattleUIUtils___c_TypeDefinitionIndex = 72081;
+
 	class BattleUIUtils___c : public ::System::Object
 	{
 	public:

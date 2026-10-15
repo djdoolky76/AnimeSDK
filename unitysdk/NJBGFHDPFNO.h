@@ -29,6 +29,8 @@ namespace System { class String; }
 #define NJBGFHDPFNO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB3A7C0)
 #define NJBGFHDPFNO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB3A820)
 
+inline static constexpr unsigned int NJBGFHDPFNO_TypeDefinitionIndex = 29188;
+
 	class NJBGFHDPFNO : public ::System::Object
 	{
 	public:

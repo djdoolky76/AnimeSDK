@@ -31,6 +31,8 @@ namespace System { class String; }
 #define LGEOFJJKFNF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E94FD80)
 #define LGEOFJJKFNF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E94FDE0)
 
+inline static constexpr unsigned int LGEOFJJKFNF_TypeDefinitionIndex = 28790;
+
 	class LGEOFJJKFNF : public ::System::Object
 	{
 	public:

@@ -151,6 +151,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TimeRewindControlManager_TypeDefinitionIndex = 60822;
+
 	class TimeRewindControlManager : public ::System::Object
 	{
 	public:

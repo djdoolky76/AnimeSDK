@@ -8,6 +8,8 @@ namespace UnityEngine::UI { class VertexHelper; }
 
 namespace UnityEngine::UI
 {
+	inline static constexpr unsigned int PositionAsUV1_TypeDefinitionIndex = 6892;
+
 	class PositionAsUV1 : public ::UnityEngine::UI::BaseMeshEffect
 	{
 	public:

@@ -22,6 +22,8 @@ namespace UnityEngine { class Texture; }
 #define ALBCJOBLHMN_NHDEGHHPLPN_OFFSET UNITYSDK_OFFSET(0x12CE1FB0)
 #define ALBCJOBLHMN_NHKAEONHIFF_OFFSET UNITYSDK_OFFSET(0x12CE20F0)
 
+inline static constexpr unsigned int ALBCJOBLHMN_TypeDefinitionIndex = 49276;
+
 	class ALBCJOBLHMN : public ::System::Object
 	{
 	public:

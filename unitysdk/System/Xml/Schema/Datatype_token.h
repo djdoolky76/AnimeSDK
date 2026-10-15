@@ -10,6 +10,8 @@
 
 namespace System::Xml::Schema
 {
+	inline static constexpr unsigned int Datatype_token_TypeDefinitionIndex = 2123;
+
 	class Datatype_token : public ::System::Xml::Schema::Datatype_normalizedString
 	{
 	public:

@@ -3,6 +3,8 @@
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int VoxelIrradianceCacheShadingPass_TypeDefinitionIndex = 4861;
+
 	enum class VoxelIrradianceCacheShadingPass : ::System::Int32
 	{
 		ShadingInDecodingPass = 0,

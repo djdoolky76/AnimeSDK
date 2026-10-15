@@ -22,6 +22,8 @@ namespace UnityEngine { class Object; }
 #define HEAIEBHLCMJ_LGIBCPCKLGK_OFFSET UNITYSDK_OFFSET(0x15C42CA0)
 #define HEAIEBHLCMJ_NKBJLDECHME_OFFSET UNITYSDK_OFFSET(0x15C42760)
 
+inline static constexpr unsigned int HEAIEBHLCMJ_TypeDefinitionIndex = 59916;
+
 	class HEAIEBHLCMJ : public ::System::Object
 	{
 	public:

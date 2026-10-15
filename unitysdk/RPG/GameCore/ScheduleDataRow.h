@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ScheduleDataRow_TypeDefinitionIndex = 15087;
+
 	class ScheduleDataRow : public ::System::Object
 	{
 	public:

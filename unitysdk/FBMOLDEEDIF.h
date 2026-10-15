@@ -9,6 +9,8 @@ namespace RPG::GameCore { class TurnBasedGameMode; }
 #define FBMOLDEEDIF_KIGBILLGNOH_OFFSET UNITYSDK_OFFSET(0x156A9370)
 #define FBMOLDEEDIF_TICK_OFFSET UNITYSDK_OFFSET(0x156A9700)
 
+inline static constexpr unsigned int FBMOLDEEDIF_TypeDefinitionIndex = 56247;
+
 	class FBMOLDEEDIF : public ::HBPNHCICJGF
 	{
 	public:

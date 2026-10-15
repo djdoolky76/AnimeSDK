@@ -27,6 +27,8 @@ namespace System { class String; }
 #define CKICDPIJIMF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E0EAAC0)
 #define CKICDPIJIMF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E0EAB20)
 
+inline static constexpr unsigned int CKICDPIJIMF_TypeDefinitionIndex = 31678;
+
 	class CKICDPIJIMF : public ::System::Object
 	{
 	public:

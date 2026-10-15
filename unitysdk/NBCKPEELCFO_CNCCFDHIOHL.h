@@ -10,6 +10,8 @@ namespace System { class Object; }
 #define NBCKPEELCFO_CNCCFDHIOHL_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xBABE1F0)
 #define NBCKPEELCFO_CNCCFDHIOHL_INVOKE_OFFSET UNITYSDK_OFFSET(0xBABDE60)
 
+inline static constexpr unsigned int NBCKPEELCFO_CNCCFDHIOHL_TypeDefinitionIndex = 62274;
+
 	class NBCKPEELCFO_CNCCFDHIOHL : public ::System::MulticastDelegate
 	{
 	public:

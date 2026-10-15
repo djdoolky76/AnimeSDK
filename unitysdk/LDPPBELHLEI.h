@@ -53,6 +53,8 @@ namespace System::Collections::ObjectModel { template <typename T> class ReadOnl
 #define LDPPBELHLEI_PBKNLIKDENO_OFFSET UNITYSDK_OFFSET(0xB647210)
 #define LDPPBELHLEI_PLJPMPLMOKO_OFFSET UNITYSDK_OFFSET(0xB646D00)
 
+inline static constexpr unsigned int LDPPBELHLEI_TypeDefinitionIndex = 59701;
+
 	class LDPPBELHLEI : public ::LJKHPOHKIIF
 	{
 	public:

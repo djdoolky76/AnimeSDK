@@ -10,6 +10,8 @@ namespace System { class String; }
 #define DOPDHKHMBNA_HKEPJLDBGIG_OFFSET UNITYSDK_OFFSET(0x1C461290)
 #define DOPDHKHMBNA_OHCJOIANPFG_OFFSET UNITYSDK_OFFSET(0x1C460AF0)
 
+inline static constexpr unsigned int DOPDHKHMBNA_TypeDefinitionIndex = 41512;
+
 	class DOPDHKHMBNA : public ::System::Object
 	{
 	public:

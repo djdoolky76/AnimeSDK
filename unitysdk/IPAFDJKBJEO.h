@@ -5,6 +5,8 @@ class IEODIJJGAGM;
 
 #define IPAFDJKBJEO_CTOR_OFFSET UNITYSDK_OFFSET(0x1651D2B0)
 
+inline static constexpr unsigned int IPAFDJKBJEO_TypeDefinitionIndex = 80541;
+
 	class IPAFDJKBJEO : public ::System::Object
 	{
 	public:

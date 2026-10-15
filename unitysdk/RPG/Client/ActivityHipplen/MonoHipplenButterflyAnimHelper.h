@@ -20,6 +20,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::ActivityHipplen
 {
+	inline static constexpr unsigned int MonoHipplenButterflyAnimHelper_TypeDefinitionIndex = 75602;
+
 	class MonoHipplenButterflyAnimHelper : public ::UnityEngine::MonoBehaviour
 	{
 	public:

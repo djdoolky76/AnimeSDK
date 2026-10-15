@@ -10,6 +10,8 @@ namespace RPG::Client::NavMap { class ICartography; }
 
 namespace RPG::Client::LimaoNews
 {
+	inline static constexpr unsigned int LimaoNewsEntityTrackService___c__DisplayClass4_0_TypeDefinitionIndex = 80321;
+
 	class LimaoNewsEntityTrackService___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:

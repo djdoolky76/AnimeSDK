@@ -4,6 +4,8 @@
 
 #define FLBFBLDLINO_CTOR_OFFSET UNITYSDK_OFFSET(0x15829B90)
 
+inline static constexpr unsigned int FLBFBLDLINO_TypeDefinitionIndex = 48050;
+
 	class FLBFBLDLINO : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

@@ -35,6 +35,8 @@ namespace System { class String; }
 #define BEJOPEHPABO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA62B50)
 #define BEJOPEHPABO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA62BB0)
 
+inline static constexpr unsigned int BEJOPEHPABO_TypeDefinitionIndex = 31792;
+
 	class BEJOPEHPABO : public ::System::Object
 	{
 	public:

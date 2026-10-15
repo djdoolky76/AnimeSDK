@@ -38,6 +38,8 @@ namespace System { class String; }
 #define NEJPAGJBMDA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EAF8760)
 #define NEJPAGJBMDA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EAF87C0)
 
+inline static constexpr unsigned int NEJPAGJBMDA_TypeDefinitionIndex = 33440;
+
 	class NEJPAGJBMDA : public ::System::Object
 	{
 	public:

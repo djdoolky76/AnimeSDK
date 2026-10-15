@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TransformComponent; }
 #define BGOBCKLPEMK_CPEEBAFNFNC_LDKMIKEMHFO_OFFSET UNITYSDK_OFFSET(0xB4694C0)
 #define BGOBCKLPEMK_CPEEBAFNFNC_LKHEJLJAHBI_OFFSET UNITYSDK_OFFSET(0xB4699E0)
 
+inline static constexpr unsigned int BGOBCKLPEMK_CPEEBAFNFNC_TypeDefinitionIndex = 56958;
+
 	class BGOBCKLPEMK_CPEEBAFNFNC : public ::System::Object
 	{
 	public:

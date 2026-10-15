@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 #define NOFCONFIKGE_UPDATEBEFORE_OFFSET UNITYSDK_OFFSET(0xBCEB150)
 #define NOFCONFIKGE_UPDATEDONE_OFFSET UNITYSDK_OFFSET(0xBCEB620)
 
+inline static constexpr unsigned int NOFCONFIKGE_TypeDefinitionIndex = 65344;
+
 	class NOFCONFIKGE : public ::AMCOEFHHBPO
 	{
 	public:

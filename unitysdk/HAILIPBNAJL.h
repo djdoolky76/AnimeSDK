@@ -71,6 +71,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define HAILIPBNAJL_PNMMHCLMOMM_OFFSET UNITYSDK_OFFSET(0x1C657180)
 #define HAILIPBNAJL_PPOIGNJBFHI_OFFSET UNITYSDK_OFFSET(0x1C651EA0)
 
+inline static constexpr unsigned int HAILIPBNAJL_TypeDefinitionIndex = 36407;
+
 	class HAILIPBNAJL : public ::System::Object
 	{
 	public:

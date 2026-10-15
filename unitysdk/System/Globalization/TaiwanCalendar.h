@@ -28,6 +28,8 @@ namespace System::Globalization { class GregorianCalendarHelper; }
 
 namespace System::Globalization
 {
+	inline static constexpr unsigned int TaiwanCalendar_TypeDefinitionIndex = 764;
+
 	class TaiwanCalendar : public ::System::Globalization::Calendar
 	{
 	public:

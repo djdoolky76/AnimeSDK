@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightModifierExecActionOnGlobalSavedValueRea
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightModifierExecActionOnGlobalSavedValueReachConfig_TypeDefinitionIndex = 19402;
+
 	class GridFightModifierExecActionOnGlobalSavedValueReachConfig : public ::RPG::GameCore::GridFightModifierConfigBase
 	{
 	public:

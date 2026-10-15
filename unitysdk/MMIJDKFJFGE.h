@@ -28,6 +28,8 @@ namespace UnityEngine { class Transform; }
 #define MMIJDKFJFGE_KPNIKDBICCM_OFFSET UNITYSDK_OFFSET(0xB9D17B0)
 #define MMIJDKFJFGE_OLAMBABOCMI_OFFSET UNITYSDK_OFFSET(0xB9D1640)
 
+inline static constexpr unsigned int MMIJDKFJFGE_TypeDefinitionIndex = 71659;
+
 	class MMIJDKFJFGE : public ::PEALGIFBLDO
 	{
 	public:

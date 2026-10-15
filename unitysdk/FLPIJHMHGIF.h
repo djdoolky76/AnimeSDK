@@ -4,6 +4,8 @@
 
 #define FLPIJHMHGIF_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA712B0)
 
+inline static constexpr unsigned int FLPIJHMHGIF_TypeDefinitionIndex = 42227;
+
 	class FLPIJHMHGIF : public ::System::Object
 	{
 	public:

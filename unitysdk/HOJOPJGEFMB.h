@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define HOJOPJGEFMB_LOCK_OFFSET UNITYSDK_OFFSET(0x15DB9070)
 #define HOJOPJGEFMB_UNLOCK_OFFSET UNITYSDK_OFFSET(0x15DB91D0)
 
+inline static constexpr unsigned int HOJOPJGEFMB_TypeDefinitionIndex = 74774;
+
 	class HOJOPJGEFMB : public ::RPG::Client::GamePlayLockTargetFunc
 	{
 	public:

@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define MCFBBMAMCON_PACMHPGMNAM_OFFSET UNITYSDK_OFFSET(0xB878300)
 #define MCFBBMAMCON__ONBIND_OFFSET UNITYSDK_OFFSET(0xB877F30)
 
+inline static constexpr unsigned int MCFBBMAMCON_TypeDefinitionIndex = 71274;
+
 	class MCFBBMAMCON : public ::FMPCODLIOLG
 	{
 	public:

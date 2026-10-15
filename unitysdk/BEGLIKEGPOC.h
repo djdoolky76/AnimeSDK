@@ -8,6 +8,8 @@ class FCOEMCEDLNL;
 #define BEGLIKEGPOC_CTOR_OFFSET UNITYSDK_OFFSET(0x1CD00F60)
 #define BEGLIKEGPOC_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CD00DA0)
 
+inline static constexpr unsigned int BEGLIKEGPOC_TypeDefinitionIndex = 12890;
+
 	class BEGLIKEGPOC : public ::System::Object
 	{
 	public:

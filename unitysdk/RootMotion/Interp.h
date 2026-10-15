@@ -38,6 +38,8 @@
 
 namespace RootMotion
 {
+	inline static constexpr unsigned int Interp_TypeDefinitionIndex = 45976;
+
 	class Interp : public ::System::Object
 	{
 	public:

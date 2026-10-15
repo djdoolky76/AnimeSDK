@@ -7,6 +7,8 @@
 #define BECODHGIKMH__ADDNOTIFYHANDLERS_OFFSET UNITYSDK_OFFSET(0x16311110)
 #define BECODHGIKMH__ADDPACKETHANDLERS_OFFSET UNITYSDK_OFFSET(0x163110D0)
 
+inline static constexpr unsigned int BECODHGIKMH_TypeDefinitionIndex = 62007;
+
 	class BECODHGIKMH : public ::RPG::Client::BaseModule
 	{
 	public:

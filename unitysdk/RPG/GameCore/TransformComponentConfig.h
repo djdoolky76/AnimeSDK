@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TransformComponentConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TransformComponentConfig_TypeDefinitionIndex = 16560;
+
 	class TransformComponentConfig : public ::RPG::GameCore::ComponentConfig
 	{
 	public:

@@ -30,6 +30,8 @@ namespace System { class String; }
 #define JLPLFCOHHFE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E785FE0)
 #define JLPLFCOHHFE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E786040)
 
+inline static constexpr unsigned int JLPLFCOHHFE_TypeDefinitionIndex = 33792;
+
 	class JLPLFCOHHFE : public ::System::Object
 	{
 	public:

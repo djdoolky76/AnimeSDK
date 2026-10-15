@@ -13,6 +13,8 @@ namespace System { class Object; }
 #define ONEGHOPELAC_OGAMKOFFLGK_OFFSET UNITYSDK_OFFSET(0xBF510E0)
 #define ONEGHOPELAC_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xBF508C0)
 
+inline static constexpr unsigned int ONEGHOPELAC_TypeDefinitionIndex = 48400;
+
 	class ONEGHOPELAC : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

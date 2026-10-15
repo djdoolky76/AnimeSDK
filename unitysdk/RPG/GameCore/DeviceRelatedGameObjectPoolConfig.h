@@ -11,6 +11,8 @@ namespace RPG::GameCore { class GameObjectPoolSetting; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DeviceRelatedGameObjectPoolConfig_TypeDefinitionIndex = 16476;
+
 	class DeviceRelatedGameObjectPoolConfig : public ::RPG::GameCore::DeviceRelatedConfigBase
 	{
 	public:

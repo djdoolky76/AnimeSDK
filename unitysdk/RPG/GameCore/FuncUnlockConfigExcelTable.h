@@ -30,6 +30,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FuncUnlockConfigExcelTable_TypeDefinitionIndex = 13318;
+
 	class FuncUnlockConfigExcelTable : public ::System::Object
 	{
 	public:

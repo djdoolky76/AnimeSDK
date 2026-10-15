@@ -33,6 +33,8 @@ namespace System { class String; }
 #define EDHOBLLOBNP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E25F810)
 #define EDHOBLLOBNP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E25F870)
 
+inline static constexpr unsigned int EDHOBLLOBNP_TypeDefinitionIndex = 27242;
+
 	class EDHOBLLOBNP : public ::System::Object
 	{
 	public:

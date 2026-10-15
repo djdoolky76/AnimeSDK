@@ -9,6 +9,8 @@ namespace RPG::Client::LimaoNews { class LimaoNewsMainLimaoControl; }
 
 namespace RPG::Client::LimaoNews
 {
+	inline static constexpr unsigned int LimaoNewsMainLimaoControl___c__DisplayClass3_0_TypeDefinitionIndex = 80368;
+
 	class LimaoNewsMainLimaoControl___c__DisplayClass3_0 : public ::System::Object
 	{
 	public:

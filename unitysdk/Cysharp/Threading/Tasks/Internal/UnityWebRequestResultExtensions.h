@@ -7,6 +7,8 @@ namespace UnityEngine::Networking { class UnityWebRequest; }
 
 namespace Cysharp::Threading::Tasks::Internal
 {
+	inline static constexpr unsigned int UnityWebRequestResultExtensions_TypeDefinitionIndex = 38689;
+
 	class UnityWebRequestResultExtensions : public ::System::Object
 	{
 	public:

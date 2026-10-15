@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PropInitFarmElement_TypeDefinitionIndex = 22090;
+
 	class PropInitFarmElement : public ::RPG::GameCore::TaskConfig
 	{
 	public:

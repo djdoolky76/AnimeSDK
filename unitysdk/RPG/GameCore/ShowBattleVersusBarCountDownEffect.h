@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ShowBattleVersusBarCountDownEffect; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ShowBattleVersusBarCountDownEffect_TypeDefinitionIndex = 23348;
+
 	class ShowBattleVersusBarCountDownEffect : public ::RPG::GameCore::TaskConfig
 	{
 	public:

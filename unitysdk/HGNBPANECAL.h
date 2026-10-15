@@ -31,6 +31,8 @@ namespace System { class String; }
 #define HGNBPANECAL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E584030)
 #define HGNBPANECAL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E584090)
 
+inline static constexpr unsigned int HGNBPANECAL_TypeDefinitionIndex = 33944;
+
 	class HGNBPANECAL : public ::System::Object
 	{
 	public:

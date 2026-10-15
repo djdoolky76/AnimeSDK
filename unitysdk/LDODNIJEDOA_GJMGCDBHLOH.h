@@ -3,6 +3,8 @@
 
 #define LDODNIJEDOA_GJMGCDBHLOH_FHAKABPDEOE_OFFSET UNITYSDK_OFFSET(0x18580)
 
+inline static constexpr unsigned int LDODNIJEDOA_GJMGCDBHLOH_TypeDefinitionIndex = 77138;
+
 	struct alignas(4) LDODNIJEDOA_GJMGCDBHLOH
 	{
 		::System::Boolean KGOEKLJCAOE; // 0x10

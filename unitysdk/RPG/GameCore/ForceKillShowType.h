@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ForceKillShowType_TypeDefinitionIndex = 18245;
+
 	enum class ForceKillShowType : ::System::Int32
 	{
 		Default = 0,

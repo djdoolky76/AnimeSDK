@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PropSetFollowRotate_TypeDefinitionIndex = 22074;
+
 	class PropSetFollowRotate : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int HipplenInteractWorkConfig_TypeDefinitionIndex = 16784;
+
 	class HipplenInteractWorkConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

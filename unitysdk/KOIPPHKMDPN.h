@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define KOIPPHKMDPN_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D0C0210)
 #define KOIPPHKMDPN_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D0BFB30)
 
+inline static constexpr unsigned int KOIPPHKMDPN_TypeDefinitionIndex = 13671;
+
 	class KOIPPHKMDPN : public ::System::Object
 	{
 	public:

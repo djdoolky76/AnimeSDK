@@ -31,6 +31,8 @@ namespace System { class String; }
 #define ACFNGBKOIDN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DDDAEB0)
 #define ACFNGBKOIDN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DDDAF10)
 
+inline static constexpr unsigned int ACFNGBKOIDN_TypeDefinitionIndex = 33858;
+
 	class ACFNGBKOIDN : public ::System::Object
 	{
 	public:

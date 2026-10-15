@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdventureSkillTriggerAbility_TypeDefinitionIndex = 20228;
+
 	class AdventureSkillTriggerAbility : public ::RPG::GameCore::TaskConfig
 	{
 	public:

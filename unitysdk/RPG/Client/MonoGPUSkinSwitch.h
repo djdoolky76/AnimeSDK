@@ -7,6 +7,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoGPUSkinSwitch_TypeDefinitionIndex = 68605;
+
 	class MonoGPUSkinSwitch : public ::UnityEngine::MonoBehaviour
 	{
 	public:

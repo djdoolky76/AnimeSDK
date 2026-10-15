@@ -14,6 +14,8 @@ namespace System::Collections::Generic { class KeyValuePair; }
 #define JKNBKEHFJJC___C__ITERATEPOSITIVE_B__10_0_OFFSET UNITYSDK_OFFSET(0x1C56B4B0)
 #define JKNBKEHFJJC___C__TOSTRING_B__19_0_OFFSET UNITYSDK_OFFSET(0x1C56B4D0)
 
+inline static constexpr unsigned int JKNBKEHFJJC___c_TypeDefinitionIndex = 41731;
+
 	class JKNBKEHFJJC___c : public ::System::Object
 	{
 	public:

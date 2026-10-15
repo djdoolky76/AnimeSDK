@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RechargeBenefitDataRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RechargeBenefitDataRow_TypeDefinitionIndex = 14620;
+
 	class RechargeBenefitDataRow : public ::System::Object
 	{
 	public:

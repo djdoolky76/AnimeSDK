@@ -42,6 +42,8 @@ namespace System { class String; }
 #define LCOKLOGEKEL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E8EF430)
 #define LCOKLOGEKEL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E8EF490)
 
+inline static constexpr unsigned int LCOKLOGEKEL_TypeDefinitionIndex = 33832;
+
 	class LCOKLOGEKEL : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MuseumTutorialTalkRow_TypeDefinitionIndex = 14256;
+
 	class MuseumTutorialTalkRow : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class SetDeathDragonSkillButtonState; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetDeathDragonSkillButtonState_TypeDefinitionIndex = 22850;
+
 	class SetDeathDragonSkillButtonState : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -17,6 +17,8 @@ namespace System::Collections::ObjectModel { template <typename T> class ReadOnl
 
 namespace RPG::Client::Compliance::Ftc::DropLink
 {
+	inline static constexpr unsigned int FtcDropLink_TypeDefinitionIndex = 74814;
+
 	class FtcDropLink : public ::System::Object
 	{
 	public:

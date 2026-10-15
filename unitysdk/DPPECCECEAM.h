@@ -44,6 +44,8 @@ namespace UnityEngine { class Collider; }
 #define DPPECCECEAM_POOLDMKLJLJ_OFFSET UNITYSDK_OFFSET(0x126640B0)
 #define DPPECCECEAM_TEARDOWN_OFFSET UNITYSDK_OFFSET(0x126622B0)
 
+inline static constexpr unsigned int DPPECCECEAM_TypeDefinitionIndex = 77010;
+
 	class DPPECCECEAM : public ::System::Object
 	{
 	public:

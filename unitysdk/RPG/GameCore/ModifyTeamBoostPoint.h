@@ -14,6 +14,8 @@ namespace RPG::GameCore { class SpecialBpFeature; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ModifyTeamBoostPoint_TypeDefinitionIndex = 22606;
+
 	class ModifyTeamBoostPoint : public ::RPG::GameCore::TaskConfig
 	{
 	public:

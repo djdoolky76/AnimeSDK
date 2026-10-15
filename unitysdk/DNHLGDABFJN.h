@@ -79,6 +79,8 @@ namespace UnityEngine { class Transform; }
 #define DNHLGDABFJN_PNPBEOLAKIG_OFFSET UNITYSDK_OFFSET(0x11957440)
 #define DNHLGDABFJN_PPOACKHGLOM_OFFSET UNITYSDK_OFFSET(0x11961EF0)
 
+inline static constexpr unsigned int DNHLGDABFJN_TypeDefinitionIndex = 69616;
+
 	class DNHLGDABFJN : public ::MDILEMALGNC
 	{
 	public:

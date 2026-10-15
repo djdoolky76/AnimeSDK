@@ -16,6 +16,8 @@ namespace System { class Object; }
 #define CAHBHBIJDBM_MDKNDALHDKC_OFFSET UNITYSDK_OFFSET(0xC47EC30)
 #define CAHBHBIJDBM___ADDENDCELLEFFECT_B__5_0_OFFSET UNITYSDK_OFFSET(0xC47F340)
 
+inline static constexpr unsigned int CAHBHBIJDBM_TypeDefinitionIndex = 75796;
+
 	class CAHBHBIJDBM : public ::CBOAHKAAECG
 	{
 	public:

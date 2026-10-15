@@ -3,6 +3,8 @@
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int MiHoYoSDKRC4Encryptor_EncoderMode_TypeDefinitionIndex = 46478;
+
 	enum class MiHoYoSDKRC4Encryptor_EncoderMode : ::System::Int32
 	{
 		Default = 0,

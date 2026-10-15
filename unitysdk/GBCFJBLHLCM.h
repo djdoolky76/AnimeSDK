@@ -10,6 +10,8 @@
 #define GBCFJBLHLCM_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x1594AE70)
 #define GBCFJBLHLCM_JAILHGGFLDH_OFFSET UNITYSDK_OFFSET(0x1594AE80)
 
+inline static constexpr unsigned int GBCFJBLHLCM_TypeDefinitionIndex = 56111;
+
 	class GBCFJBLHLCM : public ::DBGDNLLDPFI
 	{
 	public:

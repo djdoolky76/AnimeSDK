@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TeamAction_TypeDefinitionIndex = 23140;
+
 	class TeamAction : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -18,6 +18,8 @@ namespace RPG::Client { class BattleViewModeLightInitData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BattleViewModeLightInitData_TypeDefinitionIndex = 72090;
+
 	class BattleViewModeLightInitData : public ::System::Object
 	{
 	public:

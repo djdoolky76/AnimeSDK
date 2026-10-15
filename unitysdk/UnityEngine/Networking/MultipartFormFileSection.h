@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace UnityEngine::Networking
 {
+	inline static constexpr unsigned int MultipartFormFileSection_TypeDefinitionIndex = 5354;
+
 	class MultipartFormFileSection : public ::System::Object
 	{
 	public:

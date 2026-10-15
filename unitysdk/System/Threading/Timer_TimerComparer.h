@@ -8,6 +8,8 @@ namespace System { class Object; }
 
 namespace System::Threading
 {
+	inline static constexpr unsigned int Timer_TimerComparer_TypeDefinitionIndex = 880;
+
 	class Timer_TimerComparer : public ::System::Object
 	{
 	public:

@@ -16,6 +16,8 @@ class PPAFCLJOBBM;
 
 namespace RPG::Client::TrainParty::Mapping
 {
+	inline static constexpr unsigned int SlotPosMapping_TypeDefinitionIndex = 74376;
+
 	class SlotPosMapping : public ::UnityEngine::MonoBehaviour
 	{
 	public:

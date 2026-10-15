@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ChimeraTalkCondition; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChimeraTalkCondition_TypeDefinitionIndex = 15852;
+
 	class ChimeraTalkCondition : public ::RPG::GameCore::JsonConfig
 	{
 	public:

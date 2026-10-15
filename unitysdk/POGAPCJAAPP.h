@@ -9,6 +9,8 @@ namespace RPG::GameCore { class PlayChimeraAnimation; }
 #define POGAPCJAAPP_KMFNKDMEJBC_OFFSET UNITYSDK_OFFSET(0xC35FD50)
 #define POGAPCJAAPP_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0xC35FD90)
 
+inline static constexpr unsigned int POGAPCJAAPP_TypeDefinitionIndex = 78414;
+
 	class POGAPCJAAPP : public ::System::Object
 	{
 	public:

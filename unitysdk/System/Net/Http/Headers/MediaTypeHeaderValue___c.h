@@ -11,6 +11,8 @@ namespace System::Net::Http::Headers { class NameValueHeaderValue; }
 
 namespace System::Net::Http::Headers
 {
+	inline static constexpr unsigned int MediaTypeHeaderValue___c_TypeDefinitionIndex = 3804;
+
 	class MediaTypeHeaderValue___c : public ::System::Object
 	{
 	public:

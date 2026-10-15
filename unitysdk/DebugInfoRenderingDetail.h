@@ -5,6 +5,8 @@ namespace UnityEngine::UI { class Text; }
 
 #define DEBUGINFORENDERINGDETAIL_CTOR_OFFSET UNITYSDK_OFFSET(0x12666C90)
 
+inline static constexpr unsigned int DebugInfoRenderingDetail_TypeDefinitionIndex = 47582;
+
 	class DebugInfoRenderingDetail : public ::UnityEngine::MonoBehaviour
 	{
 	public:

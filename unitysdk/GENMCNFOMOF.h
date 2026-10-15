@@ -7,6 +7,8 @@ class FPNHGPEICOG;
 #define GENMCNFOMOF_CTOR_OFFSET UNITYSDK_OFFSET(0x159E27F0)
 #define GENMCNFOMOF_ILOHHJDPDBE_OFFSET UNITYSDK_OFFSET(0x159E2030)
 
+inline static constexpr unsigned int GENMCNFOMOF_TypeDefinitionIndex = 53683;
+
 	class GENMCNFOMOF : public ::System::Object
 	{
 	public:

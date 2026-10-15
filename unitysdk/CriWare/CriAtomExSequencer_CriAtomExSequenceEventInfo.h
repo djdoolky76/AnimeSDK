@@ -4,6 +4,8 @@ namespace System { class String; }
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriAtomExSequencer_CriAtomExSequenceEventInfo_TypeDefinitionIndex = 39997;
+
 	struct alignas(8) CriAtomExSequencer_CriAtomExSequenceEventInfo
 	{
 		::System::UInt64 position; // 0x10

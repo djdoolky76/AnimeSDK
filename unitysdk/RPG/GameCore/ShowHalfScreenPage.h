@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ShowHalfScreenPage_TypeDefinitionIndex = 20468;
+
 	class ShowHalfScreenPage : public ::RPG::GameCore::TaskConfig
 	{
 	public:

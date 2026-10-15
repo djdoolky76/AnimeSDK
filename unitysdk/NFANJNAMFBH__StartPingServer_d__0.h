@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define NFANJNAMFBH__STARTPINGSERVER_D__0_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0xBB776E0)
 #define NFANJNAMFBH__STARTPINGSERVER_D__0_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBB772B0)
 
+inline static constexpr unsigned int NFANJNAMFBH__StartPingServer_d__0_TypeDefinitionIndex = 69345;
+
 	class NFANJNAMFBH__StartPingServer_d__0 : public ::System::Object
 	{
 	public:

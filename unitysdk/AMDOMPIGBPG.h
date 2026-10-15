@@ -25,6 +25,8 @@ namespace System { class String; }
 #define AMDOMPIGBPG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E51A7E0)
 #define AMDOMPIGBPG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E51A840)
 
+inline static constexpr unsigned int AMDOMPIGBPG_TypeDefinitionIndex = 34869;
+
 	class AMDOMPIGBPG : public ::System::Object
 	{
 	public:

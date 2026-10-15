@@ -23,6 +23,8 @@ namespace System::Text { class StringBuilder; }
 #define KENDAOLGOPH_TOSTRING_OFFSET UNITYSDK_OFFSET(0xB37E920)
 #define KENDAOLGOPH__CLONE___OFFSET UNITYSDK_OFFSET(0xB37F090)
 
+inline static constexpr unsigned int KENDAOLGOPH_TypeDefinitionIndex = 82068;
+
 	class KENDAOLGOPH : public ::System::Object
 	{
 	public:

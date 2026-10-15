@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define EPNAONKOHBO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E319360)
 #define EPNAONKOHBO___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E319370)
 
+inline static constexpr unsigned int EPNAONKOHBO___c_TypeDefinitionIndex = 25454;
+
 	class EPNAONKOHBO___c : public ::System::Object
 	{
 	public:

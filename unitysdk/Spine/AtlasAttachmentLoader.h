@@ -25,6 +25,8 @@ namespace System { class String; }
 
 namespace Spine
 {
+	inline static constexpr unsigned int AtlasAttachmentLoader_TypeDefinitionIndex = 39649;
+
 	class AtlasAttachmentLoader : public ::System::Object
 	{
 	public:

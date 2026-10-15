@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define MPHGCHAIDMP_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xBA3E3D0)
 #define MPHGCHAIDMP_NFDHENMGIBA_OFFSET UNITYSDK_OFFSET(0xBA3E7A0)
 
+inline static constexpr unsigned int MPHGCHAIDMP_TypeDefinitionIndex = 63393;
+
 	class MPHGCHAIDMP : public ::System::Object
 	{
 	public:

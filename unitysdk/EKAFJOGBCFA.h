@@ -8,6 +8,8 @@ namespace UnityEngine::Timeline { class TrackAsset; }
 #define EKAFJOGBCFA_CTOR_1_OFFSET UNITYSDK_OFFSET(0x154FA7B0)
 #define EKAFJOGBCFA_CTOR_OFFSET UNITYSDK_OFFSET(0x154FA7A0)
 
+inline static constexpr unsigned int EKAFJOGBCFA_TypeDefinitionIndex = 48501;
+
 	class EKAFJOGBCFA : public ::System::Object
 	{
 	public:

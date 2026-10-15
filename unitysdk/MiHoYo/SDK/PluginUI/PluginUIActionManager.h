@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace MiHoYo::SDK::PluginUI
 {
+	inline static constexpr unsigned int PluginUIActionManager_TypeDefinitionIndex = 9159;
+
 	class PluginUIActionManager : public ::System::Object
 	{
 	public:

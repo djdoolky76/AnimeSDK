@@ -28,6 +28,8 @@ namespace System::Threading { class Thread; }
 #define MPJFIPNGENE_PEPEGDDLMGK_REMOVE__ONTHREADSTATECHANGED_OFFSET UNITYSDK_OFFSET(0x1EC52710)
 #define MPJFIPNGENE_PEPEGDDLMGK_SET_THREADNAME_OFFSET UNITYSDK_OFFSET(0x1EC52E00)
 
+inline static constexpr unsigned int MPJFIPNGENE_PEPEGDDLMGK_TypeDefinitionIndex = 44025;
+
 	class MPJFIPNGENE_PEPEGDDLMGK : public ::System::Object
 	{
 	public:

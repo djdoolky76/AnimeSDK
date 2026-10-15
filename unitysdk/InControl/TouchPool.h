@@ -15,6 +15,8 @@ namespace System::Collections::ObjectModel { template <typename T> class ReadOnl
 
 namespace InControl
 {
+	inline static constexpr unsigned int TouchPool_TypeDefinitionIndex = 40891;
+
 	class TouchPool : public ::System::Object
 	{
 	public:

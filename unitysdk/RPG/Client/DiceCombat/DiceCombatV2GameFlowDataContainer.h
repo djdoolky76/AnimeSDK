@@ -15,6 +15,8 @@ namespace RPG::Client::DiceCombat { class DiceCombatV2GameFlowDataContainer; }
 
 namespace RPG::Client::DiceCombat
 {
+	inline static constexpr unsigned int DiceCombatV2GameFlowDataContainer_TypeDefinitionIndex = 76184;
+
 	class DiceCombatV2GameFlowDataContainer : public ::System::Object
 	{
 	public:

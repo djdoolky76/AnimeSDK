@@ -25,6 +25,8 @@ namespace System { class String; }
 #define ILFJIIDEEBI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E6AC2F0)
 #define ILFJIIDEEBI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E6AC350)
 
+inline static constexpr unsigned int ILFJIIDEEBI_TypeDefinitionIndex = 26589;
+
 	class ILFJIIDEEBI : public ::System::Object
 	{
 	public:

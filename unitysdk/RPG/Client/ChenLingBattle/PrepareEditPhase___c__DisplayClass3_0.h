@@ -9,6 +9,8 @@ namespace RPG::Client::ChenLingBattle { class PrepareEditPhase; }
 
 namespace RPG::Client::ChenLingBattle
 {
+	inline static constexpr unsigned int PrepareEditPhase___c__DisplayClass3_0_TypeDefinitionIndex = 76307;
+
 	class PrepareEditPhase___c__DisplayClass3_0 : public ::System::Object
 	{
 	public:

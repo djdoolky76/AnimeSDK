@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define FIGEAEDHAJO_CTOR_OFFSET UNITYSDK_OFFSET(0x157A5A10)
 #define FIGEAEDHAJO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x157A5A40)
 
+inline static constexpr unsigned int FIGEAEDHAJO_TypeDefinitionIndex = 57856;
+
 	class FIGEAEDHAJO
 	{
 	public:

@@ -33,6 +33,8 @@ namespace System { class String; }
 #define JEFCEGFBOAF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E718320)
 #define JEFCEGFBOAF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E718380)
 
+inline static constexpr unsigned int JEFCEGFBOAF_TypeDefinitionIndex = 26426;
+
 	class JEFCEGFBOAF : public ::System::Object
 	{
 	public:

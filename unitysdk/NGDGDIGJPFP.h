@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define NGDGDIGJPFP_CTOR_OFFSET UNITYSDK_OFFSET(0xBBA31E0)
 #define NGDGDIGJPFP_HEPPBBLLBPN_OFFSET UNITYSDK_OFFSET(0xBBA2F10)
 
+inline static constexpr unsigned int NGDGDIGJPFP_TypeDefinitionIndex = 56312;
+
 	class NGDGDIGJPFP : public ::System::Object
 	{
 	public:

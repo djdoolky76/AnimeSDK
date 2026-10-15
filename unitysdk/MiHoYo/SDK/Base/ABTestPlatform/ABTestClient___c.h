@@ -12,6 +12,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace MiHoYo::SDK::Base::ABTestPlatform
 {
+	inline static constexpr unsigned int ABTestClient___c_TypeDefinitionIndex = 8856;
+
 	class ABTestClient___c : public ::System::Object
 	{
 	public:

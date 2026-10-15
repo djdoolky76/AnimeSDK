@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int ShowSDFTextBehaviour_TypeDefinitionIndex = 48251;
+
 	class ShowSDFTextBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

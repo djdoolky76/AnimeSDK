@@ -16,6 +16,8 @@ namespace System::Resources { class ResourceReader; }
 
 namespace System::Resources
 {
+	inline static constexpr unsigned int ResourceReader_ResourceEnumerator_TypeDefinitionIndex = 531;
+
 	class ResourceReader_ResourceEnumerator : public ::System::Object
 	{
 	public:

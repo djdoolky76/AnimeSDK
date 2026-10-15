@@ -13,6 +13,8 @@ namespace System { template <typename T1, typename T2, typename T3> class Func_3
 #define KNFOFODFEAN_GNADABFLEFM_OFFSET UNITYSDK_OFFSET(0xB582710)
 #define KNFOFODFEAN_NKCCHCKDPFK_OFFSET UNITYSDK_OFFSET(0xB582760)
 
+inline static constexpr unsigned int KNFOFODFEAN_TypeDefinitionIndex = 55843;
+
 	class KNFOFODFEAN : public ::System::Object
 	{
 	public:

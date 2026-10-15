@@ -13,6 +13,8 @@ namespace System { class Nullable; }
 #define LNOJJNADOPF_MELGIOBCLGH_OFFSET UNITYSDK_OFFSET(0xB7EA8C0)
 #define LNOJJNADOPF_MIDKBHMIDDO_OFFSET UNITYSDK_OFFSET(0xB7EAA30)
 
+inline static constexpr unsigned int LNOJJNADOPF_TypeDefinitionIndex = 63122;
+
 	class LNOJJNADOPF : public ::System::Object
 	{
 	public:

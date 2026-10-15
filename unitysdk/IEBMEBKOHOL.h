@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define IEBMEBKOHOL_FIEEJEENGED_OFFSET UNITYSDK_OFFSET(0x15EE8330)
 #define IEBMEBKOHOL_NLBNJGKAMII_OFFSET UNITYSDK_OFFSET(0x15EE8280)
 
+inline static constexpr unsigned int IEBMEBKOHOL_TypeDefinitionIndex = 53748;
+
 	class IEBMEBKOHOL : public ::GJPFGOGOLBI
 	{
 	public:

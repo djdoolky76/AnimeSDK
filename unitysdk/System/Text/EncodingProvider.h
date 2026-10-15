@@ -19,6 +19,8 @@ namespace System::Text { class EncodingProvider; }
 
 namespace System::Text
 {
+	inline static constexpr unsigned int EncodingProvider_TypeDefinitionIndex = 496;
+
 	class EncodingProvider : public ::System::Object
 	{
 	public:

@@ -54,6 +54,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define BBOFEHOPCEC_PFNDPAILDJP_OFFSET UNITYSDK_OFFSET(0x15E9E260)
 #define BBOFEHOPCEC_PHLHELLLGNN_OFFSET UNITYSDK_OFFSET(0x15E9B780)
 
+inline static constexpr unsigned int BBOFEHOPCEC_TypeDefinitionIndex = 53634;
+
 	class BBOFEHOPCEC : public ::FHLBIPIKFEJ
 	{
 	public:

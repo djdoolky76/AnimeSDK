@@ -36,6 +36,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace MiHoYo::SDK::PC::OS::CXHandheld
 {
+	inline static constexpr unsigned int HandheldAgeGateVerificationDialog_TypeDefinitionIndex = 8801;
+
 	class HandheldAgeGateVerificationDialog : public ::MiHoYo::SDK::Console::ConsoleDialogBase
 	{
 	public:

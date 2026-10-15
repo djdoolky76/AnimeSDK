@@ -3,6 +3,8 @@
 
 namespace System::Collections::Generic
 {
+	inline static constexpr unsigned int KeyValuePair_2_TypeDefinitionIndex = 1530;
+
 	template <typename T1, typename T2>
 	struct alignas(8) KeyValuePair_2
 	{

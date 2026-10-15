@@ -12,6 +12,8 @@ namespace System { class String; }
 #define GKGHLELBDFI_GGOBOBEOKME_OFFSET UNITYSDK_OFFSET(0x15A96E00)
 #define GKGHLELBDFI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15A96BD0)
 
+inline static constexpr unsigned int GKGHLELBDFI_TypeDefinitionIndex = 54822;
+
 	class GKGHLELBDFI
 	{
 	public:

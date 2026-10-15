@@ -43,6 +43,8 @@ namespace System { class Object; }
 #define MBJOEPEGLII_SET_CURRENTLOBBY_OFFSET UNITYSDK_OFFSET(0xB85EDA0)
 #define MBJOEPEGLII_SET_HASPENDINGSERVERFIGHT_OFFSET UNITYSDK_OFFSET(0xB85EE70)
 
+inline static constexpr unsigned int MBJOEPEGLII_TypeDefinitionIndex = 80262;
+
 	class MBJOEPEGLII : public ::System::Object
 	{
 	public:

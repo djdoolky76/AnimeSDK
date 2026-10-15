@@ -12,6 +12,8 @@ namespace RPG::Client { class TeamData; }
 #define EHHEALHJDFH_JLGJOHBDFKO_OFFSET UNITYSDK_OFFSET(0x154A7520)
 #define EHHEALHJDFH_KGMDNELHODN_OFFSET UNITYSDK_OFFSET(0x154A75B0)
 
+inline static constexpr unsigned int EHHEALHJDFH_TypeDefinitionIndex = 61199;
+
 	class EHHEALHJDFH : public ::HDJIGMBHENE
 	{
 	public:

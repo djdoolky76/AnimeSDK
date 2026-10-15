@@ -28,6 +28,8 @@ namespace System { class String; }
 #define CCKNNFODOMO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E077BE0)
 #define CCKNNFODOMO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E077C40)
 
+inline static constexpr unsigned int CCKNNFODOMO_TypeDefinitionIndex = 32237;
+
 	class CCKNNFODOMO : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace UnityEngine::UI { class Image; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PhotoGraphUtils___c__DisplayClass118_0_TypeDefinitionIndex = 69465;
+
 	class PhotoGraphUtils___c__DisplayClass118_0 : public ::System::Object
 	{
 	public:

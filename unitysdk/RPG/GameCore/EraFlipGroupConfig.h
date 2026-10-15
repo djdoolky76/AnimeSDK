@@ -9,6 +9,8 @@ namespace RPG::GameCore { class EraFlipGroupConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EraFlipGroupConfig_TypeDefinitionIndex = 16615;
+
 	class EraFlipGroupConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

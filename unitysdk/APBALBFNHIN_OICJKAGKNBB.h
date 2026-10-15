@@ -8,6 +8,8 @@ namespace System { class String; }
 
 #define APBALBFNHIN_OICJKAGKNBB_CTOR_OFFSET UNITYSDK_OFFSET(0x158CA6F0)
 
+inline static constexpr unsigned int APBALBFNHIN_OICJKAGKNBB_TypeDefinitionIndex = 59545;
+
 	class APBALBFNHIN_OICJKAGKNBB : public ::System::Object
 	{
 	public:

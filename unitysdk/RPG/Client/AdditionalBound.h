@@ -11,6 +11,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AdditionalBound_TypeDefinitionIndex = 68887;
+
 	class AdditionalBound : public ::UnityEngine::MonoBehaviour
 	{
 	public:

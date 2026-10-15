@@ -10,6 +10,8 @@ namespace System { template <typename T1, typename T2> class Converter_2; }
 #define GOGMKAHGLAC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x15B30A90)
 #define GOGMKAHGLAC___C__ONTASKBEGIN_B__2_0_OFFSET UNITYSDK_OFFSET(0x15B30AA0)
 
+inline static constexpr unsigned int GOGMKAHGLAC___c_TypeDefinitionIndex = 58739;
+
 	class GOGMKAHGLAC___c : public ::System::Object
 	{
 	public:

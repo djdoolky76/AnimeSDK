@@ -22,6 +22,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define NKANJOLHHOE_PGAIJGLFIFI_OFFSET UNITYSDK_OFFSET(0xBC2E7A0)
 #define NKANJOLHHOE_TICK_OFFSET UNITYSDK_OFFSET(0xBC2E3A0)
 
+inline static constexpr unsigned int NKANJOLHHOE_TypeDefinitionIndex = 58864;
+
 	class NKANJOLHHOE : public ::GELIALJDFBL
 	{
 	public:

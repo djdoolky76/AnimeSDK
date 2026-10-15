@@ -7,6 +7,8 @@ class OBJANKHLNGO;
 
 namespace Sofa
 {
+	inline static constexpr unsigned int BaseViewModel_TypeDefinitionIndex = 49699;
+
 	class BaseViewModel : public ::Sofa::Core::ObservableObject
 	{
 	public:

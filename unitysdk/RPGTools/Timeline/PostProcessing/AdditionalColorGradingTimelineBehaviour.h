@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace RPGTools::Timeline::PostProcessing
 {
+	inline static constexpr unsigned int AdditionalColorGradingTimelineBehaviour_TypeDefinitionIndex = 48529;
+
 	class AdditionalColorGradingTimelineBehaviour
 	{
 	public:

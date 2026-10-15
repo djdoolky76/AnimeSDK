@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int WebDelegate_SetFrameDelegate_TypeDefinitionIndex = 7833;
+
 	class WebDelegate_SetFrameDelegate : public ::System::MulticastDelegate
 	{
 	public:

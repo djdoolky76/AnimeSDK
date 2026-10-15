@@ -31,6 +31,8 @@ namespace System { class String; }
 #define ANJBFCEBNGF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E6610E0)
 #define ANJBFCEBNGF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E661140)
 
+inline static constexpr unsigned int ANJBFCEBNGF_TypeDefinitionIndex = 26755;
+
 	class ANJBFCEBNGF : public ::System::Object
 	{
 	public:

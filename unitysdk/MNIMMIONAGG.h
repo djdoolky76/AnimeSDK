@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define MNIMMIONAGG_CTOR_OFFSET UNITYSDK_OFFSET(0xBA0CD20)
 #define MNIMMIONAGG_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBA0CD50)
 
+inline static constexpr unsigned int MNIMMIONAGG_TypeDefinitionIndex = 54511;
+
 	class MNIMMIONAGG
 	{
 	public:

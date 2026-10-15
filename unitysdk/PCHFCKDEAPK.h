@@ -11,6 +11,8 @@ namespace System { class String; }
 #define PCHFCKDEAPK_GET_ISRELEASED_OFFSET UNITYSDK_OFFSET(0xC000830)
 #define PCHFCKDEAPK_SET_ISRELEASED_OFFSET UNITYSDK_OFFSET(0xC000840)
 
+inline static constexpr unsigned int PCHFCKDEAPK_TypeDefinitionIndex = 69920;
+
 	class PCHFCKDEAPK : public ::System::Object
 	{
 	public:

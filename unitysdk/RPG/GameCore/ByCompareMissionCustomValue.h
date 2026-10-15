@@ -15,6 +15,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByCompareMissionCustomValue_TypeDefinitionIndex = 20438;
+
 	class ByCompareMissionCustomValue : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

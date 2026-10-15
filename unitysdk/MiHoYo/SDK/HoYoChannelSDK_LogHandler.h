@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int HoYoChannelSDK_LogHandler_TypeDefinitionIndex = 46546;
+
 	class HoYoChannelSDK_LogHandler : public ::System::MulticastDelegate
 	{
 	public:

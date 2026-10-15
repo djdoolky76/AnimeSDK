@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int HipplenGameSwitchCamera_TypeDefinitionIndex = 21316;
+
 	class HipplenGameSwitchCamera : public ::RPG::GameCore::TaskConfig
 	{
 	public:

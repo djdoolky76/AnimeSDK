@@ -27,6 +27,8 @@ namespace System { class String; }
 #define HGGPKPPBGFP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E57A470)
 #define HGGPKPPBGFP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E57A4D0)
 
+inline static constexpr unsigned int HGGPKPPBGFP_TypeDefinitionIndex = 33649;
+
 	class HGGPKPPBGFP : public ::System::Object
 	{
 	public:

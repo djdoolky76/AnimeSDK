@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int PSDelegate_ShowSysMessageDialogDelegate_TypeDefinitionIndex = 7745;
+
 	class PSDelegate_ShowSysMessageDialogDelegate : public ::System::MulticastDelegate
 	{
 	public:

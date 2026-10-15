@@ -17,6 +17,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 #define NNOFIHMOPLG__GETBUTTONS_D__7_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0xBCDA810)
 #define NNOFIHMOPLG__GETBUTTONS_D__7_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBCDA680)
 
+inline static constexpr unsigned int NNOFIHMOPLG__GetButtons_d__7_TypeDefinitionIndex = 71989;
+
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7>
 	class NNOFIHMOPLG__GetButtons_d__7 : public ::System::Object
 	{

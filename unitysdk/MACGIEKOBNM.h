@@ -30,6 +30,8 @@ namespace System { class String; }
 #define MACGIEKOBNM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9D6460)
 #define MACGIEKOBNM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E9D64C0)
 
+inline static constexpr unsigned int MACGIEKOBNM_TypeDefinitionIndex = 31577;
+
 	class MACGIEKOBNM : public ::System::Object
 	{
 	public:

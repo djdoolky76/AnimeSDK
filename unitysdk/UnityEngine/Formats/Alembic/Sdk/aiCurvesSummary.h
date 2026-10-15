@@ -11,6 +11,8 @@
 
 namespace UnityEngine::Formats::Alembic::Sdk
 {
+	inline static constexpr unsigned int aiCurvesSummary_TypeDefinitionIndex = 45818;
+
 	struct alignas(4) aiCurvesSummary
 	{
 		::UnityEngine::Formats::Alembic::Sdk::Bool _hasPositions_k__BackingField; // 0x10

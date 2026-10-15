@@ -5,6 +5,8 @@ namespace System { class String; }
 
 #define HGKCJBNMCPI_CTOR_OFFSET UNITYSDK_OFFSET(0x1EBFA040)
 
+inline static constexpr unsigned int HGKCJBNMCPI_TypeDefinitionIndex = 35274;
+
 	class HGKCJBNMCPI : public ::System::Object
 	{
 	public:

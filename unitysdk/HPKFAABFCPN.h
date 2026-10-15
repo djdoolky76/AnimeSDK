@@ -32,6 +32,8 @@ namespace System { class String; }
 #define HPKFAABFCPN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E5FB780)
 #define HPKFAABFCPN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E5FB7E0)
 
+inline static constexpr unsigned int HPKFAABFCPN_TypeDefinitionIndex = 34264;
+
 	class HPKFAABFCPN : public ::System::Object
 	{
 	public:

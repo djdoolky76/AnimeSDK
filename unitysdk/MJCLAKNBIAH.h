@@ -17,6 +17,8 @@ namespace ObservableCollections { template <typename T> class ObservableList_1; 
 #define MJCLAKNBIAH_SET_INTEGRATIONBAR_OFFSET UNITYSDK_OFFSET(0xB9686E0)
 #define MJCLAKNBIAH_SET_TRAITS_OFFSET UNITYSDK_OFFSET(0xB9686C0)
 
+inline static constexpr unsigned int MJCLAKNBIAH_TypeDefinitionIndex = 79738;
+
 	class MJCLAKNBIAH : public ::System::Object
 	{
 	public:

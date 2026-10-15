@@ -9,6 +9,8 @@ namespace RPG::GameCore { class StagePVSBakeConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StagePVSBakeConfig_TypeDefinitionIndex = 19177;
+
 	class StagePVSBakeConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

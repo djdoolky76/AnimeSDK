@@ -12,6 +12,8 @@ namespace RPGTools::Timeline { class LiveStreamSmallWindowClip; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int LiveStreamSmallWindowBehaviour_TypeDefinitionIndex = 48176;
+
 	class LiveStreamSmallWindowBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

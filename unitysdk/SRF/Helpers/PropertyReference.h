@@ -29,6 +29,8 @@ namespace System::Reflection { class PropertyInfo; }
 
 namespace SRF::Helpers
 {
+	inline static constexpr unsigned int PropertyReference_TypeDefinitionIndex = 35427;
+
 	class PropertyReference : public ::System::Object
 	{
 	public:

@@ -20,6 +20,8 @@ namespace System::Collections::Generic { template <typename T> class Queue_1; }
 #define FKDOGGOEPAK_PLJPBLFDFCP_OFFSET UNITYSDK_OFFSET(0x157EBC40)
 #define FKDOGGOEPAK___TRYSHOWINVITATIONDIALOG_B__8_0_OFFSET UNITYSDK_OFFSET(0x157EBD50)
 
+inline static constexpr unsigned int FKDOGGOEPAK_TypeDefinitionIndex = 76004;
+
 	class FKDOGGOEPAK : public ::System::Object
 	{
 	public:

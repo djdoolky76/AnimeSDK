@@ -9,6 +9,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace RPG::Client::ChenLingBattle
 {
+	inline static constexpr unsigned int ChenLingBattleGameSession___c__DisplayClass86_0_TypeDefinitionIndex = 76340;
+
 	class ChenLingBattleGameSession___c__DisplayClass86_0 : public ::System::Object
 	{
 	public:

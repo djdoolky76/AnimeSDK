@@ -20,6 +20,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define BMICACAAOGP_LBMDAFKDOPE_OFFSET UNITYSDK_OFFSET(0xBDAEF30)
 #define BMICACAAOGP_ODDAIEHPBOD_OFFSET UNITYSDK_OFFSET(0xBDAED30)
 
+inline static constexpr unsigned int BMICACAAOGP_TypeDefinitionIndex = 54226;
+
 	class BMICACAAOGP : public ::System::Object
 	{
 	public:

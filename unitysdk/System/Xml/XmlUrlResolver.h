@@ -19,6 +19,8 @@ namespace System::Xml { class XmlDownloadManager; }
 
 namespace System::Xml
 {
+	inline static constexpr unsigned int XmlUrlResolver_TypeDefinitionIndex = 1970;
+
 	class XmlUrlResolver : public ::System::Xml::XmlResolver
 	{
 	public:

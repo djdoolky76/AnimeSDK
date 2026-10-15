@@ -13,6 +13,8 @@ namespace System { class Object; }
 #define POEGKFEADIE___C__ONPREINIT_B__35_1_OFFSET UNITYSDK_OFFSET(0xC35EFB0)
 #define POEGKFEADIE___C__ONPREINIT_B__35_2_OFFSET UNITYSDK_OFFSET(0xC35EFD0)
 
+inline static constexpr unsigned int POEGKFEADIE___c_TypeDefinitionIndex = 54312;
+
 	class POEGKFEADIE___c : public ::System::Object
 	{
 	public:

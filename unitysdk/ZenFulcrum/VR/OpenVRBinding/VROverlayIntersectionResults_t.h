@@ -5,6 +5,8 @@
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int VROverlayIntersectionResults_t_TypeDefinitionIndex = 39314;
+
 	struct alignas(4) VROverlayIntersectionResults_t
 	{
 		::ZenFulcrum::VR::OpenVRBinding::HmdVector3_t vPoint; // 0x10

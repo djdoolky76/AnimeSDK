@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 #define CPFPIKGBLFK_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DCBD000)
 #define CPFPIKGBLFK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DCBCFC0)
 
+inline static constexpr unsigned int CPFPIKGBLFK_TypeDefinitionIndex = 23687;
+
 	class CPFPIKGBLFK : public ::RPG::GameCore::TaskConfig
 	{
 	public:

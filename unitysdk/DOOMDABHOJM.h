@@ -5,6 +5,8 @@
 
 #define DOOMDABHOJM_CTOR_OFFSET UNITYSDK_OFFSET(0x11FF4730)
 
+inline static constexpr unsigned int DOOMDABHOJM_TypeDefinitionIndex = 70348;
+
 	class DOOMDABHOJM : public ::System::Object
 	{
 	public:

@@ -61,6 +61,8 @@ namespace System::Collections::Generic { template <typename T> class CacheLinked
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int InputDataController_TypeDefinitionIndex = 61304;
+
 	class InputDataController : public ::System::Object
 	{
 	public:

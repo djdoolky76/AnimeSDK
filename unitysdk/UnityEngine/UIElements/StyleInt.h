@@ -18,6 +18,8 @@ namespace System { class String; }
 
 namespace UnityEngine::UIElements
 {
+	inline static constexpr unsigned int StyleInt_TypeDefinitionIndex = 6003;
+
 	struct alignas(4) StyleInt
 	{
 		::UnityEngine::UIElements::StyleKeyword m_Keyword; // 0x10

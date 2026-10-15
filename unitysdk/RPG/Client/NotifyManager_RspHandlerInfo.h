@@ -8,6 +8,8 @@ namespace RPG::Client { class RspHandler; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int NotifyManager_RspHandlerInfo_TypeDefinitionIndex = 59288;
+
 	class NotifyManager_RspHandlerInfo : public ::System::Object
 	{
 	public:

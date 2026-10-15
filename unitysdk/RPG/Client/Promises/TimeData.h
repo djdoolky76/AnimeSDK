@@ -3,6 +3,8 @@
 
 namespace RPG::Client::Promises
 {
+	inline static constexpr unsigned int TimeData_TypeDefinitionIndex = 9902;
+
 	struct alignas(4) TimeData
 	{
 		::System::Single elapsedTime; // 0x10

@@ -12,6 +12,8 @@ namespace RPG::GameCore { class WaypointConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetNPCWaypoint_TypeDefinitionIndex = 20290;
+
 	class SetNPCWaypoint : public ::RPG::GameCore::TaskConfig
 	{
 	public:

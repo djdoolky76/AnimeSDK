@@ -20,6 +20,8 @@ namespace Cinemachine { class CinemachinePathBase; }
 
 namespace Cinemachine
 {
+	inline static constexpr unsigned int CinemachineTrackedDolly_TypeDefinitionIndex = 39789;
+
 	class CinemachineTrackedDolly : public ::Cinemachine::CinemachineComponentBase
 	{
 	public:

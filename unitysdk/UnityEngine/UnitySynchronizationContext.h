@@ -21,6 +21,8 @@ namespace System::Threading { class SynchronizationContext; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int UnitySynchronizationContext_TypeDefinitionIndex = 4364;
+
 	class UnitySynchronizationContext : public ::System::Threading::SynchronizationContext
 	{
 	public:

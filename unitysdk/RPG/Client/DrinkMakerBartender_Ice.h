@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int DrinkMakerBartender_Ice_TypeDefinitionIndex = 63604;
+
 	class DrinkMakerBartender_Ice : public ::System::Object
 	{
 	public:

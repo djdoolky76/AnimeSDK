@@ -20,6 +20,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::Win::OS
 {
+	inline static constexpr unsigned int AgeGatePayValidationManager_AgeGateParentalConsentRequiredDialogBridge_TypeDefinitionIndex = 9562;
+
 	class AgeGatePayValidationManager_AgeGateParentalConsentRequiredDialogBridge : public ::System::Object
 	{
 	public:

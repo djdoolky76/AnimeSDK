@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TRFBackgroundComponentConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TRFBackgroundComponentConfig_TypeDefinitionIndex = 18911;
+
 	class TRFBackgroundComponentConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
 	public:

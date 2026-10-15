@@ -11,6 +11,8 @@ namespace RPG::GameCore { class WaitPropStateChangeByCollectionMirrorTakenDiff; 
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaitPropStateChangeByCollectionMirrorTakenDiff_TypeDefinitionIndex = 20414;
+
 	class WaitPropStateChangeByCollectionMirrorTakenDiff : public ::RPG::GameCore::TaskConfig
 	{
 	public:

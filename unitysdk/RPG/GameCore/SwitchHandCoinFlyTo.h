@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SwitchHandCoinFlyTo_TypeDefinitionIndex = 20970;
+
 	class SwitchHandCoinFlyTo : public ::RPG::GameCore::TaskConfig
 	{
 	public:

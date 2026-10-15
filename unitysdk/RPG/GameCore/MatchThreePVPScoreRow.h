@@ -13,6 +13,8 @@ namespace RPG::GameCore { class MatchThreePVPScoreRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MatchThreePVPScoreRow_TypeDefinitionIndex = 11909;
+
 	class MatchThreePVPScoreRow : public ::System::Object
 	{
 	public:

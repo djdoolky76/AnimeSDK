@@ -25,6 +25,8 @@ namespace System { class Object; }
 
 namespace Cysharp::Threading::Tasks
 {
+	inline static constexpr unsigned int UniTask_WaitUntilCanceledPromise_TypeDefinitionIndex = 38260;
+
 	class UniTask_WaitUntilCanceledPromise : public ::System::Object
 	{
 	public:

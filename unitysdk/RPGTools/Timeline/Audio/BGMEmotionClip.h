@@ -13,6 +13,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline::Audio
 {
+	inline static constexpr unsigned int BGMEmotionClip_TypeDefinitionIndex = 48835;
+
 	class BGMEmotionClip : public ::RPGTools::Timeline::CustomEventClip
 	{
 	public:

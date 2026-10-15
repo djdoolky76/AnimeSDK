@@ -31,6 +31,8 @@ namespace System { class String; }
 #define FEBFJNFNBAP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E35F5F0)
 #define FEBFJNFNBAP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E35F650)
 
+inline static constexpr unsigned int FEBFJNFNBAP_TypeDefinitionIndex = 30923;
+
 	class FEBFJNFNBAP : public ::System::Object
 	{
 	public:

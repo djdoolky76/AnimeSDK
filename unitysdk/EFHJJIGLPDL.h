@@ -31,6 +31,8 @@ namespace RPG::GameCore { class TransformComponent; }
 #define EFHJJIGLPDL_PKOIBHJEMOO_OFFSET UNITYSDK_OFFSET(0x13A4CD90)
 #define EFHJJIGLPDL_TICK_OFFSET UNITYSDK_OFFSET(0x13A4C570)
 
+inline static constexpr unsigned int EFHJJIGLPDL_TypeDefinitionIndex = 57465;
+
 	class EFHJJIGLPDL : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

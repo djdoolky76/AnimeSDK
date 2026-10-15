@@ -23,6 +23,8 @@ namespace System { class String; }
 #define FCJECGJKGBA_SET_ISEND_OFFSET UNITYSDK_OFFSET(0x156C8400)
 #define FCJECGJKGBA_SET_ISVCAMSETUP_OFFSET UNITYSDK_OFFSET(0x156C8420)
 
+inline static constexpr unsigned int FCJECGJKGBA_TypeDefinitionIndex = 69659;
+
 	class FCJECGJKGBA : public ::System::Object
 	{
 	public:

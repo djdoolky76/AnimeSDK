@@ -18,6 +18,8 @@ namespace System::Collections { class Stack; }
 
 namespace System::Diagnostics
 {
+	inline static constexpr unsigned int TraceEventCache_TypeDefinitionIndex = 2537;
+
 	class TraceEventCache : public ::System::Object
 	{
 	public:

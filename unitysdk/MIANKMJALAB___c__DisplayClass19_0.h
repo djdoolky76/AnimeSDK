@@ -6,6 +6,8 @@ class MIANKMJALAB;
 #define MIANKMJALAB___C__DISPLAYCLASS19_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB94CF40)
 #define MIANKMJALAB___C__DISPLAYCLASS19_0__SETMINUSSHOWBUFFCOUNT_B__0_OFFSET UNITYSDK_OFFSET(0xB94CF50)
 
+inline static constexpr unsigned int MIANKMJALAB___c__DisplayClass19_0_TypeDefinitionIndex = 71390;
+
 	class MIANKMJALAB___c__DisplayClass19_0 : public ::System::Object
 	{
 	public:

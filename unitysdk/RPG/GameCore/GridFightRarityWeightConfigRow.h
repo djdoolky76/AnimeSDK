@@ -9,6 +9,8 @@ namespace RPG::GameCore { class GridFightRarityWeightConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightRarityWeightConfigRow_TypeDefinitionIndex = 13596;
+
 	class GridFightRarityWeightConfigRow : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define IPFNLCFACJH_GET_FACTORY_OFFSET UNITYSDK_OFFSET(0x1651F770)
 #define IPFNLCFACJH_SET_FACTORY_OFFSET UNITYSDK_OFFSET(0x1651F780)
 
+inline static constexpr unsigned int IPFNLCFACJH_TypeDefinitionIndex = 62742;
+
 	class IPFNLCFACJH : public ::System::Object
 	{
 	public:

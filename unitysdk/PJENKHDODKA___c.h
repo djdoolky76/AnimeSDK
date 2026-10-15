@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define PJENKHDODKA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF760E0)
 #define PJENKHDODKA___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1DF760F0)
 
+inline static constexpr unsigned int PJENKHDODKA___c_TypeDefinitionIndex = 25079;
+
 	class PJENKHDODKA___c : public ::System::Object
 	{
 	public:

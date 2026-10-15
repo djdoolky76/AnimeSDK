@@ -8,6 +8,8 @@ namespace RPG::Client::FateRin::Card { class FateRinReplaceCardViewModel; }
 
 namespace RPG::Client::FateRin::Card
 {
+	inline static constexpr unsigned int FateRinReplaceCardViewModel___c__DisplayClass5_0_TypeDefinitionIndex = 81172;
+
 	class FateRinReplaceCardViewModel___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:

@@ -5,6 +5,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UIMonoJoyStick_JoyStickDragEvent_TypeDefinitionIndex = 72838;
+
 	class UIMonoJoyStick_JoyStickDragEvent
 	{
 	public:

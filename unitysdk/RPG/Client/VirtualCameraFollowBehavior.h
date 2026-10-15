@@ -38,6 +38,8 @@ namespace UnityEngine::Rendering { class CRPVirtualCamera; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int VirtualCameraFollowBehavior_TypeDefinitionIndex = 70346;
+
 	class VirtualCameraFollowBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:

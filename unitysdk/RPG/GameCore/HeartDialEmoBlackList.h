@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int HeartDialEmoBlackList_TypeDefinitionIndex = 21224;
+
 	class HeartDialEmoBlackList : public ::RPG::GameCore::TaskConfig
 	{
 	public:

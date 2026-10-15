@@ -11,6 +11,8 @@ namespace RPG::GameCore { class CakeRaceBoxColliderConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CakeRaceBoxColliderConfig_TypeDefinitionIndex = 18422;
+
 	class CakeRaceBoxColliderConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
 	public:

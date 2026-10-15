@@ -36,6 +36,8 @@ namespace System { class String; }
 #define NGHMPPEHAIL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB11040)
 #define NGHMPPEHAIL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB110A0)
 
+inline static constexpr unsigned int NGHMPPEHAIL_TypeDefinitionIndex = 26406;
+
 	class NGHMPPEHAIL : public ::System::Object
 	{
 	public:

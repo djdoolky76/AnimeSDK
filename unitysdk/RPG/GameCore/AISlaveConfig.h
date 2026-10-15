@@ -10,6 +10,8 @@ namespace RPG::GameCore { class AISlaveConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AISlaveConfig_TypeDefinitionIndex = 17231;
+
 	class AISlaveConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int PSDelegate_NotifyPremiumFeatureDelegate_TypeDefinitionIndex = 7763;
+
 	class PSDelegate_NotifyPremiumFeatureDelegate : public ::System::MulticastDelegate
 	{
 	public:

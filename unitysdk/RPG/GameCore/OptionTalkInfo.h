@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int OptionTalkInfo_TypeDefinitionIndex = 15477;
+
 	class OptionTalkInfo : public ::RPG::GameCore::JsonConfig
 	{
 	public:

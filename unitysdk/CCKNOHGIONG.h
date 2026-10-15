@@ -16,6 +16,8 @@ namespace System { class String; }
 #define CCKNOHGIONG_SET_SUBPACKID_OFFSET UNITYSDK_OFFSET(0xDDA70)
 #define CCKNOHGIONG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3C275D0)
 
+inline static constexpr unsigned int CCKNOHGIONG_TypeDefinitionIndex = 41497;
+
 	struct alignas(4) CCKNOHGIONG
 	{
 		::RPG::Client::ByteHash16 HHPFNGFAJIA; // 0x10

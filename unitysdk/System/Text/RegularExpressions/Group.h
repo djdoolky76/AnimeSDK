@@ -13,6 +13,8 @@ namespace System::Text::RegularExpressions { class Group; }
 
 namespace System::Text::RegularExpressions
 {
+	inline static constexpr unsigned int Group_TypeDefinitionIndex = 2514;
+
 	class Group : public ::System::Text::RegularExpressions::Capture
 	{
 	public:

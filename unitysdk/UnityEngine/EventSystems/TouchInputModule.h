@@ -23,6 +23,8 @@ namespace UnityEngine::EventSystems { class PointerEventData; }
 
 namespace UnityEngine::EventSystems
 {
+	inline static constexpr unsigned int TouchInputModule_TypeDefinitionIndex = 6946;
+
 	class TouchInputModule : public ::UnityEngine::EventSystems::PointerInputModule
 	{
 	public:

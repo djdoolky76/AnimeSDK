@@ -25,6 +25,8 @@ namespace RPG::Client { class GridFightConsumableItemConfig; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightBonusConsumableItemData_TypeDefinitionIndex = 64422;
+
 	class GridFightBonusConsumableItemData : public ::System::Object
 	{
 	public:

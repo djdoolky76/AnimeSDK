@@ -13,6 +13,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoTravelShipJoyStickProvider_TravelShipPressState_TypeDefinitionIndex = 61322;
+
 	class MonoTravelShipJoyStickProvider_TravelShipPressState : public ::System::Object
 	{
 	public:

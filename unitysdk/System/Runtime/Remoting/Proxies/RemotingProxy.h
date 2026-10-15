@@ -24,6 +24,8 @@ namespace System::Runtime::Remoting::Messaging { class IMethodMessage; }
 
 namespace System::Runtime::Remoting::Proxies
 {
+	inline static constexpr unsigned int RemotingProxy_TypeDefinitionIndex = 1237;
+
 	class RemotingProxy : public ::System::Runtime::Remoting::Proxies::RealProxy
 	{
 	public:

@@ -23,6 +23,8 @@ namespace System { class Object; }
 #define KNIBNJEDCOB_OOCJBAOLPBO_OFFSET UNITYSDK_OFFSET(0xB5854B0)
 #define KNIBNJEDCOB_TICK_OFFSET UNITYSDK_OFFSET(0xB5846A0)
 
+inline static constexpr unsigned int KNIBNJEDCOB_TypeDefinitionIndex = 58465;
+
 	class KNIBNJEDCOB : public ::GELIALJDFBL
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define LOJIENDBLAI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E9C2000)
 #define LOJIENDBLAI___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E9C2010)
 
+inline static constexpr unsigned int LOJIENDBLAI___c_TypeDefinitionIndex = 30607;
+
 	class LOJIENDBLAI___c : public ::System::Object
 	{
 	public:

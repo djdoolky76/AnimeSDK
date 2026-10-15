@@ -21,6 +21,8 @@ namespace System { class Type; }
 #define BGMGOKBDCDK_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0xB18D0D0)
 #define BGMGOKBDCDK_SET_ISDIRTY_OFFSET UNITYSDK_OFFSET(0xB18C8F0)
 
+inline static constexpr unsigned int BGMGOKBDCDK_TypeDefinitionIndex = 67912;
+
 	class BGMGOKBDCDK : public ::System::Object
 	{
 	public:

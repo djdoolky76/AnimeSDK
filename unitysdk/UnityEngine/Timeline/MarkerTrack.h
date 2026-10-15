@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 
 namespace UnityEngine::Timeline
 {
+	inline static constexpr unsigned int MarkerTrack_TypeDefinitionIndex = 38830;
+
 	class MarkerTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
 	public:

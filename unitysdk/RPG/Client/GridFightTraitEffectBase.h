@@ -33,6 +33,8 @@ namespace RPG::Client { class GridFightTraitEffectConfig; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightTraitEffectBase_TypeDefinitionIndex = 65365;
+
 	class GridFightTraitEffectBase : public ::Sofa::Core::ObservableObject
 	{
 	public:

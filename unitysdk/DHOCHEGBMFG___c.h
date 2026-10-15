@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define DHOCHEGBMFG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E1B9100)
 #define DHOCHEGBMFG___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1E1B9110)
 
+inline static constexpr unsigned int DHOCHEGBMFG___c_TypeDefinitionIndex = 33963;
+
 	class DHOCHEGBMFG___c : public ::System::Object
 	{
 	public:

@@ -4,6 +4,8 @@
 class BCFMDCAMPDN;
 namespace System { template <typename T> class Predicate_1; }
 
+inline static constexpr unsigned int FAPLILPEPEI___O_TypeDefinitionIndex = 62206;
+
 	class FAPLILPEPEI___O : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@ namespace System { class String; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int ResolveDump_Tex_TypeDefinitionIndex = 37745;
+
 	struct alignas(8) ResolveDump_Tex
 	{
 		::System::String* name; // 0x10

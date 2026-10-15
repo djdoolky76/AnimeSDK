@@ -28,6 +28,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline::VFX
 {
+	inline static constexpr unsigned int VFXVolumeLightBloomBehaviour_TypeDefinitionIndex = 48694;
+
 	class VFXVolumeLightBloomBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

@@ -15,6 +15,8 @@
 
 namespace System::Security::Cryptography
 {
+	inline static constexpr unsigned int MD5CryptoServiceProvider_TypeDefinitionIndex = 1077;
+
 	class MD5CryptoServiceProvider : public ::System::Security::Cryptography::MD5
 	{
 	public:

@@ -8,6 +8,8 @@ namespace UnityEngine::Rendering { class BatchAnimEventObjCB_ExecuteEventFun; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int BAEvent_TypeDefinitionIndex = 37593;
+
 	class BAEvent : public ::System::Object
 	{
 	public:

@@ -13,6 +13,8 @@ namespace RPG::GameCore { class ChenLingBattleTriggerCallback; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChenLingBattleAbility_FireProjectile_TypeDefinitionIndex = 15709;
+
 	class ChenLingBattleAbility_FireProjectile : public ::RPG::GameCore::BaseChenLingBattleAbilityNodeConfig
 	{
 	public:

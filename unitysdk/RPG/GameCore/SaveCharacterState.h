@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SaveCharacterState_TypeDefinitionIndex = 22756;
+
 	class SaveCharacterState : public ::RPG::GameCore::TaskConfig
 	{
 	public:

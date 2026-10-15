@@ -7,6 +7,8 @@
 
 namespace Cinemachine
 {
+	inline static constexpr unsigned int CinemachinePathBase_Appearance_TypeDefinitionIndex = 39820;
+
 	class CinemachinePathBase_Appearance : public ::System::Object
 	{
 	public:

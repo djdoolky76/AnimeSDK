@@ -20,6 +20,8 @@ namespace System::Text { class StringBuilder; }
 
 namespace RPG::Client::FateRin::Card
 {
+	inline static constexpr unsigned int FateRinBattleCardIdentifier_TypeDefinitionIndex = 81104;
+
 	struct alignas(4) FateRinBattleCardIdentifier
 	{
 		::System::UInt32 _Value_k__BackingField; // 0x10

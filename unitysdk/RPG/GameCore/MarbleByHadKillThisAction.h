@@ -10,6 +10,8 @@ namespace RPG::GameCore { class MarbleByHadKillThisAction; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MarbleByHadKillThisAction_TypeDefinitionIndex = 16897;
+
 	class MarbleByHadKillThisAction : public ::RPG::GameCore::MarblePredicateConfig
 	{
 	public:

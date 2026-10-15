@@ -20,6 +20,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 
 namespace RPG::Client::Pet
 {
+	inline static constexpr unsigned int PetInstanceRepository_TypeDefinitionIndex = 75684;
+
 	class PetInstanceRepository : public ::System::Object
 	{
 	public:

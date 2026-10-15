@@ -5,6 +5,8 @@ namespace Entitas { class IContext; }
 
 namespace RPG::Client::LittleGame
 {
+	inline static constexpr unsigned int SimpleEventService_1_TypeDefinitionIndex = 76522;
+
 	template <typename T>
 	class SimpleEventService_1 : public ::System::Object
 	{

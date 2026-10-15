@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace System
 {
+	inline static constexpr unsigned int ParamsArray_TypeDefinitionIndex = 315;
+
 	struct alignas(8) ParamsArray
 	{
 		::System::Object* arg0; // 0x10

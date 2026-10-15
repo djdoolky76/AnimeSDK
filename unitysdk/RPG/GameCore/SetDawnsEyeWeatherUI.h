@@ -11,6 +11,8 @@ namespace RPG::GameCore { class SetDawnsEyeWeatherUI; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetDawnsEyeWeatherUI_TypeDefinitionIndex = 22794;
+
 	class SetDawnsEyeWeatherUI : public ::RPG::GameCore::TaskConfig
 	{
 	public:

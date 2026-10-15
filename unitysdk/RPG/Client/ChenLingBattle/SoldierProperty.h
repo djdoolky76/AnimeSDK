@@ -27,6 +27,8 @@ namespace System { class String; }
 
 namespace RPG::Client::ChenLingBattle
 {
+	inline static constexpr unsigned int SoldierProperty_TypeDefinitionIndex = 76377;
+
 	class SoldierProperty : public ::System::Object
 	{
 	public:

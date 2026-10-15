@@ -12,6 +12,8 @@ namespace UnityEngine { class Mesh; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ConeCollider_TypeDefinitionIndex = 68901;
+
 	class ConeCollider : public ::RPG::Client::BaseCustomCollider
 	{
 	public:

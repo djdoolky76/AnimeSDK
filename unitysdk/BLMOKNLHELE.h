@@ -9,6 +9,8 @@ namespace System { class String; }
 #define BLMOKNLHELE_TOSTRING_OFFSET UNITYSDK_OFFSET(0xBA7AA80)
 #define BLMOKNLHELE_TRIGGERACTION_OFFSET UNITYSDK_OFFSET(0xBA7AB20)
 
+inline static constexpr unsigned int BLMOKNLHELE_TypeDefinitionIndex = 67025;
+
 	class BLMOKNLHELE : public ::System::Object
 	{
 	public:

@@ -35,6 +35,8 @@ namespace System::Xml::Serialization { class TypeData; }
 
 namespace System::Xml::Serialization
 {
+	inline static constexpr unsigned int XmlTypeMapMember_TypeDefinitionIndex = 2047;
+
 	class XmlTypeMapMember : public ::System::Object
 	{
 	public:

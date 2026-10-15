@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int QuestTimeLimitRow_TypeDefinitionIndex = 12314;
+
 	class QuestTimeLimitRow : public ::System::Object
 	{
 	public:

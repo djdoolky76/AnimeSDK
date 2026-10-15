@@ -22,6 +22,8 @@ namespace System { class String; }
 
 namespace RPG::Client::FateRin::Battle
 {
+	inline static constexpr unsigned int FateRinBattleHealthViewModel_TypeDefinitionIndex = 80880;
+
 	class FateRinBattleHealthViewModel : public ::RPG::Client::FateRin::BaseViewModel
 	{
 	public:

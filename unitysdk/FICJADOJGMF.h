@@ -65,6 +65,8 @@ namespace UnityEngine { class Transform; }
 #define FICJADOJGMF_PIJFONNACEH_OFFSET UNITYSDK_OFFSET(0x157A14B0)
 #define FICJADOJGMF_POGHAMKDKME_OFFSET UNITYSDK_OFFSET(0x1579CBA0)
 
+inline static constexpr unsigned int FICJADOJGMF_TypeDefinitionIndex = 68750;
+
 	class FICJADOJGMF : public ::System::Object
 	{
 	public:

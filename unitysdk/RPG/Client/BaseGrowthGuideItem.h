@@ -13,6 +13,8 @@ class DBNNKHADPJG;
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BaseGrowthGuideItem_TypeDefinitionIndex = 65548;
+
 	class BaseGrowthGuideItem : public ::System::Object
 	{
 	public:

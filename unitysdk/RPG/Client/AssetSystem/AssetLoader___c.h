@@ -12,6 +12,8 @@ namespace UnityEngine { class AsyncOperation; }
 
 namespace RPG::Client::AssetSystem
 {
+	inline static constexpr unsigned int AssetLoader___c_TypeDefinitionIndex = 41566;
+
 	class AssetLoader___c : public ::System::Object
 	{
 	public:

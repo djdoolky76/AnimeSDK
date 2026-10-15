@@ -7,6 +7,8 @@ namespace UnityEngine { class GameObject; }
 #define AKTRIGGERCOLLISIONEXIT_CTOR_OFFSET UNITYSDK_OFFSET(0x1F618410)
 #define AKTRIGGERCOLLISIONEXIT_ONCOLLISIONEXIT_OFFSET UNITYSDK_OFFSET(0x1F618300)
 
+inline static constexpr unsigned int AkTriggerCollisionExit_TypeDefinitionIndex = 44962;
+
 	class AkTriggerCollisionExit : public ::AkTriggerBase
 	{
 	public:

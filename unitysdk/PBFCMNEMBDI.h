@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define PBFCMNEMBDI_TOSTRING_OFFSET UNITYSDK_OFFSET(0xBFEC120)
 #define PBFCMNEMBDI_TRIGGERACTION_OFFSET UNITYSDK_OFFSET(0xBFEC1B0)
 
+inline static constexpr unsigned int PBFCMNEMBDI_TypeDefinitionIndex = 67024;
+
 	class PBFCMNEMBDI : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System { class String; }
 #define PLGEGIPFLBH_TOSTRING_OFFSET UNITYSDK_OFFSET(0xC305570)
 #define PLGEGIPFLBH_TRIGGERACTION_OFFSET UNITYSDK_OFFSET(0xC305610)
 
+inline static constexpr unsigned int PLGEGIPFLBH_TypeDefinitionIndex = 67049;
+
 	class PLGEGIPFLBH : public ::System::Object
 	{
 	public:

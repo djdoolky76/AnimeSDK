@@ -7,6 +7,8 @@
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int GenerateHLSL_TypeDefinitionIndex = 35574;
+
 	class GenerateHLSL : public ::System::Attribute
 	{
 	public:

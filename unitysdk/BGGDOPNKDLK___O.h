@@ -3,6 +3,8 @@
 #include "unitysdk/System/Object.h"
 class BGGDOPNKDLK_MMDPKKPOHOG;
 
+inline static constexpr unsigned int BGGDOPNKDLK___O_TypeDefinitionIndex = 37265;
+
 	class BGGDOPNKDLK___O : public ::System::Object
 	{
 	public:

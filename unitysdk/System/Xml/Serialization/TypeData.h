@@ -36,6 +36,8 @@ namespace System::Xml::Serialization { class TypeData; }
 
 namespace System::Xml::Serialization
 {
+	inline static constexpr unsigned int TypeData_TypeDefinitionIndex = 1993;
+
 	class TypeData : public ::System::Object
 	{
 	public:

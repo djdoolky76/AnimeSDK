@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierModifyMagicRoomMarkProbabilityConfi
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierModifyMagicRoomMarkProbabilityConfig_TypeDefinitionIndex = 17727;
+
 	class RogueModifierModifyMagicRoomMarkProbabilityConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

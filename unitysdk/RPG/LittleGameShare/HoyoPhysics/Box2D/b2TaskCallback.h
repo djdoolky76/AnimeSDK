@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
+	inline static constexpr unsigned int b2TaskCallback_TypeDefinitionIndex = 36642;
+
 	class b2TaskCallback : public ::System::MulticastDelegate
 	{
 	public:

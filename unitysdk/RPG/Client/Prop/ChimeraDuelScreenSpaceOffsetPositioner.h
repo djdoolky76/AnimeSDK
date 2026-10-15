@@ -10,6 +10,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int ChimeraDuelScreenSpaceOffsetPositioner_TypeDefinitionIndex = 78337;
+
 	class ChimeraDuelScreenSpaceOffsetPositioner : public ::UnityEngine::MonoBehaviour
 	{
 	public:

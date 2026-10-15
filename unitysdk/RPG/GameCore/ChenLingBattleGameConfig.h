@@ -17,6 +17,8 @@ namespace RPG::GameCore { class ChenLingRageModeConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChenLingBattleGameConfig_TypeDefinitionIndex = 15686;
+
 	class ChenLingBattleGameConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

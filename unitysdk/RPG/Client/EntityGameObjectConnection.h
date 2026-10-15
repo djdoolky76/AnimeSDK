@@ -17,6 +17,8 @@ namespace System { class Action; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int EntityGameObjectConnection_TypeDefinitionIndex = 68417;
+
 	class EntityGameObjectConnection : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define FPGBALIKPDE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E4091E0)
 #define FPGBALIKPDE___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E4091F0)
 
+inline static constexpr unsigned int FPGBALIKPDE___c_TypeDefinitionIndex = 34967;
+
 	class FPGBALIKPDE___c : public ::System::Object
 	{
 	public:

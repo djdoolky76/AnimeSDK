@@ -16,6 +16,8 @@ namespace UnityEngine { class Collider; }
 #define INLDDCDNBLJ_NNALPNDFFIJ_OFFSET UNITYSDK_OFFSET(0x164F6080)
 #define INLDDCDNBLJ_PGKPGNJJMMB_OFFSET UNITYSDK_OFFSET(0x164F61E0)
 
+inline static constexpr unsigned int INLDDCDNBLJ_TypeDefinitionIndex = 54734;
+
 	class INLDDCDNBLJ : public ::GGJEMEHMBNL
 	{
 	public:

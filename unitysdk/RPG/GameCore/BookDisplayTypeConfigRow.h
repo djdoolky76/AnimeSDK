@@ -9,6 +9,8 @@ namespace RPG::GameCore { class BookDisplayTypeConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BookDisplayTypeConfigRow_TypeDefinitionIndex = 12901;
+
 	class BookDisplayTypeConfigRow : public ::System::Object
 	{
 	public:

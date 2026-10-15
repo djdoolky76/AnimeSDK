@@ -9,6 +9,8 @@ namespace UnityEngine { class Texture2D; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int MiHoYoSDK___c__DisplayClass25_0_TypeDefinitionIndex = 46271;
+
 	class MiHoYoSDK___c__DisplayClass25_0 : public ::System::Object
 	{
 	public:

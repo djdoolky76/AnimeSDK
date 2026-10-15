@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define HENKNGAHMNO_CTOR_OFFSET UNITYSDK_OFFSET(0x15C5E320)
 #define HENKNGAHMNO_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15C5E350)
 
+inline static constexpr unsigned int HENKNGAHMNO_TypeDefinitionIndex = 52596;
+
 	class HENKNGAHMNO
 	{
 	public:

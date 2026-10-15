@@ -27,6 +27,8 @@ namespace System { class String; }
 #define AHHIKOKAPFG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E26EEA0)
 #define AHHIKOKAPFG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E26EF00)
 
+inline static constexpr unsigned int AHHIKOKAPFG_TypeDefinitionIndex = 33869;
+
 	class AHHIKOKAPFG : public ::System::Object
 	{
 	public:

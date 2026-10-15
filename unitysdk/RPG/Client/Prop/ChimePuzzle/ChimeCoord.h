@@ -3,6 +3,8 @@
 
 namespace RPG::Client::Prop::ChimePuzzle
 {
+	inline static constexpr unsigned int ChimeCoord_TypeDefinitionIndex = 78983;
+
 	struct alignas(4) ChimeCoord
 	{
 		::System::Int32 row; // 0x10

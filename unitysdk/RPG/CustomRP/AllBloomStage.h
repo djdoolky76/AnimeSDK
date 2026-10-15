@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int AllBloomStage_TypeDefinitionIndex = 37788;
+
 	class AllBloomStage : public ::System::Object
 	{
 	public:

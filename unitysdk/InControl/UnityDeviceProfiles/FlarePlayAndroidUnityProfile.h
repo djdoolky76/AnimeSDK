@@ -7,6 +7,8 @@
 
 namespace InControl::UnityDeviceProfiles
 {
+	inline static constexpr unsigned int FlarePlayAndroidUnityProfile_TypeDefinitionIndex = 40956;
+
 	class FlarePlayAndroidUnityProfile : public ::InControl::InputDeviceProfile
 	{
 	public:

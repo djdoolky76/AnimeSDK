@@ -34,6 +34,8 @@ namespace UnityEngine { class AnimationCurve; }
 #define MHGKEGBGANO_SAMPLEDELAY_OFFSET UNITYSDK_OFFSET(0xB935090)
 #define MHGKEGBGANO_SET_OWNERFMSYSTEM_OFFSET UNITYSDK_OFFSET(0xB935040)
 
+inline static constexpr unsigned int MHGKEGBGANO_TypeDefinitionIndex = 49565;
+
 	class MHGKEGBGANO : public ::System::Object
 	{
 	public:

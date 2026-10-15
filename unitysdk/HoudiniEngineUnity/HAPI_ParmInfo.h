@@ -17,6 +17,8 @@
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HAPI_ParmInfo_TypeDefinitionIndex = 40499;
+
 	struct alignas(4) HAPI_ParmInfo
 	{
 		::System::Int32 id; // 0x10

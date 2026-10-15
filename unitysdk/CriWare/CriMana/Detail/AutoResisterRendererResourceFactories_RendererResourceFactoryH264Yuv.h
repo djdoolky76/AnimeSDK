@@ -12,6 +12,8 @@ namespace UnityEngine { class Shader; }
 
 namespace CriWare::CriMana::Detail
 {
+	inline static constexpr unsigned int AutoResisterRendererResourceFactories_RendererResourceFactoryH264Yuv_TypeDefinitionIndex = 40230;
+
 	class AutoResisterRendererResourceFactories_RendererResourceFactoryH264Yuv : public ::CriWare::CriMana::Detail::RendererResourceFactory
 	{
 	public:

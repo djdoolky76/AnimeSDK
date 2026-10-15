@@ -17,6 +17,8 @@ namespace UnityEngine { class GameObject; }
 #define VIDEOPLAYERCONTROLLER_START_OFFSET UNITYSDK_OFFSET(0xE9F6E50)
 #define VIDEOPLAYERCONTROLLER_UPDATE_OFFSET UNITYSDK_OFFSET(0xE9F6F20)
 
+inline static constexpr unsigned int VideoPlayerController_TypeDefinitionIndex = 47586;
+
 	class VideoPlayerController : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -6,6 +6,8 @@
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriWareErrorHandler_NativeMethod_TypeDefinitionIndex = 40145;
+
 	class CriWareErrorHandler_NativeMethod : public ::System::Object
 	{
 	public:

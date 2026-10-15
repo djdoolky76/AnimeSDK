@@ -7,6 +7,8 @@ class LOPGOAKFMGG;
 #define PHIPDFIFCCL_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9E96E0)
 #define PHIPDFIFCCL_KDNAAOHECPD_OFFSET UNITYSDK_OFFSET(0x1C9E96F0)
 
+inline static constexpr unsigned int PHIPDFIFCCL_TypeDefinitionIndex = 43107;
+
 	class PHIPDFIFCCL : public ::BKABEBEPPJK
 	{
 	public:

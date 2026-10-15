@@ -10,6 +10,8 @@ namespace RPG::GameCore { class PlayRandomMissionTalk; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PlayRandomMissionTalk_TypeDefinitionIndex = 23446;
+
 	class PlayRandomMissionTalk : public ::RPG::GameCore::SimpleTalkListConfig
 	{
 	public:

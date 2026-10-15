@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int SDKReportModel_TypeDefinitionIndex = 7934;
+
 	class SDKReportModel : public ::System::Object
 	{
 	public:

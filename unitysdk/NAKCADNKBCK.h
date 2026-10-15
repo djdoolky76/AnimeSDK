@@ -21,6 +21,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define NAKCADNKBCK_ONMODELROOTUNLOADED_OFFSET UNITYSDK_OFFSET(0xBAA2980)
 #define NAKCADNKBCK_TICK_OFFSET UNITYSDK_OFFSET(0xBAA2280)
 
+inline static constexpr unsigned int NAKCADNKBCK_TypeDefinitionIndex = 52097;
+
 	class NAKCADNKBCK : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

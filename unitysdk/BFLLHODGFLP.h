@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define BFLLHODGFLP_CTOR_OFFSET UNITYSDK_OFFSET(0xB173240)
 #define BFLLHODGFLP_TRANSFORM_OFFSET UNITYSDK_OFFSET(0xB173260)
 
+inline static constexpr unsigned int BFLLHODGFLP_TypeDefinitionIndex = 59241;
+
 	class BFLLHODGFLP
 	{
 	public:

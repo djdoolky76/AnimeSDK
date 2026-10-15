@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::LittleGame
 {
+	inline static constexpr unsigned int BackgroundLayerConfig_TypeDefinitionIndex = 42318;
+
 	class BackgroundLayerConfig : public ::System::Object
 	{
 	public:

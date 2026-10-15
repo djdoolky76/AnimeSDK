@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define ABFLEADGIIF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DDCA220)
 #define ABFLEADGIIF___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1DDCA230)
 
+inline static constexpr unsigned int ABFLEADGIIF___c_TypeDefinitionIndex = 30981;
+
 	class ABFLEADGIIF___c : public ::System::Object
 	{
 	public:

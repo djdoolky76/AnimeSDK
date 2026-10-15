@@ -6,6 +6,8 @@
 
 namespace UnityEngine::Formats::Alembic::Sdk
 {
+	inline static constexpr unsigned int NativeMethods_aiCurves_TypeDefinitionIndex = 45799;
+
 	struct alignas(4) NativeMethods_aiCurves
 	{
 		static ::UnityEngine::Formats::Alembic::Sdk::aiCurvesSample aiSchemaGetSample(::System::IntPtr a1)

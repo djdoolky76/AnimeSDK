@@ -20,6 +20,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonopolyAssetWrapper_TypeDefinitionIndex = 66215;
+
 	class MonopolyAssetWrapper : public ::System::Object
 	{
 	public:

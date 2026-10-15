@@ -19,6 +19,8 @@ namespace System::Net::Http::Headers { class NameValueHeaderValue; }
 
 namespace System::Net::Http::Headers
 {
+	inline static constexpr unsigned int ContentDispositionHeaderValue_TypeDefinitionIndex = 3782;
+
 	class ContentDispositionHeaderValue : public ::System::Object
 	{
 	public:

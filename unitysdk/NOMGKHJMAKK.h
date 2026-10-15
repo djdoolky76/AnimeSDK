@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define NOMGKHJMAKK_NJEDPMKPCDI_OFFSET UNITYSDK_OFFSET(0xBCF43F0)
 #define NOMGKHJMAKK_OOELCLOOKGG_OFFSET UNITYSDK_OFFSET(0xBCF4150)
 
+inline static constexpr unsigned int NOMGKHJMAKK_TypeDefinitionIndex = 75126;
+
 	class NOMGKHJMAKK : public ::System::Object
 	{
 	public:

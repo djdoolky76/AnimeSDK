@@ -22,6 +22,8 @@ namespace System { class String; }
 
 namespace RPG::Client::LittleGame
 {
+	inline static constexpr unsigned int MovieGameRail_TypeDefinitionIndex = 76615;
+
 	class MovieGameRail : public ::RPG::Client::LittleGame::BaseMonoView
 	{
 	public:

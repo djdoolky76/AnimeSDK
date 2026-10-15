@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace Beebyte::Obfuscator
 {
+	inline static constexpr unsigned int RenameAttribute_TypeDefinitionIndex = 47036;
+
 	class RenameAttribute : public ::System::Attribute
 	{
 	public:

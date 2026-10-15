@@ -28,6 +28,8 @@ namespace System { class String; }
 #define FJEMMEGKKHE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E3A11F0)
 #define FJEMMEGKKHE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E3A1250)
 
+inline static constexpr unsigned int FJEMMEGKKHE_TypeDefinitionIndex = 30720;
+
 	class FJEMMEGKKHE : public ::System::Object
 	{
 	public:

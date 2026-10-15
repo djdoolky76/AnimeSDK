@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RemoveSceneTeamMemberBuff; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RemoveSceneTeamMemberBuff_TypeDefinitionIndex = 20422;
+
 	class RemoveSceneTeamMemberBuff : public ::RPG::GameCore::TaskConfig
 	{
 	public:

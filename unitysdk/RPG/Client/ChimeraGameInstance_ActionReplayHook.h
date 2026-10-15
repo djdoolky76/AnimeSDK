@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChimeraGameInstance_ActionReplayHook_TypeDefinitionIndex = 60454;
+
 	class ChimeraGameInstance_ActionReplayHook : public ::System::MulticastDelegate
 	{
 	public:

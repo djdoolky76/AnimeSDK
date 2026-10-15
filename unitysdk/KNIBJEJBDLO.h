@@ -29,6 +29,8 @@ namespace System { class String; }
 #define KNIBJEJBDLO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E8A4890)
 #define KNIBJEJBDLO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E8A48F0)
 
+inline static constexpr unsigned int KNIBJEJBDLO_TypeDefinitionIndex = 27649;
+
 	class KNIBJEJBDLO : public ::System::Object
 	{
 	public:

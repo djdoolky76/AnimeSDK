@@ -6,6 +6,8 @@
 
 namespace UnityEngine::Timeline
 {
+	inline static constexpr unsigned int SignalTrack_TypeDefinitionIndex = 38831;
+
 	class SignalTrack : public ::UnityEngine::Timeline::MarkerTrack
 	{
 	public:

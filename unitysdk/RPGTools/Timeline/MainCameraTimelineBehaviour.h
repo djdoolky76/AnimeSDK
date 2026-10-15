@@ -30,6 +30,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int MainCameraTimelineBehaviour_TypeDefinitionIndex = 48448;
+
 	class MainCameraTimelineBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

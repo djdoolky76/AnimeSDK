@@ -18,6 +18,8 @@ namespace UnityEngine::Rendering { class CRPVirtualCamera; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SplitScreenVCControl_TypeDefinitionIndex = 69714;
+
 	class SplitScreenVCControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

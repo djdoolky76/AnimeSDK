@@ -7,6 +7,8 @@ class MLEHLBPAAKM;
 #define JBKIDPONKLP_CTOR_OFFSET UNITYSDK_OFFSET(0x1C6F3280)
 #define JBKIDPONKLP_OKLOHGMDOIC_OFFSET UNITYSDK_OFFSET(0x1C6F3120)
 
+inline static constexpr unsigned int JBKIDPONKLP_TypeDefinitionIndex = 36516;
+
 	class JBKIDPONKLP : public ::ICEDIJHDAIA
 	{
 	public:

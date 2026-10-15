@@ -7,6 +7,8 @@ namespace Cinemachine { class CinemachineVirtualCamera; }
 
 namespace RPG::Client::LittleGame::PingPong
 {
+	inline static constexpr unsigned int PingPongCameraView_TypeDefinitionIndex = 76674;
+
 	class PingPongCameraView : public ::RPG::Client::LittleGame::PingPong::PingPongView
 	{
 	public:

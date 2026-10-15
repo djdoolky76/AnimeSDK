@@ -37,6 +37,8 @@ namespace System { class String; }
 #define BMKNANGPDGH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E02B6F0)
 #define BMKNANGPDGH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E02B750)
 
+inline static constexpr unsigned int BMKNANGPDGH_TypeDefinitionIndex = 29053;
+
 	class BMKNANGPDGH : public ::System::Object
 	{
 	public:

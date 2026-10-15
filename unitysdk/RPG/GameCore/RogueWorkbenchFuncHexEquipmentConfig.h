@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueWorkbenchFuncHexEquipmentConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueWorkbenchFuncHexEquipmentConfig_TypeDefinitionIndex = 18035;
+
 	class RogueWorkbenchFuncHexEquipmentConfig : public ::RPG::GameCore::RogueWorkbenchFuncBaseConfig
 	{
 	public:

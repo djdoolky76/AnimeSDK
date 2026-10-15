@@ -8,6 +8,8 @@ namespace RPG::Client { class UIController; }
 #define KFIMHLNFPHJ_CTOR_OFFSET UNITYSDK_OFFSET(0xB3B7BB0)
 #define KFIMHLNFPHJ_HDMBIMBAKFB_OFFSET UNITYSDK_OFFSET(0xB3B7AD0)
 
+inline static constexpr unsigned int KFIMHLNFPHJ_TypeDefinitionIndex = 64618;
+
 	class KFIMHLNFPHJ : public ::GHODJENKHNE
 	{
 	public:

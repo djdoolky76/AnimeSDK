@@ -6,6 +6,8 @@
 #define IDELJGCBBGK_GET_ISDISPLAYONLY_OFFSET UNITYSDK_OFFSET(0x15EC4550)
 #define IDELJGCBBGK_SET_ISDISPLAYONLY_OFFSET UNITYSDK_OFFSET(0x15EC4560)
 
+inline static constexpr unsigned int IDELJGCBBGK_TypeDefinitionIndex = 51919;
+
 	class IDELJGCBBGK : public ::System::Object
 	{
 	public:

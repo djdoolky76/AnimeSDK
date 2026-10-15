@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int LocalKeywords_TypeDefinitionIndex = 37887;
+
 	class LocalKeywords : public ::System::Object
 	{
 	public:

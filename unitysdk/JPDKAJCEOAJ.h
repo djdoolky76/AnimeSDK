@@ -8,6 +8,8 @@ namespace System { class Nullable; }
 #define JPDKAJCEOAJ_CTOR_OFFSET UNITYSDK_OFFSET(0xB2B4680)
 #define JPDKAJCEOAJ_HJMLOLJBBPH_OFFSET UNITYSDK_OFFSET(0xB2B45E0)
 
+inline static constexpr unsigned int JPDKAJCEOAJ_TypeDefinitionIndex = 77686;
+
 	class JPDKAJCEOAJ : public ::HBLDGJCDJPF
 	{
 	public:

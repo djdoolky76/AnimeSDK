@@ -11,6 +11,8 @@ namespace UnityEngine { class Coroutine; }
 #define JKOHLFGNONN_ONCLEAR_OFFSET UNITYSDK_OFFSET(0xB22D930)
 #define JKOHLFGNONN_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0xB22D7E0)
 
+inline static constexpr unsigned int JKOHLFGNONN_TypeDefinitionIndex = 80847;
+
 	class JKOHLFGNONN : public ::MLKDDLHNNHH
 	{
 	public:

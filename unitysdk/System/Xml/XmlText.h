@@ -22,6 +22,8 @@ namespace System::Xml { class XmlWriter; }
 
 namespace System::Xml
 {
+	inline static constexpr unsigned int XmlText_TypeDefinitionIndex = 1921;
+
 	class XmlText : public ::System::Xml::XmlCharacterData
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RemoveEffect_TypeDefinitionIndex = 22882;
+
 	class RemoveEffect : public ::RPG::GameCore::TaskConfig
 	{
 	public:

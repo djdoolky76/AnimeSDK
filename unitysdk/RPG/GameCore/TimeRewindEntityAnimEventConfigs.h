@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TimeRewindEntityAnimEventConfigs; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TimeRewindEntityAnimEventConfigs_TypeDefinitionIndex = 16598;
+
 	class TimeRewindEntityAnimEventConfigs : public ::RPG::GameCore::JsonConfig
 	{
 	public:

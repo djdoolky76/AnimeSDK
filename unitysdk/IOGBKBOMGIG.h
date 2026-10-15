@@ -11,6 +11,8 @@ namespace System { class Object; }
 #define IOGBKBOMGIG__ONPAGECANCELCLOSE_OFFSET UNITYSDK_OFFSET(0x16502540)
 #define IOGBKBOMGIG__ONPAGECONFIRMCLOSE_OFFSET UNITYSDK_OFFSET(0x165025F0)
 
+inline static constexpr unsigned int IOGBKBOMGIG_TypeDefinitionIndex = 52885;
+
 	class IOGBKBOMGIG
 	{
 	public:

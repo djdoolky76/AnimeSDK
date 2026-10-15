@@ -11,6 +11,8 @@ namespace RPG::GameCore { class AbilityCharacterModelChange; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AbilityCharacterModelChange_TypeDefinitionIndex = 56572;
+
 	class AbilityCharacterModelChange : public ::CMPGEAFHHDC
 	{
 	public:

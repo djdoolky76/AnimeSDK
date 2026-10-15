@@ -36,6 +36,8 @@ namespace UnityEngine::Rendering { class CommandBuffer; }
 #define JKAPOEEJGNO_MCGPMBKJPLA_OFFSET UNITYSDK_OFFSET(0xB2100B0)
 #define JKAPOEEJGNO_NOPCLLMFHHG_OFFSET UNITYSDK_OFFSET(0xB20E270)
 
+inline static constexpr unsigned int JKAPOEEJGNO_TypeDefinitionIndex = 49632;
+
 	class JKAPOEEJGNO : public ::System::Object
 	{
 	public:

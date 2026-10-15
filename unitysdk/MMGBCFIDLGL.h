@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define MMGBCFIDLGL_CTOR_OFFSET UNITYSDK_OFFSET(0xB9C44F0)
 #define MMGBCFIDLGL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB9C4520)
 
+inline static constexpr unsigned int MMGBCFIDLGL_TypeDefinitionIndex = 52877;
+
 	class MMGBCFIDLGL
 	{
 	public:

@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define LANE_DCCOFIEJIAA_OFFSET UNITYSDK_OFFSET(0xB837010)
 #define LANE_FDFLDCEFDOE_OFFSET UNITYSDK_OFFSET(0xB836B90)
 
+inline static constexpr unsigned int Lane_TypeDefinitionIndex = 47080;
+
 	class Lane : public ::System::Object
 	{
 	public:

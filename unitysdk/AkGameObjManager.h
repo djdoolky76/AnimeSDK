@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define AKGAMEOBJMANAGER_UNREGISTERLISTENERGAMEOBJ_OFFSET UNITYSDK_OFFSET(0x1F576C40)
 #define AKGAMEOBJMANAGER_UPDATE_OFFSET UNITYSDK_OFFSET(0x1F597CB0)
 
+inline static constexpr unsigned int AkGameObjManager_TypeDefinitionIndex = 44845;
+
 	class AkGameObjManager : public ::System::Object
 	{
 	public:

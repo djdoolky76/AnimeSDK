@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define KMKEFPAJIPI_SET_ACTIVEPARTIDLIST_OFFSET UNITYSDK_OFFSET(0xB55CCB0)
 #define KMKEFPAJIPI_SET_FINISHEDACTIONNUM_OFFSET UNITYSDK_OFFSET(0xB55CC90)
 
+inline static constexpr unsigned int KMKEFPAJIPI_TypeDefinitionIndex = 81668;
+
 	class KMKEFPAJIPI : public ::AJPBKMBIGNC
 	{
 	public:

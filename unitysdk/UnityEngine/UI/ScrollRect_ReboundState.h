@@ -3,6 +3,8 @@
 
 namespace UnityEngine::UI
 {
+	inline static constexpr unsigned int ScrollRect_ReboundState_TypeDefinitionIndex = 6832;
+
 	enum class ScrollRect_ReboundState : ::System::Int32
 	{
 		Prepare = 0,

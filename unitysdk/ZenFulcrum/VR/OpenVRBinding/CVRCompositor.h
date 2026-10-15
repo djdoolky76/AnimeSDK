@@ -61,6 +61,8 @@ namespace System::Text { class StringBuilder; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int CVRCompositor_TypeDefinitionIndex = 39201;
+
 	class CVRCompositor : public ::System::Object
 	{
 	public:

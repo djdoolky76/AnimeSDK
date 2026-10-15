@@ -4,6 +4,8 @@
 
 #define JGJAOBJPGDO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D02A570)
 
+inline static constexpr unsigned int JGJAOBJPGDO_TypeDefinitionIndex = 15463;
+
 	class JGJAOBJPGDO : public ::System::Object
 	{
 	public:

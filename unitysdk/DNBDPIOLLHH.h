@@ -8,6 +8,8 @@ class GEDMHFPPBHN;
 #define DNBDPIOLLHH_GBAJONBCAJJ_OFFSET UNITYSDK_OFFSET(0x119405C0)
 #define DNBDPIOLLHH_PBAMNLGHDJG_OFFSET UNITYSDK_OFFSET(0x11940530)
 
+inline static constexpr unsigned int DNBDPIOLLHH_TypeDefinitionIndex = 71211;
+
 	class DNBDPIOLLHH : public ::System::Object
 	{
 	public:

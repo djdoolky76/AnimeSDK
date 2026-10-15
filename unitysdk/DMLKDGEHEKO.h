@@ -7,6 +7,8 @@ namespace RPG::GameCore { class MarbleByDefenderFeature; }
 #define DMLKDGEHEKO_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA2EF00)
 #define DMLKDGEHEKO_KHNFOOKHOJF_OFFSET UNITYSDK_OFFSET(0x1CA2EF20)
 
+inline static constexpr unsigned int DMLKDGEHEKO_TypeDefinitionIndex = 43143;
+
 	class DMLKDGEHEKO : public ::LHJPMDPJPEC
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetCharacterStealthState_TypeDefinitionIndex = 22954;
+
 	class SetCharacterStealthState : public ::RPG::GameCore::TaskConfig
 	{
 	public:

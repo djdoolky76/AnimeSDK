@@ -19,6 +19,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PropInstanceManageMonoPlugin_TypeDefinitionIndex = 70754;
+
 	class PropInstanceManageMonoPlugin
 	{
 	public:

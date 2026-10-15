@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DeprecatedWaypointConfig_TypeDefinitionIndex = 17490;
+
 	class DeprecatedWaypointConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

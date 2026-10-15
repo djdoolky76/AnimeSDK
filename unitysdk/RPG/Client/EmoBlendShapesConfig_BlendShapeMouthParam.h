@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int EmoBlendShapesConfig_BlendShapeMouthParam_TypeDefinitionIndex = 60036;
+
 	class EmoBlendShapesConfig_BlendShapeMouthParam : public ::RPG::Client::EmoBlendShapeParamBase
 	{
 	public:

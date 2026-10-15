@@ -20,6 +20,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define PNIPKAHHOLL_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xC339740)
 #define PNIPKAHHOLL_MAFHGBDOKPO_OFFSET UNITYSDK_OFFSET(0xC339580)
 
+inline static constexpr unsigned int PNIPKAHHOLL_TypeDefinitionIndex = 60778;
+
 	class PNIPKAHHOLL : public ::System::Object
 	{
 	public:

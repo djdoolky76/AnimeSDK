@@ -33,6 +33,8 @@ namespace System::Collections::Specialized { class NotifyCollectionChangedEventA
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightItemInfo_TypeDefinitionIndex = 64994;
+
 	class GridFightItemInfo : public ::System::Object
 	{
 	public:

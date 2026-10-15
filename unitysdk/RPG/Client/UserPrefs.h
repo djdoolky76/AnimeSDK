@@ -1343,6 +1343,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UserPrefs_TypeDefinitionIndex = 59366;
+
 	class UserPrefs : public ::RPG::Client::PrefGroup
 	{
 	public:

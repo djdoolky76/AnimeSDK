@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define CDIKCLEFPJL_DCFAKMPMNFJ_OFFSET UNITYSDK_OFFSET(0xC76A770)
 #define CDIKCLEFPJL_LKFNNODKIIN_OFFSET UNITYSDK_OFFSET(0xC76AB10)
 
+inline static constexpr unsigned int CDIKCLEFPJL_TypeDefinitionIndex = 65593;
+
 	class CDIKCLEFPJL : public ::System::Object
 	{
 	public:

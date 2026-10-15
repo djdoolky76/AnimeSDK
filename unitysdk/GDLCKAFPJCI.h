@@ -33,6 +33,8 @@ namespace System { class String; }
 #define GDLCKAFPJCI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E44DA00)
 #define GDLCKAFPJCI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E44DA60)
 
+inline static constexpr unsigned int GDLCKAFPJCI_TypeDefinitionIndex = 33372;
+
 	class GDLCKAFPJCI : public ::System::Object
 	{
 	public:

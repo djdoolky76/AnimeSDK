@@ -17,6 +17,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriDisposableObjectManager_TypeDefinitionIndex = 40196;
+
 	class CriDisposableObjectManager : public ::System::Object
 	{
 	public:

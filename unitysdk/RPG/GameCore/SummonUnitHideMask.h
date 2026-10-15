@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SummonUnitHideMask_TypeDefinitionIndex = 57456;
+
 	enum class SummonUnitHideMask : ::System::UInt32
 	{
 		Custom = 1,

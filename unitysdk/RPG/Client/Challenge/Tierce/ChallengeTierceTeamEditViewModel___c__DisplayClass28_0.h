@@ -10,6 +10,8 @@ namespace RPG::Client::Promises { class IPromise; }
 
 namespace RPG::Client::Challenge::Tierce
 {
+	inline static constexpr unsigned int ChallengeTierceTeamEditViewModel___c__DisplayClass28_0_TypeDefinitionIndex = 81634;
+
 	class ChallengeTierceTeamEditViewModel___c__DisplayClass28_0 : public ::System::Object
 	{
 	public:

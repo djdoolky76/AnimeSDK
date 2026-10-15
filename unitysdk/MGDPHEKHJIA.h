@@ -11,6 +11,8 @@ namespace System { class Object; }
 #define MGDPHEKHJIA_HMOONNAFBJK_OFFSET UNITYSDK_OFFSET(0xB917560)
 #define MGDPHEKHJIA_IIOIMDJJEDG_OFFSET UNITYSDK_OFFSET(0xB9176F0)
 
+inline static constexpr unsigned int MGDPHEKHJIA_TypeDefinitionIndex = 75460;
+
 	class MGDPHEKHJIA : public ::System::Object
 	{
 	public:

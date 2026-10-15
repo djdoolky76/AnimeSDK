@@ -8,6 +8,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoNodeSwitchByGender_TypeDefinitionIndex = 72824;
+
 	class MonoNodeSwitchByGender : public ::UnityEngine::MonoBehaviour
 	{
 	public:

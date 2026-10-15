@@ -18,6 +18,8 @@ namespace System::Threading::Tasks { class Task; }
 #define JHOCADLMHCA_MNGNNPJFCOA_OFFSET UNITYSDK_OFFSET(0xB1C1250)
 #define JHOCADLMHCA_NPAMMCLMLKA_OFFSET UNITYSDK_OFFSET(0xB1C0FC0)
 
+inline static constexpr unsigned int JHOCADLMHCA_TypeDefinitionIndex = 50033;
+
 	class JHOCADLMHCA : public ::System::Object
 	{
 	public:

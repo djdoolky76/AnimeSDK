@@ -13,6 +13,8 @@ namespace Cysharp::Threading::Tasks::Triggers { class IAsyncOnServerInitializedH
 
 namespace Cysharp::Threading::Tasks::Triggers
 {
+	inline static constexpr unsigned int AsyncServerInitializedTrigger_TypeDefinitionIndex = 38593;
+
 	class AsyncServerInitializedTrigger
 	{
 	public:

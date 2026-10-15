@@ -10,6 +10,8 @@ namespace RPG::GameCore { class WaitConditionString; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaitConditionString_TypeDefinitionIndex = 20452;
+
 	class WaitConditionString : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -5,6 +5,8 @@
 
 namespace TMPro
 {
+	inline static constexpr unsigned int TMP_Text_CharacterSubstitution_TypeDefinitionIndex = 44656;
+
 	struct alignas(4) TMP_Text_CharacterSubstitution
 	{
 		::System::Int32 index; // 0x10

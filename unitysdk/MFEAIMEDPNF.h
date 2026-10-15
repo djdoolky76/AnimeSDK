@@ -9,6 +9,8 @@ class NEJPLEFGALN;
 #define MFEAIMEDPNF_JKEONEEPIHH_OFFSET UNITYSDK_OFFSET(0xB8F1590)
 #define MFEAIMEDPNF_SET_TOKENQUEUE_OFFSET UNITYSDK_OFFSET(0xB8F1580)
 
+inline static constexpr unsigned int MFEAIMEDPNF_TypeDefinitionIndex = 54252;
+
 	class MFEAIMEDPNF : public ::System::Object
 	{
 	public:

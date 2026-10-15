@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace XLua::TemplateEngine
 {
+	inline static constexpr unsigned int Chunk_TypeDefinitionIndex = 50286;
+
 	class Chunk : public ::System::Object
 	{
 	public:

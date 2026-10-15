@@ -10,6 +10,8 @@ namespace RPG::GameCore { class LevelAnchorParameter; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelAnchorParameter_TypeDefinitionIndex = 17243;
+
 	class LevelAnchorParameter : public ::RPG::GameCore::JsonConfig
 	{
 	public:

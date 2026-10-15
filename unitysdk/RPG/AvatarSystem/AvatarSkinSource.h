@@ -3,6 +3,8 @@
 
 namespace RPG::AvatarSystem
 {
+	inline static constexpr unsigned int AvatarSkinSource_TypeDefinitionIndex = 51974;
+
 	enum class AvatarSkinSource : ::System::Int32
 	{
 		Origin = 0,

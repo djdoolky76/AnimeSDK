@@ -12,6 +12,8 @@ namespace System { class Object; }
 #define MICMGJLLPDB_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB951850)
 #define MICMGJLLPDB_TICK_OFFSET UNITYSDK_OFFSET(0xB9518A0)
 
+inline static constexpr unsigned int MICMGJLLPDB_TypeDefinitionIndex = 58697;
+
 	class MICMGJLLPDB : public ::GELIALJDFBL
 	{
 	public:

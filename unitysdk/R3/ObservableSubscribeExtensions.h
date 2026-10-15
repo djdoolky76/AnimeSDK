@@ -4,6 +4,8 @@
 
 namespace R3
 {
+	inline static constexpr unsigned int ObservableSubscribeExtensions_TypeDefinitionIndex = 35922;
+
 	class ObservableSubscribeExtensions : public ::System::Object
 	{
 	public:

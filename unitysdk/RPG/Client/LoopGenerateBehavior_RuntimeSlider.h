@@ -9,6 +9,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int LoopGenerateBehavior_RuntimeSlider_TypeDefinitionIndex = 70909;
+
 	class LoopGenerateBehavior_RuntimeSlider : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@
 #define WWISESWITCHGROUPREFERENCE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F637350)
 #define WWISESWITCHGROUPREFERENCE_GET_WWISEOBJECTTYPE_OFFSET UNITYSDK_OFFSET(0x1F637340)
 
+inline static constexpr unsigned int WwiseSwitchGroupReference_TypeDefinitionIndex = 44891;
+
 	class WwiseSwitchGroupReference : public ::WwiseObjectReference
 	{
 	public:

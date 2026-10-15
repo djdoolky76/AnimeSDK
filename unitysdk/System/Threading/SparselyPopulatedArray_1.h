@@ -5,6 +5,8 @@ namespace System::Threading { template <typename T> class SparselyPopulatedArray
 
 namespace System::Threading
 {
+	inline static constexpr unsigned int SparselyPopulatedArray_1_TypeDefinitionIndex = 803;
+
 	template <typename T>
 	class SparselyPopulatedArray_1 : public ::System::Object
 	{

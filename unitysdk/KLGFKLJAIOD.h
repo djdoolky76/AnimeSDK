@@ -15,6 +15,8 @@ namespace System { class String; }
 #define KLGFKLJAIOD_MPLECJELDPK_OFFSET UNITYSDK_OFFSET(0x1C539840)
 #define KLGFKLJAIOD_NLAONFBIAEG_OFFSET UNITYSDK_OFFSET(0x1C5397A0)
 
+inline static constexpr unsigned int KLGFKLJAIOD_TypeDefinitionIndex = 41611;
+
 	class KLGFKLJAIOD : public ::System::Object
 	{
 	public:

@@ -3,6 +3,8 @@
 
 #define EBGFPDCAEHK_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C5FADF0)
 
+inline static constexpr unsigned int EBGFPDCAEHK_TypeDefinitionIndex = 36268;
+
 	struct alignas(4) EBGFPDCAEHK
 	{
 		::System::Boolean PJONDAHHJGL; // 0x10

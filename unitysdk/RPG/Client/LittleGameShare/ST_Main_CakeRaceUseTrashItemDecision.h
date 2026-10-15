@@ -11,6 +11,8 @@ namespace RPG::Client::LittleGameShare { class ST_Main_CakeRaceUseTrashItemDecis
 
 namespace RPG::Client::LittleGameShare
 {
+	inline static constexpr unsigned int ST_Main_CakeRaceUseTrashItemDecision_TypeDefinitionIndex = 10343;
+
 	class ST_Main_CakeRaceUseTrashItemDecision : public ::RPG::Client::LittleGameShare::LittleGameSTTaskConfig
 	{
 	public:

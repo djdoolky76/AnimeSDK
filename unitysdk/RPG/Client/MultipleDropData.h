@@ -27,6 +27,8 @@ namespace RPG::GameCore { class ActivityThemeRow; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MultipleDropData_TypeDefinitionIndex = 66316;
+
 	class MultipleDropData : public ::System::Object
 	{
 	public:

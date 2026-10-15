@@ -7,6 +7,8 @@ namespace System::Collections::Generic { template <typename T> class IEqualityCo
 
 namespace System::Linq
 {
+	inline static constexpr unsigned int GroupedEnumerable_3_TypeDefinitionIndex = 3176;
+
 	template <typename T1, typename T2, typename T3>
 	class GroupedEnumerable_3 : public ::System::Object
 	{

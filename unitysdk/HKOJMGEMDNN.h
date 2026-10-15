@@ -4,6 +4,8 @@
 
 #define HKOJMGEMDNN_CTOR_OFFSET UNITYSDK_OFFSET(0x15D50420)
 
+inline static constexpr unsigned int HKOJMGEMDNN_TypeDefinitionIndex = 56074;
+
 	class HKOJMGEMDNN : public ::System::Object
 	{
 	public:

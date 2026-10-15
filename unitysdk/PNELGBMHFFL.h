@@ -5,6 +5,8 @@
 #include "unitysdk/RPG/GameCore/Match3/PieceTag.h"
 #include "unitysdk/System/ValueTuple.h"
 
+inline static constexpr unsigned int PNELGBMHFFL_TypeDefinitionIndex = 42221;
+
 	struct alignas(8) PNELGBMHFFL
 	{
 		::System::UInt32 KLOEJIMMPJM; // 0x10

@@ -8,6 +8,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define LOLIACIGHAE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB80BFB0)
 #define LOLIACIGHAE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB80C110)
 
+inline static constexpr unsigned int LOLIACIGHAE_TypeDefinitionIndex = 55036;
+
 	class LOLIACIGHAE
 	{
 	public:

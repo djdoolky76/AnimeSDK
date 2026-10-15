@@ -9,6 +9,8 @@ namespace RPG::GameCore { class MusicRhythmLevelRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MusicRhythmLevelRow_TypeDefinitionIndex = 14261;
+
 	class MusicRhythmLevelRow : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System::Net::Security { class RemoteCertificateValidationCallback; }
 
 namespace Mono::Net::Security::Private
 {
+	inline static constexpr unsigned int CallbackHelpers_TypeDefinitionIndex = 2448;
+
 	class CallbackHelpers : public ::System::Object
 	{
 	public:

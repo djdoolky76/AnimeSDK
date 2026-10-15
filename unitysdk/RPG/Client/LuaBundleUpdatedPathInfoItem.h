@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int LuaBundleUpdatedPathInfoItem_TypeDefinitionIndex = 61234;
+
 	class LuaBundleUpdatedPathInfoItem : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@
 #define FBOEHKGOHDI_CCTOR_OFFSET UNITYSDK_OFFSET(0x156ABD80)
 #define FBOEHKGOHDI_JMFGJFOAJFG_OFFSET UNITYSDK_OFFSET(0x156ABDD0)
 
+inline static constexpr unsigned int FBOEHKGOHDI_TypeDefinitionIndex = 53782;
+
 	class FBOEHKGOHDI : public ::System::Object
 	{
 	public:

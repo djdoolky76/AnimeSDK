@@ -12,6 +12,8 @@ namespace System { class Action; }
 
 namespace Cysharp::Threading::Tasks
 {
+	inline static constexpr unsigned int SwitchToMainThreadAwaitable_Awaiter_TypeDefinitionIndex = 38364;
+
 	struct alignas(4) SwitchToMainThreadAwaitable_Awaiter
 	{
 		::Cysharp::Threading::Tasks::PlayerLoopTiming playerLoopTiming; // 0x10

@@ -20,6 +20,8 @@ namespace System::Net::Http::Headers { class RangeItemHeaderValue; }
 
 namespace System::Net::Http::Headers
 {
+	inline static constexpr unsigned int RangeHeaderValue_TypeDefinitionIndex = 3823;
+
 	class RangeHeaderValue : public ::System::Object
 	{
 	public:

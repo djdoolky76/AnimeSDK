@@ -36,6 +36,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int PuzzleBoardBase_TypeDefinitionIndex = 78782;
+
 	class PuzzleBoardBase : public ::UnityEngine::MonoBehaviour
 	{
 	public:

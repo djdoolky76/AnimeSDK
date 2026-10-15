@@ -9,6 +9,8 @@ namespace System::Collections::Generic { class KeyValuePair; }
 #define FCLPHDEONPI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C6155F0)
 #define FCLPHDEONPI___C__ISDICECONTENTHASNOFAKIND_B__7_0_OFFSET UNITYSDK_OFFSET(0x1C615600)
 
+inline static constexpr unsigned int FCLPHDEONPI___c_TypeDefinitionIndex = 36283;
+
 	class FCLPHDEONPI___c : public ::System::Object
 	{
 	public:

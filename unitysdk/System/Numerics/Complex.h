@@ -16,6 +16,8 @@ namespace System { class String; }
 
 namespace System::Numerics
 {
+	inline static constexpr unsigned int Complex_TypeDefinitionIndex = 3842;
+
 	struct alignas(4) Complex
 	{
 		::System::Double m_real; // 0x10

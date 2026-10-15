@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdventureSetAttackTargetWithoutBattle_TypeDefinitionIndex = 21763;
+
 	class AdventureSetAttackTargetWithoutBattle : public ::RPG::GameCore::TaskConfig
 	{
 	public:

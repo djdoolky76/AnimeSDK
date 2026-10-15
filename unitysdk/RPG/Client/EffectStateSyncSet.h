@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int EffectStateSyncSet_TypeDefinitionIndex = 69881;
+
 	class EffectStateSyncSet : public ::System::Object
 	{
 	public:

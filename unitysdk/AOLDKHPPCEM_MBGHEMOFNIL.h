@@ -33,6 +33,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define AOLDKHPPCEM_MBGHEMOFNIL_LNGLHJBBKCD_3_OFFSET UNITYSDK_OFFSET(0x158B5310)
 #define AOLDKHPPCEM_MBGHEMOFNIL_LNGLHJBBKCD_OFFSET UNITYSDK_OFFSET(0x158B2850)
 
+inline static constexpr unsigned int AOLDKHPPCEM_MBGHEMOFNIL_TypeDefinitionIndex = 69209;
+
 	class AOLDKHPPCEM_MBGHEMOFNIL : public ::System::Object
 	{
 	public:

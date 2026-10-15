@@ -17,6 +17,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int BindTapTap_TypeDefinitionIndex = 9508;
+
 	class BindTapTap : public ::MiHoYo::SDK::UIElement
 	{
 	public:

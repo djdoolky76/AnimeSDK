@@ -6,6 +6,8 @@
 #define MDOBEOFHBMK_GET_CLOSEWINDOW_OFFSET UNITYSDK_OFFSET(0xB8B3CC0)
 #define MDOBEOFHBMK_SET_CLOSEWINDOW_OFFSET UNITYSDK_OFFSET(0xB8B3CD0)
 
+inline static constexpr unsigned int MDOBEOFHBMK_TypeDefinitionIndex = 80277;
+
 	class MDOBEOFHBMK : public ::System::Object
 	{
 	public:

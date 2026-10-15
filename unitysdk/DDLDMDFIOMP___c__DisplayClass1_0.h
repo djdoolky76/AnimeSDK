@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define DDLDMDFIOMP___C__DISPLAYCLASS1_0__ONTASKBEGIN_B__1_OFFSET UNITYSDK_OFFSET(0xE4E6300)
 #define DDLDMDFIOMP___C__DISPLAYCLASS1_0__ONTASKBEGIN_G__ONSCENEENTERED_0_OFFSET UNITYSDK_OFFSET(0xE4E6230)
 
+inline static constexpr unsigned int DDLDMDFIOMP___c__DisplayClass1_0_TypeDefinitionIndex = 57940;
+
 	class DDLDMDFIOMP___c__DisplayClass1_0 : public ::System::Object
 	{
 	public:

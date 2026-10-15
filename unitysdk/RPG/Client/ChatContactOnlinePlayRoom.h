@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChatContactOnlinePlayRoom_TypeDefinitionIndex = 63214;
+
 	class ChatContactOnlinePlayRoom : public ::RPG::Client::ChatContactData
 	{
 	public:

@@ -7,6 +7,8 @@ namespace RPG::GameCore { class FiveDimSimpleHitBoxConfig; }
 #define LIBDFHNOMPJ_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C90ED60)
 #define LIBDFHNOMPJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1C90EDE0)
 
+inline static constexpr unsigned int LIBDFHNOMPJ_TypeDefinitionIndex = 43521;
+
 	class LIBDFHNOMPJ : public ::System::Object
 	{
 	public:

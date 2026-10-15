@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PhotoGraphHideEntityConfig_TypeDefinitionIndex = 21628;
+
 	class PhotoGraphHideEntityConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

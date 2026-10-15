@@ -13,6 +13,8 @@ namespace RPG::GameCore { class PerformanceRollingSubtitlesScrollEffectParam; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PerformanceRollingSubtitlesPage_TypeDefinitionIndex = 24411;
+
 	class PerformanceRollingSubtitlesPage : public ::RPG::GameCore::JsonConfig
 	{
 	public:

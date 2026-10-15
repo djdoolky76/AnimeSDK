@@ -4,6 +4,8 @@
 
 #define DFFJLIFMENE_CTOR_OFFSET UNITYSDK_OFFSET(0xE827430)
 
+inline static constexpr unsigned int DFFJLIFMENE_TypeDefinitionIndex = 64794;
+
 	class DFFJLIFMENE : public ::System::Object
 	{
 	public:

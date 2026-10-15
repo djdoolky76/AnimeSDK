@@ -12,6 +12,8 @@ namespace System::IO { class BinaryWriter; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int RPUdpMessageHello_TypeDefinitionIndex = 37917;
+
 	class RPUdpMessageHello : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace Newtonsoft::Json::Utilities
 {
+	inline static constexpr unsigned int StringUtils___c__DisplayClass15_0_1_TypeDefinitionIndex = 9684;
+
 	template <typename T>
 	class StringUtils___c__DisplayClass15_0_1 : public ::System::Object
 	{

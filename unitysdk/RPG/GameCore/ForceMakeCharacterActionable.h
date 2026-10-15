@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ForceMakeCharacterActionable_TypeDefinitionIndex = 23282;
+
 	class ForceMakeCharacterActionable : public ::RPG::GameCore::TaskConfig
 	{
 	public:

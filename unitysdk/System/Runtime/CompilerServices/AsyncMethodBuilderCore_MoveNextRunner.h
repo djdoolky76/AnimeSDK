@@ -12,6 +12,8 @@ namespace System::Threading { class ExecutionContext; }
 
 namespace System::Runtime::CompilerServices
 {
+	inline static constexpr unsigned int AsyncMethodBuilderCore_MoveNextRunner_TypeDefinitionIndex = 1354;
+
 	class AsyncMethodBuilderCore_MoveNextRunner : public ::System::Object
 	{
 	public:

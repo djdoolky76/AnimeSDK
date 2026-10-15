@@ -10,6 +10,8 @@ namespace RPG::Client { class MatchThreeBoard; }
 #define LOGMILCPGDC_LGAOOKPFIMF_OFFSET UNITYSDK_OFFSET(0xB802A30)
 #define LOGMILCPGDC_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0xB802970)
 
+inline static constexpr unsigned int LOGMILCPGDC_TypeDefinitionIndex = 65884;
+
 	class LOGMILCPGDC : public ::FNIDIOCNBBI
 	{
 	public:

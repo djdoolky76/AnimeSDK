@@ -6,6 +6,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int UnityEngineModuleAssembly_TypeDefinitionIndex = 3716;
+
 	class UnityEngineModuleAssembly : public ::System::Attribute
 	{
 	public:

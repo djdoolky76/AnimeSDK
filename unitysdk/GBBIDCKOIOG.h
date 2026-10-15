@@ -41,6 +41,8 @@ namespace UnityEngine::UI { class Image; }
 #define GBBIDCKOIOG_PMOEIJJGNHE_OFFSET UNITYSDK_OFFSET(0x15949C30)
 #define GBBIDCKOIOG__ONBIND_OFFSET UNITYSDK_OFFSET(0x15947A70)
 
+inline static constexpr unsigned int GBBIDCKOIOG_TypeDefinitionIndex = 72014;
+
 	class GBBIDCKOIOG : public ::CLAADCBPCHM
 	{
 	public:

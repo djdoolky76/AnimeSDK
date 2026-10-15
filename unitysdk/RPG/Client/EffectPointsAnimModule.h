@@ -9,6 +9,8 @@ class CEFCMPKCMAF;
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int EffectPointsAnimModule_TypeDefinitionIndex = 70627;
+
 	class EffectPointsAnimModule : public ::System::Object
 	{
 	public:

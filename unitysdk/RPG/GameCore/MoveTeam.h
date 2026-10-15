@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MoveTeam_TypeDefinitionIndex = 22637;
+
 	class MoveTeam : public ::RPG::GameCore::TaskConfig
 	{
 	public:

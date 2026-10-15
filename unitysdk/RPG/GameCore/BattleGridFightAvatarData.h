@@ -27,6 +27,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BattleGridFightAvatarData_TypeDefinitionIndex = 56291;
+
 	class BattleGridFightAvatarData : public ::System::Object
 	{
 	public:

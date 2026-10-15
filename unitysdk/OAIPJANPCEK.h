@@ -29,6 +29,8 @@ namespace RPG::Client { class ChenLingFesGameInstance; }
 #define OAIPJANPCEK_OINBDMGFFJL_OFFSET UNITYSDK_OFFSET(0xBD26C20)
 #define OAIPJANPCEK_SET_ISGAMEPAUSE_OFFSET UNITYSDK_OFFSET(0xBD272A0)
 
+inline static constexpr unsigned int OAIPJANPCEK_TypeDefinitionIndex = 77761;
+
 	class OAIPJANPCEK
 	{
 	public:

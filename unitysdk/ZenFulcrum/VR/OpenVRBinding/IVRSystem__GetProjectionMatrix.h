@@ -14,6 +14,8 @@ namespace System { class Object; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int IVRSystem__GetProjectionMatrix_TypeDefinitionIndex = 38891;
+
 	class IVRSystem__GetProjectionMatrix : public ::System::MulticastDelegate
 	{
 	public:

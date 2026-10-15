@@ -9,6 +9,8 @@ namespace UnityEngine { class Object; }
 #define NPJKDMFBDFG___C__DISPLAYCLASS62_1_CTOR_OFFSET UNITYSDK_OFFSET(0xBD08230)
 #define NPJKDMFBDFG___C__DISPLAYCLASS62_1__PRELOADPROPERTYRESOURCES1_B__3_OFFSET UNITYSDK_OFFSET(0xBD0C480)
 
+inline static constexpr unsigned int NPJKDMFBDFG___c__DisplayClass62_1_TypeDefinitionIndex = 49435;
+
 	template <typename T>
 	class NPJKDMFBDFG___c__DisplayClass62_1 : public ::System::Object
 	{

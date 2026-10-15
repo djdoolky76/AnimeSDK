@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ActivityFeverTimeQuestRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ActivityFeverTimeQuestRow_TypeDefinitionIndex = 11589;
+
 	class ActivityFeverTimeQuestRow : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ class HCLPKMIIANI;
 #define LINOOHMGAHE_LMCEDCHJKFF_OFFSET UNITYSDK_OFFSET(0xB6DB0E0)
 #define LINOOHMGAHE_SET_LITTLEGAMEINSTANCE_OFFSET UNITYSDK_OFFSET(0xB6DB190)
 
+inline static constexpr unsigned int LINOOHMGAHE_TypeDefinitionIndex = 57302;
+
 	class LINOOHMGAHE : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimRemoveGlobalTimeScaleAction_TypeDefinitionIndex = 18670;
+
 	class FiveDimRemoveGlobalTimeScaleAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
 	public:

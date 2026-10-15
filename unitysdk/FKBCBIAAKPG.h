@@ -6,6 +6,8 @@ class MBAHJMANGHN;
 #define FKBCBIAAKPG_CTOR_OFFSET UNITYSDK_OFFSET(0x157E5F30)
 #define FKBCBIAAKPG_JJNFOPNOPBF_OFFSET UNITYSDK_OFFSET(0x157E5C80)
 
+inline static constexpr unsigned int FKBCBIAAKPG_TypeDefinitionIndex = 79333;
+
 	class FKBCBIAAKPG : public ::System::Object
 	{
 	public:

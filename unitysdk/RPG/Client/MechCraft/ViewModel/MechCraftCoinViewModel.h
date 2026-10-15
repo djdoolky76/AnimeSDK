@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::Client::MechCraft::ViewModel
 {
+	inline static constexpr unsigned int MechCraftCoinViewModel_TypeDefinitionIndex = 79419;
+
 	class MechCraftCoinViewModel : public ::Sofa::Core::ObservableObject
 	{
 	public:

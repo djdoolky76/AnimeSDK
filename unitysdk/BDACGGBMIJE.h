@@ -25,6 +25,8 @@ namespace System { class String; }
 #define BDACGGBMIJE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E913C10)
 #define BDACGGBMIJE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E913C70)
 
+inline static constexpr unsigned int BDACGGBMIJE_TypeDefinitionIndex = 34495;
+
 	class BDACGGBMIJE : public ::System::Object
 	{
 	public:

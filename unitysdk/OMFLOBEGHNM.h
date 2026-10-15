@@ -29,6 +29,8 @@ namespace System { class String; }
 #define OMFLOBEGHNM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DEB3DB0)
 #define OMFLOBEGHNM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DEB3E10)
 
+inline static constexpr unsigned int OMFLOBEGHNM_TypeDefinitionIndex = 28841;
+
 	class OMFLOBEGHNM : public ::System::Object
 	{
 	public:

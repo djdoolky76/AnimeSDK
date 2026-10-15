@@ -4,6 +4,8 @@
 #define NKKMILCOAJF_CTOR_OFFSET UNITYSDK_OFFSET(0x111F0)
 #define NKKMILCOAJF_LDAMHBBILAD_OFFSET UNITYSDK_OFFSET(0x21970)
 
+inline static constexpr unsigned int NKKMILCOAJF_TypeDefinitionIndex = 73810;
+
 	struct alignas(4) NKKMILCOAJF
 	{
 		::System::Int32 MBCACNKDMFG; // 0x10

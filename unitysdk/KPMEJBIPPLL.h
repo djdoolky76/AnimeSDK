@@ -9,6 +9,8 @@ namespace RPG::Client { class SwordTrainingGameInstance; }
 #define KPMEJBIPPLL_FFKBFPKEPEN_OFFSET UNITYSDK_OFFSET(0xB5C16B0)
 #define KPMEJBIPPLL_JKOKFFCBJLJ_OFFSET UNITYSDK_OFFSET(0xB5C1660)
 
+inline static constexpr unsigned int KPMEJBIPPLL_TypeDefinitionIndex = 75049;
+
 	class KPMEJBIPPLL : public ::NBEKHGCNJFD
 	{
 	public:

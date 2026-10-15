@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define CPBEHIKPGJA_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC67090)
 #define CPBEHIKPGJA_DOCLGGFJGNB_OFFSET UNITYSDK_OFFSET(0x1EC670A0)
 
+inline static constexpr unsigned int CPBEHIKPGJA_TypeDefinitionIndex = 44284;
+
 	class CPBEHIKPGJA : public ::System::Object
 	{
 	public:

@@ -17,6 +17,8 @@ namespace UnityEngine::UI { class Text; }
 #define JBHJMGCPBNN__ONBIND_OFFSET UNITYSDK_OFFSET(0x1656F510)
 #define JBHJMGCPBNN___ONBIND_B__1_0_OFFSET UNITYSDK_OFFSET(0x1656FBC0)
 
+inline static constexpr unsigned int JBHJMGCPBNN_TypeDefinitionIndex = 72278;
+
 	class JBHJMGCPBNN : public ::FMPCODLIOLG
 	{
 	public:

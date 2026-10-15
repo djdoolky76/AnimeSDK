@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::PluginUI
 {
+	inline static constexpr unsigned int MiHoYoSDKBridgeUIListItem_TypeDefinitionIndex = 46790;
+
 	class MiHoYoSDKBridgeUIListItem : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@ namespace RPG::Client { class RogueKeywordInfo; }
 
 #define PLDEEFFDJFD_CTOR_OFFSET UNITYSDK_OFFSET(0xC2ED490)
 
+inline static constexpr unsigned int PLDEEFFDJFD_TypeDefinitionIndex = 67088;
+
 	class PLDEEFFDJFD : public ::EBIMENNAEIE
 	{
 	public:

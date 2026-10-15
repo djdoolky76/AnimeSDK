@@ -10,6 +10,8 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int EntityTimelineControlNode_TypeDefinitionIndex = 63768;
+
 	class EntityTimelineControlNode : public ::System::Object
 	{
 	public:

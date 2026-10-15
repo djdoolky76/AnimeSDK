@@ -6,6 +6,8 @@
 
 namespace RPGTools::Timeline::Emotion
 {
+	inline static constexpr unsigned int BaseEmoTrack_TypeDefinitionIndex = 48717;
+
 	class BaseEmoTrack : public ::RPGTools::Timeline::CustomUniqueNameTrack
 	{
 	public:

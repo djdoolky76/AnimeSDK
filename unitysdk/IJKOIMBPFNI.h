@@ -6,6 +6,8 @@
 
 #define IJKOIMBPFNI_EXECUTE_OFFSET UNITYSDK_OFFSET(0x2E81F10)
 
+inline static constexpr unsigned int IJKOIMBPFNI_TypeDefinitionIndex = 73727;
+
 	struct alignas(8) IJKOIMBPFNI
 	{
 		::Unity::Collections::NativeArray_1<::MAIGDLAGBLF> AEDLPMMANHD; // 0x10

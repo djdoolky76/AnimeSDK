@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 
 #define PPGADCPGELH_CTOR_OFFSET UNITYSDK_OFFSET(0xC381B50)
 
+inline static constexpr unsigned int PPGADCPGELH_TypeDefinitionIndex = 55445;
+
 	class PPGADCPGELH : public ::AMGELDFGKEL
 	{
 	public:

@@ -13,6 +13,8 @@ namespace UnityEngine { class RPGPointCloudGrassBlockData; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int RPGPointCloudGrassBlock_TypeDefinitionIndex = 4285;
+
 	class RPGPointCloudGrassBlock : public ::UnityEngine::Behaviour
 	{
 	public:

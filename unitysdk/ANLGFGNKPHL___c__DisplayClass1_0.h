@@ -9,6 +9,8 @@ namespace System { class Exception; }
 #define ANLGFGNKPHL___C__DISPLAYCLASS1_0__CREATE_B__0_OFFSET UNITYSDK_OFFSET(0x1589ACF0)
 #define ANLGFGNKPHL___C__DISPLAYCLASS1_0__CREATE_B__1_OFFSET UNITYSDK_OFFSET(0x1589AD10)
 
+inline static constexpr unsigned int ANLGFGNKPHL___c__DisplayClass1_0_TypeDefinitionIndex = 78396;
+
 	class ANLGFGNKPHL___c__DisplayClass1_0 : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace RPG::GameCore { class TurnBasedGameMode; }
 #define LINMBFKJIDC_KIGBILLGNOH_OFFSET UNITYSDK_OFFSET(0xB6DAFD0)
 #define LINMBFKJIDC_TICK_OFFSET UNITYSDK_OFFSET(0xB6DB080)
 
+inline static constexpr unsigned int LINMBFKJIDC_TypeDefinitionIndex = 56270;
+
 	class LINMBFKJIDC : public ::HBPNHCICJGF
 	{
 	public:

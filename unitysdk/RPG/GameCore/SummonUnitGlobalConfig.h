@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SummonUnitGlobalConfig_TypeDefinitionIndex = 17609;
+
 	class SummonUnitGlobalConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

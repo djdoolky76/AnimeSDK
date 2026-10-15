@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueActAddStyleLevelUpRequiredExpFactorConfig; 
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueActAddStyleLevelUpRequiredExpFactorConfig_TypeDefinitionIndex = 19784;
+
 	class RogueActAddStyleLevelUpRequiredExpFactorConfig : public ::RPG::GameCore::RogueActionConfigBase
 	{
 	public:

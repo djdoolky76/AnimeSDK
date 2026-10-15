@@ -23,6 +23,8 @@ namespace RPG::Client { class GridFightTrait; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightSettleDamageStatisticInfo_TypeDefinitionIndex = 65206;
+
 	class GridFightSettleDamageStatisticInfo : public ::System::Object
 	{
 	public:

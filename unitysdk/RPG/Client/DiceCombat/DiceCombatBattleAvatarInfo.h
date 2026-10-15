@@ -60,6 +60,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::DiceCombat
 {
+	inline static constexpr unsigned int DiceCombatBattleAvatarInfo_TypeDefinitionIndex = 76030;
+
 	class DiceCombatBattleAvatarInfo : public ::System::Object
 	{
 	public:

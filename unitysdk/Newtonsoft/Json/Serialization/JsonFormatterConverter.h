@@ -18,6 +18,8 @@ namespace System { class Type; }
 
 namespace Newtonsoft::Json::Serialization
 {
+	inline static constexpr unsigned int JsonFormatterConverter_TypeDefinitionIndex = 9696;
+
 	class JsonFormatterConverter : public ::System::Object
 	{
 	public:

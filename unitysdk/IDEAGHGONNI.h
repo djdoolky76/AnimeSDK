@@ -28,6 +28,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define IDEAGHGONNI_LFLHLHCEMPE_OFFSET UNITYSDK_OFFSET(0x15EB7150)
 #define IDEAGHGONNI_MIBPFFJMONL_OFFSET UNITYSDK_OFFSET(0x15EB6D90)
 
+inline static constexpr unsigned int IDEAGHGONNI_TypeDefinitionIndex = 61222;
+
 	class IDEAGHGONNI : public ::System::Object
 	{
 	public:

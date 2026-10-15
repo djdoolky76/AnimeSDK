@@ -22,6 +22,8 @@ namespace RPG::GameCore { class LevelEntityElationEchoPointChange; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelEntityElationEchoPointChange_TypeDefinitionIndex = 56760;
+
 	class LevelEntityElationEchoPointChange : public ::CMPGEAFHHDC
 	{
 	public:

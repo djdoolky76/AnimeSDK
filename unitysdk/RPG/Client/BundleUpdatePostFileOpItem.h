@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BundleUpdatePostFileOpItem_TypeDefinitionIndex = 61225;
+
 	class BundleUpdatePostFileOpItem : public ::System::Object
 	{
 	public:

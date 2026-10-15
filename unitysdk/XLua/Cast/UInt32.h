@@ -5,6 +5,8 @@
 
 namespace XLua::Cast
 {
+	inline static constexpr unsigned int UInt32_TypeDefinitionIndex = 50298;
+
 	class UInt32
 	{
 	public:

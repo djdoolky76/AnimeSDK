@@ -17,6 +17,8 @@ namespace UnityEngine { class Transform; }
 #define AEBAPGAGNAK_LLMMJPDOPIB_OFFSET UNITYSDK_OFFSET(0x1C878AB0)
 #define AEBAPGAGNAK_LMKDKIACLHP_OFFSET UNITYSDK_OFFSET(0x1C878360)
 
+inline static constexpr unsigned int AEBAPGAGNAK_TypeDefinitionIndex = 42630;
+
 	class AEBAPGAGNAK : public ::Entitas::Entity
 	{
 	public:

@@ -15,6 +15,8 @@ namespace RPG::Client::ChenLingGameBoy { class ChenLingGameBoyPuzzleData; }
 #define BMLCCKIPGKK_JGANPEBALDF_OFFSET UNITYSDK_OFFSET(0xBDBE350)
 #define BMLCCKIPGKK_TEARDOWN_OFFSET UNITYSDK_OFFSET(0xBDBE0C0)
 
+inline static constexpr unsigned int BMLCCKIPGKK_TypeDefinitionIndex = 76928;
+
 	class BMLCCKIPGKK : public ::System::Object
 	{
 	public:

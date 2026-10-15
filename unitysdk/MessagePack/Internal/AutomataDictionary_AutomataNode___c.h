@@ -12,6 +12,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace MessagePack::Internal
 {
+	inline static constexpr unsigned int AutomataDictionary_AutomataNode___c_TypeDefinitionIndex = 7283;
+
 	class AutomataDictionary_AutomataNode___c : public ::System::Object
 	{
 	public:

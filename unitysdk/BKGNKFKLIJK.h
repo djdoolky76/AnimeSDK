@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define BKGNKFKLIJK_HIDEJDELEEB_OFFSET UNITYSDK_OFFSET(0x1AE20)
 #define BKGNKFKLIJK_MIBEDELCOED_OFFSET UNITYSDK_OFFSET(0x1ADC0)
 
+inline static constexpr unsigned int BKGNKFKLIJK_TypeDefinitionIndex = 77767;
+
 	struct alignas(8) BKGNKFKLIJK
 	{
 		::System::Collections::Generic::List_1<::System::UInt32>* MONFNEIPPIJ; // 0x10

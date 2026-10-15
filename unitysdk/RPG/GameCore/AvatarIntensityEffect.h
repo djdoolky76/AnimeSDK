@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AvatarIntensityEffect_TypeDefinitionIndex = 22419;
+
 	class AvatarIntensityEffect : public ::RPG::GameCore::TaskConfig
 	{
 	public:

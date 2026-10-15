@@ -48,6 +48,8 @@ namespace System { template <typename T> class Func_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueTournModule___c_TypeDefinitionIndex = 67796;
+
 	class RogueTournModule___c : public ::System::Object
 	{
 	public:

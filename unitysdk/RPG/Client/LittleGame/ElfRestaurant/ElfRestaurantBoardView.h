@@ -12,6 +12,8 @@ namespace RPG::Client::LittleGame::ElfRestaurant { class ElfRestaurantCameraView
 
 namespace RPG::Client::LittleGame::ElfRestaurant
 {
+	inline static constexpr unsigned int ElfRestaurantBoardView_TypeDefinitionIndex = 77276;
+
 	class ElfRestaurantBoardView : public ::RPG::Client::LittleGame::ElfRestaurant::ElfRestaurantView
 	{
 	public:

@@ -9,6 +9,8 @@ namespace RPG::GameCore { class TarotMailGroupRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TarotMailGroupRow_TypeDefinitionIndex = 15246;
+
 	class TarotMailGroupRow : public ::System::Object
 	{
 	public:

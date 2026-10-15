@@ -28,6 +28,8 @@ namespace System { class String; }
 #define BGDHGALEOIK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA717E0)
 #define BGDHGALEOIK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA71840)
 
+inline static constexpr unsigned int BGDHGALEOIK_TypeDefinitionIndex = 33249;
+
 	class BGDHGALEOIK : public ::System::Object
 	{
 	public:

@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int UI3DVirtualCameraComponent_BlendStyle_TypeDefinitionIndex = 57554;
+
 	enum class UI3DVirtualCameraComponent_BlendStyle : ::System::Int32
 	{
 		Cut = 0,

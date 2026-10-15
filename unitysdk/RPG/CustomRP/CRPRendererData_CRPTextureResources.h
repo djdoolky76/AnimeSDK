@@ -7,6 +7,8 @@ namespace UnityEngine { class Texture2D; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int CRPRendererData_CRPTextureResources_TypeDefinitionIndex = 37864;
+
 	class CRPRendererData_CRPTextureResources : public ::System::Object
 	{
 	public:

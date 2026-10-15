@@ -6,6 +6,8 @@
 #define OAEFCEJAING_CTOR_OFFSET UNITYSDK_OFFSET(0x3C30270)
 #define OAEFCEJAING_NPIIEBDOBAE_OFFSET UNITYSDK_OFFSET(0x3C30340)
 
+inline static constexpr unsigned int OAEFCEJAING_TypeDefinitionIndex = 43445;
+
 	struct alignas(4) OAEFCEJAING
 	{
 		::UnityEngine::Vector3 MAFKLIGGIJI; // 0x10

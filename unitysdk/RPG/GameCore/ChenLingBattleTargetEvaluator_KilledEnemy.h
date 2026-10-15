@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ChenLingBattleTargetEvaluator_KilledEnemy; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChenLingBattleTargetEvaluator_KilledEnemy_TypeDefinitionIndex = 15770;
+
 	class ChenLingBattleTargetEvaluator_KilledEnemy : public ::RPG::GameCore::BaseChenLingBattleTargetEvaluator
 	{
 	public:

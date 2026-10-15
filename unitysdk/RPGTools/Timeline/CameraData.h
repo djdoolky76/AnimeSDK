@@ -8,6 +8,8 @@
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int CameraData_TypeDefinitionIndex = 48447;
+
 	class CameraData : public ::System::Object
 	{
 	public:

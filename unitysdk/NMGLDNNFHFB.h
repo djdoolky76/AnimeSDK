@@ -11,6 +11,8 @@ namespace System { class String; }
 #define NMGLDNNFHFB_SET_REPORTMESSAGE_OFFSET UNITYSDK_OFFSET(0xBC83010)
 #define NMGLDNNFHFB_SET_SUCCEED_OFFSET UNITYSDK_OFFSET(0xBC82FD0)
 
+inline static constexpr unsigned int NMGLDNNFHFB_TypeDefinitionIndex = 69396;
+
 	class NMGLDNNFHFB : public ::System::Object
 	{
 	public:

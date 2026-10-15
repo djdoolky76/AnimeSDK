@@ -11,6 +11,8 @@ namespace System { class Object; }
 #define MFOAEOIAFNA_HMOONNAFBJK_OFFSET UNITYSDK_OFFSET(0xB90F850)
 #define MFOAEOIAFNA_IIOIMDJJEDG_OFFSET UNITYSDK_OFFSET(0xB90F9E0)
 
+inline static constexpr unsigned int MFOAEOIAFNA_TypeDefinitionIndex = 75459;
+
 	class MFOAEOIAFNA : public ::System::Object
 	{
 	public:

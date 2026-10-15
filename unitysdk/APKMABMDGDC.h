@@ -46,6 +46,8 @@ namespace UnityEngine { class AnimationCurve; }
 #define APKMABMDGDC_SET_QTEWINDOWUPPERPERCENT_OFFSET UNITYSDK_OFFSET(0x15BACE10)
 #define APKMABMDGDC_SET_SPEEDMULTIPLE_OFFSET UNITYSDK_OFFSET(0x15BACD50)
 
+inline static constexpr unsigned int APKMABMDGDC_TypeDefinitionIndex = 75840;
+
 	class APKMABMDGDC : public ::NFDMOPAMCMA
 	{
 	public:

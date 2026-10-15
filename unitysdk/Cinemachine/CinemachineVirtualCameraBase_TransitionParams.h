@@ -5,6 +5,8 @@ namespace Cinemachine { class CinemachineBrain_VcamActivatedEvent; }
 
 namespace Cinemachine
 {
+	inline static constexpr unsigned int CinemachineVirtualCameraBase_TransitionParams_TypeDefinitionIndex = 39837;
+
 	struct alignas(8) CinemachineVirtualCameraBase_TransitionParams
 	{
 		::Cinemachine::CinemachineVirtualCameraBase_BlendHint m_BlendHint; // 0x10

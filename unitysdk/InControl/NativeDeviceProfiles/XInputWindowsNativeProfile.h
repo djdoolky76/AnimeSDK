@@ -7,6 +7,8 @@
 
 namespace InControl::NativeDeviceProfiles
 {
+	inline static constexpr unsigned int XInputWindowsNativeProfile_TypeDefinitionIndex = 41323;
+
 	class XInputWindowsNativeProfile : public ::InControl::InputDeviceProfile
 	{
 	public:

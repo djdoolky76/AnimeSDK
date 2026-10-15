@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CakeRaceEmojiRow_TypeDefinitionIndex = 11005;
+
 	class CakeRaceEmojiRow : public ::System::Object
 	{
 	public:

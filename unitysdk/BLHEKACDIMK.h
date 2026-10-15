@@ -20,6 +20,8 @@ namespace RPG::Client::Promises { class Promise; }
 #define BLHEKACDIMK_NKNNIDKJKOJ_OFFSET UNITYSDK_OFFSET(0xBA72A30)
 #define BLHEKACDIMK_OPGLAKFNMLD_OFFSET UNITYSDK_OFFSET(0xBA72490)
 
+inline static constexpr unsigned int BLHEKACDIMK_TypeDefinitionIndex = 74714;
+
 	class BLHEKACDIMK : public ::System::Object
 	{
 	public:

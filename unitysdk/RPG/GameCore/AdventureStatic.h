@@ -302,6 +302,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdventureStatic_TypeDefinitionIndex = 59022;
+
 	class AdventureStatic : public ::System::Object
 	{
 	public:

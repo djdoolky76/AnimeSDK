@@ -420,6 +420,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AdventurePhase_TypeDefinitionIndex = 60117;
+
 	class AdventurePhase : public ::RPG::Client::GamePhase
 	{
 	public:

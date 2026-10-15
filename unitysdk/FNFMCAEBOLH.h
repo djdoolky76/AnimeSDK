@@ -29,6 +29,8 @@ namespace System { class String; }
 #define FNFMCAEBOLH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E3EF7B0)
 #define FNFMCAEBOLH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E3EF810)
 
+inline static constexpr unsigned int FNFMCAEBOLH_TypeDefinitionIndex = 25311;
+
 	class FNFMCAEBOLH : public ::System::Object
 	{
 	public:

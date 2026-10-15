@@ -7,6 +7,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define NOBFIICALJM_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0x1C9751B0)
 #define NOBFIICALJM_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0x1C975740)
 
+inline static constexpr unsigned int NOBFIICALJM_TypeDefinitionIndex = 42482;
+
 	class NOBFIICALJM : public ::KIDPCOMKMKJ
 	{
 	public:

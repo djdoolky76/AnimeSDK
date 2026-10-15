@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BundleUpdateProfileId_TypeDefinitionIndex = 61238;
+
 	enum class BundleUpdateProfileId : ::System::Int32
 	{
 		VersionUpdatePhase_Enter = 0,

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightActionAddGlobalHpMaxConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightActionAddGlobalHpMaxConfig_TypeDefinitionIndex = 19296;
+
 	class GridFightActionAddGlobalHpMaxConfig : public ::RPG::GameCore::GridFightActionConfigBase
 	{
 	public:

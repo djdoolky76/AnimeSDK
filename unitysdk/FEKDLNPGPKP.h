@@ -25,6 +25,8 @@ namespace System { class String; }
 #define FEKDLNPGPKP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E368580)
 #define FEKDLNPGPKP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E3685E0)
 
+inline static constexpr unsigned int FEKDLNPGPKP_TypeDefinitionIndex = 27857;
+
 	class FEKDLNPGPKP : public ::System::Object
 	{
 	public:

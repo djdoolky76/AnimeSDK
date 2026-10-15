@@ -3,6 +3,8 @@
 
 namespace Microsoft::Win32
 {
+	inline static constexpr unsigned int UnsafeNativeMethods_ManifestEtw_TRACE_PROVIDER_INSTANCE_INFO_TypeDefinitionIndex = 99;
+
 	struct alignas(4) UnsafeNativeMethods_ManifestEtw_TRACE_PROVIDER_INSTANCE_INFO
 	{
 		::System::Int32 NextOffset; // 0x10

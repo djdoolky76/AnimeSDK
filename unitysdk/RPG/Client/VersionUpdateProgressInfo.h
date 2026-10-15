@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int VersionUpdateProgressInfo_TypeDefinitionIndex = 35338;
+
 	class VersionUpdateProgressInfo : public ::System::Object
 	{
 	public:

@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int PCHGEBMKBDD_TypeDefinitionIndex = 26051;
+
 	enum class PCHGEBMKBDD : ::System::Int32
 	{
 		NLCDGIPGFDJ = 0,

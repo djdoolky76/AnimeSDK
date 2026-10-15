@@ -32,6 +32,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define PDDKPMPNFPG_LIMGNIKGJJH_OFFSET UNITYSDK_OFFSET(0xC00FCB0)
 #define PDDKPMPNFPG_TICK_OFFSET UNITYSDK_OFFSET(0xC010C60)
 
+inline static constexpr unsigned int PDDKPMPNFPG_TypeDefinitionIndex = 78346;
+
 	class PDDKPMPNFPG : public ::System::Object
 	{
 	public:

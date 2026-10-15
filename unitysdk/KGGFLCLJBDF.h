@@ -36,6 +36,8 @@ namespace System { class Object; }
 #define KGGFLCLJBDF___PROMISEFULLKEEPTIMEOUT_B__19_0_OFFSET UNITYSDK_OFFSET(0xB3E0250)
 #define KGGFLCLJBDF___STARTFULLWITHTEXT_B__14_0_OFFSET UNITYSDK_OFFSET(0xB3E0130)
 
+inline static constexpr unsigned int KGGFLCLJBDF_TypeDefinitionIndex = 58282;
+
 	class KGGFLCLJBDF : public ::GELIALJDFBL
 	{
 	public:

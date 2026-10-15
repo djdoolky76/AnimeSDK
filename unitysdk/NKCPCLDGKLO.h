@@ -14,6 +14,8 @@ namespace RPG::GameCore { class TriggerLoopScene; }
 #define NKCPCLDGKLO_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBC31100)
 #define NKCPCLDGKLO_TICK_OFFSET UNITYSDK_OFFSET(0xBC31150)
 
+inline static constexpr unsigned int NKCPCLDGKLO_TypeDefinitionIndex = 58791;
+
 	class NKCPCLDGKLO : public ::GELIALJDFBL
 	{
 	public:

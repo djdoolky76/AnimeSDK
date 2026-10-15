@@ -51,6 +51,8 @@ namespace System::Text { class StringBuilder; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int WaterLevelBoxman_TypeDefinitionIndex = 78915;
+
 	class WaterLevelBoxman : public ::UnityEngine::MonoBehaviour
 	{
 	public:

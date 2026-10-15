@@ -6,6 +6,8 @@ namespace System { class Action; }
 
 #define LOEGHBCPHJP_CTOR_OFFSET UNITYSDK_OFFSET(0xB7FE6A0)
 
+inline static constexpr unsigned int LOEGHBCPHJP_TypeDefinitionIndex = 72121;
+
 	class LOEGHBCPHJP : public ::System::Object
 	{
 	public:

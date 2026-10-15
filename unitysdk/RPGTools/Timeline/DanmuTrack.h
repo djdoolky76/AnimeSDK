@@ -6,6 +6,8 @@
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int DanmuTrack_TypeDefinitionIndex = 48063;
+
 	class DanmuTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
 	public:

@@ -27,6 +27,8 @@ namespace System { class String; }
 #define DLDOBEMCFFA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E1E0ED0)
 #define DLDOBEMCFFA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E1E0F30)
 
+inline static constexpr unsigned int DLDOBEMCFFA_TypeDefinitionIndex = 32621;
+
 	class DLDOBEMCFFA : public ::System::Object
 	{
 	public:

@@ -13,6 +13,8 @@ namespace RPG::GameCore { class ModifyAddModifierBindValue; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ModifyAddModifierBindValue_TypeDefinitionIndex = 23707;
+
 	class ModifyAddModifierBindValue : public ::RPG::GameCore::TaskConfig
 	{
 	public:

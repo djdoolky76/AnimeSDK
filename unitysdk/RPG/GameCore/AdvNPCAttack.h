@@ -10,6 +10,8 @@ namespace RPG::GameCore { class AdvNPCAttack; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvNPCAttack_TypeDefinitionIndex = 19983;
+
 	class AdvNPCAttack : public ::RPG::GameCore::TaskConfig
 	{
 	public:

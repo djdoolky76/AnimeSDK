@@ -4,6 +4,8 @@
 
 #define CDMKHKIIHNF_CTOR_OFFSET UNITYSDK_OFFSET(0xC76D750)
 
+inline static constexpr unsigned int CDMKHKIIHNF_TypeDefinitionIndex = 48168;
+
 	class CDMKHKIIHNF : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

@@ -5,6 +5,8 @@ namespace System { class String; }
 
 #define FNBEJHMDNOG_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA714C0)
 
+inline static constexpr unsigned int FNBEJHMDNOG_TypeDefinitionIndex = 41993;
+
 	class FNBEJHMDNOG : public ::System::Object
 	{
 	public:

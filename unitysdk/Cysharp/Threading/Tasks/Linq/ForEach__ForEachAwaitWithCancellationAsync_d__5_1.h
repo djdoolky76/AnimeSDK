@@ -11,6 +11,8 @@ namespace System { template <typename T1, typename T2, typename T3, typename T4>
 
 namespace Cysharp::Threading::Tasks::Linq
 {
+	inline static constexpr unsigned int ForEach__ForEachAwaitWithCancellationAsync_d__5_1_TypeDefinitionIndex = 45371;
+
 	template <typename T>
 	struct alignas(8) ForEach__ForEachAwaitWithCancellationAsync_d__5_1
 	{

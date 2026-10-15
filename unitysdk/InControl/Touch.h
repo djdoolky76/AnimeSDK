@@ -16,6 +16,8 @@
 
 namespace InControl
 {
+	inline static constexpr unsigned int Touch_TypeDefinitionIndex = 40881;
+
 	class Touch : public ::System::Object
 	{
 	public:

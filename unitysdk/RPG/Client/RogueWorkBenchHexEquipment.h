@@ -22,6 +22,8 @@ namespace RPG::Client { class RogueWorkBenchHexEquipment; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueWorkBenchHexEquipment_TypeDefinitionIndex = 67357;
+
 	class RogueWorkBenchHexEquipment : public ::System::Object
 	{
 	public:

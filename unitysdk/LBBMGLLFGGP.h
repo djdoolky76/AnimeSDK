@@ -9,6 +9,8 @@ class OFAKEFLLHNP;
 #define LBBMGLLFGGP_MEDLNGKACMG_OFFSET UNITYSDK_OFFSET(0xB5EF280)
 #define LBBMGLLFGGP_PKADDEPKJFN_OFFSET UNITYSDK_OFFSET(0xB5EF1F0)
 
+inline static constexpr unsigned int LBBMGLLFGGP_TypeDefinitionIndex = 62531;
+
 	class LBBMGLLFGGP : public ::System::Object
 	{
 	public:

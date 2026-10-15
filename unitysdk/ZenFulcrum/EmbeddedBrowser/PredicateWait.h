@@ -9,6 +9,8 @@ namespace ZenFulcrum::EmbeddedBrowser { class IPendingPromise; }
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
+	inline static constexpr unsigned int PredicateWait_TypeDefinitionIndex = 39534;
+
 	class PredicateWait : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace UnityEngine { class IntegratedSubsystem; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int Internal_SubsystemInstances_TypeDefinitionIndex = 5828;
+
 	class Internal_SubsystemInstances : public ::System::Object
 	{
 	public:

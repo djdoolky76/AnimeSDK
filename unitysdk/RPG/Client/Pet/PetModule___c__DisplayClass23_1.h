@@ -8,6 +8,8 @@ namespace System { class Object; }
 
 namespace RPG::Client::Pet
 {
+	inline static constexpr unsigned int PetModule___c__DisplayClass23_1_TypeDefinitionIndex = 75694;
+
 	template <typename T>
 	class PetModule___c__DisplayClass23_1 : public ::System::Object
 	{

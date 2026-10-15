@@ -5,6 +5,8 @@ namespace System { class String; }
 
 #define AKAMFKBFIHP_CTOR_OFFSET UNITYSDK_OFFSET(0x12CC8C10)
 
+inline static constexpr unsigned int AKAMFKBFIHP_TypeDefinitionIndex = 57189;
+
 	class AKAMFKBFIHP : public ::System::Object
 	{
 	public:

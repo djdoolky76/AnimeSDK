@@ -7,6 +7,8 @@
 
 namespace TMPro
 {
+	inline static constexpr unsigned int VertexGradient_TypeDefinitionIndex = 44681;
+
 	struct alignas(4) VertexGradient
 	{
 		::UnityEngine::Color topLeft; // 0x10

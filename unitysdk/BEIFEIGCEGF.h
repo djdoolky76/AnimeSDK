@@ -9,6 +9,8 @@ class FCOEMCEDLNL;
 #define BEIFEIGCEGF_CTOR_OFFSET UNITYSDK_OFFSET(0x1CD01780)
 #define BEIFEIGCEGF_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CD01560)
 
+inline static constexpr unsigned int BEIFEIGCEGF_TypeDefinitionIndex = 11293;
+
 	class BEIFEIGCEGF : public ::System::Object
 	{
 	public:

@@ -5,6 +5,8 @@
 
 #define EGCIGDIGFFG_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA50310)
 
+inline static constexpr unsigned int EGCIGDIGFFG_TypeDefinitionIndex = 43373;
+
 	class EGCIGDIGFFG : public ::System::Object
 	{
 	public:

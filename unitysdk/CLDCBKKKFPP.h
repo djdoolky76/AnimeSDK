@@ -25,6 +25,8 @@ namespace System { class Object; }
 #define CLDCBKKKFPP_PGCPAIFACPP_OFFSET UNITYSDK_OFFSET(0xD779D60)
 #define CLDCBKKKFPP___BEGINRESTARTSEQUENCE_B__8_0_OFFSET UNITYSDK_OFFSET(0xD77AAC0)
 
+inline static constexpr unsigned int CLDCBKKKFPP_TypeDefinitionIndex = 81859;
+
 	class CLDCBKKKFPP : public ::System::Object
 	{
 	public:

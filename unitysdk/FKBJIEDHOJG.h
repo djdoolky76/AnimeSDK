@@ -17,6 +17,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define FKBJIEDHOJG_TICK_OFFSET UNITYSDK_OFFSET(0x157E6B20)
 #define FKBJIEDHOJG___SHOWGUIDEDETAILDIALOG_B__5_0_OFFSET UNITYSDK_OFFSET(0x157E6DD0)
 
+inline static constexpr unsigned int FKBJIEDHOJG_TypeDefinitionIndex = 58652;
+
 	class FKBJIEDHOJG : public ::GELIALJDFBL
 	{
 	public:

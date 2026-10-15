@@ -8,6 +8,8 @@ namespace System::Runtime::Serialization::Formatters::Binary { class SerStack; }
 
 namespace System::Runtime::Serialization::Formatters::Binary
 {
+	inline static constexpr unsigned int SerObjectInfoInit_TypeDefinitionIndex = 1184;
+
 	class SerObjectInfoInit : public ::System::Object
 	{
 	public:

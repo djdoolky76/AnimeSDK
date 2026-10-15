@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int OpticalIllusionSetFinalPoint_TypeDefinitionIndex = 22221;
+
 	class OpticalIllusionSetFinalPoint : public ::RPG::GameCore::TaskConfig
 	{
 	public:

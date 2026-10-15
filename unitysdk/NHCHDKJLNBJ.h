@@ -26,6 +26,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define NHCHDKJLNBJ__ENSUREFULLINITIALIZATION_B__10_0_OFFSET UNITYSDK_OFFSET(0xBBBDBA0)
 #define NHCHDKJLNBJ__INITIALIZEDURINGLOGIN_B__8_0_OFFSET UNITYSDK_OFFSET(0xBBBDB70)
 
+inline static constexpr unsigned int NHCHDKJLNBJ_TypeDefinitionIndex = 81472;
+
 	class NHCHDKJLNBJ : public ::System::Object
 	{
 	public:

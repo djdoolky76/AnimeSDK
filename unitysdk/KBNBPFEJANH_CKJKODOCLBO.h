@@ -5,6 +5,8 @@ namespace System { class String; }
 
 #define KBNBPFEJANH_CKJKODOCLBO_CTOR_OFFSET UNITYSDK_OFFSET(0xB321F50)
 
+inline static constexpr unsigned int KBNBPFEJANH_CKJKODOCLBO_TypeDefinitionIndex = 69384;
+
 	class KBNBPFEJANH_CKJKODOCLBO : public ::KBNBPFEJANH_ONEBDJAJMJJ
 	{
 	public:

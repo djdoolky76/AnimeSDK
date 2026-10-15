@@ -10,6 +10,8 @@ namespace RPG::GameCore { class CalculateServerGroupProperty; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CalculateServerGroupProperty_TypeDefinitionIndex = 20729;
+
 	class CalculateServerGroupProperty : public ::RPG::GameCore::TaskConfig
 	{
 	public:

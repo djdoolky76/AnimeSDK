@@ -3,6 +3,8 @@
 
 namespace IniParserEx
 {
+	inline static constexpr unsigned int IniFile_SectionItem_SectionItemType_TypeDefinitionIndex = 3935;
+
 	enum class IniFile_SectionItem_SectionItemType : ::System::Int32
 	{
 		None = 0,

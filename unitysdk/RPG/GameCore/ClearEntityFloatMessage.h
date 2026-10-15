@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ClearEntityFloatMessage_TypeDefinitionIndex = 23214;
+
 	class ClearEntityFloatMessage : public ::RPG::GameCore::TaskConfig
 	{
 	public:

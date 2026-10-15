@@ -6,6 +6,8 @@
 
 namespace System::Net
 {
+	inline static constexpr unsigned int LazyAsyncResult_ThreadContext_TypeDefinitionIndex = 2781;
+
 	class LazyAsyncResult_ThreadContext : public ::System::Object
 	{
 	public:

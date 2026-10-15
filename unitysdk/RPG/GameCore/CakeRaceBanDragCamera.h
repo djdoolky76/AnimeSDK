@@ -10,6 +10,8 @@ namespace RPG::GameCore { class CakeRaceBanDragCamera; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CakeRaceBanDragCamera_TypeDefinitionIndex = 24299;
+
 	class CakeRaceBanDragCamera : public ::RPG::GameCore::TaskConfig
 	{
 	public:

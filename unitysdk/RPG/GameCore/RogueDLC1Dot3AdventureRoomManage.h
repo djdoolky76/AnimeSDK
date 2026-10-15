@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueDLC1Dot3AdventureRoomManage_TypeDefinitionIndex = 22275;
+
 	class RogueDLC1Dot3AdventureRoomManage : public ::RPG::GameCore::TaskConfig
 	{
 	public:

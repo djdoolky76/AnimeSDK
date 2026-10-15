@@ -15,6 +15,8 @@ namespace UnityEngine { class Texture; }
 #define AANBMDMHDLE_HCCKBPDFINA_OFFSET UNITYSDK_OFFSET(0xB0D3430)
 #define AANBMDMHDLE_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xB0D2F90)
 
+inline static constexpr unsigned int AANBMDMHDLE_TypeDefinitionIndex = 49362;
+
 	class AANBMDMHDLE : public ::KHAKCLAJLOB
 	{
 	public:

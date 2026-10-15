@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int ACINIALAFDE_TypeDefinitionIndex = 25272;
+
 	enum class ACINIALAFDE : ::System::Int32
 	{
 		NLCDGIPGFDJ = 0,

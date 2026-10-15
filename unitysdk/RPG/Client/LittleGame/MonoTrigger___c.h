@@ -12,6 +12,8 @@ namespace UnityEngine { class Collider; }
 
 namespace RPG::Client::LittleGame
 {
+	inline static constexpr unsigned int MonoTrigger___c_TypeDefinitionIndex = 76513;
+
 	class MonoTrigger___c : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System { class Object; }
 #define IANPLLDOGBE___C__ONTASKBEGIN_B__1_0_OFFSET UNITYSDK_OFFSET(0x15E222D0)
 #define IANPLLDOGBE___C__ONTASKBEGIN_B__1_1_OFFSET UNITYSDK_OFFSET(0x15E223F0)
 
+inline static constexpr unsigned int IANPLLDOGBE___c_TypeDefinitionIndex = 52779;
+
 	class IANPLLDOGBE___c : public ::System::Object
 	{
 	public:

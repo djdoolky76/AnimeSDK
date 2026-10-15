@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvEntityEnableRootDamper_TypeDefinitionIndex = 21052;
+
 	class AdvEntityEnableRootDamper : public ::RPG::GameCore::TaskConfig
 	{
 	public:

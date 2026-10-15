@@ -10,6 +10,8 @@ namespace MessagePack { class MessagePackSerializerOptions; }
 #define FKFJMAFNHIF_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1C622B20)
 #define FKFJMAFNHIF_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1C622A80)
 
+inline static constexpr unsigned int FKFJMAFNHIF_TypeDefinitionIndex = 37201;
+
 	class FKFJMAFNHIF : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MessageContentGotoBlock_GameToolGotoCommand_TypeDefinitionIndex = 63243;
+
 	class MessageContentGotoBlock_GameToolGotoCommand : public ::System::Object
 	{
 	public:

@@ -3,6 +3,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int ParticleSystemNoiseQuality_TypeDefinitionIndex = 5278;
+
 	enum class ParticleSystemNoiseQuality : ::System::Int32
 	{
 		Low = 0,

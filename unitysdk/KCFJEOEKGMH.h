@@ -9,6 +9,8 @@ namespace RPG::GameCore { class DynamicFloat; }
 #define KCFJEOEKGMH_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D067150)
 #define KCFJEOEKGMH_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D067110)
 
+inline static constexpr unsigned int KCFJEOEKGMH_TypeDefinitionIndex = 20537;
+
 	class KCFJEOEKGMH : public ::RPG::GameCore::TaskConfig
 	{
 	public:

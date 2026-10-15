@@ -40,6 +40,8 @@ namespace UnityEngine { class Transform; }
 #define DHHHCEJHLBO_PPBDMLCBMKK_OFFSET UNITYSDK_OFFSET(0xEBDB980)
 #define DHHHCEJHLBO__ONBIND_OFFSET UNITYSDK_OFFSET(0xEBD9D70)
 
+inline static constexpr unsigned int DHHHCEJHLBO_TypeDefinitionIndex = 71561;
+
 	class DHHHCEJHLBO : public ::FMPCODLIOLG
 	{
 	public:

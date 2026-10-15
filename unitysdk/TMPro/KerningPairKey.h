@@ -5,6 +5,8 @@
 
 namespace TMPro
 {
+	inline static constexpr unsigned int KerningPairKey_TypeDefinitionIndex = 44576;
+
 	struct alignas(4) KerningPairKey
 	{
 		::System::UInt32 ascii_Left; // 0x10

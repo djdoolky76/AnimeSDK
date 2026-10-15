@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace System::Xml::Schema
 {
+	inline static constexpr unsigned int XmlSchema_TypeDefinitionIndex = 2183;
+
 	class XmlSchema : public ::System::Xml::Schema::XmlSchemaObject
 	{
 	public:

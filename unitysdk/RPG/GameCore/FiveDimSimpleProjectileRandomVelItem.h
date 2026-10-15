@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FiveDimSimpleProjectileRandomVelItem; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimSimpleProjectileRandomVelItem_TypeDefinitionIndex = 18588;
+
 	class FiveDimSimpleProjectileRandomVelItem : public ::RPG::GameCore::JsonConfig
 	{
 	public:

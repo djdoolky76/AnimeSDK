@@ -11,6 +11,8 @@ namespace RPG::GameCore { class StartBattleQTE; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StartBattleQTE_TypeDefinitionIndex = 23342;
+
 	class StartBattleQTE : public ::RPG::GameCore::TaskConfig
 	{
 	public:

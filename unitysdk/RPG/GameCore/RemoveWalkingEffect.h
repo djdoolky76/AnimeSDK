@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RemoveWalkingEffect_TypeDefinitionIndex = 22432;
+
 	class RemoveWalkingEffect : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -10,6 +10,8 @@ class JBFGHNLMEDI;
 #define CMHOCFKAPMO_CTOR_OFFSET UNITYSDK_OFFSET(0xDA35640)
 #define CMHOCFKAPMO_OKPLPEELPBC_OFFSET UNITYSDK_OFFSET(0xDA35650)
 
+inline static constexpr unsigned int CMHOCFKAPMO_TypeDefinitionIndex = 76411;
+
 	class CMHOCFKAPMO : public ::HALHKJLBIKJ
 	{
 	public:

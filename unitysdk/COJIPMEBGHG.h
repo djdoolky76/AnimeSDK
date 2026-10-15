@@ -4,6 +4,8 @@
 
 #define COJIPMEBGHG_CTOR_OFFSET UNITYSDK_OFFSET(0xDCB8610)
 
+inline static constexpr unsigned int COJIPMEBGHG_TypeDefinitionIndex = 71163;
+
 	class COJIPMEBGHG : public ::System::Object
 	{
 	public:

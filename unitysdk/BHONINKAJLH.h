@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define BHONINKAJLH_ILGKMKEEACE_OFFSET UNITYSDK_OFFSET(0xB4929E0)
 #define BHONINKAJLH_KCNBAIDPAON_OFFSET UNITYSDK_OFFSET(0xB4928E0)
 
+inline static constexpr unsigned int BHONINKAJLH_TypeDefinitionIndex = 54469;
+
 	class BHONINKAJLH
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System { class String; }
 #define OCCEBMOBBBM_CTOR_OFFSET UNITYSDK_OFFSET(0x1D250FD0)
 #define OCCEBMOBBBM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D250D50)
 
+inline static constexpr unsigned int OCCEBMOBBBM_TypeDefinitionIndex = 14409;
+
 	class OCCEBMOBBBM : public ::System::Object
 	{
 	public:

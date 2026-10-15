@@ -11,6 +11,8 @@ namespace RPG::Client { class ExpeditionBattleRankViewModel; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ExpeditionBattleStarInfoDetailViewModel_TypeDefinitionIndex = 63956;
+
 	class ExpeditionBattleStarInfoDetailViewModel : public ::System::Object
 	{
 	public:

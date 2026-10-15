@@ -9,6 +9,8 @@ namespace RPG::GameCore { class VisitorBehaviorConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int VisitorBehaviorConfigRow_TypeDefinitionIndex = 15367;
+
 	class VisitorBehaviorConfigRow : public ::System::Object
 	{
 	public:

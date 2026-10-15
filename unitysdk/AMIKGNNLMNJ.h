@@ -11,6 +11,8 @@ class OMNJCDDMLHI;
 #define AMIKGNNLMNJ_MIBELCDAKBP_OFFSET UNITYSDK_OFFSET(0x15581CC0)
 #define AMIKGNNLMNJ_OOENOOOHBMJ_OFFSET UNITYSDK_OFFSET(0x15581AC0)
 
+inline static constexpr unsigned int AMIKGNNLMNJ_TypeDefinitionIndex = 77820;
+
 	class AMIKGNNLMNJ : public ::System::Object
 	{
 	public:

@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define PBIPFMHIGHO_LCHLAAJDHHO_OFFSET UNITYSDK_OFFSET(0xBFF0A20)
 #define PBIPFMHIGHO_LLPOJJDPAAC_OFFSET UNITYSDK_OFFSET(0xBFF11E0)
 
+inline static constexpr unsigned int PBIPFMHIGHO_TypeDefinitionIndex = 62832;
+
 	class PBIPFMHIGHO : public ::System::Object
 	{
 	public:

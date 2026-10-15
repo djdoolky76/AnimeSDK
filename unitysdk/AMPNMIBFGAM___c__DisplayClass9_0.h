@@ -8,6 +8,8 @@ namespace RPG::Client::Prop { class ChimeraPreparationStateControllerBase; }
 #define AMPNMIBFGAM___C__DISPLAYCLASS9_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1558F510)
 #define AMPNMIBFGAM___C__DISPLAYCLASS9_0__SWITCHTO_B__0_OFFSET UNITYSDK_OFFSET(0x1558F9D0)
 
+inline static constexpr unsigned int AMPNMIBFGAM___c__DisplayClass9_0_TypeDefinitionIndex = 78473;
+
 	class AMPNMIBFGAM___c__DisplayClass9_0 : public ::System::Object
 	{
 	public:

@@ -5,6 +5,8 @@ namespace System { class String; }
 
 namespace StageBudgetTool
 {
+	inline static constexpr unsigned int VolumeToRoomConnnectivity_TypeDefinitionIndex = 47719;
+
 	struct alignas(8) VolumeToRoomConnnectivity
 	{
 		::System::String* RoomAlias; // 0x10

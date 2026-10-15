@@ -25,6 +25,8 @@ namespace System { class String; }
 #define BBBODOMFJLC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E7BE7B0)
 #define BBBODOMFJLC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E7BE810)
 
+inline static constexpr unsigned int BBBODOMFJLC_TypeDefinitionIndex = 26079;
+
 	class BBBODOMFJLC : public ::System::Object
 	{
 	public:

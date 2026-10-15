@@ -8,6 +8,8 @@ class FCOEMCEDLNL;
 #define AKACCHPPLPG_CTOR_OFFSET UNITYSDK_OFFSET(0x1CCD1A60)
 #define AKACCHPPLPG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CCD17B0)
 
+inline static constexpr unsigned int AKACCHPPLPG_TypeDefinitionIndex = 11761;
+
 	class AKACCHPPLPG : public ::System::Object
 	{
 	public:

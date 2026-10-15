@@ -7,6 +7,8 @@ class LEEEHNMHAAP;
 #define DBICPJPKIIH_CTOR_OFFSET UNITYSDK_OFFSET(0xE227E20)
 #define DBICPJPKIIH_FIADDJLKIGB_OFFSET UNITYSDK_OFFSET(0xE227D90)
 
+inline static constexpr unsigned int DBICPJPKIIH_TypeDefinitionIndex = 72041;
+
 	class DBICPJPKIIH : public ::AGAGNDEHIOI
 	{
 	public:

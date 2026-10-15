@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MapRotationAirlockConfig_TypeDefinitionIndex = 17025;
+
 	class MapRotationAirlockConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -14,6 +14,8 @@ class DHBOGGBEMFF;
 #define STAGEHARMONYLOCALFOGSPHEREINSTANCELINKSLOT_NEKGALPLEOH_OFFSET UNITYSDK_OFFSET(0xE995060)
 #define STAGEHARMONYLOCALFOGSPHEREINSTANCELINKSLOT_PKDEMCONMDA_OFFSET UNITYSDK_OFFSET(0xE994510)
 
+inline static constexpr unsigned int StageHarmonyLocalFogSphereInstanceLinkSlot_TypeDefinitionIndex = 47380;
+
 	class StageHarmonyLocalFogSphereInstanceLinkSlot : public ::StageHarmonyLightModLinkSlot
 	{
 	public:

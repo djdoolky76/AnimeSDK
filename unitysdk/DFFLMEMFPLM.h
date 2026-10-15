@@ -30,6 +30,8 @@ namespace System { class String; }
 #define DFFLMEMFPLM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E1A1790)
 #define DFFLMEMFPLM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E1A17F0)
 
+inline static constexpr unsigned int DFFLMEMFPLM_TypeDefinitionIndex = 27055;
+
 	class DFFLMEMFPLM : public ::System::Object
 	{
 	public:

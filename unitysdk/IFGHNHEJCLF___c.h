@@ -12,6 +12,8 @@ namespace System::Collections::Generic { class KeyValuePair; }
 #define IFGHNHEJCLF___C___CREATEREQUIREINFOS_B__26_0_OFFSET UNITYSDK_OFFSET(0x15F17210)
 #define IFGHNHEJCLF___C___CREATEREQUIREINFOS_B__26_2_OFFSET UNITYSDK_OFFSET(0x15F17220)
 
+inline static constexpr unsigned int IFGHNHEJCLF___c_TypeDefinitionIndex = 79671;
+
 	class IFGHNHEJCLF___c : public ::System::Object
 	{
 	public:

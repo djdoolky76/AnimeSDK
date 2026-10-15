@@ -11,6 +11,8 @@ namespace UnityEngine { class GUIStyle; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int GUIWordWrapSizer_TypeDefinitionIndex = 5191;
+
 	class GUIWordWrapSizer : public ::UnityEngine::GUILayoutEntry
 	{
 	public:

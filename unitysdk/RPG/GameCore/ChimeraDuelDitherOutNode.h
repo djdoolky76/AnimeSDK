@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ChimeraDuelDitherOutNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChimeraDuelDitherOutNode_TypeDefinitionIndex = 15959;
+
 	class ChimeraDuelDitherOutNode : public ::RPG::GameCore::BaseChimeraDuelNode
 	{
 	public:

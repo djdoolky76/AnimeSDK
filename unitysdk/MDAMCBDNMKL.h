@@ -16,6 +16,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define MDAMCBDNMKL_ONMODELROOTLOADED_OFFSET UNITYSDK_OFFSET(0xB88F280)
 #define MDAMCBDNMKL_ONUNINIT_OFFSET UNITYSDK_OFFSET(0xB88F240)
 
+inline static constexpr unsigned int MDAMCBDNMKL_TypeDefinitionIndex = 57204;
+
 	class MDAMCBDNMKL : public ::System::Object
 	{
 	public:

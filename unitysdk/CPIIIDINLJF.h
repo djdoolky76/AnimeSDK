@@ -20,6 +20,8 @@ namespace UnityEngine { class Transform; }
 #define CPIIIDINLJF_OBMEAIAIEJL_OFFSET UNITYSDK_OFFSET(0xDCD6B80)
 #define CPIIIDINLJF__ONBIND_OFFSET UNITYSDK_OFFSET(0xDCD66E0)
 
+inline static constexpr unsigned int CPIIIDINLJF_TypeDefinitionIndex = 72246;
+
 	class CPIIIDINLJF : public ::GJPBCNIIEOB
 	{
 	public:

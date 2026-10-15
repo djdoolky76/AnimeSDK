@@ -8,6 +8,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define ALNEOFKDBEP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x155712C0)
 #define ALNEOFKDBEP___C__ONTASKBEGIN_B__1_0_OFFSET UNITYSDK_OFFSET(0x155712D0)
 
+inline static constexpr unsigned int ALNEOFKDBEP___c_TypeDefinitionIndex = 52676;
+
 	class ALNEOFKDBEP___c : public ::System::Object
 	{
 	public:

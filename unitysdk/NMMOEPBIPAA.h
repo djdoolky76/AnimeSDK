@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define NMMOEPBIPAA_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBC8FA00)
 #define NMMOEPBIPAA_TICK_OFFSET UNITYSDK_OFFSET(0xBC8FBB0)
 
+inline static constexpr unsigned int NMMOEPBIPAA_TypeDefinitionIndex = 52614;
+
 	class NMMOEPBIPAA : public ::GELIALJDFBL
 	{
 	public:

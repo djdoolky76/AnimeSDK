@@ -60,6 +60,8 @@ namespace UnityEngine { class Shader; }
 #define HHCLFOHEKNM_PAJNECIGPHO_OFFSET UNITYSDK_OFFSET(0x15CBA560)
 #define HHCLFOHEKNM_PHGJENJNGDG_OFFSET UNITYSDK_OFFSET(0x15CB9500)
 
+inline static constexpr unsigned int HHCLFOHEKNM_TypeDefinitionIndex = 69965;
+
 	class HHCLFOHEKNM : public ::RPG::Client::BehaviorBase
 	{
 	public:

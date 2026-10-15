@@ -24,6 +24,8 @@ namespace System { class String; }
 #define IMJKAIODGPJ_PGOLCLMMANO_OFFSET UNITYSDK_OFFSET(0x164DD040)
 #define IMJKAIODGPJ_PLMIIKONDEO_OFFSET UNITYSDK_OFFSET(0x164DD160)
 
+inline static constexpr unsigned int IMJKAIODGPJ_TypeDefinitionIndex = 47346;
+
 	class IMJKAIODGPJ : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System { class Action; }
 #define LMIHOJAOELB_JBENBABCOGB_OFFSET UNITYSDK_OFFSET(0xB7C94E0)
 #define LMIHOJAOELB_LMCEDCHJKFF_OFFSET UNITYSDK_OFFSET(0xB7C9280)
 
+inline static constexpr unsigned int LMIHOJAOELB_TypeDefinitionIndex = 57556;
+
 	class LMIHOJAOELB : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

@@ -39,6 +39,8 @@ namespace CriWare { class CriAtomEx3dRegion; }
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriAtomEx3dListener_TypeDefinitionIndex = 40009;
+
 	class CriAtomEx3dListener : public ::CriWare::CriDisposable
 	{
 	public:

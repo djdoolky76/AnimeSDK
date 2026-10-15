@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define NGFMHDPLLEC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB0DB20)
 #define NGFMHDPLLEC___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1EB0DB30)
 
+inline static constexpr unsigned int NGFMHDPLLEC___c_TypeDefinitionIndex = 34249;
+
 	class NGFMHDPLLEC___c : public ::System::Object
 	{
 	public:

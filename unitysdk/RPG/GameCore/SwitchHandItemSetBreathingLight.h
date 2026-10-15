@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SwitchHandItemSetBreathingLight_TypeDefinitionIndex = 20971;
+
 	class SwitchHandItemSetBreathingLight : public ::RPG::GameCore::TaskConfig
 	{
 	public:

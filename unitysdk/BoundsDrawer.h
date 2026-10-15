@@ -89,6 +89,8 @@ namespace UnityEngine { class Renderer; }
 #define BOUNDSDRAWER_SET_PRELOADCULLINGSTATUS_OFFSET UNITYSDK_OFFSET(0xC1B8870)
 #define BOUNDSDRAWER_START_OFFSET UNITYSDK_OFFSET(0xC1B7490)
 
+inline static constexpr unsigned int BoundsDrawer_TypeDefinitionIndex = 47285;
+
 	class BoundsDrawer : public ::UnityEngine::MonoBehaviour
 	{
 	public:

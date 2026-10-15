@@ -41,6 +41,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int LoopGenerator_TypeDefinitionIndex = 72970;
+
 	class LoopGenerator : public ::UnityEngine::MonoBehaviour
 	{
 	public:

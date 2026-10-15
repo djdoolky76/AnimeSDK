@@ -13,6 +13,8 @@ namespace System { class Action; }
 
 namespace MiHoYo::SDK::PC::OS::CXHandheld
 {
+	inline static constexpr unsigned int LoginManagerHandheld___c__DisplayClass15_0_TypeDefinitionIndex = 8752;
+
 	class LoginManagerHandheld___c__DisplayClass15_0 : public ::System::Object
 	{
 	public:

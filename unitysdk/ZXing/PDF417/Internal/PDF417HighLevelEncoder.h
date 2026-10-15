@@ -27,6 +27,8 @@ namespace System::Text { class StringBuilder; }
 
 namespace ZXing::PDF417::Internal
 {
+	inline static constexpr unsigned int PDF417HighLevelEncoder_TypeDefinitionIndex = 7050;
+
 	class PDF417HighLevelEncoder : public ::System::Object
 	{
 	public:

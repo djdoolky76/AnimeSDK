@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CRPVolumetricFogSettings_TypeDefinitionIndex = 67933;
+
 	class CRPVolumetricFogSettings : public ::System::Object
 	{
 	public:

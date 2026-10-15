@@ -29,6 +29,8 @@ namespace System::Collections::Generic { template <typename T> class Stack_1; }
 
 namespace UnityEngine::ProBuilder
 {
+	inline static constexpr unsigned int Log_TypeDefinitionIndex = 44371;
+
 	class Log : public ::System::Object
 	{
 	public:

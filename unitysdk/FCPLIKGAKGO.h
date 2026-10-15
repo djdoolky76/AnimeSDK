@@ -23,6 +23,8 @@ namespace System { class String; }
 #define FCPLIKGAKGO_LCJNBFLNDOI_OFFSET UNITYSDK_OFFSET(0x156D0290)
 #define FCPLIKGAKGO_OKMAEFDNKJL_OFFSET UNITYSDK_OFFSET(0x156D0BA0)
 
+inline static constexpr unsigned int FCPLIKGAKGO_TypeDefinitionIndex = 79147;
+
 	class FCPLIKGAKGO : public ::System::Object
 	{
 	public:

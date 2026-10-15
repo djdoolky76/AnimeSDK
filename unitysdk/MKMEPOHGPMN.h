@@ -23,6 +23,8 @@ namespace System::Text { class StringBuilder; }
 #define MKMEPOHGPMN_TOSTRING_OFFSET UNITYSDK_OFFSET(0xB99D210)
 #define MKMEPOHGPMN__CLONE___OFFSET UNITYSDK_OFFSET(0xB99D980)
 
+inline static constexpr unsigned int MKMEPOHGPMN_TypeDefinitionIndex = 80610;
+
 	class MKMEPOHGPMN : public ::System::Object
 	{
 	public:

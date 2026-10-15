@@ -8,6 +8,8 @@
 
 namespace RPG::Client::ElectricChainV2
 {
+	inline static constexpr unsigned int GaussianConstraint_TypeDefinitionIndex = 73607;
+
 	class GaussianConstraint : public ::RPG::Client::ElectricChainV2::Constraint
 	{
 	public:

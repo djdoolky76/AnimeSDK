@@ -18,6 +18,8 @@ namespace System::Text::RegularExpressions { class Regex; }
 
 namespace Cysharp::Threading::Tasks::Internal
 {
+	inline static constexpr unsigned int DiagnosticsExtensions_TypeDefinitionIndex = 38657;
+
 	class DiagnosticsExtensions : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System { class Object; }
 #define NBHAKGBHPOE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xBAC1B70)
 #define NBHAKGBHPOE_INVOKE_OFFSET UNITYSDK_OFFSET(0xBAADDB0)
 
+inline static constexpr unsigned int NBHAKGBHPOE_TypeDefinitionIndex = 54752;
+
 	class NBHAKGBHPOE : public ::System::MulticastDelegate
 	{
 	public:

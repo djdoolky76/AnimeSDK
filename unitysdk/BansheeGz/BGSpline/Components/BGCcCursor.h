@@ -39,6 +39,8 @@ namespace System { template <typename T1, typename T2, typename T3, typename T4>
 
 namespace BansheeGz::BGSpline::Components
 {
+	inline static constexpr unsigned int BGCcCursor_TypeDefinitionIndex = 36032;
+
 	class BGCcCursor : public ::BansheeGz::BGSpline::Components::BGCcWithMath
 	{
 	public:

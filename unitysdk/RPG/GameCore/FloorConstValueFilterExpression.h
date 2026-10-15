@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FloorConstValueFilterExpression; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FloorConstValueFilterExpression_TypeDefinitionIndex = 17406;
+
 	class FloorConstValueFilterExpression : public ::RPG::GameCore::JsonConfig
 	{
 	public:

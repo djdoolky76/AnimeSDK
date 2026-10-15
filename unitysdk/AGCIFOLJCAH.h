@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define AGCIFOLJCAH_FILTER_OFFSET UNITYSDK_OFFSET(0x1C882260)
 #define AGCIFOLJCAH_GETTRIGGER_OFFSET UNITYSDK_OFFSET(0x1C882140)
 
+inline static constexpr unsigned int AGCIFOLJCAH_TypeDefinitionIndex = 42877;
+
 	class AGCIFOLJCAH
 	{
 	public:

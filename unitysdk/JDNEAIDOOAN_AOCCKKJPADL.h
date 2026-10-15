@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define JDNEAIDOOAN_AOCCKKJPADL_EIDMDJFAKFG_OFFSET UNITYSDK_OFFSET(0x16600420)
 #define JDNEAIDOOAN_AOCCKKJPADL_IOEPJOFCCND_OFFSET UNITYSDK_OFFSET(0x16600700)
 
+inline static constexpr unsigned int JDNEAIDOOAN_AOCCKKJPADL_TypeDefinitionIndex = 48942;
+
 	class JDNEAIDOOAN_AOCCKKJPADL : public ::System::Object
 	{
 	public:

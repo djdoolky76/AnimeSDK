@@ -7,6 +7,8 @@ namespace System { class String; }
 
 #define GBLLOCGMMPO_CTOR_OFFSET UNITYSDK_OFFSET(0x15952470)
 
+inline static constexpr unsigned int GBLLOCGMMPO_TypeDefinitionIndex = 55382;
+
 	class GBLLOCGMMPO : public ::System::Object
 	{
 	public:

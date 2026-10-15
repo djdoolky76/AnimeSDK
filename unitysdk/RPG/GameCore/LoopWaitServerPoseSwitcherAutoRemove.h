@@ -10,6 +10,8 @@ namespace RPG::GameCore { class LoopWaitServerPoseSwitcherAutoRemove; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LoopWaitServerPoseSwitcherAutoRemove_TypeDefinitionIndex = 21265;
+
 	class LoopWaitServerPoseSwitcherAutoRemove : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -5,6 +5,8 @@
 
 #define FFNOMKOBGGL_PGNFANBONOB_COMPARETO_OFFSET UNITYSDK_OFFSET(0x2E75F30)
 
+inline static constexpr unsigned int FFNOMKOBGGL_PGNFANBONOB_TypeDefinitionIndex = 73278;
+
 	struct alignas(4) FFNOMKOBGGL_PGNFANBONOB
 	{
 		::FFNOMKOBGGL_RtUnitHpBarStyle CFNAKPADAEB; // 0x10

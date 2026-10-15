@@ -11,6 +11,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace UnityEngine::Rendering::UI
 {
+	inline static constexpr unsigned int UIFoldout_TypeDefinitionIndex = 35704;
+
 	class UIFoldout : public ::UnityEngine::UI::Toggle
 	{
 	public:

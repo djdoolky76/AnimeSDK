@@ -4,6 +4,8 @@
 
 #define MPPKJJMPJOK_CTOR_OFFSET UNITYSDK_OFFSET(0xBA45940)
 
+inline static constexpr unsigned int MPPKJJMPJOK_TypeDefinitionIndex = 47830;
+
 	class MPPKJJMPJOK : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

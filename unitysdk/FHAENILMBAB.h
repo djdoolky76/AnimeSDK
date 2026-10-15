@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define FHAENILMBAB_CTOR_OFFSET UNITYSDK_OFFSET(0x15770C40)
 #define FHAENILMBAB_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15770C70)
 
+inline static constexpr unsigned int FHAENILMBAB_TypeDefinitionIndex = 57982;
+
 	class FHAENILMBAB
 	{
 	public:

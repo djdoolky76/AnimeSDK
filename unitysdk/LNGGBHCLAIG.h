@@ -22,6 +22,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define LNGGBHCLAIG_SET_ATMOSPHERECONFIG_OFFSET UNITYSDK_OFFSET(0xB7DDEE0)
 #define LNGGBHCLAIG_SET_SHOWEFFECT_OFFSET UNITYSDK_OFFSET(0xB7DDDA0)
 
+inline static constexpr unsigned int LNGGBHCLAIG_TypeDefinitionIndex = 72194;
+
 	class LNGGBHCLAIG : public ::System::Object
 	{
 	public:

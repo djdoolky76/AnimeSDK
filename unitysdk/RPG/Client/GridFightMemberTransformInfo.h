@@ -7,6 +7,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightMemberTransformInfo_TypeDefinitionIndex = 64856;
+
 	class GridFightMemberTransformInfo : public ::System::Object
 	{
 	public:

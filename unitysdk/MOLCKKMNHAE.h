@@ -27,6 +27,8 @@ namespace System { class String; }
 #define MOLCKKMNHAE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EAAE750)
 #define MOLCKKMNHAE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EAAE7B0)
 
+inline static constexpr unsigned int MOLCKKMNHAE_TypeDefinitionIndex = 32694;
+
 	class MOLCKKMNHAE : public ::System::Object
 	{
 	public:

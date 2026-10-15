@@ -35,6 +35,8 @@ namespace System { class Nullable; }
 #define NDEAGEPIBKK_SET_SOURCE_OFFSET UNITYSDK_OFFSET(0x1C944630)
 #define NDEAGEPIBKK_SET_STACKCOUNT_OFFSET UNITYSDK_OFFSET(0x1C9445F0)
 
+inline static constexpr unsigned int NDEAGEPIBKK_TypeDefinitionIndex = 43090;
+
 	class NDEAGEPIBKK : public ::System::Object
 	{
 	public:

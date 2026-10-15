@@ -18,6 +18,8 @@ namespace System::Text { class StringBuilder; }
 #define BCGLFKMDELO_SET_LEVEL_OFFSET UNITYSDK_OFFSET(0xFE80)
 #define BCGLFKMDELO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x2E80050)
 
+inline static constexpr unsigned int BCGLFKMDELO_TypeDefinitionIndex = 51977;
+
 	struct alignas(4) BCGLFKMDELO
 	{
 		::System::UInt32 _ID_k__BackingField; // 0x10

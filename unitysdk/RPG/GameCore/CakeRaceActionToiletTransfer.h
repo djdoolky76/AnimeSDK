@@ -10,6 +10,8 @@ namespace RPG::GameCore { class CakeRaceActionToiletTransfer; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CakeRaceActionToiletTransfer_TypeDefinitionIndex = 18344;
+
 	class CakeRaceActionToiletTransfer : public ::RPG::GameCore::CakeRaceActionBase
 	{
 	public:

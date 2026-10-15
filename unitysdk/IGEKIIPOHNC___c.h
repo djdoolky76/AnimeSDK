@@ -8,6 +8,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define IGEKIIPOHNC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1640B680)
 #define IGEKIIPOHNC___C__ONTASKBEGIN_B__1_0_OFFSET UNITYSDK_OFFSET(0x1640B690)
 
+inline static constexpr unsigned int IGEKIIPOHNC___c_TypeDefinitionIndex = 52664;
+
 	class IGEKIIPOHNC___c : public ::System::Object
 	{
 	public:

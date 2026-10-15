@@ -24,6 +24,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define OOCLABBPIGD_PBJLLKIPLIB_OFFSET UNITYSDK_OFFSET(0x1C7E4A60)
 #define OOCLABBPIGD_PHANFIFHKCN_OFFSET UNITYSDK_OFFSET(0x1C7E4470)
 
+inline static constexpr unsigned int OOCLABBPIGD_TypeDefinitionIndex = 37240;
+
 	class OOCLABBPIGD : public ::OMNEDLJOPNM
 	{
 	public:

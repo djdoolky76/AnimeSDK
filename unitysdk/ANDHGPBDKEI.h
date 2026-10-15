@@ -18,6 +18,8 @@ namespace UnityEngine { class Transform; }
 #define ANDHGPBDKEI_MADGGPDJHMF_OFFSET UNITYSDK_OFFSET(0x15592FE0)
 #define ANDHGPBDKEI_OAKBNCNJOHK_OFFSET UNITYSDK_OFFSET(0x15593550)
 
+inline static constexpr unsigned int ANDHGPBDKEI_TypeDefinitionIndex = 50024;
+
 	class ANDHGPBDKEI : public ::System::Object
 	{
 	public:

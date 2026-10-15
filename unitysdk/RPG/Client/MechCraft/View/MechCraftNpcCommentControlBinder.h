@@ -11,6 +11,8 @@ namespace UnityEngine::UI { class Image; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftNpcCommentControlBinder_TypeDefinitionIndex = 80039;
+
 	class MechCraftNpcCommentControlBinder : public ::RPG::Client::MechCraft::View::MechCraftBinderBase
 	{
 	public:

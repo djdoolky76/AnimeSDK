@@ -7,6 +7,8 @@ class JIAFOPELMJJ;
 #define JIAFOPELMJJ___C__DISPLAYCLASS15_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB1D0BA0)
 #define JIAFOPELMJJ___C__DISPLAYCLASS15_0__STARTFORIFIXPATCH_B__0_OFFSET UNITYSDK_OFFSET(0xB1E5470)
 
+inline static constexpr unsigned int JIAFOPELMJJ___c__DisplayClass15_0_TypeDefinitionIndex = 59505;
+
 	class JIAFOPELMJJ___c__DisplayClass15_0 : public ::System::Object
 	{
 	public:

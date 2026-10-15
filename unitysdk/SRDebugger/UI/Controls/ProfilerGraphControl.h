@@ -30,6 +30,8 @@ namespace UnityEngine { class Mesh; }
 
 namespace SRDebugger::UI::Controls
 {
+	inline static constexpr unsigned int ProfilerGraphControl_TypeDefinitionIndex = 38038;
+
 	class ProfilerGraphControl : public ::UnityEngine::UI::Graphic
 	{
 	public:

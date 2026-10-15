@@ -14,6 +14,8 @@ namespace UnityEngine { class Animator; }
 
 namespace RPG::Client::UI3DGame
 {
+	inline static constexpr unsigned int ChimeraBattleNPCView_TypeDefinitionIndex = 75773;
+
 	class ChimeraBattleNPCView : public ::UnityEngine::MonoBehaviour
 	{
 	public:

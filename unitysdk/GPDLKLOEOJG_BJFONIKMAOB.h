@@ -6,6 +6,8 @@ class KGAHHFHMPBP;
 
 #define GPDLKLOEOJG_BJFONIKMAOB_CTOR_OFFSET UNITYSDK_OFFSET(0x15B4D1E0)
 
+inline static constexpr unsigned int GPDLKLOEOJG_BJFONIKMAOB_TypeDefinitionIndex = 60318;
+
 	class GPDLKLOEOJG_BJFONIKMAOB : public ::System::Object
 	{
 	public:

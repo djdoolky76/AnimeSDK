@@ -16,6 +16,8 @@ namespace RPG::GameCore { class BattleTargetConfigRow; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ActivitySummonChallengeTarget_TypeDefinitionIndex = 61920;
+
 	class ActivitySummonChallengeTarget : public ::System::Object
 	{
 	public:

@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightGamePlayResConfig_TypeDefinitionIndex = 65065;
+
 	class GridFightGamePlayResConfig : public ::System::Object
 	{
 	public:

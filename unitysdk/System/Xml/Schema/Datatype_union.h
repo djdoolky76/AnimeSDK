@@ -9,6 +9,8 @@ namespace System::Xml::Schema { class XmlSchemaSimpleType; }
 
 namespace System::Xml::Schema
 {
+	inline static constexpr unsigned int Datatype_union_TypeDefinitionIndex = 2092;
+
 	class Datatype_union : public ::System::Xml::Schema::Datatype_anySimpleType
 	{
 	public:

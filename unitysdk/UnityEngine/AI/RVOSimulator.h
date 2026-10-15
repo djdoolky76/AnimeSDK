@@ -23,6 +23,8 @@ namespace UnityEngine::AI { class RVOSimulator; }
 
 namespace UnityEngine::AI
 {
+	inline static constexpr unsigned int RVOSimulator_TypeDefinitionIndex = 5674;
+
 	class RVOSimulator : public ::UnityEngine::Object
 	{
 	public:

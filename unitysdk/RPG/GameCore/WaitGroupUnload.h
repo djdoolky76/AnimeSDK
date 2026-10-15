@@ -11,6 +11,8 @@ namespace RPG::GameCore { class WaitGroupUnload; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaitGroupUnload_TypeDefinitionIndex = 21230;
+
 	class WaitGroupUnload : public ::RPG::GameCore::TaskConfig
 	{
 	public:

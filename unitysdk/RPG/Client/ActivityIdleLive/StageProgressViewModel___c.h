@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int StageProgressViewModel___c_TypeDefinitionIndex = 75443;
+
 	class StageProgressViewModel___c : public ::System::Object
 	{
 	public:

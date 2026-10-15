@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueWorkbenchFuncReforgeBuffConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueWorkbenchFuncReforgeBuffConfig_TypeDefinitionIndex = 18021;
+
 	class RogueWorkbenchFuncReforgeBuffConfig : public ::RPG::GameCore::RogueWorkbenchFuncBaseConfig
 	{
 	public:

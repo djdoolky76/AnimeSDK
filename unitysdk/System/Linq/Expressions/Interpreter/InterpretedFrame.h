@@ -41,6 +41,8 @@ namespace System::Runtime::CompilerServices { class IStrongBox; }
 
 namespace System::Linq::Expressions::Interpreter
 {
+	inline static constexpr unsigned int InterpretedFrame_TypeDefinitionIndex = 3437;
+
 	class InterpretedFrame : public ::System::Object
 	{
 	public:

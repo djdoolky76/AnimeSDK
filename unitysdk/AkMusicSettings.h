@@ -12,6 +12,8 @@ class AkMusicSettings;
 #define AKMUSICSETTINGS_SETCPTR_OFFSET UNITYSDK_OFFSET(0x1F5A79A0)
 #define AKMUSICSETTINGS_SET_FSTREAMINGLOOKAHEADRATIO_OFFSET UNITYSDK_OFFSET(0x1F5A7DD0)
 
+inline static constexpr unsigned int AkMusicSettings_TypeDefinitionIndex = 44768;
+
 	class AkMusicSettings : public ::System::Object
 	{
 	public:

@@ -34,6 +34,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PlanetFesMiniGameGachaResult_TypeDefinitionIndex = 66613;
+
 	class PlanetFesMiniGameGachaResult : public ::System::Object
 	{
 	public:

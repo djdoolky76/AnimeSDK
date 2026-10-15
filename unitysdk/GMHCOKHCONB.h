@@ -8,6 +8,8 @@ class GMHCOKHCONB;
 #define GMHCOKHCONB_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CE68D60)
 #define GMHCOKHCONB_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CE68C90)
 
+inline static constexpr unsigned int GMHCOKHCONB_TypeDefinitionIndex = 19936;
+
 	class GMHCOKHCONB : public ::RPG::GameCore::TaskConfig
 	{
 	public:

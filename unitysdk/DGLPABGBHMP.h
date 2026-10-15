@@ -7,6 +7,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define DGLPABGBHMP_DISPOSE_OFFSET UNITYSDK_OFFSET(0xE851CD0)
 #define DGLPABGBHMP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xE851D10)
 
+inline static constexpr unsigned int DGLPABGBHMP_TypeDefinitionIndex = 56461;
+
 	class DGLPABGBHMP
 	{
 	public:

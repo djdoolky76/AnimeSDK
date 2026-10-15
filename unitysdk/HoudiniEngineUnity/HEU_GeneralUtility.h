@@ -110,6 +110,8 @@ namespace UnityEngine { class Transform; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_GeneralUtility_TypeDefinitionIndex = 40627;
+
 	class HEU_GeneralUtility : public ::System::Object
 	{
 	public:

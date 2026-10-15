@@ -9,6 +9,8 @@ namespace UnityEngine { class Object; }
 #define JHOEALGPJGB_FDFFFODBEDG_EQUALS_OFFSET UNITYSDK_OFFSET(0x1EC79B10)
 #define JHOEALGPJGB_FDFFFODBEDG_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1EC79B70)
 
+inline static constexpr unsigned int JHOEALGPJGB_FDFFFODBEDG_TypeDefinitionIndex = 44113;
+
 	class JHOEALGPJGB_FDFFFODBEDG : public ::System::Object
 	{
 	public:

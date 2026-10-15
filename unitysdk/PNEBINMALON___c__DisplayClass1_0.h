@@ -6,6 +6,8 @@ namespace Proto { class ItemCost; }
 #define PNEBINMALON___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC334C20)
 #define PNEBINMALON___C__DISPLAYCLASS1_0__ADDCOSTITEM_B__0_OFFSET UNITYSDK_OFFSET(0xC334F80)
 
+inline static constexpr unsigned int PNEBINMALON___c__DisplayClass1_0_TypeDefinitionIndex = 65701;
+
 	class PNEBINMALON___c__DisplayClass1_0 : public ::System::Object
 	{
 	public:

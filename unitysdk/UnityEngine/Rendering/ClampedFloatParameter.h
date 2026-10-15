@@ -8,6 +8,8 @@
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int ClampedFloatParameter_TypeDefinitionIndex = 35639;
+
 	class ClampedFloatParameter : public ::UnityEngine::Rendering::FloatParameter
 	{
 	public:

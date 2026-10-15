@@ -12,6 +12,8 @@ namespace System { class String; }
 #define LIDLDEMMIKD_SET_MODIFIERNAME_OFFSET UNITYSDK_OFFSET(0xB6C83A0)
 #define LIDLDEMMIKD_SET_MODIFIERTARGET_OFFSET UNITYSDK_OFFSET(0xB6C83C0)
 
+inline static constexpr unsigned int LIDLDEMMIKD_TypeDefinitionIndex = 59001;
+
 	class LIDLDEMMIKD : public ::JENIFGNJEPE
 	{
 	public:

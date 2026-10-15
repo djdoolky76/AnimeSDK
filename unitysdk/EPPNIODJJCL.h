@@ -16,6 +16,8 @@ namespace System { class IDisposable; }
 #define EPPNIODJJCL_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x155DB570)
 #define EPPNIODJJCL_TICK_OFFSET UNITYSDK_OFFSET(0x155DB6B0)
 
+inline static constexpr unsigned int EPPNIODJJCL_TypeDefinitionIndex = 53069;
+
 	class EPPNIODJJCL : public ::GELIALJDFBL
 	{
 	public:

@@ -21,6 +21,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChimeraDuelMasterInfo_TypeDefinitionIndex = 63373;
+
 	class ChimeraDuelMasterInfo : public ::System::Object
 	{
 	public:

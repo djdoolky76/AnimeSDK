@@ -44,6 +44,8 @@ namespace UnityEngine::Rendering { class RTHandle; }
 
 namespace UnityEngine::Experimental::Rendering::RenderGraphModule
 {
+	inline static constexpr unsigned int RenderGraph_TypeDefinitionIndex = 35451;
+
 	class RenderGraph : public ::System::Object
 	{
 	public:

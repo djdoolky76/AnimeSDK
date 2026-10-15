@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SO_Params_TypeDefinitionIndex = 24472;
+
 	enum class SO_Params : ::System::Int32
 	{
 		Custom = 0,

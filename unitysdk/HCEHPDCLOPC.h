@@ -9,6 +9,8 @@ namespace UnityEngine { class Mesh; }
 #define HCEHPDCLOPC_GJBPINOJIGD_OFFSET UNITYSDK_OFFSET(0x15C187B0)
 #define HCEHPDCLOPC_KMEIIOAGHON_OFFSET UNITYSDK_OFFSET(0x15C18990)
 
+inline static constexpr unsigned int HCEHPDCLOPC_TypeDefinitionIndex = 52056;
+
 	class HCEHPDCLOPC : public ::System::Object
 	{
 	public:

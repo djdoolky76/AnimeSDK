@@ -14,6 +14,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SwitchCaseByTeammateCount_TypeDefinitionIndex = 23773;
+
 	class SwitchCaseByTeammateCount : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -13,6 +13,8 @@ namespace RPG::GameCore { class StageVolumeComponentData; }
 #define CGOKGINLOMP_NDGDDODNDMP_OFFSET UNITYSDK_OFFSET(0xCC8CA80)
 #define CGOKGINLOMP_OJJPFMBLLDJ_OFFSET UNITYSDK_OFFSET(0xCC8CCE0)
 
+inline static constexpr unsigned int CGOKGINLOMP_TypeDefinitionIndex = 73986;
+
 	class CGOKGINLOMP : public ::ANDHCEBLPON
 	{
 	public:

@@ -34,6 +34,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 
 namespace RPG::Client::FateRin::Battle
 {
+	inline static constexpr unsigned int FateRinPrepareBattleViewModel_TypeDefinitionIndex = 80980;
+
 	class FateRinPrepareBattleViewModel : public ::RPG::Client::FateRin::BaseViewModel
 	{
 	public:

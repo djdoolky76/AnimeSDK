@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int OverrideEntityModifierPhaseCamera_TypeDefinitionIndex = 22761;
+
 	class OverrideEntityModifierPhaseCamera : public ::RPG::GameCore::TaskConfig
 	{
 	public:

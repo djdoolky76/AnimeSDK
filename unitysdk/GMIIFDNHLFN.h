@@ -38,6 +38,8 @@ namespace System { class String; }
 #define GMIIFDNHLFN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E4D4110)
 #define GMIIFDNHLFN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E4D4170)
 
+inline static constexpr unsigned int GMIIFDNHLFN_TypeDefinitionIndex = 25411;
+
 	class GMIIFDNHLFN : public ::System::Object
 	{
 	public:

@@ -40,6 +40,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::NavMap
 {
+	inline static constexpr unsigned int NavMap3DIconData_TypeDefinitionIndex = 74505;
+
 	class NavMap3DIconData : public ::System::Object
 	{
 	public:

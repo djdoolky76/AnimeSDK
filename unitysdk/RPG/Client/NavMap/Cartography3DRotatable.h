@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::Client::NavMap
 {
+	inline static constexpr unsigned int Cartography3DRotatable_TypeDefinitionIndex = 74508;
+
 	class Cartography3DRotatable : public ::RPG::Client::NavMap::Cartography3DBase
 	{
 	public:

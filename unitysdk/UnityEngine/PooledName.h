@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int PooledName_TypeDefinitionIndex = 4349;
+
 	struct alignas(4) PooledName
 	{
 		::UnityEngine::StringPoolHash hashValue; // 0x10

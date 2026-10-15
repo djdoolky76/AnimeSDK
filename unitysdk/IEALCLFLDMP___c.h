@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define IEALCLFLDMP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E6340F0)
 #define IEALCLFLDMP___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E634100)
 
+inline static constexpr unsigned int IEALCLFLDMP___c_TypeDefinitionIndex = 34386;
+
 	class IEALCLFLDMP___c : public ::System::Object
 	{
 	public:

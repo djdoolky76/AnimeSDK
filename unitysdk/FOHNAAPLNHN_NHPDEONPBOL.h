@@ -8,6 +8,8 @@ namespace RPG::GameCore { class LevelLittleGameInfo; }
 #define FOHNAAPLNHN_NHPDEONPBOL_CTOR_OFFSET UNITYSDK_OFFSET(0x158F5C60)
 #define FOHNAAPLNHN_NHPDEONPBOL_OEIIDHFBKHG_OFFSET UNITYSDK_OFFSET(0x158F5310)
 
+inline static constexpr unsigned int FOHNAAPLNHN_NHPDEONPBOL_TypeDefinitionIndex = 60571;
+
 	class FOHNAAPLNHN_NHPDEONPBOL : public ::System::Object
 	{
 	public:

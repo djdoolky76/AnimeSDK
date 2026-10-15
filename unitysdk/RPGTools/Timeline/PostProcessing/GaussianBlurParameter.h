@@ -6,6 +6,8 @@
 
 namespace RPGTools::Timeline::PostProcessing
 {
+	inline static constexpr unsigned int GaussianBlurParameter_TypeDefinitionIndex = 48572;
+
 	struct alignas(4) GaussianBlurParameter
 	{
 		::System::Boolean overrideState; // 0x10

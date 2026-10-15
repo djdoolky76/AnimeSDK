@@ -4,6 +4,8 @@
 
 #define LNEMEKHMGLA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C426EC0)
 
+inline static constexpr unsigned int LNEMEKHMGLA_TypeDefinitionIndex = 5630;
+
 	class LNEMEKHMGLA : public ::System::Attribute
 	{
 	public:

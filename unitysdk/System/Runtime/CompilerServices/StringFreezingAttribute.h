@@ -6,6 +6,8 @@
 
 namespace System::Runtime::CompilerServices
 {
+	inline static constexpr unsigned int StringFreezingAttribute_TypeDefinitionIndex = 1396;
+
 	class StringFreezingAttribute : public ::System::Attribute
 	{
 	public:

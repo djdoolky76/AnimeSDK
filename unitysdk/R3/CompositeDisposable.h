@@ -24,6 +24,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace R3
 {
+	inline static constexpr unsigned int CompositeDisposable_TypeDefinitionIndex = 35901;
+
 	class CompositeDisposable : public ::System::Object
 	{
 	public:

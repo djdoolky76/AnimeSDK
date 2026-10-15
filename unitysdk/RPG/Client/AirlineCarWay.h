@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AirlineCarWay_TypeDefinitionIndex = 59807;
+
 	class AirlineCarWay : public ::RPG::Client::Airline
 	{
 	public:

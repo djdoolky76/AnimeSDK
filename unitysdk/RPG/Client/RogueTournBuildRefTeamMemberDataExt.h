@@ -8,6 +8,8 @@ namespace RPG::Client { class IRogueTournBuildRefTeamMemberData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueTournBuildRefTeamMemberDataExt_TypeDefinitionIndex = 67538;
+
 	class RogueTournBuildRefTeamMemberDataExt : public ::System::Object
 	{
 	public:

@@ -16,6 +16,8 @@ class HHCLFOHEKNM;
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEffectPluginCharaPropOverlayManager_TypeDefinitionIndex = 69972;
+
 	class MonoEffectPluginCharaPropOverlayManager : public ::RPG::Client::MonoEffectPluginCharaOverlayMatBase
 	{
 	public:

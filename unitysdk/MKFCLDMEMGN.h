@@ -27,6 +27,8 @@ namespace System { class String; }
 #define MKFCLDMEMGN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA578A0)
 #define MKFCLDMEMGN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA57900)
 
+inline static constexpr unsigned int MKFCLDMEMGN_TypeDefinitionIndex = 33350;
+
 	class MKFCLDMEMGN : public ::System::Object
 	{
 	public:

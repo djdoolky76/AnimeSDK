@@ -6,6 +6,8 @@
 
 namespace RPG::Client::OpenWorld
 {
+	inline static constexpr unsigned int StreamingLodSetting_TypeDefinitionIndex = 73761;
+
 	class StreamingLodSetting : public ::System::Object
 	{
 	public:

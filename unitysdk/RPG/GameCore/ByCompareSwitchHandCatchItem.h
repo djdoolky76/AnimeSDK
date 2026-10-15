@@ -14,6 +14,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByCompareSwitchHandCatchItem_TypeDefinitionIndex = 20956;
+
 	class ByCompareSwitchHandCatchItem : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

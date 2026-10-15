@@ -27,6 +27,8 @@ namespace System { class String; }
 #define GOMIDGNOENH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E4F23E0)
 #define GOMIDGNOENH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E4F2440)
 
+inline static constexpr unsigned int GOMIDGNOENH_TypeDefinitionIndex = 31818;
+
 	class GOMIDGNOENH : public ::System::Object
 	{
 	public:

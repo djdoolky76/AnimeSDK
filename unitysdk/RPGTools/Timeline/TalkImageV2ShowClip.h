@@ -19,6 +19,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int TalkImageV2ShowClip_TypeDefinitionIndex = 48394;
+
 	class TalkImageV2ShowClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

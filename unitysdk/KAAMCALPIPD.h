@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int KAAMCALPIPD_TypeDefinitionIndex = 35032;
+
 	enum class KAAMCALPIPD : ::System::Int32
 	{
 		NLCDGIPGFDJ = 0,

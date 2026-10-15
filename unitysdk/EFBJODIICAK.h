@@ -11,6 +11,8 @@ class NENHJNKHEKN;
 #define EFBJODIICAK_JGIKDMCLDII_OFFSET UNITYSDK_OFFSET(0x13A47400)
 #define EFBJODIICAK_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x13A47140)
 
+inline static constexpr unsigned int EFBJODIICAK_TypeDefinitionIndex = 71166;
+
 	class EFBJODIICAK : public ::System::Object
 	{
 	public:

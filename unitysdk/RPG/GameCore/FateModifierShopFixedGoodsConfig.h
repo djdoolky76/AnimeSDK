@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FateModifierShopFixedGoodsConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FateModifierShopFixedGoodsConfig_TypeDefinitionIndex = 19263;
+
 	class FateModifierShopFixedGoodsConfig : public ::RPG::GameCore::FateModifierConfigBase
 	{
 	public:

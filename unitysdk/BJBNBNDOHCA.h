@@ -5,6 +5,8 @@ namespace System { class String; }
 
 #define BJBNBNDOHCA_CTOR_OFFSET UNITYSDK_OFFSET(0x1D80D160)
 
+inline static constexpr unsigned int BJBNBNDOHCA_TypeDefinitionIndex = 25001;
+
 	class BJBNBNDOHCA : public ::System::Attribute
 	{
 	public:

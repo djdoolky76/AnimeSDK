@@ -22,6 +22,8 @@ namespace UnityEngine { class AvatarMask; }
 
 namespace UnityEngine::Animations
 {
+	inline static constexpr unsigned int AnimationLayerMixerPlayable_TypeDefinitionIndex = 5749;
+
 	struct alignas(4) AnimationLayerMixerPlayable
 	{
 		::UnityEngine::Playables::PlayableHandle m_Handle; // 0x10

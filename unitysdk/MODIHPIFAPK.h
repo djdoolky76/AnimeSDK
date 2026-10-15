@@ -7,6 +7,8 @@ class FPBFICAFCDO;
 #define MODIHPIFAPK_CTOR_OFFSET UNITYSDK_OFFSET(0x1C750250)
 #define MODIHPIFAPK_IANODFCEKBK_OFFSET UNITYSDK_OFFSET(0x1C750260)
 
+inline static constexpr unsigned int MODIHPIFAPK_TypeDefinitionIndex = 37189;
+
 	class MODIHPIFAPK : public ::JNHEPGLMAFE
 	{
 	public:

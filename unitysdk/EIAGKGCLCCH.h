@@ -9,6 +9,8 @@ class NPCCFNJPBNL;
 #define EIAGKGCLCCH_COLHIJEBJOB_1_OFFSET UNITYSDK_OFFSET(0x154BB640)
 #define EIAGKGCLCCH_COLHIJEBJOB_OFFSET UNITYSDK_OFFSET(0x154BB5D0)
 
+inline static constexpr unsigned int EIAGKGCLCCH_TypeDefinitionIndex = 62781;
+
 	class EIAGKGCLCCH : public ::System::Object
 	{
 	public:

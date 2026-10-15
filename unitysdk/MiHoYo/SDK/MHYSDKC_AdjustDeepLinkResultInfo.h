@@ -4,6 +4,8 @@
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int MHYSDKC_AdjustDeepLinkResultInfo_TypeDefinitionIndex = 46212;
+
 	class MHYSDKC_AdjustDeepLinkResultInfo : public ::System::Object
 	{
 	public:

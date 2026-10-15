@@ -11,6 +11,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdventureBuffEvent_TypeDefinitionIndex = 56618;
+
 	class AdventureBuffEvent : public ::System::Object
 	{
 	public:

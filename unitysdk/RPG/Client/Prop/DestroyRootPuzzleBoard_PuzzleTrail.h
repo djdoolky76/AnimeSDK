@@ -5,6 +5,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int DestroyRootPuzzleBoard_PuzzleTrail_TypeDefinitionIndex = 78544;
+
 	struct alignas(8) DestroyRootPuzzleBoard_PuzzleTrail
 	{
 		::Il2CppArray<::UnityEngine::Vector2Int>* EndPoints; // 0x10

@@ -6,6 +6,8 @@
 
 namespace Unity::Collections::LowLevel::Unsafe
 {
+	inline static constexpr unsigned int NativeDisableUnsafePtrRestrictionAttribute_TypeDefinitionIndex = 4001;
+
 	class NativeDisableUnsafePtrRestrictionAttribute : public ::System::Attribute
 	{
 	public:

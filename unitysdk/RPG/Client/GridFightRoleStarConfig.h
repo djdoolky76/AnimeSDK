@@ -38,6 +38,8 @@ namespace RPG::GameCore { class GridFightRoleStarConfigRow; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightRoleStarConfig_TypeDefinitionIndex = 65122;
+
 	class GridFightRoleStarConfig : public ::System::Object
 	{
 	public:

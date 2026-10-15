@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PhotoGraphModule___c__DisplayClass11_0_TypeDefinitionIndex = 66460;
+
 	class PhotoGraphModule___c__DisplayClass11_0 : public ::System::Object
 	{
 	public:

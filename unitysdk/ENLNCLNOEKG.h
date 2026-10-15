@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define ENLNCLNOEKG_CTOR_OFFSET UNITYSDK_OFFSET(0x155B2110)
 #define ENLNCLNOEKG_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x155B2130)
 
+inline static constexpr unsigned int ENLNCLNOEKG_TypeDefinitionIndex = 59140;
+
 	class ENLNCLNOEKG
 	{
 	public:

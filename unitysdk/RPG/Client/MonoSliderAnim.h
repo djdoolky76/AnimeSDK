@@ -15,6 +15,8 @@ namespace XLua { class LuaTable; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoSliderAnim_TypeDefinitionIndex = 72606;
+
 	class MonoSliderAnim : public ::UnityEngine::MonoBehaviour
 	{
 	public:

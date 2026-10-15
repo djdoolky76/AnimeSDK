@@ -5,6 +5,8 @@ namespace System::Collections::Generic { template <typename T> class Stack_1; }
 
 namespace ZLinq::Linq
 {
+	inline static constexpr unsigned int FromStack_1_TypeDefinitionIndex = 6111;
+
 	template <typename T>
 	struct alignas(8) FromStack_1
 	{

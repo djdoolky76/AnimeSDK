@@ -8,6 +8,8 @@ namespace UnityEngine { class Object; }
 
 namespace UnityEngine::UI
 {
+	inline static constexpr unsigned int Misc_TypeDefinitionIndex = 6797;
+
 	class Misc : public ::System::Object
 	{
 	public:

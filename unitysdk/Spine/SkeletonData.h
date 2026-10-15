@@ -61,6 +61,8 @@ namespace System { class String; }
 
 namespace Spine
 {
+	inline static constexpr unsigned int SkeletonData_TypeDefinitionIndex = 39692;
+
 	class SkeletonData : public ::System::Object
 	{
 	public:

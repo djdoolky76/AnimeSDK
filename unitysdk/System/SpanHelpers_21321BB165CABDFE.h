@@ -25,6 +25,8 @@ namespace System::Numerics { class Vector; }
 
 namespace System
 {
+	inline static constexpr unsigned int SpanHelpers_21321BB165CABDFE_TypeDefinitionIndex = 4980;
+
 	class SpanHelpers_21321BB165CABDFE : public ::System::Object
 	{
 	public:

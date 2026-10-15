@@ -7,6 +7,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define AGJGPBHEPDO_CTOR_OFFSET UNITYSDK_OFFSET(0xCF33530)
 #define AGJGPBHEPDO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xCF33550)
 
+inline static constexpr unsigned int AGJGPBHEPDO_TypeDefinitionIndex = 58039;
+
 	class AGJGPBHEPDO : public ::NAPIKMAGDDI
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StageInfiniteWaveConfigRow_TypeDefinitionIndex = 15150;
+
 	class StageInfiniteWaveConfigRow : public ::System::Object
 	{
 	public:

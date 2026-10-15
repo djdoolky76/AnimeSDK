@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define AGGIDADFNAC_CTOR_OFFSET UNITYSDK_OFFSET(0xCF2FBB0)
 #define AGGIDADFNAC_EVALUATE_OFFSET UNITYSDK_OFFSET(0xCF2FBE0)
 
+inline static constexpr unsigned int AGGIDADFNAC_TypeDefinitionIndex = 55153;
+
 	class AGGIDADFNAC
 	{
 	public:

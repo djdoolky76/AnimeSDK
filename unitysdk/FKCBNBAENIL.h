@@ -5,6 +5,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define FKCBNBAENIL_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA71020)
 
+inline static constexpr unsigned int FKCBNBAENIL_TypeDefinitionIndex = 42122;
+
 	class FKCBNBAENIL : public ::System::Object
 	{
 	public:

@@ -16,6 +16,8 @@ namespace UnityEngine { class Animation; }
 #define KPGLJBFPDEG_PGIJAGHKJLN_OFFSET UNITYSDK_OFFSET(0xB5BCE90)
 #define KPGLJBFPDEG__ONBIND_OFFSET UNITYSDK_OFFSET(0xB5BCB20)
 
+inline static constexpr unsigned int KPGLJBFPDEG_TypeDefinitionIndex = 72042;
+
 	class KPGLJBFPDEG : public ::FMPCODLIOLG
 	{
 	public:

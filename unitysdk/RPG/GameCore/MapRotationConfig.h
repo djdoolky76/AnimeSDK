@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RotatableRegion; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MapRotationConfig_TypeDefinitionIndex = 17027;
+
 	class MapRotationConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

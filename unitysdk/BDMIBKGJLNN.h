@@ -18,6 +18,8 @@ namespace UnityEngine { class Transform; }
 #define BDMIBKGJLNN_NGOEHHGLJOP_OFFSET UNITYSDK_OFFSET(0x16303420)
 #define BDMIBKGJLNN_SET_MODE_OFFSET UNITYSDK_OFFSET(0x16303660)
 
+inline static constexpr unsigned int BDMIBKGJLNN_TypeDefinitionIndex = 68789;
+
 	class BDMIBKGJLNN : public ::System::Object
 	{
 	public:

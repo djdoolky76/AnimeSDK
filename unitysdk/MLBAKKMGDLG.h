@@ -32,6 +32,8 @@ namespace System { class String; }
 #define MLBAKKMGDLG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA7DE40)
 #define MLBAKKMGDLG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA7DEA0)
 
+inline static constexpr unsigned int MLBAKKMGDLG_TypeDefinitionIndex = 28997;
+
 	class MLBAKKMGDLG : public ::System::Object
 	{
 	public:

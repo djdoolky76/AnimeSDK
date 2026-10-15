@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::Console::OS
 {
+	inline static constexpr unsigned int PayManagerCX___c__DisplayClass17_0_TypeDefinitionIndex = 9099;
+
 	class PayManagerCX___c__DisplayClass17_0 : public ::System::Object
 	{
 	public:

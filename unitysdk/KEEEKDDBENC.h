@@ -30,6 +30,8 @@ namespace System { class String; }
 #define KEEEKDDBENC_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0x3C4AFD0)
 #define KEEEKDDBENC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3C4AF80)
 
+inline static constexpr unsigned int KEEEKDDBENC_TypeDefinitionIndex = 6318;
+
 	struct alignas(8) KEEEKDDBENC
 	{
 		::System::IFormatProvider* NAMGCGIEMOE; // 0x10

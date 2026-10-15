@@ -6,6 +6,8 @@
 
 namespace System::Xml::Serialization
 {
+	inline static constexpr unsigned int ObjectMap_TypeDefinitionIndex = 2013;
+
 	class ObjectMap : public ::System::Object
 	{
 	public:

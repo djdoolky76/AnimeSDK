@@ -13,6 +13,8 @@ namespace UnityEngine { class Texture2D; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int FramePassCaptureData_TypeDefinitionIndex = 37618;
+
 	struct alignas(8) FramePassCaptureData
 	{
 		::System::Collections::Generic::List_1<::RPG::CustomRP::DrawCallParams>* drawcalls; // 0x10

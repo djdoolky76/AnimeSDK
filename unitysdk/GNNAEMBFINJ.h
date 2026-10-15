@@ -35,6 +35,8 @@ namespace System { class String; }
 #define GNNAEMBFINJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E4E6440)
 #define GNNAEMBFINJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E4E64A0)
 
+inline static constexpr unsigned int GNNAEMBFINJ_TypeDefinitionIndex = 34594;
+
 	class GNNAEMBFINJ : public ::System::Object
 	{
 	public:

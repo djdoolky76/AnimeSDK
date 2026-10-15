@@ -31,6 +31,8 @@ namespace System { class Object; }
 #define KJGPHJPPFHI___C___CCTOR_B__14_8_OFFSET UNITYSDK_OFFSET(0xB44BF40)
 #define KJGPHJPPFHI___C___CCTOR_B__14_9_OFFSET UNITYSDK_OFFSET(0xB44BFB0)
 
+inline static constexpr unsigned int KJGPHJPPFHI___c_TypeDefinitionIndex = 64022;
+
 	class KJGPHJPPFHI___c : public ::System::Object
 	{
 	public:

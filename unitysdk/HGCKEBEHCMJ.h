@@ -28,6 +28,8 @@ namespace System { class String; }
 #define HGCKEBEHCMJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E575310)
 #define HGCKEBEHCMJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E575370)
 
+inline static constexpr unsigned int HGCKEBEHCMJ_TypeDefinitionIndex = 26396;
+
 	class HGCKEBEHCMJ : public ::System::Object
 	{
 	public:

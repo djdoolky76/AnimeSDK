@@ -27,6 +27,8 @@ namespace System { class String; }
 #define JGFPIJKOFCC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E738EC0)
 #define JGFPIJKOFCC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E738F20)
 
+inline static constexpr unsigned int JGFPIJKOFCC_TypeDefinitionIndex = 33770;
+
 	class JGFPIJKOFCC : public ::System::Object
 	{
 	public:

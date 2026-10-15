@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ShowBattleWhiteboxImage_TypeDefinitionIndex = 23299;
+
 	class ShowBattleWhiteboxImage : public ::RPG::GameCore::TaskConfig
 	{
 	public:

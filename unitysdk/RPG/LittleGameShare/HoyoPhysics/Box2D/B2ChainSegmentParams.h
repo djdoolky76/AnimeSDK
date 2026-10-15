@@ -4,6 +4,8 @@
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
+	inline static constexpr unsigned int B2ChainSegmentParams_TypeDefinitionIndex = 36609;
+
 	struct alignas(4) B2ChainSegmentParams
 	{
 		::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Vec2 edge1; // 0x10

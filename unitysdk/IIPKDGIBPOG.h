@@ -14,6 +14,8 @@ namespace UnityEngine { class Transform; }
 #define IIPKDGIBPOG_OLCDMPBLPGH_OFFSET UNITYSDK_OFFSET(0x16456320)
 #define IIPKDGIBPOG_PFEKEEJINJD_OFFSET UNITYSDK_OFFSET(0x16456370)
 
+inline static constexpr unsigned int IIPKDGIBPOG_TypeDefinitionIndex = 60076;
+
 	class IIPKDGIBPOG : public ::LNDHLHALKAK
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define KBBKFFAEGEO_KCADNHNCLKP_OFFSET UNITYSDK_OFFSET(0xB2ED610)
 #define KBBKFFAEGEO_NINHJDBHBDE_OFFSET UNITYSDK_OFFSET(0xB2ED550)
 
+inline static constexpr unsigned int KBBKFFAEGEO_TypeDefinitionIndex = 74993;
+
 	class KBBKFFAEGEO : public ::System::Object
 	{
 	public:

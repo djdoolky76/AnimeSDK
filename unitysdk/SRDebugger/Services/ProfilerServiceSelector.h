@@ -7,6 +7,8 @@ namespace System { class Type; }
 
 namespace SRDebugger::Services
 {
+	inline static constexpr unsigned int ProfilerServiceSelector_TypeDefinitionIndex = 38068;
+
 	class ProfilerServiceSelector : public ::System::Object
 	{
 	public:

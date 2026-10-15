@@ -10,6 +10,8 @@ namespace RPG::GameCore { class AdvGameplayCounterRecover; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvGameplayCounterRecover_TypeDefinitionIndex = 21673;
+
 	class AdvGameplayCounterRecover : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -28,6 +28,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueTournTitanTalentNodeData_TypeDefinitionIndex = 67864;
+
 	class RogueTournTitanTalentNodeData : public ::System::Object
 	{
 	public:

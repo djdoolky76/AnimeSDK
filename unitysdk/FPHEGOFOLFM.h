@@ -9,6 +9,8 @@ namespace System { class String; }
 #define FPHEGOFOLFM_CTOR_OFFSET UNITYSDK_OFFSET(0x1CE1AD30)
 #define FPHEGOFOLFM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CE1ABF0)
 
+inline static constexpr unsigned int FPHEGOFOLFM_TypeDefinitionIndex = 11629;
+
 	class FPHEGOFOLFM : public ::System::Object
 	{
 	public:

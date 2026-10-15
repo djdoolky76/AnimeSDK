@@ -21,6 +21,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define JBPNLBOOMOL_MGIEHNLBGCE_OFFSET UNITYSDK_OFFSET(0x165777D0)
 #define JBPNLBOOMOL_OKPLPEELPBC_OFFSET UNITYSDK_OFFSET(0x16577650)
 
+inline static constexpr unsigned int JBPNLBOOMOL_TypeDefinitionIndex = 66370;
+
 	class JBPNLBOOMOL : public ::System::Object
 	{
 	public:

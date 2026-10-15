@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace UnityEngine::ProBuilder::Shapes
 {
+	inline static constexpr unsigned int ShapeAttribute_TypeDefinitionIndex = 44468;
+
 	class ShapeAttribute : public ::System::Attribute
 	{
 	public:

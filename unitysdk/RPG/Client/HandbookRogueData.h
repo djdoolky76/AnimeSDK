@@ -31,6 +31,8 @@ namespace RPG::GameCore { class GuideRogueTabRow; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int HandbookRogueData_TypeDefinitionIndex = 65644;
+
 	class HandbookRogueData : public ::System::Object
 	{
 	public:

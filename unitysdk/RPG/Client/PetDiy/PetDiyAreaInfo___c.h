@@ -12,6 +12,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace RPG::Client::PetDiy
 {
+	inline static constexpr unsigned int PetDiyAreaInfo___c_TypeDefinitionIndex = 74481;
+
 	class PetDiyAreaInfo___c : public ::System::Object
 	{
 	public:

@@ -43,6 +43,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define PIIGDBJFNCP_PCPJBFMLKEP_OFFSET UNITYSDK_OFFSET(0xC2682A0)
 #define PIIGDBJFNCP_PIMHFOAHCPI_OFFSET UNITYSDK_OFFSET(0xC2679C0)
 
+inline static constexpr unsigned int PIIGDBJFNCP_TypeDefinitionIndex = 55958;
+
 	class PIIGDBJFNCP : public ::LHHEGNEBMLN
 	{
 	public:

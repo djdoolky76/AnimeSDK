@@ -5,6 +5,8 @@
 
 namespace UnityEngine::UI
 {
+	inline static constexpr unsigned int Scrollbar_ScrollEvent_TypeDefinitionIndex = 6835;
+
 	class Scrollbar_ScrollEvent
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class Queue_1; }
 #define FLHEIJDHPKB_EDDBCKGHBBH_OFFSET UNITYSDK_OFFSET(0x158315B0)
 #define FLHEIJDHPKB_MPEPMCDLLBP_OFFSET UNITYSDK_OFFSET(0x158313E0)
 
+inline static constexpr unsigned int FLHEIJDHPKB_TypeDefinitionIndex = 77986;
+
 	class FLHEIJDHPKB : public ::System::Object
 	{
 	public:

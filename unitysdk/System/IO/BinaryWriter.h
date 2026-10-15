@@ -40,6 +40,8 @@ namespace System::Text { class Encoding; }
 
 namespace System::IO
 {
+	inline static constexpr unsigned int BinaryWriter_TypeDefinitionIndex = 663;
+
 	class BinaryWriter : public ::System::Object
 	{
 	public:

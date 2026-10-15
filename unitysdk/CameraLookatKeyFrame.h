@@ -6,6 +6,8 @@
 
 #define CAMERALOOKATKEYFRAME_CTOR_OFFSET UNITYSDK_OFFSET(0xDCDEE50)
 
+inline static constexpr unsigned int CameraLookatKeyFrame_TypeDefinitionIndex = 47281;
+
 	class CameraLookatKeyFrame : public ::System::Object
 	{
 	public:

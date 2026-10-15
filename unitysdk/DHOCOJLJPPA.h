@@ -30,6 +30,8 @@ namespace System { class String; }
 #define DHOCOJLJPPA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E1B95E0)
 #define DHOCOJLJPPA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E1B9640)
 
+inline static constexpr unsigned int DHOCOJLJPPA_TypeDefinitionIndex = 29552;
+
 	class DHOCOJLJPPA : public ::System::Object
 	{
 	public:

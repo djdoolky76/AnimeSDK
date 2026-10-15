@@ -12,6 +12,8 @@ namespace RPG::GameCore { class ChenLingEnchantLevelRow; }
 #define KAIBIPBBMFD_SET_ENCHANTID_OFFSET UNITYSDK_OFFSET(0xB2D8B30)
 #define KAIBIPBBMFD_SET_LEVEL_OFFSET UNITYSDK_OFFSET(0xB2D8B50)
 
+inline static constexpr unsigned int KAIBIPBBMFD_TypeDefinitionIndex = 61432;
+
 	class KAIBIPBBMFD : public ::System::Object
 	{
 	public:

@@ -22,6 +22,8 @@ namespace System { class Action; }
 
 namespace RPG::Client::ActivityMarble
 {
+	inline static constexpr unsigned int MarblePVEMatchContext_TypeDefinitionIndex = 75988;
+
 	class MarblePVEMatchContext : public ::RPG::Client::ActivityMarble::MarbleMatchContext
 	{
 	public:

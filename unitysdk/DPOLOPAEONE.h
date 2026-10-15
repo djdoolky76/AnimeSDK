@@ -9,6 +9,8 @@ namespace RPG::GameCore { class CakeRacePropertyComparePredicateConfig; }
 #define DPOLOPAEONE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5FA880)
 #define DPOLOPAEONE_ISMATCHIMPL_OFFSET UNITYSDK_OFFSET(0x1C5FA8A0)
 
+inline static constexpr unsigned int DPOLOPAEONE_TypeDefinitionIndex = 37414;
+
 	class DPOLOPAEONE
 	{
 	public:

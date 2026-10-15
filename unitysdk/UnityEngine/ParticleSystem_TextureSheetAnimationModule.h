@@ -88,6 +88,8 @@ namespace UnityEngine { class Sprite; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int ParticleSystem_TextureSheetAnimationModule_TypeDefinitionIndex = 5212;
+
 	struct alignas(8) ParticleSystem_TextureSheetAnimationModule
 	{
 		::UnityEngine::ParticleSystem* m_ParticleSystem; // 0x10

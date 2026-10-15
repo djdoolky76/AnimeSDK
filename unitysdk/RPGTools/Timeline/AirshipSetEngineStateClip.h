@@ -12,6 +12,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int AirshipSetEngineStateClip_TypeDefinitionIndex = 47837;
+
 	class AirshipSetEngineStateClip : public ::RPGTools::Timeline::CustomEventClip
 	{
 	public:

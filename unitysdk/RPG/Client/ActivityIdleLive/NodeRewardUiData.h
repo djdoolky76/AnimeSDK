@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int NodeRewardUiData_TypeDefinitionIndex = 75430;
+
 	class NodeRewardUiData : public ::System::Object
 	{
 	public:

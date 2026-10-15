@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define KNLPEPPOIHE_HFGFDFGCHPL_OFFSET UNITYSDK_OFFSET(0xB5881F0)
 #define KNLPEPPOIHE_KJBNFIPEENL_OFFSET UNITYSDK_OFFSET(0xB587FE0)
 
+inline static constexpr unsigned int KNLPEPPOIHE_TypeDefinitionIndex = 56032;
+
 	class KNLPEPPOIHE : public ::System::Object
 	{
 	public:

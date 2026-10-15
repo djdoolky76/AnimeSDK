@@ -6,6 +6,8 @@ namespace RPG::GameCore { class GameEntity; }
 
 #define AAHPFGHKBOJ_CTOR_OFFSET UNITYSDK_OFFSET(0xB0C76D0)
 
+inline static constexpr unsigned int AAHPFGHKBOJ_TypeDefinitionIndex = 56918;
+
 	class AAHPFGHKBOJ : public ::System::Object
 	{
 	public:

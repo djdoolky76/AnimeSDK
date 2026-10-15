@@ -12,6 +12,8 @@ namespace RPG::Client { class ActivityLocalLegendModule; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int LocalLegendActivityPanelData_TypeDefinitionIndex = 61573;
+
 	class LocalLegendActivityPanelData : public ::RPG::Client::ActivityPanelData
 	{
 	public:

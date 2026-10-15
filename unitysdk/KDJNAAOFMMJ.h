@@ -28,6 +28,8 @@ namespace System { class Action; }
 #define KDJNAAOFMMJ_SET_ONSUCCESS_OFFSET UNITYSDK_OFFSET(0xB365110)
 #define KDJNAAOFMMJ_TICK_OFFSET UNITYSDK_OFFSET(0xB345700)
 
+inline static constexpr unsigned int KDJNAAOFMMJ_TypeDefinitionIndex = 54790;
+
 	class KDJNAAOFMMJ : public ::System::Object
 	{
 	public:

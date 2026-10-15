@@ -6,6 +6,8 @@
 
 namespace MessagePack::Unity::Extension
 {
+	inline static constexpr unsigned int IntArrayBlitFormatter_TypeDefinitionIndex = 10164;
+
 	class IntArrayBlitFormatter
 	{
 	public:

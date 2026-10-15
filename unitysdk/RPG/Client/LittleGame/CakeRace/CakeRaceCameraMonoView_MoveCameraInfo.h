@@ -11,6 +11,8 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace RPG::Client::LittleGame::CakeRace
 {
+	inline static constexpr unsigned int CakeRaceCameraMonoView_MoveCameraInfo_TypeDefinitionIndex = 78146;
+
 	class CakeRaceCameraMonoView_MoveCameraInfo : public ::System::Object
 	{
 	public:

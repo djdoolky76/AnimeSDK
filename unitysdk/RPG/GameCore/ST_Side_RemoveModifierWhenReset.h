@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ST_Side_RemoveModifierWhenReset_TypeDefinitionIndex = 20150;
+
 	class ST_Side_RemoveModifierWhenReset : public ::RPG::GameCore::STTaskConfig
 	{
 	public:

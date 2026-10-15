@@ -6,6 +6,8 @@ namespace MiHoYo::SDK { class BrowserWin32Helper_WndProcDelegate; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int BrowserWin32Helper___O_TypeDefinitionIndex = 46616;
+
 	class BrowserWin32Helper___O : public ::System::Object
 	{
 	public:

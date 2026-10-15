@@ -30,6 +30,8 @@ namespace System { class String; }
 #define KIIOBCNAPLC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E85BCA0)
 #define KIIOBCNAPLC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E85BD00)
 
+inline static constexpr unsigned int KIIOBCNAPLC_TypeDefinitionIndex = 33760;
+
 	class KIIOBCNAPLC : public ::System::Object
 	{
 	public:

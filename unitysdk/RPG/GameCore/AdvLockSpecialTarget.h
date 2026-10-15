@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvLockSpecialTarget_TypeDefinitionIndex = 20453;
+
 	class AdvLockSpecialTarget : public ::RPG::GameCore::TaskConfig
 	{
 	public:

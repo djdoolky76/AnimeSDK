@@ -17,6 +17,8 @@ namespace System { class Object; }
 #define CJFEPENMDCO_PBBEINJGAOE_OFFSET UNITYSDK_OFFSET(0xD203460)
 #define CJFEPENMDCO_TICK_OFFSET UNITYSDK_OFFSET(0xD203500)
 
+inline static constexpr unsigned int CJFEPENMDCO_TypeDefinitionIndex = 61116;
+
 	class CJFEPENMDCO : public ::System::Object
 	{
 	public:

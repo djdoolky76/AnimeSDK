@@ -17,6 +17,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::DiceCombat
 {
+	inline static constexpr unsigned int DiceCombatBigAvatarCardHover_TypeDefinitionIndex = 76094;
+
 	class DiceCombatBigAvatarCardHover : public ::UnityEngine::MonoBehaviour
 	{
 	public:

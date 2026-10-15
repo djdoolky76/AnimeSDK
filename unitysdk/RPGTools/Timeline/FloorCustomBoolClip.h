@@ -17,6 +17,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int FloorCustomBoolClip_TypeDefinitionIndex = 48124;
+
 	class FloorCustomBoolClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

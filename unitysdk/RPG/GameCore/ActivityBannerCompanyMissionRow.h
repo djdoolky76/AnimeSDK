@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ActivityBannerCompanyMissionRow_TypeDefinitionIndex = 10978;
+
 	class ActivityBannerCompanyMissionRow : public ::System::Object
 	{
 	public:

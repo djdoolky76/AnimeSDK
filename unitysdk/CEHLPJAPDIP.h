@@ -6,6 +6,8 @@ class KAKADGHNMFK;
 
 #define CEHLPJAPDIP_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8DD690)
 
+inline static constexpr unsigned int CEHLPJAPDIP_TypeDefinitionIndex = 41938;
+
 	class CEHLPJAPDIP : public ::System::Object
 	{
 	public:

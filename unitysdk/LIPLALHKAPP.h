@@ -52,6 +52,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define LIPLALHKAPP__GET_RENAMEFIRSTCONTACTCOMMAND_B__64_0_OFFSET UNITYSDK_OFFSET(0xB6DEA50)
 #define LIPLALHKAPP__GET_SCROLLTOLASTCONTACTCOMMAND_B__73_0_OFFSET UNITYSDK_OFFSET(0xB6DECE0)
 
+inline static constexpr unsigned int LIPLALHKAPP_TypeDefinitionIndex = 73450;
+
 	class LIPLALHKAPP : public ::System::Object
 	{
 	public:

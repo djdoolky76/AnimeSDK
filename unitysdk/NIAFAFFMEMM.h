@@ -27,6 +27,8 @@ namespace System { class String; }
 #define NIAFAFFMEMM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB24700)
 #define NIAFAFFMEMM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB24760)
 
+inline static constexpr unsigned int NIAFAFFMEMM_TypeDefinitionIndex = 31721;
+
 	class NIAFAFFMEMM : public ::System::Object
 	{
 	public:

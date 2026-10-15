@@ -18,6 +18,8 @@ namespace ZXing::Common::ReedSolomon { class GenericGFPoly; }
 
 namespace ZXing::Common::ReedSolomon
 {
+	inline static constexpr unsigned int GenericGFPoly_TypeDefinitionIndex = 6983;
+
 	class GenericGFPoly : public ::System::Object
 	{
 	public:

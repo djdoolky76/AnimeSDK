@@ -22,6 +22,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::UI::External::OS
 {
+	inline static constexpr unsigned int ThirdpartyOAuthWaitingPluginUI_TypeDefinitionIndex = 8413;
+
 	class ThirdpartyOAuthWaitingPluginUI : public ::System::Object
 	{
 	public:

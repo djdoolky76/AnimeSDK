@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SimpleTextManagerMono___Awake_g__Setup_4_0_d_TypeDefinitionIndex = 72651;
+
 	class SimpleTextManagerMono___Awake_g__Setup_4_0_d : public ::System::Object
 	{
 	public:

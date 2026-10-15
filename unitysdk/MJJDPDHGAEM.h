@@ -6,6 +6,8 @@ class DHCNDENHLGO;
 
 #define MJJDPDHGAEM_OFIMIEJMOGE_OFFSET UNITYSDK_OFFSET(0xB96DCD0)
 
+inline static constexpr unsigned int MJJDPDHGAEM_TypeDefinitionIndex = 81570;
+
 	class MJJDPDHGAEM : public ::System::Object
 	{
 	public:

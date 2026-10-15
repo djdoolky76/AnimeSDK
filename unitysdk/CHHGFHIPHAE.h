@@ -7,6 +7,8 @@ class ECONLFPJNAA;
 #define CHHGFHIPHAE_CTOR_OFFSET UNITYSDK_OFFSET(0xCF4AF80)
 #define CHHGFHIPHAE_NBHCPBBGAKA_OFFSET UNITYSDK_OFFSET(0xCF4AEC0)
 
+inline static constexpr unsigned int CHHGFHIPHAE_TypeDefinitionIndex = 56305;
+
 	class CHHGFHIPHAE : public ::System::Object
 	{
 	public:

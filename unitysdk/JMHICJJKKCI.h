@@ -6,6 +6,8 @@ namespace System { class String; }
 #define JMHICJJKKCI_CTOR_OFFSET UNITYSDK_OFFSET(0xB266C90)
 #define JMHICJJKKCI_VIEWPREFABPATH_OFFSET UNITYSDK_OFFSET(0xB266D20)
 
+inline static constexpr unsigned int JMHICJJKKCI_TypeDefinitionIndex = 71722;
+
 	class JMHICJJKKCI : public ::RPG::Client::UIController
 	{
 	public:

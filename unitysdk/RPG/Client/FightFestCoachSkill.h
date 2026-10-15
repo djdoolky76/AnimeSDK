@@ -24,6 +24,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FightFestCoachSkill_TypeDefinitionIndex = 64175;
+
 	class FightFestCoachSkill : public ::System::Object
 	{
 	public:

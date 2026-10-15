@@ -9,6 +9,8 @@ namespace RPG::GameCore { class ChimeraDuelNpcAnimatorControlNode; }
 #define DABODGCJPHG_CTOR_OFFSET UNITYSDK_OFFSET(0xDFBBFB0)
 #define DABODGCJPHG_HJMLOLJBBPH_OFFSET UNITYSDK_OFFSET(0xDFBBED0)
 
+inline static constexpr unsigned int DABODGCJPHG_TypeDefinitionIndex = 77687;
+
 	class DABODGCJPHG : public ::HBLDGJCDJPF
 	{
 	public:

@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define BNDBPCIHPGL_ONSTARTLOADING_OFFSET UNITYSDK_OFFSET(0xBDC86F0)
 #define BNDBPCIHPGL_ONUNINIT_OFFSET UNITYSDK_OFFSET(0xBDC85E0)
 
+inline static constexpr unsigned int BNDBPCIHPGL_TypeDefinitionIndex = 61057;
+
 	class BNDBPCIHPGL : public ::JDKNLNLGODN
 	{
 	public:

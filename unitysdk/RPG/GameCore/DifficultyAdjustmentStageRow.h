@@ -9,6 +9,8 @@ namespace RPG::GameCore { class DifficultyAdjustmentStageRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DifficultyAdjustmentStageRow_TypeDefinitionIndex = 15174;
+
 	class DifficultyAdjustmentStageRow : public ::System::Object
 	{
 	public:

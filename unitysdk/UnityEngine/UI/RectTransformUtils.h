@@ -13,6 +13,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace UnityEngine::UI
 {
+	inline static constexpr unsigned int RectTransformUtils_TypeDefinitionIndex = 6810;
+
 	class RectTransformUtils : public ::System::Object
 	{
 	public:

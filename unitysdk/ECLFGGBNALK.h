@@ -7,6 +7,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define ECLFGGBNALK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x12D12A80)
 #define ECLFGGBNALK_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x12D12BF0)
 
+inline static constexpr unsigned int ECLFGGBNALK_TypeDefinitionIndex = 53651;
+
 	class ECLFGGBNALK
 	{
 	public:

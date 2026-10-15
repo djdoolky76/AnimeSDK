@@ -15,6 +15,8 @@ namespace UnityEngine { class TextMesh; }
 #define SIMPLEACTIONEXAMPLE_START_OFFSET UNITYSDK_OFFSET(0x16758070)
 #define SIMPLEACTIONEXAMPLE_TIMEPRESSED_OFFSET UNITYSDK_OFFSET(0x16758270)
 
+inline static constexpr unsigned int SimpleActionExample_TypeDefinitionIndex = 40243;
+
 	class SimpleActionExample : public ::UnityEngine::MonoBehaviour
 	{
 	public:

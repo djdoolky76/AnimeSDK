@@ -7,6 +7,8 @@ class JEFCCHAPOLA;
 #define GJEMBJDCAPG_CTOR_OFFSET UNITYSDK_OFFSET(0x15A64D10)
 #define GJEMBJDCAPG_EQUALS_OFFSET UNITYSDK_OFFSET(0x15A64C50)
 
+inline static constexpr unsigned int GJEMBJDCAPG_TypeDefinitionIndex = 54275;
+
 	class GJEMBJDCAPG : public ::System::Object
 	{
 	public:

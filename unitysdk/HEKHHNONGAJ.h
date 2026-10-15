@@ -17,6 +17,8 @@ namespace Sofa::Core { class SimpleCommand; }
 #define HEKHHNONGAJ__GET_ADDTABCOMMAND_B__9_0_OFFSET UNITYSDK_OFFSET(0x15C59450)
 #define HEKHHNONGAJ__GET_REMOVETABCOMMAND_B__12_0_OFFSET UNITYSDK_OFFSET(0x15C59540)
 
+inline static constexpr unsigned int HEKHHNONGAJ_TypeDefinitionIndex = 73467;
+
 	class HEKHHNONGAJ : public ::System::Object
 	{
 	public:

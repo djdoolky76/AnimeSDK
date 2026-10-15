@@ -8,6 +8,8 @@
 
 namespace System::Net::NetworkInformation
 {
+	inline static constexpr unsigned int Win32NetworkInterface_TypeDefinitionIndex = 2963;
+
 	class Win32NetworkInterface : public ::System::Object
 	{
 	public:

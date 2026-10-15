@@ -47,6 +47,8 @@ namespace System { class String; }
 #define JPDFANKBJNO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E7CFC70)
 #define JPDFANKBJNO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E7CFCD0)
 
+inline static constexpr unsigned int JPDFANKBJNO_TypeDefinitionIndex = 27935;
+
 	class JPDFANKBJNO : public ::System::Object
 	{
 	public:

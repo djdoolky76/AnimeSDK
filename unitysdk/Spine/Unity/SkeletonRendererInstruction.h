@@ -15,6 +15,8 @@ namespace Spine::Unity { class SkeletonRendererInstruction; }
 
 namespace Spine::Unity
 {
+	inline static constexpr unsigned int SkeletonRendererInstruction_TypeDefinitionIndex = 45085;
+
 	class SkeletonRendererInstruction : public ::System::Object
 	{
 	public:

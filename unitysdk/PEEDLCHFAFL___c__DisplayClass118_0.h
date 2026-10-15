@@ -6,6 +6,8 @@ namespace RPG::GameCore { class FiveDimAvatarConfig; }
 #define PEEDLCHFAFL___C__DISPLAYCLASS118_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9BB7C0)
 #define PEEDLCHFAFL___C__DISPLAYCLASS118_0__CREATEPHANTOMPLAYERVIEW_B__0_OFFSET UNITYSDK_OFFSET(0x1C9E7680)
 
+inline static constexpr unsigned int PEEDLCHFAFL___c__DisplayClass118_0_TypeDefinitionIndex = 43595;
+
 	class PEEDLCHFAFL___c__DisplayClass118_0 : public ::System::Object
 	{
 	public:

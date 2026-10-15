@@ -17,6 +17,8 @@ namespace RPG::GameCore { class AbilityMaxSpecialSPChange; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AbilityMaxSpecialSPChange_TypeDefinitionIndex = 56567;
+
 	class AbilityMaxSpecialSPChange : public ::CMPGEAFHHDC
 	{
 	public:

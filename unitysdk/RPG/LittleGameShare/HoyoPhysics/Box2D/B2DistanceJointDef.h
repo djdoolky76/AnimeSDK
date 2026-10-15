@@ -4,6 +4,8 @@
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
+	inline static constexpr unsigned int B2DistanceJointDef_TypeDefinitionIndex = 36659;
+
 	struct alignas(4) B2DistanceJointDef
 	{
 		::RPG::LittleGameShare::HoyoPhysics::Box2D::B2JointDef base; // 0x10

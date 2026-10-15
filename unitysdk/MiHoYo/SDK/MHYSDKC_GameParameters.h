@@ -4,6 +4,8 @@
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int MHYSDKC_GameParameters_TypeDefinitionIndex = 46192;
+
 	class MHYSDKC_GameParameters : public ::System::Object
 	{
 	public:

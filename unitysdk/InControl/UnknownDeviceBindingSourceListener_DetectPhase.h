@@ -3,6 +3,8 @@
 
 namespace InControl
 {
+	inline static constexpr unsigned int UnknownDeviceBindingSourceListener_DetectPhase_TypeDefinitionIndex = 40812;
+
 	enum class UnknownDeviceBindingSourceListener_DetectPhase : ::System::Int32
 	{
 		WaitForInitialRelease = 0,

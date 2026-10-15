@@ -7,6 +7,8 @@
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int ProcessMemory_TypeDefinitionIndex = 7947;
+
 	class ProcessMemory : public ::System::Object
 	{
 	public:

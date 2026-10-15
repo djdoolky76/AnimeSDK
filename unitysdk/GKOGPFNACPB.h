@@ -9,6 +9,8 @@
 #define GKOGPFNACPB_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x15AA8430)
 #define GKOGPFNACPB_JAILHGGFLDH_OFFSET UNITYSDK_OFFSET(0x15AA8440)
 
+inline static constexpr unsigned int GKOGPFNACPB_TypeDefinitionIndex = 56156;
+
 	class GKOGPFNACPB : public ::DBGDNLLDPFI
 	{
 	public:

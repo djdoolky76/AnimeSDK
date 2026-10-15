@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define BBGBCENMNGA_OEPMOCIMANP_OFFSET UNITYSDK_OFFSET(0x15E87F30)
 #define BBGBCENMNGA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15E87840)
 
+inline static constexpr unsigned int BBGBCENMNGA_TypeDefinitionIndex = 53002;
+
 	class BBGBCENMNGA
 	{
 	public:

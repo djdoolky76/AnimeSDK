@@ -23,6 +23,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::UINavigation
 {
+	inline static constexpr unsigned int UINavigationLoopListViewExtension_TypeDefinitionIndex = 51725;
+
 	class UINavigationLoopListViewExtension : public ::RPG::UINavigation::UINavigationExtension
 	{
 	public:

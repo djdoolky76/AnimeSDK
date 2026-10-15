@@ -11,6 +11,8 @@ namespace RPG::GameCore { class PingPongTransformCmptConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PingPongTransformCmptConfig_TypeDefinitionIndex = 18932;
+
 	class PingPongTransformCmptConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
 	public:

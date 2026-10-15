@@ -8,6 +8,8 @@ namespace UnityEngine { class RectTransform; }
 #define UIMOVEANIMATION_LATEUPDATE_OFFSET UNITYSDK_OFFSET(0xE9E5B90)
 #define UIMOVEANIMATION_START_OFFSET UNITYSDK_OFFSET(0xE9E59D0)
 
+inline static constexpr unsigned int UIMoveAnimation_TypeDefinitionIndex = 47283;
+
 	class UIMoveAnimation : public ::UnityEngine::MonoBehaviour
 	{
 	public:

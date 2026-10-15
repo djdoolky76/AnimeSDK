@@ -31,6 +31,8 @@ namespace System { class String; }
 #define GKFGIMIBBHF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E4B1270)
 #define GKFGIMIBBHF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E4B12D0)
 
+inline static constexpr unsigned int GKFGIMIBBHF_TypeDefinitionIndex = 33228;
+
 	class GKFGIMIBBHF : public ::System::Object
 	{
 	public:

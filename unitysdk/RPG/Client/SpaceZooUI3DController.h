@@ -24,6 +24,8 @@ namespace UnityEngine { class Texture2D; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SpaceZooUI3DController_TypeDefinitionIndex = 72993;
+
 	class SpaceZooUI3DController : public ::UnityEngine::MonoBehaviour
 	{
 	public:

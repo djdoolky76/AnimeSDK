@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define ENFCFMOFDHA_CTOR_OFFSET UNITYSDK_OFFSET(0x155AA6F0)
 #define ENFCFMOFDHA_EVALUATE_OFFSET UNITYSDK_OFFSET(0x155AA720)
 
+inline static constexpr unsigned int ENFCFMOFDHA_TypeDefinitionIndex = 54684;
+
 	class ENFCFMOFDHA
 	{
 	public:

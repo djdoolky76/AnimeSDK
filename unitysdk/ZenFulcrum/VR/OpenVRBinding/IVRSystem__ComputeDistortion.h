@@ -14,6 +14,8 @@ namespace System { class Object; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int IVRSystem__ComputeDistortion_TypeDefinitionIndex = 38893;
+
 	class IVRSystem__ComputeDistortion : public ::System::MulticastDelegate
 	{
 	public:

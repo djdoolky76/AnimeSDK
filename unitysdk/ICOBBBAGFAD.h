@@ -6,6 +6,8 @@
 #define ICOBBBAGFAD_CTOR_OFFSET UNITYSDK_OFFSET(0x15E5D530)
 #define ICOBBBAGFAD_GNADABFLEFM_OFFSET UNITYSDK_OFFSET(0x15E5D4B0)
 
+inline static constexpr unsigned int ICOBBBAGFAD_TypeDefinitionIndex = 64928;
+
 	class ICOBBBAGFAD : public ::HBIAKFCLCIG
 	{
 	public:

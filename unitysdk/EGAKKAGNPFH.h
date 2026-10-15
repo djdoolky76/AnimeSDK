@@ -40,6 +40,8 @@ namespace System { class String; }
 #define EGAKKAGNPFH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E291C70)
 #define EGAKKAGNPFH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E291CD0)
 
+inline static constexpr unsigned int EGAKKAGNPFH_TypeDefinitionIndex = 28229;
+
 	class EGAKKAGNPFH : public ::System::Object
 	{
 	public:

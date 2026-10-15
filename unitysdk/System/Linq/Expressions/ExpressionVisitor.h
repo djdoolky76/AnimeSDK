@@ -56,6 +56,8 @@ namespace System::Linq::Expressions { class UnaryExpression; }
 
 namespace System::Linq::Expressions
 {
+	inline static constexpr unsigned int ExpressionVisitor_TypeDefinitionIndex = 3220;
+
 	class ExpressionVisitor : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Scene_InstanceArrayMonoPlugin_ExternalTransformInput_TypeDefinitionIndex = 70858;
+
 	struct alignas(8) Scene_InstanceArrayMonoPlugin_ExternalTransformInput
 	{
 		::UnityEngine::Matrix4x4 WorldMatrix; // 0x10

@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TerrainDeformationReceiverMonoPlugin_DeformationLayerSettings_TypeDefinitionIndex = 71033;
+
 	struct alignas(4) TerrainDeformationReceiverMonoPlugin_DeformationLayerSettings
 	{
 		::System::Single TerrainLayerRiseScale; // 0x10

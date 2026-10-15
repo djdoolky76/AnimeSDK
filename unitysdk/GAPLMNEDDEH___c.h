@@ -9,6 +9,8 @@ namespace System { class Object; }
 #define GAPLMNEDDEH___C___CCTOR_B__2_0_OFFSET UNITYSDK_OFFSET(0x15944EA0)
 #define GAPLMNEDDEH___C___CCTOR_B__2_1_OFFSET UNITYSDK_OFFSET(0x15945140)
 
+inline static constexpr unsigned int GAPLMNEDDEH___c_TypeDefinitionIndex = 49769;
+
 	class GAPLMNEDDEH___c : public ::System::Object
 	{
 	public:

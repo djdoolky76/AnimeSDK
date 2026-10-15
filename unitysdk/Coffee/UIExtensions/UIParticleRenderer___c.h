@@ -13,6 +13,8 @@ namespace UnityEngine { class Texture; }
 
 namespace Coffee::UIExtensions
 {
+	inline static constexpr unsigned int UIParticleRenderer___c_TypeDefinitionIndex = 45161;
+
 	class UIParticleRenderer___c : public ::System::Object
 	{
 	public:

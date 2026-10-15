@@ -12,6 +12,8 @@ namespace UnityEngine { class Component; }
 #define IGIHJMJPCAJ_IHOIDNEEMKC_OFFSET UNITYSDK_OFFSET(0x1640F770)
 #define IGIHJMJPCAJ_MPFKCHHCIMO_OFFSET UNITYSDK_OFFSET(0x1640F630)
 
+inline static constexpr unsigned int IGIHJMJPCAJ_TypeDefinitionIndex = 65958;
+
 	class IGIHJMJPCAJ : public ::System::Object
 	{
 	public:

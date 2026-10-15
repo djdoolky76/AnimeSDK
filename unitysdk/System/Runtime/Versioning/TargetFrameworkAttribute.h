@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace System::Runtime::Versioning
 {
+	inline static constexpr unsigned int TargetFrameworkAttribute_TypeDefinitionIndex = 1092;
+
 	class TargetFrameworkAttribute : public ::System::Attribute
 	{
 	public:

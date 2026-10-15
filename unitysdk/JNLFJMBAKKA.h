@@ -22,6 +22,8 @@ namespace System { class Object; }
 #define JNLFJMBAKKA_NGDKEIOBLMN_OFFSET UNITYSDK_OFFSET(0xB28B290)
 #define JNLFJMBAKKA_NGJJAEEADPN_OFFSET UNITYSDK_OFFSET(0xB28B910)
 
+inline static constexpr unsigned int JNLFJMBAKKA_TypeDefinitionIndex = 79530;
+
 	class JNLFJMBAKKA : public ::System::Object
 	{
 	public:

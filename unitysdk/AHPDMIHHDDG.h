@@ -46,6 +46,8 @@ namespace Entitas { template <typename T> class IMatcher_1; }
 #define AHPDMIHHDDG_OFCEIEJIHBF_OFFSET UNITYSDK_OFFSET(0x1C589640)
 #define AHPDMIHHDDG_ONFLAHNAHKF_OFFSET UNITYSDK_OFFSET(0x1C589E50)
 
+inline static constexpr unsigned int AHPDMIHHDDG_TypeDefinitionIndex = 37022;
+
 	class AHPDMIHHDDG : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace RPG::GameCore { class ChimeraBattlePostEvent; }
 #define MHCGPDHFBDE_KMFNKDMEJBC_OFFSET UNITYSDK_OFFSET(0xB92FDD0)
 #define MHCGPDHFBDE_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0xB92FE10)
 
+inline static constexpr unsigned int MHCGPDHFBDE_TypeDefinitionIndex = 78402;
+
 	class MHCGPDHFBDE : public ::System::Object
 	{
 	public:

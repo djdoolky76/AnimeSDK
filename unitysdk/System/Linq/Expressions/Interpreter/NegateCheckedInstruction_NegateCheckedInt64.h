@@ -8,6 +8,8 @@ namespace System::Linq::Expressions::Interpreter { class InterpretedFrame; }
 
 namespace System::Linq::Expressions::Interpreter
 {
+	inline static constexpr unsigned int NegateCheckedInstruction_NegateCheckedInt64_TypeDefinitionIndex = 3557;
+
 	class NegateCheckedInstruction_NegateCheckedInt64 : public ::System::Linq::Expressions::Interpreter::NegateCheckedInstruction
 	{
 	public:

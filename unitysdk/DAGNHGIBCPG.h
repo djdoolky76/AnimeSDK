@@ -30,6 +30,8 @@ namespace System { class String; }
 #define DAGNHGIBCPG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E151EC0)
 #define DAGNHGIBCPG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E151F20)
 
+inline static constexpr unsigned int DAGNHGIBCPG_TypeDefinitionIndex = 27851;
+
 	class DAGNHGIBCPG : public ::System::Object
 	{
 	public:

@@ -5,6 +5,8 @@ namespace Entitas { class IEntity; }
 
 #define OPIEELJKGKM_BFGOLGGEKOD_OFFSET UNITYSDK_OFFSET(0x1C7E6020)
 
+inline static constexpr unsigned int OPIEELJKGKM_TypeDefinitionIndex = 37012;
+
 	class OPIEELJKGKM : public ::System::Object
 	{
 	public:

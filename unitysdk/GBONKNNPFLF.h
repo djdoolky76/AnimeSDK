@@ -31,6 +31,8 @@ namespace UnityEngine { class AnimationCurve; }
 #define GBONKNNPFLF_PJKOOCKDNPG_1_OFFSET UNITYSDK_OFFSET(0x2E797A0)
 #define GBONKNNPFLF_PJKOOCKDNPG_OFFSET UNITYSDK_OFFSET(0x2E79700)
 
+inline static constexpr unsigned int GBONKNNPFLF_TypeDefinitionIndex = 68498;
+
 	struct alignas(8) GBONKNNPFLF
 	{
 		::PKIIEFHDOKD* IAGCBGNDEAD; // 0x10

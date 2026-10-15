@@ -58,6 +58,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::NavMap
 {
+	inline static constexpr unsigned int UniverseData_TypeDefinitionIndex = 74634;
+
 	class UniverseData : public ::System::Object
 	{
 	public:

@@ -13,6 +13,8 @@ namespace UnityEngine { class Transform; }
 #define FIMPMCCMPPE_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x157AE390)
 #define FIMPMCCMPPE_TICK_OFFSET UNITYSDK_OFFSET(0x157AE3E0)
 
+inline static constexpr unsigned int FIMPMCCMPPE_TypeDefinitionIndex = 58936;
+
 	class FIMPMCCMPPE : public ::GELIALJDFBL
 	{
 	public:

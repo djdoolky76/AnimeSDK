@@ -4,6 +4,8 @@
 class KMGAJHEGPDG;
 namespace RPG::Client::RedDot { template <typename T> class RedDotViewModel_1; }
 
+inline static constexpr unsigned int GJMFKJEILKJ__RedDotKeyInstanceKeyBindingOperation_2___c__DisplayClass2_0_TypeDefinitionIndex = 79187;
+
 	template <typename T1, typename T2>
 	class GJMFKJEILKJ__RedDotKeyInstanceKeyBindingOperation_2___c__DisplayClass2_0 : public ::System::Object
 	{

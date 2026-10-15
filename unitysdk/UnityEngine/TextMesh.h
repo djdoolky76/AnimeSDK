@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int TextMesh_TypeDefinitionIndex = 5051;
+
 	class TextMesh : public ::UnityEngine::Component
 	{
 	public:

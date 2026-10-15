@@ -9,6 +9,8 @@ namespace RPG::GameCore { class TutorialGuideShowConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TutorialGuideShowConfig_TypeDefinitionIndex = 24326;
+
 	class TutorialGuideShowConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

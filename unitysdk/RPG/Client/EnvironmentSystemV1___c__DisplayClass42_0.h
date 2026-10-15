@@ -9,6 +9,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int EnvironmentSystemV1___c__DisplayClass42_0_TypeDefinitionIndex = 69787;
+
 	class EnvironmentSystemV1___c__DisplayClass42_0 : public ::System::Object
 	{
 	public:

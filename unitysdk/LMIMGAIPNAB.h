@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define LMIMGAIPNAB_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB7C9BE0)
 #define LMIMGAIPNAB_TICK_OFFSET UNITYSDK_OFFSET(0xB7C9C30)
 
+inline static constexpr unsigned int LMIMGAIPNAB_TypeDefinitionIndex = 55218;
+
 	class LMIMGAIPNAB : public ::GELIALJDFBL
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ST_Main_ElfWaiterTimeOverPerform; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ST_Main_ElfWaiterTimeOverPerform_TypeDefinitionIndex = 21525;
+
 	class ST_Main_ElfWaiterTimeOverPerform : public ::RPG::GameCore::STTaskConfig
 	{
 	public:

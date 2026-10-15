@@ -6,6 +6,8 @@ namespace RPG::GameCore { class FiveDimPressureSwitchConfig; }
 
 #define KKDBNPKMLBG_CTOR_OFFSET UNITYSDK_OFFSET(0x1C906DC0)
 
+inline static constexpr unsigned int KKDBNPKMLBG_TypeDefinitionIndex = 43464;
+
 	class KKDBNPKMLBG : public ::System::Object
 	{
 	public:

@@ -56,6 +56,8 @@ namespace RPG::GameCore { class GridFightParameterConfigBase; }
 #define PPAPPHKCKMG_PLMPBNAEIGN_OFFSET UNITYSDK_OFFSET(0x1D317440)
 #define PPAPPHKCKMG_POMEKLECEMK_OFFSET UNITYSDK_OFFSET(0x1D317600)
 
+inline static constexpr unsigned int PPAPPHKCKMG_TypeDefinitionIndex = 19503;
+
 	class PPAPPHKCKMG : public ::System::Object
 	{
 	public:

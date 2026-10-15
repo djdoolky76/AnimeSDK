@@ -6,6 +6,8 @@ class PDPIHJEBAEC;
 #define MCGBNCFAFAL_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C924C30)
 #define MCGBNCFAFAL_CTOR_OFFSET UNITYSDK_OFFSET(0x1C924C90)
 
+inline static constexpr unsigned int MCGBNCFAFAL_TypeDefinitionIndex = 43372;
+
 	class MCGBNCFAFAL : public ::System::Object
 	{
 	public:

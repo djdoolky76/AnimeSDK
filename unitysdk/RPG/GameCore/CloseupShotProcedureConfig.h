@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CloseupShotProcedureConfig_TypeDefinitionIndex = 16413;
+
 	class CloseupShotProcedureConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

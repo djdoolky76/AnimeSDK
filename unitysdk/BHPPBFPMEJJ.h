@@ -6,6 +6,8 @@ class PBOFFJNBFMI;
 #define BHPPBFPMEJJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8BAE00)
 #define BHPPBFPMEJJ_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0x1C8BAE10)
 
+inline static constexpr unsigned int BHPPBFPMEJJ_TypeDefinitionIndex = 42202;
+
 	class BHPPBFPMEJJ : public ::CKFDNGOHNPC
 	{
 	public:

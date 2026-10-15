@@ -11,6 +11,8 @@ namespace UnityEngine { class GameObject; }
 #define BDDMPFNKHEI_OHPIOECALAI_OFFSET UNITYSDK_OFFSET(0x162F33D0)
 #define BDDMPFNKHEI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x162F2BE0)
 
+inline static constexpr unsigned int BDDMPFNKHEI_TypeDefinitionIndex = 58319;
+
 	class BDDMPFNKHEI
 	{
 	public:

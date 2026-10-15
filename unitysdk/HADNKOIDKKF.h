@@ -7,6 +7,8 @@ class HADNKOIDKKF;
 #define HADNKOIDKKF_CTOR_OFFSET UNITYSDK_OFFSET(0x1CE7C440)
 #define HADNKOIDKKF_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CE7C350)
 
+inline static constexpr unsigned int HADNKOIDKKF_TypeDefinitionIndex = 14878;
+
 	class HADNKOIDKKF : public ::System::Object
 	{
 	public:

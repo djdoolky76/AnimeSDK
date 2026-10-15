@@ -3,6 +3,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int jvalue_TypeDefinitionIndex = 5685;
+
 	struct alignas(4) jvalue
 	{
 		::System::Boolean z; // 0x10

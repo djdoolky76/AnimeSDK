@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TurnBasedModifierInstance; }
 
 #define GGAJMBMDHBP_LJBCDJNNBJH_OFFSET UNITYSDK_OFFSET(0x2E7B480)
 
+inline static constexpr unsigned int GGAJMBMDHBP_TypeDefinitionIndex = 56239;
+
 	struct alignas(8) GGAJMBMDHBP
 	{
 		::RPG::GameCore::TurnBasedModifierInstance* ILIIOLJMKME; // 0x10

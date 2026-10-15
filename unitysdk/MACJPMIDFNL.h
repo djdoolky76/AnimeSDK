@@ -27,6 +27,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define MACJPMIDFNL_PJMLDMJDHMA_OFFSET UNITYSDK_OFFSET(0xB841160)
 #define MACJPMIDFNL_PLGNLKALBNN_OFFSET UNITYSDK_OFFSET(0xB840480)
 
+inline static constexpr unsigned int MACJPMIDFNL_TypeDefinitionIndex = 64240;
+
 	class MACJPMIDFNL : public ::System::Object
 	{
 	public:

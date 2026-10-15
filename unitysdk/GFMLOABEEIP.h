@@ -4,6 +4,8 @@
 
 #define GFMLOABEEIP_CTOR_OFFSET UNITYSDK_OFFSET(0x1DD5DB60)
 
+inline static constexpr unsigned int GFMLOABEEIP_TypeDefinitionIndex = 6548;
+
 	class GFMLOABEEIP : public ::System::Object
 	{
 	public:

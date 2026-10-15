@@ -68,6 +68,8 @@ namespace UnityEngine { class Rigidbody; }
 
 namespace Spine::Unity
 {
+	inline static constexpr unsigned int SkeletonRootMotionBase_TypeDefinitionIndex = 45022;
+
 	class SkeletonRootMotionBase : public ::UnityEngine::MonoBehaviour
 	{
 	public:

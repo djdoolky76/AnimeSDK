@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightUnlockTraitMember_TypeDefinitionIndex = 65035;
+
 	class GridFightUnlockTraitMember : public ::RPG::Client::GridFightGameModifier
 	{
 	public:

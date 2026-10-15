@@ -10,6 +10,8 @@ namespace RPG::GameCore { class SetDynamicValueByItemNum; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetDynamicValueByItemNum_TypeDefinitionIndex = 21767;
+
 	class SetDynamicValueByItemNum : public ::RPG::GameCore::TaskConfig
 	{
 	public:

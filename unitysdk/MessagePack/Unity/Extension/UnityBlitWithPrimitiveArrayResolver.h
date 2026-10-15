@@ -8,6 +8,8 @@ namespace MessagePack::Unity::Extension { class UnityBlitWithPrimitiveArrayResol
 
 namespace MessagePack::Unity::Extension
 {
+	inline static constexpr unsigned int UnityBlitWithPrimitiveArrayResolver_TypeDefinitionIndex = 10149;
+
 	class UnityBlitWithPrimitiveArrayResolver : public ::System::Object
 	{
 	public:

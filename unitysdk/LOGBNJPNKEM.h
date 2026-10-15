@@ -54,6 +54,8 @@ namespace System { class Object; }
 #define LOGBNJPNKEM_SET_MODIFYSPEEDUPREGIONSCORE_OFFSET UNITYSDK_OFFSET(0xB801EB0)
 #define LOGBNJPNKEM_SET_MODIFYSWITCHROADSCORE_OFFSET UNITYSDK_OFFSET(0xB801E70)
 
+inline static constexpr unsigned int LOGBNJPNKEM_TypeDefinitionIndex = 74170;
+
 	class LOGBNJPNKEM : public ::System::Object
 	{
 	public:

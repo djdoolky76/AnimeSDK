@@ -9,6 +9,8 @@ namespace RPG::Client::Prop { class AreaEdge; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int ChaseBailuConfig_TypeDefinitionIndex = 78220;
+
 	class ChaseBailuConfig : public ::UnityEngine::MonoBehaviour
 	{
 	public:

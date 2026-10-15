@@ -9,6 +9,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define LBAEJFBAEMP_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB5E9DF0)
 #define LBAEJFBAEMP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB5E9FF0)
 
+inline static constexpr unsigned int LBAEJFBAEMP_TypeDefinitionIndex = 55298;
+
 	class LBAEJFBAEMP
 	{
 	public:

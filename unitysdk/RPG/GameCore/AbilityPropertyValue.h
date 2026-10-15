@@ -11,6 +11,8 @@ namespace RPG::GameCore { class AbilityPropertyValue; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AbilityPropertyValue_TypeDefinitionIndex = 12756;
+
 	class AbilityPropertyValue : public ::System::Object
 	{
 	public:

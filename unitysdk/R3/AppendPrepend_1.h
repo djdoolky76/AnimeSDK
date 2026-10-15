@@ -4,6 +4,8 @@ namespace R3 { class Observable; }
 
 namespace R3
 {
+	inline static constexpr unsigned int AppendPrepend_1_TypeDefinitionIndex = 35931;
+
 	template <typename T>
 	class AppendPrepend_1
 	{

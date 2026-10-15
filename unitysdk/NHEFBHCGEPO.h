@@ -14,6 +14,8 @@ class HJNDPHEDAGM;
 #define NHEFBHCGEPO_LALKBMCFIHE_OFFSET UNITYSDK_OFFSET(0x1C965470)
 #define NHEFBHCGEPO_OMAPGIPNKBM_OFFSET UNITYSDK_OFFSET(0x1C964D20)
 
+inline static constexpr unsigned int NHEFBHCGEPO_TypeDefinitionIndex = 42210;
+
 	class NHEFBHCGEPO : public ::System::Object
 	{
 	public:

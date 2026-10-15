@@ -33,6 +33,8 @@ namespace System { class String; }
 #define JEEOPLLKEEH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E717480)
 #define JEEOPLLKEEH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E7174E0)
 
+inline static constexpr unsigned int JEEOPLLKEEH_TypeDefinitionIndex = 34287;
+
 	class JEEOPLLKEEH : public ::System::Object
 	{
 	public:

@@ -70,6 +70,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FixVec2_TypeDefinitionIndex = 9944;
+
 	struct alignas(4) FixVec2
 	{
 		::RPG::GameCore::FixPoint x; // 0x10

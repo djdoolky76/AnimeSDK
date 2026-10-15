@@ -5,6 +5,8 @@
 
 #define JDIDJHLDOMN_CTOR_OFFSET UNITYSDK_OFFSET(0x165B5840)
 
+inline static constexpr unsigned int JDIDJHLDOMN_TypeDefinitionIndex = 65952;
+
 	class JDIDJHLDOMN : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PropMoveToConfig_TypeDefinitionIndex = 68644;
+
 	class PropMoveToConfig : public ::UnityEngine::MonoBehaviour
 	{
 	public:

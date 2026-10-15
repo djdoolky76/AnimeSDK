@@ -18,6 +18,8 @@ namespace System { class Version; }
 #define OPIALPMFCLE_MGEOHCECPBG_OFFSET UNITYSDK_OFFSET(0xBFACA20)
 #define OPIALPMFCLE_PAPEOMCOAAB_OFFSET UNITYSDK_OFFSET(0xBFABC00)
 
+inline static constexpr unsigned int OPIALPMFCLE_TypeDefinitionIndex = 82251;
+
 	class OPIALPMFCLE : public ::System::Object
 	{
 	public:

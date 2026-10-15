@@ -6,6 +6,8 @@
 #define CGPILOEOBOJ_DISPOSE_OFFSET UNITYSDK_OFFSET(0xCC8D400)
 #define CGPILOEOBOJ_NINEHEEGBEG_OFFSET UNITYSDK_OFFSET(0xCC8D440)
 
+inline static constexpr unsigned int CGPILOEOBOJ_TypeDefinitionIndex = 54033;
+
 	class CGPILOEOBOJ : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

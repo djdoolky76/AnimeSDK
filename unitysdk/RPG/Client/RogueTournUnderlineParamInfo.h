@@ -17,6 +17,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueTournUnderlineParamInfo_TypeDefinitionIndex = 67877;
+
 	class RogueTournUnderlineParamInfo : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class String; }
 #define DDFLAIAOEKC_CLEAR_OFFSET UNITYSDK_OFFSET(0x1CA1BB70)
 #define DDFLAIAOEKC_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA1BC00)
 
+inline static constexpr unsigned int DDFLAIAOEKC_TypeDefinitionIndex = 43403;
+
 	class DDFLAIAOEKC : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace UnityEngine::Timeline { class TimelineClip; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int CharacterFloatingConfigTrack_TypeDefinitionIndex = 47953;
+
 	class CharacterFloatingConfigTrack : public ::RPGTools::Timeline::CharacterTrack
 	{
 	public:

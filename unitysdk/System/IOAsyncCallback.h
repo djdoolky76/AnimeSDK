@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace System
 {
+	inline static constexpr unsigned int IOAsyncCallback_TypeDefinitionIndex = 2487;
+
 	class IOAsyncCallback : public ::System::MulticastDelegate
 	{
 	public:

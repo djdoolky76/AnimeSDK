@@ -29,6 +29,8 @@ class PDMBLCALNPD;
 #define HFBJCGFABAO_SET_OVERLAP_OFFSET UNITYSDK_OFFSET(0x15C69850)
 #define HFBJCGFABAO_SET_TRAITS_OFFSET UNITYSDK_OFFSET(0x15C697D0)
 
+inline static constexpr unsigned int HFBJCGFABAO_TypeDefinitionIndex = 79582;
+
 	class HFBJCGFABAO : public ::System::Object
 	{
 	public:

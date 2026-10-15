@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define HJFPCBCMKJP_MNDMOLBCKBI_OFFSET UNITYSDK_OFFSET(0x15D215F0)
 #define HJFPCBCMKJP_TICK_OFFSET UNITYSDK_OFFSET(0x15D20760)
 
+inline static constexpr unsigned int HJFPCBCMKJP_TypeDefinitionIndex = 68284;
+
 	class HJFPCBCMKJP : public ::System::Object
 	{
 	public:

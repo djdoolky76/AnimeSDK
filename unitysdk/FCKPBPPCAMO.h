@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define FCKPBPPCAMO_CTOR_OFFSET UNITYSDK_OFFSET(0x156CAB00)
 #define FCKPBPPCAMO_EVALUATE_OFFSET UNITYSDK_OFFSET(0x156CAB30)
 
+inline static constexpr unsigned int FCKPBPPCAMO_TypeDefinitionIndex = 53922;
+
 	class FCKPBPPCAMO
 	{
 	public:

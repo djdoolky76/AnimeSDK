@@ -7,6 +7,8 @@ namespace System { class String; }
 #define IGEHGPIAFNF_DJEGIFFHCBJ_OFFSET UNITYSDK_OFFSET(0x1640AB30)
 #define IGEHGPIAFNF_JCHCJACPHOD_OFFSET UNITYSDK_OFFSET(0x1640A710)
 
+inline static constexpr unsigned int IGEHGPIAFNF_TypeDefinitionIndex = 61236;
+
 	class IGEHGPIAFNF : public ::System::Object
 	{
 	public:

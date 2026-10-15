@@ -14,6 +14,8 @@ namespace System::Xml { class XmlNameTable; }
 
 namespace System::Xml::XPath
 {
+	inline static constexpr unsigned int XPathDocument_TypeDefinitionIndex = 1973;
+
 	class XPathDocument : public ::System::Object
 	{
 	public:

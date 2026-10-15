@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvNpcPatrolStatus_TypeDefinitionIndex = 52433;
+
 	enum class AdvNpcPatrolStatus : ::System::Int32
 	{
 		Walking = 0,

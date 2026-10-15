@@ -10,6 +10,8 @@ namespace System::Text::RegularExpressions { class RegexRunner; }
 
 namespace System::Text::RegularExpressions
 {
+	inline static constexpr unsigned int ExclusiveReference_TypeDefinitionIndex = 2500;
+
 	class ExclusiveReference : public ::System::Object
 	{
 	public:

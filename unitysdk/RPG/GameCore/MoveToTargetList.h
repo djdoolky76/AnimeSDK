@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MoveToTargetList_TypeDefinitionIndex = 22463;
+
 	class MoveToTargetList : public ::RPG::GameCore::TaskConfig
 	{
 	public:

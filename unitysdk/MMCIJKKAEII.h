@@ -32,6 +32,8 @@ namespace System { class String; }
 #define MMCIJKKAEII_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA8B340)
 #define MMCIJKKAEII_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA8B3A0)
 
+inline static constexpr unsigned int MMCIJKKAEII_TypeDefinitionIndex = 28514;
+
 	class MMCIJKKAEII : public ::System::Object
 	{
 	public:

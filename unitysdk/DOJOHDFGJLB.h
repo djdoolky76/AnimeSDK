@@ -45,6 +45,8 @@ namespace System { class String; }
 #define DOJOHDFGJLB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E203630)
 #define DOJOHDFGJLB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E203690)
 
+inline static constexpr unsigned int DOJOHDFGJLB_TypeDefinitionIndex = 29872;
+
 	class DOJOHDFGJLB : public ::System::Object
 	{
 	public:

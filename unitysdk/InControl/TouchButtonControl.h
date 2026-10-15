@@ -33,6 +33,8 @@ namespace InControl { class TouchSprite; }
 
 namespace InControl
 {
+	inline static constexpr unsigned int TouchButtonControl_TypeDefinitionIndex = 40875;
+
 	class TouchButtonControl : public ::InControl::TouchControl
 	{
 	public:

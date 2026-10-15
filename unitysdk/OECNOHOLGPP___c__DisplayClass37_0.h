@@ -8,6 +8,8 @@
 #define OECNOHOLGPP___C__DISPLAYCLASS37_0__ROTATECLOCKWISE_B__0_OFFSET UNITYSDK_OFFSET(0x1C578220)
 #define OECNOHOLGPP___C__DISPLAYCLASS37_0__ROTATECLOCKWISE_B__1_OFFSET UNITYSDK_OFFSET(0x1C578240)
 
+inline static constexpr unsigned int OECNOHOLGPP___c__DisplayClass37_0_TypeDefinitionIndex = 41797;
+
 	class OECNOHOLGPP___c__DisplayClass37_0 : public ::System::Object
 	{
 	public:

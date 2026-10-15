@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace Mono::Xml
 {
+	inline static constexpr unsigned int SmallXmlParser_AttrListImpl_TypeDefinitionIndex = 27;
+
 	class SmallXmlParser_AttrListImpl : public ::System::Object
 	{
 	public:

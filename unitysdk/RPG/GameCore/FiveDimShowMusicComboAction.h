@@ -11,6 +11,8 @@ namespace RPG::GameCore { class FiveDimShowMusicComboAction; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimShowMusicComboAction_TypeDefinitionIndex = 18712;
+
 	class FiveDimShowMusicComboAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
 	public:

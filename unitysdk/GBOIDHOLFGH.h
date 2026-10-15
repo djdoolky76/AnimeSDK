@@ -27,6 +27,8 @@ namespace System { class String; }
 #define GBOIDHOLFGH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E433CB0)
 #define GBOIDHOLFGH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E433D10)
 
+inline static constexpr unsigned int GBOIDHOLFGH_TypeDefinitionIndex = 28390;
+
 	class GBOIDHOLFGH : public ::System::Object
 	{
 	public:

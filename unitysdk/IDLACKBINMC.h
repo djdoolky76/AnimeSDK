@@ -29,6 +29,8 @@ namespace System { class String; }
 #define IDLACKBINMC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E62F800)
 #define IDLACKBINMC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E62F860)
 
+inline static constexpr unsigned int IDLACKBINMC_TypeDefinitionIndex = 25237;
+
 	class IDLACKBINMC : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace RPG { template <typename T1, typename T2> class PoolDictionary_2; }
 #define KCMILMCIDIO_ONALLOC_OFFSET UNITYSDK_OFFSET(0x1CBB14D0)
 #define KCMILMCIDIO_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0x1CBB15B0)
 
+inline static constexpr unsigned int KCMILMCIDIO_TypeDefinitionIndex = 43269;
+
 	class KCMILMCIDIO : public ::System::Object
 	{
 	public:

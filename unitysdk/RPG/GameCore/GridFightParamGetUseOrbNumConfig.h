@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightParamGetUseOrbNumConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightParamGetUseOrbNumConfig_TypeDefinitionIndex = 19547;
+
 	class GridFightParamGetUseOrbNumConfig : public ::RPG::GameCore::GridFightParameterConfigBase
 	{
 	public:

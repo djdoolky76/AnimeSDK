@@ -3,6 +3,8 @@
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int MHYSDKC_Console_MemberType_TypeDefinitionIndex = 46162;
+
 	enum class MHYSDKC_Console_MemberType : ::System::Int32
 	{
 		Player = 0,

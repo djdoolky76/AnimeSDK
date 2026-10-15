@@ -6,6 +6,8 @@
 
 #define OFODGHAMPON_CTOR_OFFSET UNITYSDK_OFFSET(0xBE49FB0)
 
+inline static constexpr unsigned int OFODGHAMPON_TypeDefinitionIndex = 59860;
+
 	class OFODGHAMPON : public ::System::Object
 	{
 	public:

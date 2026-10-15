@@ -14,6 +14,8 @@ namespace RPG::GameCore { class AIPropertySelector; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AIPropertySelector_TypeDefinitionIndex = 15594;
+
 	class AIPropertySelector : public ::RPG::GameCore::AISelector
 	{
 	public:

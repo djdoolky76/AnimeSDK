@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PointEvaluatorByDistanceConfig_TypeDefinitionIndex = 15630;
+
 	class PointEvaluatorByDistanceConfig : public ::RPG::GameCore::PointEvaluatorConfig
 	{
 	public:

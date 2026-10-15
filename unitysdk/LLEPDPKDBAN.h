@@ -9,6 +9,8 @@ class PBGNKMMDBGD;
 #define LLEPDPKDBAN_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1C73CEB0)
 #define LLEPDPKDBAN_FINPIFMJJBM_OFFSET UNITYSDK_OFFSET(0x1C73FB10)
 
+inline static constexpr unsigned int LLEPDPKDBAN_TypeDefinitionIndex = 37442;
+
 	class LLEPDPKDBAN : public ::System::Object
 	{
 	public:

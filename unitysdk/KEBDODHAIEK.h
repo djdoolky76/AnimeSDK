@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define KEBDODHAIEK_PBLLPHDMGGO_OFFSET UNITYSDK_OFFSET(0xB370E30)
 #define KEBDODHAIEK_TICK_OFFSET UNITYSDK_OFFSET(0xB370ED0)
 
+inline static constexpr unsigned int KEBDODHAIEK_TypeDefinitionIndex = 56402;
+
 	class KEBDODHAIEK : public ::GELIALJDFBL
 	{
 	public:

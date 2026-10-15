@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int QRAppIcons_TypeDefinitionIndex = 7911;
+
 	class QRAppIcons : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace RPG::GameCore { class WaveMonsterPerform; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaveMonsterPerform_TypeDefinitionIndex = 23407;
+
 	class WaveMonsterPerform : public ::RPG::GameCore::TaskConfig
 	{
 	public:

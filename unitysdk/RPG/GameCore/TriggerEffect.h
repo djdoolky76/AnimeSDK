@@ -23,6 +23,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TriggerEffect_TypeDefinitionIndex = 20268;
+
 	class TriggerEffect : public ::RPG::GameCore::TaskConfig
 	{
 	public:

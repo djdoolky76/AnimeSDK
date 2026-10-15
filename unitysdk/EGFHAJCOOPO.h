@@ -71,6 +71,8 @@ namespace System { class Type; }
 #define EGFHAJCOOPO_PMFGLPONOJF_OFFSET UNITYSDK_OFFSET(0x14514410)
 #define EGFHAJCOOPO_PMGIPFJBDHA_OFFSET UNITYSDK_OFFSET(0x145152E0)
 
+inline static constexpr unsigned int EGFHAJCOOPO_TypeDefinitionIndex = 81743;
+
 	class EGFHAJCOOPO : public ::System::Object
 	{
 	public:

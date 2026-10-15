@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdaptEntityPosition_TypeDefinitionIndex = 20168;
+
 	class AdaptEntityPosition : public ::RPG::GameCore::TaskConfig
 	{
 	public:

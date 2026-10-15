@@ -9,6 +9,8 @@ namespace RPG::GameCore { class JsonEnum; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TalkModule___c__DisplayClass109_0_TypeDefinitionIndex = 68036;
+
 	class TalkModule___c__DisplayClass109_0 : public ::System::Object
 	{
 	public:

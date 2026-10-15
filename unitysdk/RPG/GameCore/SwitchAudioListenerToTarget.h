@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SwitchAudioListenerToTarget_TypeDefinitionIndex = 21900;
+
 	class SwitchAudioListenerToTarget : public ::RPG::GameCore::TaskConfig
 	{
 	public:

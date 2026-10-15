@@ -12,6 +12,8 @@ namespace RPG::GameCore { class VolumeDistanceMap; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int VolumeConfigV2_TypeDefinitionIndex = 19148;
+
 	class VolumeConfigV2 : public ::RPG::GameCore::JsonConfig
 	{
 	public:

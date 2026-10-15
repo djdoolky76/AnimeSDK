@@ -13,6 +13,8 @@ namespace UnityEngine { class Transform; }
 #define STAGEHARMONYFOLLOWTRANSFORMDEMODULATOR_GET_ISCUSTOMTRANSFORM_OFFSET UNITYSDK_OFFSET(0xE990FE0)
 #define STAGEHARMONYFOLLOWTRANSFORMDEMODULATOR_GET_MAINCAMTRANS_OFFSET UNITYSDK_OFFSET(0xE990FF0)
 
+inline static constexpr unsigned int StageHarmonyFollowTransformDemodulator_TypeDefinitionIndex = 47531;
+
 	class StageHarmonyFollowTransformDemodulator
 	{
 	public:

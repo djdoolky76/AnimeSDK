@@ -34,6 +34,8 @@ namespace System { class String; }
 #define HKCILGGEEFM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E5AE4A0)
 #define HKCILGGEEFM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E5AE500)
 
+inline static constexpr unsigned int HKCILGGEEFM_TypeDefinitionIndex = 28200;
+
 	class HKCILGGEEFM : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace UnityEngine::Audio
 {
+	inline static constexpr unsigned int AudioPlayableGraphExtensions_TypeDefinitionIndex = 5153;
+
 	class AudioPlayableGraphExtensions : public ::System::Object
 	{
 	public:

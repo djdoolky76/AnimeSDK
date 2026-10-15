@@ -39,6 +39,8 @@ namespace System { class String; }
 #define PMIEFBPDJEB_SET_ISRELEASEDONLYONCE_OFFSET UNITYSDK_OFFSET(0xC3204F0)
 #define PMIEFBPDJEB_SET_SKILLUID_OFFSET UNITYSDK_OFFSET(0xC320470)
 
+inline static constexpr unsigned int PMIEFBPDJEB_TypeDefinitionIndex = 77867;
+
 	class PMIEFBPDJEB : public ::System::Object
 	{
 	public:

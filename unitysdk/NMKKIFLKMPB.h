@@ -34,6 +34,8 @@ namespace System { class String; }
 #define NMKKIFLKMPB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB77C80)
 #define NMKKIFLKMPB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB77CE0)
 
+inline static constexpr unsigned int NMKKIFLKMPB_TypeDefinitionIndex = 27963;
+
 	class NMKKIFLKMPB : public ::System::Object
 	{
 	public:

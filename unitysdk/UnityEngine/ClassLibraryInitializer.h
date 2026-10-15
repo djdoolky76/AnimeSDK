@@ -6,6 +6,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int ClassLibraryInitializer_TypeDefinitionIndex = 4319;
+
 	class ClassLibraryInitializer : public ::System::Object
 	{
 	public:

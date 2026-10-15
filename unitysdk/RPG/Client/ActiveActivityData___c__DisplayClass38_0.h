@@ -8,6 +8,8 @@ namespace RPG::Client { class ActiveActivityBenefitData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ActiveActivityData___c__DisplayClass38_0_TypeDefinitionIndex = 61378;
+
 	class ActiveActivityData___c__DisplayClass38_0 : public ::System::Object
 	{
 	public:

@@ -13,6 +13,8 @@ namespace ZXing::QrCode::Internal { class Version; }
 
 namespace ZXing::QrCode::Internal
 {
+	inline static constexpr unsigned int Mode_TypeDefinitionIndex = 7040;
+
 	class Mode : public ::System::Object
 	{
 	public:

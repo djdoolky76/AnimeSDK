@@ -6,6 +6,8 @@ namespace System { class String; }
 
 #define DGKHJFLGOMO_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C5EC8E0)
 
+inline static constexpr unsigned int DGKHJFLGOMO_TypeDefinitionIndex = 37051;
+
 	class DGKHJFLGOMO : public ::System::Object
 	{
 	public:

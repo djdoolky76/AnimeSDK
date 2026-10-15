@@ -7,6 +7,8 @@
 
 namespace InControl::UnityDeviceProfiles
 {
+	inline static constexpr unsigned int GenericLinuxUnityProfile_TypeDefinitionIndex = 40996;
+
 	class GenericLinuxUnityProfile : public ::InControl::InputDeviceProfile
 	{
 	public:

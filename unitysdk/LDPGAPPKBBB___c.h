@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define LDPGAPPKBBB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E902520)
 #define LDPGAPPKBBB___C___CCTOR_B__53_0_OFFSET UNITYSDK_OFFSET(0x1E902530)
 
+inline static constexpr unsigned int LDPGAPPKBBB___c_TypeDefinitionIndex = 29088;
+
 	class LDPGAPPKBBB___c : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace UnityEngine { class WWWForm; }
 #define MCMJPGLJEAD_HPNALECGMKC_OFFSET UNITYSDK_OFFSET(0xB888730)
 #define MCMJPGLJEAD_JMBFEFDBFNK_OFFSET UNITYSDK_OFFSET(0xB8885D0)
 
+inline static constexpr unsigned int MCMJPGLJEAD_TypeDefinitionIndex = 49667;
+
 	class MCMJPGLJEAD : public ::System::Object
 	{
 	public:

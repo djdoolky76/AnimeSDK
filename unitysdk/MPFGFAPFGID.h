@@ -11,6 +11,8 @@ namespace RPG::Client { class ChallengeSnapshotAvatarProxy; }
 #define MPFGFAPFGID_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xBA3D500)
 #define MPFGFAPFGID_CTOR_OFFSET UNITYSDK_OFFSET(0xBA3D450)
 
+inline static constexpr unsigned int MPFGFAPFGID_TypeDefinitionIndex = 62547;
+
 	class MPFGFAPFGID : public ::System::Object
 	{
 	public:

@@ -16,6 +16,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AvatarDeadCountChallengeTargetData_TypeDefinitionIndex = 63104;
+
 	class AvatarDeadCountChallengeTargetData : public ::RPG::Client::BaseChallengeTargetData
 	{
 	public:

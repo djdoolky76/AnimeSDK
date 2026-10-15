@@ -15,6 +15,8 @@ namespace System::Collections { class IEnumerator; }
 
 namespace System::Collections
 {
+	inline static constexpr unsigned int Hashtable_ValueCollection_TypeDefinitionIndex = 1475;
+
 	class Hashtable_ValueCollection : public ::System::Object
 	{
 	public:

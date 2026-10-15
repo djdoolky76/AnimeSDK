@@ -13,6 +13,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System::Security::Authentication::ExtendedProtection
 {
+	inline static constexpr unsigned int ExtendedProtectionPolicy_TypeDefinitionIndex = 2671;
+
 	class ExtendedProtectionPolicy : public ::System::Object
 	{
 	public:

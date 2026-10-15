@@ -36,6 +36,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueTournPersonaGameLevelLayerData_TypeDefinitionIndex = 67712;
+
 	class RogueTournPersonaGameLevelLayerData : public ::System::Object
 	{
 	public:

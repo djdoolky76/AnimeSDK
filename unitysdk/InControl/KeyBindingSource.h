@@ -33,6 +33,8 @@ namespace System::IO { class BinaryWriter; }
 
 namespace InControl
 {
+	inline static constexpr unsigned int KeyBindingSource_TypeDefinitionIndex = 40800;
+
 	class KeyBindingSource : public ::InControl::BindingSource
 	{
 	public:

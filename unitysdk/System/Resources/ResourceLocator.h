@@ -11,6 +11,8 @@ namespace System { class Object; }
 
 namespace System::Resources
 {
+	inline static constexpr unsigned int ResourceLocator_TypeDefinitionIndex = 529;
+
 	struct alignas(8) ResourceLocator
 	{
 		::System::Object* _value; // 0x10

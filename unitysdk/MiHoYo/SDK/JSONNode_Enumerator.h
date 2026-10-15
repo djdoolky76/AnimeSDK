@@ -14,6 +14,8 @@ namespace System::Collections::Generic { class KeyValuePair; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int JSONNode_Enumerator_TypeDefinitionIndex = 8125;
+
 	struct alignas(8) JSONNode_Enumerator
 	{
 		::MiHoYo::SDK::JSONNode_Enumerator_Type type; // 0x10

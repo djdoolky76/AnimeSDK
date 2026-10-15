@@ -15,6 +15,8 @@ namespace System::Linq::Expressions { class ParameterExpression; }
 
 namespace System::Linq::Expressions
 {
+	inline static constexpr unsigned int BlockN_TypeDefinitionIndex = 3198;
+
 	class BlockN : public ::System::Linq::Expressions::BlockExpression
 	{
 	public:

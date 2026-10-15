@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define COHJNOBADAE_ONGRAPHSTART_OFFSET UNITYSDK_OFFSET(0xDCB7820)
 #define COHJNOBADAE_ONGRAPHSTOP_OFFSET UNITYSDK_OFFSET(0xDCB78E0)
 
+inline static constexpr unsigned int COHJNOBADAE_TypeDefinitionIndex = 47941;
+
 	class COHJNOBADAE : public ::ONEGHOPELAC
 	{
 	public:

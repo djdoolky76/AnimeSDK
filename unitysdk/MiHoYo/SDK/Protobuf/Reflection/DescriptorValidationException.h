@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::Protobuf::Reflection
 {
+	inline static constexpr unsigned int DescriptorValidationException_TypeDefinitionIndex = 35825;
+
 	class DescriptorValidationException : public ::System::Exception
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class PetMarbleSpecialTalk; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PetMarbleSpecialTalk_TypeDefinitionIndex = 16842;
+
 	class PetMarbleSpecialTalk : public ::RPG::GameCore::MarbleTaskConfig
 	{
 	public:

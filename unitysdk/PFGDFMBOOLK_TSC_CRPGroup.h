@@ -2,6 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Vector4.h"
 
+inline static constexpr unsigned int PFGDFMBOOLK_TSC_CRPGroup_TypeDefinitionIndex = 69815;
+
 	struct alignas(4) PFGDFMBOOLK_TSC_CRPGroup
 	{
 		::UnityEngine::Vector4 _TSC_ControllerPosA; // 0x10

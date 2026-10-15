@@ -10,6 +10,8 @@ namespace UnityEngine::UI { class Image; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoPerformanceBgImage_TypeDefinitionIndex = 72591;
+
 	class MonoPerformanceBgImage : public ::UnityEngine::MonoBehaviour
 	{
 	public:

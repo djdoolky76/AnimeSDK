@@ -9,6 +9,8 @@ namespace RPG::GameCore { class FreeStyleMotionInfoConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FreeStyleMotionInfoConfig_TypeDefinitionIndex = 16302;
+
 	class FreeStyleMotionInfoConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

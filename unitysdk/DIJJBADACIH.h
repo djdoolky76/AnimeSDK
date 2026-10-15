@@ -29,6 +29,8 @@ namespace System { class String; }
 #define DIJJBADACIH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E1C0DA0)
 #define DIJJBADACIH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E1C0E00)
 
+inline static constexpr unsigned int DIJJBADACIH_TypeDefinitionIndex = 28207;
+
 	class DIJJBADACIH : public ::System::Object
 	{
 	public:

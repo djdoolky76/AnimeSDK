@@ -10,6 +10,8 @@ namespace RPG::GameCore { class CakeRaceWaitFinishLineTip; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CakeRaceWaitFinishLineTip_TypeDefinitionIndex = 24300;
+
 	class CakeRaceWaitFinishLineTip : public ::RPG::GameCore::TaskConfig
 	{
 	public:

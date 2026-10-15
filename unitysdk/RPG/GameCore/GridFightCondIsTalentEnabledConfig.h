@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightCondIsTalentEnabledConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightCondIsTalentEnabledConfig_TypeDefinitionIndex = 19337;
+
 	class GridFightCondIsTalentEnabledConfig : public ::RPG::GameCore::GridFightConditionConfigBase
 	{
 	public:

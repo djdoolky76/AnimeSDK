@@ -8,6 +8,8 @@ namespace System { template <typename T> class Func_1; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int WaitUntil_TypeDefinitionIndex = 4370;
+
 	class WaitUntil : public ::UnityEngine::CustomYieldInstruction
 	{
 	public:

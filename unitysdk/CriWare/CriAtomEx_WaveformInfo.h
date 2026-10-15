@@ -5,6 +5,8 @@
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriAtomEx_WaveformInfo_TypeDefinitionIndex = 39975;
+
 	struct alignas(8) CriAtomEx_WaveformInfo
 	{
 		::System::Int32 waveId; // 0x10

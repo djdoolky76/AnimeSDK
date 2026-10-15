@@ -4,6 +4,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BattleAcquireReusablePanelVisitor_1_TypeDefinitionIndex = 72301;
+
 	template <typename T>
 	class BattleAcquireReusablePanelVisitor_1 : public ::System::Object
 	{

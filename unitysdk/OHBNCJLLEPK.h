@@ -15,6 +15,8 @@ namespace UnityEngine { class Object; }
 #define OHBNCJLLEPK_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xBE5EDA0)
 #define OHBNCJLLEPK_NAMIPFEIDHB_OFFSET UNITYSDK_OFFSET(0xBE5ED60)
 
+inline static constexpr unsigned int OHBNCJLLEPK_TypeDefinitionIndex = 61232;
+
 	class OHBNCJLLEPK : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace System::Runtime::Serialization
 {
+	inline static constexpr unsigned int DataMemberAttribute_TypeDefinitionIndex = 3707;
+
 	class DataMemberAttribute : public ::System::Attribute
 	{
 	public:

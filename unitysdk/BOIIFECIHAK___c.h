@@ -14,6 +14,8 @@ namespace System::Collections::Generic { class KeyValuePair; }
 #define BOIIFECIHAK___C__GET_ATTRIBUTEVALUES_B__35_0_OFFSET UNITYSDK_OFFSET(0xC192290)
 #define BOIIFECIHAK___C__GET_SHAPE_B__32_0_OFFSET UNITYSDK_OFFSET(0xC192270)
 
+inline static constexpr unsigned int BOIIFECIHAK___c_TypeDefinitionIndex = 80090;
+
 	class BOIIFECIHAK___c : public ::System::Object
 	{
 	public:

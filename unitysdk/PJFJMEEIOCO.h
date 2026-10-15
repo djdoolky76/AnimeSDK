@@ -17,6 +17,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define PJFJMEEIOCO_KEKCHEBMIGI_OFFSET UNITYSDK_OFFSET(0xC2849C0)
 #define PJFJMEEIOCO_SET_ISPLAYERNEWRECORD_OFFSET UNITYSDK_OFFSET(0xC2851D0)
 
+inline static constexpr unsigned int PJFJMEEIOCO_TypeDefinitionIndex = 81943;
+
 	class PJFJMEEIOCO : public ::System::Object
 	{
 	public:

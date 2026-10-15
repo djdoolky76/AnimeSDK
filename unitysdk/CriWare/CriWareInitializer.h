@@ -28,6 +28,8 @@ namespace CriWare { class CriWareDecrypter_Config; }
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriWareInitializer_TypeDefinitionIndex = 40174;
+
 	class CriWareInitializer : public ::CriWare::CriMonoBehaviour
 	{
 	public:

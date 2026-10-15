@@ -11,6 +11,8 @@ namespace RPG::GameCore { class DiceCombatDiceSelectorConfig_Filter; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DiceCombatDiceSelectorConfig_Filter_TypeDefinitionIndex = 16153;
+
 	class DiceCombatDiceSelectorConfig_Filter : public ::RPG::GameCore::DiceCombatDiceSelectorConfig
 	{
 	public:

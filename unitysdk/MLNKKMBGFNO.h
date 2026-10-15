@@ -6,6 +6,8 @@ class FLJEGMGCIOG;
 
 #define MLNKKMBGFNO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C74F870)
 
+inline static constexpr unsigned int MLNKKMBGFNO_TypeDefinitionIndex = 37245;
+
 	class MLNKKMBGFNO : public ::System::Object
 	{
 	public:

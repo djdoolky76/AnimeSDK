@@ -6,6 +6,8 @@ namespace System::Collections::Generic { template <typename T> class Stack_1; }
 
 #define EHMIDEMOFCD_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA50880)
 
+inline static constexpr unsigned int EHMIDEMOFCD_TypeDefinitionIndex = 41935;
+
 	class EHMIDEMOFCD : public ::System::Object
 	{
 	public:

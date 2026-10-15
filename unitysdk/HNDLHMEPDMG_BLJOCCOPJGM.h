@@ -8,6 +8,8 @@ namespace System { template <typename T> class Func_1; }
 
 #define HNDLHMEPDMG_BLJOCCOPJGM_CTOR_OFFSET UNITYSDK_OFFSET(0x15D91830)
 
+inline static constexpr unsigned int HNDLHMEPDMG_BLJOCCOPJGM_TypeDefinitionIndex = 71502;
+
 	class HNDLHMEPDMG_BLJOCCOPJGM : public ::System::Object
 	{
 	public:

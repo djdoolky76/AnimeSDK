@@ -14,6 +14,8 @@ namespace System { class Type; }
 
 namespace Newtonsoft::Json::Converters
 {
+	inline static constexpr unsigned int BsonObjectIdConverter_TypeDefinitionIndex = 9818;
+
 	class BsonObjectIdConverter : public ::Newtonsoft::Json::JsonConverter
 	{
 	public:

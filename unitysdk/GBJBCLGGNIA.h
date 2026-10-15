@@ -8,6 +8,8 @@ namespace UnityEngine { class MonoBehaviour; }
 #define GBJBCLGGNIA_HPNDIIPEFLJ_OFFSET UNITYSDK_OFFSET(0x15951350)
 #define GBJBCLGGNIA_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x15951120)
 
+inline static constexpr unsigned int GBJBCLGGNIA_TypeDefinitionIndex = 47449;
+
 	class GBJBCLGGNIA : public ::RPG::Client::BehaviorBase
 	{
 	public:

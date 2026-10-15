@@ -9,6 +9,8 @@ namespace RPG::GameCore { class SpecialMappingInfoRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SpecialMappingInfoRow_TypeDefinitionIndex = 12560;
+
 	class SpecialMappingInfoRow : public ::System::Object
 	{
 	public:

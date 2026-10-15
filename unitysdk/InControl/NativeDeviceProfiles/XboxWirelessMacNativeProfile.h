@@ -7,6 +7,8 @@
 
 namespace InControl::NativeDeviceProfiles
 {
+	inline static constexpr unsigned int XboxWirelessMacNativeProfile_TypeDefinitionIndex = 41277;
+
 	class XboxWirelessMacNativeProfile : public ::InControl::InputDeviceProfile
 	{
 	public:

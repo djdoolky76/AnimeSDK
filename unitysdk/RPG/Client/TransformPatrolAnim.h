@@ -17,6 +17,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TransformPatrolAnim_TypeDefinitionIndex = 70337;
+
 	class TransformPatrolAnim
 	{
 	public:

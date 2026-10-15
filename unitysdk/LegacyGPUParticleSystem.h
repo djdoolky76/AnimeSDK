@@ -176,6 +176,8 @@ namespace UnityEngine { class Transform; }
 #define LEGACYGPUPARTICLESYSTEM_UPDATEWAVESIM_OFFSET UNITYSDK_OFFSET(0x1EBD56A0)
 #define LEGACYGPUPARTICLESYSTEM_UPDATEWORLDSPACEBOUNDINGBOX_OFFSET UNITYSDK_OFFSET(0x1EBCD8E0)
 
+inline static constexpr unsigned int LegacyGPUParticleSystem_TypeDefinitionIndex = 43989;
+
 	class LegacyGPUParticleSystem : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -7,6 +7,8 @@ class OFKKOGBKOFI;
 #define ODCELNBAEIB___C__DISPLAYCLASS32_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBD7FBF0)
 #define ODCELNBAEIB___C__DISPLAYCLASS32_0___ONSPAWNBRICKENTITY_B__0_OFFSET UNITYSDK_OFFSET(0xBD86C40)
 
+inline static constexpr unsigned int ODCELNBAEIB___c__DisplayClass32_0_TypeDefinitionIndex = 79102;
+
 	class ODCELNBAEIB___c__DisplayClass32_0 : public ::System::Object
 	{
 	public:

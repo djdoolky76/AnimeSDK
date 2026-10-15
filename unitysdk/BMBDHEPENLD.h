@@ -6,6 +6,8 @@ class LBJLBMOOJGM;
 #define BMBDHEPENLD_CTOR_OFFSET UNITYSDK_OFFSET(0xBA8A030)
 #define BMBDHEPENLD_KDPCHKAGJMK_OFFSET UNITYSDK_OFFSET(0xBA89D20)
 
+inline static constexpr unsigned int BMBDHEPENLD_TypeDefinitionIndex = 79010;
+
 	class BMBDHEPENLD : public ::System::Object
 	{
 	public:

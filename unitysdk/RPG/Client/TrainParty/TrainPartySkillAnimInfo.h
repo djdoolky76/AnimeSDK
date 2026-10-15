@@ -15,6 +15,8 @@ class BDGGEHGLFAC;
 
 namespace RPG::Client::TrainParty
 {
+	inline static constexpr unsigned int TrainPartySkillAnimInfo_TypeDefinitionIndex = 74339;
+
 	class TrainPartySkillAnimInfo : public ::System::Object
 	{
 	public:

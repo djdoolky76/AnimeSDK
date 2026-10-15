@@ -12,6 +12,8 @@ namespace System { class Object; }
 #define KLFLIFOOGKG_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xB526250)
 #define KLFLIFOOGKG_INVOKE_OFFSET UNITYSDK_OFFSET(0xB526200)
 
+inline static constexpr unsigned int KLFLIFOOGKG_TypeDefinitionIndex = 62029;
+
 	class KLFLIFOOGKG : public ::System::MulticastDelegate
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::Client::LittleGameShare { class ST_Main_CakeRacePathFind; }
 
 namespace RPG::Client::LittleGameShare
 {
+	inline static constexpr unsigned int ST_Main_CakeRacePathFind_TypeDefinitionIndex = 10330;
+
 	class ST_Main_CakeRacePathFind : public ::RPG::Client::LittleGameShare::LittleGameSTTaskConfig
 	{
 	public:

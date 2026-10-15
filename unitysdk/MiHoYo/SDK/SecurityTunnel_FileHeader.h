@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int SecurityTunnel_FileHeader_TypeDefinitionIndex = 46375;
+
 	class SecurityTunnel_FileHeader : public ::System::Object
 	{
 	public:

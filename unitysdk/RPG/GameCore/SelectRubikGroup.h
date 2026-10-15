@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SelectRubikGroup_TypeDefinitionIndex = 22144;
+
 	class SelectRubikGroup : public ::RPG::GameCore::TaskConfig
 	{
 	public:

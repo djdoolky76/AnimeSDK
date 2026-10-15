@@ -13,6 +13,8 @@ namespace Cysharp::Threading::Tasks::Triggers { class IAsyncOnPreCullHandler; }
 
 namespace Cysharp::Threading::Tasks::Triggers
 {
+	inline static constexpr unsigned int AsyncPreCullTrigger_TypeDefinitionIndex = 38581;
+
 	class AsyncPreCullTrigger
 	{
 	public:

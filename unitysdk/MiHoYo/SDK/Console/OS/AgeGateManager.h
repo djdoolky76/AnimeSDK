@@ -66,6 +66,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace MiHoYo::SDK::Console::OS
 {
+	inline static constexpr unsigned int AgeGateManager_TypeDefinitionIndex = 9055;
+
 	class AgeGateManager : public ::System::Object
 	{
 	public:

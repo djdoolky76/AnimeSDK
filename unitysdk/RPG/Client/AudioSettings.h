@@ -20,6 +20,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AudioSettings_TypeDefinitionIndex = 59357;
+
 	class AudioSettings : public ::RPG::Client::PrefGroup
 	{
 	public:

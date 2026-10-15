@@ -7,6 +7,8 @@
 
 namespace UnityEngine::Bindings
 {
+	inline static constexpr unsigned int NativeWritableSelfAttribute_TypeDefinitionIndex = 3723;
+
 	class NativeWritableSelfAttribute : public ::System::Attribute
 	{
 	public:

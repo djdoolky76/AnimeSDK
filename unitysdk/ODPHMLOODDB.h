@@ -2,6 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
+inline static constexpr unsigned int ODPHMLOODDB_TypeDefinitionIndex = 79100;
+
 	class ODPHMLOODDB : public ::System::Object
 	{
 	public:

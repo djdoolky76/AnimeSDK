@@ -4,6 +4,8 @@
 
 #define FLJDMDEMENI_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA71240)
 
+inline static constexpr unsigned int FLJDMDEMENI_TypeDefinitionIndex = 43776;
+
 	class FLJDMDEMENI : public ::System::Object
 	{
 	public:

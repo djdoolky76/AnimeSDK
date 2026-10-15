@@ -9,6 +9,8 @@ namespace System { class Object; }
 #define MNKMHNEAHLA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xBA115D0)
 #define MNKMHNEAHLA___C__SENDTRAINCAKECATCHCATGODINTERACTCSREQ_B__2_0_OFFSET UNITYSDK_OFFSET(0xBA115E0)
 
+inline static constexpr unsigned int MNKMHNEAHLA___c_TypeDefinitionIndex = 81650;
+
 	class MNKMHNEAHLA___c : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TimeRewindForbidSelect; }
 #define MPCDELAGPHG_CTOR_OFFSET UNITYSDK_OFFSET(0xBA39340)
 #define MPCDELAGPHG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBA39370)
 
+inline static constexpr unsigned int MPCDELAGPHG_TypeDefinitionIndex = 53399;
+
 	class MPCDELAGPHG
 	{
 	public:

@@ -34,6 +34,8 @@ namespace UnityEngine { class Transform; }
 #define DGEKGIEJKJA_ONRETURN_OFFSET UNITYSDK_OFFSET(0xE8457A0)
 #define DGEKGIEJKJA__ONBIND_OFFSET UNITYSDK_OFFSET(0xE8451A0)
 
+inline static constexpr unsigned int DGEKGIEJKJA_TypeDefinitionIndex = 71423;
+
 	class DGEKGIEJKJA : public ::FMPCODLIOLG
 	{
 	public:

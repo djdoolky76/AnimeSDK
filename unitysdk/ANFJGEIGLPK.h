@@ -11,6 +11,8 @@ namespace System { class Object; }
 #define ANFJGEIGLPK_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15596240)
 #define ANFJGEIGLPK_JHMMJDKHIEG_OFFSET UNITYSDK_OFFSET(0x15596920)
 
+inline static constexpr unsigned int ANFJGEIGLPK_TypeDefinitionIndex = 69440;
+
 	class ANFJGEIGLPK : public ::PMAPCLKFJGK
 	{
 	public:

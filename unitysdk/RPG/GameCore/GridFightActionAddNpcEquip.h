@@ -9,6 +9,8 @@ namespace RPG::GameCore { class GridFightActionAddNpcEquip; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightActionAddNpcEquip_TypeDefinitionIndex = 19314;
+
 	class GridFightActionAddNpcEquip : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -360,6 +360,8 @@ namespace UnityEngine::UI { class LayoutElement; }
 
 namespace TMPro
 {
+	inline static constexpr unsigned int TMP_Text_TypeDefinitionIndex = 44655;
+
 	class TMP_Text : public ::UnityEngine::UI::MaskableGraphic
 	{
 	public:

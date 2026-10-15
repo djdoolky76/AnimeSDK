@@ -6,6 +6,8 @@ class FCDPJHKCLAE;
 #define ODHLAJJAIJN_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C98C4E0)
 #define ODHLAJJAIJN_CTOR_OFFSET UNITYSDK_OFFSET(0x1C98C560)
 
+inline static constexpr unsigned int ODHLAJJAIJN_TypeDefinitionIndex = 43495;
+
 	class ODHLAJJAIJN : public ::System::Object
 	{
 	public:

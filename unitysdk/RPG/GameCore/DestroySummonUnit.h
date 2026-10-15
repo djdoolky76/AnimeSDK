@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DestroySummonUnit_TypeDefinitionIndex = 20360;
+
 	class DestroySummonUnit : public ::RPG::GameCore::TaskConfig
 	{
 	public:

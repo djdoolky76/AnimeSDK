@@ -21,6 +21,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightTraitLayerConfig_TypeDefinitionIndex = 65453;
+
 	class GridFightTraitLayerConfig : public ::System::Object
 	{
 	public:

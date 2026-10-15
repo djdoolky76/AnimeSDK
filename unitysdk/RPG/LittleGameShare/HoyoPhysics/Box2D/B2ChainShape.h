@@ -7,6 +7,8 @@
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
+	inline static constexpr unsigned int B2ChainShape_TypeDefinitionIndex = 36610;
+
 	class B2ChainShape : public ::System::Object
 	{
 	public:

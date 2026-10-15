@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SwitchHandCatchStateListener_TypeDefinitionIndex = 20967;
+
 	class SwitchHandCatchStateListener : public ::RPG::GameCore::TaskConfig
 	{
 	public:

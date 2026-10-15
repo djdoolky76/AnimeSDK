@@ -7,6 +7,8 @@ class KNOLJDOPBDG;
 #define GBEAJBOADEE_CTOR_OFFSET UNITYSDK_OFFSET(0x1594B8F0)
 #define GBEAJBOADEE_EFHOJNKCMDL_OFFSET UNITYSDK_OFFSET(0x1594B900)
 
+inline static constexpr unsigned int GBEAJBOADEE_TypeDefinitionIndex = 67133;
+
 	class GBEAJBOADEE : public ::LKLEBOOCADM
 	{
 	public:

@@ -7,6 +7,8 @@
 #define HKPODKLOLHK_EQUALS_OFFSET UNITYSDK_OFFSET(0x1C6679A0)
 #define HKPODKLOLHK_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1C667BA0)
 
+inline static constexpr unsigned int HKPODKLOLHK_TypeDefinitionIndex = 36869;
+
 	class HKPODKLOLHK : public ::System::Object
 	{
 	public:

@@ -17,6 +17,8 @@ namespace System { class String; }
 #define MGMHEKMJKBH_MDKHKFAKBLF_OFFSET UNITYSDK_OFFSET(0x1DD71380)
 #define MGMHEKMJKBH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3C4CAC0)
 
+inline static constexpr unsigned int MGMHEKMJKBH_TypeDefinitionIndex = 6292;
+
 	struct alignas(4) MGMHEKMJKBH
 	{
 		::RPG::MVector3 BHCMCMADHBF; // 0x10

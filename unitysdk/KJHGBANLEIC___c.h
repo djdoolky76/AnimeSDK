@@ -18,6 +18,8 @@ namespace System::Security::Cryptography::X509Certificates { class X509Chain; }
 #define KJHGBANLEIC___C___CHECKIPV6STATE_B__13_0_OFFSET UNITYSDK_OFFSET(0xB456000)
 #define KJHGBANLEIC___C___GETWEBRESPONSE_B__25_0_OFFSET UNITYSDK_OFFSET(0xB456030)
 
+inline static constexpr unsigned int KJHGBANLEIC___c_TypeDefinitionIndex = 59592;
+
 	class KJHGBANLEIC___c : public ::System::Object
 	{
 	public:

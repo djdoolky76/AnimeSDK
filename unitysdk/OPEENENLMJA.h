@@ -19,6 +19,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 #define OPEENENLMJA_NJDJFFGDMPO_OFFSET UNITYSDK_OFFSET(0x1C7E5480)
 #define OPEENENLMJA_PEGIMBMFBBH_OFFSET UNITYSDK_OFFSET(0x1C7E5750)
 
+inline static constexpr unsigned int OPEENENLMJA_TypeDefinitionIndex = 37107;
+
 	class OPEENENLMJA : public ::System::Object
 	{
 	public:

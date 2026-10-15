@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TeamFormationComponent; }
 #define GLLGBICKGLG_DPNCMDJEPMJ_OFFSET UNITYSDK_OFFSET(0x2E7C6A0)
 #define GLLGBICKGLG_EHFLDBMLBPM_OFFSET UNITYSDK_OFFSET(0x15ABC670)
 
+inline static constexpr unsigned int GLLGBICKGLG_TypeDefinitionIndex = 57717;
+
 	struct alignas(8) GLLGBICKGLG
 	{
 		::RPG::GameCore::CustomTeamFormationRefreshReason NFKJAMNLPLO; // 0x10

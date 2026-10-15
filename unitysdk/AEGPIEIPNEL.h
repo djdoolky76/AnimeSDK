@@ -7,6 +7,8 @@ class FCOEMCEDLNL;
 #define AEGPIEIPNEL_CTOR_OFFSET UNITYSDK_OFFSET(0x1CCB2700)
 #define AEGPIEIPNEL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CCB2640)
 
+inline static constexpr unsigned int AEGPIEIPNEL_TypeDefinitionIndex = 13667;
+
 	class AEGPIEIPNEL : public ::System::Object
 	{
 	public:

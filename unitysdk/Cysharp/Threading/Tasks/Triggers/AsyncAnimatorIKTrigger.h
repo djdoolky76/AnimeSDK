@@ -13,6 +13,8 @@ namespace Cysharp::Threading::Tasks::Triggers { class IAsyncOnAnimatorIKHandler;
 
 namespace Cysharp::Threading::Tasks::Triggers
 {
+	inline static constexpr unsigned int AsyncAnimatorIKTrigger_TypeDefinitionIndex = 38509;
+
 	class AsyncAnimatorIKTrigger
 	{
 	public:

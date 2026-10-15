@@ -27,6 +27,8 @@ namespace System { class String; }
 #define GNBOBLNFEHI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E4D8F10)
 #define GNBOBLNFEHI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E4D8F70)
 
+inline static constexpr unsigned int GNBOBLNFEHI_TypeDefinitionIndex = 26649;
+
 	class GNBOBLNFEHI : public ::System::Object
 	{
 	public:

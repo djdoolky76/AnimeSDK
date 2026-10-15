@@ -27,6 +27,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define EAFLPBLGADN_NIIMKKBBCNE_OFFSET UNITYSDK_OFFSET(0x126779D0)
 #define EAFLPBLGADN_PACOAACHPGM_OFFSET UNITYSDK_OFFSET(0x12676B60)
 
+inline static constexpr unsigned int EAFLPBLGADN_TypeDefinitionIndex = 54088;
+
 	class EAFLPBLGADN : public ::System::Object
 	{
 	public:

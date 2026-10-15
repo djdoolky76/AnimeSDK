@@ -6,6 +6,8 @@ class BANDDFEHONE;
 #define IHIFPCCBKOF___C__DISPLAYCLASS27_0_CTOR_OFFSET UNITYSDK_OFFSET(0x16421850)
 #define IHIFPCCBKOF___C__DISPLAYCLASS27_0___GETFIRSTSHOWINDEX_B__0_OFFSET UNITYSDK_OFFSET(0x16421FD0)
 
+inline static constexpr unsigned int IHIFPCCBKOF___c__DisplayClass27_0_TypeDefinitionIndex = 72167;
+
 	class IHIFPCCBKOF___c__DisplayClass27_0 : public ::System::Object
 	{
 	public:

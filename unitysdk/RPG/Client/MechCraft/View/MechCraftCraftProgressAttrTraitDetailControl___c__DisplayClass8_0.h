@@ -11,6 +11,8 @@ namespace System { class Object; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftCraftProgressAttrTraitDetailControl___c__DisplayClass8_0_TypeDefinitionIndex = 79924;
+
 	class MechCraftCraftProgressAttrTraitDetailControl___c__DisplayClass8_0 : public ::System::Object
 	{
 	public:

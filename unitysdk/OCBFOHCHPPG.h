@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define OCBFOHCHPPG_SET_SKILLLEVELPROVIDER_OFFSET UNITYSDK_OFFSET(0xBD56660)
 #define OCBFOHCHPPG_SET_VERSION_OFFSET UNITYSDK_OFFSET(0xBD56620)
 
+inline static constexpr unsigned int OCBFOHCHPPG_TypeDefinitionIndex = 51950;
+
 	class OCBFOHCHPPG : public ::System::Object
 	{
 	public:

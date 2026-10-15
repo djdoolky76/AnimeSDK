@@ -20,6 +20,8 @@ namespace System { class Object; }
 #define OHEPDDMKCBH___PLAYSIMPLIFIEDPERFORMANCE_B__7_0_OFFSET UNITYSDK_OFFSET(0xBE666B0)
 #define OHEPDDMKCBH___STARTPREBATTLEPERFORMANCE_B__8_0_OFFSET UNITYSDK_OFFSET(0xBE66840)
 
+inline static constexpr unsigned int OHEPDDMKCBH_TypeDefinitionIndex = 75035;
+
 	class OHEPDDMKCBH : public ::NBEKHGCNJFD
 	{
 	public:

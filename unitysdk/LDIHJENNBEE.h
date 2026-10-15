@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define LDIHJENNBEE_BBBLNNFJFIB_OFFSET UNITYSDK_OFFSET(0x3C2BB10)
 #define LDIHJENNBEE_CGIFAKIIDID_OFFSET UNITYSDK_OFFSET(0x3C2BAB0)
 
+inline static constexpr unsigned int LDIHJENNBEE_TypeDefinitionIndex = 37135;
+
 	struct alignas(8) LDIHJENNBEE
 	{
 		::BDPDNAECJII* IKLJGJHHMOL; // 0x10

@@ -101,6 +101,8 @@ namespace UnityEngine { class Mesh; }
 
 namespace TMPro
 {
+	inline static constexpr unsigned int TextMeshProUGUI_TypeDefinitionIndex = 44692;
+
 	class TextMeshProUGUI : public ::TMPro::TMP_Text
 	{
 	public:

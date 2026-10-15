@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define PKKFNODINEM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF93FF0)
 #define PKKFNODINEM___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1DF94000)
 
+inline static constexpr unsigned int PKKFNODINEM___c_TypeDefinitionIndex = 26942;
+
 	class PKKFNODINEM___c : public ::System::Object
 	{
 	public:

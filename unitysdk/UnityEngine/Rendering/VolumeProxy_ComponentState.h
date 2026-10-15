@@ -9,6 +9,8 @@
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int VolumeProxy_ComponentState_TypeDefinitionIndex = 35664;
+
 	class VolumeProxy_ComponentState : public ::System::Object
 	{
 	public:

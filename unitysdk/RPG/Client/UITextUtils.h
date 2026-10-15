@@ -38,6 +38,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UITextUtils_TypeDefinitionIndex = 73183;
+
 	class UITextUtils : public ::System::Object
 	{
 	public:

@@ -35,6 +35,8 @@ namespace System { class String; }
 #define HPGIGMPBIBO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E5F55D0)
 #define HPGIGMPBIBO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E5F5630)
 
+inline static constexpr unsigned int HPGIGMPBIBO_TypeDefinitionIndex = 31260;
+
 	class HPGIGMPBIBO : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierModifyTitanBlessWeightConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierModifyTitanBlessWeightConfig_TypeDefinitionIndex = 17748;
+
 	class RogueModifierModifyTitanBlessWeightConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

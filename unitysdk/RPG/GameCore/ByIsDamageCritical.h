@@ -13,6 +13,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByIsDamageCritical_TypeDefinitionIndex = 23491;
+
 	class ByIsDamageCritical : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

@@ -16,6 +16,8 @@ namespace RPG::GameCore { class DrinkMakerIngredientRow; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int DrinkMakerBarIngredient_TypeDefinitionIndex = 63595;
+
 	class DrinkMakerBarIngredient : public ::System::Object
 	{
 	public:

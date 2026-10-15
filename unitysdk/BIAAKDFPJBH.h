@@ -14,6 +14,8 @@ namespace RPG::GameCore { class AdventureCharacterController; }
 #define BIAAKDFPJBH_NDFBMHNEKMD_OFFSET UNITYSDK_OFFSET(0xB494A90)
 #define BIAAKDFPJBH_PODJJPBKLDC_OFFSET UNITYSDK_OFFSET(0xB4948C0)
 
+inline static constexpr unsigned int BIAAKDFPJBH_TypeDefinitionIndex = 56981;
+
 	class BIAAKDFPJBH : public ::ADKFPNMPIDD
 	{
 	public:

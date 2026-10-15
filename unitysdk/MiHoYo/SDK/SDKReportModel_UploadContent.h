@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int SDKReportModel_UploadContent_TypeDefinitionIndex = 7935;
+
 	class SDKReportModel_UploadContent : public ::System::Object
 	{
 	public:

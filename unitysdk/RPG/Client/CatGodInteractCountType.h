@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CatGodInteractCountType_TypeDefinitionIndex = 10321;
+
 	enum class CatGodInteractCountType : ::System::Int32
 	{
 		Number = 0,

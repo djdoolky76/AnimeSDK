@@ -5,6 +5,8 @@ namespace System { class String; }
 
 #define GOIJJIEHEOF_CTOR_OFFSET UNITYSDK_OFFSET(0x1CAB56D0)
 
+inline static constexpr unsigned int GOIJJIEHEOF_TypeDefinitionIndex = 42164;
+
 	class GOIJJIEHEOF : public ::System::Object
 	{
 	public:

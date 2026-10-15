@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AvatarLineupKeyLevelConfig_TypeDefinitionIndex = 18134;
+
 	class AvatarLineupKeyLevelConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

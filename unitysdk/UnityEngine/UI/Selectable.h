@@ -98,6 +98,8 @@ namespace UnityEngine::UI { class Selectable; }
 
 namespace UnityEngine::UI
 {
+	inline static constexpr unsigned int Selectable_TypeDefinitionIndex = 6838;
+
 	class Selectable : public ::UnityEngine::EventSystems::UIBehaviour
 	{
 	public:

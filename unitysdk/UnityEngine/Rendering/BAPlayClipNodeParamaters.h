@@ -7,6 +7,8 @@ namespace UnityEngine::Rendering { class BAGraphAsset; }
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int BAPlayClipNodeParamaters_TypeDefinitionIndex = 4798;
+
 	struct alignas(4) BAPlayClipNodeParamaters
 	{
 		static ::System::Void SetClip(::UnityEngine::Rendering::BAGraphAsset* a1, ::UnityEngine::Rendering::BANodeHash a2, ::UnityEngine::Rendering::BANodeHash a3, ::System::Int32 a4, ::System::Int32 a5)

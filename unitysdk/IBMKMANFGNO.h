@@ -26,6 +26,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define IBMKMANFGNO_LNJBKOHLEDO_OFFSET UNITYSDK_OFFSET(0x15E42060)
 #define IBMKMANFGNO_PHCNFKPFCOM_OFFSET UNITYSDK_OFFSET(0x15E42960)
 
+inline static constexpr unsigned int IBMKMANFGNO_TypeDefinitionIndex = 67419;
+
 	class IBMKMANFGNO : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore::Booklet { class TextElementConfig; }
 
 namespace RPG::GameCore::Booklet
 {
+	inline static constexpr unsigned int TextElementConfig_TypeDefinitionIndex = 24971;
+
 	class TextElementConfig : public ::RPG::GameCore::Booklet::ElementConfig
 	{
 	public:

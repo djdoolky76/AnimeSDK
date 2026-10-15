@@ -6,6 +6,8 @@
 class NGEHNDIFKLM;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
+inline static constexpr unsigned int NLKFLEHLHAD_TypeDefinitionIndex = 54011;
+
 	struct alignas(8) NLKFLEHLHAD
 	{
 		::RPG::GameCore::RtPropertyCategory OOMBNFMJLEO; // 0x10

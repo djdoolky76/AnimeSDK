@@ -8,6 +8,8 @@ namespace RPG::Client { class MonopolyRandomOptionContentData; }
 #define FELMMAJHJLG_CTOR_OFFSET UNITYSDK_OFFSET(0x15725460)
 #define FELMMAJHJLG_TRIGGER_OFFSET UNITYSDK_OFFSET(0x15725480)
 
+inline static constexpr unsigned int FELMMAJHJLG_TypeDefinitionIndex = 66288;
+
 	class FELMMAJHJLG : public ::RPG::Client::MonopolyContentTrigger
 	{
 	public:

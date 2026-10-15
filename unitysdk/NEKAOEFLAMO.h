@@ -62,6 +62,8 @@ namespace UnityEngine { class Animator; }
 #define NEKAOEFLAMO_SET_PRESSNOTE_OFFSET UNITYSDK_OFFSET(0xBB6F080)
 #define NEKAOEFLAMO_SET_TIMELINECONFIG_OFFSET UNITYSDK_OFFSET(0xBB6EFE0)
 
+inline static constexpr unsigned int NEKAOEFLAMO_TypeDefinitionIndex = 60160;
+
 	class NEKAOEFLAMO : public ::System::Object
 	{
 	public:

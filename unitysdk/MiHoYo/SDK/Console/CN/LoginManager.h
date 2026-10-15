@@ -28,6 +28,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace MiHoYo::SDK::Console::CN
 {
+	inline static constexpr unsigned int LoginManager_TypeDefinitionIndex = 9114;
+
 	class LoginManager : public ::MiHoYo::SDK::Console::LoginManagerBase
 	{
 	public:

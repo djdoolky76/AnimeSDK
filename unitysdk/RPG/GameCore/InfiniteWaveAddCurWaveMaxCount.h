@@ -11,6 +11,8 @@ namespace RPG::GameCore { class InfiniteWaveAddCurWaveMaxCount; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int InfiniteWaveAddCurWaveMaxCount_TypeDefinitionIndex = 23258;
+
 	class InfiniteWaveAddCurWaveMaxCount : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -21,6 +21,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define NMNFKDPJIDP_LMCEDCHJKFF_OFFSET UNITYSDK_OFFSET(0xBC8FC10)
 #define NMNFKDPJIDP_TICK_OFFSET UNITYSDK_OFFSET(0xBC8FE00)
 
+inline static constexpr unsigned int NMNFKDPJIDP_TypeDefinitionIndex = 57078;
+
 	class NMNFKDPJIDP : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

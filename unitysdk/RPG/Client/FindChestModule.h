@@ -40,6 +40,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FindChestModule_TypeDefinitionIndex = 64200;
+
 	class FindChestModule : public ::RPG::Client::BaseModule
 	{
 	public:

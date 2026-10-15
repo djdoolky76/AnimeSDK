@@ -8,6 +8,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RPGSDKAccountManager___c__DisplayClass137_0_TypeDefinitionIndex = 61090;
+
 	class RPGSDKAccountManager___c__DisplayClass137_0 : public ::System::Object
 	{
 	public:

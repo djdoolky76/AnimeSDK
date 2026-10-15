@@ -16,6 +16,8 @@ namespace System::ComponentModel { class TypeConverterAttribute; }
 
 namespace System::ComponentModel
 {
+	inline static constexpr unsigned int TypeConverterAttribute_TypeDefinitionIndex = 2633;
+
 	class TypeConverterAttribute : public ::System::Attribute
 	{
 	public:

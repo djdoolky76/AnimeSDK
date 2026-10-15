@@ -49,6 +49,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoNativeEditBox_TypeDefinitionIndex = 71158;
+
 	class MonoNativeEditBox : public ::PluginMsgReceiver
 	{
 	public:

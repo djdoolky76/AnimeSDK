@@ -41,6 +41,8 @@ namespace System { class String; }
 #define NLNKIGMDODK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB68C80)
 #define NLNKIGMDODK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB68CE0)
 
+inline static constexpr unsigned int NLNKIGMDODK_TypeDefinitionIndex = 32068;
+
 	class NLNKIGMDODK : public ::System::Object
 	{
 	public:

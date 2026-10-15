@@ -7,6 +7,8 @@ namespace System { class String; }
 #define NCDNJDGLMGF_FAGLHIMLDNK_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x3C3D2D0)
 #define NCDNJDGLMGF_FAGLHIMLDNK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3C3D230)
 
+inline static constexpr unsigned int NCDNJDGLMGF_FAGLHIMLDNK_TypeDefinitionIndex = 14363;
+
 	struct alignas(8) NCDNJDGLMGF_FAGLHIMLDNK
 	{
 		::System::String* ACEGDAHLDCB; // 0x10

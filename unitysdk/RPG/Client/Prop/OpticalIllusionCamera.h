@@ -7,6 +7,8 @@
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int OpticalIllusionCamera_TypeDefinitionIndex = 78701;
+
 	class OpticalIllusionCamera : public ::System::Object
 	{
 	public:

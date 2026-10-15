@@ -8,6 +8,8 @@ namespace RPG::Client { class MonoEffect; }
 #define DIHIHAPJLPK___C__DISPLAYCLASS9_0_CTOR_OFFSET UNITYSDK_OFFSET(0xF20ABE0)
 #define DIHIHAPJLPK___C__DISPLAYCLASS9_0___TRIGGERGAINENERGYEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0xF20ABF0)
 
+inline static constexpr unsigned int DIHIHAPJLPK___c__DisplayClass9_0_TypeDefinitionIndex = 57313;
+
 	class DIHIHAPJLPK___c__DisplayClass9_0 : public ::System::Object
 	{
 	public:

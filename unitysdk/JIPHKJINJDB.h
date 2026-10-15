@@ -7,6 +7,8 @@ namespace System { class String; }
 #define JIPHKJINJDB_KEOKEELBKHI_OFFSET UNITYSDK_OFFSET(0xB1FFE40)
 #define JIPHKJINJDB_TOSTRING_OFFSET UNITYSDK_OFFSET(0xB1FFEC0)
 
+inline static constexpr unsigned int JIPHKJINJDB_TypeDefinitionIndex = 59275;
+
 	class JIPHKJINJDB : public ::System::Object
 	{
 	public:

@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AllowedTextLanguageExcelTable_TypeDefinitionIndex = 12647;
+
 	class AllowedTextLanguageExcelTable : public ::System::Object
 	{
 	public:

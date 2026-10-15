@@ -27,6 +27,8 @@ namespace RPG::GameCore { class WaitAnimStateChangeV3; }
 #define JLEOKIJIJAN__REGISTEREVENTCALLBACK_OFFSET UNITYSDK_OFFSET(0xB23E200)
 #define JLEOKIJIJAN__UNREGISTEREVENTCALLBACK_OFFSET UNITYSDK_OFFSET(0xB23E4A0)
 
+inline static constexpr unsigned int JLEOKIJIJAN_TypeDefinitionIndex = 58852;
+
 	class JLEOKIJIJAN
 	{
 	public:

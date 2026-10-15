@@ -4,6 +4,8 @@
 
 #define NDAEFCMNODB_CTOR_OFFSET UNITYSDK_OFFSET(0x1C786470)
 
+inline static constexpr unsigned int NDAEFCMNODB_TypeDefinitionIndex = 36879;
+
 	class NDAEFCMNODB : public ::System::Attribute
 	{
 	public:

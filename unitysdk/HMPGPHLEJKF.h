@@ -25,6 +25,8 @@ namespace System { class String; }
 #define HMPGPHLEJKF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E5D7210)
 #define HMPGPHLEJKF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E5D7270)
 
+inline static constexpr unsigned int HMPGPHLEJKF_TypeDefinitionIndex = 30018;
+
 	class HMPGPHLEJKF : public ::System::Object
 	{
 	public:

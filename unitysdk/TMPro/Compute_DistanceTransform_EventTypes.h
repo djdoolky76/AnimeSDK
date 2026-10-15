@@ -3,6 +3,8 @@
 
 namespace TMPro
 {
+	inline static constexpr unsigned int Compute_DistanceTransform_EventTypes_TypeDefinitionIndex = 44675;
+
 	enum class Compute_DistanceTransform_EventTypes : ::System::Int32
 	{
 		Processing = 0,

@@ -10,6 +10,8 @@ namespace RPG::Client { class MonoExUICamera; }
 #define ONGPFGJBGBL_PEDFLCNLIOC_OFFSET UNITYSDK_OFFSET(0xBF56BA0)
 #define ONGPFGJBGBL_POAACIDJOKM_OFFSET UNITYSDK_OFFSET(0xBF56B40)
 
+inline static constexpr unsigned int ONGPFGJBGBL_TypeDefinitionIndex = 72965;
+
 	class ONGPFGJBGBL : public ::GNGPLDGOEAI
 	{
 	public:

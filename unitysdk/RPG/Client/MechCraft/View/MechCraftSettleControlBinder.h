@@ -27,6 +27,8 @@ namespace RPG::Client::MechCraft::View { class MechCraftSettleProductSummaryCont
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftSettleControlBinder_TypeDefinitionIndex = 80037;
+
 	class MechCraftSettleControlBinder : public ::RPG::Client::MechCraft::View::MechCraftBinderBase
 	{
 	public:

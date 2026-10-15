@@ -24,6 +24,8 @@ namespace VLB { class VolumetricLightBeam; }
 #define DHOLDKHGCNL_PGOLCLMMANO_OFFSET UNITYSDK_OFFSET(0xEBEC770)
 #define DHOLDKHGCNL_PLMIIKONDEO_OFFSET UNITYSDK_OFFSET(0xEBEC890)
 
+inline static constexpr unsigned int DHOLDKHGCNL_TypeDefinitionIndex = 47382;
+
 	class DHOLDKHGCNL : public ::System::Object
 	{
 	public:

@@ -19,6 +19,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define AEAJBFHNNEG_SET__CURFOGID_OFFSET UNITYSDK_OFFSET(0xB149C90)
 #define AEAJBFHNNEG_SET__UNITPIXELCOUNT_OFFSET UNITYSDK_OFFSET(0xB149CB0)
 
+inline static constexpr unsigned int AEAJBFHNNEG_TypeDefinitionIndex = 76949;
+
 	class AEAJBFHNNEG : public ::System::Object
 	{
 	public:

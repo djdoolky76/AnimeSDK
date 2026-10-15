@@ -38,6 +38,8 @@ namespace UnityEngine::UI { class Image; }
 #define IBHLNEHKEEN__ONBIND_OFFSET UNITYSDK_OFFSET(0x15E359C0)
 #define IBHLNEHKEEN__ONTICK_OFFSET UNITYSDK_OFFSET(0x15E36AF0)
 
+inline static constexpr unsigned int IBHLNEHKEEN_TypeDefinitionIndex = 72110;
+
 	class IBHLNEHKEEN : public ::FMPCODLIOLG
 	{
 	public:

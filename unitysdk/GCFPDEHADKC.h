@@ -14,6 +14,8 @@ namespace UnityEngine { class Texture2D; }
 #define GCFPDEHADKC_JAGJJDEKLIO_OFFSET UNITYSDK_OFFSET(0x1596A740)
 #define GCFPDEHADKC_JMGAPFKJIFG_OFFSET UNITYSDK_OFFSET(0x1596A880)
 
+inline static constexpr unsigned int GCFPDEHADKC_TypeDefinitionIndex = 73739;
+
 	class GCFPDEHADKC : public ::System::Object
 	{
 	public:

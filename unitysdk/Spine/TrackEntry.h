@@ -83,6 +83,8 @@ namespace System { class String; }
 
 namespace Spine
 {
+	inline static constexpr unsigned int TrackEntry_TypeDefinitionIndex = 39631;
+
 	class TrackEntry : public ::System::Object
 	{
 	public:

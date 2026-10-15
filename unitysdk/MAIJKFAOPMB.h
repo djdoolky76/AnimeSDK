@@ -10,6 +10,8 @@ namespace RPG::GameCore { class UseMainCharacterOnly; }
 #define MAIJKFAOPMB_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB84EC00)
 #define MAIJKFAOPMB_TICK_OFFSET UNITYSDK_OFFSET(0xB84EC50)
 
+inline static constexpr unsigned int MAIJKFAOPMB_TypeDefinitionIndex = 53463;
+
 	class MAIJKFAOPMB : public ::GELIALJDFBL
 	{
 	public:

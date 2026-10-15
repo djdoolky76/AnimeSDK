@@ -44,6 +44,8 @@
 
 namespace RPG
 {
+	inline static constexpr unsigned int MathTypeConversion_TypeDefinitionIndex = 6394;
+
 	class MathTypeConversion : public ::System::Object
 	{
 	public:

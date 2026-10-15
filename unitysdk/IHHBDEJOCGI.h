@@ -27,6 +27,8 @@ namespace System { class String; }
 #define IHHBDEJOCGI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E65D960)
 #define IHHBDEJOCGI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E65D9C0)
 
+inline static constexpr unsigned int IHHBDEJOCGI_TypeDefinitionIndex = 31834;
+
 	class IHHBDEJOCGI : public ::System::Object
 	{
 	public:

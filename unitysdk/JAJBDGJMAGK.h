@@ -7,6 +7,8 @@ namespace RPG::GameCore { class AvatarDataComponent; }
 #define JAJBDGJMAGK_CTOR_OFFSET UNITYSDK_OFFSET(0x16553780)
 #define JAJBDGJMAGK_KFHCMJCFINH_OFFSET UNITYSDK_OFFSET(0x16553790)
 
+inline static constexpr unsigned int JAJBDGJMAGK_TypeDefinitionIndex = 56876;
+
 	class JAJBDGJMAGK : public ::ADILGMDJEJF
 	{
 	public:

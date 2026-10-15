@@ -6,6 +6,8 @@ class HFGDHMDFFHL;
 
 namespace RPG::Client::LittleGame
 {
+	inline static constexpr unsigned int TimelineControlGameWorld_LevelCell_TypeDefinitionIndex = 42514;
+
 	struct alignas(8) TimelineControlGameWorld_LevelCell
 	{
 		::System::Boolean Visible; // 0x10

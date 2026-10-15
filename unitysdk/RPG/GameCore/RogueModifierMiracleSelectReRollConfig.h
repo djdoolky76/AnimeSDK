@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierMiracleSelectReRollConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierMiracleSelectReRollConfig_TypeDefinitionIndex = 17782;
+
 	class RogueModifierMiracleSelectReRollConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

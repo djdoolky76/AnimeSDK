@@ -20,6 +20,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MainMissionRow_TypeDefinitionIndex = 14142;
+
 	class MainMissionRow : public ::System::Object
 	{
 	public:

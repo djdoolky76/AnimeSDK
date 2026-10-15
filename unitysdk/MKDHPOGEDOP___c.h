@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define MKDHPOGEDOP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA547F0)
 #define MKDHPOGEDOP___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1EA54800)
 
+inline static constexpr unsigned int MKDHPOGEDOP___c_TypeDefinitionIndex = 26425;
+
 	class MKDHPOGEDOP___c : public ::System::Object
 	{
 	public:

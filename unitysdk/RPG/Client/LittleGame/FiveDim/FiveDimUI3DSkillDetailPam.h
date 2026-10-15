@@ -19,6 +19,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::LittleGame::FiveDim
 {
+	inline static constexpr unsigned int FiveDimUI3DSkillDetailPam_TypeDefinitionIndex = 77243;
+
 	class FiveDimUI3DSkillDetailPam : public ::System::Object
 	{
 	public:

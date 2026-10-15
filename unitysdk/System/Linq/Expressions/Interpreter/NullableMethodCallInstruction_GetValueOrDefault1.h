@@ -9,6 +9,8 @@ namespace System::Linq::Expressions::Interpreter { class InterpretedFrame; }
 
 namespace System::Linq::Expressions::Interpreter
 {
+	inline static constexpr unsigned int NullableMethodCallInstruction_GetValueOrDefault1_TypeDefinitionIndex = 3648;
+
 	class NullableMethodCallInstruction_GetValueOrDefault1 : public ::System::Linq::Expressions::Interpreter::NullableMethodCallInstruction
 	{
 	public:

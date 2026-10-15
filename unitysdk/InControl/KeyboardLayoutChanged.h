@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace InControl
 {
+	inline static constexpr unsigned int KeyboardLayoutChanged_TypeDefinitionIndex = 40861;
+
 	class KeyboardLayoutChanged : public ::System::MulticastDelegate
 	{
 	public:

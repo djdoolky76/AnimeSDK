@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SimpleTalkTargetBehavior_TypeDefinitionIndex = 21122;
+
 	class SimpleTalkTargetBehavior : public ::RPG::GameCore::JsonConfig
 	{
 	public:

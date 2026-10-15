@@ -15,6 +15,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByCheckLineupAvatarBaseType_TypeDefinitionIndex = 20794;
+
 	class ByCheckLineupAvatarBaseType : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

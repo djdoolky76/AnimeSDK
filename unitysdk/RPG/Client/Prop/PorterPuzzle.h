@@ -26,6 +26,8 @@ namespace RPG::GameCore { class TaskContext; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int PorterPuzzle_TypeDefinitionIndex = 78777;
+
 	class PorterPuzzle : public ::RPG::Client::Prop::PuzzleBoardBase
 	{
 	public:

@@ -25,6 +25,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace Sofa
 {
+	inline static constexpr unsigned int BaseSofaWindow_SofaUIController_TypeDefinitionIndex = 49687;
+
 	class BaseSofaWindow_SofaUIController : public ::RPG::Client::UIController
 	{
 	public:

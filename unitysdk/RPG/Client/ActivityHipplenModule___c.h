@@ -11,6 +11,8 @@ namespace System { template <typename T> class Comparison_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ActivityHipplenModule___c_TypeDefinitionIndex = 61525;
+
 	class ActivityHipplenModule___c : public ::System::Object
 	{
 	public:

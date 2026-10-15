@@ -10,6 +10,8 @@ namespace RPG::GameCore { class CreateNPCMonster; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CreateNPCMonster_TypeDefinitionIndex = 20291;
+
 	class CreateNPCMonster : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -7,6 +7,8 @@ class FEBFJNFNBAP;
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MissionModule_MissionCustomValueClient_TypeDefinitionIndex = 66143;
+
 	class MissionModule_MissionCustomValueClient : public ::System::Object
 	{
 	public:

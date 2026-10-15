@@ -5,6 +5,8 @@ namespace System { class String; }
 
 #define KKOKIGKGPKB_JIMGCGDIHAO_CCTOR_OFFSET UNITYSDK_OFFSET(0xB4DA380)
 
+inline static constexpr unsigned int KKOKIGKGPKB_JIMGCGDIHAO_TypeDefinitionIndex = 49155;
+
 	class KKOKIGKGPKB_JIMGCGDIHAO : public ::System::Object
 	{
 	public:

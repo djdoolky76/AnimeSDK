@@ -11,6 +11,8 @@ namespace RPG::GameCore { class InventorySortRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int InventorySortRow_TypeDefinitionIndex = 13831;
+
 	class InventorySortRow : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class BattleCollegeStageIntroRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BattleCollegeStageIntroRow_TypeDefinitionIndex = 12838;
+
 	class BattleCollegeStageIntroRow : public ::System::Object
 	{
 	public:

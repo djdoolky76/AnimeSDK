@@ -80,6 +80,8 @@ namespace UnityEngine::UI { class Text; }
 #define DMOJAEDFBID__ONBIND_OFFSET UNITYSDK_OFFSET(0xFEC87D0)
 #define DMOJAEDFBID___ONBINDHANDLERS_B__45_1_OFFSET UNITYSDK_OFFSET(0xFECD6E0)
 
+inline static constexpr unsigned int DMOJAEDFBID_TypeDefinitionIndex = 71315;
+
 	class DMOJAEDFBID : public ::FMPCODLIOLG
 	{
 	public:

@@ -32,6 +32,8 @@ namespace System { class Object; }
 #define OAINOPHGABL_PFFCCGKGLKF_OFFSET UNITYSDK_OFFSET(0xBD25A50)
 #define OAINOPHGABL_TICK_OFFSET UNITYSDK_OFFSET(0xBD24B00)
 
+inline static constexpr unsigned int OAINOPHGABL_TypeDefinitionIndex = 58448;
+
 	class OAINOPHGABL : public ::GELIALJDFBL
 	{
 	public:

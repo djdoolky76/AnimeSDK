@@ -14,6 +14,8 @@ namespace System { class Object; }
 #define JDMNOJLCIAI_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x165D89F0)
 #define JDMNOJLCIAI_TICK_OFFSET UNITYSDK_OFFSET(0x165D8A40)
 
+inline static constexpr unsigned int JDMNOJLCIAI_TypeDefinitionIndex = 52323;
+
 	class JDMNOJLCIAI : public ::GELIALJDFBL
 	{
 	public:

@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int DebugRTName_TypeDefinitionIndex = 37859;
+
 	class DebugRTName : public ::System::Object
 	{
 	public:

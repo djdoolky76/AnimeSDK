@@ -3,6 +3,8 @@
 
 #define DEJBOBJPEEH_CTOR_OFFSET UNITYSDK_OFFSET(0x1C54DB40)
 
+inline static constexpr unsigned int DEJBOBJPEEH_TypeDefinitionIndex = 41742;
+
 	class DEJBOBJPEEH
 	{
 	public:

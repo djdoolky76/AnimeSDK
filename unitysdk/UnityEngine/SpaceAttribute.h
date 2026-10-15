@@ -7,6 +7,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int SpaceAttribute_TypeDefinitionIndex = 4240;
+
 	class SpaceAttribute : public ::UnityEngine::PropertyAttribute
 	{
 	public:

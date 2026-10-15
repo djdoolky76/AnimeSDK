@@ -21,6 +21,8 @@ namespace System { class Object; }
 #define PDGKDNIHOOO_SET_ENDTIME_OFFSET UNITYSDK_OFFSET(0xC013010)
 #define PDGKDNIHOOO_SET_TRACKMIXER_OFFSET UNITYSDK_OFFSET(0xC012FF0)
 
+inline static constexpr unsigned int PDGKDNIHOOO_TypeDefinitionIndex = 48842;
+
 	class PDGKDNIHOOO : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

@@ -20,6 +20,8 @@ namespace XLua { class LuaTable; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RandomLoopByFrame_TypeDefinitionIndex = 72639;
+
 	class RandomLoopByFrame : public ::UnityEngine::MonoBehaviour
 	{
 	public:

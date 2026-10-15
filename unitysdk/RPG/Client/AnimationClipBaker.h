@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AnimationClipBaker_TypeDefinitionIndex = 68354;
+
 	class AnimationClipBaker : public ::UnityEngine::MonoBehaviour
 	{
 	public:

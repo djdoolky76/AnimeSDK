@@ -6,6 +6,8 @@ class LBJLBMOOJGM;
 #define IAPCIJPEMPB_CTOR_OFFSET UNITYSDK_OFFSET(0x15E23D60)
 #define IAPCIJPEMPB_KDPCHKAGJMK_OFFSET UNITYSDK_OFFSET(0x15E23C30)
 
+inline static constexpr unsigned int IAPCIJPEMPB_TypeDefinitionIndex = 63290;
+
 	class IAPCIJPEMPB : public ::System::Object
 	{
 	public:

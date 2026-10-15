@@ -5,6 +5,8 @@ class DBNPGNPNJFE;
 
 #define HFAKEDNDJAH_CTOR_OFFSET UNITYSDK_OFFSET(0x1CAC75D0)
 
+inline static constexpr unsigned int HFAKEDNDJAH_TypeDefinitionIndex = 42027;
+
 	class HFAKEDNDJAH : public ::System::Object
 	{
 	public:

@@ -92,6 +92,8 @@ namespace UnityEngine::UI { class Image; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MarbleBattleInputHandler_TypeDefinitionIndex = 65802;
+
 	class MarbleBattleInputHandler : public ::UnityEngine::MonoBehaviour
 	{
 	public:

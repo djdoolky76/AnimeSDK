@@ -27,6 +27,8 @@ namespace System { class String; }
 #define GPCFHMLMDHC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E4F5400)
 #define GPCFHMLMDHC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E4F5460)
 
+inline static constexpr unsigned int GPCFHMLMDHC_TypeDefinitionIndex = 29582;
+
 	class GPCFHMLMDHC : public ::System::Object
 	{
 	public:

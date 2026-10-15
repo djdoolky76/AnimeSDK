@@ -9,6 +9,8 @@ namespace EnviromentSystemV2Space { class PropertyDataBase; }
 
 namespace EnviromentSystemV2Space
 {
+	inline static constexpr unsigned int GradientPropertyData_TypeDefinitionIndex = 49395;
+
 	class GradientPropertyData
 	{
 	public:

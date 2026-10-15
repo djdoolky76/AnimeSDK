@@ -16,6 +16,8 @@
 
 namespace System::Threading
 {
+	inline static constexpr unsigned int SpinLock_TypeDefinitionIndex = 812;
+
 	struct alignas(4) SpinLock
 	{
 		::System::Int32 m_owner; // 0x10

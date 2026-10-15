@@ -9,6 +9,8 @@
 
 namespace System::Threading
 {
+	inline static constexpr unsigned int Volatile_TypeDefinitionIndex = 883;
+
 	class Volatile : public ::System::Object
 	{
 	public:

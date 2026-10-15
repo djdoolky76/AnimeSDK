@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimSimpleHitBoxConfig_TypeDefinitionIndex = 18605;
+
 	class FiveDimSimpleHitBoxConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
 	public:

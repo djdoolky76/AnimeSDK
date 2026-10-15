@@ -25,6 +25,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BattleSkillDescItemFitter_TypeDefinitionIndex = 71891;
+
 	class BattleSkillDescItemFitter : public ::System::Object
 	{
 	public:

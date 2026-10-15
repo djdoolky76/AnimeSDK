@@ -6,6 +6,8 @@
 
 namespace BansheeGz::BGSpline::Curve
 {
+	inline static constexpr unsigned int BGCc_CcExcludeFromMenu_TypeDefinitionIndex = 35984;
+
 	class BGCc_CcExcludeFromMenu : public ::System::Attribute
 	{
 	public:

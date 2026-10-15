@@ -16,6 +16,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AttachPoint_TypeDefinitionIndex = 68359;
+
 	class AttachPoint : public ::System::Object
 	{
 	public:

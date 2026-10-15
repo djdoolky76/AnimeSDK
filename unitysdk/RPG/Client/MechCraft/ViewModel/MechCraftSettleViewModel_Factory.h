@@ -22,6 +22,8 @@ namespace RPG::Client::MechCraft::ViewModel { class MechCraftOrderSettleViewMode
 
 namespace RPG::Client::MechCraft::ViewModel
 {
+	inline static constexpr unsigned int MechCraftSettleViewModel_Factory_TypeDefinitionIndex = 79729;
+
 	class MechCraftSettleViewModel_Factory : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace UnityEngine { class Behaviour; }
 #define LPIMOIEMCII_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0xB8207E0)
 #define LPIMOIEMCII_REVERSE_OFFSET UNITYSDK_OFFSET(0xB820660)
 
+inline static constexpr unsigned int LPIMOIEMCII_TypeDefinitionIndex = 73500;
+
 	class LPIMOIEMCII : public ::LLJAOGKDNFD
 	{
 	public:

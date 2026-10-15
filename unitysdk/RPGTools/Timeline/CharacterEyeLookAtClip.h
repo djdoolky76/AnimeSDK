@@ -17,6 +17,8 @@ namespace UnityEngine::Timeline { class TimelineClip; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int CharacterEyeLookAtClip_TypeDefinitionIndex = 47973;
+
 	class CharacterEyeLookAtClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

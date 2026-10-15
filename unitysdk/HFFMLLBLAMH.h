@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FateRinCaseBoardEffectInfo; }
 #define HFFMLLBLAMH_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CEA04C0)
 #define HFFMLLBLAMH_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CEA0480)
 
+inline static constexpr unsigned int HFFMLLBLAMH_TypeDefinitionIndex = 19928;
+
 	class HFFMLLBLAMH : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -25,6 +25,8 @@ namespace System { class String; }
 #define LNKEEAKFEHM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9B57D0)
 #define LNKEEAKFEHM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E9B5830)
 
+inline static constexpr unsigned int LNKEEAKFEHM_TypeDefinitionIndex = 32944;
+
 	class LNKEEAKFEHM : public ::System::Object
 	{
 	public:

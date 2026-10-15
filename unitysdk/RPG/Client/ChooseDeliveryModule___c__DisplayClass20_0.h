@@ -10,6 +10,8 @@ namespace RPG::Client { class ChooseDeliveryEntry; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChooseDeliveryModule___c__DisplayClass20_0_TypeDefinitionIndex = 63524;
+
 	class ChooseDeliveryModule___c__DisplayClass20_0 : public ::System::Object
 	{
 	public:

@@ -17,6 +17,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace Cysharp::Threading::Tasks
 {
+	inline static constexpr unsigned int UnityBindingExtensions_TypeDefinitionIndex = 38487;
+
 	class UnityBindingExtensions : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System { class Object; }
 #define PDFBDEEPPKF_CONVERT_OFFSET UNITYSDK_OFFSET(0x1CC94270)
 #define PDFBDEEPPKF_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC93F00)
 
+inline static constexpr unsigned int PDFBDEEPPKF_TypeDefinitionIndex = 43894;
+
 	class PDFBDEEPPKF : public ::System::Object
 	{
 	public:

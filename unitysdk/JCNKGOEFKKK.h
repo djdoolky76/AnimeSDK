@@ -16,6 +16,8 @@ namespace System { class String; }
 #define JCNKGOEFKKK_NDMBDGKAJEK_OFFSET UNITYSDK_OFFSET(0x165A7D80)
 #define JCNKGOEFKKK_OHHEEPFHMGK_OFFSET UNITYSDK_OFFSET(0x165A8520)
 
+inline static constexpr unsigned int JCNKGOEFKKK_TypeDefinitionIndex = 65287;
+
 	class JCNKGOEFKKK : public ::HEOLKMLMPML
 	{
 	public:

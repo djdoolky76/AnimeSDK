@@ -4,6 +4,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ConfigDataPoolDictionaryValuesEnumeratorPoolMember_2_TypeDefinitionIndex = 10779;
+
 	template <typename T1, typename T2>
 	struct alignas(8) ConfigDataPoolDictionaryValuesEnumeratorPoolMember_2
 	{

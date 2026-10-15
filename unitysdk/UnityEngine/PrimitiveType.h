@@ -3,6 +3,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int PrimitiveType_TypeDefinitionIndex = 4014;
+
 	enum class PrimitiveType : ::System::Int32
 	{
 		Sphere = 0,

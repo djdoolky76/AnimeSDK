@@ -13,6 +13,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define EGPLHHDBEIP_SET_DIFFICULTYRATIO_OFFSET UNITYSDK_OFFSET(0x1549C010)
 #define EGPLHHDBEIP_SET_ISPERMANENT_OFFSET UNITYSDK_OFFSET(0x1549BFF0)
 
+inline static constexpr unsigned int EGPLHHDBEIP_TypeDefinitionIndex = 56015;
+
 	class EGPLHHDBEIP : public ::LHHEGNEBMLN
 	{
 	public:

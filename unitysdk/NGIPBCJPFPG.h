@@ -30,6 +30,8 @@ namespace System { class String; }
 #define NGIPBCJPFPG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB12EA0)
 #define NGIPBCJPFPG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB12F00)
 
+inline static constexpr unsigned int NGIPBCJPFPG_TypeDefinitionIndex = 29568;
+
 	class NGIPBCJPFPG : public ::System::Object
 	{
 	public:

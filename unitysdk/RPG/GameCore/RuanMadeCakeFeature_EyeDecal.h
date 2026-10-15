@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RuanMadeCakeFeature_EyeDecal_TypeDefinitionIndex = 17467;
+
 	class RuanMadeCakeFeature_EyeDecal : public ::RPG::GameCore::RuanMadeCakeFeatureConfig
 	{
 	public:

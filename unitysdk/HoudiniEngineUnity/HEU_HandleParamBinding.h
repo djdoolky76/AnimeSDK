@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_HandleParamBinding_TypeDefinitionIndex = 40528;
+
 	class HEU_HandleParamBinding : public ::System::Object
 	{
 	public:

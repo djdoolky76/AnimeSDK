@@ -99,6 +99,8 @@ namespace System::Collections::Generic { template <typename T> class SortedSet_1
 #define GMAGAHGCOFD_PMJMPDLKKFA_OFFSET UNITYSDK_OFFSET(0x15AC79E0)
 #define GMAGAHGCOFD_PPLMPHOGGKL_OFFSET UNITYSDK_OFFSET(0x15AC3FB0)
 
+inline static constexpr unsigned int GMAGAHGCOFD_TypeDefinitionIndex = 75912;
+
 	class GMAGAHGCOFD : public ::System::Object
 	{
 	public:

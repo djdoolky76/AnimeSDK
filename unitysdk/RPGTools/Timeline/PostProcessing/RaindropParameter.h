@@ -7,6 +7,8 @@
 
 namespace RPGTools::Timeline::PostProcessing
 {
+	inline static constexpr unsigned int RaindropParameter_TypeDefinitionIndex = 48603;
+
 	struct alignas(4) RaindropParameter
 	{
 		::UnityEngine::Vector2 _RainDropTilling; // 0x10

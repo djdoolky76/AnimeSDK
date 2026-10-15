@@ -9,6 +9,8 @@ namespace ScenenLightManager { class LocalFogSphereInstance_ExportData; }
 
 namespace ScenenLightManager
 {
+	inline static constexpr unsigned int LocalFogSphereInstance_SceneLightExportData_TypeDefinitionIndex = 49059;
+
 	class LocalFogSphereInstance_SceneLightExportData : public ::ScenenLightManager::BaseSceneLightExportData
 	{
 	public:

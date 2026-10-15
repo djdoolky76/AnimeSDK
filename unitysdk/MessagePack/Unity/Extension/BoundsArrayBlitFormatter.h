@@ -6,6 +6,8 @@
 
 namespace MessagePack::Unity::Extension
 {
+	inline static constexpr unsigned int BoundsArrayBlitFormatter_TypeDefinitionIndex = 10162;
+
 	class BoundsArrayBlitFormatter
 	{
 	public:

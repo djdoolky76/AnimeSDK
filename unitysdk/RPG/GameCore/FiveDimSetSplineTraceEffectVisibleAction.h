@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FiveDimSetSplineTraceEffectVisibleAction; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimSetSplineTraceEffectVisibleAction_TypeDefinitionIndex = 18754;
+
 	class FiveDimSetSplineTraceEffectVisibleAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
 	public:

@@ -15,6 +15,8 @@ namespace System { class Action; }
 #define NFIJIPAJAEL_NNAGLJCMMGD_OFFSET UNITYSDK_OFFSET(0xBB967C0)
 #define NFIJIPAJAEL_NONJDKKDDLE_OFFSET UNITYSDK_OFFSET(0xBB966A0)
 
+inline static constexpr unsigned int NFIJIPAJAEL_TypeDefinitionIndex = 60473;
+
 	class NFIJIPAJAEL : public ::System::Object
 	{
 	public:

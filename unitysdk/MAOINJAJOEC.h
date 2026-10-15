@@ -40,6 +40,8 @@ namespace System { class String; }
 #define MAOINJAJOEC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9DE450)
 #define MAOINJAJOEC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E9DE4B0)
 
+inline static constexpr unsigned int MAOINJAJOEC_TypeDefinitionIndex = 31940;
+
 	class MAOINJAJOEC : public ::System::Object
 	{
 	public:

@@ -31,6 +31,8 @@ namespace System { class String; }
 #define GFIAOCOLLCD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E46ED70)
 #define GFIAOCOLLCD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E46EDD0)
 
+inline static constexpr unsigned int GFIAOCOLLCD_TypeDefinitionIndex = 34271;
+
 	class GFIAOCOLLCD : public ::System::Object
 	{
 	public:

@@ -30,6 +30,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int SecondRealNameGrantMail_TypeDefinitionIndex = 9521;
+
 	class SecondRealNameGrantMail : public ::MiHoYo::SDK::UIElement
 	{
 	public:

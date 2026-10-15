@@ -4,6 +4,8 @@
 
 #define EOJDAECKCKH_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA61C10)
 
+inline static constexpr unsigned int EOJDAECKCKH_TypeDefinitionIndex = 42826;
+
 	class EOJDAECKCKH : public ::Entitas::CodeGeneration::Attributes::ContextAttribute
 	{
 	public:

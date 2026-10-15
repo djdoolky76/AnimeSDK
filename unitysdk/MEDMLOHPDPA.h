@@ -8,6 +8,8 @@ namespace UnityEngine::Rendering { class CommandBuffer; }
 #define MEDMLOHPDPA_CTOR_OFFSET UNITYSDK_OFFSET(0xB8BCF40)
 #define MEDMLOHPDPA_PKADDEPKJFN_OFFSET UNITYSDK_OFFSET(0xB8BCEE0)
 
+inline static constexpr unsigned int MEDMLOHPDPA_TypeDefinitionIndex = 49549;
+
 	class MEDMLOHPDPA : public ::System::Object
 	{
 	public:

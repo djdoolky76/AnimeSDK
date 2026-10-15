@@ -35,6 +35,8 @@ namespace System { class String; }
 #define GEGLJDELBHA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E458BA0)
 #define GEGLJDELBHA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E458C00)
 
+inline static constexpr unsigned int GEGLJDELBHA_TypeDefinitionIndex = 32370;
+
 	class GEGLJDELBHA : public ::System::Object
 	{
 	public:

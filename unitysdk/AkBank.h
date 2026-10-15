@@ -15,6 +15,8 @@ namespace UnityEngine { class GameObject; }
 #define AKBANK_START_OFFSET UNITYSDK_OFFSET(0x1F579940)
 #define AKBANK_UNLOADBANK_OFFSET UNITYSDK_OFFSET(0x1F579A60)
 
+inline static constexpr unsigned int AkBank_TypeDefinitionIndex = 44914;
+
 	class AkBank : public ::AkTriggerHandler
 	{
 	public:

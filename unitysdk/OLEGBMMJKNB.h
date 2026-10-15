@@ -8,6 +8,8 @@ namespace System { class String; }
 #define OLEGBMMJKNB_CTOR_OFFSET UNITYSDK_OFFSET(0xBF02970)
 #define OLEGBMMJKNB_OKPLPEELPBC_OFFSET UNITYSDK_OFFSET(0xBF029A0)
 
+inline static constexpr unsigned int OLEGBMMJKNB_TypeDefinitionIndex = 65990;
+
 	class OLEGBMMJKNB : public ::System::Object
 	{
 	public:

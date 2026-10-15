@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 
 namespace Newtonsoft::Json::Serialization
 {
+	inline static constexpr unsigned int DefaultContractResolver___c__DisplayClass34_2_TypeDefinitionIndex = 9711;
+
 	template <typename T1, typename T2>
 	class DefaultContractResolver___c__DisplayClass34_2 : public ::System::Object
 	{

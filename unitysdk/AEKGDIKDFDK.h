@@ -9,6 +9,8 @@ namespace System { class String; }
 #define AEKGDIKDFDK_HJNHPDOLMJA_OFFSET UNITYSDK_OFFSET(0x1EBEBAE0)
 #define AEKGDIKDFDK_SET_OFFSET UNITYSDK_OFFSET(0x1EBEB950)
 
+inline static constexpr unsigned int AEKGDIKDFDK_TypeDefinitionIndex = 35214;
+
 	class AEKGDIKDFDK : public ::System::Object
 	{
 	public:

@@ -13,6 +13,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PropDestructItem_TypeDefinitionIndex = 21204;
+
 	class PropDestructItem : public ::RPG::GameCore::JsonConfig
 	{
 	public:

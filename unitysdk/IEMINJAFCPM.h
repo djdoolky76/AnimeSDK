@@ -29,6 +29,8 @@ namespace System { class String; }
 #define IEMINJAFCPM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E63F030)
 #define IEMINJAFCPM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E63F090)
 
+inline static constexpr unsigned int IEMINJAFCPM_TypeDefinitionIndex = 29328;
+
 	class IEMINJAFCPM : public ::System::Object
 	{
 	public:

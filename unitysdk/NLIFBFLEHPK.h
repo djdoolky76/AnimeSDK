@@ -9,6 +9,8 @@ namespace RPG::GameCore { class TaskConfig; }
 #define NLIFBFLEHPK_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D233060)
 #define NLIFBFLEHPK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D233010)
 
+inline static constexpr unsigned int NLIFBFLEHPK_TypeDefinitionIndex = 10208;
+
 	class NLIFBFLEHPK : public ::RPG::GameCore::AdvWaitingEventBase
 	{
 	public:

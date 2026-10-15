@@ -13,6 +13,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace RPG::Client::PixAir
 {
+	inline static constexpr unsigned int PixAirEnterBattleLoadingWindows_TypeDefinitionIndex = 79239;
+
 	class PixAirEnterBattleLoadingWindows : public ::Sofa::BaseSofaWindow
 	{
 	public:

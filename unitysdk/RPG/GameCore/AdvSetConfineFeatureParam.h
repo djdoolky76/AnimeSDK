@@ -12,6 +12,8 @@ namespace RPG::GameCore { class DynamicFloat; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvSetConfineFeatureParam_TypeDefinitionIndex = 21813;
+
 	class AdvSetConfineFeatureParam : public ::RPG::GameCore::TaskConfig
 	{
 	public:

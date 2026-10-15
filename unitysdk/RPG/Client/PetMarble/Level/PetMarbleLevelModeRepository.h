@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 
 namespace RPG::Client::PetMarble::Level
 {
+	inline static constexpr unsigned int PetMarbleLevelModeRepository_TypeDefinitionIndex = 74745;
+
 	class PetMarbleLevelModeRepository : public ::System::Object
 	{
 	public:

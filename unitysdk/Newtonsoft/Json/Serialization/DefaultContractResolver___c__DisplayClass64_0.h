@@ -9,6 +9,8 @@ namespace System { class Object; }
 
 namespace Newtonsoft::Json::Serialization
 {
+	inline static constexpr unsigned int DefaultContractResolver___c__DisplayClass64_0_TypeDefinitionIndex = 9712;
+
 	class DefaultContractResolver___c__DisplayClass64_0 : public ::System::Object
 	{
 	public:

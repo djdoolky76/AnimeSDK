@@ -9,6 +9,8 @@ namespace RPG::GameCore { class TeamTowersBossBrickEntryConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TeamTowersBossBrickEntryConfig_TypeDefinitionIndex = 18957;
+
 	class TeamTowersBossBrickEntryConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

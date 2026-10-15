@@ -12,6 +12,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TransformPatrolAnimBehavior_PatrolPoint_TypeDefinitionIndex = 70339;
+
 	class TransformPatrolAnimBehavior_PatrolPoint : public ::System::Object
 	{
 	public:

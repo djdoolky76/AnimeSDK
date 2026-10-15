@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BaseModifierInstance_ModifierEffectData_TypeDefinitionIndex = 54431;
+
 	class BaseModifierInstance_ModifierEffectData : public ::System::Object
 	{
 	public:

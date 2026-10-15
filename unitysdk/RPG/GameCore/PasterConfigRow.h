@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PasterConfigRow_TypeDefinitionIndex = 15371;
+
 	class PasterConfigRow : public ::System::Object
 	{
 	public:

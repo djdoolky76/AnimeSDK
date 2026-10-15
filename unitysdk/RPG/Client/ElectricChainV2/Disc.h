@@ -9,6 +9,8 @@ namespace RPG::Client::ElectricChainV2 { class Sampler; }
 
 namespace RPG::Client::ElectricChainV2
 {
+	inline static constexpr unsigned int Disc_TypeDefinitionIndex = 73596;
+
 	class Disc : public ::RPG::Client::ElectricChainV2::Shape
 	{
 	public:

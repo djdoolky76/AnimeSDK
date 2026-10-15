@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetDynamicValueByHitSplitRatio_TypeDefinitionIndex = 23265;
+
 	class SetDynamicValueByHitSplitRatio : public ::RPG::GameCore::SetDynamicValueBase
 	{
 	public:

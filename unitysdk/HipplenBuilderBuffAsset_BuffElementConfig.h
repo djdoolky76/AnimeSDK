@@ -10,6 +10,8 @@ namespace System { class String; }
 #define HIPPLENBUILDERBUFFASSET_BUFFELEMENTCONFIG_GET_SHOWBUFFSTRINT_OFFSET UNITYSDK_OFFSET(0x15DE3050)
 #define HIPPLENBUILDERBUFFASSET_BUFFELEMENTCONFIG_GET_SHOWSTATTYPE_OFFSET UNITYSDK_OFFSET(0x15DE2FB0)
 
+inline static constexpr unsigned int HipplenBuilderBuffAsset_BuffElementConfig_TypeDefinitionIndex = 47227;
+
 	class HipplenBuilderBuffAsset_BuffElementConfig : public ::System::Object
 	{
 	public:

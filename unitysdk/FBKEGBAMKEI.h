@@ -7,6 +7,8 @@ namespace RPG::GameCore { class MiConditionConfigBase; }
 #define FBKEGBAMKEI_BEJAJNEFHIB_OFFSET UNITYSDK_OFFSET(0x156A1680)
 #define FBKEGBAMKEI_CTOR_OFFSET UNITYSDK_OFFSET(0x156A1770)
 
+inline static constexpr unsigned int FBKEGBAMKEI_TypeDefinitionIndex = 59950;
+
 	class FBKEGBAMKEI : public ::System::Object
 	{
 	public:

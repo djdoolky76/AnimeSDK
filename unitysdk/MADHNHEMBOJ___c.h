@@ -8,6 +8,8 @@ namespace System { template <typename T> class Comparison_1; }
 #define MADHNHEMBOJ___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB84B3C0)
 #define MADHNHEMBOJ___C__ADDHIGHLIGHTENTITY_B__143_0_OFFSET UNITYSDK_OFFSET(0xB84B3D0)
 
+inline static constexpr unsigned int MADHNHEMBOJ___c_TypeDefinitionIndex = 71205;
+
 	class MADHNHEMBOJ___c : public ::System::Object
 	{
 	public:

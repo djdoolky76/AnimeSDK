@@ -3,6 +3,8 @@
 
 namespace System
 {
+	inline static constexpr unsigned int IComparable_TypeDefinitionIndex = 274;
+
 	class IComparable
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PropInteractMuteInputActionParam_TypeDefinitionIndex = 10181;
+
 	class PropInteractMuteInputActionParam : public ::RPG::Client::LockTargetParam
 	{
 	public:

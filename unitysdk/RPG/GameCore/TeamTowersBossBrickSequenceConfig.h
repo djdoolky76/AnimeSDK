@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TeamTowersBossBrickSequenceConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TeamTowersBossBrickSequenceConfig_TypeDefinitionIndex = 18959;
+
 	class TeamTowersBossBrickSequenceConfig : public ::RPG::GameCore::LittleGameConstConfig
 	{
 	public:

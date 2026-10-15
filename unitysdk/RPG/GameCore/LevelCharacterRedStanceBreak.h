@@ -13,6 +13,8 @@ namespace RPG::GameCore { class LevelCharacterRedStanceBreak; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelCharacterRedStanceBreak_TypeDefinitionIndex = 56802;
+
 	class LevelCharacterRedStanceBreak : public ::CMPGEAFHHDC
 	{
 	public:

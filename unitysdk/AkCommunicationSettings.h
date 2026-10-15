@@ -27,6 +27,8 @@ namespace System { class String; }
 #define AKCOMMUNICATIONSETTINGS_SET_UNOTIFICATIONPORT_OFFSET UNITYSDK_OFFSET(0x1F586030)
 #define AKCOMMUNICATIONSETTINGS_SET_UPOOLSIZE_OFFSET UNITYSDK_OFFSET(0x1F585DF0)
 
+inline static constexpr unsigned int AkCommunicationSettings_TypeDefinitionIndex = 44796;
+
 	class AkCommunicationSettings : public ::System::Object
 	{
 	public:

@@ -27,6 +27,8 @@
 
 namespace InControl
 {
+	inline static constexpr unsigned int TouchControl_TypeDefinitionIndex = 40882;
+
 	class TouchControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

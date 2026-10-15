@@ -9,6 +9,8 @@
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int BatchCullingContext_TypeDefinitionIndex = 4735;
+
 	struct alignas(8) BatchCullingContext
 	{
 		::Unity::Collections::NativeArray_1<::UnityEngine::Plane> cullingPlanes; // 0x10

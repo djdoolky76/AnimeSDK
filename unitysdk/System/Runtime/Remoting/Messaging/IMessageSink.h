@@ -3,6 +3,8 @@
 
 namespace System::Runtime::Remoting::Messaging
 {
+	inline static constexpr unsigned int IMessageSink_TypeDefinitionIndex = 1317;
+
 	class IMessageSink
 	{
 	public:

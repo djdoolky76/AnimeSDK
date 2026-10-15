@@ -6,6 +6,8 @@
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int H5logGeneralReport_ModuleType_TypeDefinitionIndex = 46473;
+
 	class H5logGeneralReport_ModuleType : public ::System::Object
 	{
 	public:

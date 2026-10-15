@@ -14,6 +14,8 @@ namespace RPG::GameCore { class PropComponent; }
 #define LFAPPEJIDDN_HDNHBCHJMLN_OFFSET UNITYSDK_OFFSET(0xB660430)
 #define LFAPPEJIDDN_KCFLEKIIDII_OFFSET UNITYSDK_OFFSET(0xB660560)
 
+inline static constexpr unsigned int LFAPPEJIDDN_TypeDefinitionIndex = 60126;
+
 	class LFAPPEJIDDN : public ::JHFCIOJIONP
 	{
 	public:

@@ -4,6 +4,8 @@
 
 #define CEGFCKKCEHM_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8DD680)
 
+inline static constexpr unsigned int CEGFCKKCEHM_TypeDefinitionIndex = 42919;
+
 	class CEGFCKKCEHM : public ::System::Object
 	{
 	public:

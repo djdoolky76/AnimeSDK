@@ -9,6 +9,8 @@ namespace System { class Object; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
+	inline static constexpr unsigned int Any__AnyAsync_d__0_1_TypeDefinitionIndex = 45219;
+
 	template <typename T>
 	struct alignas(8) Any__AnyAsync_d__0_1
 	{

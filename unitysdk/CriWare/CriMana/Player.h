@@ -261,6 +261,8 @@ namespace UnityEngine { class MonoBehaviour; }
 
 namespace CriWare::CriMana
 {
+	inline static constexpr unsigned int Player_TypeDefinitionIndex = 40214;
+
 	class Player : public ::CriWare::CriDisposable
 	{
 	public:

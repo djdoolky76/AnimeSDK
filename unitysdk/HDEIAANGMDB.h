@@ -41,6 +41,8 @@ namespace System { class String; }
 #define HDEIAANGMDB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E54A920)
 #define HDEIAANGMDB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E54A980)
 
+inline static constexpr unsigned int HDEIAANGMDB_TypeDefinitionIndex = 29194;
+
 	class HDEIAANGMDB : public ::System::Object
 	{
 	public:

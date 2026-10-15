@@ -4,6 +4,8 @@
 
 #define DDFDNJCFIHM_JFENOKLCCME_OFFSET UNITYSDK_OFFSET(0xF2CA0)
 
+inline static constexpr unsigned int DDFDNJCFIHM_TypeDefinitionIndex = 56949;
+
 	struct alignas(4) DDFDNJCFIHM
 	{
 		::RPG::MVector3 LJCENKGKELP; // 0x10

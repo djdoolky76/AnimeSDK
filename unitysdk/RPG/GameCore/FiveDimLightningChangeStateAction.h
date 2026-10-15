@@ -11,6 +11,8 @@ namespace RPG::GameCore { class FiveDimLightningChangeStateAction; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimLightningChangeStateAction_TypeDefinitionIndex = 18783;
+
 	class FiveDimLightningChangeStateAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
 	public:

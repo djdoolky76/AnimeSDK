@@ -27,6 +27,8 @@ namespace System { class String; }
 #define EGIJMPCIJOG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E2945E0)
 #define EGIJMPCIJOG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E294640)
 
+inline static constexpr unsigned int EGIJMPCIJOG_TypeDefinitionIndex = 34651;
+
 	class EGIJMPCIJOG : public ::System::Object
 	{
 	public:

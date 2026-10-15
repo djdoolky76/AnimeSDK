@@ -8,6 +8,8 @@ class FCOEMCEDLNL;
 #define CGHBOOLNOOJ_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC0C540)
 #define CGHBOOLNOOJ_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC0C470)
 
+inline static constexpr unsigned int CGHBOOLNOOJ_TypeDefinitionIndex = 22615;
+
 	class CGHBOOLNOOJ : public ::RPG::GameCore::TaskConfig
 	{
 	public:

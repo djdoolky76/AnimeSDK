@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TacticsCardType_TypeDefinitionIndex = 11309;
+
 	enum class TacticsCardType : ::System::Int32
 	{
 		Normal = 0,

@@ -6,6 +6,8 @@ class KAPEMBCNNIG;
 
 #define PKIGJIJEJEG_NDLMFOIBFHO_CTOR_OFFSET UNITYSDK_OFFSET(0xC2BF930)
 
+inline static constexpr unsigned int PKIGJIJEJEG_NDLMFOIBFHO_TypeDefinitionIndex = 71575;
+
 	class PKIGJIJEJEG_NDLMFOIBFHO : public ::System::Object
 	{
 	public:

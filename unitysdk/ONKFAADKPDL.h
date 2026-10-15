@@ -10,6 +10,8 @@ namespace System { class String; }
 #define ONKFAADKPDL_CTOR_OFFSET UNITYSDK_OFFSET(0x1D2A36C0)
 #define ONKFAADKPDL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D2A33A0)
 
+inline static constexpr unsigned int ONKFAADKPDL_TypeDefinitionIndex = 11519;
+
 	class ONKFAADKPDL : public ::System::Object
 	{
 	public:

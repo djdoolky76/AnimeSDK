@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define NDMOCIICAEC_JMMLHADMHJK_OFFSET UNITYSDK_OFFSET(0xBB52F40)
 #define NDMOCIICAEC_LMBKNCAIDLC_OFFSET UNITYSDK_OFFSET(0xBB53010)
 
+inline static constexpr unsigned int NDMOCIICAEC_TypeDefinitionIndex = 63376;
+
 	class NDMOCIICAEC : public ::System::Object
 	{
 	public:

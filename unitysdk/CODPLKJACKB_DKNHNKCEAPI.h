@@ -6,6 +6,8 @@ namespace System { class String; }
 
 #define CODPLKJACKB_DKNHNKCEAPI_CTOR_OFFSET UNITYSDK_OFFSET(0xDCB34A0)
 
+inline static constexpr unsigned int CODPLKJACKB_DKNHNKCEAPI_TypeDefinitionIndex = 64768;
+
 	class CODPLKJACKB_DKNHNKCEAPI : public ::System::Object
 	{
 	public:

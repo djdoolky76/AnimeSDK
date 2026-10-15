@@ -29,6 +29,8 @@ namespace System { class String; }
 #define PNICDFFMDDB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DFBB320)
 #define PNICDFFMDDB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DFBB380)
 
+inline static constexpr unsigned int PNICDFFMDDB_TypeDefinitionIndex = 34641;
+
 	class PNICDFFMDDB : public ::System::Object
 	{
 	public:

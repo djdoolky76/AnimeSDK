@@ -7,6 +7,8 @@ namespace System { class String; }
 #define HDLECPPJGKN_ALEBBJAFIOG_OFFSET UNITYSDK_OFFSET(0x15C3C420)
 #define HDLECPPJGKN_CTOR_OFFSET UNITYSDK_OFFSET(0x15C3D260)
 
+inline static constexpr unsigned int HDLECPPJGKN_TypeDefinitionIndex = 64983;
+
 	class HDLECPPJGKN : public ::System::Object
 	{
 	public:

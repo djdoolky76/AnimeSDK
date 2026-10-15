@@ -63,6 +63,8 @@ namespace UnityEngine { class Coroutine; }
 
 namespace MiHoYo::SDK::Windows::OS::Channel
 {
+	inline static constexpr unsigned int BindManager_TypeDefinitionIndex = 8358;
+
 	class BindManager : public ::System::Object
 	{
 	public:

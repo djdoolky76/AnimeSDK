@@ -36,6 +36,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define GLHGCJPGNGB_PGFOAKLGFED_OFFSET UNITYSDK_OFFSET(0x15AB5B70)
 #define GLHGCJPGNGB_PKODAOLNAPD_OFFSET UNITYSDK_OFFSET(0x15AB4430)
 
+inline static constexpr unsigned int GLHGCJPGNGB_TypeDefinitionIndex = 81941;
+
 	class GLHGCJPGNGB : public ::System::Object
 	{
 	public:

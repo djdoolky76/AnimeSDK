@@ -9,6 +9,8 @@ namespace RPG::Client::Promises { class Promise; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ElfRestaurantProgressInfo___c__DisplayClass11_0_TypeDefinitionIndex = 63727;
+
 	class ElfRestaurantProgressInfo___c__DisplayClass11_0 : public ::System::Object
 	{
 	public:

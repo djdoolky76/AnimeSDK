@@ -64,6 +64,8 @@ namespace UnityEngine::Rendering { class CommandBuffer; }
 #define ABGNMNDCEND_PHKCMLOLDJO_OFFSET UNITYSDK_OFFSET(0xB0F86A0)
 #define ABGNMNDCEND_PNFPMIDNFNK_OFFSET UNITYSDK_OFFSET(0xB0F82B0)
 
+inline static constexpr unsigned int ABGNMNDCEND_TypeDefinitionIndex = 73712;
+
 	class ABGNMNDCEND : public ::System::Object
 	{
 	public:

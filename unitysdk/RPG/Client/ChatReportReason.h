@@ -12,6 +12,8 @@ namespace RPG::GameCore { class ReportTypeConfigRow; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChatReportReason_TypeDefinitionIndex = 63225;
+
 	class ChatReportReason : public ::System::Object
 	{
 	public:

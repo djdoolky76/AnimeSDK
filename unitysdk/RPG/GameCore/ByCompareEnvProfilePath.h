@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByCompareEnvProfilePath_TypeDefinitionIndex = 20582;
+
 	class ByCompareEnvProfilePath : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

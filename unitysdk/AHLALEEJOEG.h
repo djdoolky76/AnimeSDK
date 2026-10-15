@@ -29,6 +29,8 @@ namespace System { class String; }
 #define AHLALEEJOEG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E2747E0)
 #define AHLALEEJOEG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E274840)
 
+inline static constexpr unsigned int AHLALEEJOEG_TypeDefinitionIndex = 33240;
+
 	class AHLALEEJOEG : public ::System::Object
 	{
 	public:

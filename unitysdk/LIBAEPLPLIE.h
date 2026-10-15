@@ -8,6 +8,8 @@ class PBLOLDMAMOD;
 #define LIBAEPLPLIE_EMJGKAKEPKK_OFFSET UNITYSDK_OFFSET(0xB6C20B0)
 #define LIBAEPLPLIE_NEFBGDBMBNA_OFFSET UNITYSDK_OFFSET(0xB6C2050)
 
+inline static constexpr unsigned int LIBAEPLPLIE_TypeDefinitionIndex = 67129;
+
 	class LIBAEPLPLIE : public ::System::Object
 	{
 	public:

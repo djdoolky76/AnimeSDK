@@ -7,6 +7,8 @@ namespace UnityEngine { class Transform; }
 
 #define BPDHKJMAPHD_CTOR_OFFSET UNITYSDK_OFFSET(0xC1A2E90)
 
+inline static constexpr unsigned int BPDHKJMAPHD_TypeDefinitionIndex = 57392;
+
 	class BPDHKJMAPHD : public ::System::Object
 	{
 	public:

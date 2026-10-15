@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace System::Text
 {
+	inline static constexpr unsigned int EncodingInfo_TypeDefinitionIndex = 494;
+
 	class EncodingInfo : public ::System::Object
 	{
 	public:

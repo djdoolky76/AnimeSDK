@@ -8,6 +8,8 @@ namespace RPG::GameCore { class LittleGameCustomVisibilityConfig; }
 #define IIAFMCJPKDE_CLEAR_OFFSET UNITYSDK_OFFSET(0x1CB76C10)
 #define IIAFMCJPKDE_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB76C70)
 
+inline static constexpr unsigned int IIAFMCJPKDE_TypeDefinitionIndex = 43299;
+
 	class IIAFMCJPKDE : public ::System::Object
 	{
 	public:

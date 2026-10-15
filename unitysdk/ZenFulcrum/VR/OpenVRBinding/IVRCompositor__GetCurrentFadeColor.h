@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int IVRCompositor__GetCurrentFadeColor_TypeDefinitionIndex = 39028;
+
 	class IVRCompositor__GetCurrentFadeColor : public ::System::MulticastDelegate
 	{
 	public:

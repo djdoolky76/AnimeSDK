@@ -2009,6 +2009,8 @@ namespace System { class String; }
 #define KCFLMFJEMFJ_PPOFPJDDLLM_OFFSET UNITYSDK_OFFSET(0x1D06E550)
 #define KCFLMFJEMFJ_PPPAMALODNI_OFFSET UNITYSDK_OFFSET(0x1D079770)
 
+inline static constexpr unsigned int KCFLMFJEMFJ_TypeDefinitionIndex = 10536;
+
 	class KCFLMFJEMFJ : public ::System::Object
 	{
 	public:

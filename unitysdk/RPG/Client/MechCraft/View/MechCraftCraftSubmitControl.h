@@ -19,6 +19,8 @@ namespace RPG::Client::MechCraft::View { class MechCraftCraftSubmitControlBinder
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftCraftSubmitControl_TypeDefinitionIndex = 79944;
+
 	class MechCraftCraftSubmitControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

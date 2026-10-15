@@ -12,6 +12,8 @@ namespace System { class Object; }
 #define AKCALLBACKMANAGER_EVENTCALLBACK_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F581B80)
 #define AKCALLBACKMANAGER_EVENTCALLBACK_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F580D00)
 
+inline static constexpr unsigned int AkCallbackManager_EventCallback_TypeDefinitionIndex = 44823;
+
 	class AkCallbackManager_EventCallback : public ::System::MulticastDelegate
 	{
 	public:

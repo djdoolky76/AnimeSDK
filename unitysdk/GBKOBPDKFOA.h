@@ -37,6 +37,8 @@ namespace System { class String; }
 #define GBKOBPDKFOA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E42F9B0)
 #define GBKOBPDKFOA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E42FA10)
 
+inline static constexpr unsigned int GBKOBPDKFOA_TypeDefinitionIndex = 27801;
+
 	class GBKOBPDKFOA : public ::System::Object
 	{
 	public:

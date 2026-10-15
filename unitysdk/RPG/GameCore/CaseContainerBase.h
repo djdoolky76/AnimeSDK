@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CaseContainerBase_TypeDefinitionIndex = 23769;
+
 	class CaseContainerBase : public ::RPG::GameCore::JsonConfig
 	{
 	public:

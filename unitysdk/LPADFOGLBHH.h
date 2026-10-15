@@ -22,6 +22,8 @@ namespace UnityEngine { class Rigidbody; }
 #define LPADFOGLBHH_LAJIJKAIKEE_OFFSET UNITYSDK_OFFSET(0xB814130)
 #define LPADFOGLBHH_SET_MOVESPEEDRATIO_OFFSET UNITYSDK_OFFSET(0xB813F20)
 
+inline static constexpr unsigned int LPADFOGLBHH_TypeDefinitionIndex = 57106;
+
 	class LPADFOGLBHH : public ::KMEOMKNPNCC
 	{
 	public:

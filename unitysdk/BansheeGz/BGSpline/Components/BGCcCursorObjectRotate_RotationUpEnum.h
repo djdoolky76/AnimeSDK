@@ -3,6 +3,8 @@
 
 namespace BansheeGz::BGSpline::Components
 {
+	inline static constexpr unsigned int BGCcCursorObjectRotate_RotationUpEnum_TypeDefinitionIndex = 36039;
+
 	enum class BGCcCursorObjectRotate_RotationUpEnum : ::System::Int32
 	{
 		WorldUp = 0,

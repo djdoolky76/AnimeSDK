@@ -11,6 +11,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RandomFallingObjectMonoPlugin_TypeDefinitionIndex = 70939;
+
 	class RandomFallingObjectMonoPlugin
 	{
 	public:

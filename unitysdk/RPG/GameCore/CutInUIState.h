@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CutInUIState_TypeDefinitionIndex = 18220;
+
 	enum class CutInUIState : ::System::Int32
 	{
 		Clicked = 0,

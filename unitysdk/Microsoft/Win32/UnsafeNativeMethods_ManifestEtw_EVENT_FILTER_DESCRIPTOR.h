@@ -3,6 +3,8 @@
 
 namespace Microsoft::Win32
 {
+	inline static constexpr unsigned int UnsafeNativeMethods_ManifestEtw_EVENT_FILTER_DESCRIPTOR_TypeDefinitionIndex = 94;
+
 	struct alignas(4) UnsafeNativeMethods_ManifestEtw_EVENT_FILTER_DESCRIPTOR
 	{
 		::System::Int64 Ptr; // 0x10

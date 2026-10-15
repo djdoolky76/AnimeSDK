@@ -11,6 +11,8 @@ namespace RPG::Client::MechCraft::View { class MechCraftCraftProgressExamConstra
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftCraftProgressExamConstraintsControl_TypeDefinitionIndex = 79934;
+
 	class MechCraftCraftProgressExamConstraintsControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -12,6 +12,8 @@ namespace RPGTools::Timeline { class FloorCustomFloatClip; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int FloorCustomFloatBehaviour_TypeDefinitionIndex = 48127;
+
 	class FloorCustomFloatBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

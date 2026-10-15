@@ -10,6 +10,8 @@ namespace RPG::GameCore::Match3 { class PowerOvertakeOpponentCondition; }
 
 namespace RPG::GameCore::Match3
 {
+	inline static constexpr unsigned int PowerOvertakeOpponentCondition_TypeDefinitionIndex = 24891;
+
 	class PowerOvertakeOpponentCondition : public ::RPG::GameCore::Match3::Match3ConditionBase
 	{
 	public:

@@ -6,6 +6,8 @@
 #define MCNPBIMBLMG_EEEOBMNPCEK_OFFSET UNITYSDK_OFFSET(0xB88A540)
 #define MCNPBIMBLMG_IGDHHPLFLCH_OFFSET UNITYSDK_OFFSET(0xB88A580)
 
+inline static constexpr unsigned int MCNPBIMBLMG_TypeDefinitionIndex = 74446;
+
 	class MCNPBIMBLMG : public ::System::Object
 	{
 	public:

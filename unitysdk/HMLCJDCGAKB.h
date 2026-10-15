@@ -9,6 +9,8 @@ namespace System { class String; }
 #define HMLCJDCGAKB__REGISTEREVENTCALLBACK_OFFSET UNITYSDK_OFFSET(0x15D87C00)
 #define HMLCJDCGAKB__UNREGISTEREVENTCALLBACK_OFFSET UNITYSDK_OFFSET(0x15D87D30)
 
+inline static constexpr unsigned int HMLCJDCGAKB_TypeDefinitionIndex = 53468;
+
 	class HMLCJDCGAKB
 	{
 	public:

@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define JHLOCJCFLAL_KLIBCHEGCMD_OFFSET UNITYSDK_OFFSET(0x1C4A7390)
 #define JHLOCJCFLAL_KOOIECHMIHH_OFFSET UNITYSDK_OFFSET(0x1C4A7880)
 
+inline static constexpr unsigned int JHLOCJCFLAL_TypeDefinitionIndex = 41488;
+
 	class JHLOCJCFLAL : public ::System::Object
 	{
 	public:

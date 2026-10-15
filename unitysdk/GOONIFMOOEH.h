@@ -17,6 +17,8 @@ namespace RPG::Client { class CakeCatchCatData; }
 #define GOONIFMOOEH_SET_CAKEDATA_OFFSET UNITYSDK_OFFSET(0x15B3C190)
 #define GOONIFMOOEH_SET_CAKEID_OFFSET UNITYSDK_OFFSET(0x15B3C120)
 
+inline static constexpr unsigned int GOONIFMOOEH_TypeDefinitionIndex = 62990;
+
 	class GOONIFMOOEH : public ::System::Object
 	{
 	public:

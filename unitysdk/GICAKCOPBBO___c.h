@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define GICAKCOPBBO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E492A30)
 #define GICAKCOPBBO___C___CCTOR_B__48_0_OFFSET UNITYSDK_OFFSET(0x1E492A40)
 
+inline static constexpr unsigned int GICAKCOPBBO___c_TypeDefinitionIndex = 34180;
+
 	class GICAKCOPBBO___c : public ::System::Object
 	{
 	public:

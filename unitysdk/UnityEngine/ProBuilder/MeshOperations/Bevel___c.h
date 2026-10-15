@@ -18,6 +18,8 @@ namespace UnityEngine::ProBuilder { class FaceRebuildData; }
 
 namespace UnityEngine::ProBuilder::MeshOperations
 {
+	inline static constexpr unsigned int Bevel___c_TypeDefinitionIndex = 44478;
+
 	class Bevel___c : public ::System::Object
 	{
 	public:

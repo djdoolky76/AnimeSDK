@@ -6,6 +6,8 @@
 
 namespace Cinemachine
 {
+	inline static constexpr unsigned int TagFieldAttribute_TypeDefinitionIndex = 39829;
+
 	class TagFieldAttribute : public ::UnityEngine::PropertyAttribute
 	{
 	public:

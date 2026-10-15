@@ -6,6 +6,8 @@
 #define AOBFJFEJOKL_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C89E600)
 #define AOBFJFEJOKL_CTOR_OFFSET UNITYSDK_OFFSET(0x1C89E680)
 
+inline static constexpr unsigned int AOBFJFEJOKL_TypeDefinitionIndex = 42002;
+
 	class AOBFJFEJOKL : public ::System::Object
 	{
 	public:

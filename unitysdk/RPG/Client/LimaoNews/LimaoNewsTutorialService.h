@@ -15,6 +15,8 @@ class GKEEBJNJDMP;
 
 namespace RPG::Client::LimaoNews
 {
+	inline static constexpr unsigned int LimaoNewsTutorialService_TypeDefinitionIndex = 80345;
+
 	class LimaoNewsTutorialService : public ::System::Object
 	{
 	public:

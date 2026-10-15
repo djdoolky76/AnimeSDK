@@ -7,6 +7,8 @@ namespace RPG::Client::LittleGameShare { class ST_Side_CakeRaceSetAIState; }
 #define GNFJEOCPDDB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1C648190)
 #define GNFJEOCPDDB_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1C648360)
 
+inline static constexpr unsigned int GNFJEOCPDDB_TypeDefinitionIndex = 36999;
+
 	class GNFJEOCPDDB
 	{
 	public:

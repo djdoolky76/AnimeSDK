@@ -4,6 +4,8 @@
 
 #define PHOKAOMINMC_CTOR_OFFSET UNITYSDK_OFFSET(0xC259630)
 
+inline static constexpr unsigned int PHOKAOMINMC_TypeDefinitionIndex = 59968;
+
 	class PHOKAOMINMC : public ::System::Object
 	{
 	public:

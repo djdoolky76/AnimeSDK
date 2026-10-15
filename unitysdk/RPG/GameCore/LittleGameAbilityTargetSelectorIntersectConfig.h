@@ -11,6 +11,8 @@ namespace RPG::GameCore { class LittleGameAbilityTargetSelectorIntersectConfig; 
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LittleGameAbilityTargetSelectorIntersectConfig_TypeDefinitionIndex = 21369;
+
 	class LittleGameAbilityTargetSelectorIntersectConfig : public ::RPG::GameCore::BaseLittleGameAbilityTargetSelectorConfig
 	{
 	public:

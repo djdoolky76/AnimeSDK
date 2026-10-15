@@ -4,6 +4,8 @@
 
 #define NBPKLKBFKIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1C943960)
 
+inline static constexpr unsigned int NBPKLKBFKIG_TypeDefinitionIndex = 42347;
+
 	class NBPKLKBFKIG : public ::System::Object
 	{
 	public:

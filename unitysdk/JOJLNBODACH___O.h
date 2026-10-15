@@ -4,6 +4,8 @@
 class SceneLightVolume;
 namespace System { template <typename T> class Comparison_1; }
 
+inline static constexpr unsigned int JOJLNBODACH___O_TypeDefinitionIndex = 49341;
+
 	class JOJLNBODACH___O : public ::System::Object
 	{
 	public:

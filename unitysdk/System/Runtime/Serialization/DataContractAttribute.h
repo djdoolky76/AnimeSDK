@@ -6,6 +6,8 @@
 
 namespace System::Runtime::Serialization
 {
+	inline static constexpr unsigned int DataContractAttribute_TypeDefinitionIndex = 3706;
+
 	class DataContractAttribute : public ::System::Attribute
 	{
 	public:

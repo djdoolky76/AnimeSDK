@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChimeraGameInstance___c_TypeDefinitionIndex = 60455;
+
 	class ChimeraGameInstance___c : public ::System::Object
 	{
 	public:

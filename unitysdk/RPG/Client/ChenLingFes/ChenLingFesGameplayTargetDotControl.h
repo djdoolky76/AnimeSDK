@@ -11,6 +11,8 @@ namespace RPG::Client::ChenLingFes { class ChenLingFesGameplayTargetItemViewMode
 
 namespace RPG::Client::ChenLingFes
 {
+	inline static constexpr unsigned int ChenLingFesGameplayTargetDotControl_TypeDefinitionIndex = 81330;
+
 	class ChenLingFesGameplayTargetDotControl : public ::Sofa::BaseSofaControl
 	{
 	public:

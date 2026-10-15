@@ -8,6 +8,8 @@ namespace RPG::GameCore { class TalkBackgroundCG; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int TalkBackgroundCGBehaviour_TypeDefinitionIndex = 48374;
+
 	class TalkBackgroundCGBehaviour : public ::RPGTools::Timeline::CustomEventBehaviour
 	{
 	public:

@@ -6,6 +6,8 @@
 
 namespace System::Xml::Schema
 {
+	inline static constexpr unsigned int XmlValueConverter_TypeDefinitionIndex = 2221;
+
 	class XmlValueConverter : public ::System::Object
 	{
 	public:

@@ -21,6 +21,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FateHandbookHouguItem_TypeDefinitionIndex = 64071;
+
 	class FateHandbookHouguItem : public ::System::Object
 	{
 	public:

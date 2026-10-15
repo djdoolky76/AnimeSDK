@@ -5,6 +5,8 @@
 
 #define IRI_DECALCUSTOMDATA_INSTANCEDATA_CCTOR_OFFSET UNITYSDK_OFFSET(0x16533720)
 
+inline static constexpr unsigned int IRI_DecalCustomData_InstanceData_TypeDefinitionIndex = 47171;
+
 	struct alignas(4) IRI_DecalCustomData_InstanceData
 	{
 		::System::Int32 AtlasID; // 0x10

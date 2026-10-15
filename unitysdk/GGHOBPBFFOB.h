@@ -40,6 +40,8 @@ namespace System { class String; }
 #define GGHOBPBFFOB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E47C730)
 #define GGHOBPBFFOB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E47C790)
 
+inline static constexpr unsigned int GGHOBPBFFOB_TypeDefinitionIndex = 35097;
+
 	class GGHOBPBFFOB : public ::System::Object
 	{
 	public:

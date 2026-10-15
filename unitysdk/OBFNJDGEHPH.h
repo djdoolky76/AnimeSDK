@@ -6,6 +6,8 @@
 #define OBFNJDGEHPH_KHDKKKNHOMA_OFFSET UNITYSDK_OFFSET(0x22EB0)
 #define OBFNJDGEHPH_LJNNDBLCCIH_OFFSET UNITYSDK_OFFSET(0x22ED0)
 
+inline static constexpr unsigned int OBFNJDGEHPH_TypeDefinitionIndex = 56896;
+
 	struct alignas(4) OBFNJDGEHPH
 	{
 		::System::Int32 GMAPGCLKDFF; // 0x10

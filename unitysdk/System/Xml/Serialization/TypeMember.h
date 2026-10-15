@@ -14,6 +14,8 @@ namespace System::Xml::Serialization { class TypeMember; }
 
 namespace System::Xml::Serialization
 {
+	inline static constexpr unsigned int TypeMember_TypeDefinitionIndex = 1994;
+
 	class TypeMember : public ::System::Object
 	{
 	public:

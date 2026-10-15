@@ -10,6 +10,8 @@ namespace RPG::Client::FateRin::Logging { class ILoggerFactory; }
 #define PCPLDNFFLMF_CTOR_OFFSET UNITYSDK_OFFSET(0xC00B450)
 #define PCPLDNFFLMF_OKABKEJCCNN_OFFSET UNITYSDK_OFFSET(0xC00B500)
 
+inline static constexpr unsigned int PCPLDNFFLMF_TypeDefinitionIndex = 81233;
+
 	class PCPLDNFFLMF : public ::System::Object
 	{
 	public:

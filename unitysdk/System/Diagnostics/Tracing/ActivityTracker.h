@@ -22,6 +22,8 @@ namespace System::Threading { template <typename T> class AsyncLocal_1; }
 
 namespace System::Diagnostics::Tracing
 {
+	inline static constexpr unsigned int ActivityTracker_TypeDefinitionIndex = 1674;
+
 	class ActivityTracker : public ::System::Object
 	{
 	public:

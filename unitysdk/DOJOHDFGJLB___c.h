@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define DOJOHDFGJLB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E204700)
 #define DOJOHDFGJLB___C___CCTOR_B__52_0_OFFSET UNITYSDK_OFFSET(0x1E204710)
 
+inline static constexpr unsigned int DOJOHDFGJLB___c_TypeDefinitionIndex = 29874;
+
 	class DOJOHDFGJLB___c : public ::System::Object
 	{
 	public:

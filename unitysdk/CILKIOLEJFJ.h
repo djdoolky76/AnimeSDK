@@ -27,6 +27,8 @@ namespace System { class String; }
 #define CILKIOLEJFJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E0D5CB0)
 #define CILKIOLEJFJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E0D5D10)
 
+inline static constexpr unsigned int CILKIOLEJFJ_TypeDefinitionIndex = 31091;
+
 	class CILKIOLEJFJ : public ::System::Object
 	{
 	public:

@@ -30,6 +30,8 @@ namespace System { class String; }
 #define AAIMICLLCKE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DDBBE00)
 #define AAIMICLLCKE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DDBBE60)
 
+inline static constexpr unsigned int AAIMICLLCKE_TypeDefinitionIndex = 31790;
+
 	class AAIMICLLCKE : public ::System::Object
 	{
 	public:

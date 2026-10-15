@@ -24,6 +24,8 @@ namespace UnityEngine::UI { class Image; }
 #define PMALLDLADJI__ONDISPOSE_OFFSET UNITYSDK_OFFSET(0xC3125B0)
 #define PMALLDLADJI___SETUPULTRABTNEFX_B__6_0_OFFSET UNITYSDK_OFFSET(0xC313600)
 
+inline static constexpr unsigned int PMALLDLADJI_TypeDefinitionIndex = 71955;
+
 	class PMALLDLADJI : public ::FMPCODLIOLG
 	{
 	public:

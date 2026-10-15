@@ -17,6 +17,8 @@ namespace System::Net { class WebHeaderCollection; }
 
 namespace System::Net
 {
+	inline static constexpr unsigned int WebConnectionData_TypeDefinitionIndex = 2885;
+
 	class WebConnectionData : public ::System::Object
 	{
 	public:

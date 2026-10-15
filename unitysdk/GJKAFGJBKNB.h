@@ -5,6 +5,8 @@ namespace RPG::Client { class GachaItemData; }
 
 #define GJKAFGJBKNB_KOMHFNNMFJO_OFFSET UNITYSDK_OFFSET(0x15A6A6C0)
 
+inline static constexpr unsigned int GJKAFGJBKNB_TypeDefinitionIndex = 64301;
+
 	class GJKAFGJBKNB : public ::System::Object
 	{
 	public:

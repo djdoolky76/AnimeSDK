@@ -39,6 +39,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueTournPersonaGameLevelPresetRoomData_TypeDefinitionIndex = 67714;
+
 	class RogueTournPersonaGameLevelPresetRoomData : public ::System::Object
 	{
 	public:

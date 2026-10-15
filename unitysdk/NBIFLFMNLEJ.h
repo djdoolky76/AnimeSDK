@@ -29,6 +29,8 @@ namespace System { class String; }
 #define NBIFLFMNLEJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EAD2420)
 #define NBIFLFMNLEJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EAD2480)
 
+inline static constexpr unsigned int NBIFLFMNLEJ_TypeDefinitionIndex = 31908;
+
 	class NBIFLFMNLEJ : public ::System::Object
 	{
 	public:

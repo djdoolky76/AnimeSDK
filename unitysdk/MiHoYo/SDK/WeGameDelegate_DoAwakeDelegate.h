@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int WeGameDelegate_DoAwakeDelegate_TypeDefinitionIndex = 7718;
+
 	class WeGameDelegate_DoAwakeDelegate : public ::System::MulticastDelegate
 	{
 	public:

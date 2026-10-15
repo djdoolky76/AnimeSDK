@@ -33,6 +33,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define HBMJDOFMACB_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CE89170)
 #define HBMJDOFMACB_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CE886E0)
 
+inline static constexpr unsigned int HBMJDOFMACB_TypeDefinitionIndex = 14350;
+
 	class HBMJDOFMACB : public ::System::Object
 	{
 	public:

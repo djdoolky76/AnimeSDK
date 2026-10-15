@@ -7,6 +7,8 @@ class DEOOCBMMENB;
 #define LMFAIPPPMPN_CTOR_OFFSET UNITYSDK_OFFSET(0xB77CE20)
 #define LMFAIPPPMPN_LJBCDJNNBJH_OFFSET UNITYSDK_OFFSET(0xB77C950)
 
+inline static constexpr unsigned int LMFAIPPPMPN_TypeDefinitionIndex = 62042;
+
 	class LMFAIPPPMPN : public ::BFLILCJMKDB
 	{
 	public:

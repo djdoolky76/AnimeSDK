@@ -13,6 +13,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TargetFetchParamEntity_TypeDefinitionIndex = 23913;
+
 	class TargetFetchParamEntity : public ::RPG::GameCore::TargetEvaluator
 	{
 	public:

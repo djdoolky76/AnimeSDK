@@ -19,6 +19,8 @@ namespace System { class String; }
 #define LJNDFBIACLJ_SET_MODIFIERNAME_OFFSET UNITYSDK_OFFSET(0xB722DA0)
 #define LJNDFBIACLJ_SET_MODIFIEROWNERENTITYID_OFFSET UNITYSDK_OFFSET(0xB722DC0)
 
+inline static constexpr unsigned int LJNDFBIACLJ_TypeDefinitionIndex = 54441;
+
 	class LJNDFBIACLJ : public ::System::Object
 	{
 	public:

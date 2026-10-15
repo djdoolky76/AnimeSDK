@@ -8,6 +8,8 @@ namespace Google::Protobuf::Reflection { class FileDescriptor; }
 
 namespace Google::Protobuf::WellKnownTypes
 {
+	inline static constexpr unsigned int TimestampReflection_TypeDefinitionIndex = 5438;
+
 	class TimestampReflection : public ::System::Object
 	{
 	public:

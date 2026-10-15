@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TaskConfig; }
 #define EAPJOMGKMNN_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CD5E290)
 #define EAPJOMGKMNN_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CD5E250)
 
+inline static constexpr unsigned int EAPJOMGKMNN_TypeDefinitionIndex = 21516;
+
 	class EAPJOMGKMNN : public ::RPG::GameCore::TaskConfig
 	{
 	public:

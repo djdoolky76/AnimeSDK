@@ -6,6 +6,8 @@ namespace System { template <typename T> class Predicate_1; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GamePlayStatic___O_TypeDefinitionIndex = 59014;
+
 	class GamePlayStatic___O : public ::System::Object
 	{
 	public:

@@ -43,6 +43,8 @@ namespace UnityEngine { class Mesh; }
 
 namespace GeometryEdit
 {
+	inline static constexpr unsigned int Prism_TypeDefinitionIndex = 49186;
+
 	class Prism : public ::UnityEngine::MonoBehaviour
 	{
 	public:

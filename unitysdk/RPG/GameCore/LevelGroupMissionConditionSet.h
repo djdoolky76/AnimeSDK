@@ -11,6 +11,8 @@ namespace RPG::GameCore { class LevelGroupMissionConditionSet; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelGroupMissionConditionSet_TypeDefinitionIndex = 17208;
+
 	class LevelGroupMissionConditionSet : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System { template <typename T> class Comparison_1; }
 #define EJNMEBKMOFC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x154F13C0)
 #define EJNMEBKMOFC___C___INITIALIZEWINDOWCONTROLLER_B__2_0_OFFSET UNITYSDK_OFFSET(0x154F13D0)
 
+inline static constexpr unsigned int EJNMEBKMOFC___c_TypeDefinitionIndex = 77171;
+
 	class EJNMEBKMOFC___c : public ::System::Object
 	{
 	public:

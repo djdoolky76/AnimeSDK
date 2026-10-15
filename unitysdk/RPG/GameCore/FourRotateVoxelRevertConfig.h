@@ -9,6 +9,8 @@ namespace RPG::GameCore { class FourRotateVoxelRevertConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FourRotateVoxelRevertConfig_TypeDefinitionIndex = 16740;
+
 	class FourRotateVoxelRevertConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

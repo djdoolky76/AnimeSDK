@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetFiveDimEntityAttachTarget_TypeDefinitionIndex = 21280;
+
 	class SetFiveDimEntityAttachTarget : public ::RPG::GameCore::TaskConfig
 	{
 	public:

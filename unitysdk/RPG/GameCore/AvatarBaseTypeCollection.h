@@ -26,6 +26,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AvatarBaseTypeCollection_TypeDefinitionIndex = 56540;
+
 	class AvatarBaseTypeCollection : public ::System::Object
 	{
 	public:

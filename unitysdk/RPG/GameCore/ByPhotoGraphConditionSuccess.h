@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByPhotoGraphConditionSuccess_TypeDefinitionIndex = 21634;
+
 	class ByPhotoGraphConditionSuccess : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

@@ -13,6 +13,8 @@ namespace RPG::GameCore { class EvolveBuildRewardRow; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int EvolveBuildFameReward_TypeDefinitionIndex = 63795;
+
 	class EvolveBuildFameReward : public ::System::Object
 	{
 	public:

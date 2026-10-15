@@ -10,6 +10,8 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int JigsawCommonConfig_TypeDefinitionIndex = 60043;
+
 	class JigsawCommonConfig : public ::UnityEngine::ScriptableObject
 	{
 	public:

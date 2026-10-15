@@ -10,6 +10,8 @@ namespace MiHoYo::SDK::Console::OS { class PayManagerCX; }
 
 namespace MiHoYo::SDK::Console::OS
 {
+	inline static constexpr unsigned int PayManagerCX___c__DisplayClass20_0_TypeDefinitionIndex = 9103;
+
 	class PayManagerCX___c__DisplayClass20_0 : public ::System::Object
 	{
 	public:

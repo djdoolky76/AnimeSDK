@@ -10,6 +10,8 @@ namespace RPG::GameCore { class PropSoundOverrideConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PropSoundOverrideConfig_TypeDefinitionIndex = 17560;
+
 	class PropSoundOverrideConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

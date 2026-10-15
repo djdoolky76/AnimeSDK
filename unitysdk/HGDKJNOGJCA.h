@@ -2,6 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/FixPoint.h"
 
+inline static constexpr unsigned int HGDKJNOGJCA_TypeDefinitionIndex = 75071;
+
 	struct alignas(4) HGDKJNOGJCA
 	{
 		::RPG::GameCore::FixPoint PEDFLGGDHDP; // 0x10

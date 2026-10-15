@@ -22,6 +22,8 @@ namespace UnityEngine::UI { class Text; }
 #define JEJLOGJHKFN_OLGBOANHKAB_OFFSET UNITYSDK_OFFSET(0x1662EA00)
 #define JEJLOGJHKFN__ONBIND_OFFSET UNITYSDK_OFFSET(0x1662DFF0)
 
+inline static constexpr unsigned int JEJLOGJHKFN_TypeDefinitionIndex = 72263;
+
 	class JEJLOGJHKFN : public ::FMPCODLIOLG
 	{
 	public:

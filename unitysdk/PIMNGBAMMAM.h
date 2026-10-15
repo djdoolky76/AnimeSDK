@@ -50,6 +50,8 @@ namespace System { class String; }
 #define PIMNGBAMMAM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF6E6B0)
 #define PIMNGBAMMAM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF6E710)
 
+inline static constexpr unsigned int PIMNGBAMMAM_TypeDefinitionIndex = 25068;
+
 	class PIMNGBAMMAM : public ::System::Object
 	{
 	public:

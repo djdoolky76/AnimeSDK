@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define PEMJOICNGMM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF1E130)
 #define PEMJOICNGMM___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1DF1E140)
 
+inline static constexpr unsigned int PEMJOICNGMM___c_TypeDefinitionIndex = 31421;
+
 	class PEMJOICNGMM___c : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::PC::OS
 {
+	inline static constexpr unsigned int XboxPaymentNetworkRequest_TypeDefinitionIndex = 8695;
+
 	class XboxPaymentNetworkRequest : public ::System::Object
 	{
 	public:

@@ -3,6 +3,8 @@
 
 namespace UnityEngine::EventSystems
 {
+	inline static constexpr unsigned int IPointerEnterHandler_TypeDefinitionIndex = 6911;
+
 	class IPointerEnterHandler
 	{
 	public:

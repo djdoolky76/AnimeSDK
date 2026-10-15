@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ChimeraDuelWaitSecondsNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChimeraDuelWaitSecondsNode_TypeDefinitionIndex = 15958;
+
 	class ChimeraDuelWaitSecondsNode : public ::RPG::GameCore::BaseChimeraDuelNode
 	{
 	public:

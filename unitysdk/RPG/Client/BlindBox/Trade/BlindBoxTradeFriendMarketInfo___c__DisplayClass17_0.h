@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::BlindBox::Trade
 {
+	inline static constexpr unsigned int BlindBoxTradeFriendMarketInfo___c__DisplayClass17_0_TypeDefinitionIndex = 74858;
+
 	class BlindBoxTradeFriendMarketInfo___c__DisplayClass17_0 : public ::System::Object
 	{
 	public:

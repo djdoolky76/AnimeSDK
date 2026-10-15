@@ -13,6 +13,8 @@ namespace System { template <typename T> class Comparison_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int DrinkMakerBartendDrinkData___c_TypeDefinitionIndex = 63597;
+
 	class DrinkMakerBartendDrinkData___c : public ::System::Object
 	{
 	public:

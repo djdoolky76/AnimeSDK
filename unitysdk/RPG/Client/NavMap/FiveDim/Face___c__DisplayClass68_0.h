@@ -8,6 +8,8 @@ class BCMOLHGOPEK;
 
 namespace RPG::Client::NavMap::FiveDim
 {
+	inline static constexpr unsigned int Face___c__DisplayClass68_0_TypeDefinitionIndex = 74663;
+
 	class Face___c__DisplayClass68_0 : public ::System::Object
 	{
 	public:

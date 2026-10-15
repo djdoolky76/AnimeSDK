@@ -25,6 +25,8 @@ namespace UnityEngine::Rendering { class CommandBuffer; }
 
 namespace EnviromentSystem
 {
+	inline static constexpr unsigned int EnviromentClip_TypeDefinitionIndex = 49583;
+
 	class EnviromentClip : public ::System::Object
 	{
 	public:

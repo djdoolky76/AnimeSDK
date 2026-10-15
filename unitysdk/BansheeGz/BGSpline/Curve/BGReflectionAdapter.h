@@ -12,6 +12,8 @@ namespace System { class Type; }
 
 namespace BansheeGz::BGSpline::Curve
 {
+	inline static constexpr unsigned int BGReflectionAdapter_TypeDefinitionIndex = 36031;
+
 	class BGReflectionAdapter : public ::System::Object
 	{
 	public:

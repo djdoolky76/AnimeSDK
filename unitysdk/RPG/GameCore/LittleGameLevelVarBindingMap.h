@@ -10,6 +10,8 @@ namespace RPG::GameCore { class LittleGameLevelVarBindingMap; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LittleGameLevelVarBindingMap_TypeDefinitionIndex = 18895;
+
 	class LittleGameLevelVarBindingMap : public ::RPG::GameCore::JsonConfig
 	{
 	public:

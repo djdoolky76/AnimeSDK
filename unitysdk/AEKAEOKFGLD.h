@@ -4,6 +4,8 @@
 
 #define AEKAEOKFGLD_CTOR_OFFSET UNITYSDK_OFFSET(0xCEFFCB0)
 
+inline static constexpr unsigned int AEKAEOKFGLD_TypeDefinitionIndex = 61186;
+
 	class AEKAEOKFGLD : public ::HDJIGMBHENE
 	{
 	public:

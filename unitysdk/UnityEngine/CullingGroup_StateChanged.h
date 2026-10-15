@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int CullingGroup_StateChanged_TypeDefinitionIndex = 4050;
+
 	class CullingGroup_StateChanged : public ::System::MulticastDelegate
 	{
 	public:

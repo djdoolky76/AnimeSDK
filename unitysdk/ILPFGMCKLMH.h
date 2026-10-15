@@ -9,6 +9,8 @@ class ILPFGMCKLMH;
 #define ILPFGMCKLMH_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CF21120)
 #define ILPFGMCKLMH_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CF210E0)
 
+inline static constexpr unsigned int ILPFGMCKLMH_TypeDefinitionIndex = 10307;
+
 	class ILPFGMCKLMH : public ::RPG::GameCore::TaskConfig
 	{
 	public:

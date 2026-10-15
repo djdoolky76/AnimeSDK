@@ -3,6 +3,8 @@
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
+inline static constexpr unsigned int FiveDimRenderingPanel_SerializedInstanceData_TypeDefinitionIndex = 47122;
+
 	struct alignas(4) FiveDimRenderingPanel_SerializedInstanceData
 	{
 		::System::Int32 prototypeIndex; // 0x10

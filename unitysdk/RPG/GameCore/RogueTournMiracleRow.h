@@ -11,6 +11,8 @@ namespace RPG::GameCore { class RogueTournMiracleRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueTournMiracleRow_TypeDefinitionIndex = 15023;
+
 	class RogueTournMiracleRow : public ::System::Object
 	{
 	public:

@@ -14,6 +14,8 @@ namespace System { class Object; }
 
 namespace Mono::Math::Prime
 {
+	inline static constexpr unsigned int PrimalityTest_TypeDefinitionIndex = 86;
+
 	class PrimalityTest : public ::System::MulticastDelegate
 	{
 	public:

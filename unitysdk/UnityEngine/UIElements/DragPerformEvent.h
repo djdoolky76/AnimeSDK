@@ -5,6 +5,8 @@
 
 namespace UnityEngine::UIElements
 {
+	inline static constexpr unsigned int DragPerformEvent_TypeDefinitionIndex = 5927;
+
 	class DragPerformEvent
 	{
 	public:

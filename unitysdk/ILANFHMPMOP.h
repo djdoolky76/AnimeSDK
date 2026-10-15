@@ -5,6 +5,8 @@
 
 #define ILANFHMPMOP_CTOR_OFFSET UNITYSDK_OFFSET(0x1C6E19B0)
 
+inline static constexpr unsigned int ILANFHMPMOP_TypeDefinitionIndex = 36569;
+
 	class ILANFHMPMOP : public ::RPG::LittleGameShare::HoyoPhysics::PhysicsCollider2DConfig
 	{
 	public:

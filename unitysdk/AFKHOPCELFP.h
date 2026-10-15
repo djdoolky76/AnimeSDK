@@ -7,6 +7,8 @@
 #define AFKHOPCELFP_HGFLKIBJDDL_OFFSET UNITYSDK_OFFSET(0x1EBEBD30)
 #define AFKHOPCELFP_NNODPIDIPPG_OFFSET UNITYSDK_OFFSET(0x1EBEC1A0)
 
+inline static constexpr unsigned int AFKHOPCELFP_TypeDefinitionIndex = 35290;
+
 	class AFKHOPCELFP : public ::System::Object
 	{
 	public:

@@ -14,6 +14,8 @@ namespace UnityEngine::UI { class Slider; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftSettleDesignLevelRewardControlBinder_TypeDefinitionIndex = 80030;
+
 	class MechCraftSettleDesignLevelRewardControlBinder : public ::RPG::Client::MechCraft::View::MechCraftBinderBase
 	{
 	public:

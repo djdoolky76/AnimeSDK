@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ChimeraTriggerWorkPerformance; }
 #define NONBPIFLFPF_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0xBCF5040)
 #define NONBPIFLFPF__START_B__2_0_OFFSET UNITYSDK_OFFSET(0xBCF5210)
 
+inline static constexpr unsigned int NONBPIFLFPF_TypeDefinitionIndex = 78421;
+
 	class NONBPIFLFPF : public ::System::Object
 	{
 	public:

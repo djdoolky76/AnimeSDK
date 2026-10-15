@@ -29,6 +29,8 @@ namespace System { class String; }
 #define AIADHAKAAIC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E278740)
 #define AIADHAKAAIC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E2787A0)
 
+inline static constexpr unsigned int AIADHAKAAIC_TypeDefinitionIndex = 31157;
+
 	class AIADHAKAAIC : public ::System::Object
 	{
 	public:

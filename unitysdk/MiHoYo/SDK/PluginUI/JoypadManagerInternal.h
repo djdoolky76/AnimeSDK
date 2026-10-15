@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace MiHoYo::SDK::PluginUI
 {
+	inline static constexpr unsigned int JoypadManagerInternal_TypeDefinitionIndex = 46781;
+
 	class JoypadManagerInternal : public ::System::Object
 	{
 	public:

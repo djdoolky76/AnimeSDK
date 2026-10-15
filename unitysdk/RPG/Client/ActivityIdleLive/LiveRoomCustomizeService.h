@@ -16,6 +16,8 @@ namespace System { class String; }
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int LiveRoomCustomizeService_TypeDefinitionIndex = 75355;
+
 	class LiveRoomCustomizeService : public ::System::Object
 	{
 	public:

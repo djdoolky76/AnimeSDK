@@ -9,6 +9,8 @@ namespace RPG::GameCore { class ChimeraEndlessWorkRoundRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChimeraEndlessWorkRoundRow_TypeDefinitionIndex = 13048;
+
 	class ChimeraEndlessWorkRoundRow : public ::System::Object
 	{
 	public:

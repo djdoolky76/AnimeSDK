@@ -8,6 +8,8 @@ namespace RPG::Client::TrainParty { class TrainPartyBuildSubArea; }
 
 namespace RPG::Client::TrainParty
 {
+	inline static constexpr unsigned int TrainPartyBuildManager___c__DisplayClass3_0_TypeDefinitionIndex = 74303;
+
 	class TrainPartyBuildManager___c__DisplayClass3_0 : public ::System::Object
 	{
 	public:

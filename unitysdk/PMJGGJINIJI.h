@@ -6,6 +6,8 @@
 #define PMJGGJINIJI_CTOR_OFFSET UNITYSDK_OFFSET(0xC3236B0)
 #define PMJGGJINIJI_EPPAFNJFCMH_OFFSET UNITYSDK_OFFSET(0xC3236A0)
 
+inline static constexpr unsigned int PMJGGJINIJI_TypeDefinitionIndex = 76967;
+
 	class PMJGGJINIJI : public ::EMHOOPFDGGO
 	{
 	public:

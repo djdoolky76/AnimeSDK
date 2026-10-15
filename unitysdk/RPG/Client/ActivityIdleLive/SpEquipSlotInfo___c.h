@@ -16,6 +16,8 @@ namespace System { template <typename T> class Predicate_1; }
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int SpEquipSlotInfo___c_TypeDefinitionIndex = 75238;
+
 	class SpEquipSlotInfo___c : public ::System::Object
 	{
 	public:

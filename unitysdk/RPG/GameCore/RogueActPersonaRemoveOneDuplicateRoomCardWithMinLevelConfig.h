@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueActPersonaRemoveOneDuplicateRoomCardWithMin
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueActPersonaRemoveOneDuplicateRoomCardWithMinLevelConfig_TypeDefinitionIndex = 19775;
+
 	class RogueActPersonaRemoveOneDuplicateRoomCardWithMinLevelConfig : public ::RPG::GameCore::RogueActionConfigBase
 	{
 	public:

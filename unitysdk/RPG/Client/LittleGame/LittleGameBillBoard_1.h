@@ -7,6 +7,8 @@ namespace RPG::GameCore { class LittleGameBillboardConfig; }
 
 namespace RPG::Client::LittleGame
 {
+	inline static constexpr unsigned int LittleGameBillBoard_1_TypeDefinitionIndex = 76478;
+
 	template <typename T>
 	class LittleGameBillBoard_1 : public ::System::Object
 	{

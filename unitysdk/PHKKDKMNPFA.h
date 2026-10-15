@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define PHKKDKMNPFA_CTOR_OFFSET UNITYSDK_OFFSET(0xC2540F0)
 #define PHKKDKMNPFA_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC253DD0)
 
+inline static constexpr unsigned int PHKKDKMNPFA_TypeDefinitionIndex = 77331;
+
 	class PHKKDKMNPFA : public ::System::Object
 	{
 	public:

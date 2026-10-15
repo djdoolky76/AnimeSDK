@@ -2,6 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/MVector3.h"
 
+inline static constexpr unsigned int OBBBGCHCDJB_TypeDefinitionIndex = 6295;
+
 	struct alignas(4) OBBBGCHCDJB
 	{
 		::RPG::MVector3 CPFJGMEMLGM; // 0x10

@@ -10,6 +10,8 @@ namespace RPG::Client::CatGod { class CatGodViewModel; }
 
 namespace RPG::Client::CatGod
 {
+	inline static constexpr unsigned int CatGodViewModel___c__DisplayClass0_0_TypeDefinitionIndex = 81657;
+
 	class CatGodViewModel___c__DisplayClass0_0 : public ::System::Object
 	{
 	public:

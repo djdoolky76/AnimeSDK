@@ -14,6 +14,8 @@ namespace RPG::GameCore { class TrackPhotoEvent; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StartTrackPhoto_TypeDefinitionIndex = 21645;
+
 	class StartTrackPhoto : public ::RPG::GameCore::TaskConfig
 	{
 	public:

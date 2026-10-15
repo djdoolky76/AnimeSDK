@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ITimeRewindTarget_TypeDefinitionIndex = 60811;
+
 	class ITimeRewindTarget
 	{
 	public:

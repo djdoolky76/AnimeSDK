@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ByCompareServerSubMissionState; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByCompareServerSubMissionState_TypeDefinitionIndex = 20314;
+
 	class ByCompareServerSubMissionState : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

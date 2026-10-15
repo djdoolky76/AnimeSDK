@@ -2,6 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
+inline static constexpr unsigned int NJOOOHDMEJC_TypeDefinitionIndex = 48917;
+
 	struct alignas(4) NJOOOHDMEJC
 	{
 		::UnityEngine::Vector3 PECPBEOHOJC; // 0x10

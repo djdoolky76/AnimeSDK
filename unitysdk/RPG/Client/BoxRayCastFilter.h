@@ -24,6 +24,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BoxRayCastFilter_TypeDefinitionIndex = 72511;
+
 	class BoxRayCastFilter : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -6,6 +6,8 @@ namespace System { class Action; }
 
 namespace RPG::Client::LittleGame
 {
+	inline static constexpr unsigned int NavigationRequest_1_TypeDefinitionIndex = 42416;
+
 	template <typename T>
 	class NavigationRequest_1 : public ::System::Object
 	{

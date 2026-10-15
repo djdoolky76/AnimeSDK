@@ -7,6 +7,8 @@ namespace UnityEngine { class Component; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int NodeIndexItem_TypeDefinitionIndex = 72506;
+
 	class NodeIndexItem : public ::System::Object
 	{
 	public:

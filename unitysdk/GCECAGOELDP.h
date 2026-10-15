@@ -31,6 +31,8 @@ namespace System { class String; }
 #define GCECAGOELDP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E43B290)
 #define GCECAGOELDP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E43B2F0)
 
+inline static constexpr unsigned int GCECAGOELDP_TypeDefinitionIndex = 28372;
+
 	class GCECAGOELDP : public ::System::Object
 	{
 	public:

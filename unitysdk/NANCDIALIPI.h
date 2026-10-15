@@ -21,6 +21,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define NANCDIALIPI_OINHNCCGPHL_OFFSET UNITYSDK_OFFSET(0xBAA8D50)
 #define NANCDIALIPI_PLKDIADNOKB_OFFSET UNITYSDK_OFFSET(0xBAA88A0)
 
+inline static constexpr unsigned int NANCDIALIPI_TypeDefinitionIndex = 77580;
+
 	class NANCDIALIPI : public ::GMGHBGLNMFF
 	{
 	public:

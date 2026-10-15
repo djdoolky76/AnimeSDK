@@ -14,6 +14,8 @@ class GNHGHGLEGPN;
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEffectPluginSyncTargetShaderProperty_TypeDefinitionIndex = 70119;
+
 	class MonoEffectPluginSyncTargetShaderProperty : public ::RPG::Client::MonoEffectPluginBase
 	{
 	public:

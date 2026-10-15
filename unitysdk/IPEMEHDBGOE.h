@@ -4,6 +4,8 @@
 
 #define IPEMEHDBGOE_CTOR_OFFSET UNITYSDK_OFFSET(0x1651F410)
 
+inline static constexpr unsigned int IPEMEHDBGOE_TypeDefinitionIndex = 57316;
+
 	class IPEMEHDBGOE : public ::FHKIKPOPLPJ
 	{
 	public:

@@ -17,6 +17,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 #define JKDHBPADIGB__ENUMERATESKILLLEVELS_D__6_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB216130)
 #define JKDHBPADIGB__ENUMERATESKILLLEVELS_D__6___M__FINALLY1_OFFSET UNITYSDK_OFFSET(0xB216140)
 
+inline static constexpr unsigned int JKDHBPADIGB__EnumerateSkillLevels_d__6_TypeDefinitionIndex = 62786;
+
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6>
 	class JKDHBPADIGB__EnumerateSkillLevels_d__6 : public ::System::Object
 	{

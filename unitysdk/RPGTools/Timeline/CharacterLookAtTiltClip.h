@@ -13,6 +13,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int CharacterLookAtTiltClip_TypeDefinitionIndex = 47979;
+
 	class CharacterLookAtTiltClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

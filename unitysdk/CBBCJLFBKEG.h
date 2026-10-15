@@ -37,6 +37,8 @@ namespace System { class String; }
 #define CBBCJLFBKEG_SET_PREFABPATH_OFFSET UNITYSDK_OFFSET(0xC49DA40)
 #define CBBCJLFBKEG_SET_TYPE_OFFSET UNITYSDK_OFFSET(0xC49D9C0)
 
+inline static constexpr unsigned int CBBCJLFBKEG_TypeDefinitionIndex = 74992;
+
 	class CBBCJLFBKEG : public ::System::Object
 	{
 	public:

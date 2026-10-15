@@ -26,6 +26,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GachaCeilingConfigExcelTable_TypeDefinitionIndex = 13355;
+
 	class GachaCeilingConfigExcelTable : public ::System::Object
 	{
 	public:

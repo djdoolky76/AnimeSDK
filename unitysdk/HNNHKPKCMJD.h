@@ -135,6 +135,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 #define HNNHKPKCMJD_SET_PLAYERUID_OFFSET UNITYSDK_OFFSET(0x1C687AC0)
 #define HNNHKPKCMJD_SET_PREDICATIONSTATE_OFFSET UNITYSDK_OFFSET(0x1C682C10)
 
+inline static constexpr unsigned int HNNHKPKCMJD_TypeDefinitionIndex = 36860;
+
 	class HNNHKPKCMJD : public ::NNGOGBHIAFI
 	{
 	public:

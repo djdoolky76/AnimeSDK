@@ -29,6 +29,8 @@ namespace System { class String; }
 #define JBOAAPIDOIC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E6FC150)
 #define JBOAAPIDOIC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E6FC1B0)
 
+inline static constexpr unsigned int JBOAAPIDOIC_TypeDefinitionIndex = 32513;
+
 	class JBOAAPIDOIC : public ::System::Object
 	{
 	public:

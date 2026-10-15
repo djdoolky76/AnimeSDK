@@ -83,6 +83,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define OEENEGJBMCO_SET_ELATIONSTATISTICS_OFFSET UNITYSDK_OFFSET(0xBE2B5F0)
 #define OEENEGJBMCO_SET_ELATIONTIMEINSTANCE_OFFSET UNITYSDK_OFFSET(0xBE2B5D0)
 
+inline static constexpr unsigned int OEENEGJBMCO_TypeDefinitionIndex = 56051;
+
 	class OEENEGJBMCO : public ::System::Object
 	{
 	public:

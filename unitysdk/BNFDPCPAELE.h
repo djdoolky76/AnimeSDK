@@ -9,6 +9,8 @@ namespace System { class String; }
 #define BNFDPCPAELE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D9E92E0)
 #define BNFDPCPAELE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D9E92A0)
 
+inline static constexpr unsigned int BNFDPCPAELE_TypeDefinitionIndex = 22253;
+
 	class BNFDPCPAELE : public ::RPG::GameCore::TaskConfig
 	{
 	public:

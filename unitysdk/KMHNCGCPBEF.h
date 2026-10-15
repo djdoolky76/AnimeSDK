@@ -27,6 +27,8 @@ namespace System { class String; }
 #define KMHNCGCPBEF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E89B1E0)
 #define KMHNCGCPBEF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E89B240)
 
+inline static constexpr unsigned int KMHNCGCPBEF_TypeDefinitionIndex = 26135;
+
 	class KMHNCGCPBEF : public ::System::Object
 	{
 	public:

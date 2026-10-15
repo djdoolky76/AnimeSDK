@@ -8,6 +8,8 @@ namespace RPG::Client::ActivityIdleLive { class IIdleLiveAvatarData; }
 #define GHGJAPAEJIA_BUILD_OFFSET UNITYSDK_OFFSET(0x15A1EB70)
 #define GHGJAPAEJIA_CTOR_OFFSET UNITYSDK_OFFSET(0x15A1EB50)
 
+inline static constexpr unsigned int GHGJAPAEJIA_TypeDefinitionIndex = 75133;
+
 	class GHGJAPAEJIA
 	{
 	public:

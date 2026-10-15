@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace System::Xml
 {
+	inline static constexpr unsigned int BinaryCompatibility_TypeDefinitionIndex = 1795;
+
 	class BinaryCompatibility : public ::System::Object
 	{
 	public:

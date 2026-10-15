@@ -7,6 +7,8 @@ namespace RPG::Client { class ComposeItemData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ComposeItemData_ComposeItemDataCount_TypeDefinitionIndex = 65759;
+
 	class ComposeItemData_ComposeItemDataCount : public ::System::Object
 	{
 	public:

@@ -13,6 +13,8 @@ class NJKFOJJDGGG;
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightPrayQuestFinishType_TypeDefinitionIndex = 65037;
+
 	class GridFightPrayQuestFinishType : public ::RPG::Client::GridFightGameModifier
 	{
 	public:

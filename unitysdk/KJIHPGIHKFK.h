@@ -21,6 +21,8 @@ namespace System { class Object; }
 #define KJIHPGIHKFK_JNCNGPMMDAG_OFFSET UNITYSDK_OFFSET(0x3C3B900)
 #define KJIHPGIHKFK_NHCFLDCDLCP_OFFSET UNITYSDK_OFFSET(0x1D0971D0)
 
+inline static constexpr unsigned int KJIHPGIHKFK_TypeDefinitionIndex = 10665;
+
 	struct alignas(8) KJIHPGIHKFK
 	{
 		::LELCKJPOPAO* BEHHICMOFIE; // 0x10

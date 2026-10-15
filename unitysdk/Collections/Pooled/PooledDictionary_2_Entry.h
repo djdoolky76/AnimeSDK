@@ -3,6 +3,8 @@
 
 namespace Collections::Pooled
 {
+	inline static constexpr unsigned int PooledDictionary_2_Entry_TypeDefinitionIndex = 5103;
+
 	template <typename T1, typename T2>
 	struct alignas(8) PooledDictionary_2_Entry
 	{

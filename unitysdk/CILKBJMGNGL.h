@@ -42,6 +42,8 @@ namespace System { class String; }
 #define CILKBJMGNGL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E0D4B90)
 #define CILKBJMGNGL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E0D4BF0)
 
+inline static constexpr unsigned int CILKBJMGNGL_TypeDefinitionIndex = 33551;
+
 	class CILKBJMGNGL : public ::System::Object
 	{
 	public:

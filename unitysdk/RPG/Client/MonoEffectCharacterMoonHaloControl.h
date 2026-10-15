@@ -14,6 +14,8 @@ namespace UnityEngine { class Renderer; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEffectCharacterMoonHaloControl_TypeDefinitionIndex = 70730;
+
 	class MonoEffectCharacterMoonHaloControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -3,6 +3,8 @@
 
 namespace UnityEngine::Yoga
 {
+	inline static constexpr unsigned int YogaSize_TypeDefinitionIndex = 5869;
+
 	struct alignas(4) YogaSize
 	{
 		::System::Single width; // 0x10

@@ -9,6 +9,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AlleyRouteBirdEmitter_OIAJPEJGMBO_TypeDefinitionIndex = 62294;
+
 	class AlleyRouteBirdEmitter_OIAJPEJGMBO : public ::System::Object
 	{
 	public:

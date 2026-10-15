@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int MNJIFHBGMDJ_JDMADOIICHE_TypeDefinitionIndex = 29676;
+
 	enum class MNJIFHBGMDJ_JDMADOIICHE : ::System::Int32
 	{
 		NLCDGIPGFDJ = 0,

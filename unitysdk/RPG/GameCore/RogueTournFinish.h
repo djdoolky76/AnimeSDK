@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueTournFinish; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueTournFinish_TypeDefinitionIndex = 22098;
+
 	class RogueTournFinish : public ::RPG::GameCore::TaskConfig
 	{
 	public:

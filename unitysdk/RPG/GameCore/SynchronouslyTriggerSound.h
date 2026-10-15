@@ -11,6 +11,8 @@ namespace RPG::GameCore { class SynchronouslyTriggerSound; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SynchronouslyTriggerSound_TypeDefinitionIndex = 20610;
+
 	class SynchronouslyTriggerSound : public ::RPG::GameCore::TriggerSound
 	{
 	public:

@@ -25,6 +25,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoDanmuSpawner_TypeDefinitionIndex = 68950;
+
 	class MonoDanmuSpawner : public ::UnityEngine::MonoBehaviour
 	{
 	public:

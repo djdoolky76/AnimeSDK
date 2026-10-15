@@ -13,6 +13,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByBattleMissionTalkFinish_TypeDefinitionIndex = 23811;
+
 	class ByBattleMissionTalkFinish : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

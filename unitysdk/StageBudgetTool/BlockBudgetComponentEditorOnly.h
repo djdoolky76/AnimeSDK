@@ -8,6 +8,8 @@ namespace StageBudgetTool { class Block; }
 
 namespace StageBudgetTool
 {
+	inline static constexpr unsigned int BlockBudgetComponentEditorOnly_TypeDefinitionIndex = 47710;
+
 	class BlockBudgetComponentEditorOnly : public ::UnityEngine::MonoBehaviour
 	{
 	public:

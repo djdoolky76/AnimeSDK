@@ -16,6 +16,8 @@ namespace System { class String; }
 #define DGKBJOHFPBK_CTOR_OFFSET UNITYSDK_OFFSET(0xE84C260)
 #define DGKBJOHFPBK_PPEGOIODAKI_OFFSET UNITYSDK_OFFSET(0xE84C0A0)
 
+inline static constexpr unsigned int DGKBJOHFPBK_TypeDefinitionIndex = 55839;
+
 	class DGKBJOHFPBK
 	{
 	public:

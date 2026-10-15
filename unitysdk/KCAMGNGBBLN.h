@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define KCAMGNGBBLN_TOSTRING_OFFSET UNITYSDK_OFFSET(0xB32E9A0)
 #define KCAMGNGBBLN_TRIGGERACTION_OFFSET UNITYSDK_OFFSET(0xB32EA30)
 
+inline static constexpr unsigned int KCAMGNGBBLN_TypeDefinitionIndex = 66982;
+
 	class KCAMGNGBBLN : public ::System::Object
 	{
 	public:

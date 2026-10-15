@@ -8,6 +8,8 @@ namespace RPG::GameCore { class TurnBasedAbilityComponent; }
 #define GNOLIGEJDGE_EVALUATE_OFFSET UNITYSDK_OFFSET(0x15B1EED0)
 #define GNOLIGEJDGE_IEIOAKEMGCI_OFFSET UNITYSDK_OFFSET(0x15B1F040)
 
+inline static constexpr unsigned int GNOLIGEJDGE_TypeDefinitionIndex = 54590;
+
 	class GNOLIGEJDGE
 	{
 	public:

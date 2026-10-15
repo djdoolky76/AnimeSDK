@@ -6,6 +6,8 @@ namespace System { class String; }
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriAtomExAcf_CategoryInfo_TypeDefinitionIndex = 40030;
+
 	struct alignas(8) CriAtomExAcf_CategoryInfo
 	{
 		::System::UInt32 groupNo; // 0x10

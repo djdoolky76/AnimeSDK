@@ -9,6 +9,8 @@ namespace RPG::GameCore { class ChimeraFireEffect; }
 #define JHHJAKHOJHL_KMFNKDMEJBC_OFFSET UNITYSDK_OFFSET(0xB1B3960)
 #define JHHJAKHOJHL_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0xB1B39A0)
 
+inline static constexpr unsigned int JHHJAKHOJHL_TypeDefinitionIndex = 78413;
+
 	class JHHJAKHOJHL : public ::System::Object
 	{
 	public:

@@ -17,6 +17,8 @@ namespace System::Reflection { class ConstructorInfo; }
 
 namespace System::Reflection
 {
+	inline static constexpr unsigned int ConstructorInfo_TypeDefinitionIndex = 598;
+
 	class ConstructorInfo : public ::System::Reflection::MethodBase
 	{
 	public:

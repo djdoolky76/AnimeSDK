@@ -22,6 +22,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueWorkBenchMagicUnitShopItem_TypeDefinitionIndex = 67344;
+
 	class RogueWorkBenchMagicUnitShopItem : public ::System::Object
 	{
 	public:

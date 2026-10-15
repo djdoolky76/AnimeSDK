@@ -82,6 +82,8 @@ namespace UnityEngine { class RuntimeAnimatorController; }
 #define PKLHDDGKKOC_SET_HASANIMATORPROPSTATE_OFFSET UNITYSDK_OFFSET(0xC2E2D80)
 #define PKLHDDGKKOC_TICK_OFFSET UNITYSDK_OFFSET(0xC2E0DF0)
 
+inline static constexpr unsigned int PKLHDDGKKOC_TypeDefinitionIndex = 57367;
+
 	class PKLHDDGKKOC : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

@@ -7,6 +7,8 @@
 
 namespace Spine::Unity
 {
+	inline static constexpr unsigned int SpineSpriteAtlasAsset_SavedRegionInfo_TypeDefinitionIndex = 45012;
+
 	class SpineSpriteAtlasAsset_SavedRegionInfo : public ::System::Object
 	{
 	public:

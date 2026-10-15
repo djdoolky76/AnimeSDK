@@ -8,6 +8,8 @@ namespace System::Reflection { class MethodInfo; }
 #define CNMJBBCIMAM_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EC67010)
 #define CNMJBBCIMAM_JMPCNFIGLBK_OFFSET UNITYSDK_OFFSET(0x1EC66BA0)
 
+inline static constexpr unsigned int CNMJBBCIMAM_TypeDefinitionIndex = 44253;
+
 	class CNMJBBCIMAM : public ::System::Object
 	{
 	public:

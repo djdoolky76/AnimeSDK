@@ -31,6 +31,8 @@ namespace System { class String; }
 #define MOOGIHHBHFG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EAB16F0)
 #define MOOGIHHBHFG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EAB1750)
 
+inline static constexpr unsigned int MOOGIHHBHFG_TypeDefinitionIndex = 28011;
+
 	class MOOGIHHBHFG : public ::System::Object
 	{
 	public:

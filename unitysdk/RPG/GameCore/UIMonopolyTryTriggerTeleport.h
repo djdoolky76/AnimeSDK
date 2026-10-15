@@ -10,6 +10,8 @@ namespace RPG::GameCore { class UIMonopolyTryTriggerTeleport; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int UIMonopolyTryTriggerTeleport_TypeDefinitionIndex = 21727;
+
 	class UIMonopolyTryTriggerTeleport : public ::RPG::GameCore::TaskConfig
 	{
 	public:

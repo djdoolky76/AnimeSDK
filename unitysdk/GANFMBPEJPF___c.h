@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define GANFMBPEJPF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E423CF0)
 #define GANFMBPEJPF___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1E423D00)
 
+inline static constexpr unsigned int GANFMBPEJPF___c_TypeDefinitionIndex = 33245;
+
 	class GANFMBPEJPF___c : public ::System::Object
 	{
 	public:

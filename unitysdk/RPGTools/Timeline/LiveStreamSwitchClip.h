@@ -13,6 +13,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int LiveStreamSwitchClip_TypeDefinitionIndex = 48181;
+
 	class LiveStreamSwitchClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

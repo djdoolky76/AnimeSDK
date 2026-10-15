@@ -10,6 +10,8 @@ namespace RPG::GameCore { class PlayerOutfitBaseRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PlayerOutfitBaseRow_TypeDefinitionIndex = 14509;
+
 	class PlayerOutfitBaseRow : public ::System::Object
 	{
 	public:

@@ -14,6 +14,8 @@ namespace MiHoYo::SDK::HoYoUI { class HoYoUIMeta; }
 
 namespace MiHoYo::SDK::HoYoUI
 {
+	inline static constexpr unsigned int HoYoButton_TypeDefinitionIndex = 46707;
+
 	class HoYoButton : public ::UnityEngine::UI::Button
 	{
 	public:

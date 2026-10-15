@@ -22,6 +22,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ControllLightEditComp_LinkSlotInfo_TypeDefinitionIndex = 70182;
+
 	class ControllLightEditComp_LinkSlotInfo : public ::System::Object
 	{
 	public:

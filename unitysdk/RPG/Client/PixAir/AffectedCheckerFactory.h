@@ -12,6 +12,8 @@ namespace RPG::Client::PixAir { class PixAirEquipInstance; }
 
 namespace RPG::Client::PixAir
 {
+	inline static constexpr unsigned int AffectedCheckerFactory_TypeDefinitionIndex = 79307;
+
 	class AffectedCheckerFactory : public ::System::Object
 	{
 	public:

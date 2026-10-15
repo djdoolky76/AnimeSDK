@@ -50,6 +50,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int UI3DCameraFreeLookState_TypeDefinitionIndex = 57538;
+
 	class UI3DCameraFreeLookState : public ::RPG::GameCore::UI3DCameraStateBase
 	{
 	public:

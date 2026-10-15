@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TitanAtlasVoicePoolRow_TypeDefinitionIndex = 15299;
+
 	class TitanAtlasVoicePoolRow : public ::System::Object
 	{
 	public:

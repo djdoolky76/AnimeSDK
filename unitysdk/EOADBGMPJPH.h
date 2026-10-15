@@ -12,6 +12,8 @@ class ABEIDKHKGPN;
 #define EOADBGMPJPH_MFCDKJIHDEH_OFFSET UNITYSDK_OFFSET(0x155B7F60)
 #define EOADBGMPJPH_PCNAKDOLCCD_OFFSET UNITYSDK_OFFSET(0x155B7F20)
 
+inline static constexpr unsigned int EOADBGMPJPH_TypeDefinitionIndex = 77934;
+
 	class EOADBGMPJPH : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace UnityEngine { class GameObject; }
 #define HADIEBGEOMM_CTOR_OFFSET UNITYSDK_OFFSET(0x15B720B0)
 #define HADIEBGEOMM_HHMFILFAMNA_OFFSET UNITYSDK_OFFSET(0x15B72000)
 
+inline static constexpr unsigned int HADIEBGEOMM_TypeDefinitionIndex = 78188;
+
 	class HADIEBGEOMM : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace MiHoYo::SDK::HoYoUI { class HoYoUIMeta; }
 
 namespace MiHoYo::SDK::HoYoUI
 {
+	inline static constexpr unsigned int HoYoSlider_TypeDefinitionIndex = 46716;
+
 	class HoYoSlider : public ::UnityEngine::UI::Slider
 	{
 	public:

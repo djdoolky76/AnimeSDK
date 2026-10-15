@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TutorialFinish; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TutorialFinish_TypeDefinitionIndex = 24356;
+
 	class TutorialFinish : public ::RPG::GameCore::TaskConfig
 	{
 	public:

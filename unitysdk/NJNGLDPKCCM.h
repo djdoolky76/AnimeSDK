@@ -19,6 +19,8 @@ namespace System { class Object; }
 #define NJNGLDPKCCM___SENDSTARTBATTLEREQ_B__8_0_OFFSET UNITYSDK_OFFSET(0xBC26F20)
 #define NJNGLDPKCCM___SENDSTARTNODEREQ_B__7_0_OFFSET UNITYSDK_OFFSET(0xBC26E50)
 
+inline static constexpr unsigned int NJNGLDPKCCM_TypeDefinitionIndex = 75139;
+
 	class NJNGLDPKCCM : public ::System::Object
 	{
 	public:

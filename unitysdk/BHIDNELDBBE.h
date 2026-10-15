@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define BHIDNELDBBE_CONVERT_OFFSET UNITYSDK_OFFSET(0x1CC8F200)
 #define BHIDNELDBBE_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC8F2F0)
 
+inline static constexpr unsigned int BHIDNELDBBE_TypeDefinitionIndex = 43893;
+
 	class BHIDNELDBBE : public ::System::Object
 	{
 	public:

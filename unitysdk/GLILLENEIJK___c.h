@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define GLILLENEIJK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E4C1C40)
 #define GLILLENEIJK___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E4C1C50)
 
+inline static constexpr unsigned int GLILLENEIJK___c_TypeDefinitionIndex = 28909;
+
 	class GLILLENEIJK___c : public ::System::Object
 	{
 	public:

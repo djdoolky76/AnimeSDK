@@ -19,6 +19,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ClockParkSlotInfo_TypeDefinitionIndex = 61495;
+
 	class ClockParkSlotInfo : public ::System::Object
 	{
 	public:

@@ -31,6 +31,8 @@ namespace UnityEngine { class Coroutine; }
 #define DCPFKELPBKE_NPOBMPJKIAP_OFFSET UNITYSDK_OFFSET(0xE253500)
 #define DCPFKELPBKE_ONHHEPDFHBI_OFFSET UNITYSDK_OFFSET(0xE254660)
 
+inline static constexpr unsigned int DCPFKELPBKE_TypeDefinitionIndex = 81940;
+
 	class DCPFKELPBKE : public ::System::Object
 	{
 	public:

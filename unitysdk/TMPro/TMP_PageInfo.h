@@ -3,6 +3,8 @@
 
 namespace TMPro
 {
+	inline static constexpr unsigned int TMP_PageInfo_TypeDefinitionIndex = 44682;
+
 	struct alignas(4) TMP_PageInfo
 	{
 		::System::Int32 firstCharacterIndex; // 0x10

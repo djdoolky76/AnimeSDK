@@ -9,6 +9,8 @@ namespace RPG::Client::Promises { class Promise; }
 #define FNKIAFBAMEE___C__DISPLAYCLASS14_0_CTOR_OFFSET UNITYSDK_OFFSET(0x158774E0)
 #define FNKIAFBAMEE___C__DISPLAYCLASS14_0__SHOWGAMESETTLE_OFFLINE_B__0_OFFSET UNITYSDK_OFFSET(0x15877D50)
 
+inline static constexpr unsigned int FNKIAFBAMEE___c__DisplayClass14_0_TypeDefinitionIndex = 81295;
+
 	class FNKIAFBAMEE___c__DisplayClass14_0 : public ::System::Object
 	{
 	public:

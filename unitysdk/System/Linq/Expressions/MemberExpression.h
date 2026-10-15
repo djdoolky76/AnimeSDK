@@ -23,6 +23,8 @@ namespace System::Reflection { class PropertyInfo; }
 
 namespace System::Linq::Expressions
 {
+	inline static constexpr unsigned int MemberExpression_TypeDefinitionIndex = 3244;
+
 	class MemberExpression : public ::System::Linq::Expressions::Expression
 	{
 	public:

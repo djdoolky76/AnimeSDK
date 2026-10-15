@@ -2,6 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/GameCore/CharacterMotionFlag.h"
 
+inline static constexpr unsigned int ILONCCDHCFN_TypeDefinitionIndex = 52414;
+
 	struct alignas(4) ILONCCDHCFN
 	{
 		::RPG::GameCore::CharacterMotionFlag FPHBEHJJBIA; // 0x10

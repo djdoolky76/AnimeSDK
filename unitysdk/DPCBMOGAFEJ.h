@@ -9,6 +9,8 @@ namespace System { class String; }
 #define DPCBMOGAFEJ_MGPIAEEEHGK_OFFSET UNITYSDK_OFFSET(0x11FF95E0)
 #define DPCBMOGAFEJ_PIEFCCJCICN_OFFSET UNITYSDK_OFFSET(0x11FF9550)
 
+inline static constexpr unsigned int DPCBMOGAFEJ_TypeDefinitionIndex = 54363;
+
 	class DPCBMOGAFEJ : public ::System::Object
 	{
 	public:

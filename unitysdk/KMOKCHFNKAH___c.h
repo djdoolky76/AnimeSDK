@@ -17,6 +17,8 @@ namespace System { class Object; }
 #define KMOKCHFNKAH___C__QUICKGROWAVATAR_B__11_0_OFFSET UNITYSDK_OFFSET(0xB56C0D0)
 #define KMOKCHFNKAH___C__UNLOCKTRACENODE_B__15_0_OFFSET UNITYSDK_OFFSET(0xB56C2C0)
 
+inline static constexpr unsigned int KMOKCHFNKAH___c_TypeDefinitionIndex = 62765;
+
 	class KMOKCHFNKAH___c : public ::System::Object
 	{
 	public:

@@ -25,6 +25,8 @@ namespace System { class Object; }
 #define MCAIEGEMCHA_PHGGIHIIDBI_OFFSET UNITYSDK_OFFSET(0xB8730F0)
 #define MCAIEGEMCHA_SET_SNOWBALLCOUNT_OFFSET UNITYSDK_OFFSET(0xB873430)
 
+inline static constexpr unsigned int MCAIEGEMCHA_TypeDefinitionIndex = 78869;
+
 	class MCAIEGEMCHA : public ::System::Object
 	{
 	public:

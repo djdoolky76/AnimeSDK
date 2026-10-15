@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CharacterEyeBloomConfig_TypeDefinitionIndex = 17452;
+
 	class CharacterEyeBloomConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define DDBILFIDDJP_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DCDC630)
 #define DDBILFIDDJP_LJACLBNEEEB_OFFSET UNITYSDK_OFFSET(0x1DCDC2C0)
 
+inline static constexpr unsigned int DDBILFIDDJP_TypeDefinitionIndex = 23856;
+
 	class DDBILFIDDJP : public ::System::Object
 	{
 	public:

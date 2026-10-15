@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetEffectFrameCaptureMatTex_TypeDefinitionIndex = 22888;
+
 	class SetEffectFrameCaptureMatTex : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -8,6 +8,8 @@ class FCOEMCEDLNL;
 #define DANPOJMKNAP_CTOR_OFFSET UNITYSDK_OFFSET(0x1DCCCE30)
 #define DANPOJMKNAP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DCCCAA0)
 
+inline static constexpr unsigned int DANPOJMKNAP_TypeDefinitionIndex = 13965;
+
 	class DANPOJMKNAP : public ::System::Object
 	{
 	public:

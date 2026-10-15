@@ -22,6 +22,8 @@ namespace RPG::GameCore { class MazePuzzleSwitchHandRow; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SwitchHandMazePuzzleRowWrapper_TypeDefinitionIndex = 68005;
+
 	class SwitchHandMazePuzzleRowWrapper : public ::System::Object
 	{
 	public:

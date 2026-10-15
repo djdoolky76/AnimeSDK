@@ -25,6 +25,8 @@ namespace System { class String; }
 #define GKPNGNAODNB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E4BD870)
 #define GKPNGNAODNB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E4BD8D0)
 
+inline static constexpr unsigned int GKPNGNAODNB_TypeDefinitionIndex = 26438;
+
 	class GKPNGNAODNB : public ::System::Object
 	{
 	public:

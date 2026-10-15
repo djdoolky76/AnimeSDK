@@ -8,6 +8,8 @@ namespace UnityEngine { class Gradient; }
 #define STAGEHARMONYGRADIENTDEMODULATOR_CTOR_OFFSET UNITYSDK_OFFSET(0xE991D20)
 #define STAGEHARMONYGRADIENTDEMODULATOR_FCDECODOKAK_OFFSET UNITYSDK_OFFSET(0xE991C30)
 
+inline static constexpr unsigned int StageHarmonyGradientDemodulator_TypeDefinitionIndex = 47526;
+
 	class StageHarmonyGradientDemodulator
 	{
 	public:

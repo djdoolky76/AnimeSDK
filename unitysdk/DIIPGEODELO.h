@@ -30,6 +30,8 @@ namespace System { class String; }
 #define DIIPGEODELO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E1BF770)
 #define DIIPGEODELO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E1BF7D0)
 
+inline static constexpr unsigned int DIIPGEODELO_TypeDefinitionIndex = 34483;
+
 	class DIIPGEODELO : public ::System::Object
 	{
 	public:

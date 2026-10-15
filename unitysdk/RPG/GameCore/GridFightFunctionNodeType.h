@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightFunctionNodeType_TypeDefinitionIndex = 10560;
+
 	enum class GridFightFunctionNodeType : ::System::Int32
 	{
 		None = 0,

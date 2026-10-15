@@ -26,6 +26,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::LittleGame
 {
+	inline static constexpr unsigned int BaseMonoGenericView_TypeDefinitionIndex = 76509;
+
 	class BaseMonoGenericView : public ::UnityEngine::MonoBehaviour
 	{
 	public:

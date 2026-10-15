@@ -23,6 +23,8 @@ namespace System::Net::Http::Headers { class TransferCodingHeaderValue; }
 
 namespace System::Net::Http::Headers
 {
+	inline static constexpr unsigned int TransferCodingHeaderValue_TypeDefinitionIndex = 3827;
+
 	class TransferCodingHeaderValue : public ::System::Object
 	{
 	public:

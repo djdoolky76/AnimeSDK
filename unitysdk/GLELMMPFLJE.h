@@ -5,6 +5,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define GLELMMPFLJE_CTOR_OFFSET UNITYSDK_OFFSET(0x15AB0520)
 
+inline static constexpr unsigned int GLELMMPFLJE_TypeDefinitionIndex = 78526;
+
 	class GLELMMPFLJE : public ::System::Object
 	{
 	public:

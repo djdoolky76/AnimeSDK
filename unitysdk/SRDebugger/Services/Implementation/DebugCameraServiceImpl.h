@@ -8,6 +8,8 @@ namespace UnityEngine { class Camera; }
 
 namespace SRDebugger::Services::Implementation
 {
+	inline static constexpr unsigned int DebugCameraServiceImpl_TypeDefinitionIndex = 38075;
+
 	class DebugCameraServiceImpl : public ::System::Object
 	{
 	public:

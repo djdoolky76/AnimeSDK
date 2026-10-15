@@ -21,6 +21,8 @@ namespace RPG::GameCore { class TurnBasedAbilityComponent; }
 #define BJCNOPGPIML_MHHABONOGGA_OFFSET UNITYSDK_OFFSET(0x1A9B0)
 #define BJCNOPGPIML_OGIADBNOKGG_OFFSET UNITYSDK_OFFSET(0x1AA00)
 
+inline static constexpr unsigned int BJCNOPGPIML_TypeDefinitionIndex = 71225;
+
 	struct alignas(4) BJCNOPGPIML
 	{
 		::RPG::GameCore::FixPoint BBFHOCJBANF; // 0x10

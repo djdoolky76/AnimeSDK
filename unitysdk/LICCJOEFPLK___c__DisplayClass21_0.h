@@ -7,6 +7,8 @@ namespace RPG::GameCore { class AnchorInfo; }
 #define LICCJOEFPLK___C__DISPLAYCLASS21_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB6C52A0)
 #define LICCJOEFPLK___C__DISPLAYCLASS21_0___ENTERENVIRONMENT_B__0_OFFSET UNITYSDK_OFFSET(0xB6C6EA0)
 
+inline static constexpr unsigned int LICCJOEFPLK___c__DisplayClass21_0_TypeDefinitionIndex = 81966;
+
 	class LICCJOEFPLK___c__DisplayClass21_0 : public ::System::Object
 	{
 	public:

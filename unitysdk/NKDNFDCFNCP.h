@@ -31,6 +31,8 @@ namespace System { class String; }
 #define NKDNFDCFNCP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB565E0)
 #define NKDNFDCFNCP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB56640)
 
+inline static constexpr unsigned int NKDNFDCFNCP_TypeDefinitionIndex = 30102;
+
 	class NKDNFDCFNCP : public ::System::Object
 	{
 	public:

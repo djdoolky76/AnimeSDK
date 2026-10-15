@@ -29,6 +29,8 @@ namespace System { class String; }
 #define AEBLDMIMFIA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DDE6240)
 #define AEBLDMIMFIA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DDE62A0)
 
+inline static constexpr unsigned int AEBLDMIMFIA_TypeDefinitionIndex = 34147;
+
 	class AEBLDMIMFIA : public ::System::Object
 	{
 	public:

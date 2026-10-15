@@ -6,6 +6,8 @@ class OOCCBMLAELL;
 
 #define LHLEJAADHNE_CTOR_OFFSET UNITYSDK_OFFSET(0xB6BA640)
 
+inline static constexpr unsigned int LHLEJAADHNE_TypeDefinitionIndex = 80582;
+
 	class LHLEJAADHNE : public ::System::Object
 	{
 	public:

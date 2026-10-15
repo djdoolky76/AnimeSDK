@@ -34,6 +34,8 @@ namespace System::Reflection { class PropertyInfo; }
 
 namespace System::Reflection
 {
+	inline static constexpr unsigned int PropertyInfo_TypeDefinitionIndex = 637;
+
 	class PropertyInfo : public ::System::Reflection::MemberInfo
 	{
 	public:

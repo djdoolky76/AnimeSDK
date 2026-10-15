@@ -10,6 +10,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define KLHPGILEONH___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB529D40)
 #define KLHPGILEONH___C__GENSTATISTICS_B__4_0_OFFSET UNITYSDK_OFFSET(0xB529D50)
 
+inline static constexpr unsigned int KLHPGILEONH___c_TypeDefinitionIndex = 56011;
+
 	class KLHPGILEONH___c : public ::System::Object
 	{
 	public:

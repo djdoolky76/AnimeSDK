@@ -9,6 +9,8 @@ namespace System::Reflection { class LocalVariableInfo; }
 
 namespace System::Reflection
 {
+	inline static constexpr unsigned int MethodBody_TypeDefinitionIndex = 609;
+
 	class MethodBody : public ::System::Object
 	{
 	public:

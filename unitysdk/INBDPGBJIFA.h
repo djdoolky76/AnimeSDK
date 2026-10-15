@@ -48,6 +48,8 @@ namespace System { class String; }
 #define INBDPGBJIFA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E6BDFF0)
 #define INBDPGBJIFA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E6BE050)
 
+inline static constexpr unsigned int INBDPGBJIFA_TypeDefinitionIndex = 33980;
+
 	class INBDPGBJIFA : public ::System::Object
 	{
 	public:

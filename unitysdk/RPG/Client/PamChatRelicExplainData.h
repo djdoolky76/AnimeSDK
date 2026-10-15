@@ -17,6 +17,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PamChatRelicExplainData_TypeDefinitionIndex = 63289;
+
 	class PamChatRelicExplainData : public ::System::Object
 	{
 	public:

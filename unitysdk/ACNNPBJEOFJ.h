@@ -4,6 +4,8 @@
 
 #define ACNNPBJEOFJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1C581610)
 
+inline static constexpr unsigned int ACNNPBJEOFJ_TypeDefinitionIndex = 37169;
+
 	class ACNNPBJEOFJ : public ::System::Object
 	{
 	public:

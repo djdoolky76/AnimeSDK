@@ -12,6 +12,8 @@ namespace UnityEngine { class Collider2D; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UICustomClickArea_TypeDefinitionIndex = 72833;
+
 	class UICustomClickArea : public ::UnityEngine::MonoBehaviour
 	{
 	public:

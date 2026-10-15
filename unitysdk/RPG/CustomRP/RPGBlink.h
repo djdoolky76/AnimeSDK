@@ -9,6 +9,8 @@ namespace UnityEngine::Rendering { class FloatParameter; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int RPGBlink_TypeDefinitionIndex = 37786;
+
 	class RPGBlink : public ::RPG::CustomRP::CustomVolumeComponent
 	{
 	public:

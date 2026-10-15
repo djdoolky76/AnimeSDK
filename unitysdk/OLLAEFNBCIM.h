@@ -27,6 +27,8 @@ namespace System { class String; }
 #define OLLAEFNBCIM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DEA84A0)
 #define OLLAEFNBCIM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DEA8500)
 
+inline static constexpr unsigned int OLLAEFNBCIM_TypeDefinitionIndex = 26715;
+
 	class OLLAEFNBCIM : public ::System::Object
 	{
 	public:

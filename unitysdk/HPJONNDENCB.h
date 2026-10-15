@@ -31,6 +31,8 @@ namespace System { class String; }
 #define HPJONNDENCB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E5FAB00)
 #define HPJONNDENCB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E5FAB60)
 
+inline static constexpr unsigned int HPJONNDENCB_TypeDefinitionIndex = 30731;
+
 	class HPJONNDENCB : public ::System::Object
 	{
 	public:

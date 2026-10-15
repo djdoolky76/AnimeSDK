@@ -27,6 +27,8 @@ namespace UnityEngine { class Coroutine; }
 
 namespace RootMotion::FinalIK
 {
+	inline static constexpr unsigned int Grounder_TypeDefinitionIndex = 45991;
+
 	class Grounder : public ::UnityEngine::MonoBehaviour
 	{
 	public:

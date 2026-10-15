@@ -8,6 +8,8 @@ class CBEBICGIOAB;
 #define CIOFHJKAMGK_CTOR_OFFSET UNITYSDK_OFFSET(0xCF8FFB0)
 #define CIOFHJKAMGK_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0xCF90000)
 
+inline static constexpr unsigned int CIOFHJKAMGK_TypeDefinitionIndex = 49423;
+
 	class CIOFHJKAMGK
 	{
 	public:

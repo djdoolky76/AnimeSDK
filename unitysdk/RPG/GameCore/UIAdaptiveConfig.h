@@ -10,6 +10,8 @@ namespace RPG::GameCore { class UIOperationConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int UIAdaptiveConfig_TypeDefinitionIndex = 24426;
+
 	class UIAdaptiveConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -5,6 +5,8 @@
 #define MHJGOOMDMGO_CTOR_OFFSET UNITYSDK_OFFSET(0xB943DF0)
 #define MHJGOOMDMGO_FHAAHMEJMCI_OFFSET UNITYSDK_OFFSET(0xB943C50)
 
+inline static constexpr unsigned int MHJGOOMDMGO_TypeDefinitionIndex = 66520;
+
 	class MHJGOOMDMGO : public ::FMIHMGNLBPN
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define HHHBMMBMCIO_CTOR_OFFSET UNITYSDK_OFFSET(0x15CCD630)
 #define HHHBMMBMCIO_EXECUTE_OFFSET UNITYSDK_OFFSET(0x15CCCA00)
 
+inline static constexpr unsigned int HHHBMMBMCIO_TypeDefinitionIndex = 77339;
+
 	class HHHBMMBMCIO : public ::System::Object
 	{
 	public:

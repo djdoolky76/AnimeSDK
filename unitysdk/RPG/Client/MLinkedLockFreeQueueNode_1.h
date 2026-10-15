@@ -5,6 +5,8 @@ namespace RPG::Client { template <typename T> class MLinkedLockFreeQueueNode_1; 
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MLinkedLockFreeQueueNode_1_TypeDefinitionIndex = 35257;
+
 	template <typename T>
 	class MLinkedLockFreeQueueNode_1 : public ::System::Object
 	{

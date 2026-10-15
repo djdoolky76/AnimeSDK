@@ -13,6 +13,8 @@ namespace System { class Nullable; }
 #define DKEBOFCEAAK_LPFBANCOMPE_OFFSET UNITYSDK_OFFSET(0xF877820)
 #define DKEBOFCEAAK_MENMHDNIBLA_OFFSET UNITYSDK_OFFSET(0xF877480)
 
+inline static constexpr unsigned int DKEBOFCEAAK_TypeDefinitionIndex = 68796;
+
 	class DKEBOFCEAAK : public ::GPGDJDKKHNE
 	{
 	public:

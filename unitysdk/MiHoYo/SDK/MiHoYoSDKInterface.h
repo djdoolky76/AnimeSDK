@@ -56,6 +56,8 @@ namespace System { template <typename T> class Func_1; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int MiHoYoSDKInterface_TypeDefinitionIndex = 46590;
+
 	class MiHoYoSDKInterface : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace System::Diagnostics::Tracing
 {
+	inline static constexpr unsigned int FieldMetadata_TypeDefinitionIndex = 1605;
+
 	class FieldMetadata : public ::System::Object
 	{
 	public:

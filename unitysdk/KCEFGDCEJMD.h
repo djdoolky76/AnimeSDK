@@ -8,6 +8,8 @@ namespace System { class String; }
 #define KCEFGDCEJMD_ONALLOC_OFFSET UNITYSDK_OFFSET(0x1CBB0EE0)
 #define KCEFGDCEJMD_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0x1CBB0F20)
 
+inline static constexpr unsigned int KCEFGDCEJMD_TypeDefinitionIndex = 43516;
+
 	class KCEFGDCEJMD : public ::System::Object
 	{
 	public:

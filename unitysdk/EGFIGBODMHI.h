@@ -26,6 +26,8 @@ namespace System { class Object; }
 #define EGFIGBODMHI_INIT_OFFSET UNITYSDK_OFFSET(0x1CD7BDF0)
 #define EGFIGBODMHI_NHCFLDCDLCP_OFFSET UNITYSDK_OFFSET(0x1CD7C4A0)
 
+inline static constexpr unsigned int EGFIGBODMHI_TypeDefinitionIndex = 10683;
+
 	class EGFIGBODMHI : public ::System::Object
 	{
 	public:

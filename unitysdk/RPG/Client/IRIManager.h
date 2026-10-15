@@ -15,6 +15,8 @@ namespace UnityEngine { class RPGInstancedItemBlock; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int IRIManager_TypeDefinitionIndex = 68890;
+
 	class IRIManager : public ::UnityEngine::MonoBehaviour
 	{
 	public:

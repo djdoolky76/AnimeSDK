@@ -33,6 +33,8 @@ namespace System { class String; }
 #define LALKBPJANIH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E8CFB70)
 #define LALKBPJANIH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E8CFBD0)
 
+inline static constexpr unsigned int LALKBPJANIH_TypeDefinitionIndex = 29172;
+
 	class LALKBPJANIH : public ::System::Object
 	{
 	public:

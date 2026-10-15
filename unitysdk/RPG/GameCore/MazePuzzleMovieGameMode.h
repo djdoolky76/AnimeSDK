@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MazePuzzleMovieGameMode_TypeDefinitionIndex = 14082;
+
 	enum class MazePuzzleMovieGameMode : ::System::Int32
 	{
 		OverTake = 0,

@@ -17,6 +17,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define IIGOMIPBAHB_MMBFAMNFOMH_OFFSET UNITYSDK_OFFSET(0x1CB77010)
 #define IIGOMIPBAHB_PCFFECLCDAP_OFFSET UNITYSDK_OFFSET(0x1CB77680)
 
+inline static constexpr unsigned int IIGOMIPBAHB_TypeDefinitionIndex = 43263;
+
 	class IIGOMIPBAHB : public ::System::Object
 	{
 	public:

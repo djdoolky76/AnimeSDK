@@ -10,6 +10,8 @@
 
 namespace System::Xml
 {
+	inline static constexpr unsigned int UTF16Decoder_TypeDefinitionIndex = 1950;
+
 	class UTF16Decoder : public ::System::Text::Decoder
 	{
 	public:

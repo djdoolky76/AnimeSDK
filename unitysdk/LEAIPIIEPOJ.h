@@ -18,6 +18,8 @@ namespace System { class Object; }
 #define LEAIPIIEPOJ_PPLICPEAGOH_OFFSET UNITYSDK_OFFSET(0xB64A2C0)
 #define LEAIPIIEPOJ_TICK_OFFSET UNITYSDK_OFFSET(0xB649B80)
 
+inline static constexpr unsigned int LEAIPIIEPOJ_TypeDefinitionIndex = 55848;
+
 	class LEAIPIIEPOJ : public ::System::Object
 	{
 	public:

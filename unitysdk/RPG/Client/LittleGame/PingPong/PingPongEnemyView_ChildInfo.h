@@ -8,6 +8,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::LittleGame::PingPong
 {
+	inline static constexpr unsigned int PingPongEnemyView_ChildInfo_TypeDefinitionIndex = 76681;
+
 	class PingPongEnemyView_ChildInfo : public ::System::Object
 	{
 	public:

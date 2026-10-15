@@ -10,6 +10,8 @@ namespace RPG::GameCore { class PetPartyRandomStrollDestination; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PetPartyRandomStrollDestination_TypeDefinitionIndex = 21083;
+
 	class PetPartyRandomStrollDestination : public ::RPG::GameCore::PetPartyNavigateDestination
 	{
 	public:

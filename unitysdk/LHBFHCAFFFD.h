@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TriggerTurnPage; }
 #define LHBFHCAFFFD_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB6A4E40)
 #define LHBFHCAFFFD_TICK_OFFSET UNITYSDK_OFFSET(0xB6A4E90)
 
+inline static constexpr unsigned int LHBFHCAFFFD_TypeDefinitionIndex = 55768;
+
 	class LHBFHCAFFFD : public ::GELIALJDFBL
 	{
 	public:

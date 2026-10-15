@@ -32,6 +32,8 @@ namespace System { class String; }
 #define BJBIFIMJDOL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE06DD0)
 #define BJBIFIMJDOL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DE06E30)
 
+inline static constexpr unsigned int BJBIFIMJDOL_TypeDefinitionIndex = 33307;
+
 	class BJBIFIMJDOL : public ::System::Object
 	{
 	public:

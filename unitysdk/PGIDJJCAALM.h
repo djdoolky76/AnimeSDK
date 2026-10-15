@@ -10,6 +10,8 @@ namespace RPG::AvatarSystem { class IAvatar; }
 #define PGIDJJCAALM_JAGPJGOOALH_OFFSET UNITYSDK_OFFSET(0xC220C00)
 #define PGIDJJCAALM_KPKCFMCJBCF_OFFSET UNITYSDK_OFFSET(0xC220B00)
 
+inline static constexpr unsigned int PGIDJJCAALM_TypeDefinitionIndex = 65579;
+
 	class PGIDJJCAALM : public ::System::Object
 	{
 	public:

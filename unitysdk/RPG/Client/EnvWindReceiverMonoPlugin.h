@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int EnvWindReceiverMonoPlugin_TypeDefinitionIndex = 71063;
+
 	class EnvWindReceiverMonoPlugin
 	{
 	public:

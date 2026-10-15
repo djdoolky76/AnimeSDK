@@ -22,6 +22,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChimeraTeamData_TypeDefinitionIndex = 63436;
+
 	class ChimeraTeamData : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System { class String; }
 #define EACKMEJLKAN_ONCLEAR_OFFSET UNITYSDK_OFFSET(0x126710F0)
 #define EACKMEJLKAN_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x12670EC0)
 
+inline static constexpr unsigned int EACKMEJLKAN_TypeDefinitionIndex = 80848;
+
 	class EACKMEJLKAN : public ::MLKDDLHNNHH
 	{
 	public:

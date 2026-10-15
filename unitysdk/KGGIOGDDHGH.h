@@ -56,6 +56,8 @@ namespace UnityEngine::UI { class Text; }
 #define KGGIOGDDHGH__ONTICK_OFFSET UNITYSDK_OFFSET(0xB3E17C0)
 #define KGGIOGDDHGH__SETUPVIEW_OFFSET UNITYSDK_OFFSET(0xB3E0B10)
 
+inline static constexpr unsigned int KGGIOGDDHGH_TypeDefinitionIndex = 72735;
+
 	class KGGIOGDDHGH : public ::RPG::Client::UIController
 	{
 	public:

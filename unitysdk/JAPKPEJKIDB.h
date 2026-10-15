@@ -17,6 +17,8 @@ class DILIKOIGENM;
 #define JAPKPEJKIDB_SET_REVENUECURRENCY_OFFSET UNITYSDK_OFFSET(0x1655C8B0)
 #define JAPKPEJKIDB_SET_TARGETREVENUE_OFFSET UNITYSDK_OFFSET(0x1655C910)
 
+inline static constexpr unsigned int JAPKPEJKIDB_TypeDefinitionIndex = 79748;
+
 	class JAPKPEJKIDB : public ::System::Object
 	{
 	public:

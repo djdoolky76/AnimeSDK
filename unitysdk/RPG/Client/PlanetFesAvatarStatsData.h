@@ -22,6 +22,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PlanetFesAvatarStatsData_TypeDefinitionIndex = 66561;
+
 	class PlanetFesAvatarStatsData : public ::System::Object
 	{
 	public:

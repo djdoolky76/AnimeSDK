@@ -11,6 +11,8 @@ namespace RPG::GameCore { class MarbleTaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MarblePredicateConfig_TypeDefinitionIndex = 16828;
+
 	class MarblePredicateConfig : public ::RPG::GameCore::MarbleTaskConfig
 	{
 	public:

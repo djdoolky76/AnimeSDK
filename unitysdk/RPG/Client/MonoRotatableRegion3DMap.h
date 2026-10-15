@@ -7,6 +7,8 @@ namespace RPG::Client { class RotatableRegionPose3DMapConfig; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoRotatableRegion3DMap_TypeDefinitionIndex = 69048;
+
 	class MonoRotatableRegion3DMap : public ::UnityEngine::MonoBehaviour
 	{
 	public:

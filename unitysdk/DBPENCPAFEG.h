@@ -9,6 +9,8 @@ namespace System { class Exception; }
 #define DBPENCPAFEG__ONTASKBEGIN_B__1_0_OFFSET UNITYSDK_OFFSET(0xE235350)
 #define DBPENCPAFEG__ONTASKBEGIN_B__1_1_OFFSET UNITYSDK_OFFSET(0xE235360)
 
+inline static constexpr unsigned int DBPENCPAFEG_TypeDefinitionIndex = 52794;
+
 	class DBPENCPAFEG
 	{
 	public:

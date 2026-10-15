@@ -23,6 +23,8 @@ namespace UnityEngine::UI { class Image; }
 #define BCFDAHOHJEA_SET_BPSTYLE_OFFSET UNITYSDK_OFFSET(0x15EA62D0)
 #define BCFDAHOHJEA___ONEFFECTFINISH_B__19_0_OFFSET UNITYSDK_OFFSET(0x15EA6470)
 
+inline static constexpr unsigned int BCFDAHOHJEA_TypeDefinitionIndex = 71491;
+
 	class BCFDAHOHJEA : public ::FMPCODLIOLG
 	{
 	public:

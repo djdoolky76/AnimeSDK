@@ -6,6 +6,8 @@
 
 namespace UnityEngine::Timeline
 {
+	inline static constexpr unsigned int CustomSignalEventDrawer_TypeDefinitionIndex = 38832;
+
 	class CustomSignalEventDrawer : public ::UnityEngine::PropertyAttribute
 	{
 	public:

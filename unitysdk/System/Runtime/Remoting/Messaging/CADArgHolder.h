@@ -6,6 +6,8 @@
 
 namespace System::Runtime::Remoting::Messaging
 {
+	inline static constexpr unsigned int CADArgHolder_TypeDefinitionIndex = 1299;
+
 	class CADArgHolder : public ::System::Object
 	{
 	public:

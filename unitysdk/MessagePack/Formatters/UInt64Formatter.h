@@ -13,6 +13,8 @@ namespace MessagePack::Formatters { class UInt64Formatter; }
 
 namespace MessagePack::Formatters
 {
+	inline static constexpr unsigned int UInt64Formatter_TypeDefinitionIndex = 7459;
+
 	class UInt64Formatter : public ::System::Object
 	{
 	public:

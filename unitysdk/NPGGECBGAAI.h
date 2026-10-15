@@ -10,6 +10,8 @@ namespace System { class String; }
 #define NPGGECBGAAI_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D246030)
 #define NPGGECBGAAI_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D245FF0)
 
+inline static constexpr unsigned int NPGGECBGAAI_TypeDefinitionIndex = 21512;
+
 	class NPGGECBGAAI : public ::RPG::GameCore::TaskConfig
 	{
 	public:

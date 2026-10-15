@@ -31,6 +31,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define JKNBKEHFJJC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1C56B230)
 #define JKNBKEHFJJC__ITERATEALL_B__6_0_OFFSET UNITYSDK_OFFSET(0x1C56B3A0)
 
+inline static constexpr unsigned int JKNBKEHFJJC_TypeDefinitionIndex = 41730;
+
 	class JKNBKEHFJJC : public ::System::Object
 	{
 	public:

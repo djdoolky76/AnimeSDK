@@ -27,6 +27,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ComicDialogEmitterBehavior_DialogData_TypeDefinitionIndex = 70877;
+
 	class ComicDialogEmitterBehavior_DialogData : public ::System::Object
 	{
 	public:

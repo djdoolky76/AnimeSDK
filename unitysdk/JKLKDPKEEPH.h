@@ -13,6 +13,8 @@ namespace RPG::GameCore { class PVEGameStatistics; }
 #define JKLKDPKEEPH_HBIFBEDEAIA_OFFSET UNITYSDK_OFFSET(0xB220200)
 #define JKLKDPKEEPH_KNJKPFCPKAH_OFFSET UNITYSDK_OFFSET(0xB21FFC0)
 
+inline static constexpr unsigned int JKLKDPKEEPH_TypeDefinitionIndex = 56012;
+
 	class JKLKDPKEEPH : public ::LHHEGNEBMLN
 	{
 	public:

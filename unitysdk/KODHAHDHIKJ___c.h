@@ -9,6 +9,8 @@ namespace System { class Object; }
 #define KODHAHDHIKJ___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB592C10)
 #define KODHAHDHIKJ___C__CONFIRM_B__15_1_OFFSET UNITYSDK_OFFSET(0xB592C20)
 
+inline static constexpr unsigned int KODHAHDHIKJ___c_TypeDefinitionIndex = 74397;
+
 	class KODHAHDHIKJ___c : public ::System::Object
 	{
 	public:

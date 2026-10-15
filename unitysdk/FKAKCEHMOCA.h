@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define FKAKCEHMOCA_CTOR_OFFSET UNITYSDK_OFFSET(0x157E3D80)
 #define FKAKCEHMOCA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x157E3E60)
 
+inline static constexpr unsigned int FKAKCEHMOCA_TypeDefinitionIndex = 55410;
+
 	class FKAKCEHMOCA
 	{
 	public:

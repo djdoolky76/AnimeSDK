@@ -11,6 +11,8 @@ namespace System { class String; }
 #define MPIPCMOAOGM_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D1DF100)
 #define MPIPCMOAOGM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D1DF060)
 
+inline static constexpr unsigned int MPIPCMOAOGM_TypeDefinitionIndex = 21068;
+
 	class MPIPCMOAOGM : public ::RPG::GameCore::TaskConfig
 	{
 	public:

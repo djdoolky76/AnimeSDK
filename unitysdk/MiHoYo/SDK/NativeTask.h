@@ -17,6 +17,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int NativeTask_TypeDefinitionIndex = 7988;
+
 	class NativeTask : public ::System::Object
 	{
 	public:

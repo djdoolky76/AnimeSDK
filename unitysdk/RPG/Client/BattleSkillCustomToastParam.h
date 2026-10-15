@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BattleSkillCustomToastParam_TypeDefinitionIndex = 71949;
+
 	class BattleSkillCustomToastParam : public ::System::Object
 	{
 	public:

@@ -4,6 +4,8 @@
 
 #define ENNICBAOCNM_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA61B80)
 
+inline static constexpr unsigned int ENNICBAOCNM_TypeDefinitionIndex = 42445;
+
 	class ENNICBAOCNM : public ::System::Object
 	{
 	public:

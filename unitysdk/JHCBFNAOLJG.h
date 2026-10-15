@@ -7,6 +7,8 @@ namespace RPG::GameCore { class DiceCombatTaskConfig_RemoveModifier; }
 #define JHCBFNAOLJG_CTOR_OFFSET UNITYSDK_OFFSET(0x1C6F4FB0)
 #define JHCBFNAOLJG_MLKLPMJEHPF_OFFSET UNITYSDK_OFFSET(0x1C6F4FC0)
 
+inline static constexpr unsigned int JHCBFNAOLJG_TypeDefinitionIndex = 36299;
+
 	class JHCBFNAOLJG : public ::AJBKGPOEBFG
 	{
 	public:

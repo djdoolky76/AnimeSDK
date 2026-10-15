@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RemoveBattleEventData; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RemoveBattleEventData_TypeDefinitionIndex = 21676;
+
 	class RemoveBattleEventData : public ::RPG::GameCore::TaskConfig
 	{
 	public:

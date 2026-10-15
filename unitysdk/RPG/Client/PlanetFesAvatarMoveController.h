@@ -24,6 +24,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PlanetFesAvatarMoveController_TypeDefinitionIndex = 66480;
+
 	class PlanetFesAvatarMoveController : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -14,6 +14,8 @@ namespace System { class Object; }
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int PerformShowGiftService_TypeDefinitionIndex = 75326;
+
 	class PerformShowGiftService : public ::System::Object
 	{
 	public:

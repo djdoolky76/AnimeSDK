@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int IVRRenderModels__GetRenderModelErrorNameFromEnum_TypeDefinitionIndex = 39158;
+
 	class IVRRenderModels__GetRenderModelErrorNameFromEnum : public ::System::MulticastDelegate
 	{
 	public:

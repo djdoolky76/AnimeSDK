@@ -17,6 +17,8 @@ namespace RPG::Client::CakeRace { class CakeRaceGameplayContext; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CakeRaceShortcuts_TypeDefinitionIndex = 63012;
+
 	class CakeRaceShortcuts : public ::System::Object
 	{
 	public:

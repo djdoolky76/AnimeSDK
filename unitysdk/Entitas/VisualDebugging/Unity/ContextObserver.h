@@ -22,6 +22,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace Entitas::VisualDebugging::Unity
 {
+	inline static constexpr unsigned int ContextObserver_TypeDefinitionIndex = 10056;
+
 	class ContextObserver : public ::System::Object
 	{
 	public:

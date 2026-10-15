@@ -10,6 +10,8 @@ namespace RPG::GameCore { class SetMazePuzzleChallengeProgress; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetMazePuzzleChallengeProgress_TypeDefinitionIndex = 22014;
+
 	class SetMazePuzzleChallengeProgress : public ::RPG::GameCore::TaskConfig
 	{
 	public:

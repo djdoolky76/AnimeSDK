@@ -29,6 +29,8 @@ namespace System { class String; }
 #define PFPHCDCNOBN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF2A000)
 #define PFPHCDCNOBN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF2A060)
 
+inline static constexpr unsigned int PFPHCDCNOBN_TypeDefinitionIndex = 25056;
+
 	class PFPHCDCNOBN : public ::System::Object
 	{
 	public:

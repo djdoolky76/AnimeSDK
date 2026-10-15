@@ -9,6 +9,8 @@ class OHPJBMJAJML;
 #define CNCELEJMKDC_CTOR_OFFSET UNITYSDK_OFFSET(0x1C54CB70)
 #define CNCELEJMKDC_IDGMOOILFLG_OFFSET UNITYSDK_OFFSET(0x1C54CB80)
 
+inline static constexpr unsigned int CNCELEJMKDC_TypeDefinitionIndex = 41869;
+
 	class CNCELEJMKDC : public ::System::Object
 	{
 	public:

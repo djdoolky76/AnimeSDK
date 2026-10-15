@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int IVRSystem__DriverDebugRequest_TypeDefinitionIndex = 38931;
+
 	class IVRSystem__DriverDebugRequest : public ::System::MulticastDelegate
 	{
 	public:

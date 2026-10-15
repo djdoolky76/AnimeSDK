@@ -31,6 +31,8 @@ namespace System { class String; }
 #define CPGFNBBIGLH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E13D950)
 #define CPGFNBBIGLH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E13D9B0)
 
+inline static constexpr unsigned int CPGFNBBIGLH_TypeDefinitionIndex = 30310;
+
 	class CPGFNBBIGLH : public ::System::Object
 	{
 	public:

@@ -15,6 +15,8 @@ namespace System { class Random; }
 
 namespace Spine
 {
+	inline static constexpr unsigned int MathUtils_TypeDefinitionIndex = 39676;
+
 	class MathUtils : public ::System::Object
 	{
 	public:

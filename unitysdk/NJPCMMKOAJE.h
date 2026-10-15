@@ -7,6 +7,8 @@
 #define NJPCMMKOAJE_CTOR_OFFSET UNITYSDK_OFFSET(0xBC2A2F0)
 #define NJPCMMKOAJE_PJLGNEPKOGE_OFFSET UNITYSDK_OFFSET(0xBC2A2A0)
 
+inline static constexpr unsigned int NJPCMMKOAJE_TypeDefinitionIndex = 54277;
+
 	class NJPCMMKOAJE : public ::System::Object
 	{
 	public:

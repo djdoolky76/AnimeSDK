@@ -91,6 +91,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define DCCJKHAMOKM_PMGKHCAMIBL_OFFSET UNITYSDK_OFFSET(0x1C5DFA60)
 #define DCCJKHAMOKM_PPNLFOMNABN_OFFSET UNITYSDK_OFFSET(0x1C5DE5D0)
 
+inline static constexpr unsigned int DCCJKHAMOKM_TypeDefinitionIndex = 36393;
+
 	class DCCJKHAMOKM : public ::System::Object
 	{
 	public:

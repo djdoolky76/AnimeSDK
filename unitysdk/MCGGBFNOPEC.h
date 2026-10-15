@@ -13,6 +13,8 @@ namespace RPG::GameCore { class WaitAbilityStartTimeStamp; }
 #define MCGGBFNOPEC_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB87AB00)
 #define MCGGBFNOPEC_TICK_OFFSET UNITYSDK_OFFSET(0xB87ADB0)
 
+inline static constexpr unsigned int MCGGBFNOPEC_TypeDefinitionIndex = 58847;
+
 	class MCGGBFNOPEC : public ::GELIALJDFBL
 	{
 	public:

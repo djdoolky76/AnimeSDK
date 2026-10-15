@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FiveDimPlaySummonBotAnimAction; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimPlaySummonBotAnimAction_TypeDefinitionIndex = 18728;
+
 	class FiveDimPlaySummonBotAnimAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
 	public:

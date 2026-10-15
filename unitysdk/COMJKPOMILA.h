@@ -34,6 +34,8 @@ namespace System { class String; }
 #define COMJKPOMILA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E136D50)
 #define COMJKPOMILA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E136DB0)
 
+inline static constexpr unsigned int COMJKPOMILA_TypeDefinitionIndex = 28506;
+
 	class COMJKPOMILA : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace RPG::Client { class MissionFocusSelector_MissionMatchPredicate; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MissionFocusSelector___c__DisplayClass4_0_TypeDefinitionIndex = 66165;
+
 	class MissionFocusSelector___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:

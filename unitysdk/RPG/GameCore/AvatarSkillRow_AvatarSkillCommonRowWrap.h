@@ -66,6 +66,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AvatarSkillRow_AvatarSkillCommonRowWrap_TypeDefinitionIndex = 56554;
+
 	class AvatarSkillRow_AvatarSkillCommonRowWrap : public ::System::Object
 	{
 	public:

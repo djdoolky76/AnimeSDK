@@ -13,6 +13,8 @@ namespace System { class String; }
 #define EHDCFBBIJIM_OINBDMGFFJL_OFFSET UNITYSDK_OFFSET(0x154A3A10)
 #define EHDCFBBIJIM_PMAPIEMDKKA_OFFSET UNITYSDK_OFFSET(0x154A3D50)
 
+inline static constexpr unsigned int EHDCFBBIJIM_TypeDefinitionIndex = 77555;
+
 	class EHDCFBBIJIM : public ::System::Object
 	{
 	public:

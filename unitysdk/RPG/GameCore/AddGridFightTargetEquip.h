@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AddGridFightTargetEquip_TypeDefinitionIndex = 22535;
+
 	class AddGridFightTargetEquip : public ::RPG::GameCore::TaskConfig
 	{
 	public:

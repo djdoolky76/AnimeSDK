@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define ACJFCHLLGJI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB123470)
 #define ACJFCHLLGJI__ONPAGECONFIRMCLOSE_OFFSET UNITYSDK_OFFSET(0xB123820)
 
+inline static constexpr unsigned int ACJFCHLLGJI_TypeDefinitionIndex = 58240;
+
 	class ACJFCHLLGJI
 	{
 	public:

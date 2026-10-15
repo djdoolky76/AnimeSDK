@@ -16,6 +16,8 @@ namespace UnityEngine { class Shader; }
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int ShaderKeyword_TypeDefinitionIndex = 4896;
+
 	struct alignas(4) ShaderKeyword
 	{
 		::System::Int32 m_KeywordIndex; // 0x10

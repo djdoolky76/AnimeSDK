@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightNodeTemplateConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightNodeTemplateConfigRow_TypeDefinitionIndex = 13615;
+
 	class GridFightNodeTemplateConfigRow : public ::System::Object
 	{
 	public:

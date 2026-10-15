@@ -11,6 +11,8 @@ namespace RPG::Client::Challenge::Tierce { class ChallengeTierceRecordBase; }
 #define EDMIEACDAKH_MDHPKBOBEJL_OFFSET UNITYSDK_OFFSET(0x1332C6A0)
 #define EDMIEACDAKH_PFIMLIGKINE_OFFSET UNITYSDK_OFFSET(0x1332C620)
 
+inline static constexpr unsigned int EDMIEACDAKH_TypeDefinitionIndex = 81571;
+
 	class EDMIEACDAKH : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class Type; }
 
 #define JANDIGIAGOJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1655BF30)
 
+inline static constexpr unsigned int JANDIGIAGOJ_TypeDefinitionIndex = 61038;
+
 	class JANDIGIAGOJ : public ::System::Object
 	{
 	public:

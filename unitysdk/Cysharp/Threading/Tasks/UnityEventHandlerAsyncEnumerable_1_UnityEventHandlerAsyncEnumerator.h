@@ -10,6 +10,8 @@ namespace UnityEngine::Events { class UnityEvent; }
 
 namespace Cysharp::Threading::Tasks
 {
+	inline static constexpr unsigned int UnityEventHandlerAsyncEnumerable_1_UnityEventHandlerAsyncEnumerator_TypeDefinitionIndex = 38486;
+
 	template <typename T>
 	class UnityEventHandlerAsyncEnumerable_1_UnityEventHandlerAsyncEnumerator : public ::Cysharp::Threading::Tasks::MoveNextSource
 	{

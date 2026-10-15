@@ -49,6 +49,8 @@ namespace System { class String; }
 #define BLFMKDAGCFO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF5F560)
 #define BLFMKDAGCFO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF5F5C0)
 
+inline static constexpr unsigned int BLFMKDAGCFO_TypeDefinitionIndex = 31497;
+
 	class BLFMKDAGCFO : public ::System::Object
 	{
 	public:

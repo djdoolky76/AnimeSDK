@@ -29,6 +29,8 @@ namespace System { class String; }
 #define KJAMNOGFAMJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E8679F0)
 #define KJAMNOGFAMJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E867A50)
 
+inline static constexpr unsigned int KJAMNOGFAMJ_TypeDefinitionIndex = 32826;
+
 	class KJAMNOGFAMJ : public ::System::Object
 	{
 	public:

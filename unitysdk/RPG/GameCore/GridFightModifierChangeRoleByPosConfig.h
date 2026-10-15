@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightModifierChangeRoleByPosConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightModifierChangeRoleByPosConfig_TypeDefinitionIndex = 19452;
+
 	class GridFightModifierChangeRoleByPosConfig : public ::RPG::GameCore::GridFightModifierConfigBase
 	{
 	public:

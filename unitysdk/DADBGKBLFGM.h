@@ -29,6 +29,8 @@ namespace System { class String; }
 #define DADBGKBLFGM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E14CC10)
 #define DADBGKBLFGM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E14CC70)
 
+inline static constexpr unsigned int DADBGKBLFGM_TypeDefinitionIndex = 28123;
+
 	class DADBGKBLFGM : public ::System::Object
 	{
 	public:

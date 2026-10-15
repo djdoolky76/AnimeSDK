@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ShowTutorialGuideTalkListDialog_TypeDefinitionIndex = 24346;
+
 	class ShowTutorialGuideTalkListDialog : public ::RPG::GameCore::TaskConfig
 	{
 	public:

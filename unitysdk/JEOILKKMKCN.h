@@ -33,6 +33,8 @@ namespace System { class String; }
 #define JEOILKKMKCN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E7210E0)
 #define JEOILKKMKCN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E721140)
 
+inline static constexpr unsigned int JEOILKKMKCN_TypeDefinitionIndex = 28492;
+
 	class JEOILKKMKCN : public ::System::Object
 	{
 	public:

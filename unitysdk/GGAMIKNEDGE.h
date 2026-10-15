@@ -27,6 +27,8 @@ namespace System { class String; }
 #define GGAMIKNEDGE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E477500)
 #define GGAMIKNEDGE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E477560)
 
+inline static constexpr unsigned int GGAMIKNEDGE_TypeDefinitionIndex = 29556;
+
 	class GGAMIKNEDGE : public ::System::Object
 	{
 	public:

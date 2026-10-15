@@ -17,6 +17,8 @@ namespace UnityEngine { class SkinnedMeshRenderer; }
 #define EIMNOLKFMPJ_NFPLMGFDMIK_OFFSET UNITYSDK_OFFSET(0x154D27A0)
 #define EIMNOLKFMPJ_NJHJIOLNDMM_OFFSET UNITYSDK_OFFSET(0x154D2AD0)
 
+inline static constexpr unsigned int EIMNOLKFMPJ_TypeDefinitionIndex = 69891;
+
 	class EIMNOLKFMPJ : public ::RPG::Client::BehaviorBase
 	{
 	public:

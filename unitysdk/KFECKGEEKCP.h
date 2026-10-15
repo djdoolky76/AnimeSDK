@@ -13,6 +13,8 @@ namespace RPG::GameCore { class WaitWolfBroPuzzleStartup; }
 #define KFECKGEEKCP_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB395940)
 #define KFECKGEEKCP_TICK_OFFSET UNITYSDK_OFFSET(0xB395CC0)
 
+inline static constexpr unsigned int KFECKGEEKCP_TypeDefinitionIndex = 58947;
+
 	class KFECKGEEKCP : public ::GELIALJDFBL
 	{
 	public:

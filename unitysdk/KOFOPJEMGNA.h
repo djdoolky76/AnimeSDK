@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define KOFOPJEMGNA_PPOMJHNLJFM_OFFSET UNITYSDK_OFFSET(0xB595AE0)
 #define KOFOPJEMGNA_TICK_OFFSET UNITYSDK_OFFSET(0xB595E80)
 
+inline static constexpr unsigned int KOFOPJEMGNA_TypeDefinitionIndex = 53541;
+
 	class KOFOPJEMGNA : public ::HBCMHADMLOP
 	{
 	public:

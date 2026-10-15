@@ -11,6 +11,8 @@ namespace RPG::GameCore { template <typename T> class IFrameSyncOperationSource_
 #define BHDAFDOMINP_SET_EXECUTEFRAME_OFFSET UNITYSDK_OFFSET(0xB474560)
 #define BHDAFDOMINP_SET_SOURCE_OFFSET UNITYSDK_OFFSET(0xB474580)
 
+inline static constexpr unsigned int BHDAFDOMINP_TypeDefinitionIndex = 54261;
+
 	class BHDAFDOMINP : public ::System::Object
 	{
 	public:

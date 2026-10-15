@@ -8,6 +8,8 @@ namespace System { class String; }
 #define PNMGLOKELGK_CTOR_OFFSET UNITYSDK_OFFSET(0xC34E230)
 #define PNMGLOKELGK_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC34E1E0)
 
+inline static constexpr unsigned int PNMGLOKELGK_TypeDefinitionIndex = 55867;
+
 	class PNMGLOKELGK : public ::System::Object
 	{
 	public:

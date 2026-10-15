@@ -26,6 +26,8 @@ namespace RPG::Client { class ElfFarmGrowingCropsData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ElfFarmCellData_TypeDefinitionIndex = 63676;
+
 	class ElfFarmCellData : public ::System::Object
 	{
 	public:

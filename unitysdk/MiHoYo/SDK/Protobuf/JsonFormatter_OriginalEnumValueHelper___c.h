@@ -13,6 +13,8 @@ namespace System::Reflection { class FieldInfo; }
 
 namespace MiHoYo::SDK::Protobuf
 {
+	inline static constexpr unsigned int JsonFormatter_OriginalEnumValueHelper___c_TypeDefinitionIndex = 35728;
+
 	class JsonFormatter_OriginalEnumValueHelper___c : public ::System::Object
 	{
 	public:

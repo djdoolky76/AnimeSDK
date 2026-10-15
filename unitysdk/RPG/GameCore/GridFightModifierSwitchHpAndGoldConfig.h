@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightModifierSwitchHpAndGoldConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightModifierSwitchHpAndGoldConfig_TypeDefinitionIndex = 19416;
+
 	class GridFightModifierSwitchHpAndGoldConfig : public ::RPG::GameCore::GridFightModifierConfigBase
 	{
 	public:

@@ -7,6 +7,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define ODPIOCLJMIA_CTOR_OFFSET UNITYSDK_OFFSET(0xBDF2510)
 #define ODPIOCLJMIA_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBDF25D0)
 
+inline static constexpr unsigned int ODPIOCLJMIA_TypeDefinitionIndex = 52201;
+
 	class ODPIOCLJMIA
 	{
 	public:

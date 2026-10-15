@@ -9,6 +9,8 @@ namespace System { class Exception; }
 #define KCLEPBFHCLM__ONTASKBEGIN_B__1_0_OFFSET UNITYSDK_OFFSET(0xB33D440)
 #define KCLEPBFHCLM__ONTASKBEGIN_B__1_1_OFFSET UNITYSDK_OFFSET(0xB33D450)
 
+inline static constexpr unsigned int KCLEPBFHCLM_TypeDefinitionIndex = 52791;
+
 	class KCLEPBFHCLM
 	{
 	public:

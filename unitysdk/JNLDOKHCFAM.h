@@ -4,6 +4,8 @@
 
 #define JNLDOKHCFAM_CTOR_OFFSET UNITYSDK_OFFSET(0x1CBA6550)
 
+inline static constexpr unsigned int JNLDOKHCFAM_TypeDefinitionIndex = 43280;
+
 	class JNLDOKHCFAM : public ::System::Object
 	{
 	public:

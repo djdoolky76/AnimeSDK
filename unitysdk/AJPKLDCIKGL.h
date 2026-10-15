@@ -16,6 +16,8 @@ class NBILAHJEBCL;
 #define AJPKLDCIKGL_SET_DIYDATA_OFFSET UNITYSDK_OFFSET(0x1C53E7A0)
 #define AJPKLDCIKGL_SET_TEMPLATE_OFFSET UNITYSDK_OFFSET(0x1C53E780)
 
+inline static constexpr unsigned int AJPKLDCIKGL_TypeDefinitionIndex = 41863;
+
 	class AJPKLDCIKGL : public ::System::Object
 	{
 	public:

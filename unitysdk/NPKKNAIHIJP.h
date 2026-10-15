@@ -7,6 +7,8 @@ namespace RPG::GameCore { class MarbleSetFinish; }
 #define NPKKNAIHIJP_CTOR_OFFSET UNITYSDK_OFFSET(0x1C977150)
 #define NPKKNAIHIJP_KDNAAOHECPD_OFFSET UNITYSDK_OFFSET(0x1C977160)
 
+inline static constexpr unsigned int NPKKNAIHIJP_TypeDefinitionIndex = 43109;
+
 	class NPKKNAIHIJP : public ::BKABEBEPPJK
 	{
 	public:

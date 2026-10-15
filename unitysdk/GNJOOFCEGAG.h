@@ -12,6 +12,8 @@ namespace System { class String; }
 #define GNJOOFCEGAG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CE6DFD0)
 #define GNJOOFCEGAG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CE6DF30)
 
+inline static constexpr unsigned int GNJOOFCEGAG_TypeDefinitionIndex = 22560;
+
 	class GNJOOFCEGAG : public ::RPG::GameCore::TaskConfig
 	{
 	public:

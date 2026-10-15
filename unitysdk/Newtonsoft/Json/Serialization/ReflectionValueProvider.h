@@ -10,6 +10,8 @@ namespace System::Reflection { class MemberInfo; }
 
 namespace Newtonsoft::Json::Serialization
 {
+	inline static constexpr unsigned int ReflectionValueProvider_TypeDefinitionIndex = 9747;
+
 	class ReflectionValueProvider : public ::System::Object
 	{
 	public:

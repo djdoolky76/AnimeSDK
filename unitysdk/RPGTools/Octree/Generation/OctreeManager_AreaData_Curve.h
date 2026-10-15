@@ -10,6 +10,8 @@ namespace RPGTools::Octree::Generation { class OctreeAreaData; }
 
 namespace RPGTools::Octree::Generation
 {
+	inline static constexpr unsigned int OctreeManager_AreaData_Curve_TypeDefinitionIndex = 48887;
+
 	class OctreeManager_AreaData_Curve : public ::RPGTools::Octree::Generation::OctreeManager_AreaData
 	{
 	public:

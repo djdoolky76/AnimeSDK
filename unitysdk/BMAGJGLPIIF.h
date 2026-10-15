@@ -51,6 +51,8 @@ namespace System { class String; }
 #define BMAGJGLPIIF_PKCAPGLMPIE_OFFSET UNITYSDK_OFFSET(0x3C43E40)
 #define BMAGJGLPIIF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3C43F30)
 
+inline static constexpr unsigned int BMAGJGLPIIF_TypeDefinitionIndex = 6393;
+
 	struct alignas(4) BMAGJGLPIIF
 	{
 		::System::Single BDCFLFPLDAN; // 0x10

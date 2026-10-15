@@ -12,6 +12,8 @@ namespace UnityEngine { class Renderer; }
 
 #define OKOHGMMFPLF_KAKCGFHNEEJ_CTOR_OFFSET UNITYSDK_OFFSET(0xBEF3990)
 
+inline static constexpr unsigned int OKOHGMMFPLF_KAKCGFHNEEJ_TypeDefinitionIndex = 71026;
+
 	class OKOHGMMFPLF_KAKCGFHNEEJ : public ::System::Object
 	{
 	public:

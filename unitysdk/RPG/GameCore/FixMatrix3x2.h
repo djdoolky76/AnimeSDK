@@ -13,6 +13,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FixMatrix3x2_TypeDefinitionIndex = 9938;
+
 	struct alignas(4) FixMatrix3x2
 	{
 		::RPG::GameCore::FixPoint M11; // 0x10

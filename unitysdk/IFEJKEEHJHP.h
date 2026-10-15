@@ -6,6 +6,8 @@
 #define IFEJKEEHJHP_GET_EVENTID_OFFSET UNITYSDK_OFFSET(0x15F0C5F0)
 #define IFEJKEEHJHP_SET_EVENTID_OFFSET UNITYSDK_OFFSET(0x15F0C600)
 
+inline static constexpr unsigned int IFEJKEEHJHP_TypeDefinitionIndex = 77581;
+
 	class IFEJKEEHJHP : public ::GMGHBGLNMFF
 	{
 	public:

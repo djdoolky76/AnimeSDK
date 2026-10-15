@@ -6,6 +6,8 @@ class FGJAKGPJCKB;
 #define FIIPOAMEICN_CTOR_OFFSET UNITYSDK_OFFSET(0x1C61A800)
 #define FIIPOAMEICN_IAEKDNGGBEN_OFFSET UNITYSDK_OFFSET(0x1C612730)
 
+inline static constexpr unsigned int FIIPOAMEICN_TypeDefinitionIndex = 37325;
+
 	class FIIPOAMEICN : public ::System::Object
 	{
 	public:

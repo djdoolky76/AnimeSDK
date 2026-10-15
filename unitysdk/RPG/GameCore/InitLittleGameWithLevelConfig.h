@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int InitLittleGameWithLevelConfig_TypeDefinitionIndex = 20987;
+
 	class InitLittleGameWithLevelConfig : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 #define DAIPCBAPIGD_CTOR_OFFSET UNITYSDK_OFFSET(0xDFC4190)
 
+inline static constexpr unsigned int DAIPCBAPIGD_TypeDefinitionIndex = 62094;
+
 	class DAIPCBAPIGD : public ::System::Object
 	{
 	public:

@@ -29,6 +29,8 @@ namespace System { class String; }
 #define OMKAKFPOGDA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DEB8DF0)
 #define OMKAKFPOGDA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DEB8E50)
 
+inline static constexpr unsigned int OMKAKFPOGDA_TypeDefinitionIndex = 35028;
+
 	class OMKAKFPOGDA : public ::System::Object
 	{
 	public:

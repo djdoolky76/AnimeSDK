@@ -3,6 +3,8 @@
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int TimelineEventType_TypeDefinitionIndex = 48430;
+
 	enum class TimelineEventType : ::System::Int32
 	{
 		SetTargetTransform = 0,

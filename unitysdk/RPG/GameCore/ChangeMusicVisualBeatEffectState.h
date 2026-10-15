@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChangeMusicVisualBeatEffectState_TypeDefinitionIndex = 22309;
+
 	class ChangeMusicVisualBeatEffectState : public ::RPG::GameCore::TaskConfig
 	{
 	public:

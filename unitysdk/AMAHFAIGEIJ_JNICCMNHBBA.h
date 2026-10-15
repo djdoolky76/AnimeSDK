@@ -3,6 +3,8 @@
 #include "unitysdk/RootMotion/IKJob/IKTransformRef.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
+inline static constexpr unsigned int AMAHFAIGEIJ_JNICCMNHBBA_TypeDefinitionIndex = 68451;
+
 	struct alignas(4) AMAHFAIGEIJ_JNICCMNHBBA
 	{
 		::System::Single NDJMDMNILJH; // 0x10

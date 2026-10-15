@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 #define OJIALLHOIBH_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D289FB0)
 #define OJIALLHOIBH_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D289F10)
 
+inline static constexpr unsigned int OJIALLHOIBH_TypeDefinitionIndex = 23206;
+
 	class OJIALLHOIBH : public ::RPG::GameCore::TaskConfig
 	{
 	public:

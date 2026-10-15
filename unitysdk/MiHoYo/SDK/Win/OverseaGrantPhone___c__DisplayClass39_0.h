@@ -9,6 +9,8 @@ namespace MiHoYo::SDK::Win { class OverseaGrantPhone; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int OverseaGrantPhone___c__DisplayClass39_0_TypeDefinitionIndex = 9528;
+
 	class OverseaGrantPhone___c__DisplayClass39_0 : public ::System::Object
 	{
 	public:

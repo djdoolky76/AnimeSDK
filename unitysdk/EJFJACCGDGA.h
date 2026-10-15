@@ -29,6 +29,8 @@ namespace System { class String; }
 #define EJFJACCGDGA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E2B5D00)
 #define EJFJACCGDGA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E2B5D60)
 
+inline static constexpr unsigned int EJFJACCGDGA_TypeDefinitionIndex = 34072;
+
 	class EJFJACCGDGA : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SwordTrainingCheckIfGameStarted_TypeDefinitionIndex = 20997;
+
 	class SwordTrainingCheckIfGameStarted : public ::RPG::GameCore::TaskConfig
 	{
 	public:

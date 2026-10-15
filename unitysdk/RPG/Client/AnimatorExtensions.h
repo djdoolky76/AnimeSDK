@@ -7,6 +7,8 @@ namespace UnityEngine { class Animator; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AnimatorExtensions_TypeDefinitionIndex = 60082;
+
 	class AnimatorExtensions : public ::System::Object
 	{
 	public:

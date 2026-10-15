@@ -19,6 +19,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::Client::ChimeraDuel
 {
+	inline static constexpr unsigned int ChimeraDuelBattleWindow_TypeDefinitionIndex = 81252;
+
 	class ChimeraDuelBattleWindow : public ::Sofa::BaseSofaWindow
 	{
 	public:

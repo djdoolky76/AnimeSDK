@@ -9,6 +9,8 @@ namespace RPG::GameCore { class RogueTournAvatarRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueTournAvatarRow_TypeDefinitionIndex = 14999;
+
 	class RogueTournAvatarRow : public ::System::Object
 	{
 	public:

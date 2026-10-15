@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TriggerGroupEvent; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TriggerGroupEvent_TypeDefinitionIndex = 21196;
+
 	class TriggerGroupEvent : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DefineDynamicStringByAssistantID_TypeDefinitionIndex = 20885;
+
 	class DefineDynamicStringByAssistantID : public ::RPG::GameCore::TaskConfig
 	{
 	public:

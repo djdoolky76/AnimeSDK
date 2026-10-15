@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define EJOBIEBMAFA_CTOR_OFFSET UNITYSDK_OFFSET(0x154F25A0)
 #define EJOBIEBMAFA_EVALUATE_OFFSET UNITYSDK_OFFSET(0x154F25D0)
 
+inline static constexpr unsigned int EJOBIEBMAFA_TypeDefinitionIndex = 54581;
+
 	class EJOBIEBMAFA
 	{
 	public:

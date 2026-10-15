@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int PLHKNANMNAO_TypeDefinitionIndex = 30592;
+
 	enum class PLHKNANMNAO : ::System::Int32
 	{
 		NLCDGIPGFDJ = 0,

@@ -5,6 +5,8 @@
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriAtomEx_CuboidExtent_TypeDefinitionIndex = 39969;
+
 	struct alignas(4) CriAtomEx_CuboidExtent
 	{
 		::System::Single width; // 0x10

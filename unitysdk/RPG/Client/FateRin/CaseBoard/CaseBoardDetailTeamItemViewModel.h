@@ -13,6 +13,8 @@ namespace RPG::Client::FateRin::CaseBoard { class TeamViewModel; }
 
 namespace RPG::Client::FateRin::CaseBoard
 {
+	inline static constexpr unsigned int CaseBoardDetailTeamItemViewModel_TypeDefinitionIndex = 80799;
+
 	class CaseBoardDetailTeamItemViewModel : public ::RPG::Client::FateRin::CaseBoard::CaseBoardDetailItemBaseViewModel
 	{
 	public:

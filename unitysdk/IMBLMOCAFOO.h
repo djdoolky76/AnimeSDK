@@ -8,6 +8,8 @@ namespace System::ComponentModel { class PropertyChangedEventArgs; }
 #define IMBLMOCAFOO_GGPEDBPMGHO_OFFSET UNITYSDK_OFFSET(0x164CEBE0)
 #define IMBLMOCAFOO_LNEPAFGAPJH_OFFSET UNITYSDK_OFFSET(0x164CED10)
 
+inline static constexpr unsigned int IMBLMOCAFOO_TypeDefinitionIndex = 65142;
+
 	class IMBLMOCAFOO : public ::KKPPDDOFADO
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System::Xml { class XmlQualifiedName; }
 
 namespace System::Xml::Schema
 {
+	inline static constexpr unsigned int SchemaNotation_TypeDefinitionIndex = 2176;
+
 	class SchemaNotation : public ::System::Object
 	{
 	public:

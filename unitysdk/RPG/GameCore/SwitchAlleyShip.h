@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SwitchAlleyShip_TypeDefinitionIndex = 24069;
+
 	class SwitchAlleyShip : public ::RPG::GameCore::TaskConfig
 	{
 	public:

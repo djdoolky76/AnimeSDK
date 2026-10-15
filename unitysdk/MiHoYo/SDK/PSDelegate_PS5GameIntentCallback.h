@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int PSDelegate_PS5GameIntentCallback_TypeDefinitionIndex = 7760;
+
 	class PSDelegate_PS5GameIntentCallback : public ::System::MulticastDelegate
 	{
 	public:

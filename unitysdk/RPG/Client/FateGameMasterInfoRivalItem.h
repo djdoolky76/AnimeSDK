@@ -56,6 +56,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FateGameMasterInfoRivalItem_TypeDefinitionIndex = 64094;
+
 	class FateGameMasterInfoRivalItem : public ::System::Object
 	{
 	public:

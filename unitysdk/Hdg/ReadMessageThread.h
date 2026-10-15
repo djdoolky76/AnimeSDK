@@ -19,6 +19,8 @@ namespace System::Threading { class Thread; }
 
 namespace Hdg
 {
+	inline static constexpr unsigned int ReadMessageThread_TypeDefinitionIndex = 46937;
+
 	class ReadMessageThread : public ::System::Object
 	{
 	public:

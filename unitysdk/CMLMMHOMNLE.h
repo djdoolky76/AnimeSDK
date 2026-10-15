@@ -5,6 +5,8 @@
 
 #define CMLMMHOMNLE_CTOR_OFFSET UNITYSDK_OFFSET(0x1DCB0BF0)
 
+inline static constexpr unsigned int CMLMMHOMNLE_TypeDefinitionIndex = 25039;
+
 	class CMLMMHOMNLE : public ::System::Attribute
 	{
 	public:

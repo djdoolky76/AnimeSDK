@@ -6,6 +6,8 @@ namespace System { class Type; }
 #define NAIAAACLMMN_CTOR_OFFSET UNITYSDK_OFFSET(0xBA9BB30)
 #define NAIAAACLMMN_GET_CONFIGTYPE_OFFSET UNITYSDK_OFFSET(0xBA9BB40)
 
+inline static constexpr unsigned int NAIAAACLMMN_TypeDefinitionIndex = 82140;
+
 	class NAIAAACLMMN : public ::System::Attribute
 	{
 	public:

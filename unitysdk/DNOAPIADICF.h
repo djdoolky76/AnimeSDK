@@ -11,6 +11,8 @@ namespace System { class String; }
 #define DNOAPIADICF_OKJPJMNNMGF_OFFSET UNITYSDK_OFFSET(0x11FDC4C0)
 #define DNOAPIADICF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x11FDBEF0)
 
+inline static constexpr unsigned int DNOAPIADICF_TypeDefinitionIndex = 55211;
+
 	class DNOAPIADICF
 	{
 	public:

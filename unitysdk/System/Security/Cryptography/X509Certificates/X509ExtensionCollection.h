@@ -6,6 +6,8 @@
 
 namespace System::Security::Cryptography::X509Certificates
 {
+	inline static constexpr unsigned int X509ExtensionCollection_TypeDefinitionIndex = 2708;
+
 	class X509ExtensionCollection : public ::System::Object
 	{
 	public:

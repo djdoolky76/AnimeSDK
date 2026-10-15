@@ -3,6 +3,8 @@
 
 namespace System::Xml
 {
+	inline static constexpr unsigned int WhitespaceHandling_TypeDefinitionIndex = 1831;
+
 	enum class WhitespaceHandling : ::System::Int32
 	{
 		All = 0,

@@ -6,6 +6,8 @@ class INHBMHCJJCN;
 
 #define LJJAFMMPKAH_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xB719690)
 
+inline static constexpr unsigned int LJJAFMMPKAH_TypeDefinitionIndex = 67069;
+
 	class LJJAFMMPKAH : public ::System::Object
 	{
 	public:

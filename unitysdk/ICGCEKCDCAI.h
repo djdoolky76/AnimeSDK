@@ -7,6 +7,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 #define ICGCEKCDCAI_GEHGFKCEKII_OFFSET UNITYSDK_OFFSET(0x15E4DA50)
 
+inline static constexpr unsigned int ICGCEKCDCAI_TypeDefinitionIndex = 57267;
+
 	class ICGCEKCDCAI : public ::System::Object
 	{
 	public:

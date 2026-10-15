@@ -9,6 +9,8 @@
 #define IPDLDHCNBOG_CTOR_OFFSET UNITYSDK_OFFSET(0x1651EEF0)
 #define IPDLDHCNBOG_ICNEKGBHIHP_OFFSET UNITYSDK_OFFSET(0x1651E7B0)
 
+inline static constexpr unsigned int IPDLDHCNBOG_TypeDefinitionIndex = 77031;
+
 	class IPDLDHCNBOG : public ::EGFGCOMABKB
 	{
 	public:

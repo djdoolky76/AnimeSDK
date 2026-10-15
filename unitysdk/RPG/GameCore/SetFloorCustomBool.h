@@ -13,6 +13,8 @@ namespace RPG::GameCore { class SetFloorCustomValueExtraInfo; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetFloorCustomBool_TypeDefinitionIndex = 20691;
+
 	class SetFloorCustomBool : public ::RPG::GameCore::TaskConfig
 	{
 	public:

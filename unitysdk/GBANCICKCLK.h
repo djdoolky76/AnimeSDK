@@ -43,6 +43,8 @@ namespace UnityEngine::UI { class Text; }
 #define GBANCICKCLK__ONBIND_OFFSET UNITYSDK_OFFSET(0x15945AE0)
 #define GBANCICKCLK__ONDISPOSE_OFFSET UNITYSDK_OFFSET(0x15946150)
 
+inline static constexpr unsigned int GBANCICKCLK_TypeDefinitionIndex = 71291;
+
 	class GBANCICKCLK : public ::CAOEEDDAPIK
 	{
 	public:

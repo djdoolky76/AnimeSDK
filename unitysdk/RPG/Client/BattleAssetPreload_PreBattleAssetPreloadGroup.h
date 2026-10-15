@@ -24,6 +24,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BattleAssetPreload_PreBattleAssetPreloadGroup_TypeDefinitionIndex = 59654;
+
 	class BattleAssetPreload_PreBattleAssetPreloadGroup : public ::RPG::Client::BattleAssetPreload_AssetPreloadGroup
 	{
 	public:

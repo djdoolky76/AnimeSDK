@@ -5,6 +5,8 @@
 
 #define GLMDFAPBLJL_CTOR_OFFSET UNITYSDK_OFFSET(0x1CAB1C60)
 
+inline static constexpr unsigned int GLMDFAPBLJL_TypeDefinitionIndex = 42269;
+
 	class GLMDFAPBLJL : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ class FPHPFJLAJDK;
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightTeam_AutoProjectionAddSummarizer_TypeDefinitionIndex = 65156;
+
 	class GridFightTeam_AutoProjectionAddSummarizer : public ::AMCOEFHHBPO
 	{
 	public:

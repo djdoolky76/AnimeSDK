@@ -9,6 +9,8 @@ namespace RPG::GameCore { class ActivityAvatarDemoRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ActivityAvatarDemoRow_TypeDefinitionIndex = 11227;
+
 	class ActivityAvatarDemoRow : public ::System::Object
 	{
 	public:

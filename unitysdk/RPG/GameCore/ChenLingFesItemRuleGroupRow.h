@@ -9,6 +9,8 @@ namespace RPG::GameCore { class ChenLingFesItemRuleGroupRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChenLingFesItemRuleGroupRow_TypeDefinitionIndex = 11104;
+
 	class ChenLingFesItemRuleGroupRow : public ::System::Object
 	{
 	public:

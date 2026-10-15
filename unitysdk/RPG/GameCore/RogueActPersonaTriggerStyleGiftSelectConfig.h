@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueActPersonaTriggerStyleGiftSelectConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueActPersonaTriggerStyleGiftSelectConfig_TypeDefinitionIndex = 19716;
+
 	class RogueActPersonaTriggerStyleGiftSelectConfig : public ::RPG::GameCore::RogueActionConfigBase
 	{
 	public:

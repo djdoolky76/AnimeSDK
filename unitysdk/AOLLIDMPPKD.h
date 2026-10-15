@@ -9,6 +9,8 @@ namespace System { class Type; }
 #define AOLLIDMPPKD_OKPMJOCEKBC_OFFSET UNITYSDK_OFFSET(0x158C0F40)
 #define AOLLIDMPPKD_UNITYENGINE_EVENTSYSTEMS_IEXECUTEEVENTBLOCKER_ISEVENTBLOCK_OFFSET UNITYSDK_OFFSET(0x158C1110)
 
+inline static constexpr unsigned int AOLLIDMPPKD_TypeDefinitionIndex = 68241;
+
 	class AOLLIDMPPKD : public ::System::Object
 	{
 	public:

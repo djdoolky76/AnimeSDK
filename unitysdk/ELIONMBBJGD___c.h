@@ -11,6 +11,8 @@ namespace System::Collections::Generic { class KeyValuePair; }
 #define ELIONMBBJGD___C__GETFIGHTSORDERED_B__4_0_OFFSET UNITYSDK_OFFSET(0x15524E20)
 #define ELIONMBBJGD___C__GETFIGHTSORDERED_B__4_1_OFFSET UNITYSDK_OFFSET(0x15524E30)
 
+inline static constexpr unsigned int ELIONMBBJGD___c_TypeDefinitionIndex = 81023;
+
 	class ELIONMBBJGD___c : public ::System::Object
 	{
 	public:

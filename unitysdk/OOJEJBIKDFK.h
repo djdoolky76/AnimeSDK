@@ -23,6 +23,8 @@ namespace UnityEngine { class Transform; }
 #define OOJEJBIKDFK_PACFDCDKFGG_OFFSET UNITYSDK_OFFSET(0xBF8A8A0)
 #define OOJEJBIKDFK_PGNHCAPLLGC_OFFSET UNITYSDK_OFFSET(0xBF89E20)
 
+inline static constexpr unsigned int OOJEJBIKDFK_TypeDefinitionIndex = 54189;
+
 	class OOJEJBIKDFK
 	{
 	public:

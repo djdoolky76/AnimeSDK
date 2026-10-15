@@ -20,6 +20,8 @@ namespace System { class String; }
 #define MHHDLGIJDMO_SET_ISENABLE_OFFSET UNITYSDK_OFFSET(0xB9379B0)
 #define MHHDLGIJDMO__LOADINDEXINFO_OFFSET UNITYSDK_OFFSET(0xB937B40)
 
+inline static constexpr unsigned int MHHDLGIJDMO_TypeDefinitionIndex = 59467;
+
 	class MHHDLGIJDMO
 	{
 	public:

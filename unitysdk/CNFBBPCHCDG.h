@@ -10,6 +10,8 @@ namespace RPG::Client::Promises { class IPromise; }
 #define CNFBBPCHCDG_GPEOAJJHAAG_OFFSET UNITYSDK_OFFSET(0xDA4BE00)
 #define CNFBBPCHCDG_KOKOODEIEEO_OFFSET UNITYSDK_OFFSET(0xDA4BC10)
 
+inline static constexpr unsigned int CNFBBPCHCDG_TypeDefinitionIndex = 62753;
+
 	class CNFBBPCHCDG : public ::BHPMNMMGLHI
 	{
 	public:

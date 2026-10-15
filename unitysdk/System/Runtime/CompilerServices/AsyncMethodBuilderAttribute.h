@@ -7,6 +7,8 @@ namespace System { class Type; }
 
 namespace System::Runtime::CompilerServices
 {
+	inline static constexpr unsigned int AsyncMethodBuilderAttribute_TypeDefinitionIndex = 6680;
+
 	class AsyncMethodBuilderAttribute : public ::System::Attribute
 	{
 	public:

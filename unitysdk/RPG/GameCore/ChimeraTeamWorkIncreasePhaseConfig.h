@@ -9,6 +9,8 @@ namespace RPG::GameCore { class ChimeraTeamWorkIncreasePhaseConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChimeraTeamWorkIncreasePhaseConfig_TypeDefinitionIndex = 15891;
+
 	class ChimeraTeamWorkIncreasePhaseConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

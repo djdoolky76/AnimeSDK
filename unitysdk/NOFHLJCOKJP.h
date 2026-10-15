@@ -4,6 +4,8 @@
 
 #define NOFHLJCOKJP_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9761D0)
 
+inline static constexpr unsigned int NOFHLJCOKJP_TypeDefinitionIndex = 42446;
+
 	class NOFHLJCOKJP : public ::System::Object
 	{
 	public:

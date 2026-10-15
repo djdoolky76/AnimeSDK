@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define OEEKHELGHKF_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0x3C4D6D0)
 #define OEEKHELGHKF_MBABPIHGAJN_OFFSET UNITYSDK_OFFSET(0x3C4D6C0)
 
+inline static constexpr unsigned int OEEKHELGHKF_TypeDefinitionIndex = 6444;
+
 	struct alignas(8) OEEKHELGHKF
 	{
 		::System::Collections::Generic::List_1<::KJFIKOKBCCA>* HBNLPLIIDDG; // 0x10

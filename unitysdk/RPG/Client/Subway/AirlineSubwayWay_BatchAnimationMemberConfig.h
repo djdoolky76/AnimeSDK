@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace RPG::Client::Subway
 {
+	inline static constexpr unsigned int AirlineSubwayWay_BatchAnimationMemberConfig_TypeDefinitionIndex = 82196;
+
 	class AirlineSubwayWay_BatchAnimationMemberConfig : public ::RPG::Client::Subway::AirlineSubwayWay_MemberConfig
 	{
 	public:

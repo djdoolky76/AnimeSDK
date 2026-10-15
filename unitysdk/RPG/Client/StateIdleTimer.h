@@ -18,6 +18,8 @@ namespace UnityEngine { class Animator; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int StateIdleTimer_TypeDefinitionIndex = 68827;
+
 	class StateIdleTimer : public ::RPG::Client::StateCommonIdleTimer
 	{
 	public:

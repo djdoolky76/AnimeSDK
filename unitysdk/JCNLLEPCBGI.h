@@ -19,6 +19,8 @@ namespace UnityEngine { class MonoBehaviour; }
 #define JCNLLEPCBGI_NMIPDBNGLBH_OFFSET UNITYSDK_OFFSET(0x165A8960)
 #define JCNLLEPCBGI_POPNLPIAOCM_OFFSET UNITYSDK_OFFSET(0x165A8B90)
 
+inline static constexpr unsigned int JCNLLEPCBGI_TypeDefinitionIndex = 70053;
+
 	class JCNLLEPCBGI : public ::RPG::Client::BehaviorBase
 	{
 	public:

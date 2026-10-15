@@ -41,6 +41,8 @@ namespace UnityEngine { class Object; }
 #define GCDKKPDHNEI_OEGIFHCJILO_OFFSET UNITYSDK_OFFSET(0x15967660)
 #define GCDKKPDHNEI_PEDEGFEAIFF_OFFSET UNITYSDK_OFFSET(0x15966EE0)
 
+inline static constexpr unsigned int GCDKKPDHNEI_TypeDefinitionIndex = 60493;
+
 	class GCDKKPDHNEI : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FiveDimClientFinishMissionAction; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimClientFinishMissionAction_TypeDefinitionIndex = 18779;
+
 	class FiveDimClientFinishMissionAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
 	public:

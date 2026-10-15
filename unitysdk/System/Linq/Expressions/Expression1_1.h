@@ -4,6 +4,8 @@ namespace System { class Object; }
 
 namespace System::Linq::Expressions
 {
+	inline static constexpr unsigned int Expression1_1_TypeDefinitionIndex = 3234;
+
 	template <typename T>
 	class Expression1_1
 	{

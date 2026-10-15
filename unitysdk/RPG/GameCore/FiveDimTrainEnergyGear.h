@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FiveDimTrainEnergyGear; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimTrainEnergyGear_TypeDefinitionIndex = 21471;
+
 	class FiveDimTrainEnergyGear : public ::RPG::GameCore::JsonConfig
 	{
 	public:

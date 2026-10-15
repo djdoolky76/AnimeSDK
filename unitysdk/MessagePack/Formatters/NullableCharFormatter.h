@@ -14,6 +14,8 @@ namespace System { class Nullable; }
 
 namespace MessagePack::Formatters
 {
+	inline static constexpr unsigned int NullableCharFormatter_TypeDefinitionIndex = 7477;
+
 	class NullableCharFormatter : public ::System::Object
 	{
 	public:

@@ -26,6 +26,8 @@ namespace UnityEngine { class Texture; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int ComputeShaderAsset_TypeDefinitionIndex = 4111;
+
 	class ComputeShaderAsset : public ::UnityEngine::Object
 	{
 	public:

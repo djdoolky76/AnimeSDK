@@ -8,6 +8,8 @@ namespace RPG::GameCore { class MiniGameCollectCoinConfig; }
 #define JJOGEHGKPNO_CLEAR_OFFSET UNITYSDK_OFFSET(0x1CBA1390)
 #define JJOGEHGKPNO_CTOR_OFFSET UNITYSDK_OFFSET(0x1CBA1470)
 
+inline static constexpr unsigned int JJOGEHGKPNO_TypeDefinitionIndex = 43380;
+
 	class JJOGEHGKPNO : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int PerformanceMetricsUtils_TypeDefinitionIndex = 7987;
+
 	class PerformanceMetricsUtils : public ::System::Object
 	{
 	public:

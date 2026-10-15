@@ -11,6 +11,8 @@ namespace System { class String; }
 #define OHFBGHBLPKI_MOKNABIAFDE_OFFSET UNITYSDK_OFFSET(0xBE66860)
 #define OHFBGHBLPKI_PCHGCEGEDGK_OFFSET UNITYSDK_OFFSET(0xBE66AE0)
 
+inline static constexpr unsigned int OHFBGHBLPKI_TypeDefinitionIndex = 76567;
+
 	class OHFBGHBLPKI : public ::System::Object
 	{
 	public:

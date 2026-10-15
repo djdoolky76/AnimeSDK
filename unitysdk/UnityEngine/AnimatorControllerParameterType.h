@@ -3,6 +3,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int AnimatorControllerParameterType_TypeDefinitionIndex = 5696;
+
 	enum class AnimatorControllerParameterType : ::System::Int32
 	{
 		Float = 1,

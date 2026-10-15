@@ -43,6 +43,8 @@ namespace UnityEngine { class Transform; }
 #define JNPJMKLDDJA_SET_RAYTARGETPOINTNAME_OFFSET UNITYSDK_OFFSET(0xB291FC0)
 #define JNPJMKLDDJA_SET_YAWANGLE_OFFSET UNITYSDK_OFFSET(0xB291E60)
 
+inline static constexpr unsigned int JNPJMKLDDJA_TypeDefinitionIndex = 56975;
+
 	class JNPJMKLDDJA : public ::System::Object
 	{
 	public:

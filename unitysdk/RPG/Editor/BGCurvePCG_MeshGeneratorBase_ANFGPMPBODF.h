@@ -8,6 +8,8 @@ namespace System { class Object; }
 
 namespace RPG::Editor
 {
+	inline static constexpr unsigned int BGCurvePCG_MeshGeneratorBase_ANFGPMPBODF_TypeDefinitionIndex = 52029;
+
 	class BGCurvePCG_MeshGeneratorBase_ANFGPMPBODF : public ::HAGAFPDHLCK_BFEEDDEBNLH
 	{
 	public:

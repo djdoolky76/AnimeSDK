@@ -9,6 +9,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TrainPartyGameTestMono_TypeDefinitionIndex = 60249;
+
 	class TrainPartyGameTestMono : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -6,6 +6,8 @@ class ICMJACOKIPI;
 #define GFNAHGHNICL___C__DISPLAYCLASS12_0_CTOR_OFFSET UNITYSDK_OFFSET(0x159FDBD0)
 #define GFNAHGHNICL___C__DISPLAYCLASS12_0__SYNC_B__0_OFFSET UNITYSDK_OFFSET(0x159FE900)
 
+inline static constexpr unsigned int GFNAHGHNICL___c__DisplayClass12_0_TypeDefinitionIndex = 81481;
+
 	class GFNAHGHNICL___c__DisplayClass12_0 : public ::System::Object
 	{
 	public:

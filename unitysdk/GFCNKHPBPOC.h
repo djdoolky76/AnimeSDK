@@ -25,6 +25,8 @@ namespace System { class String; }
 #define GFCNKHPBPOC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E461BC0)
 #define GFCNKHPBPOC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E461C20)
 
+inline static constexpr unsigned int GFCNKHPBPOC_TypeDefinitionIndex = 28951;
+
 	class GFCNKHPBPOC : public ::System::Object
 	{
 	public:

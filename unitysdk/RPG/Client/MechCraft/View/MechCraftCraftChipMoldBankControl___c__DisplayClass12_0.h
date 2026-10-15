@@ -8,6 +8,8 @@ class FCLEMGPEMJJ;
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftCraftChipMoldBankControl___c__DisplayClass12_0_TypeDefinitionIndex = 79854;
+
 	class MechCraftCraftChipMoldBankControl___c__DisplayClass12_0 : public ::System::Object
 	{
 	public:

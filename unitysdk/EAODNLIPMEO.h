@@ -31,6 +31,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define EAODNLIPMEO_SET_SPECIALTARGETREWARDID_OFFSET UNITYSDK_OFFSET(0x12CE42A0)
 #define EAODNLIPMEO_SET_STAGES_OFFSET UNITYSDK_OFFSET(0x12CE4220)
 
+inline static constexpr unsigned int EAODNLIPMEO_TypeDefinitionIndex = 81442;
+
 	class EAODNLIPMEO : public ::System::Object
 	{
 	public:

@@ -17,6 +17,8 @@ namespace UnityEngine::EventSystems { class PointerEventData; }
 
 namespace UnityEngine::EventSystems
 {
+	inline static constexpr unsigned int VirtualCursorInputModule_TypeDefinitionIndex = 47728;
+
 	class VirtualCursorInputModule : public ::UnityEngine::EventSystems::PointerInputModule
 	{
 	public:

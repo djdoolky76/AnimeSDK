@@ -5,6 +5,8 @@
 
 #define IEGKNHMIGMB_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB085E0)
 
+inline static constexpr unsigned int IEGKNHMIGMB_TypeDefinitionIndex = 42536;
+
 	class IEGKNHMIGMB : public ::System::Object
 	{
 	public:

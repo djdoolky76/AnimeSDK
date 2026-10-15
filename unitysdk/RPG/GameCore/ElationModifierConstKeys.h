@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ElationModifierConstKeys; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ElationModifierConstKeys_TypeDefinitionIndex = 17103;
+
 	class ElationModifierConstKeys : public ::RPG::GameCore::JsonConfig
 	{
 	public:

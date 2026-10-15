@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int AccountPlatNative___c__DisplayClass33_0_TypeDefinitionIndex = 46094;
+
 	class AccountPlatNative___c__DisplayClass33_0 : public ::System::Object
 	{
 	public:

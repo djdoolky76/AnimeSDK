@@ -16,6 +16,8 @@ namespace System { class String; }
 #define IDNEFFCGFFL_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CEE6AC0)
 #define IDNEFFCGFFL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CEE6A60)
 
+inline static constexpr unsigned int IDNEFFCGFFL_TypeDefinitionIndex = 22680;
+
 	class IDNEFFCGFFL : public ::RPG::GameCore::SetDynamicValueBase
 	{
 	public:

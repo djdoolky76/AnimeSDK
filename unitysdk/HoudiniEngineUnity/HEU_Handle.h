@@ -43,6 +43,8 @@ namespace System { class String; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_Handle_TypeDefinitionIndex = 40526;
+
 	class HEU_Handle : public ::UnityEngine::ScriptableObject
 	{
 	public:

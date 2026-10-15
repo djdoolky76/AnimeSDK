@@ -13,6 +13,8 @@
 
 namespace System
 {
+	inline static constexpr unsigned int DecimalDecCalc_TypeDefinitionIndex = 4971;
+
 	class DecimalDecCalc : public ::System::Object
 	{
 	public:

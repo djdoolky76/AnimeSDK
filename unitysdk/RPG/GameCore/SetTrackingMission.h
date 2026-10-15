@@ -10,6 +10,8 @@ namespace RPG::GameCore { class SetTrackingMission; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetTrackingMission_TypeDefinitionIndex = 20762;
+
 	class SetTrackingMission : public ::RPG::GameCore::TaskConfig
 	{
 	public:

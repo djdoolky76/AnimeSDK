@@ -8,6 +8,8 @@ namespace UnityEngine { class Animator; }
 #define BLPHAKIGKLK_JJBGNJFCHPL_OFFSET UNITYSDK_OFFSET(0xBA837F0)
 #define BLPHAKIGKLK__ONBIND_OFFSET UNITYSDK_OFFSET(0xBA83790)
 
+inline static constexpr unsigned int BLPHAKIGKLK_TypeDefinitionIndex = 71604;
+
 	class BLPHAKIGKLK : public ::FMPCODLIOLG
 	{
 	public:

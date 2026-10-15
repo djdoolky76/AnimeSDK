@@ -14,6 +14,8 @@ namespace UnityEngine { class Collider; }
 #define FGNAIIKGGNK_MEHBHHHNENB_OFFSET UNITYSDK_OFFSET(0x1576B7B0)
 #define FGNAIIKGGNK_OGBIIDGLGNG_OFFSET UNITYSDK_OFFSET(0x1576B8E0)
 
+inline static constexpr unsigned int FGNAIIKGGNK_TypeDefinitionIndex = 54758;
+
 	class FGNAIIKGGNK : public ::System::Object
 	{
 	public:

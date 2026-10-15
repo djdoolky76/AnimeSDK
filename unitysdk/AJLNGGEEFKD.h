@@ -31,6 +31,8 @@ namespace System { class String; }
 #define AJLNGGEEFKD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E3C3F70)
 #define AJLNGGEEFKD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E3C3FD0)
 
+inline static constexpr unsigned int AJLNGGEEFKD_TypeDefinitionIndex = 25394;
+
 	class AJLNGGEEFKD : public ::System::Object
 	{
 	public:

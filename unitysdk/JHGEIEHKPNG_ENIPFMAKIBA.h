@@ -7,6 +7,8 @@ namespace System { class Action; }
 namespace System { class Nullable; }
 namespace UnityEngine::Events { class UnityAction; }
 
+inline static constexpr unsigned int JHGEIEHKPNG_ENIPFMAKIBA_TypeDefinitionIndex = 49876;
+
 	class JHGEIEHKPNG_ENIPFMAKIBA : public ::System::Object
 	{
 	public:

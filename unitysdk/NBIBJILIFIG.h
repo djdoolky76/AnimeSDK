@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define NBIBJILIFIG_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1C785920)
 #define NBIBJILIFIG_IKAHNBNDHDL_OFFSET UNITYSDK_OFFSET(0x1C785B30)
 
+inline static constexpr unsigned int NBIBJILIFIG_TypeDefinitionIndex = 36954;
+
 	class NBIBJILIFIG : public ::System::Object
 	{
 	public:

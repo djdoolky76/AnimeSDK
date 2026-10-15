@@ -9,6 +9,8 @@ namespace UnityEngine::UI { class Text; }
 #define KNGDBHDPINK_NKPPGDENJAE_OFFSET UNITYSDK_OFFSET(0xB5837A0)
 #define KNGDBHDPINK__ONBIND_OFFSET UNITYSDK_OFFSET(0xB5835D0)
 
+inline static constexpr unsigned int KNGDBHDPINK_TypeDefinitionIndex = 71374;
+
 	class KNGDBHDPINK : public ::FMPCODLIOLG
 	{
 	public:

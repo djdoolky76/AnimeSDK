@@ -19,6 +19,8 @@ namespace UnityEngine { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RPGProfilerMarker_TypeDefinitionIndex = 35160;
+
 	class RPGProfilerMarker : public ::System::Object
 	{
 	public:

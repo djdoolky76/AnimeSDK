@@ -6,6 +6,8 @@
 
 namespace MiHoYo::SDK::PC::OS
 {
+	inline static constexpr unsigned int SteamInitExtension_TypeDefinitionIndex = 8701;
+
 	class SteamInitExtension : public ::System::Object
 	{
 	public:

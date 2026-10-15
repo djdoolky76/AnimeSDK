@@ -14,6 +14,8 @@ namespace MessagePack::Formatters { class DateTimeArrayFormatter; }
 
 namespace MessagePack::Formatters
 {
+	inline static constexpr unsigned int DateTimeArrayFormatter_TypeDefinitionIndex = 7481;
+
 	class DateTimeArrayFormatter : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define INOKOAAAHEA_CTOR_OFFSET UNITYSDK_OFFSET(0x164F87B0)
 #define INOKOAAAHEA_EVALUATE_OFFSET UNITYSDK_OFFSET(0x164F87E0)
 
+inline static constexpr unsigned int INOKOAAAHEA_TypeDefinitionIndex = 55018;
+
 	class INOKOAAAHEA
 	{
 	public:

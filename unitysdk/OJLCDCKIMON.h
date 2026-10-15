@@ -30,6 +30,8 @@ namespace System { class String; }
 #define OJLCDCKIMON_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE896C0)
 #define OJLCDCKIMON_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DE89720)
 
+inline static constexpr unsigned int OJLCDCKIMON_TypeDefinitionIndex = 31189;
+
 	class OJLCDCKIMON : public ::System::Object
 	{
 	public:

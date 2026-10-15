@@ -9,6 +9,8 @@ namespace RPG::GameCore { class AchievementSeriesRow; }
 #define HLGEOHLPFPI_LFELHEMKLHL_OFFSET UNITYSDK_OFFSET(0x15D5F500)
 #define HLGEOHLPFPI_MMFEEJAHPLJ_OFFSET UNITYSDK_OFFSET(0x15D5F4C0)
 
+inline static constexpr unsigned int HLGEOHLPFPI_TypeDefinitionIndex = 61364;
+
 	class HLGEOHLPFPI : public ::System::Object
 	{
 	public:

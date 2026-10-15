@@ -16,6 +16,8 @@ namespace System { class Nullable; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
+	inline static constexpr unsigned int TimerFrame__TimerFrame_TypeDefinitionIndex = 45725;
+
 	class TimerFrame__TimerFrame : public ::Cysharp::Threading::Tasks::MoveNextSource
 	{
 	public:

@@ -7,6 +7,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 #define NECPDLAEDMF_CTOR_OFFSET UNITYSDK_OFFSET(0xBB58B80)
 
+inline static constexpr unsigned int NECPDLAEDMF_TypeDefinitionIndex = 82002;
+
 	class NECPDLAEDMF : public ::System::Object
 	{
 	public:

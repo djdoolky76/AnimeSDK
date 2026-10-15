@@ -78,6 +78,8 @@ namespace System { class String; }
 
 namespace Proto
 {
+	inline static constexpr unsigned int PerformanceStartSnapshot_TypeDefinitionIndex = 25856;
+
 	class PerformanceStartSnapshot : public ::System::Object
 	{
 	public:

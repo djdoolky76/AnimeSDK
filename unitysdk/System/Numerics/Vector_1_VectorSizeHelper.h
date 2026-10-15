@@ -4,6 +4,8 @@ namespace System::Numerics { class Vector; }
 
 namespace System::Numerics
 {
+	inline static constexpr unsigned int Vector_1_VectorSizeHelper_TypeDefinitionIndex = 3862;
+
 	template <typename T>
 	struct alignas(8) Vector_1_VectorSizeHelper
 	{

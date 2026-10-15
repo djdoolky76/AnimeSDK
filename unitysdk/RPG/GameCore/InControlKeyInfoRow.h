@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int InControlKeyInfoRow_TypeDefinitionIndex = 13817;
+
 	class InControlKeyInfoRow : public ::System::Object
 	{
 	public:

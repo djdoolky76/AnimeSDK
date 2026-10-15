@@ -11,6 +11,8 @@ namespace System { class String; }
 #define OPKDINKKIAI_HKBALMOBMOM_OFFSET UNITYSDK_OFFSET(0xBFAF910)
 #define OPKDINKKIAI_MACIKNKIBLH_OFFSET UNITYSDK_OFFSET(0xBFAF970)
 
+inline static constexpr unsigned int OPKDINKKIAI_TypeDefinitionIndex = 73984;
+
 	class OPKDINKKIAI : public ::System::Object
 	{
 	public:

@@ -5,6 +5,8 @@ namespace System { class Object; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByIsDamageType___O_TypeDefinitionIndex = 23518;
+
 	class ByIsDamageType___O : public ::System::Object
 	{
 	public:

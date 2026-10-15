@@ -23,6 +23,8 @@ namespace System { class Nullable; }
 #define IJLMAKFOEBK_ONACQUIRE_OFFSET UNITYSDK_OFFSET(0x1646C4A0)
 #define IJLMAKFOEBK_ONRETURN_OFFSET UNITYSDK_OFFSET(0x1646C610)
 
+inline static constexpr unsigned int IJLMAKFOEBK_TypeDefinitionIndex = 72255;
+
 	class IJLMAKFOEBK : public ::FMPCODLIOLG
 	{
 	public:

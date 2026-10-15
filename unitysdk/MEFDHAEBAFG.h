@@ -29,6 +29,8 @@ namespace System { class String; }
 #define MEFDHAEBAFG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA0B340)
 #define MEFDHAEBAFG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA0B3A0)
 
+inline static constexpr unsigned int MEFDHAEBAFG_TypeDefinitionIndex = 30390;
+
 	class MEFDHAEBAFG : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@
 
 namespace RPGTools::Timeline::EnvironmentSyetem
 {
+	inline static constexpr unsigned int EnvSysAdjustLevelParam_TypeDefinitionIndex = 48633;
+
 	struct alignas(4) EnvSysAdjustLevelParam
 	{
 		::System::Boolean AdjustLevelOn; // 0x10

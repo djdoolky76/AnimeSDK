@@ -7,6 +7,8 @@ namespace RPG::GameCore { class DiceCombatTaskConfig_Heal; }
 #define GAGMDLFLBBM_CTOR_OFFSET UNITYSDK_OFFSET(0x1C627F90)
 #define GAGMDLFLBBM_MLKLPMJEHPF_OFFSET UNITYSDK_OFFSET(0x1C627FA0)
 
+inline static constexpr unsigned int GAGMDLFLBBM_TypeDefinitionIndex = 36314;
+
 	class GAGMDLFLBBM : public ::AJBKGPOEBFG
 	{
 	public:

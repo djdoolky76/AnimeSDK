@@ -35,6 +35,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BattleTipUtils_TypeDefinitionIndex = 62898;
+
 	class BattleTipUtils : public ::System::Object
 	{
 	public:

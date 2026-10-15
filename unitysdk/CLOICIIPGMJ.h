@@ -12,6 +12,8 @@ namespace UnityEngine { class Object; }
 #define CLOICIIPGMJ_EGKNKHEANAN_1_OFFSET UNITYSDK_OFFSET(0xDA21610)
 #define CLOICIIPGMJ_IGDIEBODAAH_1_OFFSET UNITYSDK_OFFSET(0xDA21510)
 
+inline static constexpr unsigned int CLOICIIPGMJ_TypeDefinitionIndex = 49780;
+
 	class CLOICIIPGMJ : public ::System::Object
 	{
 	public:

@@ -15,6 +15,8 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SlotMachineController_TypeDefinitionIndex = 70760;
+
 	class SlotMachineController : public ::UnityEngine::MonoBehaviour
 	{
 	public:

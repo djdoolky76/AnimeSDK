@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define DBPCNNKIHDL_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1DCD11E0)
 #define DBPCNNKIHDL_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1DCD0B40)
 
+inline static constexpr unsigned int DBPCNNKIHDL_TypeDefinitionIndex = 12866;
+
 	class DBPCNNKIHDL : public ::System::Object
 	{
 	public:

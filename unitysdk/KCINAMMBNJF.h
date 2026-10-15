@@ -3,6 +3,8 @@
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
+inline static constexpr unsigned int KCINAMMBNJF_TypeDefinitionIndex = 47690;
+
 	struct alignas(4) KCINAMMBNJF
 	{
 		::System::Int32 NOIEMNLMACN; // 0x10

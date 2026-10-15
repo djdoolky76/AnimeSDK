@@ -4,6 +4,8 @@
 
 #define DLKBCENGNCN_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA2EAD0)
 
+inline static constexpr unsigned int DLKBCENGNCN_TypeDefinitionIndex = 42152;
+
 	class DLKBCENGNCN : public ::System::Object
 	{
 	public:

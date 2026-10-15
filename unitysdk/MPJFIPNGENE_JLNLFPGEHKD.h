@@ -24,6 +24,8 @@ namespace System::Threading { class Thread; }
 #define MPJFIPNGENE_JLNLFPGEHKD_OHHGJLHFGBF_OFFSET UNITYSDK_OFFSET(0x1EC51130)
 #define MPJFIPNGENE_JLNLFPGEHKD_PIJOFBIDOAJ_OFFSET UNITYSDK_OFFSET(0x1EC4F440)
 
+inline static constexpr unsigned int MPJFIPNGENE_JLNLFPGEHKD_TypeDefinitionIndex = 44027;
+
 	class MPJFIPNGENE_JLNLFPGEHKD : public ::System::Object
 	{
 	public:

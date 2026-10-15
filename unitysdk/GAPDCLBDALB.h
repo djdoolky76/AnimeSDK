@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define GAPDCLBDALB_FBKIDNEJFAG_OFFSET UNITYSDK_OFFSET(0x159441E0)
 #define GAPDCLBDALB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15943ED0)
 
+inline static constexpr unsigned int GAPDCLBDALB_TypeDefinitionIndex = 55718;
+
 	class GAPDCLBDALB
 	{
 	public:

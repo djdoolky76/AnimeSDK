@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ClockParkCheckPointRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ClockParkCheckPointRow_TypeDefinitionIndex = 11167;
+
 	class ClockParkCheckPointRow : public ::System::Object
 	{
 	public:

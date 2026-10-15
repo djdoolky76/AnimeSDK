@@ -43,6 +43,8 @@ namespace RPG::GameCore { class ComplexSkillAISource; }
 #define DGBMBBAKHGE_PLMPBNAEIGN_OFFSET UNITYSDK_OFFSET(0x1CD1CAA0)
 #define DGBMBBAKHGE_POMEKLECEMK_OFFSET UNITYSDK_OFFSET(0x1CD1CCD0)
 
+inline static constexpr unsigned int DGBMBBAKHGE_TypeDefinitionIndex = 19066;
+
 	class DGBMBBAKHGE : public ::System::Object
 	{
 	public:

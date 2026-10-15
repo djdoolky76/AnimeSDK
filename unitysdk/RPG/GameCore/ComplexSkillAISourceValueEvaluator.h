@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ValueEvaluatorConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ComplexSkillAISourceValueEvaluator_TypeDefinitionIndex = 15518;
+
 	class ComplexSkillAISourceValueEvaluator : public ::RPG::GameCore::ComplexSkillAISource
 	{
 	public:

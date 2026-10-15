@@ -11,6 +11,8 @@
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriAtomEx3dRegion_TypeDefinitionIndex = 40016;
+
 	class CriAtomEx3dRegion : public ::CriWare::CriDisposable
 	{
 	public:

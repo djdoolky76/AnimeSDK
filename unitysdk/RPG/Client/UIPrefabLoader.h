@@ -44,6 +44,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UIPrefabLoader_TypeDefinitionIndex = 73095;
+
 	class UIPrefabLoader : public ::System::Object
 	{
 	public:

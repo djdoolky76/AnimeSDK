@@ -25,6 +25,8 @@ namespace System { class String; }
 #define PMEANPGBPIN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DFA9C00)
 #define PMEANPGBPIN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DFA9C60)
 
+inline static constexpr unsigned int PMEANPGBPIN_TypeDefinitionIndex = 34158;
+
 	class PMEANPGBPIN : public ::System::Object
 	{
 	public:

@@ -27,6 +27,8 @@ namespace System { class String; }
 #define MHMFPLEKOIL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA36670)
 #define MHMFPLEKOIL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA366D0)
 
+inline static constexpr unsigned int MHMFPLEKOIL_TypeDefinitionIndex = 32106;
+
 	class MHMFPLEKOIL : public ::System::Object
 	{
 	public:

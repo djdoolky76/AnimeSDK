@@ -9,6 +9,8 @@ namespace System { class Object; }
 #define GAJCCEPJLJE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1593D350)
 #define GAJCCEPJLJE___C___EXECUTESEQUENCE_B__2_0_OFFSET UNITYSDK_OFFSET(0x1593D360)
 
+inline static constexpr unsigned int GAJCCEPJLJE___c_TypeDefinitionIndex = 52879;
+
 	class GAJCCEPJLJE___c : public ::System::Object
 	{
 	public:

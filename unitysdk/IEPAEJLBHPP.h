@@ -4,6 +4,8 @@
 
 #define IEPAEJLBHPP_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB0A3A0)
 
+inline static constexpr unsigned int IEPAEJLBHPP_TypeDefinitionIndex = 43332;
+
 	class IEPAEJLBHPP : public ::System::Object
 	{
 	public:

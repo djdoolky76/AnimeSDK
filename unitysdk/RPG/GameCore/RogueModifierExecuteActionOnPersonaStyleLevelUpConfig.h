@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierExecuteActionOnPersonaStyleLevelUpC
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierExecuteActionOnPersonaStyleLevelUpConfig_TypeDefinitionIndex = 17851;
+
 	class RogueModifierExecuteActionOnPersonaStyleLevelUpConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

@@ -22,6 +22,8 @@ namespace System { class String; }
 
 namespace InControl
 {
+	inline static constexpr unsigned int UnityKeyboardProvider_TypeDefinitionIndex = 40858;
+
 	class UnityKeyboardProvider : public ::System::Object
 	{
 	public:

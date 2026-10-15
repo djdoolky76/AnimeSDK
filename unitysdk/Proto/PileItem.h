@@ -31,6 +31,8 @@ namespace System { class String; }
 
 namespace Proto
 {
+	inline static constexpr unsigned int PileItem_TypeDefinitionIndex = 27786;
+
 	class PileItem : public ::System::Object
 	{
 	public:

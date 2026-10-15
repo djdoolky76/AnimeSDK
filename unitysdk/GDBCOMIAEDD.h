@@ -6,6 +6,8 @@
 #define GDBCOMIAEDD_CTOR_OFFSET UNITYSDK_OFFSET(0x159937C0)
 #define GDBCOMIAEDD_PBFDGGKNDCN_OFFSET UNITYSDK_OFFSET(0x15993770)
 
+inline static constexpr unsigned int GDBCOMIAEDD_TypeDefinitionIndex = 77901;
+
 	class GDBCOMIAEDD : public ::System::Object
 	{
 	public:

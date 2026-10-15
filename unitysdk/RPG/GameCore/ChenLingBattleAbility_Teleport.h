@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ChenLingBattleAbility_Teleport; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChenLingBattleAbility_Teleport_TypeDefinitionIndex = 15733;
+
 	class ChenLingBattleAbility_Teleport : public ::RPG::GameCore::BaseChenLingBattleAbilityNodeConfig
 	{
 	public:

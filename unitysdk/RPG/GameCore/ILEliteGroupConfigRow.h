@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ILEliteGroupConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ILEliteGroupConfigRow_TypeDefinitionIndex = 13801;
+
 	class ILEliteGroupConfigRow : public ::System::Object
 	{
 	public:

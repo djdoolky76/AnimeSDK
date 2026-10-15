@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueDLC1Dot3Teleport_TypeDefinitionIndex = 22285;
+
 	class RogueDLC1Dot3Teleport : public ::RPG::GameCore::TaskConfig
 	{
 	public:

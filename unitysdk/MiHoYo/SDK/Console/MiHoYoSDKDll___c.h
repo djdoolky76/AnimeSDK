@@ -14,6 +14,8 @@ namespace System { template <typename T1, typename T2> class Converter_2; }
 
 namespace MiHoYo::SDK::Console
 {
+	inline static constexpr unsigned int MiHoYoSDKDll___c_TypeDefinitionIndex = 8951;
+
 	class MiHoYoSDKDll___c : public ::System::Object
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System::Runtime::Remoting::Messaging { class Header; }
 
 namespace System::Runtime::Remoting::Messaging
 {
+	inline static constexpr unsigned int HeaderHandler_TypeDefinitionIndex = 1313;
+
 	class HeaderHandler : public ::System::MulticastDelegate
 	{
 	public:

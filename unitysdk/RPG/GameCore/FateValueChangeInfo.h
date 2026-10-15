@@ -9,6 +9,8 @@ namespace RPG::GameCore { class FateValueChangeInfo; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FateValueChangeInfo_TypeDefinitionIndex = 19259;
+
 	class FateValueChangeInfo : public ::RPG::GameCore::JsonConfig
 	{
 	public:

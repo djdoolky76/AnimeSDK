@@ -5,6 +5,8 @@ namespace System { class String; }
 
 #define APLFCCFDGEG_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8ACE70)
 
+inline static constexpr unsigned int APLFCCFDGEG_TypeDefinitionIndex = 41928;
+
 	class APLFCCFDGEG : public ::System::Object
 	{
 	public:

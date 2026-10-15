@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace SRF::UI
 {
+	inline static constexpr unsigned int StyleSheet_TypeDefinitionIndex = 35400;
+
 	class StyleSheet : public ::UnityEngine::ScriptableObject
 	{
 	public:

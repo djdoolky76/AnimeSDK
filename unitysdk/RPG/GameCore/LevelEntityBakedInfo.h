@@ -28,6 +28,8 @@ namespace System { class Object; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelEntityBakedInfo_TypeDefinitionIndex = 10711;
+
 	struct alignas(8) LevelEntityBakedInfo
 	{
 		::LELCKJPOPAO* _Pool; // 0x10

@@ -4,6 +4,8 @@
 
 #define JEOEOLCIPCF_CTOR_OFFSET UNITYSDK_OFFSET(0x16641E20)
 
+inline static constexpr unsigned int JEOEOLCIPCF_TypeDefinitionIndex = 48089;
+
 	class JEOEOLCIPCF : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

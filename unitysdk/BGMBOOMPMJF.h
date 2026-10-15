@@ -9,6 +9,8 @@ namespace RPG { template <typename T> class PoolList_1; }
 #define BGMBOOMPMJF_HBHFKMDECKJ_OFFSET UNITYSDK_OFFSET(0x1C8BA3F0)
 #define BGMBOOMPMJF_NLHLHBELLMB_OFFSET UNITYSDK_OFFSET(0x1C8BA2B0)
 
+inline static constexpr unsigned int BGMBOOMPMJF_TypeDefinitionIndex = 42290;
+
 	class BGMBOOMPMJF : public ::System::Object
 	{
 	public:

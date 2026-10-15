@@ -10,6 +10,8 @@ namespace RPG::GameCore { class LittleGameAbilityTeamTowersMakeBrickStoneEffectC
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LittleGameAbilityTeamTowersMakeBrickStoneEffectConfig_TypeDefinitionIndex = 21408;
+
 	class LittleGameAbilityTeamTowersMakeBrickStoneEffectConfig : public ::RPG::GameCore::BaseLittleGameAbilityEffectConfig
 	{
 	public:

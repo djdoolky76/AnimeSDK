@@ -15,6 +15,8 @@ namespace System { class Object; }
 
 namespace RPG::Client::FullBody
 {
+	inline static constexpr unsigned int Grounding_BELNPMHCADA_TypeDefinitionIndex = 74240;
+
 	class Grounding_BELNPMHCADA : public ::System::MulticastDelegate
 	{
 	public:

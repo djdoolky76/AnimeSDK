@@ -3,6 +3,8 @@
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int WriteMessageThread_State_TypeDefinitionIndex = 37908;
+
 	enum class WriteMessageThread_State : ::System::Int32
 	{
 		Idle = 0,

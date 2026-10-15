@@ -12,6 +12,8 @@ namespace UnityEngine { class Animator; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int StateParamTransition_TypeDefinitionIndex = 68838;
+
 	class StateParamTransition : public ::UnityEngine::StateMachineBehaviour
 	{
 	public:

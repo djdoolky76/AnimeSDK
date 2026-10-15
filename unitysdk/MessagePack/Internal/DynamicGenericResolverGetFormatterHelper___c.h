@@ -19,6 +19,8 @@ namespace System::Reflection { class ConstructorInfo; }
 
 namespace MessagePack::Internal
 {
+	inline static constexpr unsigned int DynamicGenericResolverGetFormatterHelper___c_TypeDefinitionIndex = 7310;
+
 	class DynamicGenericResolverGetFormatterHelper___c : public ::System::Object
 	{
 	public:

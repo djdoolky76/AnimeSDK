@@ -27,6 +27,8 @@ namespace UnityEngine::Rendering { class CommandBuffer; }
 #define ONLKOENMDNA_NBBMINIOAIP_OFFSET UNITYSDK_OFFSET(0xBF5A160)
 #define ONLKOENMDNA_PKADDEPKJFN_OFFSET UNITYSDK_OFFSET(0xBF59CA0)
 
+inline static constexpr unsigned int ONLKOENMDNA_TypeDefinitionIndex = 49350;
+
 	class ONLKOENMDNA : public ::HHJGACLHFDJ
 	{
 	public:

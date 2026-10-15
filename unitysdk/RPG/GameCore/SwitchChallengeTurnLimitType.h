@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SwitchChallengeTurnLimitType_TypeDefinitionIndex = 23451;
+
 	class SwitchChallengeTurnLimitType : public ::RPG::GameCore::TaskConfig
 	{
 	public:

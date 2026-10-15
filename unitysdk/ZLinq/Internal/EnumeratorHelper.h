@@ -7,6 +7,8 @@
 
 namespace ZLinq::Internal
 {
+	inline static constexpr unsigned int EnumeratorHelper_TypeDefinitionIndex = 6148;
+
 	class EnumeratorHelper : public ::System::Object
 	{
 	public:

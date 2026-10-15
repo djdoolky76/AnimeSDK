@@ -15,6 +15,8 @@ class PKBDAKMLDMC;
 #define BJJAJEFMFLA_KMDNEJDOCBC_1_OFFSET UNITYSDK_OFFSET(0xB7A22F0)
 #define BJJAJEFMFLA_KMDNEJDOCBC_OFFSET UNITYSDK_OFFSET(0xB7A22A0)
 
+inline static constexpr unsigned int BJJAJEFMFLA_TypeDefinitionIndex = 76563;
+
 	class BJJAJEFMFLA : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RelicSetSkillConfigRow_TypeDefinitionIndex = 14638;
+
 	class RelicSetSkillConfigRow : public ::System::Object
 	{
 	public:

@@ -44,6 +44,8 @@ namespace XLua { class LuaTable; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RuntimeTutorialNode_TypeDefinitionIndex = 68203;
+
 	class RuntimeTutorialNode : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@ class PEMFMPIPNJN;
 
 #define PAGLJLCBBAK_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9A4A20)
 
+inline static constexpr unsigned int PAGLJLCBBAK_TypeDefinitionIndex = 42486;
+
 	class PAGLJLCBBAK : public ::DJJKNHPLHDI
 	{
 	public:

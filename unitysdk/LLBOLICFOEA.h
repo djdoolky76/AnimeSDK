@@ -30,6 +30,8 @@ namespace System { class String; }
 #define LLBOLICFOEA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E996F10)
 #define LLBOLICFOEA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E996F70)
 
+inline static constexpr unsigned int LLBOLICFOEA_TypeDefinitionIndex = 27391;
+
 	class LLBOLICFOEA : public ::System::Object
 	{
 	public:

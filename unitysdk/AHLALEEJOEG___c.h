@@ -11,6 +11,8 @@ namespace System { class Object; }
 #define AHLALEEJOEG___C___CCTOR_B__23_1_OFFSET UNITYSDK_OFFSET(0x1E274E40)
 #define AHLALEEJOEG___C___CCTOR_B__23_2_OFFSET UNITYSDK_OFFSET(0x1E274E50)
 
+inline static constexpr unsigned int AHLALEEJOEG___c_TypeDefinitionIndex = 33241;
+
 	class AHLALEEJOEG___c : public ::System::Object
 	{
 	public:

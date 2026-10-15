@@ -12,6 +12,8 @@ namespace RPG::GameCore { class GroupEntityInfo; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CreateProp_TypeDefinitionIndex = 21947;
+
 	class CreateProp : public ::RPG::GameCore::TaskConfig
 	{
 	public:

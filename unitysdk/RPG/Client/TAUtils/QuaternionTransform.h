@@ -14,6 +14,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::TAUtils
 {
+	inline static constexpr unsigned int QuaternionTransform_TypeDefinitionIndex = 73643;
+
 	struct alignas(4) QuaternionTransform
 	{
 		::UnityEngine::Vector3 position; // 0x10

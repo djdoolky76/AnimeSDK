@@ -8,6 +8,8 @@ namespace RPG::GameCore { class VCameraNoiseChange; }
 #define PNDIOOHCBLB_CLEAR_OFFSET UNITYSDK_OFFSET(0xC334670)
 #define PNDIOOHCBLB_CTOR_OFFSET UNITYSDK_OFFSET(0xC3346C0)
 
+inline static constexpr unsigned int PNDIOOHCBLB_TypeDefinitionIndex = 69532;
+
 	class PNDIOOHCBLB : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class DiceCombatPredicateConfig_DiceAllEven; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DiceCombatPredicateConfig_DiceAllEven_TypeDefinitionIndex = 16100;
+
 	class DiceCombatPredicateConfig_DiceAllEven : public ::RPG::GameCore::DiceCombatPredicateConfig
 	{
 	public:

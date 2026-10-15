@@ -11,6 +11,8 @@ namespace UnityEngine { class Animation; }
 #define FJJDEHFCIIL_HDPGCOKHMDC_OFFSET UNITYSDK_OFFSET(0x157D2290)
 #define FJJDEHFCIIL__ONBIND_OFFSET UNITYSDK_OFFSET(0x157D20B0)
 
+inline static constexpr unsigned int FJJDEHFCIIL_TypeDefinitionIndex = 71447;
+
 	class FJJDEHFCIIL : public ::FMPCODLIOLG
 	{
 	public:

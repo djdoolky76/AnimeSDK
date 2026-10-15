@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define JAPIAGFBODN_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D011660)
 #define JAPIAGFBODN_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D011B60)
 
+inline static constexpr unsigned int JAPIAGFBODN_TypeDefinitionIndex = 15092;
+
 	class JAPIAGFBODN : public ::System::Object
 	{
 	public:

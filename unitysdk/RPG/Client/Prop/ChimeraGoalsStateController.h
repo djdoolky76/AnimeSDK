@@ -9,6 +9,8 @@
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int ChimeraGoalsStateController_TypeDefinitionIndex = 78497;
+
 	class ChimeraGoalsStateController : public ::RPG::Client::Prop::ChimeraPreparationStateControllerBase
 	{
 	public:

@@ -10,6 +10,8 @@ namespace MiHoYo::SDK::Win { class PayDialog; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int PayDialog___c__DisplayClass49_0_TypeDefinitionIndex = 9557;
+
 	class PayDialog___c__DisplayClass49_0 : public ::System::Object
 	{
 	public:

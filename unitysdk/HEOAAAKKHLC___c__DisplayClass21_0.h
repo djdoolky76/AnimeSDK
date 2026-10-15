@@ -6,6 +6,8 @@ namespace RPG::GameCore::Match3 { class MatchThree1v1AIPriorityRetainMap; }
 #define HEOAAAKKHLC___C__DISPLAYCLASS21_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1CAC6B80)
 #define HEOAAAKKHLC___C__DISPLAYCLASS21_0___GETPRIORITYRETAINCONFIG_B__0_OFFSET UNITYSDK_OFFSET(0x1CAC75A0)
 
+inline static constexpr unsigned int HEOAAAKKHLC___c__DisplayClass21_0_TypeDefinitionIndex = 43036;
+
 	class HEOAAAKKHLC___c__DisplayClass21_0 : public ::System::Object
 	{
 	public:

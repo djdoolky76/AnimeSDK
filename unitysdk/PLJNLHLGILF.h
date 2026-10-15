@@ -6,6 +6,8 @@
 
 #define PLJNLHLGILF_CTOR_OFFSET UNITYSDK_OFFSET(0xC308A50)
 
+inline static constexpr unsigned int PLJNLHLGILF_TypeDefinitionIndex = 73283;
+
 	class PLJNLHLGILF : public ::System::Object
 	{
 	public:

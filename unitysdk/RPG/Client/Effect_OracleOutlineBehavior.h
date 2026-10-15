@@ -22,6 +22,8 @@ namespace UnityEngine { class MaterialPropertyBlock; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Effect_OracleOutlineBehavior_TypeDefinitionIndex = 70513;
+
 	class Effect_OracleOutlineBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:

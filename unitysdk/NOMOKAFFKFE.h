@@ -4,6 +4,8 @@
 
 #define NOMOKAFFKFE_KGAFHLGGNHJ_OFFSET UNITYSDK_OFFSET(0x22400)
 
+inline static constexpr unsigned int NOMOKAFFKFE_TypeDefinitionIndex = 56235;
+
 	struct alignas(4) NOMOKAFFKFE
 	{
 		::RPG::GameCore::FixPoint ANLELHFADEA; // 0x10

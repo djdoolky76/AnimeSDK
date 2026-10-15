@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int StateEnterTriggerAudioBehaviour_StateEnterAudioData_TypeDefinitionIndex = 69031;
+
 	class StateEnterTriggerAudioBehaviour_StateEnterAudioData : public ::System::Object
 	{
 	public:

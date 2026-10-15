@@ -6,6 +6,8 @@ namespace RPG::Client { class MaterialSubmitterGroup; }
 
 #define BGGPKIJHPIF_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xB188BE0)
 
+inline static constexpr unsigned int BGGPKIJHPIF_TypeDefinitionIndex = 61797;
+
 	class BGGPKIJHPIF : public ::System::Object
 	{
 	public:

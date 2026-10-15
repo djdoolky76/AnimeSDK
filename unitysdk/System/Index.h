@@ -19,6 +19,8 @@ namespace System { class String; }
 
 namespace System
 {
+	inline static constexpr unsigned int Index_TypeDefinitionIndex = 5070;
+
 	struct alignas(4) Index
 	{
 		::System::Int32 _value; // 0x10

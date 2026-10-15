@@ -5,6 +5,8 @@
 #define OPMMEDHGJLC_CTOR_OFFSET UNITYSDK_OFFSET(0xBFB3F20)
 #define OPMMEDHGJLC_FHAAHMEJMCI_OFFSET UNITYSDK_OFFSET(0xBFB3DF0)
 
+inline static constexpr unsigned int OPMMEDHGJLC_TypeDefinitionIndex = 66516;
+
 	class OPMMEDHGJLC : public ::FMIHMGNLBPN
 	{
 	public:

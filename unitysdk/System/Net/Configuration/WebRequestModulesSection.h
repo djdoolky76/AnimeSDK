@@ -8,6 +8,8 @@ namespace System::Configuration { class ConfigurationPropertyCollection; }
 
 namespace System::Net::Configuration
 {
+	inline static constexpr unsigned int WebRequestModulesSection_TypeDefinitionIndex = 3088;
+
 	class WebRequestModulesSection : public ::System::Configuration::ConfigurationSection
 	{
 	public:

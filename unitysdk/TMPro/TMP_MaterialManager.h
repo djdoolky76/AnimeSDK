@@ -33,6 +33,8 @@ namespace UnityEngine::UI { class MaskableGraphic; }
 
 namespace TMPro
 {
+	inline static constexpr unsigned int TMP_MaterialManager_TypeDefinitionIndex = 44612;
+
 	class TMP_MaterialManager : public ::System::Object
 	{
 	public:

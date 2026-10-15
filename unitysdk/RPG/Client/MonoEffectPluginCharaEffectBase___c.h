@@ -11,6 +11,8 @@ namespace System { template <typename T> class Comparison_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEffectPluginCharaEffectBase___c_TypeDefinitionIndex = 69944;
+
 	class MonoEffectPluginCharaEffectBase___c : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace System::Security
 {
+	inline static constexpr unsigned int SecurityElement_SecurityAttribute_TypeDefinitionIndex = 951;
+
 	class SecurityElement_SecurityAttribute : public ::System::Object
 	{
 	public:

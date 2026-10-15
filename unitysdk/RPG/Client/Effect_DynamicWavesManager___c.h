@@ -10,6 +10,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Effect_DynamicWavesManager___c_TypeDefinitionIndex = 70452;
+
 	class Effect_DynamicWavesManager___c : public ::System::Object
 	{
 	public:

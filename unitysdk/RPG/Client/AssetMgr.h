@@ -76,6 +76,8 @@ namespace UnityEngine { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AssetMgr_TypeDefinitionIndex = 41380;
+
 	class AssetMgr : public ::System::Object
 	{
 	public:

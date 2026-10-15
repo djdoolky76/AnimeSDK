@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PackageStyleCheck_TypeDefinitionIndex = 61083;
+
 	class PackageStyleCheck : public ::System::Object
 	{
 	public:

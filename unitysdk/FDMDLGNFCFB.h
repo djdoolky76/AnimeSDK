@@ -18,6 +18,8 @@ namespace System { class Object; }
 #define FDMDLGNFCFB_OBJHGLDOLFA_OFFSET UNITYSDK_OFFSET(0x156DE9F0)
 #define FDMDLGNFCFB_PBBEINJGAOE_OFFSET UNITYSDK_OFFSET(0x156DE750)
 
+inline static constexpr unsigned int FDMDLGNFCFB_TypeDefinitionIndex = 72057;
+
 	class FDMDLGNFCFB : public ::System::Object
 	{
 	public:

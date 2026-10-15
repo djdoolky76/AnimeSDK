@@ -89,6 +89,8 @@ namespace System::Globalization { class CultureInfo; }
 
 namespace System
 {
+	inline static constexpr unsigned int Environment_TypeDefinitionIndex = 371;
+
 	class Environment : public ::System::Object
 	{
 	public:

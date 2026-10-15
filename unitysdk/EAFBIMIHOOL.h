@@ -39,6 +39,8 @@ namespace System { class String; }
 #define EAFBIMIHOOL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E224F10)
 #define EAFBIMIHOOL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E224F70)
 
+inline static constexpr unsigned int EAFBIMIHOOL_TypeDefinitionIndex = 30507;
+
 	class EAFBIMIHOOL : public ::System::Object
 	{
 	public:

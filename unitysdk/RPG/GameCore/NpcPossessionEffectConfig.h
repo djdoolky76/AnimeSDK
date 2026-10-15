@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TriggerEffect; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int NpcPossessionEffectConfig_TypeDefinitionIndex = 22398;
+
 	class NpcPossessionEffectConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

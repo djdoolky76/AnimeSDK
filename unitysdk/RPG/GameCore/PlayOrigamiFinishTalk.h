@@ -10,6 +10,8 @@ namespace RPG::GameCore { class PlayOrigamiFinishTalk; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PlayOrigamiFinishTalk_TypeDefinitionIndex = 22077;
+
 	class PlayOrigamiFinishTalk : public ::RPG::GameCore::TaskConfig
 	{
 	public:

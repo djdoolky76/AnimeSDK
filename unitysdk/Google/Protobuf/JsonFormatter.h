@@ -40,6 +40,8 @@ namespace System::IO { class TextWriter; }
 
 namespace Google::Protobuf
 {
+	inline static constexpr unsigned int JsonFormatter_TypeDefinitionIndex = 5402;
+
 	class JsonFormatter : public ::System::Object
 	{
 	public:

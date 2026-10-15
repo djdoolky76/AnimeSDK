@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierTournIncTitanBlessProgressOnGetTita
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierTournIncTitanBlessProgressOnGetTitanBlessConfig_TypeDefinitionIndex = 17777;
+
 	class RogueModifierTournIncTitanBlessProgressOnGetTitanBlessConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

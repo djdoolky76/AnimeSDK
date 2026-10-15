@@ -7,6 +7,8 @@ class OFKAKOLDDIC;
 #define OFKAKOLDDIC___C__DISPLAYCLASS21_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBE44530)
 #define OFKAKOLDDIC___C__DISPLAYCLASS21_0___STARTUPDATE_B__0_OFFSET UNITYSDK_OFFSET(0xBE45DE0)
 
+inline static constexpr unsigned int OFKAKOLDDIC___c__DisplayClass21_0_TypeDefinitionIndex = 61252;
+
 	class OFKAKOLDDIC___c__DisplayClass21_0 : public ::System::Object
 	{
 	public:

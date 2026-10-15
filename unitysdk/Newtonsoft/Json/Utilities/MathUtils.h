@@ -8,6 +8,8 @@
 
 namespace Newtonsoft::Json::Utilities
 {
+	inline static constexpr unsigned int MathUtils_TypeDefinitionIndex = 9676;
+
 	class MathUtils : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define IPGLHOIFDAB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E6E33F0)
 #define IPGLHOIFDAB___C___CCTOR_B__42_0_OFFSET UNITYSDK_OFFSET(0x1E6E3400)
 
+inline static constexpr unsigned int IPGLHOIFDAB___c_TypeDefinitionIndex = 27889;
+
 	class IPGLHOIFDAB___c : public ::System::Object
 	{
 	public:

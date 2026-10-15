@@ -13,6 +13,8 @@ namespace System { class Action; }
 
 namespace RPG::Client::TeamTowers
 {
+	inline static constexpr unsigned int TeamTowersGamePlaySwitchBossPerformanceMessage_TypeDefinitionIndex = 79016;
+
 	class TeamTowersGamePlaySwitchBossPerformanceMessage : public ::System::Object
 	{
 	public:

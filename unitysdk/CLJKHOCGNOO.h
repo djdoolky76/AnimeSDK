@@ -31,6 +31,8 @@ namespace System { class String; }
 #define CLJKHOCGNOO_OHMHJFANEIF_OFFSET UNITYSDK_OFFSET(0xD78EAB0)
 #define CLJKHOCGNOO_PGJFLEDHEAD_OFFSET UNITYSDK_OFFSET(0xD78F900)
 
+inline static constexpr unsigned int CLJKHOCGNOO_TypeDefinitionIndex = 60801;
+
 	class CLJKHOCGNOO : public ::System::Object
 	{
 	public:

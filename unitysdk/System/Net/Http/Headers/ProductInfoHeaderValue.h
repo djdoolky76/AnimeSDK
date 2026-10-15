@@ -22,6 +22,8 @@ namespace System::Net::Http::Headers { class ProductInfoHeaderValue; }
 
 namespace System::Net::Http::Headers
 {
+	inline static constexpr unsigned int ProductInfoHeaderValue_TypeDefinitionIndex = 3821;
+
 	class ProductInfoHeaderValue : public ::System::Object
 	{
 	public:

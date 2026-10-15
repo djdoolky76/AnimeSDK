@@ -22,6 +22,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoDirectionDissolve_TypeDefinitionIndex = 69848;
+
 	class MonoDirectionDissolve : public ::UnityEngine::MonoBehaviour
 	{
 	public:

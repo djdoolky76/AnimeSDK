@@ -5,6 +5,8 @@ namespace System { class String; }
 
 #define NNEOHNFMECJ_CCTOR_OFFSET UNITYSDK_OFFSET(0xBCA6020)
 
+inline static constexpr unsigned int NNEOHNFMECJ_TypeDefinitionIndex = 72499;
+
 	class NNEOHNFMECJ : public ::System::Object
 	{
 	public:

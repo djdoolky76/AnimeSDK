@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore::Booklet
 {
+	inline static constexpr unsigned int ImageElementConfig_TypeDefinitionIndex = 24972;
+
 	class ImageElementConfig : public ::RPG::GameCore::Booklet::FadeInElementConfig
 	{
 	public:

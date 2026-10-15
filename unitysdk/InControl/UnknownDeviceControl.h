@@ -24,6 +24,8 @@ namespace System::IO { class BinaryWriter; }
 
 namespace InControl
 {
+	inline static constexpr unsigned int UnknownDeviceControl_TypeDefinitionIndex = 40813;
+
 	struct alignas(4) UnknownDeviceControl
 	{
 		::InControl::InputControlType Control; // 0x10

@@ -12,6 +12,8 @@ namespace RPG::AvatarSystem { class IAvatar; }
 #define JJNNAGMLCIC_CTOR_OFFSET UNITYSDK_OFFSET(0xB209380)
 #define JJNNAGMLCIC_FIPOHANBOMM_OFFSET UNITYSDK_OFFSET(0xB209790)
 
+inline static constexpr unsigned int JJNNAGMLCIC_TypeDefinitionIndex = 81216;
+
 	class JJNNAGMLCIC : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace UnityEngine::ProBuilder
 {
+	inline static constexpr unsigned int ArrayUtility___c__23_1_TypeDefinitionIndex = 44330;
+
 	template <typename T>
 	class ArrayUtility___c__23_1 : public ::System::Object
 	{

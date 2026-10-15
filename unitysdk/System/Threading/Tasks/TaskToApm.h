@@ -12,6 +12,8 @@ namespace System::Threading::Tasks { class Task; }
 
 namespace System::Threading::Tasks
 {
+	inline static constexpr unsigned int TaskToApm_TypeDefinitionIndex = 934;
+
 	class TaskToApm : public ::System::Object
 	{
 	public:

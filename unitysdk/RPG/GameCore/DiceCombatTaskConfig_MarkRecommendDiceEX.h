@@ -11,6 +11,8 @@ namespace RPG::GameCore { class MarkRecommendDiceItem; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DiceCombatTaskConfig_MarkRecommendDiceEX_TypeDefinitionIndex = 16156;
+
 	class DiceCombatTaskConfig_MarkRecommendDiceEX : public ::RPG::GameCore::DiceCombatTaskConfig
 	{
 	public:

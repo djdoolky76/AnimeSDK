@@ -68,6 +68,8 @@ namespace System { class String; }
 #define NIHNGPKHEPC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB31560)
 #define NIHNGPKHEPC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB315C0)
 
+inline static constexpr unsigned int NIHNGPKHEPC_TypeDefinitionIndex = 29133;
+
 	class NIHNGPKHEPC : public ::System::Object
 	{
 	public:

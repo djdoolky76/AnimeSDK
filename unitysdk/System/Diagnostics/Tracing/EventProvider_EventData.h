@@ -3,6 +3,8 @@
 
 namespace System::Diagnostics::Tracing
 {
+	inline static constexpr unsigned int EventProvider_EventData_TypeDefinitionIndex = 1682;
+
 	struct alignas(4) EventProvider_EventData
 	{
 		::System::UInt64 Ptr; // 0x10

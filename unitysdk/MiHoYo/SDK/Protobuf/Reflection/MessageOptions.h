@@ -37,6 +37,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::Protobuf::Reflection
 {
+	inline static constexpr unsigned int MessageOptions_TypeDefinitionIndex = 35788;
+
 	class MessageOptions : public ::System::Object
 	{
 	public:

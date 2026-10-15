@@ -15,6 +15,8 @@ namespace UnityEngine::ProBuilder { class WingedEdge; }
 
 namespace UnityEngine::ProBuilder::MeshOperations
 {
+	inline static constexpr unsigned int QuadUtility_TypeDefinitionIndex = 44512;
+
 	class QuadUtility : public ::System::Object
 	{
 	public:

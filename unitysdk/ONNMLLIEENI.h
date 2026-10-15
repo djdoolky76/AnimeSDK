@@ -29,6 +29,8 @@ namespace System { class String; }
 #define ONNMLLIEENI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DED2320)
 #define ONNMLLIEENI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DED2380)
 
+inline static constexpr unsigned int ONNMLLIEENI_TypeDefinitionIndex = 27506;
+
 	class ONNMLLIEENI : public ::System::Object
 	{
 	public:

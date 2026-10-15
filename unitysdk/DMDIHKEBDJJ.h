@@ -9,6 +9,8 @@ namespace RPG { template <typename T> class PoolList_1; }
 #define DMDIHKEBDJJ_ONALLOC_OFFSET UNITYSDK_OFFSET(0x1CA2ED90)
 #define DMDIHKEBDJJ_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0x1CA2EEA0)
 
+inline static constexpr unsigned int DMDIHKEBDJJ_TypeDefinitionIndex = 43567;
+
 	class DMDIHKEBDJJ : public ::System::Object
 	{
 	public:

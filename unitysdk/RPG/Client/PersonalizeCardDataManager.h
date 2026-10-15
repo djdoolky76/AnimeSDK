@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PersonalizeCardDataManager_TypeDefinitionIndex = 66448;
+
 	class PersonalizeCardDataManager : public ::System::Object
 	{
 	public:

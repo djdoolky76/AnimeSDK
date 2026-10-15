@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FoundationAndBallBind_TypeDefinitionIndex = 17575;
+
 	class FoundationAndBallBind : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -19,6 +19,8 @@ namespace System { class Object; }
 #define NICKEDCDPBF_MGKFJBMABIL_OFFSET UNITYSDK_OFFSET(0xBBDF3A0)
 #define NICKEDCDPBF_MHFNJCLKNMG_OFFSET UNITYSDK_OFFSET(0xBBDF1C0)
 
+inline static constexpr unsigned int NICKEDCDPBF_TypeDefinitionIndex = 61037;
+
 	class NICKEDCDPBF
 	{
 	public:

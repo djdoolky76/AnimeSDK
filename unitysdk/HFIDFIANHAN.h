@@ -29,6 +29,8 @@ namespace System { class String; }
 #define HFIDFIANHAN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E56B8E0)
 #define HFIDFIANHAN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E56B940)
 
+inline static constexpr unsigned int HFIDFIANHAN_TypeDefinitionIndex = 29661;
+
 	class HFIDFIANHAN : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::PluginUI
 {
+	inline static constexpr unsigned int MiHoYoSDKUIListItem_TypeDefinitionIndex = 46883;
+
 	class MiHoYoSDKUIListItem : public ::System::Object
 	{
 	public:

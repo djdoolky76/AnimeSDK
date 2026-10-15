@@ -18,6 +18,8 @@ namespace RPG::Client::ActivityIdleLive { class IdlePowerChangeContext; }
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int IdleLiveGachaInfo_TypeDefinitionIndex = 75251;
+
 	class IdleLiveGachaInfo : public ::System::Object
 	{
 	public:

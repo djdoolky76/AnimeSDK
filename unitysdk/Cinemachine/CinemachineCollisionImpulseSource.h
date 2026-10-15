@@ -25,6 +25,8 @@ namespace UnityEngine { class Rigidbody; }
 
 namespace Cinemachine
 {
+	inline static constexpr unsigned int CinemachineCollisionImpulseSource_TypeDefinitionIndex = 39863;
+
 	class CinemachineCollisionImpulseSource : public ::Cinemachine::CinemachineImpulseSource
 	{
 	public:

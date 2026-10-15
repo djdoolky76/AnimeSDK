@@ -26,6 +26,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AvatarPropertyExcelTable_TypeDefinitionIndex = 12746;
+
 	class AvatarPropertyExcelTable : public ::System::Object
 	{
 	public:

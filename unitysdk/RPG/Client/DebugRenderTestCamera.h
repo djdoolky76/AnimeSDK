@@ -8,6 +8,8 @@ namespace UnityEngine::Rendering { class VolumeProfile; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int DebugRenderTestCamera_TypeDefinitionIndex = 68342;
+
 	class DebugRenderTestCamera : public ::UnityEngine::MonoBehaviour
 	{
 	public:

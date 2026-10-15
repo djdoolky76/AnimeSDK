@@ -35,6 +35,8 @@ namespace System::Collections { class IEnumerator; }
 
 namespace System::Collections::Specialized
 {
+	inline static constexpr unsigned int StringCollection_TypeDefinitionIndex = 3006;
+
 	class StringCollection : public ::System::Object
 	{
 	public:

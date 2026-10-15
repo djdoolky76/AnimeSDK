@@ -9,6 +9,8 @@ namespace RPG::GameCore { class RogueDLCAeonCrossRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueDLCAeonCrossRow_TypeDefinitionIndex = 14739;
+
 	class RogueDLCAeonCrossRow : public ::System::Object
 	{
 	public:

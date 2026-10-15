@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define NBMMJNMMIBD_GICABFLDIPA_OFFSET UNITYSDK_OFFSET(0xBADC8F0)
 #define NBMMJNMMIBD_OAGDIHGBBOI_OFFSET UNITYSDK_OFFSET(0xBADC890)
 
+inline static constexpr unsigned int NBMMJNMMIBD_TypeDefinitionIndex = 77487;
+
 	class NBMMJNMMIBD : public ::LDCOFDFFPBD
 	{
 	public:

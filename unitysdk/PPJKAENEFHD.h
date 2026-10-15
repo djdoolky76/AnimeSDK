@@ -8,6 +8,8 @@ class PPJKAENEFHD;
 #define PPJKAENEFHD_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D31C450)
 #define PPJKAENEFHD_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D31C380)
 
+inline static constexpr unsigned int PPJKAENEFHD_TypeDefinitionIndex = 24386;
+
 	class PPJKAENEFHD : public ::RPG::GameCore::TaskConfig
 	{
 	public:

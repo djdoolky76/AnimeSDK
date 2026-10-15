@@ -40,6 +40,8 @@ namespace UnityEngine::UI { class RectangularVertexClipper; }
 
 namespace UnityEngine::UI
 {
+	inline static constexpr unsigned int RectMask2D_TypeDefinitionIndex = 6807;
+
 	class RectMask2D : public ::UnityEngine::EventSystems::UIBehaviour
 	{
 	public:

@@ -3,6 +3,8 @@
 
 namespace RPG::Client::ActivityHipplen
 {
+	inline static constexpr unsigned int HipplenCountingChimeraMiniGame_InnerState_TypeDefinitionIndex = 75585;
+
 	enum class HipplenCountingChimeraMiniGame_InnerState : ::System::Int32
 	{
 		WaitingStart = 0,

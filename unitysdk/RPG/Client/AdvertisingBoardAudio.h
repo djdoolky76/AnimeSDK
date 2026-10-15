@@ -16,6 +16,8 @@ namespace RPG::GameCore { class AdvertisingBoardConfigRow; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AdvertisingBoardAudio_TypeDefinitionIndex = 68313;
+
 	class AdvertisingBoardAudio : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ConstructBodyPart_TypeDefinitionIndex = 22699;
+
 	class ConstructBodyPart : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class BaseRogueMagicUltraUnitSpecialFactor; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BaseRogueMagicUltraUnitSpecialFactor_TypeDefinitionIndex = 17925;
+
 	class BaseRogueMagicUltraUnitSpecialFactor : public ::RPG::GameCore::JsonConfig
 	{
 	public:

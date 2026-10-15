@@ -5,6 +5,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int StreamingNotifyMonoPlugin_TypeDefinitionIndex = 70864;
+
 	class StreamingNotifyMonoPlugin
 	{
 	public:

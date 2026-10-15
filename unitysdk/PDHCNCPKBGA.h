@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define PDHCNCPKBGA_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC013640)
 #define PDHCNCPKBGA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC013830)
 
+inline static constexpr unsigned int PDHCNCPKBGA_TypeDefinitionIndex = 58723;
+
 	class PDHCNCPKBGA
 	{
 	public:

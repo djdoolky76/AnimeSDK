@@ -8,6 +8,8 @@ namespace RPG::GameCore { class CakeRaceActionFieldTransportLastCat; }
 #define IEKDKKBDKHH_CTOR_OFFSET UNITYSDK_OFFSET(0x1C692C40)
 #define IEKDKKBDKHH_GAILDDCMCHP_OFFSET UNITYSDK_OFFSET(0x1C692C50)
 
+inline static constexpr unsigned int IEKDKKBDKHH_TypeDefinitionIndex = 37385;
+
 	class IEKDKKBDKHH : public ::GPLOFONGBGI
 	{
 	public:

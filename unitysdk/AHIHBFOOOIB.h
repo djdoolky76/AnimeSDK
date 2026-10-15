@@ -6,6 +6,8 @@ class GDAACOIKPFC;
 #define AHIHBFOOOIB_CTOR_OFFSET UNITYSDK_OFFSET(0xEB83030)
 #define AHIHBFOOOIB_MGFLFCHMGPA_OFFSET UNITYSDK_OFFSET(0xEB83040)
 
+inline static constexpr unsigned int AHIHBFOOOIB_TypeDefinitionIndex = 78261;
+
 	class AHIHBFOOOIB : public ::KNFCEJEJINK
 	{
 	public:

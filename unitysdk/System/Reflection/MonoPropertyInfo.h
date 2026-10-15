@@ -14,6 +14,8 @@ namespace System::Reflection { class MonoProperty; }
 
 namespace System::Reflection
 {
+	inline static constexpr unsigned int MonoPropertyInfo_TypeDefinitionIndex = 629;
+
 	struct alignas(8) MonoPropertyInfo
 	{
 		::System::Type* parent; // 0x10

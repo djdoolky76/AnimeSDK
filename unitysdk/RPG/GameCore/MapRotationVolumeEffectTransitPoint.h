@@ -10,6 +10,8 @@ namespace RPG::GameCore { class MapRotationVolumeEffectTransitPoint; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MapRotationVolumeEffectTransitPoint_TypeDefinitionIndex = 22304;
+
 	class MapRotationVolumeEffectTransitPoint : public ::RPG::GameCore::JsonConfig
 	{
 	public:

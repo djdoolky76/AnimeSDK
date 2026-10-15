@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ChimeraWorkPhase; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChimeraWorkPhase_TypeDefinitionIndex = 15885;
+
 	class ChimeraWorkPhase : public ::RPG::GameCore::JsonConfig
 	{
 	public:

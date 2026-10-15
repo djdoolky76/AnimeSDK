@@ -10,6 +10,8 @@ namespace RPG::GameCore { class SetPropInteractBtnSwitch; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetPropInteractBtnSwitch_TypeDefinitionIndex = 22020;
+
 	class SetPropInteractBtnSwitch : public ::RPG::GameCore::TaskConfig
 	{
 	public:

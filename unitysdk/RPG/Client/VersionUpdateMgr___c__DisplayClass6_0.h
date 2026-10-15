@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int VersionUpdateMgr___c__DisplayClass6_0_TypeDefinitionIndex = 61282;
+
 	class VersionUpdateMgr___c__DisplayClass6_0 : public ::System::Object
 	{
 	public:

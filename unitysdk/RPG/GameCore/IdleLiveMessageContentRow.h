@@ -11,6 +11,8 @@ namespace RPG::GameCore { class IdleLiveMessageContentRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int IdleLiveMessageContentRow_TypeDefinitionIndex = 11792;
+
 	class IdleLiveMessageContentRow : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class EnableDynamicSkillButtonInput; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EnableDynamicSkillButtonInput_TypeDefinitionIndex = 22842;
+
 	class EnableDynamicSkillButtonInput : public ::RPG::GameCore::TaskConfig
 	{
 	public:

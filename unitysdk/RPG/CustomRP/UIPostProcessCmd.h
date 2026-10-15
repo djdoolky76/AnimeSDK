@@ -18,6 +18,8 @@ namespace UnityEngine::Rendering { class CommandBuffer; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int UIPostProcessCmd_TypeDefinitionIndex = 51866;
+
 	class UIPostProcessCmd : public ::UnityEngine::MonoBehaviour
 	{
 	public:

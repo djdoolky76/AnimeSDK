@@ -11,6 +11,8 @@ namespace System { class Object; }
 #define IABKDGPJEFI_OEJJCPPNNGH___WAITREADY_D__7_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x15DFD9A0)
 #define IABKDGPJEFI_OEJJCPPNNGH___WAITREADY_D__7_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15DFD7F0)
 
+inline static constexpr unsigned int IABKDGPJEFI_OEJJCPPNNGH___WaitReady_d__7_TypeDefinitionIndex = 80168;
+
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7>
 	class IABKDGPJEFI_OEJJCPPNNGH___WaitReady_d__7 : public ::System::Object
 	{

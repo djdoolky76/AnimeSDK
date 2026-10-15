@@ -8,6 +8,8 @@ class MGDPMNHPBOC;
 #define MGDPMNHPBOC_CTOR_OFFSET UNITYSDK_OFFSET(0x1D165870)
 #define MGDPMNHPBOC_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D165770)
 
+inline static constexpr unsigned int MGDPMNHPBOC_TypeDefinitionIndex = 15404;
+
 	class MGDPMNHPBOC : public ::System::Object
 	{
 	public:

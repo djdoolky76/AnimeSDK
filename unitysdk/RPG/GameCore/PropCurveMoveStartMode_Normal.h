@@ -10,6 +10,8 @@ namespace RPG::GameCore { class PropCurveMoveStartMode_Normal; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PropCurveMoveStartMode_Normal_TypeDefinitionIndex = 21004;
+
 	class PropCurveMoveStartMode_Normal : public ::RPG::GameCore::PropCurveMoveStartMode
 	{
 	public:

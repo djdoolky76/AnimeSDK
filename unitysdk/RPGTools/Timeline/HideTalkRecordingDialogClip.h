@@ -13,6 +13,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int HideTalkRecordingDialogClip_TypeDefinitionIndex = 48285;
+
 	class HideTalkRecordingDialogClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

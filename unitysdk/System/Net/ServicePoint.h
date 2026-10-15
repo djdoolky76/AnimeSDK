@@ -52,6 +52,8 @@ namespace System::Threading { class Timer; }
 
 namespace System::Net
 {
+	inline static constexpr unsigned int ServicePoint_TypeDefinitionIndex = 2873;
+
 	class ServicePoint : public ::System::Object
 	{
 	public:

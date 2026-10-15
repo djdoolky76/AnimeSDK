@@ -6,6 +6,8 @@
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int AgeGateLogDefine_TypeDefinitionIndex = 7555;
+
 	class AgeGateLogDefine : public ::System::Object
 	{
 	public:

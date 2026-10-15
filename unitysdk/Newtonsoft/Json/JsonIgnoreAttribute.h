@@ -6,6 +6,8 @@
 
 namespace Newtonsoft::Json
 {
+	inline static constexpr unsigned int JsonIgnoreAttribute_TypeDefinitionIndex = 9610;
+
 	class JsonIgnoreAttribute : public ::System::Attribute
 	{
 	public:

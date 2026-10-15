@@ -31,6 +31,8 @@ namespace System { class String; }
 
 namespace Proto
 {
+	inline static constexpr unsigned int SavePointsInfoNotify_TypeDefinitionIndex = 34027;
+
 	class SavePointsInfoNotify : public ::System::Object
 	{
 	public:

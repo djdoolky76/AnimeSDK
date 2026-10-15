@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int IVRChaperoneSetup__CommitWorkingCopy_TypeDefinitionIndex = 38994;
+
 	class IVRChaperoneSetup__CommitWorkingCopy : public ::System::MulticastDelegate
 	{
 	public:

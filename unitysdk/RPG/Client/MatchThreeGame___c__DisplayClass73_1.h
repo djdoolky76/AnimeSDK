@@ -9,6 +9,8 @@ namespace RPG::Client { class MatchThreeGameProp; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MatchThreeGame___c__DisplayClass73_1_TypeDefinitionIndex = 65949;
+
 	template <typename T>
 	class MatchThreeGame___c__DisplayClass73_1 : public ::System::Object
 	{

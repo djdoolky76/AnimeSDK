@@ -11,6 +11,8 @@ namespace UnityEngine { class TerrainLayer; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int Test_TerrainLayer_Extensions_TypeDefinitionIndex = 40752;
+
 	class Test_TerrainLayer_Extensions : public ::System::Object
 	{
 	public:

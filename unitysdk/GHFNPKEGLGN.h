@@ -6,6 +6,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define GHFNPKEGLGN_CTOR_OFFSET UNITYSDK_OFFSET(0x15A1B260)
 
+inline static constexpr unsigned int GHFNPKEGLGN_TypeDefinitionIndex = 61094;
+
 	class GHFNPKEGLGN : public ::System::Object
 	{
 	public:

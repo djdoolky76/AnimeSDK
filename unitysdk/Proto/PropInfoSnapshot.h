@@ -29,6 +29,8 @@ namespace System { class String; }
 
 namespace Proto
 {
+	inline static constexpr unsigned int PropInfoSnapshot_TypeDefinitionIndex = 25821;
+
 	class PropInfoSnapshot : public ::System::Object
 	{
 	public:

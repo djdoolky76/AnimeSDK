@@ -4,6 +4,8 @@
 
 #define PBGKFAKMAPF_CTOR_OFFSET UNITYSDK_OFFSET(0x1C7E7980)
 
+inline static constexpr unsigned int PBGKFAKMAPF_TypeDefinitionIndex = 36458;
+
 	class PBGKFAKMAPF : public ::System::Object
 	{
 	public:

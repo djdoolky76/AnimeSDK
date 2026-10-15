@@ -7,6 +7,8 @@ namespace RPG::Client { class ScheduleModule; }
 #define CLJFIFKJCCE_GEFOFFDJPOB_CTOR_OFFSET UNITYSDK_OFFSET(0xD78C9D0)
 #define CLJFIFKJCCE_GEFOFFDJPOB_DCKGOAIJEFP_OFFSET UNITYSDK_OFFSET(0xD78CA30)
 
+inline static constexpr unsigned int CLJFIFKJCCE_GEFOFFDJPOB_TypeDefinitionIndex = 67902;
+
 	class CLJFIFKJCCE_GEFOFFDJPOB : public ::CLJFIFKJCCE
 	{
 	public:

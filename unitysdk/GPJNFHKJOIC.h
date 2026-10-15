@@ -13,6 +13,8 @@ namespace UnityEngine { class Transform; }
 #define GPJNFHKJOIC_ONGRAPHSTOP_OFFSET UNITYSDK_OFFSET(0x15B5B270)
 #define GPJNFHKJOIC_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x15B5ABD0)
 
+inline static constexpr unsigned int GPJNFHKJOIC_TypeDefinitionIndex = 74969;
+
 	class GPJNFHKJOIC : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

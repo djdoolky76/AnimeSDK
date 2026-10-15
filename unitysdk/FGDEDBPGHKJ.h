@@ -25,6 +25,8 @@ namespace System { class String; }
 #define FGDEDBPGHKJ__CUSTOMBINDVIEW_OFFSET UNITYSDK_OFFSET(0x157543A0)
 #define FGDEDBPGHKJ__UNBINDVIEW_OFFSET UNITYSDK_OFFSET(0x15754500)
 
+inline static constexpr unsigned int FGDEDBPGHKJ_TypeDefinitionIndex = 71715;
+
 	class FGDEDBPGHKJ : public ::RPG::Client::UIController
 	{
 	public:

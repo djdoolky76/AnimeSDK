@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define NIEBAAFIPDA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB2A2F0)
 #define NIEBAAFIPDA___C___CCTOR_B__118_0_OFFSET UNITYSDK_OFFSET(0x1EB2A300)
 
+inline static constexpr unsigned int NIEBAAFIPDA___c_TypeDefinitionIndex = 34511;
+
 	class NIEBAAFIPDA___c : public ::System::Object
 	{
 	public:

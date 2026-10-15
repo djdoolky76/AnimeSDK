@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define ADIBIKICHIE_CTOR_OFFSET UNITYSDK_OFFSET(0xB13EC60)
 #define ADIBIKICHIE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB13EC90)
 
+inline static constexpr unsigned int ADIBIKICHIE_TypeDefinitionIndex = 52333;
+
 	class ADIBIKICHIE
 	{
 	public:

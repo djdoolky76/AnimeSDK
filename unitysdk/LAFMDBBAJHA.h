@@ -29,6 +29,8 @@ namespace System { class String; }
 #define LAFMDBBAJHA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E8CBF50)
 #define LAFMDBBAJHA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E8CBFB0)
 
+inline static constexpr unsigned int LAFMDBBAJHA_TypeDefinitionIndex = 27431;
+
 	class LAFMDBBAJHA : public ::System::Object
 	{
 	public:

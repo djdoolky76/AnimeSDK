@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace UnityEngine::Windows::Speech
 {
+	inline static constexpr unsigned int DictationRecognizer_DictationCompletedDelegate_TypeDefinitionIndex = 4440;
+
 	class DictationRecognizer_DictationCompletedDelegate : public ::System::MulticastDelegate
 	{
 	public:

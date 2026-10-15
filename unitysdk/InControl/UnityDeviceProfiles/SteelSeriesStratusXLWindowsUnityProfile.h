@@ -7,6 +7,8 @@
 
 namespace InControl::UnityDeviceProfiles
 {
+	inline static constexpr unsigned int SteelSeriesStratusXLWindowsUnityProfile_TypeDefinitionIndex = 41096;
+
 	class SteelSeriesStratusXLWindowsUnityProfile : public ::InControl::InputDeviceProfile
 	{
 	public:

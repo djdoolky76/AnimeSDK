@@ -7,6 +7,8 @@ namespace System { class String; }
 #define CNCCDAOLIHJ_GET_CONSTKEYPREFIX_OFFSET UNITYSDK_OFFSET(0x1CC8F4B0)
 #define CNCCDAOLIHJ_GET_FORCEREFLECTIONMAPPER_OFFSET UNITYSDK_OFFSET(0x1CC8F4C0)
 
+inline static constexpr unsigned int CNCCDAOLIHJ_TypeDefinitionIndex = 43870;
+
 	class CNCCDAOLIHJ : public ::System::Attribute
 	{
 	public:

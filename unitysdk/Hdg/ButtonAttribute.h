@@ -6,6 +6,8 @@
 
 namespace Hdg
 {
+	inline static constexpr unsigned int ButtonAttribute_TypeDefinitionIndex = 46936;
+
 	class ButtonAttribute : public ::System::Attribute
 	{
 	public:

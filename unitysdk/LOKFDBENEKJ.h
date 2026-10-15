@@ -17,6 +17,8 @@ namespace RPG::Client::ActivityHipplen { class ActivityHipplenEffectResultData; 
 #define LOKFDBENEKJ_MFHMDEJBBAJ_OFFSET UNITYSDK_OFFSET(0xB807040)
 #define LOKFDBENEKJ_OIBKPJEGPOK_OFFSET UNITYSDK_OFFSET(0xB806D30)
 
+inline static constexpr unsigned int LOKFDBENEKJ_TypeDefinitionIndex = 75494;
+
 	class LOKFDBENEKJ : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueTournDiffCompDifficultyData___O_TypeDefinitionIndex = 67581;
+
 	class RogueTournDiffCompDifficultyData___O : public ::System::Object
 	{
 	public:

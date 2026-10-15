@@ -15,6 +15,8 @@ namespace System { class Object; }
 #define CBDNBNEEKBA_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC49F900)
 #define CBDNBNEEKBA_TICK_OFFSET UNITYSDK_OFFSET(0xC49FEB0)
 
+inline static constexpr unsigned int CBDNBNEEKBA_TypeDefinitionIndex = 52611;
+
 	class CBDNBNEEKBA : public ::GELIALJDFBL
 	{
 	public:

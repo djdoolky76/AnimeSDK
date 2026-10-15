@@ -37,6 +37,8 @@ namespace System { class String; }
 #define IKJDKNKJBGI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E6A25D0)
 #define IKJDKNKJBGI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E6A2630)
 
+inline static constexpr unsigned int IKJDKNKJBGI_TypeDefinitionIndex = 28656;
+
 	class IKJDKNKJBGI : public ::System::Object
 	{
 	public:

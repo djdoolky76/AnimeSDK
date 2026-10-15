@@ -27,6 +27,8 @@ namespace System { class Object; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int VortexBoxPuzzleController_TypeDefinitionIndex = 78858;
+
 	class VortexBoxPuzzleController : public ::UnityEngine::MonoBehaviour
 	{
 	public:

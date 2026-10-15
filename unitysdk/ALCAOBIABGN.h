@@ -17,6 +17,8 @@ namespace UnityEngine { class Object; }
 #define ALCAOBIABGN_LDHJGFOOKPO_OFFSET UNITYSDK_OFFSET(0x15561580)
 #define ALCAOBIABGN_LEHKGLNGAGF_OFFSET UNITYSDK_OFFSET(0x15561110)
 
+inline static constexpr unsigned int ALCAOBIABGN_TypeDefinitionIndex = 57185;
+
 	class ALCAOBIABGN : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System { class String; }
 #define MOIAEMLGFBO_GET_TYPE_OFFSET UNITYSDK_OFFSET(0xBA2CB60)
 #define MOIAEMLGFBO_JAILHGGFLDH_OFFSET UNITYSDK_OFFSET(0xBA2CB70)
 
+inline static constexpr unsigned int MOIAEMLGFBO_TypeDefinitionIndex = 56129;
+
 	class MOIAEMLGFBO : public ::DBGDNLLDPFI
 	{
 	public:

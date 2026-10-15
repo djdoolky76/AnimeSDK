@@ -15,6 +15,8 @@ namespace System { class Object; }
 #define IFJGKLHFEAB_NONJDKKDDLE_OFFSET UNITYSDK_OFFSET(0x15F1CAE0)
 #define IFJGKLHFEAB___ONUIANIMATIONEVENT_B__7_0_OFFSET UNITYSDK_OFFSET(0x15F1D130)
 
+inline static constexpr unsigned int IFJGKLHFEAB_TypeDefinitionIndex = 60475;
+
 	class IFJGKLHFEAB : public ::System::Object
 	{
 	public:

@@ -14,6 +14,8 @@ namespace System { class Object; }
 
 namespace Entitas
 {
+	inline static constexpr unsigned int ContextGroupChanged_TypeDefinitionIndex = 9997;
+
 	class ContextGroupChanged : public ::System::MulticastDelegate
 	{
 	public:

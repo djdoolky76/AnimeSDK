@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EvolveBuildShopRow_TypeDefinitionIndex = 11425;
+
 	class EvolveBuildShopRow : public ::System::Object
 	{
 	public:

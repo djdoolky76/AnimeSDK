@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define ALGDCPHADFA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E50DC50)
 #define ALGDCPHADFA___C___CCTOR_B__48_0_OFFSET UNITYSDK_OFFSET(0x1E50DC60)
 
+inline static constexpr unsigned int ALGDCPHADFA___c_TypeDefinitionIndex = 31993;
+
 	class ALGDCPHADFA___c : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore::Match3 { class AfterInputTrigger; }
 
 namespace RPG::GameCore::Match3
 {
+	inline static constexpr unsigned int AfterInputTrigger_TypeDefinitionIndex = 24874;
+
 	class AfterInputTrigger : public ::RPG::GameCore::Match3::Match3TriggerBase
 	{
 	public:

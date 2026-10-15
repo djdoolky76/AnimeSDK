@@ -11,6 +11,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Effect_InstanceArrayBehavior_LookAt_TypeDefinitionIndex = 70610;
+
 	class Effect_InstanceArrayBehavior_LookAt : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace Mono::Math { class BigInteger; }
 
 namespace Mono::Math::Prime
 {
+	inline static constexpr unsigned int PrimalityTests_TypeDefinitionIndex = 87;
+
 	class PrimalityTests : public ::System::Object
 	{
 	public:

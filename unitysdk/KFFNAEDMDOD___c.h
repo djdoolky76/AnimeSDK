@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define KFFNAEDMDOD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E818A20)
 #define KFFNAEDMDOD___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E818A30)
 
+inline static constexpr unsigned int KFFNAEDMDOD___c_TypeDefinitionIndex = 27344;
+
 	class KFFNAEDMDOD___c : public ::System::Object
 	{
 	public:

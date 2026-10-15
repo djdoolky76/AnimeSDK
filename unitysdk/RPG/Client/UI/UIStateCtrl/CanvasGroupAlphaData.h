@@ -7,6 +7,8 @@ namespace UnityEngine { class CanvasGroup; }
 
 namespace RPG::Client::UI::UIStateCtrl
 {
+	inline static constexpr unsigned int CanvasGroupAlphaData_TypeDefinitionIndex = 74046;
+
 	class CanvasGroupAlphaData : public ::System::Object
 	{
 	public:

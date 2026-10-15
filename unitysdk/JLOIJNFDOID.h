@@ -83,6 +83,8 @@ namespace UnityEngine { class Transform; }
 #define JLOIJNFDOID_SETSCENEOBJVISIBLE_OFFSET UNITYSDK_OFFSET(0xB257950)
 #define JLOIJNFDOID_TRYHIDEACTOR_OFFSET UNITYSDK_OFFSET(0xB2579A0)
 
+inline static constexpr unsigned int JLOIJNFDOID_TypeDefinitionIndex = 57444;
+
 	class JLOIJNFDOID : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

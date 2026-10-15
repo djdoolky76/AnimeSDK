@@ -13,6 +13,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvByCheckNeedWaitServerCheckSkillResult_TypeDefinitionIndex = 20215;
+
 	class AdvByCheckNeedWaitServerCheckSkillResult : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

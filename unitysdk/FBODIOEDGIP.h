@@ -21,6 +21,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define FBODIOEDGIP_HFOMMFIEJME_OFFSET UNITYSDK_OFFSET(0x156A9B90)
 #define FBODIOEDGIP_PNCINIIPOMC_OFFSET UNITYSDK_OFFSET(0x156A99E0)
 
+inline static constexpr unsigned int FBODIOEDGIP_TypeDefinitionIndex = 74587;
+
 	class FBODIOEDGIP : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class Stack_1; }
 #define EGKICDECDMA_BGBONPKMMDG_CPHBJJMCHPC_OFFSET UNITYSDK_OFFSET(0x1451CD40)
 #define EGKICDECDMA_BGBONPKMMDG_CTOR_OFFSET UNITYSDK_OFFSET(0x1451DB30)
 
+inline static constexpr unsigned int EGKICDECDMA_BGBONPKMMDG_TypeDefinitionIndex = 49454;
+
 	class EGKICDECDMA_BGBONPKMMDG : public ::System::Object
 	{
 	public:

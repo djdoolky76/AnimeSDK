@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CRPCharacterSettings_TypeDefinitionIndex = 67930;
+
 	class CRPCharacterSettings : public ::System::Object
 	{
 	public:

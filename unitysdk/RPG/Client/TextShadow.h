@@ -14,6 +14,8 @@ namespace UnityEngine::UI { class VertexHelper; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TextShadow_TypeDefinitionIndex = 72687;
+
 	class TextShadow : public ::RPG::Client::TextOutline
 	{
 	public:

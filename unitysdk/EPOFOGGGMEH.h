@@ -9,6 +9,8 @@ namespace System { class String; }
 #define EPOFOGGGMEH_CTOR_OFFSET UNITYSDK_OFFSET(0x1CDC1450)
 #define EPOFOGGGMEH_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CDC11B0)
 
+inline static constexpr unsigned int EPOFOGGGMEH_TypeDefinitionIndex = 11251;
+
 	class EPOFOGGGMEH : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int ExitGUIException_TypeDefinitionIndex = 5188;
+
 	class ExitGUIException : public ::System::Exception
 	{
 	public:

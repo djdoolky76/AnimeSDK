@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::Protobuf
 {
+	inline static constexpr unsigned int FieldCodec_TypeDefinitionIndex = 35714;
+
 	class FieldCodec : public ::System::Object
 	{
 	public:

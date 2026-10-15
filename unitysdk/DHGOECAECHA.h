@@ -11,6 +11,8 @@ namespace System { class Object; }
 #define DHGOECAECHA_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xEBD4310)
 #define DHGOECAECHA_INVOKE_OFFSET UNITYSDK_OFFSET(0xEBD42A0)
 
+inline static constexpr unsigned int DHGOECAECHA_TypeDefinitionIndex = 59383;
+
 	class DHGOECAECHA : public ::System::MulticastDelegate
 	{
 	public:

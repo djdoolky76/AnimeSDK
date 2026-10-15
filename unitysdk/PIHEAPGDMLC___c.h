@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define PIHEAPGDMLC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF46780)
 #define PIHEAPGDMLC___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1DF46790)
 
+inline static constexpr unsigned int PIHEAPGDMLC___c_TypeDefinitionIndex = 28166;
+
 	class PIHEAPGDMLC___c : public ::System::Object
 	{
 	public:

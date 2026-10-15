@@ -62,6 +62,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::ActivityHipplen
 {
+	inline static constexpr unsigned int ActivityHipplenMiniGameBase_TypeDefinitionIndex = 75581;
+
 	class ActivityHipplenMiniGameBase : public ::System::Object
 	{
 	public:

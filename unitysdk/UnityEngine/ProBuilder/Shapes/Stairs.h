@@ -19,6 +19,8 @@ namespace UnityEngine::ProBuilder::Shapes { class Shape; }
 
 namespace UnityEngine::ProBuilder::Shapes
 {
+	inline static constexpr unsigned int Stairs_TypeDefinitionIndex = 44472;
+
 	class Stairs : public ::UnityEngine::ProBuilder::Shapes::Shape
 	{
 	public:

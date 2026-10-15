@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 #define JLGCJGEHPHO_ECNFBLHCIEB_OFFSET UNITYSDK_OFFSET(0xB24AC30)
 #define JLGCJGEHPHO_GBCADBOJDPF_OFFSET UNITYSDK_OFFSET(0xB24A810)
 
+inline static constexpr unsigned int JLGCJGEHPHO_TypeDefinitionIndex = 77373;
+
 	class JLGCJGEHPHO : public ::System::Object
 	{
 	public:

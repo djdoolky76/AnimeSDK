@@ -9,6 +9,8 @@ namespace RPG::GameCore { class EvolveBuildRewardBoxRandomConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EvolveBuildRewardBoxRandomConfigRow_TypeDefinitionIndex = 11438;
+
 	class EvolveBuildRewardBoxRandomConfigRow : public ::System::Object
 	{
 	public:

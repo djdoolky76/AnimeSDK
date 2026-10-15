@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define GICDNFMMKMN_NDGDDODNDMP_OFFSET UNITYSDK_OFFSET(0x15A310F0)
 #define GICDNFMMKMN_PPEGOIODAKI_OFFSET UNITYSDK_OFFSET(0x15A30BF0)
 
+inline static constexpr unsigned int GICDNFMMKMN_TypeDefinitionIndex = 74034;
+
 	class GICDNFMMKMN : public ::System::Object
 	{
 	public:

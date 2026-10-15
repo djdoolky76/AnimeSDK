@@ -18,6 +18,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define GMFPIGMFHPE_MFCDKJIHDEH_OFFSET UNITYSDK_OFFSET(0x15ACEBD0)
 #define GMFPIGMFHPE_PCNAKDOLCCD_OFFSET UNITYSDK_OFFSET(0x15ACE2B0)
 
+inline static constexpr unsigned int GMFPIGMFHPE_TypeDefinitionIndex = 71136;
+
 	class GMFPIGMFHPE : public ::RPG::Client::BehaviorBase
 	{
 	public:

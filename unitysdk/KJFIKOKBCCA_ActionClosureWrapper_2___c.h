@@ -3,6 +3,8 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Object; }
 
+inline static constexpr unsigned int KJFIKOKBCCA_ActionClosureWrapper_2___c_TypeDefinitionIndex = 6435;
+
 	template <typename T1, typename T2>
 	class KJFIKOKBCCA_ActionClosureWrapper_2___c : public ::System::Object
 	{

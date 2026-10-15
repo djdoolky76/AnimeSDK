@@ -25,6 +25,8 @@ namespace System { class String; }
 #define MLNNHJKKMNC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA84C20)
 #define MLNNHJKKMNC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA84C80)
 
+inline static constexpr unsigned int MLNNHJKKMNC_TypeDefinitionIndex = 26017;
+
 	class MLNNHJKKMNC : public ::System::Object
 	{
 	public:

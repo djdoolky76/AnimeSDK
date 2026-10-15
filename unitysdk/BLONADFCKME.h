@@ -8,6 +8,8 @@ namespace RPG::AvatarSystem { class IAvatar; }
 #define BLONADFCKME_HFIDHKKOEOA_OFFSET UNITYSDK_OFFSET(0xBA82940)
 #define BLONADFCKME_JAGPJGOOALH_OFFSET UNITYSDK_OFFSET(0xBA828E0)
 
+inline static constexpr unsigned int BLONADFCKME_TypeDefinitionIndex = 65585;
+
 	class BLONADFCKME : public ::System::Object
 	{
 	public:

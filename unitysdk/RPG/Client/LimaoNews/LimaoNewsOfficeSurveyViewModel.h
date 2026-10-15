@@ -26,6 +26,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::LimaoNews
 {
+	inline static constexpr unsigned int LimaoNewsOfficeSurveyViewModel_TypeDefinitionIndex = 80439;
+
 	class LimaoNewsOfficeSurveyViewModel : public ::Sofa::BaseViewModel
 	{
 	public:

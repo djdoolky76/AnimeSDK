@@ -15,6 +15,8 @@ namespace System { class Object; }
 #define ECFPMCEOGPI_ONPLUGININIT_OFFSET UNITYSDK_OFFSET(0x12D0B440)
 #define ECFPMCEOGPI_ONPLUGINUNINIT_OFFSET UNITYSDK_OFFSET(0x12D0B570)
 
+inline static constexpr unsigned int ECFPMCEOGPI_TypeDefinitionIndex = 54325;
+
 	class ECFPMCEOGPI : public ::System::Object
 	{
 	public:

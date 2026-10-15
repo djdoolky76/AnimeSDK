@@ -8,6 +8,8 @@ class JCPEEJGGPEG;
 #define JCPEEJGGPEG_CTOR_OFFSET UNITYSDK_OFFSET(0x165A97C0)
 #define JCPEEJGGPEG_JOHPKPGOGHD_OFFSET UNITYSDK_OFFSET(0x165A9700)
 
+inline static constexpr unsigned int JCPEEJGGPEG_TypeDefinitionIndex = 78057;
+
 	class JCPEEJGGPEG
 	{
 	public:

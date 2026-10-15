@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TrainPartyBuildItemDynamicBindValue_FSV_TypeDefinitionIndex = 16267;
+
 	class TrainPartyBuildItemDynamicBindValue_FSV : public ::RPG::GameCore::TrainPartyBuildItemDynamicBindValue
 	{
 	public:

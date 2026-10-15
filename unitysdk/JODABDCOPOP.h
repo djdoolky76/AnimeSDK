@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define JODABDCOPOP_PDCHABCBEEO_OFFSET UNITYSDK_OFFSET(0xB29F2A0)
 #define JODABDCOPOP_TICK_OFFSET UNITYSDK_OFFSET(0xB29F070)
 
+inline static constexpr unsigned int JODABDCOPOP_TypeDefinitionIndex = 55160;
+
 	class JODABDCOPOP : public ::GELIALJDFBL
 	{
 	public:

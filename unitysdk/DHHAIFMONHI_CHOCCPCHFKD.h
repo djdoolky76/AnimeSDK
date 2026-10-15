@@ -13,6 +13,8 @@ namespace System { class Object; }
 #define DHHAIFMONHI_CHOCCPCHFKD_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C5F12D0)
 #define DHHAIFMONHI_CHOCCPCHFKD_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C5EFF00)
 
+inline static constexpr unsigned int DHHAIFMONHI_CHOCCPCHFKD_TypeDefinitionIndex = 36827;
+
 	class DHHAIFMONHI_CHOCCPCHFKD : public ::System::MulticastDelegate
 	{
 	public:

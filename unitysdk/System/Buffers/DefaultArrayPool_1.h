@@ -4,6 +4,8 @@ namespace System { class Object; }
 
 namespace System::Buffers
 {
+	inline static constexpr unsigned int DefaultArrayPool_1_TypeDefinitionIndex = 3751;
+
 	template <typename T>
 	class DefaultArrayPool_1
 	{

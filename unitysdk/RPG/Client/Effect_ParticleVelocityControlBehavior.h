@@ -19,6 +19,8 @@ namespace RPG::Client { class Effect_ParticleVelocityControlMonoPlugin; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Effect_ParticleVelocityControlBehavior_TypeDefinitionIndex = 70524;
+
 	class Effect_ParticleVelocityControlBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:

@@ -29,6 +29,8 @@ namespace System { class String; }
 #define OOIGMDLPHOD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DED8140)
 #define OOIGMDLPHOD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DED81A0)
 
+inline static constexpr unsigned int OOIGMDLPHOD_TypeDefinitionIndex = 31418;
+
 	class OOIGMDLPHOD : public ::System::Object
 	{
 	public:

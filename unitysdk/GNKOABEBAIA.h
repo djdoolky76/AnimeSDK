@@ -25,6 +25,8 @@ namespace System { class String; }
 #define GNKOABEBAIA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E4E29D0)
 #define GNKOABEBAIA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E4E2A30)
 
+inline static constexpr unsigned int GNKOABEBAIA_TypeDefinitionIndex = 32014;
+
 	class GNKOABEBAIA : public ::System::Object
 	{
 	public:

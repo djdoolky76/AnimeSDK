@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define PMPCIBGILIE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DFB08B0)
 #define PMPCIBGILIE___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1DFB08C0)
 
+inline static constexpr unsigned int PMPCIBGILIE___c_TypeDefinitionIndex = 25650;
+
 	class PMPCIBGILIE___c : public ::System::Object
 	{
 	public:

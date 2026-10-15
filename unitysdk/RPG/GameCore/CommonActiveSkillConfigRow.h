@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CommonActiveSkillConfigRow_TypeDefinitionIndex = 13064;
+
 	class CommonActiveSkillConfigRow : public ::System::Object
 	{
 	public:

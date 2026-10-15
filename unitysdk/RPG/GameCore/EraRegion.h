@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EraRegion_TypeDefinitionIndex = 16618;
+
 	class EraRegion : public ::RPG::GameCore::JsonConfig
 	{
 	public:

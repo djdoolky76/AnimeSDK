@@ -8,6 +8,8 @@ namespace System { class String; }
 #define EOHNDDIAKOA_LJHBAAAIAFE_OFFSET UNITYSDK_OFFSET(0x155C13F0)
 #define EOHNDDIAKOA__CREATECONDITION_OFFSET UNITYSDK_OFFSET(0x155C1250)
 
+inline static constexpr unsigned int EOHNDDIAKOA_TypeDefinitionIndex = 63277;
+
 	class EOHNDDIAKOA
 	{
 	public:

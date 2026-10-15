@@ -40,6 +40,8 @@ namespace System { class String; }
 #define DFEGGFFOMKI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E19F970)
 #define DFEGGFFOMKI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E19F9D0)
 
+inline static constexpr unsigned int DFEGGFFOMKI_TypeDefinitionIndex = 27084;
+
 	class DFEGGFFOMKI : public ::System::Object
 	{
 	public:

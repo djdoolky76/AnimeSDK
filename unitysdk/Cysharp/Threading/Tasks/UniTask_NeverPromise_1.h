@@ -8,6 +8,8 @@ namespace System { class Object; }
 
 namespace Cysharp::Threading::Tasks
 {
+	inline static constexpr unsigned int UniTask_NeverPromise_1_TypeDefinitionIndex = 38251;
+
 	template <typename T>
 	class UniTask_NeverPromise_1 : public ::System::Object
 	{

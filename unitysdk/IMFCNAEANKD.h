@@ -2,6 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/RPG/Client/LittleGame/Move/MoveState.h"
 
+inline static constexpr unsigned int IMFCNAEANKD_TypeDefinitionIndex = 43247;
+
 	struct alignas(4) IMFCNAEANKD
 	{
 		::System::Boolean HDAKOOAOBLN; // 0x10

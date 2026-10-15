@@ -10,6 +10,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define BCKKHDBAENJ___C__HASVALUE_B__1_0_OFFSET UNITYSDK_OFFSET(0x162E1E40)
 #define BCKKHDBAENJ___C__ISPOSITIVE_B__3_0_OFFSET UNITYSDK_OFFSET(0x162E1E70)
 
+inline static constexpr unsigned int BCKKHDBAENJ___c_TypeDefinitionIndex = 49979;
+
 	class BCKKHDBAENJ___c : public ::System::Object
 	{
 	public:

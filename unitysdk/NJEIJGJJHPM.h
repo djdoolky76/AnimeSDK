@@ -16,6 +16,8 @@ namespace System { class Object; }
 #define NJEIJGJJHPM_KNEMBOFMOKA_OFFSET UNITYSDK_OFFSET(0xBC0B670)
 #define NJEIJGJJHPM___SENDSTARTNODEREQ_B__5_0_OFFSET UNITYSDK_OFFSET(0xBC0C050)
 
+inline static constexpr unsigned int NJEIJGJJHPM_TypeDefinitionIndex = 75140;
+
 	class NJEIJGJJHPM : public ::System::Object
 	{
 	public:

@@ -4,6 +4,8 @@
 
 #define DBAEIACKKJP_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA14100)
 
+inline static constexpr unsigned int DBAEIACKKJP_TypeDefinitionIndex = 42134;
+
 	class DBAEIACKKJP : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int DownloadPoint_TypeDefinitionIndex = 46296;
+
 	class DownloadPoint : public ::System::Object
 	{
 	public:

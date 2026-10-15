@@ -11,6 +11,8 @@ namespace RPG::GameCore { class JsonEnum; }
 #define IIFNNEDICFK_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CF128E0)
 #define IIFNNEDICFK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CF128A0)
 
+inline static constexpr unsigned int IIFNNEDICFK_TypeDefinitionIndex = 23240;
+
 	class IIFNNEDICFK : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -42,6 +42,8 @@ namespace System { class String; }
 #define PNGGKFFJILG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DFB7DE0)
 #define PNGGKFFJILG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DFB7E40)
 
+inline static constexpr unsigned int PNGGKFFJILG_TypeDefinitionIndex = 25104;
+
 	class PNGGKFFJILG : public ::System::Object
 	{
 	public:

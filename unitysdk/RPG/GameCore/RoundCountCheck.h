@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RoundCountCheck; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RoundCountCheck_TypeDefinitionIndex = 22958;
+
 	class RoundCountCheck : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System { class Object; }
 #define IILDDCNDMOJ__CALLBACKTOMAINTHREAD_D__13_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x1644A5F0)
 #define IILDDCNDMOJ__CALLBACKTOMAINTHREAD_D__13_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1644A4F0)
 
+inline static constexpr unsigned int IILDDCNDMOJ__CallbackToMainThread_d__13_TypeDefinitionIndex = 61228;
+
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10, typename T11, typename T12, typename T13>
 	class IILDDCNDMOJ__CallbackToMainThread_d__13 : public ::System::Object
 	{

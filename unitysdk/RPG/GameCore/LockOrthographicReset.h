@@ -10,6 +10,8 @@ namespace RPG::GameCore { class LockOrthographicReset; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LockOrthographicReset_TypeDefinitionIndex = 20838;
+
 	class LockOrthographicReset : public ::RPG::GameCore::TaskConfig
 	{
 	public:

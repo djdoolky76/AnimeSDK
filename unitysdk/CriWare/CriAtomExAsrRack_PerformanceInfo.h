@@ -3,6 +3,8 @@
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriAtomExAsrRack_PerformanceInfo_TypeDefinitionIndex = 39919;
+
 	struct alignas(4) CriAtomExAsrRack_PerformanceInfo
 	{
 		::System::UInt32 processCount; // 0x10

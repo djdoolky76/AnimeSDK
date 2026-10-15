@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace Sirenix::OdinInspector
 {
+	inline static constexpr unsigned int PropertyGroupAttribute_TypeDefinitionIndex = 9973;
+
 	class PropertyGroupAttribute : public ::System::Attribute
 	{
 	public:

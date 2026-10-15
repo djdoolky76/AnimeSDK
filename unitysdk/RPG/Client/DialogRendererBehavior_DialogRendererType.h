@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int DialogRendererBehavior_DialogRendererType_TypeDefinitionIndex = 70283;
+
 	enum class DialogRendererBehavior_DialogRendererType : ::System::Int32
 	{
 		None = 0,

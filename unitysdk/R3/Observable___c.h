@@ -11,6 +11,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace R3
 {
+	inline static constexpr unsigned int Observable___c_TypeDefinitionIndex = 35906;
+
 	class Observable___c : public ::System::Object
 	{
 	public:

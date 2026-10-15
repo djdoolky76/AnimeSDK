@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TrainPartyModifierUpdateAllPassengerStatConfig; 
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TrainPartyModifierUpdateAllPassengerStatConfig_TypeDefinitionIndex = 18104;
+
 	class TrainPartyModifierUpdateAllPassengerStatConfig : public ::RPG::GameCore::TrainPartyModifierConfigBase
 	{
 	public:

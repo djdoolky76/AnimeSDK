@@ -29,6 +29,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define EBIKHHMFBNE_PEOJKIOGHCD_OFFSET UNITYSDK_OFFSET(0x12CFAB20)
 #define EBIKHHMFBNE_SET_PLAYINGID_OFFSET UNITYSDK_OFFSET(0x12CFB870)
 
+inline static constexpr unsigned int EBIKHHMFBNE_TypeDefinitionIndex = 59755;
+
 	class EBIKHHMFBNE : public ::System::Object
 	{
 	public:

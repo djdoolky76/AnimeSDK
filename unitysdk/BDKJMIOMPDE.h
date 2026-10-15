@@ -9,6 +9,8 @@ namespace RPG::Client { class MatchThreeBoard; }
 #define BDKJMIOMPDE_ONCLEAR_OFFSET UNITYSDK_OFFSET(0x162FD480)
 #define BDKJMIOMPDE_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x162FD4C0)
 
+inline static constexpr unsigned int BDKJMIOMPDE_TypeDefinitionIndex = 65871;
+
 	class BDKJMIOMPDE : public ::FNIDIOCNBBI
 	{
 	public:

@@ -7,6 +7,8 @@ namespace RPG::GameCore { class FiveDimPortalConfig; }
 #define DAIPIAECOBO_CLEAR_OFFSET UNITYSDK_OFFSET(0x1CA13FF0)
 #define DAIPIAECOBO_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA14060)
 
+inline static constexpr unsigned int DAIPIAECOBO_TypeDefinitionIndex = 43478;
+
 	class DAIPIAECOBO : public ::System::Object
 	{
 	public:

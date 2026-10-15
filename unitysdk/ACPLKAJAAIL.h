@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int ACPLKAJAAIL_TypeDefinitionIndex = 34545;
+
 	enum class ACPLKAJAAIL : ::System::Int32
 	{
 		NLCDGIPGFDJ = 0,

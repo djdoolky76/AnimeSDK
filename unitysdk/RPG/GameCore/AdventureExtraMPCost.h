@@ -10,6 +10,8 @@ namespace RPG::GameCore { class AdventureExtraMPCost; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdventureExtraMPCost_TypeDefinitionIndex = 21805;
+
 	class AdventureExtraMPCost : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -9,6 +9,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define GCBMADADMDJ_DISPOSE_OFFSET UNITYSDK_OFFSET(0x159600B0)
 #define GCBMADADMDJ_FPFPPFDFDEP_OFFSET UNITYSDK_OFFSET(0x159600F0)
 
+inline static constexpr unsigned int GCBMADADMDJ_TypeDefinitionIndex = 52259;
+
 	class GCBMADADMDJ : public ::GELIALJDFBL
 	{
 	public:

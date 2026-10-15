@@ -6,6 +6,8 @@
 
 #define DKFLPDNIEFD_CTOR_OFFSET UNITYSDK_OFFSET(0xF87B080)
 
+inline static constexpr unsigned int DKFLPDNIEFD_TypeDefinitionIndex = 69620;
+
 	class DKFLPDNIEFD : public ::System::Object
 	{
 	public:

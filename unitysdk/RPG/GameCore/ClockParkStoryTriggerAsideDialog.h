@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ClockParkStoryTriggerAsideDialog; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ClockParkStoryTriggerAsideDialog_TypeDefinitionIndex = 20946;
+
 	class ClockParkStoryTriggerAsideDialog : public ::RPG::GameCore::TaskConfig
 	{
 	public:

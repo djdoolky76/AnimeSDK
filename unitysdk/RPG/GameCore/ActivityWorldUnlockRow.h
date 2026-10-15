@@ -9,6 +9,8 @@ namespace RPG::GameCore { class ActivityWorldUnlockRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ActivityWorldUnlockRow_TypeDefinitionIndex = 11231;
+
 	class ActivityWorldUnlockRow : public ::System::Object
 	{
 	public:

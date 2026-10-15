@@ -10,6 +10,8 @@ namespace RPG::GameCore { class UnloadLevelGroup; }
 #define DBJNMPCIDAC_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xE228820)
 #define DBJNMPCIDAC_TICK_OFFSET UNITYSDK_OFFSET(0xE228870)
 
+inline static constexpr unsigned int DBJNMPCIDAC_TypeDefinitionIndex = 53461;
+
 	class DBJNMPCIDAC : public ::GELIALJDFBL
 	{
 	public:

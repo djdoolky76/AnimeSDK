@@ -14,6 +14,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvGroupFetchTargetByStringList_TypeDefinitionIndex = 21158;
+
 	class AdvGroupFetchTargetByStringList : public ::RPG::GameCore::TargetEvaluator
 	{
 	public:

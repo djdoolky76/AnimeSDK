@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define GLILNCKKJOE_NLFLIOJPNIJ_OFFSET UNITYSDK_OFFSET(0x15AB9A30)
 #define GLILNCKKJOE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15AB7DC0)
 
+inline static constexpr unsigned int GLILNCKKJOE_TypeDefinitionIndex = 55671;
+
 	class GLILNCKKJOE
 	{
 	public:

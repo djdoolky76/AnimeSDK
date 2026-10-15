@@ -17,6 +17,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int SceneLightControlBehaviour_TypeDefinitionIndex = 48160;
+
 	class SceneLightControlBehaviour : public ::RPGTools::Timeline::RecoverablePlayableBehaviour
 	{
 	public:

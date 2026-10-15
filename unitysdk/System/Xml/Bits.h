@@ -8,6 +8,8 @@
 
 namespace System::Xml
 {
+	inline static constexpr unsigned int Bits_TypeDefinitionIndex = 1793;
+
 	class Bits : public ::System::Object
 	{
 	public:

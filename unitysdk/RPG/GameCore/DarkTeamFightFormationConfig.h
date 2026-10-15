@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DarkTeamFightFormationConfig_TypeDefinitionIndex = 16580;
+
 	class DarkTeamFightFormationConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

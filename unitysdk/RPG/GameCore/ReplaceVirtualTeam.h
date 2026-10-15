@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ReplaceVirtualTeam; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ReplaceVirtualTeam_TypeDefinitionIndex = 20458;
+
 	class ReplaceVirtualTeam : public ::RPG::GameCore::TaskConfig
 	{
 	public:

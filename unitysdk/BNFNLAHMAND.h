@@ -14,6 +14,8 @@ namespace System { class String; }
 #define BNFNLAHMAND_KKKIONIDKFA_OFFSET UNITYSDK_OFFSET(0x3C29B80)
 #define BNFNLAHMAND_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3C29C30)
 
+inline static constexpr unsigned int BNFNLAHMAND_TypeDefinitionIndex = 36894;
+
 	struct alignas(4) BNFNLAHMAND
 	{
 		::System::UInt32 MJMEEOIEMMM; // 0x10

@@ -29,6 +29,8 @@ namespace System { class String; }
 #define HJELNANIFIE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E5A6AC0)
 #define HJELNANIFIE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E5A6B20)
 
+inline static constexpr unsigned int HJELNANIFIE_TypeDefinitionIndex = 31485;
+
 	class HJELNANIFIE : public ::System::Object
 	{
 	public:

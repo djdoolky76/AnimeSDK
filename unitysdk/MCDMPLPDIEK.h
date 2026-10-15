@@ -8,6 +8,8 @@ namespace RPG::Client::Compliance::Ftc::DirectPurchase { class FtcDirectPurchase
 #define MCDMPLPDIEK_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xB877E70)
 #define MCDMPLPDIEK_CTOR_OFFSET UNITYSDK_OFFSET(0xB877DF0)
 
+inline static constexpr unsigned int MCDMPLPDIEK_TypeDefinitionIndex = 74833;
+
 	class MCDMPLPDIEK : public ::System::Object
 	{
 	public:

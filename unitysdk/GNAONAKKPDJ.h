@@ -9,6 +9,8 @@ namespace UnityEngine { class Transform; }
 
 #define GNAONAKKPDJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1CAB4E80)
 
+inline static constexpr unsigned int GNAONAKKPDJ_TypeDefinitionIndex = 42496;
+
 	class GNAONAKKPDJ : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System { class Object; }
 
 namespace Cysharp::Threading::Tasks
 {
+	inline static constexpr unsigned int UnityAsyncExtensions_AsyncGPUReadbackRequestAwaiterConfiguredSource___c_TypeDefinitionIndex = 38454;
+
 	class UnityAsyncExtensions_AsyncGPUReadbackRequestAwaiterConfiguredSource___c : public ::System::Object
 	{
 	public:

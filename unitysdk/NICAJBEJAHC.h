@@ -28,6 +28,8 @@ namespace System { class String; }
 #define NICAJBEJAHC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB25880)
 #define NICAJBEJAHC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB258E0)
 
+inline static constexpr unsigned int NICAJBEJAHC_TypeDefinitionIndex = 33559;
+
 	class NICAJBEJAHC : public ::System::Object
 	{
 	public:

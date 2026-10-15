@@ -28,6 +28,8 @@ namespace System { class Object; }
 
 namespace System::Runtime::InteropServices
 {
+	inline static constexpr unsigned int GCHandle_TypeDefinitionIndex = 1435;
+
 	struct alignas(4) GCHandle
 	{
 		::System::Int32 handle; // 0x10

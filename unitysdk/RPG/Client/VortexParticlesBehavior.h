@@ -72,6 +72,8 @@ namespace UnityEngine { class Texture2D; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int VortexParticlesBehavior_TypeDefinitionIndex = 70383;
+
 	class VortexParticlesBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:

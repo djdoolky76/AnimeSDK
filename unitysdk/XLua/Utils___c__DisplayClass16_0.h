@@ -9,6 +9,8 @@ namespace System::Reflection { class MethodInfo; }
 
 namespace XLua
 {
+	inline static constexpr unsigned int Utils___c__DisplayClass16_0_TypeDefinitionIndex = 50270;
+
 	class Utils___c__DisplayClass16_0 : public ::System::Object
 	{
 	public:

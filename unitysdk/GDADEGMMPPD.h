@@ -11,6 +11,8 @@ class GDADEGMMPPD;
 #define GDADEGMMPPD_SET_SPONSORID_OFFSET UNITYSDK_OFFSET(0x15991260)
 #define GDADEGMMPPD_SET_STATEID_OFFSET UNITYSDK_OFFSET(0x15991280)
 
+inline static constexpr unsigned int GDADEGMMPPD_TypeDefinitionIndex = 80299;
+
 	class GDADEGMMPPD : public ::System::Object
 	{
 	public:

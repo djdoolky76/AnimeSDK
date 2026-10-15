@@ -5,6 +5,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define CPGEJLFBDNP_CTOR_OFFSET UNITYSDK_OFFSET(0xDCD3F50)
 
+inline static constexpr unsigned int CPGEJLFBDNP_TypeDefinitionIndex = 81997;
+
 	class CPGEJLFBDNP : public ::System::Object
 	{
 	public:

@@ -48,6 +48,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define PPGEKOILFAL___ONSCREENTRANSFERTEXTEND_B__15_0_OFFSET UNITYSDK_OFFSET(0xC3857C0)
 #define PPGEKOILFAL___PROMISEKEEPTIMEOUT_B__19_0_OFFSET UNITYSDK_OFFSET(0xC385820)
 
+inline static constexpr unsigned int PPGEKOILFAL_TypeDefinitionIndex = 58267;
+
 	class PPGEKOILFAL : public ::GELIALJDFBL
 	{
 	public:

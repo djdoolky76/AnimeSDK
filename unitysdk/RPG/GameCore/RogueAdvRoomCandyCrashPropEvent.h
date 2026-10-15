@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueAdvRoomCandyCrashPropEvent_TypeDefinitionIndex = 22283;
+
 	class RogueAdvRoomCandyCrashPropEvent : public ::RPG::GameCore::TaskConfig
 	{
 	public:

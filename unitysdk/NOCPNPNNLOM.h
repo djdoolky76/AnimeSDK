@@ -8,6 +8,8 @@ class NOCPNPNNLOM;
 #define NOCPNPNNLOM_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D240630)
 #define NOCPNPNNLOM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D2405F0)
 
+inline static constexpr unsigned int NOCPNPNNLOM_TypeDefinitionIndex = 21563;
+
 	class NOCPNPNNLOM : public ::RPG::GameCore::TaskConfig
 	{
 	public:

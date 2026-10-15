@@ -8,6 +8,8 @@ namespace System { class Action; }
 #define NJMLJBNICND___C__DISPLAYCLASS9_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBC1FF60)
 #define NJMLJBNICND___C__DISPLAYCLASS9_0__EXECUTE_B__0_OFFSET UNITYSDK_OFFSET(0xBC20150)
 
+inline static constexpr unsigned int NJMLJBNICND___c__DisplayClass9_0_TypeDefinitionIndex = 78231;
+
 	class NJMLJBNICND___c__DisplayClass9_0 : public ::System::Object
 	{
 	public:

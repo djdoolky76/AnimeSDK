@@ -8,6 +8,8 @@ namespace System { class Action; }
 #define OKIBHNGFOLI___C__DISPLAYCLASS2_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBEDB5D0)
 #define OKIBHNGFOLI___C__DISPLAYCLASS2_0__TRYREGISTERSCHEDULEOPENCALLBACK_B__0_OFFSET UNITYSDK_OFFSET(0xBEDBAB0)
 
+inline static constexpr unsigned int OKIBHNGFOLI___c__DisplayClass2_0_TypeDefinitionIndex = 82110;
+
 	class OKIBHNGFOLI___c__DisplayClass2_0 : public ::System::Object
 	{
 	public:

@@ -36,6 +36,8 @@ namespace System { class String; }
 #define AMDJAFAHKEL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E519BA0)
 #define AMDJAFAHKEL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E519C00)
 
+inline static constexpr unsigned int AMDJAFAHKEL_TypeDefinitionIndex = 28546;
+
 	class AMDJAFAHKEL : public ::System::Object
 	{
 	public:

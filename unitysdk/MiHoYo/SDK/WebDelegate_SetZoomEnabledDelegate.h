@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int WebDelegate_SetZoomEnabledDelegate_TypeDefinitionIndex = 7826;
+
 	class WebDelegate_SetZoomEnabledDelegate : public ::System::MulticastDelegate
 	{
 	public:

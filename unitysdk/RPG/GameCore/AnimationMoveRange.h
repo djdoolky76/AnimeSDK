@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AnimationMoveRange_TypeDefinitionIndex = 22462;
+
 	class AnimationMoveRange : public ::RPG::GameCore::JsonConfig
 	{
 	public:

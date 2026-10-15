@@ -10,6 +10,8 @@ namespace System { class String; }
 #define KHHLCOPIEBE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D092310)
 #define KHHLCOPIEBE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D0922D0)
 
+inline static constexpr unsigned int KHHLCOPIEBE_TypeDefinitionIndex = 10193;
+
 	class KHHLCOPIEBE : public ::RPG::GameCore::TaskConfig
 	{
 	public:

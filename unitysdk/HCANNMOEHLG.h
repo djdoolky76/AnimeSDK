@@ -8,6 +8,8 @@ namespace System { class String; }
 #define HCANNMOEHLG_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0x15C164D0)
 #define HCANNMOEHLG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x15C16760)
 
+inline static constexpr unsigned int HCANNMOEHLG_TypeDefinitionIndex = 82147;
+
 	class HCANNMOEHLG : public ::JEAKFMBFLJK
 	{
 	public:

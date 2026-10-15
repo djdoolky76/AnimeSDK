@@ -27,6 +27,8 @@ namespace System { class String; }
 #define IAKKHBENIOL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E608090)
 #define IAKKHBENIOL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E6080F0)
 
+inline static constexpr unsigned int IAKKHBENIOL_TypeDefinitionIndex = 26629;
+
 	class IAKKHBENIOL : public ::System::Object
 	{
 	public:

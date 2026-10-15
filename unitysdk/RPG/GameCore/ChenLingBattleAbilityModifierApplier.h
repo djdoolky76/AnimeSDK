@@ -12,6 +12,8 @@ namespace RPG::GameCore { class ChenLingBattleAbilityModifierApplier; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChenLingBattleAbilityModifierApplier_TypeDefinitionIndex = 15809;
+
 	class ChenLingBattleAbilityModifierApplier : public ::RPG::GameCore::BaseChenLingBattleAbilityNodeConfig
 	{
 	public:

@@ -8,6 +8,8 @@ namespace RPG::Client::LittleGame::FiveDim::MiniGameNotify { class ScoreUpdate; 
 
 namespace RPG::Client::LittleGame::FiveDim::MiniGameNotify
 {
+	inline static constexpr unsigned int ScoreUpdate_TypeDefinitionIndex = 77245;
+
 	class ScoreUpdate : public ::System::Object
 	{
 	public:

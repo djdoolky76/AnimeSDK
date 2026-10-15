@@ -3,6 +3,8 @@
 
 #define GBCLFIPFEAP_CTOR_OFFSET UNITYSDK_OFFSET(0x1594B270)
 
+inline static constexpr unsigned int GBCLFIPFEAP_TypeDefinitionIndex = 57008;
+
 	class GBCLFIPFEAP
 	{
 	public:

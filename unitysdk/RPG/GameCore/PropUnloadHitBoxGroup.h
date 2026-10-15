@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PropUnloadHitBoxGroup_TypeDefinitionIndex = 20391;
+
 	class PropUnloadHitBoxGroup : public ::RPG::GameCore::TaskConfig
 	{
 	public:

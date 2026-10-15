@@ -11,6 +11,8 @@ namespace RPG::GameCore { class DynamicString; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AchievementWaitTime_TypeDefinitionIndex = 21037;
+
 	class AchievementWaitTime : public ::RPG::GameCore::TaskConfig
 	{
 	public:

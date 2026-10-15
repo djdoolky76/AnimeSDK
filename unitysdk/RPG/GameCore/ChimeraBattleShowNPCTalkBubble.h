@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChimeraBattleShowNPCTalkBubble_TypeDefinitionIndex = 15872;
+
 	class ChimeraBattleShowNPCTalkBubble : public ::RPG::GameCore::ChimeraAbilityProgressBase
 	{
 	public:

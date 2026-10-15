@@ -6,6 +6,8 @@ namespace System { class String; }
 
 #define BMPBGPIFPNA_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C8BD0C0)
 
+inline static constexpr unsigned int BMPBGPIFPNA_TypeDefinitionIndex = 42782;
+
 	class BMPBGPIFPNA : public ::System::Object
 	{
 	public:

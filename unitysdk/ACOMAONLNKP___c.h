@@ -8,6 +8,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define ACOMAONLNKP___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB12CC60)
 #define ACOMAONLNKP___C__SELECTTAKEBYCOUNT_B__13_0_OFFSET UNITYSDK_OFFSET(0xB12CC70)
 
+inline static constexpr unsigned int ACOMAONLNKP___c_TypeDefinitionIndex = 79404;
+
 	class ACOMAONLNKP___c : public ::System::Object
 	{
 	public:

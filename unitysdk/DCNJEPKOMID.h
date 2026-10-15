@@ -9,6 +9,8 @@ namespace RPG::Client::B51Racing { class B51RacingPauseDialogViewModel; }
 #define DCNJEPKOMID_DGJFBMGGALA_OFFSET UNITYSDK_OFFSET(0xE252490)
 #define DCNJEPKOMID_PKCAMAJNJDN_OFFSET UNITYSDK_OFFSET(0xE252530)
 
+inline static constexpr unsigned int DCNJEPKOMID_TypeDefinitionIndex = 81934;
+
 	class DCNJEPKOMID : public ::System::Object
 	{
 	public:

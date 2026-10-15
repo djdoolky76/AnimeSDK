@@ -6,6 +6,8 @@ namespace System { template <typename T> class Comparison_1; }
 
 namespace MiHoYo::SDK::ReporterUtil
 {
+	inline static constexpr unsigned int Analyzer_1___c_TypeDefinitionIndex = 46638;
+
 	template <typename T>
 	class Analyzer_1___c : public ::System::Object
 	{

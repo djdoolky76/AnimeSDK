@@ -11,6 +11,8 @@ namespace RPG::GameCore { class GridFightSkillSubIconConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightSkillSubIconConfigRow_TypeDefinitionIndex = 13540;
+
 	class GridFightSkillSubIconConfigRow : public ::System::Object
 	{
 	public:

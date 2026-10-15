@@ -13,6 +13,8 @@ namespace RPG::GameCore { class VisionBaseConfig; }
 #define IMMLEEBCDOG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x164DF450)
 #define IMMLEEBCDOG_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x164DFBE0)
 
+inline static constexpr unsigned int IMMLEEBCDOG_TypeDefinitionIndex = 52243;
+
 	class IMMLEEBCDOG
 	{
 	public:

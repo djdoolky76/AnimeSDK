@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace Mono
 {
+	inline static constexpr unsigned int RuntimeClassHandle_TypeDefinitionIndex = 5;
+
 	struct alignas(8) RuntimeClassHandle
 	{
 		::PVOID value; // 0x10

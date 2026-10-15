@@ -63,6 +63,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define HOBAKOLBNMI_PKKCFLONALA_OFFSET UNITYSDK_OFFSET(0x15DAB210)
 #define HOBAKOLBNMI_PNAHJHJDBEP_OFFSET UNITYSDK_OFFSET(0x15DAEC90)
 
+inline static constexpr unsigned int HOBAKOLBNMI_TypeDefinitionIndex = 78086;
+
 	class HOBAKOLBNMI : public ::System::Object
 	{
 	public:

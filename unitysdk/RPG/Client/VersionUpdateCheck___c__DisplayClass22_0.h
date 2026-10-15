@@ -11,6 +11,8 @@ namespace System { class Action; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int VersionUpdateCheck___c__DisplayClass22_0_TypeDefinitionIndex = 61259;
+
 	class VersionUpdateCheck___c__DisplayClass22_0 : public ::System::Object
 	{
 	public:

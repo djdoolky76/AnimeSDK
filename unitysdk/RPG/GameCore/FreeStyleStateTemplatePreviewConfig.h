@@ -9,6 +9,8 @@ namespace RPG::GameCore { class FreeStyleStateTemplatePreviewConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FreeStyleStateTemplatePreviewConfig_TypeDefinitionIndex = 16316;
+
 	class FreeStyleStateTemplatePreviewConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -27,6 +27,8 @@ namespace System { class String; }
 #define LJLKLNBNHLP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E985D50)
 #define LJLKLNBNHLP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E985DB0)
 
+inline static constexpr unsigned int LJLKLNBNHLP_TypeDefinitionIndex = 27594;
+
 	class LJLKLNBNHLP : public ::System::Object
 	{
 	public:

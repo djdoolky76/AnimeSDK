@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FileVisitorPosMode_TypeDefinitionIndex = 35269;
+
 	enum class FileVisitorPosMode : ::System::Int32
 	{
 		StreamAsset = 0,

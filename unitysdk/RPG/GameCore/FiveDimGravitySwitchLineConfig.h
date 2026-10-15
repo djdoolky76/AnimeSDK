@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimGravitySwitchLineConfig_TypeDefinitionIndex = 18595;
+
 	class FiveDimGravitySwitchLineConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
 	public:

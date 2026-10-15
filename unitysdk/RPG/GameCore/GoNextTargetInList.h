@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GoNextTargetInList; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GoNextTargetInList_TypeDefinitionIndex = 22470;
+
 	class GoNextTargetInList : public ::RPG::GameCore::TaskConfig
 	{
 	public:

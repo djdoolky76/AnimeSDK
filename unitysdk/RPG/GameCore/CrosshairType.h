@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CrosshairType_TypeDefinitionIndex = 16552;
+
 	enum class CrosshairType : ::System::Int32
 	{
 		Unknown = 0,

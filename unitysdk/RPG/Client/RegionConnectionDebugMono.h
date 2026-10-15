@@ -11,6 +11,8 @@ namespace RPG::GameCore { class StageRegionConnection; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RegionConnectionDebugMono_TypeDefinitionIndex = 62168;
+
 	class RegionConnectionDebugMono : public ::UnityEngine::MonoBehaviour
 	{
 	public:

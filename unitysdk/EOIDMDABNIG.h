@@ -7,6 +7,8 @@ namespace RPG::GameCore { class DiceCombatPredicateConfig_CustomValueCompare; }
 #define EOIDMDABNIG_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5E11C0)
 #define EOIDMDABNIG_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0x1C607EC0)
 
+inline static constexpr unsigned int EOIDMDABNIG_TypeDefinitionIndex = 36359;
+
 	class EOIDMDABNIG : public ::HHOHBHGLHHF
 	{
 	public:

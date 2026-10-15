@@ -9,6 +9,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MuseumModule___c__DisplayClass171_1_TypeDefinitionIndex = 66336;
+
 	template <typename T>
 	class MuseumModule___c__DisplayClass171_1 : public ::System::Object
 	{

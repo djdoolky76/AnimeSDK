@@ -36,6 +36,8 @@ namespace System { class String; }
 #define PAIJCBOKIFO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DEEEAF0)
 #define PAIJCBOKIFO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DEEEB50)
 
+inline static constexpr unsigned int PAIJCBOKIFO_TypeDefinitionIndex = 32638;
+
 	class PAIJCBOKIFO : public ::System::Object
 	{
 	public:

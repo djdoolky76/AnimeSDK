@@ -7,6 +7,8 @@
 
 namespace InControl::NativeDeviceProfiles
 {
+	inline static constexpr unsigned int EightBitdoNES30ProWindowsNativeProfile_TypeDefinitionIndex = 41298;
+
 	class EightBitdoNES30ProWindowsNativeProfile : public ::InControl::InputDeviceProfile
 	{
 	public:

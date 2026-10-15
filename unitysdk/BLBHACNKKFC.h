@@ -35,6 +35,8 @@ namespace System { class String; }
 #define BLBHACNKKFC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF5CA40)
 #define BLBHACNKKFC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF5CAA0)
 
+inline static constexpr unsigned int BLBHACNKKFC_TypeDefinitionIndex = 27918;
+
 	class BLBHACNKKFC : public ::System::Object
 	{
 	public:

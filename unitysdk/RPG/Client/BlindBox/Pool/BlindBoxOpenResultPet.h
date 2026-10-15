@@ -11,6 +11,8 @@ namespace RPG::Client::Pet::BlindBox { class IBlindBoxPetInstance; }
 
 namespace RPG::Client::BlindBox::Pool
 {
+	inline static constexpr unsigned int BlindBoxOpenResultPet_TypeDefinitionIndex = 74958;
+
 	class BlindBoxOpenResultPet : public ::System::Object
 	{
 	public:

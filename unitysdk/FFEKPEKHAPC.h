@@ -32,6 +32,8 @@ namespace System { class String; }
 #define FFEKPEKHAPC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E36D2A0)
 #define FFEKPEKHAPC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E36D300)
 
+inline static constexpr unsigned int FFEKPEKHAPC_TypeDefinitionIndex = 32241;
+
 	class FFEKPEKHAPC : public ::System::Object
 	{
 	public:

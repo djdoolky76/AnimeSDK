@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define DKMEDMFIDEA_LLEHLNAOELI_OFFSET UNITYSDK_OFFSET(0xF88A010)
 #define DKMEDMFIDEA_MDKIONKAKON_OFFSET UNITYSDK_OFFSET(0xF889F50)
 
+inline static constexpr unsigned int DKMEDMFIDEA_TypeDefinitionIndex = 61918;
+
 	class DKMEDMFIDEA : public ::System::Object
 	{
 	public:

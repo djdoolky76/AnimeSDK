@@ -45,6 +45,8 @@ namespace System { class String; }
 #define HJFCEEBAGMF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E5A7F00)
 #define HJFCEEBAGMF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E5A7F60)
 
+inline static constexpr unsigned int HJFCEEBAGMF_TypeDefinitionIndex = 28424;
+
 	class HJFCEEBAGMF : public ::System::Object
 	{
 	public:

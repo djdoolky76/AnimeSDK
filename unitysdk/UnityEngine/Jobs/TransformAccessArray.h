@@ -21,6 +21,8 @@ namespace UnityEngine { class Transform; }
 
 namespace UnityEngine::Jobs
 {
+	inline static constexpr unsigned int TransformAccessArray_TypeDefinitionIndex = 4431;
+
 	struct alignas(4) TransformAccessArray
 	{
 		::System::IntPtr m_TransformArray; // 0x10

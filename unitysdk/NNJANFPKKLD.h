@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define NNJANFPKKLD_CTOR_OFFSET UNITYSDK_OFFSET(0xBCB04F0)
 #define NNJANFPKKLD_TRANSFORM_OFFSET UNITYSDK_OFFSET(0xBCB0510)
 
+inline static constexpr unsigned int NNJANFPKKLD_TypeDefinitionIndex = 59249;
+
 	class NNJANFPKKLD
 	{
 	public:

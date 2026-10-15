@@ -10,6 +10,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelInfiniteInfoChange_TypeDefinitionIndex = 56734;
+
 	class LevelInfiniteInfoChange : public ::CMPGEAFHHDC
 	{
 	public:

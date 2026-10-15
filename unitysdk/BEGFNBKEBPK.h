@@ -27,6 +27,8 @@ namespace UnityEngine { class Transform; }
 #define BEGFNBKEBPK_NMGBFGFIMPG_OFFSET UNITYSDK_OFFSET(0x1631B170)
 #define BEGFNBKEBPK_PJKGPFLHDMF_OFFSET UNITYSDK_OFFSET(0x1631AD60)
 
+inline static constexpr unsigned int BEGFNBKEBPK_TypeDefinitionIndex = 48513;
+
 	class BEGFNBKEBPK : public ::ELDKEKGOENH
 	{
 	public:

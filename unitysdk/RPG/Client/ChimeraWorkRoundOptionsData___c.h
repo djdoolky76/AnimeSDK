@@ -11,6 +11,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChimeraWorkRoundOptionsData___c_TypeDefinitionIndex = 63516;
+
 	class ChimeraWorkRoundOptionsData___c : public ::System::Object
 	{
 	public:

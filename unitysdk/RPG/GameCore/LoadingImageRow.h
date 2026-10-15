@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LoadingImageRow_TypeDefinitionIndex = 13987;
+
 	class LoadingImageRow : public ::System::Object
 	{
 	public:

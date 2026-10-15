@@ -8,6 +8,8 @@
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int ChimeraBillboardCanvasAdaptingScaler_TypeDefinitionIndex = 78467;
+
 	class ChimeraBillboardCanvasAdaptingScaler : public ::UnityEngine::MonoBehaviour
 	{
 	public:

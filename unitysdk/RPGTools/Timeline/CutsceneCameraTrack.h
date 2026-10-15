@@ -16,6 +16,8 @@ namespace UnityEngine::Timeline { class TimelineClip; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int CutsceneCameraTrack_TypeDefinitionIndex = 48059;
+
 	class CutsceneCameraTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
 	public:

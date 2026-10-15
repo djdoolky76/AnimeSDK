@@ -6,6 +6,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MissionModule_PlayMessage_TypeDefinitionIndex = 66139;
+
 	struct alignas(8) MissionModule_PlayMessage
 	{
 		::System::Collections::Generic::List_1<::System::UInt32>* MessageSectionList; // 0x10

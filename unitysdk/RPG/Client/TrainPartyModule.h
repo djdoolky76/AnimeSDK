@@ -56,6 +56,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TrainPartyModule_TypeDefinitionIndex = 68169;
+
 	class TrainPartyModule : public ::RPG::Client::BaseModule
 	{
 	public:

@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define IKHINIIBOBN_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CF1B480)
 #define IKHINIIBOBN_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CF1AE20)
 
+inline static constexpr unsigned int IKHINIIBOBN_TypeDefinitionIndex = 13921;
+
 	class IKHINIIBOBN : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace RPG::Client::DirectDeliveryNotice
 {
+	inline static constexpr unsigned int ActivityAvatarInfoControl_TypeDefinitionIndex = 81237;
+
 	class ActivityAvatarInfoControl : public ::Sofa::BaseSofaControl
 	{
 	public:

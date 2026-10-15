@@ -33,6 +33,8 @@ namespace System { class String; }
 #define LKBJBOOHAKB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E98C040)
 #define LKBJBOOHAKB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E98C0A0)
 
+inline static constexpr unsigned int LKBJBOOHAKB_TypeDefinitionIndex = 34131;
+
 	class LKBJBOOHAKB : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@
 
 namespace Mono::Net
 {
+	inline static constexpr unsigned int CFDictionary_TypeDefinitionIndex = 2411;
+
 	class CFDictionary : public ::Mono::Net::CFObject
 	{
 	public:

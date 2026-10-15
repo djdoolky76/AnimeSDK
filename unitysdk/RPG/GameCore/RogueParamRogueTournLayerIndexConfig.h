@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueParamRogueTournLayerIndexConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueParamRogueTournLayerIndexConfig_TypeDefinitionIndex = 19834;
+
 	class RogueParamRogueTournLayerIndexConfig : public ::RPG::GameCore::RogueParameterConfigBase
 	{
 	public:

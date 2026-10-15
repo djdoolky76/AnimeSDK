@@ -19,6 +19,8 @@ namespace UnityEngine { class GameObject; }
 #define AKGAMEOBJENVIRONMENTDATA_TRYADDENVIRONMENT_OFFSET UNITYSDK_OFFSET(0x1F5973D0)
 #define AKGAMEOBJENVIRONMENTDATA_UPDATEAUXSEND_OFFSET UNITYSDK_OFFSET(0x1F594E70)
 
+inline static constexpr unsigned int AkGameObjEnvironmentData_TypeDefinitionIndex = 44930;
+
 	class AkGameObjEnvironmentData : public ::System::Object
 	{
 	public:

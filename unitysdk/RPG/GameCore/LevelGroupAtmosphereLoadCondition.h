@@ -10,6 +10,8 @@ namespace RPG::GameCore { class LevelGroupAtmosphereLoadCondition; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelGroupAtmosphereLoadCondition_TypeDefinitionIndex = 17212;
+
 	class LevelGroupAtmosphereLoadCondition : public ::RPG::GameCore::JsonConfig
 	{
 	public:

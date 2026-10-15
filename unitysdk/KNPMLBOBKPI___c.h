@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define KNPMLBOBKPI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8AA8C0)
 #define KNPMLBOBKPI___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E8AA8D0)
 
+inline static constexpr unsigned int KNPMLBOBKPI___c_TypeDefinitionIndex = 33261;
+
 	class KNPMLBOBKPI___c : public ::System::Object
 	{
 	public:

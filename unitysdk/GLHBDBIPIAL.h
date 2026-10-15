@@ -11,6 +11,8 @@ namespace RPG::Client::LittleGame { class ElfRestaurantGameEntity; }
 #define GLHBDBIPIAL_IJOLENBNDDC_OFFSET UNITYSDK_OFFSET(0x15AB3730)
 #define GLHBDBIPIAL_TEARDOWN_OFFSET UNITYSDK_OFFSET(0x15AB37A0)
 
+inline static constexpr unsigned int GLHBDBIPIAL_TypeDefinitionIndex = 77268;
+
 	class GLHBDBIPIAL : public ::System::Object
 	{
 	public:

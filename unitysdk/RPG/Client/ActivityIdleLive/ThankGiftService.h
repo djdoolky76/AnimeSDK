@@ -9,6 +9,8 @@ namespace System { class Object; }
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int ThankGiftService_TypeDefinitionIndex = 75362;
+
 	class ThankGiftService : public ::System::Object
 	{
 	public:

@@ -14,6 +14,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int SimpleBlackMaskClip_TypeDefinitionIndex = 48307;
+
 	class SimpleBlackMaskClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

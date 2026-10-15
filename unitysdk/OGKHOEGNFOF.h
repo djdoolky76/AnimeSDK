@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 #define OGKHOEGNFOF_FILLNOTIFYTYPESTO_OFFSET UNITYSDK_OFFSET(0xBE59A70)
 #define OGKHOEGNFOF__DOCHECKIMPL_OFFSET UNITYSDK_OFFSET(0xBE59B00)
 
+inline static constexpr unsigned int OGKHOEGNFOF_TypeDefinitionIndex = 59869;
+
 	class OGKHOEGNFOF : public ::RPG::Client::SyncCheckItemBase
 	{
 	public:

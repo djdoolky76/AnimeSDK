@@ -14,6 +14,8 @@ namespace UnityEngine { class Material; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int RPGInstancedItemClusterVolumeManager_TypeDefinitionIndex = 4294;
+
 	class RPGInstancedItemClusterVolumeManager : public ::UnityEngine::Behaviour
 	{
 	public:

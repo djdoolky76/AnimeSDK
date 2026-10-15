@@ -11,6 +11,8 @@ namespace RPG::GameCore { class GridFightPrepWaitCustomTime; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightPrepWaitCustomTime_TypeDefinitionIndex = 19973;
+
 	class GridFightPrepWaitCustomTime : public ::RPG::GameCore::TaskConfig
 	{
 	public:

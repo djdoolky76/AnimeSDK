@@ -30,6 +30,8 @@ namespace System { class String; }
 #define OMLBEGNKAOE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DEB9650)
 #define OMLBEGNKAOE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DEB96B0)
 
+inline static constexpr unsigned int OMLBEGNKAOE_TypeDefinitionIndex = 30037;
+
 	class OMLBEGNKAOE : public ::System::Object
 	{
 	public:

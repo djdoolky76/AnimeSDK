@@ -7,6 +7,8 @@ namespace RPG::GameCore { class DiceCombatTaskConfig_TriggerSkillHint; }
 #define LKOBPGBMOHF_CTOR_OFFSET UNITYSDK_OFFSET(0x1C73CCE0)
 #define LKOBPGBMOHF_MLKLPMJEHPF_OFFSET UNITYSDK_OFFSET(0x1C73CCF0)
 
+inline static constexpr unsigned int LKOBPGBMOHF_TypeDefinitionIndex = 36303;
+
 	class LKOBPGBMOHF : public ::AJBKGPOEBFG
 	{
 	public:

@@ -16,6 +16,8 @@ namespace System { class String; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_NodeSync_TypeDefinitionIndex = 40598;
+
 	class HEU_NodeSync : public ::HoudiniEngineUnity::HEU_BaseSync
 	{
 	public:

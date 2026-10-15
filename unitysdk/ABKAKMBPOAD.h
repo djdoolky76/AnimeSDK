@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define ABKAKMBPOAD_CTOR_OFFSET UNITYSDK_OFFSET(0xB105080)
 #define ABKAKMBPOAD_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB1050B0)
 
+inline static constexpr unsigned int ABKAKMBPOAD_TypeDefinitionIndex = 52130;
+
 	class ABKAKMBPOAD
 	{
 	public:

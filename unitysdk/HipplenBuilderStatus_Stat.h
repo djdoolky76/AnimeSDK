@@ -22,6 +22,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define HIPPLENBUILDERSTATUS_STAT_GET_WARNINGVALUE_OFFSET UNITYSDK_OFFSET(0x15DF1A10)
 #define HIPPLENBUILDERSTATUS_STAT_PNCEALKCNJK_OFFSET UNITYSDK_OFFSET(0x15DF18A0)
 
+inline static constexpr unsigned int HipplenBuilderStatus_Stat_TypeDefinitionIndex = 47209;
+
 	class HipplenBuilderStatus_Stat : public ::System::Object
 	{
 	public:

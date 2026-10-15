@@ -11,6 +11,8 @@ namespace UnityEngine { class Animation; }
 
 namespace RPG::Client::Challenge::Tierce
 {
+	inline static constexpr unsigned int ChallengeTierceStageSelectStageSwitchVfxControl_TypeDefinitionIndex = 81553;
+
 	class ChallengeTierceStageSelectStageSwitchVfxControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

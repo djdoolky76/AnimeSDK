@@ -17,6 +17,8 @@ namespace RPG::GameCore { class ChatInviteConfigRow; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChatMessageExtendData_TypeDefinitionIndex = 63220;
+
 	class ChatMessageExtendData : public ::System::Object
 	{
 	public:

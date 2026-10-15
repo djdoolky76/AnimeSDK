@@ -6,6 +6,8 @@ class CPGHDGPPBJH;
 
 #define ABNKOJNOGFE_CTOR_OFFSET UNITYSDK_OFFSET(0xB10DE50)
 
+inline static constexpr unsigned int ABNKOJNOGFE_TypeDefinitionIndex = 80561;
+
 	class ABNKOJNOGFE : public ::System::Object
 	{
 	public:

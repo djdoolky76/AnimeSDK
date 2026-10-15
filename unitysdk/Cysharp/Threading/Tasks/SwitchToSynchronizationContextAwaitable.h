@@ -9,6 +9,8 @@ namespace System::Threading { class SynchronizationContext; }
 
 namespace Cysharp::Threading::Tasks
 {
+	inline static constexpr unsigned int SwitchToSynchronizationContextAwaitable_TypeDefinitionIndex = 38371;
+
 	struct alignas(8) SwitchToSynchronizationContextAwaitable
 	{
 		::System::Threading::SynchronizationContext* synchronizationContext; // 0x10

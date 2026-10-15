@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int IVRChaperoneSetup__SetWorkingCollisionBoundsInfo_TypeDefinitionIndex = 39003;
+
 	class IVRChaperoneSetup__SetWorkingCollisionBoundsInfo : public ::System::MulticastDelegate
 	{
 	public:

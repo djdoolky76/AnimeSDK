@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define IIIEPOGPLOI_CTOR_OFFSET UNITYSDK_OFFSET(0x1643DC40)
 #define IIIEPOGPLOI_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x1643DC60)
 
+inline static constexpr unsigned int IIIEPOGPLOI_TypeDefinitionIndex = 53806;
+
 	class IIIEPOGPLOI
 	{
 	public:

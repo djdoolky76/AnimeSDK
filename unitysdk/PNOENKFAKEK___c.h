@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define PNOENKFAKEK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DFC0870)
 #define PNOENKFAKEK___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1DFC0880)
 
+inline static constexpr unsigned int PNOENKFAKEK___c_TypeDefinitionIndex = 28033;
+
 	class PNOENKFAKEK___c : public ::System::Object
 	{
 	public:

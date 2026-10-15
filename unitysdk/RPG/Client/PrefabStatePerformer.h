@@ -9,6 +9,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PrefabStatePerformer_TypeDefinitionIndex = 68965;
+
 	class PrefabStatePerformer : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define GDCGFMIGNIO_CTOR_OFFSET UNITYSDK_OFFSET(0x15994740)
 #define GDCGFMIGNIO_PKADDEPKJFN_OFFSET UNITYSDK_OFFSET(0x15994370)
 
+inline static constexpr unsigned int GDCGFMIGNIO_TypeDefinitionIndex = 77883;
+
 	class GDCGFMIGNIO : public ::System::Object
 	{
 	public:

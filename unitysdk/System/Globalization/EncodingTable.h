@@ -19,6 +19,8 @@ namespace System::Text { class EncodingInfo; }
 
 namespace System::Globalization
 {
+	inline static constexpr unsigned int EncodingTable_TypeDefinitionIndex = 785;
+
 	class EncodingTable : public ::System::Object
 	{
 	public:

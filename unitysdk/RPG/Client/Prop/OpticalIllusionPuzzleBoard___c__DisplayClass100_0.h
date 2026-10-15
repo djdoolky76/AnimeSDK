@@ -8,6 +8,8 @@ namespace RPG::Client::Prop { class OpticalIllusionPuzzleBoard_IBMIJELKFCI; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int OpticalIllusionPuzzleBoard___c__DisplayClass100_0_TypeDefinitionIndex = 78706;
+
 	class OpticalIllusionPuzzleBoard___c__DisplayClass100_0 : public ::System::Object
 	{
 	public:

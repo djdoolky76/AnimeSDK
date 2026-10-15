@@ -6,6 +6,8 @@ namespace RPG::Client::LittleGame::FiveDim { template <typename T> class Phantom
 #define CHEDCKKCADH_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8E4930)
 #define CHEDCKKCADH_GAFAJGPHHEP_OFFSET UNITYSDK_OFFSET(0x1C8E4730)
 
+inline static constexpr unsigned int CHEDCKKCADH_TypeDefinitionIndex = 43584;
+
 	class CHEDCKKCADH : public ::System::Object
 	{
 	public:

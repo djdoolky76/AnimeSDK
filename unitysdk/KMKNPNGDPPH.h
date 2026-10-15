@@ -6,6 +6,8 @@ namespace System { class String; }
 
 #define KMKNPNGDPPH_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C908AA0)
 
+inline static constexpr unsigned int KMKNPNGDPPH_TypeDefinitionIndex = 42787;
+
 	class KMKNPNGDPPH : public ::System::Object
 	{
 	public:

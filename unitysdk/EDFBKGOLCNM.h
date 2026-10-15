@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define EDFBKGOLCNM_ONMODELARTUNLOADED_OFFSET UNITYSDK_OFFSET(0x133137F0)
 #define EDFBKGOLCNM_PGIELCLCMKD_OFFSET UNITYSDK_OFFSET(0x13313C50)
 
+inline static constexpr unsigned int EDFBKGOLCNM_TypeDefinitionIndex = 57298;
+
 	class EDFBKGOLCNM : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

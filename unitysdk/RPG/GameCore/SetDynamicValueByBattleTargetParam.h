@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetDynamicValueByBattleTargetParam_TypeDefinitionIndex = 23835;
+
 	class SetDynamicValueByBattleTargetParam : public ::RPG::GameCore::TaskConfig
 	{
 	public:

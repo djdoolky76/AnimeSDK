@@ -8,6 +8,8 @@ namespace RPG::GameCore { class TaskConfig; }
 #define GELIALJDFBL_GETCONFIG_OFFSET UNITYSDK_OFFSET(0x159E0980)
 #define GELIALJDFBL_MDFBKGOJOJI_OFFSET UNITYSDK_OFFSET(0x159E0940)
 
+inline static constexpr unsigned int GELIALJDFBL_TypeDefinitionIndex = 54777;
+
 	class GELIALJDFBL : public ::System::Object
 	{
 	public:

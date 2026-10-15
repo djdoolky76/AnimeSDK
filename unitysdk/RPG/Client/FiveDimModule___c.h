@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FiveDimModule___c_TypeDefinitionIndex = 64211;
+
 	class FiveDimModule___c : public ::System::Object
 	{
 	public:

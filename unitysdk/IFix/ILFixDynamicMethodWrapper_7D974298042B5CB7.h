@@ -657,6 +657,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace IFix
 {
+	inline static constexpr unsigned int ILFixDynamicMethodWrapper_7D974298042B5CB7_TypeDefinitionIndex = 37452;
+
 	class ILFixDynamicMethodWrapper_7D974298042B5CB7 : public ::System::Object
 	{
 	public:

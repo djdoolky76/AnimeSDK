@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace System::Numerics
 {
+	inline static constexpr unsigned int Quaternion_TypeDefinitionIndex = 3859;
+
 	struct alignas(4) Quaternion
 	{
 		::System::Single X; // 0x10

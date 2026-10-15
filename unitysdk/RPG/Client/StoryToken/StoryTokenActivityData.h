@@ -10,6 +10,8 @@
 
 namespace RPG::Client::StoryToken
 {
+	inline static constexpr unsigned int StoryTokenActivityData_TypeDefinitionIndex = 74389;
+
 	class StoryTokenActivityData : public ::RPG::Client::DailyLoginRewardActivityData
 	{
 	public:

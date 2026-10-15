@@ -13,6 +13,8 @@ namespace RPG::Client::Promises { class IPromise; }
 #define ILBABDPONON_DKOAEFPLBHH_OFFSET UNITYSDK_OFFSET(0x164A78F0)
 #define ILBABDPONON__FLIPISMARKED_B__3_0_OFFSET UNITYSDK_OFFSET(0x164A79C0)
 
+inline static constexpr unsigned int ILBABDPONON_TypeDefinitionIndex = 62767;
+
 	class ILBABDPONON : public ::BHPMNMMGLHI
 	{
 	public:

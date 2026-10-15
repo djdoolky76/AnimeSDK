@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define KPCJEMLNAJF_ONGRAPHSTART_OFFSET UNITYSDK_OFFSET(0xB5B0CF0)
 #define KPCJEMLNAJF_ONGRAPHSTOP_OFFSET UNITYSDK_OFFSET(0xB5B0DB0)
 
+inline static constexpr unsigned int KPCJEMLNAJF_TypeDefinitionIndex = 47982;
+
 	class KPCJEMLNAJF : public ::ONEGHOPELAC
 	{
 	public:

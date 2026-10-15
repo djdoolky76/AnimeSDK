@@ -9,6 +9,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AbilitySkillPerformFinish_TypeDefinitionIndex = 56584;
+
 	class AbilitySkillPerformFinish : public ::System::Object
 	{
 	public:

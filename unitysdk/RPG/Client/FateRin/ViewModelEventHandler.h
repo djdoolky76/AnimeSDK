@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace RPG::Client::FateRin
 {
+	inline static constexpr unsigned int ViewModelEventHandler_TypeDefinitionIndex = 80629;
+
 	class ViewModelEventHandler : public ::System::MulticastDelegate
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System { template <typename T> class Comparison_1; }
 #define KBNMOCNNMKO___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB323CB0)
 #define KBNMOCNNMKO___C__CREATECARDS_B__1_0_OFFSET UNITYSDK_OFFSET(0xB323CC0)
 
+inline static constexpr unsigned int KBNMOCNNMKO___c_TypeDefinitionIndex = 63794;
+
 	class KBNMOCNNMKO___c : public ::System::Object
 	{
 	public:

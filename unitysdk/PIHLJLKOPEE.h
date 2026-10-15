@@ -29,6 +29,8 @@ namespace System { class String; }
 #define PIHLJLKOPEE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF67FF0)
 #define PIHLJLKOPEE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF68050)
 
+inline static constexpr unsigned int PIHLJLKOPEE_TypeDefinitionIndex = 30164;
+
 	class PIHLJLKOPEE : public ::System::Object
 	{
 	public:

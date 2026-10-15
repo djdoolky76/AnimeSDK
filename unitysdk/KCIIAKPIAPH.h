@@ -20,6 +20,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define KCIIAKPIAPH_NLOCAAAANNG_OFFSET UNITYSDK_OFFSET(0xB33A120)
 #define KCIIAKPIAPH_PLKCKCEFBIM_OFFSET UNITYSDK_OFFSET(0xB33A250)
 
+inline static constexpr unsigned int KCIIAKPIAPH_TypeDefinitionIndex = 56527;
+
 	class KCIIAKPIAPH : public ::System::Object
 	{
 	public:

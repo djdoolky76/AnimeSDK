@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightGuideBook___c_TypeDefinitionIndex = 64891;
+
 	class GridFightGuideBook___c : public ::System::Object
 	{
 	public:

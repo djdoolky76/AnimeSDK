@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int QTEUIData_TypeDefinitionIndex = 71173;
+
 	class QTEUIData : public ::System::Object
 	{
 	public:

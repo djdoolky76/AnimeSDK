@@ -5,6 +5,8 @@
 
 #define BLLCHHIMKCJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5C0400)
 
+inline static constexpr unsigned int BLLCHHIMKCJ_TypeDefinitionIndex = 36563;
+
 	class BLLCHHIMKCJ : public ::System::Object
 	{
 	public:

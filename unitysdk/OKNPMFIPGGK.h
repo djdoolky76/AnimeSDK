@@ -10,6 +10,8 @@ namespace UnityEngine { class MonoBehaviour; }
 #define OKNPMFIPGGK_HPNDIIPEFLJ_OFFSET UNITYSDK_OFFSET(0xBEF1170)
 #define OKNPMFIPGGK_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xBEF0DF0)
 
+inline static constexpr unsigned int OKNPMFIPGGK_TypeDefinitionIndex = 70373;
+
 	class OKNPMFIPGGK : public ::RPG::Client::BehaviorBase
 	{
 	public:

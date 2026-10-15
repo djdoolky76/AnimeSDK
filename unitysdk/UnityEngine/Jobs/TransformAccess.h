@@ -7,6 +7,8 @@
 
 namespace UnityEngine::Jobs
 {
+	inline static constexpr unsigned int TransformAccess_TypeDefinitionIndex = 4430;
+
 	struct alignas(4) TransformAccess
 	{
 		::System::IntPtr hierarchy; // 0x10

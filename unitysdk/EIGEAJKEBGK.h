@@ -9,6 +9,8 @@
 #define EIGEAJKEBGK_CCTOR_OFFSET UNITYSDK_OFFSET(0x154C4C10)
 #define EIGEAJKEBGK_GEIKBPMEHHK_OFFSET UNITYSDK_OFFSET(0x154C4BB0)
 
+inline static constexpr unsigned int EIGEAJKEBGK_TypeDefinitionIndex = 48986;
+
 	class EIGEAJKEBGK : public ::System::Object
 	{
 	public:

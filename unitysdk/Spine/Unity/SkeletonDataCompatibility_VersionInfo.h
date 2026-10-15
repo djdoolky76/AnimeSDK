@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace Spine::Unity
 {
+	inline static constexpr unsigned int SkeletonDataCompatibility_VersionInfo_TypeDefinitionIndex = 45005;
+
 	class SkeletonDataCompatibility_VersionInfo : public ::System::Object
 	{
 	public:

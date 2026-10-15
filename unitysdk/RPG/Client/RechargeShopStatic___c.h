@@ -14,6 +14,8 @@ namespace System::Collections::Generic { class KeyValuePair; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RechargeShopStatic___c_TypeDefinitionIndex = 66802;
+
 	class RechargeShopStatic___c : public ::System::Object
 	{
 	public:

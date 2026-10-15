@@ -11,6 +11,8 @@ namespace RPG::Client { class RoadRashGameModifier_FireProjectileEmitter; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RoadRashGameModifier_FireProjectileEmitter_TypeDefinitionIndex = 10289;
+
 	class RoadRashGameModifier_FireProjectileEmitter : public ::RPG::GameCore::BaseLittleGameAbilityTaskConfig
 	{
 	public:

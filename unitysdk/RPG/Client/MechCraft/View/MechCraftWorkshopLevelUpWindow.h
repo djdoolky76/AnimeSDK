@@ -14,6 +14,8 @@ namespace System { class Action; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftWorkshopLevelUpWindow_TypeDefinitionIndex = 80079;
+
 	class MechCraftWorkshopLevelUpWindow : public ::Sofa::BaseSofaWindow
 	{
 	public:

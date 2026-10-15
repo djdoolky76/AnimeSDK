@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define PLIFLIBCHLD_OFJKCPKFEAG_OFFSET UNITYSDK_OFFSET(0xC307830)
 #define PLIFLIBCHLD_PKMPFMAADGP_OFFSET UNITYSDK_OFFSET(0xC307920)
 
+inline static constexpr unsigned int PLIFLIBCHLD_TypeDefinitionIndex = 64196;
+
 	class PLIFLIBCHLD : public ::System::Object
 	{
 	public:

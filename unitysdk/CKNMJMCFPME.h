@@ -14,6 +14,8 @@ namespace System { class String; }
 #define CKNMJMCFPME_SET_LIVERYID_OFFSET UNITYSDK_OFFSET(0xD76AAE0)
 #define CKNMJMCFPME_SET_NAME_OFFSET UNITYSDK_OFFSET(0xD76AB00)
 
+inline static constexpr unsigned int CKNMJMCFPME_TypeDefinitionIndex = 81693;
+
 	class CKNMJMCFPME : public ::System::Object
 	{
 	public:

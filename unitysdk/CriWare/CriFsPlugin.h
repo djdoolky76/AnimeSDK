@@ -23,6 +23,8 @@
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriFsPlugin_TypeDefinitionIndex = 40117;
+
 	class CriFsPlugin : public ::System::Object
 	{
 	public:

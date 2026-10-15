@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightTraitEffectIdConfigRow_TypeDefinitionIndex = 13674;
+
 	class GridFightTraitEffectIdConfigRow : public ::System::Object
 	{
 	public:

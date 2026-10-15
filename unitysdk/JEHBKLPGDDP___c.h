@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define JEHBKLPGDDP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x166232E0)
 #define JEHBKLPGDDP___C___SHOWTUTORIALGUIDE_B__5_1_OFFSET UNITYSDK_OFFSET(0x166232F0)
 
+inline static constexpr unsigned int JEHBKLPGDDP___c_TypeDefinitionIndex = 58702;
+
 	class JEHBKLPGDDP___c : public ::System::Object
 	{
 	public:

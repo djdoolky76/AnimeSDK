@@ -34,6 +34,8 @@ namespace System { class String; }
 #define EAINGAEAJIN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E22B710)
 #define EAINGAEAJIN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E22B770)
 
+inline static constexpr unsigned int EAINGAEAJIN_TypeDefinitionIndex = 31376;
+
 	class EAINGAEAJIN : public ::System::Object
 	{
 	public:

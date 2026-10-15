@@ -18,6 +18,8 @@ namespace XLua { class LuaTable; }
 
 namespace RPG::Client::PixAir
 {
+	inline static constexpr unsigned int PixAirEquipInfoControl_TypeDefinitionIndex = 79244;
+
 	class PixAirEquipInfoControl : public ::Sofa::BaseSofaControl
 	{
 	public:

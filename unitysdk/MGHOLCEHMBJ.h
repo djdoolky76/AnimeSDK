@@ -8,6 +8,8 @@ namespace RPG::GameCore { class DiceCombatDiceSelectorConfig; }
 #define MGHOLCEHMBJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1C74AF60)
 #define MGHOLCEHMBJ_KDNJPGOCAED_OFFSET UNITYSDK_OFFSET(0x1C70FBB0)
 
+inline static constexpr unsigned int MGHOLCEHMBJ_TypeDefinitionIndex = 36373;
+
 	class MGHOLCEHMBJ : public ::System::Object
 	{
 	public:

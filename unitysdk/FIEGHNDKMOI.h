@@ -7,6 +7,8 @@ class FIEGHNDKMOI;
 #define FIEGHNDKMOI_CTOR_OFFSET UNITYSDK_OFFSET(0x1CDF5FE0)
 #define FIEGHNDKMOI_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CDF5E50)
 
+inline static constexpr unsigned int FIEGHNDKMOI_TypeDefinitionIndex = 13955;
+
 	class FIEGHNDKMOI : public ::System::Object
 	{
 	public:

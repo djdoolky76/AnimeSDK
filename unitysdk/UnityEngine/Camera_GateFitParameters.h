@@ -10,6 +10,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int Camera_GateFitParameters_TypeDefinitionIndex = 4043;
+
 	struct alignas(4) Camera_GateFitParameters
 	{
 		::UnityEngine::Camera_GateFitMode _mode_k__BackingField; // 0x10

@@ -26,6 +26,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int InventorySortExcelTable_TypeDefinitionIndex = 13832;
+
 	class InventorySortExcelTable : public ::System::Object
 	{
 	public:

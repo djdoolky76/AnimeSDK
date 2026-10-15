@@ -19,6 +19,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 
 namespace RPG::Client::TrainParty::BadgeWall
 {
+	inline static constexpr unsigned int TrainPartyBuildBadgeWallViewModel_TypeDefinitionIndex = 74380;
+
 	class TrainPartyBuildBadgeWallViewModel : public ::System::Object
 	{
 	public:

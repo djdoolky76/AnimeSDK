@@ -27,6 +27,8 @@ namespace System { class String; }
 #define LJFEONHOKAG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E97B370)
 #define LJFEONHOKAG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E97B3D0)
 
+inline static constexpr unsigned int LJFEONHOKAG_TypeDefinitionIndex = 35107;
+
 	class LJFEONHOKAG : public ::System::Object
 	{
 	public:

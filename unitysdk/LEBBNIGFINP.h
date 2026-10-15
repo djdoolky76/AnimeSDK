@@ -16,6 +16,8 @@ namespace UnityEngine { class Transform; }
 #define LEBBNIGFINP__ONBIND_OFFSET UNITYSDK_OFFSET(0xB64B7F0)
 #define LEBBNIGFINP__ONDISPOSE_OFFSET UNITYSDK_OFFSET(0xB64BA70)
 
+inline static constexpr unsigned int LEBBNIGFINP_TypeDefinitionIndex = 71864;
+
 	class LEBBNIGFINP : public ::FMPCODLIOLG
 	{
 	public:

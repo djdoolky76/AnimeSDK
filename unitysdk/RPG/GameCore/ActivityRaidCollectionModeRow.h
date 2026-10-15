@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ActivityRaidCollectionModeRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ActivityRaidCollectionModeRow_TypeDefinitionIndex = 12320;
+
 	class ActivityRaidCollectionModeRow : public ::System::Object
 	{
 	public:

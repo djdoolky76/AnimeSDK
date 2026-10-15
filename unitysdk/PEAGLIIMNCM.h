@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ChimeraWaitSecond; }
 #define PEAGLIIMNCM_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0xC023F10)
 #define PEAGLIIMNCM_SET_CANBEREMOVED_OFFSET UNITYSDK_OFFSET(0xC024040)
 
+inline static constexpr unsigned int PEAGLIIMNCM_TypeDefinitionIndex = 78398;
+
 	class PEAGLIIMNCM : public ::System::Object
 	{
 	public:

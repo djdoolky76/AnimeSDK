@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define HGJKHDLOGEP_SET_CURPLANEID_OFFSET UNITYSDK_OFFSET(0x15CA7000)
 #define HGJKHDLOGEP_SET_CURSTAGEID_OFFSET UNITYSDK_OFFSET(0x15CA6FA0)
 
+inline static constexpr unsigned int HGJKHDLOGEP_TypeDefinitionIndex = 79218;
+
 	class HGJKHDLOGEP : public ::System::Object
 	{
 	public:

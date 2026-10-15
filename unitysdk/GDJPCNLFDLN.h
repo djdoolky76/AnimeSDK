@@ -2,6 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/JFFOAJNHNIP.h"
 
+inline static constexpr unsigned int GDJPCNLFDLN_TypeDefinitionIndex = 43426;
+
 	struct alignas(4) GDJPCNLFDLN
 	{
 		::System::Single IJIJIBOAGGP; // 0x10

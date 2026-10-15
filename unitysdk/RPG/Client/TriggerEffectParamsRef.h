@@ -20,6 +20,8 @@ namespace System::Text { class StringBuilder; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TriggerEffectParamsRef_TypeDefinitionIndex = 69919;
+
 	struct alignas(8) TriggerEffectParamsRef
 	{
 		::System::UInt32 UniqueEffectID; // 0x10

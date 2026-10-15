@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define JNCIENHAIEF_CTOR_OFFSET UNITYSDK_OFFSET(0xB279A40)
 #define JNCIENHAIEF_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB279A70)
 
+inline static constexpr unsigned int JNCIENHAIEF_TypeDefinitionIndex = 53114;
+
 	class JNCIENHAIEF
 	{
 	public:

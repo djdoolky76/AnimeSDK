@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::BlindBox::Trade
 {
+	inline static constexpr unsigned int BlindBoxTradePublishOrderInfo_RequestGroup_TypeDefinitionIndex = 74891;
+
 	class BlindBoxTradePublishOrderInfo_RequestGroup : public ::System::Object
 	{
 	public:

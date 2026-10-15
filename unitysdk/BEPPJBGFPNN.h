@@ -5,6 +5,8 @@ class ANDGGDFGMGK;
 
 #define BEPPJBGFPNN_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8B88A0)
 
+inline static constexpr unsigned int BEPPJBGFPNN_TypeDefinitionIndex = 43229;
+
 	class BEPPJBGFPNN : public ::System::Object
 	{
 	public:

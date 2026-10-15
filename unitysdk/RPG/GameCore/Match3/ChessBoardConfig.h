@@ -11,6 +11,8 @@ namespace RPG::GameCore::Match3 { class PieceConfig; }
 
 namespace RPG::GameCore::Match3
 {
+	inline static constexpr unsigned int ChessBoardConfig_TypeDefinitionIndex = 24869;
+
 	class ChessBoardConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

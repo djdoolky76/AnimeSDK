@@ -9,6 +9,8 @@ namespace System { template <typename T> class Comparison_1; }
 #define AADOCJDBAGC___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB0C39F0)
 #define AADOCJDBAGC___C___REORDERTEAM_B__7_0_OFFSET UNITYSDK_OFFSET(0xB0C3A00)
 
+inline static constexpr unsigned int AADOCJDBAGC___c_TypeDefinitionIndex = 77602;
+
 	class AADOCJDBAGC___c : public ::System::Object
 	{
 	public:

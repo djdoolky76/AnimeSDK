@@ -9,6 +9,8 @@ namespace System { template <typename T> class Comparison_1; }
 #define MJOGAHHOJMH___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB97AC30)
 #define MJOGAHHOJMH___C___SETUPVIEW_B__11_0_OFFSET UNITYSDK_OFFSET(0xB97AC40)
 
+inline static constexpr unsigned int MJOGAHHOJMH___c_TypeDefinitionIndex = 72315;
+
 	class MJOGAHHOJMH___c : public ::System::Object
 	{
 	public:

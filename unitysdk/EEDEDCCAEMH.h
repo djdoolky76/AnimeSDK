@@ -7,6 +7,8 @@ namespace System { class String; }
 #define EEDEDCCAEMH_IAMCNOAAALI_OFFSET UNITYSDK_OFFSET(0x1334F890)
 #define EEDEDCCAEMH_JCKGONAAIPB_OFFSET UNITYSDK_OFFSET(0x1334F8E0)
 
+inline static constexpr unsigned int EEDEDCCAEMH_TypeDefinitionIndex = 65841;
+
 	class EEDEDCCAEMH : public ::LBAMBIMMJKB
 	{
 	public:

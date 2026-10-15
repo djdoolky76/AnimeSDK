@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int NotifyDeadPartSelected_TypeDefinitionIndex = 23254;
+
 	class NotifyDeadPartSelected : public ::RPG::GameCore::TaskConfig
 	{
 	public:

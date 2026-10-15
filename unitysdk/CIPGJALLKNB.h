@@ -10,6 +10,8 @@ namespace System { class String; }
 #define CIPGJALLKNB_CTOR_OFFSET UNITYSDK_OFFSET(0x1DBBFD90)
 #define CIPGJALLKNB_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC18540)
 
+inline static constexpr unsigned int CIPGJALLKNB_TypeDefinitionIndex = 12474;
+
 	class CIPGJALLKNB : public ::System::Object
 	{
 	public:

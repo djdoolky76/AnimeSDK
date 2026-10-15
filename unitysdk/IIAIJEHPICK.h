@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 #define IIAIJEHPICK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1642FF70)
 #define IIAIJEHPICK__DOCHECKIMPL_OFFSET UNITYSDK_OFFSET(0x1642FE50)
 
+inline static constexpr unsigned int IIAIJEHPICK_TypeDefinitionIndex = 59870;
+
 	class IIAIJEHPICK : public ::RPG::Client::SyncCheckItemBase
 	{
 	public:

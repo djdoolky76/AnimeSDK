@@ -32,6 +32,8 @@ namespace System::Reflection { class FieldInfo; }
 
 namespace Unity::Collections::LowLevel::Unsafe
 {
+	inline static constexpr unsigned int UnsafeUtility_TypeDefinitionIndex = 4006;
+
 	class UnsafeUtility : public ::System::Object
 	{
 	public:

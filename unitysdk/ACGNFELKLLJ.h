@@ -14,6 +14,8 @@ namespace System { class String; }
 #define ACGNFELKLLJ_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CCA5F90)
 #define ACGNFELKLLJ_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CCA5DE0)
 
+inline static constexpr unsigned int ACGNFELKLLJ_TypeDefinitionIndex = 24086;
+
 	class ACGNFELKLLJ : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -12,6 +12,8 @@ class LMIFHAMFCFE;
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightConsumableInfo_GridFightConsumableItemUseParam_TypeDefinitionIndex = 64902;
+
 	class GridFightConsumableInfo_GridFightConsumableItemUseParam : public ::System::Object
 	{
 	public:

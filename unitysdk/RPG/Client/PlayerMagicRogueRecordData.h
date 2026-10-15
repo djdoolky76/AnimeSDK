@@ -21,6 +21,8 @@ class BGPIHMLLNGM;
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PlayerMagicRogueRecordData_TypeDefinitionIndex = 64292;
+
 	class PlayerMagicRogueRecordData : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define OGEBDDFKPNC_FGDKCJPMBEG_OFFSET UNITYSDK_OFFSET(0x1C4CDB40)
 #define OGEBDDFKPNC_GCDOMBALANG_OFFSET UNITYSDK_OFFSET(0x1C4CDAD0)
 
+inline static constexpr unsigned int OGEBDDFKPNC_TypeDefinitionIndex = 41506;
+
 	class OGEBDDFKPNC : public ::System::Object
 	{
 	public:

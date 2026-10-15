@@ -37,6 +37,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ActivityPhotoExhibitionGroupData_TypeDefinitionIndex = 61727;
+
 	class ActivityPhotoExhibitionGroupData : public ::System::Object
 	{
 	public:

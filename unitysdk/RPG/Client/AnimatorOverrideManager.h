@@ -26,6 +26,8 @@ namespace UnityEngine { class RuntimeAnimatorController; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AnimatorOverrideManager_TypeDefinitionIndex = 68355;
+
 	class AnimatorOverrideManager : public ::UnityEngine::MonoBehaviour
 	{
 	public:

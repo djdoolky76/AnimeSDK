@@ -19,6 +19,8 @@ namespace UnityEngine::Formats::Alembic::Importer { class AlembicCurves; }
 
 namespace UnityEngine::Formats::Alembic::Importer
 {
+	inline static constexpr unsigned int AlembicCurvesRenderer_TypeDefinitionIndex = 45878;
+
 	class AlembicCurvesRenderer : public ::UnityEngine::MonoBehaviour
 	{
 	public:

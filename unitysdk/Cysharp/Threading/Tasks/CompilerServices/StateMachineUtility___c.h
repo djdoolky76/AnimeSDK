@@ -11,6 +11,8 @@ namespace System::Reflection { class FieldInfo; }
 
 namespace Cysharp::Threading::Tasks::CompilerServices
 {
+	inline static constexpr unsigned int StateMachineUtility___c_TypeDefinitionIndex = 38709;
+
 	class StateMachineUtility___c : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace Entitas { class IContext; }
 #define HKJBGGODPLG_GET_ALLCONTEXTS_OFFSET UNITYSDK_OFFSET(0x1C667970)
 #define HKJBGGODPLG_GET_CAKERACECORE_OFFSET UNITYSDK_OFFSET(0x1C667960)
 
+inline static constexpr unsigned int HKJBGGODPLG_TypeDefinitionIndex = 36828;
+
 	class HKJBGGODPLG : public ::System::Object
 	{
 	public:

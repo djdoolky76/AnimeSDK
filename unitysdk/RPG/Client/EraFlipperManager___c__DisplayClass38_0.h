@@ -9,6 +9,8 @@ namespace RPG::GameCore { class PropComponent; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int EraFlipperManager___c__DisplayClass38_0_TypeDefinitionIndex = 60512;
+
 	class EraFlipperManager___c__DisplayClass38_0 : public ::System::Object
 	{
 	public:

@@ -24,6 +24,8 @@ namespace UnityEngine { class Transform; }
 #define PFDHDMPMEGE_GHHMECHEMLO_OFFSET UNITYSDK_OFFSET(0xDDE30)
 #define PFDHDMPMEGE_KHNCMBEFIKI_OFFSET UNITYSDK_OFFSET(0xDDE60)
 
+inline static constexpr unsigned int PFDHDMPMEGE_TypeDefinitionIndex = 47691;
+
 	struct alignas(8) PFDHDMPMEGE
 	{
 		::Unity::Collections::NativeArray_1<::KCINAMMBNJF> OEDFGINIBHP; // 0x10

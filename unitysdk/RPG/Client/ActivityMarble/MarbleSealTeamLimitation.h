@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 
 namespace RPG::Client::ActivityMarble
 {
+	inline static constexpr unsigned int MarbleSealTeamLimitation_TypeDefinitionIndex = 75978;
+
 	class MarbleSealTeamLimitation : public ::System::Object
 	{
 	public:

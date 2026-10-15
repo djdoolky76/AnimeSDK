@@ -10,6 +10,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace SRDebugger::UI
 {
+	inline static constexpr unsigned int ProfilerFPSLabel_TypeDefinitionIndex = 37982;
+
 	class ProfilerFPSLabel : public ::SRF::SRMonoBehaviourEx
 	{
 	public:

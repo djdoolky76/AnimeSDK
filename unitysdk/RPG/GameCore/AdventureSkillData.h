@@ -8,6 +8,8 @@ namespace RPG::GameCore { class MazeSkillRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdventureSkillData_TypeDefinitionIndex = 56860;
+
 	class AdventureSkillData : public ::System::Object
 	{
 	public:

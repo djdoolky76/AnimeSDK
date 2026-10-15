@@ -7,6 +7,8 @@
 
 namespace InControl::UnityDeviceProfiles
 {
+	inline static constexpr unsigned int GameCubeWindowsUnityProfile_TypeDefinitionIndex = 41068;
+
 	class GameCubeWindowsUnityProfile : public ::InControl::InputDeviceProfile
 	{
 	public:

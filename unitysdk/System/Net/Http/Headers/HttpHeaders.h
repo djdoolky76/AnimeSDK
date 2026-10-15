@@ -33,6 +33,8 @@ namespace System::Net::Http::Headers { class HttpHeaders_HeaderBucket; }
 
 namespace System::Net::Http::Headers
 {
+	inline static constexpr unsigned int HttpHeaders_TypeDefinitionIndex = 3794;
+
 	class HttpHeaders : public ::System::Object
 	{
 	public:

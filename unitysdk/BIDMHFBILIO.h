@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 #define BIDMHFBILIO_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D806B90)
 #define BIDMHFBILIO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D806B50)
 
+inline static constexpr unsigned int BIDMHFBILIO_TypeDefinitionIndex = 24138;
+
 	class BIDMHFBILIO : public ::RPG::GameCore::TaskConfig
 	{
 	public:

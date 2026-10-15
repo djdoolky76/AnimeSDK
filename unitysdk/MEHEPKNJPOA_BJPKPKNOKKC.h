@@ -4,6 +4,8 @@
 
 #define MEHEPKNJPOA_BJPKPKNOKKC_CTOR_OFFSET UNITYSDK_OFFSET(0xB8CEC60)
 
+inline static constexpr unsigned int MEHEPKNJPOA_BJPKPKNOKKC_TypeDefinitionIndex = 74177;
+
 	class MEHEPKNJPOA_BJPKPKNOKKC : public ::MEHEPKNJPOA_FANDKJFOLKB
 	{
 	public:

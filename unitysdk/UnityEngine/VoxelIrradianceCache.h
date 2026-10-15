@@ -18,6 +18,8 @@ namespace UnityEngine { class VoxelIrradianceCacheData; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int VoxelIrradianceCache_TypeDefinitionIndex = 4268;
+
 	class VoxelIrradianceCache : public ::UnityEngine::Behaviour
 	{
 	public:

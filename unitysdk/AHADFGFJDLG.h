@@ -9,6 +9,8 @@ namespace RPG::GameCore { class ChimeraDuelModifierContainerNode; }
 #define AHADFGFJDLG_HKELDKHOPGM_OFFSET UNITYSDK_OFFSET(0xEB79270)
 #define AHADFGFJDLG_JPHMMEHDLLA_OFFSET UNITYSDK_OFFSET(0xEB78D70)
 
+inline static constexpr unsigned int AHADFGFJDLG_TypeDefinitionIndex = 77642;
+
 	class AHADFGFJDLG : public ::HMDKMIJLJFH
 	{
 	public:

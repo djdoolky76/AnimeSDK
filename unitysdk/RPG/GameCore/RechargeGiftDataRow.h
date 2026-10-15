@@ -9,6 +9,8 @@ namespace RPG::GameCore { class RechargeGiftDataRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RechargeGiftDataRow_TypeDefinitionIndex = 14624;
+
 	class RechargeGiftDataRow : public ::System::Object
 	{
 	public:

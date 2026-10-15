@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PlanetFesGameBingoSymbolRow_TypeDefinitionIndex = 12248;
+
 	class PlanetFesGameBingoSymbolRow : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class BattleChangeAvatar_PreEnterStage; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BattleChangeAvatar_PreEnterStage_TypeDefinitionIndex = 22777;
+
 	class BattleChangeAvatar_PreEnterStage : public ::RPG::GameCore::TaskConfig
 	{
 	public:

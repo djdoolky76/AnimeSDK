@@ -9,6 +9,8 @@ namespace System { template <typename T> class Comparison_1; }
 #define ECPFBGMALIP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x12D18320)
 #define ECPFBGMALIP___C___COLLECTNAVNODESAFTERMERGE_B__15_0_OFFSET UNITYSDK_OFFSET(0x12D18330)
 
+inline static constexpr unsigned int ECPFBGMALIP___c_TypeDefinitionIndex = 74606;
+
 	class ECPFBGMALIP___c : public ::System::Object
 	{
 	public:

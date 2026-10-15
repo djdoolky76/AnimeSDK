@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define JHOCOJEKEMD_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D032CA0)
 #define JHOCOJEKEMD_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D032600)
 
+inline static constexpr unsigned int JHOCOJEKEMD_TypeDefinitionIndex = 12994;
+
 	class JHOCOJEKEMD : public ::System::Object
 	{
 	public:

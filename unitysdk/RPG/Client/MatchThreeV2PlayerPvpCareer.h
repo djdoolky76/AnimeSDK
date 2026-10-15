@@ -24,6 +24,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MatchThreeV2PlayerPvpCareer_TypeDefinitionIndex = 66011;
+
 	class MatchThreeV2PlayerPvpCareer : public ::System::Object
 	{
 	public:

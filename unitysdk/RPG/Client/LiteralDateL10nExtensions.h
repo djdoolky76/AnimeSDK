@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int LiteralDateL10nExtensions_TypeDefinitionIndex = 61349;
+
 	class LiteralDateL10nExtensions : public ::System::Object
 	{
 	public:

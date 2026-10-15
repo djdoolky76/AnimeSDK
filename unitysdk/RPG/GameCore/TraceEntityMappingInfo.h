@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TraceEntityMappingInfo; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TraceEntityMappingInfo_TypeDefinitionIndex = 20684;
+
 	class TraceEntityMappingInfo : public ::RPG::GameCore::TaskConfig
 	{
 	public:

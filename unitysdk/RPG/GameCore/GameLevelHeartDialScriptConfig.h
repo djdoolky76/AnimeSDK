@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GameLevelHeartDialScriptConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GameLevelHeartDialScriptConfig_TypeDefinitionIndex = 17422;
+
 	class GameLevelHeartDialScriptConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

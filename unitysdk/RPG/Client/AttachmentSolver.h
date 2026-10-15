@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AttachmentSolver_TypeDefinitionIndex = 68439;
+
 	class AttachmentSolver : public ::System::Object
 	{
 	public:

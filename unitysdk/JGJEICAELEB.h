@@ -30,6 +30,8 @@ namespace System { class String; }
 #define JGJEICAELEB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E73A590)
 #define JGJEICAELEB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E73A5F0)
 
+inline static constexpr unsigned int JGJEICAELEB_TypeDefinitionIndex = 33712;
+
 	class JGJEICAELEB : public ::System::Object
 	{
 	public:

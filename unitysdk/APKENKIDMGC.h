@@ -31,6 +31,8 @@ namespace System { class String; }
 #define APKENKIDMGC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E678930)
 #define APKENKIDMGC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E678990)
 
+inline static constexpr unsigned int APKENKIDMGC_TypeDefinitionIndex = 33924;
+
 	class APKENKIDMGC : public ::System::Object
 	{
 	public:

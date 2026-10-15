@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierInterceptAddRogueCoinConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierInterceptAddRogueCoinConfig_TypeDefinitionIndex = 17965;
+
 	class RogueModifierInterceptAddRogueCoinConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

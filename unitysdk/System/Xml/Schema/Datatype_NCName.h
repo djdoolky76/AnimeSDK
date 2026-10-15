@@ -14,6 +14,8 @@ namespace System::Xml { class XmlNameTable; }
 
 namespace System::Xml::Schema
 {
+	inline static constexpr unsigned int Datatype_NCName_TypeDefinitionIndex = 2128;
+
 	class Datatype_NCName : public ::System::Xml::Schema::Datatype_Name
 	{
 	public:

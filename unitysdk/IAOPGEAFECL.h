@@ -25,6 +25,8 @@ namespace System { class String; }
 #define IAOPGEAFECL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E60D030)
 #define IAOPGEAFECL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E60D090)
 
+inline static constexpr unsigned int IAOPGEAFECL_TypeDefinitionIndex = 31666;
+
 	class IAOPGEAFECL : public ::System::Object
 	{
 	public:

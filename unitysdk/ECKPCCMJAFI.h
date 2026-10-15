@@ -6,6 +6,8 @@ namespace RPG::Client::ChenLingBattle { class ChenLingBattleGameContext; }
 #define ECKPCCMJAFI_CTOR_OFFSET UNITYSDK_OFFSET(0x12D12A40)
 #define ECKPCCMJAFI_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x12D12900)
 
+inline static constexpr unsigned int ECKPCCMJAFI_TypeDefinitionIndex = 76268;
+
 	class ECKPCCMJAFI : public ::MLKDDLHNNHH
 	{
 	public:

@@ -47,6 +47,8 @@ namespace UnityEngine { class Coroutine; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int OpeUtil_TypeDefinitionIndex = 59308;
+
 	class OpeUtil : public ::System::Object
 	{
 	public:

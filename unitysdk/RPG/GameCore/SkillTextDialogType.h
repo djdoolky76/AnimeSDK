@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SkillTextDialogType_TypeDefinitionIndex = 24673;
+
 	enum class SkillTextDialogType : ::System::Int32
 	{
 		Default = 0,

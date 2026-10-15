@@ -14,6 +14,8 @@ namespace System { class String; }
 #define NDFNMIOCFBF__GETENTITYBYRUNTIMEID_OFFSET UNITYSDK_OFFSET(0xBB230B0)
 #define NDFNMIOCFBF__INITDESTRUCTIBLEPROP_OFFSET UNITYSDK_OFFSET(0xBB23250)
 
+inline static constexpr unsigned int NDFNMIOCFBF_TypeDefinitionIndex = 76751;
+
 	class NDFNMIOCFBF
 	{
 	public:

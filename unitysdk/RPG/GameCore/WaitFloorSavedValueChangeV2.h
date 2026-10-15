@@ -13,6 +13,8 @@ namespace RPG::GameCore { class WaitFloorSavedValueChangeV2; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaitFloorSavedValueChangeV2_TypeDefinitionIndex = 20709;
+
 	class WaitFloorSavedValueChangeV2 : public ::RPG::GameCore::AdvWaitingEventBase
 	{
 	public:

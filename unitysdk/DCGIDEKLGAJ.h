@@ -71,6 +71,8 @@ namespace UnityEngine { class Transform; }
 #define DCGIDEKLGAJ__ONDISPOSE_OFFSET UNITYSDK_OFFSET(0xE245920)
 #define DCGIDEKLGAJ__ONTICK_OFFSET UNITYSDK_OFFSET(0xE246000)
 
+inline static constexpr unsigned int DCGIDEKLGAJ_TypeDefinitionIndex = 71679;
+
 	class DCGIDEKLGAJ : public ::FMPCODLIOLG
 	{
 	public:

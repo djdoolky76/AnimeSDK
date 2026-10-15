@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace Unity::IL2CPP::CompilerServices
 {
+	inline static constexpr unsigned int Il2CppSetOptionAttribute_1994E79EB0DA911A_TypeDefinitionIndex = 7124;
+
 	class Il2CppSetOptionAttribute_1994E79EB0DA911A : public ::System::Attribute
 	{
 	public:

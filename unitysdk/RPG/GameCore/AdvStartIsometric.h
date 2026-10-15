@@ -12,6 +12,8 @@ namespace RPG::GameCore { class DynamicString; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvStartIsometric_TypeDefinitionIndex = 22206;
+
 	class AdvStartIsometric : public ::RPG::GameCore::TaskConfig
 	{
 	public:

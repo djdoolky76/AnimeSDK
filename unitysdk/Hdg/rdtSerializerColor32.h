@@ -16,6 +16,8 @@ namespace System::IO { class BinaryWriter; }
 
 namespace Hdg
 {
+	inline static constexpr unsigned int rdtSerializerColor32_TypeDefinitionIndex = 46956;
+
 	class rdtSerializerColor32 : public ::System::Object
 	{
 	public:

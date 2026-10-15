@@ -22,6 +22,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::Console
 {
+	inline static constexpr unsigned int ProtocolManager_TypeDefinitionIndex = 8992;
+
 	class ProtocolManager : public ::System::Object
 	{
 	public:

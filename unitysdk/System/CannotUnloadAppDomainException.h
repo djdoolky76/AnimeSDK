@@ -11,6 +11,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System
 {
+	inline static constexpr unsigned int CannotUnloadAppDomainException_TypeDefinitionIndex = 208;
+
 	class CannotUnloadAppDomainException : public ::System::SystemException
 	{
 	public:

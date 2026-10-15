@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TimeRewindRaycastInfo_TypeDefinitionIndex = 60845;
+
 	class TimeRewindRaycastInfo : public ::System::Object
 	{
 	public:

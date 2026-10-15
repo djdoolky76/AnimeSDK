@@ -15,6 +15,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByCheckTurnCountMatch_TypeDefinitionIndex = 23441;
+
 	class ByCheckTurnCountMatch : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

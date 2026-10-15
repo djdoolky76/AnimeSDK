@@ -3,6 +3,8 @@
 
 #define KFCMGNCLHMD_CTOR_OFFSET UNITYSDK_OFFSET(0xB38F550)
 
+inline static constexpr unsigned int KFCMGNCLHMD_TypeDefinitionIndex = 78884;
+
 	class KFCMGNCLHMD
 	{
 	public:

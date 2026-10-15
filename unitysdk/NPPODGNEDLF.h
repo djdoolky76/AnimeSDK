@@ -19,6 +19,8 @@ namespace System { class String; }
 #define NPPODGNEDLF_NIKEFBPAJJC_OFFSET UNITYSDK_OFFSET(0xBD153E0)
 #define NPPODGNEDLF_ODMICAFBAKI_OFFSET UNITYSDK_OFFSET(0xBD15510)
 
+inline static constexpr unsigned int NPPODGNEDLF_TypeDefinitionIndex = 61170;
+
 	class NPPODGNEDLF : public ::System::Object
 	{
 	public:

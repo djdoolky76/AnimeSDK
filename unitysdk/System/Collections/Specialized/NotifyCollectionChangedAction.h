@@ -3,6 +3,8 @@
 
 namespace System::Collections::Specialized
 {
+	inline static constexpr unsigned int NotifyCollectionChangedAction_TypeDefinitionIndex = 3000;
+
 	enum class NotifyCollectionChangedAction : ::System::Int32
 	{
 		Add = 0,

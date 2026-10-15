@@ -7,6 +7,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define OPPNDCNMGKO_EAFFFCIIBMF_OFFSET UNITYSDK_OFFSET(0xBFB6B70)
 #define OPPNDCNMGKO_FLHPDOLCBDN_OFFSET UNITYSDK_OFFSET(0xBFB6990)
 
+inline static constexpr unsigned int OPPNDCNMGKO_TypeDefinitionIndex = 75559;
+
 	class OPPNDCNMGKO : public ::System::Object
 	{
 	public:

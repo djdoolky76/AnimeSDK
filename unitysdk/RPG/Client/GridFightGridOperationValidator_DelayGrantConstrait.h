@@ -9,6 +9,8 @@ namespace RPG::Client { class GridFightGridMoveValidateResult; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightGridOperationValidator_DelayGrantConstrait_TypeDefinitionIndex = 64853;
+
 	class GridFightGridOperationValidator_DelayGrantConstrait : public ::System::Object
 	{
 	public:

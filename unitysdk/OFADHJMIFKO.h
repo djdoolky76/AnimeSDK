@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define OFADHJMIFKO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C98C9D0)
 
+inline static constexpr unsigned int OFADHJMIFKO_TypeDefinitionIndex = 43045;
+
 	class OFADHJMIFKO : public ::System::Object
 	{
 	public:

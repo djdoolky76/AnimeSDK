@@ -4,6 +4,8 @@
 class MEIGMBOLDOF;
 namespace UnityEngine::Events { class UnityAction; }
 
+inline static constexpr unsigned int GLGIDONBIMD___O_TypeDefinitionIndex = 49088;
+
 	class GLGIDONBIMD___O : public ::System::Object
 	{
 	public:

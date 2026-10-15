@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TeamFormationTemplateSingleConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ResolutionAdaptionConfig_TypeDefinitionIndex = 17138;
+
 	class ResolutionAdaptionConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

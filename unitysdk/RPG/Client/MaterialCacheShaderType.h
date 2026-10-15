@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MaterialCacheShaderType_TypeDefinitionIndex = 69834;
+
 	enum class MaterialCacheShaderType : ::System::Int32
 	{
 		Unknown = 0,

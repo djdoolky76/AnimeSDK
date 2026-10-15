@@ -6,6 +6,8 @@
 
 namespace SWRT
 {
+	inline static constexpr unsigned int BVH8_CWNode_TypeDefinitionIndex = 37509;
+
 	struct alignas(4) BVH8_CWNode
 	{
 		::System::UInt32 Raw0x; // 0x10

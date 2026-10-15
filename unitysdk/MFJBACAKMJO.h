@@ -4,6 +4,8 @@
 
 #define MFJBACAKMJO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C925480)
 
+inline static constexpr unsigned int MFJBACAKMJO_TypeDefinitionIndex = 42821;
+
 	class MFJBACAKMJO : public ::Entitas::CodeGeneration::Attributes::ContextAttribute
 	{
 	public:

@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TutorialNotifyType_TypeDefinitionIndex = 24830;
+
 	enum class TutorialNotifyType : ::System::Int32
 	{
 		None = 0,

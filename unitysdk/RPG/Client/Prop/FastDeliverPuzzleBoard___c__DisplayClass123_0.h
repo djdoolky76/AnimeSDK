@@ -11,6 +11,8 @@ namespace System { class Action; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int FastDeliverPuzzleBoard___c__DisplayClass123_0_TypeDefinitionIndex = 78584;
+
 	class FastDeliverPuzzleBoard___c__DisplayClass123_0 : public ::System::Object
 	{
 	public:

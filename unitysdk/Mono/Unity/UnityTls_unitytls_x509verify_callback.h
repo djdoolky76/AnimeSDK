@@ -14,6 +14,8 @@ namespace System { class Object; }
 
 namespace Mono::Unity
 {
+	inline static constexpr unsigned int UnityTls_unitytls_x509verify_callback_TypeDefinitionIndex = 2358;
+
 	class UnityTls_unitytls_x509verify_callback : public ::System::MulticastDelegate
 	{
 	public:

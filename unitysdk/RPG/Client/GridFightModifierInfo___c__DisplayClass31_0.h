@@ -8,6 +8,8 @@ class KGFNADPCPCE;
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightModifierInfo___c__DisplayClass31_0_TypeDefinitionIndex = 65050;
+
 	class GridFightModifierInfo___c__DisplayClass31_0 : public ::System::Object
 	{
 	public:

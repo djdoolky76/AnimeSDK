@@ -32,6 +32,8 @@ namespace System { class Object; }
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
+	inline static constexpr unsigned int B2Solvers_TypeDefinitionIndex = 36782;
+
 	class B2Solvers : public ::System::Object
 	{
 	public:

@@ -3,6 +3,8 @@
 
 namespace RPG::Client::LittleGame::CakeRace
 {
+	inline static constexpr unsigned int CakeRaceReplayRecord_MessageType_TypeDefinitionIndex = 78093;
+
 	enum class CakeRaceReplayRecord_MessageType : ::System::Int32
 	{
 		SyncNotify = 0,

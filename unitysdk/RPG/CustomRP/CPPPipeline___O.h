@@ -5,6 +5,8 @@ namespace UnityEngine { class Light_OnParticleLightEvent; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int CPPPipeline___O_TypeDefinitionIndex = 37536;
+
 	class CPPPipeline___O : public ::System::Object
 	{
 	public:

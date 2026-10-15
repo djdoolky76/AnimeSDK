@@ -7,6 +7,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define AKGBKFNLMGI_OOCDPIEGGEA_CTOR_OFFSET UNITYSDK_OFFSET(0x12CCE6E0)
 
+inline static constexpr unsigned int AKGBKFNLMGI_OOCDPIEGGEA_TypeDefinitionIndex = 77483;
+
 	class AKGBKFNLMGI_OOCDPIEGGEA : public ::DFDIEEHGJED
 	{
 	public:

@@ -3,6 +3,8 @@
 
 namespace UnityEngine::EventSystems
 {
+	inline static constexpr unsigned int IPointerDownHandler_TypeDefinitionIndex = 6913;
+
 	class IPointerDownHandler
 	{
 	public:

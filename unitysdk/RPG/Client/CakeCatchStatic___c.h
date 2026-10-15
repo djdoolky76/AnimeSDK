@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CakeCatchStatic___c_TypeDefinitionIndex = 62972;
+
 	class CakeCatchStatic___c : public ::System::Object
 	{
 	public:

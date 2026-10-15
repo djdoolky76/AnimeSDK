@@ -23,6 +23,8 @@ namespace UnityEngine { class GameObject; }
 #define LEMHJKCMAPK_PJDNHKCNBOC_OFFSET UNITYSDK_OFFSET(0xB65DA10)
 #define LEMHJKCMAPK_TICK_OFFSET UNITYSDK_OFFSET(0xB65D850)
 
+inline static constexpr unsigned int LEMHJKCMAPK_TypeDefinitionIndex = 57153;
+
 	class LEMHJKCMAPK : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

@@ -7,6 +7,8 @@
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriAtomExAsrRack_PlatformConfigAndroid_TypeDefinitionIndex = 39914;
+
 	struct alignas(4) CriAtomExAsrRack_PlatformConfigAndroid
 	{
 		::CriWare::CriAtomExAsrRack_StreamType streamType; // 0x10

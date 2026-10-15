@@ -14,6 +14,8 @@ namespace System { class String; }
 #define JBFGHNLMEDI_HONGLJECAAC_OFFSET UNITYSDK_OFFSET(0x1656C6F0)
 #define JBFGHNLMEDI_MMFEEJAHPLJ_OFFSET UNITYSDK_OFFSET(0x1656C610)
 
+inline static constexpr unsigned int JBFGHNLMEDI_TypeDefinitionIndex = 76473;
+
 	class JBFGHNLMEDI : public ::System::Object
 	{
 	public:

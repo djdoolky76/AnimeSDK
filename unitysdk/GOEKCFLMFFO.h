@@ -7,6 +7,8 @@ namespace UnityEngine { class Transform; }
 
 #define GOEKCFLMFFO_CTOR_OFFSET UNITYSDK_OFFSET(0x15B2C4D0)
 
+inline static constexpr unsigned int GOEKCFLMFFO_TypeDefinitionIndex = 73535;
+
 	class GOEKCFLMFFO : public ::System::Object
 	{
 	public:

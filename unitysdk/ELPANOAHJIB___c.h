@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define ELPANOAHJIB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E2DAFC0)
 #define ELPANOAHJIB___C___CCTOR_B__43_0_OFFSET UNITYSDK_OFFSET(0x1E2DAFD0)
 
+inline static constexpr unsigned int ELPANOAHJIB___c_TypeDefinitionIndex = 31989;
+
 	class ELPANOAHJIB___c : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueCondPersonaCurRoomHasAttributeConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueCondPersonaCurRoomHasAttributeConfig_TypeDefinitionIndex = 19809;
+
 	class RogueCondPersonaCurRoomHasAttributeConfig : public ::RPG::GameCore::RogueConditionConfigBase
 	{
 	public:

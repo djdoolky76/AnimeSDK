@@ -7,6 +7,8 @@
 
 namespace InControl::NativeDeviceProfiles
 {
+	inline static constexpr unsigned int POWERAFUS1ONTournamentControllerMacNativeProfile_TypeDefinitionIndex = 41211;
+
 	class POWERAFUS1ONTournamentControllerMacNativeProfile : public ::InControl::NativeDeviceProfiles::Xbox360DriverMacNativeProfile
 	{
 	public:

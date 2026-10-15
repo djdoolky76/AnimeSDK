@@ -15,6 +15,8 @@ namespace UnityEngine::UI { class ScrollRect; }
 
 namespace SRF::UI
 {
+	inline static constexpr unsigned int ScrollToBottomBehaviour_TypeDefinitionIndex = 35396;
+
 	class ScrollToBottomBehaviour : public ::UnityEngine::MonoBehaviour
 	{
 	public:

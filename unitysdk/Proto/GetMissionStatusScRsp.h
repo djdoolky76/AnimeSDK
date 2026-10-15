@@ -39,6 +39,8 @@ namespace System { class String; }
 
 namespace Proto
 {
+	inline static constexpr unsigned int GetMissionStatusScRsp_TypeDefinitionIndex = 30960;
+
 	class GetMissionStatusScRsp : public ::System::Object
 	{
 	public:

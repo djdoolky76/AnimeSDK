@@ -31,6 +31,8 @@ namespace System { class String; }
 #define CGLJLBDFNBK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E0B2280)
 #define CGLJLBDFNBK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E0B22E0)
 
+inline static constexpr unsigned int CGLJLBDFNBK_TypeDefinitionIndex = 25882;
+
 	class CGLJLBDFNBK : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace UnityEngine { class Renderer; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Effect_InvSceneRotationTransmitter_TypeDefinitionIndex = 70491;
+
 	class Effect_InvSceneRotationTransmitter : public ::UnityEngine::MonoBehaviour
 	{
 	public:

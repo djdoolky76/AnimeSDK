@@ -5,6 +5,8 @@ namespace Cysharp::Threading::Tasks { template <typename T> class IUniTaskAsyncE
 
 namespace Cysharp::Threading::Tasks::Linq
 {
+	inline static constexpr unsigned int OrderedAsyncEnumerable_1_TypeDefinitionIndex = 45526;
+
 	template <typename T>
 	class OrderedAsyncEnumerable_1 : public ::System::Object
 	{

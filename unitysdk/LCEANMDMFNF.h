@@ -25,6 +25,8 @@ class LNHACPACCKH;
 #define LCEANMDMFNF_NOJIPMKAGON_OFFSET UNITYSDK_OFFSET(0x1C720640)
 #define LCEANMDMFNF_PNJODACLLPH_OFFSET UNITYSDK_OFFSET(0x1C720630)
 
+inline static constexpr unsigned int LCEANMDMFNF_TypeDefinitionIndex = 37080;
+
 	class LCEANMDMFNF : public ::System::Object
 	{
 	public:

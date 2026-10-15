@@ -13,6 +13,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace Cinemachine
 {
+	inline static constexpr unsigned int CinemachineVirtualCamera_DestroyPipelineDelegate_TypeDefinitionIndex = 39767;
+
 	class CinemachineVirtualCamera_DestroyPipelineDelegate : public ::System::MulticastDelegate
 	{
 	public:

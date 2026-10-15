@@ -7,6 +7,8 @@ namespace UnityEngine { class GameObject; }
 #define JGKJJJCOICJ___C__DISPLAYCLASS9_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB19C7C0)
 #define JGKJJJCOICJ___C__DISPLAYCLASS9_0___UPDATEGEAR_B__0_OFFSET UNITYSDK_OFFSET(0xB19C7D0)
 
+inline static constexpr unsigned int JGKJJJCOICJ___c__DisplayClass9_0_TypeDefinitionIndex = 78722;
+
 	class JGKJJJCOICJ___c__DisplayClass9_0 : public ::System::Object
 	{
 	public:

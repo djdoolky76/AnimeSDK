@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PerformanceOverrideCharacterOutfit_TypeDefinitionIndex = 21857;
+
 	class PerformanceOverrideCharacterOutfit : public ::RPG::GameCore::JsonConfig
 	{
 	public:

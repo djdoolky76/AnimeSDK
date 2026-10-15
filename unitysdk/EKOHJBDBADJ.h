@@ -24,6 +24,8 @@ namespace System { class String; }
 #define EKOHJBDBADJ_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15517070)
 #define EKOHJBDBADJ_TICK_OFFSET UNITYSDK_OFFSET(0x15517100)
 
+inline static constexpr unsigned int EKOHJBDBADJ_TypeDefinitionIndex = 58912;
+
 	class EKOHJBDBADJ : public ::GELIALJDFBL
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_LoadBufferMesh_TypeDefinitionIndex = 40608;
+
 	class HEU_LoadBufferMesh : public ::HoudiniEngineUnity::HEU_LoadBufferBase
 	{
 	public:

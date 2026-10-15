@@ -7,6 +7,8 @@
 
 namespace InControl::UnityDeviceProfiles
 {
+	inline static constexpr unsigned int SaitekAviatorWindowsUnityProfile_TypeDefinitionIndex = 41093;
+
 	class SaitekAviatorWindowsUnityProfile : public ::InControl::InputDeviceProfile
 	{
 	public:

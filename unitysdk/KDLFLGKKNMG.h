@@ -8,6 +8,8 @@ namespace System { class String; }
 
 #define KDLFLGKKNMG_LPCJKDBAFHB_OFFSET UNITYSDK_OFFSET(0xB3659C0)
 
+inline static constexpr unsigned int KDLFLGKKNMG_TypeDefinitionIndex = 71687;
+
 	class KDLFLGKKNMG : public ::System::Object
 	{
 	public:

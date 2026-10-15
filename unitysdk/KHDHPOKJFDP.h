@@ -6,6 +6,8 @@ namespace System { class String; }
 
 #define KHDHPOKJFDP_CTOR_OFFSET UNITYSDK_OFFSET(0xB3FFB70)
 
+inline static constexpr unsigned int KHDHPOKJFDP_TypeDefinitionIndex = 55608;
+
 	class KHDHPOKJFDP : public ::System::Object
 	{
 	public:

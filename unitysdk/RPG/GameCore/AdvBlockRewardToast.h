@@ -10,6 +10,8 @@ namespace RPG::GameCore { class AdvBlockRewardToast; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvBlockRewardToast_TypeDefinitionIndex = 21804;
+
 	class AdvBlockRewardToast : public ::RPG::GameCore::TaskConfig
 	{
 	public:

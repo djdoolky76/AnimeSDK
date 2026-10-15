@@ -25,6 +25,8 @@ namespace System { class String; }
 #define CEDCDDPHBOG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E090380)
 #define CEDCDDPHBOG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E0903E0)
 
+inline static constexpr unsigned int CEDCDDPHBOG_TypeDefinitionIndex = 32952;
+
 	class CEDCDDPHBOG : public ::System::Object
 	{
 	public:

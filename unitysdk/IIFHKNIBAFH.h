@@ -31,6 +31,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define IIFHKNIBAFH_SET_TEAMS_OFFSET UNITYSDK_OFFSET(0x1643AE90)
 #define IIFHKNIBAFH__GET_CURRENTAGENDA_B__37_0_OFFSET UNITYSDK_OFFSET(0x1643B040)
 
+inline static constexpr unsigned int IIFHKNIBAFH_TypeDefinitionIndex = 81705;
+
 	class IIFHKNIBAFH : public ::System::Object
 	{
 	public:

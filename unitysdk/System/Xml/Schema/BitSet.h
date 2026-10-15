@@ -23,6 +23,8 @@ namespace System::Xml::Schema { class BitSet; }
 
 namespace System::Xml::Schema
 {
+	inline static constexpr unsigned int BitSet_TypeDefinitionIndex = 2063;
+
 	class BitSet : public ::System::Object
 	{
 	public:

@@ -31,6 +31,8 @@ namespace System { class String; }
 #define ILCJAJBPOMO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E6A9920)
 #define ILCJAJBPOMO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E6A9980)
 
+inline static constexpr unsigned int ILCJAJBPOMO_TypeDefinitionIndex = 33378;
+
 	class ILCJAJBPOMO : public ::System::Object
 	{
 	public:

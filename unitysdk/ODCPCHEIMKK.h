@@ -18,6 +18,8 @@ namespace UnityEngine { class Transform; }
 #define ODCPCHEIMKK_KCPIKIJIMHL_OFFSET UNITYSDK_OFFSET(0xBD8F860)
 #define ODCPCHEIMKK_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0xBD8FD30)
 
+inline static constexpr unsigned int ODCPCHEIMKK_TypeDefinitionIndex = 73536;
+
 	class ODCPCHEIMKK : public ::System::Object
 	{
 	public:

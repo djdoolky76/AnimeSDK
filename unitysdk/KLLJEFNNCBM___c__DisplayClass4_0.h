@@ -6,6 +6,8 @@ class BANDDFEHONE;
 #define KLLJEFNNCBM___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB52EAF0)
 #define KLLJEFNNCBM___C__DISPLAYCLASS4_0__GETICONDATALIST_B__0_OFFSET UNITYSDK_OFFSET(0xB52EB80)
 
+inline static constexpr unsigned int KLLJEFNNCBM___c__DisplayClass4_0_TypeDefinitionIndex = 72172;
+
 	class KLLJEFNNCBM___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:

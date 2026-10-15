@@ -6,6 +6,8 @@ namespace System::Collections::Generic { template <typename T> class Queue_1; }
 
 #define MAEHLFNLFPG_CTOR_OFFSET UNITYSDK_OFFSET(0x1C923400)
 
+inline static constexpr unsigned int MAEHLFNLFPG_TypeDefinitionIndex = 41984;
+
 	class MAEHLFNLFPG : public ::System::Object
 	{
 	public:

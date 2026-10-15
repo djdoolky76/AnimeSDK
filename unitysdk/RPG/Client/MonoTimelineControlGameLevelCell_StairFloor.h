@@ -12,6 +12,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoTimelineControlGameLevelCell_StairFloor_TypeDefinitionIndex = 60439;
+
 	class MonoTimelineControlGameLevelCell_StairFloor : public ::RPG::Client::MonoTimelineControlGameLevelCell_FloorConfig
 	{
 	public:

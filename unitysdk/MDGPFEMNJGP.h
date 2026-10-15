@@ -8,6 +8,8 @@ class MDGPFEMNJGP;
 #define MDGPFEMNJGP_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D144680)
 #define MDGPFEMNJGP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D144640)
 
+inline static constexpr unsigned int MDGPFEMNJGP_TypeDefinitionIndex = 10226;
+
 	class MDGPFEMNJGP : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -7,6 +7,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define EBCHHOPPODA_DISPOSE_OFFSET UNITYSDK_OFFSET(0x12CEADE0)
 #define EBCHHOPPODA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x12CEAE20)
 
+inline static constexpr unsigned int EBCHHOPPODA_TypeDefinitionIndex = 55505;
+
 	class EBCHHOPPODA
 	{
 	public:

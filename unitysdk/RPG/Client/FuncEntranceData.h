@@ -32,6 +32,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FuncEntranceData_TypeDefinitionIndex = 68014;
+
 	class FuncEntranceData : public ::System::Object
 	{
 	public:

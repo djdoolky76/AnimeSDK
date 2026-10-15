@@ -5,6 +5,8 @@
 #define CDLDBONPLMG_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8DD560)
 #define CDLDBONPLMG_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0x1C8DD570)
 
+inline static constexpr unsigned int CDLDBONPLMG_TypeDefinitionIndex = 42469;
+
 	class CDLDBONPLMG : public ::KIDPCOMKMKJ
 	{
 	public:

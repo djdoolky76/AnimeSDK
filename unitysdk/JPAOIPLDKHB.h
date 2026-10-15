@@ -40,6 +40,8 @@ namespace System { class String; }
 #define JPAOIPLDKHB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E7CD9B0)
 #define JPAOIPLDKHB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E7CDA10)
 
+inline static constexpr unsigned int JPAOIPLDKHB_TypeDefinitionIndex = 25880;
+
 	class JPAOIPLDKHB : public ::System::Object
 	{
 	public:

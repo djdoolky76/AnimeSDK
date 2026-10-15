@@ -11,6 +11,8 @@ namespace System { class Object; }
 
 namespace UnityEngine::UI
 {
+	inline static constexpr unsigned int GridLayoutGroup_RowColumnPair_TypeDefinitionIndex = 6772;
+
 	struct alignas(4) GridLayoutGroup_RowColumnPair
 	{
 		::System::Int32 mRow; // 0x10

@@ -7,6 +7,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PunkLordActivityData_TypeDefinitionIndex = 61652;
+
 	class PunkLordActivityData : public ::RPG::Client::ActivityPanelData
 	{
 	public:

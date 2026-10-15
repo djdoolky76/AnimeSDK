@@ -11,6 +11,8 @@ namespace System { class String; }
 #define GOLPBHDHPOO_NGCMBKFFGJK_OFFSET UNITYSDK_OFFSET(0x15B395D0)
 #define GOLPBHDHPOO_OGFFGHMOPMG_OFFSET UNITYSDK_OFFSET(0x15B39B20)
 
+inline static constexpr unsigned int GOLPBHDHPOO_TypeDefinitionIndex = 61077;
+
 	class GOLPBHDHPOO : public ::System::Object
 	{
 	public:

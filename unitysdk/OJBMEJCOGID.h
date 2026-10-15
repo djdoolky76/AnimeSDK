@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define OJBMEJCOGID_PMICKFMADDF_OFFSET UNITYSDK_OFFSET(0xBEAAE80)
 #define OJBMEJCOGID__ONINITOWNERREF_OFFSET UNITYSDK_OFFSET(0xBEAA840)
 
+inline static constexpr unsigned int OJBMEJCOGID_TypeDefinitionIndex = 54044;
+
 	class OJBMEJCOGID : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

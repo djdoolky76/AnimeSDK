@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define BLEEIKBLHIK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF5E6A0)
 #define BLEEIKBLHIK___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1DF5E6B0)
 
+inline static constexpr unsigned int BLEEIKBLHIK___c_TypeDefinitionIndex = 33878;
+
 	class BLEEIKBLHIK___c : public ::System::Object
 	{
 	public:

@@ -17,6 +17,8 @@ namespace UnityEngine { class MonoBehaviour; }
 #define AKGOAGMFOFF_LAKMDBCPIPF_OFFSET UNITYSDK_OFFSET(0x12CD1EC0)
 #define AKGOAGMFOFF_MDCKFHDAPOF_OFFSET UNITYSDK_OFFSET(0x12CD2050)
 
+inline static constexpr unsigned int AKGOAGMFOFF_TypeDefinitionIndex = 70796;
+
 	class AKGOAGMFOFF : public ::RPG::Client::BehaviorBase
 	{
 	public:

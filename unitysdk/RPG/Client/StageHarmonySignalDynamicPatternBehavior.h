@@ -28,6 +28,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int StageHarmonySignalDynamicPatternBehavior_TypeDefinitionIndex = 70997;
+
 	class StageHarmonySignalDynamicPatternBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:

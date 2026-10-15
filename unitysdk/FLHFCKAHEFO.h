@@ -11,6 +11,8 @@
 #define FLHFCKAHEFO_KNJCAJDNOFC_OFFSET UNITYSDK_OFFSET(0x158319E0)
 #define FLHFCKAHEFO_LEPFCBKKCAB_OFFSET UNITYSDK_OFFSET(0x15831CC0)
 
+inline static constexpr unsigned int FLHFCKAHEFO_TypeDefinitionIndex = 73479;
+
 	class FLHFCKAHEFO : public ::System::Object
 	{
 	public:

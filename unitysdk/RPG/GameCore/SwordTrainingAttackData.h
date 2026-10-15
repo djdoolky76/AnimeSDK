@@ -11,6 +11,8 @@ namespace RPG::GameCore { class SwordTrainingAttackData; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SwordTrainingAttackData_TypeDefinitionIndex = 22596;
+
 	class SwordTrainingAttackData : public ::RPG::GameCore::AttackData
 	{
 	public:

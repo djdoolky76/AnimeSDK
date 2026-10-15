@@ -31,6 +31,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueMiracleSelectAction_TypeDefinitionIndex = 67030;
+
 	class RogueMiracleSelectAction : public ::System::Object
 	{
 	public:

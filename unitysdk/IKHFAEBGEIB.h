@@ -8,6 +8,8 @@ namespace RPG::Client::Promises { class Promise; }
 #define IKHFAEBGEIB_CTOR_OFFSET UNITYSDK_OFFSET(0x1648D2C0)
 #define IKHFAEBGEIB_HKKFFCBJOKM_OFFSET UNITYSDK_OFFSET(0x1648D2D0)
 
+inline static constexpr unsigned int IKHFAEBGEIB_TypeDefinitionIndex = 73116;
+
 	class IKHFAEBGEIB : public ::System::Object
 	{
 	public:

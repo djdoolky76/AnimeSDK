@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define MFPPFIGMAKC_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D163340)
 #define MFPPFIGMAKC_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D162C60)
 
+inline static constexpr unsigned int MFPPFIGMAKC_TypeDefinitionIndex = 11638;
+
 	class MFPPFIGMAKC : public ::System::Object
 	{
 	public:

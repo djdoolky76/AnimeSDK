@@ -5,6 +5,8 @@
 #define JJBIIKAMGKG_CGDOAGEGDFC_OFFSET UNITYSDK_OFFSET(0xB2011E0)
 #define JJBIIKAMGKG_CTOR_OFFSET UNITYSDK_OFFSET(0xB2013E0)
 
+inline static constexpr unsigned int JJBIIKAMGKG_TypeDefinitionIndex = 47481;
+
 	class JJBIIKAMGKG : public ::System::Object
 	{
 	public:

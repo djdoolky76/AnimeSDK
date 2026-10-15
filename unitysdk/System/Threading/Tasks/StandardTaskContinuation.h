@@ -10,6 +10,8 @@ namespace System::Threading::Tasks { class TaskScheduler; }
 
 namespace System::Threading::Tasks
 {
+	inline static constexpr unsigned int StandardTaskContinuation_TypeDefinitionIndex = 920;
+
 	class StandardTaskContinuation : public ::System::Threading::Tasks::TaskContinuation
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PlanetFesPlaySpinAnim_TypeDefinitionIndex = 10279;
+
 	class PlanetFesPlaySpinAnim : public ::RPG::GameCore::TaskConfig
 	{
 	public:

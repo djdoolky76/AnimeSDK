@@ -30,6 +30,8 @@ namespace System { class String; }
 #define KOHONNJJMOL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E8B1100)
 #define KOHONNJJMOL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E8B1160)
 
+inline static constexpr unsigned int KOHONNJJMOL_TypeDefinitionIndex = 30114;
+
 	class KOHONNJJMOL : public ::System::Object
 	{
 	public:

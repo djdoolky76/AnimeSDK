@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimSetAnimParamByLevelVarAction_TypeDefinitionIndex = 18646;
+
 	class FiveDimSetAnimParamByLevelVarAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
 	public:

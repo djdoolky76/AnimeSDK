@@ -47,6 +47,8 @@ namespace System { class String; }
 #define KAODLPJMEFE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E7E7500)
 #define KAODLPJMEFE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E7E7560)
 
+inline static constexpr unsigned int KAODLPJMEFE_TypeDefinitionIndex = 27843;
+
 	class KAODLPJMEFE : public ::System::Object
 	{
 	public:

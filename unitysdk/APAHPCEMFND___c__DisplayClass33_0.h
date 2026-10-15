@@ -6,6 +6,8 @@ namespace RPG::Client::NavMap::FiveDim { class Face; }
 #define APAHPCEMFND___C__DISPLAYCLASS33_0_CTOR_OFFSET UNITYSDK_OFFSET(0x158C9340)
 #define APAHPCEMFND___C__DISPLAYCLASS33_0__GETFACE_B__0_OFFSET UNITYSDK_OFFSET(0x158C9480)
 
+inline static constexpr unsigned int APAHPCEMFND___c__DisplayClass33_0_TypeDefinitionIndex = 74673;
+
 	class APAHPCEMFND___c__DisplayClass33_0 : public ::System::Object
 	{
 	public:

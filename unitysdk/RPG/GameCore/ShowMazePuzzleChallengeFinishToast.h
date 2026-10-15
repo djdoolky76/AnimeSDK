@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ShowMazePuzzleChallengeFinishToast; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ShowMazePuzzleChallengeFinishToast_TypeDefinitionIndex = 22012;
+
 	class ShowMazePuzzleChallengeFinishToast : public ::RPG::GameCore::TaskConfig
 	{
 	public:

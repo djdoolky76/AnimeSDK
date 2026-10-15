@@ -15,6 +15,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BySkillPointActivated_TypeDefinitionIndex = 23548;
+
 	class BySkillPointActivated : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

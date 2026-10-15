@@ -8,6 +8,8 @@ class AkObstructionOcclusionValues;
 #define AKOBSTRUCTIONOCCLUSIONVALUESARRAY_DEFAULTCONSTRUCTATINTPTR_OFFSET UNITYSDK_OFFSET(0x1F5AB790)
 #define AKOBSTRUCTIONOCCLUSIONVALUESARRAY_GET_STRUCTURESIZE_OFFSET UNITYSDK_OFFSET(0x1F5AB6E0)
 
+inline static constexpr unsigned int AkObstructionOcclusionValuesArray_TypeDefinitionIndex = 44869;
+
 	class AkObstructionOcclusionValuesArray
 	{
 	public:

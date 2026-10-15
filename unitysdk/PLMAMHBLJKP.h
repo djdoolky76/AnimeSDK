@@ -30,6 +30,8 @@ namespace System { class String; }
 #define PLMAMHBLJKP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DFA32F0)
 #define PLMAMHBLJKP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DFA3350)
 
+inline static constexpr unsigned int PLMAMHBLJKP_TypeDefinitionIndex = 28275;
+
 	class PLMAMHBLJKP : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class DrinkMakerPreBartendPerformanceEndNotify; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DrinkMakerPreBartendPerformanceEndNotify_TypeDefinitionIndex = 21713;
+
 	class DrinkMakerPreBartendPerformanceEndNotify : public ::RPG::GameCore::TaskConfig
 	{
 	public:

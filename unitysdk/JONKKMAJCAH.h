@@ -8,6 +8,8 @@ class JONKKMAJCAH;
 #define JONKKMAJCAH_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D058500)
 #define JONKKMAJCAH_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D0584B0)
 
+inline static constexpr unsigned int JONKKMAJCAH_TypeDefinitionIndex = 23351;
+
 	class JONKKMAJCAH : public ::RPG::GameCore::TaskConfig
 	{
 	public:

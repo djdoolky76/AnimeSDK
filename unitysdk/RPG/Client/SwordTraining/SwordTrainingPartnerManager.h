@@ -35,6 +35,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::SwordTraining
 {
+	inline static constexpr unsigned int SwordTrainingPartnerManager_TypeDefinitionIndex = 75065;
+
 	class SwordTrainingPartnerManager : public ::System::Object
 	{
 	public:

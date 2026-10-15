@@ -31,6 +31,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define EANJILGOKBE_SET_TOGGLEUITOPPARAMS_OFFSET UNITYSDK_OFFSET(0x12684850)
 #define EANJILGOKBE_SET_TRIGGERUITOPEFFECTPARAM_OFFSET UNITYSDK_OFFSET(0x12684870)
 
+inline static constexpr unsigned int EANJILGOKBE_TypeDefinitionIndex = 71441;
+
 	class EANJILGOKBE : public ::System::Object
 	{
 	public:

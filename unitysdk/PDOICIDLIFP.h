@@ -6,6 +6,8 @@
 #define PDOICIDLIFP_GET_ADVENTUREPLAYERID_OFFSET UNITYSDK_OFFSET(0xC0218F0)
 #define PDOICIDLIFP_SET_ADVENTUREPLAYERID_OFFSET UNITYSDK_OFFSET(0xC021900)
 
+inline static constexpr unsigned int PDOICIDLIFP_TypeDefinitionIndex = 62588;
+
 	class PDOICIDLIFP : public ::System::Object
 	{
 	public:

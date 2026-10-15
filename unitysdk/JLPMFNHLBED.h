@@ -41,6 +41,8 @@ namespace System { class String; }
 #define JLPMFNHLBED_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E7869C0)
 #define JLPMFNHLBED_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E786A20)
 
+inline static constexpr unsigned int JLPMFNHLBED_TypeDefinitionIndex = 30431;
+
 	class JLPMFNHLBED : public ::System::Object
 	{
 	public:

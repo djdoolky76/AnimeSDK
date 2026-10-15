@@ -29,6 +29,8 @@ namespace System { class String; }
 #define AIBNHPAGDOL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E2795D0)
 #define AIBNHPAGDOL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E279630)
 
+inline static constexpr unsigned int AIBNHPAGDOL_TypeDefinitionIndex = 33596;
+
 	class AIBNHPAGDOL : public ::System::Object
 	{
 	public:

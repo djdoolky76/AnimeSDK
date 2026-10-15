@@ -17,6 +17,8 @@ namespace System::Net { class EndPoint; }
 #define OKABMLHDIPO_OIMIBPILLFN_OFFSET UNITYSDK_OFFSET(0x1DDA58F0)
 #define OKABMLHDIPO_PDKLDMNAJBO_OFFSET UNITYSDK_OFFSET(0x1DDA4CA0)
 
+inline static constexpr unsigned int OKABMLHDIPO_TypeDefinitionIndex = 43949;
+
 	class OKABMLHDIPO : public ::System::Object
 	{
 	public:

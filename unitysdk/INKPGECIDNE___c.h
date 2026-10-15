@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define INKPGECIDNE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E6C5860)
 #define INKPGECIDNE___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E6C5870)
 
+inline static constexpr unsigned int INKPGECIDNE___c_TypeDefinitionIndex = 32911;
+
 	class INKPGECIDNE___c : public ::System::Object
 	{
 	public:

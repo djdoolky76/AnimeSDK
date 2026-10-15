@@ -41,6 +41,8 @@ namespace UnityEngine { class Transform; }
 #define NBOBPPHFAIJ_NLCHPCKAKGO_OFFSET UNITYSDK_OFFSET(0xBAEF890)
 #define NBOBPPHFAIJ_ODBOGDJBLPO_OFFSET UNITYSDK_OFFSET(0xBAF1C10)
 
+inline static constexpr unsigned int NBOBPPHFAIJ_TypeDefinitionIndex = 76905;
+
 	class NBOBPPHFAIJ
 	{
 	public:

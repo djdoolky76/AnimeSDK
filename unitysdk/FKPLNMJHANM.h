@@ -36,6 +36,8 @@ namespace UnityEngine { class Transform; }
 #define FKPLNMJHANM_SET_PATHINDEX_OFFSET UNITYSDK_OFFSET(0x158267D0)
 #define FKPLNMJHANM_SET_REACHPOINT_OFFSET UNITYSDK_OFFSET(0x158267F0)
 
+inline static constexpr unsigned int FKPLNMJHANM_TypeDefinitionIndex = 78719;
+
 	class FKPLNMJHANM : public ::System::Object
 	{
 	public:

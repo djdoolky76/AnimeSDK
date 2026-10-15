@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AssetLoadPriority_TypeDefinitionIndex = 41385;
+
 	enum class AssetLoadPriority : ::System::Int32
 	{
 		eLow = 0,

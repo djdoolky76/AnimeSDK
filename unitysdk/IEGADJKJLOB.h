@@ -6,6 +6,8 @@ namespace RPG::GameCore { class FiveDimGravityWalkBoardConfig; }
 
 #define IEGADJKJLOB_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB085D0)
 
+inline static constexpr unsigned int IEGADJKJLOB_TypeDefinitionIndex = 43483;
+
 	class IEGADJKJLOB : public ::System::Object
 	{
 	public:

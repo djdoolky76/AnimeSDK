@@ -10,6 +10,8 @@ namespace UnityEngine { class Sprite; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MinimapVolume_TypeDefinitionIndex = 68509;
+
 	class MinimapVolume : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -8,6 +8,8 @@ class IFHFADIDGGD;
 #define IFHFADIDGGD_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CEF2630)
 #define IFHFADIDGGD_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CEF25E0)
 
+inline static constexpr unsigned int IFHFADIDGGD_TypeDefinitionIndex = 23733;
+
 	class IFHFADIDGGD : public ::RPG::GameCore::TaskConfig
 	{
 	public:

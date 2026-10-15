@@ -19,6 +19,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define IFOEBJMEFKG___C__DISPLAYCLASS54_0___TRYRECOMMENDMOLDFORATTRTRAITNEITHERMET_G__ISPROGRESSMET_15_OFFSET UNITYSDK_OFFSET(0x15F30300)
 #define IFOEBJMEFKG___C__DISPLAYCLASS54_0___TRYRECOMMENDMOLDFORATTRTRAITNEITHERMET_G__MATCHES_14_OFFSET UNITYSDK_OFFSET(0x15F300D0)
 
+inline static constexpr unsigned int IFOEBJMEFKG___c__DisplayClass54_0_TypeDefinitionIndex = 79451;
+
 	class IFOEBJMEFKG___c__DisplayClass54_0 : public ::System::Object
 	{
 	public:

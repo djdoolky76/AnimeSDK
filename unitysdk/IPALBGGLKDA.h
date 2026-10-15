@@ -5,6 +5,8 @@
 
 #define IPALBGGLKDA_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB8A470)
 
+inline static constexpr unsigned int IPALBGGLKDA_TypeDefinitionIndex = 42241;
+
 	class IPALBGGLKDA : public ::System::Object
 	{
 	public:

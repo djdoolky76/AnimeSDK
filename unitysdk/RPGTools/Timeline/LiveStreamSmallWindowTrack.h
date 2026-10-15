@@ -12,6 +12,8 @@ namespace UnityEngine::Timeline { class TimelineClip; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int LiveStreamSmallWindowTrack_TypeDefinitionIndex = 48177;
+
 	class LiveStreamSmallWindowTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
 	public:

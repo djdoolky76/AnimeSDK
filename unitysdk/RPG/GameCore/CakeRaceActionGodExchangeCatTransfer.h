@@ -10,6 +10,8 @@ namespace RPG::GameCore { class CakeRaceActionGodExchangeCatTransfer; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CakeRaceActionGodExchangeCatTransfer_TypeDefinitionIndex = 18359;
+
 	class CakeRaceActionGodExchangeCatTransfer : public ::RPG::GameCore::CakeRaceActionBase
 	{
 	public:

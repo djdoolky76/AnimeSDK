@@ -4,6 +4,8 @@ namespace Cysharp::Threading::Tasks { template <typename T> class ITriggerHandle
 
 namespace Cysharp::Threading::Tasks
 {
+	inline static constexpr unsigned int TriggerEvent_1_TypeDefinitionIndex = 38225;
+
 	template <typename T>
 	struct alignas(8) TriggerEvent_1
 	{

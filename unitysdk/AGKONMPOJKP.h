@@ -29,6 +29,8 @@ namespace System { class String; }
 #define AGKONMPOJKP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E12E4D0)
 #define AGKONMPOJKP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E12E530)
 
+inline static constexpr unsigned int AGKONMPOJKP_TypeDefinitionIndex = 32966;
+
 	class AGKONMPOJKP : public ::System::Object
 	{
 	public:

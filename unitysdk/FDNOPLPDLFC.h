@@ -48,6 +48,8 @@ namespace System { class String; }
 #define FDNOPLPDLFC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E35DBB0)
 #define FDNOPLPDLFC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E35DC10)
 
+inline static constexpr unsigned int FDNOPLPDLFC_TypeDefinitionIndex = 25088;
+
 	class FDNOPLPDLFC : public ::System::Object
 	{
 	public:

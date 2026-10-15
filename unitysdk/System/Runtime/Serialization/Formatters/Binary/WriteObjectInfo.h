@@ -37,6 +37,8 @@ namespace System::Runtime::Serialization::Formatters::Binary { class WriteObject
 
 namespace System::Runtime::Serialization::Formatters::Binary
 {
+	inline static constexpr unsigned int WriteObjectInfo_TypeDefinitionIndex = 1182;
+
 	class WriteObjectInfo : public ::System::Object
 	{
 	public:

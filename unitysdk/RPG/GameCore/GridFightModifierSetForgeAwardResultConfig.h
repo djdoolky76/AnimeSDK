@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightModifierSetForgeAwardResultConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightModifierSetForgeAwardResultConfig_TypeDefinitionIndex = 19445;
+
 	class GridFightModifierSetForgeAwardResultConfig : public ::RPG::GameCore::GridFightModifierConfigBase
 	{
 	public:

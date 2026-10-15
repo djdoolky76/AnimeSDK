@@ -16,6 +16,8 @@ namespace UnityEngine { class Camera; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int OptimizeVolumeBaseBehavior_TypeDefinitionIndex = 70832;
+
 	class OptimizeVolumeBaseBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:

@@ -30,6 +30,8 @@ namespace System { class String; }
 #define EDBOGEKADGP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E25A470)
 #define EDBOGEKADGP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E25A4D0)
 
+inline static constexpr unsigned int EDBOGEKADGP_TypeDefinitionIndex = 32948;
+
 	class EDBOGEKADGP : public ::System::Object
 	{
 	public:

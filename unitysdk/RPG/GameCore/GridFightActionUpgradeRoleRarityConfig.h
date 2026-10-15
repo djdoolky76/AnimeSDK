@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightActionUpgradeRoleRarityConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightActionUpgradeRoleRarityConfig_TypeDefinitionIndex = 19313;
+
 	class GridFightActionUpgradeRoleRarityConfig : public ::RPG::GameCore::GridFightActionConfigBase
 	{
 	public:

@@ -8,6 +8,8 @@ namespace UnityEngine { class Material; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int MaterialInfo_TypeDefinitionIndex = 51864;
+
 	class MaterialInfo : public ::System::Object
 	{
 	public:

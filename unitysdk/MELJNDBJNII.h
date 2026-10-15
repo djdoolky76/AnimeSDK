@@ -11,6 +11,8 @@ namespace System { class String; }
 #define MELJNDBJNII_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB8DEA30)
 #define MELJNDBJNII_PINBBKPHIAK_OFFSET UNITYSDK_OFFSET(0xB8DEB30)
 
+inline static constexpr unsigned int MELJNDBJNII_TypeDefinitionIndex = 55609;
+
 	class MELJNDBJNII
 	{
 	public:

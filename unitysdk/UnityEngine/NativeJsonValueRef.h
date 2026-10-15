@@ -17,6 +17,8 @@ namespace System { class String; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int NativeJsonValueRef_TypeDefinitionIndex = 4333;
+
 	struct alignas(4) NativeJsonValueRef
 	{
 		::System::IntPtr _Root_k__BackingField; // 0x10

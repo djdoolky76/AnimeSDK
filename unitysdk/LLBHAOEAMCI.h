@@ -6,6 +6,8 @@ class NNIKOAIKFMO;
 namespace Entitas { class IComponent; }
 namespace Entitas { class IEntity; }
 
+inline static constexpr unsigned int LLBHAOEAMCI_TypeDefinitionIndex = 36856;
+
 	struct alignas(8) LLBHAOEAMCI
 	{
 		::RPG::Client::LittleGameShare::ChangeType EBFOHGMMHKL; // 0x10

@@ -9,6 +9,8 @@ class OGODLCGIBNC;
 #define OGODLCGIBNC_CTOR_OFFSET UNITYSDK_OFFSET(0x1D273F10)
 #define OGODLCGIBNC_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D273C40)
 
+inline static constexpr unsigned int OGODLCGIBNC_TypeDefinitionIndex = 14397;
+
 	class OGODLCGIBNC : public ::System::Object
 	{
 	public:

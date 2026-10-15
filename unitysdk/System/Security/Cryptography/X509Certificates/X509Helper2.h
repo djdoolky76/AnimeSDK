@@ -20,6 +20,8 @@ namespace System::Security::Cryptography::X509Certificates { class X509ChainImpl
 
 namespace System::Security::Cryptography::X509Certificates
 {
+	inline static constexpr unsigned int X509Helper2_TypeDefinitionIndex = 2709;
+
 	class X509Helper2 : public ::System::Object
 	{
 	public:

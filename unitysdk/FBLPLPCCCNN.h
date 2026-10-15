@@ -37,6 +37,8 @@ namespace UnityEngine { class Transform; }
 #define FBLPLPCCCNN_PNBCCHFNDAG_OFFSET UNITYSDK_OFFSET(0x156A4BD0)
 #define FBLPLPCCCNN___LOADANCHORPREFABASYNC_B__13_0_OFFSET UNITYSDK_OFFSET(0x156A5000)
 
+inline static constexpr unsigned int FBLPLPCCCNN_TypeDefinitionIndex = 60594;
+
 	class FBLPLPCCCNN : public ::NPEBLEKDAGI
 	{
 	public:

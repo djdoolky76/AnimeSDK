@@ -38,6 +38,8 @@ namespace UnityEngine::Rendering { class CommandBuffer; }
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int CRPPipeline_TypeDefinitionIndex = 4817;
+
 	class CRPPipeline : public ::System::Object
 	{
 	public:

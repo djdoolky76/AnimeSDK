@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ST_RtSelectTarget; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ST_RtSelectTarget_TypeDefinitionIndex = 24075;
+
 	class ST_RtSelectTarget : public ::RPG::GameCore::STTaskConfig
 	{
 	public:

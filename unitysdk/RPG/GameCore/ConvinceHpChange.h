@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ConvinceHpChange; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ConvinceHpChange_TypeDefinitionIndex = 21835;
+
 	class ConvinceHpChange : public ::RPG::GameCore::TaskConfig
 	{
 	public:

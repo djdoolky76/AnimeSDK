@@ -11,6 +11,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int GeetestView___c_TypeDefinitionIndex = 8254;
+
 	class GeetestView___c : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@ class HipplenBuilderUIMan;
 #define HIPPLENBUILDERUIMAN___C__DISPLAYCLASS52_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15DF5200)
 #define HIPPLENBUILDERUIMAN___C__DISPLAYCLASS52_0__CREATEACTIVITYITEM_B__0_OFFSET UNITYSDK_OFFSET(0x15DF5B40)
 
+inline static constexpr unsigned int HipplenBuilderUIMan___c__DisplayClass52_0_TypeDefinitionIndex = 47219;
+
 	class HipplenBuilderUIMan___c__DisplayClass52_0 : public ::System::Object
 	{
 	public:

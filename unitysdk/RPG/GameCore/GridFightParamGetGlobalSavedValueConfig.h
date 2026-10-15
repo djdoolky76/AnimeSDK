@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightParamGetGlobalSavedValueConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightParamGetGlobalSavedValueConfig_TypeDefinitionIndex = 19548;
+
 	class GridFightParamGetGlobalSavedValueConfig : public ::RPG::GameCore::GridFightParameterConfigBase
 	{
 	public:

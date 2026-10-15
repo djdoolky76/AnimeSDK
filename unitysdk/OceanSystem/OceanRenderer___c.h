@@ -13,6 +13,8 @@ namespace UnityEngine { class Camera; }
 
 namespace OceanSystem
 {
+	inline static constexpr unsigned int OceanRenderer___c_TypeDefinitionIndex = 48978;
+
 	class OceanRenderer___c : public ::System::Object
 	{
 	public:

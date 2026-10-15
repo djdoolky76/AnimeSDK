@@ -6,6 +6,8 @@ class FKIAHEEJGKH;
 
 #define JPGJGHMCCJP_CTOR_OFFSET UNITYSDK_OFFSET(0x1C7099A0)
 
+inline static constexpr unsigned int JPGJGHMCCJP_TypeDefinitionIndex = 37125;
+
 	class JPGJGHMCCJP : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class CakeRaceWaitVoteEnd; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CakeRaceWaitVoteEnd_TypeDefinitionIndex = 24301;
+
 	class CakeRaceWaitVoteEnd : public ::RPG::GameCore::TaskConfig
 	{
 	public:

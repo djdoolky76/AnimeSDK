@@ -10,6 +10,8 @@ namespace RPG::GameCore { class AdvHideRushBtn; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvHideRushBtn_TypeDefinitionIndex = 20203;
+
 	class AdvHideRushBtn : public ::RPG::GameCore::TaskConfig
 	{
 	public:

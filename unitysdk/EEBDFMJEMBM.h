@@ -6,6 +6,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define EEBDFMJEMBM_CTOR_OFFSET UNITYSDK_OFFSET(0x1334E660)
 
+inline static constexpr unsigned int EEBDFMJEMBM_TypeDefinitionIndex = 79271;
+
 	class EEBDFMJEMBM : public ::System::Object
 	{
 	public:

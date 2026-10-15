@@ -12,6 +12,8 @@ namespace UnityEngine::UI { class Text; }
 #define LIGHTPERFORMANCETEST_START_OFFSET UNITYSDK_OFFSET(0xB837600)
 #define LIGHTPERFORMANCETEST_UPDATE_OFFSET UNITYSDK_OFFSET(0xB8382C0)
 
+inline static constexpr unsigned int LightPerformanceTest_TypeDefinitionIndex = 47320;
+
 	class LightPerformanceTest : public ::UnityEngine::MonoBehaviour
 	{
 	public:

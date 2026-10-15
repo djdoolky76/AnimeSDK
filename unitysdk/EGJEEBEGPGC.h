@@ -9,6 +9,8 @@ class NJGDIEAIHPD;
 #define EGJEEBEGPGC_CTOR_OFFSET UNITYSDK_OFFSET(0x1451B470)
 #define EGJEEBEGPGC_IIHFPKJNAHP_OFFSET UNITYSDK_OFFSET(0x1451B480)
 
+inline static constexpr unsigned int EGJEEBEGPGC_TypeDefinitionIndex = 62523;
+
 	class EGJEEBEGPGC : public ::System::Object
 	{
 	public:

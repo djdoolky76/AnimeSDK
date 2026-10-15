@@ -18,6 +18,8 @@ namespace RPG::GameCore { class GameEntity; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int StableSystemPuzzlePillarAndPedestal_TypeDefinitionIndex = 78879;
+
 	class StableSystemPuzzlePillarAndPedestal : public ::UnityEngine::MonoBehaviour
 	{
 	public:

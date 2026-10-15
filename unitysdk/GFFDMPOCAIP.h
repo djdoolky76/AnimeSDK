@@ -31,6 +31,8 @@ namespace System { class String; }
 #define GFFDMPOCAIP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E467A90)
 #define GFFDMPOCAIP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E467AF0)
 
+inline static constexpr unsigned int GFFDMPOCAIP_TypeDefinitionIndex = 25116;
+
 	class GFFDMPOCAIP : public ::System::Object
 	{
 	public:

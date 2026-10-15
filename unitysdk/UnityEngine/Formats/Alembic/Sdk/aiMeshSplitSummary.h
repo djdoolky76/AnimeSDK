@@ -16,6 +16,8 @@
 
 namespace UnityEngine::Formats::Alembic::Sdk
 {
+	inline static constexpr unsigned int aiMeshSplitSummary_TypeDefinitionIndex = 45810;
+
 	struct alignas(4) aiMeshSplitSummary
 	{
 		::System::Int32 _submeshCount_k__BackingField; // 0x10

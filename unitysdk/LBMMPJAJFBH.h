@@ -9,6 +9,8 @@ class PELGFJHAPJM;
 #define LBMMPJAJFBH_ONALLOC_OFFSET UNITYSDK_OFFSET(0x1C90C780)
 #define LBMMPJAJFBH_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0x1C90C7D0)
 
+inline static constexpr unsigned int LBMMPJAJFBH_TypeDefinitionIndex = 43264;
+
 	class LBMMPJAJFBH : public ::System::Object
 	{
 	public:

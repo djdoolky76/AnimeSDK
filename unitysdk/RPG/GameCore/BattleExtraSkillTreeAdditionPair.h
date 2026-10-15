@@ -11,6 +11,8 @@ namespace RPG::GameCore { class BattleExtraSkillTreeAdditionPair; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BattleExtraSkillTreeAdditionPair_TypeDefinitionIndex = 23644;
+
 	class BattleExtraSkillTreeAdditionPair : public ::RPG::GameCore::BattleExtraPropertyAdditionPair
 	{
 	public:

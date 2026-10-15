@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int HandbookGrowthGuideMaterialData_TypeDefinitionIndex = 65620;
+
 	class HandbookGrowthGuideMaterialData : public ::System::Object
 	{
 	public:

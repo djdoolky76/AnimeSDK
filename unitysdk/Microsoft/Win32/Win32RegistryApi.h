@@ -33,6 +33,8 @@ namespace System::Text { class StringBuilder; }
 
 namespace Microsoft::Win32
 {
+	inline static constexpr unsigned int Win32RegistryApi_TypeDefinitionIndex = 111;
+
 	class Win32RegistryApi : public ::System::Object
 	{
 	public:

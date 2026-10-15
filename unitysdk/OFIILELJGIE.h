@@ -36,6 +36,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define OFIILELJGIE_SET_REQUIREDCONSTRAINTS_OFFSET UNITYSDK_OFFSET(0x1C578730)
 #define OFIILELJGIE_SET_TRAITS_OFFSET UNITYSDK_OFFSET(0x1C5786F0)
 
+inline static constexpr unsigned int OFIILELJGIE_TypeDefinitionIndex = 41824;
+
 	class OFIILELJGIE : public ::System::Object
 	{
 	public:

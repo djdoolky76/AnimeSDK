@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BoxingClubBattleRecord_TypeDefinitionIndex = 62954;
+
 	class BoxingClubBattleRecord : public ::System::Object
 	{
 	public:

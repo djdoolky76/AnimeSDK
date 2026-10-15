@@ -5,6 +5,8 @@ namespace System { class String; }
 
 #define JAPJDLCCKGN_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EC30FB0)
 
+inline static constexpr unsigned int JAPJDLCCKGN_TypeDefinitionIndex = 35295;
+
 	class JAPJDLCCKGN : public ::System::Object
 	{
 	public:

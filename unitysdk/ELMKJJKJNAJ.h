@@ -4,6 +4,8 @@
 
 #define ELMKJJKJNAJ_CTOR_OFFSET UNITYSDK_OFFSET(0x15528E20)
 
+inline static constexpr unsigned int ELMKJJKJNAJ_TypeDefinitionIndex = 59033;
+
 	class ELMKJJKJNAJ : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace UnityEngine { class Mesh; }
 
 namespace RPG::Client::LiteInstancedItem
 {
+	inline static constexpr unsigned int ItemPrototype_TypeDefinitionIndex = 73710;
+
 	class ItemPrototype : public ::System::Object
 	{
 	public:

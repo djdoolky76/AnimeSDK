@@ -15,6 +15,8 @@ namespace RPG::GameCore { class TrainPartyCreateAvatarEntity; }
 #define HFIKGIODACP_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15C7B800)
 #define HFIKGIODACP_TICK_OFFSET UNITYSDK_OFFSET(0x15C7B850)
 
+inline static constexpr unsigned int HFIKGIODACP_TypeDefinitionIndex = 53420;
+
 	class HFIKGIODACP : public ::GELIALJDFBL
 	{
 	public:

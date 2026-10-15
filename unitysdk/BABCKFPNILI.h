@@ -5,6 +5,8 @@
 
 #define BABCKFPNILI_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8ADE00)
 
+inline static constexpr unsigned int BABCKFPNILI_TypeDefinitionIndex = 42233;
+
 	class BABCKFPNILI : public ::System::Object
 	{
 	public:

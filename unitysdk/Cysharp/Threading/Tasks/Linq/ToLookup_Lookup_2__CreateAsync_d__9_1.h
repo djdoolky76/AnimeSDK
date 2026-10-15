@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class IEqualityCo
 
 namespace Cysharp::Threading::Tasks::Linq
 {
+	inline static constexpr unsigned int ToLookup_Lookup_2__CreateAsync_d__9_1_TypeDefinitionIndex = 45691;
+
 	template <typename T1, typename T2>
 	struct alignas(8) ToLookup_Lookup_2__CreateAsync_d__9_1
 	{

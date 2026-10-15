@@ -12,6 +12,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define NDFAAEDOEOH_SET_FROMENTITY_OFFSET UNITYSDK_OFFSET(0xBB22100)
 #define NDFAAEDOEOH_SET_TOENTITY_OFFSET UNITYSDK_OFFSET(0xBB22120)
 
+inline static constexpr unsigned int NDFAAEDOEOH_TypeDefinitionIndex = 54307;
+
 	class NDFAAEDOEOH : public ::GOIIMBFKMJC
 	{
 	public:

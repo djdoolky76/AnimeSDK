@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ClearActionCountDown; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ClearActionCountDown_TypeDefinitionIndex = 23255;
+
 	class ClearActionCountDown : public ::RPG::GameCore::TaskConfig
 	{
 	public:

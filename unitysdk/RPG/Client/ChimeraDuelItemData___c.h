@@ -12,6 +12,8 @@ namespace System { template <typename T> class Predicate_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChimeraDuelItemData___c_TypeDefinitionIndex = 63365;
+
 	class ChimeraDuelItemData___c : public ::System::Object
 	{
 	public:

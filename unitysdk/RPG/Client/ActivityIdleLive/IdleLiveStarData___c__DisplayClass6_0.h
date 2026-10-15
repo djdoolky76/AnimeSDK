@@ -8,6 +8,8 @@ namespace RPG::Client::ActivityIdleLive { class IdleLiveStarData_StarInfo; }
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int IdleLiveStarData___c__DisplayClass6_0_TypeDefinitionIndex = 75336;
+
 	class IdleLiveStarData___c__DisplayClass6_0 : public ::System::Object
 	{
 	public:

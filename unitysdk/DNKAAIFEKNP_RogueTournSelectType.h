@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int DNKAAIFEKNP_RogueTournSelectType_TypeDefinitionIndex = 59978;
+
 	enum class DNKAAIFEKNP_RogueTournSelectType : ::System::Int32
 	{
 		BuffSelectGet = 0,

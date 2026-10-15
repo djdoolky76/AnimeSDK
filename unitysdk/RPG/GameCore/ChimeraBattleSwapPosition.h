@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ChimeraBattleTargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChimeraBattleSwapPosition_TypeDefinitionIndex = 15878;
+
 	class ChimeraBattleSwapPosition : public ::RPG::GameCore::ChimeraAbilityProgressBase
 	{
 	public:

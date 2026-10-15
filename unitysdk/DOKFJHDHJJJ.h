@@ -24,6 +24,8 @@ namespace UnityEngine::UI { class ScrollRect; }
 #define DOKFJHDHJJJ_LJBCDJNNBJH_OFFSET UNITYSDK_OFFSET(0x11FED7B0)
 #define DOKFJHDHJJJ_MDCDKNPHBIB_OFFSET UNITYSDK_OFFSET(0x11FEE630)
 
+inline static constexpr unsigned int DOKFJHDHJJJ_TypeDefinitionIndex = 72561;
+
 	class DOKFJHDHJJJ : public ::System::Object
 	{
 	public:

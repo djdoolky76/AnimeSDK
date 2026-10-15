@@ -6,6 +6,8 @@ class LBJLBMOOJGM;
 #define KEPOEINAOJB_CTOR_OFFSET UNITYSDK_OFFSET(0xB3872D0)
 #define KEPOEINAOJB_KDPCHKAGJMK_OFFSET UNITYSDK_OFFSET(0xB386DD0)
 
+inline static constexpr unsigned int KEPOEINAOJB_TypeDefinitionIndex = 82064;
+
 	class KEPOEINAOJB : public ::System::Object
 	{
 	public:

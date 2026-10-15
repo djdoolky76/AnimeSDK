@@ -11,6 +11,8 @@
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_RampPointWrapper_TypeDefinitionIndex = 40571;
+
 	class HEU_RampPointWrapper : public ::System::Object
 	{
 	public:

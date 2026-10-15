@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ChenLingActionRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChenLingActionRow_TypeDefinitionIndex = 11091;
+
 	class ChenLingActionRow : public ::System::Object
 	{
 	public:

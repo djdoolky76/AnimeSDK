@@ -22,6 +22,8 @@ namespace System { class String; }
 #define HLJHCPHHEBE_PPKPKNNDDON_OFFSET UNITYSDK_OFFSET(0x15D60C40)
 #define HLJHCPHHEBE_TICK_OFFSET UNITYSDK_OFFSET(0x15D60D00)
 
+inline static constexpr unsigned int HLJHCPHHEBE_TypeDefinitionIndex = 52464;
+
 	class HLJHCPHHEBE : public ::GELIALJDFBL
 	{
 	public:

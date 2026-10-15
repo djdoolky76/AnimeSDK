@@ -9,6 +9,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelInfiniteWaveOnNewWaveData_TypeDefinitionIndex = 56731;
+
 	class LevelInfiniteWaveOnNewWaveData : public ::CMPGEAFHHDC
 	{
 	public:

@@ -44,6 +44,8 @@ namespace UnityEngine::Rendering { class CommandBuffer; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int SWRTPass_TypeDefinitionIndex = 37870;
+
 	class SWRTPass : public ::System::Object
 	{
 	public:

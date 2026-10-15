@@ -9,6 +9,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace SRDebugger::UI::Tabs
 {
+	inline static constexpr unsigned int PerformanceInfoController_TypeDefinitionIndex = 47708;
+
 	class PerformanceInfoController : public ::SRF::SRMonoBehaviourEx
 	{
 	public:

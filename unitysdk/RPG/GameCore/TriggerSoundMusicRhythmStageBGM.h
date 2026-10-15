@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TriggerSoundMusicRhythmStageBGM; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TriggerSoundMusicRhythmStageBGM_TypeDefinitionIndex = 20611;
+
 	class TriggerSoundMusicRhythmStageBGM : public ::RPG::GameCore::TriggerSound
 	{
 	public:

@@ -53,6 +53,8 @@ namespace UnityEngine { class SkinnedMeshRenderer; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEmoBlendShapesController_TypeDefinitionIndex = 71149;
+
 	class MonoEmoBlendShapesController : public ::UnityEngine::MonoBehaviour
 	{
 	public:

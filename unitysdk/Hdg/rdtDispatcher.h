@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class Queue_1; }
 
 namespace Hdg
 {
+	inline static constexpr unsigned int rdtDispatcher_TypeDefinitionIndex = 46951;
+
 	class rdtDispatcher : public ::System::Object
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CharacterTriggerFreeStyle_TypeDefinitionIndex = 21907;
+
 	class CharacterTriggerFreeStyle : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -5,6 +5,8 @@
 
 #define OAFKGIIMCBL_CTOR_OFFSET UNITYSDK_OFFSET(0xBD20220)
 
+inline static constexpr unsigned int OAFKGIIMCBL_TypeDefinitionIndex = 65513;
+
 	class OAFKGIIMCBL : public ::System::Object
 	{
 	public:

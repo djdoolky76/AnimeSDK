@@ -15,6 +15,8 @@ namespace UnityEngine { class Animator; }
 #define HGKIDIBMKGA_PMLPLLLBPHL_OFFSET UNITYSDK_OFFSET(0x15CAA1F0)
 #define HGKIDIBMKGA_TICK_OFFSET UNITYSDK_OFFSET(0x15CA9F70)
 
+inline static constexpr unsigned int HGKIDIBMKGA_TypeDefinitionIndex = 55715;
+
 	class HGKIDIBMKGA : public ::GELIALJDFBL
 	{
 	public:

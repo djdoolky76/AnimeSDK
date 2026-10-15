@@ -8,6 +8,8 @@ namespace RPG::Client { class MissionModule_MissionResState; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int EnterGamePhase___c__DisplayClass16_0_TypeDefinitionIndex = 61147;
+
 	class EnterGamePhase___c__DisplayClass16_0 : public ::System::Object
 	{
 	public:

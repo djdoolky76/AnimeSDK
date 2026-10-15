@@ -42,6 +42,8 @@ namespace System { class String; }
 #define GOCIGPCDKDJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E4EAE90)
 #define GOCIGPCDKDJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E4EAEF0)
 
+inline static constexpr unsigned int GOCIGPCDKDJ_TypeDefinitionIndex = 29627;
+
 	class GOCIGPCDKDJ : public ::System::Object
 	{
 	public:

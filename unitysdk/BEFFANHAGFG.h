@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define BEFFANHAGFG_SET_EVENTTRIGGER_OFFSET UNITYSDK_OFFSET(0x163133A0)
 #define BEFFANHAGFG_SET_SKILLID_OFFSET UNITYSDK_OFFSET(0x16313400)
 
+inline static constexpr unsigned int BEFFANHAGFG_TypeDefinitionIndex = 77582;
+
 	class BEFFANHAGFG : public ::GMGHBGLNMFF
 	{
 	public:

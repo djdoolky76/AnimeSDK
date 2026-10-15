@@ -7,6 +7,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define DOLKBNJPNAI_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA2FE30)
 
+inline static constexpr unsigned int DOLKBNJPNAI_TypeDefinitionIndex = 43717;
+
 	class DOLKBNJPNAI : public ::System::Object
 	{
 	public:

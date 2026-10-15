@@ -24,6 +24,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define MEAAEGAIPCB_PHKIGBHONMJ_OFFSET UNITYSDK_OFFSET(0xB8B6590)
 #define MEAAEGAIPCB_TEARDOWN_OFFSET UNITYSDK_OFFSET(0xB8B5200)
 
+inline static constexpr unsigned int MEAAEGAIPCB_TypeDefinitionIndex = 78131;
+
 	class MEAAEGAIPCB : public ::System::Object
 	{
 	public:

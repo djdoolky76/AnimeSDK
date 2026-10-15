@@ -12,6 +12,8 @@ namespace System::Text { class UTF7Encoding_DecoderUTF7Fallback; }
 
 namespace System::Text
 {
+	inline static constexpr unsigned int UTF7Encoding_DecoderUTF7FallbackBuffer_TypeDefinitionIndex = 508;
+
 	class UTF7Encoding_DecoderUTF7FallbackBuffer : public ::System::Text::DecoderFallbackBuffer
 	{
 	public:

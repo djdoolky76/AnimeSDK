@@ -8,6 +8,8 @@ namespace System::Reflection { class TypeInfo; }
 
 namespace MessagePack::Internal
 {
+	inline static constexpr unsigned int DynamicObjectTypeBuilder_MessagePackReaderTypeInfo_TypeDefinitionIndex = 7314;
+
 	class DynamicObjectTypeBuilder_MessagePackReaderTypeInfo : public ::System::Object
 	{
 	public:

@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChenLingGridStatus_TypeDefinitionIndex = 11047;
+
 	enum class ChenLingGridStatus : ::System::Int32
 	{
 		Empty = 0,

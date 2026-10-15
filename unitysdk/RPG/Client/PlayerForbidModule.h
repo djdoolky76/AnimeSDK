@@ -21,6 +21,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PlayerForbidModule_TypeDefinitionIndex = 66668;
+
 	class PlayerForbidModule : public ::RPG::Client::BaseModule
 	{
 	public:

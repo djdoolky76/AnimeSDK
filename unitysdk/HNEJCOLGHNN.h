@@ -6,6 +6,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define HNEJCOLGHNN_CTOR_OFFSET UNITYSDK_OFFSET(0x15D91D10)
 #define HNEJCOLGHNN_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15D91FF0)
 
+inline static constexpr unsigned int HNEJCOLGHNN_TypeDefinitionIndex = 70152;
+
 	class HNEJCOLGHNN : public ::System::Object
 	{
 	public:

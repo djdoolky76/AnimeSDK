@@ -32,6 +32,8 @@ namespace System::Net { class IPAddress; }
 
 namespace System::Net
 {
+	inline static constexpr unsigned int IPAddress_TypeDefinitionIndex = 2743;
+
 	class IPAddress : public ::System::Object
 	{
 	public:

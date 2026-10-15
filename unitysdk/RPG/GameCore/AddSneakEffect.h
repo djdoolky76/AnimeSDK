@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AddSneakEffect_TypeDefinitionIndex = 22232;
+
 	class AddSneakEffect : public ::RPG::GameCore::TaskConfig
 	{
 	public:

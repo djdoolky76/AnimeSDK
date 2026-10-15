@@ -16,6 +16,8 @@ namespace UnityEngine { class Canvas; }
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int IdleLiveTimedEffect_TypeDefinitionIndex = 75192;
+
 	class IdleLiveTimedEffect : public ::UnityEngine::MonoBehaviour
 	{
 	public:

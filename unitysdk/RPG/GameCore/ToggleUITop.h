@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ToggleUITop_TypeDefinitionIndex = 23153;
+
 	class ToggleUITop : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -7,6 +7,8 @@ namespace RPG::GameCore { class DiceCombatTaskConfig_ModifyOwedRollCount; }
 #define NFJEKPCCAMP_CTOR_OFFSET UNITYSDK_OFFSET(0x1C793B40)
 #define NFJEKPCCAMP_MLKLPMJEHPF_OFFSET UNITYSDK_OFFSET(0x1C793B50)
 
+inline static constexpr unsigned int NFJEKPCCAMP_TypeDefinitionIndex = 36328;
+
 	class NFJEKPCCAMP : public ::AJBKGPOEBFG
 	{
 	public:

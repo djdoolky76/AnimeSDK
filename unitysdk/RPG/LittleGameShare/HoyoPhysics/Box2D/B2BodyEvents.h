@@ -6,6 +6,8 @@
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
+	inline static constexpr unsigned int B2BodyEvents_TypeDefinitionIndex = 36593;
+
 	struct alignas(8) B2BodyEvents
 	{
 		::Il2CppArray<::RPG::LittleGameShare::HoyoPhysics::Box2D::B2BodyMoveEvent>* moveEvents; // 0x10

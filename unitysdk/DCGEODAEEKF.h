@@ -5,6 +5,8 @@ class JIPBOGKHKBE;
 
 #define DCGEODAEEKF_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xE242FD0)
 
+inline static constexpr unsigned int DCGEODAEEKF_TypeDefinitionIndex = 78106;
+
 	class DCGEODAEEKF : public ::System::Object
 	{
 	public:

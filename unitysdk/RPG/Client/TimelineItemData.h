@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TimelineItemData_TypeDefinitionIndex = 60854;
+
 	class TimelineItemData : public ::UnityEngine::ScriptableObject
 	{
 	public:

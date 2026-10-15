@@ -17,6 +17,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int TriggerStoryAdvEffectClip_TypeDefinitionIndex = 48321;
+
 	class TriggerStoryAdvEffectClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

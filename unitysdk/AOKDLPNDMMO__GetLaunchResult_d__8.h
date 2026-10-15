@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 #define AOKDLPNDMMO__GETLAUNCHRESULT_D__8___M__FINALLY1_OFFSET UNITYSDK_OFFSET(0x1C8A1880)
 #define AOKDLPNDMMO__GETLAUNCHRESULT_D__8___M__FINALLY2_OFFSET UNITYSDK_OFFSET(0x1C8A1980)
 
+inline static constexpr unsigned int AOKDLPNDMMO__GetLaunchResult_d__8_TypeDefinitionIndex = 43079;
+
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8>
 	class AOKDLPNDMMO__GetLaunchResult_d__8 : public ::System::Object
 	{

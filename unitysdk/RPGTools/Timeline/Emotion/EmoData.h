@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace RPGTools::Timeline::Emotion
 {
+	inline static constexpr unsigned int EmoData_TypeDefinitionIndex = 48740;
+
 	class EmoData : public ::System::Object
 	{
 	public:

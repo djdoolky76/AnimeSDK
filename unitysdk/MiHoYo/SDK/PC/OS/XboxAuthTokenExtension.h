@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::PC::OS
 {
+	inline static constexpr unsigned int XboxAuthTokenExtension_TypeDefinitionIndex = 8661;
+
 	class XboxAuthTokenExtension : public ::System::Object
 	{
 	public:

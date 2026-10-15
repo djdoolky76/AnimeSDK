@@ -11,6 +11,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK::Console::UI::OS
 {
+	inline static constexpr unsigned int ConsoleAgeGateVerificationDialog___c_TypeDefinitionIndex = 9050;
+
 	class ConsoleAgeGateVerificationDialog___c : public ::System::Object
 	{
 	public:

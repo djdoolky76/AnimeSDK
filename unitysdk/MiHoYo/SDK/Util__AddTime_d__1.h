@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int Util__AddTime_d__1_TypeDefinitionIndex = 8199;
+
 	template <typename T>
 	class Util__AddTime_d__1 : public ::System::Object
 	{

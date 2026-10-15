@@ -34,6 +34,8 @@ namespace RPG::GameCore { class StageVolumeConfigV2; }
 #define JOBKICAGHKJ_PLNCKLJOJME_OFFSET UNITYSDK_OFFSET(0x3C3A600)
 #define JOBKICAGHKJ_PNHGEDDFHGJ_OFFSET UNITYSDK_OFFSET(0x3C3B190)
 
+inline static constexpr unsigned int JOBKICAGHKJ_TypeDefinitionIndex = 10734;
+
 	struct alignas(8) JOBKICAGHKJ
 	{
 		::LELCKJPOPAO* BEHHICMOFIE; // 0x10

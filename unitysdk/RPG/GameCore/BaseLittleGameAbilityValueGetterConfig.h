@@ -10,6 +10,8 @@ namespace RPG::GameCore { class BaseLittleGameAbilityValueGetterConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BaseLittleGameAbilityValueGetterConfig_TypeDefinitionIndex = 21383;
+
 	class BaseLittleGameAbilityValueGetterConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

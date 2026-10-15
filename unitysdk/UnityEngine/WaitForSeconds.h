@@ -6,6 +6,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int WaitForSeconds_TypeDefinitionIndex = 4368;
+
 	class WaitForSeconds : public ::UnityEngine::YieldInstruction
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TimeRewindForbidSelect; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TimeRewindForbidSelect_TypeDefinitionIndex = 20667;
+
 	class TimeRewindForbidSelect : public ::RPG::GameCore::TaskConfig
 	{
 	public:

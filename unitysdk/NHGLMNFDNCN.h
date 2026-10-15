@@ -7,6 +7,8 @@ namespace System { class Action; }
 #define NHGLMNFDNCN_GHFNNDPKDMK_OFFSET UNITYSDK_OFFSET(0x1C79A4C0)
 #define NHGLMNFDNCN_KAGICIAJEEA_OFFSET UNITYSDK_OFFSET(0x1C79A550)
 
+inline static constexpr unsigned int NHGLMNFDNCN_TypeDefinitionIndex = 37114;
+
 	class NHGLMNFDNCN : public ::System::Object
 	{
 	public:

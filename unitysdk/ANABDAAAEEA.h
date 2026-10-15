@@ -53,6 +53,8 @@ namespace UnityEngine::UI { class Text; }
 #define ANABDAAAEEA__ONDISPOSE_OFFSET UNITYSDK_OFFSET(0x1558FF40)
 #define ANABDAAAEEA__ONTICK_OFFSET UNITYSDK_OFFSET(0x1558FDF0)
 
+inline static constexpr unsigned int ANABDAAAEEA_TypeDefinitionIndex = 71252;
+
 	class ANABDAAAEEA : public ::FMPCODLIOLG
 	{
 	public:

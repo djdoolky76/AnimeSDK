@@ -8,6 +8,8 @@ namespace UnityEngine::UI { class Image; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UIAdventureMinimap_SubMapIcon_TypeDefinitionIndex = 69064;
+
 	class UIAdventureMinimap_SubMapIcon : public ::System::Object
 	{
 	public:

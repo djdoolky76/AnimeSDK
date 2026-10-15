@@ -3,6 +3,8 @@
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int COpenVRContext_TypeDefinitionIndex = 39326;
+
 	struct alignas(4) COpenVRContext
 	{
 		::System::IntPtr m_pVRSystem; // 0x10

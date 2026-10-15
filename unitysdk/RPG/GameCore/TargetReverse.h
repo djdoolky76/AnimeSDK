@@ -13,6 +13,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TargetReverse_TypeDefinitionIndex = 24034;
+
 	class TargetReverse : public ::RPG::GameCore::TargetSeqOperation
 	{
 	public:

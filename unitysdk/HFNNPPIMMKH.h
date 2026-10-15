@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define HFNNPPIMMKH_CHAKABNICEL_OFFSET UNITYSDK_OFFSET(0x15C8C500)
 #define HFNNPPIMMKH_CTOR_OFFSET UNITYSDK_OFFSET(0x15C8C5C0)
 
+inline static constexpr unsigned int HFNNPPIMMKH_TypeDefinitionIndex = 77526;
+
 	class HFNNPPIMMKH : public ::System::Object
 	{
 	public:

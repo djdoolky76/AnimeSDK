@@ -9,6 +9,8 @@ namespace SRDebugger::UI::Controls { class DataBoundControl; }
 
 namespace SRDebugger::Internal
 {
+	inline static constexpr unsigned int OptionControlFactory___c__DisplayClass4_0_TypeDefinitionIndex = 38104;
+
 	class OptionControlFactory___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ShakeDistanceAttenuation_TypeDefinitionIndex = 16416;
+
 	class ShakeDistanceAttenuation : public ::RPG::GameCore::JsonConfig
 	{
 	public:

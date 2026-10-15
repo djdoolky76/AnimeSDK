@@ -31,6 +31,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 
 namespace RPG::Client::Challenge::Tierce
 {
+	inline static constexpr unsigned int ChallengeTierceBattlePauseViewModel_TypeDefinitionIndex = 81564;
+
 	class ChallengeTierceBattlePauseViewModel : public ::System::Object
 	{
 	public:

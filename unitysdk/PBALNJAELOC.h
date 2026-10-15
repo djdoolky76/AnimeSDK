@@ -14,6 +14,8 @@ namespace UnityEngine { class Transform; }
 #define PBALNJAELOC_JKIBICNOBAA_OFFSET UNITYSDK_OFFSET(0xBFE0F60)
 #define PBALNJAELOC_UNITYENGINE_EVENTSYSTEMS_IEXECUTEEVENTBLOCKER_ISEVENTBLOCK_OFFSET UNITYSDK_OFFSET(0xBFE0F00)
 
+inline static constexpr unsigned int PBALNJAELOC_TypeDefinitionIndex = 68229;
+
 	class PBALNJAELOC : public ::System::Object
 	{
 	public:

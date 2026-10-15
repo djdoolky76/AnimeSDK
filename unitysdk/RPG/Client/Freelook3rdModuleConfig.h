@@ -14,6 +14,8 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Freelook3rdModuleConfig_TypeDefinitionIndex = 69680;
+
 	class Freelook3rdModuleConfig : public ::RPG::Client::CameraModuleConfigBase
 	{
 	public:

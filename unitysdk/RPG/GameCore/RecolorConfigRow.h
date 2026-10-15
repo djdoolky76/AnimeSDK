@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RecolorConfigRow_TypeDefinitionIndex = 12654;
+
 	class RecolorConfigRow : public ::System::Object
 	{
 	public:

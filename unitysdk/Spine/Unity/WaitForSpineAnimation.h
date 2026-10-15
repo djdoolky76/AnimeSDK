@@ -16,6 +16,8 @@ namespace System { class Object; }
 
 namespace Spine::Unity
 {
+	inline static constexpr unsigned int WaitForSpineAnimation_TypeDefinitionIndex = 45105;
+
 	class WaitForSpineAnimation : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class SwitchRefLevelVarNumber; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SwitchRefLevelVarNumber_TypeDefinitionIndex = 17532;
+
 	class SwitchRefLevelVarNumber : public ::RPG::GameCore::SwitchRefBase
 	{
 	public:

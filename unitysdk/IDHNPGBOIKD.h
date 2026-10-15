@@ -7,6 +7,8 @@ namespace UnityEngine { class Object; }
 #define IDHNPGBOIKD_CTOR_OFFSET UNITYSDK_OFFSET(0x15ED4240)
 #define IDHNPGBOIKD_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0x15ED41F0)
 
+inline static constexpr unsigned int IDHNPGBOIKD_TypeDefinitionIndex = 82301;
+
 	class IDHNPGBOIKD : public ::System::Object
 	{
 	public:

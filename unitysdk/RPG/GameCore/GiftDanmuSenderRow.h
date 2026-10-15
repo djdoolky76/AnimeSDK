@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GiftDanmuSenderRow_TypeDefinitionIndex = 15193;
+
 	class GiftDanmuSenderRow : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SyncAnimWithBgmChapterConfig_TypeDefinitionIndex = 22392;
+
 	class SyncAnimWithBgmChapterConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

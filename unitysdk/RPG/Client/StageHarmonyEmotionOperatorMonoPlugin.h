@@ -12,6 +12,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int StageHarmonyEmotionOperatorMonoPlugin_TypeDefinitionIndex = 70966;
+
 	class StageHarmonyEmotionOperatorMonoPlugin
 	{
 	public:

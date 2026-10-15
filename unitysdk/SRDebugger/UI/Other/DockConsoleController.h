@@ -35,6 +35,8 @@ namespace UnityEngine::UI { class Toggle; }
 
 namespace SRDebugger::UI::Other
 {
+	inline static constexpr unsigned int DockConsoleController_TypeDefinitionIndex = 38003;
+
 	class DockConsoleController : public ::SRF::SRMonoBehaviourEx
 	{
 	public:

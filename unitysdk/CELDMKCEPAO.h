@@ -37,6 +37,8 @@ namespace System { class String; }
 #define CELDMKCEPAO_SET_LODLEVEL_OFFSET UNITYSDK_OFFSET(0xC9E41D0)
 #define CELDMKCEPAO_TICK_OFFSET UNITYSDK_OFFSET(0xC9E3CF0)
 
+inline static constexpr unsigned int CELDMKCEPAO_TypeDefinitionIndex = 57331;
+
 	class CELDMKCEPAO : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

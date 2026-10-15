@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TaskConfig; }
 #define MDHMIDHALGE_LCIDMLKJENK_OFFSET UNITYSDK_OFFSET(0xB8A9FA0)
 #define MDHMIDHALGE_ONSTARTLOADING_OFFSET UNITYSDK_OFFSET(0xB8A99B0)
 
+inline static constexpr unsigned int MDHMIDHALGE_TypeDefinitionIndex = 61074;
+
 	class MDHMIDHALGE
 	{
 	public:

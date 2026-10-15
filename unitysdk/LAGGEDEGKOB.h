@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 #define LAGGEDEGKOB_CTOR_OFFSET UNITYSDK_OFFSET(0xB5E0DD0)
 #define LAGGEDEGKOB_MHGOKFKJGOP_OFFSET UNITYSDK_OFFSET(0xB5E0D80)
 
+inline static constexpr unsigned int LAGGEDEGKOB_TypeDefinitionIndex = 77371;
+
 	class LAGGEDEGKOB : public ::System::Object
 	{
 	public:

@@ -24,6 +24,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define FHPMJLMOMFL_SET_PLANEXTRASCORECALCULATOR_OFFSET UNITYSDK_OFFSET(0x15795670)
 #define FHPMJLMOMFL_SET_RELICSCORECALCULATOR_OFFSET UNITYSDK_OFFSET(0x15795650)
 
+inline static constexpr unsigned int FHPMJLMOMFL_TypeDefinitionIndex = 74440;
+
 	class FHPMJLMOMFL : public ::System::Object
 	{
 	public:

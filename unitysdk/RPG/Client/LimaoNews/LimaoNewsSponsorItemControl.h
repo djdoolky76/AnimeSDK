@@ -10,6 +10,8 @@ namespace UnityEngine::UI { class Image; }
 
 namespace RPG::Client::LimaoNews
 {
+	inline static constexpr unsigned int LimaoNewsSponsorItemControl_TypeDefinitionIndex = 80401;
+
 	class LimaoNewsSponsorItemControl : public ::Sofa::BaseSofaControl
 	{
 	public:

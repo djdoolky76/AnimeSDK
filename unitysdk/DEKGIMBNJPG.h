@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define DEKGIMBNJPG_LOCK_OFFSET UNITYSDK_OFFSET(0xE514370)
 #define DEKGIMBNJPG_UNLOCK_OFFSET UNITYSDK_OFFSET(0xE514480)
 
+inline static constexpr unsigned int DEKGIMBNJPG_TypeDefinitionIndex = 74782;
+
 	class DEKGIMBNJPG : public ::RPG::Client::GamePlayLockTargetFunc
 	{
 	public:

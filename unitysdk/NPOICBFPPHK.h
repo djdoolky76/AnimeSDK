@@ -38,6 +38,8 @@ namespace System { class String; }
 #define NPOICBFPPHK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EBA0820)
 #define NPOICBFPPHK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EBA0880)
 
+inline static constexpr unsigned int NPOICBFPPHK_TypeDefinitionIndex = 27817;
+
 	class NPOICBFPPHK : public ::System::Object
 	{
 	public:

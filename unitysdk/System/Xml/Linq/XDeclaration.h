@@ -13,6 +13,8 @@ namespace System::Xml::Linq { class XDeclaration; }
 
 namespace System::Xml::Linq
 {
+	inline static constexpr unsigned int XDeclaration_TypeDefinitionIndex = 3906;
+
 	class XDeclaration : public ::System::Object
 	{
 	public:

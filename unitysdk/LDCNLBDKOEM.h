@@ -88,6 +88,8 @@ namespace System { class String; }
 #define LDCNLBDKOEM_OMOCCABFGCJ_OFFSET UNITYSDK_OFFSET(0x3C3BE30)
 #define LDCNLBDKOEM_PCKEJOJIOOM_OFFSET UNITYSDK_OFFSET(0x3C3C3C0)
 
+inline static constexpr unsigned int LDCNLBDKOEM_TypeDefinitionIndex = 10690;
+
 	struct alignas(8) LDCNLBDKOEM
 	{
 		::LELCKJPOPAO* BEHHICMOFIE; // 0x10

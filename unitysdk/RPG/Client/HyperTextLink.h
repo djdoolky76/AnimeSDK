@@ -27,6 +27,8 @@ namespace UnityEngine::UI { class VertexHelper; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int HyperTextLink_TypeDefinitionIndex = 72541;
+
 	class HyperTextLink : public ::UnityEngine::UI::Text
 	{
 	public:

@@ -13,6 +13,8 @@ namespace RPG::GameCore { class AbilityPreAddAbilityInstance; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AbilityPreAddAbilityInstance_TypeDefinitionIndex = 56590;
+
 	class AbilityPreAddAbilityInstance : public ::CMPGEAFHHDC
 	{
 	public:

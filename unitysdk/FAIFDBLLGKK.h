@@ -50,6 +50,8 @@ namespace System { class String; }
 #define FAIFDBLLGKK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E3244F0)
 #define FAIFDBLLGKK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E324550)
 
+inline static constexpr unsigned int FAIFDBLLGKK_TypeDefinitionIndex = 25677;
+
 	class FAIFDBLLGKK : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System { template <typename T> class Func_1; }
 #define GEGEEDOOOCC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x159D5330)
 #define GEGEEDOOOCC___C__CREATEITEM_B__1_0_OFFSET UNITYSDK_OFFSET(0x159D5340)
 
+inline static constexpr unsigned int GEGEEDOOOCC___c_TypeDefinitionIndex = 65592;
+
 	class GEGEEDOOOCC___c : public ::System::Object
 	{
 	public:

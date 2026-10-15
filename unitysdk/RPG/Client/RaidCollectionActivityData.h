@@ -17,6 +17,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RaidCollectionActivityData_TypeDefinitionIndex = 66765;
+
 	class RaidCollectionActivityData : public ::RPG::Client::ActivityPanelData
 	{
 	public:

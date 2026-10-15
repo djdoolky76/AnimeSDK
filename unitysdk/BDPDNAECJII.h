@@ -172,6 +172,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define BDPDNAECJII___ONENTERGAMESTATE_B__71_3_OFFSET UNITYSDK_OFFSET(0x1C5B6E60)
 #define BDPDNAECJII___REGISTERSTATCHANGECALLBACK_B__49_0_OFFSET UNITYSDK_OFFSET(0x1C5B6510)
 
+inline static constexpr unsigned int BDPDNAECJII_TypeDefinitionIndex = 37159;
+
 	class BDPDNAECJII : public ::AEKIOONKCIB
 	{
 	public:

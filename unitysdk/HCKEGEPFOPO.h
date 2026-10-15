@@ -12,6 +12,8 @@ namespace System { class Object; }
 #define HCKEGEPFOPO_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15C20170)
 #define HCKEGEPFOPO_TICK_OFFSET UNITYSDK_OFFSET(0x15C201C0)
 
+inline static constexpr unsigned int HCKEGEPFOPO_TypeDefinitionIndex = 55785;
+
 	class HCKEGEPFOPO : public ::GELIALJDFBL
 	{
 	public:

@@ -7,6 +7,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define GPFEAEOEGFA_EXTRAEXPORTDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x15B53CB0)
 
+inline static constexpr unsigned int GPFEAEOEGFA_ExtraExportData_TypeDefinitionIndex = 49040;
+
 	class GPFEAEOEGFA_ExtraExportData : public ::System::Object
 	{
 	public:

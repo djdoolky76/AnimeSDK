@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChimeraEndlessManager_TypeDefinitionIndex = 63421;
+
 	class ChimeraEndlessManager : public ::System::Object
 	{
 	public:

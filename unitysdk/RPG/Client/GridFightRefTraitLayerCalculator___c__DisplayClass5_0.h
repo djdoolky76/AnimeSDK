@@ -8,6 +8,8 @@ class OABDFLPEHDO;
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightRefTraitLayerCalculator___c__DisplayClass5_0_TypeDefinitionIndex = 64821;
+
 	class GridFightRefTraitLayerCalculator___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:

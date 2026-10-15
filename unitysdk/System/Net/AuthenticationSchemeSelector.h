@@ -14,6 +14,8 @@ namespace System::Net { class HttpListenerRequest; }
 
 namespace System::Net
 {
+	inline static constexpr unsigned int AuthenticationSchemeSelector_TypeDefinitionIndex = 2726;
+
 	class AuthenticationSchemeSelector : public ::System::MulticastDelegate
 	{
 	public:

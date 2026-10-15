@@ -6,6 +6,8 @@
 
 namespace Entitas
 {
+	inline static constexpr unsigned int MatcherException_TypeDefinitionIndex = 10044;
+
 	class MatcherException : public ::System::Exception
 	{
 	public:

@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 #define KBDBCACNCJF_IKFMHCMKFHJ_OFFSET UNITYSDK_OFFSET(0xB2F0AE0)
 #define KBDBCACNCJF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB2F0380)
 
+inline static constexpr unsigned int KBDBCACNCJF_TypeDefinitionIndex = 53094;
+
 	class KBDBCACNCJF
 	{
 	public:

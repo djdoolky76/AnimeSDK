@@ -30,6 +30,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ActivityExpeditionExcelTable_TypeDefinitionIndex = 11460;
+
 	class ActivityExpeditionExcelTable : public ::System::Object
 	{
 	public:

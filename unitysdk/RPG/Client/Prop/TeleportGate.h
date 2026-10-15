@@ -61,6 +61,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int TeleportGate_TypeDefinitionIndex = 78888;
+
 	class TeleportGate : public ::UnityEngine::MonoBehaviour
 	{
 	public:

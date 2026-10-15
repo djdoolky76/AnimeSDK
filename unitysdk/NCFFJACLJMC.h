@@ -4,6 +4,8 @@ namespace RPG::GameCore { class FiveDimEffectItem; }
 namespace RPG::GameCore { class LittleGameEvent; }
 namespace System { class String; }
 
+inline static constexpr unsigned int NCFFJACLJMC_TypeDefinitionIndex = 43374;
+
 	struct alignas(8) NCFFJACLJMC
 	{
 		::System::UInt32 OIHCEBCPPMJ; // 0x10

@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define PCIANCIENDK_CTOR_OFFSET UNITYSDK_OFFSET(0xC000860)
 #define PCIANCIENDK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC000890)
 
+inline static constexpr unsigned int PCIANCIENDK_TypeDefinitionIndex = 53327;
+
 	class PCIANCIENDK
 	{
 	public:

@@ -8,6 +8,8 @@ namespace UnityEngine { class Object; }
 #define EDEPICFGMDM_CTOR_OFFSET UNITYSDK_OFFSET(0x13312DC0)
 #define EDEPICFGMDM_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0x13312D70)
 
+inline static constexpr unsigned int EDEPICFGMDM_TypeDefinitionIndex = 82303;
+
 	class EDEPICFGMDM : public ::System::Object
 	{
 	public:

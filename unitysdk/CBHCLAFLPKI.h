@@ -5,6 +5,8 @@
 
 #define CBHCLAFLPKI_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8DCD20)
 
+inline static constexpr unsigned int CBHCLAFLPKI_TypeDefinitionIndex = 43277;
+
 	class CBHCLAFLPKI : public ::System::Object
 	{
 	public:

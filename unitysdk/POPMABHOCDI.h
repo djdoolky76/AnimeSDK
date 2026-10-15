@@ -13,6 +13,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define POPMABHOCDI_JHMKPPGKEBK_OFFSET UNITYSDK_OFFSET(0xC376880)
 #define POPMABHOCDI_NBAKIKMCBHM_OFFSET UNITYSDK_OFFSET(0xC376DB0)
 
+inline static constexpr unsigned int POPMABHOCDI_TypeDefinitionIndex = 52415;
+
 	class POPMABHOCDI : public ::System::Object
 	{
 	public:

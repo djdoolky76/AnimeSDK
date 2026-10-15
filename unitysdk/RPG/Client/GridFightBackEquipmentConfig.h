@@ -20,6 +20,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightBackEquipmentConfig_TypeDefinitionIndex = 65129;
+
 	class GridFightBackEquipmentConfig : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FiveDimCameraObserveConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimCameraObserveConfig_TypeDefinitionIndex = 18622;
+
 	class FiveDimCameraObserveConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

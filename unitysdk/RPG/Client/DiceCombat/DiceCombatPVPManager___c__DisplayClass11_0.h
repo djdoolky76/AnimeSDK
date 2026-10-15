@@ -13,6 +13,8 @@ namespace System { class Action; }
 
 namespace RPG::Client::DiceCombat
 {
+	inline static constexpr unsigned int DiceCombatPVPManager___c__DisplayClass11_0_TypeDefinitionIndex = 76139;
+
 	class DiceCombatPVPManager___c__DisplayClass11_0 : public ::System::Object
 	{
 	public:

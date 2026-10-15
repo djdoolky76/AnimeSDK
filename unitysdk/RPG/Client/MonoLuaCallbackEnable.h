@@ -19,6 +19,8 @@ namespace XLua { class LuaTable; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoLuaCallbackEnable_TypeDefinitionIndex = 68961;
+
 	class MonoLuaCallbackEnable : public ::UnityEngine::MonoBehaviour
 	{
 	public:

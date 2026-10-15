@@ -6,6 +6,8 @@
 
 namespace WwiseCustom
 {
+	inline static constexpr unsigned int CustomWwiseSetting_TypeDefinitionIndex = 3915;
+
 	class CustomWwiseSetting : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class CakeRaceCheckAndSaveTargetsPredicateConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CakeRaceCheckAndSaveTargetsPredicateConfig_TypeDefinitionIndex = 18382;
+
 	class CakeRaceCheckAndSaveTargetsPredicateConfig : public ::RPG::GameCore::CakeRaceBasePredicateConfig
 	{
 	public:

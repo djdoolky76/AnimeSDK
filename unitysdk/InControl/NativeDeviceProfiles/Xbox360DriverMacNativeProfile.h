@@ -7,6 +7,8 @@
 
 namespace InControl::NativeDeviceProfiles
 {
+	inline static constexpr unsigned int Xbox360DriverMacNativeProfile_TypeDefinitionIndex = 41272;
+
 	class Xbox360DriverMacNativeProfile : public ::InControl::InputDeviceProfile
 	{
 	public:

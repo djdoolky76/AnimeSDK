@@ -6,6 +6,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define BJHEOCMKDPE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8BB910)
 
+inline static constexpr unsigned int BJHEOCMKDPE_TypeDefinitionIndex = 42845;
+
 	class BJHEOCMKDPE : public ::System::Object
 	{
 	public:

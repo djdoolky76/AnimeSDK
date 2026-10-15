@@ -4,6 +4,8 @@
 
 #define CGAIKFKNFDC_JKKACMIHCLN_CTOR_OFFSET UNITYSDK_OFFSET(0x1DD16B50)
 
+inline static constexpr unsigned int CGAIKFKNFDC_JKKACMIHCLN_TypeDefinitionIndex = 6188;
+
 	class CGAIKFKNFDC_JKKACMIHCLN : public ::System::Object
 	{
 	public:

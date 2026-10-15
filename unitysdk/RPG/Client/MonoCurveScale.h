@@ -12,6 +12,8 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoCurveScale_TypeDefinitionIndex = 71047;
+
 	class MonoCurveScale : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ItemGiftPackDataRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ItemGiftPackDataRow_TypeDefinitionIndex = 13873;
+
 	class ItemGiftPackDataRow : public ::System::Object
 	{
 	public:

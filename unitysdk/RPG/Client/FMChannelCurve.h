@@ -8,6 +8,8 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FMChannelCurve_TypeDefinitionIndex = 70289;
+
 	class FMChannelCurve : public ::System::Object
 	{
 	public:

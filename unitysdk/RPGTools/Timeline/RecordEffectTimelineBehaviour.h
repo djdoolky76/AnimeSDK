@@ -16,6 +16,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int RecordEffectTimelineBehaviour_TypeDefinitionIndex = 48474;
+
 	class RecordEffectTimelineBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

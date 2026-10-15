@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftSettleControl___c__DisplayClass14_0_TypeDefinitionIndex = 80036;
+
 	class MechCraftSettleControl___c__DisplayClass14_0 : public ::System::Object
 	{
 	public:

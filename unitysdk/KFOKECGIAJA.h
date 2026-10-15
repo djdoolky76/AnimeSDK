@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define KFOKECGIAJA_NMDDMMILMJL_OFFSET UNITYSDK_OFFSET(0x1D08DA70)
 #define KFOKECGIAJA_PLIKPOOOCLB_OFFSET UNITYSDK_OFFSET(0x1D08D5C0)
 
+inline static constexpr unsigned int KFOKECGIAJA_TypeDefinitionIndex = 10363;
+
 	class KFOKECGIAJA : public ::System::Object
 	{
 	public:

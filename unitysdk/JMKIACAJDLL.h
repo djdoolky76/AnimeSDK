@@ -12,6 +12,8 @@ namespace System { class Action; }
 #define JMKIACAJDLL_HKKFFCBJOKM_OFFSET UNITYSDK_OFFSET(0xB269C30)
 #define JMKIACAJDLL_KAOLPGACCID_OFFSET UNITYSDK_OFFSET(0xB269DD0)
 
+inline static constexpr unsigned int JMKIACAJDLL_TypeDefinitionIndex = 71113;
+
 	class JMKIACAJDLL : public ::System::Object
 	{
 	public:

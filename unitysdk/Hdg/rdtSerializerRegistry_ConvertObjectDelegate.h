@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace Hdg
 {
+	inline static constexpr unsigned int rdtSerializerRegistry_ConvertObjectDelegate_TypeDefinitionIndex = 46967;
+
 	class rdtSerializerRegistry_ConvertObjectDelegate : public ::System::MulticastDelegate
 	{
 	public:

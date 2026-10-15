@@ -7,6 +7,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define LDMBNFAMCOI___C__DISPLAYCLASS6_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB63DE60)
 #define LDMBNFAMCOI___C__DISPLAYCLASS6_0___REFRESHSUMMONLINK_B__0_OFFSET UNITYSDK_OFFSET(0xB63E000)
 
+inline static constexpr unsigned int LDMBNFAMCOI___c__DisplayClass6_0_TypeDefinitionIndex = 81005;
+
 	class LDMBNFAMCOI___c__DisplayClass6_0 : public ::System::Object
 	{
 	public:

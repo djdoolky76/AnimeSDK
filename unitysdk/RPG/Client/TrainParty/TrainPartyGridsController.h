@@ -56,6 +56,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::TrainParty
 {
+	inline static constexpr unsigned int TrainPartyGridsController_TypeDefinitionIndex = 74328;
+
 	class TrainPartyGridsController : public ::System::Object
 	{
 	public:

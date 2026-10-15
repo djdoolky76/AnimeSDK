@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MakeCharacterHUDVisible_TypeDefinitionIndex = 22818;
+
 	class MakeCharacterHUDVisible : public ::RPG::GameCore::TaskConfig
 	{
 	public:

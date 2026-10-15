@@ -29,6 +29,8 @@ namespace System { class String; }
 #define LDANNFAAHIJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E8F0CF0)
 #define LDANNFAAHIJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E8F0D50)
 
+inline static constexpr unsigned int LDANNFAAHIJ_TypeDefinitionIndex = 27230;
+
 	class LDANNFAAHIJ : public ::System::Object
 	{
 	public:

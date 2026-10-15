@@ -9,6 +9,8 @@ namespace System { class Action; }
 
 namespace RPG::Editor
 {
+	inline static constexpr unsigned int PreviewEditorTicker_TypeDefinitionIndex = 52034;
+
 	class PreviewEditorTicker : public ::UnityEngine::MonoBehaviour
 	{
 	public:

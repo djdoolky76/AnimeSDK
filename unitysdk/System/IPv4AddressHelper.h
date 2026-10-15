@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace System
 {
+	inline static constexpr unsigned int IPv4AddressHelper_TypeDefinitionIndex = 2481;
+
 	class IPv4AddressHelper : public ::System::Object
 	{
 	public:

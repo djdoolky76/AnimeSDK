@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ActivityIntroButton_ActivityIntroButtonConfig_TypeDefinitionIndex = 72497;
+
 	struct alignas(4) ActivityIntroButton_ActivityIntroButtonConfig
 	{
 		::System::UInt32 TimeLimitActivityPanelID; // 0x10

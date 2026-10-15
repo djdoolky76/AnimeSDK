@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace System
 {
+	inline static constexpr unsigned int ParameterizedStrings_FormatParam_TypeDefinitionIndex = 428;
+
 	struct alignas(8) ParameterizedStrings_FormatParam
 	{
 		::System::Int32 _int32_; // 0x10

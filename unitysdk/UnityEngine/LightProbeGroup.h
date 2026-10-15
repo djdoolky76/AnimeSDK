@@ -8,6 +8,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int LightProbeGroup_TypeDefinitionIndex = 4188;
+
 	class LightProbeGroup : public ::UnityEngine::Behaviour
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System { class Object; }
 #define JNKDKJGMMJF_OOBADKHILIH_OFFSET UNITYSDK_OFFSET(0xB289600)
 #define JNKDKJGMMJF_SYSTEM_ICLONEABLE_CLONE_OFFSET UNITYSDK_OFFSET(0xB289510)
 
+inline static constexpr unsigned int JNKDKJGMMJF_TypeDefinitionIndex = 67184;
+
 	class JNKDKJGMMJF : public ::PLMJFBPGLAK
 	{
 	public:

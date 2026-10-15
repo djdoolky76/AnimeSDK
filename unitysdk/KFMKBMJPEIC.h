@@ -36,6 +36,8 @@ namespace System { class String; }
 #define KFMKBMJPEIC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E820780)
 #define KFMKBMJPEIC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E8207E0)
 
+inline static constexpr unsigned int KFMKBMJPEIC_TypeDefinitionIndex = 25511;
+
 	class KFMKBMJPEIC : public ::System::Object
 	{
 	public:

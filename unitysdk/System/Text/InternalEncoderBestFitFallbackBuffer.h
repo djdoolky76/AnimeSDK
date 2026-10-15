@@ -16,6 +16,8 @@ namespace System::Text { class InternalEncoderBestFitFallback; }
 
 namespace System::Text
 {
+	inline static constexpr unsigned int InternalEncoderBestFitFallbackBuffer_TypeDefinitionIndex = 480;
+
 	class InternalEncoderBestFitFallbackBuffer : public ::System::Text::EncoderFallbackBuffer
 	{
 	public:

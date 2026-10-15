@@ -12,6 +12,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define DIAHGNIILIK_DEBKLDOJEFE_OFFSET UNITYSDK_OFFSET(0xEBEF6C0)
 #define DIAHGNIILIK_KHNCMBEFIKI_OFFSET UNITYSDK_OFFSET(0xEBEF670)
 
+inline static constexpr unsigned int DIAHGNIILIK_TypeDefinitionIndex = 55969;
+
 	class DIAHGNIILIK : public ::System::Object
 	{
 	public:

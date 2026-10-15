@@ -8,6 +8,8 @@ namespace RPG::Client { class RoleTrialEntranceData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RoleTrialModule___c__DisplayClass23_0_TypeDefinitionIndex = 67886;
+
 	class RoleTrialModule___c__DisplayClass23_0 : public ::System::Object
 	{
 	public:

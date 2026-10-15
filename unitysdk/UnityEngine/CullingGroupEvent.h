@@ -3,6 +3,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int CullingGroupEvent_TypeDefinitionIndex = 4048;
+
 	struct alignas(4) CullingGroupEvent
 	{
 		::System::Int32 m_Index; // 0x10

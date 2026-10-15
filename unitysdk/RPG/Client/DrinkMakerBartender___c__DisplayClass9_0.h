@@ -8,6 +8,8 @@ namespace RPG::Client { class DrinkMakerBartender_Ingredient; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int DrinkMakerBartender___c__DisplayClass9_0_TypeDefinitionIndex = 63609;
+
 	class DrinkMakerBartender___c__DisplayClass9_0 : public ::System::Object
 	{
 	public:

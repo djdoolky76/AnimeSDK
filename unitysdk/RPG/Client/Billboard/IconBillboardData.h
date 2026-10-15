@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::Client::Billboard
 {
+	inline static constexpr unsigned int IconBillboardData_TypeDefinitionIndex = 74980;
+
 	class IconBillboardData : public ::System::Object
 	{
 	public:

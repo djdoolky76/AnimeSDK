@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriAtomEx_CueLinkCbFunc_TypeDefinitionIndex = 39981;
+
 	class CriAtomEx_CueLinkCbFunc : public ::System::MulticastDelegate
 	{
 	public:

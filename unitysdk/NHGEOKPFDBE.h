@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 #define NHGEOKPFDBE_SET_CAKEID_OFFSET UNITYSDK_OFFSET(0xBBC15C0)
 #define NHGEOKPFDBE_SET_FRIENDUIDLIST_OFFSET UNITYSDK_OFFSET(0xBBC15E0)
 
+inline static constexpr unsigned int NHGEOKPFDBE_TypeDefinitionIndex = 62986;
+
 	class NHGEOKPFDBE : public ::System::Object
 	{
 	public:

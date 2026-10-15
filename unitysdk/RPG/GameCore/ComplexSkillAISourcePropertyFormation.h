@@ -12,6 +12,8 @@ namespace RPG::GameCore { class PropertyFormationValue; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ComplexSkillAISourcePropertyFormation_TypeDefinitionIndex = 15526;
+
 	class ComplexSkillAISourcePropertyFormation : public ::RPG::GameCore::ComplexSkillAISource
 	{
 	public:

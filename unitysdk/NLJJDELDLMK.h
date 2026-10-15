@@ -9,6 +9,8 @@ namespace System { class Nullable; }
 #define NLJJDELDLMK_BINIHENIJKE_OFFSET UNITYSDK_OFFSET(0x1C573B30)
 #define NLJJDELDLMK_GMKKLAKHJBD_OFFSET UNITYSDK_OFFSET(0x1C573B90)
 
+inline static constexpr unsigned int NLJJDELDLMK_TypeDefinitionIndex = 41651;
+
 	class NLJJDELDLMK : public ::System::Object
 	{
 	public:

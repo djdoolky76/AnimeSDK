@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueDLC1Dot3PictureFrameDisappear; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueDLC1Dot3PictureFrameDisappear_TypeDefinitionIndex = 20808;
+
 	class RogueDLC1Dot3PictureFrameDisappear : public ::RPG::GameCore::TaskConfig
 	{
 	public:

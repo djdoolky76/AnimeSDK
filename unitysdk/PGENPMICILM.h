@@ -22,6 +22,8 @@ namespace RPG::AvatarSystem::Property { template <typename T> class IPropertyMod
 #define PGENPMICILM_SET_PROPERTYMODIFIERPROVIDER_OFFSET UNITYSDK_OFFSET(0xC21F390)
 #define PGENPMICILM_SET_VERSION_OFFSET UNITYSDK_OFFSET(0xC21F370)
 
+inline static constexpr unsigned int PGENPMICILM_TypeDefinitionIndex = 51912;
+
 	class PGENPMICILM : public ::System::Object
 	{
 	public:

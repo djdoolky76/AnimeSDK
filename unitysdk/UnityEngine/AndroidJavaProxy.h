@@ -18,6 +18,8 @@ namespace UnityEngine { class GlobalJavaObjectRef; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int AndroidJavaProxy_TypeDefinitionIndex = 5680;
+
 	class AndroidJavaProxy : public ::System::Object
 	{
 	public:

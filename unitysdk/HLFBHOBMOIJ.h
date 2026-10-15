@@ -14,6 +14,8 @@ class OKEPDOHEGME;
 #define HLFBHOBMOIJ_DHEJNJPHKOE_OFFSET UNITYSDK_OFFSET(0x15D5E820)
 #define HLFBHOBMOIJ_GCEKIMKEBDC_OFFSET UNITYSDK_OFFSET(0x15D5E6B0)
 
+inline static constexpr unsigned int HLFBHOBMOIJ_TypeDefinitionIndex = 62691;
+
 	class HLFBHOBMOIJ : public ::System::Object
 	{
 	public:

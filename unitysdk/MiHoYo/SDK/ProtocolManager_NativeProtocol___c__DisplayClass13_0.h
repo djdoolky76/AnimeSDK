@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int ProtocolManager_NativeProtocol___c__DisplayClass13_0_TypeDefinitionIndex = 8043;
+
 	class ProtocolManager_NativeProtocol___c__DisplayClass13_0 : public ::System::Object
 	{
 	public:

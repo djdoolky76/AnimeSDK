@@ -85,6 +85,8 @@ namespace System { class String; }
 
 namespace RPG::Client::ActivityFinalityBattle::Level
 {
+	inline static constexpr unsigned int FinalityBattleLevelGroupInfoViewModel_TypeDefinitionIndex = 82092;
+
 	class FinalityBattleLevelGroupInfoViewModel : public ::System::Object
 	{
 	public:

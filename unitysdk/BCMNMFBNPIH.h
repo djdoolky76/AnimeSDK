@@ -5,6 +5,8 @@
 
 #define BCMNMFBNPIH_JJNFOPNOPBF_OFFSET UNITYSDK_OFFSET(0x162E4110)
 
+inline static constexpr unsigned int BCMNMFBNPIH_TypeDefinitionIndex = 54054;
+
 	class BCMNMFBNPIH : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace UnityEngine::Rendering { class CommandBuffer; }
 
 namespace EnviromentSystemV2Space
 {
+	inline static constexpr unsigned int ES_FogParticleComponent_TypeDefinitionIndex = 49300;
+
 	class ES_FogParticleComponent : public ::EnviromentSystemV2Space::ES_ParticleComponent
 	{
 	public:

@@ -5,6 +5,8 @@ namespace System { class Type; }
 
 namespace System::Collections::Immutable
 {
+	inline static constexpr unsigned int AllocFreeConcurrentStack_1_TypeDefinitionIndex = 6586;
+
 	template <typename T>
 	class AllocFreeConcurrentStack_1 : public ::System::Object
 	{

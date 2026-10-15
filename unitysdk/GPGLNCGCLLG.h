@@ -33,6 +33,8 @@ namespace System { class String; }
 #define GPGLNCGCLLG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E4F9380)
 #define GPGLNCGCLLG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E4F93E0)
 
+inline static constexpr unsigned int GPGLNCGCLLG_TypeDefinitionIndex = 25058;
+
 	class GPGLNCGCLLG : public ::System::Object
 	{
 	public:

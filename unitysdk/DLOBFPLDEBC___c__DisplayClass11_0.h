@@ -8,6 +8,8 @@ namespace System { class String; }
 #define DLOBFPLDEBC___C__DISPLAYCLASS11_0_CTOR_OFFSET UNITYSDK_OFFSET(0xF8BB820)
 #define DLOBFPLDEBC___C__DISPLAYCLASS11_0__PRELOADTIMELINEREFASSETS_B__0_OFFSET UNITYSDK_OFFSET(0xF8BBFD0)
 
+inline static constexpr unsigned int DLOBFPLDEBC___c__DisplayClass11_0_TypeDefinitionIndex = 48499;
+
 	class DLOBFPLDEBC___c__DisplayClass11_0 : public ::System::Object
 	{
 	public:

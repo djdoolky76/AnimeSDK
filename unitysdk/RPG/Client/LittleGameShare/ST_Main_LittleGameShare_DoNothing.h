@@ -10,6 +10,8 @@ namespace RPG::Client::LittleGameShare { class ST_Main_LittleGameShare_DoNothing
 
 namespace RPG::Client::LittleGameShare
 {
+	inline static constexpr unsigned int ST_Main_LittleGameShare_DoNothing_TypeDefinitionIndex = 10328;
+
 	class ST_Main_LittleGameShare_DoNothing : public ::RPG::Client::LittleGameShare::LittleGameSTTaskConfig
 	{
 	public:

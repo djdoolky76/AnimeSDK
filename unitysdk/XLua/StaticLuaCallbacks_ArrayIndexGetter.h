@@ -13,6 +13,8 @@ namespace XLua { class ObjectTranslator; }
 
 namespace XLua
 {
+	inline static constexpr unsigned int StaticLuaCallbacks_ArrayIndexGetter_TypeDefinitionIndex = 50260;
+
 	class StaticLuaCallbacks_ArrayIndexGetter : public ::System::MulticastDelegate
 	{
 	public:

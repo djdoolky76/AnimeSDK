@@ -9,6 +9,8 @@ namespace RPG::Client { class MonoEffect; }
 #define LJFHKAJPFNE___C__DISPLAYCLASS70_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB711BD0)
 #define LJFHKAJPFNE___C__DISPLAYCLASS70_0__PRELOADBATTLEAREA_B__0_OFFSET UNITYSDK_OFFSET(0xB711BE0)
 
+inline static constexpr unsigned int LJFHKAJPFNE___c__DisplayClass70_0_TypeDefinitionIndex = 73863;
+
 	class LJFHKAJPFNE___c__DisplayClass70_0 : public ::System::Object
 	{
 	public:

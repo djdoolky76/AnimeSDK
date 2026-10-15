@@ -58,6 +58,8 @@ namespace UnityEngine::Playables { class PlayableDirector; }
 
 namespace RPG::Client::LittleGame
 {
+	inline static constexpr unsigned int MatchThreeTimelineBattleField_TypeDefinitionIndex = 76556;
+
 	class MatchThreeTimelineBattleField : public ::UnityEngine::MonoBehaviour
 	{
 	public:

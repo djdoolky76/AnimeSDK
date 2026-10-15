@@ -20,6 +20,8 @@ namespace System { class Object; }
 #define AIFAHLNOMGK_MLNNGMPCPNC_OFFSET UNITYSDK_OFFSET(0xEBA2CF0)
 #define AIFAHLNOMGK__ONBIND_OFFSET UNITYSDK_OFFSET(0xEBA27F0)
 
+inline static constexpr unsigned int AIFAHLNOMGK_TypeDefinitionIndex = 72180;
+
 	class AIFAHLNOMGK : public ::FMPCODLIOLG
 	{
 	public:

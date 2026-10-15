@@ -50,6 +50,8 @@ namespace System { class Object; }
 
 namespace RPG::Client::Tutorial
 {
+	inline static constexpr unsigned int TutorialGuideGroupData_TypeDefinitionIndex = 78998;
+
 	class TutorialGuideGroupData : public ::System::Object
 	{
 	public:

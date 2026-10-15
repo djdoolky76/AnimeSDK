@@ -10,6 +10,8 @@ namespace RPG::GameCore { class VCameraBlend; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DialogueEntityInteractOverride_TypeDefinitionIndex = 20393;
+
 	class DialogueEntityInteractOverride : public ::RPG::GameCore::JsonConfig
 	{
 	public:

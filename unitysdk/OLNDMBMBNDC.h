@@ -30,6 +30,8 @@ namespace System { class String; }
 #define OLNDMBMBNDC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DEAA360)
 #define OLNDMBMBNDC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DEAA3C0)
 
+inline static constexpr unsigned int OLNDMBMBNDC_TypeDefinitionIndex = 30324;
+
 	class OLNDMBMBNDC : public ::System::Object
 	{
 	public:

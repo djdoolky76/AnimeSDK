@@ -27,6 +27,8 @@ namespace System { class String; }
 #define BCONPMPJLDD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E911D60)
 #define BCONPMPJLDD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E911DC0)
 
+inline static constexpr unsigned int BCONPMPJLDD_TypeDefinitionIndex = 30773;
+
 	class BCONPMPJLDD : public ::System::Object
 	{
 	public:

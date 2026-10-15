@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ActionCountDownPreview; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ActionCountDownPreview_TypeDefinitionIndex = 23693;
+
 	class ActionCountDownPreview : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EmojiIconInfo_TypeDefinitionIndex = 20408;
+
 	class EmojiIconInfo : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -2,6 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
+inline static constexpr unsigned int NOEDHDBFFBM_TypeDefinitionIndex = 49010;
+
 	class NOEDHDBFFBM : public ::System::Object
 	{
 	public:

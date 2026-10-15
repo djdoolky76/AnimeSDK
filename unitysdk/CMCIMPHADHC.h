@@ -8,6 +8,8 @@ namespace RPG::Client::LittleGameShare { class ST_Side_CakeRaceStableScopeGuarde
 #define CMCIMPHADHC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1C5D7630)
 #define CMCIMPHADHC_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1C5D7680)
 
+inline static constexpr unsigned int CMCIMPHADHC_TypeDefinitionIndex = 37001;
+
 	class CMCIMPHADHC
 	{
 	public:

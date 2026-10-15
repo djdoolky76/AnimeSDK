@@ -25,6 +25,8 @@ namespace System { class String; }
 #define NJFMGIPINNK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB3D400)
 #define NJFMGIPINNK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB3D460)
 
+inline static constexpr unsigned int NJFMGIPINNK_TypeDefinitionIndex = 34449;
+
 	class NJFMGIPINNK : public ::System::Object
 	{
 	public:

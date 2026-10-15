@@ -10,6 +10,8 @@ namespace RPG::GameCore { class DiceCombatTaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DiceCombatBossPersistentTipsConfig_TypeDefinitionIndex = 16189;
+
 	class DiceCombatBossPersistentTipsConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

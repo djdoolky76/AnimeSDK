@@ -51,6 +51,8 @@ namespace System { class String; }
 
 namespace Google::Protobuf::WellKnownTypes
 {
+	inline static constexpr unsigned int Field_TypeDefinitionIndex = 5445;
+
 	class Field : public ::System::Object
 	{
 	public:

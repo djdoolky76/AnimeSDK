@@ -5,6 +5,8 @@
 
 namespace SRF::UI::Layout
 {
+	inline static constexpr unsigned int VirtualVerticalLayoutGroup_SelectedItemChangedEvent_TypeDefinitionIndex = 35405;
+
 	class VirtualVerticalLayoutGroup_SelectedItemChangedEvent
 	{
 	public:

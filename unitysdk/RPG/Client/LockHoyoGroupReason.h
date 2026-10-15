@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int LockHoyoGroupReason_TypeDefinitionIndex = 62074;
+
 	enum class LockHoyoGroupReason : ::System::UInt32
 	{
 		EraFlipper = 0,

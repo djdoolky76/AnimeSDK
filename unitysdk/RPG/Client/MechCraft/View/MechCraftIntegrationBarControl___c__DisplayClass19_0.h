@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftIntegrationBarControl___c__DisplayClass19_0_TypeDefinitionIndex = 79818;
+
 	class MechCraftIntegrationBarControl___c__DisplayClass19_0 : public ::System::Object
 	{
 	public:

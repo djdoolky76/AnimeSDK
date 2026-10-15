@@ -16,6 +16,8 @@ namespace RPG::GameCore { class ChenLingBattleTriggerCallback; }
 #define JCFAKLOJMPB_KMHAIBDHFJG_OFFSET UNITYSDK_OFFSET(0x16587F20)
 #define JCFAKLOJMPB_LKJIEHCODCI_OFFSET UNITYSDK_OFFSET(0x16587AE0)
 
+inline static constexpr unsigned int JCFAKLOJMPB_TypeDefinitionIndex = 77822;
+
 	class JCFAKLOJMPB : public ::System::Object
 	{
 	public:

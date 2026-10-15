@@ -6,6 +6,8 @@
 
 namespace Entitas::CodeGeneration::Attributes
 {
+	inline static constexpr unsigned int PostConstructorAttribute_TypeDefinitionIndex = 10087;
+
 	class PostConstructorAttribute : public ::System::Attribute
 	{
 	public:

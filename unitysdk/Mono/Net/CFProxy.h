@@ -18,6 +18,8 @@ namespace System { class String; }
 
 namespace Mono::Net
 {
+	inline static constexpr unsigned int CFProxy_TypeDefinitionIndex = 2415;
+
 	class CFProxy : public ::System::Object
 	{
 	public:

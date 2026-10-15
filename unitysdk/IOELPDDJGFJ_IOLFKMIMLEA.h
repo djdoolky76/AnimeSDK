@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int IOELPDDJGFJ_IOLFKMIMLEA_TypeDefinitionIndex = 27162;
+
 	enum class IOELPDDJGFJ_IOLFKMIMLEA : ::System::Int32
 	{
 		NLCDGIPGFDJ = 0,

@@ -8,6 +8,8 @@ namespace System { class Object; }
 
 namespace RPG::Client::LimaoNews
 {
+	inline static constexpr unsigned int LimaoNewsIssueTabItemControl___c_TypeDefinitionIndex = 80393;
+
 	class LimaoNewsIssueTabItemControl___c : public ::System::Object
 	{
 	public:

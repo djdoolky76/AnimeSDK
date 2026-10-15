@@ -14,6 +14,8 @@ namespace RPG::Client::Promises { class IPromise; }
 #define PDOJHPELDHB_EAMMBKNABNJ_OFFSET UNITYSDK_OFFSET(0xC021B20)
 #define PDOJHPELDHB___SUBMITIMPL_B__5_0_OFFSET UNITYSDK_OFFSET(0xC021E10)
 
+inline static constexpr unsigned int PDOJHPELDHB_TypeDefinitionIndex = 79586;
+
 	class PDOJHPELDHB : public ::IKNPMFDGADK
 	{
 	public:

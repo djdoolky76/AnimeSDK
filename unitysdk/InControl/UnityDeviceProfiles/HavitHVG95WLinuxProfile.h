@@ -7,6 +7,8 @@
 
 namespace InControl::UnityDeviceProfiles
 {
+	inline static constexpr unsigned int HavitHVG95WLinuxProfile_TypeDefinitionIndex = 40997;
+
 	class HavitHVG95WLinuxProfile : public ::InControl::InputDeviceProfile
 	{
 	public:

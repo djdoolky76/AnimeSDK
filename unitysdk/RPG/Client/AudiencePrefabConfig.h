@@ -10,6 +10,8 @@ namespace UnityEngine { class ScriptableObject; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AudiencePrefabConfig_TypeDefinitionIndex = 69125;
+
 	class AudiencePrefabConfig : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@
 #define MKADBANINAK_JBMKEOLJOOK_OFFSET UNITYSDK_OFFSET(0xB97E510)
 #define MKADBANINAK_JMOPONIENIO_OFFSET UNITYSDK_OFFSET(0xB97E2F0)
 
+inline static constexpr unsigned int MKADBANINAK_TypeDefinitionIndex = 74642;
+
 	class MKADBANINAK : public ::System::Object
 	{
 	public:

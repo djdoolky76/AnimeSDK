@@ -20,6 +20,8 @@ namespace UnityEngine { class Transform; }
 #define OCAHHEJJCNA_PODDBLGCJMF_OFFSET UNITYSDK_OFFSET(0xBD55140)
 #define OCAHHEJJCNA_SET_TRANSFORM_OFFSET UNITYSDK_OFFSET(0xBD55450)
 
+inline static constexpr unsigned int OCAHHEJJCNA_TypeDefinitionIndex = 68471;
+
 	class OCAHHEJJCNA : public ::System::Object
 	{
 	public:

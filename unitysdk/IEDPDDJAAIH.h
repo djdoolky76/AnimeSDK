@@ -36,6 +36,8 @@ namespace System { class String; }
 #define IEDPDDJAAIH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E637220)
 #define IEDPDDJAAIH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E637280)
 
+inline static constexpr unsigned int IEDPDDJAAIH_TypeDefinitionIndex = 31962;
+
 	class IEDPDDJAAIH : public ::System::Object
 	{
 	public:

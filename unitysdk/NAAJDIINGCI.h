@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define NAAJDIINGCI_OPPINOGEEKH_OFFSET UNITYSDK_OFFSET(0xBA51900)
 #define NAAJDIINGCI_SET_INSTANCE_OFFSET UNITYSDK_OFFSET(0xBA51270)
 
+inline static constexpr unsigned int NAAJDIINGCI_TypeDefinitionIndex = 64526;
+
 	class NAAJDIINGCI : public ::System::Object
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define ADGABMKBBNF_MMEOMCINFOG_OFFSET UNITYSDK_OFFSET(0x1C53AD30)
 #define ADGABMKBBNF_NEDHFMFNOHM_OFFSET UNITYSDK_OFFSET(0x1C53BAE0)
 
+inline static constexpr unsigned int ADGABMKBBNF_TypeDefinitionIndex = 41786;
+
 	class ADGABMKBBNF : public ::DIGCDGKOBMK
 	{
 	public:

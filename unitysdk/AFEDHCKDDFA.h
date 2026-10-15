@@ -32,6 +32,8 @@ namespace System { class String; }
 #define AFEDHCKDDFA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E116E30)
 #define AFEDHCKDDFA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E116E90)
 
+inline static constexpr unsigned int AFEDHCKDDFA_TypeDefinitionIndex = 29829;
+
 	class AFEDHCKDDFA : public ::System::Object
 	{
 	public:

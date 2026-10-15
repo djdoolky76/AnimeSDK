@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TriggerModifierEnterBattle; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TriggerModifierEnterBattle_TypeDefinitionIndex = 23449;
+
 	class TriggerModifierEnterBattle : public ::RPG::GameCore::TaskConfig
 	{
 	public:

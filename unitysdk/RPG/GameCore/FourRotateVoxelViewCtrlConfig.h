@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FourRotateVoxelViewCtrlConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FourRotateVoxelViewCtrlConfig_TypeDefinitionIndex = 16763;
+
 	class FourRotateVoxelViewCtrlConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetActionBarItemAnimatorTrigger_TypeDefinitionIndex = 23174;
+
 	class SetActionBarItemAnimatorTrigger : public ::RPG::GameCore::TaskConfig
 	{
 	public:

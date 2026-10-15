@@ -32,6 +32,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int InverseMask_TypeDefinitionIndex = 72549;
+
 	class InverseMask : public ::UnityEngine::UI::Graphic
 	{
 	public:

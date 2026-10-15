@@ -28,6 +28,8 @@ namespace TMPro { class TMP_UpdateManager; }
 
 namespace TMPro
 {
+	inline static constexpr unsigned int TMP_UpdateManager_TypeDefinitionIndex = 44673;
+
 	class TMP_UpdateManager : public ::System::Object
 	{
 	public:

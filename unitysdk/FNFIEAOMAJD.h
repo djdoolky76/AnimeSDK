@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define FNFIEAOMAJD_CTOR_OFFSET UNITYSDK_OFFSET(0x1586E6D0)
 #define FNFIEAOMAJD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1586E700)
 
+inline static constexpr unsigned int FNFIEAOMAJD_TypeDefinitionIndex = 53260;
+
 	class FNFIEAOMAJD
 	{
 	public:

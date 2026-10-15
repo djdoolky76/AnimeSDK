@@ -10,6 +10,8 @@ namespace RPG::GameCore { class PhotoGraphWaterMarkConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PhotoGraphWaterMarkConfig_TypeDefinitionIndex = 19060;
+
 	class PhotoGraphWaterMarkConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

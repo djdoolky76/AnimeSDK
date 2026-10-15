@@ -29,6 +29,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::CrowdAnimator
 {
+	inline static constexpr unsigned int CrowdInstance_TypeDefinitionIndex = 73718;
+
 	class CrowdInstance : public ::UnityEngine::MonoBehaviour
 	{
 	public:

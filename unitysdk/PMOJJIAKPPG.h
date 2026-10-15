@@ -28,6 +28,8 @@ namespace System::Text { class StringBuilder; }
 #define PMOJJIAKPPG_TOSTRING_OFFSET UNITYSDK_OFFSET(0xC3291F0)
 #define PMOJJIAKPPG__CLONE___OFFSET UNITYSDK_OFFSET(0xC329DB0)
 
+inline static constexpr unsigned int PMOJJIAKPPG_TypeDefinitionIndex = 81067;
+
 	class PMOJJIAKPPG : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@ class LDGFEEFHNKH;
 #define LDGFEEFHNKH_CTOR_OFFSET UNITYSDK_OFFSET(0x1D0E0180)
 #define LDGFEEFHNKH_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D0DFEF0)
 
+inline static constexpr unsigned int LDGFEEFHNKH_TypeDefinitionIndex = 13926;
+
 	class LDGFEEFHNKH : public ::System::Object
 	{
 	public:

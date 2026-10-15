@@ -13,6 +13,8 @@ namespace RPG::GameCore { class SetIronTombProgress; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetIronTombProgress_TypeDefinitionIndex = 22802;
+
 	class SetIronTombProgress : public ::RPG::GameCore::TaskConfig
 	{
 	public:

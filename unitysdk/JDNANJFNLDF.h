@@ -34,6 +34,8 @@ namespace System { class String; }
 #define JDNANJFNLDF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E710540)
 #define JDNANJFNLDF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E7105A0)
 
+inline static constexpr unsigned int JDNANJFNLDF_TypeDefinitionIndex = 26064;
+
 	class JDNANJFNLDF : public ::System::Object
 	{
 	public:

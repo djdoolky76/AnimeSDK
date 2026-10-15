@@ -22,6 +22,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace Hdg
 {
+	inline static constexpr unsigned int rdtMessageGameObjectsHandler_TypeDefinitionIndex = 46952;
+
 	class rdtMessageGameObjectsHandler : public ::System::Object
 	{
 	public:

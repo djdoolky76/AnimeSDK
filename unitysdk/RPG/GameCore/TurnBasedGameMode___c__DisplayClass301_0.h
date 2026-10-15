@@ -9,6 +9,8 @@ namespace RPG::GameCore { class GameEntity; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TurnBasedGameMode___c__DisplayClass301_0_TypeDefinitionIndex = 53606;
+
 	class TurnBasedGameMode___c__DisplayClass301_0 : public ::System::Object
 	{
 	public:

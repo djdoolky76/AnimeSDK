@@ -10,6 +10,8 @@ namespace RPG::GameCore { class CakeRaceLookAtCatByRank; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CakeRaceLookAtCatByRank_TypeDefinitionIndex = 24303;
+
 	class CakeRaceLookAtCatByRank : public ::RPG::GameCore::TaskConfig
 	{
 	public:

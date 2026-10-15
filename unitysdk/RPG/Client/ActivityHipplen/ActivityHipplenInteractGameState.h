@@ -22,6 +22,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 
 namespace RPG::Client::ActivityHipplen
 {
+	inline static constexpr unsigned int ActivityHipplenInteractGameState_TypeDefinitionIndex = 75517;
+
 	class ActivityHipplenInteractGameState : public ::RPG::Client::ActivityHipplen::ActivityHipplenWorkGameStateBase
 	{
 	public:

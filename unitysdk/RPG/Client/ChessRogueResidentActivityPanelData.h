@@ -21,6 +21,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChessRogueResidentActivityPanelData_TypeDefinitionIndex = 61768;
+
 	class ChessRogueResidentActivityPanelData : public ::RPG::Client::RogueResidentActivityPanelData
 	{
 	public:

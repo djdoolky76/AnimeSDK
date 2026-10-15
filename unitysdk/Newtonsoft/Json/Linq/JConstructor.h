@@ -29,6 +29,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace Newtonsoft::Json::Linq
 {
+	inline static constexpr unsigned int JConstructor_TypeDefinitionIndex = 9770;
+
 	class JConstructor : public ::Newtonsoft::Json::Linq::JContainer
 	{
 	public:

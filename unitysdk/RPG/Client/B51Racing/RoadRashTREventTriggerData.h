@@ -6,6 +6,8 @@
 
 namespace RPG::Client::B51Racing
 {
+	inline static constexpr unsigned int RoadRashTREventTriggerData_TypeDefinitionIndex = 81682;
+
 	class RoadRashTREventTriggerData : public ::System::Object
 	{
 	public:

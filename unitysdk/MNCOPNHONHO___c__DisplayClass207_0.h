@@ -8,6 +8,8 @@ namespace UnityEngine { class GameObject; }
 #define MNCOPNHONHO___C__DISPLAYCLASS207_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB9F8400)
 #define MNCOPNHONHO___C__DISPLAYCLASS207_0__FIREEFFECTLIST_B__0_OFFSET UNITYSDK_OFFSET(0xBA048A0)
 
+inline static constexpr unsigned int MNCOPNHONHO___c__DisplayClass207_0_TypeDefinitionIndex = 76696;
+
 	class MNCOPNHONHO___c__DisplayClass207_0 : public ::System::Object
 	{
 	public:

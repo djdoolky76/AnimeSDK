@@ -73,6 +73,8 @@ namespace UnityEngine::UI { class Text; }
 #define OPCJCLBGKOK__ONBIND_OFFSET UNITYSDK_OFFSET(0xBFA1E70)
 #define OPCJCLBGKOK__ONTICK_OFFSET UNITYSDK_OFFSET(0xBFA24E0)
 
+inline static constexpr unsigned int OPCJCLBGKOK_TypeDefinitionIndex = 71911;
+
 	class OPCJCLBGKOK : public ::FMPCODLIOLG
 	{
 	public:

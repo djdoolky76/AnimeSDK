@@ -36,6 +36,8 @@ namespace UnityEngine::Timeline { class TimelineClip; }
 #define PGLFBJPOBEJ_ONPLAYABLEDESTROY_OFFSET UNITYSDK_OFFSET(0xC2250F0)
 #define PGLFBJPOBEJ_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xC225160)
 
+inline static constexpr unsigned int PGLFBJPOBEJ_TypeDefinitionIndex = 48775;
+
 	class PGLFBJPOBEJ : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

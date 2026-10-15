@@ -11,6 +11,8 @@ namespace System { class Action; }
 
 namespace RPG::Client::LimaoNews
 {
+	inline static constexpr unsigned int LimaoNewsIssueControl___c__DisplayClass4_0_TypeDefinitionIndex = 80389;
+
 	class LimaoNewsIssueControl___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace RPG::Client::LittleGameShare { class ST_Side_CakeRaceFall; }
 #define AOPBEDICKJK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1C5A22E0)
 #define AOPBEDICKJK_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1C5A23E0)
 
+inline static constexpr unsigned int AOPBEDICKJK_TypeDefinitionIndex = 36998;
+
 	class AOPBEDICKJK
 	{
 	public:

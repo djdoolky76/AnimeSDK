@@ -49,6 +49,8 @@ namespace UnityEngine::Timeline { class TimelineClip; }
 #define LPDICFCDFCF_OOGBIKEGJPH_OFFSET UNITYSDK_OFFSET(0xB81C4B0)
 #define LPDICFCDFCF_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0xB81B070)
 
+inline static constexpr unsigned int LPDICFCDFCF_TypeDefinitionIndex = 60747;
+
 	class LPDICFCDFCF : public ::System::Object
 	{
 	public:

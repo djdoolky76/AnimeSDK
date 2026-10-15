@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TeamFormationComponent_RowFormationLocationData_TypeDefinitionIndex = 57705;
+
 	class TeamFormationComponent_RowFormationLocationData : public ::System::Object
 	{
 	public:

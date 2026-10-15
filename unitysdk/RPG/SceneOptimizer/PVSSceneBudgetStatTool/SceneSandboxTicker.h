@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::SceneOptimizer::PVSSceneBudgetStatTool
 {
+	inline static constexpr unsigned int SceneSandboxTicker_TypeDefinitionIndex = 51791;
+
 	class SceneSandboxTicker : public ::UnityEngine::MonoBehaviour
 	{
 	public:

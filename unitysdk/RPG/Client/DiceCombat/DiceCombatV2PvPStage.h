@@ -14,6 +14,8 @@
 
 namespace RPG::Client::DiceCombat
 {
+	inline static constexpr unsigned int DiceCombatV2PvPStage_TypeDefinitionIndex = 76173;
+
 	class DiceCombatV2PvPStage : public ::RPG::Client::DiceCombat::DiceCombatV2Stage
 	{
 	public:

@@ -20,6 +20,8 @@ namespace UnityEngine::EventSystems { class AxisEventData; }
 
 namespace RPG::Client::FateRin::Battle
 {
+	inline static constexpr unsigned int FateRinBattleHudFreeCardMoveHandler_TypeDefinitionIndex = 80837;
+
 	class FateRinBattleHudFreeCardMoveHandler : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -26,6 +26,8 @@ namespace RPG::GameCore { class TurnBasedModifierConfig; }
 #define GIALNIAHMKA_OBAKIMAJDKE_OFFSET UNITYSDK_OFFSET(0x15A2F280)
 #define GIALNIAHMKA_SET_CONFIGREF_OFFSET UNITYSDK_OFFSET(0x15A2FD80)
 
+inline static constexpr unsigned int GIALNIAHMKA_TypeDefinitionIndex = 57695;
+
 	class GIALNIAHMKA : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define ODPCMGIOMEE_CTOR_OFFSET UNITYSDK_OFFSET(0xBDF21D0)
 #define ODPCMGIOMEE_TRANSFORM_OFFSET UNITYSDK_OFFSET(0xBDF21F0)
 
+inline static constexpr unsigned int ODPCMGIOMEE_TypeDefinitionIndex = 59247;
+
 	class ODPCMGIOMEE
 	{
 	public:

@@ -12,6 +12,8 @@ namespace RPG::GameCore { class GameComponentBase; }
 #define CNGOJNOFJPM_PIHFOPFDEAF_OFFSET UNITYSDK_OFFSET(0xDA4F7B0)
 #define CNGOJNOFJPM_SET_COUNT_OFFSET UNITYSDK_OFFSET(0xDA4F7A0)
 
+inline static constexpr unsigned int CNGOJNOFJPM_TypeDefinitionIndex = 57569;
+
 	class CNGOJNOFJPM : public ::System::Object
 	{
 	public:

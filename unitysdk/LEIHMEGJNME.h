@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define LEIHMEGJNME_CTOR_OFFSET UNITYSDK_OFFSET(0xB6540C0)
 #define LEIHMEGJNME_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB654160)
 
+inline static constexpr unsigned int LEIHMEGJNME_TypeDefinitionIndex = 54827;
+
 	class LEIHMEGJNME
 	{
 	public:

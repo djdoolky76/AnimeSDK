@@ -29,6 +29,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::TrainParty
 {
+	inline static constexpr unsigned int TrainPartyBuildDisplayWallContext_TypeDefinitionIndex = 74289;
+
 	class TrainPartyBuildDisplayWallContext : public ::System::Object
 	{
 	public:

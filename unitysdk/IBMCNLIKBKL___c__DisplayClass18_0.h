@@ -10,6 +10,8 @@ namespace UnityEngine::Rendering { class BatchAnimationInstance; }
 #define IBMCNLIKBKL___C__DISPLAYCLASS18_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15E40580)
 #define IBMCNLIKBKL___C__DISPLAYCLASS18_0___LOADMEMBERS_B__0_OFFSET UNITYSDK_OFFSET(0x15E40B10)
 
+inline static constexpr unsigned int IBMCNLIKBKL___c__DisplayClass18_0_TypeDefinitionIndex = 82208;
+
 	class IBMCNLIKBKL___c__DisplayClass18_0 : public ::System::Object
 	{
 	public:

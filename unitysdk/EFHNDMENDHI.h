@@ -674,6 +674,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define EFHNDMENDHI_PPPCDBELPDP_OFFSET UNITYSDK_OFFSET(0x1CA37970)
 #define EFHNDMENDHI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1CA33B00)
 
+inline static constexpr unsigned int EFHNDMENDHI_TypeDefinitionIndex = 42295;
+
 	class EFHNDMENDHI : public ::Entitas::Entity
 	{
 	public:

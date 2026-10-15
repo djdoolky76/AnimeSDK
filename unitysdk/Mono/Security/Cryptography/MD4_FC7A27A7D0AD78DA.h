@@ -8,6 +8,8 @@ namespace Mono::Security::Cryptography { class MD4_FC7A27A7D0AD78DA; }
 
 namespace Mono::Security::Cryptography
 {
+	inline static constexpr unsigned int MD4_FC7A27A7D0AD78DA_TypeDefinitionIndex = 2304;
+
 	class MD4_FC7A27A7D0AD78DA : public ::System::Security::Cryptography::HashAlgorithm
 	{
 	public:

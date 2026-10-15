@@ -10,6 +10,8 @@ namespace System { template <typename T> class Predicate_1; }
 #define CKOAIMAKAOD___C__ONTASKSUCCESS_B__7_0_OFFSET UNITYSDK_OFFSET(0xD76C870)
 #define CKOAIMAKAOD___C__ONTASKSUCCESS_B__7_1_OFFSET UNITYSDK_OFFSET(0xD76C950)
 
+inline static constexpr unsigned int CKOAIMAKAOD___c_TypeDefinitionIndex = 52404;
+
 	class CKOAIMAKAOD___c : public ::System::Object
 	{
 	public:

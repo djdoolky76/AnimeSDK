@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FateParamMaxProgressMainTraitConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FateParamMaxProgressMainTraitConfig_TypeDefinitionIndex = 16635;
+
 	class FateParamMaxProgressMainTraitConfig : public ::RPG::GameCore::FateParameterConfigBase
 	{
 	public:

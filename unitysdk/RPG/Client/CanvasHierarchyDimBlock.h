@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CanvasHierarchyDimBlock_TypeDefinitionIndex = 68919;
+
 	class CanvasHierarchyDimBlock : public ::UnityEngine::MonoBehaviour
 	{
 	public:

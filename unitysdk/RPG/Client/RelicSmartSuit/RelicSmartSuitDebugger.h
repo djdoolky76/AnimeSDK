@@ -39,6 +39,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::Client::RelicSmartSuit
 {
+	inline static constexpr unsigned int RelicSmartSuitDebugger_TypeDefinitionIndex = 74407;
+
 	class RelicSmartSuitDebugger : public ::System::Object
 	{
 	public:

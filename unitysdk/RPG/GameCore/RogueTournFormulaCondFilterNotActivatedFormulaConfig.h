@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueTournFormulaCondFilterNotActivatedFormulaCo
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueTournFormulaCondFilterNotActivatedFormulaConfig_TypeDefinitionIndex = 19574;
+
 	class RogueTournFormulaCondFilterNotActivatedFormulaConfig : public ::RPG::GameCore::RogueFormulaConditionConfigBase
 	{
 	public:

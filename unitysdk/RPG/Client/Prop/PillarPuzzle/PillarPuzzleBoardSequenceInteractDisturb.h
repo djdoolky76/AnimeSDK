@@ -34,6 +34,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::Prop::PillarPuzzle
 {
+	inline static constexpr unsigned int PillarPuzzleBoardSequenceInteractDisturb_TypeDefinitionIndex = 78974;
+
 	class PillarPuzzleBoardSequenceInteractDisturb : public ::RPG::Client::Prop::PillarPuzzle::PillarPuzzleBoard
 	{
 	public:

@@ -29,6 +29,8 @@ namespace System { class String; }
 #define OBOBABKFCHI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EBB4630)
 #define OBOBABKFCHI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EBB4690)
 
+inline static constexpr unsigned int OBOBABKFCHI_TypeDefinitionIndex = 34183;
+
 	class OBOBABKFCHI : public ::System::Object
 	{
 	public:

@@ -38,6 +38,8 @@ namespace System { class String; }
 #define BDHDBGECGJA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9167A0)
 #define BDHDBGECGJA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E916800)
 
+inline static constexpr unsigned int BDHDBGECGJA_TypeDefinitionIndex = 30118;
+
 	class BDHDBGECGJA : public ::System::Object
 	{
 	public:

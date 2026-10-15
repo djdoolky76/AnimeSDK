@@ -29,6 +29,8 @@ namespace System { class String; }
 #define KIDHIFECNAH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E857980)
 #define KIDHIFECNAH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E8579E0)
 
+inline static constexpr unsigned int KIDHIFECNAH_TypeDefinitionIndex = 33507;
+
 	class KIDHIFECNAH : public ::System::Object
 	{
 	public:

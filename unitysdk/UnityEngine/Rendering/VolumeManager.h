@@ -46,6 +46,8 @@ namespace UnityEngine::Rendering { class VolumeStack; }
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int VolumeManager_TypeDefinitionIndex = 35619;
+
 	class VolumeManager : public ::System::Object
 	{
 	public:

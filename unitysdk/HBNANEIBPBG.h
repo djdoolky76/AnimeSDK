@@ -25,6 +25,8 @@ namespace System { class String; }
 #define HBNANEIBPBG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E52E6F0)
 #define HBNANEIBPBG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E52E750)
 
+inline static constexpr unsigned int HBNANEIBPBG_TypeDefinitionIndex = 26258;
+
 	class HBNANEIBPBG : public ::System::Object
 	{
 	public:

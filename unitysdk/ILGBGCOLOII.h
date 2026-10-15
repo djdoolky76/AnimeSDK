@@ -7,6 +7,8 @@ namespace RPG::GameCore { class DiceCombatPredicateConfig_HasDiceSequence; }
 #define ILGBGCOLOII_CTOR_OFFSET UNITYSDK_OFFSET(0x1C6E1EE0)
 #define ILGBGCOLOII_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0x1C6E1F00)
 
+inline static constexpr unsigned int ILGBGCOLOII_TypeDefinitionIndex = 36341;
+
 	class ILGBGCOLOII : public ::HHOHBHGLHHF
 	{
 	public:

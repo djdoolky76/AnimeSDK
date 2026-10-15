@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define ABOOGEJAPHO_CTOR_OFFSET UNITYSDK_OFFSET(0xB110210)
 #define ABOOGEJAPHO_HEPPBBLLBPN_OFFSET UNITYSDK_OFFSET(0xB110020)
 
+inline static constexpr unsigned int ABOOGEJAPHO_TypeDefinitionIndex = 56292;
+
 	class ABOOGEJAPHO : public ::System::Object
 	{
 	public:

@@ -29,6 +29,8 @@
 
 #define _PRIVATEIMPLEMENTATIONDETAILS__7FC23B0F68015B60_THROWINVALIDOPERATIONEXCEPTION_OFFSET UNITYSDK_OFFSET(0xB0C00E0)
 
+inline static constexpr unsigned int _PrivateImplementationDetails__7FC23B0F68015B60_TypeDefinitionIndex = 82305;
+
 	class _PrivateImplementationDetails__7FC23B0F68015B60 : public ::System::Object
 	{
 	public:

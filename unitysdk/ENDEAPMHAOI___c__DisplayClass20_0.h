@@ -8,6 +8,8 @@ namespace RPG::GameCore { class CakeRaceEventHandler; }
 #define ENDEAPMHAOI___C__DISPLAYCLASS20_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1C6066F0)
 #define ENDEAPMHAOI___C__DISPLAYCLASS20_0___REGISTEREVENTHANDLERS_G__HANDLER_0_OFFSET UNITYSDK_OFFSET(0x1C606700)
 
+inline static constexpr unsigned int ENDEAPMHAOI___c__DisplayClass20_0_TypeDefinitionIndex = 37402;
+
 	class ENDEAPMHAOI___c__DisplayClass20_0 : public ::System::Object
 	{
 	public:

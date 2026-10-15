@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TriggerMarbleAfterStreamingAction; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TriggerMarbleAfterStreamingAction_TypeDefinitionIndex = 21272;
+
 	class TriggerMarbleAfterStreamingAction : public ::RPG::GameCore::TaskConfig
 	{
 	public:

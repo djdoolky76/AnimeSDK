@@ -7,6 +7,8 @@ class MCKHEFFODHO;
 #define MCKHEFFODHO___C__DISPLAYCLASS150_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB885E50)
 #define MCKHEFFODHO___C__DISPLAYCLASS150_0__HANDLEPIECEAPPENDED_B__0_OFFSET UNITYSDK_OFFSET(0xB886740)
 
+inline static constexpr unsigned int MCKHEFFODHO___c__DisplayClass150_0_TypeDefinitionIndex = 79505;
+
 	class MCKHEFFODHO___c__DisplayClass150_0 : public ::System::Object
 	{
 	public:

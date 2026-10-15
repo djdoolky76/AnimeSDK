@@ -6,6 +6,8 @@
 
 namespace UnityEngine::Networking::PlayerConnection
 {
+	inline static constexpr unsigned int MessageEventArgs_TypeDefinitionIndex = 4673;
+
 	class MessageEventArgs : public ::System::Object
 	{
 	public:

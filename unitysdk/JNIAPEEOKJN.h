@@ -25,6 +25,8 @@ namespace System { class String; }
 #define JNIAPEEOKJN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E797FF0)
 #define JNIAPEEOKJN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E798050)
 
+inline static constexpr unsigned int JNIAPEEOKJN_TypeDefinitionIndex = 31473;
+
 	class JNIAPEEOKJN : public ::System::Object
 	{
 	public:

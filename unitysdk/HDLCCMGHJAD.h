@@ -29,6 +29,8 @@ namespace System { class String; }
 #define HDLCCMGHJAD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E551790)
 #define HDLCCMGHJAD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E5517F0)
 
+inline static constexpr unsigned int HDLCCMGHJAD_TypeDefinitionIndex = 31145;
+
 	class HDLCCMGHJAD : public ::System::Object
 	{
 	public:

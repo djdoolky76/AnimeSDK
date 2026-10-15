@@ -79,6 +79,8 @@ namespace System::Collections::Generic { template <typename T> class Stack_1; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AbilityComponent_TypeDefinitionIndex = 56856;
+
 	class AbilityComponent : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

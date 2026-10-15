@@ -20,6 +20,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LittleGameCircleCurveInfo_TypeDefinitionIndex = 18852;
+
 	class LittleGameCircleCurveInfo : public ::RPG::GameCore::LittleGameLevelCurveInfo
 	{
 	public:

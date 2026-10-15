@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TutorialTaskUnlock; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TutorialTaskUnlock_TypeDefinitionIndex = 20893;
+
 	class TutorialTaskUnlock : public ::RPG::GameCore::TaskConfig
 	{
 	public:

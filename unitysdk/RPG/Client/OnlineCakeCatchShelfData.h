@@ -24,6 +24,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int OnlineCakeCatchShelfData_TypeDefinitionIndex = 62987;
+
 	class OnlineCakeCatchShelfData : public ::System::Object
 	{
 	public:

@@ -5,6 +5,8 @@
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_OutputAttributeDictionary_TypeDefinitionIndex = 40429;
+
 	class HEU_OutputAttributeDictionary
 	{
 	public:

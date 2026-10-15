@@ -13,6 +13,8 @@ namespace UnityEngine { class GameObject; }
 #define PARKOURCAMERACONTROLLER_MANUALSTART_OFFSET UNITYSDK_OFFSET(0xC39A670)
 #define PARKOURCAMERACONTROLLER_MANUALUPDATE_OFFSET UNITYSDK_OFFSET(0xC39A900)
 
+inline static constexpr unsigned int ParkourCameraController_TypeDefinitionIndex = 47269;
+
 	class ParkourCameraController : public ::UnityEngine::MonoBehaviour
 	{
 	public:

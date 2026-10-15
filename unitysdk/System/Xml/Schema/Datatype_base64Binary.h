@@ -26,6 +26,8 @@ namespace System::Xml::Schema { class XmlValueConverter; }
 
 namespace System::Xml::Schema
 {
+	inline static constexpr unsigned int Datatype_base64Binary_TypeDefinitionIndex = 2118;
+
 	class Datatype_base64Binary : public ::System::Xml::Schema::Datatype_anySimpleType
 	{
 	public:

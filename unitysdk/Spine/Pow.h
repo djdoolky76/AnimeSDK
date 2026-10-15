@@ -9,6 +9,8 @@
 
 namespace Spine
 {
+	inline static constexpr unsigned int Pow_TypeDefinitionIndex = 39678;
+
 	class Pow : public ::Spine::IInterpolation
 	{
 	public:

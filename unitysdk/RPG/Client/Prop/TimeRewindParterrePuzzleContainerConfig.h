@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int TimeRewindParterrePuzzleContainerConfig_TypeDefinitionIndex = 78907;
+
 	class TimeRewindParterrePuzzleContainerConfig : public ::System::Object
 	{
 	public:

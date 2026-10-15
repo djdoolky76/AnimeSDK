@@ -15,6 +15,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace Newtonsoft::Json::Utilities
 {
+	inline static constexpr unsigned int ReflectionMember_TypeDefinitionIndex = 9645;
+
 	class ReflectionMember : public ::System::Object
 	{
 	public:

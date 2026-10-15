@@ -9,6 +9,8 @@ namespace System { class String; }
 #define IGJPLPAALGG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1640FE30)
 #define IGJPLPAALGG_TRIGGERACTION_OFFSET UNITYSDK_OFFSET(0x1640FED0)
 
+inline static constexpr unsigned int IGJPLPAALGG_TypeDefinitionIndex = 67022;
+
 	class IGJPLPAALGG : public ::System::Object
 	{
 	public:

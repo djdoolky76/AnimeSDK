@@ -8,6 +8,8 @@ namespace UnityEngine { class Transform; }
 #define LFFFEBFNNGL_CTOR_OFFSET UNITYSDK_OFFSET(0xB669340)
 #define LFFFEBFNNGL_FFHNOMIDEDE_OFFSET UNITYSDK_OFFSET(0xB669350)
 
+inline static constexpr unsigned int LFFFEBFNNGL_TypeDefinitionIndex = 68243;
+
 	class LFFFEBFNNGL : public ::System::Object
 	{
 	public:

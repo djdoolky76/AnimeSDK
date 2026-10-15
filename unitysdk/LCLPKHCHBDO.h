@@ -10,6 +10,8 @@ class POKKCEHMFMJ;
 #define LCLPKHCHBDO_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xB618B60)
 #define LCLPKHCHBDO_CTOR_OFFSET UNITYSDK_OFFSET(0xB618AD0)
 
+inline static constexpr unsigned int LCLPKHCHBDO_TypeDefinitionIndex = 62613;
+
 	class LCLPKHCHBDO : public ::System::Object
 	{
 	public:

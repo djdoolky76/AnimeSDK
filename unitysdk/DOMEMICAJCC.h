@@ -15,6 +15,8 @@ namespace System { class String; }
 #define DOMEMICAJCC_MMCEJGGJANG_OFFSET UNITYSDK_OFFSET(0x11FF0F40)
 #define DOMEMICAJCC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x11FF0FC0)
 
+inline static constexpr unsigned int DOMEMICAJCC_TypeDefinitionIndex = 52462;
+
 	class DOMEMICAJCC
 	{
 	public:

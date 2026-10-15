@@ -6,6 +6,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int Compass_TypeDefinitionIndex = 5786;
+
 	class Compass : public ::System::Object
 	{
 	public:

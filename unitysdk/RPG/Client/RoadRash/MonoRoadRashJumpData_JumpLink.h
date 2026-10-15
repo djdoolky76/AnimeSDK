@@ -7,6 +7,8 @@ namespace RPG::Client { class TrackExtensionMonoPlugin; }
 
 namespace RPG::Client::RoadRash
 {
+	inline static constexpr unsigned int MonoRoadRashJumpData_JumpLink_TypeDefinitionIndex = 75881;
+
 	class MonoRoadRashJumpData_JumpLink : public ::System::Object
 	{
 	public:

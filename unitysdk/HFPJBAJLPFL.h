@@ -3,6 +3,8 @@
 
 #define HFPJBAJLPFL_CTOR_OFFSET UNITYSDK_OFFSET(0x15C8E1C0)
 
+inline static constexpr unsigned int HFPJBAJLPFL_TypeDefinitionIndex = 62371;
+
 	class HFPJBAJLPFL
 	{
 	public:

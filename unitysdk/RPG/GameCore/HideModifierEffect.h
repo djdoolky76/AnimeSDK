@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int HideModifierEffect_TypeDefinitionIndex = 23631;
+
 	class HideModifierEffect : public ::RPG::GameCore::TaskConfig
 	{
 	public:

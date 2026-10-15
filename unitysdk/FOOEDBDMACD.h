@@ -24,6 +24,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 #define FOOEDBDMACD_NNDLCEIAHFA_OFFSET UNITYSDK_OFFSET(0x158FFC30)
 #define FOOEDBDMACD_NOLPLEKECJJ_OFFSET UNITYSDK_OFFSET(0x158FF670)
 
+inline static constexpr unsigned int FOOEDBDMACD_TypeDefinitionIndex = 71880;
+
 	class FOOEDBDMACD : public ::FMPCODLIOLG
 	{
 	public:

@@ -37,6 +37,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightGridData_TypeDefinitionIndex = 64830;
+
 	class GridFightGridData : public ::System::Object
 	{
 	public:

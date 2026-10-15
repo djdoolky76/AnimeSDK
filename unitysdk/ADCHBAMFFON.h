@@ -11,6 +11,8 @@ namespace System { class Object; }
 #define ADCHBAMFFON_MBOMCAFOBEG_OFFSET UNITYSDK_OFFSET(0xB135030)
 #define ADCHBAMFFON_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0xB1349B0)
 
+inline static constexpr unsigned int ADCHBAMFFON_TypeDefinitionIndex = 53566;
+
 	class ADCHBAMFFON : public ::System::Object
 	{
 	public:

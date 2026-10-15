@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightGameRef___c__DisplayClass6_0_TypeDefinitionIndex = 64712;
+
 	class GridFightGameRef___c__DisplayClass6_0 : public ::System::Object
 	{
 	public:

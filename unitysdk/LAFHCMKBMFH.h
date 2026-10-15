@@ -6,6 +6,8 @@ class GKPDKBNFDGM;
 #define LAFHCMKBMFH_CTOR_OFFSET UNITYSDK_OFFSET(0xB5DFE40)
 #define LAFHCMKBMFH_MJEGFOMAOFH_OFFSET UNITYSDK_OFFSET(0xB5DFDD0)
 
+inline static constexpr unsigned int LAFHCMKBMFH_TypeDefinitionIndex = 61955;
+
 	class LAFHCMKBMFH : public ::System::Object
 	{
 	public:

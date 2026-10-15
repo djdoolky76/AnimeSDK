@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define FLOPNJFNAOG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E3DD5E0)
 #define FLOPNJFNAOG___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E3DD5F0)
 
+inline static constexpr unsigned int FLOPNJFNAOG___c_TypeDefinitionIndex = 27633;
+
 	class FLOPNJFNAOG___c : public ::System::Object
 	{
 	public:

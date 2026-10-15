@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace XLua
 {
+	inline static constexpr unsigned int LuaEnv_DtorFunction_TypeDefinitionIndex = 50205;
+
 	class LuaEnv_DtorFunction : public ::System::MulticastDelegate
 	{
 	public:

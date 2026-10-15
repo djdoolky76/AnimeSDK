@@ -9,6 +9,8 @@ namespace UnityEngine { class Texture; }
 
 namespace UnityEngine::UI
 {
+	inline static constexpr unsigned int RuntimeAtlasManager_FontTex_TypeDefinitionIndex = 6824;
+
 	class RuntimeAtlasManager_FontTex : public ::System::Object
 	{
 	public:

@@ -18,6 +18,8 @@ namespace RPG::GameCore { class ChimeraPhaseRow; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChimeraPhaseData_TypeDefinitionIndex = 63432;
+
 	class ChimeraPhaseData : public ::System::Object
 	{
 	public:

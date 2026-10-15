@@ -33,6 +33,8 @@ namespace UnityEngine { class Texture; }
 
 namespace OceanSystem
 {
+	inline static constexpr unsigned int OceanRenderer_TypeDefinitionIndex = 48974;
+
 	class OceanRenderer : public ::UnityEngine::MonoBehaviour
 	{
 	public:

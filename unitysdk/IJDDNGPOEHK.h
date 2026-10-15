@@ -17,6 +17,8 @@ namespace System { class String; }
 #define IJDDNGPOEHK_JGDFDOOGAOP_OFFSET UNITYSDK_OFFSET(0x2E81DA0)
 #define IJDDNGPOEHK_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0x2E81CD0)
 
+inline static constexpr unsigned int IJDDNGPOEHK_TypeDefinitionIndex = 56915;
+
 	struct alignas(8) IJDDNGPOEHK
 	{
 		::RPG::GameCore::ResilienceEnum MFMEANEANHD; // 0x10

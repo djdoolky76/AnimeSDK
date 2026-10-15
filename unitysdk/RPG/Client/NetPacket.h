@@ -38,6 +38,8 @@ namespace System::IO { class MemoryStream; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int NetPacket_TypeDefinitionIndex = 43928;
+
 	class NetPacket : public ::System::Object
 	{
 	public:

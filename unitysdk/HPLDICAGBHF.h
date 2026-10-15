@@ -7,6 +7,8 @@ namespace RPG::GameCore { class LittleGameLevelVariable; }
 #define HPLDICAGBHF_KFAJPMAOBOO_OFFSET UNITYSDK_OFFSET(0x15DD1E40)
 #define HPLDICAGBHF_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x15DD1CC0)
 
+inline static constexpr unsigned int HPLDICAGBHF_TypeDefinitionIndex = 76503;
+
 	class HPLDICAGBHF
 	{
 	public:

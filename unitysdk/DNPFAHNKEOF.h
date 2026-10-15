@@ -12,6 +12,8 @@ namespace System { class Object; }
 #define DNPFAHNKEOF_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C5F9D80)
 #define DNPFAHNKEOF_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C5F9D30)
 
+inline static constexpr unsigned int DNPFAHNKEOF_TypeDefinitionIndex = 36237;
+
 	class DNPFAHNKEOF : public ::System::MulticastDelegate
 	{
 	public:

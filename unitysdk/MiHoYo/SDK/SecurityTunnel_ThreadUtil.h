@@ -17,6 +17,8 @@ namespace System::Threading { class WaitCallback; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int SecurityTunnel_ThreadUtil_TypeDefinitionIndex = 46411;
+
 	class SecurityTunnel_ThreadUtil : public ::System::Object
 	{
 	public:

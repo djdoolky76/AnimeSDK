@@ -14,6 +14,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByCompareTurnActionEntityTeamType_TypeDefinitionIndex = 23484;
+
 	class ByCompareTurnActionEntityTeamType : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

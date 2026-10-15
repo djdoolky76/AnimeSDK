@@ -11,6 +11,8 @@ namespace System { class String; }
 #define LABIBNCBFCD_CTOR_OFFSET UNITYSDK_OFFSET(0x1D0CF9C0)
 #define LABIBNCBFCD_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D0CF730)
 
+inline static constexpr unsigned int LABIBNCBFCD_TypeDefinitionIndex = 11496;
+
 	class LABIBNCBFCD : public ::System::Object
 	{
 	public:

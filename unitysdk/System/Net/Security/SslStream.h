@@ -43,6 +43,8 @@ namespace System::Security::Cryptography::X509Certificates { class X509Certifica
 
 namespace System::Net::Security
 {
+	inline static constexpr unsigned int SslStream_TypeDefinitionIndex = 2927;
+
 	class SslStream : public ::System::Net::Security::AuthenticatedStream
 	{
 	public:

@@ -9,6 +9,8 @@ namespace MiHoYo::SDK { class InputSystemDelegate_DelegateSetIMECompositionMode;
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int InputSystemDelegate_TypeDefinitionIndex = 7557;
+
 	class InputSystemDelegate : public ::System::Object
 	{
 	public:

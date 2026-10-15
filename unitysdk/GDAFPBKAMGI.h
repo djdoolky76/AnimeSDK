@@ -31,6 +31,8 @@ namespace UnityEngine { class Transform; }
 #define GDAFPBKAMGI_KFJGIKDLMBN_OFFSET UNITYSDK_OFFSET(0x15992800)
 #define GDAFPBKAMGI_NIALNKDEBPC_OFFSET UNITYSDK_OFFSET(0x15991A30)
 
+inline static constexpr unsigned int GDAFPBKAMGI_TypeDefinitionIndex = 68762;
+
 	class GDAFPBKAMGI : public ::System::Object
 	{
 	public:

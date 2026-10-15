@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int AlertCompliance___c__DisplayClass23_0_TypeDefinitionIndex = 7993;
+
 	class AlertCompliance___c__DisplayClass23_0 : public ::System::Object
 	{
 	public:

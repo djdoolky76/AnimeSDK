@@ -11,6 +11,8 @@
 #define HBGIMIPDNDF_MOCNBEEIPPE_OFFSET UNITYSDK_OFFSET(0x15C03240)
 #define HBGIMIPDNDF_PEFLJDOKOIL_OFFSET UNITYSDK_OFFSET(0x15C03520)
 
+inline static constexpr unsigned int HBGIMIPDNDF_TypeDefinitionIndex = 57684;
+
 	class HBGIMIPDNDF : public ::System::Object
 	{
 	public:

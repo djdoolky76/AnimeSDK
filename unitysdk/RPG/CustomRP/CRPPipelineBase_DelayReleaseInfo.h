@@ -8,6 +8,8 @@ namespace UnityEngine { class Object; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int CRPPipelineBase_DelayReleaseInfo_TypeDefinitionIndex = 37550;
+
 	class CRPPipelineBase_DelayReleaseInfo : public ::System::Object
 	{
 	public:

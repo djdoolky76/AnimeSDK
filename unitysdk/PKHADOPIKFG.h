@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define PKHADOPIKFG_OOFKOICLFLE_OFFSET UNITYSDK_OFFSET(0xC2BAA10)
 #define PKHADOPIKFG__REBUILD_OFFSET UNITYSDK_OFFSET(0xC2BAB30)
 
+inline static constexpr unsigned int PKHADOPIKFG_TypeDefinitionIndex = 62831;
+
 	class PKHADOPIKFG : public ::JHEGOEGGGDK
 	{
 	public:

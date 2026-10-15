@@ -22,6 +22,8 @@ namespace RPG::GameCore { class GameEntity; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AbilityElationEchoPointChange_TypeDefinitionIndex = 56597;
+
 	class AbilityElationEchoPointChange : public ::CMPGEAFHHDC
 	{
 	public:

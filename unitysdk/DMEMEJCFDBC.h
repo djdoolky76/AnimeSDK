@@ -19,6 +19,8 @@ namespace System::Text { class StringBuilder; }
 #define DMEMEJCFDBC_TOSTRING_OFFSET UNITYSDK_OFFSET(0xFEBD4C0)
 #define DMEMEJCFDBC__CLONE___OFFSET UNITYSDK_OFFSET(0xFEBDB90)
 
+inline static constexpr unsigned int DMEMEJCFDBC_TypeDefinitionIndex = 80605;
+
 	class DMEMEJCFDBC : public ::System::Object
 	{
 	public:

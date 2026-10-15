@@ -3,6 +3,8 @@
 #include "unitysdk/UnityEngine/Quaternion.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
+inline static constexpr unsigned int IPAGLJGIIJB_TypeDefinitionIndex = 47687;
+
 	struct alignas(4) IPAGLJGIIJB
 	{
 		::UnityEngine::Vector3 NPHAFNPMMDF; // 0x10

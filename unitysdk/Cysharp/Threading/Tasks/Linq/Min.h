@@ -20,6 +20,8 @@ namespace System { class Nullable; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
+	inline static constexpr unsigned int Min_TypeDefinitionIndex = 45469;
+
 	class Min : public ::System::Object
 	{
 	public:

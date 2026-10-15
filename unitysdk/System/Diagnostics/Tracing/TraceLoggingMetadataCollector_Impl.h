@@ -13,6 +13,8 @@ namespace System::Diagnostics::Tracing { class FieldMetadata; }
 
 namespace System::Diagnostics::Tracing
 {
+	inline static constexpr unsigned int TraceLoggingMetadataCollector_Impl_TypeDefinitionIndex = 1670;
+
 	class TraceLoggingMetadataCollector_Impl : public ::System::Object
 	{
 	public:

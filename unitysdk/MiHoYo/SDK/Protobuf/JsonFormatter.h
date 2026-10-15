@@ -40,6 +40,8 @@ namespace System::IO { class TextWriter; }
 
 namespace MiHoYo::SDK::Protobuf
 {
+	inline static constexpr unsigned int JsonFormatter_TypeDefinitionIndex = 35725;
+
 	class JsonFormatter : public ::System::Object
 	{
 	public:

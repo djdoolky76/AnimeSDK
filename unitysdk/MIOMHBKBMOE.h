@@ -5,6 +5,8 @@
 #define MIOMHBKBMOE_CTOR_OFFSET UNITYSDK_OFFSET(0xB960A20)
 #define MIOMHBKBMOE_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xB9606D0)
 
+inline static constexpr unsigned int MIOMHBKBMOE_TypeDefinitionIndex = 70472;
+
 	class MIOMHBKBMOE : public ::RPG::Client::Effect_PropScreenSpaceGPUParticleBehavior
 	{
 	public:

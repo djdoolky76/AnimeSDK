@@ -93,6 +93,8 @@ namespace UnityEngine { class Animator; }
 #define FJNBODHINDM_TICK_OFFSET UNITYSDK_OFFSET(0x157E06C0)
 #define FJNBODHINDM__ONINITOWNERREF_OFFSET UNITYSDK_OFFSET(0x157E1810)
 
+inline static constexpr unsigned int FJNBODHINDM_TypeDefinitionIndex = 53965;
+
 	class FJNBODHINDM : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

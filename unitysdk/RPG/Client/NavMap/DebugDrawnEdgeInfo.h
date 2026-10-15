@@ -21,6 +21,8 @@ namespace UnityEngine { class LineRenderer; }
 
 namespace RPG::Client::NavMap
 {
+	inline static constexpr unsigned int DebugDrawnEdgeInfo_TypeDefinitionIndex = 74543;
+
 	class DebugDrawnEdgeInfo : public ::RPG::Client::NavMap::DebugDrawnInfo
 	{
 	public:

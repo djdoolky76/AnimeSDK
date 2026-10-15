@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace Proto
 {
+	inline static constexpr unsigned int FinishTutorialScRsp___c_TypeDefinitionIndex = 35059;
+
 	class FinishTutorialScRsp___c : public ::System::Object
 	{
 	public:

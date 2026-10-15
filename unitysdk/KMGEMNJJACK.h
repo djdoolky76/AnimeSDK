@@ -30,6 +30,8 @@ namespace System { class String; }
 #define KMGEMNJJACK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E8995E0)
 #define KMGEMNJJACK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E899640)
 
+inline static constexpr unsigned int KMGEMNJJACK_TypeDefinitionIndex = 31022;
+
 	class KMGEMNJJACK : public ::System::Object
 	{
 	public:

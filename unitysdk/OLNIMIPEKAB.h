@@ -34,6 +34,8 @@ namespace System { class String; }
 #define OLNIMIPEKAB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DEAAE60)
 #define OLNIMIPEKAB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DEAAEC0)
 
+inline static constexpr unsigned int OLNIMIPEKAB_TypeDefinitionIndex = 26164;
+
 	class OLNIMIPEKAB : public ::System::Object
 	{
 	public:

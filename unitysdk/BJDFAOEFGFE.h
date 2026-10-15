@@ -14,6 +14,8 @@ namespace System { class String; }
 #define BJDFAOEFGFE_NJGIJEKCLDD_OFFSET UNITYSDK_OFFSET(0x3C43760)
 #define BJDFAOEFGFE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3C438E0)
 
+inline static constexpr unsigned int BJDFAOEFGFE_TypeDefinitionIndex = 6550;
+
 	struct alignas(4) BJDFAOEFGFE
 	{
 		::System::Single EFNAJMADAHM; // 0x10

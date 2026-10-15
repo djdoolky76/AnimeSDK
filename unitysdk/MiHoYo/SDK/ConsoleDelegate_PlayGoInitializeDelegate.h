@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int ConsoleDelegate_PlayGoInitializeDelegate_TypeDefinitionIndex = 7664;
+
 	class ConsoleDelegate_PlayGoInitializeDelegate : public ::System::MulticastDelegate
 	{
 	public:

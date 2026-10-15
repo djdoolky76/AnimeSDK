@@ -6,6 +6,8 @@
 #define DCIGCOHMHIK_GET_HANDLED_OFFSET UNITYSDK_OFFSET(0xE2480A0)
 #define DCIGCOHMHIK_SET_HANDLED_OFFSET UNITYSDK_OFFSET(0xE2480B0)
 
+inline static constexpr unsigned int DCIGCOHMHIK_TypeDefinitionIndex = 49696;
+
 	class DCIGCOHMHIK : public ::System::Object
 	{
 	public:

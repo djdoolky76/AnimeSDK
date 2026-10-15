@@ -7,6 +7,8 @@
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriAtomExAsrRack_Config_TypeDefinitionIndex = 39917;
+
 	struct alignas(4) CriAtomExAsrRack_Config
 	{
 		::System::Single serverFrequency; // 0x10

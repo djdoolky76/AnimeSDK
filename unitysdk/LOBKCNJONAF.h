@@ -10,6 +10,8 @@ namespace RPG::Client::LittleGame { class Match3EnergyViewStateBuffer; }
 #define LOBKCNJONAF_LGAOOKPFIMF_OFFSET UNITYSDK_OFFSET(0xB7F3B10)
 #define LOBKCNJONAF_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0xB7F3A10)
 
+inline static constexpr unsigned int LOBKCNJONAF_TypeDefinitionIndex = 65897;
+
 	class LOBKCNJONAF : public ::MLKDDLHNNHH
 	{
 	public:

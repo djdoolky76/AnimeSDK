@@ -20,6 +20,8 @@ namespace UnityEngine { class Animator; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int StateTransitionAudio_TypeDefinitionIndex = 68848;
+
 	class StateTransitionAudio : public ::UnityEngine::StateMachineBehaviour
 	{
 	public:

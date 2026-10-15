@@ -48,6 +48,8 @@ namespace UnityEngine { class Camera; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoUI3DTouch_TypeDefinitionIndex = 72988;
+
 	class MonoUI3DTouch : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -110,6 +110,8 @@ namespace System { class String; }
 #define DCFPEIMAMCN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E16D470)
 #define DCFPEIMAMCN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E16D4D0)
 
+inline static constexpr unsigned int DCFPEIMAMCN_TypeDefinitionIndex = 33180;
+
 	class DCFPEIMAMCN : public ::System::Object
 	{
 	public:

@@ -38,6 +38,8 @@ namespace RPG::GameCore { class CakeRaceActionBase; }
 #define ONOKNOEBACD_PLMPBNAEIGN_OFFSET UNITYSDK_OFFSET(0x1D2A5760)
 #define ONOKNOEBACD_POMEKLECEMK_OFFSET UNITYSDK_OFFSET(0x1D2A59F0)
 
+inline static constexpr unsigned int ONOKNOEBACD_TypeDefinitionIndex = 19088;
+
 	class ONOKNOEBACD : public ::System::Object
 	{
 	public:

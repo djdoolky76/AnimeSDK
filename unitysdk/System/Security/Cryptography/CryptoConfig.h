@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace System::Security::Cryptography
 {
+	inline static constexpr unsigned int CryptoConfig_TypeDefinitionIndex = 1074;
+
 	class CryptoConfig : public ::System::Object
 	{
 	public:

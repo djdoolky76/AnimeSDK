@@ -10,6 +10,8 @@ namespace RPG::GameCore { class SimpleTalkStyle; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BackgroundTalkInfo_TypeDefinitionIndex = 23382;
+
 	class BackgroundTalkInfo : public ::RPG::GameCore::JsonConfig
 	{
 	public:

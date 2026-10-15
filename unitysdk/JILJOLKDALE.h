@@ -39,6 +39,8 @@ namespace System { class String; }
 #define JILJOLKDALE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E750B70)
 #define JILJOLKDALE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E750BD0)
 
+inline static constexpr unsigned int JILJOLKDALE_TypeDefinitionIndex = 25341;
+
 	class JILJOLKDALE : public ::System::Object
 	{
 	public:

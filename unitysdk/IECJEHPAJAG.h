@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define IECJEHPAJAG_CTOR_OFFSET UNITYSDK_OFFSET(0x15EED0D0)
 #define IECJEHPAJAG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15EED100)
 
+inline static constexpr unsigned int IECJEHPAJAG_TypeDefinitionIndex = 58626;
+
 	class IECJEHPAJAG
 	{
 	public:

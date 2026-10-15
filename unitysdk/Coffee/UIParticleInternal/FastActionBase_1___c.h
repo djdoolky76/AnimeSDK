@@ -5,6 +5,8 @@ namespace System { class Object; }
 
 namespace Coffee::UIParticleInternal
 {
+	inline static constexpr unsigned int FastActionBase_1___c_TypeDefinitionIndex = 45127;
+
 	template <typename T>
 	class FastActionBase_1___c : public ::System::Object
 	{

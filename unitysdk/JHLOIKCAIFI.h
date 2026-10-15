@@ -8,6 +8,8 @@ class JHLOIKCAIFI;
 #define JHLOIKCAIFI_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D032500)
 #define JHLOIKCAIFI_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D0324C0)
 
+inline static constexpr unsigned int JHLOIKCAIFI_TypeDefinitionIndex = 21561;
+
 	class JHLOIKCAIFI : public ::RPG::GameCore::TaskConfig
 	{
 	public:

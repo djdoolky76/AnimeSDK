@@ -98,6 +98,8 @@ namespace UnityEngine::AI { class AsyncNavMeshAgent; }
 #define BMDDCGIDIBB_SET_USEANIMATORMOVE_OFFSET UNITYSDK_OFFSET(0xBA90710)
 #define BMDDCGIDIBB_SET_USEDYNAMICWORLDUP_OFFSET UNITYSDK_OFFSET(0xBA8FEB0)
 
+inline static constexpr unsigned int BMDDCGIDIBB_TypeDefinitionIndex = 69171;
+
 	class BMDDCGIDIBB : public ::System::Object
 	{
 	public:

@@ -31,6 +31,8 @@ namespace UnityEngine { class AsyncOperation; }
 
 namespace Cysharp::Threading::Tasks
 {
+	inline static constexpr unsigned int UnityAsyncExtensions_AssetBundleCreateRequestConfiguredSource_TypeDefinitionIndex = 38466;
+
 	class UnityAsyncExtensions_AssetBundleCreateRequestConfiguredSource : public ::System::Object
 	{
 	public:

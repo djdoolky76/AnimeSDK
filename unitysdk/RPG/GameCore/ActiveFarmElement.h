@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ActiveFarmElement; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ActiveFarmElement_TypeDefinitionIndex = 22086;
+
 	class ActiveFarmElement : public ::RPG::GameCore::TaskConfig
 	{
 	public:

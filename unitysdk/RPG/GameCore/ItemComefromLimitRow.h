@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ItemComefromLimitRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ItemComefromLimitRow_TypeDefinitionIndex = 13867;
+
 	class ItemComefromLimitRow : public ::System::Object
 	{
 	public:

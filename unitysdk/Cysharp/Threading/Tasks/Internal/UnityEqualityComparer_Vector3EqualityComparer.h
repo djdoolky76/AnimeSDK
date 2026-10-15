@@ -9,6 +9,8 @@
 
 namespace Cysharp::Threading::Tasks::Internal
 {
+	inline static constexpr unsigned int UnityEqualityComparer_Vector3EqualityComparer_TypeDefinitionIndex = 38677;
+
 	class UnityEqualityComparer_Vector3EqualityComparer : public ::System::Object
 	{
 	public:

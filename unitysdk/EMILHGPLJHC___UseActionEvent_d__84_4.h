@@ -6,6 +6,8 @@ namespace RPG::Client { template <typename T1, typename T2, typename T3, typenam
 namespace System { class Object; }
 namespace System { class String; }
 
+inline static constexpr unsigned int EMILHGPLJHC___UseActionEvent_d__84_4_TypeDefinitionIndex = 59558;
+
 	template <typename T1, typename T2, typename T3, typename T4>
 	class EMILHGPLJHC___UseActionEvent_d__84_4 : public ::System::Object
 	{

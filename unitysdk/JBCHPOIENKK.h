@@ -7,6 +7,8 @@ namespace System { class Object; }
 
 #define JBCHPOIENKK_CTOR_OFFSET UNITYSDK_OFFSET(0x1C6F1170)
 
+inline static constexpr unsigned int JBCHPOIENKK_TypeDefinitionIndex = 36564;
+
 	class JBCHPOIENKK : public ::System::Object
 	{
 	public:

@@ -15,6 +15,8 @@ class OIKDEOMMOAM;
 #define FCFNDHMOJCP_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x156B9800)
 #define FCFNDHMOJCP_SET_OWNER_OFFSET UNITYSDK_OFFSET(0x156B9B40)
 
+inline static constexpr unsigned int FCFNDHMOJCP_TypeDefinitionIndex = 54291;
+
 	class FCFNDHMOJCP : public ::System::Object
 	{
 	public:

@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyCo
 
 namespace RPG::Client::RelicSmartSuit
 {
+	inline static constexpr unsigned int PinInfo_TypeDefinitionIndex = 74412;
+
 	class PinInfo : public ::System::Object
 	{
 	public:

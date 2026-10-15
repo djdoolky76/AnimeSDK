@@ -66,6 +66,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AetherDivideSpiritSkillRow_AvatarSkillCommonRowWrap_TypeDefinitionIndex = 56555;
+
 	class AetherDivideSpiritSkillRow_AvatarSkillCommonRowWrap : public ::System::Object
 	{
 	public:

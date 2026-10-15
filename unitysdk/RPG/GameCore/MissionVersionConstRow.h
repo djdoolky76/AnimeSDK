@@ -9,6 +9,8 @@ namespace RPG::GameCore { class MissionVersionConstRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MissionVersionConstRow_TypeDefinitionIndex = 14164;
+
 	class MissionVersionConstRow : public ::System::Object
 	{
 	public:

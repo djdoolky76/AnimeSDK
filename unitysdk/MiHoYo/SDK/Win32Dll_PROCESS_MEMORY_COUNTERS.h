@@ -3,6 +3,8 @@
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int Win32Dll_PROCESS_MEMORY_COUNTERS_TypeDefinitionIndex = 7945;
+
 	struct alignas(4) Win32Dll_PROCESS_MEMORY_COUNTERS
 	{
 		::System::UInt32 cb; // 0x10

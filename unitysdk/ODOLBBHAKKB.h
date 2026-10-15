@@ -10,6 +10,8 @@ namespace System { class String; }
 #define ODOLBBHAKKB_SET_GENDER_OFFSET UNITYSDK_OFFSET(0xBDF1C40)
 #define ODOLBBHAKKB_SET_NAME_OFFSET UNITYSDK_OFFSET(0xBDF1C20)
 
+inline static constexpr unsigned int ODOLBBHAKKB_TypeDefinitionIndex = 51929;
+
 	class ODOLBBHAKKB : public ::System::Object
 	{
 	public:

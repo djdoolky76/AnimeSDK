@@ -13,6 +13,8 @@ namespace RPG::GameCore { class AdventureEntityDestroy; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdventureEntityDestroy_TypeDefinitionIndex = 56604;
+
 	class AdventureEntityDestroy : public ::CMPGEAFHHDC
 	{
 	public:

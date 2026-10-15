@@ -11,6 +11,8 @@ namespace RPG::Client::DiceCombat { class DiceCombatBattleDiceDisplayInfo; }
 #define MIMFLJPLACJ_CTOR_OFFSET UNITYSDK_OFFSET(0xB95E7B0)
 #define MIMFLJPLACJ_LBKFBMLNFFP_OFFSET UNITYSDK_OFFSET(0xB95EA10)
 
+inline static constexpr unsigned int MIMFLJPLACJ_TypeDefinitionIndex = 76040;
+
 	class MIMFLJPLACJ : public ::System::Object
 	{
 	public:

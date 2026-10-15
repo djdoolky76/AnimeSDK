@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ClearTutorialGuide; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ClearTutorialGuide_TypeDefinitionIndex = 24349;
+
 	class ClearTutorialGuide : public ::RPG::GameCore::TaskConfig
 	{
 	public:

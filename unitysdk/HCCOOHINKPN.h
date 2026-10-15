@@ -9,6 +9,8 @@ class HCCOOHINKPN;
 #define HCCOOHINKPN_CTOR_OFFSET UNITYSDK_OFFSET(0x1CE8BBE0)
 #define HCCOOHINKPN_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CE871D0)
 
+inline static constexpr unsigned int HCCOOHINKPN_TypeDefinitionIndex = 11284;
+
 	class HCCOOHINKPN : public ::System::Object
 	{
 	public:

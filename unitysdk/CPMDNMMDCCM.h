@@ -27,6 +27,8 @@ namespace System { class String; }
 #define CPMDNMMDCCM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E1443B0)
 #define CPMDNMMDCCM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E144410)
 
+inline static constexpr unsigned int CPMDNMMDCCM_TypeDefinitionIndex = 27571;
+
 	class CPMDNMMDCCM : public ::System::Object
 	{
 	public:

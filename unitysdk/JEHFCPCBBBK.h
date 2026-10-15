@@ -12,6 +12,8 @@ namespace UnityEngine { class MonoBehaviour; }
 #define JEHFCPCBBBK_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x16627980)
 #define JEHFCPCBBBK_PKJILGDPEGF_OFFSET UNITYSDK_OFFSET(0x16627B00)
 
+inline static constexpr unsigned int JEHFCPCBBBK_TypeDefinitionIndex = 70370;
+
 	class JEHFCPCBBBK : public ::RPG::Client::BehaviorBase
 	{
 	public:

@@ -19,6 +19,8 @@ namespace System::Runtime::Serialization { class SerializationEventHandler; }
 
 namespace System::Runtime::Serialization
 {
+	inline static constexpr unsigned int SerializationEvents_TypeDefinitionIndex = 1126;
+
 	class SerializationEvents : public ::System::Object
 	{
 	public:

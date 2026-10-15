@@ -84,6 +84,8 @@ namespace System::Globalization { class CultureInfo; }
 
 namespace Newtonsoft::Json
 {
+	inline static constexpr unsigned int JsonReader_TypeDefinitionIndex = 9616;
+
 	class JsonReader : public ::System::Object
 	{
 	public:

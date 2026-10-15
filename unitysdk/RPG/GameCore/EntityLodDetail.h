@@ -12,6 +12,8 @@ namespace RPG::GameCore { class EntityLodDetail; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EntityLodDetail_TypeDefinitionIndex = 19209;
+
 	class EntityLodDetail : public ::RPG::GameCore::LodDetail
 	{
 	public:

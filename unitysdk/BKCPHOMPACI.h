@@ -25,6 +25,8 @@ namespace System { class String; }
 #define BKCPHOMPACI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF4F7A0)
 #define BKCPHOMPACI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF4F800)
 
+inline static constexpr unsigned int BKCPHOMPACI_TypeDefinitionIndex = 31382;
+
 	class BKCPHOMPACI : public ::System::Object
 	{
 	public:

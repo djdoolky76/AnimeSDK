@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define LKAGBGAMJKP_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB7284D0)
 #define LKAGBGAMJKP__ONTASKBEGIN_B__1_0_OFFSET UNITYSDK_OFFSET(0xB728560)
 
+inline static constexpr unsigned int LKAGBGAMJKP_TypeDefinitionIndex = 52669;
+
 	class LKAGBGAMJKP
 	{
 	public:

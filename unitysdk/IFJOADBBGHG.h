@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define IFJOADBBGHG_KFDEJDCCAMJ_OFFSET UNITYSDK_OFFSET(0x15F1EAF0)
 #define IFJOADBBGHG_MFKCJIPCEPJ_OFFSET UNITYSDK_OFFSET(0x15F1E0C0)
 
+inline static constexpr unsigned int IFJOADBBGHG_TypeDefinitionIndex = 62501;
+
 	class IFJOADBBGHG : public ::System::Object
 	{
 	public:

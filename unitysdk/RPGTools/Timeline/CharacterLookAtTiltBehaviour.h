@@ -11,6 +11,8 @@ namespace RPGTools::Timeline { class CharacterLookAtTiltData; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int CharacterLookAtTiltBehaviour_TypeDefinitionIndex = 47978;
+
 	class CharacterLookAtTiltBehaviour : public ::RPGTools::Timeline::CustomEventBehaviour
 	{
 	public:

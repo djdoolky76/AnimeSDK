@@ -20,6 +20,8 @@ namespace System { class String; }
 #define JBDNPKMIDCP_PCDEKLAJOPG_OFFSET UNITYSDK_OFFSET(0x16568A20)
 #define JBDNPKMIDCP_PGADLCHKNNJ_OFFSET UNITYSDK_OFFSET(0x165689B0)
 
+inline static constexpr unsigned int JBDNPKMIDCP_TypeDefinitionIndex = 59632;
+
 	class JBDNPKMIDCP : public ::System::Object
 	{
 	public:

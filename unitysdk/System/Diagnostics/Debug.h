@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace System::Diagnostics
 {
+	inline static constexpr unsigned int Debug_TypeDefinitionIndex = 2533;
+
 	class Debug : public ::System::Object
 	{
 	public:

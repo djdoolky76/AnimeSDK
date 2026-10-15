@@ -28,6 +28,8 @@ namespace System { class String; }
 #define KNLJDBNOPKD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E8A6860)
 #define KNLJDBNOPKD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E8A68C0)
 
+inline static constexpr unsigned int KNLJDBNOPKD_TypeDefinitionIndex = 28457;
+
 	class KNLJDBNOPKD : public ::System::Object
 	{
 	public:

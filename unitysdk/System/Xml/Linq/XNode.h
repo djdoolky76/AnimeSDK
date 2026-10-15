@@ -14,6 +14,8 @@ namespace System::Xml::Linq { class XNode; }
 
 namespace System::Xml::Linq
 {
+	inline static constexpr unsigned int XNode_TypeDefinitionIndex = 3890;
+
 	class XNode : public ::System::Xml::Linq::XObject
 	{
 	public:

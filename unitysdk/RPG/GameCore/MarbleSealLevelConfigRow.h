@@ -10,6 +10,8 @@ namespace RPG::GameCore { class MarbleSealLevelConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MarbleSealLevelConfigRow_TypeDefinitionIndex = 11851;
+
 	class MarbleSealLevelConfigRow : public ::System::Object
 	{
 	public:

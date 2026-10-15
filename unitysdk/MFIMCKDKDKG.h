@@ -14,6 +14,8 @@ namespace RPG::Client::LittleGame { template <typename T> class IAbilityAttribut
 #define MFIMCKDKDKG_GET_SERVICES_OFFSET UNITYSDK_OFFSET(0xB902150)
 #define MFIMCKDKDKG_SET_REQUESTAUTOREMOVE_OFFSET UNITYSDK_OFFSET(0xB902180)
 
+inline static constexpr unsigned int MFIMCKDKDKG_TypeDefinitionIndex = 75906;
+
 	class MFIMCKDKDKG
 	{
 	public:

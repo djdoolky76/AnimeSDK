@@ -6,6 +6,8 @@
 
 namespace SRF::UI
 {
+	inline static constexpr unsigned int SRSpinner_SpinEvent_TypeDefinitionIndex = 35394;
+
 	class SRSpinner_SpinEvent : public ::UnityEngine::Events::UnityEvent
 	{
 	public:

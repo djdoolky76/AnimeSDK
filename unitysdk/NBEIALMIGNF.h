@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define NBEIALMIGNF_CTOR_OFFSET UNITYSDK_OFFSET(0xBABE920)
 #define NBEIALMIGNF_EVALUATE_OFFSET UNITYSDK_OFFSET(0xBABE970)
 
+inline static constexpr unsigned int NBEIALMIGNF_TypeDefinitionIndex = 59235;
+
 	class NBEIALMIGNF
 	{
 	public:

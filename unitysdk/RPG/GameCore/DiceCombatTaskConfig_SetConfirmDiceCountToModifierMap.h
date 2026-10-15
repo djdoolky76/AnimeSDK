@@ -11,6 +11,8 @@ namespace RPG::GameCore { class DiceCombatTaskConfig_SetConfirmDiceCountToModifi
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DiceCombatTaskConfig_SetConfirmDiceCountToModifierMap_TypeDefinitionIndex = 16065;
+
 	class DiceCombatTaskConfig_SetConfirmDiceCountToModifierMap : public ::RPG::GameCore::DiceCombatTaskConfig
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define KELKOMPBONA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E80F750)
 #define KELKOMPBONA___C___CCTOR_B__83_0_OFFSET UNITYSDK_OFFSET(0x1E80F760)
 
+inline static constexpr unsigned int KELKOMPBONA___c_TypeDefinitionIndex = 27609;
+
 	class KELKOMPBONA___c : public ::System::Object
 	{
 	public:

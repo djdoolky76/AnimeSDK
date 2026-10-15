@@ -13,6 +13,8 @@ namespace System { template <typename T> class Func_1; }
 #define GMIFBFGDGJK___C___CTOR_B__1_0_OFFSET UNITYSDK_OFFSET(0x1C647C50)
 #define GMIFBFGDGJK___C___CTOR_B__1_1_OFFSET UNITYSDK_OFFSET(0x1C647C80)
 
+inline static constexpr unsigned int GMIFBFGDGJK___c_TypeDefinitionIndex = 37049;
+
 	class GMIFBFGDGJK___c : public ::System::Object
 	{
 	public:

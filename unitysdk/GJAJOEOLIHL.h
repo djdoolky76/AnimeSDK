@@ -10,6 +10,8 @@ namespace System { class Type; }
 #define GJAJOEOLIHL_FNAAJGAHIAI_OFFSET UNITYSDK_OFFSET(0x15A55950)
 #define GJAJOEOLIHL_IHPAKOMCHGP_OFFSET UNITYSDK_OFFSET(0x15A55A80)
 
+inline static constexpr unsigned int GJAJOEOLIHL_TypeDefinitionIndex = 62591;
+
 	class GJAJOEOLIHL : public ::System::Object
 	{
 	public:

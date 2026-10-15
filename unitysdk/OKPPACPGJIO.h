@@ -37,6 +37,8 @@ namespace System { class String; }
 #define OKPPACPGJIO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DEA3820)
 #define OKPPACPGJIO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DEA3880)
 
+inline static constexpr unsigned int OKPPACPGJIO_TypeDefinitionIndex = 33253;
+
 	class OKPPACPGJIO : public ::System::Object
 	{
 	public:

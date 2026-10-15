@@ -5,6 +5,8 @@
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriAtomExPlayerOutputAnalyzer_Config_TypeDefinitionIndex = 40063;
+
 	struct alignas(4) CriAtomExPlayerOutputAnalyzer_Config
 	{
 		::System::Int32 num_spectrum_analyzer_bands; // 0x10

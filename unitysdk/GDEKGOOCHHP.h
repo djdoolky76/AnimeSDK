@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define GDEKGOOCHHP_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1599A840)
 #define GDEKGOOCHHP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1599A880)
 
+inline static constexpr unsigned int GDEKGOOCHHP_TypeDefinitionIndex = 55377;
+
 	class GDEKGOOCHHP
 	{
 	public:

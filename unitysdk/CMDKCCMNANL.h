@@ -16,6 +16,8 @@ namespace System { class String; }
 #define CMDKCCMNANL_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xDA28DE0)
 #define CMDKCCMNANL_TICK_OFFSET UNITYSDK_OFFSET(0xDA28E30)
 
+inline static constexpr unsigned int CMDKCCMNANL_TypeDefinitionIndex = 58128;
+
 	class CMDKCCMNANL : public ::GELIALJDFBL
 	{
 	public:

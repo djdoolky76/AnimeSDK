@@ -93,6 +93,8 @@ namespace UnityEngine { class LocationService; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int Input_TypeDefinitionIndex = 5788;
+
 	class Input : public ::System::Object
 	{
 	public:

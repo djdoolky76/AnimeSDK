@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightParamIsEquipPreBattleConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightParamIsEquipPreBattleConfig_TypeDefinitionIndex = 19515;
+
 	class GridFightParamIsEquipPreBattleConfig : public ::RPG::GameCore::GridFightParameterConfigBase
 	{
 	public:

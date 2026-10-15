@@ -36,6 +36,8 @@ namespace System { class String; }
 #define OMLMOJIGLEE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DEBB4D0)
 #define OMLMOJIGLEE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DEBB530)
 
+inline static constexpr unsigned int OMLMOJIGLEE_TypeDefinitionIndex = 32964;
+
 	class OMLMOJIGLEE : public ::System::Object
 	{
 	public:

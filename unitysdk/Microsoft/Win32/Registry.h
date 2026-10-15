@@ -7,6 +7,8 @@ namespace Microsoft::Win32 { class RegistryKey; }
 
 namespace Microsoft::Win32
 {
+	inline static constexpr unsigned int Registry_TypeDefinitionIndex = 102;
+
 	class Registry : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System { class String; }
 
 #define ENGPHAKDGCI_CTOR_OFFSET UNITYSDK_OFFSET(0x155AFBC0)
 
+inline static constexpr unsigned int ENGPHAKDGCI_TypeDefinitionIndex = 55833;
+
 	class ENGPHAKDGCI : public ::System::Object
 	{
 	public:

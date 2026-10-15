@@ -15,6 +15,8 @@ namespace System::Threading::Tasks { class Task; }
 
 namespace System::Runtime::CompilerServices
 {
+	inline static constexpr unsigned int AsyncVoidMethodBuilder_TypeDefinitionIndex = 1349;
+
 	struct alignas(8) AsyncVoidMethodBuilder
 	{
 		::System::Threading::SynchronizationContext* m_synchronizationContext; // 0x10

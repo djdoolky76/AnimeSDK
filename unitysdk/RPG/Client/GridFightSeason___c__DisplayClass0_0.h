@@ -8,6 +8,8 @@ namespace RPG::GameCore { class GridFightSeasonPortalConfigRow; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightSeason___c__DisplayClass0_0_TypeDefinitionIndex = 65205;
+
 	class GridFightSeason___c__DisplayClass0_0 : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace RPG::Client { class TeamDataRefreshParam; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TeamDataRefreshParam_TypeDefinitionIndex = 68116;
+
 	class TeamDataRefreshParam : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace UnityEngine::Timeline { class TimelineClip; }
 
 namespace RPGTools::Timeline::Audio
 {
+	inline static constexpr unsigned int WwiseMuteAudioTrack_TypeDefinitionIndex = 48855;
+
 	class WwiseMuteAudioTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int HideStageItemBehaviour_TypeDefinitionIndex = 48146;
+
 	class HideStageItemBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

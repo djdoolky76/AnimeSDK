@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 #define CEGKBGOLKIP_CTOR_OFFSET UNITYSDK_OFFSET(0xC9DC050)
 #define CEGKBGOLKIP_PMEMJPBAKNO_OFFSET UNITYSDK_OFFSET(0xC9DB480)
 
+inline static constexpr unsigned int CEGKBGOLKIP_TypeDefinitionIndex = 77407;
+
 	class CEGKBGOLKIP : public ::System::Object
 	{
 	public:

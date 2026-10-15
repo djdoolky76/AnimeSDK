@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define LDMBNFAMCOI_NOBEBCHOCHG_OFFSET UNITYSDK_OFFSET(0xB63DBE0)
 #define LDMBNFAMCOI_SET_ENEMYLIST_OFFSET UNITYSDK_OFFSET(0xB63DE90)
 
+inline static constexpr unsigned int LDMBNFAMCOI_TypeDefinitionIndex = 81001;
+
 	class LDMBNFAMCOI : public ::System::Object
 	{
 	public:

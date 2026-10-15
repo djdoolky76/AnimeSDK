@@ -37,6 +37,8 @@ namespace RPG::LittleGameShare::HoyoPhysics::Box2D { class B2World; }
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
+	inline static constexpr unsigned int B2PrismaticJoints_TypeDefinitionIndex = 36730;
+
 	class B2PrismaticJoints : public ::System::Object
 	{
 	public:

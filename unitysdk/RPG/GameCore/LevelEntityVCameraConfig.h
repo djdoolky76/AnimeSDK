@@ -10,6 +10,8 @@ namespace RPG::GameCore { class LevelEntityVCameraConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelEntityVCameraConfig_TypeDefinitionIndex = 17259;
+
 	class LevelEntityVCameraConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

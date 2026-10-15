@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByCompareSoundEventInCD_TypeDefinitionIndex = 20615;
+
 	class ByCompareSoundEventInCD : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

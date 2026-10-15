@@ -10,6 +10,8 @@ namespace RPG::GameCore { class WaitFloorTimer; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaitFloorTimer_TypeDefinitionIndex = 20478;
+
 	class WaitFloorTimer : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int IVRChaperoneSetup__ImportFromBufferToWorking_TypeDefinitionIndex = 39013;
+
 	class IVRChaperoneSetup__ImportFromBufferToWorking : public ::System::MulticastDelegate
 	{
 	public:

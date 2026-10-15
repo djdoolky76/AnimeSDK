@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class ICollection
 #define GHFHNBLHKDA_ILAPNHCEMJF_OFFSET UNITYSDK_OFFSET(0x15A1A0C0)
 #define GHFHNBLHKDA_LMNPPAMFNEJ_OFFSET UNITYSDK_OFFSET(0x15A19C10)
 
+inline static constexpr unsigned int GHFHNBLHKDA_TypeDefinitionIndex = 66111;
+
 	class GHFHNBLHKDA : public ::System::Object
 	{
 	public:

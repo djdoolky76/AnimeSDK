@@ -6,6 +6,8 @@ namespace System { class String; }
 
 #define FDINAIPJBLM_OBFNCCCLIMH_OFFSET UNITYSDK_OFFSET(0x1CDDD9E0)
 
+inline static constexpr unsigned int FDINAIPJBLM_TypeDefinitionIndex = 24851;
+
 	class FDINAIPJBLM : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@
 
 namespace RPG::Client::ChenLingFes
 {
+	inline static constexpr unsigned int ChenLingFesGameplayStarViewModel_TypeDefinitionIndex = 81388;
+
 	class ChenLingFesGameplayStarViewModel : public ::Sofa::BaseViewModel
 	{
 	public:

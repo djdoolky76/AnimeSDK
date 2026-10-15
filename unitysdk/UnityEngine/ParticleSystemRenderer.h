@@ -133,6 +133,8 @@ namespace UnityEngine { class Mesh; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int ParticleSystemRenderer_TypeDefinitionIndex = 5289;
+
 	class ParticleSystemRenderer : public ::UnityEngine::Renderer
 	{
 	public:

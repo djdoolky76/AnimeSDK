@@ -31,6 +31,8 @@ namespace System { class String; }
 #define IMOOBICJGGE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E6BAC80)
 #define IMOOBICJGGE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E6BACE0)
 
+inline static constexpr unsigned int IMOOBICJGGE_TypeDefinitionIndex = 31598;
+
 	class IMOOBICJGGE : public ::System::Object
 	{
 	public:

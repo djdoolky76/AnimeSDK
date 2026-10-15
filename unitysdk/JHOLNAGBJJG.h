@@ -9,6 +9,8 @@ namespace System { class Nullable; }
 #define JHOLNAGBJJG_SET_CREATORID_OFFSET UNITYSDK_OFFSET(0x1CB95510)
 #define JHOLNAGBJJG_SET_VALUE_OFFSET UNITYSDK_OFFSET(0x1CB954F0)
 
+inline static constexpr unsigned int JHOLNAGBJJG_TypeDefinitionIndex = 41941;
+
 	class JHOLNAGBJJG : public ::NBJLLEBFGPD
 	{
 	public:

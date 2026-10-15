@@ -7,6 +7,8 @@
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int ChimeraDuelBattlePrefabConfig_Master_TypeDefinitionIndex = 78312;
+
 	class ChimeraDuelBattlePrefabConfig_Master : public ::System::Object
 	{
 	public:

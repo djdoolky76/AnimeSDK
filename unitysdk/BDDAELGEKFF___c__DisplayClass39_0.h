@@ -7,6 +7,8 @@ namespace RPG { template <typename T> class PoolList_1; }
 #define BDDAELGEKFF___C__DISPLAYCLASS39_0_CTOR_OFFSET UNITYSDK_OFFSET(0x162F02D0)
 #define BDDAELGEKFF___C__DISPLAYCLASS39_0__SUBMITSTACK_B__0_OFFSET UNITYSDK_OFFSET(0x162F1860)
 
+inline static constexpr unsigned int BDDAELGEKFF___c__DisplayClass39_0_TypeDefinitionIndex = 49447;
+
 	class BDDAELGEKFF___c__DisplayClass39_0 : public ::System::Object
 	{
 	public:

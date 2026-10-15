@@ -4,6 +4,8 @@
 
 #define IKALAIILPEK_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB77ED0)
 
+inline static constexpr unsigned int IKALAIILPEK_TypeDefinitionIndex = 42930;
+
 	class IKALAIILPEK : public ::System::Object
 	{
 	public:

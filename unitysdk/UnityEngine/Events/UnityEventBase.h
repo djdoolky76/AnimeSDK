@@ -36,6 +36,8 @@ namespace UnityEngine::Events { class PersistentCallGroup; }
 
 namespace UnityEngine::Events
 {
+	inline static constexpr unsigned int UnityEventBase_TypeDefinitionIndex = 4490;
+
 	class UnityEventBase : public ::System::Object
 	{
 	public:

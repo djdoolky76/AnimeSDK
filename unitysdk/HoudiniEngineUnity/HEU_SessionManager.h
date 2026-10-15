@@ -71,6 +71,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_SessionManager_TypeDefinitionIndex = 40587;
+
 	class HEU_SessionManager : public ::System::Object
 	{
 	public:

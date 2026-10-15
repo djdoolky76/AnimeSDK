@@ -19,6 +19,8 @@ class AkPlaylistItem;
 #define AKITERATOR_SETCPTR_OFFSET UNITYSDK_OFFSET(0x1F59BDF0)
 #define AKITERATOR_SET_PITEM_OFFSET UNITYSDK_OFFSET(0x1F59C220)
 
+inline static constexpr unsigned int AkIterator_TypeDefinitionIndex = 44748;
+
 	class AkIterator : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@
 
 namespace UnityEngine::UIElements
 {
+	inline static constexpr unsigned int DragLeaveEvent_TypeDefinitionIndex = 5925;
+
 	class DragLeaveEvent
 	{
 	public:

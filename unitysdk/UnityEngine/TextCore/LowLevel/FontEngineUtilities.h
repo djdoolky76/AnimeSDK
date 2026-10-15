@@ -5,6 +5,8 @@
 
 namespace UnityEngine::TextCore::LowLevel
 {
+	inline static constexpr unsigned int FontEngineUtilities_TypeDefinitionIndex = 5851;
+
 	struct alignas(4) FontEngineUtilities
 	{
 		static ::System::Int32 MaxValue(::System::Int32 a1, ::System::Int32 a2, ::System::Int32 a3)

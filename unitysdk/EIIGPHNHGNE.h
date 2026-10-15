@@ -18,6 +18,8 @@ namespace UnityEngine { class MonoBehaviour; }
 #define EIIGPHNHGNE_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x154CC000)
 #define EIIGPHNHGNE_MCGHLAKFDKH_OFFSET UNITYSDK_OFFSET(0x154CC890)
 
+inline static constexpr unsigned int EIIGPHNHGNE_TypeDefinitionIndex = 69894;
+
 	class EIIGPHNHGNE : public ::RPG::Client::BehaviorBase
 	{
 	public:

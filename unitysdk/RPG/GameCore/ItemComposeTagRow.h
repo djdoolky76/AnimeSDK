@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ItemComposeTagRow_TypeDefinitionIndex = 13842;
+
 	class ItemComposeTagRow : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@ class JCKCHPFFEHM;
 #define BDOADFOBGFH_AEBCGOOEMLG_OFFSET UNITYSDK_OFFSET(0x16305210)
 #define BDOADFOBGFH_EJHEGGLDPKI_OFFSET UNITYSDK_OFFSET(0x16305DE0)
 
+inline static constexpr unsigned int BDOADFOBGFH_TypeDefinitionIndex = 47392;
+
 	class BDOADFOBGFH : public ::System::Object
 	{
 	public:

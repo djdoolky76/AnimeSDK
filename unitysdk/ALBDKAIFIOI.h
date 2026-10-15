@@ -5,6 +5,8 @@
 
 #define ALBDKAIFIOI_FNKNLPMABLH_OFFSET UNITYSDK_OFFSET(0x1555D1F0)
 
+inline static constexpr unsigned int ALBDKAIFIOI_TypeDefinitionIndex = 56084;
+
 	class ALBDKAIFIOI : public ::System::Object
 	{
 	public:

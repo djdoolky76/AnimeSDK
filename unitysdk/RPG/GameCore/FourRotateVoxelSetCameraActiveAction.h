@@ -11,6 +11,8 @@ namespace RPG::GameCore { class FourRotateVoxelSetCameraActiveAction; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FourRotateVoxelSetCameraActiveAction_TypeDefinitionIndex = 16768;
+
 	class FourRotateVoxelSetCameraActiveAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
 	public:

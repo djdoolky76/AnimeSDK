@@ -30,6 +30,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace MiHoYo::SDK::PC::OS
 {
+	inline static constexpr unsigned int ABTestManager_TypeDefinitionIndex = 8487;
+
 	class ABTestManager : public ::System::Object
 	{
 	public:

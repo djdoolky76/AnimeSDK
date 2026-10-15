@@ -16,6 +16,8 @@
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int FlagMask_TypeDefinitionIndex = 37885;
+
 	struct alignas(4) FlagMask
 	{
 		::System::UInt32 _Flag; // 0x10

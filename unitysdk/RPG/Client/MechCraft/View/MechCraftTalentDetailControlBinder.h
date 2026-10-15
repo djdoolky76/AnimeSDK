@@ -24,6 +24,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftTalentDetailControlBinder_TypeDefinitionIndex = 80066;
+
 	class MechCraftTalentDetailControlBinder : public ::RPG::Client::MechCraft::View::MechCraftBinderBase
 	{
 	public:

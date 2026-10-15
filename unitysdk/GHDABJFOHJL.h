@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class LinkedListN
 #define GHDABJFOHJL_FEADNMNABOL_OFFSET UNITYSDK_OFFSET(0x2E7B7E0)
 #define GHDABJFOHJL_NEHKLHNLJPM_OFFSET UNITYSDK_OFFSET(0x2E7B6D0)
 
+inline static constexpr unsigned int GHDABJFOHJL_TypeDefinitionIndex = 57808;
+
 	struct alignas(8) GHDABJFOHJL
 	{
 		::MDBKAFBKOGM* NDJEAPFGBOD; // 0x10

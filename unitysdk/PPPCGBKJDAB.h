@@ -32,6 +32,8 @@ namespace System { class String; }
 #define PPPCGBKJDAB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DFE5160)
 #define PPPCGBKJDAB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DFE51C0)
 
+inline static constexpr unsigned int PPPCGBKJDAB_TypeDefinitionIndex = 30267;
+
 	class PPPCGBKJDAB : public ::System::Object
 	{
 	public:

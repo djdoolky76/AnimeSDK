@@ -7,6 +7,8 @@ namespace System { class Object; }
 #define MGCDENOHLCM_FNCNMCEOALF_OFFSET UNITYSDK_OFFSET(0x1EC87410)
 #define MGCDENOHLCM_LNHAOGJFKJE_OFFSET UNITYSDK_OFFSET(0x1EC874A0)
 
+inline static constexpr unsigned int MGCDENOHLCM_TypeDefinitionIndex = 44082;
+
 	class MGCDENOHLCM : public ::System::Object
 	{
 	public:

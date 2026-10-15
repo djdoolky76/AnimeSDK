@@ -15,6 +15,8 @@ namespace RPG::GameCore { class ChenLingBattleTriggerCallback; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChenLingBattleAbility_ChainLightning_TypeDefinitionIndex = 15734;
+
 	class ChenLingBattleAbility_ChainLightning : public ::RPG::GameCore::BaseChenLingBattleAbilityNodeConfig
 	{
 	public:

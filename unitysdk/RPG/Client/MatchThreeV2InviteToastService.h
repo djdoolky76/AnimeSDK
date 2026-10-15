@@ -29,6 +29,8 @@ namespace System::Collections::Generic { template <typename T> class Queue_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MatchThreeV2InviteToastService_TypeDefinitionIndex = 66038;
+
 	class MatchThreeV2InviteToastService : public ::System::Object
 	{
 	public:

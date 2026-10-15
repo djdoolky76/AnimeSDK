@@ -10,6 +10,8 @@ namespace RPG::GameCore { class LevelChallengeTurnAcc; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelChallengeTurnAcc_TypeDefinitionIndex = 23641;
+
 	class LevelChallengeTurnAcc : public ::RPG::GameCore::TaskConfig
 	{
 	public:

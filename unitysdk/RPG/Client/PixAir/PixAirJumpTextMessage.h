@@ -21,6 +21,8 @@
 
 namespace RPG::Client::PixAir
 {
+	inline static constexpr unsigned int PixAirJumpTextMessage_TypeDefinitionIndex = 79206;
+
 	class PixAirJumpTextMessage : public ::System::Object
 	{
 	public:

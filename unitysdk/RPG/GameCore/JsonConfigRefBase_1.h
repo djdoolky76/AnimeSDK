@@ -5,6 +5,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int JsonConfigRefBase_1_TypeDefinitionIndex = 56519;
+
 	template <typename T>
 	class JsonConfigRefBase_1 : public ::System::Object
 	{

@@ -7,6 +7,8 @@ class FCOEMCEDLNL;
 #define DMEIPKFHHCM_CTOR_OFFSET UNITYSDK_OFFSET(0x1CD42AB0)
 #define DMEIPKFHHCM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CD428D0)
 
+inline static constexpr unsigned int DMEIPKFHHCM_TypeDefinitionIndex = 13977;
+
 	class DMEIPKFHHCM : public ::System::Object
 	{
 	public:

@@ -29,6 +29,8 @@ namespace System { class String; }
 #define DEFFFLGJAEM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E191950)
 #define DEFFFLGJAEM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E1919B0)
 
+inline static constexpr unsigned int DEFFFLGJAEM_TypeDefinitionIndex = 34903;
+
 	class DEFFFLGJAEM : public ::System::Object
 	{
 	public:

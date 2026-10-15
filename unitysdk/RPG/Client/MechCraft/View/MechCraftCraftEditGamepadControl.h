@@ -73,6 +73,8 @@ namespace UnityEngine::EventSystems { class PointerEventData; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftCraftEditGamepadControl_TypeDefinitionIndex = 79880;
+
 	class MechCraftCraftEditGamepadControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

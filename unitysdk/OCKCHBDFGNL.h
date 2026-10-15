@@ -31,6 +31,8 @@ namespace System { class String; }
 #define OCKCHBDFGNL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE16960)
 #define OCKCHBDFGNL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DE169C0)
 
+inline static constexpr unsigned int OCKCHBDFGNL_TypeDefinitionIndex = 30104;
+
 	class OCKCHBDFGNL : public ::System::Object
 	{
 	public:

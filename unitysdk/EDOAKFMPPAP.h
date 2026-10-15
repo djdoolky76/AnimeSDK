@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RtCharacterVisual; }
 #define EDOAKFMPPAP_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CD70F80)
 #define EDOAKFMPPAP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CD70F40)
 
+inline static constexpr unsigned int EDOAKFMPPAP_TypeDefinitionIndex = 24090;
+
 	class EDOAKFMPPAP : public ::RPG::GameCore::TaskConfig
 	{
 	public:

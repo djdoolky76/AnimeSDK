@@ -5,6 +5,8 @@
 
 #define MJBMINJDNBA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C92C8A0)
 
+inline static constexpr unsigned int MJBMINJDNBA_TypeDefinitionIndex = 43740;
+
 	class MJBMINJDNBA : public ::System::Object
 	{
 	public:

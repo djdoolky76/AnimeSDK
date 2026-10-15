@@ -5,6 +5,8 @@
 
 #define NANIBDOCKDK_CTOR_OFFSET UNITYSDK_OFFSET(0x1C934D70)
 
+inline static constexpr unsigned int NANIBDOCKDK_TypeDefinitionIndex = 43745;
+
 	class NANIBDOCKDK : public ::System::Object
 	{
 	public:

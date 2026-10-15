@@ -27,6 +27,8 @@ namespace System::Xml::Schema { class XmlValueConverter; }
 
 namespace System::Xml::Schema
 {
+	inline static constexpr unsigned int XmlDateTimeConverter_TypeDefinitionIndex = 2225;
+
 	class XmlDateTimeConverter : public ::System::Xml::Schema::XmlBaseConverter
 	{
 	public:

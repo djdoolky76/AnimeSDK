@@ -28,6 +28,8 @@ namespace System { class String; }
 #define IIPIFJCOIFO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E68F8C0)
 #define IIPIFJCOIFO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E68F920)
 
+inline static constexpr unsigned int IIPIFJCOIFO_TypeDefinitionIndex = 29934;
+
 	class IIPIFJCOIFO : public ::System::Object
 	{
 	public:

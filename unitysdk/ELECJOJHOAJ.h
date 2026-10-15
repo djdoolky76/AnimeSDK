@@ -10,6 +10,8 @@ namespace UnityEngine { class Transform; }
 #define ELECJOJHOAJ_HKKFFCBJOKM_OFFSET UNITYSDK_OFFSET(0x1551E560)
 #define ELECJOJHOAJ_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0x1551E760)
 
+inline static constexpr unsigned int ELECJOJHOAJ_TypeDefinitionIndex = 77665;
+
 	class ELECJOJHOAJ : public ::System::Object
 	{
 	public:

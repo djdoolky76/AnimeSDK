@@ -27,6 +27,8 @@ namespace System { class String; }
 #define HLDLJBFIMOO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E5BAFF0)
 #define HLDLJBFIMOO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E5BB050)
 
+inline static constexpr unsigned int HLDLJBFIMOO_TypeDefinitionIndex = 31706;
+
 	class HLDLJBFIMOO : public ::System::Object
 	{
 	public:

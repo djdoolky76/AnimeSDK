@@ -10,6 +10,8 @@ namespace RPG::GameCore { class BaseChimeraDuelValueGetter; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BaseChimeraDuelValueGetter_TypeDefinitionIndex = 15989;
+
 	class BaseChimeraDuelValueGetter : public ::RPG::GameCore::JsonConfig
 	{
 	public:

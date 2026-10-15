@@ -5,6 +5,8 @@ namespace System { class Object; }
 
 #define KKJMAOMDCAE_CTOR_OFFSET UNITYSDK_OFFSET(0xB4CE7A0)
 
+inline static constexpr unsigned int KKJMAOMDCAE_TypeDefinitionIndex = 64769;
+
 	class KKJMAOMDCAE : public ::System::Object
 	{
 	public:

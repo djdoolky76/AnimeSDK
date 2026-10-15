@@ -22,6 +22,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int RogueDLCCompass_TypeDefinitionIndex = 78954;
+
 	class RogueDLCCompass : public ::UnityEngine::MonoBehaviour
 	{
 	public:

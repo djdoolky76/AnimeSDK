@@ -14,6 +14,8 @@ namespace MiHoYo::SDK::HoYoUI { class HoYoUIMeta; }
 
 namespace MiHoYo::SDK::HoYoUI
 {
+	inline static constexpr unsigned int HoYoInputField_TypeDefinitionIndex = 46710;
+
 	class HoYoInputField : public ::UnityEngine::UI::InputField
 	{
 	public:

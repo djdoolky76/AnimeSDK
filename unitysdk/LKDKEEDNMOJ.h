@@ -8,6 +8,8 @@ namespace System { class String; }
 #define LKDKEEDNMOJ_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C90F540)
 #define LKDKEEDNMOJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1C90F5B0)
 
+inline static constexpr unsigned int LKDKEEDNMOJ_TypeDefinitionIndex = 43669;
+
 	class LKDKEEDNMOJ : public ::System::Object
 	{
 	public:

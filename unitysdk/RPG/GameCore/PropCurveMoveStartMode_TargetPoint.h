@@ -11,6 +11,8 @@ namespace RPG::GameCore { class PropCurveMoveStartMode_TargetPoint; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PropCurveMoveStartMode_TargetPoint_TypeDefinitionIndex = 21005;
+
 	class PropCurveMoveStartMode_TargetPoint : public ::RPG::GameCore::PropCurveMoveStartMode
 	{
 	public:

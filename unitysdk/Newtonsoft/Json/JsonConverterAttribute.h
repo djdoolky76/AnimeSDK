@@ -10,6 +10,8 @@ namespace System { class Type; }
 
 namespace Newtonsoft::Json
 {
+	inline static constexpr unsigned int JsonConverterAttribute_TypeDefinitionIndex = 9601;
+
 	class JsonConverterAttribute : public ::System::Attribute
 	{
 	public:

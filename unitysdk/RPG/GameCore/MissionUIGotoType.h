@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MissionUIGotoType_TypeDefinitionIndex = 18985;
+
 	enum class MissionUIGotoType : ::System::Int32
 	{
 		Default = 0,

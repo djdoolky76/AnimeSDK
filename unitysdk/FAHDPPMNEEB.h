@@ -7,6 +7,8 @@ namespace System { class String; }
 
 #define FAHDPPMNEEB_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA63270)
 
+inline static constexpr unsigned int FAHDPPMNEEB_TypeDefinitionIndex = 43225;
+
 	class FAHDPPMNEEB : public ::System::Object
 	{
 	public:

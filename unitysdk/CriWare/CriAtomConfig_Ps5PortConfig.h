@@ -6,6 +6,8 @@
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriAtomConfig_Ps5PortConfig_TypeDefinitionIndex = 40163;
+
 	class CriAtomConfig_Ps5PortConfig : public ::System::Object
 	{
 	public:

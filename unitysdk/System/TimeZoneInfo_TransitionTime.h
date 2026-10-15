@@ -26,6 +26,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System
 {
+	inline static constexpr unsigned int TimeZoneInfo_TransitionTime_TypeDefinitionIndex = 345;
+
 	struct alignas(4) TimeZoneInfo_TransitionTime
 	{
 		::System::DateTime m_timeOfDay; // 0x10

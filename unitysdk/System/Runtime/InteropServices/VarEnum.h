@@ -3,6 +3,8 @@
 
 namespace System::Runtime::InteropServices
 {
+	inline static constexpr unsigned int VarEnum_TypeDefinitionIndex = 1411;
+
 	enum class VarEnum : ::System::Int32
 	{
 		VT_EMPTY = 0,

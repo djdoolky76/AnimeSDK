@@ -5,6 +5,8 @@ class DDILGBNCFNM;
 
 #define PLFMKIDHJEB_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9F63F0)
 
+inline static constexpr unsigned int PLFMKIDHJEB_TypeDefinitionIndex = 43697;
+
 	class PLFMKIDHJEB : public ::System::Object
 	{
 	public:

@@ -2,6 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
+inline static constexpr unsigned int ABMMPMMOAGK_TypeDefinitionIndex = 43577;
+
 	class ABMMPMMOAGK : public ::System::Object
 	{
 	public:

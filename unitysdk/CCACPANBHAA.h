@@ -4,6 +4,8 @@
 #include "unitysdk/RPG/GameCore/RtSkillConditionMask.h"
 namespace RPG::GameCore { class GameEntity; }
 
+inline static constexpr unsigned int CCACPANBHAA_TypeDefinitionIndex = 54050;
+
 	struct alignas(8) CCACPANBHAA
 	{
 		::RPG::GameCore::RtSkillConditionMask CGPNFJDEJCF; // 0x10

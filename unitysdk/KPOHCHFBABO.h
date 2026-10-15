@@ -34,6 +34,8 @@ namespace UnityEngine::UI { class Text; }
 #define KPOHCHFBABO_PEGNJCBFPFB_OFFSET UNITYSDK_OFFSET(0xB5D0F90)
 #define KPOHCHFBABO__ONBIND_OFFSET UNITYSDK_OFFSET(0xB5D0BC0)
 
+inline static constexpr unsigned int KPOHCHFBABO_TypeDefinitionIndex = 71287;
+
 	class KPOHCHFBABO : public ::CAOEEDDAPIK
 	{
 	public:

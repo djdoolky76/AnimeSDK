@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ClockParkStoryExcelTable_TypeDefinitionIndex = 11179;
+
 	class ClockParkStoryExcelTable : public ::System::Object
 	{
 	public:

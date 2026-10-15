@@ -35,6 +35,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define JPBMKCEONNO_EPHNOAAENFO_NKKPKABGGHN_OFFSET UNITYSDK_OFFSET(0xB2B34B0)
 #define JPBMKCEONNO_EPHNOAAENFO_PBFOHPINBLG_OFFSET UNITYSDK_OFFSET(0xB2B2EC0)
 
+inline static constexpr unsigned int JPBMKCEONNO_EPHNOAAENFO_TypeDefinitionIndex = 57619;
+
 	class JPBMKCEONNO_EPHNOAAENFO : public ::System::Object
 	{
 	public:

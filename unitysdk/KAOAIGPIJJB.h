@@ -9,6 +9,8 @@ namespace System { class Type; }
 #define KAOAIGPIJJB_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC7AEA0)
 #define KAOAIGPIJJB_KHJNHDOJDDP_1_OFFSET UNITYSDK_OFFSET(0x1EC7AFB0)
 
+inline static constexpr unsigned int KAOAIGPIJJB_TypeDefinitionIndex = 44298;
+
 	class KAOAIGPIJJB : public ::System::Object
 	{
 	public:

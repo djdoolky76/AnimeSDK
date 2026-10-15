@@ -8,6 +8,8 @@ class KOKDNGLIFND;
 #define KOKDNGLIFND_CTOR_OFFSET UNITYSDK_OFFSET(0x1D0C1E70)
 #define KOKDNGLIFND_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D0C1D00)
 
+inline static constexpr unsigned int KOKDNGLIFND_TypeDefinitionIndex = 14985;
+
 	class KOKDNGLIFND : public ::System::Object
 	{
 	public:

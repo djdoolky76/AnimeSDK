@@ -14,6 +14,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByDamageSourceContainBehaviorFlag_TypeDefinitionIndex = 23310;
+
 	class ByDamageSourceContainBehaviorFlag : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace SRF
 {
+	inline static constexpr unsigned int SRFStringExtensions_TypeDefinitionIndex = 35371;
+
 	class SRFStringExtensions : public ::System::Object
 	{
 	public:

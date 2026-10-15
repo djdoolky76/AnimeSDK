@@ -12,6 +12,8 @@ namespace RPG::GameCore { class PlayChimeraAnimation; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PlayChimeraAnimation_TypeDefinitionIndex = 15862;
+
 	class PlayChimeraAnimation : public ::RPG::GameCore::ChimeraAbilityProgressBase
 	{
 	public:

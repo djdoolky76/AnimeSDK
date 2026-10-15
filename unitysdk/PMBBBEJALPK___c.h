@@ -9,6 +9,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define PMBBBEJALPK___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC314820)
 #define PMBBBEJALPK___C___LOADROOTADAPTOPERATIONS_B__12_0_OFFSET UNITYSDK_OFFSET(0xC314830)
 
+inline static constexpr unsigned int PMBBBEJALPK___c_TypeDefinitionIndex = 73034;
+
 	class PMBBBEJALPK___c : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TRFTeleportGateComponentConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TRFTeleportGateComponentConfig_TypeDefinitionIndex = 18913;
+
 	class TRFTeleportGateComponentConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
 	public:

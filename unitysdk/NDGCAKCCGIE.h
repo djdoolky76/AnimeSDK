@@ -28,6 +28,8 @@ namespace ZLinq { class ValueEnumerable; }
 #define NDGCAKCCGIE_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D1F9870)
 #define NDGCAKCCGIE_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D1F8EB0)
 
+inline static constexpr unsigned int NDGCAKCCGIE_TypeDefinitionIndex = 13666;
+
 	class NDGCAKCCGIE : public ::System::Object
 	{
 	public:

@@ -3,6 +3,8 @@
 class BJHMBGLPOLB;
 namespace RPG::GameCore { class GameEntity; }
 
+inline static constexpr unsigned int MGGDDCKLNAM_TypeDefinitionIndex = 55990;
+
 	struct alignas(8) MGGDDCKLNAM
 	{
 		::BJHMBGLPOLB* KDFKDNLNDHN; // 0x10

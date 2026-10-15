@@ -6,6 +6,8 @@ namespace System { class String; }
 
 #define IGHIPNLAAPC_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CB755A0)
 
+inline static constexpr unsigned int IGHIPNLAAPC_TypeDefinitionIndex = 42793;
+
 	class IGHIPNLAAPC : public ::System::Object
 	{
 	public:

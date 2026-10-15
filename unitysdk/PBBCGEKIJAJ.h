@@ -11,6 +11,8 @@ namespace System { class String; }
 #define PBBCGEKIJAJ_CTOR_OFFSET UNITYSDK_OFFSET(0xBFE13C0)
 #define PBBCGEKIJAJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBFE14A0)
 
+inline static constexpr unsigned int PBBCGEKIJAJ_TypeDefinitionIndex = 55447;
+
 	class PBBCGEKIJAJ
 	{
 	public:

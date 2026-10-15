@@ -8,6 +8,8 @@ namespace System { class String; }
 #define LPKHMDFGKFM_CTOR_OFFSET UNITYSDK_OFFSET(0x1D12AB00)
 #define LPKHMDFGKFM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D12A940)
 
+inline static constexpr unsigned int LPKHMDFGKFM_TypeDefinitionIndex = 13967;
+
 	class LPKHMDFGKFM : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System { template <typename T> class Comparison_1; }
 
 namespace RPG::Client::HimekoNovaSpecialSkill
 {
+	inline static constexpr unsigned int HimekoNovaSpecialSkillData___c_TypeDefinitionIndex = 80484;
+
 	class HimekoNovaSpecialSkillData___c : public ::System::Object
 	{
 	public:

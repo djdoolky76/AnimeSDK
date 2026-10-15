@@ -10,6 +10,8 @@ namespace RPG::GameCore { class CloseAllTopPage; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CloseAllTopPage_TypeDefinitionIndex = 20622;
+
 	class CloseAllTopPage : public ::RPG::GameCore::TaskConfig
 	{
 	public:

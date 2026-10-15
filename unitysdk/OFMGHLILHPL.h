@@ -32,6 +32,8 @@ namespace UnityEngine::UI { class Image; }
 #define OFMGHLILHPL_ONRETURN_OFFSET UNITYSDK_OFFSET(0xBE47A60)
 #define OFMGHLILHPL__ONBIND_OFFSET UNITYSDK_OFFSET(0xBE47860)
 
+inline static constexpr unsigned int OFMGHLILHPL_TypeDefinitionIndex = 71917;
+
 	class OFMGHLILHPL : public ::CLAADCBPCHM
 	{
 	public:

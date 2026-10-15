@@ -76,6 +76,8 @@ namespace System::Threading::Tasks { class Task; }
 
 namespace Mono::Net::Security
 {
+	inline static constexpr unsigned int MobileAuthenticatedStream_TypeDefinitionIndex = 2436;
+
 	class MobileAuthenticatedStream : public ::System::Net::Security::AuthenticatedStream
 	{
 	public:

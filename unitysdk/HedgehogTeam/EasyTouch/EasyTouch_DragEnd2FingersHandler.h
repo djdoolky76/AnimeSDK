@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace HedgehogTeam::EasyTouch
 {
+	inline static constexpr unsigned int EasyTouch_DragEnd2FingersHandler_TypeDefinitionIndex = 40321;
+
 	class EasyTouch_DragEnd2FingersHandler : public ::System::MulticastDelegate
 	{
 	public:

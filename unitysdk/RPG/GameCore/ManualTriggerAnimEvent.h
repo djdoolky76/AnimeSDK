@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ManualTriggerAnimEvent_TypeDefinitionIndex = 22878;
+
 	class ManualTriggerAnimEvent : public ::RPG::GameCore::TaskConfig
 	{
 	public:

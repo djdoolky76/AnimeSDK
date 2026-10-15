@@ -5,6 +5,8 @@ namespace System { class String; }
 
 #define LOCALFOGSPHEREINSTANCE_EXTRAEXPORTDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xB83D160)
 
+inline static constexpr unsigned int LocalFogSphereInstance_ExtraExportData_TypeDefinitionIndex = 47470;
+
 	class LocalFogSphereInstance_ExtraExportData : public ::System::Object
 	{
 	public:

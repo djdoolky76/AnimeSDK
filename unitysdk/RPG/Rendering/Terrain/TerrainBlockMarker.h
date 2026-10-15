@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Rendering::Terrain
 {
+	inline static constexpr unsigned int TerrainBlockMarker_TypeDefinitionIndex = 51798;
+
 	class TerrainBlockMarker : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -69,6 +69,8 @@ namespace System { class String; }
 #define OJPPNCAMCFL_SET_ISULTIMATEACTIVE_OFFSET UNITYSDK_OFFSET(0xBED2D70)
 #define OJPPNCAMCFL_SET_ISULTIMATELOCKED_OFFSET UNITYSDK_OFFSET(0xBED2D50)
 
+inline static constexpr unsigned int OJPPNCAMCFL_TypeDefinitionIndex = 81879;
+
 	class OJPPNCAMCFL : public ::System::Object
 	{
 	public:

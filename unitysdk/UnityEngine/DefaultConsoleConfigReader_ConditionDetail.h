@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int DefaultConsoleConfigReader_ConditionDetail_TypeDefinitionIndex = 4067;
+
 	class DefaultConsoleConfigReader_ConditionDetail : public ::System::Object
 	{
 	public:

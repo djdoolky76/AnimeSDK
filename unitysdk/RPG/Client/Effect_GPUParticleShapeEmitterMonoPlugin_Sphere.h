@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Effect_GPUParticleShapeEmitterMonoPlugin_Sphere_TypeDefinitionIndex = 70488;
+
 	class Effect_GPUParticleShapeEmitterMonoPlugin_Sphere : public ::RPG::Client::Effect_GPUParticleShapeEmitterMonoPlugin_EmitShape
 	{
 	public:

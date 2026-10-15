@@ -5,6 +5,8 @@ namespace RPG::Client { class RogueTournBuildRefShareCodeDataItem; }
 
 #define PFDEKDHNKLM_CTOR_OFFSET UNITYSDK_OFFSET(0xC207B60)
 
+inline static constexpr unsigned int PFDEKDHNKLM_TypeDefinitionIndex = 67508;
+
 	class PFDEKDHNKLM : public ::System::Exception
 	{
 	public:

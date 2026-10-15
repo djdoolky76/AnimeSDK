@@ -18,6 +18,8 @@ namespace System { class Object; }
 #define AGGOHNMJOAF_MENMHDNIBLA_OFFSET UNITYSDK_OFFSET(0xCF31520)
 #define AGGOHNMJOAF_MOCPCLHLAHK_OFFSET UNITYSDK_OFFSET(0xCF30A00)
 
+inline static constexpr unsigned int AGGOHNMJOAF_TypeDefinitionIndex = 68794;
+
 	class AGGOHNMJOAF : public ::GPGDJDKKHNE
 	{
 	public:

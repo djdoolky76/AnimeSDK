@@ -17,6 +17,8 @@ namespace RPG::Client::ParkourGame { class MonoParkourItemObstacleMovable; }
 #define LKHBLFDGBHI_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xB74AF90)
 #define LKHBLFDGBHI_LJOLGCNKIEH_OFFSET UNITYSDK_OFFSET(0xB74B150)
 
+inline static constexpr unsigned int LKHBLFDGBHI_TypeDefinitionIndex = 74213;
+
 	class LKHBLFDGBHI : public ::BIIJADGFFLF
 	{
 	public:

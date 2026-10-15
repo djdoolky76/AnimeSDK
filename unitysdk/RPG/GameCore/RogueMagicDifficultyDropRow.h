@@ -9,6 +9,8 @@ namespace RPG::GameCore { class RogueMagicDifficultyDropRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueMagicDifficultyDropRow_TypeDefinitionIndex = 14852;
+
 	class RogueMagicDifficultyDropRow : public ::System::Object
 	{
 	public:

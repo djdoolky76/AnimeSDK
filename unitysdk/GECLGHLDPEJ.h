@@ -16,6 +16,8 @@ namespace System { class Object; }
 #define GECLGHLDPEJ_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x159C8530)
 #define GECLGHLDPEJ_PFEODCIJKPH_OFFSET UNITYSDK_OFFSET(0x159C8580)
 
+inline static constexpr unsigned int GECLGHLDPEJ_TypeDefinitionIndex = 52852;
+
 	class GECLGHLDPEJ
 	{
 	public:

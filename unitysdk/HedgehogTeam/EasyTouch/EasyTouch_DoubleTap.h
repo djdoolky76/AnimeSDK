@@ -8,6 +8,8 @@ namespace HedgehogTeam::EasyTouch { class Finger; }
 
 namespace HedgehogTeam::EasyTouch
 {
+	inline static constexpr unsigned int EasyTouch_DoubleTap_TypeDefinitionIndex = 40287;
+
 	class EasyTouch_DoubleTap : public ::System::Object
 	{
 	public:

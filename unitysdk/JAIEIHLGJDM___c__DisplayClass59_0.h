@@ -6,6 +6,8 @@ class MEKPDDBLCGK;
 #define JAIEIHLGJDM___C__DISPLAYCLASS59_0_CTOR_OFFSET UNITYSDK_OFFSET(0x16552100)
 #define JAIEIHLGJDM___C__DISPLAYCLASS59_0___TRYGETPEAKBESTDATA_B__0_OFFSET UNITYSDK_OFFSET(0x16552210)
 
+inline static constexpr unsigned int JAIEIHLGJDM___c__DisplayClass59_0_TypeDefinitionIndex = 63188;
+
 	class JAIEIHLGJDM___c__DisplayClass59_0 : public ::System::Object
 	{
 	public:

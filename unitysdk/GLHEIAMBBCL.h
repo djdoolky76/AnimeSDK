@@ -9,6 +9,8 @@ namespace RPG::GameCore { class ChimeraAbility; }
 #define GLHEIAMBBCL_BPLPBPMEODA_1_OFFSET UNITYSDK_OFFSET(0x15AB3F40)
 #define GLHEIAMBBCL_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x15AB3A30)
 
+inline static constexpr unsigned int GLHEIAMBBCL_TypeDefinitionIndex = 76623;
+
 	class GLHEIAMBBCL : public ::System::Object
 	{
 	public:

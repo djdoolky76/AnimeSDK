@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace RPG::Client::LimaoNews
 {
+	inline static constexpr unsigned int LimaoNewsSubmitLevelControl___PlayFireChangeAnimation_d__2_TypeDefinitionIndex = 80404;
+
 	template <typename T1, typename T2>
 	class LimaoNewsSubmitLevelControl___PlayFireChangeAnimation_d__2 : public ::System::Object
 	{

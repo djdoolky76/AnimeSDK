@@ -7,6 +7,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightPendingStageRoundBeginAction_TypeDefinitionIndex = 64616;
+
 	class GridFightPendingStageRoundBeginAction : public ::RPG::Client::GridFightPendingStageBaseAction
 	{
 	public:

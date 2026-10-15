@@ -37,6 +37,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int DebugServer_TypeDefinitionIndex = 37920;
+
 	class DebugServer : public ::UnityEngine::MonoBehaviour
 	{
 	public:

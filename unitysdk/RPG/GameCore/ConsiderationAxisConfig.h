@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ConsiderationAxisConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ConsiderationAxisConfig_TypeDefinitionIndex = 15501;
+
 	class ConsiderationAxisConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

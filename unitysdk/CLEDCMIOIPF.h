@@ -31,6 +31,8 @@ namespace System { class String; }
 #define CLEDCMIOIPF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E0F7400)
 #define CLEDCMIOIPF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E0F7460)
 
+inline static constexpr unsigned int CLEDCMIOIPF_TypeDefinitionIndex = 29641;
+
 	class CLEDCMIOIPF : public ::System::Object
 	{
 	public:

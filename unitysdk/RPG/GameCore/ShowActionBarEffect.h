@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ShowActionBarEffect_TypeDefinitionIndex = 22948;
+
 	class ShowActionBarEffect : public ::RPG::GameCore::TaskConfig
 	{
 	public:

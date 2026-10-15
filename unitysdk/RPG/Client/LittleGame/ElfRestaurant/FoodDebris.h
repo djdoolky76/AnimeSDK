@@ -8,6 +8,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client::LittleGame::ElfRestaurant
 {
+	inline static constexpr unsigned int FoodDebris_TypeDefinitionIndex = 77281;
+
 	class FoodDebris : public ::System::Object
 	{
 	public:

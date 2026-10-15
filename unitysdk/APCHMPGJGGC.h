@@ -37,6 +37,8 @@ namespace System { class String; }
 #define APCHMPGJGGC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E6733D0)
 #define APCHMPGJGGC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E673430)
 
+inline static constexpr unsigned int APCHMPGJGGC_TypeDefinitionIndex = 32974;
+
 	class APCHMPGJGGC : public ::System::Object
 	{
 	public:

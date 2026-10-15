@@ -6,6 +6,8 @@
 
 namespace ZXing::OneD
 {
+	inline static constexpr unsigned int EAN13Reader_TypeDefinitionIndex = 7008;
+
 	class EAN13Reader : public ::ZXing::OneD::UPCEANReader
 	{
 	public:

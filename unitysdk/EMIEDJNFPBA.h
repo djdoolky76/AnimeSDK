@@ -6,6 +6,8 @@ namespace RPG::GameCore { class HoyoTagContainer; }
 #define EMIEDJNFPBA_CLEAR_OFFSET UNITYSDK_OFFSET(0x1CA61540)
 #define EMIEDJNFPBA_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA61590)
 
+inline static constexpr unsigned int EMIEDJNFPBA_TypeDefinitionIndex = 43664;
+
 	class EMIEDJNFPBA : public ::System::Object
 	{
 	public:

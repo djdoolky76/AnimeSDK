@@ -6,6 +6,8 @@
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int CRPLightInfoLocal_TypeDefinitionIndex = 4879;
+
 	struct alignas(4) CRPLightInfoLocal
 	{
 		::UnityEngine::Rendering::LightVolumeInfo LightVolumeData; // 0x10

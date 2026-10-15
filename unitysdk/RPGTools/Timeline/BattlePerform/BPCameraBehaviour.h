@@ -15,6 +15,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline::BattlePerform
 {
+	inline static constexpr unsigned int BPCameraBehaviour_TypeDefinitionIndex = 48794;
+
 	class BPCameraBehaviour : public ::RPGTools::Timeline::CustomEventBehaviour
 	{
 	public:

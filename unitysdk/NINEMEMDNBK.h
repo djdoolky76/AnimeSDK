@@ -15,6 +15,8 @@ namespace System { class Object; }
 #define NINEMEMDNBK_NNJEEBMBJIP_OFFSET UNITYSDK_OFFSET(0x1C4C6930)
 #define NINEMEMDNBK_PNLBLBCKPGH_OFFSET UNITYSDK_OFFSET(0x1C4C6C50)
 
+inline static constexpr unsigned int NINEMEMDNBK_TypeDefinitionIndex = 41514;
+
 	class NINEMEMDNBK : public ::System::Object
 	{
 	public:

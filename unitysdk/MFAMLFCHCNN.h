@@ -26,6 +26,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 #define MFAMLFCHCNN_MMGHDKPGNNF_OFFSET UNITYSDK_OFFSET(0xB8EA610)
 #define MFAMLFCHCNN_ODGBJHIDJKD_OFFSET UNITYSDK_OFFSET(0xB8EA6B0)
 
+inline static constexpr unsigned int MFAMLFCHCNN_TypeDefinitionIndex = 71714;
+
 	class MFAMLFCHCNN : public ::System::Object
 	{
 	public:

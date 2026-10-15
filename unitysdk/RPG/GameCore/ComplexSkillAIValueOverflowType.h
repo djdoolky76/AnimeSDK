@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ComplexSkillAIValueOverflowType_TypeDefinitionIndex = 15585;
+
 	enum class ComplexSkillAIValueOverflowType : ::System::Int32
 	{
 		Damage = 0,

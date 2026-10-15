@@ -14,6 +14,8 @@ namespace System { class String; }
 #define GPBOLPFKPOA_OECIHKHGCFD_OFFSET UNITYSDK_OFFSET(0x1DD61310)
 #define GPBOLPFKPOA_OFABCMGONMG_OFFSET UNITYSDK_OFFSET(0x1DD61050)
 
+inline static constexpr unsigned int GPBOLPFKPOA_TypeDefinitionIndex = 6450;
+
 	class GPBOLPFKPOA : public ::System::Object
 	{
 	public:

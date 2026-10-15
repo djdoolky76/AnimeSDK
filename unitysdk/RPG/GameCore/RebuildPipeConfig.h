@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RebuildPipeConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RebuildPipeConfig_TypeDefinitionIndex = 18631;
+
 	class RebuildPipeConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
 	public:

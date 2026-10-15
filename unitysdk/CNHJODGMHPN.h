@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define CNHJODGMHPN_CONFIAMBBBC_OFFSET UNITYSDK_OFFSET(0xDA52AE0)
 #define CNHJODGMHPN_CTOR_OFFSET UNITYSDK_OFFSET(0xDA541E0)
 
+inline static constexpr unsigned int CNHJODGMHPN_TypeDefinitionIndex = 70631;
+
 	class CNHJODGMHPN : public ::BCIAMPIIHPF
 	{
 	public:

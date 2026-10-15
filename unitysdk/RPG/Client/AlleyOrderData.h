@@ -23,6 +23,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AlleyOrderData_TypeDefinitionIndex = 62261;
+
 	class AlleyOrderData : public ::System::Object
 	{
 	public:

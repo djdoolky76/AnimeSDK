@@ -52,6 +52,8 @@ namespace System { class String; }
 
 namespace Google::Protobuf::Reflection
 {
+	inline static constexpr unsigned int FieldOptions_TypeDefinitionIndex = 5494;
+
 	class FieldOptions : public ::System::Object
 	{
 	public:

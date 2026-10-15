@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int Ray2D_TypeDefinitionIndex = 4080;
+
 	struct alignas(4) Ray2D
 	{
 		::UnityEngine::Vector2 m_Origin; // 0x10

@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace System::Runtime::CompilerServices
 {
+	inline static constexpr unsigned int CompilerFeatureRequiredAttribute_AF55BBCAA4498A3D_TypeDefinitionIndex = 7522;
+
 	class CompilerFeatureRequiredAttribute_AF55BBCAA4498A3D : public ::System::Attribute
 	{
 	public:

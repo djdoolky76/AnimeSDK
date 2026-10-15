@@ -6,6 +6,8 @@ class HGFLBFIKKJG;
 #define ELOMJOIBGMI_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x15529CE0)
 #define ELOMJOIBGMI_CTOR_OFFSET UNITYSDK_OFFSET(0x15529D40)
 
+inline static constexpr unsigned int ELOMJOIBGMI_TypeDefinitionIndex = 73517;
+
 	class ELOMJOIBGMI : public ::HGFLBFIKKJG
 	{
 	public:

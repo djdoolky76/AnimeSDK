@@ -12,6 +12,8 @@ namespace UnityEngine::ProBuilder { class Face; }
 
 namespace UnityEngine::ProBuilder
 {
+	inline static constexpr unsigned int SelectionPickerRenderer___c_TypeDefinitionIndex = 44424;
+
 	class SelectionPickerRenderer___c : public ::System::Object
 	{
 	public:

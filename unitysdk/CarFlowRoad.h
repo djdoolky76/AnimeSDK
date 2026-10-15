@@ -19,6 +19,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define CARFLOWROAD_SET_CURVE_OFFSET UNITYSDK_OFFSET(0xDCE6E70)
 #define CARFLOWROAD_SET_MATH_OFFSET UNITYSDK_OFFSET(0xDCE6E30)
 
+inline static constexpr unsigned int CarFlowRoad_TypeDefinitionIndex = 47079;
+
 	class CarFlowRoad : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -136,6 +136,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ColliderTriggerComponent_TypeDefinitionIndex = 57504;
+
 	class ColliderTriggerComponent : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

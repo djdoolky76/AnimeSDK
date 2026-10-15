@@ -4,6 +4,8 @@
 
 namespace Cysharp::Threading::Tasks
 {
+	inline static constexpr unsigned int Channel_TypeDefinitionIndex = 38139;
+
 	class Channel : public ::System::Object
 	{
 	public:

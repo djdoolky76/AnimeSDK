@@ -10,6 +10,8 @@ namespace RPG::GameCore { class IncreaseMissionCustomValue; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int IncreaseMissionCustomValue_TypeDefinitionIndex = 20444;
+
 	class IncreaseMissionCustomValue : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -30,6 +30,8 @@ namespace System { class String; }
 #define LMACKMNOJBF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9A0B50)
 #define LMACKMNOJBF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E9A0BB0)
 
+inline static constexpr unsigned int LMACKMNOJBF_TypeDefinitionIndex = 29964;
+
 	class LMACKMNOJBF : public ::System::Object
 	{
 	public:

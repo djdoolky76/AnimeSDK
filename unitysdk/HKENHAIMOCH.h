@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define HKENHAIMOCH_GHBGHGPMAGD_OFFSET UNITYSDK_OFFSET(0x15D42F20)
 #define HKENHAIMOCH_MFCNJKGAELC_OFFSET UNITYSDK_OFFSET(0x15D40CD0)
 
+inline static constexpr unsigned int HKENHAIMOCH_TypeDefinitionIndex = 64222;
+
 	class HKENHAIMOCH : public ::System::Object
 	{
 	public:

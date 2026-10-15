@@ -6,6 +6,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int LocationService_TypeDefinitionIndex = 5785;
+
 	class LocationService : public ::System::Object
 	{
 	public:

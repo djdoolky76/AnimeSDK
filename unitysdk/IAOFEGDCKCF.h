@@ -4,6 +4,8 @@
 
 #define IAOFEGDCKCF_CTOR_OFFSET UNITYSDK_OFFSET(0x1DD62020)
 
+inline static constexpr unsigned int IAOFEGDCKCF_TypeDefinitionIndex = 6561;
+
 	class IAOFEGDCKCF : public ::System::Object
 	{
 	public:

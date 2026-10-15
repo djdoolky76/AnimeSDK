@@ -12,6 +12,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int ConvincePanelActiveClip_TypeDefinitionIndex = 48047;
+
 	class ConvincePanelActiveClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

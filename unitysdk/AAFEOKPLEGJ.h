@@ -5,6 +5,8 @@
 #define AAFEOKPLEGJ_CTOR_OFFSET UNITYSDK_OFFSET(0xB0C56A0)
 #define AAFEOKPLEGJ_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xB0C56E0)
 
+inline static constexpr unsigned int AAFEOKPLEGJ_TypeDefinitionIndex = 61336;
+
 	class AAFEOKPLEGJ : public ::IIJLENHLAIJ
 	{
 	public:

@@ -40,6 +40,8 @@ namespace UnityEngine::Timeline { class TrackAsset; }
 #define ABMJAINALNL_ONGRAPHSTOP_OFFSET UNITYSDK_OFFSET(0xB10A070)
 #define ABMJAINALNL_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xB10B3A0)
 
+inline static constexpr unsigned int ABMJAINALNL_TypeDefinitionIndex = 48686;
+
 	class ABMJAINALNL : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

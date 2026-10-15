@@ -30,6 +30,8 @@ namespace System { class String; }
 #define AJCNPDNBIEM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E3BE2F0)
 #define AJCNPDNBIEM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E3BE350)
 
+inline static constexpr unsigned int AJCNPDNBIEM_TypeDefinitionIndex = 31147;
+
 	class AJCNPDNBIEM : public ::System::Object
 	{
 	public:

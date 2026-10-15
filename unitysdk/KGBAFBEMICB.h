@@ -29,6 +29,8 @@ namespace System { class String; }
 #define KGBAFBEMICB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E834D40)
 #define KGBAFBEMICB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E834DA0)
 
+inline static constexpr unsigned int KGBAFBEMICB_TypeDefinitionIndex = 28938;
+
 	class KGBAFBEMICB : public ::System::Object
 	{
 	public:

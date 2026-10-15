@@ -8,6 +8,8 @@ namespace RPG::Client { class LookAtIK; }
 
 namespace RPG::Client::LimaoNews
 {
+	inline static constexpr unsigned int LimaoNewsMainLimaoControl_LimaoItem_TypeDefinitionIndex = 80367;
+
 	class LimaoNewsMainLimaoControl_LimaoItem : public ::System::Object
 	{
 	public:

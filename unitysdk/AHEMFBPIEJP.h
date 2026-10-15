@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define AHEMFBPIEJP_NDBOOAEKNMC_OFFSET UNITYSDK_OFFSET(0xEB7FEA0)
 #define AHEMFBPIEJP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xEB803A0)
 
+inline static constexpr unsigned int AHEMFBPIEJP_TypeDefinitionIndex = 56407;
+
 	class AHEMFBPIEJP
 	{
 	public:

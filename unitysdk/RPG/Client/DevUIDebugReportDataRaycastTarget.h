@@ -7,6 +7,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int DevUIDebugReportDataRaycastTarget_TypeDefinitionIndex = 68349;
+
 	class DevUIDebugReportDataRaycastTarget : public ::System::Object
 	{
 	public:

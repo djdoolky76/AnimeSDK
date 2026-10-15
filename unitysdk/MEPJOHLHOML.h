@@ -8,6 +8,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define MEPJOHLHOML_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB8E8210)
 #define MEPJOHLHOML_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB8E81D0)
 
+inline static constexpr unsigned int MEPJOHLHOML_TypeDefinitionIndex = 57883;
+
 	class MEPJOHLHOML
 	{
 	public:

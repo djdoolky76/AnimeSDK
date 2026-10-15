@@ -3,6 +3,8 @@
 
 namespace System::Runtime::Remoting::Contexts
 {
+	inline static constexpr unsigned int IDynamicProperty_TypeDefinitionIndex = 1261;
+
 	class IDynamicProperty
 	{
 	public:

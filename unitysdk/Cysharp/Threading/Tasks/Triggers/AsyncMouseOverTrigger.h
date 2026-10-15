@@ -13,6 +13,8 @@ namespace Cysharp::Threading::Tasks::Triggers { class IAsyncOnMouseOverHandler; 
 
 namespace Cysharp::Threading::Tasks::Triggers
 {
+	inline static constexpr unsigned int AsyncMouseOverTrigger_TypeDefinitionIndex = 38565;
+
 	class AsyncMouseOverTrigger
 	{
 	public:

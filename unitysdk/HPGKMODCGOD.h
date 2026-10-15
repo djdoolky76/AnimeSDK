@@ -4,6 +4,8 @@
 #define HPGKMODCGOD_CTOR_OFFSET UNITYSDK_OFFSET(0x15DC26D0)
 #define HPGKMODCGOD_INTERP_OFFSET UNITYSDK_OFFSET(0x15DC2720)
 
+inline static constexpr unsigned int HPGKMODCGOD_TypeDefinitionIndex = 74014;
+
 	class HPGKMODCGOD
 	{
 	public:

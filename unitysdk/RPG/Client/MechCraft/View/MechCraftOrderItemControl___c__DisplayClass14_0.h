@@ -11,6 +11,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftOrderItemControl___c__DisplayClass14_0_TypeDefinitionIndex = 80015;
+
 	class MechCraftOrderItemControl___c__DisplayClass14_0 : public ::System::Object
 	{
 	public:

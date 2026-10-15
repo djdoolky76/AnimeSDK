@@ -13,6 +13,8 @@ namespace RPG::GameCore { class LevelCharacterBeforeBreak; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelCharacterBeforeBreak_TypeDefinitionIndex = 56799;
+
 	class LevelCharacterBeforeBreak : public ::CMPGEAFHHDC
 	{
 	public:

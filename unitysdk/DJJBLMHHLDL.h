@@ -7,6 +7,8 @@ class KFELGAIGHAP;
 
 #define DJJBLMHHLDL_CTOR_OFFSET UNITYSDK_OFFSET(0xF235DD0)
 
+inline static constexpr unsigned int DJJBLMHHLDL_TypeDefinitionIndex = 55842;
+
 	class DJJBLMHHLDL : public ::System::Object
 	{
 	public:

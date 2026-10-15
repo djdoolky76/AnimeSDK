@@ -29,6 +29,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define OADLFAMLGPP_SET_TRIGGER_OFFSET UNITYSDK_OFFSET(0xBD1C940)
 #define OADLFAMLGPP_SET_UNLOCKCOST_OFFSET UNITYSDK_OFFSET(0xBD1CA00)
 
+inline static constexpr unsigned int OADLFAMLGPP_TypeDefinitionIndex = 51960;
+
 	class OADLFAMLGPP : public ::System::Object
 	{
 	public:

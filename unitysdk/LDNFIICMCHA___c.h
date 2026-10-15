@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define LDNFIICMCHA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E8FF8A0)
 #define LDNFIICMCHA___C___CCTOR_B__53_0_OFFSET UNITYSDK_OFFSET(0x1E8FF8B0)
 
+inline static constexpr unsigned int LDNFIICMCHA___c_TypeDefinitionIndex = 27047;
+
 	class LDNFIICMCHA___c : public ::System::Object
 	{
 	public:

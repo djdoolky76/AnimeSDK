@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BattleToMazeShotConfig_TypeDefinitionIndex = 69729;
+
 	class BattleToMazeShotConfig : public ::System::Object
 	{
 	public:

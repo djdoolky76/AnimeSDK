@@ -19,6 +19,8 @@ namespace UnityEngine::UI { class SmoothMask; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PhotoGraphAimContainer_PhotoGraphAim_TypeDefinitionIndex = 69428;
+
 	class PhotoGraphAimContainer_PhotoGraphAim : public ::System::Object
 	{
 	public:

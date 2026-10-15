@@ -5,6 +5,8 @@
 
 namespace HedgehogTeam::EasyTouch
 {
+	inline static constexpr unsigned int QuickLongTap_OnLongTap_TypeDefinitionIndex = 40263;
+
 	class QuickLongTap_OnLongTap
 	{
 	public:

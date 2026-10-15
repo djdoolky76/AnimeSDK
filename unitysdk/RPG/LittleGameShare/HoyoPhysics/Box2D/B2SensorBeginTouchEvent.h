@@ -6,6 +6,8 @@
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
+	inline static constexpr unsigned int B2SensorBeginTouchEvent_TypeDefinitionIndex = 36748;
+
 	struct alignas(4) B2SensorBeginTouchEvent
 	{
 		::RPG::LittleGameShare::HoyoPhysics::Box2D::B2ShapeId sensorShapeId; // 0x10

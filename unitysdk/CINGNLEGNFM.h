@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define CINGNLEGNFM_EXECUTE_OFFSET UNITYSDK_OFFSET(0xCF8F150)
 #define CINGNLEGNFM_FPJMPMFGMII_OFFSET UNITYSDK_OFFSET(0xCF8F590)
 
+inline static constexpr unsigned int CINGNLEGNFM_TypeDefinitionIndex = 77347;
+
 	class CINGNLEGNFM : public ::System::Object
 	{
 	public:

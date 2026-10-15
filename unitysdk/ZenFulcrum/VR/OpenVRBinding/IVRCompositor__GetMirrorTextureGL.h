@@ -14,6 +14,8 @@ namespace System { class Object; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int IVRCompositor__GetMirrorTextureGL_TypeDefinitionIndex = 39050;
+
 	class IVRCompositor__GetMirrorTextureGL : public ::System::MulticastDelegate
 	{
 	public:

@@ -13,6 +13,8 @@ namespace RPG::GameCore { class DynamicString; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdventureCameraToOrthographic_TypeDefinitionIndex = 22137;
+
 	class AdventureCameraToOrthographic : public ::RPG::GameCore::TaskConfig
 	{
 	public:

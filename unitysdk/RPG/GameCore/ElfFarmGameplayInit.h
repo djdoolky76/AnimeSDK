@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ElfFarmGameplayInit; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ElfFarmGameplayInit_TypeDefinitionIndex = 21072;
+
 	class ElfFarmGameplayInit : public ::RPG::GameCore::TaskConfig
 	{
 	public:

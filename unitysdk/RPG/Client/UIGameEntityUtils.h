@@ -65,6 +65,8 @@ namespace UnityEngine { class ParticleSystem; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UIGameEntityUtils_TypeDefinitionIndex = 73172;
+
 	class UIGameEntityUtils : public ::System::Object
 	{
 	public:

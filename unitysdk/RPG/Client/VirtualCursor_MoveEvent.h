@@ -5,6 +5,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int VirtualCursor_MoveEvent_TypeDefinitionIndex = 73233;
+
 	class VirtualCursor_MoveEvent
 	{
 	public:

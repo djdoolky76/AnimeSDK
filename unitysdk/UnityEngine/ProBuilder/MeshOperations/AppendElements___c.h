@@ -17,6 +17,8 @@ namespace UnityEngine::ProBuilder { class Vertex; }
 
 namespace UnityEngine::ProBuilder::MeshOperations
 {
+	inline static constexpr unsigned int AppendElements___c_TypeDefinitionIndex = 44475;
+
 	class AppendElements___c : public ::System::Object
 	{
 	public:

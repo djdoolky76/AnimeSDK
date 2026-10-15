@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightParamGetParamFromMapByKeyConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightParamGetParamFromMapByKeyConfig_TypeDefinitionIndex = 19533;
+
 	class GridFightParamGetParamFromMapByKeyConfig : public ::RPG::GameCore::GridFightParameterConfigBase
 	{
 	public:

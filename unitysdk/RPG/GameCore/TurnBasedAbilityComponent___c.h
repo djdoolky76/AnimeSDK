@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TurnBasedAbilityComponent___c_TypeDefinitionIndex = 54851;
+
 	class TurnBasedAbilityComponent___c : public ::System::Object
 	{
 	public:

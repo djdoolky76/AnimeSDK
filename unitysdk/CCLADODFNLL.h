@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define CCLADODFNLL_CTOR_OFFSET UNITYSDK_OFFSET(0xC74E5F0)
 #define CCLADODFNLL_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC74E640)
 
+inline static constexpr unsigned int CCLADODFNLL_TypeDefinitionIndex = 59133;
+
 	class CCLADODFNLL
 	{
 	public:

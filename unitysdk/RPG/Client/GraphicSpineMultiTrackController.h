@@ -28,6 +28,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GraphicSpineMultiTrackController_TypeDefinitionIndex = 69023;
+
 	class GraphicSpineMultiTrackController : public ::RPG::Client::BaseSpineComponentController
 	{
 	public:

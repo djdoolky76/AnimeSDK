@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int GJJCGMJMGMF_Section_TypeDefinitionIndex = 41470;
+
 	enum class GJJCGMJMGMF_Section : ::System::Int32
 	{
 		BlockInfo = 0,

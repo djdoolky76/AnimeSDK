@@ -28,6 +28,8 @@ namespace System { class String; }
 #define MNPGEDIDKEN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EAA3CC0)
 #define MNPGEDIDKEN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EAA3D20)
 
+inline static constexpr unsigned int MNPGEDIDKEN_TypeDefinitionIndex = 26228;
+
 	class MNPGEDIDKEN : public ::System::Object
 	{
 	public:

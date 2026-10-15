@@ -4,6 +4,8 @@
 
 #define JPOKOHEHHLL_CTOR_OFFSET UNITYSDK_OFFSET(0xB2CEF50)
 
+inline static constexpr unsigned int JPOKOHEHHLL_TypeDefinitionIndex = 55522;
+
 	class JPOKOHEHHLL : public ::System::Object
 	{
 	public:

@@ -4,6 +4,8 @@
 
 #define BMFJFABKKFE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5C0A70)
 
+inline static constexpr unsigned int BMFJFABKKFE_TypeDefinitionIndex = 37174;
+
 	class BMFJFABKKFE : public ::System::Object
 	{
 	public:

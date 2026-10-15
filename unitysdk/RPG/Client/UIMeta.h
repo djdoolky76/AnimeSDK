@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UIMeta_TypeDefinitionIndex = 73087;
+
 	class UIMeta : public ::UnityEngine::MonoBehaviour
 	{
 	public:

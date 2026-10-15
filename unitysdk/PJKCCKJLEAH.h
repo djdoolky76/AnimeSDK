@@ -15,6 +15,8 @@ namespace RPG::GameCore { class SkillData; }
 #define PJKCCKJLEAH_MJFKHPEKPBP_OFFSET UNITYSDK_OFFSET(0xC296200)
 #define PJKCCKJLEAH_OLIDEAPAJAC_OFFSET UNITYSDK_OFFSET(0xC296BA0)
 
+inline static constexpr unsigned int PJKCCKJLEAH_TypeDefinitionIndex = 81228;
+
 	class PJKCCKJLEAH : public ::System::Object
 	{
 	public:

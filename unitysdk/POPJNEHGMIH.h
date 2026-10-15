@@ -29,6 +29,8 @@ namespace System { class String; }
 #define POPJNEHGMIH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DFD0BD0)
 #define POPJNEHGMIH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DFD0C30)
 
+inline static constexpr unsigned int POPJNEHGMIH_TypeDefinitionIndex = 26091;
+
 	class POPJNEHGMIH : public ::System::Object
 	{
 	public:

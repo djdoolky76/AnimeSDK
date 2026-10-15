@@ -11,6 +11,8 @@ namespace UnityEngine::Timeline { class TimelineClip; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int AnimatorControlTrack_TypeDefinitionIndex = 47854;
+
 	class AnimatorControlTrack : public ::RPGTools::Timeline::CharacterTrack
 	{
 	public:

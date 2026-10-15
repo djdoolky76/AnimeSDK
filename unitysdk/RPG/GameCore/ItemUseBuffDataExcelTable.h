@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ItemUseBuffDataExcelTable_TypeDefinitionIndex = 13878;
+
 	class ItemUseBuffDataExcelTable : public ::System::Object
 	{
 	public:

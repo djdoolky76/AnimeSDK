@@ -39,6 +39,8 @@ namespace System { class String; }
 #define HJLECIIEKGI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E5AA5D0)
 #define HJLECIIEKGI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E5AA630)
 
+inline static constexpr unsigned int HJLECIIEKGI_TypeDefinitionIndex = 34783;
+
 	class HJLECIIEKGI : public ::System::Object
 	{
 	public:

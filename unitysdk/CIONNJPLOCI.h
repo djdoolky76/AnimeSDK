@@ -4,6 +4,8 @@
 
 #define CIONNJPLOCI_CTOR_OFFSET UNITYSDK_OFFSET(0x1DD29B20)
 
+inline static constexpr unsigned int CIONNJPLOCI_TypeDefinitionIndex = 6310;
+
 	class CIONNJPLOCI : public ::System::Object
 	{
 	public:

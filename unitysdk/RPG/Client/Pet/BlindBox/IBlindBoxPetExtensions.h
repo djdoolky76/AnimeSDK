@@ -11,6 +11,8 @@ namespace RPG::Client::Pet::BlindBox { class IBlindBoxPet; }
 
 namespace RPG::Client::Pet::BlindBox
 {
+	inline static constexpr unsigned int IBlindBoxPetExtensions_TypeDefinitionIndex = 75743;
+
 	class IBlindBoxPetExtensions : public ::System::Object
 	{
 	public:

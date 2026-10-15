@@ -8,6 +8,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define KIKMPDALGLP___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB433C90)
 #define KIKMPDALGLP___C__SELECTTARGETS_B__0_0_OFFSET UNITYSDK_OFFSET(0xB433CA0)
 
+inline static constexpr unsigned int KIKMPDALGLP___c_TypeDefinitionIndex = 77380;
+
 	class KIKMPDALGLP___c : public ::System::Object
 	{
 	public:

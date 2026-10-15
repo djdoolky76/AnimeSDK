@@ -12,6 +12,8 @@ namespace RPG::GameCore { class IdleLiveTeamSlotRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int IdleLiveTeamSlotRow_TypeDefinitionIndex = 11687;
+
 	class IdleLiveTeamSlotRow : public ::System::Object
 	{
 	public:

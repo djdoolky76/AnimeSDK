@@ -7,6 +7,8 @@ class OMNJCDDMLHI;
 #define PJNIJPDLPKN_CTOR_OFFSET UNITYSDK_OFFSET(0xC29C9B0)
 #define PJNIJPDLPKN_EXECUTE_OFFSET UNITYSDK_OFFSET(0xC29C9C0)
 
+inline static constexpr unsigned int PJNIJPDLPKN_TypeDefinitionIndex = 77939;
+
 	class PJNIJPDLPKN : public ::System::Object
 	{
 	public:

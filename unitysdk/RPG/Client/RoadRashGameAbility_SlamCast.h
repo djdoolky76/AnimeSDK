@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RoadRashGameAbility_SlamCast_TypeDefinitionIndex = 10293;
+
 	class RoadRashGameAbility_SlamCast : public ::RPG::GameCore::BaseLittleGameAbilityTaskConfig
 	{
 	public:

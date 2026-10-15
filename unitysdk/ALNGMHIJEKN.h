@@ -9,6 +9,8 @@ namespace System { class Nullable; }
 
 #define ALNGMHIJEKN_CTOR_OFFSET UNITYSDK_OFFSET(0x155712E0)
 
+inline static constexpr unsigned int ALNGMHIJEKN_TypeDefinitionIndex = 55572;
+
 	class ALNGMHIJEKN : public ::System::Object
 	{
 	public:

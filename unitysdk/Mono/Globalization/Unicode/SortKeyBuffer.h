@@ -20,6 +20,8 @@ namespace System::Globalization { class SortKey; }
 
 namespace Mono::Globalization::Unicode
 {
+	inline static constexpr unsigned int SortKeyBuffer_TypeDefinitionIndex = 44;
+
 	class SortKeyBuffer : public ::System::Object
 	{
 	public:

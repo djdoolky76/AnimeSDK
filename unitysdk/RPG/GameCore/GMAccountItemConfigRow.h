@@ -9,6 +9,8 @@ namespace RPG::GameCore { class GMAccountItemConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GMAccountItemConfigRow_TypeDefinitionIndex = 13344;
+
 	class GMAccountItemConfigRow : public ::System::Object
 	{
 	public:

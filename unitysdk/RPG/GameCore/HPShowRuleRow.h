@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int HPShowRuleRow_TypeDefinitionIndex = 13713;
+
 	class HPShowRuleRow : public ::System::Object
 	{
 	public:

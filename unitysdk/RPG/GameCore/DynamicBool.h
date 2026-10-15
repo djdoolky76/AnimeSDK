@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DynamicBool_TypeDefinitionIndex = 16480;
+
 	class DynamicBool : public ::RPG::GameCore::JsonConfig
 	{
 	public:

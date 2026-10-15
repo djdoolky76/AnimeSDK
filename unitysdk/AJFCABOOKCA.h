@@ -4,6 +4,8 @@
 
 #define AJFCABOOKCA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C58B9B0)
 
+inline static constexpr unsigned int AJFCABOOKCA_TypeDefinitionIndex = 37405;
+
 	class AJFCABOOKCA : public ::System::Object
 	{
 	public:

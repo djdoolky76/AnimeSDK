@@ -8,6 +8,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define LEGHJEMIFJC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB651E60)
 #define LEGHJEMIFJC_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB651EF0)
 
+inline static constexpr unsigned int LEGHJEMIFJC_TypeDefinitionIndex = 52231;
+
 	class LEGHJEMIFJC
 	{
 	public:

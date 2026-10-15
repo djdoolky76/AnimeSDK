@@ -31,6 +31,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define HBFIBDGJLHE_DOILBHIAKJN_SET_CAR_OFFSET UNITYSDK_OFFSET(0x15BFD370)
 #define HBFIBDGJLHE_DOILBHIAKJN_SET_MANAGER_OFFSET UNITYSDK_OFFSET(0x15BFD350)
 
+inline static constexpr unsigned int HBFIBDGJLHE_DOILBHIAKJN_TypeDefinitionIndex = 82176;
+
 	class HBFIBDGJLHE_DOILBHIAKJN : public ::System::Object
 	{
 	public:

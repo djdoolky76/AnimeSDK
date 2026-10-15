@@ -9,6 +9,8 @@ namespace RPG::GameCore { class ElationSkillRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ElationSkillRow_TypeDefinitionIndex = 13219;
+
 	class ElationSkillRow : public ::System::Object
 	{
 	public:

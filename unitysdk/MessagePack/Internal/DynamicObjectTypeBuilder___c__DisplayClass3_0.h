@@ -10,6 +10,8 @@ namespace System::Reflection::Emit { class FieldBuilder; }
 
 namespace MessagePack::Internal
 {
+	inline static constexpr unsigned int DynamicObjectTypeBuilder___c__DisplayClass3_0_TypeDefinitionIndex = 7325;
+
 	class DynamicObjectTypeBuilder___c__DisplayClass3_0 : public ::System::Object
 	{
 	public:

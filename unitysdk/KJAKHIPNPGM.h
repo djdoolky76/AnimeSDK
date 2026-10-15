@@ -2,6 +2,8 @@
 #include "unitysdk/unitysdk.h"
 namespace System { class Nullable; }
 
+inline static constexpr unsigned int KJAKHIPNPGM_TypeDefinitionIndex = 57366;
+
 	struct alignas(8) KJAKHIPNPGM
 	{
 		::System::Int32 APGOMHPJMEC; // 0x10

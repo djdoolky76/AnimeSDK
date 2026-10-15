@@ -29,6 +29,8 @@ namespace System { class String; }
 #define MKICACCMBOF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA5A330)
 #define MKICACCMBOF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA5A390)
 
+inline static constexpr unsigned int MKICACCMBOF_TypeDefinitionIndex = 25655;
+
 	class MKICACCMBOF : public ::System::Object
 	{
 	public:

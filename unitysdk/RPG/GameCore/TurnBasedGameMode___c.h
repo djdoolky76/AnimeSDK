@@ -14,6 +14,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TurnBasedGameMode___c_TypeDefinitionIndex = 53605;
+
 	class TurnBasedGameMode___c : public ::System::Object
 	{
 	public:

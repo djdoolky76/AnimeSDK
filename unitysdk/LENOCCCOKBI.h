@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define LENOCCCOKBI_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D0E66F0)
 #define LENOCCCOKBI_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D0E6090)
 
+inline static constexpr unsigned int LENOCCCOKBI_TypeDefinitionIndex = 13055;
+
 	class LENOCCCOKBI : public ::System::Object
 	{
 	public:

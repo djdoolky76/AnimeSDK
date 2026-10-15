@@ -38,6 +38,8 @@ namespace System { class String; }
 
 namespace Mono::Security
 {
+	inline static constexpr unsigned int Uri_TypeDefinitionIndex = 52;
+
 	class Uri : public ::System::Object
 	{
 	public:

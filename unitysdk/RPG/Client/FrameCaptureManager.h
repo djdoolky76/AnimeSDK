@@ -16,6 +16,8 @@ namespace RPG::Client { class FrameCaptureManager_FrameCaptureEndOPDefault; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FrameCaptureManager_TypeDefinitionIndex = 69764;
+
 	class FrameCaptureManager : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierSuppressStyleGiftSelectConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierSuppressStyleGiftSelectConfig_TypeDefinitionIndex = 17806;
+
 	class RogueModifierSuppressStyleGiftSelectConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

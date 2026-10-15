@@ -99,6 +99,8 @@ namespace UnityEngine::UI { class Text; }
 #define DBLCHICFCLA__COROUTINEDOPREPAREFORRENDERING_B__37_1_OFFSET UNITYSDK_OFFSET(0xE22EC60)
 #define DBLCHICFCLA__COROUTINEDOSTOP_B__44_0_OFFSET UNITYSDK_OFFSET(0xE22EC80)
 
+inline static constexpr unsigned int DBLCHICFCLA_TypeDefinitionIndex = 73201;
+
 	class DBLCHICFCLA : public ::RPG::Client::BehaviorBase
 	{
 	public:

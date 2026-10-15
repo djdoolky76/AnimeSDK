@@ -24,6 +24,8 @@ namespace UnityEngine { class Transform; }
 #define ILPBOKLAKJM_PHFGIHHNKLM_OFFSET UNITYSDK_OFFSET(0x164CBA70)
 #define ILPBOKLAKJM_PJCOILNLHIE_OFFSET UNITYSDK_OFFSET(0x164CAAC0)
 
+inline static constexpr unsigned int ILPBOKLAKJM_TypeDefinitionIndex = 73093;
+
 	class ILPBOKLAKJM : public ::System::Object
 	{
 	public:

@@ -25,6 +25,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace RPG::Client::ChenLingFes
 {
+	inline static constexpr unsigned int ChenLingFesGameBuffRewardWindow_TypeDefinitionIndex = 81343;
+
 	class ChenLingFesGameBuffRewardWindow : public ::Sofa::BaseSofaWindow
 	{
 	public:

@@ -3,6 +3,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int ComputeBufferMode_TypeDefinitionIndex = 4121;
+
 	enum class ComputeBufferMode : ::System::Int32
 	{
 		Immutable = 0,

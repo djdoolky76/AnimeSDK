@@ -11,6 +11,8 @@ namespace System::Collections { class IList; }
 #define JKLMMFFKNFH_GETCONTEXT_OFFSET UNITYSDK_OFFSET(0xB2202C0)
 #define JKLMMFFKNFH_GET_PARAMETERS_OFFSET UNITYSDK_OFFSET(0xB220400)
 
+inline static constexpr unsigned int JKLMMFFKNFH_TypeDefinitionIndex = 73374;
+
 	class JKLMMFFKNFH : public ::PIHIPJCGCDB
 	{
 	public:

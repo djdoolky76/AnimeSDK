@@ -8,6 +8,8 @@
 
 namespace Beebyte::Obfuscator
 {
+	inline static constexpr unsigned int SuppressLogAttribute_TypeDefinitionIndex = 47040;
+
 	class SuppressLogAttribute : public ::System::Attribute
 	{
 	public:

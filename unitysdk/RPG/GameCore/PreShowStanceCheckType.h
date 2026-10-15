@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PreShowStanceCheckType_TypeDefinitionIndex = 24751;
+
 	enum class PreShowStanceCheckType : ::System::Int32
 	{
 		Default = 0,

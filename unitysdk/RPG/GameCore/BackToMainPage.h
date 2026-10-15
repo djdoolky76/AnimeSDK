@@ -10,6 +10,8 @@ namespace RPG::GameCore { class BackToMainPage; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BackToMainPage_TypeDefinitionIndex = 24372;
+
 	class BackToMainPage : public ::RPG::GameCore::TaskConfig
 	{
 	public:

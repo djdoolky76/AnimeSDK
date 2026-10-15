@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 #define MAJIFAGGCEG__ENUMERATECONFIGSBYROLE_D__6_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB851170)
 #define MAJIFAGGCEG__ENUMERATECONFIGSBYROLE_D__6___M__FINALLY1_OFFSET UNITYSDK_OFFSET(0xB851180)
 
+inline static constexpr unsigned int MAJIFAGGCEG__EnumerateConfigsByRole_d__6_TypeDefinitionIndex = 62663;
+
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6>
 	class MAJIFAGGCEG__EnumerateConfigsByRole_d__6 : public ::System::Object
 	{

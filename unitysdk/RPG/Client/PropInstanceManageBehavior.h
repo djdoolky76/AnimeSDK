@@ -33,6 +33,8 @@ namespace UnityEngine { class MaterialPropertyBlock; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PropInstanceManageBehavior_TypeDefinitionIndex = 70748;
+
 	class PropInstanceManageBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ActionTriggerActionWithTimesLimitConfig_TypeDefinitionIndex = 17054;
+
 	class ActionTriggerActionWithTimesLimitConfig : public ::RPG::GameCore::MiActionConfigBase
 	{
 	public:

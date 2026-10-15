@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace ZXing::PDF417::Internal
 {
+	inline static constexpr unsigned int PDF417ErrorCorrection_TypeDefinitionIndex = 7030;
+
 	class PDF417ErrorCorrection : public ::System::Object
 	{
 	public:

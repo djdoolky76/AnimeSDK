@@ -10,6 +10,8 @@ namespace RPG::GameCore { class StreamingBlockVolumeComponentEditorData; }
 #define NNANCLNHHEC_CMDDLDKDIKP_OFFSET UNITYSDK_OFFSET(0xBC9B760)
 #define NNANCLNHHEC_EMNLOKEJEFB_OFFSET UNITYSDK_OFFSET(0xBC9BB70)
 
+inline static constexpr unsigned int NNANCLNHHEC_TypeDefinitionIndex = 53595;
+
 	class NNANCLNHHEC : public ::System::Object
 	{
 	public:

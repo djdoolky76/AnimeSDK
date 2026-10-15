@@ -6,6 +6,8 @@
 
 #define FANKKLAJAFJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA63290)
 
+inline static constexpr unsigned int FANKKLAJAFJ_TypeDefinitionIndex = 42185;
+
 	class FANKKLAJAFJ : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class AISelector; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AISelector_TypeDefinitionIndex = 15591;
+
 	class AISelector : public ::RPG::GameCore::JsonConfig
 	{
 	public:

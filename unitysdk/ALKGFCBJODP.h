@@ -5,6 +5,8 @@
 
 #define ALKGFCBJODP_CTOR_OFFSET UNITYSDK_OFFSET(0x1556F820)
 
+inline static constexpr unsigned int ALKGFCBJODP_TypeDefinitionIndex = 57015;
+
 	class ALKGFCBJODP : public ::System::Object
 	{
 	public:

@@ -31,6 +31,8 @@ namespace System { class String; }
 #define GOLHAKEGKCL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E4F19B0)
 #define GOLHAKEGKCL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E4F1A10)
 
+inline static constexpr unsigned int GOLHAKEGKCL_TypeDefinitionIndex = 31104;
+
 	class GOLHAKEGKCL : public ::System::Object
 	{
 	public:

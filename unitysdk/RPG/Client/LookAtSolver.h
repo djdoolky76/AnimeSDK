@@ -28,6 +28,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int LookAtSolver_TypeDefinitionIndex = 68470;
+
 	class LookAtSolver : public ::System::Object
 	{
 	public:

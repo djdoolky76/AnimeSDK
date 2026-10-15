@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define FDIDPNMEIDO_DISPOSE_OFFSET UNITYSDK_OFFSET(0x156D96F0)
 #define FDIDPNMEIDO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x156D9740)
 
+inline static constexpr unsigned int FDIDPNMEIDO_TypeDefinitionIndex = 58967;
+
 	class FDIDPNMEIDO
 	{
 	public:

@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int JICHKOBOBNA_TypeDefinitionIndex = 32264;
+
 	enum class JICHKOBOBNA : ::System::Int32
 	{
 		NLCDGIPGFDJ = 0,

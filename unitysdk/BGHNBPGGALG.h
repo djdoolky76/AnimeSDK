@@ -12,6 +12,8 @@ namespace RPG::GameCore { class GameWorld; }
 #define BGHNBPGGALG_ONPLUGINUNINIT_OFFSET UNITYSDK_OFFSET(0xB1890C0)
 #define BGHNBPGGALG_PFJOJBGLCFI_OFFSET UNITYSDK_OFFSET(0xB189230)
 
+inline static constexpr unsigned int BGHNBPGGALG_TypeDefinitionIndex = 53972;
+
 	class BGHNBPGGALG : public ::System::Object
 	{
 	public:

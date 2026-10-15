@@ -13,6 +13,8 @@ namespace RPG::GameCore { class WaitTurnCount; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaitTurnCount_TypeDefinitionIndex = 23412;
+
 	class WaitTurnCount : public ::RPG::GameCore::TaskConfig
 	{
 	public:

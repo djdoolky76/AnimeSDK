@@ -7,6 +7,8 @@ namespace UnityEngine::AI { class NavMeshPath; }
 
 namespace UnityEngine::AI
 {
+	inline static constexpr unsigned int NavMeshPathAsyncOperation_TypeDefinitionIndex = 5651;
+
 	class NavMeshPathAsyncOperation : public ::UnityEngine::AsyncOperation
 	{
 	public:

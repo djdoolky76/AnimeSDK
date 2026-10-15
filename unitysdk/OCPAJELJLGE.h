@@ -29,6 +29,8 @@ namespace System { class String; }
 #define OCPAJELJLGE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE1A050)
 #define OCPAJELJLGE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DE1A0B0)
 
+inline static constexpr unsigned int OCPAJELJLGE_TypeDefinitionIndex = 31980;
+
 	class OCPAJELJLGE : public ::System::Object
 	{
 	public:

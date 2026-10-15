@@ -6,6 +6,8 @@
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_SessionHAPI_TypeDefinitionIndex = 40586;
+
 	class HEU_SessionHAPI : public ::HoudiniEngineUnity::HEU_SessionBase
 	{
 	public:

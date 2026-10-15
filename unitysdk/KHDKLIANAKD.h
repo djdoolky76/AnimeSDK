@@ -7,6 +7,8 @@ namespace System { class String; }
 
 #define KHDKLIANAKD_CTOR_OFFSET UNITYSDK_OFFSET(0xB400350)
 
+inline static constexpr unsigned int KHDKLIANAKD_TypeDefinitionIndex = 48926;
+
 	class KHDKLIANAKD : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SkillCharacterComponent_UseSkillErrorInfo_TypeDefinitionIndex = 54864;
+
 	struct alignas(8) SkillCharacterComponent_UseSkillErrorInfo
 	{
 		::RPG::GameCore::UseSkillErrorCode ErrorCode; // 0x10

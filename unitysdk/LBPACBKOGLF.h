@@ -7,6 +7,8 @@ namespace RPG::GameCore { class JsonEnum; }
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
+inline static constexpr unsigned int LBPACBKOGLF_TypeDefinitionIndex = 56050;
+
 	struct alignas(8) LBPACBKOGLF
 	{
 		::RPG::GameCore::GameEntity* GDCCJFKJGPD; // 0x10

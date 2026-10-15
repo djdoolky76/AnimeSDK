@@ -28,6 +28,8 @@ namespace System { class String; }
 #define MGENDBNGEEE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA22C50)
 #define MGENDBNGEEE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA22CB0)
 
+inline static constexpr unsigned int MGENDBNGEEE_TypeDefinitionIndex = 28959;
+
 	class MGENDBNGEEE : public ::System::Object
 	{
 	public:

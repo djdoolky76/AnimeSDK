@@ -29,6 +29,8 @@ namespace System { class String; }
 #define EHKDAJFLIEI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E2A0EF0)
 #define EHKDAJFLIEI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E2A0F50)
 
+inline static constexpr unsigned int EHKDAJFLIEI_TypeDefinitionIndex = 32918;
+
 	class EHKDAJFLIEI : public ::System::Object
 	{
 	public:

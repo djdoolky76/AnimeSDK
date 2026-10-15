@@ -13,6 +13,8 @@ namespace System { class String; }
 #define ODKMIIMEEPG_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBDEA4B0)
 #define ODKMIIMEEPG_TICK_OFFSET UNITYSDK_OFFSET(0xBDEA580)
 
+inline static constexpr unsigned int ODKMIIMEEPG_TypeDefinitionIndex = 58878;
+
 	class ODKMIIMEEPG : public ::GELIALJDFBL
 	{
 	public:

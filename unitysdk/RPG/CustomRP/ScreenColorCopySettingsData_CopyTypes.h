@@ -3,6 +3,8 @@
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int ScreenColorCopySettingsData_CopyTypes_TypeDefinitionIndex = 37857;
+
 	enum class ScreenColorCopySettingsData_CopyTypes : ::System::Int32
 	{
 		AfterOpaqueOnly = 0,

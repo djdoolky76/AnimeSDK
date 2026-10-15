@@ -6,6 +6,8 @@ namespace System::Collections::Concurrent { template <typename T> class Concurre
 
 namespace RPG::Client::LittleGameShare
 {
+	inline static constexpr unsigned int RpcObjectPool_1_TypeDefinitionIndex = 36892;
+
 	template <typename T>
 	class RpcObjectPool_1 : public ::System::Object
 	{

@@ -31,6 +31,8 @@ namespace System { class String; }
 #define ANIFBDMGAIC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E6606F0)
 #define ANIFBDMGAIC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E660750)
 
+inline static constexpr unsigned int ANIFBDMGAIC_TypeDefinitionIndex = 34632;
+
 	class ANIFBDMGAIC : public ::System::Object
 	{
 	public:

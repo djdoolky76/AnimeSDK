@@ -25,6 +25,8 @@ namespace System { class String; }
 #define JMAHAKPLAAD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E788330)
 #define JMAHAKPLAAD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E788390)
 
+inline static constexpr unsigned int JMAHAKPLAAD_TypeDefinitionIndex = 31733;
+
 	class JMAHAKPLAAD : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@ class KMAEPFCHJIB;
 #define KMAEPFCHJIB_CTOR_OFFSET UNITYSDK_OFFSET(0x1D0AC980)
 #define KMAEPFCHJIB_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D0AC7E0)
 
+inline static constexpr unsigned int KMAEPFCHJIB_TypeDefinitionIndex = 10980;
+
 	class KMAEPFCHJIB : public ::System::Object
 	{
 	public:

@@ -28,6 +28,8 @@ namespace System::Xml::Schema { class XmlSchemaType; }
 
 namespace System::Xml::Schema
 {
+	inline static constexpr unsigned int SchemaDeclBase_TypeDefinitionIndex = 2171;
+
 	class SchemaDeclBase : public ::System::Object
 	{
 	public:

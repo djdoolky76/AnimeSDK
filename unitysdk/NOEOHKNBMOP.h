@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define NOEOHKNBMOP_FILTER_OFFSET UNITYSDK_OFFSET(0x1C975DB0)
 #define NOEOHKNBMOP_GETTRIGGER_OFFSET UNITYSDK_OFFSET(0x1C975C90)
 
+inline static constexpr unsigned int NOEOHKNBMOP_TypeDefinitionIndex = 42168;
+
 	class NOEOHKNBMOP
 	{
 	public:

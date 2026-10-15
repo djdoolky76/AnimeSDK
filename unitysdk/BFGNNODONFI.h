@@ -25,6 +25,8 @@ namespace System { class String; }
 #define BFGNNODONFI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA6CE90)
 #define BFGNNODONFI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA6CEF0)
 
+inline static constexpr unsigned int BFGNNODONFI_TypeDefinitionIndex = 27199;
+
 	class BFGNNODONFI : public ::System::Object
 	{
 	public:

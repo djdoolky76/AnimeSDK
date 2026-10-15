@@ -7,6 +7,8 @@ namespace RPG::GameCore { class ThreadTaskConfig; }
 
 #define FCNDAKOABIH_IICJACHLPNG_OFFSET UNITYSDK_OFFSET(0x156CEAB0)
 
+inline static constexpr unsigned int FCNDAKOABIH_TypeDefinitionIndex = 53600;
+
 	class FCNDAKOABIH : public ::System::Object
 	{
 	public:

@@ -33,6 +33,8 @@ namespace System { class String; }
 #define ELOCPGOBJFM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E2D7710)
 #define ELOCPGOBJFM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E2D7770)
 
+inline static constexpr unsigned int ELOCPGOBJFM_TypeDefinitionIndex = 27914;
+
 	class ELOCPGOBJFM : public ::System::Object
 	{
 	public:

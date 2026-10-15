@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MazePuzzleSpecialUIInfoRow_TypeDefinitionIndex = 14037;
+
 	class MazePuzzleSpecialUIInfoRow : public ::System::Object
 	{
 	public:

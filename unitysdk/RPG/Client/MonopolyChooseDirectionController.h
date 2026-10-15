@@ -11,6 +11,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonopolyChooseDirectionController_TypeDefinitionIndex = 72841;
+
 	class MonopolyChooseDirectionController : public ::UnityEngine::MonoBehaviour
 	{
 	public:

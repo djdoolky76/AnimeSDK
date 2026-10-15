@@ -35,6 +35,8 @@ namespace System { class String; }
 #define EJCCCIGMHOM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E2B1010)
 #define EJCCCIGMHOM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E2B1070)
 
+inline static constexpr unsigned int EJCCCIGMHOM_TypeDefinitionIndex = 28368;
+
 	class EJCCCIGMHOM : public ::System::Object
 	{
 	public:

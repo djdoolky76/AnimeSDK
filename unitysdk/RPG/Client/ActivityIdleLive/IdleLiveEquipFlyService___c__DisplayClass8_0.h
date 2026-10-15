@@ -9,6 +9,8 @@ namespace RPG::Client::ActivityIdleLive { class IdleLiveEquipFlyService; }
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int IdleLiveEquipFlyService___c__DisplayClass8_0_TypeDefinitionIndex = 75289;
+
 	class IdleLiveEquipFlyService___c__DisplayClass8_0 : public ::System::Object
 	{
 	public:

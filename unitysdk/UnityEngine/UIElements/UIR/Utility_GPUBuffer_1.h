@@ -4,6 +4,8 @@
 
 namespace UnityEngine::UIElements::UIR
 {
+	inline static constexpr unsigned int Utility_GPUBuffer_1_TypeDefinitionIndex = 6009;
+
 	template <typename T>
 	class Utility_GPUBuffer_1 : public ::System::Object
 	{

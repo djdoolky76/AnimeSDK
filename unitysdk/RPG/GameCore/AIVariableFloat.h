@@ -18,6 +18,8 @@ namespace System { class Object; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AIVariableFloat_TypeDefinitionIndex = 15608;
+
 	class AIVariableFloat : public ::RPG::GameCore::AIVariable
 	{
 	public:

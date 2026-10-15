@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::Client::Compliance::Ftc::DropLink
 {
+	inline static constexpr unsigned int FtcDropLinkRepository_TypeDefinitionIndex = 74822;
+
 	class FtcDropLinkRepository : public ::System::Object
 	{
 	public:

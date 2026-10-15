@@ -8,6 +8,8 @@ namespace System { class String; }
 #define OANPAFBBGDI_IAMCNOAAALI_OFFSET UNITYSDK_OFFSET(0xBD2F110)
 #define OANPAFBBGDI_JCKGONAAIPB_OFFSET UNITYSDK_OFFSET(0xBD2F180)
 
+inline static constexpr unsigned int OANPAFBBGDI_TypeDefinitionIndex = 71712;
+
 	class OANPAFBBGDI : public ::LBAMBIMMJKB
 	{
 	public:

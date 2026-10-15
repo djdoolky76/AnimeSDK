@@ -32,6 +32,8 @@ namespace System { class String; }
 #define BPENENIMEFE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E042650)
 #define BPENENIMEFE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E0426B0)
 
+inline static constexpr unsigned int BPENENIMEFE_TypeDefinitionIndex = 29496;
+
 	class BPENENIMEFE : public ::System::Object
 	{
 	public:

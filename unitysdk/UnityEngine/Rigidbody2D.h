@@ -161,6 +161,8 @@ namespace UnityEngine { class PhysicsMaterial2D; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int Rigidbody2D_TypeDefinitionIndex = 5812;
+
 	class Rigidbody2D : public ::UnityEngine::Component
 	{
 	public:

@@ -7,6 +7,8 @@ namespace Cinemachine { class CinemachineVirtualCameraBase; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AvatarPathChangeVirtualCamera_TypeDefinitionIndex = 71336;
+
 	class AvatarPathChangeVirtualCamera : public ::System::Object
 	{
 	public:

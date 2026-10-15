@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define APIKMPFPDFI_FIKCGFJGOCA_OFFSET UNITYSDK_OFFSET(0x1EC64540)
 #define APIKMPFPDFI_JJGCHFLLIAO_OFFSET UNITYSDK_OFFSET(0x1EC641C0)
 
+inline static constexpr unsigned int APIKMPFPDFI_TypeDefinitionIndex = 44093;
+
 	class APIKMPFPDFI : public ::System::Object
 	{
 	public:

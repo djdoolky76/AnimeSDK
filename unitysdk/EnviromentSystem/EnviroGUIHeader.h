@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace EnviromentSystem
 {
+	inline static constexpr unsigned int EnviroGUIHeader_TypeDefinitionIndex = 49621;
+
 	class EnviroGUIHeader : public ::EnviromentSystem::EnviroProperty
 	{
 	public:

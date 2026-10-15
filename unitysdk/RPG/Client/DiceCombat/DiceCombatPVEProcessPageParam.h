@@ -13,6 +13,8 @@ namespace RPG::Client::DiceCombat { class DiceCombatStageInfo; }
 
 namespace RPG::Client::DiceCombat
 {
+	inline static constexpr unsigned int DiceCombatPVEProcessPageParam_TypeDefinitionIndex = 76126;
+
 	class DiceCombatPVEProcessPageParam : public ::System::Object
 	{
 	public:

@@ -29,6 +29,8 @@ namespace System { class String; }
 #define POGMMMGBNCH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DFCAF00)
 #define POGMMMGBNCH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DFCAF60)
 
+inline static constexpr unsigned int POGMMMGBNCH_TypeDefinitionIndex = 30610;
+
 	class POGMMMGBNCH : public ::System::Object
 	{
 	public:

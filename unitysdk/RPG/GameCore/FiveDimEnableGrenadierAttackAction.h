@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FiveDimEnableGrenadierAttackAction; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimEnableGrenadierAttackAction_TypeDefinitionIndex = 18790;
+
 	class FiveDimEnableGrenadierAttackAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
 	public:

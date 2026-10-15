@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define HIPGFJHDOBO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E5A0F70)
 #define HIPGFJHDOBO___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E5A0F80)
 
+inline static constexpr unsigned int HIPGFJHDOBO___c_TypeDefinitionIndex = 30393;
+
 	class HIPGFJHDOBO___c : public ::System::Object
 	{
 	public:

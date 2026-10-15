@@ -3,6 +3,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int Random_State_TypeDefinitionIndex = 4250;
+
 	struct alignas(4) Random_State
 	{
 		::System::Int32 s0; // 0x10

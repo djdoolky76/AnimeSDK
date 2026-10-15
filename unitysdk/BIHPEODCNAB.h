@@ -36,6 +36,8 @@ namespace UnityEngine::UI { class Text; }
 #define BIHPEODCNAB_OPPIDAEJLJJ_OFFSET UNITYSDK_OFFSET(0xB4A9CA0)
 #define BIHPEODCNAB__ONBIND_OFFSET UNITYSDK_OFFSET(0xB4A8CD0)
 
+inline static constexpr unsigned int BIHPEODCNAB_TypeDefinitionIndex = 72280;
+
 	class BIHPEODCNAB : public ::FMPCODLIOLG
 	{
 	public:

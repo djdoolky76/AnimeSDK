@@ -3,6 +3,8 @@
 
 namespace Cinemachine
 {
+	inline static constexpr unsigned int CinemachineVirtualCameraBase_BlendHint_TypeDefinitionIndex = 39836;
+
 	enum class CinemachineVirtualCameraBase_BlendHint : ::System::Int32
 	{
 		None = 0,

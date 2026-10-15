@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightModifierSetPrayQuestFinishShowTypeConfi
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightModifierSetPrayQuestFinishShowTypeConfig_TypeDefinitionIndex = 19500;
+
 	class GridFightModifierSetPrayQuestFinishShowTypeConfig : public ::RPG::GameCore::GridFightModifierConfigBase
 	{
 	public:

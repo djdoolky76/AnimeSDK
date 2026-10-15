@@ -11,6 +11,8 @@ namespace System { template <typename T> class Func_1; }
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int DebugUI_HistoryBoolField_TypeDefinitionIndex = 35530;
+
 	class DebugUI_HistoryBoolField : public ::UnityEngine::Rendering::DebugUI_BoolField
 	{
 	public:

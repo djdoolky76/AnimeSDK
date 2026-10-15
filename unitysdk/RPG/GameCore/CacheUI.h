@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CacheUI_TypeDefinitionIndex = 21702;
+
 	class CacheUI : public ::RPG::GameCore::TaskConfig
 	{
 	public:

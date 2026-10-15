@@ -12,6 +12,8 @@ class DBJKPHOMIME;
 #define DBJKPHOMIME_SET_CONFIG_OFFSET UNITYSDK_OFFSET(0xE2285B0)
 #define DBJKPHOMIME_SET_PREFDESC_OFFSET UNITYSDK_OFFSET(0xE2285D0)
 
+inline static constexpr unsigned int DBJKPHOMIME_TypeDefinitionIndex = 80182;
+
 	class DBJKPHOMIME : public ::System::Object
 	{
 	public:

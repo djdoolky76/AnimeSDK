@@ -19,6 +19,8 @@ namespace MiHoYo::SDK { class InputService; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int InputService_TypeDefinitionIndex = 7948;
+
 	class InputService : public ::System::Object
 	{
 	public:

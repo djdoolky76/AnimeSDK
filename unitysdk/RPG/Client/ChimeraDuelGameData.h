@@ -26,6 +26,8 @@ namespace RPG::GameCore { class ChimeraDuelGameRow; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChimeraDuelGameData_TypeDefinitionIndex = 63361;
+
 	class ChimeraDuelGameData : public ::System::Object
 	{
 	public:

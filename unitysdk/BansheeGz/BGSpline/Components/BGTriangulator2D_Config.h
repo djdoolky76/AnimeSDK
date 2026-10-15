@@ -10,6 +10,8 @@
 
 namespace BansheeGz::BGSpline::Components
 {
+	inline static constexpr unsigned int BGTriangulator2D_Config_TypeDefinitionIndex = 36072;
+
 	class BGTriangulator2D_Config : public ::System::Object
 	{
 	public:

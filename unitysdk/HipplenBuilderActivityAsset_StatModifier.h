@@ -5,6 +5,8 @@
 
 #define HIPPLENBUILDERACTIVITYASSET_STATMODIFIER_CTOR_OFFSET UNITYSDK_OFFSET(0x15DE2F60)
 
+inline static constexpr unsigned int HipplenBuilderActivityAsset_StatModifier_TypeDefinitionIndex = 47221;
+
 	class HipplenBuilderActivityAsset_StatModifier : public ::System::Object
 	{
 	public:

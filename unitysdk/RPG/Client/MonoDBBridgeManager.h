@@ -15,6 +15,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoDBBridgeManager_TypeDefinitionIndex = 70729;
+
 	class MonoDBBridgeManager : public ::UnityEngine::MonoBehaviour
 	{
 	public:

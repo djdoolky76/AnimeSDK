@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ST_Side_MuteAlertValueDecline; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ST_Side_MuteAlertValueDecline_TypeDefinitionIndex = 20112;
+
 	class ST_Side_MuteAlertValueDecline : public ::RPG::GameCore::STTaskConfig
 	{
 	public:

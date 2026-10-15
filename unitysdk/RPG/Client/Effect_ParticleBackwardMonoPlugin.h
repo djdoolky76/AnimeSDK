@@ -12,6 +12,8 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Effect_ParticleBackwardMonoPlugin_TypeDefinitionIndex = 70520;
+
 	class Effect_ParticleBackwardMonoPlugin
 	{
 	public:

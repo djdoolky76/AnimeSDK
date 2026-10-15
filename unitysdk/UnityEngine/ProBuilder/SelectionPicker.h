@@ -19,6 +19,8 @@ namespace UnityEngine::ProBuilder { class ProBuilderMesh; }
 
 namespace UnityEngine::ProBuilder
 {
+	inline static constexpr unsigned int SelectionPicker_TypeDefinitionIndex = 44418;
+
 	class SelectionPicker : public ::System::Object
 	{
 	public:

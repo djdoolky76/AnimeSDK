@@ -25,6 +25,8 @@ namespace UnityEngine::UI { class Slider; }
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int IdleLiveInGameUltraSkillPanel_TypeDefinitionIndex = 75185;
+
 	class IdleLiveInGameUltraSkillPanel : public ::UnityEngine::MonoBehaviour
 	{
 	public:

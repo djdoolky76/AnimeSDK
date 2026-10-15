@@ -6,6 +6,8 @@
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int AddVoxelVolume_TypeDefinitionIndex = 51837;
+
 	class AddVoxelVolume : public ::UnityEngine::MonoBehaviour
 	{
 	public:

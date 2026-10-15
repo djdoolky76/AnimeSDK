@@ -6,6 +6,8 @@
 
 namespace MiHoYo::SDK::Protobuf
 {
+	inline static constexpr unsigned int CodedOutputStream_OutOfSpaceException_TypeDefinitionIndex = 35713;
+
 	class CodedOutputStream_OutOfSpaceException : public ::System::IO::IOException
 	{
 	public:

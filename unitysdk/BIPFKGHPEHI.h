@@ -7,6 +7,8 @@
 #define BIPFKGHPEHI_NLBNJGKAMII_OFFSET UNITYSDK_OFFSET(0xB795E00)
 #define BIPFKGHPEHI_POJDHHCPDNG_OFFSET UNITYSDK_OFFSET(0xB795E50)
 
+inline static constexpr unsigned int BIPFKGHPEHI_TypeDefinitionIndex = 53756;
+
 	class BIPFKGHPEHI : public ::GJPFGOGOLBI
 	{
 	public:

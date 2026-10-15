@@ -13,6 +13,8 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int JigsawPuzzleRandomFloating_TypeDefinitionIndex = 78663;
+
 	class JigsawPuzzleRandomFloating : public ::UnityEngine::MonoBehaviour
 	{
 	public:

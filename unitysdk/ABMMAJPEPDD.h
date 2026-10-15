@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define ABMMAJPEPDD_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB10D840)
 #define ABMMAJPEPDD_TICK_OFFSET UNITYSDK_OFFSET(0xB10D890)
 
+inline static constexpr unsigned int ABMMAJPEPDD_TypeDefinitionIndex = 53894;
+
 	class ABMMAJPEPDD
 	{
 	public:

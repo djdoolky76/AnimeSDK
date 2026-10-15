@@ -8,6 +8,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEffectPluginMultiCRPVCamera_SlotReferenceTransformGroup_TypeDefinitionIndex = 70080;
+
 	class MonoEffectPluginMultiCRPVCamera_SlotReferenceTransformGroup : public ::System::Object
 	{
 	public:

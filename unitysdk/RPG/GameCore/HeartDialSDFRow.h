@@ -10,6 +10,8 @@ namespace RPG::GameCore { class HeartDialSDFRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int HeartDialSDFRow_TypeDefinitionIndex = 13730;
+
 	class HeartDialSDFRow : public ::System::Object
 	{
 	public:

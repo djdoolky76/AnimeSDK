@@ -9,6 +9,8 @@ namespace MessagePack::Resolvers { class PrimitiveObjectResolver; }
 
 namespace MessagePack::Resolvers
 {
+	inline static constexpr unsigned int PrimitiveObjectResolver_TypeDefinitionIndex = 7270;
+
 	class PrimitiveObjectResolver : public ::System::Object
 	{
 	public:

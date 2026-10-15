@@ -11,6 +11,8 @@ namespace RPG::GameCore { class GroupMemberEntityAnimatorParamConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GroupInitMemberEntityAnimParameter_TypeDefinitionIndex = 20739;
+
 	class GroupInitMemberEntityAnimParameter : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -35,6 +35,8 @@ namespace System { class String; }
 #define HMOECPBNAOK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E5D51E0)
 #define HMOECPBNAOK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E5D5240)
 
+inline static constexpr unsigned int HMOECPBNAOK_TypeDefinitionIndex = 33720;
+
 	class HMOECPBNAOK : public ::System::Object
 	{
 	public:

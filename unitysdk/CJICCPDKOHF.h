@@ -27,6 +27,8 @@ namespace System { class String; }
 #define CJICCPDKOHF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E0DEE00)
 #define CJICCPDKOHF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E0DEE60)
 
+inline static constexpr unsigned int CJICCPDKOHF_TypeDefinitionIndex = 26370;
+
 	class CJICCPDKOHF : public ::System::Object
 	{
 	public:

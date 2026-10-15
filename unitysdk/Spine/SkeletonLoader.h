@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace Spine
 {
+	inline static constexpr unsigned int SkeletonLoader_TypeDefinitionIndex = 39694;
+
 	class SkeletonLoader : public ::System::Object
 	{
 	public:

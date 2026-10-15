@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ChenLingBattleTargetEvaluator_HitCallbackTarget;
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChenLingBattleTargetEvaluator_HitCallbackTarget_TypeDefinitionIndex = 15762;
+
 	class ChenLingBattleTargetEvaluator_HitCallbackTarget : public ::RPG::GameCore::BaseChenLingBattleTargetEvaluator
 	{
 	public:

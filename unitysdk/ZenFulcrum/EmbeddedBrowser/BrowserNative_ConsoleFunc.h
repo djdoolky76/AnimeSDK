@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
+	inline static constexpr unsigned int BrowserNative_ConsoleFunc_TypeDefinitionIndex = 39375;
+
 	class BrowserNative_ConsoleFunc : public ::System::MulticastDelegate
 	{
 	public:

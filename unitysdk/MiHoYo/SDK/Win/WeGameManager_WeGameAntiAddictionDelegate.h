@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int WeGameManager_WeGameAntiAddictionDelegate_TypeDefinitionIndex = 9484;
+
 	class WeGameManager_WeGameAntiAddictionDelegate : public ::System::MulticastDelegate
 	{
 	public:

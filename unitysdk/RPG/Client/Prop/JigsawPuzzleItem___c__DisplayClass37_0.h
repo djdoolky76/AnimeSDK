@@ -8,6 +8,8 @@ namespace System { class Action; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int JigsawPuzzleItem___c__DisplayClass37_0_TypeDefinitionIndex = 78661;
+
 	class JigsawPuzzleItem___c__DisplayClass37_0 : public ::System::Object
 	{
 	public:

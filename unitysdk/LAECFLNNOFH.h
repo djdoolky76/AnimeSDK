@@ -8,6 +8,8 @@ namespace Entitas { class IContext; }
 #define LAECFLNNOFH_CTOR_OFFSET UNITYSDK_OFFSET(0x1C90C630)
 #define LAECFLNNOFH_GET_ALLCONTEXTS_OFFSET UNITYSDK_OFFSET(0x1C90C750)
 
+inline static constexpr unsigned int LAECFLNNOFH_TypeDefinitionIndex = 43696;
+
 	class LAECFLNNOFH : public ::System::Object
 	{
 	public:

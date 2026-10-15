@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define MFHHKBPHDOH_GET_DISPLAYS_OFFSET UNITYSDK_OFFSET(0xB8FEB30)
 #define MFHHKBPHDOH_GKKDODPDBLA_OFFSET UNITYSDK_OFFSET(0xB8FEBE0)
 
+inline static constexpr unsigned int MFHHKBPHDOH_TypeDefinitionIndex = 63923;
+
 	class MFHHKBPHDOH : public ::System::Object
 	{
 	public:

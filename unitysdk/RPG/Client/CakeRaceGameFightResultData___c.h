@@ -16,6 +16,8 @@ namespace System::Collections::Generic { class KeyValuePair; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CakeRaceGameFightResultData___c_TypeDefinitionIndex = 63023;
+
 	class CakeRaceGameFightResultData___c : public ::System::Object
 	{
 	public:

@@ -29,6 +29,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BattleUITeamBlockData_TypeDefinitionIndex = 72051;
+
 	class BattleUITeamBlockData : public ::System::Object
 	{
 	public:

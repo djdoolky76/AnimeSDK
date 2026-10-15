@@ -26,6 +26,8 @@ namespace UnityEngine { class GlobalJavaObjectRef; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int AndroidJavaObject_TypeDefinitionIndex = 5681;
+
 	class AndroidJavaObject : public ::System::Object
 	{
 	public:

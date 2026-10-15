@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int NpcBodySizeConfig_TypeDefinitionIndex = 60047;
+
 	class NpcBodySizeConfig : public ::UnityEngine::ScriptableObject
 	{
 	public:

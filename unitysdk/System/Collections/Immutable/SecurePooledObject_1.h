@@ -4,6 +4,8 @@
 
 namespace System::Collections::Immutable
 {
+	inline static constexpr unsigned int SecurePooledObject_1_TypeDefinitionIndex = 6667;
+
 	template <typename T>
 	class SecurePooledObject_1 : public ::System::Object
 	{

@@ -6,6 +6,8 @@ namespace System { class String; }
 
 #define MGHKENFHAAC___C__DISPLAYCLASS8_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB91F6F0)
 
+inline static constexpr unsigned int MGHKENFHAAC___c__DisplayClass8_0_TypeDefinitionIndex = 57422;
+
 	class MGHKENFHAAC___c__DisplayClass8_0 : public ::System::Object
 	{
 	public:

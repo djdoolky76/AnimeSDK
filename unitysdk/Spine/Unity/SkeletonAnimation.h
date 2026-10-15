@@ -52,6 +52,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace Spine::Unity
 {
+	inline static constexpr unsigned int SkeletonAnimation_TypeDefinitionIndex = 45026;
+
 	class SkeletonAnimation : public ::Spine::Unity::SkeletonRenderer
 	{
 	public:

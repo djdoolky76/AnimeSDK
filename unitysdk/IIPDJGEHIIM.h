@@ -36,6 +36,8 @@ namespace System { class String; }
 #define IIPDJGEHIIM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E68E920)
 #define IIPDJGEHIIM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E68E980)
 
+inline static constexpr unsigned int IIPDJGEHIIM_TypeDefinitionIndex = 31853;
+
 	class IIPDJGEHIIM : public ::System::Object
 	{
 	public:

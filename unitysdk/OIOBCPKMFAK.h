@@ -15,6 +15,8 @@ namespace UnityEngine { class Transform; }
 #define OIOBCPKMFAK_PAFCMAMJENB_OFFSET UNITYSDK_OFFSET(0xBEA3280)
 #define OIOBCPKMFAK_PEMLPLGBPCL_OFFSET UNITYSDK_OFFSET(0xBEA2CA0)
 
+inline static constexpr unsigned int OIOBCPKMFAK_TypeDefinitionIndex = 78448;
+
 	class OIOBCPKMFAK : public ::System::Object
 	{
 	public:

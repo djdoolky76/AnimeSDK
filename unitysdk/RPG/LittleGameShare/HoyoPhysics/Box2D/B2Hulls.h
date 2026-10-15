@@ -12,6 +12,8 @@
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
+	inline static constexpr unsigned int B2Hulls_TypeDefinitionIndex = 36686;
+
 	class B2Hulls : public ::System::Object
 	{
 	public:

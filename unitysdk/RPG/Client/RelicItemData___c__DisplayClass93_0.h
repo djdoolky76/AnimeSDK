@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RelicItemData___c__DisplayClass93_0_TypeDefinitionIndex = 66884;
+
 	class RelicItemData___c__DisplayClass93_0 : public ::System::Object
 	{
 	public:

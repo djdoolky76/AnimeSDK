@@ -8,6 +8,8 @@ namespace RPG::Client { class ExpeditionBattleRoute; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ExpeditionBattleFlowViewModel___c__DisplayClass43_0_TypeDefinitionIndex = 63919;
+
 	class ExpeditionBattleFlowViewModel___c__DisplayClass43_0 : public ::System::Object
 	{
 	public:

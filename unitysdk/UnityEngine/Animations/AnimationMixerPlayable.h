@@ -16,6 +16,8 @@
 
 namespace UnityEngine::Animations
 {
+	inline static constexpr unsigned int AnimationMixerPlayable_TypeDefinitionIndex = 5750;
+
 	struct alignas(4) AnimationMixerPlayable
 	{
 		::UnityEngine::Playables::PlayableHandle m_Handle; // 0x10

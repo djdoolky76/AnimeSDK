@@ -10,6 +10,8 @@ namespace UnityEngine::UI { class Image; }
 
 namespace Sofa::Runtime
 {
+	inline static constexpr unsigned int TabHeaderImageControl_TypeDefinitionIndex = 49730;
+
 	class TabHeaderImageControl
 	{
 	public:

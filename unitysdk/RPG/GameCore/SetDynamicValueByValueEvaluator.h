@@ -16,6 +16,8 @@ namespace System { class Object; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetDynamicValueByValueEvaluator_TypeDefinitionIndex = 23827;
+
 	class SetDynamicValueByValueEvaluator : public ::RPG::GameCore::SetDynamicValueBase
 	{
 	public:

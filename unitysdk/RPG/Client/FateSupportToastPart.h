@@ -47,6 +47,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FateSupportToastPart_TypeDefinitionIndex = 64164;
+
 	class FateSupportToastPart : public ::System::Object
 	{
 	public:

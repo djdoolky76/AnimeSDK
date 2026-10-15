@@ -7,6 +7,8 @@ namespace RPG::GameCore { class OverrideCustomDroneFuncBtn; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int DroneHudParam_TypeDefinitionIndex = 78561;
+
 	class DroneHudParam : public ::System::Object
 	{
 	public:

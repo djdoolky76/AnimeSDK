@@ -9,6 +9,8 @@ class MLEHLBPAAKM;
 #define MLEHLBPAAKM_CTOR_OFFSET UNITYSDK_OFFSET(0x1D1CC6C0)
 #define MLEHLBPAAKM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D1CC460)
 
+inline static constexpr unsigned int MLEHLBPAAKM_TypeDefinitionIndex = 11307;
+
 	class MLEHLBPAAKM : public ::System::Object
 	{
 	public:

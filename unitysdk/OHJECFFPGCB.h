@@ -8,6 +8,8 @@ namespace System { class String; }
 #define OHJECFFPGCB_KEOKEELBKHI_OFFSET UNITYSDK_OFFSET(0xBE6D620)
 #define OHJECFFPGCB_TOSTRING_OFFSET UNITYSDK_OFFSET(0xBE6D810)
 
+inline static constexpr unsigned int OHJECFFPGCB_TypeDefinitionIndex = 59274;
+
 	class OHJECFFPGCB : public ::System::Object
 	{
 	public:

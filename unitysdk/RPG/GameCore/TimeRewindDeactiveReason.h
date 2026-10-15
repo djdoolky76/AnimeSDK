@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TimeRewindDeactiveReason_TypeDefinitionIndex = 57478;
+
 	enum class TimeRewindDeactiveReason : ::System::Int32
 	{
 		Debug = 1,

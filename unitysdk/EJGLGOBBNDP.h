@@ -6,6 +6,8 @@
 #define EJGLGOBBNDP_CCTOR_OFFSET UNITYSDK_OFFSET(0x154DB8A0)
 #define EJGLGOBBNDP_CTOR_OFFSET UNITYSDK_OFFSET(0x154DB890)
 
+inline static constexpr unsigned int EJGLGOBBNDP_TypeDefinitionIndex = 59671;
+
 	class EJGLGOBBNDP : public ::System::Object
 	{
 	public:

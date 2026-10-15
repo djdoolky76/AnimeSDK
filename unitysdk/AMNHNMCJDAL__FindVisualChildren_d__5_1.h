@@ -4,6 +4,8 @@
 class NHBPBPEINCA;
 namespace System::Collections::Generic { template <typename T> class IEnumerator_1; }
 
+inline static constexpr unsigned int AMNHNMCJDAL__FindVisualChildren_d__5_1_TypeDefinitionIndex = 44101;
+
 	template <typename T>
 	class AMNHNMCJDAL__FindVisualChildren_d__5_1 : public ::System::Object
 	{

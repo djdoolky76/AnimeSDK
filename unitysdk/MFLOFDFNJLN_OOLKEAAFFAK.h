@@ -24,6 +24,8 @@ namespace System { class String; }
 #define MFLOFDFNJLN_OOLKEAAFFAK_NJCMLGIINEO_OFFSET UNITYSDK_OFFSET(0xB90BAD0)
 #define MFLOFDFNJLN_OOLKEAAFFAK_PPAKDDBDDFC_OFFSET UNITYSDK_OFFSET(0xB90BB70)
 
+inline static constexpr unsigned int MFLOFDFNJLN_OOLKEAAFFAK_TypeDefinitionIndex = 54257;
+
 	class MFLOFDFNJLN_OOLKEAAFFAK : public ::System::Object
 	{
 	public:

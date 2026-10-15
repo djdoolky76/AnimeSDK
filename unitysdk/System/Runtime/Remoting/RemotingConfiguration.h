@@ -33,6 +33,8 @@ namespace System::Runtime::Remoting { class WellKnownServiceTypeEntry; }
 
 namespace System::Runtime::Remoting
 {
+	inline static constexpr unsigned int RemotingConfiguration_TypeDefinitionIndex = 1212;
+
 	class RemotingConfiguration : public ::System::Object
 	{
 	public:

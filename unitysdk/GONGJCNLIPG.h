@@ -7,6 +7,8 @@ namespace RPG::GameCore { class GameWorld; }
 #define GONGJCNLIPG_CIAAPMPJPBB_OFFSET UNITYSDK_OFFSET(0x15B3A950)
 #define GONGJCNLIPG_HNDBKEFFPNE_1_OFFSET UNITYSDK_OFFSET(0x15B3A9E0)
 
+inline static constexpr unsigned int GONGJCNLIPG_TypeDefinitionIndex = 53713;
+
 	class GONGJCNLIPG : public ::System::Object
 	{
 	public:

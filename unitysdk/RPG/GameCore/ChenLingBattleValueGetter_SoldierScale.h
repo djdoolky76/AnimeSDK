@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ChenLingBattleValueGetter_SoldierScale; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChenLingBattleValueGetter_SoldierScale_TypeDefinitionIndex = 15808;
+
 	class ChenLingBattleValueGetter_SoldierScale : public ::RPG::GameCore::BaseChenLingBattleValueGetter
 	{
 	public:

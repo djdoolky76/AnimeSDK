@@ -14,6 +14,8 @@ namespace System { class Object; }
 #define MBFNDONLKAF_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB85A380)
 #define MBFNDONLKAF_TICK_OFFSET UNITYSDK_OFFSET(0xB85A3D0)
 
+inline static constexpr unsigned int MBFNDONLKAF_TypeDefinitionIndex = 58790;
+
 	class MBFNDONLKAF : public ::GELIALJDFBL
 	{
 	public:

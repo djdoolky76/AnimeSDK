@@ -28,6 +28,8 @@ namespace System { class String; }
 #define CBANJNLBDBB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E060FC0)
 #define CBANJNLBDBB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E061020)
 
+inline static constexpr unsigned int CBANJNLBDBB_TypeDefinitionIndex = 33221;
+
 	class CBANJNLBDBB : public ::System::Object
 	{
 	public:

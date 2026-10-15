@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TestHotUpdateExcelTable_TypeDefinitionIndex = 15282;
+
 	class TestHotUpdateExcelTable : public ::System::Object
 	{
 	public:

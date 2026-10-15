@@ -19,6 +19,8 @@ namespace System { class String; }
 
 namespace RPG::Client::SocialPlay
 {
+	inline static constexpr unsigned int SocialPlayMapUIBridge_TypeDefinitionIndex = 74495;
+
 	class SocialPlayMapUIBridge : public ::System::Object
 	{
 	public:

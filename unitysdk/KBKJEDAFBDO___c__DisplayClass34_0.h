@@ -7,6 +7,8 @@ namespace RPG::Client { class Stage; }
 #define KBKJEDAFBDO___C__DISPLAYCLASS34_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB3110B0)
 #define KBKJEDAFBDO___C__DISPLAYCLASS34_0___ONREGIONRESUMEUPDATE_B__0_OFFSET UNITYSDK_OFFSET(0xB312090)
 
+inline static constexpr unsigned int KBKJEDAFBDO___c__DisplayClass34_0_TypeDefinitionIndex = 60523;
+
 	class KBKJEDAFBDO___c__DisplayClass34_0 : public ::System::Object
 	{
 	public:

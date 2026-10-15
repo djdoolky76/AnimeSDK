@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SkillSPProgressType_TypeDefinitionIndex = 18175;
+
 	enum class SkillSPProgressType : ::System::Int32
 	{
 		Normal = 0,

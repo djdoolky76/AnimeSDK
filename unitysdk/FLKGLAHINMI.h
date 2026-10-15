@@ -32,6 +32,8 @@ namespace System { class Object; }
 #define FLKGLAHINMI___DOKEEPOLDEQUIP_B__20_0_OFFSET UNITYSDK_OFFSET(0x15838F90)
 #define FLKGLAHINMI___REQUESTDISCARDNEWEQUIP_B__28_0_OFFSET UNITYSDK_OFFSET(0x158391A0)
 
+inline static constexpr unsigned int FLKGLAHINMI_TypeDefinitionIndex = 75316;
+
 	class FLKGLAHINMI : public ::System::Object
 	{
 	public:

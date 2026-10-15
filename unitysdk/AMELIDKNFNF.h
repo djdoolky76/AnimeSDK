@@ -89,6 +89,8 @@ namespace RPG::GameCore { class MiConditionConfigBase; }
 #define AMELIDKNFNF_PMCGMLLCBLF_OFFSET UNITYSDK_OFFSET(0x1CCDCB90)
 #define AMELIDKNFNF_POMEKLECEMK_OFFSET UNITYSDK_OFFSET(0x1CCDC1A0)
 
+inline static constexpr unsigned int AMELIDKNFNF_TypeDefinitionIndex = 19076;
+
 	class AMELIDKNFNF : public ::System::Object
 	{
 	public:

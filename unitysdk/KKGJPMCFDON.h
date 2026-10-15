@@ -27,6 +27,8 @@ namespace System { class String; }
 #define KKGJPMCFDON_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E8787E0)
 #define KKGJPMCFDON_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E878840)
 
+inline static constexpr unsigned int KKGJPMCFDON_TypeDefinitionIndex = 30063;
+
 	class KKGJPMCFDON : public ::System::Object
 	{
 	public:

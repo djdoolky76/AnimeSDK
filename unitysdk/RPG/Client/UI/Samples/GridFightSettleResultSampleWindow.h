@@ -8,6 +8,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client::Ui::Samples
 {
+	inline static constexpr unsigned int GridFightSettleResultSampleWindow_TypeDefinitionIndex = 73461;
+
 	class GridFightSettleResultSampleWindow
 	{
 	public:

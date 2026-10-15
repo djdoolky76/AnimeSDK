@@ -43,6 +43,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Map3DUtils_TypeDefinitionIndex = 69039;
+
 	class Map3DUtils : public ::System::Object
 	{
 	public:

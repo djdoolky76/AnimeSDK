@@ -31,6 +31,8 @@ namespace System { class String; }
 
 namespace Proto
 {
+	inline static constexpr unsigned int SwitchHandSnapshot_TypeDefinitionIndex = 25854;
+
 	class SwitchHandSnapshot : public ::System::Object
 	{
 	public:

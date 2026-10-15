@@ -27,6 +27,8 @@ namespace System { class String; }
 #define GEMGCCDGFGN_OJDOGPAIHNA_OFFSET UNITYSDK_OFFSET(0x1CE38610)
 #define GEMGCCDGFGN_PJKFLONMKED_OFFSET UNITYSDK_OFFSET(0x1CE39020)
 
+inline static constexpr unsigned int GEMGCCDGFGN_TypeDefinitionIndex = 10806;
+
 	class GEMGCCDGFGN : public ::System::Object
 	{
 	public:

@@ -13,6 +13,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByIsShowInActionBar_TypeDefinitionIndex = 24367;
+
 	class ByIsShowInActionBar : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

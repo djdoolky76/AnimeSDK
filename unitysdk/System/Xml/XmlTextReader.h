@@ -55,6 +55,8 @@ namespace System::Xml { class XmlTextReaderImpl; }
 
 namespace System::Xml
 {
+	inline static constexpr unsigned int XmlTextReader_TypeDefinitionIndex = 1845;
+
 	class XmlTextReader : public ::System::Xml::XmlReader
 	{
 	public:

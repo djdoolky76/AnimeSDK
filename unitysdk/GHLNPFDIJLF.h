@@ -4,6 +4,8 @@
 
 #define GHLNPFDIJLF_CTOR_OFFSET UNITYSDK_OFFSET(0x1C63CF30)
 
+inline static constexpr unsigned int GHLNPFDIJLF_TypeDefinitionIndex = 36487;
+
 	class GHLNPFDIJLF : public ::System::Object
 	{
 	public:

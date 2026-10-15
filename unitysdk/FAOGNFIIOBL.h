@@ -24,6 +24,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define FAOGNFIIOBL_NODADPBPCFP_OFFSET UNITYSDK_OFFSET(0x15687BB0)
 #define FAOGNFIIOBL_OOKINEOJJEI_OFFSET UNITYSDK_OFFSET(0x15688A70)
 
+inline static constexpr unsigned int FAOGNFIIOBL_TypeDefinitionIndex = 72073;
+
 	class FAOGNFIIOBL : public ::System::Object
 	{
 	public:

@@ -3,6 +3,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int CameraType_TypeDefinitionIndex = 4152;
+
 	enum class CameraType : ::System::Int32
 	{
 		Game = 1,

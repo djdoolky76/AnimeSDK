@@ -12,6 +12,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define EENGOMFCDEI___C__CONVERTANDSETSECTIONREGIONS_B__28_0_OFFSET UNITYSDK_OFFSET(0x1C5FC110)
 #define EENGOMFCDEI___C__CONVERTANDSETSPARKLE_B__31_0_OFFSET UNITYSDK_OFFSET(0x1C5FC1D0)
 
+inline static constexpr unsigned int EENGOMFCDEI___c_TypeDefinitionIndex = 37451;
+
 	class EENGOMFCDEI___c : public ::System::Object
 	{
 	public:

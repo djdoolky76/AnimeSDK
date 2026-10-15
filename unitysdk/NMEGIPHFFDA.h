@@ -49,6 +49,8 @@ namespace System { class String; }
 #define NMEGIPHFFDA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB71890)
 #define NMEGIPHFFDA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB718F0)
 
+inline static constexpr unsigned int NMEGIPHFFDA_TypeDefinitionIndex = 26635;
+
 	class NMEGIPHFFDA : public ::System::Object
 	{
 	public:

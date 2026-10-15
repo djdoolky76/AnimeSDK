@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int QuestDataExcelTable_TypeDefinitionIndex = 14571;
+
 	class QuestDataExcelTable : public ::System::Object
 	{
 	public:

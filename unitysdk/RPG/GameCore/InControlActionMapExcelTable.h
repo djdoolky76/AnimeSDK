@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int InControlActionMapExcelTable_TypeDefinitionIndex = 13810;
+
 	class InControlActionMapExcelTable : public ::System::Object
 	{
 	public:

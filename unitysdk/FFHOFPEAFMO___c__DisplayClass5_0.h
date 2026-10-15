@@ -7,6 +7,8 @@ namespace RPG::GameCore { class PropSoundConfig; }
 #define FFHOFPEAFMO___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1573EAC0)
 #define FFHOFPEAFMO___C__DISPLAYCLASS5_0__SETUPPROPTRIGGERSOUND_B__0_OFFSET UNITYSDK_OFFSET(0x1573F2E0)
 
+inline static constexpr unsigned int FFHOFPEAFMO___c__DisplayClass5_0_TypeDefinitionIndex = 57258;
+
 	class FFHOFPEAFMO___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:

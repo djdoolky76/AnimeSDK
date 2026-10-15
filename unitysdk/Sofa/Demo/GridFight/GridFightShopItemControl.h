@@ -14,6 +14,8 @@ namespace UnityEngine::UI { class Image; }
 
 namespace Sofa::Demo::GridFight
 {
+	inline static constexpr unsigned int GridFightShopItemControl_TypeDefinitionIndex = 49712;
+
 	class GridFightShopItemControl
 	{
 	public:

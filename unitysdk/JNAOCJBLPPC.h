@@ -34,6 +34,8 @@ namespace System { class String; }
 #define JNAOCJBLPPC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E793070)
 #define JNAOCJBLPPC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E7930D0)
 
+inline static constexpr unsigned int JNAOCJBLPPC_TypeDefinitionIndex = 32082;
+
 	class JNAOCJBLPPC : public ::System::Object
 	{
 	public:

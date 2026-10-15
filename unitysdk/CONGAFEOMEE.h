@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define CONGAFEOMEE_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0xDCC0280)
 #define CONGAFEOMEE_MNPFDFDBMNG_OFFSET UNITYSDK_OFFSET(0xDCC0420)
 
+inline static constexpr unsigned int CONGAFEOMEE_TypeDefinitionIndex = 63888;
+
 	class CONGAFEOMEE : public ::System::Object
 	{
 	public:

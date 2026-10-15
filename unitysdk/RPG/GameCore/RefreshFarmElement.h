@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RefreshFarmElement; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RefreshFarmElement_TypeDefinitionIndex = 22091;
+
 	class RefreshFarmElement : public ::RPG::GameCore::TaskConfig
 	{
 	public:

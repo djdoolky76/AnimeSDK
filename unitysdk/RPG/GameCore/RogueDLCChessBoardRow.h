@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueDLCChessBoardRow_TypeDefinitionIndex = 14770;
+
 	class RogueDLCChessBoardRow : public ::System::Object
 	{
 	public:

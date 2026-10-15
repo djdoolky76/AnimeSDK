@@ -6,6 +6,8 @@ namespace System { class String; }
 
 #define MJOPBJKKGPL_CTOR_OFFSET UNITYSDK_OFFSET(0xB97B5F0)
 
+inline static constexpr unsigned int MJOPBJKKGPL_TypeDefinitionIndex = 55589;
+
 	class MJOPBJKKGPL : public ::System::Object
 	{
 	public:

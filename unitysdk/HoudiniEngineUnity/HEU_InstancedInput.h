@@ -10,6 +10,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_InstancedInput_TypeDefinitionIndex = 40414;
+
 	class HEU_InstancedInput : public ::System::Object
 	{
 	public:

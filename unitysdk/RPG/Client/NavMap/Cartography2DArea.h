@@ -37,6 +37,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 
 namespace RPG::Client::NavMap
 {
+	inline static constexpr unsigned int Cartography2DArea_TypeDefinitionIndex = 74503;
+
 	class Cartography2DArea : public ::RPG::Client::NavMap::CartographyBaseData
 	{
 	public:

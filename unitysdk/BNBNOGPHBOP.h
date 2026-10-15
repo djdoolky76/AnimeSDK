@@ -19,6 +19,8 @@ namespace RPG::GameCore { class TransformComponent; }
 #define BNBNOGPHBOP_OOGCMLCLMJF_OFFSET UNITYSDK_OFFSET(0xBDC7570)
 #define BNBNOGPHBOP_TICK_OFFSET UNITYSDK_OFFSET(0xBDC74C0)
 
+inline static constexpr unsigned int BNBNOGPHBOP_TypeDefinitionIndex = 58008;
+
 	class BNBNOGPHBOP : public ::GELIALJDFBL
 	{
 	public:

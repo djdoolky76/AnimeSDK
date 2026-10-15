@@ -11,6 +11,8 @@ namespace System { class String; }
 #define IJMOLBPFENE_EIPJNDDBOGL_OFFSET UNITYSDK_OFFSET(0x1646F180)
 #define IJMOLBPFENE_OOPJCBAIKMA_OFFSET UNITYSDK_OFFSET(0x1646F250)
 
+inline static constexpr unsigned int IJMOLBPFENE_TypeDefinitionIndex = 80648;
+
 	class IJMOLBPFENE : public ::System::Object
 	{
 	public:

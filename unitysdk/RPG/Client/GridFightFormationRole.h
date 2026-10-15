@@ -29,6 +29,8 @@ namespace System::Collections::Specialized { class NotifyCollectionChangedEventH
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightFormationRole_TypeDefinitionIndex = 64683;
+
 	class GridFightFormationRole : public ::Sofa::Core::ObservableObject
 	{
 	public:

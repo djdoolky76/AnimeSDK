@@ -19,6 +19,8 @@ namespace Cinemachine { class CinemachineVirtualCamera; }
 #define PGOPIMLJDCL_OIKHEIOONAL_OFFSET UNITYSDK_OFFSET(0xC2354F0)
 #define PGOPIMLJDCL_OMJCIPOOJNF_OFFSET UNITYSDK_OFFSET(0xC2358C0)
 
+inline static constexpr unsigned int PGOPIMLJDCL_TypeDefinitionIndex = 78026;
+
 	class PGOPIMLJDCL : public ::EFENAEKOKBI
 	{
 	public:

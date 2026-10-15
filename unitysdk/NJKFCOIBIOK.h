@@ -10,6 +10,8 @@ namespace System { class Object; }
 #define NJKFCOIBIOK_FOEGMPIAPDG_OFFSET UNITYSDK_OFFSET(0xBC1A5D0)
 #define NJKFCOIBIOK_HBJIKNIIMGN_OFFSET UNITYSDK_OFFSET(0xBC1A4C0)
 
+inline static constexpr unsigned int NJKFCOIBIOK_TypeDefinitionIndex = 76505;
+
 	class NJKFCOIBIOK : public ::System::Object
 	{
 	public:

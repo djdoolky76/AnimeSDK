@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define HDIDIKHODME_NNONJODGLLB_OFFSET UNITYSDK_OFFSET(0x15C35ED0)
 #define HDIDIKHODME_PJCIPFDONBD_OFFSET UNITYSDK_OFFSET(0x15C36000)
 
+inline static constexpr unsigned int HDIDIKHODME_TypeDefinitionIndex = 53624;
+
 	class HDIDIKHODME : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 #define MLOGMOLADMP_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D1CE3A0)
 #define MLOGMOLADMP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D1CE300)
 
+inline static constexpr unsigned int MLOGMOLADMP_TypeDefinitionIndex = 23200;
+
 	class MLOGMOLADMP : public ::RPG::GameCore::TaskConfig
 	{
 	public:

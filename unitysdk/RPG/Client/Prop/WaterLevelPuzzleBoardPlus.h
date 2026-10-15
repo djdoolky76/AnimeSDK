@@ -26,6 +26,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int WaterLevelPuzzleBoardPlus_TypeDefinitionIndex = 78920;
+
 	class WaterLevelPuzzleBoardPlus : public ::RPG::Client::Prop::PuzzleBoardBase
 	{
 	public:

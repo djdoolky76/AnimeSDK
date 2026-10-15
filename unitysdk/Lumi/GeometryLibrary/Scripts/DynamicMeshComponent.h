@@ -29,6 +29,8 @@ namespace UnityEngine { class Mesh; }
 
 namespace Lumi::GeometryLibrary::Scripts
 {
+	inline static constexpr unsigned int DynamicMeshComponent_TypeDefinitionIndex = 47701;
+
 	class DynamicMeshComponent : public ::UnityEngine::MonoBehaviour
 	{
 	public:

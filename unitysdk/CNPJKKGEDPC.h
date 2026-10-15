@@ -7,6 +7,8 @@ class FDPALAEIHPB;
 #define CNPJKKGEDPC_CTOR_OFFSET UNITYSDK_OFFSET(0xDA5CE40)
 #define CNPJKKGEDPC_INITIALIZE_OFFSET UNITYSDK_OFFSET(0xDA5CEF0)
 
+inline static constexpr unsigned int CNPJKKGEDPC_TypeDefinitionIndex = 76578;
+
 	class CNPJKKGEDPC : public ::DJJKNHPLHDI
 	{
 	public:

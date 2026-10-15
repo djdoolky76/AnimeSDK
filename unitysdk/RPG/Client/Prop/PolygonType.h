@@ -3,6 +3,8 @@
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int PolygonType_TypeDefinitionIndex = 78726;
+
 	enum class PolygonType : ::System::Int32
 	{
 		Triangle = 0,

@@ -18,6 +18,8 @@ namespace UnityEngine { class ParticleSystem; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEffectPluginBodyAlchemize_TypeDefinitionIndex = 70042;
+
 	class MonoEffectPluginBodyAlchemize : public ::RPG::Client::MonoEffectPluginBase
 	{
 	public:

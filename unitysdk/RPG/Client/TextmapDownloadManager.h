@@ -62,6 +62,8 @@ namespace System::Threading { class SynchronizationContext; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TextmapDownloadManager_TypeDefinitionIndex = 61242;
+
 	class TextmapDownloadManager : public ::System::Object
 	{
 	public:

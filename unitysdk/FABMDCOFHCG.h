@@ -29,6 +29,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define FABMDCOFHCG_SET_PARENTPARALLELTASKLIST_OFFSET UNITYSDK_OFFSET(0x15664910)
 #define FABMDCOFHCG_SET_TARGETTIMESTAMP_OFFSET UNITYSDK_OFFSET(0x15664950)
 
+inline static constexpr unsigned int FABMDCOFHCG_TypeDefinitionIndex = 55823;
+
 	class FABMDCOFHCG : public ::HPICNGFLLCA
 	{
 	public:

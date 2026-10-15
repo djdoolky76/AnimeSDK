@@ -11,6 +11,8 @@ namespace System::Text { class EncoderFallback; }
 
 namespace System::Text
 {
+	inline static constexpr unsigned int EncoderFallback_TypeDefinitionIndex = 484;
+
 	class EncoderFallback : public ::System::Object
 	{
 	public:

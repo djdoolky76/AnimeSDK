@@ -37,6 +37,8 @@ namespace UnityEngine { class GameObject; }
 #define JFDOCDAOPJG_OHLCJLBMKCL_OFFSET UNITYSDK_OFFSET(0x166482F0)
 #define JFDOCDAOPJG_OPGIGLPBCIF_OFFSET UNITYSDK_OFFSET(0x16648350)
 
+inline static constexpr unsigned int JFDOCDAOPJG_TypeDefinitionIndex = 49122;
+
 	class JFDOCDAOPJG : public ::ONEMIJCPBEO
 	{
 	public:

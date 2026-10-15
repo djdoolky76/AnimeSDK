@@ -9,6 +9,8 @@ namespace RPG::GameCore { class ChimeraDuelPresetTeamRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChimeraDuelPresetTeamRow_TypeDefinitionIndex = 11137;
+
 	class ChimeraDuelPresetTeamRow : public ::System::Object
 	{
 	public:

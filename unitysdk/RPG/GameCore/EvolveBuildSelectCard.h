@@ -15,6 +15,8 @@ namespace RPG::GameCore { class EvolveBuildSelectCard; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EvolveBuildSelectCard_TypeDefinitionIndex = 53575;
+
 	class EvolveBuildSelectCard : public ::System::Object
 	{
 	public:

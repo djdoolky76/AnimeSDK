@@ -11,6 +11,8 @@ namespace UnityEngine::UI { class Image; }
 
 namespace RPG::Client::Challenge
 {
+	inline static constexpr unsigned int ChallengeAttackDamageTypeControl_TypeDefinitionIndex = 81411;
+
 	class ChallengeAttackDamageTypeControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

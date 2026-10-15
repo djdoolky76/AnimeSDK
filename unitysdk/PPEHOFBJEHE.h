@@ -37,6 +37,8 @@ namespace UnityEngine { class Renderer; }
 #define PPEHOFBJEHE__UNSERIALIZEASYNC_B__4_3_OFFSET UNITYSDK_OFFSET(0xC380B40)
 #define PPEHOFBJEHE__UNSERIALIZEASYNC_B__4_4_OFFSET UNITYSDK_OFFSET(0xC380BB0)
 
+inline static constexpr unsigned int PPEHOFBJEHE_TypeDefinitionIndex = 70785;
+
 	class PPEHOFBJEHE : public ::ADKLKMMEEHH
 	{
 	public:

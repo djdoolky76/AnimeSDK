@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvPropSteer_TypeDefinitionIndex = 22050;
+
 	class AdvPropSteer : public ::RPG::GameCore::TaskConfig
 	{
 	public:

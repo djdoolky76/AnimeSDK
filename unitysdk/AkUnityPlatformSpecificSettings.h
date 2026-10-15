@@ -10,6 +10,8 @@ class AkUnityPlatformSpecificSettings;
 #define AKUNITYPLATFORMSPECIFICSETTINGS_GETCPTR_OFFSET UNITYSDK_OFFSET(0x1F619780)
 #define AKUNITYPLATFORMSPECIFICSETTINGS_SETCPTR_OFFSET UNITYSDK_OFFSET(0x1F6197D0)
 
+inline static constexpr unsigned int AkUnityPlatformSpecificSettings_TypeDefinitionIndex = 44806;
+
 	class AkUnityPlatformSpecificSettings : public ::System::Object
 	{
 	public:

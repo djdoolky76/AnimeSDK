@@ -8,6 +8,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define CHGIEOHONGE_MGGPHJADAAG_OFFSET UNITYSDK_OFFSET(0xCF49E20)
 #define CHGIEOHONGE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xCF496F0)
 
+inline static constexpr unsigned int CHGIEOHONGE_TypeDefinitionIndex = 52376;
+
 	class CHGIEOHONGE
 	{
 	public:

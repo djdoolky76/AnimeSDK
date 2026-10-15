@@ -3,6 +3,8 @@
 
 namespace System
 {
+	inline static constexpr unsigned int SmallRect_TypeDefinitionIndex = 459;
+
 	struct alignas(4) SmallRect
 	{
 		::System::Int16 Left; // 0x10

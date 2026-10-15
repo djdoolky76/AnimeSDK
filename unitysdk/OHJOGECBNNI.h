@@ -7,6 +7,8 @@ class DEOOCBMMENB;
 #define OHJOGECBNNI_CTOR_OFFSET UNITYSDK_OFFSET(0xBE5B810)
 #define OHJOGECBNNI_LJBCDJNNBJH_OFFSET UNITYSDK_OFFSET(0xBE5B150)
 
+inline static constexpr unsigned int OHJOGECBNNI_TypeDefinitionIndex = 62047;
+
 	class OHJOGECBNNI : public ::BFLILCJMKDB
 	{
 	public:

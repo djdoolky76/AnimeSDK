@@ -103,6 +103,8 @@ namespace System { class String; }
 #define FCDDPJIEDGP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E340C10)
 #define FCDDPJIEDGP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E340C70)
 
+inline static constexpr unsigned int FCDDPJIEDGP_TypeDefinitionIndex = 25467;
+
 	class FCDDPJIEDGP : public ::System::Object
 	{
 	public:

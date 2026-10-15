@@ -6,6 +6,8 @@ namespace System { class Tuple; }
 
 namespace RPG::Client::Promises
 {
+	inline static constexpr unsigned int PromiseHelpers___c__DisplayClass0_0_2_TypeDefinitionIndex = 9899;
+
 	template <typename T1, typename T2>
 	class PromiseHelpers___c__DisplayClass0_0_2 : public ::System::Object
 	{

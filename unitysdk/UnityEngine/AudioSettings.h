@@ -7,6 +7,8 @@ namespace UnityEngine { class AudioSettings_AudioConfigurationChangeHandler; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int AudioSettings_TypeDefinitionIndex = 5142;
+
 	class AudioSettings : public ::System::Object
 	{
 	public:

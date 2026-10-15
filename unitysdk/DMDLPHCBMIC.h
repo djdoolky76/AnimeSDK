@@ -6,6 +6,8 @@ class FABMDCOFHCG;
 #define DMDLPHCBMIC_CTOR_OFFSET UNITYSDK_OFFSET(0xFEB9640)
 #define DMDLPHCBMIC_DISPOSE_OFFSET UNITYSDK_OFFSET(0xFEB95F0)
 
+inline static constexpr unsigned int DMDLPHCBMIC_TypeDefinitionIndex = 56093;
+
 	class DMDLPHCBMIC : public ::System::Object
 	{
 	public:

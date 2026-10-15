@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierSetSelectBuffGroupCountConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierSetSelectBuffGroupCountConfig_TypeDefinitionIndex = 17970;
+
 	class RogueModifierSetSelectBuffGroupCountConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

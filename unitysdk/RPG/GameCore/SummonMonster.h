@@ -16,6 +16,8 @@ namespace RPG::GameCore { class VCameraConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SummonMonster_TypeDefinitionIndex = 22654;
+
 	class SummonMonster : public ::RPG::GameCore::TaskConfig
 	{
 	public:

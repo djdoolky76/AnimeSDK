@@ -9,6 +9,8 @@ namespace RPG::Client::ActivityIdleLive { class IdleLiveDungeonData; }
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int IdleLiveDungeonInfo___c__DisplayClass21_0_TypeDefinitionIndex = 75213;
+
 	class IdleLiveDungeonInfo___c__DisplayClass21_0 : public ::System::Object
 	{
 	public:

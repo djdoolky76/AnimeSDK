@@ -8,6 +8,8 @@ namespace UnityEngine { class Animator; }
 
 namespace RPG::Client::LittleGame
 {
+	inline static constexpr unsigned int TimelineControlGameWorld_LevelGroupAction_TypeDefinitionIndex = 42521;
+
 	class TimelineControlGameWorld_LevelGroupAction : public ::System::Object
 	{
 	public:

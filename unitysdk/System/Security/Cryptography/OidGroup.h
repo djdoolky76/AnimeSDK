@@ -3,6 +3,8 @@
 
 namespace System::Security::Cryptography
 {
+	inline static constexpr unsigned int OidGroup_TypeDefinitionIndex = 2674;
+
 	enum class OidGroup : ::System::Int32
 	{
 		All = 0,

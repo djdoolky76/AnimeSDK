@@ -8,6 +8,8 @@ namespace System { class Action; }
 
 namespace RPG::Editor::SkillPreview
 {
+	inline static constexpr unsigned int EditorRootMotion_TypeDefinitionIndex = 52067;
+
 	class EditorRootMotion : public ::UnityEngine::MonoBehaviour
 	{
 	public:

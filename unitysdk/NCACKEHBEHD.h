@@ -15,6 +15,8 @@ namespace RPG::GameCore { class WaitAnimEvent; }
 #define NCACKEHBEHD_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBAF6A00)
 #define NCACKEHBEHD_TICK_OFFSET UNITYSDK_OFFSET(0xBAF6A60)
 
+inline static constexpr unsigned int NCACKEHBEHD_TypeDefinitionIndex = 55806;
+
 	class NCACKEHBEHD : public ::GELIALJDFBL
 	{
 	public:

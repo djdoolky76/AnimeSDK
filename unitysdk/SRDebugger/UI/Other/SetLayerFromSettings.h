@@ -7,6 +7,8 @@
 
 namespace SRDebugger::UI::Other
 {
+	inline static constexpr unsigned int SetLayerFromSettings_TypeDefinitionIndex = 38017;
+
 	class SetLayerFromSettings : public ::SRF::SRMonoBehaviour
 	{
 	public:

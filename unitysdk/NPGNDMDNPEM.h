@@ -28,6 +28,8 @@ namespace System { class String; }
 #define NPGNDMDNPEM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB9BBC0)
 #define NPGNDMDNPEM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB9BC20)
 
+inline static constexpr unsigned int NPGNDMDNPEM_TypeDefinitionIndex = 32092;
+
 	class NPGNDMDNPEM : public ::System::Object
 	{
 	public:

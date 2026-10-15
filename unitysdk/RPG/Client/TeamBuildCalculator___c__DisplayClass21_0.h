@@ -8,6 +8,8 @@ class MDNBBCOBGPH;
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TeamBuildCalculator___c__DisplayClass21_0_TypeDefinitionIndex = 68089;
+
 	class TeamBuildCalculator___c__DisplayClass21_0 : public ::System::Object
 	{
 	public:

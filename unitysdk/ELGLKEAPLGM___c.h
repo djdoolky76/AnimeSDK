@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define ELGLKEAPLGM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E2D0F80)
 #define ELGLKEAPLGM___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E2D0F90)
 
+inline static constexpr unsigned int ELGLKEAPLGM___c_TypeDefinitionIndex = 29177;
+
 	class ELGLKEAPLGM___c : public ::System::Object
 	{
 	public:

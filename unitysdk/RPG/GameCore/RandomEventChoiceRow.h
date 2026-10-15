@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RandomEventChoiceRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RandomEventChoiceRow_TypeDefinitionIndex = 14248;
+
 	class RandomEventChoiceRow : public ::System::Object
 	{
 	public:

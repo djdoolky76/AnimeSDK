@@ -15,6 +15,8 @@ namespace System::Net { class TimerThread_TimerNode; }
 
 namespace System::Net
 {
+	inline static constexpr unsigned int TimerThread_TimerNode_TypeDefinitionIndex = 2790;
+
 	class TimerThread_TimerNode : public ::System::Net::TimerThread_Timer
 	{
 	public:

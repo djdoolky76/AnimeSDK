@@ -14,6 +14,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TeamBuildCalculator___c_TypeDefinitionIndex = 68088;
+
 	class TeamBuildCalculator___c : public ::System::Object
 	{
 	public:

@@ -44,6 +44,8 @@ namespace System::Threading::Tasks { class Task; }
 
 namespace System::IO
 {
+	inline static constexpr unsigned int StreamReader_TypeDefinitionIndex = 692;
+
 	class StreamReader : public ::System::IO::TextReader
 	{
 	public:

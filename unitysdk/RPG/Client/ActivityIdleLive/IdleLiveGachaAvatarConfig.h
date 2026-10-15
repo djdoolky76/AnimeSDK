@@ -27,6 +27,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int IdleLiveGachaAvatarConfig_TypeDefinitionIndex = 75250;
+
 	class IdleLiveGachaAvatarConfig : public ::System::Object
 	{
 	public:

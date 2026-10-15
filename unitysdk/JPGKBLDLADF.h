@@ -35,6 +35,8 @@ namespace System { class String; }
 #define JPGKBLDLADF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E7D3AE0)
 #define JPGKBLDLADF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E7D3B40)
 
+inline static constexpr unsigned int JPGKBLDLADF_TypeDefinitionIndex = 29384;
+
 	class JPGKBLDLADF : public ::System::Object
 	{
 	public:

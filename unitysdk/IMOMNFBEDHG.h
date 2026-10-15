@@ -7,6 +7,8 @@ namespace System { class String; }
 
 #define IMOMNFBEDHG_CTOR_OFFSET UNITYSDK_OFFSET(0x164E3DB0)
 
+inline static constexpr unsigned int IMOMNFBEDHG_TypeDefinitionIndex = 82053;
+
 	class IMOMNFBEDHG : public ::System::Object
 	{
 	public:

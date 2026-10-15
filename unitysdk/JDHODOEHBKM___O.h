@@ -3,6 +3,8 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Action; }
 
+inline static constexpr unsigned int JDHODOEHBKM___O_TypeDefinitionIndex = 73333;
+
 	class JDHODOEHBKM___O : public ::System::Object
 	{
 	public:

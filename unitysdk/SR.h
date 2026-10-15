@@ -6,6 +6,8 @@ namespace System { class String; }
 
 #define SR_FORMAT_OFFSET UNITYSDK_OFFSET(0x1C09C9C0)
 
+inline static constexpr unsigned int SR_TypeDefinitionIndex = 3;
+
 	class SR : public ::System::Object
 	{
 	public:

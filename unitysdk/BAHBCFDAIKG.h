@@ -29,6 +29,8 @@ namespace System { class String; }
 #define BAHBCFDAIKG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E7B5190)
 #define BAHBCFDAIKG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E7B51F0)
 
+inline static constexpr unsigned int BAHBCFDAIKG_TypeDefinitionIndex = 33321;
+
 	class BAHBCFDAIKG : public ::System::Object
 	{
 	public:

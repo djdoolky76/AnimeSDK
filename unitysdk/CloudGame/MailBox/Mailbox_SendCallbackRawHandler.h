@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace CloudGame::MailBox
 {
+	inline static constexpr unsigned int Mailbox_SendCallbackRawHandler_TypeDefinitionIndex = 7545;
+
 	class Mailbox_SendCallbackRawHandler : public ::System::MulticastDelegate
 	{
 	public:

@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 
 namespace RPG::Client::Challenge::Tierce
 {
+	inline static constexpr unsigned int ChallengeTierceStageSelectTabsViewModel_TypeDefinitionIndex = 81621;
+
 	class ChallengeTierceStageSelectTabsViewModel : public ::Sofa::Core::ObservableObject
 	{
 	public:

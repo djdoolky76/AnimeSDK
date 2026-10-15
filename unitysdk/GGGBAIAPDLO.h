@@ -50,6 +50,8 @@ namespace System { class String; }
 #define GGGBAIAPDLO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E479C40)
 #define GGGBAIAPDLO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E479CA0)
 
+inline static constexpr unsigned int GGGBAIAPDLO_TypeDefinitionIndex = 32830;
+
 	class GGGBAIAPDLO : public ::System::Object
 	{
 	public:

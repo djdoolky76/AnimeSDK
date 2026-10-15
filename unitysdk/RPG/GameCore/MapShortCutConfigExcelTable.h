@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MapShortCutConfigExcelTable_TypeDefinitionIndex = 12573;
+
 	class MapShortCutConfigExcelTable : public ::System::Object
 	{
 	public:

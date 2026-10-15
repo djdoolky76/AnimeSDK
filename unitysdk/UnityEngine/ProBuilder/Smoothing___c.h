@@ -12,6 +12,8 @@ namespace UnityEngine::ProBuilder { class Face; }
 
 namespace UnityEngine::ProBuilder
 {
+	inline static constexpr unsigned int Smoothing___c_TypeDefinitionIndex = 44438;
+
 	class Smoothing___c : public ::System::Object
 	{
 	public:

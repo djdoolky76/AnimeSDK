@@ -13,6 +13,8 @@ namespace UnityEngine { class Transform; }
 #define KKBMBCNKKNL_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0xB4B58C0)
 #define KKBMBCNKKNL__ONEXECUTE_B__1_0_OFFSET UNITYSDK_OFFSET(0xB4B5AF0)
 
+inline static constexpr unsigned int KKBMBCNKKNL_TypeDefinitionIndex = 74468;
+
 	class KKBMBCNKKNL : public ::MFDDEJCPLON
 	{
 	public:

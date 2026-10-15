@@ -12,6 +12,8 @@ namespace RPG::GameCore { class ConvinceShowToast; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ConvinceShowToast_TypeDefinitionIndex = 21846;
+
 	class ConvinceShowToast : public ::RPG::GameCore::TaskConfig
 	{
 	public:

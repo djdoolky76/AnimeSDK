@@ -13,6 +13,8 @@ namespace System::Reflection { class MethodInfo; }
 
 namespace System::Linq::Expressions
 {
+	inline static constexpr unsigned int SwitchExpression_TypeDefinitionIndex = 3277;
+
 	class SwitchExpression : public ::System::Linq::Expressions::Expression
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define GFCOMFNNGAP_ICLOCNNCPFG_1_OFFSET UNITYSDK_OFFSET(0x1DD5D820)
 #define GFCOMFNNGAP_ICLOCNNCPFG_2_OFFSET UNITYSDK_OFFSET(0x1DD5DA10)
 
+inline static constexpr unsigned int GFCOMFNNGAP_TypeDefinitionIndex = 6395;
+
 	class GFCOMFNNGAP : public ::System::Object
 	{
 	public:

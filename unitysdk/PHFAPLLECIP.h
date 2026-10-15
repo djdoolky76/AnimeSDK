@@ -9,6 +9,8 @@ class PHFAPLLECIP;
 #define PHFAPLLECIP_ONCLEAR_OFFSET UNITYSDK_OFFSET(0xC24B790)
 #define PHFAPLLECIP_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0xC24B6A0)
 
+inline static constexpr unsigned int PHFAPLLECIP_TypeDefinitionIndex = 78164;
+
 	class PHFAPLLECIP : public ::AJHHFMBOCEN
 	{
 	public:

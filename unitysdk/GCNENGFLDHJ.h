@@ -8,6 +8,8 @@ class GCNENGFLDHJ;
 #define GCNENGFLDHJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1CE2BED0)
 #define GCNENGFLDHJ_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CE2BDC0)
 
+inline static constexpr unsigned int GCNENGFLDHJ_TypeDefinitionIndex = 15407;
+
 	class GCNENGFLDHJ : public ::System::Object
 	{
 	public:

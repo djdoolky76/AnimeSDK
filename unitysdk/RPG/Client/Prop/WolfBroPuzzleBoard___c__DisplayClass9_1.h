@@ -9,6 +9,8 @@ namespace System { class Object; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int WolfBroPuzzleBoard___c__DisplayClass9_1_TypeDefinitionIndex = 78695;
+
 	template <typename T>
 	class WolfBroPuzzleBoard___c__DisplayClass9_1 : public ::System::Object
 	{

@@ -30,6 +30,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CakeRaceBattleItemUIHandler_TypeDefinitionIndex = 63002;
+
 	class CakeRaceBattleItemUIHandler : public ::System::Object
 	{
 	public:

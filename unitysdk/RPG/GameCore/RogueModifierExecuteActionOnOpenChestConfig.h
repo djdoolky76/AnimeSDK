@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierExecuteActionOnOpenChestConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierExecuteActionOnOpenChestConfig_TypeDefinitionIndex = 17693;
+
 	class RogueModifierExecuteActionOnOpenChestConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

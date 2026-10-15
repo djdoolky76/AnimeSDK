@@ -15,6 +15,8 @@ namespace System { class Object; }
 #define CMFCBCOKECM_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xDA2F740)
 #define CMFCBCOKECM_TICK_OFFSET UNITYSDK_OFFSET(0xDA2F790)
 
+inline static constexpr unsigned int CMFCBCOKECM_TypeDefinitionIndex = 52922;
+
 	class CMFCBCOKECM : public ::GELIALJDFBL
 	{
 	public:

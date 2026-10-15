@@ -31,6 +31,8 @@ namespace System { class String; }
 #define FLAIJDHDEBI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E3B45C0)
 #define FLAIJDHDEBI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E3B4620)
 
+inline static constexpr unsigned int FLAIJDHDEBI_TypeDefinitionIndex = 31487;
+
 	class FLAIJDHDEBI : public ::System::Object
 	{
 	public:

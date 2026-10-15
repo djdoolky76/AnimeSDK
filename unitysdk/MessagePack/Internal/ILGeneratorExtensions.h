@@ -29,6 +29,8 @@ namespace System::Reflection::Emit { class LocalBuilder; }
 
 namespace MessagePack::Internal
 {
+	inline static constexpr unsigned int ILGeneratorExtensions_TypeDefinitionIndex = 7296;
+
 	class ILGeneratorExtensions : public ::System::Object
 	{
 	public:

@@ -34,6 +34,8 @@ namespace ZenFulcrum::VR::OpenVRBinding { class IVRApplications__SetDefaultAppli
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int IVRApplications_TypeDefinitionIndex = 38952;
+
 	struct alignas(8) IVRApplications
 	{
 		::ZenFulcrum::VR::OpenVRBinding::IVRApplications__AddApplicationManifest* AddApplicationManifest; // 0x10

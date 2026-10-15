@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ST_Main_ElfCustomerProcessEvent; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ST_Main_ElfCustomerProcessEvent_TypeDefinitionIndex = 21532;
+
 	class ST_Main_ElfCustomerProcessEvent : public ::RPG::GameCore::STTaskConfig
 	{
 	public:

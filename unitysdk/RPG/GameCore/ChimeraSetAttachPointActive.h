@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChimeraSetAttachPointActive_TypeDefinitionIndex = 15866;
+
 	class ChimeraSetAttachPointActive : public ::RPG::GameCore::ChimeraAbilityProgressBase
 	{
 	public:

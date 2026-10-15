@@ -21,6 +21,8 @@ namespace UnityEngine { class Shader; }
 
 namespace UnityEngine::Experimental::Rendering
 {
+	inline static constexpr unsigned int ShaderWarmup_TypeDefinitionIndex = 4948;
+
 	class ShaderWarmup : public ::System::Object
 	{
 	public:

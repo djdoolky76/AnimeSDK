@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::LittleGame::CakeRace
 {
+	inline static constexpr unsigned int CakeRaceReplayData_TypeDefinitionIndex = 78094;
+
 	class CakeRaceReplayData : public ::System::Object
 	{
 	public:

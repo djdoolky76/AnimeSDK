@@ -10,6 +10,8 @@ namespace RPG::GameCore { class LockCurrentEnvProfile; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LockCurrentEnvProfile_TypeDefinitionIndex = 20756;
+
 	class LockCurrentEnvProfile : public ::RPG::GameCore::TaskConfig
 	{
 	public:

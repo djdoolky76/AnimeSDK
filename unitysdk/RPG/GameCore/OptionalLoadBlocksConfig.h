@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int OptionalLoadBlocksConfig_TypeDefinitionIndex = 19162;
+
 	class OptionalLoadBlocksConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

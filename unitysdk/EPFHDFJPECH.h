@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define EPFHDFJPECH_CTOR_OFFSET UNITYSDK_OFFSET(0x155D4260)
 #define EPFHDFJPECH_IKOCHGBIGPJ_OFFSET UNITYSDK_OFFSET(0x155D4270)
 
+inline static constexpr unsigned int EPFHDFJPECH_TypeDefinitionIndex = 79401;
+
 	class EPFHDFJPECH : public ::System::Object
 	{
 	public:

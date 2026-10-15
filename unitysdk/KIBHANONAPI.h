@@ -7,6 +7,8 @@ namespace System { class String; }
 
 #define KIBHANONAPI_CTOR_OFFSET UNITYSDK_OFFSET(0xB4188B0)
 
+inline static constexpr unsigned int KIBHANONAPI_TypeDefinitionIndex = 52099;
+
 	class KIBHANONAPI : public ::System::Object
 	{
 	public:

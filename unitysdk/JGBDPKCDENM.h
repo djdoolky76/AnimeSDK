@@ -13,6 +13,8 @@ namespace System { class String; }
 #define JGBDPKCDENM_KBFDFOGDILL_OFFSET UNITYSDK_OFFSET(0x1665D660)
 #define JGBDPKCDENM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1665E380)
 
+inline static constexpr unsigned int JGBDPKCDENM_TypeDefinitionIndex = 49189;
+
 	class JGBDPKCDENM : public ::DGICFAFGCPA
 	{
 	public:

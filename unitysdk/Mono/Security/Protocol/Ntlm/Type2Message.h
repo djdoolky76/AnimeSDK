@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace Mono::Security::Protocol::Ntlm
 {
+	inline static constexpr unsigned int Type2Message_TypeDefinitionIndex = 2279;
+
 	class Type2Message : public ::Mono::Security::Protocol::Ntlm::MessageBase
 	{
 	public:

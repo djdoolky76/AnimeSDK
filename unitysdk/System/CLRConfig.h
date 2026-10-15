@@ -6,6 +6,8 @@
 
 namespace System
 {
+	inline static constexpr unsigned int CLRConfig_TypeDefinitionIndex = 369;
+
 	class CLRConfig : public ::System::Object
 	{
 	public:

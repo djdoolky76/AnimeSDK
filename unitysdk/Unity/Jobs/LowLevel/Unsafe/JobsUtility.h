@@ -29,6 +29,8 @@ namespace System { class Type; }
 
 namespace Unity::Jobs::LowLevel::Unsafe
 {
+	inline static constexpr unsigned int JobsUtility_TypeDefinitionIndex = 3967;
+
 	class JobsUtility : public ::System::Object
 	{
 	public:

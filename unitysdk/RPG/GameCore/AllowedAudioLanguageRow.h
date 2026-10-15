@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AllowedAudioLanguageRow_TypeDefinitionIndex = 12648;
+
 	class AllowedAudioLanguageRow : public ::System::Object
 	{
 	public:

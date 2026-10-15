@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ShowSkillCutIn_TypeDefinitionIndex = 22951;
+
 	class ShowSkillCutIn : public ::RPG::GameCore::TaskConfig
 	{
 	public:

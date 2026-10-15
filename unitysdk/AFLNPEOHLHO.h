@@ -35,6 +35,8 @@ namespace System { class String; }
 #define AFLNPEOHLHO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E11ACE0)
 #define AFLNPEOHLHO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E11AD40)
 
+inline static constexpr unsigned int AFLNPEOHLHO_TypeDefinitionIndex = 34333;
+
 	class AFLNPEOHLHO : public ::System::Object
 	{
 	public:

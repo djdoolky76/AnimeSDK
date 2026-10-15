@@ -13,6 +13,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define DFKEEOLJALO_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xE831010)
 #define DFKEEOLJALO_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xE830FB0)
 
+inline static constexpr unsigned int DFKEEOLJALO_TypeDefinitionIndex = 56687;
+
 	class DFKEEOLJALO : public ::CMPGEAFHHDC
 	{
 	public:

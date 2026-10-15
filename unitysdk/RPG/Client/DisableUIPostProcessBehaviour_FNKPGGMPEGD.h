@@ -7,6 +7,8 @@ namespace UnityEngine { class Material; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int DisableUIPostProcessBehaviour_FNKPGGMPEGD_TypeDefinitionIndex = 72762;
+
 	class DisableUIPostProcessBehaviour_FNKPGGMPEGD : public ::System::Object
 	{
 	public:

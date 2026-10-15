@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StageRegionLoadType_TypeDefinitionIndex = 24442;
+
 	enum class StageRegionLoadType : ::System::Int32
 	{
 		Distance = 0,

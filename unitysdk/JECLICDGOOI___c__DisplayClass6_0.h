@@ -13,6 +13,8 @@ namespace RPG::Client { class GridFightEquipReturnPackEvent; }
 #define JECLICDGOOI___C__DISPLAYCLASS6_0__UPDATEROLE_B__2_OFFSET UNITYSDK_OFFSET(0x1661DD30)
 #define JECLICDGOOI___C__DISPLAYCLASS6_0__UPDATEROLE_B__3_OFFSET UNITYSDK_OFFSET(0x1661DD80)
 
+inline static constexpr unsigned int JECLICDGOOI___c__DisplayClass6_0_TypeDefinitionIndex = 64953;
+
 	class JECLICDGOOI___c__DisplayClass6_0 : public ::System::Object
 	{
 	public:

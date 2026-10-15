@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ChangeHeroBasicType; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChangeHeroBasicType_TypeDefinitionIndex = 20879;
+
 	class ChangeHeroBasicType : public ::RPG::GameCore::TaskConfig
 	{
 	public:

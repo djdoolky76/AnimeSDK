@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define NHAAPILNALO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB18BD0)
 #define NHAAPILNALO___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1EB18BE0)
 
+inline static constexpr unsigned int NHAAPILNALO___c_TypeDefinitionIndex = 28948;
+
 	class NHAAPILNALO___c : public ::System::Object
 	{
 	public:

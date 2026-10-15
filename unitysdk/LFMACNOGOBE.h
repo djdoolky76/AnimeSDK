@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define LFMACNOGOBE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB684650)
 #define LFMACNOGOBE_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB684930)
 
+inline static constexpr unsigned int LFMACNOGOBE_TypeDefinitionIndex = 58415;
+
 	class LFMACNOGOBE
 	{
 	public:

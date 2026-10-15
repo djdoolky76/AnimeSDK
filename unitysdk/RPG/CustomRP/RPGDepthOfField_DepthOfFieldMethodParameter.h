@@ -5,6 +5,8 @@
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int RPGDepthOfField_DepthOfFieldMethodParameter_TypeDefinitionIndex = 37800;
+
 	class RPGDepthOfField_DepthOfFieldMethodParameter
 	{
 	public:

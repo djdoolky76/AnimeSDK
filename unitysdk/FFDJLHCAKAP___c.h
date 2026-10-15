@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define FFDJLHCAKAP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E36B180)
 #define FFDJLHCAKAP___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E36B190)
 
+inline static constexpr unsigned int FFDJLHCAKAP___c_TypeDefinitionIndex = 33461;
+
 	class FFDJLHCAKAP___c : public ::System::Object
 	{
 	public:

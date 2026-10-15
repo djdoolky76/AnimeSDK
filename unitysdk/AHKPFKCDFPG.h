@@ -4,6 +4,8 @@
 
 #define AHKPFKCDFPG_CTOR_OFFSET UNITYSDK_OFFSET(0xEB86000)
 
+inline static constexpr unsigned int AHKPFKCDFPG_TypeDefinitionIndex = 48397;
+
 	class AHKPFKCDFPG : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

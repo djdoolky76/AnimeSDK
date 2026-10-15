@@ -9,6 +9,8 @@ namespace System { class Exception; }
 
 namespace IFix::Core
 {
+	inline static constexpr unsigned int RuntimeException_TypeDefinitionIndex = 7137;
+
 	class RuntimeException : public ::System::Exception
 	{
 	public:

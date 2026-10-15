@@ -8,6 +8,8 @@
 
 namespace XLua
 {
+	inline static constexpr unsigned int GCOptimizeAttribute_TypeDefinitionIndex = 5608;
+
 	class GCOptimizeAttribute : public ::System::Attribute
 	{
 	public:

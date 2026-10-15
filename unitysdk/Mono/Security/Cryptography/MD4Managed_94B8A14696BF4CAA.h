@@ -20,6 +20,8 @@
 
 namespace Mono::Security::Cryptography
 {
+	inline static constexpr unsigned int MD4Managed_94B8A14696BF4CAA_TypeDefinitionIndex = 2305;
+
 	class MD4Managed_94B8A14696BF4CAA : public ::Mono::Security::Cryptography::MD4_FC7A27A7D0AD78DA
 	{
 	public:

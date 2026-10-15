@@ -10,6 +10,8 @@ namespace System { class String; }
 #define MDDCPINJLLK_KAJOBJFIAMJ_OFFSET UNITYSDK_OFFSET(0xB89EAC0)
 #define MDDCPINJLLK_MFLPNHDNCBD_OFFSET UNITYSDK_OFFSET(0xB89EC10)
 
+inline static constexpr unsigned int MDDCPINJLLK_TypeDefinitionIndex = 77566;
+
 	class MDDCPINJLLK : public ::LEMPCCICHAA
 	{
 	public:

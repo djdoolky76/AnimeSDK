@@ -8,6 +8,8 @@ namespace UnityEngine::EventSystems { class PointerEventData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SwitchHandDragHandler_TypeDefinitionIndex = 72930;
+
 	class SwitchHandDragHandler : public ::UnityEngine::MonoBehaviour
 	{
 	public:

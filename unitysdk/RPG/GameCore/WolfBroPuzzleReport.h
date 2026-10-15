@@ -10,6 +10,8 @@ namespace RPG::GameCore { class WolfBroPuzzleReport; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WolfBroPuzzleReport_TypeDefinitionIndex = 20369;
+
 	class WolfBroPuzzleReport : public ::RPG::GameCore::TaskConfig
 	{
 	public:

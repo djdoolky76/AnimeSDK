@@ -8,6 +8,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UIAdventureMinimap_InstancedZone_TypeDefinitionIndex = 69060;
+
 	class UIAdventureMinimap_InstancedZone : public ::System::Object
 	{
 	public:

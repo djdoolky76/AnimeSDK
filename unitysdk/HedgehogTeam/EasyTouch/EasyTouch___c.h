@@ -14,6 +14,8 @@ namespace System { template <typename T> class Predicate_1; }
 
 namespace HedgehogTeam::EasyTouch
 {
+	inline static constexpr unsigned int EasyTouch___c_TypeDefinitionIndex = 40334;
+
 	class EasyTouch___c : public ::System::Object
 	{
 	public:

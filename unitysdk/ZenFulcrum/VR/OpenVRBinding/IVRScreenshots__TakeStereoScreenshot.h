@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int IVRScreenshots__TakeStereoScreenshot_TypeDefinitionIndex = 39181;
+
 	class IVRScreenshots__TakeStereoScreenshot : public ::System::MulticastDelegate
 	{
 	public:

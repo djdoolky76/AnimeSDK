@@ -27,6 +27,8 @@ namespace System { class String; }
 #define EIFJNMDDNPF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E2A8D90)
 #define EIFJNMDDNPF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E2A8DF0)
 
+inline static constexpr unsigned int EIFJNMDDNPF_TypeDefinitionIndex = 27124;
+
 	class EIFJNMDDNPF : public ::System::Object
 	{
 	public:

@@ -17,6 +17,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define BJCIINILEJA_MMBGNNKHAEG_OFFSET UNITYSDK_OFFSET(0xB7972D0)
 #define BJCIINILEJA_PJFKICFHEFH_OFFSET UNITYSDK_OFFSET(0xB797420)
 
+inline static constexpr unsigned int BJCIINILEJA_TypeDefinitionIndex = 73391;
+
 	class BJCIINILEJA : public ::System::Object
 	{
 	public:

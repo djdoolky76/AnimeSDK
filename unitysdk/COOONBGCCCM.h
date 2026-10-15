@@ -30,6 +30,8 @@ class HKAJMEMCBLC;
 #define COOONBGCCCM_SET_NEEDRELEASETARGET_OFFSET UNITYSDK_OFFSET(0xDCC5DF0)
 #define COOONBGCCCM_SET_RAWCASTER_OFFSET UNITYSDK_OFFSET(0xDCC5DD0)
 
+inline static constexpr unsigned int COOONBGCCCM_TypeDefinitionIndex = 81099;
+
 	class COOONBGCCCM : public ::System::Object
 	{
 	public:

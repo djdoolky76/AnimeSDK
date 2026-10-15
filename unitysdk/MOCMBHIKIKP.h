@@ -29,6 +29,8 @@ namespace System { class String; }
 #define MOCMBHIKIKP_PEFLJDOKOIL_OFFSET UNITYSDK_OFFSET(0x1DD797F0)
 #define MOCMBHIKIKP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DD7A730)
 
+inline static constexpr unsigned int MOCMBHIKIKP_TypeDefinitionIndex = 6296;
+
 	class MOCMBHIKIKP : public ::System::Object
 	{
 	public:

@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BakeLayoutTypeId_TypeDefinitionIndex = 16446;
+
 	enum class BakeLayoutTypeId : ::System::UInt16
 	{
 		TypeId_TurnBasedModifierConfig = 0,

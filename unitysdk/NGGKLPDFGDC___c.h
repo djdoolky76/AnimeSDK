@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define NGGKLPDFGDC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB0E4F0)
 #define NGGKLPDFGDC___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1EB0E500)
 
+inline static constexpr unsigned int NGGKLPDFGDC___c_TypeDefinitionIndex = 27018;
+
 	class NGGKLPDFGDC___c : public ::System::Object
 	{
 	public:

@@ -4,6 +4,8 @@
 
 #define AJPMKPMEHAA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8900E0)
 
+inline static constexpr unsigned int AJPMKPMEHAA_TypeDefinitionIndex = 41955;
+
 	class AJPMKPMEHAA : public ::System::Object
 	{
 	public:

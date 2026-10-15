@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define FEONJHHIAJI_CTOR_OFFSET UNITYSDK_OFFSET(0x1572D820)
 #define FEONJHHIAJI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1572D850)
 
+inline static constexpr unsigned int FEONJHHIAJI_TypeDefinitionIndex = 53000;
+
 	class FEONJHHIAJI
 	{
 	public:

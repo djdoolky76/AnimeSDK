@@ -15,6 +15,8 @@ namespace System::Collections { class IEnumerator; }
 
 namespace System::Collections::Specialized
 {
+	inline static constexpr unsigned int OrderedDictionary_OrderedDictionaryKeyValueCollection_TypeDefinitionIndex = 3005;
+
 	class OrderedDictionary_OrderedDictionaryKeyValueCollection : public ::System::Object
 	{
 	public:

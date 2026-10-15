@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ProceduralShapeType_TypeDefinitionIndex = 72708;
+
 	enum class ProceduralShapeType : ::System::Int32
 	{
 		Rectangle = 0,

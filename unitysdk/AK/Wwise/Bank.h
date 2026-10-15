@@ -16,6 +16,8 @@ class WwiseObjectReference;
 
 namespace AK::Wwise
 {
+	inline static constexpr unsigned int Bank_TypeDefinitionIndex = 44977;
+
 	class Bank : public ::AK::Wwise::BaseType
 	{
 	public:

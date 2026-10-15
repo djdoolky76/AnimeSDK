@@ -6,6 +6,8 @@ namespace RPG::GameCore { class FiveDimDoorConfig; }
 
 #define BILGPEFHNCE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8BAF00)
 
+inline static constexpr unsigned int BILGPEFHNCE_TypeDefinitionIndex = 43476;
+
 	class BILGPEFHNCE : public ::System::Object
 	{
 	public:

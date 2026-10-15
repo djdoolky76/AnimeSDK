@@ -9,6 +9,8 @@ namespace RPG::Client { class ItemDisplayData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MusicRhythmLevelRewardInfo_TypeDefinitionIndex = 61819;
+
 	struct alignas(8) MusicRhythmLevelRewardInfo
 	{
 		::System::Boolean IsMaxDifficulty; // 0x10

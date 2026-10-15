@@ -8,6 +8,8 @@ class JCILHCAJAFM;
 #define JCILHCAJAFM_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D018C90)
 #define JCILHCAJAFM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D018C50)
 
+inline static constexpr unsigned int JCILHCAJAFM_TypeDefinitionIndex = 21466;
+
 	class JCILHCAJAFM : public ::RPG::GameCore::TaskConfig
 	{
 	public:

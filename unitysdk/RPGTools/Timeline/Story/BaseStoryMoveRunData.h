@@ -7,6 +7,8 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace RPGTools::Timeline::Story
 {
+	inline static constexpr unsigned int BaseStoryMoveRunData_TypeDefinitionIndex = 48705;
+
 	class BaseStoryMoveRunData : public ::RPGTools::Timeline::Story::BaseStoryMoveData
 	{
 	public:

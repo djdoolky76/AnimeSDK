@@ -9,6 +9,8 @@ namespace RPG::GameCore { class RogueBonusEventConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueBonusEventConfig_TypeDefinitionIndex = 17904;
+
 	class RogueBonusEventConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

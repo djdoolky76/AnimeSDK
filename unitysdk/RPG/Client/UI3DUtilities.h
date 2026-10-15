@@ -23,6 +23,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UI3DUtilities_TypeDefinitionIndex = 73014;
+
 	class UI3DUtilities : public ::System::Object
 	{
 	public:

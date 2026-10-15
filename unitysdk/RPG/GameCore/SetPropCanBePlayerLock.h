@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetPropCanBePlayerLock_TypeDefinitionIndex = 22245;
+
 	class SetPropCanBePlayerLock : public ::RPG::GameCore::TaskConfig
 	{
 	public:

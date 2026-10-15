@@ -11,6 +11,8 @@ namespace RPG::Client::MechCraft::ViewModel { class MechCraftActorViewModel; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftActorHeadControl_TypeDefinitionIndex = 80011;
+
 	class MechCraftActorHeadControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -68,6 +68,8 @@ namespace System { class Object; }
 #define KBOPDLABJDF_SET_WAYPOINTSHOWRANGEMAX_OFFSET UNITYSDK_OFFSET(0xB3248F0)
 #define KBOPDLABJDF_SET_WAYPOINTSHOWRANGEMIN_OFFSET UNITYSDK_OFFSET(0xB3248D0)
 
+inline static constexpr unsigned int KBOPDLABJDF_TypeDefinitionIndex = 60641;
+
 	class KBOPDLABJDF : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ModifyAdventureCharacterCollider; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ModifyAdventureCharacterCollider_TypeDefinitionIndex = 22414;
+
 	class ModifyAdventureCharacterCollider : public ::RPG::GameCore::TaskConfig
 	{
 	public:

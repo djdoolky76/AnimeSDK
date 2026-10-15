@@ -21,6 +21,8 @@ namespace RPG::Client::FateRin::Battle { class IFateRinCardHitTestService; }
 
 namespace RPG::Client::FateRin::Tutorial
 {
+	inline static constexpr unsigned int FateRinBattleTutorialViewModel_TypeDefinitionIndex = 80721;
+
 	class FateRinBattleTutorialViewModel : public ::RPG::Client::FateRin::BaseViewModel
 	{
 	public:

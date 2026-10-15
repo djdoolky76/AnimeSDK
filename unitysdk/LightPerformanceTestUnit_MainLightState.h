@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int LightPerformanceTestUnit_MainLightState_TypeDefinitionIndex = 47319;
+
 	enum class LightPerformanceTestUnit_MainLightState : ::System::Int32
 	{
 		MainLight_Off = 0,

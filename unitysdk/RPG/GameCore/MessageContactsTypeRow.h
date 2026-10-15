@@ -10,6 +10,8 @@ namespace RPG::GameCore { class MessageContactsTypeRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MessageContactsTypeRow_TypeDefinitionIndex = 14473;
+
 	class MessageContactsTypeRow : public ::System::Object
 	{
 	public:

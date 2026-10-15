@@ -27,6 +27,8 @@ namespace System::Net { class CookieCollection; }
 
 namespace System::Net
 {
+	inline static constexpr unsigned int CookieCollection_TypeDefinitionIndex = 2800;
+
 	class CookieCollection : public ::System::Object
 	{
 	public:

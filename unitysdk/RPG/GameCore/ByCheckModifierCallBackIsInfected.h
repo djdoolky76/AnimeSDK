@@ -13,6 +13,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByCheckModifierCallBackIsInfected_TypeDefinitionIndex = 23047;
+
 	class ByCheckModifierCallBackIsInfected : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

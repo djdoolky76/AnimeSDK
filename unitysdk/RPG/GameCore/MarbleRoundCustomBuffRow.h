@@ -9,6 +9,8 @@ namespace RPG::GameCore { class MarbleRoundCustomBuffRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MarbleRoundCustomBuffRow_TypeDefinitionIndex = 11890;
+
 	class MarbleRoundCustomBuffRow : public ::System::Object
 	{
 	public:

@@ -14,6 +14,8 @@ namespace RPG::GameCore { class MiParameterConfigBase; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ActionSwitchCaseConfig_TypeDefinitionIndex = 17056;
+
 	class ActionSwitchCaseConfig : public ::RPG::GameCore::MiActionConfigBase
 	{
 	public:

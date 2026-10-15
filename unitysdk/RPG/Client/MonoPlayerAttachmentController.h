@@ -15,6 +15,8 @@ class CMIGMEGEAEI;
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoPlayerAttachmentController_TypeDefinitionIndex = 60142;
+
 	class MonoPlayerAttachmentController : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -53,6 +53,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightRoleSkillDetail_TypeDefinitionIndex = 65146;
+
 	class GridFightRoleSkillDetail : public ::System::Object
 	{
 	public:

@@ -41,6 +41,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ElfRestaurantProgressInfo_TypeDefinitionIndex = 63725;
+
 	class ElfRestaurantProgressInfo : public ::System::Object
 	{
 	public:

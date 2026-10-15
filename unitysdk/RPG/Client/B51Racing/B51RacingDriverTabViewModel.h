@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::Client::B51Racing
 {
+	inline static constexpr unsigned int B51RacingDriverTabViewModel_TypeDefinitionIndex = 82032;
+
 	class B51RacingDriverTabViewModel : public ::System::Object
 	{
 	public:

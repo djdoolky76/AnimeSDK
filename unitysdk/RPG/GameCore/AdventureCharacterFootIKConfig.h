@@ -11,6 +11,8 @@ namespace RPG::GameCore { class AdventureCharacterFootIKConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdventureCharacterFootIKConfig_TypeDefinitionIndex = 17435;
+
 	class AdventureCharacterFootIKConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

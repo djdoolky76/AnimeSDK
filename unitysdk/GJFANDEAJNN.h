@@ -23,6 +23,8 @@ namespace System::Text { class StringBuilder; }
 #define GJFANDEAJNN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x15A64D80)
 #define GJFANDEAJNN__CLONE___OFFSET UNITYSDK_OFFSET(0x15A654F0)
 
+inline static constexpr unsigned int GJFANDEAJNN_TypeDefinitionIndex = 80607;
+
 	class GJFANDEAJNN : public ::System::Object
 	{
 	public:

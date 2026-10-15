@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int DiceCombatActivityData___c_TypeDefinitionIndex = 61611;
+
 	class DiceCombatActivityData___c : public ::System::Object
 	{
 	public:

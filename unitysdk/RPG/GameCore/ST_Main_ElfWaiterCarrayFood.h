@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ST_Main_ElfWaiterCarrayFood; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ST_Main_ElfWaiterCarrayFood_TypeDefinitionIndex = 21519;
+
 	class ST_Main_ElfWaiterCarrayFood : public ::RPG::GameCore::STTaskConfig
 	{
 	public:

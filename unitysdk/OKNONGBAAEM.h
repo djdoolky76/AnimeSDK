@@ -32,6 +32,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define OKNONGBAAEM_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D295760)
 #define OKNONGBAAEM_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D296190)
 
+inline static constexpr unsigned int OKNONGBAAEM_TypeDefinitionIndex = 15124;
+
 	class OKNONGBAAEM : public ::System::Object
 	{
 	public:

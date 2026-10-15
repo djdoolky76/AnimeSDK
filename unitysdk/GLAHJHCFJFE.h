@@ -11,6 +11,8 @@ namespace Entitas { template <typename T> class IMatcher_1; }
 #define GLAHJHCFJFE_GETREPLICATEDMATCHER_OFFSET UNITYSDK_OFFSET(0x1C6462E0)
 #define GLAHJHCFJFE_GETTRANSFORMMATCHER_OFFSET UNITYSDK_OFFSET(0x1C6464C0)
 
+inline static constexpr unsigned int GLAHJHCFJFE_TypeDefinitionIndex = 37034;
+
 	class GLAHJHCFJFE
 	{
 	public:

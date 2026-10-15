@@ -11,6 +11,8 @@ namespace System { template <typename T> class Comparison_1; }
 
 namespace UnityEngine::Timeline
 {
+	inline static constexpr unsigned int TimeNotificationBehaviour___c_TypeDefinitionIndex = 38853;
+
 	class TimeNotificationBehaviour___c : public ::System::Object
 	{
 	public:

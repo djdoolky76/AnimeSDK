@@ -9,6 +9,8 @@ namespace System { class LocalDataStore; }
 
 namespace System
 {
+	inline static constexpr unsigned int LocalDataStoreHolder_TypeDefinitionIndex = 163;
+
 	class LocalDataStoreHolder : public ::System::Object
 	{
 	public:

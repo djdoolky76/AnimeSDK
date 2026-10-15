@@ -28,6 +28,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Effect_SpecialVisionHint_TypeDefinitionIndex = 70555;
+
 	class Effect_SpecialVisionHint : public ::UnityEngine::MonoBehaviour
 	{
 	public:

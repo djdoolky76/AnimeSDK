@@ -8,6 +8,8 @@ class HNGIHOODNMB;
 #define HNGIHOODNMB_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x15D938B0)
 #define HNGIHOODNMB_CTOR_OFFSET UNITYSDK_OFFSET(0x15D938A0)
 
+inline static constexpr unsigned int HNGIHOODNMB_TypeDefinitionIndex = 69330;
+
 	class HNGIHOODNMB : public ::System::Object
 	{
 	public:

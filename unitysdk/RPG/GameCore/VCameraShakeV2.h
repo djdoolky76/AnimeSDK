@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int VCameraShakeV2_TypeDefinitionIndex = 16417;
+
 	class VCameraShakeV2 : public ::RPG::GameCore::JsonConfig
 	{
 	public:

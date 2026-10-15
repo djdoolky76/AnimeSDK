@@ -29,6 +29,8 @@ namespace System::Runtime::InteropServices { class SafeBuffer; }
 
 namespace System::IO
 {
+	inline static constexpr unsigned int UnmanagedMemoryAccessor_TypeDefinitionIndex = 705;
+
 	class UnmanagedMemoryAccessor : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@
 
 namespace Newtonsoft::Json::Linq::JsonPath
 {
+	inline static constexpr unsigned int QueryFilter_TypeDefinitionIndex = 9809;
+
 	class QueryFilter : public ::Newtonsoft::Json::Linq::JsonPath::PathFilter
 	{
 	public:

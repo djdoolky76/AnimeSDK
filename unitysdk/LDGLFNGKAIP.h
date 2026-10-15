@@ -7,6 +7,8 @@ class LDGLFNGKAIP;
 #define LDGLFNGKAIP_CTOR_OFFSET UNITYSDK_OFFSET(0x1D0E0F90)
 #define LDGLFNGKAIP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D0E0E70)
 
+inline static constexpr unsigned int LDGLFNGKAIP_TypeDefinitionIndex = 14776;
+
 	class LDGLFNGKAIP : public ::System::Object
 	{
 	public:

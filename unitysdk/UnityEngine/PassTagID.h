@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int PassTagID_TypeDefinitionIndex = 4256;
+
 	struct alignas(8) PassTagID
 	{
 		::System::String* name; // 0x10

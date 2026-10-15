@@ -14,6 +14,8 @@ namespace ZXing::Common { class BitMatrix; }
 
 namespace ZXing::OneD
 {
+	inline static constexpr unsigned int EAN13Writer_TypeDefinitionIndex = 7007;
+
 	class EAN13Writer : public ::ZXing::OneD::UPCEANWriter
 	{
 	public:

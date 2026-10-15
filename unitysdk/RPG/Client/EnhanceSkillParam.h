@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GameEntity; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int EnhanceSkillParam_TypeDefinitionIndex = 71945;
+
 	class EnhanceSkillParam : public ::System::Object
 	{
 	public:

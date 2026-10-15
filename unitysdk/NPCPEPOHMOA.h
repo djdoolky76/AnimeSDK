@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define NPCPEPOHMOA_CTOR_OFFSET UNITYSDK_OFFSET(0xBCFAA60)
 #define NPCPEPOHMOA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBCFAA90)
 
+inline static constexpr unsigned int NPCPEPOHMOA_TypeDefinitionIndex = 53388;
+
 	class NPCPEPOHMOA
 	{
 	public:

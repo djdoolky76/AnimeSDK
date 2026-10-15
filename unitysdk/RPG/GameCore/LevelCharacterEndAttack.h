@@ -13,6 +13,8 @@ namespace RPG::GameCore { class LevelCharacterEndAttack; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelCharacterEndAttack_TypeDefinitionIndex = 56786;
+
 	class LevelCharacterEndAttack : public ::CMPGEAFHHDC
 	{
 	public:

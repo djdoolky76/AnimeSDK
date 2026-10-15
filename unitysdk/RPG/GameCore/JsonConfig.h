@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int JsonConfig_TypeDefinitionIndex = 10868;
+
 	class JsonConfig : public ::System::Object
 	{
 	public:

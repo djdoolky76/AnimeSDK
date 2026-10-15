@@ -16,6 +16,8 @@ namespace RPG::Client { class CakeRaceVoteResultMessage; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CakeRaceVoteResultMessage_TypeDefinitionIndex = 63070;
+
 	class CakeRaceVoteResultMessage : public ::System::Object
 	{
 	public:

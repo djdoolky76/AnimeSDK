@@ -8,6 +8,8 @@
 #define LJABAMCMDLI_MGKOOCKFANI_OFFSET UNITYSDK_OFFSET(0xB6DEFE0)
 #define LJABAMCMDLI_NBNFDFKDBCI_OFFSET UNITYSDK_OFFSET(0xB6DEF20)
 
+inline static constexpr unsigned int LJABAMCMDLI_TypeDefinitionIndex = 71496;
+
 	class LJABAMCMDLI : public ::System::Object
 	{
 	public:

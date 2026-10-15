@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace SRDebugger
 {
+	inline static constexpr unsigned int CustomOptionsAttribute_TypeDefinitionIndex = 37964;
+
 	class CustomOptionsAttribute : public ::System::Attribute
 	{
 	public:

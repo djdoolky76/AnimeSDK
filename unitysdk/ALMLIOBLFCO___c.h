@@ -13,6 +13,8 @@ namespace System { template <typename T> class Func_1; }
 #define ALMLIOBLFCO___C___CTOR_B__0_0_OFFSET UNITYSDK_OFFSET(0x1C89D870)
 #define ALMLIOBLFCO___C___CTOR_B__0_1_OFFSET UNITYSDK_OFFSET(0x1C89D8A0)
 
+inline static constexpr unsigned int ALMLIOBLFCO___c_TypeDefinitionIndex = 42828;
+
 	class ALMLIOBLFCO___c : public ::System::Object
 	{
 	public:

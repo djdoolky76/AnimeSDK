@@ -19,6 +19,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::UINavigation
 {
+	inline static constexpr unsigned int UINavigationExtension_TypeDefinitionIndex = 51738;
+
 	class UINavigationExtension : public ::UnityEngine::MonoBehaviour
 	{
 	public:

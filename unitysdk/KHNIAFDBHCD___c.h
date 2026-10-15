@@ -23,6 +23,8 @@ namespace System::Collections::Generic { class KeyValuePair; }
 #define KHNIAFDBHCD___C__BUILDSNAPSHOT_B__12_8_OFFSET UNITYSDK_OFFSET(0xB40FA60)
 #define KHNIAFDBHCD___C__BUILDSNAPSHOT_B__12_9_OFFSET UNITYSDK_OFFSET(0xB40FA70)
 
+inline static constexpr unsigned int KHNIAFDBHCD___c_TypeDefinitionIndex = 77840;
+
 	class KHNIAFDBHCD___c : public ::System::Object
 	{
 	public:

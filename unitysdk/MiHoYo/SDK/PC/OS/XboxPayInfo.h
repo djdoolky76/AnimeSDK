@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::PC::OS
 {
+	inline static constexpr unsigned int XboxPayInfo_TypeDefinitionIndex = 8665;
+
 	class XboxPayInfo : public ::System::Object
 	{
 	public:

@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TakenMazePuzzleChallenge_TypeDefinitionIndex = 22009;
+
 	class TakenMazePuzzleChallenge : public ::RPG::GameCore::TaskConfig
 	{
 	public:

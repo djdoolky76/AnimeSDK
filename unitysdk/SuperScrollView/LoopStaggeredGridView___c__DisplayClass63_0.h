@@ -11,6 +11,8 @@ namespace XLua { class LuaTable; }
 
 namespace SuperScrollView
 {
+	inline static constexpr unsigned int LoopStaggeredGridView___c__DisplayClass63_0_TypeDefinitionIndex = 47678;
+
 	class LoopStaggeredGridView___c__DisplayClass63_0 : public ::System::Object
 	{
 	public:

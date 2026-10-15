@@ -16,6 +16,8 @@ namespace System { template <typename T> class Func_1; }
 #define CJGNCPIDGNH___C__DISPLAYCLASS13_0__CHECKRECONNECTTOFIGHT_B__5_OFFSET UNITYSDK_OFFSET(0xD210730)
 #define CJGNCPIDGNH___C__DISPLAYCLASS13_0__CHECKRECONNECTTOFIGHT_B__7_OFFSET UNITYSDK_OFFSET(0xD210750)
 
+inline static constexpr unsigned int CJGNCPIDGNH___c__DisplayClass13_0_TypeDefinitionIndex = 80267;
+
 	class CJGNCPIDGNH___c__DisplayClass13_0 : public ::System::Object
 	{
 	public:

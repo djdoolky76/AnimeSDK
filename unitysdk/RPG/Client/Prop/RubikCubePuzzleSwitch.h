@@ -28,6 +28,8 @@ namespace UnityEngine { class Material; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int RubikCubePuzzleSwitch_TypeDefinitionIndex = 78841;
+
 	class RubikCubePuzzleSwitch : public ::UnityEngine::MonoBehaviour
 	{
 	public:

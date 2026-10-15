@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueParamUpgradableMagicScepterLevelCountConfig
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueParamUpgradableMagicScepterLevelCountConfig_TypeDefinitionIndex = 19830;
+
 	class RogueParamUpgradableMagicScepterLevelCountConfig : public ::RPG::GameCore::RogueParameterConfigBase
 	{
 	public:

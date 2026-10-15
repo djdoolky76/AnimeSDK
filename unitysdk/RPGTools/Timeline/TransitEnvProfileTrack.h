@@ -12,6 +12,8 @@ namespace UnityEngine::Timeline { class TimelineClip; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int TransitEnvProfileTrack_TypeDefinitionIndex = 48415;
+
 	class TransitEnvProfileTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
 	public:

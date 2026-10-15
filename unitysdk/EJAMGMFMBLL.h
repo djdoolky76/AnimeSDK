@@ -8,6 +8,8 @@
 #define EJAMGMFMBLL_SET_ISDEEPBUFF_OFFSET UNITYSDK_OFFSET(0x154D5A20)
 #define EJAMGMFMBLL_SET_MAZEBUFFID_OFFSET UNITYSDK_OFFSET(0x154D5A00)
 
+inline static constexpr unsigned int EJAMGMFMBLL_TypeDefinitionIndex = 81018;
+
 	class EJAMGMFMBLL : public ::System::Object
 	{
 	public:

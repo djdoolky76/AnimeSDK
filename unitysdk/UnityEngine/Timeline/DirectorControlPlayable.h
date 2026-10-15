@@ -24,6 +24,8 @@ namespace UnityEngine::Timeline { class DirectorControlPlayable; }
 
 namespace UnityEngine::Timeline
 {
+	inline static constexpr unsigned int DirectorControlPlayable_TypeDefinitionIndex = 38845;
+
 	class DirectorControlPlayable : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

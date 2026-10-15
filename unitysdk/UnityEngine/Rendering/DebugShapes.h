@@ -19,6 +19,8 @@ namespace UnityEngine::Rendering { class DebugShapes; }
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int DebugShapes_TypeDefinitionIndex = 35522;
+
 	class DebugShapes : public ::System::Object
 	{
 	public:

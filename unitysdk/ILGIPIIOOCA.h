@@ -12,6 +12,8 @@ namespace System { class String; }
 #define ILGIPIIOOCA_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x164B0F00)
 #define ILGIPIIOOCA_TICK_OFFSET UNITYSDK_OFFSET(0x164B1B70)
 
+inline static constexpr unsigned int ILGIPIIOOCA_TypeDefinitionIndex = 58309;
+
 	class ILGIPIIOOCA : public ::GELIALJDFBL
 	{
 	public:

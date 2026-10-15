@@ -7,6 +7,8 @@ namespace System { class Object; }
 #define CLGMBADPMOO___C__DISPLAYCLASS6_0_CTOR_OFFSET UNITYSDK_OFFSET(0xD77F9E0)
 #define CLGMBADPMOO___C__DISPLAYCLASS6_0__SHOW_B__0_OFFSET UNITYSDK_OFFSET(0xD780790)
 
+inline static constexpr unsigned int CLGMBADPMOO___c__DisplayClass6_0_TypeDefinitionIndex = 80511;
+
 	class CLGMBADPMOO___c__DisplayClass6_0 : public ::System::Object
 	{
 	public:

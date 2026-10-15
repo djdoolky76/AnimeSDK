@@ -26,6 +26,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define EGKICDECDMA_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0x1451D070)
 #define EGKICDECDMA_PLNCKLJOJME_OFFSET UNITYSDK_OFFSET(0x1451D060)
 
+inline static constexpr unsigned int EGKICDECDMA_TypeDefinitionIndex = 49453;
+
 	class EGKICDECDMA : public ::System::Object
 	{
 	public:

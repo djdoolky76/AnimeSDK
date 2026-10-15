@@ -5,6 +5,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 #define IFBPEPMEFOL_CTOR_OFFSET UNITYSDK_OFFSET(0x1C699E30)
 
+inline static constexpr unsigned int IFBPEPMEFOL_TypeDefinitionIndex = 36454;
+
 	class IFBPEPMEFOL : public ::System::Object
 	{
 	public:

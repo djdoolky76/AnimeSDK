@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FloatCurve; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimCameraLookAheadConfig_TypeDefinitionIndex = 18615;
+
 	class FiveDimCameraLookAheadConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

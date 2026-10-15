@@ -9,6 +9,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AlleyModule___c__DisplayClass24_0_TypeDefinitionIndex = 62251;
+
 	class AlleyModule___c__DisplayClass24_0 : public ::System::Object
 	{
 	public:

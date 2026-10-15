@@ -20,6 +20,8 @@ namespace RPG::GameCore { class WaitBatchItem; }
 #define CNCLNAFILDC_NOKOBCHABHF_OFFSET UNITYSDK_OFFSET(0xDA49FC0)
 #define CNCLNAFILDC_PBLKCCJADCA_OFFSET UNITYSDK_OFFSET(0xDA4A400)
 
+inline static constexpr unsigned int CNCLNAFILDC_TypeDefinitionIndex = 58858;
+
 	class CNCLNAFILDC : public ::System::Object
 	{
 	public:

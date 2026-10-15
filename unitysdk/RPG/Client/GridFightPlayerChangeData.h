@@ -11,6 +11,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightPlayerChangeData_TypeDefinitionIndex = 65067;
+
 	class GridFightPlayerChangeData : public ::System::Object
 	{
 	public:

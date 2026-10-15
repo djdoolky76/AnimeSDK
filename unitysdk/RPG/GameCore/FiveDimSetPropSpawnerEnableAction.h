@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FiveDimSetPropSpawnerEnableAction; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimSetPropSpawnerEnableAction_TypeDefinitionIndex = 18672;
+
 	class FiveDimSetPropSpawnerEnableAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
 	public:

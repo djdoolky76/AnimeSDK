@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TalkFigure_TypeDefinitionIndex = 21927;
+
 	class TalkFigure : public ::RPG::GameCore::TaskConfig
 	{
 	public:

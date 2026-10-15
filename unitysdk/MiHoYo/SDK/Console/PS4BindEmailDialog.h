@@ -40,6 +40,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace MiHoYo::SDK::Console
 {
+	inline static constexpr unsigned int PS4BindEmailDialog_TypeDefinitionIndex = 9017;
+
 	class PS4BindEmailDialog : public ::MiHoYo::SDK::Console::ConsoleDialogBase
 	{
 	public:

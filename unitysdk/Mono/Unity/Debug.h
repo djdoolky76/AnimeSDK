@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace Mono::Unity
 {
+	inline static constexpr unsigned int Debug_TypeDefinitionIndex = 2348;
+
 	class Debug : public ::System::Object
 	{
 	public:

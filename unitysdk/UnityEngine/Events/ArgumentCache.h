@@ -17,6 +17,8 @@ namespace UnityEngine { class Object; }
 
 namespace UnityEngine::Events
 {
+	inline static constexpr unsigned int ArgumentCache_TypeDefinitionIndex = 4478;
+
 	class ArgumentCache : public ::System::Object
 	{
 	public:

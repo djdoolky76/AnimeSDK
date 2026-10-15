@@ -52,6 +52,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace MiHoYo::SDK::Windows::OS
 {
+	inline static constexpr unsigned int AgeGateManager_TypeDefinitionIndex = 8355;
+
 	class AgeGateManager : public ::System::Object
 	{
 	public:

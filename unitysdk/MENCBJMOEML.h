@@ -27,6 +27,8 @@ namespace System { class String; }
 #define MENCBJMOEML_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA11680)
 #define MENCBJMOEML_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA116E0)
 
+inline static constexpr unsigned int MENCBJMOEML_TypeDefinitionIndex = 26661;
+
 	class MENCBJMOEML : public ::System::Object
 	{
 	public:

@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define HAOLIGIMHLP_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15B9E240)
 #define HAOLIGIMHLP_TICK_OFFSET UNITYSDK_OFFSET(0x15B9E2E0)
 
+inline static constexpr unsigned int HAOLIGIMHLP_TypeDefinitionIndex = 58301;
+
 	class HAOLIGIMHLP : public ::GELIALJDFBL
 	{
 	public:

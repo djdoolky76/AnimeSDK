@@ -11,6 +11,8 @@ namespace RPG::GameCore { class WaitTakePhoto; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaitTakePhoto_TypeDefinitionIndex = 22171;
+
 	class WaitTakePhoto : public ::RPG::GameCore::TaskConfig
 	{
 	public:

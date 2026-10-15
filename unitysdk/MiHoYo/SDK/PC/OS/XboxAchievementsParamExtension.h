@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::PC::OS
 {
+	inline static constexpr unsigned int XboxAchievementsParamExtension_TypeDefinitionIndex = 8671;
+
 	class XboxAchievementsParamExtension : public ::System::Object
 	{
 	public:

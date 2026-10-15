@@ -25,6 +25,8 @@ namespace RPG::Client::FateRin::Battle { class IFateRinCardHitTestService; }
 
 namespace RPG::Client::FateRin::Battle
 {
+	inline static constexpr unsigned int FateRinBattleHudInputBrainBase_TypeDefinitionIndex = 80927;
+
 	class FateRinBattleHudInputBrainBase : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@
 
 namespace MessagePack::Internal
 {
+	inline static constexpr unsigned int PreserveAttribute_TypeDefinitionIndex = 7297;
+
 	class PreserveAttribute : public ::System::Attribute
 	{
 	public:

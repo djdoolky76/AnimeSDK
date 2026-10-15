@@ -7,6 +7,8 @@ class GIAKECJMGIF;
 #define GIAKECJMGIF_CTOR_OFFSET UNITYSDK_OFFSET(0x1CE4D210)
 #define GIAKECJMGIF_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CE4D120)
 
+inline static constexpr unsigned int GIAKECJMGIF_TypeDefinitionIndex = 14093;
+
 	class GIAKECJMGIF : public ::System::Object
 	{
 	public:

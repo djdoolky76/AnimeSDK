@@ -8,6 +8,8 @@ class IOIIFAENPNH;
 #define IOIIFAENPNH_COMPARETO_OFFSET UNITYSDK_OFFSET(0x16503120)
 #define IOIIFAENPNH_CTOR_OFFSET UNITYSDK_OFFSET(0x16503110)
 
+inline static constexpr unsigned int IOIIFAENPNH_TypeDefinitionIndex = 72078;
+
 	class IOIIFAENPNH : public ::System::Object
 	{
 	public:

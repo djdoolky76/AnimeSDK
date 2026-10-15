@@ -9,6 +9,8 @@ namespace RPG::Client { class MonoEffect; }
 
 namespace RPG::Client::LittleGame::FourRotateVoxel
 {
+	inline static constexpr unsigned int FourRotateVoxelGameStartCurve_NMKFGFCKBBP_TypeDefinitionIndex = 76841;
+
 	class FourRotateVoxelGameStartCurve_NMKFGFCKBBP : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System::Reflection { class TypeInfo; }
 
 namespace MessagePack::Resolvers
 {
+	inline static constexpr unsigned int DynamicUnionResolver_MessagePackWriterTypeInfo_TypeDefinitionIndex = 7264;
+
 	class DynamicUnionResolver_MessagePackWriterTypeInfo : public ::System::Object
 	{
 	public:

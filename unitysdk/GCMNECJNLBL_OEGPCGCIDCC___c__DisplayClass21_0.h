@@ -8,6 +8,8 @@ namespace RPG { template <typename T> class PoolList_1; }
 #define GCMNECJNLBL_OEGPCGCIDCC___C__DISPLAYCLASS21_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1598B500)
 #define GCMNECJNLBL_OEGPCGCIDCC___C__DISPLAYCLASS21_0__RUNASYNCALL1_B__0_OFFSET UNITYSDK_OFFSET(0x1598D660)
 
+inline static constexpr unsigned int GCMNECJNLBL_OEGPCGCIDCC___c__DisplayClass21_0_TypeDefinitionIndex = 49225;
+
 	class GCMNECJNLBL_OEGPCGCIDCC___c__DisplayClass21_0 : public ::System::Object
 	{
 	public:

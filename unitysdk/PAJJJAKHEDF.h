@@ -14,6 +14,8 @@ namespace System { class Object; }
 #define PAJJJAKHEDF_NKPPGDENJAE_OFFSET UNITYSDK_OFFSET(0xBFCB400)
 #define PAJJJAKHEDF_OAKHBMMPLNO_OFFSET UNITYSDK_OFFSET(0xBFCBA00)
 
+inline static constexpr unsigned int PAJJJAKHEDF_TypeDefinitionIndex = 72298;
+
 	class PAJJJAKHEDF : public ::OCNFFGBIMPD
 	{
 	public:

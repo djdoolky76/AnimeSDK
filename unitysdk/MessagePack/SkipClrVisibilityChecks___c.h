@@ -10,6 +10,8 @@ namespace System::Reflection { class ConstructorInfo; }
 
 namespace MessagePack
 {
+	inline static constexpr unsigned int SkipClrVisibilityChecks___c_TypeDefinitionIndex = 7238;
+
 	class SkipClrVisibilityChecks___c : public ::System::Object
 	{
 	public:

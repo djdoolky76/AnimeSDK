@@ -29,6 +29,8 @@ namespace System { class String; }
 #define DBFCKPFCNBD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E1591E0)
 #define DBFCKPFCNBD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E159240)
 
+inline static constexpr unsigned int DBFCKPFCNBD_TypeDefinitionIndex = 26358;
+
 	class DBFCKPFCNBD : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int OnDemandRendering_TypeDefinitionIndex = 4731;
+
 	class OnDemandRendering : public ::System::Object
 	{
 	public:

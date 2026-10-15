@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace SRF::UI
 {
+	inline static constexpr unsigned int StyleRoot_TypeDefinitionIndex = 35398;
+
 	class StyleRoot : public ::SRF::SRMonoBehaviour
 	{
 	public:

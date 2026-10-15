@@ -7,6 +7,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define MNCOPNHONHO_EMPOILLEPIG_CTOR_OFFSET UNITYSDK_OFFSET(0xBA00AB0)
 
+inline static constexpr unsigned int MNCOPNHONHO_EMPOILLEPIG_TypeDefinitionIndex = 76688;
+
 	class MNCOPNHONHO_EMPOILLEPIG : public ::System::Object
 	{
 	public:

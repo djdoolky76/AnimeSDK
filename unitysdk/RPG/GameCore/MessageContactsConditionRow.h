@@ -9,6 +9,8 @@ namespace RPG::GameCore { class MessageContactsConditionRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MessageContactsConditionRow_TypeDefinitionIndex = 14477;
+
 	class MessageContactsConditionRow : public ::System::Object
 	{
 	public:

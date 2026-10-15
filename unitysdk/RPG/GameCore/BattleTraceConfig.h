@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BattleTraceConfig_TypeDefinitionIndex = 18148;
+
 	class BattleTraceConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

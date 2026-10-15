@@ -24,6 +24,8 @@ namespace System { class String; }
 #define POINKMMMLHO_PGOLCLMMANO_OFFSET UNITYSDK_OFFSET(0xC36C850)
 #define POINKMMMLHO_PLMIIKONDEO_OFFSET UNITYSDK_OFFSET(0xC36C970)
 
+inline static constexpr unsigned int POINKMMMLHO_TypeDefinitionIndex = 47356;
+
 	class POINKMMMLHO : public ::System::Object
 	{
 	public:

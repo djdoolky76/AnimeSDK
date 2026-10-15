@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace Spine::Unity
 {
+	inline static constexpr unsigned int MaterialsTextureLoader_TypeDefinitionIndex = 45010;
+
 	class MaterialsTextureLoader : public ::System::Object
 	{
 	public:

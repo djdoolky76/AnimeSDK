@@ -9,6 +9,8 @@ namespace ScenenLightManager { class BillboardController_ExportData; }
 
 namespace ScenenLightManager
 {
+	inline static constexpr unsigned int BillboardController_SceneLightExportData_TypeDefinitionIndex = 49055;
+
 	class BillboardController_SceneLightExportData : public ::ScenenLightManager::BaseSceneLightExportData
 	{
 	public:

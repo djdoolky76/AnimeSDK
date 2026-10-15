@@ -7,6 +7,8 @@ namespace System { class Object; }
 
 namespace System::Runtime::Serialization
 {
+	inline static constexpr unsigned int FixupHolder_TypeDefinitionIndex = 1111;
+
 	class FixupHolder : public ::System::Object
 	{
 	public:

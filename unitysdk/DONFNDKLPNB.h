@@ -15,6 +15,8 @@ namespace System { class Object; }
 #define DONFNDKLPNB_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0x11FF30A0)
 #define DONFNDKLPNB_SET_TRACKTYPE_OFFSET UNITYSDK_OFFSET(0x11FF2AB0)
 
+inline static constexpr unsigned int DONFNDKLPNB_TypeDefinitionIndex = 48773;
+
 	class DONFNDKLPNB : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

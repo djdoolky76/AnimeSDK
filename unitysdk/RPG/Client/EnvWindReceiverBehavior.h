@@ -42,6 +42,8 @@ namespace UnityEngine { class Renderer; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int EnvWindReceiverBehavior_TypeDefinitionIndex = 71062;
+
 	class EnvWindReceiverBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:

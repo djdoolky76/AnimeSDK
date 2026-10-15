@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define OLOHEGBPLFM_ONNLAJCPKDF_OFFSET UNITYSDK_OFFSET(0xBF14C10)
 #define OLOHEGBPLFM_PGJHNANABHH_OFFSET UNITYSDK_OFFSET(0xBF14B60)
 
+inline static constexpr unsigned int OLOHEGBPLFM_TypeDefinitionIndex = 76474;
+
 	class OLOHEGBPLFM : public ::System::Object
 	{
 	public:

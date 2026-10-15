@@ -11,6 +11,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::ChenLingFes
 {
+	inline static constexpr unsigned int ChenLingFesToastScoreAddFlyControl_TypeDefinitionIndex = 81362;
+
 	class ChenLingFesToastScoreAddFlyControl : public ::RPG::Client::ChenLingFes::ChenLingFesToastItemControl
 	{
 	public:

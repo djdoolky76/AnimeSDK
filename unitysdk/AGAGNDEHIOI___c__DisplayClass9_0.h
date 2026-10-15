@@ -6,6 +6,8 @@ class AGAGNDEHIOI;
 #define AGAGNDEHIOI___C__DISPLAYCLASS9_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCF24610)
 #define AGAGNDEHIOI___C__DISPLAYCLASS9_0__SETMINUSSHOWBUFFCOUNT_B__0_OFFSET UNITYSDK_OFFSET(0xCF25370)
 
+inline static constexpr unsigned int AGAGNDEHIOI___c__DisplayClass9_0_TypeDefinitionIndex = 71438;
+
 	class AGAGNDEHIOI___c__DisplayClass9_0 : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@ namespace RPG::Client { class IRogueTournGameSettleResultComposition; }
 #define OJOLPPLGIPM_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xBECFD90)
 #define OJOLPPLGIPM_CTOR_OFFSET UNITYSDK_OFFSET(0xBECFE70)
 
+inline static constexpr unsigned int OJOLPPLGIPM_TypeDefinitionIndex = 67850;
+
 	class OJOLPPLGIPM : public ::System::Object
 	{
 	public:

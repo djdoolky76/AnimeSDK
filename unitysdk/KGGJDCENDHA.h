@@ -27,6 +27,8 @@ namespace RPG::GameCore { class TransformComponent; }
 #define KGGJDCENDHA_MCMOCNGAGAC_OFFSET UNITYSDK_OFFSET(0xB3E9BD0)
 #define KGGJDCENDHA_PEKCJNHKNAD_OFFSET UNITYSDK_OFFSET(0xB3EB0E0)
 
+inline static constexpr unsigned int KGGJDCENDHA_TypeDefinitionIndex = 57043;
+
 	class KGGJDCENDHA : public ::BDENDNDOFLF
 	{
 	public:

@@ -44,6 +44,8 @@ namespace UnityEngine { class ParticleSystem; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int ParticleSystem_ForceOverLifetimeModule_TypeDefinitionIndex = 5235;
+
 	struct alignas(8) ParticleSystem_ForceOverLifetimeModule
 	{
 		::UnityEngine::ParticleSystem* m_ParticleSystem; // 0x10

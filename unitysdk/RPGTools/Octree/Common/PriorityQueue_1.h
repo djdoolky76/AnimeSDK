@@ -6,6 +6,8 @@ namespace System::Collections::Generic { template <typename T> class IComparer_1
 
 namespace RPGTools::Octree::Common
 {
+	inline static constexpr unsigned int PriorityQueue_1_TypeDefinitionIndex = 48900;
+
 	template <typename T>
 	class PriorityQueue_1 : public ::System::Object
 	{

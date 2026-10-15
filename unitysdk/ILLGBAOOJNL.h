@@ -8,6 +8,8 @@ namespace UnityEngine { class AnimationCurve; }
 #define ILLGBAOOJNL_CLEAR_OFFSET UNITYSDK_OFFSET(0x1CB784E0)
 #define ILLGBAOOJNL_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB78540)
 
+inline static constexpr unsigned int ILLGBAOOJNL_TypeDefinitionIndex = 42916;
+
 	class ILLGBAOOJNL : public ::System::Object
 	{
 	public:

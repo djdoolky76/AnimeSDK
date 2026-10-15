@@ -19,6 +19,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int WolfBroShootingModule_TypeDefinitionIndex = 68279;
+
 	class WolfBroShootingModule : public ::RPG::Client::BaseModule
 	{
 	public:

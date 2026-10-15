@@ -10,6 +10,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int HidePropTrack_TypeDefinitionIndex = 48140;
+
 	class HidePropTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
 	public:

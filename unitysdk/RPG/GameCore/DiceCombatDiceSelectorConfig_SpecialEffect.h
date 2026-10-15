@@ -10,6 +10,8 @@ namespace RPG::GameCore { class DiceCombatDiceSelectorConfig_SpecialEffect; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DiceCombatDiceSelectorConfig_SpecialEffect_TypeDefinitionIndex = 16146;
+
 	class DiceCombatDiceSelectorConfig_SpecialEffect : public ::RPG::GameCore::DiceCombatDiceSelectorConfig
 	{
 	public:

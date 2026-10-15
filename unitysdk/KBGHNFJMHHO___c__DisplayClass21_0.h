@@ -6,6 +6,8 @@ class INNLEDLNDNN;
 #define KBGHNFJMHHO___C__DISPLAYCLASS21_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB2FBB60)
 #define KBGHNFJMHHO___C__DISPLAYCLASS21_0___SETUPBUTTONENABLE_B__0_OFFSET UNITYSDK_OFFSET(0xB2FCE70)
 
+inline static constexpr unsigned int KBGHNFJMHHO___c__DisplayClass21_0_TypeDefinitionIndex = 71628;
+
 	class KBGHNFJMHHO___c__DisplayClass21_0 : public ::System::Object
 	{
 	public:

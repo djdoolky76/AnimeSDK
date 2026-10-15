@@ -5,6 +5,8 @@
 
 namespace XLua::Cast
 {
+	inline static constexpr unsigned int Float_TypeDefinitionIndex = 50301;
+
 	class Float
 	{
 	public:

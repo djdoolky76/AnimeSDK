@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PointNavPathLengthEvaluator_TypeDefinitionIndex = 15632;
+
 	class PointNavPathLengthEvaluator : public ::RPG::GameCore::PointEvaluatorByDistanceConfig
 	{
 	public:

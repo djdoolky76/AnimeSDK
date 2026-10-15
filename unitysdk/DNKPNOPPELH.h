@@ -48,6 +48,8 @@ namespace UnityEngine { class GameObject; }
 #define DNKPNOPPELH_SET_MARKINFODISPLAYRANGE_OFFSET UNITYSDK_OFFSET(0x11FD41B0)
 #define DNKPNOPPELH_SET_VISIBLEMARKINFO_OFFSET UNITYSDK_OFFSET(0x11FD4220)
 
+inline static constexpr unsigned int DNKPNOPPELH_TypeDefinitionIndex = 74546;
+
 	class DNKPNOPPELH : public ::System::Object
 	{
 	public:

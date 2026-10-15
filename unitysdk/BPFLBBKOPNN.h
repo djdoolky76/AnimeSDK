@@ -31,6 +31,8 @@ namespace System { class String; }
 #define BPFLBBKOPNN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E0445C0)
 #define BPFLBBKOPNN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E044620)
 
+inline static constexpr unsigned int BPFLBBKOPNN_TypeDefinitionIndex = 28396;
+
 	class BPFLBBKOPNN : public ::System::Object
 	{
 	public:

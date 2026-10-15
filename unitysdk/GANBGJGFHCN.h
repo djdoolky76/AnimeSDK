@@ -12,6 +12,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define GANBGJGFHCN_CTOR_4_OFFSET UNITYSDK_OFFSET(0x2E78DF0)
 #define GANBGJGFHCN_CTOR_OFFSET UNITYSDK_OFFSET(0x2E78D30)
 
+inline static constexpr unsigned int GANBGJGFHCN_TypeDefinitionIndex = 54052;
+
 	struct alignas(8) GANBGJGFHCN
 	{
 		::RPG::GameCore::GameEntity* PPKKOLKCKOI; // 0x10

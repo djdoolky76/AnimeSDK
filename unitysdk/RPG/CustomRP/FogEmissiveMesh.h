@@ -9,6 +9,8 @@ namespace UnityEngine { class MaterialPropertyBlock; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int FogEmissiveMesh_TypeDefinitionIndex = 37731;
+
 	class FogEmissiveMesh : public ::UnityEngine::MonoBehaviour
 	{
 	public:

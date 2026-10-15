@@ -31,6 +31,8 @@ namespace System { class String; }
 #define IEGHPBPFCGL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E639A70)
 #define IEGHPBPFCGL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E639AD0)
 
+inline static constexpr unsigned int IEGHPBPFCGL_TypeDefinitionIndex = 27900;
+
 	class IEGHPBPFCGL : public ::System::Object
 	{
 	public:

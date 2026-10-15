@@ -8,6 +8,8 @@ namespace UnityEngine::UI { class InputField; }
 
 namespace SRDebugger::UI
 {
+	inline static constexpr unsigned int ShellCommandHelper_TypeDefinitionIndex = 47707;
+
 	class ShellCommandHelper : public ::UnityEngine::MonoBehaviour
 	{
 	public:

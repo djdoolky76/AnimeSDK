@@ -26,6 +26,8 @@ namespace UnityEngine { class ShaderVariantCollection; }
 
 namespace RPG::Editor
 {
+	inline static constexpr unsigned int ShaderPassVarientCollection_TypeDefinitionIndex = 52008;
+
 	class ShaderPassVarientCollection : public ::UnityEngine::ScriptableObject
 	{
 	public:

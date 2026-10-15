@@ -15,6 +15,8 @@ namespace UnityEngine { class Animation; }
 
 namespace RPG::Client::DiceCombat
 {
+	inline static constexpr unsigned int DiceCombatV2SideBarToastItem_TypeDefinitionIndex = 76210;
+
 	class DiceCombatV2SideBarToastItem : public ::UnityEngine::MonoBehaviour
 	{
 	public:

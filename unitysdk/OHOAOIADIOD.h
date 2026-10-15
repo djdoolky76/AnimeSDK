@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define OHOAOIADIOD_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBE75580)
 #define OHOAOIADIOD_TICK_OFFSET UNITYSDK_OFFSET(0xBE755D0)
 
+inline static constexpr unsigned int OHOAOIADIOD_TypeDefinitionIndex = 55583;
+
 	class OHOAOIADIOD : public ::GELIALJDFBL
 	{
 	public:

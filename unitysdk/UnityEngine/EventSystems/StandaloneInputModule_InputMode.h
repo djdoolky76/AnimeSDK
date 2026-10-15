@@ -3,6 +3,8 @@
 
 namespace UnityEngine::EventSystems
 {
+	inline static constexpr unsigned int StandaloneInputModule_InputMode_TypeDefinitionIndex = 6945;
+
 	enum class StandaloneInputModule_InputMode : ::System::Int32
 	{
 		Mouse = 0,

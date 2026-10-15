@@ -22,6 +22,8 @@ namespace UnityEngine::Timeline { class TimelineClip; }
 
 namespace UnityEngine::Timeline
 {
+	inline static constexpr unsigned int ActivationTrack_TypeDefinitionIndex = 38766;
+
 	class ActivationTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
 	public:

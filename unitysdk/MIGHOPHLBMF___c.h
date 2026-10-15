@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define MIGHOPHLBMF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA3C140)
 #define MIGHOPHLBMF___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1EA3C150)
 
+inline static constexpr unsigned int MIGHOPHLBMF___c_TypeDefinitionIndex = 26851;
+
 	class MIGHOPHLBMF___c : public ::System::Object
 	{
 	public:

@@ -14,6 +14,8 @@ namespace UnityEngine::UIElements { class PointerUpEvent; }
 
 namespace UnityEngine::UIElements
 {
+	inline static constexpr unsigned int MouseUpEvent_TypeDefinitionIndex = 5961;
+
 	class MouseUpEvent
 	{
 	public:

@@ -17,6 +17,8 @@ namespace RPG::Client::PixAir { class PixAirGameSession; }
 
 namespace RPG::Client::PixAir
 {
+	inline static constexpr unsigned int PixAirBasicInfo_TypeDefinitionIndex = 79314;
+
 	class PixAirBasicInfo : public ::System::Object
 	{
 	public:

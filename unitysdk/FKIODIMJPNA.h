@@ -32,6 +32,8 @@ namespace System { class String; }
 #define FKIODIMJPNA_ONDJHLADEBM_OFFSET UNITYSDK_OFFSET(0x158004E0)
 #define FKIODIMJPNA___STARTSUMMONUNITLEVELGRAPH_B__10_0_OFFSET UNITYSDK_OFFSET(0x158008F0)
 
+inline static constexpr unsigned int FKIODIMJPNA_TypeDefinitionIndex = 60206;
+
 	class FKIODIMJPNA : public ::System::Object
 	{
 	public:

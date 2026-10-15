@@ -37,6 +37,8 @@ namespace System { class String; }
 #define IAKEDFLIOFD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E606990)
 #define IAKEDFLIOFD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E6069F0)
 
+inline static constexpr unsigned int IAKEDFLIOFD_TypeDefinitionIndex = 29476;
+
 	class IAKEDFLIOFD : public ::System::Object
 	{
 	public:

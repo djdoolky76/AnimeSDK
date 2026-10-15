@@ -7,6 +7,8 @@ namespace System { class Type; }
 
 namespace System::Linq::Expressions::Interpreter
 {
+	inline static constexpr unsigned int DelegateHelpers_TypeDefinitionIndex = 3661;
+
 	class DelegateHelpers : public ::System::Object
 	{
 	public:

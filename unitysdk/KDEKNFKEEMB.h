@@ -4,6 +4,8 @@
 
 #define KDEKNFKEEMB_FOEBLLFDCIH_OFFSET UNITYSDK_OFFSET(0x13840)
 
+inline static constexpr unsigned int KDEKNFKEEMB_TypeDefinitionIndex = 62088;
+
 	struct alignas(4) KDEKNFKEEMB
 	{
 		::RPG::GameCore::FloorInstanceType DGCHNIHLCIF; // 0x10

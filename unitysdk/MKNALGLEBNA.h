@@ -28,6 +28,8 @@ namespace System { class String; }
 #define MKNALGLEBNA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA5BAD0)
 #define MKNALGLEBNA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA5BB30)
 
+inline static constexpr unsigned int MKNALGLEBNA_TypeDefinitionIndex = 33018;
+
 	class MKNALGLEBNA : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System::Text::RegularExpressions { class Regex; }
 #define NOBNGCHEPAJ_JBGIFBGMLMF_OFFSET UNITYSDK_OFFSET(0xBCE5850)
 #define NOBNGCHEPAJ_MLMGEFIOION_OFFSET UNITYSDK_OFFSET(0xBCE57E0)
 
+inline static constexpr unsigned int NOBNGCHEPAJ_TypeDefinitionIndex = 73365;
+
 	class NOBNGCHEPAJ : public ::System::Object
 	{
 	public:

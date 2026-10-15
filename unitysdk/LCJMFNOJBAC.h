@@ -32,6 +32,8 @@ namespace System { class String; }
 #define LCJMFNOJBAC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E8EDAD0)
 #define LCJMFNOJBAC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E8EDB30)
 
+inline static constexpr unsigned int LCJMFNOJBAC_TypeDefinitionIndex = 30775;
+
 	class LCJMFNOJBAC : public ::System::Object
 	{
 	public:

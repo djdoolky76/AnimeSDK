@@ -9,6 +9,8 @@
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriAtomExLatencyEstimator_TypeDefinitionIndex = 40006;
+
 	class CriAtomExLatencyEstimator : public ::System::Object
 	{
 	public:

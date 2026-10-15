@@ -11,6 +11,8 @@ namespace UnityEngine { class Shader; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int MaterialLibrary_TypeDefinitionIndex = 37773;
+
 	class MaterialLibrary : public ::System::Object
 	{
 	public:

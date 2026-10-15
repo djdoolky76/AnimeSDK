@@ -9,6 +9,8 @@ class ANGGDDJJBKO;
 namespace RPG::GameCore { class GameEntity; }
 namespace RPG::GameCore { class JsonEnum; }
 
+inline static constexpr unsigned int EDFNHOHENHI_TypeDefinitionIndex = 54272;
+
 	struct alignas(8) EDFNHOHENHI
 	{
 		::RPG::GameCore::GameEntity* FNDHDEOILCK; // 0x10

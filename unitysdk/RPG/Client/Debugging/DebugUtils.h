@@ -14,6 +14,8 @@ namespace UnityEngine { class Camera; }
 
 namespace RPG::Client::Debugging
 {
+	inline static constexpr unsigned int DebugUtils_TypeDefinitionIndex = 82132;
+
 	class DebugUtils : public ::UnityEngine::MonoBehaviour
 	{
 	public:

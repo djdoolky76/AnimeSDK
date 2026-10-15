@@ -10,6 +10,8 @@ namespace RPG::GameCore { class CakeRaceActionEnableNaughtyTargetLockCat; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CakeRaceActionEnableNaughtyTargetLockCat_TypeDefinitionIndex = 18363;
+
 	class CakeRaceActionEnableNaughtyTargetLockCat : public ::RPG::GameCore::CakeRaceActionBase
 	{
 	public:

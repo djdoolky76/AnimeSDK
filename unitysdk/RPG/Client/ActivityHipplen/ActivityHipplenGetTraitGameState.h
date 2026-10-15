@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::ActivityHipplen
 {
+	inline static constexpr unsigned int ActivityHipplenGetTraitGameState_TypeDefinitionIndex = 75515;
+
 	class ActivityHipplenGetTraitGameState : public ::System::Object
 	{
 	public:

@@ -15,6 +15,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvSetAILeadWay_TypeDefinitionIndex = 22200;
+
 	class AdvSetAILeadWay : public ::RPG::GameCore::TaskConfig
 	{
 	public:

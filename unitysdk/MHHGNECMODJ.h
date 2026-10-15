@@ -32,6 +32,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define MHHGNECMODJ_OOENBABOOMK_OFFSET UNITYSDK_OFFSET(0xB939760)
 #define MHHGNECMODJ_TICK_OFFSET UNITYSDK_OFFSET(0xB938470)
 
+inline static constexpr unsigned int MHHGNECMODJ_TypeDefinitionIndex = 57445;
+
 	class MHHGNECMODJ : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

@@ -10,6 +10,8 @@ namespace UnityEngine::Rendering { class QueueData; }
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int QueueData_TypeDefinitionIndex = 35502;
+
 	class QueueData : public ::System::Object
 	{
 	public:

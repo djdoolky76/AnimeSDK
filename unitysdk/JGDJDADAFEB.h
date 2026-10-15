@@ -4,6 +4,8 @@
 
 #define JGDJDADAFEB_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB94710)
 
+inline static constexpr unsigned int JGDJDADAFEB_TypeDefinitionIndex = 43276;
+
 	class JGDJDADAFEB : public ::System::Object
 	{
 	public:

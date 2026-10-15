@@ -11,6 +11,8 @@ namespace System { class String; }
 #define HOCGLMNPAPI_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CECDF60)
 #define HOCGLMNPAPI_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CECDF20)
 
+inline static constexpr unsigned int HOCGLMNPAPI_TypeDefinitionIndex = 19906;
+
 	class HOCGLMNPAPI : public ::RPG::GameCore::TaskConfig
 	{
 	public:

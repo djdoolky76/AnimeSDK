@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int KFIKLIHGCCO_DebugStage_TypeDefinitionIndex = 51765;
+
 	enum class KFIKLIHGCCO_DebugStage : ::System::Int32
 	{
 		None = 0,

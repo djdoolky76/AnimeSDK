@@ -11,6 +11,8 @@ class JHMBGNKOIJH;
 #define ONLHJAEPLBB_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0x25930)
 #define ONLHJAEPLBB_SET_ID_OFFSET UNITYSDK_OFFSET(0xAF40)
 
+inline static constexpr unsigned int ONLHJAEPLBB_TypeDefinitionIndex = 55942;
+
 	struct alignas(8) ONLHJAEPLBB
 	{
 		::System::UInt32 _ID_k__BackingField; // 0x10

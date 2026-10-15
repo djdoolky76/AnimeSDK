@@ -10,6 +10,8 @@ namespace RPG::Client::Promises { class Promise; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MissionModule___c__DisplayClass341_0_TypeDefinitionIndex = 66155;
+
 	class MissionModule___c__DisplayClass341_0 : public ::System::Object
 	{
 	public:

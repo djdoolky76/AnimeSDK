@@ -17,6 +17,8 @@ namespace System { class String; }
 
 namespace RPG::Client::FateRin::CaseBoard
 {
+	inline static constexpr unsigned int GrailViewModel_TypeDefinitionIndex = 80800;
+
 	class GrailViewModel : public ::System::Object
 	{
 	public:

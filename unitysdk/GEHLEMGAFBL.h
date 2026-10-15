@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define GEHLEMGAFBL_CTOR_OFFSET UNITYSDK_OFFSET(0x159D71A0)
 #define GEHLEMGAFBL_POANJGPHBGM_OFFSET UNITYSDK_OFFSET(0x159D71B0)
 
+inline static constexpr unsigned int GEHLEMGAFBL_TypeDefinitionIndex = 74383;
+
 	class GEHLEMGAFBL : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace RPG::GameCore { class ClockParkUnlockCost; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ClockParkUnlockCost_TypeDefinitionIndex = 11161;
+
 	class ClockParkUnlockCost : public ::System::Object
 	{
 	public:

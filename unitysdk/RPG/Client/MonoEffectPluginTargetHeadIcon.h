@@ -15,6 +15,8 @@ namespace RPG::Client { class MatTexItem; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEffectPluginTargetHeadIcon_TypeDefinitionIndex = 70121;
+
 	class MonoEffectPluginTargetHeadIcon : public ::RPG::Client::MonoEffectPluginBase
 	{
 	public:

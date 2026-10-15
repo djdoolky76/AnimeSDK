@@ -5,6 +5,8 @@
 #define FHKGNKFGIDF_CTOR_OFFSET UNITYSDK_OFFSET(0x15781300)
 #define FHKGNKFGIDF_GET_SENDERRUNTIMEID_OFFSET UNITYSDK_OFFSET(0x15781310)
 
+inline static constexpr unsigned int FHKGNKFGIDF_TypeDefinitionIndex = 79208;
+
 	class FHKGNKFGIDF : public ::System::Object
 	{
 	public:

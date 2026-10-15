@@ -33,6 +33,8 @@ namespace System { class String; }
 #define PFNJCDINMLA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF29050)
 #define PFNJCDINMLA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF290B0)
 
+inline static constexpr unsigned int PFNJCDINMLA_TypeDefinitionIndex = 25899;
+
 	class PFNJCDINMLA : public ::System::Object
 	{
 	public:

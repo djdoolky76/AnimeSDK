@@ -10,6 +10,8 @@ namespace UnityEngine { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ObjectExtensions_TypeDefinitionIndex = 72780;
+
 	class ObjectExtensions : public ::System::Object
 	{
 	public:

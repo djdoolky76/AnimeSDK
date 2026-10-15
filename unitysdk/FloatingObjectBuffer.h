@@ -23,6 +23,8 @@ namespace UnityEngine { class Texture; }
 #define FLOATINGOBJECTBUFFER_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x15932C20)
 #define FLOATINGOBJECTBUFFER_MAIJBFIEGCN_OFFSET UNITYSDK_OFFSET(0x159333F0)
 
+inline static constexpr unsigned int FloatingObjectBuffer_TypeDefinitionIndex = 47494;
+
 	class FloatingObjectBuffer : public ::System::Object
 	{
 	public:

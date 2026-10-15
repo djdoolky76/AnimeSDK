@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TriggerMiniEmoEffect; }
 #define JDIHEPPEDEE_LBMACDLKEDF_OFFSET UNITYSDK_OFFSET(0x165CD7A0)
 #define JDIHEPPEDEE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x165CD1A0)
 
+inline static constexpr unsigned int JDIHEPPEDEE_TypeDefinitionIndex = 55744;
+
 	class JDIHEPPEDEE
 	{
 	public:

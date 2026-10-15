@@ -9,6 +9,8 @@ namespace RPG::GameCore { class MarbleMainsubKillSealScore; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MarbleMainsubKillSealScore_TypeDefinitionIndex = 18930;
+
 	class MarbleMainsubKillSealScore : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::UI::OS
 {
+	inline static constexpr unsigned int UIUtils_TypeDefinitionIndex = 8476;
+
 	class UIUtils : public ::System::Object
 	{
 	public:

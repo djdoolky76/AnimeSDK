@@ -39,6 +39,8 @@ namespace UnityEngine { class LineRenderer; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AlleyRouteElasticView_TypeDefinitionIndex = 62321;
+
 	class AlleyRouteElasticView : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int ThirdPartyInfoModel_TypeDefinitionIndex = 7864;
+
 	class ThirdPartyInfoModel : public ::System::Object
 	{
 	public:

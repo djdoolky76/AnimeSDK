@@ -15,6 +15,8 @@ namespace RPG::Client { class FriendGridFightBattleRecordDisplayInfo; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FriendGridFightBattleRecordDisplayInfo_TypeDefinitionIndex = 64248;
+
 	class FriendGridFightBattleRecordDisplayInfo : public ::System::Object
 	{
 	public:

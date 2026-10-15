@@ -11,6 +11,8 @@ namespace RPG::GameCore { class LevelPedestrianNodeInfo; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelPedestrianNodeInfo_TypeDefinitionIndex = 17286;
+
 	class LevelPedestrianNodeInfo : public ::RPG::GameCore::JsonConfig
 	{
 	public:

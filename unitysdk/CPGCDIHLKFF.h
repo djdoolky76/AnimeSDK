@@ -4,6 +4,8 @@
 
 #define CPGCDIHLKFF_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA13910)
 
+inline static constexpr unsigned int CPGCDIHLKFF_TypeDefinitionIndex = 42976;
+
 	class CPGCDIHLKFF : public ::System::Object
 	{
 	public:

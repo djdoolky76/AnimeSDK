@@ -9,6 +9,8 @@ namespace Mono::Net::Security { class MobileAuthenticatedStream; }
 
 namespace Mono::Net::Security
 {
+	inline static constexpr unsigned int AsyncWriteRequest_TypeDefinitionIndex = 2433;
+
 	class AsyncWriteRequest : public ::Mono::Net::Security::AsyncReadOrWriteRequest
 	{
 	public:

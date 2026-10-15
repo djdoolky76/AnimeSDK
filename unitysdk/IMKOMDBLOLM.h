@@ -11,6 +11,8 @@ namespace System { class Object; }
 #define IMKOMDBLOLM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x164DD8F0)
 #define IMKOMDBLOLM_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x164DDA00)
 
+inline static constexpr unsigned int IMKOMDBLOLM_TypeDefinitionIndex = 52992;
+
 	class IMKOMDBLOLM
 	{
 	public:

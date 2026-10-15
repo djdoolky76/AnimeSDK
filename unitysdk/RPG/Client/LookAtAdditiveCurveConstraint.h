@@ -20,6 +20,8 @@ namespace RPG::GameCore { class LookAtAdditiveCurveConstraint; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int LookAtAdditiveCurveConstraint_TypeDefinitionIndex = 68477;
+
 	class LookAtAdditiveCurveConstraint : public ::RPG::GameCore::LookAtAdditiveCurveConstraint
 	{
 	public:

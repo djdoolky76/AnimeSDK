@@ -4,6 +4,8 @@
 
 namespace MiHoYo::SDK::PluginUI
 {
+	inline static constexpr unsigned int UIConstants_OverseaProtocolActionParam_TypeDefinitionIndex = 46867;
+
 	class UIConstants_OverseaProtocolActionParam : public ::System::Object
 	{
 	public:

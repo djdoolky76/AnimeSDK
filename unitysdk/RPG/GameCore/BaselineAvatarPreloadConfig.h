@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BaselineAvatarPreloadConfig_TypeDefinitionIndex = 16354;
+
 	class BaselineAvatarPreloadConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

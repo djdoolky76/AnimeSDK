@@ -11,6 +11,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define EOOMOGCAAPH___C__PREFERHIGHERRARITY_B__7_0_OFFSET UNITYSDK_OFFSET(0x155CD1B0)
 #define EOOMOGCAAPH___C__PREFERLATERRELEASED_B__6_0_OFFSET UNITYSDK_OFFSET(0x155CD150)
 
+inline static constexpr unsigned int EOOMOGCAAPH___c_TypeDefinitionIndex = 62802;
+
 	class EOOMOGCAAPH___c : public ::System::Object
 	{
 	public:

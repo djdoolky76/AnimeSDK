@@ -24,6 +24,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define FHNONIDJBDN_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CDF38A0)
 #define FHNONIDJBDN_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CDF3DD0)
 
+inline static constexpr unsigned int FHNONIDJBDN_TypeDefinitionIndex = 15194;
+
 	class FHNONIDJBDN : public ::System::Object
 	{
 	public:

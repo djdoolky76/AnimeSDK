@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BreakMunicipalChat_TypeDefinitionIndex = 21090;
+
 	class BreakMunicipalChat : public ::RPG::GameCore::TaskConfig
 	{
 	public:

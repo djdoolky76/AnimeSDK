@@ -8,6 +8,8 @@ namespace System { class String; }
 #define ECPDFJJNDBI_HIFGANKHPPJ_OFFSET UNITYSDK_OFFSET(0x1C429930)
 #define ECPDFJJNDBI_PCOHLHKDNDF_OFFSET UNITYSDK_OFFSET(0x1C461380)
 
+inline static constexpr unsigned int ECPDFJJNDBI_TypeDefinitionIndex = 41553;
+
 	class ECPDFJJNDBI : public ::System::Object
 	{
 	public:

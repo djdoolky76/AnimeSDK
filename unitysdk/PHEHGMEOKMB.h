@@ -6,6 +6,8 @@ namespace System { class String; }
 #define PHEHGMEOKMB_CTOR_OFFSET UNITYSDK_OFFSET(0x1C7ED1A0)
 #define PHEHGMEOKMB_PKOCDCNOAKH_OFFSET UNITYSDK_OFFSET(0x1C7ECEE0)
 
+inline static constexpr unsigned int PHEHGMEOKMB_TypeDefinitionIndex = 36401;
+
 	class PHEHGMEOKMB : public ::System::Object
 	{
 	public:

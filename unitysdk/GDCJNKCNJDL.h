@@ -21,6 +21,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define GDCJNKCNJDL_SET_INTERVAL_OFFSET UNITYSDK_OFFSET(0x159953B0)
 #define GDCJNKCNJDL_SET_ISENDED_OFFSET UNITYSDK_OFFSET(0x15995390)
 
+inline static constexpr unsigned int GDCJNKCNJDL_TypeDefinitionIndex = 75346;
+
 	class GDCJNKCNJDL : public ::System::Object
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::ChenLingBattle
 {
+	inline static constexpr unsigned int SelectPolicyPhaseInfo_TypeDefinitionIndex = 76394;
+
 	class SelectPolicyPhaseInfo : public ::System::Object
 	{
 	public:

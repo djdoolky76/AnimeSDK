@@ -12,6 +12,8 @@ namespace UnityEngine { class GameObject; }
 #define ODFPOBIEFGL_HHMFILFAMNA_OFFSET UNITYSDK_OFFSET(0xBD92510)
 #define ODFPOBIEFGL_LDAMHBBILAD_OFFSET UNITYSDK_OFFSET(0xBD925D0)
 
+inline static constexpr unsigned int ODFPOBIEFGL_TypeDefinitionIndex = 59760;
+
 	class ODFPOBIEFGL : public ::System::Object
 	{
 	public:

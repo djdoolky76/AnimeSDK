@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int AnimatorOverrideController_OnOverrideControllerDirtyCallback_TypeDefinitionIndex = 5716;
+
 	class AnimatorOverrideController_OnOverrideControllerDirtyCallback : public ::System::MulticastDelegate
 	{
 	public:

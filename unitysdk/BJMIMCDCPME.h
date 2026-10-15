@@ -6,6 +6,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 
 #define BJMIMCDCPME_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8BC120)
 
+inline static constexpr unsigned int BJMIMCDCPME_TypeDefinitionIndex = 43213;
+
 	class BJMIMCDCPME : public ::System::Object
 	{
 	public:

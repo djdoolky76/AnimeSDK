@@ -20,6 +20,8 @@ namespace Sofa::Core { class SimpleCommand; }
 
 namespace RPG::Client::ChenLingFes
 {
+	inline static constexpr unsigned int ChenLingFesGameplayDeleteViewModel_TypeDefinitionIndex = 81374;
+
 	class ChenLingFesGameplayDeleteViewModel : public ::Sofa::BaseViewModel
 	{
 	public:

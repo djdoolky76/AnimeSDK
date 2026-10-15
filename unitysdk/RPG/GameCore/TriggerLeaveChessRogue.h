@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TriggerLeaveChessRogue; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TriggerLeaveChessRogue_TypeDefinitionIndex = 22095;
+
 	class TriggerLeaveChessRogue : public ::RPG::GameCore::TaskConfig
 	{
 	public:

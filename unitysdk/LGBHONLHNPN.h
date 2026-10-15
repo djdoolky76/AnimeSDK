@@ -84,6 +84,8 @@ namespace UnityEngine { class GameObject; }
 #define LGBHONLHNPN_SET_REENTRYCOUNTER_OFFSET UNITYSDK_OFFSET(0xB68E9A0)
 #define LGBHONLHNPN__ONINITOWNERREF_OFFSET UNITYSDK_OFFSET(0xB68CD30)
 
+inline static constexpr unsigned int LGBHONLHNPN_TypeDefinitionIndex = 57162;
+
 	class LGBHONLHNPN : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

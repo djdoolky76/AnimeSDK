@@ -25,6 +25,8 @@ namespace System::Net::Http::Headers { class ViaHeaderValue; }
 
 namespace System::Net::Http::Headers
 {
+	inline static constexpr unsigned int ViaHeaderValue_TypeDefinitionIndex = 3829;
+
 	class ViaHeaderValue : public ::System::Object
 	{
 	public:

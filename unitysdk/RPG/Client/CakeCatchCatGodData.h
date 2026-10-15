@@ -17,6 +17,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CakeCatchCatGodData_TypeDefinitionIndex = 62988;
+
 	class CakeCatchCatGodData : public ::System::Object
 	{
 	public:

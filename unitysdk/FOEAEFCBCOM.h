@@ -8,6 +8,8 @@ class FOEAEFCBCOM;
 #define FOEAEFCBCOM_COMPARETO_OFFSET UNITYSDK_OFFSET(0x158E57B0)
 #define FOEAEFCBCOM_CTOR_OFFSET UNITYSDK_OFFSET(0x158E5820)
 
+inline static constexpr unsigned int FOEAEFCBCOM_TypeDefinitionIndex = 55640;
+
 	class FOEAEFCBCOM : public ::System::Object
 	{
 	public:

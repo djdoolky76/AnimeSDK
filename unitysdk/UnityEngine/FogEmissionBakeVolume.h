@@ -7,6 +7,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int FogEmissionBakeVolume_TypeDefinitionIndex = 4272;
+
 	class FogEmissionBakeVolume : public ::UnityEngine::Behaviour
 	{
 	public:

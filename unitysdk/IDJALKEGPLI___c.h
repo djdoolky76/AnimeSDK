@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define IDJALKEGPLI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E62D5E0)
 #define IDJALKEGPLI___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E62D5F0)
 
+inline static constexpr unsigned int IDJALKEGPLI___c_TypeDefinitionIndex = 31616;
+
 	class IDJALKEGPLI___c : public ::System::Object
 	{
 	public:

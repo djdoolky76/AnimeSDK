@@ -18,6 +18,8 @@ namespace System { class Object; }
 
 namespace UnityEngine::ProBuilder
 {
+	inline static constexpr unsigned int Normal_TypeDefinitionIndex = 44379;
+
 	struct alignas(4) Normal
 	{
 		::UnityEngine::Vector3 _normal_k__BackingField; // 0x10

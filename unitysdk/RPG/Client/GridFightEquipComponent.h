@@ -32,6 +32,8 @@ namespace System::Collections::ObjectModel { template <typename T> class Observa
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightEquipComponent_TypeDefinitionIndex = 64941;
+
 	class GridFightEquipComponent : public ::Sofa::Core::ObservableObject
 	{
 	public:

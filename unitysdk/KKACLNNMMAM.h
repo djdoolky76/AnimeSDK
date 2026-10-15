@@ -31,6 +31,8 @@ namespace System { class String; }
 #define KKACLNNMMAM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E874C10)
 #define KKACLNNMMAM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E874C70)
 
+inline static constexpr unsigned int KKACLNNMMAM_TypeDefinitionIndex = 34660;
+
 	class KKACLNNMMAM : public ::System::Object
 	{
 	public:

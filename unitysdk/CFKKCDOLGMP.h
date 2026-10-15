@@ -7,6 +7,8 @@ namespace Proto { class MonopolyActionResult; }
 #define CFKKCDOLGMP_CTOR_OFFSET UNITYSDK_OFFSET(0xCC4F500)
 #define CFKKCDOLGMP_TRIGGER_OFFSET UNITYSDK_OFFSET(0xCC4F590)
 
+inline static constexpr unsigned int CFKKCDOLGMP_TypeDefinitionIndex = 66244;
+
 	class CFKKCDOLGMP : public ::System::Object
 	{
 	public:

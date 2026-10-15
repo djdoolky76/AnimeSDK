@@ -13,6 +13,8 @@ namespace UnityEngine { class Transform; }
 #define KHLIMENHPHF_IBIMCLMLHFA_OFFSET UNITYSDK_OFFSET(0xB40BFE0)
 #define KHLIMENHPHF_PAFCMAMJENB_OFFSET UNITYSDK_OFFSET(0xB40C030)
 
+inline static constexpr unsigned int KHLIMENHPHF_TypeDefinitionIndex = 74216;
+
 	class KHLIMENHPHF : public ::ABDOMMLHNBC
 	{
 	public:

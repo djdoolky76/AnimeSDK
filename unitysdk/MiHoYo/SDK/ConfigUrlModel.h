@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int ConfigUrlModel_TypeDefinitionIndex = 7894;
+
 	class ConfigUrlModel : public ::System::Object
 	{
 	public:

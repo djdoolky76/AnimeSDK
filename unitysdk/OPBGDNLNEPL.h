@@ -11,6 +11,8 @@ namespace RPG::AvatarSystem { class IAvatar; }
 #define OPBGDNLNEPL_CTOR_OFFSET UNITYSDK_OFFSET(0xBF9FA70)
 #define OPBGDNLNEPL_OFCKIACAHCD_OFFSET UNITYSDK_OFFSET(0xBF9FB20)
 
+inline static constexpr unsigned int OPBGDNLNEPL_TypeDefinitionIndex = 62553;
+
 	class OPBGDNLNEPL : public ::System::Object
 	{
 	public:

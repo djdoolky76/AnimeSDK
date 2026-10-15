@@ -35,6 +35,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TreasureDungeonBaseGrid_TypeDefinitionIndex = 68186;
+
 	class TreasureDungeonBaseGrid : public ::System::Object
 	{
 	public:

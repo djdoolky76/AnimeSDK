@@ -7,6 +7,8 @@ class ANJOILDLGOC_COICIMMBADI;
 #define ANJOILDLGOC___C__DISPLAYCLASS171_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15896D80)
 #define ANJOILDLGOC___C__DISPLAYCLASS171_0___TRYSETUPMARKPANEL_B__0_OFFSET UNITYSDK_OFFSET(0x15898AD0)
 
+inline static constexpr unsigned int ANJOILDLGOC___c__DisplayClass171_0_TypeDefinitionIndex = 72371;
+
 	class ANJOILDLGOC___c__DisplayClass171_0 : public ::System::Object
 	{
 	public:

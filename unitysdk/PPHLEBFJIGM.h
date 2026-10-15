@@ -33,6 +33,8 @@ namespace System { class String; }
 #define PPHLEBFJIGM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DFDA570)
 #define PPHLEBFJIGM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DFDA5D0)
 
+inline static constexpr unsigned int PPHLEBFJIGM_TypeDefinitionIndex = 33140;
+
 	class PPHLEBFJIGM : public ::System::Object
 	{
 	public:

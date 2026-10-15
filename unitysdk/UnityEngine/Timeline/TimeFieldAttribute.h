@@ -8,6 +8,8 @@
 
 namespace UnityEngine::Timeline
 {
+	inline static constexpr unsigned int TimeFieldAttribute_TypeDefinitionIndex = 38863;
+
 	class TimeFieldAttribute : public ::UnityEngine::PropertyAttribute
 	{
 	public:

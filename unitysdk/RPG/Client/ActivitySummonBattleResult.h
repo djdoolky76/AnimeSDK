@@ -17,6 +17,8 @@ namespace RPG::Client { class ActivitySummonStage; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ActivitySummonBattleResult_TypeDefinitionIndex = 61919;
+
 	class ActivitySummonBattleResult : public ::System::Object
 	{
 	public:

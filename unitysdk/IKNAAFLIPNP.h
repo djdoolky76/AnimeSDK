@@ -28,6 +28,8 @@ namespace UnityEngine::UI { class Button; }
 #define IKNAAFLIPNP_MPDGHOJHPAO_OFFSET UNITYSDK_OFFSET(0x1649CBA0)
 #define IKNAAFLIPNP__ONBIND_OFFSET UNITYSDK_OFFSET(0x1649C110)
 
+inline static constexpr unsigned int IKNAAFLIPNP_TypeDefinitionIndex = 72254;
+
 	class IKNAAFLIPNP : public ::AGAGNDEHIOI
 	{
 	public:

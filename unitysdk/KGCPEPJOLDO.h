@@ -13,6 +13,8 @@ namespace RPG::Client::NavMap { class IMapDataSource; }
 #define KGCPEPJOLDO_HJBDDDLEGKE_OFFSET UNITYSDK_OFFSET(0xB3CE7F0)
 #define KGCPEPJOLDO_SET_POSITION_OFFSET UNITYSDK_OFFSET(0xB3CE860)
 
+inline static constexpr unsigned int KGCPEPJOLDO_TypeDefinitionIndex = 74577;
+
 	class KGCPEPJOLDO : public ::System::Object
 	{
 	public:

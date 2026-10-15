@@ -11,6 +11,8 @@ namespace UnityEngine::UIElements { class VisualElement; }
 
 namespace UnityEngine::UIElements
 {
+	inline static constexpr unsigned int EventDispatchUtilities_TypeDefinitionIndex = 5947;
+
 	class EventDispatchUtilities : public ::System::Object
 	{
 	public:

@@ -14,6 +14,8 @@ namespace System { class Object; }
 #define MOLLFJPOBAB_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBA33750)
 #define MOLLFJPOBAB_TICK_OFFSET UNITYSDK_OFFSET(0xBA337A0)
 
+inline static constexpr unsigned int MOLLFJPOBAB_TypeDefinitionIndex = 58201;
+
 	class MOLLFJPOBAB : public ::GELIALJDFBL
 	{
 	public:

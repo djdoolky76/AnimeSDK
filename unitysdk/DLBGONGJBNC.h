@@ -33,6 +33,8 @@ namespace System { class String; }
 #define DLBGONGJBNC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E1DD210)
 #define DLBGONGJBNC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E1DD270)
 
+inline static constexpr unsigned int DLBGONGJBNC_TypeDefinitionIndex = 28768;
+
 	class DLBGONGJBNC : public ::System::Object
 	{
 	public:

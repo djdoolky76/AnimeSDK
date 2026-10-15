@@ -14,6 +14,8 @@ namespace System::Xml::Schema { class IXmlSchemaInfo; }
 
 namespace System::Xml
 {
+	inline static constexpr unsigned int DomNameTable_TypeDefinitionIndex = 1890;
+
 	class DomNameTable : public ::System::Object
 	{
 	public:

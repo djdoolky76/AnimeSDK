@@ -10,6 +10,8 @@ namespace System { class String; }
 #define HDODANAJKGC_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CE97430)
 #define HDODANAJKGC_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CE973F0)
 
+inline static constexpr unsigned int HDODANAJKGC_TypeDefinitionIndex = 23151;
+
 	class HDODANAJKGC : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int ConsoleDelegate_PlayGoSetLanguageMaskDelegate_TypeDefinitionIndex = 7671;
+
 	class ConsoleDelegate_PlayGoSetLanguageMaskDelegate : public ::System::MulticastDelegate
 	{
 	public:

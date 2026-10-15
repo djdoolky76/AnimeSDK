@@ -6,6 +6,8 @@ class MFKLCJHKNBK;
 
 #define OOEKGCFMFBP_CTOR_OFFSET UNITYSDK_OFFSET(0xBF797B0)
 
+inline static constexpr unsigned int OOEKGCFMFBP_TypeDefinitionIndex = 75752;
+
 	class OOEKGCFMFBP : public ::DJJKNHPLHDI
 	{
 	public:

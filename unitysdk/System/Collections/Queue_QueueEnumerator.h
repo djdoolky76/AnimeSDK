@@ -12,6 +12,8 @@ namespace System::Collections { class Queue; }
 
 namespace System::Collections
 {
+	inline static constexpr unsigned int Queue_QueueEnumerator_TypeDefinitionIndex = 1496;
+
 	class Queue_QueueEnumerator : public ::System::Object
 	{
 	public:

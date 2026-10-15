@@ -6,6 +6,8 @@ namespace RPG::GameCore { class PropComponent; }
 #define MOMMAHLDPME_CTOR_OFFSET UNITYSDK_OFFSET(0xBA354C0)
 #define MOMMAHLDPME_GET_ICONID_OFFSET UNITYSDK_OFFSET(0xBA35280)
 
+inline static constexpr unsigned int MOMMAHLDPME_TypeDefinitionIndex = 60644;
+
 	class MOMMAHLDPME : public ::JNOCOHFFHCP
 	{
 	public:

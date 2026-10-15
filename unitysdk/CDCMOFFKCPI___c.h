@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define CDCMOFFKCPI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E081180)
 #define CDCMOFFKCPI___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E081190)
 
+inline static constexpr unsigned int CDCMOFFKCPI___c_TypeDefinitionIndex = 28083;
+
 	class CDCMOFFKCPI___c : public ::System::Object
 	{
 	public:

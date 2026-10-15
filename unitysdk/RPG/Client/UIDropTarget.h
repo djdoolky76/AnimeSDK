@@ -18,6 +18,8 @@ namespace System { class Action; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UIDropTarget_TypeDefinitionIndex = 73066;
+
 	class UIDropTarget : public ::UnityEngine::MonoBehaviour
 	{
 	public:

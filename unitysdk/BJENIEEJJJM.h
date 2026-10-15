@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TutorialFinish; }
 #define BJENIEEJJJM_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB799430)
 #define BJENIEEJJJM_TICK_OFFSET UNITYSDK_OFFSET(0xB799480)
 
+inline static constexpr unsigned int BJENIEEJJJM_TypeDefinitionIndex = 58822;
+
 	class BJENIEEJJJM : public ::GELIALJDFBL
 	{
 	public:

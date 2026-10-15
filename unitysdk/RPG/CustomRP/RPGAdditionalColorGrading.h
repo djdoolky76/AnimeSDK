@@ -10,6 +10,8 @@ namespace UnityEngine::Rendering { class Vector2Parameter; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int RPGAdditionalColorGrading_TypeDefinitionIndex = 37782;
+
 	class RPGAdditionalColorGrading : public ::RPG::CustomRP::CustomVolumeComponent
 	{
 	public:

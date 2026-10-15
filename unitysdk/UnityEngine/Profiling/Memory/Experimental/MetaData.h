@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace UnityEngine::Profiling::Memory::Experimental
 {
+	inline static constexpr unsigned int MetaData_TypeDefinitionIndex = 4521;
+
 	class MetaData : public ::System::Object
 	{
 	public:

@@ -23,6 +23,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPGTools::Timeline::BattlePerform
 {
+	inline static constexpr unsigned int BPCharacterFullBodyBehaviour_TypeDefinitionIndex = 48804;
+
 	class BPCharacterFullBodyBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

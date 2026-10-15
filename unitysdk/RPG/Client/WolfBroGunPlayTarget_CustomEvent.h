@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int WolfBroGunPlayTarget_CustomEvent_TypeDefinitionIndex = 68724;
+
 	class WolfBroGunPlayTarget_CustomEvent : public ::RPG::Client::WolfBroGunPlayTarget
 	{
 	public:

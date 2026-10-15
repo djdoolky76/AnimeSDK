@@ -9,6 +9,8 @@ namespace RPG::GameCore { class CakeRaceActionTransportToFrontRandomCat; }
 #define NKELDPHOFLB_GAILDDCMCHP_OFFSET UNITYSDK_OFFSET(0x1C79C0A0)
 #define NKELDPHOFLB_MCGNJBKAGFN_OFFSET UNITYSDK_OFFSET(0x1C79BB90)
 
+inline static constexpr unsigned int NKELDPHOFLB_TypeDefinitionIndex = 37398;
+
 	class NKELDPHOFLB : public ::GPLOFONGBGI
 	{
 	public:

@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define BFHGEENHOLP_SET_NAME_OFFSET UNITYSDK_OFFSET(0xB164030)
 #define BFHGEENHOLP_SET_TOTALSIZE_OFFSET UNITYSDK_OFFSET(0xB164050)
 
+inline static constexpr unsigned int BFHGEENHOLP_TypeDefinitionIndex = 69478;
+
 	class BFHGEENHOLP : public ::System::Object
 	{
 	public:

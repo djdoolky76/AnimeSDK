@@ -8,6 +8,8 @@ namespace RPG::Client { class GridFightArchiveData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightModule___c__DisplayClass7_0_TypeDefinitionIndex = 64876;
+
 	class GridFightModule___c__DisplayClass7_0 : public ::System::Object
 	{
 	public:

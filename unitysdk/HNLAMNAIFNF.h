@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TaskConfig; }
 #define HNLAMNAIFNF_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CECD130)
 #define HNLAMNAIFNF_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CECD0F0)
 
+inline static constexpr unsigned int HNLAMNAIFNF_TypeDefinitionIndex = 24159;
+
 	class HNLAMNAIFNF : public ::RPG::GameCore::TaskConfig
 	{
 	public:

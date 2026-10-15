@@ -3,6 +3,8 @@
 
 namespace IFix
 {
+	inline static constexpr unsigned int IDMAP5_TypeDefinitionIndex = 82340;
+
 	enum class IDMAP5 : ::System::Int32
 	{
 		RPG_Client_Prop_JigsawPuzzleItem_TriggerOutlineFadePerform0 = 195815,

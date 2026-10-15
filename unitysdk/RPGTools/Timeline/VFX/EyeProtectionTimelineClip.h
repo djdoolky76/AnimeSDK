@@ -13,6 +13,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline::VFX
 {
+	inline static constexpr unsigned int EyeProtectionTimelineClip_TypeDefinitionIndex = 48700;
+
 	class EyeProtectionTimelineClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

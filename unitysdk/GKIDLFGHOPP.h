@@ -29,6 +29,8 @@ namespace System { class String; }
 #define GKIDLFGHOPP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E4B6770)
 #define GKIDLFGHOPP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E4B67D0)
 
+inline static constexpr unsigned int GKIDLFGHOPP_TypeDefinitionIndex = 26289;
+
 	class GKIDLFGHOPP : public ::System::Object
 	{
 	public:

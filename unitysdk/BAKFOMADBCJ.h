@@ -27,6 +27,8 @@ namespace System { class String; }
 #define BAKFOMADBCJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E7BA080)
 #define BAKFOMADBCJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E7BA0E0)
 
+inline static constexpr unsigned int BAKFOMADBCJ_TypeDefinitionIndex = 34854;
+
 	class BAKFOMADBCJ : public ::System::Object
 	{
 	public:

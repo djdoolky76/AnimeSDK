@@ -7,6 +7,8 @@ class HBIAKFCLCIG;
 #define INFGDNHDOLB___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0x164EB790)
 #define INFGDNHDOLB___C__DISPLAYCLASS1_0___GETCOMPAREGROUP_B__0_OFFSET UNITYSDK_OFFSET(0x164EBA40)
 
+inline static constexpr unsigned int INFGDNHDOLB___c__DisplayClass1_0_TypeDefinitionIndex = 64925;
+
 	class INFGDNHDOLB___c__DisplayClass1_0 : public ::System::Object
 	{
 	public:

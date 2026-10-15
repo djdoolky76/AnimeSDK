@@ -22,6 +22,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define FJIEGMAKIMA_LMKGCKHMBLP_PIECNBDOBIM_1_OFFSET UNITYSDK_OFFSET(0x157CBC90)
 #define FJIEGMAKIMA_LMKGCKHMBLP_PIECNBDOBIM_OFFSET UNITYSDK_OFFSET(0x157CB340)
 
+inline static constexpr unsigned int FJIEGMAKIMA_LMKGCKHMBLP_TypeDefinitionIndex = 60229;
+
 	class FJIEGMAKIMA_LMKGCKHMBLP : public ::System::Object
 	{
 	public:

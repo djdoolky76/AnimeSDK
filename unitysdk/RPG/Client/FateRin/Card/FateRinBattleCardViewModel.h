@@ -66,6 +66,8 @@ namespace System { class String; }
 
 namespace RPG::Client::FateRin::Card
 {
+	inline static constexpr unsigned int FateRinBattleCardViewModel_TypeDefinitionIndex = 81126;
+
 	class FateRinBattleCardViewModel : public ::RPG::Client::FateRin::BaseViewModel
 	{
 	public:

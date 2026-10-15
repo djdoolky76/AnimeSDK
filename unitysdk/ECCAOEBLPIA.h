@@ -19,6 +19,8 @@ namespace System::Collections { class IEnumerator; }
 #define ECCAOEBLPIA_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x12D08030)
 #define ECCAOEBLPIA_TICK_OFFSET UNITYSDK_OFFSET(0x12D08300)
 
+inline static constexpr unsigned int ECCAOEBLPIA_TypeDefinitionIndex = 58292;
+
 	class ECCAOEBLPIA : public ::GELIALJDFBL
 	{
 	public:

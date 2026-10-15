@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define DDOOMBLAOHN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E18CEF0)
 #define DDOOMBLAOHN___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E18CF00)
 
+inline static constexpr unsigned int DDOOMBLAOHN___c_TypeDefinitionIndex = 32699;
+
 	class DDOOMBLAOHN___c : public ::System::Object
 	{
 	public:

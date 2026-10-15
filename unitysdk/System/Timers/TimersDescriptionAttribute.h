@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace System::Timers
 {
+	inline static constexpr unsigned int TimersDescriptionAttribute_TypeDefinitionIndex = 2495;
+
 	class TimersDescriptionAttribute : public ::System::ComponentModel::DescriptionAttribute
 	{
 	public:

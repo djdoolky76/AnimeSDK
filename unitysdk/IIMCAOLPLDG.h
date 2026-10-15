@@ -28,6 +28,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define IIMCAOLPLDG_NKEAFKIJDLH_OFFSET UNITYSDK_OFFSET(0x1644A910)
 #define IIMCAOLPLDG_PMPGLJADDNB_OFFSET UNITYSDK_OFFSET(0x1644BE10)
 
+inline static constexpr unsigned int IIMCAOLPLDG_TypeDefinitionIndex = 73267;
+
 	class IIMCAOLPLDG : public ::System::Object
 	{
 	public:

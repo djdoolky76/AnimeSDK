@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace Cinemachine::Utility
 {
+	inline static constexpr unsigned int SplineHelpers_TypeDefinitionIndex = 39896;
+
 	class SplineHelpers : public ::System::Object
 	{
 	public:

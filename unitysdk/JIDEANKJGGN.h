@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define JIDEANKJGGN_EXECUTE_OFFSET UNITYSDK_OFFSET(0xB1EE050)
 #define JIDEANKJGGN_TICK_OFFSET UNITYSDK_OFFSET(0xB1EE9A0)
 
+inline static constexpr unsigned int JIDEANKJGGN_TypeDefinitionIndex = 77664;
+
 	class JIDEANKJGGN : public ::System::Object
 	{
 	public:

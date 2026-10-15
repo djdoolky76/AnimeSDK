@@ -8,6 +8,8 @@ namespace RPG::Client { class CameraBlendCurve; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ElfCameraConfig_TypeDefinitionIndex = 63687;
+
 	class ElfCameraConfig : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define MPFGBMMLJKD_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DDAF3A0)
 #define MPFGBMMLJKD_NOBBDDHOCKI_OFFSET UNITYSDK_OFFSET(0x1DDAEB20)
 
+inline static constexpr unsigned int MPFGBMMLJKD_TypeDefinitionIndex = 43924;
+
 	class MPFGBMMLJKD : public ::System::Object
 	{
 	public:

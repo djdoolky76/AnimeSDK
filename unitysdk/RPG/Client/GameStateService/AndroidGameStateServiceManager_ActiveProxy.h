@@ -12,6 +12,8 @@ namespace System { class Action; }
 
 namespace RPG::Client::GameStateService
 {
+	inline static constexpr unsigned int AndroidGameStateServiceManager_ActiveProxy_TypeDefinitionIndex = 75628;
+
 	class AndroidGameStateServiceManager_ActiveProxy : public ::System::Object
 	{
 	public:

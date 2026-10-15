@@ -9,6 +9,8 @@ namespace RPG::Client::RelicSmartSuit { class RelicSmartSuitCalculationResultDat
 #define OCMFDLKNMOJ_CTOR_OFFSET UNITYSDK_OFFSET(0xBD706A0)
 #define OCMFDLKNMOJ_HGFMHGPIJFJ_OFFSET UNITYSDK_OFFSET(0xBD706B0)
 
+inline static constexpr unsigned int OCMFDLKNMOJ_TypeDefinitionIndex = 74443;
+
 	class OCMFDLKNMOJ : public ::GOMOGGFKHFL
 	{
 	public:

@@ -13,6 +13,8 @@
 #define DJAHNCFBJAM_NDLNCMOLIAL_OFFSET UNITYSDK_OFFSET(0xF22BA50)
 #define DJAHNCFBJAM_NHPBMMFNNCK_OFFSET UNITYSDK_OFFSET(0xF22BAE0)
 
+inline static constexpr unsigned int DJAHNCFBJAM_TypeDefinitionIndex = 57090;
+
 	class DJAHNCFBJAM : public ::System::Object
 	{
 	public:

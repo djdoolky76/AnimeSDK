@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int WindowsHelper_EnumWindowsCallBack_TypeDefinitionIndex = 73244;
+
 	class WindowsHelper_EnumWindowsCallBack : public ::System::MulticastDelegate
 	{
 	public:

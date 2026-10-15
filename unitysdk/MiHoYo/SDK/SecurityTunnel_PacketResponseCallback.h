@@ -7,6 +7,8 @@ namespace System::Timers { class Timer; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int SecurityTunnel_PacketResponseCallback_TypeDefinitionIndex = 46386;
+
 	struct alignas(8) SecurityTunnel_PacketResponseCallback
 	{
 		::System::UInt64 RequestID; // 0x10

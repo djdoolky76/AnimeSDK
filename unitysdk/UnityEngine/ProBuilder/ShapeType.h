@@ -3,6 +3,8 @@
 
 namespace UnityEngine::ProBuilder
 {
+	inline static constexpr unsigned int ShapeType_TypeDefinitionIndex = 44431;
+
 	enum class ShapeType : ::System::Int32
 	{
 		Cube = 0,

@@ -11,6 +11,8 @@ namespace UnityEngine::UI { class Image; }
 
 namespace Sofa::Runtime
 {
+	inline static constexpr unsigned int TabHeaderImageTextWithStatusControl_TypeDefinitionIndex = 49732;
+
 	class TabHeaderImageTextWithStatusControl
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ResetBattleBGMToStage_TypeDefinitionIndex = 22966;
+
 	class ResetBattleBGMToStage : public ::RPG::GameCore::TaskConfig
 	{
 	public:

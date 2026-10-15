@@ -21,6 +21,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::PetMarble
 {
+	inline static constexpr unsigned int UI3DPetMarbleView_TypeDefinitionIndex = 74737;
+
 	class UI3DPetMarbleView : public ::System::Object
 	{
 	public:

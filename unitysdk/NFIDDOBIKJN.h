@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define NFIDDOBIKJN_CTOR_OFFSET UNITYSDK_OFFSET(0xBB96450)
 #define NFIDDOBIKJN_GICABFLDIPA_OFFSET UNITYSDK_OFFSET(0xBB962C0)
 
+inline static constexpr unsigned int NFIDDOBIKJN_TypeDefinitionIndex = 77478;
+
 	class NFIDDOBIKJN : public ::FJNNEOKOCJD
 	{
 	public:

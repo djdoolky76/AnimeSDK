@@ -7,6 +7,8 @@ class GJEMBJDCAPG;
 #define IIMCAOLPLDG___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1644BA20)
 #define IIMCAOLPLDG___C__DISPLAYCLASS5_0__DEPARTEQUIPPROPERTY_B__0_OFFSET UNITYSDK_OFFSET(0x1644DC00)
 
+inline static constexpr unsigned int IIMCAOLPLDG___c__DisplayClass5_0_TypeDefinitionIndex = 73269;
+
 	class IIMCAOLPLDG___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:

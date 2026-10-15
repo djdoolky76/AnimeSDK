@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int IVRSystem__GetSeatedZeroPoseToStandingAbsoluteTrackingPose_TypeDefinitionIndex = 38903;
+
 	class IVRSystem__GetSeatedZeroPoseToStandingAbsoluteTrackingPose : public ::System::MulticastDelegate
 	{
 	public:

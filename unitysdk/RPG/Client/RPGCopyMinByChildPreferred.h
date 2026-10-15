@@ -19,6 +19,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RPGCopyMinByChildPreferred_TypeDefinitionIndex = 72638;
+
 	class RPGCopyMinByChildPreferred : public ::UnityEngine::EventSystems::UIBehaviour
 	{
 	public:

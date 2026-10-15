@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int IdleLiveAdvTechTreeTabRow_TypeDefinitionIndex = 11731;
+
 	class IdleLiveAdvTechTreeTabRow : public ::System::Object
 	{
 	public:

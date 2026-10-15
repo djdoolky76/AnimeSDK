@@ -50,6 +50,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UIMap3DContainer_TypeDefinitionIndex = 69054;
+
 	class UIMap3DContainer : public ::UnityEngine::MonoBehaviour
 	{
 	public:

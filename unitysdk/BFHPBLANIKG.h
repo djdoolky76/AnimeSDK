@@ -27,6 +27,8 @@ namespace System { class String; }
 #define BFHPBLANIKG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA6D4C0)
 #define BFHPBLANIKG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA6D520)
 
+inline static constexpr unsigned int BFHPBLANIKG_TypeDefinitionIndex = 31646;
+
 	class BFHPBLANIKG : public ::System::Object
 	{
 	public:

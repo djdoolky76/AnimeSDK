@@ -44,6 +44,8 @@ namespace XLua { class LuaTable; }
 
 namespace RPG::Client::B51Racing
 {
+	inline static constexpr unsigned int MonoB51RacingGameplayResultDialog_TypeDefinitionIndex = 81949;
+
 	class MonoB51RacingGameplayResultDialog : public ::Sofa::BaseSofaControl
 	{
 	public:

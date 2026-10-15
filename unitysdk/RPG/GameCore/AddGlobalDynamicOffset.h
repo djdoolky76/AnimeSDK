@@ -11,6 +11,8 @@ namespace RPG::GameCore { class DynamicString; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AddGlobalDynamicOffset_TypeDefinitionIndex = 22509;
+
 	class AddGlobalDynamicOffset : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -8,6 +8,8 @@
 
 namespace XLua
 {
+	inline static constexpr unsigned int LuaIndexes_TypeDefinitionIndex = 50252;
+
 	class LuaIndexes : public ::System::Object
 	{
 	public:

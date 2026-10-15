@@ -29,6 +29,8 @@ namespace System { class String; }
 #define LAABPKPBJEG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E8C4C00)
 #define LAABPKPBJEG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E8C4C60)
 
+inline static constexpr unsigned int LAABPKPBJEG_TypeDefinitionIndex = 32466;
+
 	class LAABPKPBJEG : public ::System::Object
 	{
 	public:

@@ -52,6 +52,8 @@ namespace UnityEngine { class Mesh; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_GenerateGeoCache_TypeDefinitionIndex = 40634;
+
 	class HEU_GenerateGeoCache : public ::System::Object
 	{
 	public:

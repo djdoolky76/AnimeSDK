@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueActTriggerDialogueEffectRepeatableSelectCon
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueActTriggerDialogueEffectRepeatableSelectConfig_TypeDefinitionIndex = 19636;
+
 	class RogueActTriggerDialogueEffectRepeatableSelectConfig : public ::RPG::GameCore::RogueActionConfigBase
 	{
 	public:

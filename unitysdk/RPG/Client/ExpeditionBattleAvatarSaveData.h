@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ExpeditionBattleAvatarSaveData_TypeDefinitionIndex = 63838;
+
 	class ExpeditionBattleAvatarSaveData : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int HintInfo_TypeDefinitionIndex = 78522;
+
 	class HintInfo : public ::System::Object
 	{
 	public:

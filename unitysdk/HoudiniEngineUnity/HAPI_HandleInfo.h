@@ -3,6 +3,8 @@
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HAPI_HandleInfo_TypeDefinitionIndex = 40501;
+
 	struct alignas(4) HAPI_HandleInfo
 	{
 		::System::Int32 nameSH; // 0x10

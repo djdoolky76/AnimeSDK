@@ -21,6 +21,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UIAdventureWaypointsContainer_TypeDefinitionIndex = 69080;
+
 	class UIAdventureWaypointsContainer : public ::UnityEngine::MonoBehaviour
 	{
 	public:

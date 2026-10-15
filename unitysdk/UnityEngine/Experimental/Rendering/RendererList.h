@@ -15,6 +15,8 @@ namespace System { class Nullable; }
 
 namespace UnityEngine::Experimental::Rendering
 {
+	inline static constexpr unsigned int RendererList_TypeDefinitionIndex = 35444;
+
 	struct alignas(8) RendererList
 	{
 		::System::Boolean _isValid_k__BackingField; // 0x10

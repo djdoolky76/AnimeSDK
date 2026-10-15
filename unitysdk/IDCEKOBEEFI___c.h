@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define IDCEKOBEEFI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E629790)
 #define IDCEKOBEEFI___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E6297A0)
 
+inline static constexpr unsigned int IDCEKOBEEFI___c_TypeDefinitionIndex = 33381;
+
 	class IDCEKOBEEFI___c : public ::System::Object
 	{
 	public:

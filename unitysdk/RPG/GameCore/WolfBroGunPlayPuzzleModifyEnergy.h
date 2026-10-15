@@ -10,6 +10,8 @@ namespace RPG::GameCore { class WolfBroGunPlayPuzzleModifyEnergy; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WolfBroGunPlayPuzzleModifyEnergy_TypeDefinitionIndex = 20370;
+
 	class WolfBroGunPlayPuzzleModifyEnergy : public ::RPG::GameCore::TaskConfig
 	{
 	public:

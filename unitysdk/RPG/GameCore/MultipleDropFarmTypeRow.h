@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MultipleDropFarmTypeRow_TypeDefinitionIndex = 11478;
+
 	class MultipleDropFarmTypeRow : public ::System::Object
 	{
 	public:

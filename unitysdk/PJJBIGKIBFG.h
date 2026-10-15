@@ -21,6 +21,8 @@ namespace UnityEngine { class Texture2D; }
 #define PJJBIGKIBFG_LJFAJLGPHIN_OFFSET UNITYSDK_OFFSET(0xC28D1C0)
 #define PJJBIGKIBFG_NNFHLGGECOM_OFFSET UNITYSDK_OFFSET(0xC28C930)
 
+inline static constexpr unsigned int PJJBIGKIBFG_TypeDefinitionIndex = 70378;
+
 	class PJJBIGKIBFG : public ::RPG::Client::BehaviorBase
 	{
 	public:

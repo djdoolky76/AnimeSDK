@@ -38,6 +38,8 @@ namespace System::Text::RegularExpressions { class Regex; }
 
 namespace MessagePack
 {
+	inline static constexpr unsigned int MessagePackSerializerOptions_TypeDefinitionIndex = 7230;
+
 	class MessagePackSerializerOptions : public ::System::Object
 	{
 	public:

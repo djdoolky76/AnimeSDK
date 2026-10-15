@@ -8,6 +8,8 @@ namespace UnityEngine { class GameObject; }
 
 #define CHARACTERLINELIGHTGROUP_CLLG_POINT_CTOR_OFFSET UNITYSDK_OFFSET(0xDCE8CD0)
 
+inline static constexpr unsigned int CharacterLineLightGroup_CLLG_Point_TypeDefinitionIndex = 47462;
+
 	class CharacterLineLightGroup_CLLG_Point : public ::System::Object
 	{
 	public:

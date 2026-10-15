@@ -39,6 +39,8 @@ namespace UnityEngine::Playables { class PlayableDirector; }
 #define ONGJAABPPCP_OEJBGDFIGJG_OFFSET UNITYSDK_OFFSET(0xBF55BD0)
 #define ONGJAABPPCP_PBBEINJGAOE_OFFSET UNITYSDK_OFFSET(0xBF546D0)
 
+inline static constexpr unsigned int ONGJAABPPCP_TypeDefinitionIndex = 69611;
+
 	class ONGJAABPPCP : public ::System::Object
 	{
 	public:

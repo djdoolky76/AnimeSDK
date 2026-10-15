@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define MBDAPMIPEON___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E9E21A0)
 #define MBDAPMIPEON___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1E9E21B0)
 
+inline static constexpr unsigned int MBDAPMIPEON___c_TypeDefinitionIndex = 35003;
+
 	class MBDAPMIPEON___c : public ::System::Object
 	{
 	public:

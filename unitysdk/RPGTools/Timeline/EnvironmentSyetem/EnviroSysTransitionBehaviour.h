@@ -26,6 +26,8 @@ namespace System { class String; }
 
 namespace RPGTools::Timeline::EnvironmentSyetem
 {
+	inline static constexpr unsigned int EnviroSysTransitionBehaviour_TypeDefinitionIndex = 48641;
+
 	class EnviroSysTransitionBehaviour : public ::RPGTools::Timeline::RecoverablePlayableBehaviour
 	{
 	public:

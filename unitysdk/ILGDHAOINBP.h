@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define ILGDHAOINBP_SET_CLEARSCORE_OFFSET UNITYSDK_OFFSET(0x164B0E40)
 #define ILGDHAOINBP_SET_FEVERMAZEBUFFIDS_OFFSET UNITYSDK_OFFSET(0x164B0E60)
 
+inline static constexpr unsigned int ILGDHAOINBP_TypeDefinitionIndex = 81448;
+
 	class ILGDHAOINBP : public ::DHCNDENHLGO
 	{
 	public:

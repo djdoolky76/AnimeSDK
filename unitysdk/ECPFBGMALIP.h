@@ -28,6 +28,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define ECPFBGMALIP_IOGBJKLPAAK_OFFSET UNITYSDK_OFFSET(0x12D17FB0)
 #define ECPFBGMALIP_NIBNOMPBOPL_OFFSET UNITYSDK_OFFSET(0x12D18130)
 
+inline static constexpr unsigned int ECPFBGMALIP_TypeDefinitionIndex = 74605;
+
 	class ECPFBGMALIP : public ::System::Object
 	{
 	public:

@@ -114,6 +114,8 @@ namespace UnityEngine { class Transform; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_PartData_TypeDefinitionIndex = 40416;
+
 	class HEU_PartData : public ::UnityEngine::ScriptableObject
 	{
 	public:

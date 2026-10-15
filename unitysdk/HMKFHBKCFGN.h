@@ -5,6 +5,8 @@ namespace UnityEngine { class Material; }
 #define HMKFHBKCFGN_EQUALS_OFFSET UNITYSDK_OFFSET(0x2E7F160)
 #define HMKFHBKCFGN_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x2E7F170)
 
+inline static constexpr unsigned int HMKFHBKCFGN_TypeDefinitionIndex = 69839;
+
 	struct alignas(8) HMKFHBKCFGN
 	{
 		::Il2CppArray<::UnityEngine::Material*>* BPIHKOEBGLD; // 0x10

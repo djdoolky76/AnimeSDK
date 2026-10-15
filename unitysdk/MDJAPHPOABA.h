@@ -29,6 +29,8 @@ namespace System { class String; }
 #define MDJAPHPOABA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA03820)
 #define MDJAPHPOABA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA03880)
 
+inline static constexpr unsigned int MDJAPHPOABA_TypeDefinitionIndex = 34786;
+
 	class MDJAPHPOABA : public ::System::Object
 	{
 	public:

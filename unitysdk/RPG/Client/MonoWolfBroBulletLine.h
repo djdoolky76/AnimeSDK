@@ -11,6 +11,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoWolfBroBulletLine_TypeDefinitionIndex = 68719;
+
 	class MonoWolfBroBulletLine : public ::UnityEngine::MonoBehaviour
 	{
 	public:

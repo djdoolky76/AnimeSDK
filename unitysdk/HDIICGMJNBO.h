@@ -32,6 +32,8 @@ namespace System { class String; }
 #define HDIICGMJNBO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E54D370)
 #define HDIICGMJNBO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E54D3D0)
 
+inline static constexpr unsigned int HDIICGMJNBO_TypeDefinitionIndex = 33294;
+
 	class HDIICGMJNBO : public ::System::Object
 	{
 	public:

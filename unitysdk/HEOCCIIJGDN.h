@@ -8,6 +8,8 @@ class HEOCCIIJGDN;
 #define HEOCCIIJGDN_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CE9C4A0)
 #define HEOCCIIJGDN_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CE9C3D0)
 
+inline static constexpr unsigned int HEOCCIIJGDN_TypeDefinitionIndex = 21332;
+
 	class HEOCCIIJGDN : public ::RPG::GameCore::STTaskConfig
 	{
 	public:

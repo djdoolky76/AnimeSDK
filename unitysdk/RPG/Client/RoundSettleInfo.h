@@ -19,6 +19,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RoundSettleInfo_TypeDefinitionIndex = 61440;
+
 	class RoundSettleInfo : public ::System::Object
 	{
 	public:

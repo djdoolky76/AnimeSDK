@@ -39,6 +39,8 @@ namespace XLua { class LuaTable; }
 
 namespace RPG::Client::B51Racing
 {
+	inline static constexpr unsigned int LuaControllerBridgeAPI_TypeDefinitionIndex = 81760;
+
 	class LuaControllerBridgeAPI : public ::System::Object
 	{
 	public:

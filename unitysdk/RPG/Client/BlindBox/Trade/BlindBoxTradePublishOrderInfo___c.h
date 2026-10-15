@@ -11,6 +11,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace RPG::Client::BlindBox::Trade
 {
+	inline static constexpr unsigned int BlindBoxTradePublishOrderInfo___c_TypeDefinitionIndex = 74892;
+
 	class BlindBoxTradePublishOrderInfo___c : public ::System::Object
 	{
 	public:

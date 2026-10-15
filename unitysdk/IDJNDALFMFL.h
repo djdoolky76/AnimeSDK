@@ -36,6 +36,8 @@ namespace System { class String; }
 #define IDJNDALFMFL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E62E950)
 #define IDJNDALFMFL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E62E9B0)
 
+inline static constexpr unsigned int IDJNDALFMFL_TypeDefinitionIndex = 31996;
+
 	class IDJNDALFMFL : public ::System::Object
 	{
 	public:

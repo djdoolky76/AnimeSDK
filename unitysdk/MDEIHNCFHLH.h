@@ -10,6 +10,8 @@ namespace RPG::Client { class MatchThreeBoard; }
 #define MDEIHNCFHLH_ONCLEAR_OFFSET UNITYSDK_OFFSET(0xB8A3100)
 #define MDEIHNCFHLH_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0xB8A3050)
 
+inline static constexpr unsigned int MDEIHNCFHLH_TypeDefinitionIndex = 65887;
+
 	class MDEIHNCFHLH : public ::FNIDIOCNBBI
 	{
 	public:

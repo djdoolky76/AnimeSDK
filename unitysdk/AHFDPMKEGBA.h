@@ -4,6 +4,8 @@
 
 #define AHFDPMKEGBA_CTOR_OFFSET UNITYSDK_OFFSET(0xEB80480)
 
+inline static constexpr unsigned int AHFDPMKEGBA_TypeDefinitionIndex = 48144;
+
 	class AHFDPMKEGBA : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

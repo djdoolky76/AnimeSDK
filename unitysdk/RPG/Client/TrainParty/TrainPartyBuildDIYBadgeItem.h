@@ -38,6 +38,8 @@ namespace System { class String; }
 
 namespace RPG::Client::TrainParty
 {
+	inline static constexpr unsigned int TrainPartyBuildDIYBadgeItem_TypeDefinitionIndex = 74286;
+
 	class TrainPartyBuildDIYBadgeItem : public ::RPG::Client::TrainParty::TrainPartyBuildDIYItem
 	{
 	public:

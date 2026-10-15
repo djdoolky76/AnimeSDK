@@ -15,6 +15,8 @@ namespace System { class Tuple; }
 
 namespace RPG::Client::Billboard
 {
+	inline static constexpr unsigned int FiveDimSidePuzzleBillboardData_TypeDefinitionIndex = 74985;
+
 	class FiveDimSidePuzzleBillboardData : public ::System::Object
 	{
 	public:

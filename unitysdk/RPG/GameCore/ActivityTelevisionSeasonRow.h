@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ActivityTelevisionSeasonRow_TypeDefinitionIndex = 12502;
+
 	class ActivityTelevisionSeasonRow : public ::System::Object
 	{
 	public:

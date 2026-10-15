@@ -17,6 +17,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::LittleGame
 {
+	inline static constexpr unsigned int MovieGameFullScreenTranslateEffect_TypeDefinitionIndex = 76608;
+
 	class MovieGameFullScreenTranslateEffect : public ::UnityEngine::MonoBehaviour
 	{
 	public:

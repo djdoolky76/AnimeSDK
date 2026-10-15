@@ -48,6 +48,8 @@ namespace UnityEngine::UI { class Text; }
 #define FDOICPJGACI__ONDISPOSE_OFFSET UNITYSDK_OFFSET(0x156DFCE0)
 #define FDOICPJGACI__ONTICK_OFFSET UNITYSDK_OFFSET(0x156DFBB0)
 
+inline static constexpr unsigned int FDOICPJGACI_TypeDefinitionIndex = 72018;
+
 	class FDOICPJGACI : public ::FMPCODLIOLG
 	{
 	public:

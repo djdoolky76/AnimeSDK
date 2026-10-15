@@ -16,6 +16,8 @@ namespace UnityEngine::Events { class BaseInvokableCall; }
 
 namespace UnityEngine::Events
 {
+	inline static constexpr unsigned int InvokableCallList_TypeDefinitionIndex = 4489;
+
 	class InvokableCallList : public ::System::Object
 	{
 	public:

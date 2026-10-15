@@ -10,6 +10,8 @@ class NJKFOJJDGGG;
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightFinancing_TypeDefinitionIndex = 65036;
+
 	class GridFightFinancing : public ::RPG::Client::GridFightGameModifier
 	{
 	public:

@@ -38,6 +38,8 @@ namespace System { class String; }
 #define HLHHLIGPNOM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E5BF8E0)
 #define HLHHLIGPNOM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E5BF940)
 
+inline static constexpr unsigned int HLHHLIGPNOM_TypeDefinitionIndex = 29597;
+
 	class HLHHLIGPNOM : public ::System::Object
 	{
 	public:

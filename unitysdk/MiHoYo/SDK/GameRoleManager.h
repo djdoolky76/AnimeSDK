@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int GameRoleManager_TypeDefinitionIndex = 7954;
+
 	class GameRoleManager : public ::System::Object
 	{
 	public:

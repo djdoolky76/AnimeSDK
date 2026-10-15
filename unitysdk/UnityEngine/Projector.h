@@ -23,6 +23,8 @@ namespace UnityEngine { class Material; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int Projector_TypeDefinitionIndex = 4142;
+
 	class Projector : public ::UnityEngine::Behaviour
 	{
 	public:

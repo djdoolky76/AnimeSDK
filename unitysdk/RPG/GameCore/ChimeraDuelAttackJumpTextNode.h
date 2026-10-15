@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ChimeraDuelAttackJumpTextNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChimeraDuelAttackJumpTextNode_TypeDefinitionIndex = 15963;
+
 	class ChimeraDuelAttackJumpTextNode : public ::RPG::GameCore::BaseChimeraDuelNode
 	{
 	public:

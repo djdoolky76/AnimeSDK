@@ -10,6 +10,8 @@ namespace RPG::Client { class GridFightTrait; }
 #define ENKPMMANABG_MIADPFMELOM_OFFSET UNITYSDK_OFFSET(0x155B1960)
 #define ENKPMMANABG_SET_ROLEID_OFFSET UNITYSDK_OFFSET(0x155B1DE0)
 
+inline static constexpr unsigned int ENKPMMANABG_TypeDefinitionIndex = 65493;
+
 	class ENKPMMANABG : public ::System::Object
 	{
 	public:

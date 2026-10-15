@@ -46,6 +46,8 @@ namespace ZLinq { class ValueEnumerable; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AvatarSkillTreeExcelTable_TypeDefinitionIndex = 12726;
+
 	class AvatarSkillTreeExcelTable : public ::System::Object
 	{
 	public:

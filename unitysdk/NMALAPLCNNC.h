@@ -6,6 +6,8 @@
 #define NMALAPLCNNC_CTOR_OFFSET UNITYSDK_OFFSET(0xBC7C0C0)
 #define NMALAPLCNNC_EPPAFNJFCMH_OFFSET UNITYSDK_OFFSET(0xBC7C0B0)
 
+inline static constexpr unsigned int NMALAPLCNNC_TypeDefinitionIndex = 76986;
+
 	class NMALAPLCNNC : public ::JHKBNJLNBCL
 	{
 	public:

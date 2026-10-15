@@ -28,6 +28,8 @@ namespace System { class String; }
 #define DCJOEGCEEOP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E173510)
 #define DCJOEGCEEOP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E173570)
 
+inline static constexpr unsigned int DCJOEGCEEOP_TypeDefinitionIndex = 32114;
+
 	class DCJOEGCEEOP : public ::System::Object
 	{
 	public:

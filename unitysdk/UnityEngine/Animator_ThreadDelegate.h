@@ -14,6 +14,8 @@ namespace System { class Object; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int Animator_ThreadDelegate_TypeDefinitionIndex = 5712;
+
 	class Animator_ThreadDelegate : public ::System::MulticastDelegate
 	{
 	public:

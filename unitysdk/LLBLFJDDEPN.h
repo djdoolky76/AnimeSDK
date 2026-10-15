@@ -52,6 +52,8 @@ namespace UnityEngine { class Transform; }
 #define LLBLFJDDEPN_SET_UNIQUENAME_OFFSET UNITYSDK_OFFSET(0xB75EBE0)
 #define LLBLFJDDEPN__UNLOADENTITY_B__32_0_OFFSET UNITYSDK_OFFSET(0xB761DC0)
 
+inline static constexpr unsigned int LLBLFJDDEPN_TypeDefinitionIndex = 69220;
+
 	class LLBLFJDDEPN : public ::System::Object
 	{
 	public:

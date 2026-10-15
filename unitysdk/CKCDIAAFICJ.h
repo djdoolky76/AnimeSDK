@@ -33,6 +33,8 @@ namespace System { class String; }
 #define CKCDIAAFICJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E0E85A0)
 #define CKCDIAAFICJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E0E8600)
 
+inline static constexpr unsigned int CKCDIAAFICJ_TypeDefinitionIndex = 25465;
+
 	class CKCDIAAFICJ : public ::System::Object
 	{
 	public:

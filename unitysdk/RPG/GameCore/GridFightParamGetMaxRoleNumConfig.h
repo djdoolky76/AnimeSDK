@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightParamGetMaxRoleNumConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightParamGetMaxRoleNumConfig_TypeDefinitionIndex = 19510;
+
 	class GridFightParamGetMaxRoleNumConfig : public ::RPG::GameCore::GridFightParameterConfigBase
 	{
 	public:

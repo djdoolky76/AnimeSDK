@@ -18,6 +18,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CinemachineVirtualCameraBindingModeExt_TypeDefinitionIndex = 68323;
+
 	class CinemachineVirtualCameraBindingModeExt : public ::UnityEngine::MonoBehaviour
 	{
 	public:

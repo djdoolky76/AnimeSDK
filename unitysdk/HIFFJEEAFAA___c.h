@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define HIFFJEEAFAA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E5948F0)
 #define HIFFJEEAFAA___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E594900)
 
+inline static constexpr unsigned int HIFFJEEAFAA___c_TypeDefinitionIndex = 27642;
+
 	class HIFFJEEAFAA___c : public ::System::Object
 	{
 	public:

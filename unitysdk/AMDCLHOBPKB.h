@@ -8,6 +8,8 @@ namespace RPG::Client::NavMap { class ITrackPointInfo; }
 #define AMDCLHOBPKB_BPLPBPMEODA_2_OFFSET UNITYSDK_OFFSET(0x155779E0)
 #define AMDCLHOBPKB_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x155778D0)
 
+inline static constexpr unsigned int AMDCLHOBPKB_TypeDefinitionIndex = 74589;
+
 	class AMDCLHOBPKB : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace RPG::Client { class ScheduleModule; }
 #define PHOPKKBKAID_CTOR_OFFSET UNITYSDK_OFFSET(0xC2596A0)
 #define PHOPKKBKAID_DBHIKLDHKBP_OFFSET UNITYSDK_OFFSET(0xC2596F0)
 
+inline static constexpr unsigned int PHOPKKBKAID_TypeDefinitionIndex = 67903;
+
 	class PHOPKKBKAID : public ::System::Object
 	{
 	public:

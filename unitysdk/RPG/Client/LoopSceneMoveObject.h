@@ -15,6 +15,8 @@ namespace RPG::GameCore { class GameEntity; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int LoopSceneMoveObject_TypeDefinitionIndex = 68868;
+
 	class LoopSceneMoveObject : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -12,6 +12,8 @@ namespace UnityEngine { class AnimationCurve; }
 #define FIVEDIMPLAYERSKILLCURVEASSET_JNHPHMBHNNC_OFFSET UNITYSDK_OFFSET(0x1CA736F0)
 #define FIVEDIMPLAYERSKILLCURVEASSET_OINBDMGFFJL_OFFSET UNITYSDK_OFFSET(0x1CA73380)
 
+inline static constexpr unsigned int FiveDimPlayerSkillCurveAsset_TypeDefinitionIndex = 41924;
+
 	class FiveDimPlayerSkillCurveAsset : public ::UnityEngine::ScriptableObject
 	{
 	public:

@@ -19,6 +19,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueMagicStyleTypeInfo_TypeDefinitionIndex = 67439;
+
 	class RogueMagicStyleTypeInfo : public ::System::Object
 	{
 	public:

@@ -5,6 +5,8 @@ namespace System { class Object; }
 
 #define FJEIKCPCLHL_CCTOR_OFFSET UNITYSDK_OFFSET(0x1DD3CE10)
 
+inline static constexpr unsigned int FJEIKCPCLHL_TypeDefinitionIndex = 6366;
+
 	class FJEIKCPCLHL : public ::System::Object
 	{
 	public:

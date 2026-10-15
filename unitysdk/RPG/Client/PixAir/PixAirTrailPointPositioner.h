@@ -21,6 +21,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::PixAir
 {
+	inline static constexpr unsigned int PixAirTrailPointPositioner_TypeDefinitionIndex = 79393;
+
 	class PixAirTrailPointPositioner : public ::UnityEngine::MonoBehaviour
 	{
 	public:

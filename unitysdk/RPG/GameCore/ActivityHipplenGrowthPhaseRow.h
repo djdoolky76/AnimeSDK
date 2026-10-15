@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ActivityHipplenGrowthPhaseRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ActivityHipplenGrowthPhaseRow_TypeDefinitionIndex = 11675;
+
 	class ActivityHipplenGrowthPhaseRow : public ::System::Object
 	{
 	public:

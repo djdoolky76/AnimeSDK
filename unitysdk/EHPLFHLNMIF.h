@@ -32,6 +32,8 @@ namespace System { class String; }
 #define EHPLFHLNMIF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E2A34E0)
 #define EHPLFHLNMIF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E2A3540)
 
+inline static constexpr unsigned int EHPLFHLNMIF_TypeDefinitionIndex = 28131;
+
 	class EHPLFHLNMIF : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace RPG::QA
 {
+	inline static constexpr unsigned int QAManager_LogInfoSender_TypeDefinitionIndex = 51815;
+
 	class QAManager_LogInfoSender : public ::System::Object
 	{
 	public:

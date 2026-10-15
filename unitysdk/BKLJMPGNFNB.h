@@ -33,6 +33,8 @@ namespace UnityEngine { class Animator; }
 #define BKLJMPGNFNB_PILHPDIAAOP_OFFSET UNITYSDK_OFFSET(0xBA5B6B0)
 #define BKLJMPGNFNB_PODBDMJEMJP_OFFSET UNITYSDK_OFFSET(0xBA5B5D0)
 
+inline static constexpr unsigned int BKLJMPGNFNB_TypeDefinitionIndex = 73569;
+
 	class BKLJMPGNFNB : public ::System::Object
 	{
 	public:

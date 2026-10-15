@@ -6,6 +6,8 @@ namespace RPG::GameCore { class UnlockTargetShield; }
 #define KBHHPDBBKCA_CTOR_OFFSET UNITYSDK_OFFSET(0xB3011C0)
 #define KBHHPDBBKCA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB3011F0)
 
+inline static constexpr unsigned int KBHHPDBBKCA_TypeDefinitionIndex = 55155;
+
 	class KBHHPDBBKCA
 	{
 	public:

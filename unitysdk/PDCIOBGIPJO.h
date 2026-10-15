@@ -17,6 +17,8 @@ namespace System { class Action; }
 #define PDCIOBGIPJO_OGFLGOMNJMI_OFFSET UNITYSDK_OFFSET(0xC00C300)
 #define PDCIOBGIPJO_PDAJGHDKMJD_OFFSET UNITYSDK_OFFSET(0xC00C4A0)
 
+inline static constexpr unsigned int PDCIOBGIPJO_TypeDefinitionIndex = 69763;
+
 	class PDCIOBGIPJO : public ::System::Object
 	{
 	public:

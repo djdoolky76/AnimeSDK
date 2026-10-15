@@ -4,6 +4,8 @@
 
 #define FHFJBKNCPMB_CTOR_OFFSET UNITYSDK_OFFSET(0x15779DC0)
 
+inline static constexpr unsigned int FHFJBKNCPMB_TypeDefinitionIndex = 48270;
+
 	class FHFJBKNCPMB : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

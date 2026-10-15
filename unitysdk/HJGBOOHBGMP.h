@@ -10,6 +10,8 @@ namespace System { class String; }
 #define HJGBOOHBGMP_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x15D21670)
 #define HJGBOOHBGMP_JAILHGGFLDH_OFFSET UNITYSDK_OFFSET(0x15D21680)
 
+inline static constexpr unsigned int HJGBOOHBGMP_TypeDefinitionIndex = 56165;
+
 	class HJGBOOHBGMP : public ::DBGDNLLDPFI
 	{
 	public:

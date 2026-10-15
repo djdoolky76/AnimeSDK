@@ -27,6 +27,8 @@ namespace UnityEngine { class Camera; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UI3DCanvasFitter_TypeDefinitionIndex = 69049;
+
 	class UI3DCanvasFitter : public ::UnityEngine::MonoBehaviour
 	{
 	public:

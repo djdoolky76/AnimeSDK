@@ -6,6 +6,8 @@
 
 namespace UnityEngine::Bindings
 {
+	inline static constexpr unsigned int UnmarshalledAttribute_TypeDefinitionIndex = 3731;
+
 	class UnmarshalledAttribute : public ::System::Attribute
 	{
 	public:

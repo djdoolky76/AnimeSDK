@@ -27,6 +27,8 @@ namespace System { class String; }
 #define GOOJIJDPKIP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E4F4B80)
 #define GOOJIJDPKIP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E4F4BE0)
 
+inline static constexpr unsigned int GOOJIJDPKIP_TypeDefinitionIndex = 28086;
+
 	class GOOJIJDPKIP : public ::System::Object
 	{
 	public:

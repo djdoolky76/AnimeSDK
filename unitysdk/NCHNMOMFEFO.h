@@ -25,6 +25,8 @@ namespace System { class String; }
 #define NCHNMOMFEFO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EADF3A0)
 #define NCHNMOMFEFO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EADF400)
 
+inline static constexpr unsigned int NCHNMOMFEFO_TypeDefinitionIndex = 31458;
+
 	class NCHNMOMFEFO : public ::System::Object
 	{
 	public:

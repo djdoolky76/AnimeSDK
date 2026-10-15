@@ -39,6 +39,8 @@ namespace UnityEngine::UI { class Toggle; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int OverseaPayDialog_TypeDefinitionIndex = 9554;
+
 	class OverseaPayDialog : public ::MiHoYo::SDK::UIElement
 	{
 	public:

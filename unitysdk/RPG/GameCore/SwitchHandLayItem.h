@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SwitchHandLayItem_TypeDefinitionIndex = 20966;
+
 	class SwitchHandLayItem : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -28,6 +28,8 @@ namespace System::Collections { class IEnumerator; }
 
 namespace System::Collections
 {
+	inline static constexpr unsigned int BitArray_TypeDefinitionIndex = 1463;
+
 	class BitArray : public ::System::Object
 	{
 	public:

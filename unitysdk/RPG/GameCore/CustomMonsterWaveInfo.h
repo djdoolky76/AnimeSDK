@@ -11,6 +11,8 @@ namespace RPG::GameCore { class DynamicFloat; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CustomMonsterWaveInfo_TypeDefinitionIndex = 23699;
+
 	class CustomMonsterWaveInfo : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -16,6 +16,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoUITravelShipCDBtn_TypeDefinitionIndex = 69033;
+
 	class MonoUITravelShipCDBtn : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -9,6 +9,8 @@ namespace UnityEngine { class Texture; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UIFrameCapture___c__DisplayClass1_0_TypeDefinitionIndex = 73070;
+
 	class UIFrameCapture___c__DisplayClass1_0 : public ::System::Object
 	{
 	public:

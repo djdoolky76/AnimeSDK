@@ -7,6 +7,8 @@ class HPMCJCPNJEB;
 #define HPMCJCPNJEB_CTOR_OFFSET UNITYSDK_OFFSET(0x1CED7730)
 #define HPMCJCPNJEB_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CED7600)
 
+inline static constexpr unsigned int HPMCJCPNJEB_TypeDefinitionIndex = 11262;
+
 	class HPMCJCPNJEB : public ::System::Object
 	{
 	public:

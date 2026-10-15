@@ -18,6 +18,8 @@
 
 namespace System::Security::Cryptography
 {
+	inline static constexpr unsigned int RIPEMD160Managed_TypeDefinitionIndex = 1047;
+
 	class RIPEMD160Managed : public ::System::Security::Cryptography::RIPEMD160
 	{
 	public:

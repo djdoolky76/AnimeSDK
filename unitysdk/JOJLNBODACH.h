@@ -40,6 +40,8 @@ namespace UnityEngine { class Light; }
 #define JOJLNBODACH_PFMBEHKMHDK_OFFSET UNITYSDK_OFFSET(0xB2A3440)
 #define JOJLNBODACH__POSTINIT_B__32_0_OFFSET UNITYSDK_OFFSET(0xB2A3D80)
 
+inline static constexpr unsigned int JOJLNBODACH_TypeDefinitionIndex = 49340;
+
 	class JOJLNBODACH : public ::ONLKOENMDNA
 	{
 	public:

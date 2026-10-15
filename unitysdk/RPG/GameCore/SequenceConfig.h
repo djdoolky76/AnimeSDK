@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SequenceConfig_TypeDefinitionIndex = 23779;
+
 	class SequenceConfig : public ::RPG::GameCore::CompositeConfig
 	{
 	public:

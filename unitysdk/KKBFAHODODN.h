@@ -20,6 +20,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define KKBFAHODODN_NCOKAEDOAIK_OFFSET UNITYSDK_OFFSET(0xB4B3FE0)
 #define KKBFAHODODN_OLLNABJNLDK_OFFSET UNITYSDK_OFFSET(0xB4B47B0)
 
+inline static constexpr unsigned int KKBFAHODODN_TypeDefinitionIndex = 56878;
+
 	class KKBFAHODODN : public ::System::Object
 	{
 	public:

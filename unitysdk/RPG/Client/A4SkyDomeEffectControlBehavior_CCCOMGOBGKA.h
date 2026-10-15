@@ -18,6 +18,8 @@ namespace UnityEngine { class Texture2D; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int A4SkyDomeEffectControlBehavior_CCCOMGOBGKA_TypeDefinitionIndex = 70874;
+
 	class A4SkyDomeEffectControlBehavior_CCCOMGOBGKA : public ::System::Object
 	{
 	public:

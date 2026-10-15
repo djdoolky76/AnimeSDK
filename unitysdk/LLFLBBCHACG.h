@@ -8,6 +8,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define LLFLBBCHACG_KKKIONIDKFA_OFFSET UNITYSDK_OFFSET(0x1A0C0)
 #define LLFLBBCHACG_NINDHOGICJD_OFFSET UNITYSDK_OFFSET(0x1A180)
 
+inline static constexpr unsigned int LLFLBBCHACG_TypeDefinitionIndex = 56979;
+
 	struct alignas(8) LLFLBBCHACG
 	{
 		::UnityEngine::Vector3 BBFOLEOPPPL; // 0x10

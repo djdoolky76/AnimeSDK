@@ -7,6 +7,8 @@ namespace UnityEngine { class Rigidbody2D; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int Joint2D_TypeDefinitionIndex = 5818;
+
 	class Joint2D : public ::UnityEngine::Behaviour
 	{
 	public:

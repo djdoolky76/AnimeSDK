@@ -30,6 +30,8 @@ namespace System { class String; }
 #define CNOFLEBNGAC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E12FC40)
 #define CNOFLEBNGAC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E12FCA0)
 
+inline static constexpr unsigned int CNOFLEBNGAC_TypeDefinitionIndex = 33205;
+
 	class CNOFLEBNGAC : public ::System::Object
 	{
 	public:

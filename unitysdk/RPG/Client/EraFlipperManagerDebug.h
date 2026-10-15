@@ -11,6 +11,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int EraFlipperManagerDebug_TypeDefinitionIndex = 60513;
+
 	class EraFlipperManagerDebug : public ::UnityEngine::MonoBehaviour
 	{
 	public:

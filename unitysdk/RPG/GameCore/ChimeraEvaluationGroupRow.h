@@ -9,6 +9,8 @@ namespace RPG::GameCore { class ChimeraEvaluationGroupRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChimeraEvaluationGroupRow_TypeDefinitionIndex = 13029;
+
 	class ChimeraEvaluationGroupRow : public ::System::Object
 	{
 	public:

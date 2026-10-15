@@ -9,6 +9,8 @@ namespace System::Collections { class Stack; }
 
 namespace System::Diagnostics
 {
+	inline static constexpr unsigned int CorrelationManager_TypeDefinitionIndex = 2532;
+
 	class CorrelationManager : public ::System::Object
 	{
 	public:

@@ -17,6 +17,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int LocalConfig_TypeDefinitionIndex = 7905;
+
 	class LocalConfig : public ::System::Object
 	{
 	public:

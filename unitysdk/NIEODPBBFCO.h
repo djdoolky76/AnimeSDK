@@ -29,6 +29,8 @@ namespace UnityEngine::AI { class NavMeshPath; }
 #define NIEODPBBFCO_MPONJNGHCIO_OFFSET UNITYSDK_OFFSET(0xBBE9540)
 #define NIEODPBBFCO_PLJKBJPECBN_OFFSET UNITYSDK_OFFSET(0xBBE6860)
 
+inline static constexpr unsigned int NIEODPBBFCO_TypeDefinitionIndex = 57805;
+
 	class NIEODPBBFCO : public ::System::Object
 	{
 	public:

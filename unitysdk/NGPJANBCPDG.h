@@ -4,6 +4,8 @@
 
 #define NGPJANBCPDG_CTOR_OFFSET UNITYSDK_OFFSET(0x1C960DF0)
 
+inline static constexpr unsigned int NGPJANBCPDG_TypeDefinitionIndex = 42389;
+
 	class NGPJANBCPDG : public ::System::Object
 	{
 	public:

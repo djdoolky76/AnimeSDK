@@ -8,6 +8,8 @@ class KLGJDILNNDH;
 #define DPJMIDBEHLI___C__DISPLAYCLASS5_0__RESTOREGAMEREPLAY_B__0_OFFSET UNITYSDK_OFFSET(0x12655080)
 #define DPJMIDBEHLI___C__DISPLAYCLASS5_0__RESTOREGAMEREPLAY_B__1_OFFSET UNITYSDK_OFFSET(0x126550B0)
 
+inline static constexpr unsigned int DPJMIDBEHLI___c__DisplayClass5_0_TypeDefinitionIndex = 76566;
+
 	class DPJMIDBEHLI___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:

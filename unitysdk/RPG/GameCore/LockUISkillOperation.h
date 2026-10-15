@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LockUISkillOperation_TypeDefinitionIndex = 23616;
+
 	class LockUISkillOperation : public ::RPG::GameCore::TaskConfig
 	{
 	public:

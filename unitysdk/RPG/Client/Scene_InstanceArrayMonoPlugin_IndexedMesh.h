@@ -7,6 +7,8 @@ namespace UnityEngine { class Mesh; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Scene_InstanceArrayMonoPlugin_IndexedMesh_TypeDefinitionIndex = 70859;
+
 	class Scene_InstanceArrayMonoPlugin_IndexedMesh : public ::System::Object
 	{
 	public:

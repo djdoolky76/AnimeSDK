@@ -7,6 +7,8 @@ namespace RPG::GameCore { class PetMarbleSpecialTalk; }
 #define PNNMHFGEHCD_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9F9230)
 #define PNNMHFGEHCD_KDNAAOHECPD_OFFSET UNITYSDK_OFFSET(0x1C9F9240)
 
+inline static constexpr unsigned int PNNMHFGEHCD_TypeDefinitionIndex = 43106;
+
 	class PNNMHFGEHCD : public ::BKABEBEPPJK
 	{
 	public:

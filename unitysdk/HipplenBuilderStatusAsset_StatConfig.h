@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define HIPPLENBUILDERSTATUSASSET_STATCONFIG_CTOR_OFFSET UNITYSDK_OFFSET(0x15DF1C40)
 
+inline static constexpr unsigned int HipplenBuilderStatusAsset_StatConfig_TypeDefinitionIndex = 47230;
+
 	class HipplenBuilderStatusAsset_StatConfig : public ::System::Object
 	{
 	public:

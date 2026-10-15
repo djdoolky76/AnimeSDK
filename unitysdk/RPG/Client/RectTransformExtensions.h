@@ -15,6 +15,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RectTransformExtensions_TypeDefinitionIndex = 72781;
+
 	class RectTransformExtensions : public ::System::Object
 	{
 	public:

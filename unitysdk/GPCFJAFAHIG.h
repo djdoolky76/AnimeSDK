@@ -9,6 +9,8 @@ class OFKKIMABHJD;
 #define GPCFJAFAHIG_CTOR_OFFSET UNITYSDK_OFFSET(0x15B3EF40)
 #define GPCFJAFAHIG_JHEINJLCFDE_OFFSET UNITYSDK_OFFSET(0x15B3F370)
 
+inline static constexpr unsigned int GPCFJAFAHIG_TypeDefinitionIndex = 64046;
+
 	class GPCFJAFAHIG : public ::BMPICAPOOFD
 	{
 	public:

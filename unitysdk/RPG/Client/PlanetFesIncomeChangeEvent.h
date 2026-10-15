@@ -7,6 +7,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PlanetFesIncomeChangeEvent_TypeDefinitionIndex = 66618;
+
 	class PlanetFesIncomeChangeEvent : public ::System::Object
 	{
 	public:

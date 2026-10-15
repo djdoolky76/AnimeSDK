@@ -88,6 +88,8 @@ namespace System::Threading { template <typename T> class AsyncLocal_1; }
 
 namespace System::Threading
 {
+	inline static constexpr unsigned int Thread_TypeDefinitionIndex = 850;
+
 	class Thread : public ::System::Runtime::ConstrainedExecution::CriticalFinalizerObject
 	{
 	public:

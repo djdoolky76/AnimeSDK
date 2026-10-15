@@ -249,6 +249,8 @@ namespace System::Collections::Generic { class KeyValuePair; }
 
 namespace IFix
 {
+	inline static constexpr unsigned int ILFixDynamicMethodWrapper_155687C1D6D47C72_TypeDefinitionIndex = 41599;
+
 	class ILFixDynamicMethodWrapper_155687C1D6D47C72 : public ::System::Object
 	{
 	public:

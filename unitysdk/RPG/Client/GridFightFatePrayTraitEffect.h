@@ -27,6 +27,8 @@ namespace System::ComponentModel { class PropertyChangedEventArgs; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightFatePrayTraitEffect_TypeDefinitionIndex = 65387;
+
 	class GridFightFatePrayTraitEffect : public ::RPG::Client::GridFightTraitEffectBase
 	{
 	public:

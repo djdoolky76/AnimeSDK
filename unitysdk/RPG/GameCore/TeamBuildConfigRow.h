@@ -9,6 +9,8 @@ namespace RPG::GameCore { class TeamBuildConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TeamBuildConfigRow_TypeDefinitionIndex = 15273;
+
 	class TeamBuildConfigRow : public ::System::Object
 	{
 	public:

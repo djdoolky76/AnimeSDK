@@ -10,6 +10,8 @@ namespace RPG::GameCore { class PlayerParamFullHpAvatarCountConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PlayerParamFullHpAvatarCountConfig_TypeDefinitionIndex = 19566;
+
 	class PlayerParamFullHpAvatarCountConfig : public ::RPG::GameCore::PlayerParameterConfigBase
 	{
 	public:

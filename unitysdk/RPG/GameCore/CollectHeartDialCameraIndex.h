@@ -10,6 +10,8 @@ namespace RPG::GameCore { class CollectHeartDialCameraIndex; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CollectHeartDialCameraIndex_TypeDefinitionIndex = 21106;
+
 	class CollectHeartDialCameraIndex : public ::RPG::GameCore::TaskConfig
 	{
 	public:

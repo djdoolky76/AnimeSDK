@@ -8,6 +8,8 @@ class LLCKDNMDJGG;
 #define LLCKDNMDJGG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D10D2A0)
 #define LLCKDNMDJGG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D10D260)
 
+inline static constexpr unsigned int LLCKDNMDJGG_TypeDefinitionIndex = 19938;
+
 	class LLCKDNMDJGG : public ::RPG::GameCore::TaskConfig
 	{
 	public:

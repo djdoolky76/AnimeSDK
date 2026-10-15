@@ -39,6 +39,8 @@ namespace System { class String; }
 #define PNGBDDIBCDD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DFB6EB0)
 #define PNGBDDIBCDD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DFB6F10)
 
+inline static constexpr unsigned int PNGBDDIBCDD_TypeDefinitionIndex = 32511;
+
 	class PNGBDDIBCDD : public ::System::Object
 	{
 	public:

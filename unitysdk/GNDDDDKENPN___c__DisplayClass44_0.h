@@ -7,6 +7,8 @@ namespace System::IO { class FileInfo; }
 #define GNDDDDKENPN___C__DISPLAYCLASS44_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC141A0)
 #define GNDDDDKENPN___C__DISPLAYCLASS44_0__DELETEFILES_B__0_OFFSET UNITYSDK_OFFSET(0x1EC1B7F0)
 
+inline static constexpr unsigned int GNDDDDKENPN___c__DisplayClass44_0_TypeDefinitionIndex = 35308;
+
 	class GNDDDDKENPN___c__DisplayClass44_0 : public ::System::Object
 	{
 	public:

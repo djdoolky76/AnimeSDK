@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define FOAMMLAHMHE_CTOR_OFFSET UNITYSDK_OFFSET(0x158DFB00)
 #define FOAMMLAHMHE_EVALUATE_OFFSET UNITYSDK_OFFSET(0x158DFB30)
 
+inline static constexpr unsigned int FOAMMLAHMHE_TypeDefinitionIndex = 54709;
+
 	class FOAMMLAHMHE
 	{
 	public:

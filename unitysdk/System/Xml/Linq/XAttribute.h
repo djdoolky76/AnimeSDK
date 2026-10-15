@@ -20,6 +20,8 @@ namespace System::Xml::Linq { class XNamespace; }
 
 namespace System::Xml::Linq
 {
+	inline static constexpr unsigned int XAttribute_TypeDefinitionIndex = 3908;
+
 	class XAttribute : public ::System::Xml::Linq::XObject
 	{
 	public:

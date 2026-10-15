@@ -22,6 +22,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftCraftTargetControl___c_TypeDefinitionIndex = 79950;
+
 	class MechCraftCraftTargetControl___c : public ::System::Object
 	{
 	public:

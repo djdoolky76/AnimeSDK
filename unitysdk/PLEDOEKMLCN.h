@@ -26,6 +26,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define PLEDOEKMLCN_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xC2ED5B0)
 #define PLEDOEKMLCN_NKMCDHLFAOI_OFFSET UNITYSDK_OFFSET(0xC2EEAE0)
 
+inline static constexpr unsigned int PLEDOEKMLCN_TypeDefinitionIndex = 73774;
+
 	class PLEDOEKMLCN : public ::System::Object
 	{
 	public:

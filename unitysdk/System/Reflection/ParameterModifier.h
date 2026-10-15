@@ -5,6 +5,8 @@
 
 namespace System::Reflection
 {
+	inline static constexpr unsigned int ParameterModifier_TypeDefinitionIndex = 583;
+
 	struct alignas(8) ParameterModifier
 	{
 		::Il2CppArray<::System::Boolean>* _byRef; // 0x10

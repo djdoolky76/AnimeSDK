@@ -9,6 +9,8 @@ namespace RPG::GameCore { class AetherDivideBadgeRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AetherDivideBadgeRow_TypeDefinitionIndex = 10936;
+
 	class AetherDivideBadgeRow : public ::System::Object
 	{
 	public:

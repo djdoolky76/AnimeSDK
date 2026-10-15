@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ChimeraDuelEntityCompositeComparer; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChimeraDuelEntityCompositeComparer_TypeDefinitionIndex = 15931;
+
 	class ChimeraDuelEntityCompositeComparer : public ::RPG::GameCore::ChimeraDuelEntityComparerBase
 	{
 	public:

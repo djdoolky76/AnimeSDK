@@ -7,6 +7,8 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace RPG::Client::CityCarFlow
 {
+	inline static constexpr unsigned int MonoCityCarControl_TypeDefinitionIndex = 82223;
+
 	class MonoCityCarControl : public ::CarControl
 	{
 	public:

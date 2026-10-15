@@ -11,6 +11,8 @@ namespace RPG::GameCore { class PlayMultiVoiceTalk; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PlayMultiVoiceTalk_TypeDefinitionIndex = 21124;
+
 	class PlayMultiVoiceTalk : public ::RPG::GameCore::TaskConfig
 	{
 	public:

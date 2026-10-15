@@ -13,6 +13,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace UnityEngine::Formats::Alembic::Util
 {
+	inline static constexpr unsigned int AlembicRecorderSettings_SetTargetBranch_TypeDefinitionIndex = 45757;
+
 	class AlembicRecorderSettings_SetTargetBranch : public ::System::MulticastDelegate
 	{
 	public:

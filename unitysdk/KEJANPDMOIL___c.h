@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define KEJANPDMOIL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E80C680)
 #define KEJANPDMOIL___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E80C690)
 
+inline static constexpr unsigned int KEJANPDMOIL___c_TypeDefinitionIndex = 34146;
+
 	class KEJANPDMOIL___c : public ::System::Object
 	{
 	public:

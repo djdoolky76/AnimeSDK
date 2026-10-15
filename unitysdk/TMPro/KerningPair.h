@@ -19,6 +19,8 @@ namespace TMPro { class KerningPair; }
 
 namespace TMPro
 {
+	inline static constexpr unsigned int KerningPair_TypeDefinitionIndex = 44578;
+
 	class KerningPair : public ::System::Object
 	{
 	public:

@@ -27,6 +27,8 @@ namespace System { class String; }
 #define OLPKGAGBKAB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DEAD3C0)
 #define OLPKGAGBKAB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DEAD420)
 
+inline static constexpr unsigned int OLPKGAGBKAB_TypeDefinitionIndex = 31055;
+
 	class OLPKGAGBKAB : public ::System::Object
 	{
 	public:

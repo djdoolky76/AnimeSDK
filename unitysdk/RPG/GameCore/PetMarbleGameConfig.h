@@ -9,6 +9,8 @@ namespace RPG::GameCore { class PetMarbleGameConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PetMarbleGameConfig_TypeDefinitionIndex = 18929;
+
 	class PetMarbleGameConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

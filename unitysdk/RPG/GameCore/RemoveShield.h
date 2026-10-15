@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RemoveShield_TypeDefinitionIndex = 23598;
+
 	class RemoveShield : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -16,6 +16,8 @@ namespace RPG::GameCore { class WaitTargetAnimStateChange; }
 #define OAFKCMFEAAA__REGISTEREVENTCALLBACK_OFFSET UNITYSDK_OFFSET(0xBD1FDB0)
 #define OAFKCMFEAAA__UNREGISTEREVENTCALLBACK_OFFSET UNITYSDK_OFFSET(0xBD1FEB0)
 
+inline static constexpr unsigned int OAFKCMFEAAA_TypeDefinitionIndex = 58931;
+
 	class OAFKCMFEAAA
 	{
 	public:

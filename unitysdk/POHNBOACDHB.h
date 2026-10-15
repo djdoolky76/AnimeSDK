@@ -56,6 +56,8 @@ namespace UnityEngine { class Transform; }
 #define POHNBOACDHB_SET_SCALABLECONSTS_OFFSET UNITYSDK_OFFSET(0xC367220)
 #define POHNBOACDHB_SET_SERVICES_OFFSET UNITYSDK_OFFSET(0xC3670F0)
 
+inline static constexpr unsigned int POHNBOACDHB_TypeDefinitionIndex = 77014;
+
 	class POHNBOACDHB : public ::System::Object
 	{
 	public:

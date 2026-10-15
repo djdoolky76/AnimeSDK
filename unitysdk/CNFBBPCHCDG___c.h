@@ -11,6 +11,8 @@ namespace System { class Object; }
 #define CNFBBPCHCDG___C__DRESSSKIN_B__0_0_OFFSET UNITYSDK_OFFSET(0xDA4C0F0)
 #define CNFBBPCHCDG___C__TAKEOFFSKIN_B__1_0_OFFSET UNITYSDK_OFFSET(0xDA4C140)
 
+inline static constexpr unsigned int CNFBBPCHCDG___c_TypeDefinitionIndex = 62754;
+
 	class CNFBBPCHCDG___c : public ::System::Object
 	{
 	public:

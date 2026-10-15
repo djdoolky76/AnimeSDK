@@ -74,6 +74,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 #define KCOAIPGGMGJ_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0xB33FB10)
 #define KCOAIPGGMGJ_TICK_OFFSET UNITYSDK_OFFSET(0xB33F9A0)
 
+inline static constexpr unsigned int KCOAIPGGMGJ_TypeDefinitionIndex = 60682;
+
 	class KCOAIPGGMGJ : public ::System::Object
 	{
 	public:

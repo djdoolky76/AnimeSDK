@@ -7,6 +7,8 @@ namespace RPG::GameCore { class ActivityVoracityInvasionProgressBuffRow; }
 #define CKHCKLBELFK_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xD75AD70)
 #define CKHCKLBELFK_CTOR_OFFSET UNITYSDK_OFFSET(0xD75AE20)
 
+inline static constexpr unsigned int CKHCKLBELFK_TypeDefinitionIndex = 68267;
+
 	class CKHCKLBELFK : public ::System::Object
 	{
 	public:

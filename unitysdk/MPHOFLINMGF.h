@@ -18,6 +18,8 @@ namespace System { class Action; }
 #define MPHOFLINMGF__ONBIND_OFFSET UNITYSDK_OFFSET(0xBA3EB10)
 #define MPHOFLINMGF__SETUPVIEW_B__3_0_OFFSET UNITYSDK_OFFSET(0xBA3EF50)
 
+inline static constexpr unsigned int MPHOFLINMGF_TypeDefinitionIndex = 72191;
+
 	class MPHOFLINMGF : public ::FMPCODLIOLG
 	{
 	public:

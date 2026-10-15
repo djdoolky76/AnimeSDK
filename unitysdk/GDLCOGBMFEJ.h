@@ -8,6 +8,8 @@
 #define GDLCOGBMFEJ_JBMKEOLJOOK_OFFSET UNITYSDK_OFFSET(0x159A49A0)
 #define GDLCOGBMFEJ_JMOPONIENIO_OFFSET UNITYSDK_OFFSET(0x159A4640)
 
+inline static constexpr unsigned int GDLCOGBMFEJ_TypeDefinitionIndex = 74641;
+
 	class GDLCOGBMFEJ : public ::System::Object
 	{
 	public:

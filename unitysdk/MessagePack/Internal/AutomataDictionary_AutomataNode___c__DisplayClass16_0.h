@@ -10,6 +10,8 @@ namespace System::Reflection::Emit { class ILGenerator; }
 
 namespace MessagePack::Internal
 {
+	inline static constexpr unsigned int AutomataDictionary_AutomataNode___c__DisplayClass16_0_TypeDefinitionIndex = 7284;
+
 	class AutomataDictionary_AutomataNode___c__DisplayClass16_0 : public ::System::Object
 	{
 	public:

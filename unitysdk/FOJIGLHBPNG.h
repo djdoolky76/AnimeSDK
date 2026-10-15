@@ -17,6 +17,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define FOJIGLHBPNG_HIDPPLAJLLG_OFFSET UNITYSDK_OFFSET(0x158F61F0)
 #define FOJIGLHBPNG_PPDMPMPJLGJ_OFFSET UNITYSDK_OFFSET(0x158F6040)
 
+inline static constexpr unsigned int FOJIGLHBPNG_TypeDefinitionIndex = 78031;
+
 	class FOJIGLHBPNG : public ::System::Object
 	{
 	public:

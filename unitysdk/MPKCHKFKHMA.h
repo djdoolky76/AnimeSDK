@@ -5,6 +5,8 @@
 #define MPKCHKFKHMA_CTOR_OFFSET UNITYSDK_OFFSET(0xBA40650)
 #define MPKCHKFKHMA_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0xBA40660)
 
+inline static constexpr unsigned int MPKCHKFKHMA_TypeDefinitionIndex = 75358;
+
 	class MPKCHKFKHMA : public ::MLKDDLHNNHH
 	{
 	public:

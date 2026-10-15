@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SwitchCaseByAttackDamageType_TypeDefinitionIndex = 23775;
+
 	class SwitchCaseByAttackDamageType : public ::RPG::GameCore::TaskConfig
 	{
 	public:

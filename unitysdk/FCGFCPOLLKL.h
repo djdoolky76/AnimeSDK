@@ -9,6 +9,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 #define FCGFCPOLLKL_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CDD0E20)
 #define FCGFCPOLLKL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CDD0DA0)
 
+inline static constexpr unsigned int FCGFCPOLLKL_TypeDefinitionIndex = 21081;
+
 	class FCGFCPOLLKL : public ::RPG::GameCore::TaskConfig
 	{
 	public:

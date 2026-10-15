@@ -13,6 +13,8 @@ namespace MessagePack::Formatters { class Int32Formatter; }
 
 namespace MessagePack::Formatters
 {
+	inline static constexpr unsigned int Int32Formatter_TypeDefinitionIndex = 7447;
+
 	class Int32Formatter : public ::System::Object
 	{
 	public:

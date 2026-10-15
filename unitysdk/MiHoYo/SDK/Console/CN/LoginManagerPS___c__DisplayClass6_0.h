@@ -10,6 +10,8 @@ namespace MiHoYo::SDK::Console::CN { class LoginManagerPS; }
 
 namespace MiHoYo::SDK::Console::CN
 {
+	inline static constexpr unsigned int LoginManagerPS___c__DisplayClass6_0_TypeDefinitionIndex = 9118;
+
 	class LoginManagerPS___c__DisplayClass6_0 : public ::System::Object
 	{
 	public:

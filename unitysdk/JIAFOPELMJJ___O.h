@@ -6,6 +6,8 @@ class HPPGIADOJBF;
 class LFCKLPMBGGI;
 namespace System { template <typename T1, typename T2> class Func_2; }
 
+inline static constexpr unsigned int JIAFOPELMJJ___O_TypeDefinitionIndex = 59497;
+
 	class JIAFOPELMJJ___O : public ::System::Object
 	{
 	public:

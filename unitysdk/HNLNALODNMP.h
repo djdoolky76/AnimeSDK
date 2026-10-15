@@ -6,6 +6,8 @@
 #define HNLNALODNMP_CTOR_OFFSET UNITYSDK_OFFSET(0x15DA01D0)
 #define HNLNALODNMP_GET_CONTENT_OFFSET UNITYSDK_OFFSET(0x15DA01C0)
 
+inline static constexpr unsigned int HNLNALODNMP_TypeDefinitionIndex = 68936;
+
 	class HNLNALODNMP : public ::MFLJIEBFMOF
 	{
 	public:

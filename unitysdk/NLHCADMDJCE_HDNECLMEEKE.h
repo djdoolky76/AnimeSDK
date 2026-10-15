@@ -10,6 +10,8 @@ namespace System { class String; }
 #define NLHCADMDJCE_HDNECLMEEKE_COMPARETO_OFFSET UNITYSDK_OFFSET(0xBC6EBE0)
 #define NLHCADMDJCE_HDNECLMEEKE_CTOR_OFFSET UNITYSDK_OFFSET(0xBC6EC90)
 
+inline static constexpr unsigned int NLHCADMDJCE_HDNECLMEEKE_TypeDefinitionIndex = 59723;
+
 	class NLHCADMDJCE_HDNECLMEEKE : public ::System::Object
 	{
 	public:

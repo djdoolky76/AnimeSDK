@@ -13,6 +13,8 @@ namespace System { class Action; }
 #define ALFGDDOFIIJ_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0x1C8902C0)
 #define ALFGDDOFIIJ_PJIBGAIGGBG_OFFSET UNITYSDK_OFFSET(0x1C890380)
 
+inline static constexpr unsigned int ALFGDDOFIIJ_TypeDefinitionIndex = 43398;
+
 	class ALFGDDOFIIJ : public ::System::Object
 	{
 	public:

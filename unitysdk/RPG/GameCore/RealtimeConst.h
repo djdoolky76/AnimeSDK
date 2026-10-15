@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RealtimeConst_TypeDefinitionIndex = 17647;
+
 	class RealtimeConst : public ::RPG::GameCore::JsonConfig
 	{
 	public:

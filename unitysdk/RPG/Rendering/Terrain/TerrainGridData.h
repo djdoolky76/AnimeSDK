@@ -24,6 +24,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Rendering::Terrain
 {
+	inline static constexpr unsigned int TerrainGridData_TypeDefinitionIndex = 51800;
+
 	class TerrainGridData : public ::UnityEngine::ScriptableObject
 	{
 	public:

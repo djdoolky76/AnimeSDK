@@ -11,6 +11,8 @@ namespace RPG::GameCore { class LevelNPCNearbyConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelNPCNearbyConfig_TypeDefinitionIndex = 17272;
+
 	class LevelNPCNearbyConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

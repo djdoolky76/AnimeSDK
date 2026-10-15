@@ -6,6 +6,8 @@
 
 #define GHADLBDBHNA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C63CC20)
 
+inline static constexpr unsigned int GHADLBDBHNA_TypeDefinitionIndex = 36866;
+
 	class GHADLBDBHNA : public ::System::Object
 	{
 	public:

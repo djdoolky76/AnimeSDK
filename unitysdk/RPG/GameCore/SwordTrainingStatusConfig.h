@@ -9,6 +9,8 @@ namespace RPG::GameCore { class SwordTrainingStatusConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SwordTrainingStatusConfig_TypeDefinitionIndex = 12422;
+
 	class SwordTrainingStatusConfig : public ::System::Object
 	{
 	public:

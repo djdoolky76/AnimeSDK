@@ -11,6 +11,8 @@ namespace RPG::GameCore { class SingleElationSkillResBakeConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ElationSkillResBakeConfig_TypeDefinitionIndex = 16345;
+
 	class ElationSkillResBakeConfig : public ::RPG::GameCore::CharacterCustomPreloadConfigBase
 	{
 	public:

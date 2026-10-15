@@ -9,6 +9,8 @@
 #define STAGEHARMONYTRANSFORMDEMODULATOR_CTOR_OFFSET UNITYSDK_OFFSET(0xE9966B0)
 #define STAGEHARMONYTRANSFORMDEMODULATOR_FCDECODOKAK_OFFSET UNITYSDK_OFFSET(0xE996340)
 
+inline static constexpr unsigned int StageHarmonyTransformDemodulator_TypeDefinitionIndex = 47530;
+
 	class StageHarmonyTransformDemodulator
 	{
 	public:

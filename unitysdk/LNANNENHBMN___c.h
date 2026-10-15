@@ -10,6 +10,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define LNANNENHBMN___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB7D5AE0)
 #define LNANNENHBMN___C__GET_BANNEDCELLRELATIVEPOSITIONS_B__13_0_OFFSET UNITYSDK_OFFSET(0xB7D5AF0)
 
+inline static constexpr unsigned int LNANNENHBMN___c_TypeDefinitionIndex = 80088;
+
 	class LNANNENHBMN___c : public ::System::Object
 	{
 	public:

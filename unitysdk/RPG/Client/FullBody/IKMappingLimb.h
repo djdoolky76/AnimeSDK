@@ -23,6 +23,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::FullBody
 {
+	inline static constexpr unsigned int IKMappingLimb_TypeDefinitionIndex = 74252;
+
 	class IKMappingLimb : public ::RPG::Client::FullBody::IKMapping
 	{
 	public:

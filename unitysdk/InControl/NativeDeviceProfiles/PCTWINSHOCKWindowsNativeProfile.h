@@ -7,6 +7,8 @@
 
 namespace InControl::NativeDeviceProfiles
 {
+	inline static constexpr unsigned int PCTWINSHOCKWindowsNativeProfile_TypeDefinitionIndex = 41316;
+
 	class PCTWINSHOCKWindowsNativeProfile : public ::InControl::InputDeviceProfile
 	{
 	public:

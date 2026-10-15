@@ -5,6 +5,8 @@ namespace RPG::GameCore { class RebuildPipeConfig; }
 
 #define FPCDONEGIJD_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA72370)
 
+inline static constexpr unsigned int FPCDONEGIJD_TypeDefinitionIndex = 43506;
+
 	class FPCDONEGIJD : public ::System::Object
 	{
 	public:

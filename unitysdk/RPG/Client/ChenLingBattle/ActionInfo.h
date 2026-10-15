@@ -9,6 +9,8 @@ class BNHBDMIDFCL;
 
 namespace RPG::Client::ChenLingBattle
 {
+	inline static constexpr unsigned int ActionInfo_TypeDefinitionIndex = 76391;
+
 	class ActionInfo : public ::System::Object
 	{
 	public:

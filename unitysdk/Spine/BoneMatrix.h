@@ -11,6 +11,8 @@ namespace Spine { class BoneData; }
 
 namespace Spine
 {
+	inline static constexpr unsigned int BoneMatrix_TypeDefinitionIndex = 44994;
+
 	struct alignas(4) BoneMatrix
 	{
 		::System::Single a; // 0x10

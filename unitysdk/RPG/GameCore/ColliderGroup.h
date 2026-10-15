@@ -9,6 +9,8 @@ namespace UnityEngine { class Collider; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ColliderGroup_TypeDefinitionIndex = 57227;
+
 	class ColliderGroup : public ::System::Object
 	{
 	public:

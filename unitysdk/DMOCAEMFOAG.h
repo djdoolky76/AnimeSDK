@@ -9,6 +9,8 @@ class JBACCAGFHON;
 #define DMOCAEMFOAG_ONCLEAR_OFFSET UNITYSDK_OFFSET(0xFEC86B0)
 #define DMOCAEMFOAG_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0xFEC85D0)
 
+inline static constexpr unsigned int DMOCAEMFOAG_TypeDefinitionIndex = 78171;
+
 	class DMOCAEMFOAG : public ::AJHHFMBOCEN
 	{
 	public:

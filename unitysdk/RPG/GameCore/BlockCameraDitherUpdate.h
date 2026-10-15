@@ -10,6 +10,8 @@ namespace RPG::GameCore { class BlockCameraDitherUpdate; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BlockCameraDitherUpdate_TypeDefinitionIndex = 22767;
+
 	class BlockCameraDitherUpdate : public ::RPG::GameCore::TaskConfig
 	{
 	public:

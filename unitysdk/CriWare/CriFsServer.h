@@ -33,6 +33,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriFsServer_TypeDefinitionIndex = 40118;
+
 	class CriFsServer : public ::CriWare::CriMonoBehaviour
 	{
 	public:

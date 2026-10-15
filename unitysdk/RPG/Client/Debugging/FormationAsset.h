@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::Debugging
 {
+	inline static constexpr unsigned int FormationAsset_TypeDefinitionIndex = 82128;
+
 	class FormationAsset : public ::UnityEngine::ScriptableObject
 	{
 	public:

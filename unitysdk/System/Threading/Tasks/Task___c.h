@@ -17,6 +17,8 @@ namespace System::Threading::Tasks { class Task_ContingentProperties; }
 
 namespace System::Threading::Tasks
 {
+	inline static constexpr unsigned int Task___c_TypeDefinitionIndex = 905;
+
 	class Task___c : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define JKHPCAILNPD___C___REFRESHFULLLINEBUFFEFFECT_B__26_0_OFFSET UNITYSDK_OFFSET(0x1C5697E0)
 #define JKHPCAILNPD___C___REFRESHFULLLINEBUFFEFFECT_B__26_1_OFFSET UNITYSDK_OFFSET(0x1C569850)
 
+inline static constexpr unsigned int JKHPCAILNPD___c_TypeDefinitionIndex = 41754;
+
 	class JKHPCAILNPD___c : public ::System::Object
 	{
 	public:

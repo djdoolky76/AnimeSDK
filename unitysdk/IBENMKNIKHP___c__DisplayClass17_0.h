@@ -7,6 +7,8 @@ class IBENMKNIKHP;
 #define IBENMKNIKHP___C__DISPLAYCLASS17_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15E2F710)
 #define IBENMKNIKHP___C__DISPLAYCLASS17_0__ONDETAILCHANGE_B__0_OFFSET UNITYSDK_OFFSET(0x15E30EC0)
 
+inline static constexpr unsigned int IBENMKNIKHP___c__DisplayClass17_0_TypeDefinitionIndex = 72245;
+
 	class IBENMKNIKHP___c__DisplayClass17_0 : public ::System::Object
 	{
 	public:

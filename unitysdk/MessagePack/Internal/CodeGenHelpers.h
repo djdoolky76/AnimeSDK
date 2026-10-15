@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace MessagePack::Internal
 {
+	inline static constexpr unsigned int CodeGenHelpers_TypeDefinitionIndex = 7288;
+
 	class CodeGenHelpers : public ::System::Object
 	{
 	public:

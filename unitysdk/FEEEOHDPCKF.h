@@ -21,6 +21,8 @@ namespace RPG::GameCore { class FiveDimAnimatorListenConfig; }
 #define FEEEOHDPCKF_MNFOMLGLFGI_OFFSET UNITYSDK_OFFSET(0x156E83A0)
 #define FEEEOHDPCKF_TEARDOWN_OFFSET UNITYSDK_OFFSET(0x156E80E0)
 
+inline static constexpr unsigned int FEEEOHDPCKF_TypeDefinitionIndex = 76908;
+
 	class FEEEOHDPCKF : public ::System::Object
 	{
 	public:

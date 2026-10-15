@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int JGJCDABBNIJ_TypeDefinitionIndex = 25927;
+
 	enum class JGJCDABBNIJ : ::System::Int32
 	{
 		NLCDGIPGFDJ = 0,

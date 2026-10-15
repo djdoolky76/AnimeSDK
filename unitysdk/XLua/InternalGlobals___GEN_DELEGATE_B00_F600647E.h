@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace XLua
 {
+	inline static constexpr unsigned int InternalGlobals___GEN_DELEGATE_B00_F600647E_TypeDefinitionIndex = 50136;
+
 	class InternalGlobals___GEN_DELEGATE_B00_F600647E : public ::System::MulticastDelegate
 	{
 	public:

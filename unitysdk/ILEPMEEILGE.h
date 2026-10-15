@@ -7,6 +7,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define ILEPMEEILGE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x164AFEB0)
 #define ILEPMEEILGE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x164AFEF0)
 
+inline static constexpr unsigned int ILEPMEEILGE_TypeDefinitionIndex = 55079;
+
 	class ILEPMEEILGE
 	{
 	public:

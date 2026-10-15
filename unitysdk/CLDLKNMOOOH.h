@@ -39,6 +39,8 @@ namespace System { class String; }
 #define CLDLKNMOOOH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E0F50A0)
 #define CLDLKNMOOOH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E0F5100)
 
+inline static constexpr unsigned int CLDLKNMOOOH_TypeDefinitionIndex = 27759;
+
 	class CLDLKNMOOOH : public ::System::Object
 	{
 	public:

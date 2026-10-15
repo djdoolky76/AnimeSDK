@@ -49,6 +49,8 @@ namespace System { class String; }
 #define MGBHKCMHDOK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA1EE10)
 #define MGBHKCMHDOK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA1EE70)
 
+inline static constexpr unsigned int MGBHKCMHDOK_TypeDefinitionIndex = 29153;
+
 	class MGBHKCMHDOK : public ::System::Object
 	{
 	public:

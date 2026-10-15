@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int PSDelegate_ImeDialogCompleteCallback_TypeDefinitionIndex = 7737;
+
 	class PSDelegate_ImeDialogCompleteCallback : public ::System::MulticastDelegate
 	{
 	public:

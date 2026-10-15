@@ -18,6 +18,8 @@ namespace UnityEngine { class MeshRenderer; }
 #define EMBREEDEBUGTOOL_ONDRAWGIZMOS_OFFSET UNITYSDK_OFFSET(0xAF1D190)
 #define EMBREEDEBUGTOOL_PRINTRESULTS_OFFSET UNITYSDK_OFFSET(0xAF1CD70)
 
+inline static constexpr unsigned int EmbreeDebugTool_TypeDefinitionIndex = 45917;
+
 	class EmbreeDebugTool : public ::UnityEngine::MonoBehaviour
 	{
 	public:

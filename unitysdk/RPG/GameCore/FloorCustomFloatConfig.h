@@ -13,6 +13,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FloorCustomFloatConfig_TypeDefinitionIndex = 18282;
+
 	class FloorCustomFloatConfig : public ::RPG::GameCore::FloorCustomValueConfig
 	{
 	public:

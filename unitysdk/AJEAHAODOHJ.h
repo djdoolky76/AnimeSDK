@@ -4,6 +4,8 @@
 
 #define AJEAHAODOHJ_CTOR_OFFSET UNITYSDK_OFFSET(0x12CB9770)
 
+inline static constexpr unsigned int AJEAHAODOHJ_TypeDefinitionIndex = 62032;
+
 	class AJEAHAODOHJ : public ::System::Object
 	{
 	public:

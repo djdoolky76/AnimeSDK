@@ -7,6 +7,8 @@ namespace UnityEngine { class Transform; }
 #define ACKABEKCMOH_NHGPPEFMBMD_CTOR_1_OFFSET UNITYSDK_OFFSET(0xB123D10)
 #define ACKABEKCMOH_NHGPPEFMBMD_CTOR_OFFSET UNITYSDK_OFFSET(0xB123D00)
 
+inline static constexpr unsigned int ACKABEKCMOH_NHGPPEFMBMD_TypeDefinitionIndex = 65957;
+
 	class ACKABEKCMOH_NHGPPEFMBMD : public ::System::Object
 	{
 	public:

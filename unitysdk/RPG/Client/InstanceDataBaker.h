@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int InstanceDataBaker_TypeDefinitionIndex = 71162;
+
 	class InstanceDataBaker : public ::UnityEngine::MonoBehaviour
 	{
 	public:

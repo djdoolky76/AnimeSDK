@@ -9,6 +9,8 @@ namespace MiHoYo::SDK { class APMC_LOGBACK_LogUploaded; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int APMC_LOGBACK_LogProactiveUploadConfig_TypeDefinitionIndex = 46501;
+
 	class APMC_LOGBACK_LogProactiveUploadConfig : public ::System::Object
 	{
 	public:

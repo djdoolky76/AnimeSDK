@@ -8,6 +8,8 @@ namespace System::Collections { class IDictionary; }
 
 namespace MessagePack
 {
+	inline static constexpr unsigned int Utilities_NonGenericDictionaryEnumerable_TypeDefinitionIndex = 7248;
+
 	struct alignas(8) Utilities_NonGenericDictionaryEnumerable
 	{
 		::System::Collections::IDictionary* dictionary; // 0x10

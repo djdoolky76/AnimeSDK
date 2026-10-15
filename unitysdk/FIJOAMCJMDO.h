@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define FIJOAMCJMDO_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CDF75B0)
 #define FIJOAMCJMDO_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CDF6EC0)
 
+inline static constexpr unsigned int FIJOAMCJMDO_TypeDefinitionIndex = 14418;
+
 	class FIJOAMCJMDO : public ::System::Object
 	{
 	public:

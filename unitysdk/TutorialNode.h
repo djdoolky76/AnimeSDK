@@ -32,6 +32,8 @@ namespace UnityEngine { class Transform; }
 #define TUTORIALNODE__ISVALID_OFFSET UNITYSDK_OFFSET(0xE9E49D0)
 #define TUTORIALNODE__SHOULDREGISTER_OFFSET UNITYSDK_OFFSET(0xE9E4CC0)
 
+inline static constexpr unsigned int TutorialNode_TypeDefinitionIndex = 47239;
+
 	class TutorialNode : public ::UnityEngine::MonoBehaviour
 	{
 	public:

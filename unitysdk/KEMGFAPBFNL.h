@@ -30,6 +30,8 @@ namespace System { class String; }
 #define KEMGFAPBFNL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E810280)
 #define KEMGFAPBFNL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E8102E0)
 
+inline static constexpr unsigned int KEMGFAPBFNL_TypeDefinitionIndex = 28382;
+
 	class KEMGFAPBFNL : public ::System::Object
 	{
 	public:

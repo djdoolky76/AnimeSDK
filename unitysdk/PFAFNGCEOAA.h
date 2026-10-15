@@ -7,6 +7,8 @@ class NPCIGEBNOFG;
 #define PFAFNGCEOAA_CTOR_OFFSET UNITYSDK_OFFSET(0xC200EE0)
 #define PFAFNGCEOAA_JAGMPHPNAHM_OFFSET UNITYSDK_OFFSET(0xC200EF0)
 
+inline static constexpr unsigned int PFAFNGCEOAA_TypeDefinitionIndex = 67116;
+
 	class PFAFNGCEOAA : public ::EBIMENNAEIE
 	{
 	public:

@@ -25,6 +25,8 @@ namespace System { class String; }
 #define MJHIOCKGPMN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA49DF0)
 #define MJHIOCKGPMN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA49E50)
 
+inline static constexpr unsigned int MJHIOCKGPMN_TypeDefinitionIndex = 30861;
+
 	class MJHIOCKGPMN : public ::System::Object
 	{
 	public:

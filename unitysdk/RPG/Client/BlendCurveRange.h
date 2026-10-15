@@ -8,6 +8,8 @@ namespace RPG::Client { class CameraBlendCurve; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BlendCurveRange_TypeDefinitionIndex = 69720;
+
 	class BlendCurveRange : public ::System::Object
 	{
 	public:

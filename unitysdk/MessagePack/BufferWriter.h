@@ -25,6 +25,8 @@ namespace System::Buffers { template <typename T> class IBufferWriter_1; }
 
 namespace MessagePack
 {
+	inline static constexpr unsigned int BufferWriter_TypeDefinitionIndex = 7159;
+
 	struct alignas(8) BufferWriter
 	{
 		::System::Buffers::IBufferWriter_1<::System::Byte>* _output; // 0x10

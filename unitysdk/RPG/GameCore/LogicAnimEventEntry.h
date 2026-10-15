@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LogicAnimEventEntry_TypeDefinitionIndex = 16295;
+
 	class LogicAnimEventEntry : public ::RPG::GameCore::JsonConfig
 	{
 	public:

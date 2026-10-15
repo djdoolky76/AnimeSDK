@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FixStretchedScale_TypeDefinitionIndex = 70601;
+
 	class FixStretchedScale
 	{
 	public:

@@ -25,6 +25,8 @@ namespace System { class String; }
 #define JDKEAPHHLBM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E70C590)
 #define JDKEAPHHLBM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E70C5F0)
 
+inline static constexpr unsigned int JDKEAPHHLBM_TypeDefinitionIndex = 29077;
+
 	class JDKEAPHHLBM : public ::System::Object
 	{
 	public:

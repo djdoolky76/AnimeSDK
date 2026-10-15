@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TransformComponent; }
 #define LDJLOIJHLOC_MLGMADEFLMC_HADOHLNHHGB_OFFSET UNITYSDK_OFFSET(0xB62DE40)
 #define LDJLOIJHLOC_MLGMADEFLMC_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xB62E3A0)
 
+inline static constexpr unsigned int LDJLOIJHLOC_MLGMADEFLMC_TypeDefinitionIndex = 57454;
+
 	class LDJLOIJHLOC_MLGMADEFLMC : public ::System::Object
 	{
 	public:

@@ -4,6 +4,8 @@
 
 #define NBLIHLMDEDB_MPLPCDODCKA_OFFSET UNITYSDK_OFFSET(0xBADC5B0)
 
+inline static constexpr unsigned int NBLIHLMDEDB_TypeDefinitionIndex = 68482;
+
 	class NBLIHLMDEDB : public ::System::Object
 	{
 	public:

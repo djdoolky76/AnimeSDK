@@ -10,6 +10,8 @@ namespace System::Text { class StringBuilder; }
 #define PKFBNIHNLGG_FJGGODFCDCJ_OFFSET UNITYSDK_OFFSET(0xDE800)
 #define PKFBNIHNLGG_KFPKDOLMMNC_OFFSET UNITYSDK_OFFSET(0xDE7B0)
 
+inline static constexpr unsigned int PKFBNIHNLGG_TypeDefinitionIndex = 59006;
+
 	struct alignas(4) PKFBNIHNLGG
 	{
 		::System::UInt32 CEGOPEIKDLA; // 0x10

@@ -47,6 +47,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define JLKNHPDJPMB_SET_TOTALMANACOST_OFFSET UNITYSDK_OFFSET(0xB24F800)
 #define JLKNHPDJPMB_SET_TOTALSHIELDTAKEN_OFFSET UNITYSDK_OFFSET(0xB24F880)
 
+inline static constexpr unsigned int JLKNHPDJPMB_TypeDefinitionIndex = 55995;
+
 	class JLKNHPDJPMB : public ::System::Object
 	{
 	public:

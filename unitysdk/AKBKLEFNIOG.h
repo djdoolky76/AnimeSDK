@@ -20,6 +20,8 @@ namespace System { class String; }
 #define AKBKLEFNIOG_SET_ENEMYTALKCONTENT_OFFSET UNITYSDK_OFFSET(0x12CC91E0)
 #define AKBKLEFNIOG_SET_PLAYERTALKCONTENT_OFFSET UNITYSDK_OFFSET(0x12CC91C0)
 
+inline static constexpr unsigned int AKBKLEFNIOG_TypeDefinitionIndex = 79209;
+
 	class AKBKLEFNIOG : public ::System::Object
 	{
 	public:

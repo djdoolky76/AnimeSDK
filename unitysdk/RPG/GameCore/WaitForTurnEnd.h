@@ -10,6 +10,8 @@ namespace RPG::GameCore { class WaitForTurnEnd; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaitForTurnEnd_TypeDefinitionIndex = 23430;
+
 	class WaitForTurnEnd : public ::RPG::GameCore::TaskConfig
 	{
 	public:

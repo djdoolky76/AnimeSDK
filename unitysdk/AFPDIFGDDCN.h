@@ -66,6 +66,8 @@ namespace System { class String; }
 #define AFPDIFGDDCN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E123840)
 #define AFPDIFGDDCN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E1238A0)
 
+inline static constexpr unsigned int AFPDIFGDDCN_TypeDefinitionIndex = 32036;
+
 	class AFPDIFGDDCN : public ::System::Object
 	{
 	public:

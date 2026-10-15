@@ -4,6 +4,8 @@
 
 namespace MiHoYo::SDK::PluginUI
 {
+	inline static constexpr unsigned int PluginUIConstants_OverseaProtocolElements_TypeDefinitionIndex = 9243;
+
 	class PluginUIConstants_OverseaProtocolElements : public ::System::Object
 	{
 	public:

@@ -53,6 +53,8 @@ namespace UnityEngine::Pooled { template <typename T> class PooledList_1; }
 
 namespace UnityEngine::Playables
 {
+	inline static constexpr unsigned int PlayableGraph_TypeDefinitionIndex = 4920;
+
 	struct alignas(4) PlayableGraph
 	{
 		::System::IntPtr m_Handle; // 0x10

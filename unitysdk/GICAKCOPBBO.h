@@ -38,6 +38,8 @@ namespace System { class String; }
 #define GICAKCOPBBO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E492170)
 #define GICAKCOPBBO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E4921D0)
 
+inline static constexpr unsigned int GICAKCOPBBO_TypeDefinitionIndex = 34179;
+
 	class GICAKCOPBBO : public ::System::Object
 	{
 	public:

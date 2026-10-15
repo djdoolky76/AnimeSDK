@@ -36,6 +36,8 @@ namespace UnityEngine::Playables { class INotificationReceiver; }
 
 namespace UnityEngine::Playables
 {
+	inline static constexpr unsigned int PlayableOutputHandle_TypeDefinitionIndex = 4925;
+
 	struct alignas(4) PlayableOutputHandle
 	{
 		::System::IntPtr m_Handle; // 0x10

@@ -17,6 +17,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_AssetUpdater_TypeDefinitionIndex = 40376;
+
 	class HEU_AssetUpdater : public ::System::Object
 	{
 	public:

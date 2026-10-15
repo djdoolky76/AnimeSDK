@@ -11,6 +11,8 @@ namespace System::Collections::Generic { class KeyValuePair; }
 #define AKEMITTEROBSTRUCTIONOCCLUSION_SETOBSTRUCTIONOCCLUSION_OFFSET UNITYSDK_OFFSET(0x1F58F200)
 #define AKEMITTEROBSTRUCTIONOCCLUSION_UPDATECURRENTLISTENERLIST_OFFSET UNITYSDK_OFFSET(0x1F58EF00)
 
+inline static constexpr unsigned int AkEmitterObstructionOcclusion_TypeDefinitionIndex = 44916;
+
 	class AkEmitterObstructionOcclusion : public ::AkObstructionOcclusion
 	{
 	public:

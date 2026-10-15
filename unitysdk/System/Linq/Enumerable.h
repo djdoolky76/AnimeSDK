@@ -17,6 +17,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 
 namespace System::Linq
 {
+	inline static constexpr unsigned int Enumerable_TypeDefinitionIndex = 3133;
+
 	class Enumerable : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ActivityConstValueSilverWolfRow_TypeDefinitionIndex = 12355;
+
 	class ActivityConstValueSilverWolfRow : public ::System::Object
 	{
 	public:

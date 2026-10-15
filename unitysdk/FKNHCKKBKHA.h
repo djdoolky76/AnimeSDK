@@ -15,6 +15,8 @@ class PBGNKMMDBGD;
 #define FKNHCKKBKHA_GJPEJAAEKKG_OFFSET UNITYSDK_OFFSET(0x1C622EE0)
 #define FKNHCKKBKHA_SET_FIGHTTIMESTAMPMS_OFFSET UNITYSDK_OFFSET(0x1C6230E0)
 
+inline static constexpr unsigned int FKNHCKKBKHA_TypeDefinitionIndex = 37336;
+
 	class FKNHCKKBKHA : public ::System::Object
 	{
 	public:

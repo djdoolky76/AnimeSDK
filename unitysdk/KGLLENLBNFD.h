@@ -9,6 +9,8 @@
 #define KGLLENLBNFD_ONFIRSTENTERMAPFINISH_OFFSET UNITYSDK_OFFSET(0xB3F5DB0)
 #define KGLLENLBNFD_SET_ISENETERWORLD_OFFSET UNITYSDK_OFFSET(0xB3F5E00)
 
+inline static constexpr unsigned int KGLLENLBNFD_TypeDefinitionIndex = 61115;
+
 	class KGLLENLBNFD : public ::RPG::Client::BasePhaseContext
 	{
 	public:

@@ -7,6 +7,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define BIEBLFLMLIK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB4A4C90)
 #define BIEBLFLMLIK__ONTASKBEGIN_B__1_0_OFFSET UNITYSDK_OFFSET(0xB4A4EA0)
 
+inline static constexpr unsigned int BIEBLFLMLIK_TypeDefinitionIndex = 52944;
+
 	class BIEBLFLMLIK
 	{
 	public:

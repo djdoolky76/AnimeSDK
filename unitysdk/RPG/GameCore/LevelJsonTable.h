@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelJsonTable_TypeDefinitionIndex = 56514;
+
 	class LevelJsonTable : public ::System::Object
 	{
 	public:

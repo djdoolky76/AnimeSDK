@@ -15,6 +15,8 @@ namespace RPG::GameCore { class GameEntity; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AbilitySkillPropertyChange_TypeDefinitionIndex = 56596;
+
 	class AbilitySkillPropertyChange : public ::CMPGEAFHHDC
 	{
 	public:

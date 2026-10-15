@@ -50,6 +50,8 @@ namespace RPG::GameCore { class MarbleTaskConfig; }
 #define AOMMEMBHKKG_SET_TASKCONTEXT_OFFSET UNITYSDK_OFFSET(0x1C8A6C40)
 #define AOMMEMBHKKG_SET_TECH_OFFSET UNITYSDK_OFFSET(0x1C8A6C20)
 
+inline static constexpr unsigned int AOMMEMBHKKG_TypeDefinitionIndex = 43089;
+
 	class AOMMEMBHKKG : public ::System::Object
 	{
 	public:

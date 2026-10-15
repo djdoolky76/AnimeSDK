@@ -17,6 +17,8 @@ namespace UnityEngine { class ParticleSystemRenderer; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UILayerController_TypeDefinitionIndex = 73071;
+
 	class UILayerController : public ::UnityEngine::MonoBehaviour
 	{
 	public:

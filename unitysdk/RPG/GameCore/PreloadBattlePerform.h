@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PreloadBattlePerform_TypeDefinitionIndex = 23380;
+
 	class PreloadBattlePerform : public ::RPG::GameCore::TaskConfig
 	{
 	public:

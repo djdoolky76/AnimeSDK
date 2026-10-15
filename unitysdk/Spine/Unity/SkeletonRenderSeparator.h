@@ -25,6 +25,8 @@ namespace UnityEngine { class MeshRenderer; }
 
 namespace Spine::Unity
 {
+	inline static constexpr unsigned int SkeletonRenderSeparator_TypeDefinitionIndex = 45044;
+
 	class SkeletonRenderSeparator : public ::UnityEngine::MonoBehaviour
 	{
 	public:

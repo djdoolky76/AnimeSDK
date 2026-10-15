@@ -8,6 +8,8 @@
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int RPGBloomRenderer_Pyramid_TypeDefinitionIndex = 37792;
+
 	class RPGBloomRenderer_Pyramid : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@
 #define OBDPFOOAKBC_OFMLLDLAOCC_OFFSET UNITYSDK_OFFSET(0xBD38920)
 #define OBDPFOOAKBC_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0xBD38830)
 
+inline static constexpr unsigned int OBDPFOOAKBC_TypeDefinitionIndex = 64360;
+
 	class OBDPFOOAKBC : public ::System::Object
 	{
 	public:

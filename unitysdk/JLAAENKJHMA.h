@@ -38,6 +38,8 @@ namespace System { class Object; }
 #define JLAAENKJHMA_SETNEXTTASK_OFFSET UNITYSDK_OFFSET(0xB231190)
 #define JLAAENKJHMA_TICK_OFFSET UNITYSDK_OFFSET(0xB230440)
 
+inline static constexpr unsigned int JLAAENKJHMA_TypeDefinitionIndex = 53075;
+
 	class JLAAENKJHMA : public ::BNBOAMEBAOE
 	{
 	public:

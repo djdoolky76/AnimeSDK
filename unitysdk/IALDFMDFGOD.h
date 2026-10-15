@@ -6,6 +6,8 @@ class LBJLBMOOJGM;
 #define IALDFMDFGOD_CTOR_OFFSET UNITYSDK_OFFSET(0x15E19A90)
 #define IALDFMDFGOD_KDPCHKAGJMK_OFFSET UNITYSDK_OFFSET(0x15E19930)
 
+inline static constexpr unsigned int IALDFMDFGOD_TypeDefinitionIndex = 80497;
+
 	class IALDFMDFGOD : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define KFIBLECLPBC_CTOR_OFFSET UNITYSDK_OFFSET(0x1C70ED50)
 #define KFIBLECLPBC_IMBNGHDBDLJ_OFFSET UNITYSDK_OFFSET(0x1C70ED80)
 
+inline static constexpr unsigned int KFIBLECLPBC_TypeDefinitionIndex = 37427;
+
 	class KFIBLECLPBC
 	{
 	public:

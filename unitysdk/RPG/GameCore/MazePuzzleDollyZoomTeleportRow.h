@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MazePuzzleDollyZoomTeleportRow_TypeDefinitionIndex = 14087;
+
 	class MazePuzzleDollyZoomTeleportRow : public ::System::Object
 	{
 	public:

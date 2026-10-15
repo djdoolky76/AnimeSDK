@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace UnityEngine::NVIDIA
 {
+	inline static constexpr unsigned int NativeStr_TypeDefinitionIndex = 5030;
+
 	class NativeStr : public ::System::Object
 	{
 	public:

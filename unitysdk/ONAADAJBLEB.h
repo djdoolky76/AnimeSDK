@@ -29,6 +29,8 @@ namespace System { class String; }
 #define ONAADAJBLEB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DEC0C20)
 #define ONAADAJBLEB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DEC0C80)
 
+inline static constexpr unsigned int ONAADAJBLEB_TypeDefinitionIndex = 34662;
+
 	class ONAADAJBLEB : public ::System::Object
 	{
 	public:

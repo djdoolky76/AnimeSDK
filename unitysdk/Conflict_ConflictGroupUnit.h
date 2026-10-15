@@ -45,6 +45,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define CONFLICT_CONFLICTGROUPUNIT__TRYHIDEENTITY_OFFSET UNITYSDK_OFFSET(0xDFB13B0)
 #define CONFLICT_CONFLICTGROUPUNIT__TRYSHOWENTITY_OFFSET UNITYSDK_OFFSET(0xDFB16F0)
 
+inline static constexpr unsigned int Conflict_ConflictGroupUnit_TypeDefinitionIndex = 47151;
+
 	class Conflict_ConflictGroupUnit : public ::System::Object
 	{
 	public:

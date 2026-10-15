@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RPGProfilerMarkerUtility_TypeDefinitionIndex = 35161;
+
 	class RPGProfilerMarkerUtility : public ::System::Object
 	{
 	public:

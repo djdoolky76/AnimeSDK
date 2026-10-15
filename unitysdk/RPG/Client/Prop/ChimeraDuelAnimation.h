@@ -17,6 +17,8 @@ namespace UnityEngine { class AnimationState; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int ChimeraDuelAnimation_TypeDefinitionIndex = 78296;
+
 	class ChimeraDuelAnimation : public ::UnityEngine::MonoBehaviour
 	{
 	public:

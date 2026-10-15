@@ -31,6 +31,8 @@ namespace System { class String; }
 #define JNDBILOGFAF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E793C10)
 #define JNDBILOGFAF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E793C70)
 
+inline static constexpr unsigned int JNDBILOGFAF_TypeDefinitionIndex = 30706;
+
 	class JNDBILOGFAF : public ::System::Object
 	{
 	public:

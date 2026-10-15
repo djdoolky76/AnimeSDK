@@ -6,6 +6,8 @@ namespace System { class String; }
 
 #define HEFMJGIINFM_CTOR_OFFSET UNITYSDK_OFFSET(0x1CE9A3B0)
 
+inline static constexpr unsigned int HEFMJGIINFM_TypeDefinitionIndex = 10378;
+
 	class HEFMJGIINFM : public ::System::Object
 	{
 	public:

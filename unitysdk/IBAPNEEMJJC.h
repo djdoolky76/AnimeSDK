@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyCo
 #define IBAPNEEMJJC_GET_DELTA_OFFSET UNITYSDK_OFFSET(0x15E28AE0)
 #define IBAPNEEMJJC_GET_TARGETS_OFFSET UNITYSDK_OFFSET(0x15E28AD0)
 
+inline static constexpr unsigned int IBAPNEEMJJC_TypeDefinitionIndex = 79801;
+
 	class IBAPNEEMJJC : public ::System::Object
 	{
 	public:

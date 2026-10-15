@@ -26,6 +26,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::TrainParty
 {
+	inline static constexpr unsigned int TrainPartyBuildGoalData_TypeDefinitionIndex = 74310;
+
 	class TrainPartyBuildGoalData : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace RPG::GameCore { class LineUpCharacter; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BattleInstance___c__DisplayClass69_0_TypeDefinitionIndex = 56041;
+
 	class BattleInstance___c__DisplayClass69_0 : public ::System::Object
 	{
 	public:

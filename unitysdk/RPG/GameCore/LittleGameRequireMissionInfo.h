@@ -9,6 +9,8 @@ namespace RPG::GameCore { class LittleGameRequireMissionInfo; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LittleGameRequireMissionInfo_TypeDefinitionIndex = 17340;
+
 	class LittleGameRequireMissionInfo : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System { class String; }
 #define JNGHLBLLBGP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB27F7E0)
 #define JNGHLBLLBGP_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB27FA80)
 
+inline static constexpr unsigned int JNGHLBLLBGP_TypeDefinitionIndex = 52227;
+
 	class JNGHLBLLBGP
 	{
 	public:

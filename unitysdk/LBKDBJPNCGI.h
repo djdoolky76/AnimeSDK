@@ -81,6 +81,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define LBKDBJPNCGI__HANDLESHOWPVPBATTLEPREPAREPAGE_B__13_1_OFFSET UNITYSDK_OFFSET(0xB605DE0)
 #define LBKDBJPNCGI__HANDLESHOWPVPBATTLEPREPAREPAGE_B__13_2_OFFSET UNITYSDK_OFFSET(0xB605F50)
 
+inline static constexpr unsigned int LBKDBJPNCGI_TypeDefinitionIndex = 76109;
+
 	class LBKDBJPNCGI : public ::System::Object
 	{
 	public:

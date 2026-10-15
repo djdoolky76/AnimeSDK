@@ -5,6 +5,8 @@ class FDPALAEIHPB;
 
 #define CMPOKGAGOCO_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA13230)
 
+inline static constexpr unsigned int CMPOKGAGOCO_TypeDefinitionIndex = 42880;
+
 	class CMPOKGAGOCO : public ::DJJKNHPLHDI
 	{
 	public:

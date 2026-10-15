@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PerformanceSkipDRow_TypeDefinitionIndex = 14374;
+
 	class PerformanceSkipDRow : public ::System::Object
 	{
 	public:

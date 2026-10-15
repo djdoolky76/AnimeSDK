@@ -4,6 +4,8 @@
 
 namespace MiHoYo::SDK::PluginUI
 {
+	inline static constexpr unsigned int UIConstants_ScanConfirmLoginElements_TypeDefinitionIndex = 46823;
+
 	class UIConstants_ScanConfirmLoginElements : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@ namespace RPG::Client { class PropSelectionMaterialConfig; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PropSelectionStateConfig_TypeDefinitionIndex = 60255;
+
 	class PropSelectionStateConfig : public ::System::Object
 	{
 	public:

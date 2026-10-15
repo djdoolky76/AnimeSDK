@@ -11,6 +11,8 @@ namespace MiHoYo::SDK::Protobuf::Reflection { class ServiceDescriptor; }
 
 namespace MiHoYo::SDK::Protobuf::Reflection
 {
+	inline static constexpr unsigned int ServiceDescriptor___c__DisplayClass2_0_TypeDefinitionIndex = 35854;
+
 	class ServiceDescriptor___c__DisplayClass2_0 : public ::System::Object
 	{
 	public:

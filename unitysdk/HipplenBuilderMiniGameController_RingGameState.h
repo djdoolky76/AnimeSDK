@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int HipplenBuilderMiniGameController_RingGameState_TypeDefinitionIndex = 47203;
+
 	enum class HipplenBuilderMiniGameController_RingGameState : ::System::Int32
 	{
 		Inactive = 0,

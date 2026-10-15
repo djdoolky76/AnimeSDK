@@ -11,6 +11,8 @@
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int SimpleBlackMaskBehaviour_TypeDefinitionIndex = 48305;
+
 	class SimpleBlackMaskBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

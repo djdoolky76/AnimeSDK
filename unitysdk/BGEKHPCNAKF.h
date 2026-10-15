@@ -30,6 +30,8 @@ namespace System { class String; }
 #define BGEKHPCNAKF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA73BF0)
 #define BGEKHPCNAKF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA73C50)
 
+inline static constexpr unsigned int BGEKHPCNAKF_TypeDefinitionIndex = 26713;
+
 	class BGEKHPCNAKF : public ::System::Object
 	{
 	public:

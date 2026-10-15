@@ -17,6 +17,8 @@ class KLEFGGIHGMI;
 
 #define BHHGMJKJIBJ_CTOR_OFFSET UNITYSDK_OFFSET(0xB48AF40)
 
+inline static constexpr unsigned int BHHGMJKJIBJ_TypeDefinitionIndex = 73956;
+
 	class BHHGMJKJIBJ : public ::System::Object
 	{
 	public:

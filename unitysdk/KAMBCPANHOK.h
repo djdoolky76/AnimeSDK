@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define KAMBCPANHOK_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB2DEAE0)
 #define KAMBCPANHOK_TICK_OFFSET UNITYSDK_OFFSET(0xB2DEB30)
 
+inline static constexpr unsigned int KAMBCPANHOK_TypeDefinitionIndex = 52705;
+
 	class KAMBCPANHOK : public ::GELIALJDFBL
 	{
 	public:

@@ -6,6 +6,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Line3DParticleEffectMonoPlugin_TypeDefinitionIndex = 70643;
+
 	class Line3DParticleEffectMonoPlugin
 	{
 	public:

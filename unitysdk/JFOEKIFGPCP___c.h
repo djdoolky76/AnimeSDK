@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define JFOEKIFGPCP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E732AC0)
 #define JFOEKIFGPCP___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E732AD0)
 
+inline static constexpr unsigned int JFOEKIFGPCP___c_TypeDefinitionIndex = 30171;
+
 	class JFOEKIFGPCP___c : public ::System::Object
 	{
 	public:

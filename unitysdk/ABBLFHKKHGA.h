@@ -9,6 +9,8 @@ namespace RPG::GameCore { class TurnBasedModifierInstance; }
 #define ABBLFHKKHGA_OJDEICKALEK_OFFSET UNITYSDK_OFFSET(0xB0EA720)
 #define ABBLFHKKHGA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB0EA3B0)
 
+inline static constexpr unsigned int ABBLFHKKHGA_TypeDefinitionIndex = 55656;
+
 	class ABBLFHKKHGA
 	{
 	public:

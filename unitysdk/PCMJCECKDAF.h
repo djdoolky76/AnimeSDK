@@ -7,6 +7,8 @@ class PCMJCECKDAF;
 #define PCMJCECKDAF_CTOR_OFFSET UNITYSDK_OFFSET(0x1D2CC490)
 #define PCMJCECKDAF_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D2CC370)
 
+inline static constexpr unsigned int PCMJCECKDAF_TypeDefinitionIndex = 14136;
+
 	class PCMJCECKDAF : public ::System::Object
 	{
 	public:

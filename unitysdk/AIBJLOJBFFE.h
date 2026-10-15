@@ -30,6 +30,8 @@ namespace UnityEngine { class GameObject; }
 #define AIBJLOJBFFE__CUSTOMBINDVIEW_OFFSET UNITYSDK_OFFSET(0xEB941D0)
 #define AIBJLOJBFFE__SETUPVIEW_OFFSET UNITYSDK_OFFSET(0xEB94310)
 
+inline static constexpr unsigned int AIBJLOJBFFE_TypeDefinitionIndex = 71634;
+
 	class AIBJLOJBFFE : public ::RPG::Client::UIController
 	{
 	public:

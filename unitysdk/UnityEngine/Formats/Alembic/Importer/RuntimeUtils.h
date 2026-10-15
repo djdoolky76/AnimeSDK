@@ -13,6 +13,8 @@ namespace UnityEngine { class Object; }
 
 namespace UnityEngine::Formats::Alembic::Importer
 {
+	inline static constexpr unsigned int RuntimeUtils_TypeDefinitionIndex = 45889;
+
 	class RuntimeUtils : public ::System::Object
 	{
 	public:

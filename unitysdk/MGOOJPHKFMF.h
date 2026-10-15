@@ -21,6 +21,8 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 #define MGOOJPHKFMF_JOENLGFDJAM_OFFSET UNITYSDK_OFFSET(0xB92CD20)
 #define MGOOJPHKFMF_KHFPAMHCCOA_OFFSET UNITYSDK_OFFSET(0xB92CB20)
 
+inline static constexpr unsigned int MGOOJPHKFMF_TypeDefinitionIndex = 77803;
+
 	class MGOOJPHKFMF : public ::System::Object
 	{
 	public:

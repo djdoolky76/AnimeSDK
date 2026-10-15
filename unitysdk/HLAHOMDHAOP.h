@@ -21,6 +21,8 @@ namespace RPG::GameCore { class ICharacterRowData; }
 #define HLAHOMDHAOP_MBCIEONJPAK_OFFSET UNITYSDK_OFFSET(0x15D51E40)
 #define HLAHOMDHAOP_PLKGBCPFIJJ_OFFSET UNITYSDK_OFFSET(0x15D55380)
 
+inline static constexpr unsigned int HLAHOMDHAOP_TypeDefinitionIndex = 56927;
+
 	class HLAHOMDHAOP : public ::System::Object
 	{
 	public:

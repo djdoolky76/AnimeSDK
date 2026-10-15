@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueActRemoveAllRogueBuffAndAddCoinConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueActRemoveAllRogueBuffAndAddCoinConfig_TypeDefinitionIndex = 19657;
+
 	class RogueActRemoveAllRogueBuffAndAddCoinConfig : public ::RPG::GameCore::RogueActionConfigBase
 	{
 	public:

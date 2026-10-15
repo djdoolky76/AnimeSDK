@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define BFGMJKEJPNA_SET_ISCYCLEFINISHED_OFFSET UNITYSDK_OFFSET(0xB163280)
 #define BFGMJKEJPNA_SET_NEXTAGENDADTO_OFFSET UNITYSDK_OFFSET(0xB163260)
 
+inline static constexpr unsigned int BFGMJKEJPNA_TypeDefinitionIndex = 81837;
+
 	class BFGMJKEJPNA : public ::System::Object
 	{
 	public:

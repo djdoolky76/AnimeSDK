@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ModifierDetachEffect_TypeDefinitionIndex = 23467;
+
 	class ModifierDetachEffect : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System { template <typename T> class Predicate_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChimeraDuelItemData___c__DisplayClass36_0_TypeDefinitionIndex = 63366;
+
 	class ChimeraDuelItemData___c__DisplayClass36_0 : public ::System::Object
 	{
 	public:

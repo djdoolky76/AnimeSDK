@@ -6,6 +6,8 @@ class LBJLBMOOJGM;
 #define NIOFJNPDHPI_CTOR_OFFSET UNITYSDK_OFFSET(0xBC058F0)
 #define NIOFJNPDHPI_KDPCHKAGJMK_OFFSET UNITYSDK_OFFSET(0xBC05840)
 
+inline static constexpr unsigned int NIOFJNPDHPI_TypeDefinitionIndex = 80251;
+
 	class NIOFJNPDHPI : public ::System::Object
 	{
 	public:

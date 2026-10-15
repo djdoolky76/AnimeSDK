@@ -25,6 +25,8 @@ namespace System { class String; }
 #define EMACPOEHODE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E2DC6C0)
 #define EMACPOEHODE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E2DC720)
 
+inline static constexpr unsigned int EMACPOEHODE_TypeDefinitionIndex = 30759;
+
 	class EMACPOEHODE : public ::System::Object
 	{
 	public:

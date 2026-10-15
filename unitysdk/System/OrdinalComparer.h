@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace System
 {
+	inline static constexpr unsigned int OrdinalComparer_TypeDefinitionIndex = 334;
+
 	class OrdinalComparer : public ::System::StringComparer
 	{
 	public:

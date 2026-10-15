@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MarkRecommendDiceItem_TypeDefinitionIndex = 16155;
+
 	class MarkRecommendDiceItem : public ::RPG::GameCore::JsonConfig
 	{
 	public:

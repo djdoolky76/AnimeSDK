@@ -8,6 +8,8 @@ namespace RPG::Client { class GridFightEquipItemConfig; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightGameFormationEditor_GridFightGameFormationEquipOption_TypeDefinitionIndex = 64643;
+
 	class GridFightGameFormationEditor_GridFightGameFormationEquipOption : public ::System::Object
 	{
 	public:

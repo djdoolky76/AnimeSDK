@@ -17,6 +17,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int AccountPlatformPluginImpl_TypeDefinitionIndex = 46085;
+
 	class AccountPlatformPluginImpl : public ::MiHoYo::SDK::AccountPlatformPlugin
 	{
 	public:

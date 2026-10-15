@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AnimatorClipOverride_AnimClipOverride_TypeDefinitionIndex = 70355;
+
 	class AnimatorClipOverride_AnimClipOverride : public ::System::Object
 	{
 	public:

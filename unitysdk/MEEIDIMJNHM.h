@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define MEEIDIMJNHM_DAMDMJJKLON_OFFSET UNITYSDK_OFFSET(0xB8BD790)
 #define MEEIDIMJNHM_NLBNJGKAMII_OFFSET UNITYSDK_OFFSET(0xB8BD830)
 
+inline static constexpr unsigned int MEEIDIMJNHM_TypeDefinitionIndex = 53750;
+
 	class MEEIDIMJNHM : public ::GJPFGOGOLBI
 	{
 	public:

@@ -31,6 +31,8 @@ namespace System { class String; }
 #define OOBKAONOBAK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DED5A10)
 #define OOBKAONOBAK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DED5A70)
 
+inline static constexpr unsigned int OOBKAONOBAK_TypeDefinitionIndex = 25126;
+
 	class OOBKAONOBAK : public ::System::Object
 	{
 	public:

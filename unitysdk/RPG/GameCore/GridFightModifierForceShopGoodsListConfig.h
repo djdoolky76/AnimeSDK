@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightModifierForceShopGoodsListConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightModifierForceShopGoodsListConfig_TypeDefinitionIndex = 19440;
+
 	class GridFightModifierForceShopGoodsListConfig : public ::RPG::GameCore::GridFightModifierConfigBase
 	{
 	public:

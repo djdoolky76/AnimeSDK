@@ -36,6 +36,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RandomFallingObjectBehavior_TypeDefinitionIndex = 70938;
+
 	class RandomFallingObjectBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:

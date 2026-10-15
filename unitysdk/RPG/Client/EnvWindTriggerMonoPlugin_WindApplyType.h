@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int EnvWindTriggerMonoPlugin_WindApplyType_TypeDefinitionIndex = 71070;
+
 	enum class EnvWindTriggerMonoPlugin_WindApplyType : ::System::Int32
 	{
 		Blend = 0,

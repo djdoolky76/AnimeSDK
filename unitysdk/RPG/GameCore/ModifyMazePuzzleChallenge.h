@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ModifyMazePuzzleChallenge; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ModifyMazePuzzleChallenge_TypeDefinitionIndex = 22013;
+
 	class ModifyMazePuzzleChallenge : public ::RPG::GameCore::TaskConfig
 	{
 	public:

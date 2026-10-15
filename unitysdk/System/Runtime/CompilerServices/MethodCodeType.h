@@ -3,6 +3,8 @@
 
 namespace System::Runtime::CompilerServices
 {
+	inline static constexpr unsigned int MethodCodeType_TypeDefinitionIndex = 1391;
+
 	enum class MethodCodeType : ::System::Int32
 	{
 		IL = 0,

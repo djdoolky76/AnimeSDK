@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int DrinkMakerCheersGuestCommentData_TypeDefinitionIndex = 63620;
+
 	class DrinkMakerCheersGuestCommentData : public ::System::Object
 	{
 	public:

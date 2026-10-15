@@ -6,6 +6,8 @@
 
 namespace System::Runtime::CompilerServices
 {
+	inline static constexpr unsigned int NullablePublicOnlyAttribute_3B2AB4D9A1F113D1_TypeDefinitionIndex = 10171;
+
 	class NullablePublicOnlyAttribute_3B2AB4D9A1F113D1 : public ::System::Attribute
 	{
 	public:

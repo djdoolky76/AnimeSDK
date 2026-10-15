@@ -15,6 +15,8 @@ namespace RPG::Client::CatGod { class CatGodViewModel; }
 
 namespace RPG::Client::CatGod
 {
+	inline static constexpr unsigned int CatGodGetShelfWindow_TypeDefinitionIndex = 81654;
+
 	class CatGodGetShelfWindow : public ::Sofa::BaseSofaWindow
 	{
 	public:

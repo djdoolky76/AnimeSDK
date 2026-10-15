@@ -25,6 +25,8 @@ namespace UnityEngine::ProBuilder { class ProBuilderMesh; }
 
 namespace UnityEngine::ProBuilder::MeshOperations
 {
+	inline static constexpr unsigned int MeshValidation_TypeDefinitionIndex = 44508;
+
 	class MeshValidation : public ::System::Object
 	{
 	public:

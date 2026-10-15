@@ -38,6 +38,8 @@ namespace UnityEngine { class MeshFilter; }
 
 namespace BansheeGz::BGSpline::Components
 {
+	inline static constexpr unsigned int BGCcSweep2D_TypeDefinitionIndex = 36050;
+
 	class BGCcSweep2D : public ::BansheeGz::BGSpline::Components::BGCcSplitterPolyline
 	{
 	public:

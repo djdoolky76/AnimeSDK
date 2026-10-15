@@ -3,6 +3,8 @@
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int FramePassCapturer_ImageCompareResult_TypeDefinitionIndex = 37623;
+
 	struct alignas(8) FramePassCapturer_ImageCompareResult
 	{
 		::System::Single corr; // 0x10

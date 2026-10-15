@@ -10,6 +10,8 @@ namespace RPG::GameCore { class AnimatorClipZoneNewConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AnimatorClipZoneNewConfig_TypeDefinitionIndex = 16332;
+
 	class AnimatorClipZoneNewConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

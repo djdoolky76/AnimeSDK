@@ -10,6 +10,8 @@ namespace RPG::GameCore { class LevelPropParameter; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelPropParameter_TypeDefinitionIndex = 17253;
+
 	class LevelPropParameter : public ::RPG::GameCore::JsonConfig
 	{
 	public:

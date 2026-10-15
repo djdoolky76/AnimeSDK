@@ -97,6 +97,8 @@ namespace UnityEngine { class GameObject; }
 #define LPBNBKGHOGA_PLKOPAIOOEI_OFFSET UNITYSDK_OFFSET(0x1D1257E0)
 #define LPBNBKGHOGA_PPAJKAHMDCA_OFFSET UNITYSDK_OFFSET(0x1D126B30)
 
+inline static constexpr unsigned int LPBNBKGHOGA_TypeDefinitionIndex = 10645;
+
 	class LPBNBKGHOGA : public ::System::Object
 	{
 	public:

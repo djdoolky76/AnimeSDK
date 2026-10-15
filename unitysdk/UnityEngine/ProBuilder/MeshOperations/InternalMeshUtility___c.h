@@ -20,6 +20,8 @@ namespace UnityEngine { class Mesh; }
 
 namespace UnityEngine::ProBuilder::MeshOperations
 {
+	inline static constexpr unsigned int InternalMeshUtility___c_TypeDefinitionIndex = 44500;
+
 	class InternalMeshUtility___c : public ::System::Object
 	{
 	public:

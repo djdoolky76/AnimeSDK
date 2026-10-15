@@ -26,6 +26,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int ChimeraBillboardController_TypeDefinitionIndex = 78468;
+
 	class ChimeraBillboardController : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -27,6 +27,8 @@ namespace System { class String; }
 #define AAHPJECONDN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DDBB2D0)
 #define AAHPJECONDN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DDBB330)
 
+inline static constexpr unsigned int AAHPJECONDN_TypeDefinitionIndex = 32004;
+
 	class AAHPJECONDN : public ::System::Object
 	{
 	public:

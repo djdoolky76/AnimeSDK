@@ -24,6 +24,8 @@ namespace R3 { template <typename T> class ReactiveProperty_1; }
 #define DDJOLNAJCOB_IFFNJAMKKAA_OFFSET UNITYSDK_OFFSET(0xE4E3770)
 #define DDJOLNAJCOB_PJACKFAOFKA_OFFSET UNITYSDK_OFFSET(0xE4E34A0)
 
+inline static constexpr unsigned int DDJOLNAJCOB_TypeDefinitionIndex = 49715;
+
 	class DDJOLNAJCOB : public ::System::Object
 	{
 	public:

@@ -28,6 +28,8 @@ namespace System { class String; }
 #define ONJIANLPDBE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DEC7420)
 #define ONJIANLPDBE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DEC7480)
 
+inline static constexpr unsigned int ONJIANLPDBE_TypeDefinitionIndex = 30718;
+
 	class ONJIANLPDBE : public ::System::Object
 	{
 	public:

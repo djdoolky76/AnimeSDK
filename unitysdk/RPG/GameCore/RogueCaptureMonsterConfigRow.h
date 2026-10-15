@@ -9,6 +9,8 @@ namespace RPG::GameCore { class RogueCaptureMonsterConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueCaptureMonsterConfigRow_TypeDefinitionIndex = 14668;
+
 	class RogueCaptureMonsterConfigRow : public ::System::Object
 	{
 	public:

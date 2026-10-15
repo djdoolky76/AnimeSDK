@@ -5,6 +5,8 @@
 
 #define MJGIHNJKFKD_AOCHDEBGLPG_CTOR_OFFSET UNITYSDK_OFFSET(0xB96CD70)
 
+inline static constexpr unsigned int MJGIHNJKFKD_AOCHDEBGLPG_TypeDefinitionIndex = 72959;
+
 	class MJGIHNJKFKD_AOCHDEBGLPG : public ::System::Object
 	{
 	public:

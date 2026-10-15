@@ -90,6 +90,8 @@ namespace UnityEngine { class GameObject; }
 #define KGKEHEBHAJN_SET_TRIGGERDECELERATIONCOUNT_OFFSET UNITYSDK_OFFSET(0xB3F5810)
 #define KGKEHEBHAJN__PLAYENTERCAMERA_B__8_0_OFFSET UNITYSDK_OFFSET(0xB3F5AA0)
 
+inline static constexpr unsigned int KGKEHEBHAJN_TypeDefinitionIndex = 74217;
+
 	class KGKEHEBHAJN : public ::CFALFIPEHJH
 	{
 	public:

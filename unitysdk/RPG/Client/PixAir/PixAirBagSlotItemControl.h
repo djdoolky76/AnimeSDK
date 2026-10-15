@@ -13,6 +13,8 @@ namespace RPG::Client::PixAir { class PixAirEquipItemViewModel; }
 
 namespace RPG::Client::PixAir
 {
+	inline static constexpr unsigned int PixAirBagSlotItemControl_TypeDefinitionIndex = 79226;
+
 	class PixAirBagSlotItemControl : public ::Sofa::BaseSofaControl
 	{
 	public:

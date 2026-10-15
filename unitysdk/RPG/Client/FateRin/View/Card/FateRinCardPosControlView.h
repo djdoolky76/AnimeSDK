@@ -34,6 +34,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace RPG::Client::FateRin::View::Card
 {
+	inline static constexpr unsigned int FateRinCardPosControlView_TypeDefinitionIndex = 80643;
+
 	class FateRinCardPosControlView : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore::Match3 { class ApplyOpponentCurveAction; }
 
 namespace RPG::GameCore::Match3
 {
+	inline static constexpr unsigned int ApplyOpponentCurveAction_TypeDefinitionIndex = 24898;
+
 	class ApplyOpponentCurveAction : public ::RPG::GameCore::Match3::Match3ActionBase
 	{
 	public:

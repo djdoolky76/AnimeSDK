@@ -12,6 +12,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Effect_FallingAnimator___c_TypeDefinitionIndex = 70469;
+
 	class Effect_FallingAnimator___c : public ::System::Object
 	{
 	public:

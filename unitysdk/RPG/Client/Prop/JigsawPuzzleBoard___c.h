@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int JigsawPuzzleBoard___c_TypeDefinitionIndex = 78651;
+
 	class JigsawPuzzleBoard___c : public ::System::Object
 	{
 	public:

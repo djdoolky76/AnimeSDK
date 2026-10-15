@@ -35,6 +35,8 @@ namespace System { class String; }
 #define JIPHBIACDPH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E7572B0)
 #define JIPHBIACDPH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E757310)
 
+inline static constexpr unsigned int JIPHBIACDPH_TypeDefinitionIndex = 28485;
+
 	class JIPHBIACDPH : public ::System::Object
 	{
 	public:

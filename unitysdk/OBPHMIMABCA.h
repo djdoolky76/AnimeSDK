@@ -10,6 +10,8 @@ namespace MessagePack { class MessagePackSerializerOptions; }
 #define OBPHMIMABCA_DESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1C7CB5E0)
 #define OBPHMIMABCA_SERIALIZE_OFFSET UNITYSDK_OFFSET(0x1C7CB1C0)
 
+inline static constexpr unsigned int OBPHMIMABCA_TypeDefinitionIndex = 37203;
+
 	class OBPHMIMABCA : public ::System::Object
 	{
 	public:

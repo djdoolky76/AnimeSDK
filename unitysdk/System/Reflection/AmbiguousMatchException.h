@@ -11,6 +11,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System::Reflection
 {
+	inline static constexpr unsigned int AmbiguousMatchException_TypeDefinitionIndex = 539;
+
 	class AmbiguousMatchException : public ::System::SystemException
 	{
 	public:

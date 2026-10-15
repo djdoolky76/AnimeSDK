@@ -9,6 +9,8 @@ namespace Newtonsoft::Json { template <typename T> class IArrayPool_1; }
 
 namespace Newtonsoft::Json::Utilities
 {
+	inline static constexpr unsigned int BufferUtils_TypeDefinitionIndex = 9672;
+
 	class BufferUtils : public ::System::Object
 	{
 	public:

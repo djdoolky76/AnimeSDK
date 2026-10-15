@@ -6,6 +6,8 @@ namespace System { class Action; }
 
 #define OIEAECJBMNO_CTOR_OFFSET UNITYSDK_OFFSET(0xBE7AEA0)
 
+inline static constexpr unsigned int OIEAECJBMNO_TypeDefinitionIndex = 71476;
+
 	class OIEAECJBMNO : public ::System::Object
 	{
 	public:

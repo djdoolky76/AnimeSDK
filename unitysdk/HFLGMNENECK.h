@@ -7,6 +7,8 @@ namespace RPG::GameCore { class MiniGameFlappyBirdConfig; }
 #define HFLGMNENECK_CLEAR_OFFSET UNITYSDK_OFFSET(0x1CAC84B0)
 #define HFLGMNENECK_CTOR_OFFSET UNITYSDK_OFFSET(0x1CAC8500)
 
+inline static constexpr unsigned int HFLGMNENECK_TypeDefinitionIndex = 43389;
+
 	class HFLGMNENECK : public ::System::Object
 	{
 	public:

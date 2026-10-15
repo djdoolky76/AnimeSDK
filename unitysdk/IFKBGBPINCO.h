@@ -5,6 +5,8 @@
 class PCBOLBDCNMI;
 namespace System { class Object; }
 
+inline static constexpr unsigned int IFKBGBPINCO_TypeDefinitionIndex = 44115;
+
 	class IFKBGBPINCO : public ::System::Object
 	{
 	public:

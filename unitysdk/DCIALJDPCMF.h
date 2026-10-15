@@ -5,6 +5,8 @@ namespace System { class String; }
 
 #define DCIALJDPCMF_CTOR_OFFSET UNITYSDK_OFFSET(0xE246E20)
 
+inline static constexpr unsigned int DCIALJDPCMF_TypeDefinitionIndex = 58615;
+
 	class DCIALJDPCMF : public ::System::Object
 	{
 	public:

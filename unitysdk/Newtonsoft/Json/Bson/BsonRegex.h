@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace Newtonsoft::Json::Bson
 {
+	inline static constexpr unsigned int BsonRegex_TypeDefinitionIndex = 9857;
+
 	class BsonRegex : public ::Newtonsoft::Json::Bson::BsonToken
 	{
 	public:

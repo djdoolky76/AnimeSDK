@@ -13,6 +13,8 @@ namespace RPG::Client::LittleGame { class Match3EnergyViewStateBuffer; }
 #define CHNBCNCCFOL_ONCLEAR_OFFSET UNITYSDK_OFFSET(0xCF60270)
 #define CHNBCNCCFOL_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0xCF60300)
 
+inline static constexpr unsigned int CHNBCNCCFOL_TypeDefinitionIndex = 65862;
+
 	class CHNBCNCCFOL : public ::FNIDIOCNBBI
 	{
 	public:

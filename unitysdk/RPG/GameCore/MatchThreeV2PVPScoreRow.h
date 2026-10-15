@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MatchThreeV2PVPScoreRow_TypeDefinitionIndex = 11952;
+
 	class MatchThreeV2PVPScoreRow : public ::System::Object
 	{
 	public:

@@ -3,6 +3,8 @@
 
 namespace Cinemachine
 {
+	inline static constexpr unsigned int CinemachineClearShot_Pair_TypeDefinitionIndex = 39725;
+
 	struct alignas(4) CinemachineClearShot_Pair
 	{
 		::System::Int32 a; // 0x10

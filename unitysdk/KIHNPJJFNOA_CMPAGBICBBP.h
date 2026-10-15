@@ -13,6 +13,8 @@ namespace System { class Object; }
 #define KIHNPJJFNOA_CMPAGBICBBP_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xB425DF0)
 #define KIHNPJJFNOA_CMPAGBICBBP_INVOKE_OFFSET UNITYSDK_OFFSET(0xB421880)
 
+inline static constexpr unsigned int KIHNPJJFNOA_CMPAGBICBBP_TypeDefinitionIndex = 54181;
+
 	class KIHNPJJFNOA_CMPAGBICBBP : public ::System::MulticastDelegate
 	{
 	public:

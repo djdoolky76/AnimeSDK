@@ -9,6 +9,8 @@ namespace RPG::Client { class AvatarOutfit; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PlayerOutfitHelper_TypeDefinitionIndex = 62650;
+
 	class PlayerOutfitHelper : public ::System::Object
 	{
 	public:

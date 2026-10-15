@@ -27,6 +27,8 @@ namespace System { class String; }
 #define PPJAKCKKPBC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DFDAF10)
 #define PPJAKCKKPBC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DFDAF70)
 
+inline static constexpr unsigned int PPJAKCKKPBC_TypeDefinitionIndex = 31453;
+
 	class PPJAKCKKPBC : public ::System::Object
 	{
 	public:

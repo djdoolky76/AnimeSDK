@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace UnityEngine::NVIDIA
 {
+	inline static constexpr unsigned int NVUnityPlugin_TypeDefinitionIndex = 5020;
+
 	class NVUnityPlugin : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@ namespace System { class Object; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
+	inline static constexpr unsigned int Publish_1__ConsumeEnumerator_d__8_TypeDefinitionIndex = 45537;
+
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8>
 	struct alignas(8) Publish_1__ConsumeEnumerator_d__8
 	{

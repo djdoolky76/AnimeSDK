@@ -5,6 +5,8 @@
 
 #define APOCIBEFCEJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8AD500)
 
+inline static constexpr unsigned int APOCIBEFCEJ_TypeDefinitionIndex = 42375;
+
 	class APOCIBEFCEJ : public ::System::Object
 	{
 	public:

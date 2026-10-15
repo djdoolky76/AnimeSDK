@@ -10,6 +10,8 @@ namespace RPG::GameCore { class LockPlayerControl; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LockPlayerControl_TypeDefinitionIndex = 20297;
+
 	class LockPlayerControl : public ::RPG::GameCore::TaskConfig
 	{
 	public:

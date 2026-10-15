@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MissionChroniclePathUnlockConditionData_ActivityAlley_TypeDefinitionIndex = 66114;
+
 	class MissionChroniclePathUnlockConditionData_ActivityAlley : public ::System::Object
 	{
 	public:

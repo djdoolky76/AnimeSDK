@@ -20,6 +20,8 @@ namespace UnityEngine::Timeline { class IPropertyCollector; }
 
 namespace UnityEngine::Formats::Alembic::Timeline
 {
+	inline static constexpr unsigned int AlembicShotAsset_TypeDefinitionIndex = 45752;
+
 	class AlembicShotAsset : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

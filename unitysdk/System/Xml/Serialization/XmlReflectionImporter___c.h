@@ -11,6 +11,8 @@ namespace System::Xml::Serialization { class XmlReflectionMember; }
 
 namespace System::Xml::Serialization
 {
+	inline static constexpr unsigned int XmlReflectionImporter___c_TypeDefinitionIndex = 2019;
+
 	class XmlReflectionImporter___c : public ::System::Object
 	{
 	public:

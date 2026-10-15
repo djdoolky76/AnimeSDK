@@ -6,6 +6,8 @@ namespace System { class Action; }
 #define AFPFAGANDKO___C__DISPLAYCLASS6_0_CTOR_OFFSET UNITYSDK_OFFSET(0xCF21100)
 #define AFPFAGANDKO___C__DISPLAYCLASS6_0__ADDSPHERETRIGGER_B__0_OFFSET UNITYSDK_OFFSET(0xCF22F60)
 
+inline static constexpr unsigned int AFPFAGANDKO___c__DisplayClass6_0_TypeDefinitionIndex = 73961;
+
 	class AFPFAGANDKO___c__DisplayClass6_0 : public ::System::Object
 	{
 	public:

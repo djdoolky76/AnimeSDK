@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define GEEMFDBDMDH___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E455530)
 #define GEEMFDBDMDH___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E455540)
 
+inline static constexpr unsigned int GEEMFDBDMDH___c_TypeDefinitionIndex = 29575;
+
 	class GEEMFDBDMDH___c : public ::System::Object
 	{
 	public:

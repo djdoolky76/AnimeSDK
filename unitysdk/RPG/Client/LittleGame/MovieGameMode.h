@@ -3,6 +3,8 @@
 
 namespace RPG::Client::LittleGame
 {
+	inline static constexpr unsigned int MovieGameMode_TypeDefinitionIndex = 42371;
+
 	enum class MovieGameMode : ::System::Int32
 	{
 		OverTake = 0,

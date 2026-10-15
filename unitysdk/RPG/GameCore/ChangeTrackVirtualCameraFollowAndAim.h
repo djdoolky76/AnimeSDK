@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChangeTrackVirtualCameraFollowAndAim_TypeDefinitionIndex = 21694;
+
 	class ChangeTrackVirtualCameraFollowAndAim : public ::RPG::GameCore::TaskConfig
 	{
 	public:

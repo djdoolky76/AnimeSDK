@@ -28,6 +28,8 @@ namespace ZLinq { class ValueEnumerable; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ShopGoodsConfigExcelTable_TypeDefinitionIndex = 15109;
+
 	class ShopGoodsConfigExcelTable : public ::System::Object
 	{
 	public:

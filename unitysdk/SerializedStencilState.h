@@ -7,6 +7,8 @@
 #define SERIALIZEDSTENCILSTATE_ICGKFDEILKA_OFFSET UNITYSDK_OFFSET(0xF9B40)
 #define SERIALIZEDSTENCILSTATE_OLCHHDKKPLI_OFFSET UNITYSDK_OFFSET(0xF9BE0)
 
+inline static constexpr unsigned int SerializedStencilState_TypeDefinitionIndex = 47418;
+
 	struct alignas(4) SerializedStencilState
 	{
 		::System::Boolean enabled; // 0x10

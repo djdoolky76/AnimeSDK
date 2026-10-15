@@ -15,6 +15,8 @@ namespace RPG::Client { class CameraBlendCurve; }
 #define FPBJFMDMJIO_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0x1590D040)
 #define FPBJFMDMJIO_SET_CURRENTSTATE_OFFSET UNITYSDK_OFFSET(0x1590D660)
 
+inline static constexpr unsigned int FPBJFMDMJIO_TypeDefinitionIndex = 69540;
+
 	class FPBJFMDMJIO : public ::System::Object
 	{
 	public:

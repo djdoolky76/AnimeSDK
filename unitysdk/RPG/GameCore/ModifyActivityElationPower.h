@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ModifyActivityElationPower_TypeDefinitionIndex = 23149;
+
 	class ModifyActivityElationPower : public ::RPG::GameCore::TaskConfig
 	{
 	public:

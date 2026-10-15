@@ -8,6 +8,8 @@ namespace RPG { template <typename T> class PoolList_1; }
 #define OGLMFCFKJGI_ONALLOC_OFFSET UNITYSDK_OFFSET(0x1C98D130)
 #define OGLMFCFKJGI_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0x1C98D1C0)
 
+inline static constexpr unsigned int OGLMFCFKJGI_TypeDefinitionIndex = 43323;
+
 	class OGLMFCFKJGI : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@ class GFACMJOEDGH;
 #define FLIAOCEHBEP_CLEAR_OFFSET UNITYSDK_OFFSET(0x1CA710F0)
 #define FLIAOCEHBEP_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA71150)
 
+inline static constexpr unsigned int FLIAOCEHBEP_TypeDefinitionIndex = 43288;
+
 	class FLIAOCEHBEP : public ::System::Object
 	{
 	public:

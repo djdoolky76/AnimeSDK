@@ -10,6 +10,8 @@ namespace RPG::GameCore { class SetAttachmentScaleForUI; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetAttachmentScaleForUI_TypeDefinitionIndex = 22378;
+
 	class SetAttachmentScaleForUI : public ::RPG::GameCore::SetAttachmentScale
 	{
 	public:

@@ -7,6 +7,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define LBOCPCILMEC_CTOR_OFFSET UNITYSDK_OFFSET(0xB60DA30)
 #define LBOCPCILMEC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB60DB10)
 
+inline static constexpr unsigned int LBOCPCILMEC_TypeDefinitionIndex = 53916;
+
 	class LBOCPCILMEC
 	{
 	public:

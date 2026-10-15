@@ -10,6 +10,8 @@ namespace System { class Nullable; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftCraftEditingChipDetailControl___c__DisplayClass20_0_TypeDefinitionIndex = 79888;
+
 	class MechCraftCraftEditingChipDetailControl___c__DisplayClass20_0 : public ::System::Object
 	{
 	public:

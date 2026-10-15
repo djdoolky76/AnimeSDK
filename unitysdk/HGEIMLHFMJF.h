@@ -5,6 +5,8 @@
 #define HGEIMLHFMJF_CTOR_OFFSET UNITYSDK_OFFSET(0x15C960E0)
 #define HGEIMLHFMJF_JJNFOPNOPBF_OFFSET UNITYSDK_OFFSET(0x15C96040)
 
+inline static constexpr unsigned int HGEIMLHFMJF_TypeDefinitionIndex = 62456;
+
 	class HGEIMLHFMJF : public ::System::Object
 	{
 	public:

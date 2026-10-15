@@ -7,6 +7,8 @@ namespace System { class Action; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoMap3DTouch_NHDFAHKCJLO_TypeDefinitionIndex = 69044;
+
 	struct alignas(8) MonoMap3DTouch_NHDFAHKCJLO
 	{
 		::System::Action* OBKNANIDMKH; // 0x10

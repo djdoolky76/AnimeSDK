@@ -11,6 +11,8 @@ namespace RPG::GameCore { class SilverWolfSubTabRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SilverWolfSubTabRow_TypeDefinitionIndex = 12351;
+
 	class SilverWolfSubTabRow : public ::System::Object
 	{
 	public:

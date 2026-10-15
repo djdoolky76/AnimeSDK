@@ -9,6 +9,8 @@ namespace UnityEngine { class MaterialPropertyBlock; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int VolumetricCloudSphere_TypeDefinitionIndex = 4275;
+
 	class VolumetricCloudSphere : public ::UnityEngine::Behaviour
 	{
 	public:

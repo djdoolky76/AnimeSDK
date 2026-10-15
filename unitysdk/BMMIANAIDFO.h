@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define BMMIANAIDFO_FILTER_OFFSET UNITYSDK_OFFSET(0x1C8BC920)
 #define BMMIANAIDFO_GETTRIGGER_OFFSET UNITYSDK_OFFSET(0x1C8BC800)
 
+inline static constexpr unsigned int BMMIANAIDFO_TypeDefinitionIndex = 42867;
+
 	class BMMIANAIDFO
 	{
 	public:

@@ -20,6 +20,8 @@ namespace System::Xml::Schema { class XmlSchemaDatatype; }
 
 namespace System::Xml::Schema
 {
+	inline static constexpr unsigned int StringFacetsChecker_TypeDefinitionIndex = 2160;
+
 	class StringFacetsChecker : public ::System::Xml::Schema::FacetsChecker
 	{
 	public:

@@ -39,6 +39,8 @@ namespace UnityEngine::Playables { class PlayableDirector; }
 
 namespace RPG::Client::LimaoNews
 {
+	inline static constexpr unsigned int LimaoNewsMainLimaoControl_TypeDefinitionIndex = 80365;
+
 	class LimaoNewsMainLimaoControl : public ::Sofa::BaseSofaControl
 	{
 	public:

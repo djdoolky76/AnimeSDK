@@ -7,6 +7,8 @@ namespace System { class Action; }
 
 namespace RPG::Client::B51Racing
 {
+	inline static constexpr unsigned int B51RacingNewPartDisplayPageViewModel_TypeDefinitionIndex = 82007;
+
 	class B51RacingNewPartDisplayPageViewModel : public ::System::Object
 	{
 	public:

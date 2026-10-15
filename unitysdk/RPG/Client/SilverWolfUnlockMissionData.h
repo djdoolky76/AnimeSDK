@@ -9,6 +9,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SilverWolfUnlockMissionData_TypeDefinitionIndex = 67956;
+
 	class SilverWolfUnlockMissionData : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline::PostProcessing
 {
+	inline static constexpr unsigned int DOFTimelineEffectTrack_TypeDefinitionIndex = 48569;
+
 	class DOFTimelineEffectTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
 	public:

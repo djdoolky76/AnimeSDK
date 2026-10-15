@@ -9,6 +9,8 @@ namespace System { class String; }
 #define FOLFPAGNLOB_CTOR_OFFSET UNITYSDK_OFFSET(0x158F7530)
 #define FOLFPAGNLOB_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0x158F75C0)
 
+inline static constexpr unsigned int FOLFPAGNLOB_TypeDefinitionIndex = 69800;
+
 	class FOLFPAGNLOB : public ::HGEGFCADEEC
 	{
 	public:

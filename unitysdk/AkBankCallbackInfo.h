@@ -15,6 +15,8 @@ class AkBankCallbackInfo;
 #define AKBANKCALLBACKINFO_GET_LOADRESULT_OFFSET UNITYSDK_OFFSET(0x1F57A4B0)
 #define AKBANKCALLBACKINFO_SETCPTR_OFFSET UNITYSDK_OFFSET(0x1F579F20)
 
+inline static constexpr unsigned int AkBankCallbackInfo_TypeDefinitionIndex = 44720;
+
 	class AkBankCallbackInfo : public ::System::Object
 	{
 	public:

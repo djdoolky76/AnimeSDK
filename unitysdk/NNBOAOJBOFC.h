@@ -7,6 +7,8 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
+inline static constexpr unsigned int NNBOAOJBOFC_TypeDefinitionIndex = 60873;
+
 	struct alignas(8) NNBOAOJBOFC
 	{
 		::RPG::GameCore::PlaneType HMNDHAFDNAH; // 0x10

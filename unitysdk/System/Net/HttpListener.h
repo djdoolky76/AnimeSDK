@@ -49,6 +49,8 @@ namespace System::Security::Cryptography::X509Certificates { class X509Certifica
 
 namespace System::Net
 {
+	inline static constexpr unsigned int HttpListener_TypeDefinitionIndex = 2849;
+
 	class HttpListener : public ::System::Object
 	{
 	public:

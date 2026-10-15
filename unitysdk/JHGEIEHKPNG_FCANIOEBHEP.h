@@ -7,6 +7,8 @@ namespace System { class Action; }
 namespace System { class Object; }
 namespace UnityEngine { class GameObject; }
 
+inline static constexpr unsigned int JHGEIEHKPNG_FCANIOEBHEP_TypeDefinitionIndex = 49878;
+
 	class JHGEIEHKPNG_FCANIOEBHEP : public ::System::Object
 	{
 	public:

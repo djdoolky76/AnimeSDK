@@ -4,6 +4,8 @@
 
 #define BJCCHHGENPC_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8BB010)
 
+inline static constexpr unsigned int BJCCHHGENPC_TypeDefinitionIndex = 42139;
+
 	class BJCCHHGENPC : public ::System::Object
 	{
 	public:

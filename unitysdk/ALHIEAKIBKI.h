@@ -21,6 +21,8 @@ namespace System { class String; }
 #define ALHIEAKIBKI_PMMBKACIHNN_OFFSET UNITYSDK_OFFSET(0x1556BA30)
 #define ALHIEAKIBKI_TEARDOWN_OFFSET UNITYSDK_OFFSET(0x1556B820)
 
+inline static constexpr unsigned int ALHIEAKIBKI_TypeDefinitionIndex = 76942;
+
 	class ALHIEAKIBKI : public ::BBGNOBLIAGL
 	{
 	public:

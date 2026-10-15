@@ -20,6 +20,8 @@ namespace UnityEngine { class Animator; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AlleyRouteBird_TypeDefinitionIndex = 62291;
+
 	class AlleyRouteBird : public ::UnityEngine::MonoBehaviour
 	{
 	public:

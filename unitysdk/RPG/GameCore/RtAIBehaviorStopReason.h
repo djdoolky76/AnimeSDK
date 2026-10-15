@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RtAIBehaviorStopReason_TypeDefinitionIndex = 54090;
+
 	enum class RtAIBehaviorStopReason : ::System::Int32
 	{
 		None = 0,

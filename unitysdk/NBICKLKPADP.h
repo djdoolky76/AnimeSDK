@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class LinkedList_
 #define NBICKLKPADP_NHKBLPDELOM_OFFSET UNITYSDK_OFFSET(0xBAC48A0)
 #define NBICKLKPADP_PBJOFIOPKJA_OFFSET UNITYSDK_OFFSET(0xBAC4C80)
 
+inline static constexpr unsigned int NBICKLKPADP_TypeDefinitionIndex = 49419;
+
 	class NBICKLKPADP
 	{
 	public:

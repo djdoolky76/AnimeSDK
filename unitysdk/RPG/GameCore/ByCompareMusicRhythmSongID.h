@@ -13,6 +13,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByCompareMusicRhythmSongID_TypeDefinitionIndex = 22060;
+
 	class ByCompareMusicRhythmSongID : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

@@ -5,6 +5,8 @@
 
 namespace UnityEngine::UI
 {
+	inline static constexpr unsigned int Slider_SliderEvent_TypeDefinitionIndex = 6845;
+
 	class Slider_SliderEvent
 	{
 	public:

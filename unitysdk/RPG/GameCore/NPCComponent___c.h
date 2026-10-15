@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int NPCComponent___c_TypeDefinitionIndex = 57108;
+
 	class NPCComponent___c : public ::System::Object
 	{
 	public:

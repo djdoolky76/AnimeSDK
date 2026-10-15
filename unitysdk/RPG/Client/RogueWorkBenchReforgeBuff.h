@@ -21,6 +21,8 @@ namespace RPG::Client { class RogueWorkBenchReforgeBuff; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueWorkBenchReforgeBuff_TypeDefinitionIndex = 67352;
+
 	class RogueWorkBenchReforgeBuff : public ::System::Object
 	{
 	public:

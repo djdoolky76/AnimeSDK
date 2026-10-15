@@ -10,6 +10,8 @@ namespace RPG::GameCore { class BattleSingleClickQTEConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BattleSingleClickQTEConfig_TypeDefinitionIndex = 23344;
+
 	class BattleSingleClickQTEConfig : public ::RPG::GameCore::BattleQTEBaseConfig
 	{
 	public:

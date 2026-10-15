@@ -7,6 +7,8 @@ namespace System::Collections { class Hashtable; }
 
 namespace System::Runtime::Remoting
 {
+	inline static constexpr unsigned int SoapServices_TypeInfo_TypeDefinitionIndex = 1226;
+
 	class SoapServices_TypeInfo : public ::System::Object
 	{
 	public:

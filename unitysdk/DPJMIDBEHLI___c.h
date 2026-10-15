@@ -14,6 +14,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define DPJMIDBEHLI___C__FETCHINPUTNOTIFYMESSAGE_B__33_0_OFFSET UNITYSDK_OFFSET(0x12655060)
 #define DPJMIDBEHLI___C___BUILDPLAYERDATA_B__7_0_OFFSET UNITYSDK_OFFSET(0x12655020)
 
+inline static constexpr unsigned int DPJMIDBEHLI___c_TypeDefinitionIndex = 76565;
+
 	class DPJMIDBEHLI___c : public ::System::Object
 	{
 	public:

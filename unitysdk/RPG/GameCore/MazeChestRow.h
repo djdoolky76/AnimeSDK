@@ -10,6 +10,8 @@ namespace RPG::GameCore { class MazeChestRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MazeChestRow_TypeDefinitionIndex = 14384;
+
 	class MazeChestRow : public ::System::Object
 	{
 	public:

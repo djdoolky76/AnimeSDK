@@ -27,6 +27,8 @@ namespace System { class String; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_ParameterTupleWrapper_TypeDefinitionIndex = 40574;
+
 	class HEU_ParameterTupleWrapper : public ::System::Object
 	{
 	public:

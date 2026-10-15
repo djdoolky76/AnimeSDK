@@ -8,6 +8,8 @@
 
 namespace XLua
 {
+	inline static constexpr unsigned int XLuaWrapRegistrationAttribute_TypeDefinitionIndex = 50282;
+
 	class XLuaWrapRegistrationAttribute : public ::System::Attribute
 	{
 	public:

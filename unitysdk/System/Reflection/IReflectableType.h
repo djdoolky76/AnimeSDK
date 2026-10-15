@@ -3,6 +3,8 @@
 
 namespace System::Reflection
 {
+	inline static constexpr unsigned int IReflectableType_TypeDefinitionIndex = 568;
+
 	class IReflectableType
 	{
 	public:

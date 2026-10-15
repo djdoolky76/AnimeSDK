@@ -7,6 +7,8 @@ namespace RPG::Client { class PetMarbleBattleTitle; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PetMarbleSealBattleStat_TypeDefinitionIndex = 65815;
+
 	class PetMarbleSealBattleStat : public ::System::Object
 	{
 	public:

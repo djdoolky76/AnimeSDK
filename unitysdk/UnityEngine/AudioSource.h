@@ -14,6 +14,8 @@ namespace UnityEngine { class AudioSource; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int AudioSource_TypeDefinitionIndex = 5149;
+
 	class AudioSource : public ::UnityEngine::AudioBehaviour
 	{
 	public:

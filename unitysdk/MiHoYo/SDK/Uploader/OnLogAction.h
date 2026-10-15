@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::Uploader
 {
+	inline static constexpr unsigned int OnLogAction_TypeDefinitionIndex = 46663;
+
 	class OnLogAction : public ::System::MulticastDelegate
 	{
 	public:

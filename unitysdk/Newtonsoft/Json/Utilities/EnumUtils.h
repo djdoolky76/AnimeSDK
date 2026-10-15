@@ -17,6 +17,8 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 
 namespace Newtonsoft::Json::Utilities
 {
+	inline static constexpr unsigned int EnumUtils_TypeDefinitionIndex = 9668;
+
 	class EnumUtils : public ::System::Object
 	{
 	public:

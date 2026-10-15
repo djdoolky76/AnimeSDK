@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ActivityTelevisionLevelRow_TypeDefinitionIndex = 12504;
+
 	class ActivityTelevisionLevelRow : public ::System::Object
 	{
 	public:

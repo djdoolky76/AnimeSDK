@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SimpleTalkBackground_TypeDefinitionIndex = 21121;
+
 	class SimpleTalkBackground : public ::RPG::GameCore::JsonConfig
 	{
 	public:

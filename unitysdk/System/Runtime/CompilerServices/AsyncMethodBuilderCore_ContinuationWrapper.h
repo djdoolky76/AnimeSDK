@@ -9,6 +9,8 @@ namespace System::Threading::Tasks { class Task; }
 
 namespace System::Runtime::CompilerServices
 {
+	inline static constexpr unsigned int AsyncMethodBuilderCore_ContinuationWrapper_TypeDefinitionIndex = 1355;
+
 	class AsyncMethodBuilderCore_ContinuationWrapper : public ::System::Object
 	{
 	public:

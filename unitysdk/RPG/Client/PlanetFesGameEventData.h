@@ -14,6 +14,8 @@ namespace RPG::Client { class PlanetFesMiniGame; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PlanetFesGameEventData_TypeDefinitionIndex = 66558;
+
 	class PlanetFesGameEventData : public ::RPG::Client::PlanetFesEventDataBase
 	{
 	public:

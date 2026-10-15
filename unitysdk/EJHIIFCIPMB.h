@@ -29,6 +29,8 @@ namespace System { class String; }
 #define EJHIIFCIPMB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E2B7BD0)
 #define EJHIIFCIPMB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E2B7C30)
 
+inline static constexpr unsigned int EJHIIFCIPMB_TypeDefinitionIndex = 28582;
+
 	class EJHIIFCIPMB : public ::System::Object
 	{
 	public:

@@ -27,6 +27,8 @@ namespace System { class String; }
 #define HELGMBBOGMJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E55B480)
 #define HELGMBBOGMJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E55B4E0)
 
+inline static constexpr unsigned int HELGMBBOGMJ_TypeDefinitionIndex = 33065;
+
 	class HELGMBBOGMJ : public ::System::Object
 	{
 	public:

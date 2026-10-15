@@ -13,6 +13,8 @@ namespace System { class Type; }
 
 namespace System::Reflection
 {
+	inline static constexpr unsigned int TypeFilter_TypeDefinitionIndex = 591;
+
 	class TypeFilter : public ::System::MulticastDelegate
 	{
 	public:

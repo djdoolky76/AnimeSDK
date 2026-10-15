@@ -4,6 +4,8 @@
 
 #define BCKALGIJEKG_CTOR_OFFSET UNITYSDK_OFFSET(0x1C435D10)
 
+inline static constexpr unsigned int BCKALGIJEKG_TypeDefinitionIndex = 41435;
+
 	class BCKALGIJEKG : public ::AGKEILLNKIC
 	{
 	public:

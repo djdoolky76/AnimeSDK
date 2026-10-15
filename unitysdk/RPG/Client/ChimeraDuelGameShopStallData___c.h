@@ -16,6 +16,8 @@ namespace System::Collections::Generic { class KeyValuePair; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChimeraDuelGameShopStallData___c_TypeDefinitionIndex = 63332;
+
 	class ChimeraDuelGameShopStallData___c : public ::System::Object
 	{
 	public:

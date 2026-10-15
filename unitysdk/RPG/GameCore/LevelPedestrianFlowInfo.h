@@ -9,6 +9,8 @@ namespace RPG::GameCore { class LevelPedestrianFlowInfo; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelPedestrianFlowInfo_TypeDefinitionIndex = 17282;
+
 	class LevelPedestrianFlowInfo : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -6,6 +6,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 #define ODAHABLMCHK_CTOR_OFFSET UNITYSDK_OFFSET(0xBD77CC0)
 
+inline static constexpr unsigned int ODAHABLMCHK_TypeDefinitionIndex = 62036;
+
 	class ODAHABLMCHK : public ::System::Object
 	{
 	public:

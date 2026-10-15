@@ -8,6 +8,8 @@ class OEIGEPGAGNA;
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BattleLineupGamePhase___c__DisplayClass9_0_TypeDefinitionIndex = 60987;
+
 	class BattleLineupGamePhase___c__DisplayClass9_0 : public ::System::Object
 	{
 	public:

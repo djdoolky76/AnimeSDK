@@ -32,6 +32,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::Protobuf::WellKnownTypes
 {
+	inline static constexpr unsigned int Any_TypeDefinitionIndex = 35737;
+
 	class Any : public ::System::Object
 	{
 	public:

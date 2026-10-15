@@ -9,6 +9,8 @@ namespace System { class Type; }
 
 namespace UnityEngine::Timeline
 {
+	inline static constexpr unsigned int TrackClipTypeAttribute_TypeDefinitionIndex = 38857;
+
 	class TrackClipTypeAttribute : public ::System::Attribute
 	{
 	public:

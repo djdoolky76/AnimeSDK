@@ -255,6 +255,8 @@ namespace UnityEngine::EventSystems { class PointerEventData; }
 
 namespace HedgehogTeam::EasyTouch
 {
+	inline static constexpr unsigned int EasyTouch_TypeDefinitionIndex = 40286;
+
 	class EasyTouch : public ::UnityEngine::MonoBehaviour
 	{
 	public:

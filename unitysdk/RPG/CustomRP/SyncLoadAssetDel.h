@@ -15,6 +15,8 @@ namespace UnityEngine { class Object; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int SyncLoadAssetDel_TypeDefinitionIndex = 37896;
+
 	class SyncLoadAssetDel : public ::System::MulticastDelegate
 	{
 	public:

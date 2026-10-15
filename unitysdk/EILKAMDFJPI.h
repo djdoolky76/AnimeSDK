@@ -25,6 +25,8 @@ namespace System { class Object; }
 #define EILKAMDFJPI_PPNHPIHPHKL_OFFSET UNITYSDK_OFFSET(0x154D0E80)
 #define EILKAMDFJPI_TICK_OFFSET UNITYSDK_OFFSET(0x154D0AD0)
 
+inline static constexpr unsigned int EILKAMDFJPI_TypeDefinitionIndex = 81914;
+
 	class EILKAMDFJPI : public ::System::Object
 	{
 	public:

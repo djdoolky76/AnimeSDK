@@ -37,6 +37,8 @@ namespace System { class String; }
 #define OIKGKBHIILL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE72C00)
 #define OIKGKBHIILL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DE72C60)
 
+inline static constexpr unsigned int OIKGKBHIILL_TypeDefinitionIndex = 32570;
+
 	class OIKGKBHIILL : public ::System::Object
 	{
 	public:

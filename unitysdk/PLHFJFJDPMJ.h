@@ -15,6 +15,8 @@ namespace UnityEngine { class Transform; }
 #define PLHFJFJDPMJ_PAJFPEMOBEI_OFFSET UNITYSDK_OFFSET(0xC305EB0)
 #define PLHFJFJDPMJ_TICK_OFFSET UNITYSDK_OFFSET(0xC3061B0)
 
+inline static constexpr unsigned int PLHFJFJDPMJ_TypeDefinitionIndex = 52286;
+
 	class PLHFJFJDPMJ
 	{
 	public:

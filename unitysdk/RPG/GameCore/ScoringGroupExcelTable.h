@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ScoringGroupExcelTable_TypeDefinitionIndex = 12885;
+
 	class ScoringGroupExcelTable : public ::System::Object
 	{
 	public:

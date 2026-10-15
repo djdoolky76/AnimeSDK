@@ -9,6 +9,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define GAJCCEPJLJE_LMEKNGLCPCN_OFFSET UNITYSDK_OFFSET(0x1593D1D0)
 #define GAJCCEPJLJE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1593CEF0)
 
+inline static constexpr unsigned int GAJCCEPJLJE_TypeDefinitionIndex = 52878;
+
 	class GAJCCEPJLJE
 	{
 	public:

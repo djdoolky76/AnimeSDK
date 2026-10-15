@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int GFGOAJBEDFI_TypeDefinitionIndex = 27693;
+
 	enum class GFGOAJBEDFI : ::System::Int32
 	{
 		NLCDGIPGFDJ = 0,

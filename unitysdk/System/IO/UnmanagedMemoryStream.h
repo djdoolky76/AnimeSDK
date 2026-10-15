@@ -34,6 +34,8 @@ namespace System::Threading::Tasks { class Task; }
 
 namespace System::IO
 {
+	inline static constexpr unsigned int UnmanagedMemoryStream_TypeDefinitionIndex = 706;
+
 	class UnmanagedMemoryStream : public ::System::IO::Stream
 	{
 	public:

@@ -27,6 +27,8 @@ namespace System { class String; }
 #define FDICOMLMBME_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E35A3E0)
 #define FDICOMLMBME_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E35A440)
 
+inline static constexpr unsigned int FDICOMLMBME_TypeDefinitionIndex = 33115;
+
 	class FDICOMLMBME : public ::System::Object
 	{
 	public:

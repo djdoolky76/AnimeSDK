@@ -7,6 +7,8 @@ namespace RPG::Client { class ChallengeInstance; }
 
 namespace RPG::Client::Challenge
 {
+	inline static constexpr unsigned int ChallengeMemoryEnvironmentHintViewModel_TypeDefinitionIndex = 81432;
+
 	class ChallengeMemoryEnvironmentHintViewModel : public ::RPG::Client::Challenge::ChallengeEnvironmentHintViewModelBase
 	{
 	public:

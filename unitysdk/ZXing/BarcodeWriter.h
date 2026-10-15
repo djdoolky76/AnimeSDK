@@ -5,6 +5,8 @@
 
 namespace ZXing
 {
+	inline static constexpr unsigned int BarcodeWriter_TypeDefinitionIndex = 6971;
+
 	class BarcodeWriter
 	{
 	public:

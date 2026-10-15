@@ -9,6 +9,8 @@ namespace System { class String; }
 #define ALEPDLNOEHE_UNRESOLVE_OFFSET UNITYSDK_OFFSET(0x15566520)
 #define ALEPDLNOEHE__RESOLVE_OFFSET UNITYSDK_OFFSET(0x15566400)
 
+inline static constexpr unsigned int ALEPDLNOEHE_TypeDefinitionIndex = 56525;
+
 	class ALEPDLNOEHE
 	{
 	public:

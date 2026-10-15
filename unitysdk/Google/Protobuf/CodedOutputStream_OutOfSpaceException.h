@@ -6,6 +6,8 @@
 
 namespace Google::Protobuf
 {
+	inline static constexpr unsigned int CodedOutputStream_OutOfSpaceException_TypeDefinitionIndex = 5370;
+
 	class CodedOutputStream_OutOfSpaceException : public ::System::IO::IOException
 	{
 	public:

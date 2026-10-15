@@ -6,6 +6,8 @@
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int ChannelDefine_TypeDefinitionIndex = 7574;
+
 	class ChannelDefine : public ::System::Object
 	{
 	public:

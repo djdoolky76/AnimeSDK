@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ShowRubbingUI; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ShowRubbingUI_TypeDefinitionIndex = 22172;
+
 	class ShowRubbingUI : public ::RPG::GameCore::TaskConfig
 	{
 	public:

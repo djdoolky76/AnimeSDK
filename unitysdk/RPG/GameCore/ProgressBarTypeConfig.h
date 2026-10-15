@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ProgressBarTypeConfig_TypeDefinitionIndex = 22735;
+
 	class ProgressBarTypeConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

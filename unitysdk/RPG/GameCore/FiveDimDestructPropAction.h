@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FiveDimDestructPropAction; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimDestructPropAction_TypeDefinitionIndex = 18674;
+
 	class FiveDimDestructPropAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
 	public:

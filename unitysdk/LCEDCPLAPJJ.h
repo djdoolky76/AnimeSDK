@@ -30,6 +30,8 @@ namespace System { class String; }
 #define LCEDCPLAPJJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E8E9060)
 #define LCEDCPLAPJJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E8E90C0)
 
+inline static constexpr unsigned int LCEDCPLAPJJ_TypeDefinitionIndex = 33854;
+
 	class LCEDCPLAPJJ : public ::System::Object
 	{
 	public:

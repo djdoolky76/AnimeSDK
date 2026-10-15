@@ -11,6 +11,8 @@ namespace RPG::Client::ChenLingBattle { class HandCard; }
 
 namespace RPG::Client::ChenLingBattle
 {
+	inline static constexpr unsigned int SoldierPromotion___c__DisplayClass6_0_TypeDefinitionIndex = 76376;
+
 	class SoldierPromotion___c__DisplayClass6_0 : public ::System::Object
 	{
 	public:

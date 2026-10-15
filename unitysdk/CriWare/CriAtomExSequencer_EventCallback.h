@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriAtomExSequencer_EventCallback_TypeDefinitionIndex = 39999;
+
 	class CriAtomExSequencer_EventCallback : public ::System::MulticastDelegate
 	{
 	public:

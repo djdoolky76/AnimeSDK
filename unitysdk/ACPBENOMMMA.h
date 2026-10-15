@@ -54,6 +54,8 @@ namespace UnityEngine { class Object; }
 #define ACPBENOMMMA_PCMCECHMICH_OFFSET UNITYSDK_OFFSET(0xB12F5D0)
 #define ACPBENOMMMA_TICK_OFFSET UNITYSDK_OFFSET(0xB12D860)
 
+inline static constexpr unsigned int ACPBENOMMMA_TypeDefinitionIndex = 58442;
+
 	class ACPBENOMMMA : public ::GELIALJDFBL
 	{
 	public:

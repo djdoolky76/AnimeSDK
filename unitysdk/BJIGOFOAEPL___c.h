@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define BJIGOFOAEPL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF47410)
 #define BJIGOFOAEPL___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1DF47420)
 
+inline static constexpr unsigned int BJIGOFOAEPL___c_TypeDefinitionIndex = 29285;
+
 	class BJIGOFOAEPL___c : public ::System::Object
 	{
 	public:

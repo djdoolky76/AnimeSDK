@@ -10,6 +10,8 @@ namespace System { class String; }
 #define AEOBCFPOIBP_CTOR_OFFSET UNITYSDK_OFFSET(0x1CCB37C0)
 #define AEOBCFPOIBP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CCB3590)
 
+inline static constexpr unsigned int AEOBCFPOIBP_TypeDefinitionIndex = 12008;
+
 	class AEOBCFPOIBP : public ::System::Object
 	{
 	public:

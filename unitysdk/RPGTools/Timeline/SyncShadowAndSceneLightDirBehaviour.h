@@ -11,6 +11,8 @@ namespace RPG::Client { class EnvironmentSystem; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int SyncShadowAndSceneLightDirBehaviour_TypeDefinitionIndex = 48347;
+
 	class SyncShadowAndSceneLightDirBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

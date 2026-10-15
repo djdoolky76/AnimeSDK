@@ -11,6 +11,8 @@ namespace RPG::GameCore { class GroupEntityDestroyConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvDestroyEntityAsync_TypeDefinitionIndex = 21228;
+
 	class AdvDestroyEntityAsync : public ::RPG::GameCore::TaskConfig
 	{
 	public:

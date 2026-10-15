@@ -61,6 +61,8 @@ namespace UnityEngine { class Shader; }
 #define FKFPKFPHBJO__SPAWNUICONTROLLER_B__24_0_OFFSET UNITYSDK_OFFSET(0x157F3520)
 #define FKFPKFPHBJO___CREATEVIDEOTEXTURE_B__22_0_OFFSET UNITYSDK_OFFSET(0x157F3510)
 
+inline static constexpr unsigned int FKFPKFPHBJO_TypeDefinitionIndex = 73215;
+
 	class FKFPKFPHBJO : public ::System::Object
 	{
 	public:

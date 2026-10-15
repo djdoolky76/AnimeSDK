@@ -27,6 +27,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define OIJJLGMLAHM_PJHJADDPLDM_OFFSET UNITYSDK_OFFSET(0xBE9F060)
 #define OIJJLGMLAHM_TICK_OFFSET UNITYSDK_OFFSET(0xBE9F720)
 
+inline static constexpr unsigned int OIJJLGMLAHM_TypeDefinitionIndex = 52454;
+
 	class OIJJLGMLAHM : public ::GELIALJDFBL
 	{
 	public:

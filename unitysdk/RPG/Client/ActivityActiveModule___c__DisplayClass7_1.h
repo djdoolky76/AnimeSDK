@@ -9,6 +9,8 @@ namespace RPG::Client { class ActiveActivityData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ActivityActiveModule___c__DisplayClass7_1_TypeDefinitionIndex = 61384;
+
 	template <typename T>
 	class ActivityActiveModule___c__DisplayClass7_1 : public ::System::Object
 	{

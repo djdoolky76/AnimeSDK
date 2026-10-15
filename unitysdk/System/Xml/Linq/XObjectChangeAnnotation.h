@@ -6,6 +6,8 @@ namespace System::Xml::Linq { class XObjectChangeEventArgs; }
 
 namespace System::Xml::Linq
 {
+	inline static constexpr unsigned int XObjectChangeAnnotation_TypeDefinitionIndex = 3887;
+
 	class XObjectChangeAnnotation : public ::System::Object
 	{
 	public:

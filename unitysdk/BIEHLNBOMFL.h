@@ -8,6 +8,8 @@ namespace RPG::GameCore { class TaskConfig; }
 #define BIEHLNBOMFL_CTOR_OFFSET UNITYSDK_OFFSET(0x1D807290)
 #define BIEHLNBOMFL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D807140)
 
+inline static constexpr unsigned int BIEHLNBOMFL_TypeDefinitionIndex = 19881;
+
 	class BIEHLNBOMFL : public ::RPG::GameCore::JsonConfig
 	{
 	public:

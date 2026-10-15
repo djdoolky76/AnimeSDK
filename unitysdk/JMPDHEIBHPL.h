@@ -10,6 +10,8 @@ class JMPDHEIBHPL;
 #define JMPDHEIBHPL_CTOR_OFFSET UNITYSDK_OFFSET(0xB274050)
 #define JMPDHEIBHPL_JJNFOPNOPBF_OFFSET UNITYSDK_OFFSET(0xB273E70)
 
+inline static constexpr unsigned int JMPDHEIBHPL_TypeDefinitionIndex = 77298;
+
 	class JMPDHEIBHPL : public ::System::Object
 	{
 	public:

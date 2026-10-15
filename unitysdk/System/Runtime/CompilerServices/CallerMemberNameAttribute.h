@@ -6,6 +6,8 @@
 
 namespace System::Runtime::CompilerServices
 {
+	inline static constexpr unsigned int CallerMemberNameAttribute_TypeDefinitionIndex = 1361;
+
 	class CallerMemberNameAttribute : public ::System::Attribute
 	{
 	public:

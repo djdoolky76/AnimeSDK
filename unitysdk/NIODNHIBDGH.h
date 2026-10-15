@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define NIODNHIBDGH_LOCK_OFFSET UNITYSDK_OFFSET(0xBC05700)
 #define NIODNHIBDGH_UNLOCK_OFFSET UNITYSDK_OFFSET(0xBC057F0)
 
+inline static constexpr unsigned int NIODNHIBDGH_TypeDefinitionIndex = 74786;
+
 	class NIODNHIBDGH : public ::RPG::Client::GamePlayLockTargetFunc
 	{
 	public:

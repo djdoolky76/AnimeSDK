@@ -15,6 +15,8 @@ namespace System::IO { class BinaryWriter; }
 
 namespace Hdg
 {
+	inline static constexpr unsigned int rdtSerializerMesh_TypeDefinitionIndex = 46963;
+
 	class rdtSerializerMesh : public ::System::Object
 	{
 	public:

@@ -15,6 +15,8 @@ namespace System { class String; }
 #define AKLOGGER_WARNING_OFFSET UNITYSDK_OFFSET(0x1F59D090)
 #define AKLOGGER_WWISEINTERNALLOGERROR_OFFSET UNITYSDK_OFFSET(0x1F59CA10)
 
+inline static constexpr unsigned int AkLogger_TypeDefinitionIndex = 44846;
+
 	class AkLogger : public ::System::Object
 	{
 	public:

@@ -43,6 +43,8 @@ namespace System { class String; }
 
 namespace Proto
 {
+	inline static constexpr unsigned int MonopolyActionResult_TypeDefinitionIndex = 31093;
+
 	class MonopolyActionResult : public ::System::Object
 	{
 	public:

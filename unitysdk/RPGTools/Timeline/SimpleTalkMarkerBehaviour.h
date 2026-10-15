@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int SimpleTalkMarkerBehaviour_TypeDefinitionIndex = 48230;
+
 	class SimpleTalkMarkerBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

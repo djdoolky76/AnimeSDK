@@ -13,6 +13,8 @@ namespace UnityEngine::Timeline { class TimelineClip; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int NpcPossessionTrack_TypeDefinitionIndex = 48213;
+
 	class NpcPossessionTrack : public ::RPGTools::Timeline::CharacterTrack
 	{
 	public:

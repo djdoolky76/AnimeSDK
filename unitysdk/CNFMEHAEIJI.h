@@ -25,6 +25,8 @@ namespace System { class String; }
 #define CNFMEHAEIJI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E108A60)
 #define CNFMEHAEIJI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E108AC0)
 
+inline static constexpr unsigned int CNFMEHAEIJI_TypeDefinitionIndex = 27890;
+
 	class CNFMEHAEIJI : public ::System::Object
 	{
 	public:

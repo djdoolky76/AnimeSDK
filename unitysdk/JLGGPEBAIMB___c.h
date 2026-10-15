@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define JLGGPEBAIMB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E778520)
 #define JLGGPEBAIMB___C___CCTOR_B__43_0_OFFSET UNITYSDK_OFFSET(0x1E778530)
 
+inline static constexpr unsigned int JLGGPEBAIMB___c_TypeDefinitionIndex = 26059;
+
 	class JLGGPEBAIMB___c : public ::System::Object
 	{
 	public:

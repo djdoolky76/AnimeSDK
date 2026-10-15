@@ -8,6 +8,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::ParkourGame
 {
+	inline static constexpr unsigned int MonoParkourRoadMap_TypeDefinitionIndex = 74166;
+
 	class MonoParkourRoadMap : public ::UnityEngine::MonoBehaviour
 	{
 	public:

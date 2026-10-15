@@ -11,6 +11,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdventurePlayerOnStageByStory_TypeDefinitionIndex = 56613;
+
 	class AdventurePlayerOnStageByStory : public ::System::Object
 	{
 	public:

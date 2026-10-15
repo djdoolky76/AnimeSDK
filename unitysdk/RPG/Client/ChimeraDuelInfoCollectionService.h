@@ -41,6 +41,8 @@ namespace RPG::Client { class ChimeraDuelSkillInfo; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChimeraDuelInfoCollectionService_TypeDefinitionIndex = 63395;
+
 	class ChimeraDuelInfoCollectionService : public ::System::Object
 	{
 	public:

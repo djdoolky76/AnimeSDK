@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int OnlinePlayRoomFriendInviteContextBase___c__DisplayClass0_0_TypeDefinitionIndex = 66395;
+
 	class OnlinePlayRoomFriendInviteContextBase___c__DisplayClass0_0 : public ::System::Object
 	{
 	public:

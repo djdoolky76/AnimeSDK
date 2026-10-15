@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PetMarbleSpecialTalkNotify_TypeDefinitionIndex = 65830;
+
 	class PetMarbleSpecialTalkNotify : public ::System::Object
 	{
 	public:

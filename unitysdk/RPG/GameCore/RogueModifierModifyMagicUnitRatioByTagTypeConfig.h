@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierModifyMagicUnitRatioByTagTypeConfig
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierModifyMagicUnitRatioByTagTypeConfig_TypeDefinitionIndex = 17738;
+
 	class RogueModifierModifyMagicUnitRatioByTagTypeConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

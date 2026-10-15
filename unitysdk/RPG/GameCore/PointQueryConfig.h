@@ -11,6 +11,8 @@ namespace RPG::GameCore { class PointQueryConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PointQueryConfig_TypeDefinitionIndex = 15624;
+
 	class PointQueryConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -6,6 +6,8 @@
 
 namespace MiHoYo::SDK::Protobuf
 {
+	inline static constexpr unsigned int ByteArray_TypeDefinitionIndex = 35709;
+
 	class ByteArray : public ::System::Object
 	{
 	public:

@@ -17,6 +17,8 @@ namespace System { class String; }
 #define MDAHOGDFJIG_PNJLKONAPKG_OFFSET UNITYSDK_OFFSET(0xB88EF50)
 #define MDAHOGDFJIG_TEARDOWN_OFFSET UNITYSDK_OFFSET(0xB88E6F0)
 
+inline static constexpr unsigned int MDAHOGDFJIG_TypeDefinitionIndex = 75930;
+
 	class MDAHOGDFJIG : public ::System::Object
 	{
 	public:

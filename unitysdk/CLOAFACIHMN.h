@@ -12,6 +12,8 @@ namespace System { class Object; }
 #define CLOAFACIHMN_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xDA1E4C0)
 #define CLOAFACIHMN_INVOKE_OFFSET UNITYSDK_OFFSET(0xDA1E470)
 
+inline static constexpr unsigned int CLOAFACIHMN_TypeDefinitionIndex = 62028;
+
 	class CLOAFACIHMN : public ::System::MulticastDelegate
 	{
 	public:

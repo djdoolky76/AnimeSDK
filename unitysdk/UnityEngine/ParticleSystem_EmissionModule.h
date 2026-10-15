@@ -40,6 +40,8 @@ namespace UnityEngine { class ParticleSystem; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int ParticleSystem_EmissionModule_TypeDefinitionIndex = 5209;
+
 	struct alignas(8) ParticleSystem_EmissionModule
 	{
 		::UnityEngine::ParticleSystem* m_ParticleSystem; // 0x10

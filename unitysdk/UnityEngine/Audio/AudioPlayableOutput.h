@@ -19,6 +19,8 @@ namespace UnityEngine { class AudioSource; }
 
 namespace UnityEngine::Audio
 {
+	inline static constexpr unsigned int AudioPlayableOutput_TypeDefinitionIndex = 5154;
+
 	struct alignas(4) AudioPlayableOutput
 	{
 		::UnityEngine::Playables::PlayableOutputHandle m_Handle; // 0x10

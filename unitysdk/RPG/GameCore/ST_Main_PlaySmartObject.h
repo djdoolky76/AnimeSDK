@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ST_Main_PlaySmartObject; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ST_Main_PlaySmartObject_TypeDefinitionIndex = 20114;
+
 	class ST_Main_PlaySmartObject : public ::RPG::GameCore::STTaskConfig
 	{
 	public:

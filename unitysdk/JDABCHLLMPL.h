@@ -6,6 +6,8 @@ namespace UnityEngine { class Transform; }
 #define JDABCHLLMPL_CLEAR_OFFSET UNITYSDK_OFFSET(0x1CB8F220)
 #define JDABCHLLMPL_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB8F270)
 
+inline static constexpr unsigned int JDABCHLLMPL_TypeDefinitionIndex = 42963;
+
 	class JDABCHLLMPL : public ::System::Object
 	{
 	public:

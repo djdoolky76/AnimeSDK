@@ -12,6 +12,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MapOnlinePlayRoomIconPositionController_TypeDefinitionIndex = 72810;
+
 	class MapOnlinePlayRoomIconPositionController : public ::UnityEngine::MonoBehaviour
 	{
 	public:

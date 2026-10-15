@@ -6,6 +6,8 @@
 #define NNEDFJMPCCK_CTOR_OFFSET UNITYSDK_OFFSET(0xBCA0600)
 #define NNEDFJMPCCK_DNFGFHMNDEF_OFFSET UNITYSDK_OFFSET(0xBCA0710)
 
+inline static constexpr unsigned int NNEDFJMPCCK_TypeDefinitionIndex = 47754;
+
 	class NNEDFJMPCCK : public ::System::Object
 	{
 	public:

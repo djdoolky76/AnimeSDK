@@ -3,6 +3,8 @@
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int EVRFirmwareError_TypeDefinitionIndex = 39235;
+
 	enum class EVRFirmwareError : ::System::Int32
 	{
 		None = 0,

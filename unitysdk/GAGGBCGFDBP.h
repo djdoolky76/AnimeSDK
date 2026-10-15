@@ -13,6 +13,8 @@ namespace UnityEngine::UI { class Image; }
 #define GAGGBCGFDBP_PFJDLLGFCOD_OFFSET UNITYSDK_OFFSET(0x1593A290)
 #define GAGGBCGFDBP__ONBIND_OFFSET UNITYSDK_OFFSET(0x1593A190)
 
+inline static constexpr unsigned int GAGGBCGFDBP_TypeDefinitionIndex = 71700;
+
 	class GAGGBCGFDBP : public ::DIELGJIPJDM
 	{
 	public:

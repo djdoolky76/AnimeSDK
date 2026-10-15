@@ -25,6 +25,8 @@ namespace UnityEngine::UI { class Toggle; }
 
 namespace UnityEngine::UI
 {
+	inline static constexpr unsigned int Dropdown_DropdownItem_TypeDefinitionIndex = 6708;
+
 	class Dropdown_DropdownItem : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -14,6 +14,8 @@ namespace System::Diagnostics::Tracing { class TplEtwProvider; }
 
 namespace System::Diagnostics::Tracing
 {
+	inline static constexpr unsigned int TplEtwProvider_TypeDefinitionIndex = 1676;
+
 	class TplEtwProvider : public ::System::Diagnostics::Tracing::EventSource
 	{
 	public:

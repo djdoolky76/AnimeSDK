@@ -10,6 +10,8 @@ namespace RPG::Client { class GridFightUnlockTraitMember; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightPlayer___c__DisplayClass31_0_TypeDefinitionIndex = 65074;
+
 	class GridFightPlayer___c__DisplayClass31_0 : public ::System::Object
 	{
 	public:

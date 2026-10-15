@@ -11,6 +11,8 @@ namespace System { class Object; }
 #define OJHMEHAHDNI___C___REQUESTSTARTMATCHANDBEGIN_B__16_1_OFFSET UNITYSDK_OFFSET(0xBEB9EB0)
 #define OJHMEHAHDNI___C___REQUESTSTARTMATCHANDBEGIN_B__16_3_OFFSET UNITYSDK_OFFSET(0xBEB9E40)
 
+inline static constexpr unsigned int OJHMEHAHDNI___c_TypeDefinitionIndex = 81731;
+
 	class OJHMEHAHDNI___c : public ::System::Object
 	{
 	public:

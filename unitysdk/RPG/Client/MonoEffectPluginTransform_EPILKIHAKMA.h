@@ -6,6 +6,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEffectPluginTransform_EPILKIHAKMA_TypeDefinitionIndex = 70128;
+
 	struct alignas(8) MonoEffectPluginTransform_EPILKIHAKMA
 	{
 		::UnityEngine::Transform* BKLBJFJHOLF; // 0x10

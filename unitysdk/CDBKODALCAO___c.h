@@ -9,6 +9,8 @@ namespace System { class Object; }
 #define CDBKODALCAO___C_CTOR_OFFSET UNITYSDK_OFFSET(0xC760B30)
 #define CDBKODALCAO___C___SETUPAREA2TEAM_B__9_0_OFFSET UNITYSDK_OFFSET(0xC760B40)
 
+inline static constexpr unsigned int CDBKODALCAO___c_TypeDefinitionIndex = 56241;
+
 	class CDBKODALCAO___c : public ::System::Object
 	{
 	public:

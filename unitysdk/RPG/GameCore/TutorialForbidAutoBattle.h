@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TutorialForbidAutoBattle; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TutorialForbidAutoBattle_TypeDefinitionIndex = 24322;
+
 	class TutorialForbidAutoBattle : public ::RPG::GameCore::TaskConfig
 	{
 	public:

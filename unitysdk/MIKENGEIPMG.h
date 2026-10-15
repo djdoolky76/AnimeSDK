@@ -7,6 +7,8 @@
 #define MIKENGEIPMG_LDAMHBBILAD_OFFSET UNITYSDK_OFFSET(0x3C360F0)
 #define MIKENGEIPMG_LKEFCMNJDJI_OFFSET UNITYSDK_OFFSET(0xE620)
 
+inline static constexpr unsigned int MIKENGEIPMG_TypeDefinitionIndex = 43854;
+
 	struct alignas(4) MIKENGEIPMG
 	{
 		::System::Int32 KEEBPHBMONO; // 0x10

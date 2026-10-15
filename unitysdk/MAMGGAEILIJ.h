@@ -7,6 +7,8 @@ namespace RPG::Client::Prop { class ChimeraDuelBubbleEvent; }
 #define MAMGGAEILIJ_CTOR_OFFSET UNITYSDK_OFFSET(0xB852FE0)
 #define MAMGGAEILIJ_KJHBJNJEHHN_OFFSET UNITYSDK_OFFSET(0xB852F80)
 
+inline static constexpr unsigned int MAMGGAEILIJ_TypeDefinitionIndex = 78284;
+
 	class MAMGGAEILIJ : public ::System::Object
 	{
 	public:

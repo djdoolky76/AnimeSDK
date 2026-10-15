@@ -8,6 +8,8 @@ class NJKFOJJDGGG;
 #define OMLCKBHONFL_OPDDNPDNDNN_OFFSET UNITYSDK_OFFSET(0xBF31390)
 #define OMLCKBHONFL_UPDATE_OFFSET UNITYSDK_OFFSET(0xBF312A0)
 
+inline static constexpr unsigned int OMLCKBHONFL_TypeDefinitionIndex = 65008;
+
 	class OMLCKBHONFL : public ::RPG::Client::GridFightGameModifier
 	{
 	public:

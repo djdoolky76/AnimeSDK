@@ -39,6 +39,8 @@ namespace UnityEngine { class Transform; }
 
 namespace TMPro
 {
+	inline static constexpr unsigned int TMP_TextUtilities_TypeDefinitionIndex = 44671;
+
 	class TMP_TextUtilities : public ::System::Object
 	{
 	public:

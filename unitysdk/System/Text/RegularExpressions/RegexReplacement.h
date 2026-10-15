@@ -21,6 +21,8 @@ namespace System::Text::RegularExpressions { class RegexNode; }
 
 namespace System::Text::RegularExpressions
 {
+	inline static constexpr unsigned int RegexReplacement_TypeDefinitionIndex = 2526;
+
 	class RegexReplacement : public ::System::Object
 	{
 	public:

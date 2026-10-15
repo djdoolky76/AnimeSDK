@@ -16,6 +16,8 @@ namespace System::Threading { class WaitHandle; }
 
 namespace System::IO
 {
+	inline static constexpr unsigned int FileStreamAsyncResult_TypeDefinitionIndex = 720;
+
 	class FileStreamAsyncResult : public ::System::Object
 	{
 	public:

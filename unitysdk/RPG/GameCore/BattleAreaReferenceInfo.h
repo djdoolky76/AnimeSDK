@@ -9,6 +9,8 @@ namespace RPG::GameCore { class BattleAreaReferenceInfo; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BattleAreaReferenceInfo_TypeDefinitionIndex = 17234;
+
 	class BattleAreaReferenceInfo : public ::RPG::GameCore::JsonConfig
 	{
 	public:

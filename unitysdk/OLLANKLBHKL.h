@@ -10,6 +10,8 @@ namespace RPG::GameCore { class IdleLiveSpineCLTriggerRow; }
 #define OLLANKLBHKL_FHAJCNDEOII_OFFSET UNITYSDK_OFFSET(0xBF0FC50)
 #define OLLANKLBHKL_LKGAKJJNFAF_OFFSET UNITYSDK_OFFSET(0xBF0F970)
 
+inline static constexpr unsigned int OLLANKLBHKL_TypeDefinitionIndex = 75342;
+
 	class OLLANKLBHKL : public ::System::Object
 	{
 	public:

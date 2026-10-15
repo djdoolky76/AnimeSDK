@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace System
 {
+	inline static constexpr unsigned int AppContextDefaultValues_TypeDefinitionIndex = 367;
+
 	class AppContextDefaultValues : public ::System::Object
 	{
 	public:

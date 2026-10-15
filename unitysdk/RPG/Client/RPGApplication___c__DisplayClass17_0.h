@@ -9,6 +9,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RPGApplication___c__DisplayClass17_0_TypeDefinitionIndex = 69494;
+
 	class RPGApplication___c__DisplayClass17_0 : public ::System::Object
 	{
 	public:

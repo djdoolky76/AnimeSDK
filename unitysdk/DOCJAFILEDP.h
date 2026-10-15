@@ -14,6 +14,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define DOCJAFILEDP_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x11FDF5D0)
 #define DOCJAFILEDP_TICK_OFFSET UNITYSDK_OFFSET(0x11FDF690)
 
+inline static constexpr unsigned int DOCJAFILEDP_TypeDefinitionIndex = 52887;
+
 	class DOCJAFILEDP : public ::GELIALJDFBL
 	{
 	public:

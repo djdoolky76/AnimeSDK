@@ -60,6 +60,8 @@ namespace System::Threading { class Thread; }
 
 namespace System::Threading
 {
+	inline static constexpr unsigned int ExecutionContext_TypeDefinitionIndex = 831;
+
 	class ExecutionContext : public ::System::Object
 	{
 	public:

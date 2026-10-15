@@ -10,6 +10,8 @@ namespace RPG::Client { class BezierCurve; }
 
 namespace RPG::Client::ElectricChainV2
 {
+	inline static constexpr unsigned int Curve_TypeDefinitionIndex = 73603;
+
 	class Curve : public ::RPG::Client::ElectricChainV2::Line
 	{
 	public:

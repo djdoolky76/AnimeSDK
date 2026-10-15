@@ -13,6 +13,8 @@ namespace System { class Object; }
 #define JHMMEAEIACD_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB1BF730)
 #define JHMMEAEIACD_TICK_OFFSET UNITYSDK_OFFSET(0xB1BF0C0)
 
+inline static constexpr unsigned int JHMMEAEIACD_TypeDefinitionIndex = 53308;
+
 	class JHMMEAEIACD : public ::GELIALJDFBL
 	{
 	public:

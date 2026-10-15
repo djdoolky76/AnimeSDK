@@ -11,6 +11,8 @@ namespace RPG::GameCore { class PerformanceSortedItem; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PerformanceSortedItem_TypeDefinitionIndex = 19035;
+
 	class PerformanceSortedItem : public ::RPG::GameCore::JsonConfig
 	{
 	public:

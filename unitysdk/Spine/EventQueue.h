@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace Spine
 {
+	inline static constexpr unsigned int EventQueue_TypeDefinitionIndex = 39632;
+
 	class EventQueue : public ::System::Object
 	{
 	public:

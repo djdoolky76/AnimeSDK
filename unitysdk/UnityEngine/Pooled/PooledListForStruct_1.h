@@ -6,6 +6,8 @@ namespace UnityEngine::Buffers { template <typename T> class ArrayPool_1; }
 
 namespace UnityEngine::Pooled
 {
+	inline static constexpr unsigned int PooledListForStruct_1_TypeDefinitionIndex = 4533;
+
 	template <typename T>
 	class PooledListForStruct_1 : public ::System::Object
 	{

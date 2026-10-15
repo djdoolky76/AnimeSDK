@@ -9,6 +9,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define MHBLBACLBKC_ONSKIP_OFFSET UNITYSDK_OFFSET(0xB92FB80)
 #define MHBLBACLBKC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB92FD40)
 
+inline static constexpr unsigned int MHBLBACLBKC_TypeDefinitionIndex = 58138;
+
 	class MHBLBACLBKC
 	{
 	public:

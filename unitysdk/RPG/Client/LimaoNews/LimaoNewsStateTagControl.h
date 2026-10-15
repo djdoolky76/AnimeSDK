@@ -10,6 +10,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::LimaoNews
 {
+	inline static constexpr unsigned int LimaoNewsStateTagControl_TypeDefinitionIndex = 80361;
+
 	class LimaoNewsStateTagControl : public ::Sofa::BaseSofaControl
 	{
 	public:

@@ -24,6 +24,8 @@ namespace System { class String; }
 #define HBFIBDGJLHE_PIGAJCIPFKI_SET_RULES_OFFSET UNITYSDK_OFFSET(0x15C028F0)
 #define HBFIBDGJLHE_PIGAJCIPFKI_SET_TIMETABLE_OFFSET UNITYSDK_OFFSET(0x15C02870)
 
+inline static constexpr unsigned int HBFIBDGJLHE_PIGAJCIPFKI_TypeDefinitionIndex = 82188;
+
 	class HBFIBDGJLHE_PIGAJCIPFKI : public ::System::Object
 	{
 	public:

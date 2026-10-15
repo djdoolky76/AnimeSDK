@@ -6,6 +6,8 @@ namespace RPG::Client { class UIDragSource; }
 #define JIOKCADHOMF_CTOR_OFFSET UNITYSDK_OFFSET(0xB1FFB30)
 #define JIOKCADHOMF_GET_SOURCE_OFFSET UNITYSDK_OFFSET(0xB1FFB20)
 
+inline static constexpr unsigned int JIOKCADHOMF_TypeDefinitionIndex = 73063;
+
 	class JIOKCADHOMF : public ::System::Object
 	{
 	public:

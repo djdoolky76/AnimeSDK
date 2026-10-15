@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ArtNPCPedestrianAssetConfig_FeatureData_TypeDefinitionIndex = 69230;
+
 	class ArtNPCPedestrianAssetConfig_FeatureData : public ::System::Object
 	{
 	public:

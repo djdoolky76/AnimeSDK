@@ -24,6 +24,8 @@ namespace UnityEngine { class Transform; }
 #define GGKNNIIBMLH_NCBFNCPFNKD_OFFSET UNITYSDK_OFFSET(0x15A0DA70)
 #define GGKNNIIBMLH_PEAHFADCIKA_OFFSET UNITYSDK_OFFSET(0x15A0DAE0)
 
+inline static constexpr unsigned int GGKNNIIBMLH_TypeDefinitionIndex = 73654;
+
 	class GGKNNIIBMLH : public ::System::Object
 	{
 	public:

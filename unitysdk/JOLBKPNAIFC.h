@@ -4,6 +4,8 @@
 
 #define JOLBKPNAIFC_CTOR_OFFSET UNITYSDK_OFFSET(0x1CBA7D00)
 
+inline static constexpr unsigned int JOLBKPNAIFC_TypeDefinitionIndex = 41936;
+
 	class JOLBKPNAIFC : public ::System::Object
 	{
 	public:

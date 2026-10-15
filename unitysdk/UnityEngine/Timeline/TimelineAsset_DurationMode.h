@@ -3,6 +3,8 @@
 
 namespace UnityEngine::Timeline
 {
+	inline static constexpr unsigned int TimelineAsset_DurationMode_TypeDefinitionIndex = 38793;
+
 	enum class TimelineAsset_DurationMode : ::System::Int32
 	{
 		BasedOnClips = 0,

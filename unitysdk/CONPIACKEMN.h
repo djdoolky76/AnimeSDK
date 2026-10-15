@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define CONPIACKEMN_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1DCBBAE0)
 #define CONPIACKEMN_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1DCBB440)
 
+inline static constexpr unsigned int CONPIACKEMN_TypeDefinitionIndex = 13762;
+
 	class CONPIACKEMN : public ::System::Object
 	{
 	public:

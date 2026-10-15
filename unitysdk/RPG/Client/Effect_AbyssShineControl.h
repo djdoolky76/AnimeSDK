@@ -14,6 +14,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Effect_AbyssShineControl_TypeDefinitionIndex = 70424;
+
 	class Effect_AbyssShineControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

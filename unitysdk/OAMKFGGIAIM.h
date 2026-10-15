@@ -9,6 +9,8 @@ namespace System { class String; }
 #define OAMKFGGIAIM_CTOR_OFFSET UNITYSDK_OFFSET(0x1D24CBD0)
 #define OAMKFGGIAIM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D24C980)
 
+inline static constexpr unsigned int OAMKFGGIAIM_TypeDefinitionIndex = 11286;
+
 	class OAMKFGGIAIM : public ::System::Object
 	{
 	public:

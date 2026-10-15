@@ -13,6 +13,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByPlayerGravityOppositeToCurrentSurface_TypeDefinitionIndex = 21430;
+
 	class ByPlayerGravityOppositeToCurrentSurface : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

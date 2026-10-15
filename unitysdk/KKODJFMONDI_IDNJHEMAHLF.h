@@ -1,6 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
+inline static constexpr unsigned int KKODJFMONDI_IDNJHEMAHLF_TypeDefinitionIndex = 10744;
+
 	struct alignas(4) KKODJFMONDI_IDNJHEMAHLF
 	{
 		::System::UInt32 MJMEEOIEMMM; // 0x10

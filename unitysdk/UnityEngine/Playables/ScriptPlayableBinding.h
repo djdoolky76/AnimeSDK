@@ -13,6 +13,8 @@ namespace UnityEngine { class Object; }
 
 namespace UnityEngine::Playables
 {
+	inline static constexpr unsigned int ScriptPlayableBinding_TypeDefinitionIndex = 4927;
+
 	class ScriptPlayableBinding : public ::System::Object
 	{
 	public:

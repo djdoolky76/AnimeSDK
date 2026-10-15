@@ -3,6 +3,8 @@
 
 namespace Spine::Unity
 {
+	inline static constexpr unsigned int SkeletonUtilityBone_UpdatePhase_TypeDefinitionIndex = 45064;
+
 	enum class SkeletonUtilityBone_UpdatePhase : ::System::Int32
 	{
 		Local = 0,

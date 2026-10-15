@@ -10,6 +10,8 @@ namespace RPG::GameCore { class StaminaItemConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StaminaItemConfigRow_TypeDefinitionIndex = 14506;
+
 	class StaminaItemConfigRow : public ::System::Object
 	{
 	public:

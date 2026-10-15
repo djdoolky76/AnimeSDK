@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ConsumeMissionItemPerformance_TypeDefinitionIndex = 20448;
+
 	class ConsumeMissionItemPerformance : public ::RPG::GameCore::TaskConfig
 	{
 	public:

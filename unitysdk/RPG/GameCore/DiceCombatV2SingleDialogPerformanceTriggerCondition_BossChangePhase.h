@@ -10,6 +10,8 @@ namespace RPG::GameCore { class DiceCombatV2SingleDialogPerformanceTriggerCondit
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DiceCombatV2SingleDialogPerformanceTriggerCondition_BossChangePhase_TypeDefinitionIndex = 16182;
+
 	class DiceCombatV2SingleDialogPerformanceTriggerCondition_BossChangePhase : public ::RPG::GameCore::DiceCombatV2SingleDialogPerformanceTriggerCondition
 	{
 	public:

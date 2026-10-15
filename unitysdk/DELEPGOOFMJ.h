@@ -17,6 +17,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define DELEPGOOFMJ_JDOGKEBJJGH_OFFSET UNITYSDK_OFFSET(0xE518390)
 #define DELEPGOOFMJ_OAFJBBAIINE_OFFSET UNITYSDK_OFFSET(0xE5182F0)
 
+inline static constexpr unsigned int DELEPGOOFMJ_TypeDefinitionIndex = 49290;
+
 	class DELEPGOOFMJ : public ::System::Object
 	{
 	public:

@@ -4,6 +4,8 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int MonoPushDownObject_MotionCurve_TypeDefinitionIndex = 78688;
+
 	struct alignas(8) MonoPushDownObject_MotionCurve
 	{
 		::UnityEngine::AnimationCurve* curve; // 0x10

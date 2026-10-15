@@ -10,6 +10,8 @@ namespace RPG::GameCore { class PetPartyPlayerNotMovingCondition; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PetPartyPlayerNotMovingCondition_TypeDefinitionIndex = 17545;
+
 	class PetPartyPlayerNotMovingCondition : public ::RPG::GameCore::PetPartyInteractionCondition
 	{
 	public:

@@ -13,6 +13,8 @@ namespace UnityEngine { class Object; }
 
 namespace EnviromentSystem
 {
+	inline static constexpr unsigned int EnviroAssetProperty___c__DisplayClass10_0_TypeDefinitionIndex = 49617;
+
 	class EnviroAssetProperty___c__DisplayClass10_0 : public ::System::Object
 	{
 	public:

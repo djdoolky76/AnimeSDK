@@ -9,6 +9,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define BOICECEGGFP_GHIFMGPKFPF_OFFSET UNITYSDK_OFFSET(0xC1915E0)
 #define BOICECEGGFP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC191450)
 
+inline static constexpr unsigned int BOICECEGGFP_TypeDefinitionIndex = 52677;
+
 	class BOICECEGGFP
 	{
 	public:

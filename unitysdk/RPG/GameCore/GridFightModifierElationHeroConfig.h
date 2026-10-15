@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightModifierElationHeroConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightModifierElationHeroConfig_TypeDefinitionIndex = 19480;
+
 	class GridFightModifierElationHeroConfig : public ::RPG::GameCore::GridFightModifierConfigBase
 	{
 	public:

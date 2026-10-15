@@ -8,6 +8,8 @@ class LNMKBIJDEJK;
 #define LNMKBIJDEJK_CTOR_OFFSET UNITYSDK_OFFSET(0x1D11EB20)
 #define LNMKBIJDEJK_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D11E9A0)
 
+inline static constexpr unsigned int LNMKBIJDEJK_TypeDefinitionIndex = 13907;
+
 	class LNMKBIJDEJK : public ::System::Object
 	{
 	public:

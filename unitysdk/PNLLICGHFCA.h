@@ -31,6 +31,8 @@ namespace System { class String; }
 #define PNLLICGHFCA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DFBDD90)
 #define PNLLICGHFCA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DFBDDF0)
 
+inline static constexpr unsigned int PNLLICGHFCA_TypeDefinitionIndex = 31223;
+
 	class PNLLICGHFCA : public ::System::Object
 	{
 	public:

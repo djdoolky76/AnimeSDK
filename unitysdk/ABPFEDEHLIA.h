@@ -39,6 +39,8 @@ namespace System { class String; }
 #define ABPFEDEHLIA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DDD3040)
 #define ABPFEDEHLIA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DDD30A0)
 
+inline static constexpr unsigned int ABPFEDEHLIA_TypeDefinitionIndex = 34143;
+
 	class ABPFEDEHLIA : public ::System::Object
 	{
 	public:

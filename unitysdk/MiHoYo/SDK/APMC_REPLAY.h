@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int APMC_REPLAY_TypeDefinitionIndex = 46494;
+
 	class APMC_REPLAY : public ::System::Object
 	{
 	public:

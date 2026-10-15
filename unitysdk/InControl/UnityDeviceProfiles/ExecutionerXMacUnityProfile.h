@@ -7,6 +7,8 @@
 
 namespace InControl::UnityDeviceProfiles
 {
+	inline static constexpr unsigned int ExecutionerXMacUnityProfile_TypeDefinitionIndex = 41013;
+
 	class ExecutionerXMacUnityProfile : public ::InControl::InputDeviceProfile
 	{
 	public:

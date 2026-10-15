@@ -28,6 +28,8 @@ namespace System { class String; }
 #define CBONHEMLCJG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E0715E0)
 #define CBONHEMLCJG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E071640)
 
+inline static constexpr unsigned int CBONHEMLCJG_TypeDefinitionIndex = 34437;
+
 	class CBONHEMLCJG : public ::System::Object
 	{
 	public:

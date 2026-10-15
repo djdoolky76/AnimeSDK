@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ProceduralUIImage_TypeDefinitionIndex = 72707;
+
 	class ProceduralUIImage : public ::RPG::Client::UIProceduralShape
 	{
 	public:

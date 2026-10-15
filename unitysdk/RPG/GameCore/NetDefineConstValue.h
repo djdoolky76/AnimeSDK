@@ -9,6 +9,8 @@ namespace RPG::GameCore { class NetDefineConstValue; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int NetDefineConstValue_TypeDefinitionIndex = 19036;
+
 	class NetDefineConstValue : public ::RPG::GameCore::JsonConfig
 	{
 	public:

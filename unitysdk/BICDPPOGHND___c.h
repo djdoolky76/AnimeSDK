@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define BICDPPOGHND___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DE00580)
 #define BICDPPOGHND___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1DE00590)
 
+inline static constexpr unsigned int BICDPPOGHND___c_TypeDefinitionIndex = 32361;
+
 	class BICDPPOGHND___c : public ::System::Object
 	{
 	public:

@@ -38,6 +38,8 @@ namespace UnityEngine::UI { class Image; }
 #define FFGJDKEIJIE_ONRETURN_OFFSET UNITYSDK_OFFSET(0x1573B170)
 #define FFGJDKEIJIE__ONBIND_OFFSET UNITYSDK_OFFSET(0x15739D90)
 
+inline static constexpr unsigned int FFGJDKEIJIE_TypeDefinitionIndex = 71937;
+
 	class FFGJDKEIJIE : public ::FMPCODLIOLG
 	{
 	public:

@@ -29,6 +29,8 @@ namespace System { class String; }
 #define FLIPLAHLMKM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E3BCE60)
 #define FLIPLAHLMKM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E3BCEC0)
 
+inline static constexpr unsigned int FLIPLAHLMKM_TypeDefinitionIndex = 28343;
+
 	class FLIPLAHLMKM : public ::System::Object
 	{
 	public:

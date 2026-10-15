@@ -7,6 +7,8 @@ namespace UnityEngine { class Transform; }
 #define BAKBPIPEAOC_CDKBKBNJMEH_OFFSET UNITYSDK_OFFSET(0x15E71170)
 #define BAKBPIPEAOC_CTOR_OFFSET UNITYSDK_OFFSET(0x15E71130)
 
+inline static constexpr unsigned int BAKBPIPEAOC_TypeDefinitionIndex = 68899;
+
 	class BAKBPIPEAOC : public ::System::Object
 	{
 	public:

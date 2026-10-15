@@ -10,6 +10,8 @@ namespace RPG::GameCore { class SetAvatarDetachableEnable; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetAvatarDetachableEnable_TypeDefinitionIndex = 20760;
+
 	class SetAvatarDetachableEnable : public ::RPG::GameCore::TaskConfig
 	{
 	public:

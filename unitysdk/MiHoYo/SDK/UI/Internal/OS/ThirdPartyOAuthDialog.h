@@ -16,6 +16,8 @@ namespace System { class Action; }
 
 namespace MiHoYo::SDK::UI::Internal::OS
 {
+	inline static constexpr unsigned int ThirdPartyOAuthDialog_TypeDefinitionIndex = 8441;
+
 	class ThirdPartyOAuthDialog : public ::System::Object
 	{
 	public:

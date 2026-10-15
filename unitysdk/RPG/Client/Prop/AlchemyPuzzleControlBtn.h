@@ -7,6 +7,8 @@
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int AlchemyPuzzleControlBtn_TypeDefinitionIndex = 78208;
+
 	class AlchemyPuzzleControlBtn : public ::UnityEngine::MonoBehaviour
 	{
 	public:

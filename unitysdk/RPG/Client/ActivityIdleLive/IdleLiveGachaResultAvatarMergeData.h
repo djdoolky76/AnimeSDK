@@ -25,6 +25,8 @@ namespace RPG::Client::ActivityIdleLive { class IdleLiveGachaResultAvatarMergeDa
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int IdleLiveGachaResultAvatarMergeData_TypeDefinitionIndex = 75259;
+
 	class IdleLiveGachaResultAvatarMergeData : public ::System::Object
 	{
 	public:

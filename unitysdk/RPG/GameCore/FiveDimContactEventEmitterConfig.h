@@ -11,6 +11,8 @@ namespace RPG::GameCore { class LittleGameEvent; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimContactEventEmitterConfig_TypeDefinitionIndex = 18640;
+
 	class FiveDimContactEventEmitterConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
 	public:

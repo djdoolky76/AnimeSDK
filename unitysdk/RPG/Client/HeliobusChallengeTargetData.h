@@ -9,6 +9,8 @@ namespace RPG::GameCore { class BattleTargetConfigRow; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int HeliobusChallengeTargetData_TypeDefinitionIndex = 65661;
+
 	class HeliobusChallengeTargetData : public ::System::Object
 	{
 	public:

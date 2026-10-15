@@ -7,6 +7,8 @@ class BKHHFIJCHEP;
 #define NDNBMAEMOEC_CTOR_OFFSET UNITYSDK_OFFSET(0xBB53110)
 #define NDNBMAEMOEC_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0xBB53120)
 
+inline static constexpr unsigned int NDNBMAEMOEC_TypeDefinitionIndex = 60347;
+
 	class NDNBMAEMOEC : public ::EFNJLACKEDH
 	{
 	public:

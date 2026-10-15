@@ -19,6 +19,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define CARFLOWINTERSECTIONRULE_SET_CURVE_OFFSET UNITYSDK_OFFSET(0xDCE3750)
 #define CARFLOWINTERSECTIONRULE_SET_MATH_OFFSET UNITYSDK_OFFSET(0xDCE3710)
 
+inline static constexpr unsigned int CarFlowIntersectionRule_TypeDefinitionIndex = 47070;
+
 	class CarFlowIntersectionRule : public ::System::Object
 	{
 	public:

@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int INCFAFNOAPM_TypeDefinitionIndex = 30914;
+
 	enum class INCFAFNOAPM : ::System::Int32
 	{
 		DOJFCPKAJEN = 0,

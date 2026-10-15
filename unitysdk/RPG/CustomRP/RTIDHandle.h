@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int RTIDHandle_TypeDefinitionIndex = 37577;
+
 	struct alignas(4) RTIDHandle
 	{
 		::System::Int32 id; // 0x10

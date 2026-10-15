@@ -9,6 +9,8 @@ namespace System { template <typename T> class Comparison_1; }
 #define FEHLIMILEMA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x156F1FE0)
 #define FEHLIMILEMA___C__GETSORTEDMAPPROPCONDITION_B__43_0_OFFSET UNITYSDK_OFFSET(0x156F1FF0)
 
+inline static constexpr unsigned int FEHLIMILEMA___c_TypeDefinitionIndex = 62096;
+
 	class FEHLIMILEMA___c : public ::System::Object
 	{
 	public:

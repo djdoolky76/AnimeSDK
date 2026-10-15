@@ -16,6 +16,8 @@ namespace System { class Object; }
 #define IODICMALJOL_NIJJPBOIGBI_OFFSET UNITYSDK_OFFSET(0x164FF1E0)
 #define IODICMALJOL_PPADDBPMNNB_OFFSET UNITYSDK_OFFSET(0x164FF4E0)
 
+inline static constexpr unsigned int IODICMALJOL_TypeDefinitionIndex = 72058;
+
 	class IODICMALJOL : public ::FMPCODLIOLG
 	{
 	public:

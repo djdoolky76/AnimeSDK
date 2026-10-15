@@ -17,6 +17,8 @@ namespace UnityEngine { class Coroutine; }
 
 namespace MiHoYo::SDK::ReporterUtil
 {
+	inline static constexpr unsigned int ReporterTimer_MonoTimer_TypeDefinitionIndex = 46656;
+
 	class ReporterTimer_MonoTimer : public ::UnityEngine::MonoBehaviour
 	{
 	public:

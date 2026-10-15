@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define OMBODCJBBAL_GET_UNLOCKBYFINISHSUBMISSIONID_OFFSET UNITYSDK_OFFSET(0xBF1A1D0)
 #define OMBODCJBBAL_GET_UNLOCKTALK_OFFSET UNITYSDK_OFFSET(0xBF1A230)
 
+inline static constexpr unsigned int OMBODCJBBAL_TypeDefinitionIndex = 80149;
+
 	class OMBODCJBBAL : public ::System::Object
 	{
 	public:

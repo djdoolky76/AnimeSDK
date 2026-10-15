@@ -11,6 +11,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int DatePicker___c_TypeDefinitionIndex = 9289;
+
 	class DatePicker___c : public ::System::Object
 	{
 	public:

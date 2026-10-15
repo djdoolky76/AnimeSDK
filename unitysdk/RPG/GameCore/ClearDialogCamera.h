@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ClearDialogCamera; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ClearDialogCamera_TypeDefinitionIndex = 21132;
+
 	class ClearDialogCamera : public ::RPG::GameCore::TaskConfig
 	{
 	public:

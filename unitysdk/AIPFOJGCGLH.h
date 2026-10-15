@@ -8,6 +8,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define AIPFOJGCGLH_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x12CAF100)
 #define AIPFOJGCGLH_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x12CAF0B0)
 
+inline static constexpr unsigned int AIPFOJGCGLH_TypeDefinitionIndex = 56666;
+
 	class AIPFOJGCGLH : public ::System::Object
 	{
 	public:

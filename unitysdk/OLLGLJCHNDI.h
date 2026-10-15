@@ -10,6 +10,8 @@ namespace System { class Object; }
 #define OLLGLJCHNDI_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xBF0FF50)
 #define OLLGLJCHNDI_INVOKE_OFFSET UNITYSDK_OFFSET(0xBF0FF10)
 
+inline static constexpr unsigned int OLLGLJCHNDI_TypeDefinitionIndex = 78035;
+
 	class OLLGLJCHNDI : public ::System::MulticastDelegate
 	{
 	public:

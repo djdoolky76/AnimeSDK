@@ -29,6 +29,8 @@ namespace System { class String; }
 #define BABEOGJBCEL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E7ADC20)
 #define BABEOGJBCEL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E7ADC80)
 
+inline static constexpr unsigned int BABEOGJBCEL_TypeDefinitionIndex = 25507;
+
 	class BABEOGJBCEL : public ::System::Object
 	{
 	public:

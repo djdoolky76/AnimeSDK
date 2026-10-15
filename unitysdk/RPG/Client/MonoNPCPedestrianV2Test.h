@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoNPCPedestrianV2Test_TypeDefinitionIndex = 69237;
+
 	class MonoNPCPedestrianV2Test : public ::UnityEngine::MonoBehaviour
 	{
 	public:

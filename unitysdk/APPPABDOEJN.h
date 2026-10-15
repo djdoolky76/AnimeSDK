@@ -12,6 +12,8 @@ namespace System { class String; }
 #define APPPABDOEJN_SYNCLOADBYTESFROMFILE_OFFSET UNITYSDK_OFFSET(0x1C434710)
 #define APPPABDOEJN__INITASSETLOADERPROVIDER_OFFSET UNITYSDK_OFFSET(0x1C434430)
 
+inline static constexpr unsigned int APPPABDOEJN_TypeDefinitionIndex = 41432;
+
 	class APPPABDOEJN : public ::RPG::Client::DesignDataMgr
 	{
 	public:

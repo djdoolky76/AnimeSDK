@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LittleGameEventSourceType_TypeDefinitionIndex = 18885;
+
 	enum class LittleGameEventSourceType : ::System::Int32
 	{
 		ContextSelf = 0,

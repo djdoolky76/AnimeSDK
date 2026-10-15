@@ -4,6 +4,8 @@
 
 namespace UnityEngine::AI
 {
+	inline static constexpr unsigned int AsyncNavMeshAgent_MotionSnapshot_TypeDefinitionIndex = 5670;
+
 	struct alignas(4) AsyncNavMeshAgent_MotionSnapshot
 	{
 		::System::Single maxAcceleration; // 0x10

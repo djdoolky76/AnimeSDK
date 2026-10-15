@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define IPOLHCLEBED_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16525F50)
 #define IPOLHCLEBED_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16526200)
 
+inline static constexpr unsigned int IPOLHCLEBED_TypeDefinitionIndex = 55676;
+
 	class IPOLHCLEBED
 	{
 	public:

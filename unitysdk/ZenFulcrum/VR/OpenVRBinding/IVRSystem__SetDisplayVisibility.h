@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int IVRSystem__SetDisplayVisibility_TypeDefinitionIndex = 38900;
+
 	class IVRSystem__SetDisplayVisibility : public ::System::MulticastDelegate
 	{
 	public:

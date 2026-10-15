@@ -29,6 +29,8 @@ namespace UnityEngine { class AnimationCurve; }
 #define CFDGKEDFBJP_SET_ISFINISH_OFFSET UNITYSDK_OFFSET(0x1EBFCC90)
 #define CFDGKEDFBJP_SET_MAXDELTATIME_OFFSET UNITYSDK_OFFSET(0x1EBFCD60)
 
+inline static constexpr unsigned int CFDGKEDFBJP_TypeDefinitionIndex = 35330;
+
 	class CFDGKEDFBJP : public ::System::Object
 	{
 	public:

@@ -4,6 +4,8 @@
 
 #define JMACCEFONDA_CTOR_OFFSET UNITYSDK_OFFSET(0x1CBA3370)
 
+inline static constexpr unsigned int JMACCEFONDA_TypeDefinitionIndex = 42542;
+
 	class JMACCEFONDA : public ::System::Object
 	{
 	public:

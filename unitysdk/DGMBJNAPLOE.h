@@ -19,6 +19,8 @@ namespace RPG::GameCore { class AdventureCharacterController; }
 #define DGMBJNAPLOE_SET_ALLOWROTATION_OFFSET UNITYSDK_OFFSET(0xE853070)
 #define DGMBJNAPLOE_SET_STATE_OFFSET UNITYSDK_OFFSET(0xE853050)
 
+inline static constexpr unsigned int DGMBJNAPLOE_TypeDefinitionIndex = 57126;
+
 	class DGMBJNAPLOE : public ::System::Object
 	{
 	public:

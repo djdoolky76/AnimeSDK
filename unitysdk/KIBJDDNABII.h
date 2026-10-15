@@ -25,6 +25,8 @@ namespace System { class String; }
 #define KIBJDDNABII_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E854820)
 #define KIBJDDNABII_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E854880)
 
+inline static constexpr unsigned int KIBJDDNABII_TypeDefinitionIndex = 26388;
+
 	class KIBJDDNABII : public ::System::Object
 	{
 	public:

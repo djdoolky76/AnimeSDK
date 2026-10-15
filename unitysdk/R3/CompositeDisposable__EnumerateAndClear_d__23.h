@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 
 namespace R3
 {
+	inline static constexpr unsigned int CompositeDisposable__EnumerateAndClear_d__23_TypeDefinitionIndex = 35902;
+
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10, typename T11, typename T12, typename T13, typename T14, typename T15, typename T16, typename T17, typename T18, typename T19, typename T20, typename T21, typename T22, typename T23>
 	class CompositeDisposable__EnumerateAndClear_d__23 : public ::System::Object
 	{

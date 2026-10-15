@@ -18,6 +18,8 @@
 
 namespace UnityEngine::Animations
 {
+	inline static constexpr unsigned int AnimationOffsetPlayable_TypeDefinitionIndex = 5752;
+
 	struct alignas(4) AnimationOffsetPlayable
 	{
 		::UnityEngine::Playables::PlayableHandle m_Handle; // 0x10

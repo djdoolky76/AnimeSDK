@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define DLBMIKGMMAO_MNEEAMNELKC_OFFSET UNITYSDK_OFFSET(0xF891150)
 #define DLBMIKGMMAO_ONJKDFCMPPI_OFFSET UNITYSDK_OFFSET(0xF891010)
 
+inline static constexpr unsigned int DLBMIKGMMAO_TypeDefinitionIndex = 60190;
+
 	class DLBMIKGMMAO : public ::System::Object
 	{
 	public:

@@ -21,6 +21,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define NMLADOGHHGL_OFGFCCPIOAJ_OFFSET UNITYSDK_OFFSET(0xBC8AF90)
 #define NMLADOGHHGL_SET_VALIDCHECKER_OFFSET UNITYSDK_OFFSET(0xBC8A5B0)
 
+inline static constexpr unsigned int NMLADOGHHGL_TypeDefinitionIndex = 57811;
+
 	class NMLADOGHHGL : public ::System::Object
 	{
 	public:

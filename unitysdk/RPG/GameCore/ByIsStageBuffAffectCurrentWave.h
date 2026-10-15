@@ -13,6 +13,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByIsStageBuffAffectCurrentWave_TypeDefinitionIndex = 23521;
+
 	class ByIsStageBuffAffectCurrentWave : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

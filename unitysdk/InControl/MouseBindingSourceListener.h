@@ -15,6 +15,8 @@ namespace InControl { class InputDevice; }
 
 namespace InControl
 {
+	inline static constexpr unsigned int MouseBindingSourceListener_TypeDefinitionIndex = 40805;
+
 	class MouseBindingSourceListener : public ::System::Object
 	{
 	public:

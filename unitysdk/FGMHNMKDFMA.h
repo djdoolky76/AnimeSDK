@@ -21,6 +21,8 @@ namespace System { class Action; }
 #define FGMHNMKDFMA_LNIMDPPAHJO_OFFSET UNITYSDK_OFFSET(0x1576A860)
 #define FGMHNMKDFMA_PLGLOAANAFM_OFFSET UNITYSDK_OFFSET(0x1576ADF0)
 
+inline static constexpr unsigned int FGMHNMKDFMA_TypeDefinitionIndex = 53775;
+
 	class FGMHNMKDFMA : public ::HPICNGFLLCA
 	{
 	public:

@@ -38,6 +38,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AirshipBirdEmitter_TypeDefinitionIndex = 59804;
+
 	class AirshipBirdEmitter : public ::UnityEngine::MonoBehaviour
 	{
 	public:

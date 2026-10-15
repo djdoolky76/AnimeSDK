@@ -12,6 +12,8 @@ namespace System::Security::Cryptography::X509Certificates { class X509Chain; }
 
 namespace Mono::Net::Security
 {
+	inline static constexpr unsigned int SystemCertificateValidator_TypeDefinitionIndex = 2447;
+
 	class SystemCertificateValidator : public ::System::Object
 	{
 	public:

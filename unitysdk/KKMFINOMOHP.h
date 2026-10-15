@@ -29,6 +29,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define KKMFINOMOHP_OFDEKKCMGJD_OFFSET UNITYSDK_OFFSET(0xB4D3E20)
 #define KKMFINOMOHP_TICK_OFFSET UNITYSDK_OFFSET(0xB4D3370)
 
+inline static constexpr unsigned int KKMFINOMOHP_TypeDefinitionIndex = 60694;
+
 	class KKMFINOMOHP : public ::System::Object
 	{
 	public:

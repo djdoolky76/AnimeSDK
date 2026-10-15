@@ -30,6 +30,8 @@ namespace System { class String; }
 #define ABDJMGPOAOK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DDC81D0)
 #define ABDJMGPOAOK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DDC8230)
 
+inline static constexpr unsigned int ABDJMGPOAOK_TypeDefinitionIndex = 27621;
+
 	class ABDJMGPOAOK : public ::System::Object
 	{
 	public:

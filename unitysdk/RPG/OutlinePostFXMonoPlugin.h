@@ -20,6 +20,8 @@ namespace UnityEngine { class Shader; }
 
 namespace RPG
 {
+	inline static constexpr unsigned int OutlinePostFXMonoPlugin_TypeDefinitionIndex = 51719;
+
 	class OutlinePostFXMonoPlugin
 	{
 	public:

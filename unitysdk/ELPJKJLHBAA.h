@@ -5,6 +5,8 @@
 
 #define ELPJKJLHBAA_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA61530)
 
+inline static constexpr unsigned int ELPJKJLHBAA_TypeDefinitionIndex = 42224;
+
 	class ELPJKJLHBAA : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ActivityRewardRogueEndlessRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ActivityRewardRogueEndlessRow_TypeDefinitionIndex = 12339;
+
 	class ActivityRewardRogueEndlessRow : public ::System::Object
 	{
 	public:

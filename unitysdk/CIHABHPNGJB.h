@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define CIHABHPNGJB_EVALUATE_OFFSET UNITYSDK_OFFSET(0xCF74E20)
 #define CIHABHPNGJB_HHIHNBDLEOJ_OFFSET UNITYSDK_OFFSET(0xCF750A0)
 
+inline static constexpr unsigned int CIHABHPNGJB_TypeDefinitionIndex = 59104;
+
 	class CIHABHPNGJB
 	{
 	public:

@@ -9,6 +9,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelEvolveBuildSkip_TypeDefinitionIndex = 56826;
+
 	class LevelEvolveBuildSkip : public ::CMPGEAFHHDC
 	{
 	public:

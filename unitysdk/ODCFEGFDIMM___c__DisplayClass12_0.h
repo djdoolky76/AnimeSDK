@@ -7,6 +7,8 @@ namespace System { class Action; }
 #define ODCFEGFDIMM___C__DISPLAYCLASS12_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBD88880)
 #define ODCFEGFDIMM___C__DISPLAYCLASS12_0___INITAUDIOPCK_B__1_OFFSET UNITYSDK_OFFSET(0xBD88C00)
 
+inline static constexpr unsigned int ODCFEGFDIMM___c__DisplayClass12_0_TypeDefinitionIndex = 61152;
+
 	class ODCFEGFDIMM___c__DisplayClass12_0 : public ::System::Object
 	{
 	public:

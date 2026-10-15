@@ -26,6 +26,8 @@ namespace System { class Nullable; }
 #define HAHEJNCFJBM_PEDHFAOINID_OFFSET UNITYSDK_OFFSET(0x15B77810)
 #define HAHEJNCFJBM_PFCODDKFPLF_OFFSET UNITYSDK_OFFSET(0x15B77690)
 
+inline static constexpr unsigned int HAHEJNCFJBM_TypeDefinitionIndex = 79110;
+
 	class HAHEJNCFJBM : public ::System::Object
 	{
 	public:

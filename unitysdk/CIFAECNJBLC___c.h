@@ -9,6 +9,8 @@ namespace System { template <typename T> class Comparison_1; }
 #define CIFAECNJBLC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C4542F0)
 #define CIFAECNJBLC___C__SORTBUNDLEBYOFFSET_B__18_0_OFFSET UNITYSDK_OFFSET(0x1C454300)
 
+inline static constexpr unsigned int CIFAECNJBLC___c_TypeDefinitionIndex = 41490;
+
 	class CIFAECNJBLC___c : public ::System::Object
 	{
 	public:

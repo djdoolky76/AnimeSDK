@@ -5,6 +5,8 @@ namespace System { class String; }
 #define BNFDICJPCHG_CTOR_OFFSET UNITYSDK_OFFSET(0x111F0)
 #define BNFDICJPCHG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x23DB0)
 
+inline static constexpr unsigned int BNFDICJPCHG_TypeDefinitionIndex = 67434;
+
 	struct alignas(4) BNFDICJPCHG
 	{
 		::System::UInt32 IBFCBHAMFIJ; // 0x10

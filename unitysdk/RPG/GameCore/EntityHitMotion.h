@@ -10,6 +10,8 @@ namespace RPG::GameCore { class HitMotionParams; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EntityHitMotion_TypeDefinitionIndex = 56682;
+
 	class EntityHitMotion : public ::System::Object
 	{
 	public:

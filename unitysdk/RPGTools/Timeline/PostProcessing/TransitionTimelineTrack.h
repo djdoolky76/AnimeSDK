@@ -10,6 +10,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline::PostProcessing
 {
+	inline static constexpr unsigned int TransitionTimelineTrack_TypeDefinitionIndex = 48628;
+
 	class TransitionTimelineTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
 	public:

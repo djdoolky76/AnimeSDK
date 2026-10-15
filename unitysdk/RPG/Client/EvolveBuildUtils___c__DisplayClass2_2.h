@@ -8,6 +8,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int EvolveBuildUtils___c__DisplayClass2_2_TypeDefinitionIndex = 63819;
+
 	template <typename T1, typename T2>
 	class EvolveBuildUtils___c__DisplayClass2_2 : public ::System::Object
 	{

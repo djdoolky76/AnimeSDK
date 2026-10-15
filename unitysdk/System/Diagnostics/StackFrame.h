@@ -20,6 +20,8 @@ namespace System::Reflection { class MethodBase; }
 
 namespace System::Diagnostics
 {
+	inline static constexpr unsigned int StackFrame_TypeDefinitionIndex = 1583;
+
 	class StackFrame : public ::System::Object
 	{
 	public:

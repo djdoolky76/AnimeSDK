@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::Console
 {
+	inline static constexpr unsigned int UGCProtocolManager___c__DisplayClass25_0_TypeDefinitionIndex = 8960;
+
 	class UGCProtocolManager___c__DisplayClass25_0 : public ::System::Object
 	{
 	public:

@@ -31,6 +31,8 @@ namespace System { class String; }
 #define BBMICCAEHFE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E7C85B0)
 #define BBMICCAEHFE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E7C8610)
 
+inline static constexpr unsigned int BBMICCAEHFE_TypeDefinitionIndex = 34049;
+
 	class BBMICCAEHFE : public ::System::Object
 	{
 	public:

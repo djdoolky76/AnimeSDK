@@ -18,6 +18,8 @@ namespace HedgehogTeam::EasyTouch { class QuickTwist_OnTwistAction; }
 
 namespace HedgehogTeam::EasyTouch
 {
+	inline static constexpr unsigned int QuickTwist_TypeDefinitionIndex = 40280;
+
 	class QuickTwist : public ::HedgehogTeam::EasyTouch::QuickBase
 	{
 	public:

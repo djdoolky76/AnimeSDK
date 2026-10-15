@@ -22,6 +22,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define NDDDLECDPID_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBB20B90)
 #define NDDDLECDPID_TICK_OFFSET UNITYSDK_OFFSET(0xBB20500)
 
+inline static constexpr unsigned int NDDDLECDPID_TypeDefinitionIndex = 58114;
+
 	class NDDDLECDPID : public ::GELIALJDFBL
 	{
 	public:

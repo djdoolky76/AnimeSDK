@@ -10,6 +10,8 @@ namespace RPG::Client { class GridFightElationTraitEquipComponent; }
 #define DFKLDJIBPAN_MOKHFPHKAMI_OFFSET UNITYSDK_OFFSET(0xE831590)
 #define DFKLDJIBPAN_PAMKOLICNOL_OFFSET UNITYSDK_OFFSET(0xE831C80)
 
+inline static constexpr unsigned int DFKLDJIBPAN_TypeDefinitionIndex = 65378;
+
 	class DFKLDJIBPAN : public ::System::Object
 	{
 	public:

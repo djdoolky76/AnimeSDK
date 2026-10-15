@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int DelegateRegister___c__DisplayClass1_1_TypeDefinitionIndex = 46277;
+
 	template <typename T>
 	class DelegateRegister___c__DisplayClass1_1 : public ::System::Object
 	{

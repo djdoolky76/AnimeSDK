@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaitPlayerAction_TypeDefinitionIndex = 24330;
+
 	class WaitPlayerAction : public ::RPG::GameCore::TaskConfig
 	{
 	public:

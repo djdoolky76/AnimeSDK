@@ -24,6 +24,8 @@ namespace UnityEngine { class RuntimeAnimatorController; }
 #define NLMPFKPGCNA_OEGPNPMDACP_OFFSET UNITYSDK_OFFSET(0xBC74E10)
 #define NLMPFKPGCNA__ONINITOWNERREF_OFFSET UNITYSDK_OFFSET(0xBC73C90)
 
+inline static constexpr unsigned int NLMPFKPGCNA_TypeDefinitionIndex = 57173;
+
 	class NLMPFKPGCNA : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

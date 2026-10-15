@@ -14,6 +14,8 @@ namespace RPG::GameCore { class TurnBasedModifierInstance; }
 #define MEDGOLOBNJM_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xB8BCAB0)
 #define MEDGOLOBNJM_CTOR_OFFSET UNITYSDK_OFFSET(0xB8BCAA0)
 
+inline static constexpr unsigned int MEDGOLOBNJM_TypeDefinitionIndex = 71327;
+
 	class MEDGOLOBNJM : public ::System::Object
 	{
 	public:

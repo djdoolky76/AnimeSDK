@@ -103,6 +103,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int ConfigManager_TypeDefinitionIndex = 8200;
+
 	class ConfigManager : public ::System::Object
 	{
 	public:

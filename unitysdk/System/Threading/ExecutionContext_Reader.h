@@ -19,6 +19,8 @@ namespace System::Threading { class SynchronizationContext; }
 
 namespace System::Threading
 {
+	inline static constexpr unsigned int ExecutionContext_Reader_TypeDefinitionIndex = 833;
+
 	struct alignas(8) ExecutionContext_Reader
 	{
 		::System::Threading::ExecutionContext* m_ec; // 0x10

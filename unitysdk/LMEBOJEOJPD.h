@@ -25,6 +25,8 @@ namespace System { class String; }
 #define LMEBOJEOJPD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9A3920)
 #define LMEBOJEOJPD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E9A3980)
 
+inline static constexpr unsigned int LMEBOJEOJPD_TypeDefinitionIndex = 26857;
+
 	class LMEBOJEOJPD : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ class IJKJKBNNMBO;
 #define IJKJKBNNMBO_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CF18DA0)
 #define IJKJKBNNMBO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CF18D60)
 
+inline static constexpr unsigned int IJKJKBNNMBO_TypeDefinitionIndex = 21487;
+
 	class IJKJKBNNMBO : public ::RPG::GameCore::TaskConfig
 	{
 	public:

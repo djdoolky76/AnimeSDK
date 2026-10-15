@@ -24,6 +24,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define JBBLOKDEHKO_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D012630)
 #define JBBLOKDEHKO_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D012210)
 
+inline static constexpr unsigned int JBBLOKDEHKO_TypeDefinitionIndex = 12009;
+
 	class JBBLOKDEHKO : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define CDPEFGCIGFB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E08CE90)
 #define CDPEFGCIGFB___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1E08CEA0)
 
+inline static constexpr unsigned int CDPEFGCIGFB___c_TypeDefinitionIndex = 28797;
+
 	class CDPEFGCIGFB___c : public ::System::Object
 	{
 	public:

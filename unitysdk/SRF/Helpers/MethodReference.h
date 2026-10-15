@@ -14,6 +14,8 @@ namespace System::Reflection { class MethodInfo; }
 
 namespace SRF::Helpers
 {
+	inline static constexpr unsigned int MethodReference_TypeDefinitionIndex = 35423;
+
 	class MethodReference : public ::System::Object
 	{
 	public:

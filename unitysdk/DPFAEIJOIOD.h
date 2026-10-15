@@ -11,6 +11,8 @@ class MOMODPMFIKE;
 #define DPFAEIJOIOD_GET_OWNER_OFFSET UNITYSDK_OFFSET(0x11FFB5A0)
 #define DPFAEIJOIOD_SET_OWNER_OFFSET UNITYSDK_OFFSET(0x11FFB5B0)
 
+inline static constexpr unsigned int DPFAEIJOIOD_TypeDefinitionIndex = 54022;
+
 	class DPFAEIJOIOD : public ::System::Object
 	{
 	public:

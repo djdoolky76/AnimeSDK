@@ -4,6 +4,8 @@
 
 #define KKJMAOMDCAE_AGGLCMNGKIN_CTOR_OFFSET UNITYSDK_OFFSET(0xB4CE7B0)
 
+inline static constexpr unsigned int KKJMAOMDCAE_AGGLCMNGKIN_TypeDefinitionIndex = 64771;
+
 	class KKJMAOMDCAE_AGGLCMNGKIN : public ::System::Object
 	{
 	public:

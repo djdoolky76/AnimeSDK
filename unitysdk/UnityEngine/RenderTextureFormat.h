@@ -3,6 +3,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int RenderTextureFormat_TypeDefinitionIndex = 4174;
+
 	enum class RenderTextureFormat : ::System::Int32
 	{
 		ARGB32 = 0,

@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BattlePerformCaptureActor_TypeDefinitionIndex = 23385;
+
 	class BattlePerformCaptureActor : public ::RPG::GameCore::JsonConfig
 	{
 	public:

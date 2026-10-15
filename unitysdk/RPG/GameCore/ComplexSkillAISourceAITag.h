@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ComplexSkillAISourceAITag_TypeDefinitionIndex = 15544;
+
 	class ComplexSkillAISourceAITag : public ::RPG::GameCore::ComplexSkillAISource
 	{
 	public:

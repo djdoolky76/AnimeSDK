@@ -9,6 +9,8 @@ namespace RPG::GameCore { class PropComponent; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PropComponent___c__DisplayClass5_0_TypeDefinitionIndex = 57371;
+
 	class PropComponent___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:

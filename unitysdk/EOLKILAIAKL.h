@@ -31,6 +31,8 @@ namespace System { class String; }
 #define EOLKILAIAKL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E2FFAB0)
 #define EOLKILAIAKL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E2FFB10)
 
+inline static constexpr unsigned int EOLKILAIAKL_TypeDefinitionIndex = 33602;
+
 	class EOLKILAIAKL : public ::System::Object
 	{
 	public:

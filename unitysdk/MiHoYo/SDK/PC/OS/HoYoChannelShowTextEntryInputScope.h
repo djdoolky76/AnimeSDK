@@ -3,6 +3,8 @@
 
 namespace MiHoYo::SDK::PC::OS
 {
+	inline static constexpr unsigned int HoYoChannelShowTextEntryInputScope_TypeDefinitionIndex = 8610;
+
 	enum class HoYoChannelShowTextEntryInputScope : ::System::Int32
 	{
 		Default = 0,

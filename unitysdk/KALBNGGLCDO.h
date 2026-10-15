@@ -7,6 +7,8 @@ namespace System { class String; }
 #define KALBNGGLCDO_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC7AE70)
 #define KALBNGGLCDO_GET_ID_OFFSET UNITYSDK_OFFSET(0x1EC7AE90)
 
+inline static constexpr unsigned int KALBNGGLCDO_TypeDefinitionIndex = 44279;
+
 	class KALBNGGLCDO : public ::System::Attribute
 	{
 	public:

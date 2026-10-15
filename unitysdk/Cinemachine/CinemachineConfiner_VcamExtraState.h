@@ -7,6 +7,8 @@
 
 namespace Cinemachine
 {
+	inline static constexpr unsigned int CinemachineConfiner_VcamExtraState_TypeDefinitionIndex = 39732;
+
 	class CinemachineConfiner_VcamExtraState : public ::System::Object
 	{
 	public:

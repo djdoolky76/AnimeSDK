@@ -32,6 +32,8 @@ namespace System { class String; }
 
 namespace RPG::Client::ChenLingBattle
 {
+	inline static constexpr unsigned int Building_TypeDefinitionIndex = 76346;
+
 	class Building : public ::System::Object
 	{
 	public:

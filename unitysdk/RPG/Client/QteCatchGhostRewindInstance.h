@@ -89,6 +89,8 @@ namespace UnityEngine { class Collider; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int QteCatchGhostRewindInstance_TypeDefinitionIndex = 60271;
+
 	class QteCatchGhostRewindInstance : public ::System::Object
 	{
 	public:

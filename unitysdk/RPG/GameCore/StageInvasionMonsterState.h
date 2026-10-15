@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StageInvasionMonsterState_TypeDefinitionIndex = 24774;
+
 	enum class StageInvasionMonsterState : ::System::Int32
 	{
 		Normal = 0,

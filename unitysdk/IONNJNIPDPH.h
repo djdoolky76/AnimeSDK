@@ -14,6 +14,8 @@ class NGFHCJIAOLH;
 #define IONNJNIPDPH_MJPFIAIGHOH_OFFSET UNITYSDK_OFFSET(0x16514DE0)
 #define IONNJNIPDPH_NCPGAGEHCOL_OFFSET UNITYSDK_OFFSET(0x16514A00)
 
+inline static constexpr unsigned int IONNJNIPDPH_TypeDefinitionIndex = 77746;
+
 	class IONNJNIPDPH : public ::System::Object
 	{
 	public:

@@ -2,6 +2,8 @@
 #include "unitysdk/unitysdk.h"
 class ENEIHJJPNPI;
 
+inline static constexpr unsigned int JCIMMGKBPJM_OCPBKGDENAN_TypeDefinitionIndex = 77406;
+
 	struct alignas(8) JCIMMGKBPJM_OCPBKGDENAN
 	{
 		::ENEIHJJPNPI* KFKGOMIMNLD; // 0x10

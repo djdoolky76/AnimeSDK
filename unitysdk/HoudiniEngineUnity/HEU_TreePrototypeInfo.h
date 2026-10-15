@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_TreePrototypeInfo_TypeDefinitionIndex = 40772;
+
 	class HEU_TreePrototypeInfo : public ::System::Object
 	{
 	public:

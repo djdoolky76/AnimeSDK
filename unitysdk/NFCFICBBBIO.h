@@ -9,6 +9,8 @@ namespace RPG::GameCore { class SwordTrainingEffectRow; }
 #define NFCFICBBBIO_BOEPEMKFPDH_OFFSET UNITYSDK_OFFSET(0xBB78DD0)
 #define NFCFICBBBIO_CTOR_OFFSET UNITYSDK_OFFSET(0xBB78D10)
 
+inline static constexpr unsigned int NFCFICBBBIO_TypeDefinitionIndex = 75023;
+
 	class NFCFICBBBIO : public ::BNAIELOHEFF
 	{
 	public:

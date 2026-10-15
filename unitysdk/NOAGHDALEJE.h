@@ -31,6 +31,8 @@ namespace System { class String; }
 #define NOAGHDALEJE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB86C50)
 #define NOAGHDALEJE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB86CB0)
 
+inline static constexpr unsigned int NOAGHDALEJE_TypeDefinitionIndex = 29025;
+
 	class NOAGHDALEJE : public ::System::Object
 	{
 	public:

@@ -36,6 +36,8 @@ namespace System::Security::Cryptography { class RSA; }
 
 namespace Mono::Security::X509
 {
+	inline static constexpr unsigned int X509Certificate_571251C08D3E3BD3_TypeDefinitionIndex = 2267;
+
 	class X509Certificate_571251C08D3E3BD3 : public ::System::Object
 	{
 	public:

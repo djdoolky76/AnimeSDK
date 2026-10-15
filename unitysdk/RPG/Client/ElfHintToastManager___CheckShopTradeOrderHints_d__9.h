@@ -19,6 +19,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ElfHintToastManager___CheckShopTradeOrderHints_d__9_TypeDefinitionIndex = 63709;
+
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9>
 	class ElfHintToastManager___CheckShopTradeOrderHints_d__9 : public ::System::Object
 	{

@@ -10,6 +10,8 @@
 
 namespace System::Xml::Schema
 {
+	inline static constexpr unsigned int Datatype_ENTITY_TypeDefinitionIndex = 2131;
+
 	class Datatype_ENTITY : public ::System::Xml::Schema::Datatype_NCName
 	{
 	public:

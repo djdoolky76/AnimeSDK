@@ -9,6 +9,8 @@ namespace UnityEngine::UI { class RectMask2D; }
 
 namespace UnityEngine::UI
 {
+	inline static constexpr unsigned int Clipping_TypeDefinitionIndex = 6699;
+
 	class Clipping : public ::System::Object
 	{
 	public:

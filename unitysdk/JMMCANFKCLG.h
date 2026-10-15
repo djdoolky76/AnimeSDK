@@ -9,6 +9,8 @@ namespace System { class String; }
 #define JMMCANFKCLG_ALEBBJAFIOG_OFFSET UNITYSDK_OFFSET(0xB271D80)
 #define JMMCANFKCLG_CTOR_OFFSET UNITYSDK_OFFSET(0xB272290)
 
+inline static constexpr unsigned int JMMCANFKCLG_TypeDefinitionIndex = 64910;
+
 	class JMMCANFKCLG : public ::System::Object
 	{
 	public:

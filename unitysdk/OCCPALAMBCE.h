@@ -11,6 +11,8 @@ namespace System { class Object; }
 #define OCCPALAMBCE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C7CBE10)
 #define OCCPALAMBCE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C7CBDD0)
 
+inline static constexpr unsigned int OCCPALAMBCE_TypeDefinitionIndex = 36257;
+
 	class OCCPALAMBCE : public ::System::MulticastDelegate
 	{
 	public:

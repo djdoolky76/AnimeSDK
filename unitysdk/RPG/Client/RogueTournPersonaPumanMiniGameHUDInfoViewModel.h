@@ -33,6 +33,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueTournPersonaPumanMiniGameHUDInfoViewModel_TypeDefinitionIndex = 72914;
+
 	class RogueTournPersonaPumanMiniGameHUDInfoViewModel : public ::RPG::Client::RogueTournPersonaBaseViewModel
 	{
 	public:

@@ -27,6 +27,8 @@ namespace Cinemachine { class ICinemachineCamera; }
 
 namespace Cinemachine
 {
+	inline static constexpr unsigned int CinemachinePOV_TypeDefinitionIndex = 39786;
+
 	class CinemachinePOV : public ::Cinemachine::CinemachineComponentBase
 	{
 	public:

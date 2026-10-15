@@ -39,6 +39,8 @@ namespace System { class String; }
 #define PLPDNKNJBAA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DFA68E0)
 #define PLPDNKNJBAA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DFA6940)
 
+inline static constexpr unsigned int PLPDNKNJBAA_TypeDefinitionIndex = 31888;
+
 	class PLPDNKNJBAA : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace UnityEngine { class Animation; }
 #define NDFFOKFKGKG_JJBGNJFCHPL_OFFSET UNITYSDK_OFFSET(0xBB22A90)
 #define NDFFOKFKGKG__ONBIND_OFFSET UNITYSDK_OFFSET(0xBB22A30)
 
+inline static constexpr unsigned int NDFFOKFKGKG_TypeDefinitionIndex = 71851;
+
 	class NDFFOKFKGKG : public ::FMPCODLIOLG
 	{
 	public:

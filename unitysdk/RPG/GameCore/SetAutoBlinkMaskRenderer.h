@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetAutoBlinkMaskRenderer_TypeDefinitionIndex = 22379;
+
 	class SetAutoBlinkMaskRenderer : public ::RPG::GameCore::TaskConfig
 	{
 	public:

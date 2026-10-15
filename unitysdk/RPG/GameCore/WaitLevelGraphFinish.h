@@ -12,6 +12,8 @@ namespace RPG::GameCore { class WaitLevelGraphFinish; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaitLevelGraphFinish_TypeDefinitionIndex = 23393;
+
 	class WaitLevelGraphFinish : public ::RPG::GameCore::TaskConfig
 	{
 	public:

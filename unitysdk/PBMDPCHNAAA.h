@@ -5,6 +5,8 @@ class JAACNICGMHN;
 
 #define PBMDPCHNAAA_CTOR_OFFSET UNITYSDK_OFFSET(0xBFF4BC0)
 
+inline static constexpr unsigned int PBMDPCHNAAA_TypeDefinitionIndex = 80553;
+
 	class PBMDPCHNAAA : public ::System::Object
 	{
 	public:

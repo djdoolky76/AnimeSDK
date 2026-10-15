@@ -27,6 +27,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define GAKDDLJDFCI_NIHEHDDOMCB_OFFSET UNITYSDK_OFFSET(0x15940B40)
 #define GAKDDLJDFCI_PLAOFMBPDHC_OFFSET UNITYSDK_OFFSET(0x1593F1F0)
 
+inline static constexpr unsigned int GAKDDLJDFCI_TypeDefinitionIndex = 77929;
+
 	class GAKDDLJDFCI : public ::GCIBMBJGPKI
 	{
 	public:

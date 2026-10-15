@@ -6,6 +6,8 @@ namespace Newtonsoft::Json::Linq { class JToken; }
 namespace System { class Action; }
 namespace System { class String; }
 
+inline static constexpr unsigned int JDNEAIDOOAN___O_TypeDefinitionIndex = 48947;
+
 	class JDNEAIDOOAN___O : public ::System::Object
 	{
 	public:

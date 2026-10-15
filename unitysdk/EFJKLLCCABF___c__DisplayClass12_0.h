@@ -6,6 +6,8 @@ class LMLNNHKJEIP;
 #define EFJKLLCCABF___C__DISPLAYCLASS12_0_CTOR_OFFSET UNITYSDK_OFFSET(0x13A50C10)
 #define EFJKLLCCABF___C__DISPLAYCLASS12_0___ENSURETEAMEDITCONTROLLER_B__0_OFFSET UNITYSDK_OFFSET(0x13A51670)
 
+inline static constexpr unsigned int EFJKLLCCABF___c__DisplayClass12_0_TypeDefinitionIndex = 60409;
+
 	class EFJKLLCCABF___c__DisplayClass12_0 : public ::System::Object
 	{
 	public:

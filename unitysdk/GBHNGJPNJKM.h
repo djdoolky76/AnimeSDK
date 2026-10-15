@@ -9,6 +9,8 @@ namespace RPG::GameCore { class ServantRowData; }
 #define GBHNGJPNJKM_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x15950D80)
 #define GBHNGJPNJKM_LJBCDJNNBJH_OFFSET UNITYSDK_OFFSET(0x15950E10)
 
+inline static constexpr unsigned int GBHNGJPNJKM_TypeDefinitionIndex = 62636;
+
 	class GBHNGJPNJKM : public ::System::Object
 	{
 	public:

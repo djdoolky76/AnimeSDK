@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 #define PJIGOBCPCFC_JCNBCPLELKF_OFFSET UNITYSDK_OFFSET(0xC28B640)
 #define PJIGOBCPCFC_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0xC28B600)
 
+inline static constexpr unsigned int PJIGOBCPCFC_TypeDefinitionIndex = 62379;
+
 	class PJIGOBCPCFC : public ::System::Object
 	{
 	public:

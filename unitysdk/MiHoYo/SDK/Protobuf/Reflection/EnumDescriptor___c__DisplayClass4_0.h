@@ -11,6 +11,8 @@ namespace MiHoYo::SDK::Protobuf::Reflection { class FileDescriptor; }
 
 namespace MiHoYo::SDK::Protobuf::Reflection
 {
+	inline static constexpr unsigned int EnumDescriptor___c__DisplayClass4_0_TypeDefinitionIndex = 35827;
+
 	class EnumDescriptor___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:

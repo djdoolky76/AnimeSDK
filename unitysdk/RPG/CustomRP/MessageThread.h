@@ -19,6 +19,8 @@ namespace System::Net::Sockets { class TcpClient; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int MessageThread_TypeDefinitionIndex = 37913;
+
 	class MessageThread : public ::System::Object
 	{
 	public:

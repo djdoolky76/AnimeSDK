@@ -9,6 +9,8 @@ namespace RPG::Client::ActivityIdleLive { class SpEquipSlotInfo; }
 #define AEOMMHDHPGO_BUILD_OFFSET UNITYSDK_OFFSET(0xCF04230)
 #define AEOMMHDHPGO_CTOR_OFFSET UNITYSDK_OFFSET(0xCF04210)
 
+inline static constexpr unsigned int AEOMMHDHPGO_TypeDefinitionIndex = 75134;
+
 	class AEOMMHDHPGO
 	{
 	public:

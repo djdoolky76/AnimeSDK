@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FireWaveProjectileBase_TypeDefinitionIndex = 22582;
+
 	class FireWaveProjectileBase : public ::RPG::GameCore::TaskConfig
 	{
 	public:

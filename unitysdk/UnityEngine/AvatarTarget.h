@@ -3,6 +3,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int AvatarTarget_TypeDefinitionIndex = 5693;
+
 	enum class AvatarTarget : ::System::Int32
 	{
 		Root = 0,

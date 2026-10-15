@@ -196,6 +196,8 @@ namespace UnityEngine::Pooled { template <typename T> class PooledList_1; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int Mesh_TypeDefinitionIndex = 4192;
+
 	class Mesh : public ::UnityEngine::Object
 	{
 	public:

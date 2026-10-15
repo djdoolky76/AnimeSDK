@@ -8,6 +8,8 @@ namespace RPG::GameCore { class CakeRaceActionManhattanPlacePickupItem; }
 #define BCKMCJIEENC_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5A3B50)
 #define BCKMCJIEENC_GAILDDCMCHP_OFFSET UNITYSDK_OFFSET(0x1C5A3B60)
 
+inline static constexpr unsigned int BCKMCJIEENC_TypeDefinitionIndex = 37371;
+
 	class BCKMCJIEENC : public ::GPLOFONGBGI
 	{
 	public:

@@ -31,6 +31,8 @@ namespace System { class String; }
 #define KNBMAPNNDJL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E89EB90)
 #define KNBMAPNNDJL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E89EBF0)
 
+inline static constexpr unsigned int KNBMAPNNDJL_TypeDefinitionIndex = 25459;
+
 	class KNBMAPNNDJL : public ::System::Object
 	{
 	public:

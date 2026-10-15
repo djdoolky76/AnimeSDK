@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class Stack_1; }
 #define LKIELHKDBHB_NDGCCMLANIG_OFFSET UNITYSDK_OFFSET(0x1EC32E60)
 #define LKIELHKDBHB_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0x1EC33120)
 
+inline static constexpr unsigned int LKIELHKDBHB_TypeDefinitionIndex = 35238;
+
 	class LKIELHKDBHB : public ::System::Object
 	{
 	public:

@@ -5,6 +5,8 @@
 
 namespace RPG::Client::LittleGame
 {
+	inline static constexpr unsigned int TimelineControlGameCharacterMovementPoint_TypeDefinitionIndex = 42489;
+
 	struct alignas(4) TimelineControlGameCharacterMovementPoint
 	{
 		::RPG::Client::LittleGame::ETimelineControlGameLevelFloorPoint FloorPoint; // 0x10

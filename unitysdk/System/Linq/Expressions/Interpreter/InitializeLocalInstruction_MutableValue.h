@@ -13,6 +13,8 @@ namespace System::Linq::Expressions::Interpreter { class InterpretedFrame; }
 
 namespace System::Linq::Expressions::Interpreter
 {
+	inline static constexpr unsigned int InitializeLocalInstruction_MutableValue_TypeDefinitionIndex = 3516;
+
 	class InitializeLocalInstruction_MutableValue : public ::System::Linq::Expressions::Interpreter::InitializeLocalInstruction
 	{
 	public:

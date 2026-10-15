@@ -32,6 +32,8 @@ namespace System::Globalization { class Calendar; }
 
 namespace System::Globalization
 {
+	inline static constexpr unsigned int GregorianCalendar_TypeDefinitionIndex = 749;
+
 	class GregorianCalendar : public ::System::Globalization::Calendar
 	{
 	public:

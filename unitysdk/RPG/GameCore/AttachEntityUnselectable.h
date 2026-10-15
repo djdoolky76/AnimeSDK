@@ -10,6 +10,8 @@ namespace RPG::GameCore { class AttachEntityUnselectable; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AttachEntityUnselectable_TypeDefinitionIndex = 22721;
+
 	class AttachEntityUnselectable : public ::RPG::GameCore::TaskConfig
 	{
 	public:

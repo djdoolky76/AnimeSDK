@@ -16,6 +16,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PrefabLoadMeta_WeakAssetReferenceList_TypeDefinitionIndex = 72856;
+
 	class PrefabLoadMeta_WeakAssetReferenceList : public ::System::Object
 	{
 	public:

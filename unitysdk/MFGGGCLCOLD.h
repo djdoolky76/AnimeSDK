@@ -27,6 +27,8 @@ namespace UnityEngine { class Transform; }
 #define MFGGGCLCOLD_ODMCPHCGJNM_OFFSET UNITYSDK_OFFSET(0xB8F6A80)
 #define MFGGGCLCOLD_OIOEJBOGGBL_OFFSET UNITYSDK_OFFSET(0xB8F65E0)
 
+inline static constexpr unsigned int MFGGGCLCOLD_TypeDefinitionIndex = 62171;
+
 	class MFGGGCLCOLD : public ::System::Object
 	{
 	public:

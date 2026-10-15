@@ -18,6 +18,8 @@ namespace System::Xml::Schema { class XmlValueConverter; }
 
 namespace System::Xml::Schema
 {
+	inline static constexpr unsigned int XmlMiscConverter_TypeDefinitionIndex = 2227;
+
 	class XmlMiscConverter : public ::System::Xml::Schema::XmlBaseConverter
 	{
 	public:

@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FiveDimModule_OverridableVariable_1_TypeDefinitionIndex = 64209;
+
 	template <typename T>
 	struct alignas(8) FiveDimModule_OverridableVariable_1
 	{

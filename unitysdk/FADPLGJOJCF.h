@@ -5,6 +5,8 @@ namespace System::Collections::Generic { template <typename T> class LinkedListN
 namespace System::Collections::Generic { template <typename T> class LinkedList_1; }
 namespace System::Collections::Generic { template <typename T> class Queue_1; }
 
+inline static constexpr unsigned int FADPLGJOJCF_TypeDefinitionIndex = 43843;
+
 	class FADPLGJOJCF : public ::System::Object
 	{
 	public:

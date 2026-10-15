@@ -9,6 +9,8 @@ namespace RPG::GameCore { class GameEntity; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PartialFlipDeviceComponent___c__DisplayClass30_0_TypeDefinitionIndex = 73322;
+
 	class PartialFlipDeviceComponent___c__DisplayClass30_0 : public ::System::Object
 	{
 	public:

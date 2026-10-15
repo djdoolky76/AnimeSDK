@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierReplaceStyleGiftRarityWeightMapConf
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierReplaceStyleGiftRarityWeightMapConfig_TypeDefinitionIndex = 17809;
+
 	class RogueModifierReplaceStyleGiftRarityWeightMapConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

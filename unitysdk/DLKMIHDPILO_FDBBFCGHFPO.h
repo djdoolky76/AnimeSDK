@@ -6,6 +6,8 @@
 
 #define DLKMIHDPILO_FDBBFCGHFPO_CTOR_OFFSET UNITYSDK_OFFSET(0xF8A3760)
 
+inline static constexpr unsigned int DLKMIHDPILO_FDBBFCGHFPO_TypeDefinitionIndex = 76808;
+
 	class DLKMIHDPILO_FDBBFCGHFPO : public ::System::Object
 	{
 	public:

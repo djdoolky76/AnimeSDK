@@ -15,6 +15,8 @@ namespace UnityEngine { class Transform; }
 #define POKLKMOKPJC_OINBDMGFFJL_OFFSET UNITYSDK_OFFSET(0xC36E810)
 #define POKLKMOKPJC_PHJILFCMIBF_OFFSET UNITYSDK_OFFSET(0xC36E7B0)
 
+inline static constexpr unsigned int POKLKMOKPJC_TypeDefinitionIndex = 69990;
+
 	class POKLKMOKPJC : public ::System::Object
 	{
 	public:

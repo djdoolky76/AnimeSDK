@@ -37,6 +37,8 @@ namespace System { class String; }
 #define JNEODFOHENL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E795C70)
 #define JNEODFOHENL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E795CD0)
 
+inline static constexpr unsigned int JNEODFOHENL_TypeDefinitionIndex = 26730;
+
 	class JNEODFOHENL : public ::System::Object
 	{
 	public:

@@ -27,6 +27,8 @@ namespace UnityEngine::UI { class Button; }
 #define CFPDOGGNJNB_PLHLGOGMKKL_OFFSET UNITYSDK_OFFSET(0xCC5A430)
 #define CFPDOGGNJNB__ONBIND_OFFSET UNITYSDK_OFFSET(0xCC59DD0)
 
+inline static constexpr unsigned int CFPDOGGNJNB_TypeDefinitionIndex = 71650;
+
 	class CFPDOGGNJNB : public ::FMPCODLIOLG
 	{
 	public:

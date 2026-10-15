@@ -31,6 +31,8 @@ namespace System { class String; }
 #define NGFMHDPLLEC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB0D490)
 #define NGFMHDPLLEC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB0D4F0)
 
+inline static constexpr unsigned int NGFMHDPLLEC_TypeDefinitionIndex = 34248;
+
 	class NGFMHDPLLEC : public ::System::Object
 	{
 	public:

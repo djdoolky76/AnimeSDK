@@ -36,6 +36,8 @@ namespace System { class String; }
 
 namespace Proto
 {
+	inline static constexpr unsigned int GetRaidInfoScRsp_TypeDefinitionIndex = 32390;
+
 	class GetRaidInfoScRsp : public ::System::Object
 	{
 	public:

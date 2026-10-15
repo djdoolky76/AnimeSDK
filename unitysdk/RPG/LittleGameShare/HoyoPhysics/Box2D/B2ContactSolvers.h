@@ -57,6 +57,8 @@ namespace System::Numerics { class Vector; }
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
+	inline static constexpr unsigned int B2ContactSolvers_TypeDefinitionIndex = 36632;
+
 	class B2ContactSolvers : public ::System::Object
 	{
 	public:

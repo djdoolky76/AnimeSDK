@@ -10,6 +10,8 @@ namespace RPG::Client::Promises { class Promise; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FiveDimModule___c__DisplayClass3_0_TypeDefinitionIndex = 64212;
+
 	class FiveDimModule___c__DisplayClass3_0 : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace RPG::GameCore { class MatchThreeV2BirdRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MatchThreeV2BirdRow_TypeDefinitionIndex = 11946;
+
 	class MatchThreeV2BirdRow : public ::System::Object
 	{
 	public:

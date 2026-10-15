@@ -68,6 +68,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define AKNPMJGCKOM_OMPCNOJIMIJ_OFFSET UNITYSDK_OFFSET(0x1C590040)
 #define AKNPMJGCKOM_OOKCKONPBFP_OFFSET UNITYSDK_OFFSET(0x1C592C40)
 
+inline static constexpr unsigned int AKNPMJGCKOM_TypeDefinitionIndex = 36510;
+
 	class AKNPMJGCKOM : public ::System::Object
 	{
 	public:

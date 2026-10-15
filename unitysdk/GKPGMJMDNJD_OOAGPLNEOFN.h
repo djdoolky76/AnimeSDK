@@ -6,6 +6,8 @@ namespace System { class Action; }
 
 #define GKPGMJMDNJD_OOAGPLNEOFN_CTOR_OFFSET UNITYSDK_OFFSET(0x15AA9190)
 
+inline static constexpr unsigned int GKPGMJMDNJD_OOAGPLNEOFN_TypeDefinitionIndex = 71762;
+
 	class GKPGMJMDNJD_OOAGPLNEOFN : public ::System::Object
 	{
 	public:

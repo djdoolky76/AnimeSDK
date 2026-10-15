@@ -15,6 +15,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int CharacterDitherClip_TypeDefinitionIndex = 47945;
+
 	class CharacterDitherClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

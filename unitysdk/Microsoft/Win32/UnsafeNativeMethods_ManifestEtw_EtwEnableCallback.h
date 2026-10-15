@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace Microsoft::Win32
 {
+	inline static constexpr unsigned int UnsafeNativeMethods_ManifestEtw_EtwEnableCallback_TypeDefinitionIndex = 93;
+
 	class UnsafeNativeMethods_ManifestEtw_EtwEnableCallback : public ::System::MulticastDelegate
 	{
 	public:

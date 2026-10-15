@@ -43,6 +43,8 @@ namespace UnityEngine { class Transform; }
 #define HCHGAEGOFBO_NKEHCELIDHG_OFFSET UNITYSDK_OFFSET(0x15C1C460)
 #define HCHGAEGOFBO_PLOGHCKKPII_OFFSET UNITYSDK_OFFSET(0x15C1EDB0)
 
+inline static constexpr unsigned int HCHGAEGOFBO_TypeDefinitionIndex = 57460;
+
 	class HCHGAEGOFBO : public ::System::Object
 	{
 	public:

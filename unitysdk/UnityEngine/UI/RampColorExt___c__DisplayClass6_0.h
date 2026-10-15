@@ -5,6 +5,8 @@ namespace UnityEngine::Pooled { template <typename T> class PooledList_1; }
 
 namespace UnityEngine::UI
 {
+	inline static constexpr unsigned int RampColorExt___c__DisplayClass6_0_TypeDefinitionIndex = 6805;
+
 	struct alignas(8) RampColorExt___c__DisplayClass6_0
 	{
 		::UnityEngine::Pooled::PooledList_1<::UnityEngine::UIVertex>* vertices; // 0x10

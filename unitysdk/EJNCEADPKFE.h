@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int EJNCEADPKFE_TypeDefinitionIndex = 28516;
+
 	enum class EJNCEADPKFE : ::System::Int32
 	{
 		NLCDGIPGFDJ = 0,

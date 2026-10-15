@@ -10,6 +10,8 @@ namespace RPG::GameCore { class PingPongLevelAddPointCmptConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PingPongLevelAddPointCmptConfig_TypeDefinitionIndex = 18942;
+
 	class PingPongLevelAddPointCmptConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
 	public:

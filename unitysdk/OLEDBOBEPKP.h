@@ -6,6 +6,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define OLEDBOBEPKP_CTOR_OFFSET UNITYSDK_OFFSET(0x1C7D7BB0)
 
+inline static constexpr unsigned int OLEDBOBEPKP_TypeDefinitionIndex = 37253;
+
 	class OLEDBOBEPKP : public ::System::Object
 	{
 	public:

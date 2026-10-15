@@ -10,6 +10,8 @@ namespace RPG::GameCore { class MissionChronicleFinishConclusionRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MissionChronicleFinishConclusionRow_TypeDefinitionIndex = 14125;
+
 	class MissionChronicleFinishConclusionRow : public ::System::Object
 	{
 	public:

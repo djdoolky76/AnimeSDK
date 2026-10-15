@@ -15,6 +15,8 @@ namespace UnityEngine::Formats::Alembic::Util { class AlembicRecorder_MeshBuffer
 
 namespace UnityEngine::Formats::Alembic::Util
 {
+	inline static constexpr unsigned int AlembicRecorder_SkinnedMeshCapturer_TypeDefinitionIndex = 45773;
+
 	class AlembicRecorder_SkinnedMeshCapturer : public ::UnityEngine::Formats::Alembic::Util::ComponentCapturer
 	{
 	public:

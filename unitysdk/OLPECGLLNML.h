@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define OLPECGLLNML_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D29CAE0)
 #define OLPECGLLNML_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D29C480)
 
+inline static constexpr unsigned int OLPECGLLNML_TypeDefinitionIndex = 11564;
+
 	class OLPECGLLNML : public ::System::Object
 	{
 	public:

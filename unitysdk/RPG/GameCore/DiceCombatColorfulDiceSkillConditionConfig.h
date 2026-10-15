@@ -11,6 +11,8 @@ namespace RPG::GameCore { class DiceCombatPredicateConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DiceCombatColorfulDiceSkillConditionConfig_TypeDefinitionIndex = 16128;
+
 	class DiceCombatColorfulDiceSkillConditionConfig : public ::RPG::GameCore::DiceCombatTaskConfig
 	{
 	public:

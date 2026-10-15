@@ -22,6 +22,8 @@ namespace System { class String; }
 
 namespace RPG::Client::FateRin::Battle
 {
+	inline static constexpr unsigned int FateRinPrepareBattleFriendAreaViewModel_TypeDefinitionIndex = 80979;
+
 	class FateRinPrepareBattleFriendAreaViewModel : public ::System::Object
 	{
 	public:

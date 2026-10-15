@@ -3,6 +3,8 @@
 
 namespace System::Security::Cryptography::X509Certificates
 {
+	inline static constexpr unsigned int X509RevocationMode_TypeDefinitionIndex = 2685;
+
 	enum class X509RevocationMode : ::System::Int32
 	{
 		NoCheck = 0,

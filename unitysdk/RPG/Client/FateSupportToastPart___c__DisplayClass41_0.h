@@ -10,6 +10,8 @@ namespace RPG::Client { class ScheduleData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FateSupportToastPart___c__DisplayClass41_0_TypeDefinitionIndex = 64165;
+
 	class FateSupportToastPart___c__DisplayClass41_0 : public ::System::Object
 	{
 	public:

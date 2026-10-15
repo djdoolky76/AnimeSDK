@@ -14,6 +14,8 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoBodyControlIK_JAOHHHGCDLJ_TypeDefinitionIndex = 68533;
+
 	class MonoBodyControlIK_JAOHHHGCDLJ : public ::System::Object
 	{
 	public:

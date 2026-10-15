@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ENpcA07Row_TypeDefinitionIndex = 13248;
+
 	class ENpcA07Row : public ::System::Object
 	{
 	public:

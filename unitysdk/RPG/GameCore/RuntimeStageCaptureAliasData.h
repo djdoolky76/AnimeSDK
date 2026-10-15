@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RuntimeStageCaptureAliasData_TypeDefinitionIndex = 19166;
+
 	class RuntimeStageCaptureAliasData : public ::RPG::GameCore::JsonConfig
 	{
 	public:

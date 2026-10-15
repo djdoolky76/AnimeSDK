@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ToastPile_TypeDefinitionIndex = 23754;
+
 	class ToastPile : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -8,6 +8,8 @@ namespace UnityEngine { class Animator; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BridgeChildAnimator_TypeDefinitionIndex = 70279;
+
 	class BridgeChildAnimator : public ::System::Object
 	{
 	public:

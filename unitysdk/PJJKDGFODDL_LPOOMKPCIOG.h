@@ -7,6 +7,8 @@ namespace System { class String; }
 
 #define PJJKDGFODDL_LPOOMKPCIOG_CTOR_OFFSET UNITYSDK_OFFSET(0xC290270)
 
+inline static constexpr unsigned int PJJKDGFODDL_LPOOMKPCIOG_TypeDefinitionIndex = 75634;
+
 	class PJJKDGFODDL_LPOOMKPCIOG : public ::System::Object
 	{
 	public:

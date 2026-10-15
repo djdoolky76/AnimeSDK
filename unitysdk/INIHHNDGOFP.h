@@ -10,6 +10,8 @@ namespace RPG::AvatarSystem::Property { template <typename T> class IPropertyMod
 #define INIHHNDGOFP_CTOR_OFFSET UNITYSDK_OFFSET(0x164EF8E0)
 #define INIHHNDGOFP_GETMODIFIER_OFFSET UNITYSDK_OFFSET(0x164EF8F0)
 
+inline static constexpr unsigned int INIHHNDGOFP_TypeDefinitionIndex = 51994;
+
 	class INIHHNDGOFP : public ::System::Object
 	{
 	public:

@@ -4,6 +4,8 @@
 namespace System { class Action; }
 namespace System { class Object; }
 
+inline static constexpr unsigned int DDHHGGNLMHN___c__0_2_TypeDefinitionIndex = 49912;
+
 	template <typename T1, typename T2>
 	class DDHHGGNLMHN___c__0_2 : public ::System::Object
 	{

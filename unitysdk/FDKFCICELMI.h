@@ -7,6 +7,8 @@ class OOCCBMLAELL;
 
 #define FDKFCICELMI_CTOR_OFFSET UNITYSDK_OFFSET(0x156DDE00)
 
+inline static constexpr unsigned int FDKFCICELMI_TypeDefinitionIndex = 80587;
+
 	class FDKFCICELMI : public ::System::Object
 	{
 	public:

@@ -31,6 +31,8 @@ namespace System { class String; }
 #define NFNMMFBJBLC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB07E30)
 #define NFNMMFBJBLC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB07E90)
 
+inline static constexpr unsigned int NFNMMFBJBLC_TypeDefinitionIndex = 33095;
+
 	class NFNMMFBJBLC : public ::System::Object
 	{
 	public:

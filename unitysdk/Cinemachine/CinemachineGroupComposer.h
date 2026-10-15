@@ -23,6 +23,8 @@ namespace Cinemachine { class ICinemachineTargetGroup; }
 
 namespace Cinemachine
 {
+	inline static constexpr unsigned int CinemachineGroupComposer_TypeDefinitionIndex = 39776;
+
 	class CinemachineGroupComposer : public ::Cinemachine::CinemachineComposer
 	{
 	public:

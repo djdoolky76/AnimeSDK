@@ -5,6 +5,8 @@
 
 #define AGAGFKKIBFM_CTOR_OFFSET UNITYSDK_OFFSET(0x1C881890)
 
+inline static constexpr unsigned int AGAGFKKIBFM_TypeDefinitionIndex = 43331;
+
 	class AGAGFKKIBFM : public ::System::Object
 	{
 	public:

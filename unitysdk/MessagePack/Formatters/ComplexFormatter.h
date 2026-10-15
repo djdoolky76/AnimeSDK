@@ -14,6 +14,8 @@ namespace MessagePack::Formatters { class IMessagePackFormatter; }
 
 namespace MessagePack::Formatters
 {
+	inline static constexpr unsigned int ComplexFormatter_TypeDefinitionIndex = 7496;
+
 	class ComplexFormatter : public ::System::Object
 	{
 	public:

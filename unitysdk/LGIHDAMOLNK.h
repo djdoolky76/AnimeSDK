@@ -27,6 +27,8 @@ namespace UnityEngine::UI { class Text; }
 #define LGIHDAMOLNK__ONDISPOSE_OFFSET UNITYSDK_OFFSET(0xB6992F0)
 #define LGIHDAMOLNK__ONTICK_OFFSET UNITYSDK_OFFSET(0xB6991A0)
 
+inline static constexpr unsigned int LGIHDAMOLNK_TypeDefinitionIndex = 72156;
+
 	class LGIHDAMOLNK : public ::FMPCODLIOLG
 	{
 	public:

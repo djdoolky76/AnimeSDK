@@ -8,6 +8,8 @@ namespace XLua { class ObjectCheck; }
 
 namespace XLua
 {
+	inline static constexpr unsigned int ObjectCheckers___c__DisplayClass15_0_TypeDefinitionIndex = 50235;
+
 	class ObjectCheckers___c__DisplayClass15_0 : public ::System::Object
 	{
 	public:

@@ -18,6 +18,8 @@ namespace UnityEngine::UI { class TouchFilter; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AlleyEventTriggerListener_TypeDefinitionIndex = 72498;
+
 	class AlleyEventTriggerListener : public ::RPG::Client::EventTriggerListener
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System { class Nullable; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UIFrameCaptureParam_TypeDefinitionIndex = 73067;
+
 	class UIFrameCaptureParam : public ::System::Object
 	{
 	public:

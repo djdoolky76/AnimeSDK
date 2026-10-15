@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define GNPHBDACNLK_FILTER_OFFSET UNITYSDK_OFFSET(0x1CAB5050)
 #define GNPHBDACNLK_GETTRIGGER_OFFSET UNITYSDK_OFFSET(0x1CAB4F30)
 
+inline static constexpr unsigned int GNPHBDACNLK_TypeDefinitionIndex = 42876;
+
 	class GNPHBDACNLK
 	{
 	public:

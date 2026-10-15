@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TransitEnvProfile; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TransitEnvProfile_TypeDefinitionIndex = 20753;
+
 	class TransitEnvProfile : public ::RPG::GameCore::TaskConfig
 	{
 	public:

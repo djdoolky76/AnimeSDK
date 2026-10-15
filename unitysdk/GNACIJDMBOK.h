@@ -141,6 +141,8 @@ namespace UnityEngine { class Transform; }
 #define GNACIJDMBOK_PPJHGAAIPDM_OFFSET UNITYSDK_OFFSET(0x15AEC630)
 #define GNACIJDMBOK_SET_ISROOM2DBRICKPOSITIONFROZEN_OFFSET UNITYSDK_OFFSET(0x15ADE750)
 
+inline static constexpr unsigned int GNACIJDMBOK_TypeDefinitionIndex = 76720;
+
 	class GNACIJDMBOK : public ::System::Object
 	{
 	public:

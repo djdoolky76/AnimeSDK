@@ -8,6 +8,8 @@ namespace System { class Object; }
 
 namespace RPG::Client::FateRin
 {
+	inline static constexpr unsigned int FateRinHost___c__DisplayClass23_1_TypeDefinitionIndex = 80529;
+
 	template <typename T>
 	class FateRinHost___c__DisplayClass23_1 : public ::System::Object
 	{

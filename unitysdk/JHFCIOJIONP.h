@@ -9,6 +9,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define JHFCIOJIONP_DOGONNEEEOI_OFFSET UNITYSDK_OFFSET(0xB1AFCD0)
 #define JHFCIOJIONP_HDNHBCHJMLN_OFFSET UNITYSDK_OFFSET(0xB1AFD90)
 
+inline static constexpr unsigned int JHFCIOJIONP_TypeDefinitionIndex = 57814;
+
 	class JHFCIOJIONP : public ::System::Object
 	{
 	public:

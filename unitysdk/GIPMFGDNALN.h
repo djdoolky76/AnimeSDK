@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define GIPMFGDNALN_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CE53DD0)
 #define GIPMFGDNALN_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CE53730)
 
+inline static constexpr unsigned int GIPMFGDNALN_TypeDefinitionIndex = 14148;
+
 	class GIPMFGDNALN : public ::System::Object
 	{
 	public:

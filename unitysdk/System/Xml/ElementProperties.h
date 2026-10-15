@@ -3,6 +3,8 @@
 
 namespace System::Xml
 {
+	inline static constexpr unsigned int ElementProperties_TypeDefinitionIndex = 1822;
+
 	enum class ElementProperties : ::System::UInt32
 	{
 		DEFAULT = 0,

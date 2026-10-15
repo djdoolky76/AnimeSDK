@@ -31,6 +31,8 @@ namespace System { class String; }
 #define FBLEHOCIBOG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E338670)
 #define FBLEHOCIBOG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E3386D0)
 
+inline static constexpr unsigned int FBLEHOCIBOG_TypeDefinitionIndex = 30470;
+
 	class FBLEHOCIBOG : public ::System::Object
 	{
 	public:

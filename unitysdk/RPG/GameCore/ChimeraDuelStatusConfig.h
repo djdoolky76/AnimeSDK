@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ChimeraDuelStatusConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChimeraDuelStatusConfig_TypeDefinitionIndex = 16006;
+
 	class ChimeraDuelStatusConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

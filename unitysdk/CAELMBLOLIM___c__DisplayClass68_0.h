@@ -8,6 +8,8 @@ namespace System { class Action; }
 #define CAELMBLOLIM___C__DISPLAYCLASS68_0__OPENSCREENTRANSFER_B__0_OFFSET UNITYSDK_OFFSET(0xC47A4A0)
 #define CAELMBLOLIM___C__DISPLAYCLASS68_0__OPENSCREENTRANSFER_B__1_OFFSET UNITYSDK_OFFSET(0xC47A5D0)
 
+inline static constexpr unsigned int CAELMBLOLIM___c__DisplayClass68_0_TypeDefinitionIndex = 60562;
+
 	class CAELMBLOLIM___c__DisplayClass68_0 : public ::System::Object
 	{
 	public:

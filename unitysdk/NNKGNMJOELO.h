@@ -62,6 +62,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define NNKGNMJOELO_OHPAIAIFMBD_OFFSET UNITYSDK_OFFSET(0xBCC6360)
 #define NNKGNMJOELO_PJOPBMJGNDO_OFFSET UNITYSDK_OFFSET(0xBCC7530)
 
+inline static constexpr unsigned int NNKGNMJOELO_TypeDefinitionIndex = 77752;
+
 	class NNKGNMJOELO : public ::System::Object
 	{
 	public:

@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PlayMissionTalk_TypeDefinitionIndex = 23807;
+
 	class PlayMissionTalk : public ::RPG::GameCore::SimpleTalkListConfig
 	{
 	public:

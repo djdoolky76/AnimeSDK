@@ -20,6 +20,8 @@ class JKKOAAANPGL;
 #define MEECIBKNKBP_PDGPHCPLDHC_OFFSET UNITYSDK_OFFSET(0xB8BD3D0)
 #define MEECIBKNKBP_PFCODDKFPLF_OFFSET UNITYSDK_OFFSET(0xB8BD600)
 
+inline static constexpr unsigned int MEECIBKNKBP_TypeDefinitionIndex = 79109;
+
 	class MEECIBKNKBP : public ::System::Object
 	{
 	public:

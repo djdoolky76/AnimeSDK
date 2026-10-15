@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define GLALEJAPDEK__SYNC_B__1_0_OFFSET UNITYSDK_OFFSET(0x15AAA120)
 #define GLALEJAPDEK__SYNC_B__1_1_OFFSET UNITYSDK_OFFSET(0x15AAA150)
 
+inline static constexpr unsigned int GLALEJAPDEK_TypeDefinitionIndex = 67211;
+
 	class GLALEJAPDEK : public ::System::Object
 	{
 	public:

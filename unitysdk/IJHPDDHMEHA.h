@@ -18,6 +18,8 @@ namespace UnityEngine { class Transform; }
 #define IJHPDDHMEHA_NJBDJBHEBAN_OFFSET UNITYSDK_OFFSET(0x16468F30)
 #define IJHPDDHMEHA_NKPPGDENJAE_OFFSET UNITYSDK_OFFSET(0x16468B40)
 
+inline static constexpr unsigned int IJHPDDHMEHA_TypeDefinitionIndex = 72748;
+
 	class IJHPDDHMEHA : public ::System::Object
 	{
 	public:

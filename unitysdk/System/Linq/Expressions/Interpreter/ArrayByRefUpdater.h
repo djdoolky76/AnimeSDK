@@ -13,6 +13,8 @@ namespace System::Linq::Expressions::Interpreter { class LocalVariables; }
 
 namespace System::Linq::Expressions::Interpreter
 {
+	inline static constexpr unsigned int ArrayByRefUpdater_TypeDefinitionIndex = 3490;
+
 	class ArrayByRefUpdater : public ::System::Linq::Expressions::Interpreter::ByRefUpdater
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ShowBattleEventButton; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ShowBattleEventButton_TypeDefinitionIndex = 22942;
+
 	class ShowBattleEventButton : public ::RPG::GameCore::TaskConfig
 	{
 	public:

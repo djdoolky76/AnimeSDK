@@ -6,6 +6,8 @@ namespace System { class String; }
 
 #define PCPOMAGBCPH_CCTOR_OFFSET UNITYSDK_OFFSET(0x1C9A4F80)
 
+inline static constexpr unsigned int PCPOMAGBCPH_TypeDefinitionIndex = 42785;
+
 	class PCPOMAGBCPH : public ::System::Object
 	{
 	public:

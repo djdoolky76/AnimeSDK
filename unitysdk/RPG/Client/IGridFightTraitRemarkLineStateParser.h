@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int IGridFightTraitRemarkLineStateParser_TypeDefinitionIndex = 65481;
+
 	class IGridFightTraitRemarkLineStateParser
 	{
 	public:

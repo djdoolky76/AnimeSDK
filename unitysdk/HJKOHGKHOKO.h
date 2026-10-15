@@ -5,6 +5,8 @@
 #define HJKOHGKHOKO_CTOR_OFFSET UNITYSDK_OFFSET(0x15D2BFA0)
 #define HJKOHGKHOKO_DNFGFHMNDEF_OFFSET UNITYSDK_OFFSET(0x15D2BFE0)
 
+inline static constexpr unsigned int HJKOHGKHOKO_TypeDefinitionIndex = 68938;
+
 	class HJKOHGKHOKO : public ::FKJEJCFGKNJ
 	{
 	public:

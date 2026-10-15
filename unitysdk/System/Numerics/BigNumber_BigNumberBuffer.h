@@ -6,6 +6,8 @@ namespace System::Text { class StringBuilder; }
 
 namespace System::Numerics
 {
+	inline static constexpr unsigned int BigNumber_BigNumberBuffer_TypeDefinitionIndex = 3841;
+
 	struct alignas(8) BigNumber_BigNumberBuffer
 	{
 		::System::Text::StringBuilder* digits; // 0x10

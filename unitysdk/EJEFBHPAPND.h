@@ -28,6 +28,8 @@ namespace System { class String; }
 #define EJEFBHPAPND_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E2B4350)
 #define EJEFBHPAPND_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E2B43B0)
 
+inline static constexpr unsigned int EJEFBHPAPND_TypeDefinitionIndex = 25220;
+
 	class EJEFBHPAPND : public ::System::Object
 	{
 	public:

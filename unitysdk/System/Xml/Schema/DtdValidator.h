@@ -10,6 +10,8 @@ namespace System::Xml::Schema { class SchemaAttDef; }
 
 namespace System::Xml::Schema
 {
+	inline static constexpr unsigned int DtdValidator_TypeDefinitionIndex = 2153;
+
 	class DtdValidator : public ::System::Xml::Schema::BaseValidator
 	{
 	public:

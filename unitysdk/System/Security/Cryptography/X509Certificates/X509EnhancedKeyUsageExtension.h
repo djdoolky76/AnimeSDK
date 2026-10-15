@@ -13,6 +13,8 @@ namespace System::Security::Cryptography { class OidCollection; }
 
 namespace System::Security::Cryptography::X509Certificates
 {
+	inline static constexpr unsigned int X509EnhancedKeyUsageExtension_TypeDefinitionIndex = 2706;
+
 	class X509EnhancedKeyUsageExtension : public ::System::Security::Cryptography::X509Certificates::X509Extension
 	{
 	public:

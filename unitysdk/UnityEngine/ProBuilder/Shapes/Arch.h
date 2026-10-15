@@ -15,6 +15,8 @@ namespace UnityEngine::ProBuilder::Shapes { class Shape; }
 
 namespace UnityEngine::ProBuilder::Shapes
 {
+	inline static constexpr unsigned int Arch_TypeDefinitionIndex = 44458;
+
 	class Arch : public ::UnityEngine::ProBuilder::Shapes::Shape
 	{
 	public:

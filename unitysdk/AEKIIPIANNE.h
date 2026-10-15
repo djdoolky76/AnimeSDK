@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define AEKIIPIANNE_CTOR_OFFSET UNITYSDK_OFFSET(0xCF01160)
 #define AEKIIPIANNE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xCF01190)
 
+inline static constexpr unsigned int AEKIIPIANNE_TypeDefinitionIndex = 57962;
+
 	class AEKIIPIANNE
 	{
 	public:

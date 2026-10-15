@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define HAGAFPDHLCK_SECTION_LDJOPFFEMDP_OFFSET UNITYSDK_OFFSET(0x15B75FB0)
 #define HAGAFPDHLCK_SECTION_NBHCPBBGAKA_OFFSET UNITYSDK_OFFSET(0x15B760B0)
 
+inline static constexpr unsigned int HAGAFPDHLCK_Section_TypeDefinitionIndex = 73632;
+
 	class HAGAFPDHLCK_Section : public ::System::Object
 	{
 	public:

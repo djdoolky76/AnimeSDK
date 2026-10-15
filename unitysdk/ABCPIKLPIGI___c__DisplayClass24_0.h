@@ -6,6 +6,8 @@ class GLDDJECCBAO;
 #define ABCPIKLPIGI___C__DISPLAYCLASS24_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB0F0170)
 #define ABCPIKLPIGI___C__DISPLAYCLASS24_0___REMOVEEDGEFROMADJACENCYLIST_B__0_OFFSET UNITYSDK_OFFSET(0xB0F0180)
 
+inline static constexpr unsigned int ABCPIKLPIGI___c__DisplayClass24_0_TypeDefinitionIndex = 74603;
+
 	class ABCPIKLPIGI___c__DisplayClass24_0 : public ::System::Object
 	{
 	public:

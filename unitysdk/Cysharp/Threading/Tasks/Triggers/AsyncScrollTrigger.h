@@ -14,6 +14,8 @@ namespace UnityEngine::EventSystems { class PointerEventData; }
 
 namespace Cysharp::Threading::Tasks::Triggers
 {
+	inline static constexpr unsigned int AsyncScrollTrigger_TypeDefinitionIndex = 38645;
+
 	class AsyncScrollTrigger
 	{
 	public:

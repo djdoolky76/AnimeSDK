@@ -7,6 +7,8 @@ namespace System::Reflection { class Assembly; }
 
 namespace System
 {
+	inline static constexpr unsigned int AssemblyLoadEventArgs_TypeDefinitionIndex = 380;
+
 	class AssemblyLoadEventArgs : public ::System::EventArgs
 	{
 	public:

@@ -4,6 +4,8 @@ class NPGCEFKJOIN;
 
 #define NKACLCFEGIB_JPEEKAAOCHI_OFFSET UNITYSDK_OFFSET(0x3C30170)
 
+inline static constexpr unsigned int NKACLCFEGIB_TypeDefinitionIndex = 42175;
+
 	struct alignas(8) NKACLCFEGIB
 	{
 		::System::UInt32 FDKPCNBCGEG; // 0x10

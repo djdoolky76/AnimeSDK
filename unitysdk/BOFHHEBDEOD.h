@@ -27,6 +27,8 @@ namespace System { class String; }
 #define BOFHHEBDEOD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E039C60)
 #define BOFHHEBDEOD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E039CC0)
 
+inline static constexpr unsigned int BOFHHEBDEOD_TypeDefinitionIndex = 25748;
+
 	class BOFHHEBDEOD : public ::System::Object
 	{
 	public:

@@ -40,6 +40,8 @@ namespace System { class String; }
 #define NMECHIFGKAD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB703F0)
 #define NMECHIFGKAD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB70450)
 
+inline static constexpr unsigned int NMECHIFGKAD_TypeDefinitionIndex = 29673;
+
 	class NMECHIFGKAD : public ::System::Object
 	{
 	public:

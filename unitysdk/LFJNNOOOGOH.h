@@ -67,6 +67,8 @@ namespace System { class String; }
 #define LFJNNOOOGOH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E940230)
 #define LFJNNOOOGOH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E940290)
 
+inline static constexpr unsigned int LFJNNOOOGOH_TypeDefinitionIndex = 25501;
+
 	class LFJNNOOOGOH : public ::System::Object
 	{
 	public:

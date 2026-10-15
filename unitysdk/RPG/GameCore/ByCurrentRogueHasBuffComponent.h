@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ByCurrentRogueHasBuffComponent; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByCurrentRogueHasBuffComponent_TypeDefinitionIndex = 21044;
+
 	class ByCurrentRogueHasBuffComponent : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

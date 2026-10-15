@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierReplaceContentRogueMagicScepterHint
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierReplaceContentRogueMagicScepterHintConfig_TypeDefinitionIndex = 17712;
+
 	class RogueModifierReplaceContentRogueMagicScepterHintConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

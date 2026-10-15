@@ -8,6 +8,8 @@ namespace System::Security::Util { class TokenizerStringBlock; }
 
 namespace System::Security::Util
 {
+	inline static constexpr unsigned int TokenizerStringBlock_TypeDefinitionIndex = 981;
+
 	class TokenizerStringBlock : public ::System::Object
 	{
 	public:

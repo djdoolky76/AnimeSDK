@@ -9,6 +9,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define ALEHAKONFHF_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15565830)
 #define ALEHAKONFHF_TICK_OFFSET UNITYSDK_OFFSET(0x15565880)
 
+inline static constexpr unsigned int ALEHAKONFHF_TypeDefinitionIndex = 52138;
+
 	class ALEHAKONFHF
 	{
 	public:

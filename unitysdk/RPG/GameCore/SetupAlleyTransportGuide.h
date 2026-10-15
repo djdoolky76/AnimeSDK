@@ -10,6 +10,8 @@ namespace RPG::GameCore { class SetupAlleyTransportGuide; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetupAlleyTransportGuide_TypeDefinitionIndex = 24290;
+
 	class SetupAlleyTransportGuide : public ::RPG::GameCore::TaskConfig
 	{
 	public:

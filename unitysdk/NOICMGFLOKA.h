@@ -27,6 +27,8 @@ namespace System { class String; }
 #define NOICMGFLOKA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB8C450)
 #define NOICMGFLOKA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB8C4B0)
 
+inline static constexpr unsigned int NOICMGFLOKA_TypeDefinitionIndex = 29710;
+
 	class NOICMGFLOKA : public ::System::Object
 	{
 	public:

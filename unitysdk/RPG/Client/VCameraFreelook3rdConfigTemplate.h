@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int VCameraFreelook3rdConfigTemplate_TypeDefinitionIndex = 69754;
+
 	class VCameraFreelook3rdConfigTemplate : public ::UnityEngine::ScriptableObject
 	{
 	public:

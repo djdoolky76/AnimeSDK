@@ -28,6 +28,8 @@ namespace System { class Object; }
 #define MHOEIMBHDGK_PMIOPEECIEL_OFFSET UNITYSDK_OFFSET(0xB9491F0)
 #define MHOEIMBHDGK__ONBIND_OFFSET UNITYSDK_OFFSET(0xB9489F0)
 
+inline static constexpr unsigned int MHOEIMBHDGK_TypeDefinitionIndex = 71885;
+
 	class MHOEIMBHDGK : public ::FMPCODLIOLG
 	{
 	public:

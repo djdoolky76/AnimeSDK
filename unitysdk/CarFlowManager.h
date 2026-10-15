@@ -32,6 +32,8 @@ namespace UnityEngine { class AnimationCurve; }
 #define CARFLOWMANAGER_START_OFFSET UNITYSDK_OFFSET(0xDCE42B0)
 #define CARFLOWMANAGER_UPDATE_OFFSET UNITYSDK_OFFSET(0xDCE42F0)
 
+inline static constexpr unsigned int CarFlowManager_TypeDefinitionIndex = 47072;
+
 	class CarFlowManager : public ::UnityEngine::MonoBehaviour
 	{
 	public:

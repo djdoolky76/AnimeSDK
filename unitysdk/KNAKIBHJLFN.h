@@ -10,6 +10,8 @@ namespace RPG::Client::Promises { class Promise; }
 #define KNAKIBHJLFN_OMAFIJKBPFC_OFFSET UNITYSDK_OFFSET(0xB577450)
 #define KNAKIBHJLFN_PJCLKMEOCJM_OFFSET UNITYSDK_OFFSET(0xB577320)
 
+inline static constexpr unsigned int KNAKIBHJLFN_TypeDefinitionIndex = 73109;
+
 	class KNAKIBHJLFN : public ::ABLGCPNNDLK
 	{
 	public:

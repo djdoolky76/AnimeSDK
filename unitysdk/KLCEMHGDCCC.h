@@ -15,6 +15,8 @@ namespace System::Collections { class IEnumerator; }
 #define KLCEMHGDCCC_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB4E1350)
 #define KLCEMHGDCCC_TICK_OFFSET UNITYSDK_OFFSET(0xB4E1450)
 
+inline static constexpr unsigned int KLCEMHGDCCC_TypeDefinitionIndex = 58849;
+
 	class KLCEMHGDCCC : public ::GELIALJDFBL
 	{
 	public:

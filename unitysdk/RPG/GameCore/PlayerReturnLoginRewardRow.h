@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PlayerReturnLoginRewardRow_TypeDefinitionIndex = 14533;
+
 	class PlayerReturnLoginRewardRow : public ::System::Object
 	{
 	public:

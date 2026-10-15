@@ -8,6 +8,8 @@ class FCOEMCEDLNL;
 #define DCIBDOHGEGL_CTOR_OFFSET UNITYSDK_OFFSET(0x1DCD8AA0)
 #define DCIBDOHGEGL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DCD8790)
 
+inline static constexpr unsigned int DCIBDOHGEGL_TypeDefinitionIndex = 13959;
+
 	class DCIBDOHGEGL : public ::System::Object
 	{
 	public:

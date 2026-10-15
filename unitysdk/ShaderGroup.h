@@ -7,6 +7,8 @@ namespace UnityEngine { class Shader; }
 
 #define SHADERGROUP_CTOR_OFFSET UNITYSDK_OFFSET(0xE968B30)
 
+inline static constexpr unsigned int ShaderGroup_TypeDefinitionIndex = 47550;
+
 	class ShaderGroup : public ::System::Object
 	{
 	public:

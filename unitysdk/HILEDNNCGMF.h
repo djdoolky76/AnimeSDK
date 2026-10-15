@@ -1,6 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
+inline static constexpr unsigned int HILEDNNCGMF_TypeDefinitionIndex = 56037;
+
 	struct alignas(4) HILEDNNCGMF
 	{
 		::System::UInt32 NJIOMOHBILM; // 0x10

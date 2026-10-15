@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RuntimeRegionVolume_TypeDefinitionIndex = 62190;
+
 	class RuntimeRegionVolume : public ::RPG::Client::RegionVolume
 	{
 	public:

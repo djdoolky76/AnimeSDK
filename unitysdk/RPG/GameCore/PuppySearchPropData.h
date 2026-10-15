@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PuppySearchPropData_TypeDefinitionIndex = 17590;
+
 	class PuppySearchPropData : public ::RPG::GameCore::JsonConfig
 	{
 	public:

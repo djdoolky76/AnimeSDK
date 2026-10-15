@@ -6,6 +6,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 
 namespace System::Linq
 {
+	inline static constexpr unsigned int Enumerable__ReverseIterator_d__79_1_TypeDefinitionIndex = 3158;
+
 	template <typename T>
 	class Enumerable__ReverseIterator_d__79_1 : public ::System::Object
 	{

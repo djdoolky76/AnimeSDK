@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define LGALPBAPICA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E948E40)
 #define LGALPBAPICA___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E948E50)
 
+inline static constexpr unsigned int LGALPBAPICA___c_TypeDefinitionIndex = 30520;
+
 	class LGALPBAPICA___c : public ::System::Object
 	{
 	public:

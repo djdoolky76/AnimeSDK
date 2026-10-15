@@ -51,6 +51,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueFinishInfo_TypeDefinitionIndex = 67456;
+
 	class RogueFinishInfo : public ::System::Object
 	{
 	public:

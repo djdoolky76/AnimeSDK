@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int UseSkillErrorCode_TypeDefinitionIndex = 24756;
+
 	enum class UseSkillErrorCode : ::System::Int32
 	{
 		NoError = 0,

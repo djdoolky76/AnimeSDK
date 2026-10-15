@@ -23,6 +23,8 @@ class AkPlaylistItem;
 #define AKPLAYLISTITEM_SET_MSDELAY_OFFSET UNITYSDK_OFFSET(0x1F5B1740)
 #define AKPLAYLISTITEM_SET_PCUSTOMINFO_OFFSET UNITYSDK_OFFSET(0x1F5B18B0)
 
+inline static constexpr unsigned int AkPlaylistItem_TypeDefinitionIndex = 44776;
+
 	class AkPlaylistItem : public ::System::Object
 	{
 	public:

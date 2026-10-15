@@ -11,6 +11,8 @@ namespace RPG::Client::Prop { class ChimeraDuelMainPuzzleMonoStateView; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int ChimeraDuelMainPuzzleMasterSelectState_TypeDefinitionIndex = 78379;
+
 	class ChimeraDuelMainPuzzleMasterSelectState : public ::RPG::Client::Prop::ChimeraDuelMainPuzzleMonoStateBase
 	{
 	public:

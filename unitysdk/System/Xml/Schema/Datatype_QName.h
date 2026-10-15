@@ -27,6 +27,8 @@ namespace System::Xml::Schema { class XmlValueConverter; }
 
 namespace System::Xml::Schema
 {
+	inline static constexpr unsigned int Datatype_QName_TypeDefinitionIndex = 2120;
+
 	class Datatype_QName : public ::System::Xml::Schema::Datatype_anySimpleType
 	{
 	public:

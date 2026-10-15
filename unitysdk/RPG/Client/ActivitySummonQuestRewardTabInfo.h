@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ActivitySummonRewardTabRow; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ActivitySummonQuestRewardTabInfo_TypeDefinitionIndex = 61924;
+
 	class ActivitySummonQuestRewardTabInfo : public ::RPG::Client::CommonActivityQuestRewardTabInfo
 	{
 	public:

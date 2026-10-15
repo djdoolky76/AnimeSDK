@@ -10,6 +10,8 @@ namespace RPG::GameCore { class DiceCombatAIEffectEvaluatorConfig_DicePointInSpe
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DiceCombatAIEffectEvaluatorConfig_DicePointInSpecificRange_TypeDefinitionIndex = 16174;
+
 	class DiceCombatAIEffectEvaluatorConfig_DicePointInSpecificRange : public ::RPG::GameCore::DiceCombatAIEffectEvaluatorConfig
 	{
 	public:

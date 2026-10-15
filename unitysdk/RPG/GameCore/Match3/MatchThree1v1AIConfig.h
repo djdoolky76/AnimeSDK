@@ -12,6 +12,8 @@ namespace RPG::GameCore::Match3 { class MatchThree1v1AIScoreAspectConfig; }
 
 namespace RPG::GameCore::Match3
 {
+	inline static constexpr unsigned int MatchThree1v1AIConfig_TypeDefinitionIndex = 24951;
+
 	class MatchThree1v1AIConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

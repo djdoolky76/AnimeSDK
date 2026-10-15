@@ -11,6 +11,8 @@ namespace System { template <typename T> class Comparison_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AssemNPCConfig___c_TypeDefinitionIndex = 60005;
+
 	class AssemNPCConfig___c : public ::System::Object
 	{
 	public:

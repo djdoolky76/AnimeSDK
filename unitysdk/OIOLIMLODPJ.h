@@ -11,6 +11,8 @@ class NGANFOCANHB;
 #define OIOLIMLODPJ__ONTICK_OFFSET UNITYSDK_OFFSET(0xBEA3CC0)
 #define OIOLIMLODPJ__SETUPVIEW_OFFSET UNITYSDK_OFFSET(0xBEA3A50)
 
+inline static constexpr unsigned int OIOLIMLODPJ_TypeDefinitionIndex = 72328;
+
 	class OIOLIMLODPJ : public ::RPG::Client::UIController
 	{
 	public:

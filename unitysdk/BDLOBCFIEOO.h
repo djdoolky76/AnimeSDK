@@ -4,6 +4,8 @@
 
 #define BDLOBCFIEOO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5A3CA0)
 
+inline static constexpr unsigned int BDLOBCFIEOO_TypeDefinitionIndex = 36455;
+
 	class BDLOBCFIEOO : public ::System::Object
 	{
 	public:

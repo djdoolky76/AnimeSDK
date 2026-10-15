@@ -6,6 +6,8 @@
 
 #define KHHBDDFHACN_CTOR_OFFSET UNITYSDK_OFFSET(0x1CBB81E0)
 
+inline static constexpr unsigned int KHHBDDFHACN_TypeDefinitionIndex = 42245;
+
 	class KHHBDDFHACN : public ::System::Object
 	{
 	public:

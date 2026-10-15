@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define JJGIIBLBDMA_MGKIMDPHINJ_OFFSET UNITYSDK_OFFSET(0xB205290)
 #define JJGIIBLBDMA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB204E50)
 
+inline static constexpr unsigned int JJGIIBLBDMA_TypeDefinitionIndex = 55739;
+
 	class JJGIIBLBDMA
 	{
 	public:

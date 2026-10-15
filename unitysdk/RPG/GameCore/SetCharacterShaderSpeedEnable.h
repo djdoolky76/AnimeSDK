@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetCharacterShaderSpeedEnable_TypeDefinitionIndex = 22952;
+
 	class SetCharacterShaderSpeedEnable : public ::RPG::GameCore::TaskConfig
 	{
 	public:

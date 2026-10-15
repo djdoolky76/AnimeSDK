@@ -9,6 +9,8 @@ namespace RPG::GameCore { class FreeStyleMotionIDToLayerListConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FreeStyleMotionIDToLayerListConfig_TypeDefinitionIndex = 16320;
+
 	class FreeStyleMotionIDToLayerListConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

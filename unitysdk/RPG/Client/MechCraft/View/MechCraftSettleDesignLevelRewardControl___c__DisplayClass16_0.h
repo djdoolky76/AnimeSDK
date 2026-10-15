@@ -9,6 +9,8 @@ namespace RPG::Client::MechCraft::View { class MechCraftSettleDesignLevelRewardC
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftSettleDesignLevelRewardControl___c__DisplayClass16_0_TypeDefinitionIndex = 80029;
+
 	class MechCraftSettleDesignLevelRewardControl___c__DisplayClass16_0 : public ::System::Object
 	{
 	public:

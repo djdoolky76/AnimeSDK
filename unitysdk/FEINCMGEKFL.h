@@ -19,6 +19,8 @@ namespace UnityEngine { class Coroutine; }
 #define FEINCMGEKFL_ONCLEAR_OFFSET UNITYSDK_OFFSET(0x157234D0)
 #define FEINCMGEKFL_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x157230D0)
 
+inline static constexpr unsigned int FEINCMGEKFL_TypeDefinitionIndex = 80853;
+
 	class FEINCMGEKFL : public ::MLKDDLHNNHH
 	{
 	public:

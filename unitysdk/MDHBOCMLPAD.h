@@ -10,6 +10,8 @@ namespace System { class String; }
 #define MDHBOCMLPAD_GET_TYPE_OFFSET UNITYSDK_OFFSET(0xB8A5120)
 #define MDHBOCMLPAD_JAILHGGFLDH_OFFSET UNITYSDK_OFFSET(0xB8A5130)
 
+inline static constexpr unsigned int MDHBOCMLPAD_TypeDefinitionIndex = 56116;
+
 	class MDHBOCMLPAD : public ::DBGDNLLDPFI
 	{
 	public:

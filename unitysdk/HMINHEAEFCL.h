@@ -4,6 +4,8 @@
 
 #define HMINHEAEFCL_CTOR_OFFSET UNITYSDK_OFFSET(0x15D83230)
 
+inline static constexpr unsigned int HMINHEAEFCL_TypeDefinitionIndex = 61264;
+
 	class HMINHEAEFCL : public ::System::Exception
 	{
 	public:

@@ -14,6 +14,8 @@ namespace System::Xml { class XmlTextReaderImpl; }
 
 namespace System::Xml
 {
+	inline static constexpr unsigned int XmlTextReaderImpl_OnDefaultAttributeUseDelegate_TypeDefinitionIndex = 1860;
+
 	class XmlTextReaderImpl_OnDefaultAttributeUseDelegate : public ::System::MulticastDelegate
 	{
 	public:

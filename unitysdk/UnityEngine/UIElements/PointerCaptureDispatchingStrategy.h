@@ -10,6 +10,8 @@ namespace UnityEngine::UIElements { class IPanel; }
 
 namespace UnityEngine::UIElements
 {
+	inline static constexpr unsigned int PointerCaptureDispatchingStrategy_TypeDefinitionIndex = 5973;
+
 	class PointerCaptureDispatchingStrategy : public ::System::Object
 	{
 	public:

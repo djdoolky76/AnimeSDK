@@ -6,6 +6,8 @@ class PMOEBFOHLFO;
 
 #define KPGLFOJHJAD_JBFGDCFKHLM_CTOR_OFFSET UNITYSDK_OFFSET(0xB5BC9E0)
 
+inline static constexpr unsigned int KPGLFOJHJAD_JBFGDCFKHLM_TypeDefinitionIndex = 71838;
+
 	class KPGLFOJHJAD_JBFGDCFKHLM : public ::System::Object
 	{
 	public:

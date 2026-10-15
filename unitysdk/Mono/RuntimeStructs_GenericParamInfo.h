@@ -3,6 +3,8 @@
 
 namespace Mono
 {
+	inline static constexpr unsigned int RuntimeStructs_GenericParamInfo_TypeDefinitionIndex = 15;
+
 	struct alignas(8) RuntimeStructs_GenericParamInfo
 	{
 		::PVOID pklass; // 0x10

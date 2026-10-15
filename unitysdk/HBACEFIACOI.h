@@ -29,6 +29,8 @@ namespace System { class String; }
 #define HBACEFIACOI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E50BF70)
 #define HBACEFIACOI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E50BFD0)
 
+inline static constexpr unsigned int HBACEFIACOI_TypeDefinitionIndex = 34760;
+
 	class HBACEFIACOI : public ::System::Object
 	{
 	public:

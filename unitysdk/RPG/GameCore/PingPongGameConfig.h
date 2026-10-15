@@ -18,6 +18,8 @@ namespace RPG::GameCore { class PingPongSkillConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PingPongGameConfig_TypeDefinitionIndex = 16975;
+
 	class PingPongGameConfig : public ::RPG::GameCore::LittleGameConstConfig
 	{
 	public:

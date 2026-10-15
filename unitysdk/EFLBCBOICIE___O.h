@@ -5,6 +5,8 @@
 class OBDNNGAILDC;
 namespace System { template <typename T1, typename T2, typename T3, typename T4> class Func_4; }
 
+inline static constexpr unsigned int EFLBCBOICIE___O_TypeDefinitionIndex = 41457;
+
 	class EFLBCBOICIE___O : public ::System::Object
 	{
 	public:

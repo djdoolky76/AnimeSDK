@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BattlePauseEnvironmentData_TypeDefinitionIndex = 22801;
+
 	class BattlePauseEnvironmentData : public ::RPG::GameCore::JsonConfig
 	{
 	public:

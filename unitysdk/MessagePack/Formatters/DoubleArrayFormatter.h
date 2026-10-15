@@ -13,6 +13,8 @@ namespace MessagePack::Formatters { class DoubleArrayFormatter; }
 
 namespace MessagePack::Formatters
 {
+	inline static constexpr unsigned int DoubleArrayFormatter_TypeDefinitionIndex = 7467;
+
 	class DoubleArrayFormatter : public ::System::Object
 	{
 	public:

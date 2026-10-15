@@ -32,6 +32,8 @@ namespace System { class String; }
 #define HKIOLACNPJF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E5B2F90)
 #define HKIOLACNPJF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E5B2FF0)
 
+inline static constexpr unsigned int HKIOLACNPJF_TypeDefinitionIndex = 26545;
+
 	class HKIOLACNPJF : public ::System::Object
 	{
 	public:

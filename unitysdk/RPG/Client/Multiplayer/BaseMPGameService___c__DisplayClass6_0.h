@@ -8,6 +8,8 @@ namespace RPG::Client { class LobbyMemberData; }
 
 namespace RPG::Client::Multiplayer
 {
+	inline static constexpr unsigned int BaseMPGameService___c__DisplayClass6_0_TypeDefinitionIndex = 80255;
+
 	class BaseMPGameService___c__DisplayClass6_0 : public ::System::Object
 	{
 	public:

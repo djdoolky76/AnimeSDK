@@ -23,6 +23,8 @@ namespace RPG::Client { class ARWavingTimeSychronizeMonoPlugin; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ARWavingTimeSychronizeBehavior_TypeDefinitionIndex = 70350;
+
 	class ARWavingTimeSychronizeBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:

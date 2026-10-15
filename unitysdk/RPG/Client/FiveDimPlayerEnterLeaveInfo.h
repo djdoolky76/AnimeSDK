@@ -8,6 +8,8 @@ namespace RPG::GameCore { class GameEntity; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FiveDimPlayerEnterLeaveInfo_TypeDefinitionIndex = 60394;
+
 	class FiveDimPlayerEnterLeaveInfo : public ::System::Object
 	{
 	public:

@@ -29,6 +29,8 @@ namespace System { class String; }
 #define ONHKODAFEMH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DEC61B0)
 #define ONHKODAFEMH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DEC6210)
 
+inline static constexpr unsigned int ONHKODAFEMH_TypeDefinitionIndex = 30925;
+
 	class ONHKODAFEMH : public ::System::Object
 	{
 	public:

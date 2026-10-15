@@ -8,6 +8,8 @@
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int AmbientTextItemConfig_TypeDefinitionIndex = 47844;
+
 	class AmbientTextItemConfig : public ::System::Object
 	{
 	public:

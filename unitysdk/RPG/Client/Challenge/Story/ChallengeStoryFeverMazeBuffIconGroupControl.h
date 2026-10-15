@@ -26,6 +26,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace RPG::Client::Challenge::Story
 {
+	inline static constexpr unsigned int ChallengeStoryFeverMazeBuffIconGroupControl_TypeDefinitionIndex = 81636;
+
 	class ChallengeStoryFeverMazeBuffIconGroupControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

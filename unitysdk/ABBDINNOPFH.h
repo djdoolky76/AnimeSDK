@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define ABBDINNOPFH_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CC9C500)
 #define ABBDINNOPFH_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CC9BE60)
 
+inline static constexpr unsigned int ABBDINNOPFH_TypeDefinitionIndex = 13147;
+
 	class ABBDINNOPFH : public ::System::Object
 	{
 	public:

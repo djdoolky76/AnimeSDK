@@ -16,6 +16,8 @@ namespace System::Text { class StringBuilder; }
 #define OBGAECGPEFF_IBNOOLIDCIG_GOMGNDCDHIN_OFFSET UNITYSDK_OFFSET(0xBD3F740)
 #define OBGAECGPEFF_IBNOOLIDCIG_KHNCMBEFIKI_OFFSET UNITYSDK_OFFSET(0xBD3F7E0)
 
+inline static constexpr unsigned int OBGAECGPEFF_IBNOOLIDCIG_TypeDefinitionIndex = 54993;
+
 	class OBGAECGPEFF_IBNOOLIDCIG : public ::System::Object
 	{
 	public:

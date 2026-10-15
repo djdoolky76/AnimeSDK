@@ -9,6 +9,8 @@ namespace RPG { template <typename T1, typename T2> class PoolDictionary_2; }
 #define LEBKAPODMIC_ONALLOC_OFFSET UNITYSDK_OFFSET(0x1C90D1A0)
 #define LEBKAPODMIC_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0x1C90D280)
 
+inline static constexpr unsigned int LEBKAPODMIC_TypeDefinitionIndex = 43378;
+
 	class LEBKAPODMIC : public ::System::Object
 	{
 	public:

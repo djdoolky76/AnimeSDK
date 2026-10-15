@@ -11,6 +11,8 @@ namespace RPG::GameCore { class DynamicFloat; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DawnsEyeDisasterUIConfig_TypeDefinitionIndex = 22799;
+
 	class DawnsEyeDisasterUIConfig : public ::RPG::GameCore::DawnsEyeWeatherUIBaseConfig
 	{
 	public:

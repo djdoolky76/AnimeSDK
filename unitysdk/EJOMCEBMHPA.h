@@ -9,6 +9,8 @@ class AGADOMHIAHE;
 #define EJOMCEBMHPA_DFACNDFPDHK_OFFSET UNITYSDK_OFFSET(0x154F7440)
 #define EJOMCEBMHPA_DFOFGONIDNM_OFFSET UNITYSDK_OFFSET(0x154F7400)
 
+inline static constexpr unsigned int EJOMCEBMHPA_TypeDefinitionIndex = 74943;
+
 	class EJOMCEBMHPA : public ::System::Object
 	{
 	public:

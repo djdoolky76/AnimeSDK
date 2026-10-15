@@ -11,6 +11,8 @@ namespace RPG::GameCore { class SetClientGroupProperty; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetClientGroupProperty_TypeDefinitionIndex = 20730;
+
 	class SetClientGroupProperty : public ::RPG::GameCore::TaskConfig
 	{
 	public:

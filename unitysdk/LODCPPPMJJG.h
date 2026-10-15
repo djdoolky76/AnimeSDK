@@ -52,6 +52,8 @@ namespace System::Collections::ObjectModel { template <typename T> class ReadOnl
 #define LODCPPPMJJG_PPDAGPPKEJD_OFFSET UNITYSDK_OFFSET(0xB7F55C0)
 #define LODCPPPMJJG_SET_CURRENTTURNLIST_OFFSET UNITYSDK_OFFSET(0xB7F6ED0)
 
+inline static constexpr unsigned int LODCPPPMJJG_TypeDefinitionIndex = 71309;
+
 	class LODCPPPMJJG : public ::System::Object
 	{
 	public:

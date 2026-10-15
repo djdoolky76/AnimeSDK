@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define DJDFAOHODOI_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA2AAE0)
 
+inline static constexpr unsigned int DJDFAOHODOI_TypeDefinitionIndex = 42231;
+
 	class DJDFAOHODOI : public ::System::Object
 	{
 	public:

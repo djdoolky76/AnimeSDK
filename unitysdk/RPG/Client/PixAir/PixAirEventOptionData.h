@@ -22,6 +22,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::Client::PixAir
 {
+	inline static constexpr unsigned int PixAirEventOptionData_TypeDefinitionIndex = 79344;
+
 	class PixAirEventOptionData : public ::System::Object
 	{
 	public:

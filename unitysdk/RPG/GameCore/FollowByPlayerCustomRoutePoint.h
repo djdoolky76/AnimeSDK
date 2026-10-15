@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FollowByPlayerCustomRoutePoint; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FollowByPlayerCustomRoutePoint_TypeDefinitionIndex = 19988;
+
 	class FollowByPlayerCustomRoutePoint : public ::RPG::GameCore::JsonConfig
 	{
 	public:

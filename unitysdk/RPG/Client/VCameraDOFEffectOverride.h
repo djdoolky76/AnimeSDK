@@ -18,6 +18,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int VCameraDOFEffectOverride_TypeDefinitionIndex = 68320;
+
 	class VCameraDOFEffectOverride : public ::UnityEngine::MonoBehaviour
 	{
 	public:

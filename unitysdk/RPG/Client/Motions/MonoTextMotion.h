@@ -80,6 +80,8 @@ namespace UnityEngine::UI { class VertexHelper; }
 
 namespace RPG::Client::Motions
 {
+	inline static constexpr unsigned int MonoTextMotion_TypeDefinitionIndex = 73543;
+
 	class MonoTextMotion : public ::UnityEngine::UI::BaseMeshEffect
 	{
 	public:

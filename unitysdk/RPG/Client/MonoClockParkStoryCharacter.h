@@ -25,6 +25,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoClockParkStoryCharacter_TypeDefinitionIndex = 60286;
+
 	class MonoClockParkStoryCharacter : public ::UnityEngine::MonoBehaviour
 	{
 	public:

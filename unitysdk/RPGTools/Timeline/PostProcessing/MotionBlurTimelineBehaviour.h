@@ -11,6 +11,8 @@ namespace System { class Object; }
 
 namespace RPGTools::Timeline::PostProcessing
 {
+	inline static constexpr unsigned int MotionBlurTimelineBehaviour_TypeDefinitionIndex = 48585;
+
 	class MotionBlurTimelineBehaviour
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TeamBuildConfigRow; }
 #define LPFCCHDGOFB_GET_CANDIDATEPOOLIDS_OFFSET UNITYSDK_OFFSET(0xB81F2F0)
 #define LPFCCHDGOFB_GET_IDENTIFIER_OFFSET UNITYSDK_OFFSET(0xB81F2E0)
 
+inline static constexpr unsigned int LPFCCHDGOFB_TypeDefinitionIndex = 68091;
+
 	class LPFCCHDGOFB : public ::System::Object
 	{
 	public:

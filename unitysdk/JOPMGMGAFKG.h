@@ -11,6 +11,8 @@ namespace System { class String; }
 #define JOPMGMGAFKG_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D058A60)
 #define JOPMGMGAFKG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D058920)
 
+inline static constexpr unsigned int JOPMGMGAFKG_TypeDefinitionIndex = 24087;
+
 	class JOPMGMGAFKG : public ::RPG::GameCore::TaskConfig
 	{
 	public:

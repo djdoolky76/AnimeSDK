@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class Queue_1; }
 #define DHBOGGBEMFF_CLEJGGELBCC_CTOR_OFFSET UNITYSDK_OFFSET(0x1C7700)
 #define DHBOGGBEMFF_CLEJGGELBCC_NBKAFMOEBAM_OFFSET UNITYSDK_OFFSET(0xEBC75F0)
 
+inline static constexpr unsigned int DHBOGGBEMFF_CLEJGGELBCC_TypeDefinitionIndex = 49127;
+
 	struct alignas(8) DHBOGGBEMFF_CLEJGGELBCC
 	{
 		::System::Int32 EJGEFPBLGLP; // 0x10

@@ -14,6 +14,8 @@ namespace System { class Type; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int JsonUtility_TypeDefinitionIndex = 5797;
+
 	class JsonUtility : public ::System::Object
 	{
 	public:

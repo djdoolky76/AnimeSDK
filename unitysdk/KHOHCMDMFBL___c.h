@@ -15,6 +15,8 @@ namespace UnityEngine { class Collider; }
 #define KHOHCMDMFBL___C___DEPLOYGRAVITYFIELDRINGTRIGGER_B__13_1_OFFSET UNITYSDK_OFFSET(0xB414320)
 #define KHOHCMDMFBL___C___LISTENLEVELVAR_B__25_0_OFFSET UNITYSDK_OFFSET(0xB414350)
 
+inline static constexpr unsigned int KHOHCMDMFBL___c_TypeDefinitionIndex = 77117;
+
 	class KHOHCMDMFBL___c : public ::System::Object
 	{
 	public:

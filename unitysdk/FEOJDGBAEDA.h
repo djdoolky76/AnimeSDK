@@ -6,6 +6,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define FEOJDGBAEDA_CTOR_OFFSET UNITYSDK_OFFSET(0x1572D810)
 
+inline static constexpr unsigned int FEOJDGBAEDA_TypeDefinitionIndex = 80597;
+
 	class FEOJDGBAEDA : public ::System::Object
 	{
 	public:

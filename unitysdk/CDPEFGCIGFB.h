@@ -25,6 +25,8 @@ namespace System { class String; }
 #define CDPEFGCIGFB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E08CC00)
 #define CDPEFGCIGFB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E08CC60)
 
+inline static constexpr unsigned int CDPEFGCIGFB_TypeDefinitionIndex = 28796;
+
 	class CDPEFGCIGFB : public ::System::Object
 	{
 	public:

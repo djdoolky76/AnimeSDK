@@ -27,6 +27,8 @@ namespace System { class String; }
 #define BAGCLEDHOBD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E7B4810)
 #define BAGCLEDHOBD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E7B4870)
 
+inline static constexpr unsigned int BAGCLEDHOBD_TypeDefinitionIndex = 30685;
+
 	class BAGCLEDHOBD : public ::System::Object
 	{
 	public:

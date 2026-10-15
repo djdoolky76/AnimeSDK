@@ -19,6 +19,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define JPLPILECHFF_PPIAIMIJMFB_OFFSET UNITYSDK_OFFSET(0xB2CA620)
 #define JPLPILECHFF_TICK_OFFSET UNITYSDK_OFFSET(0xB2CA6C0)
 
+inline static constexpr unsigned int JPLPILECHFF_TypeDefinitionIndex = 53065;
+
 	class JPLPILECHFF : public ::GELIALJDFBL
 	{
 	public:

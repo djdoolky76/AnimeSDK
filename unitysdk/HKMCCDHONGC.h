@@ -52,6 +52,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define HKMCCDHONGC_ONKLENMCNHD_OFFSET UNITYSDK_OFFSET(0x15D4BCD0)
 #define HKMCCDHONGC_PCMLOPNAEIF_OFFSET UNITYSDK_OFFSET(0x15D4DC60)
 
+inline static constexpr unsigned int HKMCCDHONGC_TypeDefinitionIndex = 81692;
+
 	class HKMCCDHONGC : public ::System::Object
 	{
 	public:

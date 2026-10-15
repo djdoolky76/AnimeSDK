@@ -13,6 +13,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System
 {
+	inline static constexpr unsigned int InvalidOperationException_TypeDefinitionIndex = 288;
+
 	class InvalidOperationException : public ::System::SystemException
 	{
 	public:

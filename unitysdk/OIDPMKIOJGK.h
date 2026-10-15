@@ -27,6 +27,8 @@ namespace System { class String; }
 #define OIDPMKIOJGK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE6AD60)
 #define OIDPMKIOJGK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DE6ADC0)
 
+inline static constexpr unsigned int OIDPMKIOJGK_TypeDefinitionIndex = 31085;
+
 	class OIDPMKIOJGK : public ::System::Object
 	{
 	public:

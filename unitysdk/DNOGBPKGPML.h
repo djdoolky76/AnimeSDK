@@ -2,6 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
+inline static constexpr unsigned int DNOGBPKGPML_TypeDefinitionIndex = 76923;
+
 	class DNOGBPKGPML : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace RPG::GameCore { class GridFightExpertRestrictConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightExpertRestrictConfigRow_TypeDefinitionIndex = 13471;
+
 	class GridFightExpertRestrictConfigRow : public ::System::Object
 	{
 	public:

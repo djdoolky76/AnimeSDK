@@ -3,6 +3,8 @@
 
 #define KHOHCMDMFBL_FEANIBJBGCG_CTOR_OFFSET UNITYSDK_OFFSET(0xB414380)
 
+inline static constexpr unsigned int KHOHCMDMFBL_FEANIBJBGCG_TypeDefinitionIndex = 77116;
+
 	class KHOHCMDMFBL_FEANIBJBGCG
 	{
 	public:

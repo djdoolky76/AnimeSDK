@@ -29,6 +29,8 @@ namespace System { class String; }
 #define FCIGOCFOGHK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E349010)
 #define FCIGOCFOGHK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E349070)
 
+inline static constexpr unsigned int FCIGOCFOGHK_TypeDefinitionIndex = 27596;
+
 	class FCIGOCFOGHK : public ::System::Object
 	{
 	public:

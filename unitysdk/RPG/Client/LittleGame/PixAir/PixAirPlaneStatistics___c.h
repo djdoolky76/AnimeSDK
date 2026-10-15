@@ -11,6 +11,8 @@ namespace System { template <typename T> class Comparison_1; }
 
 namespace RPG::Client::LittleGame::PixAir
 {
+	inline static constexpr unsigned int PixAirPlaneStatistics___c_TypeDefinitionIndex = 43677;
+
 	class PixAirPlaneStatistics___c : public ::System::Object
 	{
 	public:

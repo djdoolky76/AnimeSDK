@@ -10,6 +10,8 @@ namespace RPG::GameCore { class EndReShaSceneSelection; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EndReShaSceneSelection_TypeDefinitionIndex = 21170;
+
 	class EndReShaSceneSelection : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -38,6 +38,8 @@ namespace UnityEngine::UI { class SmoothMask; }
 
 namespace UnityEngine::UI
 {
+	inline static constexpr unsigned int MaskableGraphic_TypeDefinitionIndex = 6794;
+
 	class MaskableGraphic : public ::UnityEngine::UI::Graphic
 	{
 	public:

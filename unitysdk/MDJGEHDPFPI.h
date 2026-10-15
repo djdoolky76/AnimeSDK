@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define MDJGEHDPFPI_SET_NUMBER_OFFSET UNITYSDK_OFFSET(0xB8AC770)
 #define MDJGEHDPFPI_SET_PAINTID_OFFSET UNITYSDK_OFFSET(0xB8AC790)
 
+inline static constexpr unsigned int MDJGEHDPFPI_TypeDefinitionIndex = 81703;
+
 	class MDJGEHDPFPI : public ::System::Object
 	{
 	public:

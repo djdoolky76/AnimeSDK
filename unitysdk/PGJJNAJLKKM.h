@@ -5,6 +5,8 @@ namespace RPG::GameCore { class ModifierBehaviorVisual; }
 
 #define PGJJNAJLKKM_HNPOGLCAHPK_OFFSET UNITYSDK_OFFSET(0xC2237E0)
 
+inline static constexpr unsigned int PGJJNAJLKKM_TypeDefinitionIndex = 54428;
+
 	class PGJJNAJLKKM : public ::System::Object
 	{
 	public:

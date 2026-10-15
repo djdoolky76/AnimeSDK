@@ -42,6 +42,8 @@ namespace System::Xml::Schema { class XmlSchema; }
 
 namespace System::Xml::Linq
 {
+	inline static constexpr unsigned int XElement_TypeDefinitionIndex = 3896;
+
 	class XElement : public ::System::Xml::Linq::XContainer
 	{
 	public:

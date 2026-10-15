@@ -65,6 +65,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define NBHAMPMBPEN_SET_SPNEED_OFFSET UNITYSDK_OFFSET(0xBAC1D80)
 #define NBHAMPMBPEN_SET_WAITINGAVATARHEADICONPATH_OFFSET UNITYSDK_OFFSET(0xBAC1E80)
 
+inline static constexpr unsigned int NBHAMPMBPEN_TypeDefinitionIndex = 56924;
+
 	class NBHAMPMBPEN : public ::System::Object
 	{
 	public:

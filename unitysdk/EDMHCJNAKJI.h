@@ -9,6 +9,8 @@ class KAKADGHNMFK;
 #define EDMHCJNAKJI_SET_CASTER_OFFSET UNITYSDK_OFFSET(0x1332B260)
 #define EDMHCJNAKJI_SET_SKILLID_OFFSET UNITYSDK_OFFSET(0x1332B240)
 
+inline static constexpr unsigned int EDMHCJNAKJI_TypeDefinitionIndex = 77584;
+
 	class EDMHCJNAKJI : public ::GMGHBGLNMFF
 	{
 	public:

@@ -21,6 +21,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace SRDebugger::Services::Implementation
 {
+	inline static constexpr unsigned int DebugTriggerImpl_TypeDefinitionIndex = 38077;
+
 	class DebugTriggerImpl
 	{
 	public:

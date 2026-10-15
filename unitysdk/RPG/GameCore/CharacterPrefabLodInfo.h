@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CharacterPrefabLodInfo_TypeDefinitionIndex = 19099;
+
 	class CharacterPrefabLodInfo : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -13,6 +13,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::UI3DGame
 {
+	inline static constexpr unsigned int ChimeraBattleCameraView_TypeDefinitionIndex = 75771;
+
 	class ChimeraBattleCameraView : public ::UnityEngine::MonoBehaviour
 	{
 	public:

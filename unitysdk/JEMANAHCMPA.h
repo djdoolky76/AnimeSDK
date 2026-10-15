@@ -24,6 +24,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define JEMANAHCMPA_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D01FBC0)
 #define JEMANAHCMPA_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D01F520)
 
+inline static constexpr unsigned int JEMANAHCMPA_TypeDefinitionIndex = 14514;
+
 	class JEMANAHCMPA : public ::System::Object
 	{
 	public:

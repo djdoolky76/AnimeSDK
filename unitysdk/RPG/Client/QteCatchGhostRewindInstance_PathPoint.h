@@ -5,6 +5,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int QteCatchGhostRewindInstance_PathPoint_TypeDefinitionIndex = 60273;
+
 	struct alignas(4) QteCatchGhostRewindInstance_PathPoint
 	{
 		::System::Single Ratio; // 0x10

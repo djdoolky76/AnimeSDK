@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int SWRTTestCubeManager_TypeDefinitionIndex = 37874;
+
 	class SWRTTestCubeManager : public ::System::Object
 	{
 	public:

@@ -49,6 +49,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FateHandbookMasterItem_TypeDefinitionIndex = 64074;
+
 	class FateHandbookMasterItem : public ::System::Object
 	{
 	public:

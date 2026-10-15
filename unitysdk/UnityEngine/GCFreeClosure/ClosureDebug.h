@@ -12,6 +12,8 @@ namespace UnityEngine::GCFreeClosure { class IDebug; }
 
 namespace UnityEngine::GCFreeClosure
 {
+	inline static constexpr unsigned int ClosureDebug_TypeDefinitionIndex = 4460;
+
 	class ClosureDebug : public ::System::Object
 	{
 	public:

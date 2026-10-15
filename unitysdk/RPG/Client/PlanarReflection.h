@@ -59,6 +59,8 @@ namespace UnityEngine::Rendering { class CommandBuffer; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PlanarReflection_TypeDefinitionIndex = 70163;
+
 	class PlanarReflection : public ::UnityEngine::MonoBehaviour
 	{
 	public:

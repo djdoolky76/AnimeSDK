@@ -43,6 +43,8 @@ namespace System { class String; }
 #define OFFMCODMKDL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE41C40)
 #define OFFMCODMKDL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DE41CA0)
 
+inline static constexpr unsigned int OFFMCODMKDL_TypeDefinitionIndex = 25808;
+
 	class OFFMCODMKDL : public ::System::Object
 	{
 	public:

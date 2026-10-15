@@ -34,6 +34,8 @@ namespace System::Reflection { class PropertyInfo; }
 
 namespace SRDebugger
 {
+	inline static constexpr unsigned int OptionDefinition_TypeDefinitionIndex = 37955;
+
 	class OptionDefinition : public ::System::Object
 	{
 	public:

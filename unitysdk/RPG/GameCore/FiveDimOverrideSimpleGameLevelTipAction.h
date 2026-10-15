@@ -11,6 +11,8 @@ namespace RPG::GameCore { class FiveDimOverrideSimpleGameLevelTipAction; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimOverrideSimpleGameLevelTipAction_TypeDefinitionIndex = 18658;
+
 	class FiveDimOverrideSimpleGameLevelTipAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
 	public:

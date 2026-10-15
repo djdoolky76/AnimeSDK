@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace System::Net::Http::Headers
 {
+	inline static constexpr unsigned int Parser_Host_TypeDefinitionIndex = 3813;
+
 	class Parser_Host : public ::System::Object
 	{
 	public:

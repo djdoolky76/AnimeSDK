@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define ENVLOCALVOLUMEV2_GETENVIROMENTPROFILESLIST_OFFSET UNITYSDK_OFFSET(0x155E4EF0)
 #define ENVLOCALVOLUMEV2_GETENVIROMENTPROFILE_OFFSET UNITYSDK_OFFSET(0x155E4DB0)
 
+inline static constexpr unsigned int EnvLocalVolumeV2_TypeDefinitionIndex = 47299;
+
 	class EnvLocalVolumeV2 : public ::EnvLocalVolume
 	{
 	public:

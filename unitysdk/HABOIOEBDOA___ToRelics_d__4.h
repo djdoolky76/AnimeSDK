@@ -20,6 +20,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 #define HABOIOEBDOA___TORELICS_D__4_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15B71220)
 #define HABOIOEBDOA___TORELICS_D__4___M__FINALLY1_OFFSET UNITYSDK_OFFSET(0x15B71260)
 
+inline static constexpr unsigned int HABOIOEBDOA___ToRelics_d__4_TypeDefinitionIndex = 62736;
+
 	template <typename T1, typename T2, typename T3, typename T4>
 	class HABOIOEBDOA___ToRelics_d__4 : public ::System::Object
 	{

@@ -6,6 +6,8 @@ namespace RPG::GameCore { class UseSkillOneMore; }
 #define NGADCEILHKG_CTOR_OFFSET UNITYSDK_OFFSET(0xBB9D810)
 #define NGADCEILHKG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBB9D840)
 
+inline static constexpr unsigned int NGADCEILHKG_TypeDefinitionIndex = 55795;
+
 	class NGADCEILHKG
 	{
 	public:

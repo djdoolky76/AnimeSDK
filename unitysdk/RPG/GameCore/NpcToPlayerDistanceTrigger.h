@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int NpcToPlayerDistanceTrigger_TypeDefinitionIndex = 20334;
+
 	class NpcToPlayerDistanceTrigger : public ::RPG::GameCore::TaskConfig
 	{
 	public:

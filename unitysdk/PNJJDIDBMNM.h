@@ -5,6 +5,8 @@ namespace UnityEngine { class GameObject; }
 namespace UnityEngine { class Material; }
 namespace UnityEngine { class Mesh; }
 
+inline static constexpr unsigned int PNJJDIDBMNM_TypeDefinitionIndex = 68895;
+
 	struct alignas(8) PNJJDIDBMNM
 	{
 		::UnityEngine::GameObject* OHGLFDDMIFB; // 0x10

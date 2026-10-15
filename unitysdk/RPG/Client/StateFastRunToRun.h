@@ -12,6 +12,8 @@ namespace UnityEngine { class Animator; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int StateFastRunToRun_TypeDefinitionIndex = 68825;
+
 	class StateFastRunToRun : public ::UnityEngine::StateMachineBehaviour
 	{
 	public:

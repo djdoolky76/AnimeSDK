@@ -6,6 +6,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int RangeAttribute_TypeDefinitionIndex = 4242;
+
 	class RangeAttribute : public ::UnityEngine::PropertyAttribute
 	{
 	public:

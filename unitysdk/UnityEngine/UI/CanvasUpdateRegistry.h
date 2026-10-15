@@ -36,6 +36,8 @@ namespace UnityEngine::UI::Collections { template <typename T> class IndexedSet_
 
 namespace UnityEngine::UI
 {
+	inline static constexpr unsigned int CanvasUpdateRegistry_TypeDefinitionIndex = 6696;
+
 	class CanvasUpdateRegistry : public ::System::Object
 	{
 	public:

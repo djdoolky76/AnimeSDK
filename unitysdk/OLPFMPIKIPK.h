@@ -44,6 +44,8 @@ namespace System { class String; }
 #define OLPFMPIKIPK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DEAC500)
 #define OLPFMPIKIPK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DEAC560)
 
+inline static constexpr unsigned int OLPFMPIKIPK_TypeDefinitionIndex = 29631;
+
 	class OLPFMPIKIPK : public ::System::Object
 	{
 	public:

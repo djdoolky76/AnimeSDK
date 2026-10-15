@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TimeRewindOverrideMaxRewindTime; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TimeRewindOverrideMaxRewindTime_TypeDefinitionIndex = 20668;
+
 	class TimeRewindOverrideMaxRewindTime : public ::RPG::GameCore::TaskConfig
 	{
 	public:

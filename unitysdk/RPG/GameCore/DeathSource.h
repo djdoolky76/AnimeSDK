@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DeathSource_TypeDefinitionIndex = 24640;
+
 	enum class DeathSource : ::System::Int32
 	{
 		Unknown = 0,

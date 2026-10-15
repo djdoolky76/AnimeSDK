@@ -24,6 +24,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define CLKHCMABFLO_NBKIEIPIEAE_OFFSET UNITYSDK_OFFSET(0xD790B60)
 #define CLKHCMABFLO_PFPBOPFOGPI_OFFSET UNITYSDK_OFFSET(0xD790C00)
 
+inline static constexpr unsigned int CLKHCMABFLO_TypeDefinitionIndex = 71439;
+
 	class CLKHCMABFLO : public ::System::Object
 	{
 	public:

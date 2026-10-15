@@ -9,6 +9,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define JKJLNLODJFA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C702780)
 #define JKJLNLODJFA___C___UPDATEPREVIEW_SKILL_B__13_0_OFFSET UNITYSDK_OFFSET(0x1C702790)
 
+inline static constexpr unsigned int JKJLNLODJFA___c_TypeDefinitionIndex = 36501;
+
 	class JKJLNLODJFA___c : public ::System::Object
 	{
 	public:

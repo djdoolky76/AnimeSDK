@@ -9,6 +9,8 @@ class NBHCDAEKHGJ;
 #define FFKDIBNNCDA_SET_BLOCKPERCENTAGE_OFFSET UNITYSDK_OFFSET(0x94C0)
 #define FFKDIBNNCDA_SET_BLOCKVALUE_OFFSET UNITYSDK_OFFSET(0x94B0)
 
+inline static constexpr unsigned int FFKDIBNNCDA_TypeDefinitionIndex = 72056;
+
 	struct alignas(4) FFKDIBNNCDA
 	{
 		::RPG::GameCore::FixPoint _BlockValue_k__BackingField; // 0x10

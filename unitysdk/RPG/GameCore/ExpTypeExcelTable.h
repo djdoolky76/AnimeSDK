@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ExpTypeExcelTable_TypeDefinitionIndex = 12748;
+
 	class ExpTypeExcelTable : public ::System::Object
 	{
 	public:

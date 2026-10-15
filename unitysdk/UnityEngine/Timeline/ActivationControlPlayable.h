@@ -21,6 +21,8 @@ namespace UnityEngine::Timeline { class ActivationControlPlayable; }
 
 namespace UnityEngine::Timeline
 {
+	inline static constexpr unsigned int ActivationControlPlayable_TypeDefinitionIndex = 38841;
+
 	class ActivationControlPlayable : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

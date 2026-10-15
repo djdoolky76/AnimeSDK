@@ -8,6 +8,8 @@ namespace System { class Action; }
 
 namespace MiHoYo::SDK::PC::OS::CXHandheld
 {
+	inline static constexpr unsigned int HandheldQRBindingDialog___c__DisplayClass63_0_TypeDefinitionIndex = 8818;
+
 	class HandheldQRBindingDialog___c__DisplayClass63_0 : public ::System::Object
 	{
 	public:

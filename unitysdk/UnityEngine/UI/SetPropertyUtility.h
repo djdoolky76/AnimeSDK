@@ -9,6 +9,8 @@ namespace UnityEngine::UI { class CustomUIVectot4EqualityComparer; }
 
 namespace UnityEngine::UI
 {
+	inline static constexpr unsigned int SetPropertyUtility_TypeDefinitionIndex = 6842;
+
 	class SetPropertyUtility : public ::System::Object
 	{
 	public:

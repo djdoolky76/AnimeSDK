@@ -7,6 +7,8 @@ class IFBOFKLBBKO;
 
 #define FBLEGIOPMKG_CTOR_OFFSET UNITYSDK_OFFSET(0x1C611980)
 
+inline static constexpr unsigned int FBLEGIOPMKG_TypeDefinitionIndex = 37244;
+
 	class FBLEGIOPMKG : public ::System::Object
 	{
 	public:

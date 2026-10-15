@@ -15,6 +15,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByContainResistBehaviorFlag_TypeDefinitionIndex = 23647;
+
 	class ByContainResistBehaviorFlag : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

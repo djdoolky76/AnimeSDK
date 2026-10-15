@@ -141,6 +141,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define DPJMIDBEHLI_PMAGCJHANLE_OFFSET UNITYSDK_OFFSET(0x1264AB70)
 #define DPJMIDBEHLI_PMFPCANEOJD_OFFSET UNITYSDK_OFFSET(0x1264A350)
 
+inline static constexpr unsigned int DPJMIDBEHLI_TypeDefinitionIndex = 76564;
+
 	class DPJMIDBEHLI : public ::NCJELKLNHMF
 	{
 	public:

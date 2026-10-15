@@ -6,6 +6,8 @@
 
 namespace CriWare::CriMana::Detail
 {
+	inline static constexpr unsigned int AutoResisterRendererResourceFactories_TypeDefinitionIndex = 40229;
+
 	class AutoResisterRendererResourceFactories : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@
 
 namespace RPG::Client::TeamTowers
 {
+	inline static constexpr unsigned int TeamTowersGamePlayerDamageChangedMessage_TypeDefinitionIndex = 79013;
+
 	class TeamTowersGamePlayerDamageChangedMessage : public ::System::Object
 	{
 	public:

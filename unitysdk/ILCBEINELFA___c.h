@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define ILCBEINELFA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E6A88D0)
 #define ILCBEINELFA___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E6A88E0)
 
+inline static constexpr unsigned int ILCBEINELFA___c_TypeDefinitionIndex = 32588;
+
 	class ILCBEINELFA___c : public ::System::Object
 	{
 	public:

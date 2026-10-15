@@ -6,6 +6,8 @@ namespace RPG::Client { class RogueTournPersonaRoomCardDeckInfo; }
 
 #define OBDGDODGFAM_CTOR_OFFSET UNITYSDK_OFFSET(0xBD380D0)
 
+inline static constexpr unsigned int OBDGDODGFAM_TypeDefinitionIndex = 67098;
+
 	class OBDGDODGFAM : public ::EBIMENNAEIE
 	{
 	public:

@@ -8,6 +8,8 @@ namespace RPG::GameCore { class ChimeraDeleteEffect; }
 #define BFFKEABOKDM_KMFNKDMEJBC_OFFSET UNITYSDK_OFFSET(0xB162870)
 #define BFFKEABOKDM_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0xB1628B0)
 
+inline static constexpr unsigned int BFFKEABOKDM_TypeDefinitionIndex = 78411;
+
 	class BFFKEABOKDM : public ::System::Object
 	{
 	public:

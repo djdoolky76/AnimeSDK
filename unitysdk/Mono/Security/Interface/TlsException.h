@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace Mono::Security::Interface
 {
+	inline static constexpr unsigned int TlsException_TypeDefinitionIndex = 2297;
+
 	class TlsException : public ::System::Exception
 	{
 	public:

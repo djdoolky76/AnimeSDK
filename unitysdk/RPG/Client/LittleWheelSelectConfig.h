@@ -25,6 +25,8 @@ namespace RPG::GameCore { class LittleWheelSelectConfigRow; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int LittleWheelSelectConfig_TypeDefinitionIndex = 61300;
+
 	class LittleWheelSelectConfig : public ::System::Object
 	{
 	public:

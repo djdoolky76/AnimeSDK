@@ -6,6 +6,8 @@
 
 namespace RPGTools::Timeline::VFX
 {
+	inline static constexpr unsigned int VFXOverlayCharacterBackgroundPositionInfo_TypeDefinitionIndex = 48670;
+
 	struct alignas(4) VFXOverlayCharacterBackgroundPositionInfo
 	{
 		::UnityEngine::Vector2 Offset; // 0x10

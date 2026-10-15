@@ -6,6 +6,8 @@
 
 namespace UnityEngine::UI
 {
+	inline static constexpr unsigned int BaseVertexEffect_TypeDefinitionIndex = 6887;
+
 	class BaseVertexEffect : public ::System::Object
 	{
 	public:

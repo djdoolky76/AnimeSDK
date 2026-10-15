@@ -6,6 +6,8 @@ namespace System { class String; }
 #define GEFNNDNHACI_CTOR_OFFSET UNITYSDK_OFFSET(0x159D3CE0)
 #define GEFNNDNHACI_IAMCNOAAALI_OFFSET UNITYSDK_OFFSET(0x159D3C40)
 
+inline static constexpr unsigned int GEFNNDNHACI_TypeDefinitionIndex = 72359;
+
 	class GEFNNDNHACI : public ::EJLNMFOPGOP
 	{
 	public:

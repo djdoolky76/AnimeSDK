@@ -9,6 +9,8 @@ namespace RPG::GameCore { class DrinkMakerMixTagRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DrinkMakerMixTagRow_TypeDefinitionIndex = 13160;
+
 	class DrinkMakerMixTagRow : public ::System::Object
 	{
 	public:

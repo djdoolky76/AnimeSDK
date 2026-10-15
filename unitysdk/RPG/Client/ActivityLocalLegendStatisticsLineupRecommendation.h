@@ -30,6 +30,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ActivityLocalLegendStatisticsLineupRecommendation_TypeDefinitionIndex = 61570;
+
 	class ActivityLocalLegendStatisticsLineupRecommendation : public ::System::Object
 	{
 	public:

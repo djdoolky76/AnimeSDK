@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SilverWolfTabGroupRow_TypeDefinitionIndex = 12349;
+
 	class SilverWolfTabGroupRow : public ::System::Object
 	{
 	public:

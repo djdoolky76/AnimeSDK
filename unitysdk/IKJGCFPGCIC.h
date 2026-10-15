@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define IKJGCFPGCIC_CTOR_OFFSET UNITYSDK_OFFSET(0x1648FCD0)
 #define IKJGCFPGCIC_HKKFFCBJOKM_OFFSET UNITYSDK_OFFSET(0x16490170)
 
+inline static constexpr unsigned int IKJGCFPGCIC_TypeDefinitionIndex = 82294;
+
 	class IKJGCFPGCIC : public ::KAANKGHDHCB
 	{
 	public:

@@ -3,6 +3,8 @@
 #include "unitysdk/Dest/Math/IntersectionTypes.h"
 #include "unitysdk/RPG/MVector3.h"
 
+inline static constexpr unsigned int IOPPLHDKFOG_TypeDefinitionIndex = 6250;
+
 	struct alignas(4) IOPPLHDKFOG
 	{
 		::Dest::Math::IntersectionTypes DLMLMAGCHJK; // 0x10

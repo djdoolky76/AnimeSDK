@@ -31,6 +31,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define PFKMBOGGEPE_MMFEEJAHPLJ_OFFSET UNITYSDK_OFFSET(0xC214AB0)
 #define PFKMBOGGEPE_PNFAHABNEMH_OFFSET UNITYSDK_OFFSET(0xC214DE0)
 
+inline static constexpr unsigned int PFKMBOGGEPE_TypeDefinitionIndex = 54297;
+
 	class PFKMBOGGEPE : public ::System::Object
 	{
 	public:

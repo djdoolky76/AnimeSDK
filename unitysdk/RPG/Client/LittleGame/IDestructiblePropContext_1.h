@@ -3,6 +3,8 @@
 
 namespace RPG::Client::LittleGame
 {
+	inline static constexpr unsigned int IDestructiblePropContext_1_TypeDefinitionIndex = 42766;
+
 	template <typename T>
 	class IDestructiblePropContext_1
 	{

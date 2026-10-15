@@ -11,6 +11,8 @@ namespace UnityEngine { class Material; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int Test_Material_Extensions_TypeDefinitionIndex = 40717;
+
 	class Test_Material_Extensions : public ::System::Object
 	{
 	public:

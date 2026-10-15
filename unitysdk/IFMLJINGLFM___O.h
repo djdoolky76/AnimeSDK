@@ -4,6 +4,8 @@
 namespace RPG::GameCore { class GameEntity; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
+inline static constexpr unsigned int IFMLJINGLFM___O_TypeDefinitionIndex = 54939;
+
 	class IFMLJINGLFM___O : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace RPG::GameCore { class ChenLingFesAwardRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChenLingFesAwardRow_TypeDefinitionIndex = 11106;
+
 	class ChenLingFesAwardRow : public ::System::Object
 	{
 	public:

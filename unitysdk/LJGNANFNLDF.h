@@ -6,6 +6,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define LJGNANFNLDF_CLEAR_OFFSET UNITYSDK_OFFSET(0xB718590)
 #define LJGNANFNLDF_CTOR_OFFSET UNITYSDK_OFFSET(0xB7185E0)
 
+inline static constexpr unsigned int LJGNANFNLDF_TypeDefinitionIndex = 54857;
+
 	class LJGNANFNLDF : public ::System::Object
 	{
 	public:

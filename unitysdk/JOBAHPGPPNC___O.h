@@ -4,6 +4,8 @@
 namespace RPG::GameCore { class GameWorld; }
 namespace System { template <typename T> class Predicate_1; }
 
+inline static constexpr unsigned int JOBAHPGPPNC___O_TypeDefinitionIndex = 55083;
+
 	class JOBAHPGPPNC___O : public ::System::Object
 	{
 	public:

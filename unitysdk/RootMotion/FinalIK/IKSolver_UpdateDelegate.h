@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace RootMotion::FinalIK
 {
+	inline static constexpr unsigned int IKSolver_UpdateDelegate_TypeDefinitionIndex = 46018;
+
 	class IKSolver_UpdateDelegate : public ::System::MulticastDelegate
 	{
 	public:

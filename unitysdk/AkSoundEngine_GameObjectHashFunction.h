@@ -11,6 +11,8 @@ namespace UnityEngine { class GameObject; }
 #define AKSOUNDENGINE_GAMEOBJECTHASHFUNCTION_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1F5DFFF0)
 #define AKSOUNDENGINE_GAMEOBJECTHASHFUNCTION_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F5DE4B0)
 
+inline static constexpr unsigned int AkSoundEngine_GameObjectHashFunction_TypeDefinitionIndex = 44801;
+
 	class AkSoundEngine_GameObjectHashFunction : public ::System::MulticastDelegate
 	{
 	public:

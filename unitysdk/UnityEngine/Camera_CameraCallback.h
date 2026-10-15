@@ -13,6 +13,8 @@ namespace UnityEngine { class Camera; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int Camera_CameraCallback_TypeDefinitionIndex = 4046;
+
 	class Camera_CameraCallback : public ::System::MulticastDelegate
 	{
 	public:

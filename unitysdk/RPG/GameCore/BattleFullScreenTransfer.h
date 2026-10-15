@@ -12,6 +12,8 @@ namespace RPG::GameCore { class ScreenTransferFullDuration; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BattleFullScreenTransfer_TypeDefinitionIndex = 23056;
+
 	class BattleFullScreenTransfer : public ::RPG::GameCore::TaskConfig
 	{
 	public:

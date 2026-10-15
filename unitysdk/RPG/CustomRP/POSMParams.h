@@ -8,6 +8,8 @@
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int POSMParams_TypeDefinitionIndex = 37677;
+
 	class POSMParams : public ::System::Object
 	{
 	public:

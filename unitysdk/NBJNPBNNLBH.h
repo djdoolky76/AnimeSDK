@@ -105,6 +105,8 @@ namespace UnityEngine { class Transform; }
 #define NBJNPBNNLBH_PLLBNPHOBMB_OFFSET UNITYSDK_OFFSET(0xBAD79D0)
 #define NBJNPBNNLBH_POJDCEKAMHH_OFFSET UNITYSDK_OFFSET(0xBAD7F60)
 
+inline static constexpr unsigned int NBJNPBNNLBH_TypeDefinitionIndex = 59789;
+
 	class NBJNPBNNLBH : public ::System::Object
 	{
 	public:

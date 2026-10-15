@@ -11,6 +11,8 @@ namespace System { template <typename T> class Predicate_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RelicGrowthGuide___c_TypeDefinitionIndex = 65556;
+
 	class RelicGrowthGuide___c : public ::System::Object
 	{
 	public:

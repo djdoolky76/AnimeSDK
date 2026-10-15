@@ -7,6 +7,8 @@ namespace RPG::GameCore { class ElfBehaviorStateContentItem; }
 
 namespace RPG::Client::LittleGame::ElfRestaurant
 {
+	inline static constexpr unsigned int ElfRestaurantAIService_DelayBehavior_TypeDefinitionIndex = 77251;
+
 	class ElfRestaurantAIService_DelayBehavior : public ::System::Object
 	{
 	public:

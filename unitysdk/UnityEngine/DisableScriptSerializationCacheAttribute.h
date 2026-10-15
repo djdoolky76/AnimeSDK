@@ -6,6 +6,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int DisableScriptSerializationCacheAttribute_TypeDefinitionIndex = 4316;
+
 	class DisableScriptSerializationCacheAttribute : public ::System::Attribute
 	{
 	public:

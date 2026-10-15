@@ -8,6 +8,8 @@ namespace MessagePack { class MessagePackSecurity_DoubleEqualityComparer; }
 
 namespace MessagePack
 {
+	inline static constexpr unsigned int MessagePackSecurity_DoubleEqualityComparer_TypeDefinitionIndex = 7207;
+
 	class MessagePackSecurity_DoubleEqualityComparer
 	{
 	public:

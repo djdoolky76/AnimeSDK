@@ -9,6 +9,8 @@ namespace System { class String; }
 #define NNAFEEPMIGK_CCTOR_OFFSET UNITYSDK_OFFSET(0xBC9A930)
 #define NNAFEEPMIGK_CTOR_OFFSET UNITYSDK_OFFSET(0xBC9A920)
 
+inline static constexpr unsigned int NNAFEEPMIGK_TypeDefinitionIndex = 71749;
+
 	class NNAFEEPMIGK : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@
 
 namespace RPG::Client::B51Racing
 {
+	inline static constexpr unsigned int B51RacingQTEPerformanceConfig_TypeDefinitionIndex = 81887;
+
 	class B51RacingQTEPerformanceConfig : public ::UnityEngine::MonoBehaviour
 	{
 	public:

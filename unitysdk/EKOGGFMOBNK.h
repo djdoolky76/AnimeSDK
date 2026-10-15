@@ -6,6 +6,8 @@
 #define EKOGGFMOBNK_FOIKFOHHADP_OFFSET UNITYSDK_OFFSET(0x2E73450)
 #define EKOGGFMOBNK_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0x2E734E0)
 
+inline static constexpr unsigned int EKOGGFMOBNK_TypeDefinitionIndex = 74041;
+
 	struct alignas(4) EKOGGFMOBNK
 	{
 		::System::Int32 HCDEOKNIGKG; // 0x10

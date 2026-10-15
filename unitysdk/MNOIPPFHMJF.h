@@ -12,6 +12,8 @@ namespace System { class String; }
 #define MNOIPPFHMJF_OPGLAKFNMLD_OFFSET UNITYSDK_OFFSET(0xBA19790)
 #define MNOIPPFHMJF_PIMJNLHCGOL_OFFSET UNITYSDK_OFFSET(0xBA197E0)
 
+inline static constexpr unsigned int MNOIPPFHMJF_TypeDefinitionIndex = 73385;
+
 	class MNOIPPFHMJF : public ::System::Object
 	{
 	public:

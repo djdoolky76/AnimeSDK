@@ -9,6 +9,8 @@ namespace UnityEngine { class GameObject; }
 #define HEU_BOUNDINGVOLUME_GETALLINTERSECTINGOBJECTS_OFFSET UNITYSDK_OFFSET(0x1B8B9AF0)
 #define HEU_BOUNDINGVOLUME_GET_BOUNDINGCOLLIDER_OFFSET UNITYSDK_OFFSET(0x1B8B9A80)
 
+inline static constexpr unsigned int HEU_BoundingVolume_TypeDefinitionIndex = 40347;
+
 	class HEU_BoundingVolume : public ::UnityEngine::MonoBehaviour
 	{
 	public:

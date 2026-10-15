@@ -14,6 +14,8 @@ namespace RPG::Client { class EquipmentItemData; }
 #define CECJDKMMMHH_KPKCFMCJBCF_OFFSET UNITYSDK_OFFSET(0xC77CF20)
 #define CECJDKMMMHH__SETDATA_B__0_0_OFFSET UNITYSDK_OFFSET(0xC77D660)
 
+inline static constexpr unsigned int CECJDKMMMHH_TypeDefinitionIndex = 65578;
+
 	class CECJDKMMMHH : public ::System::Object
 	{
 	public:

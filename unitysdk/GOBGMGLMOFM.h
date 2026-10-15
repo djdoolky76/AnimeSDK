@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define GOBGMGLMOFM_KIMEIHNAIDP_OFFSET UNITYSDK_OFFSET(0x15B245A0)
 #define GOBGMGLMOFM_LFCKCBKOMFG_OFFSET UNITYSDK_OFFSET(0x15B25200)
 
+inline static constexpr unsigned int GOBGMGLMOFM_TypeDefinitionIndex = 62208;
+
 	class GOBGMGLMOFM : public ::System::Object
 	{
 	public:

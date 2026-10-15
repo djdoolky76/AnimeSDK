@@ -8,6 +8,8 @@ namespace RPG::Client { class SwitchHandMazePuzzleRowWrapper; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SwitchHandMazePuzzleDataManager___c__DisplayClass4_0_TypeDefinitionIndex = 68004;
+
 	class SwitchHandMazePuzzleDataManager___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:

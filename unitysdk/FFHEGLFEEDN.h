@@ -7,6 +7,8 @@ namespace System { class String; }
 #define FFHEGLFEEDN_CTOR_OFFSET UNITYSDK_OFFSET(0x1573D0C0)
 #define FFHEGLFEEDN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1573D120)
 
+inline static constexpr unsigned int FFHEGLFEEDN_TypeDefinitionIndex = 58649;
+
 	class FFHEGLFEEDN
 	{
 	public:

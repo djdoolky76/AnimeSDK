@@ -22,6 +22,8 @@ namespace System::IO { class StreamReader; }
 #define AGNDLIOMDIG_MFFKOKFNLAG_OFFSET UNITYSDK_OFFSET(0xCF42AD0)
 #define AGNDLIOMDIG_NGCFPFALCGD_OFFSET UNITYSDK_OFFSET(0xCF429F0)
 
+inline static constexpr unsigned int AGNDLIOMDIG_TypeDefinitionIndex = 61285;
+
 	class AGNDLIOMDIG : public ::System::Object
 	{
 	public:

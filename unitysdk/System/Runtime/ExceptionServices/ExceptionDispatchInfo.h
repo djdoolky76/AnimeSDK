@@ -14,6 +14,8 @@ namespace System::Runtime::ExceptionServices { class ExceptionDispatchInfo; }
 
 namespace System::Runtime::ExceptionServices
 {
+	inline static constexpr unsigned int ExceptionDispatchInfo_TypeDefinitionIndex = 1340;
+
 	class ExceptionDispatchInfo : public ::System::Object
 	{
 	public:

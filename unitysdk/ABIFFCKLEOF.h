@@ -14,6 +14,8 @@ namespace System { class String; }
 #define ABIFFCKLEOF_MEBPCCPOMHK_2_OFFSET UNITYSDK_OFFSET(0x1C580E10)
 #define ABIFFCKLEOF_MEBPCCPOMHK_OFFSET UNITYSDK_OFFSET(0x1C580CB0)
 
+inline static constexpr unsigned int ABIFFCKLEOF_TypeDefinitionIndex = 37006;
+
 	class ABIFFCKLEOF : public ::System::Object
 	{
 	public:

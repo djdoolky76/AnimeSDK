@@ -11,6 +11,8 @@ namespace UnityEngine { class GameObject; }
 #define EDJNKFGMECK_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x133251F0)
 #define EDJNKFGMECK_POKPHNNKLEA_OFFSET UNITYSDK_OFFSET(0x13325490)
 
+inline static constexpr unsigned int EDJNKFGMECK_TypeDefinitionIndex = 78174;
+
 	class EDJNKFGMECK : public ::AJHHFMBOCEN
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::Client { class PlanetFesAvatarMoveController; }
 #define BFGCPOGGCBD_OLOIKBMODMD_OFFSET UNITYSDK_OFFSET(0xB162F90)
 #define BFGCPOGGCBD_ONNHAFEOBBC_OFFSET UNITYSDK_OFFSET(0xB162E40)
 
+inline static constexpr unsigned int BFGCPOGGCBD_TypeDefinitionIndex = 66664;
+
 	class BFGCPOGGCBD : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

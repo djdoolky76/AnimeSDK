@@ -13,6 +13,8 @@ namespace UnityEngine { class GameObject; }
 #define EEAKIHIOHLD_MLGKEAKABPL_OFFSET UNITYSDK_OFFSET(0x1334D5C0)
 #define EEAKIHIOHLD_PGDMFBBGJHG_OFFSET UNITYSDK_OFFSET(0x1334D6F0)
 
+inline static constexpr unsigned int EEAKIHIOHLD_TypeDefinitionIndex = 71426;
+
 	class EEAKIHIOHLD : public ::FMPCODLIOLG
 	{
 	public:

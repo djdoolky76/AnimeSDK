@@ -6,6 +6,8 @@
 
 namespace System::Net::NetworkInformation
 {
+	inline static constexpr unsigned int UnixIPGlobalProperties_TypeDefinitionIndex = 2939;
+
 	class UnixIPGlobalProperties : public ::System::Net::NetworkInformation::CommonUnixIPGlobalProperties
 	{
 	public:

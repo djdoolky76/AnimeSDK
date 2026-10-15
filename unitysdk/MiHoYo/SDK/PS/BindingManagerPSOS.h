@@ -38,6 +38,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace MiHoYo::SDK::PS
 {
+	inline static constexpr unsigned int BindingManagerPSOS_TypeDefinitionIndex = 8900;
+
 	class BindingManagerPSOS : public ::MiHoYo::SDK::PS::BindManagerPS
 	{
 	public:

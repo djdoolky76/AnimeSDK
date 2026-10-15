@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetGraphDynamicFloat_TypeDefinitionIndex = 20710;
+
 	class SetGraphDynamicFloat : public ::RPG::GameCore::TaskConfig
 	{
 	public:

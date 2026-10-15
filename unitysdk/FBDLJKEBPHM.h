@@ -31,6 +31,8 @@ namespace System { class String; }
 #define FBDLJKEBPHM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E3325F0)
 #define FBDLJKEBPHM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E332650)
 
+inline static constexpr unsigned int FBDLJKEBPHM_TypeDefinitionIndex = 29304;
+
 	class FBDLJKEBPHM : public ::System::Object
 	{
 	public:

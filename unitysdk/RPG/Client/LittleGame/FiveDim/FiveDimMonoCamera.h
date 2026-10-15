@@ -32,6 +32,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::LittleGame::FiveDim
 {
+	inline static constexpr unsigned int FiveDimMonoCamera_TypeDefinitionIndex = 76865;
+
 	class FiveDimMonoCamera : public ::RPG::Client::LittleGame::BaseMonoCamera
 	{
 	public:

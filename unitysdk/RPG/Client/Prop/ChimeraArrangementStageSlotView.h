@@ -10,6 +10,8 @@ namespace RPG::Client { class BaseShaderPropertyTransition; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int ChimeraArrangementStageSlotView_TypeDefinitionIndex = 78466;
+
 	class ChimeraArrangementStageSlotView : public ::UnityEngine::MonoBehaviour
 	{
 	public:

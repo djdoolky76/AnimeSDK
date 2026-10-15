@@ -14,6 +14,8 @@ namespace UnityEngine { class Camera; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEffectFrameCaptureTexPlugin_TypeDefinitionIndex = 70030;
+
 	class MonoEffectFrameCaptureTexPlugin : public ::RPG::Client::MonoEffectPluginBase
 	{
 	public:

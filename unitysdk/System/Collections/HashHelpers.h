@@ -13,6 +13,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System::Collections
 {
+	inline static constexpr unsigned int HashHelpers_TypeDefinitionIndex = 1478;
+
 	class HashHelpers : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace UnityEngine { class AnimationCurve; }
 #define EMILEBLKAOD_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1553BFD0)
 #define EMILEBLKAOD_TICK_OFFSET UNITYSDK_OFFSET(0x1553C020)
 
+inline static constexpr unsigned int EMILEBLKAOD_TypeDefinitionIndex = 58555;
+
 	class EMILEBLKAOD : public ::GELIALJDFBL
 	{
 	public:

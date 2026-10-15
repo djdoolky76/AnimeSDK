@@ -5,6 +5,8 @@
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_ReloadDataEvent_TypeDefinitionIndex = 40361;
+
 	class HEU_ReloadDataEvent
 	{
 	public:

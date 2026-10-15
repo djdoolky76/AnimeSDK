@@ -15,6 +15,8 @@ namespace System { class Object; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int IVRSystem__GetControllerStateWithPose_TypeDefinitionIndex = 38924;
+
 	class IVRSystem__GetControllerStateWithPose : public ::System::MulticastDelegate
 	{
 	public:

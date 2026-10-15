@@ -9,6 +9,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::FullBody
 {
+	inline static constexpr unsigned int GrounderQuadruped_HPFNMMMLOAG_TypeDefinitionIndex = 74235;
+
 	struct alignas(8) GrounderQuadruped_HPFNMMMLOAG
 	{
 		::RPG::Client::FullBody::IKSolver* GOIKIMDAHDA; // 0x10

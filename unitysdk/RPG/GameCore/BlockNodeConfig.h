@@ -16,6 +16,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BlockNodeConfig_TypeDefinitionIndex = 19118;
+
 	class BlockNodeConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

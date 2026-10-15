@@ -30,6 +30,8 @@ namespace UnityEngine { class Transform; }
 #define SOFTBODYIK_START_OFFSET UNITYSDK_OFFSET(0xE983760)
 #define SOFTBODYIK_TESTFORCE_OFFSET UNITYSDK_OFFSET(0xE9884E0)
 
+inline static constexpr unsigned int SoftBodyIK_TypeDefinitionIndex = 47260;
+
 	class SoftBodyIK : public ::UnityEngine::MonoBehaviour
 	{
 	public:

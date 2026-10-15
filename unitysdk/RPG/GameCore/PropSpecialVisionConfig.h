@@ -11,6 +11,8 @@ namespace RPG::GameCore { class PropSpecialVisionConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PropSpecialVisionConfig_TypeDefinitionIndex = 20510;
+
 	class PropSpecialVisionConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

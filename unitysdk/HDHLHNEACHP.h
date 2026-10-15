@@ -34,6 +34,8 @@ namespace System { class String; }
 #define HDHLHNEACHP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E54BB00)
 #define HDHLHNEACHP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E54BB60)
 
+inline static constexpr unsigned int HDHLHNEACHP_TypeDefinitionIndex = 28422;
+
 	class HDHLHNEACHP : public ::System::Object
 	{
 	public:

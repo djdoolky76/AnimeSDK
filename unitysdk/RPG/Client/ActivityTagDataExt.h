@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ActivityTagDataExt_TypeDefinitionIndex = 61707;
+
 	class ActivityTagDataExt : public ::System::Object
 	{
 	public:

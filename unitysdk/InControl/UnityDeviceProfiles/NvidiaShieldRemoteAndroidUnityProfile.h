@@ -7,6 +7,8 @@
 
 namespace InControl::UnityDeviceProfiles
 {
+	inline static constexpr unsigned int NvidiaShieldRemoteAndroidUnityProfile_TypeDefinitionIndex = 40980;
+
 	class NvidiaShieldRemoteAndroidUnityProfile : public ::InControl::InputDeviceProfile
 	{
 	public:

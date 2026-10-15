@@ -27,6 +27,8 @@ namespace UnityEngine { class Texture; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int PassRTRes_TypeDefinitionIndex = 37869;
+
 	class PassRTRes : public ::System::Object
 	{
 	public:

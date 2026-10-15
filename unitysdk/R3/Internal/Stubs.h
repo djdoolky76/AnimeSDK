@@ -8,6 +8,8 @@ namespace System { class Action; }
 
 namespace R3::Internal
 {
+	inline static constexpr unsigned int Stubs_TypeDefinitionIndex = 35975;
+
 	class Stubs : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class EndAdvSkillCombo; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EndAdvSkillCombo_TypeDefinitionIndex = 20197;
+
 	class EndAdvSkillCombo : public ::RPG::GameCore::TaskConfig
 	{
 	public:

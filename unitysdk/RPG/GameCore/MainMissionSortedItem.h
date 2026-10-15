@@ -10,6 +10,8 @@ namespace RPG::GameCore { class SubMissionSortedItem; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MainMissionSortedItem_TypeDefinitionIndex = 19031;
+
 	class MainMissionSortedItem : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System::Text { class StringBuilder; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int IVRRenderModels__GetRenderModelName_TypeDefinitionIndex = 39148;
+
 	class IVRRenderModels__GetRenderModelName : public ::System::MulticastDelegate
 	{
 	public:

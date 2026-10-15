@@ -13,6 +13,8 @@ namespace RPG::Client::PixAir { class PixAirGhostManager; }
 #define LCMFAFCLDOA_START_OFFSET UNITYSDK_OFFSET(0xB618D70)
 #define LCMFAFCLDOA_STOP_OFFSET UNITYSDK_OFFSET(0xB618DB0)
 
+inline static constexpr unsigned int LCMFAFCLDOA_TypeDefinitionIndex = 79219;
+
 	class LCMFAFCLDOA : public ::System::Object
 	{
 	public:

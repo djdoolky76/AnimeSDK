@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AnimWeighted_TypeDefinitionIndex = 16284;
+
 	class AnimWeighted : public ::RPG::GameCore::JsonConfig
 	{
 	public:

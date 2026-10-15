@@ -19,6 +19,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PlanetFesTradingCardExchangeHistoryItem_TypeDefinitionIndex = 66579;
+
 	class PlanetFesTradingCardExchangeHistoryItem : public ::System::Object
 	{
 	public:

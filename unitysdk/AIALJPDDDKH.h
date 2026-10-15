@@ -51,6 +51,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define AIALJPDDDKH_SET_OPERATIONS_OFFSET UNITYSDK_OFFSET(0xEB915D0)
 #define AIALJPDDDKH_SET__BATTLEINSTANCEREF_OFFSET UNITYSDK_OFFSET(0xEB915F0)
 
+inline static constexpr unsigned int AIALJPDDDKH_TypeDefinitionIndex = 58986;
+
 	class AIALJPDDDKH : public ::System::Object
 	{
 	public:

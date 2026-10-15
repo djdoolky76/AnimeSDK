@@ -4,6 +4,8 @@
 
 #define AKMACSETTINGS_CTOR_OFFSET UNITYSDK_OFFSET(0x1F5A51D0)
 
+inline static constexpr unsigned int AkMacSettings_TypeDefinitionIndex = 44894;
+
 	class AkMacSettings : public ::AkWwiseInitializationSettings_CommonPlatformSettings
 	{
 	public:

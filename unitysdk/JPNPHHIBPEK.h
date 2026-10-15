@@ -28,6 +28,8 @@ namespace RPG::Client { class IBookletView; }
 #define JPNPHHIBPEK_SET_VIEW_OFFSET UNITYSDK_OFFSET(0xB2CE600)
 #define JPNPHHIBPEK_TRYSKIP_OFFSET UNITYSDK_OFFSET(0xB2CEA60)
 
+inline static constexpr unsigned int JPNPHHIBPEK_TypeDefinitionIndex = 72429;
+
 	class JPNPHHIBPEK : public ::System::Object
 	{
 	public:

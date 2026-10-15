@@ -24,6 +24,8 @@ namespace System { class Object; }
 #define MFPIHMCMONL_NIJJPBOIGBI_OFFSET UNITYSDK_OFFSET(0xB911B30)
 #define MFPIHMCMONL_PAICDHFMCGK_OFFSET UNITYSDK_OFFSET(0xB911FC0)
 
+inline static constexpr unsigned int MFPIHMCMONL_TypeDefinitionIndex = 71421;
+
 	class MFPIHMCMONL : public ::FMPCODLIOLG
 	{
 	public:

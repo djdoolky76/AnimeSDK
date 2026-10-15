@@ -8,6 +8,8 @@ namespace System::ComponentModel { class PropertyChangedEventArgs; }
 
 namespace Collections::Pooled
 {
+	inline static constexpr unsigned int EventArgsCache_TypeDefinitionIndex = 5121;
+
 	class EventArgsCache : public ::System::Object
 	{
 	public:

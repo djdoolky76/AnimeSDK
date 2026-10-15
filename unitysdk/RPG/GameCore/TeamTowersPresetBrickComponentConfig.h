@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TeamTowersPresetBrickComponentConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TeamTowersPresetBrickComponentConfig_TypeDefinitionIndex = 18953;
+
 	class TeamTowersPresetBrickComponentConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
 	public:

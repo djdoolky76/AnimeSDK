@@ -18,6 +18,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int LoadingTips_TypeDefinitionIndex = 8245;
+
 	class LoadingTips : public ::MiHoYo::SDK::UIElement
 	{
 	public:

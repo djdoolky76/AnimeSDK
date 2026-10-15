@@ -10,6 +10,8 @@
 
 namespace BansheeGz::BGSpline::Curve
 {
+	inline static constexpr unsigned int BGCurveFormulas_TypeDefinitionIndex = 36010;
+
 	class BGCurveFormulas : public ::System::Object
 	{
 	public:

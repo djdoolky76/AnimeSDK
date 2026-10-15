@@ -17,6 +17,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 
 namespace RPG::Client::Challenge::Tierce
 {
+	inline static constexpr unsigned int ChallengeTierceTargetListControl_TypeDefinitionIndex = 81535;
+
 	class ChallengeTierceTargetListControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

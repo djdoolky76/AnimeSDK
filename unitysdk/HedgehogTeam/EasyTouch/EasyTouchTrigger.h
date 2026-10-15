@@ -61,6 +61,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace HedgehogTeam::EasyTouch
 {
+	inline static constexpr unsigned int EasyTouchTrigger_TypeDefinitionIndex = 40244;
+
 	class EasyTouchTrigger : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -6,6 +6,8 @@
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int QREnabledApps_TypeDefinitionIndex = 7910;
+
 	class QREnabledApps : public ::System::Object
 	{
 	public:

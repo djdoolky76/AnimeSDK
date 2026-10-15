@@ -8,6 +8,8 @@ namespace MiHoYo::SDK { class AccountModel; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int AccountListManager___c__DisplayClass20_0_TypeDefinitionIndex = 7986;
+
 	class AccountListManager___c__DisplayClass20_0 : public ::System::Object
 	{
 	public:

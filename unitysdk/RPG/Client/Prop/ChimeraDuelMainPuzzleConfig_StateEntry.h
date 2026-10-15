@@ -8,6 +8,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int ChimeraDuelMainPuzzleConfig_StateEntry_TypeDefinitionIndex = 78304;
+
 	class ChimeraDuelMainPuzzleConfig_StateEntry : public ::System::Object
 	{
 	public:

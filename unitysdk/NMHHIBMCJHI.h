@@ -39,6 +39,8 @@ namespace System { class String; }
 #define NMHHIBMCJHI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB765D0)
 #define NMHHIBMCJHI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB76630)
 
+inline static constexpr unsigned int NMHHIBMCJHI_TypeDefinitionIndex = 31434;
+
 	class NMHHIBMCJHI : public ::System::Object
 	{
 	public:

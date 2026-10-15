@@ -7,6 +7,8 @@ namespace RPG::GameCore { class MarbleActionAgain; }
 #define LICCHBDGBME_CTOR_OFFSET UNITYSDK_OFFSET(0x1C90EE00)
 #define LICCHBDGBME_KDNAAOHECPD_OFFSET UNITYSDK_OFFSET(0x1C90EE10)
 
+inline static constexpr unsigned int LICCHBDGBME_TypeDefinitionIndex = 43099;
+
 	class LICCHBDGBME : public ::BKABEBEPPJK
 	{
 	public:

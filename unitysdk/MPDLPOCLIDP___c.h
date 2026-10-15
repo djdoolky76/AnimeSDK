@@ -10,6 +10,8 @@ namespace System::Collections::Generic { class KeyValuePair; }
 #define MPDLPOCLIDP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C758910)
 #define MPDLPOCLIDP___C___ROLLDICEBYPRESET_B__8_0_OFFSET UNITYSDK_OFFSET(0x1C758920)
 
+inline static constexpr unsigned int MPDLPOCLIDP___c_TypeDefinitionIndex = 36505;
+
 	class MPDLPOCLIDP___c : public ::System::Object
 	{
 	public:

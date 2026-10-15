@@ -9,6 +9,8 @@ namespace RPG::Client::Promises { class Promise; }
 #define HGAAAOGMIJB___C__DISPLAYCLASS4_0___PLAYSTORY_B__2_OFFSET UNITYSDK_OFFSET(0x15C8ED00)
 #define HGAAAOGMIJB___C__DISPLAYCLASS4_0___PLAYSTORY_B__3_OFFSET UNITYSDK_OFFSET(0x15C8ED20)
 
+inline static constexpr unsigned int HGAAAOGMIJB___c__DisplayClass4_0_TypeDefinitionIndex = 67401;
+
 	class HGAAAOGMIJB___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:

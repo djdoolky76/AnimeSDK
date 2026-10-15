@@ -14,6 +14,8 @@ namespace System::Reflection { class MethodInfo; }
 
 namespace IFix::Core
 {
+	inline static constexpr unsigned int Utils_TypeDefinitionIndex = 7136;
+
 	class Utils : public ::System::Object
 	{
 	public:

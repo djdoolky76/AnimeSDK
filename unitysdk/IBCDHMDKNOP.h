@@ -20,6 +20,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define IBCDHMDKNOP_LNBPHPMAHFC_OFFSET UNITYSDK_OFFSET(0x15E2B810)
 #define IBCDHMDKNOP_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0x15E2AF40)
 
+inline static constexpr unsigned int IBCDHMDKNOP_TypeDefinitionIndex = 69200;
+
 	class IBCDHMDKNOP : public ::System::Object
 	{
 	public:

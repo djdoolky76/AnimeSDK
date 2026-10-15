@@ -14,6 +14,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PlayCollectionMorse_TypeDefinitionIndex = 20413;
+
 	class PlayCollectionMorse : public ::RPG::GameCore::TaskConfig
 	{
 	public:

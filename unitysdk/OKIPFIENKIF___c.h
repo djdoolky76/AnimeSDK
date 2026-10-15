@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define OKIPFIENKIF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DE9BB00)
 #define OKIPFIENKIF___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1DE9BB10)
 
+inline static constexpr unsigned int OKIPFIENKIF___c_TypeDefinitionIndex = 28755;
+
 	class OKIPFIENKIF___c : public ::System::Object
 	{
 	public:

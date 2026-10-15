@@ -13,6 +13,8 @@ namespace System { class String; }
 #define GMOIFOPPCII_NKFKGHLMMNK_OFFSET UNITYSDK_OFFSET(0x15ADAD50)
 #define GMOIFOPPCII_TOSTRING_OFFSET UNITYSDK_OFFSET(0x15ADADA0)
 
+inline static constexpr unsigned int GMOIFOPPCII_TypeDefinitionIndex = 59614;
+
 	class GMOIFOPPCII : public ::System::Object
 	{
 	public:

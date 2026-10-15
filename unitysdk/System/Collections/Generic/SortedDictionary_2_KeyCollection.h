@@ -5,6 +5,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace System::Collections::Generic
 {
+	inline static constexpr unsigned int SortedDictionary_2_KeyCollection_TypeDefinitionIndex = 3020;
+
 	template <typename T1, typename T2>
 	class SortedDictionary_2_KeyCollection : public ::System::Object
 	{

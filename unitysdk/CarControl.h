@@ -40,6 +40,8 @@ namespace UnityEngine { class Transform; }
 #define CARCONTROL_UPDATECARLICENSEPOSITION_OFFSET UNITYSDK_OFFSET(0xDCDEEE0)
 #define CARCONTROL_UPDATELIGHTS_OFFSET UNITYSDK_OFFSET(0xDCE2CD0)
 
+inline static constexpr unsigned int CarControl_TypeDefinitionIndex = 47067;
+
 	class CarControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

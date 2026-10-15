@@ -22,6 +22,8 @@ namespace RPG::GameCore { class TransformComponent; }
 #define PDKBDFEOKNE_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC01AAA0)
 #define PDKBDFEOKNE_TICK_OFFSET UNITYSDK_OFFSET(0xC01A5A0)
 
+inline static constexpr unsigned int PDKBDFEOKNE_TypeDefinitionIndex = 52426;
+
 	class PDKBDFEOKNE : public ::GELIALJDFBL
 	{
 	public:

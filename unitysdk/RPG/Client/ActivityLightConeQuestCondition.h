@@ -16,6 +16,8 @@ namespace RPG::GameCore { class QuestDataRow; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ActivityLightConeQuestCondition_TypeDefinitionIndex = 61676;
+
 	class ActivityLightConeQuestCondition : public ::System::Object
 	{
 	public:

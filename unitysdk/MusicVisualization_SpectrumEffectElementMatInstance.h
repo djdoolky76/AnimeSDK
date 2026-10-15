@@ -9,6 +9,8 @@ namespace UnityEngine { class GameObject; }
 #define MUSICVISUALIZATION_SPECTRUMEFFECTELEMENTMATINSTANCE_CTOR_OFFSET UNITYSDK_OFFSET(0xBA50B00)
 #define MUSICVISUALIZATION_SPECTRUMEFFECTELEMENTMATINSTANCE_KFDMIOANNDO_OFFSET UNITYSDK_OFFSET(0xBA50610)
 
+inline static constexpr unsigned int MusicVisualization_SpectrumEffectElementMatInstance_TypeDefinitionIndex = 47474;
+
 	class MusicVisualization_SpectrumEffectElementMatInstance : public ::RPG::Client::MusicVisualization_SpectrumEffectElementVisualBase
 	{
 	public:

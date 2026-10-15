@@ -33,6 +33,8 @@ namespace System { class String; }
 #define HLMNDLOMPKP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E5C24D0)
 #define HLMNDLOMPKP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E5C2530)
 
+inline static constexpr unsigned int HLMNDLOMPKP_TypeDefinitionIndex = 25086;
+
 	class HLMNDLOMPKP : public ::System::Object
 	{
 	public:

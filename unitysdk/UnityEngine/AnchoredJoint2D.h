@@ -8,6 +8,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int AnchoredJoint2D_TypeDefinitionIndex = 5819;
+
 	class AnchoredJoint2D : public ::UnityEngine::Joint2D
 	{
 	public:

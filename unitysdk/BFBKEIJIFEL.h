@@ -33,6 +33,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define BFBKEIJIFEL_OLDGDBJPBPA_OFFSET UNITYSDK_OFFSET(0xB15EFA0)
 #define BFBKEIJIFEL_ONCHHIJLCJI_OFFSET UNITYSDK_OFFSET(0xB15E490)
 
+inline static constexpr unsigned int BFBKEIJIFEL_TypeDefinitionIndex = 66710;
+
 	class BFBKEIJIFEL : public ::System::Object
 	{
 	public:

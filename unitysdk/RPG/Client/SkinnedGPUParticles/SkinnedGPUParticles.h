@@ -9,6 +9,8 @@ namespace UnityEngine { class SkinnedMeshRenderer; }
 
 namespace RPG::Client::SkinnedGPUParticles
 {
+	inline static constexpr unsigned int SkinnedGPUParticles_TypeDefinitionIndex = 73699;
+
 	class SkinnedGPUParticles
 	{
 	public:

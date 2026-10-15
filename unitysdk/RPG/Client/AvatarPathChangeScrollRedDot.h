@@ -18,6 +18,8 @@ namespace UnityEngine::UI { class ScrollRect; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AvatarPathChangeScrollRedDot_TypeDefinitionIndex = 71340;
+
 	class AvatarPathChangeScrollRedDot : public ::UnityEngine::MonoBehaviour
 	{
 	public:

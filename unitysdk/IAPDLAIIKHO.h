@@ -8,6 +8,8 @@ namespace RPG::GameCore { class WaitSkillPerformAbilityFinish; }
 #define IAPDLAIIKHO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15E23DA0)
 #define IAPDLAIIKHO_TICK_OFFSET UNITYSDK_OFFSET(0x15E23F00)
 
+inline static constexpr unsigned int IAPDLAIIKHO_TypeDefinitionIndex = 55813;
+
 	class IAPDLAIIKHO
 	{
 	public:

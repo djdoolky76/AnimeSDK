@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightModifierAddDropByMonsterIdConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightModifierAddDropByMonsterIdConfig_TypeDefinitionIndex = 19368;
+
 	class GridFightModifierAddDropByMonsterIdConfig : public ::RPG::GameCore::GridFightModifierConfigBase
 	{
 	public:

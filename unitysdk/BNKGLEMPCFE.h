@@ -11,6 +11,8 @@ namespace System { class Object; }
 #define BNKGLEMPCFE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C5C8810)
 #define BNKGLEMPCFE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C5C8770)
 
+inline static constexpr unsigned int BNKGLEMPCFE_TypeDefinitionIndex = 36247;
+
 	class BNKGLEMPCFE : public ::System::MulticastDelegate
 	{
 	public:

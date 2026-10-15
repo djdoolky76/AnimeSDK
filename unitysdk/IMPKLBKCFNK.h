@@ -3,6 +3,8 @@
 #include "unitysdk/System/Object.h"
 namespace System { class String; }
 
+inline static constexpr unsigned int IMPKLBKCFNK_TypeDefinitionIndex = 49975;
+
 	class IMPKLBKCFNK : public ::System::Object
 	{
 	public:

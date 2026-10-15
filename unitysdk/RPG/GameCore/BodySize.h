@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BodySize_TypeDefinitionIndex = 10446;
+
 	enum class BodySize : ::System::Int32
 	{
 		Male = 0,

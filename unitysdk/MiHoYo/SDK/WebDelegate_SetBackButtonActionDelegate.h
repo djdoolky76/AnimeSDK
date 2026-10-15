@@ -13,6 +13,8 @@ namespace System { template <typename T> class Func_1; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int WebDelegate_SetBackButtonActionDelegate_TypeDefinitionIndex = 7831;
+
 	class WebDelegate_SetBackButtonActionDelegate : public ::System::MulticastDelegate
 	{
 	public:

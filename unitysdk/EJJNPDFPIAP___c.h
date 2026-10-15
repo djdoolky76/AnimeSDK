@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define EJJNPDFPIAP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E2BACF0)
 #define EJJNPDFPIAP___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E2BAD00)
 
+inline static constexpr unsigned int EJJNPDFPIAP___c_TypeDefinitionIndex = 34114;
+
 	class EJJNPDFPIAP___c : public ::System::Object
 	{
 	public:

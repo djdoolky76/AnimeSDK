@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int MCBFOMIGMLA_TypeDefinitionIndex = 25284;
+
 	enum class MCBFOMIGMLA : ::System::Int32
 	{
 		NLCDGIPGFDJ = 0,

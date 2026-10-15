@@ -9,6 +9,8 @@ namespace RPG::Client { class DrinkMakerTag; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int DrinkMakerModule___c__DisplayClass19_0_TypeDefinitionIndex = 63632;
+
 	class DrinkMakerModule___c__DisplayClass19_0 : public ::System::Object
 	{
 	public:

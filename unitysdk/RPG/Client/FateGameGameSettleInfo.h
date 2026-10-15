@@ -15,6 +15,8 @@ namespace RPG::Client { class FateStatisticsGameSettleDataItem; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FateGameGameSettleInfo_TypeDefinitionIndex = 64032;
+
 	class FateGameGameSettleInfo : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace System::Diagnostics
 {
+	inline static constexpr unsigned int Switch_TypeDefinitionIndex = 2534;
+
 	class Switch : public ::System::Object
 	{
 	public:

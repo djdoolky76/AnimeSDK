@@ -20,6 +20,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define JEONKPEGKLC_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0x16642420)
 #define JEONKPEGKLC_SET_ISFINISHED_OFFSET UNITYSDK_OFFSET(0x166423B0)
 
+inline static constexpr unsigned int JEONKPEGKLC_TypeDefinitionIndex = 53543;
+
 	class JEONKPEGKLC : public ::System::Object
 	{
 	public:

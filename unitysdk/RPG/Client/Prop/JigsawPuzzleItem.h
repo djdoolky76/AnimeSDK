@@ -68,6 +68,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int JigsawPuzzleItem_TypeDefinitionIndex = 78659;
+
 	class JigsawPuzzleItem : public ::RPG::Client::Prop::InteractPuzzleItemBase
 	{
 	public:

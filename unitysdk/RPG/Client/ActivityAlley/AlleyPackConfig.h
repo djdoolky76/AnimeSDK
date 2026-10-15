@@ -8,6 +8,8 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace RPG::Client::ActivityAlley
 {
+	inline static constexpr unsigned int AlleyPackConfig_TypeDefinitionIndex = 74098;
+
 	class AlleyPackConfig : public ::System::Object
 	{
 	public:

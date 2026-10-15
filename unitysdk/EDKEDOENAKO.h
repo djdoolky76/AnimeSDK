@@ -16,6 +16,8 @@ class GNFKIEAGDHL;
 #define EDKEDOENAKO_JIOPBMMHALJ_OFFSET UNITYSDK_OFFSET(0x13325720)
 #define EDKEDOENAKO_PHDAFFAJDBE_OFFSET UNITYSDK_OFFSET(0x133255E0)
 
+inline static constexpr unsigned int EDKEDOENAKO_TypeDefinitionIndex = 63885;
+
 	class EDKEDOENAKO : public ::System::Object
 	{
 	public:

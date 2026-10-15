@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define OMJPICCHOEG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DEB8AC0)
 #define OMJPICCHOEG___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1DEB8AD0)
 
+inline static constexpr unsigned int OMJPICCHOEG___c_TypeDefinitionIndex = 30177;
+
 	class OMJPICCHOEG___c : public ::System::Object
 	{
 	public:

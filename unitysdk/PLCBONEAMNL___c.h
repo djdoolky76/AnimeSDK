@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define PLCBONEAMNL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF9E8E0)
 #define PLCBONEAMNL___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1DF9E8F0)
 
+inline static constexpr unsigned int PLCBONEAMNL___c_TypeDefinitionIndex = 30185;
+
 	class PLCBONEAMNL___c : public ::System::Object
 	{
 	public:

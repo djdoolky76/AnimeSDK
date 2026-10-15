@@ -11,6 +11,8 @@ namespace UnityEngine { class Transform; }
 #define CGBMCEKFFII_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0xCC85340)
 #define CGBMCEKFFII__ONEXECUTE_B__1_0_OFFSET UNITYSDK_OFFSET(0xCC85490)
 
+inline static constexpr unsigned int CGBMCEKFFII_TypeDefinitionIndex = 74467;
+
 	class CGBMCEKFFII : public ::MFDDEJCPLON
 	{
 	public:

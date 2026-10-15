@@ -17,6 +17,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define JBIAMEODIHF_OINBDMGFFJL_OFFSET UNITYSDK_OFFSET(0x1C6F1530)
 #define JBIAMEODIHF_OLKCPLKFFFO_OFFSET UNITYSDK_OFFSET(0x1C6E3A50)
 
+inline static constexpr unsigned int JBIAMEODIHF_TypeDefinitionIndex = 36897;
+
 	class JBIAMEODIHF : public ::System::Object
 	{
 	public:

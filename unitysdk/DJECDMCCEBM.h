@@ -6,6 +6,8 @@ namespace UnityEngine { class Transform; }
 #define DJECDMCCEBM_CTOR_OFFSET UNITYSDK_OFFSET(0xF22E900)
 #define DJECDMCCEBM_GKCBKLLPLMO_OFFSET UNITYSDK_OFFSET(0xF22E8B0)
 
+inline static constexpr unsigned int DJECDMCCEBM_TypeDefinitionIndex = 64460;
+
 	class DJECDMCCEBM : public ::System::Object
 	{
 	public:

@@ -40,6 +40,8 @@ namespace System { class String; }
 #define OPEDNENFCIN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DEDF190)
 #define OPEDNENFCIN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DEDF1F0)
 
+inline static constexpr unsigned int OPEDNENFCIN_TypeDefinitionIndex = 28538;
+
 	class OPEDNENFCIN : public ::System::Object
 	{
 	public:

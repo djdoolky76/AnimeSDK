@@ -9,6 +9,8 @@ class PIFNFDCAFKE;
 #define PIFNFDCAFKE_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC90A80)
 #define PIFNFDCAFKE_ENMEPNCHEMN_OFFSET UNITYSDK_OFFSET(0x1EC84660)
 
+inline static constexpr unsigned int PIFNFDCAFKE_TypeDefinitionIndex = 44305;
+
 	class PIFNFDCAFKE : public ::System::Object
 	{
 	public:

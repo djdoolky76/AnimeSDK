@@ -5,6 +5,8 @@ namespace UnityEngine { class Animator; }
 #define OEPIJBDIDIC_HBIFBJENIIK_OFFSET UNITYSDK_OFFSET(0x24120)
 #define OEPIJBDIDIC_NKBAHKJGEFM_OFFSET UNITYSDK_OFFSET(0x24110)
 
+inline static constexpr unsigned int OEPIJBDIDIC_TypeDefinitionIndex = 73328;
+
 	struct alignas(4) OEPIJBDIDIC
 	{
 		::System::Int32 BJMAHPHMFDM; // 0x10

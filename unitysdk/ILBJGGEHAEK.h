@@ -27,6 +27,8 @@ namespace System { class String; }
 #define ILBJGGEHAEK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E6A6FD0)
 #define ILBJGGEHAEK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E6A7030)
 
+inline static constexpr unsigned int ILBJGGEHAEK_TypeDefinitionIndex = 31658;
+
 	class ILBJGGEHAEK : public ::System::Object
 	{
 	public:

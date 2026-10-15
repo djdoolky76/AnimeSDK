@@ -3,6 +3,8 @@
 
 namespace Mono
 {
+	inline static constexpr unsigned int RuntimeStructs_RemoteClass_TypeDefinitionIndex = 13;
+
 	struct alignas(8) RuntimeStructs_RemoteClass
 	{
 		::System::IntPtr default_vtable; // 0x10

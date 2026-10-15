@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ST_Main_ElfEntityDestory; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ST_Main_ElfEntityDestory_TypeDefinitionIndex = 21547;
+
 	class ST_Main_ElfEntityDestory : public ::RPG::GameCore::STTaskConfig
 	{
 	public:

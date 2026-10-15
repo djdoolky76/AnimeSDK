@@ -15,6 +15,8 @@ namespace System { class String; }
 #define JIAFOPELMJJ___C__DISPLAYCLASS72_0__STARTPATCH_B__0_OFFSET UNITYSDK_OFFSET(0xB1E9690)
 #define JIAFOPELMJJ___C__DISPLAYCLASS72_0__STARTPATCH_B__1_OFFSET UNITYSDK_OFFSET(0xB1E9840)
 
+inline static constexpr unsigned int JIAFOPELMJJ___c__DisplayClass72_0_TypeDefinitionIndex = 59525;
+
 	class JIAFOPELMJJ___c__DisplayClass72_0 : public ::System::Object
 	{
 	public:

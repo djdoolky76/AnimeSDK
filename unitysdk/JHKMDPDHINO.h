@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 #define JHKMDPDHINO_TOSTRING_OFFSET UNITYSDK_OFFSET(0xB1BA9C0)
 #define JHKMDPDHINO__DOCHECKIMPL_OFFSET UNITYSDK_OFFSET(0xB1BA870)
 
+inline static constexpr unsigned int JHKMDPDHINO_TypeDefinitionIndex = 59877;
+
 	class JHKMDPDHINO : public ::RPG::Client::SyncCheckItemBase
 	{
 	public:

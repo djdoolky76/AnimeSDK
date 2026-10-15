@@ -21,6 +21,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int DesignDataShortNameHash_TypeDefinitionIndex = 35264;
+
 	struct alignas(4) DesignDataShortNameHash
 	{
 		::System::UInt64 Value; // 0x10

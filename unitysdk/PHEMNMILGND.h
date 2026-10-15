@@ -16,6 +16,8 @@ namespace System::Threading { class Thread; }
 #define PHEMNMILGND_NDLHPJGNKDI_OFFSET UNITYSDK_OFFSET(0xC248B80)
 #define PHEMNMILGND_PDKLDMNAJBO_OFFSET UNITYSDK_OFFSET(0xC2495B0)
 
+inline static constexpr unsigned int PHEMNMILGND_TypeDefinitionIndex = 60065;
+
 	class PHEMNMILGND : public ::System::Object
 	{
 	public:

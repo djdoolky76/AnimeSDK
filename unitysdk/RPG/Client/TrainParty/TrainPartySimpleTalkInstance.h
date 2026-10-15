@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::TrainParty
 {
+	inline static constexpr unsigned int TrainPartySimpleTalkInstance_TypeDefinitionIndex = 74323;
+
 	class TrainPartySimpleTalkInstance : public ::System::Object
 	{
 	public:

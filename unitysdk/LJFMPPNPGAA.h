@@ -10,6 +10,8 @@ namespace System::Reflection { class MethodInfo; }
 #define LJFMPPNPGAA_ABFDIFLKGDF_OFFSET UNITYSDK_OFFSET(0xB717B00)
 #define LJFMPPNPGAA_CTOR_OFFSET UNITYSDK_OFFSET(0xB717AF0)
 
+inline static constexpr unsigned int LJFMPPNPGAA_TypeDefinitionIndex = 73154;
+
 	class LJFMPPNPGAA : public ::System::Object
 	{
 	public:

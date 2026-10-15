@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace System::Xml::Serialization
 {
+	inline static constexpr unsigned int UnreferencedObjectEventArgs_TypeDefinitionIndex = 1988;
+
 	class UnreferencedObjectEventArgs : public ::System::EventArgs
 	{
 	public:

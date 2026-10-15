@@ -100,6 +100,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MatchThreeV2Module_TypeDefinitionIndex = 66033;
+
 	class MatchThreeV2Module : public ::RPG::Client::BaseModule
 	{
 	public:

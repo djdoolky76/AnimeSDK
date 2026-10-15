@@ -31,6 +31,8 @@ namespace UnityEngine { class Transform; }
 #define LEKIHHNOPJO_OGKGKPDCKIH_OFFSET UNITYSDK_OFFSET(0xB65C8A0)
 #define LEKIHHNOPJO__ONBIND_OFFSET UNITYSDK_OFFSET(0xB65BBA0)
 
+inline static constexpr unsigned int LEKIHHNOPJO_TypeDefinitionIndex = 72331;
+
 	class LEKIHHNOPJO : public ::FMPCODLIOLG
 	{
 	public:

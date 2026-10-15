@@ -33,6 +33,8 @@ namespace RPG::GameCore { class ChimeraDuelWaitSecondsNode; }
 #define GMOJFIOPIAD_KKLGPLPMCOI_OFFSET UNITYSDK_OFFSET(0x15ADC0F0)
 #define GMOJFIOPIAD_LLCDDKOLEHF_OFFSET UNITYSDK_OFFSET(0x15ADAE10)
 
+inline static constexpr unsigned int GMOJFIOPIAD_TypeDefinitionIndex = 77619;
+
 	class GMOJFIOPIAD : public ::HAMNJNDCEEH
 	{
 	public:

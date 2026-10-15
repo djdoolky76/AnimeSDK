@@ -8,6 +8,8 @@ class FKKIAHNJCBC;
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftTalentedPartnerHeadControl___c__DisplayClass7_0_TypeDefinitionIndex = 79832;
+
 	class MechCraftTalentedPartnerHeadControl___c__DisplayClass7_0 : public ::System::Object
 	{
 	public:

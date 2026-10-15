@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T> class Queue_1; }
 #define MJKLAEILHPK_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0x1D9E0)
 #define MJKLAEILHPK_TICK_OFFSET UNITYSDK_OFFSET(0x1D930)
 
+inline static constexpr unsigned int MJKLAEILHPK_TypeDefinitionIndex = 54770;
+
 	struct alignas(8) MJKLAEILHPK
 	{
 		::KDJNAAOFMMJ* GIJPHIALKGF; // 0x10

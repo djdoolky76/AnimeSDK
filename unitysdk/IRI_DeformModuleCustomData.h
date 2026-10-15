@@ -27,6 +27,8 @@ namespace UnityEngine { class Transform; }
 #define IRI_DEFORMMODULECUSTOMDATA_SETSIZE_OFFSET UNITYSDK_OFFSET(0x16536020)
 #define IRI_DEFORMMODULECUSTOMDATA_SET_MPB_OFFSET UNITYSDK_OFFSET(0x16533B90)
 
+inline static constexpr unsigned int IRI_DeformModuleCustomData_TypeDefinitionIndex = 47173;
+
 	class IRI_DeformModuleCustomData : public ::UnityEngine::MonoBehaviour
 	{
 	public:

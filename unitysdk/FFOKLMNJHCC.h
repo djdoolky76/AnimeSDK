@@ -10,6 +10,8 @@ namespace RPG::GameCore { class DynamicString; }
 #define FFOKLMNJHCC_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CDEA730)
 #define FFOKLMNJHCC_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CDEA6F0)
 
+inline static constexpr unsigned int FFOKLMNJHCC_TypeDefinitionIndex = 21453;
+
 	class FFOKLMNJHCC : public ::RPG::GameCore::TaskConfig
 	{
 	public:

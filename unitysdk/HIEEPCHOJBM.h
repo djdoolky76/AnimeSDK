@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TurnBasedAbilityComponent; }
 #define HIEEPCHOJBM_MPKLOIGJIPG_OFFSET UNITYSDK_OFFSET(0x15CE2F60)
 #define HIEEPCHOJBM_NKEBOIHBCCD_OFFSET UNITYSDK_OFFSET(0x15CE2F00)
 
+inline static constexpr unsigned int HIEEPCHOJBM_TypeDefinitionIndex = 56891;
+
 	class HIEEPCHOJBM : public ::NPKNJAMIKEA
 	{
 	public:

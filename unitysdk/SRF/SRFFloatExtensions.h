@@ -9,6 +9,8 @@
 
 namespace SRF
 {
+	inline static constexpr unsigned int SRFFloatExtensions_TypeDefinitionIndex = 35368;
+
 	class SRFFloatExtensions : public ::System::Object
 	{
 	public:

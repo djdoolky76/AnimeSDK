@@ -4,6 +4,8 @@
 
 #define AACPKKJNFEL_CTOR_OFFSET UNITYSDK_OFFSET(0xB0C1B80)
 
+inline static constexpr unsigned int AACPKKJNFEL_TypeDefinitionIndex = 47954;
+
 	class AACPKKJNFEL : public ::ONEGHOPELAC
 	{
 	public:

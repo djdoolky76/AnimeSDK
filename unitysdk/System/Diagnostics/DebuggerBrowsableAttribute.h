@@ -7,6 +7,8 @@
 
 namespace System::Diagnostics
 {
+	inline static constexpr unsigned int DebuggerBrowsableAttribute_TypeDefinitionIndex = 1579;
+
 	class DebuggerBrowsableAttribute : public ::System::Attribute
 	{
 	public:

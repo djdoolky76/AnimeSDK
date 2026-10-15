@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define CCDBFIGFKFB_EHFLDBMLBPM_OFFSET UNITYSDK_OFFSET(0xC737DF0)
 #define CCDBFIGFKFB_PKADDEPKJFN_OFFSET UNITYSDK_OFFSET(0xC7385C0)
 
+inline static constexpr unsigned int CCDBFIGFKFB_TypeDefinitionIndex = 74037;
+
 	class CCDBFIGFKFB : public ::System::Object
 	{
 	public:

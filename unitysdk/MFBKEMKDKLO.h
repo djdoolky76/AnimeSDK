@@ -25,6 +25,8 @@ namespace System { class String; }
 #define MFBKEMKDKLO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA152E0)
 #define MFBKEMKDKLO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA15340)
 
+inline static constexpr unsigned int MFBKEMKDKLO_TypeDefinitionIndex = 28215;
+
 	class MFBKEMKDKLO : public ::System::Object
 	{
 	public:

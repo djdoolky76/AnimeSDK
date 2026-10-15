@@ -5,6 +5,8 @@
 #define HNHAGCKOLJP_CTOR_OFFSET UNITYSDK_OFFSET(0x15D93D50)
 #define HNHAGCKOLJP_JJNFOPNOPBF_OFFSET UNITYSDK_OFFSET(0x15D93950)
 
+inline static constexpr unsigned int HNHAGCKOLJP_TypeDefinitionIndex = 62449;
+
 	class HNHAGCKOLJP : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@ namespace RPG::Client::Promises { class IPromise; }
 #define MIEJMBIHIMF_MJEGFOMAOFH_OFFSET UNITYSDK_OFFSET(0xB9529A0)
 #define MIEJMBIHIMF_MMOFFFCEOIC_OFFSET UNITYSDK_OFFSET(0xB952A20)
 
+inline static constexpr unsigned int MIEJMBIHIMF_TypeDefinitionIndex = 63485;
+
 	class MIEJMBIHIMF : public ::System::Object
 	{
 	public:

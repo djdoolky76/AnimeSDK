@@ -31,6 +31,8 @@ namespace System { class String; }
 #define CDCMOFFKCPI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E080AD0)
 #define CDCMOFFKCPI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E080B30)
 
+inline static constexpr unsigned int CDCMOFFKCPI_TypeDefinitionIndex = 28082;
+
 	class CDCMOFFKCPI : public ::System::Object
 	{
 	public:

@@ -28,6 +28,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace MiHoYo::SDK::HoYoPass
 {
+	inline static constexpr unsigned int UserCenterManager_TypeDefinitionIndex = 8273;
+
 	class UserCenterManager : public ::System::Object
 	{
 	public:

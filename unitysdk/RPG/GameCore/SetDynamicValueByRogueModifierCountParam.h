@@ -10,6 +10,8 @@ namespace RPG::GameCore { class SetDynamicValueByRogueModifierCountParam; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetDynamicValueByRogueModifierCountParam_TypeDefinitionIndex = 21797;
+
 	class SetDynamicValueByRogueModifierCountParam : public ::RPG::GameCore::SetDynamicValueParamBase
 	{
 	public:

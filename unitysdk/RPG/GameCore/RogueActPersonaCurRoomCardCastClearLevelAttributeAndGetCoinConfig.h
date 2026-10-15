@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueActPersonaCurRoomCardCastClearLevelAttribut
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueActPersonaCurRoomCardCastClearLevelAttributeAndGetCoinConfig_TypeDefinitionIndex = 19767;
+
 	class RogueActPersonaCurRoomCardCastClearLevelAttributeAndGetCoinConfig : public ::RPG::GameCore::RogueActPersonaCurRoomCardCastConfig
 	{
 	public:

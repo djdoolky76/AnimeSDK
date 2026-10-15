@@ -5,6 +5,8 @@ namespace RPG::Client { class NotifyHandler; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PhotoGraphUtils___O_TypeDefinitionIndex = 69463;
+
 	class PhotoGraphUtils___O : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@ namespace RPG::GameCore { class FiveDimTriggerEventEmitterListConfig; }
 #define IMBAEINKENC_CLEAR_OFFSET UNITYSDK_OFFSET(0x1CB78550)
 #define IMBAEINKENC_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB785D0)
 
+inline static constexpr unsigned int IMBAEINKENC_TypeDefinitionIndex = 43311;
+
 	class IMBAEINKENC : public ::System::Object
 	{
 	public:

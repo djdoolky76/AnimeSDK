@@ -6,6 +6,8 @@
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int ActiveTimelineTrack_TypeDefinitionIndex = 47788;
+
 	class ActiveTimelineTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
 	public:

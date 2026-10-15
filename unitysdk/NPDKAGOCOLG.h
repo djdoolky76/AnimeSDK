@@ -28,6 +28,8 @@ namespace System { class String; }
 #define NPDKAGOCOLG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB94CC0)
 #define NPDKAGOCOLG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB94D20)
 
+inline static constexpr unsigned int NPDKAGOCOLG_TypeDefinitionIndex = 27500;
+
 	class NPDKAGOCOLG : public ::System::Object
 	{
 	public:

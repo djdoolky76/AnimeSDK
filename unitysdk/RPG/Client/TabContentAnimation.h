@@ -13,6 +13,8 @@ namespace UnityEngine { class AnimationClip; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TabContentAnimation_TypeDefinitionIndex = 72832;
+
 	class TabContentAnimation : public ::UnityEngine::MonoBehaviour
 	{
 	public:

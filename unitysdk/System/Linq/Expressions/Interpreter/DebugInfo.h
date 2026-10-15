@@ -12,6 +12,8 @@ namespace System::Linq::Expressions::Interpreter { class DebugInfo_DebugInfoComp
 
 namespace System::Linq::Expressions::Interpreter
 {
+	inline static constexpr unsigned int DebugInfo_TypeDefinitionIndex = 3482;
+
 	class DebugInfo : public ::System::Object
 	{
 	public:

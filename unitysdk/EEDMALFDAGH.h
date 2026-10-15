@@ -8,6 +8,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define EEDMALFDAGH_GETEVENTTYPE_OFFSET UNITYSDK_OFFSET(0x13A2A700)
 #define EEDMALFDAGH_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x13A2A6B0)
 
+inline static constexpr unsigned int EEDMALFDAGH_TypeDefinitionIndex = 56659;
+
 	class EEDMALFDAGH : public ::System::Object
 	{
 	public:

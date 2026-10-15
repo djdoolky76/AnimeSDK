@@ -10,6 +10,8 @@ namespace RPG::GameCore { class SetForceStreamingThisFrame; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetForceStreamingThisFrame_TypeDefinitionIndex = 21102;
+
 	class SetForceStreamingThisFrame : public ::RPG::GameCore::TaskConfig
 	{
 	public:

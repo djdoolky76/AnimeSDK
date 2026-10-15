@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PropDailyIcon_TypeDefinitionIndex = 12547;
+
 	class PropDailyIcon : public ::System::Object
 	{
 	public:

@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChimeraDuelGameExcelTable_TypeDefinitionIndex = 11136;
+
 	class ChimeraDuelGameExcelTable : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@ namespace RPG::GameCore { class DialogueGroupRow; }
 #define PABKMCIOHDM_DGJNFLPHEJM_OFFSET UNITYSDK_OFFSET(0xBFC4B40)
 #define PABKMCIOHDM_DMLIGFEFINN_OFFSET UNITYSDK_OFFSET(0xBFC4E70)
 
+inline static constexpr unsigned int PABKMCIOHDM_TypeDefinitionIndex = 56496;
+
 	class PABKMCIOHDM : public ::System::Object
 	{
 	public:

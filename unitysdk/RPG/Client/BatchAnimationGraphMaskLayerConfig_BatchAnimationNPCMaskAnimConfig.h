@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BatchAnimationGraphMaskLayerConfig_BatchAnimationNPCMaskAnimConfig_TypeDefinitionIndex = 60014;
+
 	class BatchAnimationGraphMaskLayerConfig_BatchAnimationNPCMaskAnimConfig : public ::System::Object
 	{
 	public:

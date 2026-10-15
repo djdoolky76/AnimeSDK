@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define MECBFBNNICM_TOSTRING_OFFSET UNITYSDK_OFFSET(0xB8BA980)
 #define MECBFBNNICM_TRIGGERACTION_OFFSET UNITYSDK_OFFSET(0xB8BAA10)
 
+inline static constexpr unsigned int MECBFBNNICM_TypeDefinitionIndex = 67051;
+
 	class MECBFBNNICM : public ::System::Object
 	{
 	public:

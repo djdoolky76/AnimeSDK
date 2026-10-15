@@ -53,6 +53,8 @@ namespace System { class String; }
 #define EJLFOBMAPEJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E2BC3B0)
 #define EJLFOBMAPEJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E2BC410)
 
+inline static constexpr unsigned int EJLFOBMAPEJ_TypeDefinitionIndex = 31378;
+
 	class EJLFOBMAPEJ : public ::System::Object
 	{
 	public:

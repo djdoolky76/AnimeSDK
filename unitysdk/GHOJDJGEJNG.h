@@ -10,6 +10,8 @@ namespace Entitas { class IGroup; }
 #define GHOJDJGEJNG_EXECUTE_OFFSET UNITYSDK_OFFSET(0x15A2D8C0)
 #define GHOJDJGEJNG_KMANBNKPLJJ_OFFSET UNITYSDK_OFFSET(0x15A2DA30)
 
+inline static constexpr unsigned int GHOJDJGEJNG_TypeDefinitionIndex = 77785;
+
 	class GHOJDJGEJNG : public ::System::Object
 	{
 	public:

@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int AnimatorStaticFrameBehaviour_TypeDefinitionIndex = 47855;
+
 	class AnimatorStaticFrameBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

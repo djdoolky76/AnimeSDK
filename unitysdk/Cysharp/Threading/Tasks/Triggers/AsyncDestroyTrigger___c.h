@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace Cysharp::Threading::Tasks::Triggers
 {
+	inline static constexpr unsigned int AsyncDestroyTrigger___c_TypeDefinitionIndex = 38497;
+
 	class AsyncDestroyTrigger___c : public ::System::Object
 	{
 	public:

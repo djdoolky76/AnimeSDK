@@ -14,6 +14,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int SetCharacterAnimExtLayerEnableClip_TypeDefinitionIndex = 47933;
+
 	class SetCharacterAnimExtLayerEnableClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

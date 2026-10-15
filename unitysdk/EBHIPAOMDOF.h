@@ -7,6 +7,8 @@
 #define EBHIPAOMDOF_CTOR_OFFSET UNITYSDK_OFFSET(0x12CF53D0)
 #define EBHIPAOMDOF_GMKENGMMLKP_OFFSET UNITYSDK_OFFSET(0x12CF53C0)
 
+inline static constexpr unsigned int EBHIPAOMDOF_TypeDefinitionIndex = 55389;
+
 	class EBHIPAOMDOF : public ::System::Object
 	{
 	public:

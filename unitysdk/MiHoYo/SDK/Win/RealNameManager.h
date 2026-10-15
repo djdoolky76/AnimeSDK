@@ -50,6 +50,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int RealNameManager_TypeDefinitionIndex = 9348;
+
 	class RealNameManager : public ::System::Object
 	{
 	public:

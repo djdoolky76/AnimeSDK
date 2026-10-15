@@ -22,6 +22,8 @@
 #define SRMATH_WRAP_1_OFFSET UNITYSDK_OFFSET(0x1ED86540)
 #define SRMATH_WRAP_OFFSET UNITYSDK_OFFSET(0x1ED86490)
 
+inline static constexpr unsigned int SRMath_TypeDefinitionIndex = 35352;
+
 	class SRMath : public ::System::Object
 	{
 	public:

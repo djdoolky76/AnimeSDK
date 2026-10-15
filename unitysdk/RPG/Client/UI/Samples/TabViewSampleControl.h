@@ -19,6 +19,8 @@ namespace System { class IDisposable; }
 
 namespace RPG::Client::Ui::Samples
 {
+	inline static constexpr unsigned int TabViewSampleControl_TypeDefinitionIndex = 73462;
+
 	class TabViewSampleControl : public ::Sofa::BaseSofaControl
 	{
 	public:

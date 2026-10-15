@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define ONNMFEFHFMD_REFRESHLOCK_OFFSET UNITYSDK_OFFSET(0xBF5FD50)
 #define ONNMFEFHFMD_UNLOCK_OFFSET UNITYSDK_OFFSET(0xBF5FC50)
 
+inline static constexpr unsigned int ONNMFEFHFMD_TypeDefinitionIndex = 74776;
+
 	class ONNMFEFHFMD : public ::RPG::Client::GamePlayLockTargetFunc
 	{
 	public:

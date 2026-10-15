@@ -7,6 +7,8 @@ namespace RPG::GameCore { class EntityTimeRewindComponent; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int OpenTimeRewindSnapPageParam_TypeDefinitionIndex = 53378;
+
 	class OpenTimeRewindSnapPageParam : public ::System::Object
 	{
 	public:

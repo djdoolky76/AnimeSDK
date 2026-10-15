@@ -27,6 +27,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DynamicFloat_TypeDefinitionIndex = 10836;
+
 	class DynamicFloat : public ::System::Object
 	{
 	public:

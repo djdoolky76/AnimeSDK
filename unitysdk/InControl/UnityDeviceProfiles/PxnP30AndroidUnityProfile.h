@@ -7,6 +7,8 @@
 
 namespace InControl::UnityDeviceProfiles
 {
+	inline static constexpr unsigned int PxnP30AndroidUnityProfile_TypeDefinitionIndex = 40984;
+
 	class PxnP30AndroidUnityProfile : public ::InControl::InputDeviceProfile
 	{
 	public:

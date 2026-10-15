@@ -28,6 +28,8 @@ namespace System { class String; }
 #define DMHDLBHJKOG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E1EF1A0)
 #define DMHDLBHJKOG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E1EF200)
 
+inline static constexpr unsigned int DMHDLBHJKOG_TypeDefinitionIndex = 33615;
+
 	class DMHDLBHJKOG : public ::System::Object
 	{
 	public:

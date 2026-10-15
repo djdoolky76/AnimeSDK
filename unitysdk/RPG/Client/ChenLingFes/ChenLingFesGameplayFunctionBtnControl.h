@@ -16,6 +16,8 @@ namespace System::ComponentModel { class PropertyChangedEventArgs; }
 
 namespace RPG::Client::ChenLingFes
 {
+	inline static constexpr unsigned int ChenLingFesGameplayFunctionBtnControl_TypeDefinitionIndex = 81312;
+
 	class ChenLingFesGameplayFunctionBtnControl : public ::Sofa::BaseSofaControl
 	{
 	public:

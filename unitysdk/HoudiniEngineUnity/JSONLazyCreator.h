@@ -42,6 +42,8 @@ namespace System::Text { class StringBuilder; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int JSONLazyCreator_TypeDefinitionIndex = 40685;
+
 	class JSONLazyCreator : public ::HoudiniEngineUnity::JSONNode
 	{
 	public:

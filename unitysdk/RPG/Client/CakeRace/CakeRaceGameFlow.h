@@ -102,6 +102,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::Client::CakeRace
 {
+	inline static constexpr unsigned int CakeRaceGameFlow_TypeDefinitionIndex = 76443;
+
 	class CakeRaceGameFlow : public ::RPG::Client::BaseGameFlow
 	{
 	public:

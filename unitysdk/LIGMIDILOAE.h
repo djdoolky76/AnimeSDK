@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 #define LIGMIDILOAE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D0F8590)
 #define LIGMIDILOAE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D0F84F0)
 
+inline static constexpr unsigned int LIGMIDILOAE_TypeDefinitionIndex = 22879;
+
 	class LIGMIDILOAE : public ::RPG::GameCore::TaskConfig
 	{
 	public:

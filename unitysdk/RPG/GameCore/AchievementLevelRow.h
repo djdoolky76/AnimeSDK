@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AchievementLevelRow_TypeDefinitionIndex = 10893;
+
 	class AchievementLevelRow : public ::System::Object
 	{
 	public:

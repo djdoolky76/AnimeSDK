@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SpaceZooSlotTagsRow_TypeDefinitionIndex = 12379;
+
 	class SpaceZooSlotTagsRow : public ::System::Object
 	{
 	public:

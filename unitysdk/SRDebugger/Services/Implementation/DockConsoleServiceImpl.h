@@ -16,6 +16,8 @@ namespace SRDebugger::UI::Other { class DockConsoleController; }
 
 namespace SRDebugger::Services::Implementation
 {
+	inline static constexpr unsigned int DockConsoleServiceImpl_TypeDefinitionIndex = 38079;
+
 	class DockConsoleServiceImpl : public ::System::Object
 	{
 	public:

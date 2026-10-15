@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace RPG::Client::LittleGame::FiveDim
 {
+	inline static constexpr unsigned int PressureSwitchBaseSystem_1___c_TypeDefinitionIndex = 77145;
+
 	template <typename T>
 	class PressureSwitchBaseSystem_1___c : public ::System::Object
 	{

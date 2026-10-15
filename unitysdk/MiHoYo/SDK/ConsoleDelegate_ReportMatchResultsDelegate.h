@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int ConsoleDelegate_ReportMatchResultsDelegate_TypeDefinitionIndex = 7662;
+
 	class ConsoleDelegate_ReportMatchResultsDelegate : public ::System::MulticastDelegate
 	{
 	public:

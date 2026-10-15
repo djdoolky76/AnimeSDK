@@ -6,6 +6,8 @@
 
 namespace Cinemachine
 {
+	inline static constexpr unsigned int LensSettingsPropertyAttribute_TypeDefinitionIndex = 39824;
+
 	class LensSettingsPropertyAttribute : public ::UnityEngine::PropertyAttribute
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System { class Action; }
 
 namespace R3
 {
+	inline static constexpr unsigned int Observable_TypeDefinitionIndex = 35905;
+
 	class Observable : public ::System::Object
 	{
 	public:

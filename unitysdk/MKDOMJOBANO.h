@@ -27,6 +27,8 @@ namespace System { class String; }
 #define MKDOMJOBANO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA54D40)
 #define MKDOMJOBANO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA54DA0)
 
+inline static constexpr unsigned int MKDOMJOBANO_TypeDefinitionIndex = 32200;
+
 	class MKDOMJOBANO : public ::System::Object
 	{
 	public:

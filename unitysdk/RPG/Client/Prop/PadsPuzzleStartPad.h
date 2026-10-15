@@ -12,6 +12,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int PadsPuzzleStartPad_TypeDefinitionIndex = 78747;
+
 	class PadsPuzzleStartPad : public ::RPG::Client::Prop::PadsPuzzleTriggerPad
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System::Reflection { class PropertyInfo; }
 
 namespace System::Reflection::Emit
 {
+	inline static constexpr unsigned int CustomAttributeBuilder_TypeDefinitionIndex = 642;
+
 	class CustomAttributeBuilder : public ::System::Object
 	{
 	public:

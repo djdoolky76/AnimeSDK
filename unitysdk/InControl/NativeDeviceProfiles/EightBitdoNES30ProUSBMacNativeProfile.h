@@ -7,6 +7,8 @@
 
 namespace InControl::NativeDeviceProfiles
 {
+	inline static constexpr unsigned int EightBitdoNES30ProUSBMacNativeProfile_TypeDefinitionIndex = 41255;
+
 	class EightBitdoNES30ProUSBMacNativeProfile : public ::InControl::InputDeviceProfile
 	{
 	public:

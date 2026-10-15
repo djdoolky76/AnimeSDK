@@ -6,6 +6,8 @@
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int ChimeraDuelShopViewEffectBase_TypeDefinitionIndex = 78363;
+
 	class ChimeraDuelShopViewEffectBase : public ::System::Object
 	{
 	public:

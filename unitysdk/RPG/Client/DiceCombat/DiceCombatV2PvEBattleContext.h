@@ -24,6 +24,8 @@ namespace RPG::Client::Promises { class IPromise; }
 
 namespace RPG::Client::DiceCombat
 {
+	inline static constexpr unsigned int DiceCombatV2PvEBattleContext_TypeDefinitionIndex = 76169;
+
 	class DiceCombatV2PvEBattleContext : public ::RPG::Client::DiceCombat::DiceCombatV2BattleContext
 	{
 	public:

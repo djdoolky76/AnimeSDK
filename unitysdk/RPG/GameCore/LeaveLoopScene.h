@@ -10,6 +10,8 @@ namespace RPG::GameCore { class LeaveLoopScene; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LeaveLoopScene_TypeDefinitionIndex = 20431;
+
 	class LeaveLoopScene : public ::RPG::GameCore::TaskConfig
 	{
 	public:

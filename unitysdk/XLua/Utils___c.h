@@ -35,6 +35,8 @@ namespace System::Reflection { class PropertyInfo; }
 
 namespace XLua
 {
+	inline static constexpr unsigned int Utils___c_TypeDefinitionIndex = 50267;
+
 	class Utils___c : public ::System::Object
 	{
 	public:

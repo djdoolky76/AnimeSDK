@@ -34,6 +34,8 @@ namespace System { class String; }
 #define PKLOMDCOKOC_SET_POSITION_OFFSET UNITYSDK_OFFSET(0xC2E5E10)
 #define PKLOMDCOKOC_SET_ROTATION_OFFSET UNITYSDK_OFFSET(0xC2E5E30)
 
+inline static constexpr unsigned int PKLOMDCOKOC_TypeDefinitionIndex = 62078;
+
 	class PKLOMDCOKOC : public ::System::Object
 	{
 	public:

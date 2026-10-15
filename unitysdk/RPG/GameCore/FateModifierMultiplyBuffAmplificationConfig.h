@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FateModifierMultiplyBuffAmplificationConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FateModifierMultiplyBuffAmplificationConfig_TypeDefinitionIndex = 19274;
+
 	class FateModifierMultiplyBuffAmplificationConfig : public ::RPG::GameCore::FateModifierConfigBase
 	{
 	public:

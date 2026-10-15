@@ -8,6 +8,8 @@ namespace System { class Object; }
 
 namespace RPG::Client::Promises
 {
+	inline static constexpr unsigned int Promise___c__DisplayClass69_1_TypeDefinitionIndex = 9929;
+
 	template <typename T>
 	class Promise___c__DisplayClass69_1 : public ::System::Object
 	{

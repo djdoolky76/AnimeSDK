@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ElfNormalEventChanceConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ElfNormalEventChanceConfig_TypeDefinitionIndex = 18475;
+
 	class ElfNormalEventChanceConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelAreaManager___c_TypeDefinitionIndex = 57841;
+
 	class LevelAreaManager___c : public ::System::Object
 	{
 	public:

@@ -15,6 +15,8 @@ namespace XLua { class LuaTable; }
 
 namespace RPG::Client::B51Racing
 {
+	inline static constexpr unsigned int LuaBindCustomFadeAnimNameAction_TypeDefinitionIndex = 81759;
+
 	class LuaBindCustomFadeAnimNameAction : public ::System::MulticastDelegate
 	{
 	public:

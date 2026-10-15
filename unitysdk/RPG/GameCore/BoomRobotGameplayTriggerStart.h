@@ -10,6 +10,8 @@ namespace RPG::GameCore { class BoomRobotGameplayTriggerStart; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BoomRobotGameplayTriggerStart_TypeDefinitionIndex = 21189;
+
 	class BoomRobotGameplayTriggerStart : public ::RPG::GameCore::TaskConfig
 	{
 	public:

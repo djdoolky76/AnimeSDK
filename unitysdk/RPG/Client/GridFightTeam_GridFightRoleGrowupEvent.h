@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightTeam_GridFightRoleGrowupEvent_TypeDefinitionIndex = 65159;
+
 	class GridFightTeam_GridFightRoleGrowupEvent : public ::System::Object
 	{
 	public:

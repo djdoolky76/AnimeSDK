@@ -16,6 +16,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetDynamicValueByStatusResistance_TypeDefinitionIndex = 23579;
+
 	class SetDynamicValueByStatusResistance : public ::RPG::GameCore::SetDynamicValueBase
 	{
 	public:

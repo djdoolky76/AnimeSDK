@@ -13,6 +13,8 @@ namespace RPG::AvatarSystem { class IAvatar; }
 #define EJPLBPPIADG_GKDCFFAAMBC_OFFSET UNITYSDK_OFFSET(0x154FA6E0)
 #define EJPLBPPIADG_ODEBFADAKFA_OFFSET UNITYSDK_OFFSET(0x154FA170)
 
+inline static constexpr unsigned int EJPLBPPIADG_TypeDefinitionIndex = 62857;
+
 	class EJPLBPPIADG : public ::System::Object
 	{
 	public:

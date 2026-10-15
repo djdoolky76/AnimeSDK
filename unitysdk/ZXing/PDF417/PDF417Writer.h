@@ -17,6 +17,8 @@ namespace ZXing::PDF417::Internal { class PDF417; }
 
 namespace ZXing::PDF417
 {
+	inline static constexpr unsigned int PDF417Writer_TypeDefinitionIndex = 7049;
+
 	class PDF417Writer : public ::System::Object
 	{
 	public:

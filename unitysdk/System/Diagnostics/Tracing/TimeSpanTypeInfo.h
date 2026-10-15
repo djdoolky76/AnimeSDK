@@ -12,6 +12,8 @@ namespace System::Diagnostics::Tracing { class TraceLoggingMetadataCollector; }
 
 namespace System::Diagnostics::Tracing
 {
+	inline static constexpr unsigned int TimeSpanTypeInfo_TypeDefinitionIndex = 1655;
+
 	class TimeSpanTypeInfo
 	{
 	public:

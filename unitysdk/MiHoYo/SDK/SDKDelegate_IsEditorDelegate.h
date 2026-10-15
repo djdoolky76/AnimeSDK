@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int SDKDelegate_IsEditorDelegate_TypeDefinitionIndex = 7778;
+
 	class SDKDelegate_IsEditorDelegate : public ::System::MulticastDelegate
 	{
 	public:

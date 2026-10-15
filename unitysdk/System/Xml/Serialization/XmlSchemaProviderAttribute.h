@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace System::Xml::Serialization
 {
+	inline static constexpr unsigned int XmlSchemaProviderAttribute_TypeDefinitionIndex = 2022;
+
 	class XmlSchemaProviderAttribute : public ::System::Attribute
 	{
 	public:

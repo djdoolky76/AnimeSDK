@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ReShaRouteDisplayRow_TypeDefinitionIndex = 13827;
+
 	class ReShaRouteDisplayRow : public ::System::Object
 	{
 	public:

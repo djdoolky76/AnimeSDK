@@ -9,6 +9,8 @@ namespace UnityEngine { class GameObject; }
 #define JEKAHBPEMCH___C__DISPLAYCLASS46_1_CTOR_OFFSET UNITYSDK_OFFSET(0x16636F10)
 #define JEKAHBPEMCH___C__DISPLAYCLASS46_1__FIREPLAYERBRAKEEFFECTS_B__0_OFFSET UNITYSDK_OFFSET(0x16638040)
 
+inline static constexpr unsigned int JEKAHBPEMCH___c__DisplayClass46_1_TypeDefinitionIndex = 76711;
+
 	template <typename T>
 	class JEKAHBPEMCH___c__DisplayClass46_1 : public ::System::Object
 	{

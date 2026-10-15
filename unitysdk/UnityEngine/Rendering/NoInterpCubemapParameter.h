@@ -6,6 +6,8 @@ namespace UnityEngine { class Cubemap; }
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int NoInterpCubemapParameter_TypeDefinitionIndex = 35656;
+
 	class NoInterpCubemapParameter
 	{
 	public:

@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace Spine::Unity
 {
+	inline static constexpr unsigned int SpineIkConstraint_TypeDefinitionIndex = 45095;
+
 	class SpineIkConstraint : public ::Spine::Unity::SpineAttributeBase
 	{
 	public:

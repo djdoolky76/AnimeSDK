@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace Cysharp::Threading::Tasks
 {
+	inline static constexpr unsigned int ReadOnlyAsyncReactiveProperty_1_WaitAsyncSource_TypeDefinitionIndex = 38126;
+
 	template <typename T>
 	class ReadOnlyAsyncReactiveProperty_1_WaitAsyncSource : public ::System::Object
 	{

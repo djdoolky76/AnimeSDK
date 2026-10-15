@@ -8,6 +8,8 @@ class JKHPCAILNPD;
 #define JKHPCAILNPD___C__DISPLAYCLASS18_0___CREATEFULLLINEBUFFEFFECT_B__0_OFFSET UNITYSDK_OFFSET(0x1C569A60)
 #define JKHPCAILNPD___C__DISPLAYCLASS18_0___CREATEFULLLINEBUFFEFFECT_B__1_OFFSET UNITYSDK_OFFSET(0x1C569B60)
 
+inline static constexpr unsigned int JKHPCAILNPD___c__DisplayClass18_0_TypeDefinitionIndex = 41756;
+
 	class JKHPCAILNPD___c__DisplayClass18_0 : public ::System::Object
 	{
 	public:

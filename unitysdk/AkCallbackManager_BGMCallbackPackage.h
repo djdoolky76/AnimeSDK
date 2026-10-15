@@ -6,6 +6,8 @@ namespace System { class Object; }
 
 #define AKCALLBACKMANAGER_BGMCALLBACKPACKAGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F57F2A0)
 
+inline static constexpr unsigned int AkCallbackManager_BGMCallbackPackage_TypeDefinitionIndex = 44829;
+
 	class AkCallbackManager_BGMCallbackPackage : public ::System::Object
 	{
 	public:

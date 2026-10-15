@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define BKEGIIJENMI_GET_CACHEKEY_OFFSET UNITYSDK_OFFSET(0xB7AF9B0)
 #define BKEGIIJENMI_GET_PLACEDCHIPS_OFFSET UNITYSDK_OFFSET(0xB7AF9F0)
 
+inline static constexpr unsigned int BKEGIIJENMI_TypeDefinitionIndex = 80137;
+
 	class BKEGIIJENMI : public ::System::Object
 	{
 	public:

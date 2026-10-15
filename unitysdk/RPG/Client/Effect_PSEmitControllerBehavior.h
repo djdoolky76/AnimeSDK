@@ -24,6 +24,8 @@ namespace UnityEngine { class ParticleSystem; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Effect_PSEmitControllerBehavior_TypeDefinitionIndex = 70516;
+
 	class Effect_PSEmitControllerBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:

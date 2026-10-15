@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AvatarChangeTemplate_TypeDefinitionIndex = 17136;
+
 	class AvatarChangeTemplate : public ::RPG::GameCore::JsonConfig
 	{
 	public:

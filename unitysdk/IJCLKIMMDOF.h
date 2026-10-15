@@ -7,6 +7,8 @@ class KNEJEHOOFGI;
 #define IJCLKIMMDOF_CTOR_OFFSET UNITYSDK_OFFSET(0x16458FC0)
 #define IJCLKIMMDOF_JAGMPHPNAHM_OFFSET UNITYSDK_OFFSET(0x16458FD0)
 
+inline static constexpr unsigned int IJCLKIMMDOF_TypeDefinitionIndex = 67112;
+
 	class IJCLKIMMDOF : public ::EBIMENNAEIE
 	{
 	public:

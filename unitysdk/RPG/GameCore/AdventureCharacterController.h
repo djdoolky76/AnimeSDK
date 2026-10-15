@@ -445,6 +445,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdventureCharacterController_TypeDefinitionIndex = 57019;
+
 	class AdventureCharacterController : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

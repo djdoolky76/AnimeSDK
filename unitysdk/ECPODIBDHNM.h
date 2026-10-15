@@ -8,6 +8,8 @@ namespace RPG::Client { class RogueTournPersonaStyleInfo; }
 #define ECPODIBDHNM_CTOR_OFFSET UNITYSDK_OFFSET(0x1330E6B0)
 #define ECPODIBDHNM_JAGMPHPNAHM_OFFSET UNITYSDK_OFFSET(0x1330E6C0)
 
+inline static constexpr unsigned int ECPODIBDHNM_TypeDefinitionIndex = 67109;
+
 	class ECPODIBDHNM : public ::LIJALNGMHPK
 	{
 	public:

@@ -14,6 +14,8 @@ namespace UnityEngine { class Transform; }
 #define JJNNABINOOH_JKEPGGJBMGP_OFFSET UNITYSDK_OFFSET(0xB208FC0)
 #define JJNNABINOOH__ONBIND_OFFSET UNITYSDK_OFFSET(0xB208D10)
 
+inline static constexpr unsigned int JJNNABINOOH_TypeDefinitionIndex = 72204;
+
 	class JJNNABINOOH : public ::FMPCODLIOLG
 	{
 	public:

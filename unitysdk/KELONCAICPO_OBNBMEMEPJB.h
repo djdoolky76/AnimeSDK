@@ -7,6 +7,8 @@ namespace System { class String; }
 #define KELONCAICPO_OBNBMEMEPJB_GET_PREFABPATH_OFFSET UNITYSDK_OFFSET(0xB37E430)
 #define KELONCAICPO_OBNBMEMEPJB_GET_TEXTPATH_OFFSET UNITYSDK_OFFSET(0xB37E4A0)
 
+inline static constexpr unsigned int KELONCAICPO_OBNBMEMEPJB_TypeDefinitionIndex = 71691;
+
 	class KELONCAICPO_OBNBMEMEPJB : public ::System::Object
 	{
 	public:

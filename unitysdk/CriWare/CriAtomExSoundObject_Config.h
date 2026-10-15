@@ -3,6 +3,8 @@
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriAtomExSoundObject_Config_TypeDefinitionIndex = 40065;
+
 	struct alignas(4) CriAtomExSoundObject_Config
 	{
 		::System::Boolean enableVoiceLimitScope; // 0x10

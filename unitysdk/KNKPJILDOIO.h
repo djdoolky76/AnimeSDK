@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define KNKPJILDOIO_DISPOSE_OFFSET UNITYSDK_OFFSET(0x16930)
 #define KNKPJILDOIO_LDAMHBBILAD_OFFSET UNITYSDK_OFFSET(0x16940)
 
+inline static constexpr unsigned int KNKPJILDOIO_TypeDefinitionIndex = 64193;
+
 	struct alignas(8) KNKPJILDOIO
 	{
 		::RPG::Client::FightFestChallengeLevelData* LBCDHCAMJPP; // 0x10

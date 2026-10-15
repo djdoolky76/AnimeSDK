@@ -14,6 +14,8 @@ namespace UnityEngine::UI { class Graphic; }
 
 namespace SRF::UI
 {
+	inline static constexpr unsigned int FlashGraphic_TypeDefinitionIndex = 35380;
+
 	class FlashGraphic : public ::UnityEngine::EventSystems::UIBehaviour
 	{
 	public:

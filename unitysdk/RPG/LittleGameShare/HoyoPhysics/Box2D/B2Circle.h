@@ -6,6 +6,8 @@
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
+	inline static constexpr unsigned int B2Circle_TypeDefinitionIndex = 36611;
+
 	struct alignas(4) B2Circle
 	{
 		::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Vec2 center; // 0x10

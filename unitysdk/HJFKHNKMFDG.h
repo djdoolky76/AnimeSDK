@@ -22,6 +22,8 @@ namespace System { class WeakReference; }
 #define HJFKHNKMFDG_GET_RARITY_OFFSET UNITYSDK_OFFSET(0x15D203A0)
 #define HJFKHNKMFDG_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x15D1FE20)
 
+inline static constexpr unsigned int HJFKHNKMFDG_TypeDefinitionIndex = 75716;
+
 	class HJFKHNKMFDG : public ::System::Object
 	{
 	public:

@@ -18,6 +18,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace SuperScrollView
 {
+	inline static constexpr unsigned int StaggeredGridItemPool_TypeDefinitionIndex = 47681;
+
 	class StaggeredGridItemPool : public ::System::Object
 	{
 	public:

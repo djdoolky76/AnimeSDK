@@ -40,6 +40,8 @@ namespace System { class String; }
 #define GECHEPGEIKF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E452520)
 #define GECHEPGEIKF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E452580)
 
+inline static constexpr unsigned int GECHEPGEIKF_TypeDefinitionIndex = 28560;
+
 	class GECHEPGEIKF : public ::System::Object
 	{
 	public:

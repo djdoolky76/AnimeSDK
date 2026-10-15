@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PerformanceSkipOverrideExcelTable_IndexKey_TypeDefinitionIndex = 14366;
+
 	struct alignas(4) PerformanceSkipOverrideExcelTable_IndexKey
 	{
 		::RPG::GameCore::ELevelPerformanceType PerformanceType; // 0x10

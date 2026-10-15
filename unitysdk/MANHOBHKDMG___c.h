@@ -9,6 +9,8 @@ namespace System { template <typename T> class Comparison_1; }
 #define MANHOBHKDMG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C924B00)
 #define MANHOBHKDMG___C__GETBOMBCREATIONS_B__3_0_OFFSET UNITYSDK_OFFSET(0x1C924B10)
 
+inline static constexpr unsigned int MANHOBHKDMG___c_TypeDefinitionIndex = 43026;
+
 	class MANHOBHKDMG___c : public ::System::Object
 	{
 	public:

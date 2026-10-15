@@ -7,6 +7,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 
 namespace System::Linq
 {
+	inline static constexpr unsigned int Enumerable__ZipIterator_d__65_3_TypeDefinitionIndex = 3153;
+
 	template <typename T1, typename T2, typename T3>
 	class Enumerable__ZipIterator_d__65_3 : public ::System::Object
 	{

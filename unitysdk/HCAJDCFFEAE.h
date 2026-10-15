@@ -41,6 +41,8 @@ namespace System { class String; }
 #define HCAJDCFFEAE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E532220)
 #define HCAJDCFFEAE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E532280)
 
+inline static constexpr unsigned int HCAJDCFFEAE_TypeDefinitionIndex = 26454;
+
 	class HCAJDCFFEAE : public ::System::Object
 	{
 	public:

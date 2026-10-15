@@ -31,6 +31,8 @@ namespace System { class String; }
 #define PMEHLELAFJI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DFAA2C0)
 #define PMEHLELAFJI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DFAA320)
 
+inline static constexpr unsigned int PMEHLELAFJI_TypeDefinitionIndex = 28455;
+
 	class PMEHLELAFJI : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class Action; }
 #define NEBELGKDOHF_CTOR_OFFSET UNITYSDK_OFFSET(0xBB57660)
 #define NEBELGKDOHF_KDPCHKAGJMK_OFFSET UNITYSDK_OFFSET(0xBB575C0)
 
+inline static constexpr unsigned int NEBELGKDOHF_TypeDefinitionIndex = 49774;
+
 	class NEBELGKDOHF : public ::System::Object
 	{
 	public:

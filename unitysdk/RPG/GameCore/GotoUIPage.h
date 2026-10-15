@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GotoUIPage; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GotoUIPage_TypeDefinitionIndex = 23843;
+
 	class GotoUIPage : public ::RPG::GameCore::TaskConfig
 	{
 	public:

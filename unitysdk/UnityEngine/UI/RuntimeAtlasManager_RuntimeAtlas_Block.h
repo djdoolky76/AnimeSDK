@@ -12,6 +12,8 @@ namespace UnityEngine::Pooled { template <typename T> class PooledList_1; }
 
 namespace UnityEngine::UI
 {
+	inline static constexpr unsigned int RuntimeAtlasManager_RuntimeAtlas_Block_TypeDefinitionIndex = 6815;
+
 	struct alignas(8) RuntimeAtlasManager_RuntimeAtlas_Block
 	{
 		::System::Int32 size; // 0x10

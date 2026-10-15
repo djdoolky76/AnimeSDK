@@ -27,6 +27,8 @@ namespace UnityEngine { class Material; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Effect_WorldWireFrame_TypeDefinitionIndex = 70587;
+
 	class Effect_WorldWireFrame : public ::UnityEngine::MonoBehaviour
 	{
 	public:

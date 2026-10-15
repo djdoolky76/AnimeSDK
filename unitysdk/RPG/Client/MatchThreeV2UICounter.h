@@ -20,6 +20,8 @@ namespace System::Collections::Generic { template <typename T> class Stack_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MatchThreeV2UICounter_TypeDefinitionIndex = 66056;
+
 	class MatchThreeV2UICounter : public ::System::Object
 	{
 	public:

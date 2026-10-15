@@ -8,6 +8,8 @@ namespace UnityEngine::UI { class Text; }
 #define JOGAOGMJHCK_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xB2A0270)
 #define JOGAOGMJHCK_CTOR_OFFSET UNITYSDK_OFFSET(0xB2A0300)
 
+inline static constexpr unsigned int JOGAOGMJHCK_TypeDefinitionIndex = 71892;
+
 	class JOGAOGMJHCK : public ::System::Object
 	{
 	public:

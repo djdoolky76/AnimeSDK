@@ -30,6 +30,8 @@ namespace System { class String; }
 #define LECIGPPCMAB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E924CF0)
 #define LECIGPPCMAB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E924D50)
 
+inline static constexpr unsigned int LECIGPPCMAB_TypeDefinitionIndex = 32986;
+
 	class LECIGPPCMAB : public ::System::Object
 	{
 	public:

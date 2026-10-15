@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByGameEntityNotCreated_TypeDefinitionIndex = 20310;
+
 	class ByGameEntityNotCreated : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

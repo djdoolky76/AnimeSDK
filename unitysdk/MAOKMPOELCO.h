@@ -33,6 +33,8 @@ namespace System { class String; }
 #define MAOKMPOELCO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9DF440)
 #define MAOKMPOELCO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E9DF4A0)
 
+inline static constexpr unsigned int MAOKMPOELCO_TypeDefinitionIndex = 33006;
+
 	class MAOKMPOELCO : public ::System::Object
 	{
 	public:

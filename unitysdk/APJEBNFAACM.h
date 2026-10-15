@@ -8,6 +8,8 @@ namespace RPG::GameCore { class OptionTalkInfo; }
 #define APJEBNFAACM_CTOR_OFFSET UNITYSDK_OFFSET(0x15BACB30)
 #define APJEBNFAACM_FMDIFLLEHCJ_OFFSET UNITYSDK_OFFSET(0x15BAC8C0)
 
+inline static constexpr unsigned int APJEBNFAACM_TypeDefinitionIndex = 68025;
+
 	class APJEBNFAACM : public ::System::Object
 	{
 	public:

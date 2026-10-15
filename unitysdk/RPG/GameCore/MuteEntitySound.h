@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MuteEntitySound_TypeDefinitionIndex = 22196;
+
 	class MuteEntitySound : public ::RPG::GameCore::TaskConfig
 	{
 	public:

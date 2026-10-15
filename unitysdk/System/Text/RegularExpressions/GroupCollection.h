@@ -23,6 +23,8 @@ namespace System::Text::RegularExpressions { class Match; }
 
 namespace System::Text::RegularExpressions
 {
+	inline static constexpr unsigned int GroupCollection_TypeDefinitionIndex = 2515;
+
 	class GroupCollection : public ::System::Object
 	{
 	public:

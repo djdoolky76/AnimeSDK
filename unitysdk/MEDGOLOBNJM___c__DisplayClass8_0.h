@@ -8,6 +8,8 @@ namespace RPG::GameCore { class TurnBasedModifierInstance; }
 #define MEDGOLOBNJM___C__DISPLAYCLASS8_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB8BCC30)
 #define MEDGOLOBNJM___C__DISPLAYCLASS8_0__CREATE_B__0_OFFSET UNITYSDK_OFFSET(0xB8BCD70)
 
+inline static constexpr unsigned int MEDGOLOBNJM___c__DisplayClass8_0_TypeDefinitionIndex = 71328;
+
 	class MEDGOLOBNJM___c__DisplayClass8_0 : public ::System::Object
 	{
 	public:

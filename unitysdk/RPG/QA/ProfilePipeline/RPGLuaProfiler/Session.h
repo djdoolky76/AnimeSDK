@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::QA::ProfilePipeline::RPGLuaProfiler
 {
+	inline static constexpr unsigned int Session_TypeDefinitionIndex = 51829;
+
 	class Session : public ::System::Object
 	{
 	public:

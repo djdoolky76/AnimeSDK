@@ -8,6 +8,8 @@ namespace UnityEngine { class Sprite; }
 
 namespace MiHoYo::SDK::UI
 {
+	inline static constexpr unsigned int ChannelIconImage_TypeDefinitionIndex = 8391;
+
 	class ChannelIconImage : public ::UnityEngine::MonoBehaviour
 	{
 	public:

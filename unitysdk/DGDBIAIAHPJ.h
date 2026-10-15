@@ -61,6 +61,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define DGDBIAIAHPJ_PHNNNAHOOIP_OFFSET UNITYSDK_OFFSET(0x1C5EB750)
 #define DGDBIAIAHPJ_PKHEJFBFHLO_OFFSET UNITYSDK_OFFSET(0x1C5EC1D0)
 
+inline static constexpr unsigned int DGDBIAIAHPJ_TypeDefinitionIndex = 37224;
+
 	class DGDBIAIAHPJ : public ::System::Object
 	{
 	public:

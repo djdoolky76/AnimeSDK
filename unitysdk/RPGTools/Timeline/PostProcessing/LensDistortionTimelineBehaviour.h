@@ -14,6 +14,8 @@ namespace System { class Object; }
 
 namespace RPGTools::Timeline::PostProcessing
 {
+	inline static constexpr unsigned int LensDistortionTimelineBehaviour_TypeDefinitionIndex = 48577;
+
 	class LensDistortionTimelineBehaviour
 	{
 	public:

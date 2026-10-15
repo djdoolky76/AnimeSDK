@@ -13,6 +13,8 @@ class MLAOHDCAGOK;
 #define IBIFMFJLPHF_LJBCDJNNBJH_OFFSET UNITYSDK_OFFSET(0x15E389C0)
 #define IBIFMFJLPHF_NLKBMKLOKBB_OFFSET UNITYSDK_OFFSET(0x15E38CB0)
 
+inline static constexpr unsigned int IBIFMFJLPHF_TypeDefinitionIndex = 62549;
+
 	class IBIFMFJLPHF : public ::System::Object
 	{
 	public:

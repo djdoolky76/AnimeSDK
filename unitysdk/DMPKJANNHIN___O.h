@@ -3,6 +3,8 @@
 #include "unitysdk/System/Object.h"
 class DMPKJANNHIN_CLLOODMPCFO;
 
+inline static constexpr unsigned int DMPKJANNHIN___O_TypeDefinitionIndex = 50307;
+
 	class DMPKJANNHIN___O : public ::System::Object
 	{
 	public:

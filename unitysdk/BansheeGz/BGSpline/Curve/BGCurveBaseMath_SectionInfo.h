@@ -22,6 +22,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace BansheeGz::BGSpline::Curve
 {
+	inline static constexpr unsigned int BGCurveBaseMath_SectionInfo_TypeDefinitionIndex = 36001;
+
 	class BGCurveBaseMath_SectionInfo : public ::System::Object
 	{
 	public:

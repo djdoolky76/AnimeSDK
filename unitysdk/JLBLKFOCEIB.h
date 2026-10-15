@@ -20,6 +20,8 @@ namespace System { class String; }
 #define JLBLKFOCEIB_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB2332A0)
 #define JLBLKFOCEIB_TICK_OFFSET UNITYSDK_OFFSET(0xB2332F0)
 
+inline static constexpr unsigned int JLBLKFOCEIB_TypeDefinitionIndex = 52159;
+
 	class JLBLKFOCEIB
 	{
 	public:

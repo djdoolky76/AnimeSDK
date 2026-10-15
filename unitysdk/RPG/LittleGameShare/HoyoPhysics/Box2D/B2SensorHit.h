@@ -3,6 +3,8 @@
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
+	inline static constexpr unsigned int B2SensorHit_TypeDefinitionIndex = 36751;
+
 	struct alignas(4) B2SensorHit
 	{
 		::System::Int32 sensorId; // 0x10

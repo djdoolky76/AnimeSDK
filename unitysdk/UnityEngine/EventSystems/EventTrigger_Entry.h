@@ -8,6 +8,8 @@ namespace UnityEngine::EventSystems { class EventTrigger_TriggerEvent; }
 
 namespace UnityEngine::EventSystems
 {
+	inline static constexpr unsigned int EventTrigger_Entry_TypeDefinitionIndex = 6932;
+
 	class EventTrigger_Entry : public ::System::Object
 	{
 	public:

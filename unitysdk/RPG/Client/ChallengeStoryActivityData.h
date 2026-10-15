@@ -14,6 +14,8 @@ namespace RPG::Client { class ScheduleTask; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChallengeStoryActivityData_TypeDefinitionIndex = 61603;
+
 	class ChallengeStoryActivityData : public ::RPG::Client::CustomizedActivityPanelData
 	{
 	public:

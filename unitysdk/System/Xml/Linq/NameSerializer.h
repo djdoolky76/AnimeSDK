@@ -12,6 +12,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System::Xml::Linq
 {
+	inline static constexpr unsigned int NameSerializer_TypeDefinitionIndex = 3876;
+
 	class NameSerializer : public ::System::Object
 	{
 	public:

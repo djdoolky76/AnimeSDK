@@ -12,6 +12,8 @@ namespace System::Collections::Specialized { class ListDictionary_DictionaryNode
 
 namespace System::Collections::Specialized
 {
+	inline static constexpr unsigned int ListDictionary_NodeKeyValueCollection_NodeKeyValueEnumerator_TypeDefinitionIndex = 2992;
+
 	class ListDictionary_NodeKeyValueCollection_NodeKeyValueEnumerator : public ::System::Object
 	{
 	public:

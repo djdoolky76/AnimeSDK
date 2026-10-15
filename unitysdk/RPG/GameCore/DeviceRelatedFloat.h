@@ -10,6 +10,8 @@ namespace RPG::GameCore { class DeviceRelatedFloat; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DeviceRelatedFloat_TypeDefinitionIndex = 16468;
+
 	class DeviceRelatedFloat : public ::RPG::GameCore::DeviceRelatedConfigBase
 	{
 	public:

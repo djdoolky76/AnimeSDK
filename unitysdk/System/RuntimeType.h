@@ -208,6 +208,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System
 {
+	inline static constexpr unsigned int RuntimeType_TypeDefinitionIndex = 321;
+
 	class RuntimeType : public ::System::Reflection::TypeInfo
 	{
 	public:

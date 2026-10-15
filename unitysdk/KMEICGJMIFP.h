@@ -19,6 +19,8 @@ namespace System { class Object; }
 #define KMEICGJMIFP___SHOWFAILUI_B__7_0_OFFSET UNITYSDK_OFFSET(0xB546030)
 #define KMEICGJMIFP___SHOWSUCCESSUI_B__6_0_OFFSET UNITYSDK_OFFSET(0xB546020)
 
+inline static constexpr unsigned int KMEICGJMIFP_TypeDefinitionIndex = 76664;
+
 	class KMEICGJMIFP : public ::System::Object
 	{
 	public:

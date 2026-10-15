@@ -4,6 +4,8 @@
 
 #define FCAOIABPCJL_CTOR_OFFSET UNITYSDK_OFFSET(0x1CDCEFF0)
 
+inline static constexpr unsigned int FCAOIABPCJL_TypeDefinitionIndex = 25023;
+
 	class FCAOIABPCJL : public ::PJPHDHBAADE
 	{
 	public:

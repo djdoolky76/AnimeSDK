@@ -43,6 +43,8 @@ namespace System { class String; }
 #define NPCCFNJPBNL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB93250)
 #define NPCCFNJPBNL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB932B0)
 
+inline static constexpr unsigned int NPCCFNJPBNL_TypeDefinitionIndex = 26312;
+
 	class NPCCFNJPBNL : public ::System::Object
 	{
 	public:

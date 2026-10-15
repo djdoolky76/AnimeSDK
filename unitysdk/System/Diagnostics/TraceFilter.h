@@ -9,6 +9,8 @@ namespace System::Diagnostics { class TraceEventCache; }
 
 namespace System::Diagnostics
 {
+	inline static constexpr unsigned int TraceFilter_TypeDefinitionIndex = 2539;
+
 	class TraceFilter : public ::System::Object
 	{
 	public:

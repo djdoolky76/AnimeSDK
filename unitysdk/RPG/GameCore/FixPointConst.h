@@ -9,6 +9,8 @@ namespace RPG::GameCore { class FixPointConst; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FixPointConst_TypeDefinitionIndex = 17047;
+
 	class FixPointConst : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -31,6 +31,8 @@ namespace System { class String; }
 
 namespace Proto
 {
+	inline static constexpr unsigned int DialogSnapshot_TypeDefinitionIndex = 25850;
+
 	class DialogSnapshot : public ::System::Object
 	{
 	public:

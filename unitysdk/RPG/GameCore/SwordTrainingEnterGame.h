@@ -10,6 +10,8 @@ namespace RPG::GameCore { class SwordTrainingEnterGame; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SwordTrainingEnterGame_TypeDefinitionIndex = 20329;
+
 	class SwordTrainingEnterGame : public ::RPG::GameCore::TaskConfig
 	{
 	public:

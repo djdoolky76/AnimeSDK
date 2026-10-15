@@ -8,6 +8,8 @@ namespace UnityEngine { class Transform; }
 
 #define NKDJJJCBAFF_CTOR_OFFSET UNITYSDK_OFFSET(0xBC32AD0)
 
+inline static constexpr unsigned int NKDJJJCBAFF_TypeDefinitionIndex = 69665;
+
 	class NKDJJJCBAFF : public ::System::Object
 	{
 	public:

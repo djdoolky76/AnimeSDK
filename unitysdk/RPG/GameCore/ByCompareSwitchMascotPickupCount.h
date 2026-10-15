@@ -15,6 +15,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByCompareSwitchMascotPickupCount_TypeDefinitionIndex = 21999;
+
 	class ByCompareSwitchMascotPickupCount : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define CELDOPCADPF_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1C8DDC00)
 #define CELDOPCADPF_TEARDOWN_OFFSET UNITYSDK_OFFSET(0x1C8E1080)
 
+inline static constexpr unsigned int CELDOPCADPF_TypeDefinitionIndex = 42396;
+
 	class CELDOPCADPF : public ::System::Object
 	{
 	public:

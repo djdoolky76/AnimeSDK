@@ -20,6 +20,8 @@ namespace UnityEngine { class Material; }
 #define CAEMIOLDKFJ_PCNAKDOLCCD_OFFSET UNITYSDK_OFFSET(0xC47A990)
 #define CAEMIOLDKFJ_TICK_OFFSET UNITYSDK_OFFSET(0xC47AB70)
 
+inline static constexpr unsigned int CAEMIOLDKFJ_TypeDefinitionIndex = 73574;
+
 	class CAEMIOLDKFJ : public ::RPG::Client::TABehaviorBase
 	{
 	public:

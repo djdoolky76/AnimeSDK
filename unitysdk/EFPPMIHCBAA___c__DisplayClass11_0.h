@@ -7,6 +7,8 @@ namespace System { class Action; }
 #define EFPPMIHCBAA___C__DISPLAYCLASS11_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC063E0)
 #define EFPPMIHCBAA___C__DISPLAYCLASS11_0__GETACTION_B__0_OFFSET UNITYSDK_OFFSET(0x1EC06720)
 
+inline static constexpr unsigned int EFPPMIHCBAA___c__DisplayClass11_0_TypeDefinitionIndex = 35299;
+
 	class EFPPMIHCBAA___c__DisplayClass11_0 : public ::System::Object
 	{
 	public:

@@ -21,6 +21,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyCo
 #define BKLOLANAANL_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0xBA5DEC0)
 #define BKLOLANAANL_REMOVE_ONFILTERCHANGED_OFFSET UNITYSDK_OFFSET(0xBA5DA10)
 
+inline static constexpr unsigned int BKLOLANAANL_TypeDefinitionIndex = 79528;
+
 	class BKLOLANAANL : public ::System::Object
 	{
 	public:

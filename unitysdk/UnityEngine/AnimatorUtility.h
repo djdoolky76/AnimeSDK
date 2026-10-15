@@ -8,6 +8,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int AnimatorUtility_TypeDefinitionIndex = 5717;
+
 	class AnimatorUtility : public ::System::Object
 	{
 	public:

@@ -4,6 +4,8 @@
 
 #define OFNAOANCMMA_CTOR_OFFSET UNITYSDK_OFFSET(0xBE490D0)
 
+inline static constexpr unsigned int OFNAOANCMMA_TypeDefinitionIndex = 62108;
+
 	class OFNAOANCMMA : public ::System::Object
 	{
 	public:

@@ -32,6 +32,8 @@ namespace UnityEngine { class Transform; }
 #define NGLFOJKOKBH_NEEKMPBJFIJ_OFFSET UNITYSDK_OFFSET(0xBBAE030)
 #define NGLFOJKOKBH_OGGCBJKOJIK_OFFSET UNITYSDK_OFFSET(0xBBAED30)
 
+inline static constexpr unsigned int NGLFOJKOKBH_TypeDefinitionIndex = 48870;
+
 	class NGLFOJKOKBH : public ::System::Object
 	{
 	public:

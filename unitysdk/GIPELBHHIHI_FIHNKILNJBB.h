@@ -15,6 +15,8 @@ namespace System { class Action; }
 #define GIPELBHHIHI_FIHNKILNJBB_MJMDNAFOCHC_OFFSET UNITYSDK_OFFSET(0x15A4FA20)
 #define GIPELBHHIHI_FIHNKILNJBB_PIIJDCEDGOD_OFFSET UNITYSDK_OFFSET(0x15A4F660)
 
+inline static constexpr unsigned int GIPELBHHIHI_FIHNKILNJBB_TypeDefinitionIndex = 60628;
+
 	class GIPELBHHIHI_FIHNKILNJBB : public ::System::Object
 	{
 	public:

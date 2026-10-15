@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace RPG::Client::DiceCombat
 {
+	inline static constexpr unsigned int DiceCombatUIUseColorDiceParam_TypeDefinitionIndex = 76032;
+
 	class DiceCombatUIUseColorDiceParam : public ::System::Object
 	{
 	public:

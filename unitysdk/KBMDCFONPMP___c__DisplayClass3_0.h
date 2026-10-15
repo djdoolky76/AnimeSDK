@@ -7,6 +7,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define KBMDCFONPMP___C__DISPLAYCLASS3_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB31F3A0)
 #define KBMDCFONPMP___C__DISPLAYCLASS3_0__SHOWDATAINFODIALOG_B__0_OFFSET UNITYSDK_OFFSET(0xB321140)
 
+inline static constexpr unsigned int KBMDCFONPMP___c__DisplayClass3_0_TypeDefinitionIndex = 75321;
+
 	class KBMDCFONPMP___c__DisplayClass3_0 : public ::System::Object
 	{
 	public:

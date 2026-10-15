@@ -13,6 +13,8 @@ namespace System::Collections::ObjectModel { template <typename T> class ReadOnl
 
 namespace RPG::Client::FateRin::Day
 {
+	inline static constexpr unsigned int SwitchDayTalkViewModel_TypeDefinitionIndex = 81072;
+
 	class SwitchDayTalkViewModel : public ::RPG::Client::FateRin::BaseViewModel
 	{
 	public:

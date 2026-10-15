@@ -17,6 +17,8 @@ namespace RPG::Client { class OverrideLightMonoPlugin; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int OverrideLightBehavior_TypeDefinitionIndex = 70295;
+
 	class OverrideLightBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:

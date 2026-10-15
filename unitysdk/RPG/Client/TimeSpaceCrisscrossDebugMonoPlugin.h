@@ -7,6 +7,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TimeSpaceCrisscrossDebugMonoPlugin_TypeDefinitionIndex = 70200;
+
 	class TimeSpaceCrisscrossDebugMonoPlugin
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class PropButtonConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FourRotateVoxelRevert2DVoxelConfig_TypeDefinitionIndex = 16761;
+
 	class FourRotateVoxelRevert2DVoxelConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
 	public:

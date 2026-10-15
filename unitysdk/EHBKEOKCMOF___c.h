@@ -9,6 +9,8 @@ namespace System { class Object; }
 #define EHBKEOKCMOF___C___ONLANGUAGECHANGED_B__23_0_OFFSET UNITYSDK_OFFSET(0x154A21E0)
 #define EHBKEOKCMOF___C___ONLOGINFAILED_B__25_0_OFFSET UNITYSDK_OFFSET(0x154A2290)
 
+inline static constexpr unsigned int EHBKEOKCMOF___c_TypeDefinitionIndex = 61111;
+
 	class EHBKEOKCMOF___c : public ::System::Object
 	{
 	public:

@@ -21,6 +21,8 @@ namespace UnityEngine { class AnimationClip; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RPGFadeAnimation_TypeDefinitionIndex = 72826;
+
 	class RPGFadeAnimation : public ::UnityEngine::MonoBehaviour
 	{
 	public:

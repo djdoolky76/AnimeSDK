@@ -8,6 +8,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
+	inline static constexpr unsigned int SelectManyAwait_3_TypeDefinitionIndex = 45566;
+
 	template <typename T1, typename T2, typename T3>
 	class SelectManyAwait_3 : public ::System::Object
 	{

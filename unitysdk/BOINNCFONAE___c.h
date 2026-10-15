@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define BOINNCFONAE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E03C330)
 #define BOINNCFONAE___C___CCTOR_B__43_0_OFFSET UNITYSDK_OFFSET(0x1E03C340)
 
+inline static constexpr unsigned int BOINNCFONAE___c_TypeDefinitionIndex = 28815;
+
 	class BOINNCFONAE___c : public ::System::Object
 	{
 	public:

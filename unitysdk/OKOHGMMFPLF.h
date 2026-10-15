@@ -50,6 +50,8 @@ namespace UnityEngine { class Shader; }
 #define OKOHGMMFPLF_OLKDJANFCBB_OFFSET UNITYSDK_OFFSET(0xBEF42F0)
 #define OKOHGMMFPLF_ONOGFHMEIJO_OFFSET UNITYSDK_OFFSET(0xBEF3C00)
 
+inline static constexpr unsigned int OKOHGMMFPLF_TypeDefinitionIndex = 71023;
+
 	class OKOHGMMFPLF : public ::System::Object
 	{
 	public:

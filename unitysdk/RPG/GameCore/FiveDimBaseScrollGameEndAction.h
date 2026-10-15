@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FiveDimBaseScrollGameEndAction; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimBaseScrollGameEndAction_TypeDefinitionIndex = 18761;
+
 	class FiveDimBaseScrollGameEndAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
 	public:

@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define MLMPDOKOLAC_NDHLMGIFJEJ_OFFSET UNITYSDK_OFFSET(0xB9BA9E0)
 #define MLMPDOKOLAC_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0xB9BAC70)
 
+inline static constexpr unsigned int MLMPDOKOLAC_TypeDefinitionIndex = 69793;
+
 	class MLMPDOKOLAC : public ::System::Object
 	{
 	public:

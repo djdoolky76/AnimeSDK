@@ -9,6 +9,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define CNPPIGGJBFN_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xDA5D4D0)
 #define CNPPIGGJBFN_TICK_OFFSET UNITYSDK_OFFSET(0xDA5D520)
 
+inline static constexpr unsigned int CNPPIGGJBFN_TypeDefinitionIndex = 52851;
+
 	class CNPPIGGJBFN
 	{
 	public:

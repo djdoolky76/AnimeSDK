@@ -21,6 +21,8 @@ namespace System::IO { class Stream; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int ReadMessageThread_TypeDefinitionIndex = 37909;
+
 	class ReadMessageThread : public ::RPG::CustomRP::IOThread
 	{
 	public:

@@ -16,6 +16,8 @@ namespace UnityEngine { class Renderer; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int LightRubikCubePuzzleConditionObj_TypeDefinitionIndex = 78683;
+
 	class LightRubikCubePuzzleConditionObj : public ::UnityEngine::MonoBehaviour
 	{
 	public:

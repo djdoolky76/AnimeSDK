@@ -18,6 +18,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::RoadRash
 {
+	inline static constexpr unsigned int MonoRoadRashSpeedEffect_TypeDefinitionIndex = 75883;
+
 	class MonoRoadRashSpeedEffect : public ::UnityEngine::MonoBehaviour
 	{
 	public:

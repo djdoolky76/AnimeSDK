@@ -7,6 +7,8 @@ namespace System::Collections::Generic { template <typename T> class Stack_1; }
 
 namespace DesperateDevs::Utils
 {
+	inline static constexpr unsigned int ObjectPool_1_TypeDefinitionIndex = 7095;
+
 	template <typename T>
 	class ObjectPool_1 : public ::System::Object
 	{

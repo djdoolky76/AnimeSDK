@@ -17,6 +17,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define AMNHNMCJDAL__GETVISUALTREEDESCENDANTS_D__2_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1EC63760)
 #define AMNHNMCJDAL__GETVISUALTREEDESCENDANTS_D__2___M__FINALLY1_OFFSET UNITYSDK_OFFSET(0x1EC637A0)
 
+inline static constexpr unsigned int AMNHNMCJDAL__GetVisualTreeDescendants_d__2_TypeDefinitionIndex = 44103;
+
 	template <typename T1, typename T2>
 	class AMNHNMCJDAL__GetVisualTreeDescendants_d__2 : public ::System::Object
 	{

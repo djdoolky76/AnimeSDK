@@ -3,6 +3,8 @@
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int VREvent_Controller_t_TypeDefinitionIndex = 39282;
+
 	struct alignas(4) VREvent_Controller_t
 	{
 		::System::UInt32 button; // 0x10

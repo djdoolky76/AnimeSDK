@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BPQuestType_TypeDefinitionIndex = 62893;
+
 	enum class BPQuestType : ::System::Int32
 	{
 		None = 0,

@@ -14,6 +14,8 @@ namespace RPG::GameCore { class WaitPerformanceEnd; }
 #define FAJGCGEHDGE_SETNEXTTASK_OFFSET UNITYSDK_OFFSET(0x15681870)
 #define FAJGCGEHDGE_TICK_OFFSET UNITYSDK_OFFSET(0x15681A80)
 
+inline static constexpr unsigned int FAJGCGEHDGE_TypeDefinitionIndex = 58908;
+
 	class FAJGCGEHDGE : public ::GELIALJDFBL
 	{
 	public:

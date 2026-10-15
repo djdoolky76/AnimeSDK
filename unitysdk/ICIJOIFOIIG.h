@@ -46,6 +46,8 @@ namespace System { class String; }
 #define ICIJOIFOIIG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E621FD0)
 #define ICIJOIFOIIG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E622030)
 
+inline static constexpr unsigned int ICIJOIFOIIG_TypeDefinitionIndex = 33817;
+
 	class ICIJOIFOIIG : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ActivityDiceCombatDiceContentRow; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int DiceCombatDiceContentInfo_TypeDefinitionIndex = 63553;
+
 	class DiceCombatDiceContentInfo : public ::System::Object
 	{
 	public:

@@ -4,6 +4,8 @@
 
 namespace UnityEngine::UI
 {
+	inline static constexpr unsigned int SpriteElement_TypeDefinitionIndex = 6811;
+
 	struct alignas(4) SpriteElement
 	{
 		::System::Int32 instanceID; // 0x10

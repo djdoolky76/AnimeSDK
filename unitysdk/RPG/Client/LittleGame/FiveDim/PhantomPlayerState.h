@@ -3,6 +3,8 @@
 
 namespace RPG::Client::LittleGame::FiveDim
 {
+	inline static constexpr unsigned int PhantomPlayerState_TypeDefinitionIndex = 43416;
+
 	enum class PhantomPlayerState : ::System::Int32
 	{
 		LoadingAsset = 0,

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TryShowFateEntranceUI; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TryShowFateEntranceUI_TypeDefinitionIndex = 22126;
+
 	class TryShowFateEntranceUI : public ::RPG::GameCore::TaskConfig
 	{
 	public:

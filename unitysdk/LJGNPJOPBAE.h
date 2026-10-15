@@ -7,6 +7,8 @@ namespace System { class String; }
 #define LJGNPJOPBAE_CLEAR_OFFSET UNITYSDK_OFFSET(0xB7185F0)
 #define LJGNPJOPBAE_CTOR_OFFSET UNITYSDK_OFFSET(0xB718650)
 
+inline static constexpr unsigned int LJGNPJOPBAE_TypeDefinitionIndex = 60902;
+
 	class LJGNPJOPBAE : public ::System::Object
 	{
 	public:

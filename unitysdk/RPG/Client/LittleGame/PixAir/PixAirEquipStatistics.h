@@ -17,6 +17,8 @@
 
 namespace RPG::Client::LittleGame::PixAir
 {
+	inline static constexpr unsigned int PixAirEquipStatistics_TypeDefinitionIndex = 43675;
+
 	class PixAirEquipStatistics : public ::System::Object
 	{
 	public:

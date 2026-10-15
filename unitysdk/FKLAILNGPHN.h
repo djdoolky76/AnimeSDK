@@ -58,6 +58,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define FKLAILNGPHN_SET_DISTANCESQRTOCENTER_OFFSET UNITYSDK_OFFSET(0x15808A80)
 #define FKLAILNGPHN_SET_ISINVIEW_OFFSET UNITYSDK_OFFSET(0x15808B00)
 
+inline static constexpr unsigned int FKLAILNGPHN_TypeDefinitionIndex = 69216;
+
 	class FKLAILNGPHN : public ::System::Object
 	{
 	public:

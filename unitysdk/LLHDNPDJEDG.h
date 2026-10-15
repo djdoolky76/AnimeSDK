@@ -11,6 +11,8 @@ namespace System { class String; }
 #define LLHDNPDJEDG_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB76CDE0)
 #define LLHDNPDJEDG_TICK_OFFSET UNITYSDK_OFFSET(0xB76CD80)
 
+inline static constexpr unsigned int LLHDNPDJEDG_TypeDefinitionIndex = 58487;
+
 	class LLHDNPDJEDG : public ::GELIALJDFBL
 	{
 	public:

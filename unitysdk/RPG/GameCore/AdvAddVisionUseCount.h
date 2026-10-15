@@ -11,6 +11,8 @@ namespace RPG::GameCore { class AdvAddVisionUseCount; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvAddVisionUseCount_TypeDefinitionIndex = 21101;
+
 	class AdvAddVisionUseCount : public ::RPG::GameCore::TaskConfig
 	{
 	public:

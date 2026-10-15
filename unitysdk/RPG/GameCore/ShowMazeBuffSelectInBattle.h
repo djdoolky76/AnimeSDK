@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ShowMazeBuffSelectInBattle_TypeDefinitionIndex = 22511;
+
 	class ShowMazeBuffSelectInBattle : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -12,6 +12,8 @@ namespace UnityEngine::UI { class Toggle; }
 
 namespace UnityEngine::Rendering::UI
 {
+	inline static constexpr unsigned int DebugUIHandlerToggleHistory_TypeDefinitionIndex = 35695;
+
 	class DebugUIHandlerToggleHistory : public ::UnityEngine::Rendering::UI::DebugUIHandlerToggle
 	{
 	public:

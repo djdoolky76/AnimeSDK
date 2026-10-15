@@ -8,6 +8,8 @@ class KHMBBIDMAOM;
 #define KHMBBIDMAOM_CTOR_OFFSET UNITYSDK_OFFSET(0x1D094F70)
 #define KHMBBIDMAOM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D094E50)
 
+inline static constexpr unsigned int KHMBBIDMAOM_TypeDefinitionIndex = 14975;
+
 	class KHMBBIDMAOM : public ::System::Object
 	{
 	public:

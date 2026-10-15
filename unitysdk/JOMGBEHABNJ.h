@@ -25,6 +25,8 @@ namespace System { class String; }
 #define JOMGBEHABNJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E7AB630)
 #define JOMGBEHABNJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E7AB690)
 
+inline static constexpr unsigned int JOMGBEHABNJ_TypeDefinitionIndex = 34219;
+
 	class JOMGBEHABNJ : public ::System::Object
 	{
 	public:

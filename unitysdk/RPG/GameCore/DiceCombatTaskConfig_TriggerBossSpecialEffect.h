@@ -11,6 +11,8 @@ namespace RPG::GameCore { class DiceCombatTaskConfig_TriggerBossSpecialEffect; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DiceCombatTaskConfig_TriggerBossSpecialEffect_TypeDefinitionIndex = 16041;
+
 	class DiceCombatTaskConfig_TriggerBossSpecialEffect : public ::RPG::GameCore::DiceCombatTaskConfig
 	{
 	public:

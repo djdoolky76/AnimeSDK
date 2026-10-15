@@ -13,6 +13,8 @@ namespace System::Security::Cryptography { class HMACSHA1; }
 
 namespace System::Security::Cryptography
 {
+	inline static constexpr unsigned int Rfc2898DeriveBytes_TypeDefinitionIndex = 1041;
+
 	class Rfc2898DeriveBytes : public ::System::Security::Cryptography::DeriveBytes
 	{
 	public:

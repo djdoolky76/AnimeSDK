@@ -22,6 +22,8 @@ namespace UnityEngine { class Collision; }
 
 namespace RPG::Client::LittleGame::FiveDim
 {
+	inline static constexpr unsigned int FiveDimDragonDogPhysicsProxyView_TypeDefinitionIndex = 77197;
+
 	class FiveDimDragonDogPhysicsProxyView : public ::RPG::Client::LittleGame::FiveDim::FiveDimPropPhysicsProxyView
 	{
 	public:

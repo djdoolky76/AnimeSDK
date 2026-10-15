@@ -6,6 +6,8 @@
 #define CFABNEAPFPG_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0xC9F99F0)
 #define CFABNEAPFPG_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0xC9F9A30)
 
+inline static constexpr unsigned int CFABNEAPFPG_TypeDefinitionIndex = 71036;
+
 	class CFABNEAPFPG : public ::RPG::Client::TABehaviorBase
 	{
 	public:

@@ -29,6 +29,8 @@ namespace System { class String; }
 #define LMLNJFEMOAI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9A9D00)
 #define LMLNJFEMOAI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E9A9D60)
 
+inline static constexpr unsigned int LMLNJFEMOAI_TypeDefinitionIndex = 25758;
+
 	class LMLNJFEMOAI : public ::System::Object
 	{
 	public:

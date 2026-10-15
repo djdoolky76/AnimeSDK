@@ -16,6 +16,8 @@ namespace RPG::GameCore { class WaitBattleResult; }
 #define NEGNPGDLIFB_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBB5DDF0)
 #define NEGNPGDLIFB_TICK_OFFSET UNITYSDK_OFFSET(0xBB5DF00)
 
+inline static constexpr unsigned int NEGNPGDLIFB_TypeDefinitionIndex = 58875;
+
 	class NEGNPGDLIFB : public ::GELIALJDFBL
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System { template <typename T> class Comparison_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoCurveScale___c_TypeDefinitionIndex = 71048;
+
 	class MonoCurveScale___c : public ::System::Object
 	{
 	public:

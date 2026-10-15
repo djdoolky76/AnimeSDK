@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TutorialUIWrapper_TypeDefinitionIndex = 68249;
+
 	class TutorialUIWrapper : public ::System::Object
 	{
 	public:

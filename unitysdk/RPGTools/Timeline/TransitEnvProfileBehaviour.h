@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int TransitEnvProfileBehaviour_TypeDefinitionIndex = 48413;
+
 	class TransitEnvProfileBehaviour : public ::RPGTools::Timeline::CustomEventBehaviour
 	{
 	public:

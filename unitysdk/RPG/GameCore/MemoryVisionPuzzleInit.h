@@ -11,6 +11,8 @@ namespace RPG::GameCore { class MissionCustomValue; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MemoryVisionPuzzleInit_TypeDefinitionIndex = 21069;
+
 	class MemoryVisionPuzzleInit : public ::RPG::GameCore::TaskConfig
 	{
 	public:

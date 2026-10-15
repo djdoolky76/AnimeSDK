@@ -10,6 +10,8 @@
 #define JBAENELAKOL_NBNKMIMDLJB_OFFSET UNITYSDK_OFFSET(0x1C6F1050)
 #define JBAENELAKOL_PAFCMAMJENB_OFFSET UNITYSDK_OFFSET(0x1C6F0FE0)
 
+inline static constexpr unsigned int JBAENELAKOL_TypeDefinitionIndex = 37257;
+
 	class JBAENELAKOL : public ::System::Object
 	{
 	public:

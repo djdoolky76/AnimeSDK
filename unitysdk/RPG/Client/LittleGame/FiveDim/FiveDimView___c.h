@@ -11,6 +11,8 @@ namespace System { class Object; }
 
 namespace RPG::Client::LittleGame::FiveDim
 {
+	inline static constexpr unsigned int FiveDimView___c_TypeDefinitionIndex = 77194;
+
 	class FiveDimView___c : public ::System::Object
 	{
 	public:

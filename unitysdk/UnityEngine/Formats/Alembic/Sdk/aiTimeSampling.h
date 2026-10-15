@@ -6,6 +6,8 @@
 
 namespace UnityEngine::Formats::Alembic::Sdk
 {
+	inline static constexpr unsigned int aiTimeSampling_TypeDefinitionIndex = 45824;
+
 	struct alignas(4) aiTimeSampling
 	{
 		::System::IntPtr self; // 0x10

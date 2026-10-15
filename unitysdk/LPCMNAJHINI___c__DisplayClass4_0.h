@@ -4,6 +4,8 @@
 class IFKBGBPINCO;
 class LPCMNAJHINI;
 
+inline static constexpr unsigned int LPCMNAJHINI___c__DisplayClass4_0_TypeDefinitionIndex = 44149;
+
 	class LPCMNAJHINI___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:

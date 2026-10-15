@@ -11,6 +11,8 @@ class NMFPDCLMMGI;
 #define PJGNHOJOIJO_NIKMMDDCOPG_OFFSET UNITYSDK_OFFSET(0x1C9F3F70)
 #define PJGNHOJOIJO_PINFHCIGIFG_OFFSET UNITYSDK_OFFSET(0x1C9F3AC0)
 
+inline static constexpr unsigned int PJGNHOJOIJO_TypeDefinitionIndex = 42062;
+
 	class PJGNHOJOIJO : public ::System::Object
 	{
 	public:

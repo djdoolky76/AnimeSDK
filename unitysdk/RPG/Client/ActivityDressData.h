@@ -17,6 +17,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ActivityDressData_TypeDefinitionIndex = 61583;
+
 	class ActivityDressData : public ::RPG::Client::ActivityPanelData
 	{
 	public:

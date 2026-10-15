@@ -37,6 +37,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define MCOOEKHDKAA_SET_HAPPYPROGRESS_OFFSET UNITYSDK_OFFSET(0xB88C6B0)
 #define MCOOEKHDKAA_SET_PLAYTIME_OFFSET UNITYSDK_OFFSET(0xB88C710)
 
+inline static constexpr unsigned int MCOOEKHDKAA_TypeDefinitionIndex = 77735;
+
 	class MCOOEKHDKAA : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 #define ECCINKAGJME_JBMKEOLJOOK_OFFSET UNITYSDK_OFFSET(0x12D08900)
 #define ECCINKAGJME_JMOPONIENIO_OFFSET UNITYSDK_OFFSET(0x12D087C0)
 
+inline static constexpr unsigned int ECCINKAGJME_TypeDefinitionIndex = 74643;
+
 	class ECCINKAGJME : public ::System::Object
 	{
 	public:

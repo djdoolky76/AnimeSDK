@@ -32,6 +32,8 @@ namespace System { class String; }
 #define EBCEGDPGHLE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E232E90)
 #define EBCEGDPGHLE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E232EF0)
 
+inline static constexpr unsigned int EBCEGDPGHLE_TypeDefinitionIndex = 32235;
+
 	class EBCEGDPGHLE : public ::System::Object
 	{
 	public:

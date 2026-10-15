@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int TextGenerator_AfterHorizontalAlignmentDel_TypeDefinitionIndex = 5045;
+
 	class TextGenerator_AfterHorizontalAlignmentDel : public ::System::MulticastDelegate
 	{
 	public:

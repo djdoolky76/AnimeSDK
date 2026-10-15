@@ -10,6 +10,8 @@ namespace RPG::GameCore { class AvatarBreakDamageRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AvatarBreakDamageRow_TypeDefinitionIndex = 12758;
+
 	class AvatarBreakDamageRow : public ::System::Object
 	{
 	public:

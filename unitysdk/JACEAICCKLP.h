@@ -6,6 +6,8 @@ namespace System { class IDisposable; }
 #define JACEAICCKLP_BPDIGKDIJKN_OFFSET UNITYSDK_OFFSET(0x165409B0)
 #define JACEAICCKLP_CCTOR_OFFSET UNITYSDK_OFFSET(0x16540A40)
 
+inline static constexpr unsigned int JACEAICCKLP_TypeDefinitionIndex = 49963;
+
 	class JACEAICCKLP : public ::System::Object
 	{
 	public:

@@ -15,6 +15,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByCompareQuestProgress_TypeDefinitionIndex = 20596;
+
 	class ByCompareQuestProgress : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

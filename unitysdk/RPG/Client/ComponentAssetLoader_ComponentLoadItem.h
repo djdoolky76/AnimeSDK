@@ -19,6 +19,8 @@ namespace UnityEngine { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ComponentAssetLoader_ComponentLoadItem_TypeDefinitionIndex = 68391;
+
 	class ComponentAssetLoader_ComponentLoadItem : public ::System::Object
 	{
 	public:

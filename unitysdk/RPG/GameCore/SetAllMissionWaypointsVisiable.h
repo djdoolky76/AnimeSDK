@@ -10,6 +10,8 @@ namespace RPG::GameCore { class SetAllMissionWaypointsVisiable; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetAllMissionWaypointsVisiable_TypeDefinitionIndex = 20873;
+
 	class SetAllMissionWaypointsVisiable : public ::RPG::GameCore::TaskConfig
 	{
 	public:

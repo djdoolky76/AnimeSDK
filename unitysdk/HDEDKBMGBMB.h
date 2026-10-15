@@ -3,6 +3,8 @@
 
 #define HDEDKBMGBMB_PEFLJDOKOIL_OFFSET UNITYSDK_OFFSET(0x3C49A70)
 
+inline static constexpr unsigned int HDEDKBMGBMB_TypeDefinitionIndex = 6279;
+
 	struct alignas(4) HDEDKBMGBMB
 	{
 		::System::Single DKEJJDHONBA; // 0x10

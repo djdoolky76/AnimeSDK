@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ActivityFinalityBattleRoleRow_TypeDefinitionIndex = 11606;
+
 	class ActivityFinalityBattleRoleRow : public ::System::Object
 	{
 	public:

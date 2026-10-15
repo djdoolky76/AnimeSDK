@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierExecuteActionOnGamblingOnceConfig; 
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierExecuteActionOnGamblingOnceConfig_TypeDefinitionIndex = 17868;
+
 	class RogueModifierExecuteActionOnGamblingOnceConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

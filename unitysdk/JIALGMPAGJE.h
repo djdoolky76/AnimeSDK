@@ -7,6 +7,8 @@ namespace RPG::GameCore { class DiceCombatTaskConfig_MarkWeatherInEffect; }
 #define JIALGMPAGJE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C6F5400)
 #define JIALGMPAGJE_MLKLPMJEHPF_OFFSET UNITYSDK_OFFSET(0x1C6F5410)
 
+inline static constexpr unsigned int JIALGMPAGJE_TypeDefinitionIndex = 36294;
+
 	class JIALGMPAGJE : public ::AJBKGPOEBFG
 	{
 	public:

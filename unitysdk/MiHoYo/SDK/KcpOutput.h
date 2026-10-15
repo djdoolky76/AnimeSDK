@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int KcpOutput_TypeDefinitionIndex = 46136;
+
 	class KcpOutput : public ::System::MulticastDelegate
 	{
 	public:

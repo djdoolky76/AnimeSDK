@@ -10,6 +10,8 @@
 #define BHKGNNLLPHD_GET_TYPE_OFFSET UNITYSDK_OFFSET(0xB48DAB0)
 #define BHKGNNLLPHD_JAILHGGFLDH_OFFSET UNITYSDK_OFFSET(0xB48DAC0)
 
+inline static constexpr unsigned int BHKGNNLLPHD_TypeDefinitionIndex = 56147;
+
 	class BHKGNNLLPHD : public ::DBGDNLLDPFI
 	{
 	public:

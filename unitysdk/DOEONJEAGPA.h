@@ -30,6 +30,8 @@ namespace System { class String; }
 #define DOEONJEAGPA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E1FF780)
 #define DOEONJEAGPA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E1FF7E0)
 
+inline static constexpr unsigned int DOEONJEAGPA_TypeDefinitionIndex = 33692;
+
 	class DOEONJEAGPA : public ::System::Object
 	{
 	public:

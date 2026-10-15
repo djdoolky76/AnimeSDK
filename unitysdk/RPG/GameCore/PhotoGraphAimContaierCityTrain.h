@@ -10,6 +10,8 @@ namespace RPG::GameCore { class PhotoGraphAimContaierCityTrain; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PhotoGraphAimContaierCityTrain_TypeDefinitionIndex = 17517;
+
 	class PhotoGraphAimContaierCityTrain : public ::RPG::GameCore::PhotoGraphAimContainerTargetBase
 	{
 	public:

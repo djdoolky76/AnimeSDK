@@ -34,6 +34,8 @@ namespace System { class String; }
 #define GGAKNLJJNEI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E4769E0)
 #define GGAKNLJJNEI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E476A40)
 
+inline static constexpr unsigned int GGAKNLJJNEI_TypeDefinitionIndex = 29137;
+
 	class GGAKNLJJNEI : public ::System::Object
 	{
 	public:

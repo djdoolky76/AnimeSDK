@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByIsContainAdventureModifier_TypeDefinitionIndex = 20787;
+
 	class ByIsContainAdventureModifier : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

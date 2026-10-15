@@ -40,6 +40,8 @@ namespace UnityEngine { class Texture2D; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MeshSDFRendererMonoPlugin_TypeDefinitionIndex = 70307;
+
 	class MeshSDFRendererMonoPlugin
 	{
 	public:

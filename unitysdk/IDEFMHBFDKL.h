@@ -25,6 +25,8 @@ namespace UnityEngine { class Renderer; }
 #define IDEFMHBFDKL_PJLOJLFPFFC_OFFSET UNITYSDK_OFFSET(0x15EC2D10)
 #define IDEFMHBFDKL_PJNMKHLHHGI_OFFSET UNITYSDK_OFFSET(0x15EC2920)
 
+inline static constexpr unsigned int IDEFMHBFDKL_TypeDefinitionIndex = 70215;
+
 	class IDEFMHBFDKL : public ::System::Object
 	{
 	public:

@@ -13,6 +13,8 @@ namespace RPG::Client { class GridFightTraitConfigBase; }
 #define HDLECPPJGKN___C__DISPLAYCLASS0_0__SATISFY_B__3_OFFSET UNITYSDK_OFFSET(0x15C3D330)
 #define HDLECPPJGKN___C__DISPLAYCLASS0_0__SATISFY_G___HASEQUIPPEDSAME_1_OFFSET UNITYSDK_OFFSET(0x15C3D030)
 
+inline static constexpr unsigned int HDLECPPJGKN___c__DisplayClass0_0_TypeDefinitionIndex = 64984;
+
 	class HDLECPPJGKN___c__DisplayClass0_0 : public ::System::Object
 	{
 	public:

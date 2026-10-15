@@ -33,6 +33,8 @@ namespace System { class String; }
 #define LPIHJBELIBN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9CE710)
 #define LPIHJBELIBN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E9CE770)
 
+inline static constexpr unsigned int LPIHJBELIBN_TypeDefinitionIndex = 26992;
+
 	class LPIHJBELIBN : public ::System::Object
 	{
 	public:

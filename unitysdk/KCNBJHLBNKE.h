@@ -5,6 +5,8 @@
 
 #define KCNBJHLBNKE_CTOR_OFFSET UNITYSDK_OFFSET(0x1CBB1600)
 
+inline static constexpr unsigned int KCNBJHLBNKE_TypeDefinitionIndex = 43046;
+
 	class KCNBJHLBNKE : public ::System::Object
 	{
 	public:

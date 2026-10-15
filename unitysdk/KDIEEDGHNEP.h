@@ -24,6 +24,8 @@ namespace System { class String; }
 #define KDIEEDGHNEP_LGDKDHPDAEB_OFFSET UNITYSDK_OFFSET(0xB35DE60)
 #define KDIEEDGHNEP_LHCBJDHABDA_OFFSET UNITYSDK_OFFSET(0xB35E520)
 
+inline static constexpr unsigned int KDIEEDGHNEP_TypeDefinitionIndex = 57403;
+
 	class KDIEEDGHNEP : public ::System::Object
 	{
 	public:

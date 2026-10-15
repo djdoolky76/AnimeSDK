@@ -15,6 +15,8 @@ namespace EzySlice { class IntersectionResult; }
 
 namespace EzySlice
 {
+	inline static constexpr unsigned int Intersector_TypeDefinitionIndex = 46995;
+
 	class Intersector : public ::System::Object
 	{
 	public:

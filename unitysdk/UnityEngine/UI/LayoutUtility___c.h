@@ -23,6 +23,8 @@ namespace UnityEngine::UI { class ILayoutElement; }
 
 namespace UnityEngine::UI
 {
+	inline static constexpr unsigned int LayoutUtility___c_TypeDefinitionIndex = 6787;
+
 	class LayoutUtility___c : public ::System::Object
 	{
 	public:

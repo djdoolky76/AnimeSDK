@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define FDGPOGKILAJ_LEEPJIGMNDK_OFFSET UNITYSDK_OFFSET(0x156D77F0)
 #define FDGPOGKILAJ_NODPBIKOJCF_OFFSET UNITYSDK_OFFSET(0x156D7730)
 
+inline static constexpr unsigned int FDGPOGKILAJ_TypeDefinitionIndex = 77627;
+
 	class FDGPOGKILAJ : public ::OCFMCBFNLND
 	{
 	public:

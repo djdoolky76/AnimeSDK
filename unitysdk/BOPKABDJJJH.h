@@ -15,6 +15,8 @@ namespace System::IO::MemoryMappedFiles { class MemoryMappedViewAccessor; }
 #define BOPKABDJJJH_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x1EBEDD30)
 #define BOPKABDJJJH_OJMNGBMFLPF_OFFSET UNITYSDK_OFFSET(0x1EBEDF50)
 
+inline static constexpr unsigned int BOPKABDJJJH_TypeDefinitionIndex = 35179;
+
 	class BOPKABDJJJH : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int BuildCompression_TypeDefinitionIndex = 5772;
+
 	struct alignas(4) BuildCompression
 	{
 		::UnityEngine::CompressionType _compression; // 0x10

@@ -40,6 +40,8 @@ namespace MiHoYo::SDK::PC::OS { class HoYoChannelDelegate_UserProfileDelegate; }
 
 namespace MiHoYo::SDK::PC::OS
 {
+	inline static constexpr unsigned int HoYoChannelDelegate_TypeDefinitionIndex = 8541;
+
 	class HoYoChannelDelegate : public ::System::Object
 	{
 	public:

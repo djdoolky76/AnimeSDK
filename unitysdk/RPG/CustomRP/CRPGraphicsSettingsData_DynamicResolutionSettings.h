@@ -6,6 +6,8 @@
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int CRPGraphicsSettingsData_DynamicResolutionSettings_TypeDefinitionIndex = 37662;
+
 	class CRPGraphicsSettingsData_DynamicResolutionSettings : public ::System::Object
 	{
 	public:

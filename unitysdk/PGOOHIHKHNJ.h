@@ -52,6 +52,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define PGOOHIHKHNJ_SET_DISPOSED_OFFSET UNITYSDK_OFFSET(0xC234FF0)
 #define PGOOHIHKHNJ_TICK_OFFSET UNITYSDK_OFFSET(0xC22EB10)
 
+inline static constexpr unsigned int PGOOHIHKHNJ_TypeDefinitionIndex = 54982;
+
 	class PGOOHIHKHNJ : public ::GELIALJDFBL
 	{
 	public:

@@ -48,6 +48,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client::Billboard
 {
+	inline static constexpr unsigned int BillboardDataProvider_TypeDefinitionIndex = 74972;
+
 	class BillboardDataProvider : public ::System::Object
 	{
 	public:

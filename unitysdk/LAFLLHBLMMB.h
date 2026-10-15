@@ -7,6 +7,8 @@
 #define LAFLLHBLMMB_DPOIIHDJGGF_1_OFFSET UNITYSDK_OFFSET(0x1C71FDA0)
 #define LAFLLHBLMMB_DPOIIHDJGGF_OFFSET UNITYSDK_OFFSET(0x1C71FD00)
 
+inline static constexpr unsigned int LAFLLHBLMMB_TypeDefinitionIndex = 36551;
+
 	class LAFLLHBLMMB : public ::System::Object
 	{
 	public:

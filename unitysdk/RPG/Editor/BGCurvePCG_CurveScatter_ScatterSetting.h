@@ -6,6 +6,8 @@
 
 namespace RPG::Editor
 {
+	inline static constexpr unsigned int BGCurvePCG_CurveScatter_ScatterSetting_TypeDefinitionIndex = 52022;
+
 	struct alignas(4) BGCurvePCG_CurveScatter_ScatterSetting
 	{
 		::UnityEngine::Vector2 ScatterRange; // 0x10

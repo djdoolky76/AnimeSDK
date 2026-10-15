@@ -11,6 +11,8 @@ namespace System { template <typename T> class Predicate_1; }
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int IdleLiveTickManager___c_TypeDefinitionIndex = 75448;
+
 	class IdleLiveTickManager___c : public ::System::Object
 	{
 	public:

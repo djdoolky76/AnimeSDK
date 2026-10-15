@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ReportTypeConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ReportTypeConfigRow_TypeDefinitionIndex = 14650;
+
 	class ReportTypeConfigRow : public ::System::Object
 	{
 	public:

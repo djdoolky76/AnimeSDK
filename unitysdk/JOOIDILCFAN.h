@@ -21,6 +21,8 @@ namespace System { class String; }
 #define JOOIDILCFAN_SET_BLOCKINDEX_OFFSET UNITYSDK_OFFSET(0xACF0)
 #define JOOIDILCFAN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3C27CA0)
 
+inline static constexpr unsigned int JOOIDILCFAN_TypeDefinitionIndex = 41454;
+
 	struct alignas(8) JOOIDILCFAN
 	{
 		::JNLPFBDFNIJ* LOEAOEKLECL; // 0x10

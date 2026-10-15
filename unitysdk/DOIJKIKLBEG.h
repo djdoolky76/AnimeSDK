@@ -29,6 +29,8 @@ namespace System { class String; }
 #define DOIJKIKLBEG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E2019E0)
 #define DOIJKIKLBEG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E201A40)
 
+inline static constexpr unsigned int DOIJKIKLBEG_TypeDefinitionIndex = 31370;
+
 	class DOIJKIKLBEG : public ::System::Object
 	{
 	public:

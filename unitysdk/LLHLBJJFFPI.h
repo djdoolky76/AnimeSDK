@@ -7,6 +7,8 @@ namespace System { class String; }
 #define LLHLBJJFFPI_ALEBBJAFIOG_OFFSET UNITYSDK_OFFSET(0xB76E860)
 #define LLHLBJJFFPI_CTOR_OFFSET UNITYSDK_OFFSET(0xB76EB10)
 
+inline static constexpr unsigned int LLHLBJJFFPI_TypeDefinitionIndex = 64978;
+
 	class LLHLBJJFFPI : public ::System::Object
 	{
 	public:

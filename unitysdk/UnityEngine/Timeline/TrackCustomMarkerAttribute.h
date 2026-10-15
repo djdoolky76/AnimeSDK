@@ -8,6 +8,8 @@ namespace System { class Type; }
 
 namespace UnityEngine::Timeline
 {
+	inline static constexpr unsigned int TrackCustomMarkerAttribute_TypeDefinitionIndex = 38803;
+
 	class TrackCustomMarkerAttribute : public ::System::Attribute
 	{
 	public:

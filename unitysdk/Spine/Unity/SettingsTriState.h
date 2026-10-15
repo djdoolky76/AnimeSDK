@@ -3,6 +3,8 @@
 
 namespace Spine::Unity
 {
+	inline static constexpr unsigned int SettingsTriState_TypeDefinitionIndex = 45103;
+
 	enum class SettingsTriState : ::System::Int32
 	{
 		Disable = 0,

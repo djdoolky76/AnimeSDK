@@ -79,6 +79,8 @@ namespace System::Text { class Encoding; }
 
 namespace System::Runtime::Serialization::Formatters::Binary
 {
+	inline static constexpr unsigned int __BinaryParser_TypeDefinitionIndex = 1191;
+
 	class __BinaryParser : public ::System::Object
 	{
 	public:

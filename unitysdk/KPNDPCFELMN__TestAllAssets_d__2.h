@@ -10,6 +10,8 @@ namespace System { class Object; }
 #define KPNDPCFELMN__TESTALLASSETS_D__2_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0xB5C5500)
 #define KPNDPCFELMN__TESTALLASSETS_D__2_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB5C5430)
 
+inline static constexpr unsigned int KPNDPCFELMN__TestAllAssets_d__2_TypeDefinitionIndex = 69490;
+
 	template <typename T1, typename T2>
 	class KPNDPCFELMN__TestAllAssets_d__2 : public ::System::Object
 	{

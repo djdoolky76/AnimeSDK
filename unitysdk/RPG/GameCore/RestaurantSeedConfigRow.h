@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RestaurantSeedConfigRow_TypeDefinitionIndex = 11375;
+
 	class RestaurantSeedConfigRow : public ::System::Object
 	{
 	public:

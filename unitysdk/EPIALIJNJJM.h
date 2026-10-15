@@ -7,6 +7,8 @@ namespace RPG::Client { class MapNpcDef; }
 #define EPIALIJNJJM_CTOR_OFFSET UNITYSDK_OFFSET(0x155D5090)
 #define EPIALIJNJJM_KEOKEELBKHI_OFFSET UNITYSDK_OFFSET(0x155D50A0)
 
+inline static constexpr unsigned int EPIALIJNJJM_TypeDefinitionIndex = 60632;
+
 	class EPIALIJNJJM : public ::System::Object
 	{
 	public:

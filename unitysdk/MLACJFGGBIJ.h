@@ -5,6 +5,8 @@ class OOCCBMLAELL;
 
 #define MLACJFGGBIJ_CTOR_OFFSET UNITYSDK_OFFSET(0xB9A4D20)
 
+inline static constexpr unsigned int MLACJFGGBIJ_TypeDefinitionIndex = 80584;
+
 	class MLACJFGGBIJ : public ::System::Object
 	{
 	public:

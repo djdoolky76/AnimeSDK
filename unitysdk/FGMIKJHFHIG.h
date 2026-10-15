@@ -13,6 +13,8 @@ namespace System { class Object; }
 #define FGMIKJHFHIG_ONMODELROOTUNLOADED_OFFSET UNITYSDK_OFFSET(0x1576B010)
 #define FGMIKJHFHIG_RESETTODEFAULT_OFFSET UNITYSDK_OFFSET(0x1576B410)
 
+inline static constexpr unsigned int FGMIKJHFHIG_TypeDefinitionIndex = 73325;
+
 	class FGMIKJHFHIG : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

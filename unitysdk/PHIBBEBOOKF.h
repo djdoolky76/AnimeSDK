@@ -7,6 +7,8 @@ namespace RPG::GameCore { class DiceCombatPredicateConfig_DamageValueCompare; }
 #define PHIBBEBOOKF_CTOR_OFFSET UNITYSDK_OFFSET(0x1C7ED1B0)
 #define PHIBBEBOOKF_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0x1C7ED1D0)
 
+inline static constexpr unsigned int PHIBBEBOOKF_TypeDefinitionIndex = 36317;
+
 	class PHIBBEBOOKF : public ::HHOHBHGLHHF
 	{
 	public:

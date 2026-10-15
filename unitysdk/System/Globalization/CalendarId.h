@@ -3,6 +3,8 @@
 
 namespace System::Globalization
 {
+	inline static constexpr unsigned int CalendarId_TypeDefinitionIndex = 745;
+
 	enum class CalendarId : ::System::UInt16
 	{
 		GREGORIAN = 1,

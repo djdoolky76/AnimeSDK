@@ -42,6 +42,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TurnBasedModifierConfig_TypeDefinitionIndex = 18229;
+
 	class TurnBasedModifierConfig : public ::RPG::GameCore::ModifierConfig
 	{
 	public:

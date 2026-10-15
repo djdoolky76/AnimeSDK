@@ -4,6 +4,8 @@
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int Compositor_FrameTiming_TypeDefinitionIndex = 39311;
+
 	struct alignas(4) Compositor_FrameTiming
 	{
 		::System::UInt32 m_nSize; // 0x10

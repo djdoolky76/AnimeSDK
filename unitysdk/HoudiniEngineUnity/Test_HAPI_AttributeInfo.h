@@ -9,6 +9,8 @@ namespace HoudiniEngineUnity { class Test_HAPI_AttributeInfo; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int Test_HAPI_AttributeInfo_TypeDefinitionIndex = 40704;
+
 	class Test_HAPI_AttributeInfo : public ::System::Object
 	{
 	public:

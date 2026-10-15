@@ -8,6 +8,8 @@ namespace System { class String; }
 
 #define PJELEGLGHCN_CTOR_OFFSET UNITYSDK_OFFSET(0xC2845A0)
 
+inline static constexpr unsigned int PJELEGLGHCN_TypeDefinitionIndex = 82001;
+
 	class PJELEGLGHCN : public ::System::Object
 	{
 	public:

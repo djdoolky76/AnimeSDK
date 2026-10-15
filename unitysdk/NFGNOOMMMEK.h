@@ -7,6 +7,8 @@ namespace UnityEngine { class Transform; }
 
 #define NFGNOOMMMEK_CTOR_OFFSET UNITYSDK_OFFSET(0xBB93ED0)
 
+inline static constexpr unsigned int NFGNOOMMMEK_TypeDefinitionIndex = 71240;
+
 	class NFGNOOMMMEK : public ::System::Object
 	{
 	public:

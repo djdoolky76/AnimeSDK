@@ -29,6 +29,8 @@ namespace System { class String; }
 #define IMDEBPDKCAJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E6B4C80)
 #define IMDEBPDKCAJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E6B4CE0)
 
+inline static constexpr unsigned int IMDEBPDKCAJ_TypeDefinitionIndex = 26663;
+
 	class IMDEBPDKCAJ : public ::System::Object
 	{
 	public:

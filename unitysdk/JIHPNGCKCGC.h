@@ -10,6 +10,8 @@ namespace UnityEngine { class Transform; }
 #define JIHPNGCKCGC_IAMCNOAAALI_OFFSET UNITYSDK_OFFSET(0xB1FB550)
 #define JIHPNGCKCGC_JCKGONAAIPB_OFFSET UNITYSDK_OFFSET(0xB1FB360)
 
+inline static constexpr unsigned int JIHPNGCKCGC_TypeDefinitionIndex = 72725;
+
 	class JIHPNGCKCGC : public ::LBAMBIMMJKB
 	{
 	public:

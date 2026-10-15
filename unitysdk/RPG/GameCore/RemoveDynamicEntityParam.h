@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RemoveDynamicEntityParam_TypeDefinitionIndex = 22672;
+
 	class RemoveDynamicEntityParam : public ::RPG::GameCore::TaskConfig
 	{
 	public:

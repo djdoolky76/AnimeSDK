@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define GNAOKMNCODN_NLPEFGFAGPF_OFFSET UNITYSDK_OFFSET(0x15AF5E30)
 #define GNAOKMNCODN_OJBBEMGJFAE_OFFSET UNITYSDK_OFFSET(0x15AF6160)
 
+inline static constexpr unsigned int GNAOKMNCODN_TypeDefinitionIndex = 77254;
+
 	class GNAOKMNCODN : public ::System::Object
 	{
 	public:

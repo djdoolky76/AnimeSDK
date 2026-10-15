@@ -11,6 +11,8 @@ namespace RPG::GameCore { class GachaCeilingConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GachaCeilingConfigRow_TypeDefinitionIndex = 13354;
+
 	class GachaCeilingConfigRow : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace MiHoYo::SDK { class Alert_OnAlertDelegate; }
 
 namespace MiHoYo::SDK::PC::OS
 {
+	inline static constexpr unsigned int HoYoChannelGooglePlay___c__DisplayClass12_2_TypeDefinitionIndex = 8577;
+
 	template <typename T1, typename T2>
 	class HoYoChannelGooglePlay___c__DisplayClass12_2 : public ::System::Object
 	{

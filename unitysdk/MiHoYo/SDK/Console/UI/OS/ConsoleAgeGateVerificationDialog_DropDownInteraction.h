@@ -7,6 +7,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace MiHoYo::SDK::Console::UI::OS
 {
+	inline static constexpr unsigned int ConsoleAgeGateVerificationDialog_DropDownInteraction_TypeDefinitionIndex = 9049;
+
 	struct alignas(8) ConsoleAgeGateVerificationDialog_DropDownInteraction
 	{
 		::UnityEngine::UI::Dropdown* dropdown; // 0x10

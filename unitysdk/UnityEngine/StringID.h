@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int StringID_TypeDefinitionIndex = 5731;
+
 	struct alignas(4) StringID
 	{
 		::System::UInt32 _hash; // 0x10

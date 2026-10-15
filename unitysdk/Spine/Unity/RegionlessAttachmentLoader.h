@@ -23,6 +23,8 @@ namespace System { class String; }
 
 namespace Spine::Unity
 {
+	inline static constexpr unsigned int RegionlessAttachmentLoader_TypeDefinitionIndex = 45001;
+
 	class RegionlessAttachmentLoader : public ::System::Object
 	{
 	public:

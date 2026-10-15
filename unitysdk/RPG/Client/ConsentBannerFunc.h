@@ -16,6 +16,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ConsentBannerFunc_TypeDefinitionIndex = 61075;
+
 	class ConsentBannerFunc : public ::System::Object
 	{
 	public:

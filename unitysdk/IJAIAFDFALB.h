@@ -9,6 +9,8 @@ namespace System { class String; }
 #define IJAIAFDFALB_MCFDAKKMPGE_OFFSET UNITYSDK_OFFSET(0x16456F70)
 #define IJAIAFDFALB_NJDPOHCOEFF_OFFSET UNITYSDK_OFFSET(0x16456F20)
 
+inline static constexpr unsigned int IJAIAFDFALB_TypeDefinitionIndex = 77554;
+
 	class IJAIAFDFALB : public ::EHDCFBBIJIM
 	{
 	public:

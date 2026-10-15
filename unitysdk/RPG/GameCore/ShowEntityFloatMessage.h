@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ShowEntityFloatMessage_TypeDefinitionIndex = 22484;
+
 	class ShowEntityFloatMessage : public ::RPG::GameCore::TaskConfig
 	{
 	public:

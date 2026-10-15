@@ -25,6 +25,8 @@ namespace RPG::GameCore { class RogueHandBookMiracleRow; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueHandbookMiracleData_TypeDefinitionIndex = 67372;
+
 	class RogueHandbookMiracleData : public ::System::Object
 	{
 	public:

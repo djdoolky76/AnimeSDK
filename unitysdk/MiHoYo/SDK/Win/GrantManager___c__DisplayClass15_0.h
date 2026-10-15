@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int GrantManager___c__DisplayClass15_0_TypeDefinitionIndex = 9364;
+
 	class GrantManager___c__DisplayClass15_0 : public ::System::Object
 	{
 	public:

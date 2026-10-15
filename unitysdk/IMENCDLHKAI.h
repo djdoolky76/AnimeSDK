@@ -18,6 +18,8 @@ namespace System { class String; }
 #define IMENCDLHKAI_LEHKGLNGAGF_OFFSET UNITYSDK_OFFSET(0x164D2B20)
 #define IMENCDLHKAI_LMLFAEBBMFA_OFFSET UNITYSDK_OFFSET(0x164D2930)
 
+inline static constexpr unsigned int IMENCDLHKAI_TypeDefinitionIndex = 57818;
+
 	class IMENCDLHKAI : public ::System::Object
 	{
 	public:

@@ -39,6 +39,8 @@ namespace System::Xml::Serialization { class XmlTypeMapMemberNamespaces; }
 
 namespace System::Xml::Serialization
 {
+	inline static constexpr unsigned int ClassMap_TypeDefinitionIndex = 2058;
+
 	class ClassMap : public ::System::Xml::Serialization::ObjectMap
 	{
 	public:

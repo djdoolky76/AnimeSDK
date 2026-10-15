@@ -8,6 +8,8 @@ namespace UnityEngine { class Texture3D; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int CloudTransition_KeyFrame_TypeDefinitionIndex = 37730;
+
 	class CloudTransition_KeyFrame : public ::System::Object
 	{
 	public:

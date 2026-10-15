@@ -10,6 +10,8 @@ class OBJANKHLNGO;
 #define IIBGGJNFJFF_START_OFFSET UNITYSDK_OFFSET(0x16435FD0)
 #define IIBGGJNFJFF_STOP_OFFSET UNITYSDK_OFFSET(0x16436060)
 
+inline static constexpr unsigned int IIBGGJNFJFF_TypeDefinitionIndex = 80764;
+
 	class IIBGGJNFJFF : public ::System::Object
 	{
 	public:

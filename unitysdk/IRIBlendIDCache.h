@@ -24,6 +24,8 @@ namespace UnityEngine { class MaterialPropertyBlock; }
 #define IRIBLENDIDCACHE_OEJKNLKJCHP_OFFSET UNITYSDK_OFFSET(0x16528170)
 #define IRIBLENDIDCACHE_PNEANEJCJCA_OFFSET UNITYSDK_OFFSET(0x16529270)
 
+inline static constexpr unsigned int IRIBlendIDCache_TypeDefinitionIndex = 47399;
+
 	class IRIBlendIDCache : public ::UnityEngine::MonoBehaviour
 	{
 	public:

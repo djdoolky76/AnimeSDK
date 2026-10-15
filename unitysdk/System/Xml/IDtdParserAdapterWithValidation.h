@@ -3,6 +3,8 @@
 
 namespace System::Xml
 {
+	inline static constexpr unsigned int IDtdParserAdapterWithValidation_TypeDefinitionIndex = 1813;
+
 	class IDtdParserAdapterWithValidation
 	{
 	public:

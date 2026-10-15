@@ -10,6 +10,8 @@ namespace RPG::GameCore { class CakeRaceSectionRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CakeRaceSectionRow_TypeDefinitionIndex = 10993;
+
 	class CakeRaceSectionRow : public ::System::Object
 	{
 	public:

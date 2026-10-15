@@ -11,6 +11,8 @@ namespace System { class String; }
 #define SROPTIONSPROPERTYCHANGED_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xB0BF1E0)
 #define SROPTIONSPROPERTYCHANGED_INVOKE_OFFSET UNITYSDK_OFFSET(0xB0BEE90)
 
+inline static constexpr unsigned int SROptionsPropertyChanged_TypeDefinitionIndex = 45927;
+
 	class SROptionsPropertyChanged : public ::System::MulticastDelegate
 	{
 	public:

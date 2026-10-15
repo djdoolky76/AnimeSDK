@@ -3,6 +3,8 @@
 
 namespace RPG::Client::FullBody
 {
+	inline static constexpr unsigned int IKMappingLimb_BoneMapType_TypeDefinitionIndex = 74253;
+
 	enum class IKMappingLimb_BoneMapType : ::System::Int32
 	{
 		Parent = 0,

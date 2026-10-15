@@ -11,6 +11,8 @@ namespace RPG::GameCore { class SkillConditionPreshowConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SkillConditionPreshowConfig_TypeDefinitionIndex = 18180;
+
 	class SkillConditionPreshowConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -6,6 +6,8 @@
 
 namespace Collections::Pooled
 {
+	inline static constexpr unsigned int SpinLockWithNoCriticalRegion_TypeDefinitionIndex = 5132;
+
 	struct alignas(4) SpinLockWithNoCriticalRegion
 	{
 		::System::Int32 _isRunning; // 0x10

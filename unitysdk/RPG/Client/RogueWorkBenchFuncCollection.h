@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueWorkBenchFuncCollection_TypeDefinitionIndex = 67340;
+
 	class RogueWorkBenchFuncCollection : public ::System::Object
 	{
 	public:

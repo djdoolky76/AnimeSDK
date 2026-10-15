@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define GIONHIKCIPL_CTOR_OFFSET UNITYSDK_OFFSET(0x15A4CF00)
 #define GIONHIKCIPL_GHHMOJLAOJC_OFFSET UNITYSDK_OFFSET(0x15A4C760)
 
+inline static constexpr unsigned int GIONHIKCIPL_TypeDefinitionIndex = 62353;
+
 	class GIONHIKCIPL : public ::System::Object
 	{
 	public:

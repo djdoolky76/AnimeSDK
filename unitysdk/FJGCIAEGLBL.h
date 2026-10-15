@@ -5,6 +5,8 @@
 
 #define FJGCIAEGLBL_CTOR_OFFSET UNITYSDK_OFFSET(0x157C3A40)
 
+inline static constexpr unsigned int FJGCIAEGLBL_TypeDefinitionIndex = 55933;
+
 	class FJGCIAEGLBL : public ::System::Object
 	{
 	public:

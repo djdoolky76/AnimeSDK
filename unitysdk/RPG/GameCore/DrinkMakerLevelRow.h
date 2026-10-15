@@ -10,6 +10,8 @@ namespace RPG::GameCore { class DrinkMakerLevelRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DrinkMakerLevelRow_TypeDefinitionIndex = 13176;
+
 	class DrinkMakerLevelRow : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ class HJNDPHEDAGM;
 #define NEOCANJOBBD_EXECUTE_OFFSET UNITYSDK_OFFSET(0x1C955DC0)
 #define NEOCANJOBBD_TEARDOWN_OFFSET UNITYSDK_OFFSET(0x1C956300)
 
+inline static constexpr unsigned int NEOCANJOBBD_TypeDefinitionIndex = 42194;
+
 	class NEOCANJOBBD : public ::System::Object
 	{
 	public:

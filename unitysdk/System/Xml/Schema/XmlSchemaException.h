@@ -21,6 +21,8 @@ namespace System::Xml::Schema { class XmlSchemaObject; }
 
 namespace System::Xml::Schema
 {
+	inline static constexpr unsigned int XmlSchemaException_TypeDefinitionIndex = 2196;
+
 	class XmlSchemaException : public ::System::SystemException
 	{
 	public:

@@ -8,6 +8,8 @@ namespace RPG::Client { class ShaderPropertyOverrideMonoPlugin; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ShaderPropertyOverrideBehavior_TypeDefinitionIndex = 71020;
+
 	class ShaderPropertyOverrideBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:

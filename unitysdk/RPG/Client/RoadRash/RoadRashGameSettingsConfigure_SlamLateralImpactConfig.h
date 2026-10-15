@@ -4,6 +4,8 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace RPG::Client::RoadRash
 {
+	inline static constexpr unsigned int RoadRashGameSettingsConfigure_SlamLateralImpactConfig_TypeDefinitionIndex = 75899;
+
 	struct alignas(8) RoadRashGameSettingsConfigure_SlamLateralImpactConfig
 	{
 		::System::Single StartValue; // 0x10

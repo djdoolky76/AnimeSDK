@@ -6,6 +6,8 @@ class MJAPFAECMBN;
 #define NOKCGCNICDJ_CTOR_OFFSET UNITYSDK_OFFSET(0xBCF2B00)
 #define NOKCGCNICDJ_GET_CAMERACONTROLLER_OFFSET UNITYSDK_OFFSET(0xBCF2AF0)
 
+inline static constexpr unsigned int NOKCGCNICDJ_TypeDefinitionIndex = 78478;
+
 	class NOKCGCNICDJ : public ::System::Object
 	{
 	public:

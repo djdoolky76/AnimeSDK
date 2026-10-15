@@ -14,6 +14,8 @@ namespace System { class String; }
 #define EJOAEBILAPA_LLMHKCANOAI_OFFSET UNITYSDK_OFFSET(0x154F1490)
 #define EJOAEBILAPA_PLNCKLJOJME_OFFSET UNITYSDK_OFFSET(0x154F1760)
 
+inline static constexpr unsigned int EJOAEBILAPA_TypeDefinitionIndex = 64369;
+
 	class EJOAEBILAPA : public ::System::Object
 	{
 	public:

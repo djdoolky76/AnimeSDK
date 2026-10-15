@@ -4,6 +4,8 @@
 
 #define DABGOCJPFBI_CTOR_OFFSET UNITYSDK_OFFSET(0x1DDA2F80)
 
+inline static constexpr unsigned int DABGOCJPFBI_TypeDefinitionIndex = 43934;
+
 	class DABGOCJPFBI : public ::System::Object
 	{
 	public:

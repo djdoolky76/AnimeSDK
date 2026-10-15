@@ -9,6 +9,8 @@ namespace RPG::GameCore { class ChenLingFesPosition; }
 #define JHOLLBGPLAE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D0332E0)
 #define JHOLLBGPLAE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D0332A0)
 
+inline static constexpr unsigned int JHOLLBGPLAE_TypeDefinitionIndex = 24312;
+
 	class JHOLLBGPLAE : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::PC::OS::CXHandheld
 {
+	inline static constexpr unsigned int LoginManagerHandheld___c__DisplayClass21_0_TypeDefinitionIndex = 8756;
+
 	class LoginManagerHandheld___c__DisplayClass21_0 : public ::System::Object
 	{
 	public:

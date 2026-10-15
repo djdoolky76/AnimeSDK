@@ -11,6 +11,8 @@ namespace System { class String; }
 #define BPDGNJCCOFO_JODPHNNIBKE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1EBFA210)
 #define BPDGNJCCOFO_JODPHNNIBKE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1EBF8A70)
 
+inline static constexpr unsigned int BPDGNJCCOFO_JODPHNNIBKE_TypeDefinitionIndex = 35278;
+
 	class BPDGNJCCOFO_JODPHNNIBKE : public ::System::MulticastDelegate
 	{
 	public:

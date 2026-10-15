@@ -24,6 +24,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int OfferingModule_TypeDefinitionIndex = 66382;
+
 	class OfferingModule : public ::RPG::Client::BaseModule
 	{
 	public:

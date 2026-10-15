@@ -6,6 +6,8 @@
 #define FAINGEBCGFO_CTOR_OFFSET UNITYSDK_OFFSET(0x1567F550)
 #define FAINGEBCGFO_EPPAFNJFCMH_OFFSET UNITYSDK_OFFSET(0x1567F540)
 
+inline static constexpr unsigned int FAINGEBCGFO_TypeDefinitionIndex = 76794;
+
 	class FAINGEBCGFO : public ::DGBHGHNHBHO
 	{
 	public:

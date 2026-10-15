@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace RPGTools::Timeline::BattlePerform
 {
+	inline static constexpr unsigned int BPCameraConfig_TypeDefinitionIndex = 48791;
+
 	class BPCameraConfig : public ::System::Object
 	{
 	public:

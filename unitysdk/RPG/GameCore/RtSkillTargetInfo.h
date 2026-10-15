@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RtSkillTargetInfo_TypeDefinitionIndex = 17669;
+
 	class RtSkillTargetInfo : public ::RPG::GameCore::JsonConfig
 	{
 	public:

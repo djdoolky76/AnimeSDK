@@ -22,6 +22,8 @@ class IMFBPGDPEOI;
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ActivityBenefitV2Round_TypeDefinitionIndex = 61407;
+
 	class ActivityBenefitV2Round : public ::Sofa::Core::ObservableObject
 	{
 	public:

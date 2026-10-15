@@ -6,6 +6,8 @@ namespace System { class String; }
 
 #define BMFFPNOKOJF_CTOR_OFFSET UNITYSDK_OFFSET(0xBDA4A50)
 
+inline static constexpr unsigned int BMFFPNOKOJF_TypeDefinitionIndex = 65675;
+
 	class BMFFPNOKOJF : public ::System::Object
 	{
 	public:

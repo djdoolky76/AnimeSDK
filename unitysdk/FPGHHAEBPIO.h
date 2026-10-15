@@ -28,6 +28,8 @@ namespace UnityEngine { class Object; }
 #define FPGHHAEBPIO_OGDLIONGCMP_OFFSET UNITYSDK_OFFSET(0x15918BB0)
 #define FPGHHAEBPIO_PNGKPEOKOKM_OFFSET UNITYSDK_OFFSET(0x15918B30)
 
+inline static constexpr unsigned int FPGHHAEBPIO_TypeDefinitionIndex = 73785;
+
 	class FPGHHAEBPIO : public ::HPKACEPPPCA
 	{
 	public:

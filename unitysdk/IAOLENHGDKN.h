@@ -8,6 +8,8 @@ namespace System { class String; }
 #define IAOLENHGDKN_CTOR_OFFSET UNITYSDK_OFFSET(0x15E23BA0)
 #define IAOLENHGDKN_JBIOGKPHKKC_OFFSET UNITYSDK_OFFSET(0x15E23BB0)
 
+inline static constexpr unsigned int IAOLENHGDKN_TypeDefinitionIndex = 67735;
+
 	class IAOLENHGDKN : public ::GOGCDNMNIKF
 	{
 	public:

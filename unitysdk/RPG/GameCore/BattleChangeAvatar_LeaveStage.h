@@ -10,6 +10,8 @@ namespace RPG::GameCore { class BattleChangeAvatar_LeaveStage; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BattleChangeAvatar_LeaveStage_TypeDefinitionIndex = 22776;
+
 	class BattleChangeAvatar_LeaveStage : public ::RPG::GameCore::TaskConfig
 	{
 	public:

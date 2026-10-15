@@ -10,6 +10,8 @@ namespace RPG::GameCore { class HipplenRequireStatGrade; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int HipplenHintWeightConfig_TypeDefinitionIndex = 16788;
+
 	class HipplenHintWeightConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

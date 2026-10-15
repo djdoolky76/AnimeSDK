@@ -38,6 +38,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define JKHPCAILNPD_PDMGFPFOHEF_OFFSET UNITYSDK_OFFSET(0x1C565650)
 #define JKHPCAILNPD_PKNIDKEMNHE_OFFSET UNITYSDK_OFFSET(0x1C567160)
 
+inline static constexpr unsigned int JKHPCAILNPD_TypeDefinitionIndex = 41753;
+
 	class JKHPCAILNPD : public ::CFGFAHEKNPD
 	{
 	public:

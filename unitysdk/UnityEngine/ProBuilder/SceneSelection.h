@@ -37,6 +37,8 @@ namespace UnityEngine::ProBuilder { class SceneSelection; }
 
 namespace UnityEngine::ProBuilder
 {
+	inline static constexpr unsigned int SceneSelection_TypeDefinitionIndex = 44426;
+
 	class SceneSelection : public ::System::Object
 	{
 	public:

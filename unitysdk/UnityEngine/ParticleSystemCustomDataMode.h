@@ -3,6 +3,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int ParticleSystemCustomDataMode_TypeDefinitionIndex = 5277;
+
 	enum class ParticleSystemCustomDataMode : ::System::Int32
 	{
 		Disabled = 0,

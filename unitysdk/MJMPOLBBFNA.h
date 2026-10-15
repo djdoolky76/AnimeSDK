@@ -27,6 +27,8 @@ namespace System { class String; }
 #define MJMPOLBBFNA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA4EDC0)
 #define MJMPOLBBFNA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA4EE20)
 
+inline static constexpr unsigned int MJMPOLBBFNA_TypeDefinitionIndex = 34764;
+
 	class MJMPOLBBFNA : public ::System::Object
 	{
 	public:

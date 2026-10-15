@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 #define BJAKGOHEGBP_GET_CONCRETE_OFFSET UNITYSDK_OFFSET(0x1EC65510)
 #define BJAKGOHEGBP_GET_CONTRACTS_OFFSET UNITYSDK_OFFSET(0x1EC65500)
 
+inline static constexpr unsigned int BJAKGOHEGBP_TypeDefinitionIndex = 44280;
+
 	class BJAKGOHEGBP : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace Newtonsoft::Json::Serialization
 {
+	inline static constexpr unsigned int ErrorEventArgs_TypeDefinitionIndex = 9700;
+
 	class ErrorEventArgs : public ::System::EventArgs
 	{
 	public:

@@ -11,6 +11,8 @@ namespace XLua { class LuaTable; }
 
 namespace SuperScrollView
 {
+	inline static constexpr unsigned int LoopListView2___c__DisplayClass221_0_TypeDefinitionIndex = 47667;
+
 	class LoopListView2___c__DisplayClass221_0 : public ::System::Object
 	{
 	public:

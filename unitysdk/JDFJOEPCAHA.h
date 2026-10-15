@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define JDFJOEPCAHA_GICABFLDIPA_OFFSET UNITYSDK_OFFSET(0x165C2BB0)
 #define JDFJOEPCAHA_OAGDIHGBBOI_OFFSET UNITYSDK_OFFSET(0x165C2B50)
 
+inline static constexpr unsigned int JDFJOEPCAHA_TypeDefinitionIndex = 77453;
+
 	class JDFJOEPCAHA : public ::LDCOFDFFPBD
 	{
 	public:

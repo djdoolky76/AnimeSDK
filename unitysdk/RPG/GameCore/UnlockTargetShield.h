@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int UnlockTargetShield_TypeDefinitionIndex = 23622;
+
 	class UnlockTargetShield : public ::RPG::GameCore::TaskConfig
 	{
 	public:

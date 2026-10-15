@@ -31,6 +31,8 @@ namespace System { class String; }
 #define HIADAFCBLKH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E58D5A0)
 #define HIADAFCBLKH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E58D600)
 
+inline static constexpr unsigned int HIADAFCBLKH_TypeDefinitionIndex = 30831;
+
 	class HIADAFCBLKH : public ::System::Object
 	{
 	public:

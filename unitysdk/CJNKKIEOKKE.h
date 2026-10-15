@@ -17,6 +17,8 @@ namespace System { class String; }
 #define CJNKKIEOKKE_MLMGEFIOION_OFFSET UNITYSDK_OFFSET(0xD750CC0)
 #define CJNKKIEOKKE_MMFEEJAHPLJ_OFFSET UNITYSDK_OFFSET(0xD750D20)
 
+inline static constexpr unsigned int CJNKKIEOKKE_TypeDefinitionIndex = 54300;
+
 	class CJNKKIEOKKE : public ::System::Object
 	{
 	public:

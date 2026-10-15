@@ -5,6 +5,8 @@
 #define CIBCPIJIJGH_CTOR_OFFSET UNITYSDK_OFFSET(0xCF651C0)
 #define CIBCPIJIJGH_GET_TOTALROUNDCOUNT_OFFSET UNITYSDK_OFFSET(0xCF651B0)
 
+inline static constexpr unsigned int CIBCPIJIJGH_TypeDefinitionIndex = 81447;
+
 	class CIBCPIJIJGH : public ::DHCNDENHLGO
 	{
 	public:

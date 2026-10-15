@@ -18,6 +18,8 @@ namespace System::Collections { class IEnumerator; }
 
 namespace System::ComponentModel
 {
+	inline static constexpr unsigned int TypeConverter_StandardValuesCollection_TypeDefinitionIndex = 2632;
+
 	class TypeConverter_StandardValuesCollection : public ::System::Object
 	{
 	public:

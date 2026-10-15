@@ -27,6 +27,8 @@ namespace System::ComponentModel { class PropertyChangedEventArgs; }
 
 namespace RPG::Client::PixAir
 {
+	inline static constexpr unsigned int PixAirEquipInfoViewModel_TypeDefinitionIndex = 79264;
+
 	class PixAirEquipInfoViewModel : public ::Sofa::BaseViewModel
 	{
 	public:

@@ -9,6 +9,8 @@ class JNKPPLPLFOM;
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int WolfBroGunPlayTargetActionConfig_TypeDefinitionIndex = 68705;
+
 	class WolfBroGunPlayTargetActionConfig : public ::System::Object
 	{
 	public:

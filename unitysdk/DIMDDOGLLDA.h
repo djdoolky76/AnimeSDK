@@ -9,6 +9,8 @@ namespace System { class String; }
 #define DIMDDOGLLDA_KAGGMAIBEIF_OFFSET UNITYSDK_OFFSET(0xF213B30)
 #define DIMDDOGLLDA_KJABBNPOHCF_OFFSET UNITYSDK_OFFSET(0xF213AE0)
 
+inline static constexpr unsigned int DIMDDOGLLDA_TypeDefinitionIndex = 71164;
+
 	class DIMDDOGLLDA : public ::System::Object
 	{
 	public:

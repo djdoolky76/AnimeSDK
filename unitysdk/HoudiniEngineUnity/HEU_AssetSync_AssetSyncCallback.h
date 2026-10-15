@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_AssetSync_AssetSyncCallback_TypeDefinitionIndex = 40593;
+
 	class HEU_AssetSync_AssetSyncCallback : public ::System::MulticastDelegate
 	{
 	public:

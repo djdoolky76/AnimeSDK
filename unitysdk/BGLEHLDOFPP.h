@@ -4,6 +4,8 @@
 
 #define BGLEHLDOFPP_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8BA2A0)
 
+inline static constexpr unsigned int BGLEHLDOFPP_TypeDefinitionIndex = 42543;
+
 	class BGLEHLDOFPP : public ::System::Object
 	{
 	public:

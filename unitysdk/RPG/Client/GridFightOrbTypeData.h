@@ -16,6 +16,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightOrbTypeData_TypeDefinitionIndex = 64448;
+
 	class GridFightOrbTypeData : public ::System::Object
 	{
 	public:

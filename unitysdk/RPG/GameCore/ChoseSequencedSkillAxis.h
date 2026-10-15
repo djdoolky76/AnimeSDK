@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ChoseSequencedSkillAxis; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChoseSequencedSkillAxis_TypeDefinitionIndex = 15515;
+
 	class ChoseSequencedSkillAxis : public ::RPG::GameCore::ConsiderationAxisConfig
 	{
 	public:

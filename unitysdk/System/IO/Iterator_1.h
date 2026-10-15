@@ -4,6 +4,8 @@
 
 namespace System::IO
 {
+	inline static constexpr unsigned int Iterator_1_TypeDefinitionIndex = 673;
+
 	template <typename T>
 	class Iterator_1 : public ::System::Object
 	{

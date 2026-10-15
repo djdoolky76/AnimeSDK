@@ -4,6 +4,8 @@
 
 #define AMBFOIOOKMK_CTOR_OFFSET UNITYSDK_OFFSET(0x15575CF0)
 
+inline static constexpr unsigned int AMBFOIOOKMK_TypeDefinitionIndex = 64785;
+
 	class AMBFOIOOKMK : public ::System::Object
 	{
 	public:

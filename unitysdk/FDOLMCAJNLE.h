@@ -7,6 +7,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define FDOLMCAJNLE_CTOR_OFFSET UNITYSDK_OFFSET(0x156E0C00)
 #define FDOLMCAJNLE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x156E0CE0)
 
+inline static constexpr unsigned int FDOLMCAJNLE_TypeDefinitionIndex = 58540;
+
 	class FDOLMCAJNLE
 	{
 	public:

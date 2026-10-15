@@ -7,6 +7,8 @@ class NJKFOJJDGGG;
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightRandomEquipModifier_TypeDefinitionIndex = 65003;
+
 	class GridFightRandomEquipModifier : public ::RPG::Client::GridFightGameModifier
 	{
 	public:

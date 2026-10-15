@@ -10,6 +10,8 @@ namespace UnityEngine { class Transform; }
 #define NENAEDAOCDI_HADOHLNHHGB_OFFSET UNITYSDK_OFFSET(0xBB732A0)
 #define NENAEDAOCDI_HCCKBPDFINA_OFFSET UNITYSDK_OFFSET(0xBB735C0)
 
+inline static constexpr unsigned int NENAEDAOCDI_TypeDefinitionIndex = 73007;
+
 	class NENAEDAOCDI : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace RPG::Client { class IRogueTournPersonaRoomCardInGame; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueTournPersonaRoomCardDeckInfo___c__DisplayClass13_0_TypeDefinitionIndex = 67741;
+
 	class RogueTournPersonaRoomCardDeckInfo___c__DisplayClass13_0 : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class Type; }
 
 namespace SRF::Service
 {
+	inline static constexpr unsigned int SRServiceManager_Service_TypeDefinitionIndex = 35417;
+
 	class SRServiceManager_Service : public ::System::Object
 	{
 	public:

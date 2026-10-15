@@ -55,6 +55,8 @@ namespace System::Text { class StringBuilder; }
 #define HIAFLIKLNFK_PJJHOMMCJOL_OFFSET UNITYSDK_OFFSET(0x15CDA3D0)
 #define HIAFLIKLNFK_PPPAMCBGBON_OFFSET UNITYSDK_OFFSET(0x15CD8B50)
 
+inline static constexpr unsigned int HIAFLIKLNFK_TypeDefinitionIndex = 66329;
+
 	class HIAFLIKLNFK : public ::System::Object
 	{
 	public:

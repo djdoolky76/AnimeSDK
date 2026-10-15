@@ -51,6 +51,8 @@ namespace UnityEngine { class Transform; }
 #define LOKOAEPKJBK__UNSERIALIZEASYNC_B__21_2_OFFSET UNITYSDK_OFFSET(0xB80A7B0)
 #define LOKOAEPKJBK__UNSERIALIZEASYNC_B__21_3_OFFSET UNITYSDK_OFFSET(0xB80A800)
 
+inline static constexpr unsigned int LOKOAEPKJBK_TypeDefinitionIndex = 49074;
+
 	class LOKOAEPKJBK : public ::System::Object
 	{
 	public:

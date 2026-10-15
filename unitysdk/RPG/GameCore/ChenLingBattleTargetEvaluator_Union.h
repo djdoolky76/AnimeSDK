@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ChenLingBattleTargetEvaluator_Union; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChenLingBattleTargetEvaluator_Union_TypeDefinitionIndex = 15774;
+
 	class ChenLingBattleTargetEvaluator_Union : public ::RPG::GameCore::BaseChenLingBattleTargetEvaluator
 	{
 	public:

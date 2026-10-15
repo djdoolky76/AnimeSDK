@@ -25,6 +25,8 @@ namespace UnityEngine { class Object; }
 #define GPFEAEOEGFA__UNSERIALIZEASYNC_B__12_0_OFFSET UNITYSDK_OFFSET(0x15B53B80)
 #define GPFEAEOEGFA__UNSERIALIZEASYNC_B__12_1_OFFSET UNITYSDK_OFFSET(0x15B53BB0)
 
+inline static constexpr unsigned int GPFEAEOEGFA_TypeDefinitionIndex = 49039;
+
 	class GPFEAEOEGFA : public ::NPICKHAEHCL
 	{
 	public:

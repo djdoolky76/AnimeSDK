@@ -13,6 +13,8 @@ namespace System { class Nullable; }
 
 namespace R3
 {
+	inline static constexpr unsigned int CompleteState_TypeDefinitionIndex = 35971;
+
 	struct alignas(8) CompleteState
 	{
 		::System::Int32 completeState; // 0x10

@@ -35,6 +35,8 @@ namespace UnityEngine { class Coroutine; }
 
 namespace MiHoYo::SDK::UI::Internal::OS
 {
+	inline static constexpr unsigned int AccountBindingDialog_TypeDefinitionIndex = 8420;
+
 	class AccountBindingDialog : public ::System::Object
 	{
 	public:

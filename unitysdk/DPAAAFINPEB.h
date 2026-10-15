@@ -8,6 +8,8 @@ namespace System { class Action; }
 #define DPAAAFINPEB_CTOR_OFFSET UNITYSDK_OFFSET(0x11FF8660)
 #define DPAAAFINPEB_KDPCHKAGJMK_OFFSET UNITYSDK_OFFSET(0x11FF85C0)
 
+inline static constexpr unsigned int DPAAAFINPEB_TypeDefinitionIndex = 49772;
+
 	class DPAAAFINPEB : public ::System::Object
 	{
 	public:

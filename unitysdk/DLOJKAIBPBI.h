@@ -5,6 +5,8 @@
 
 #define DLOJKAIBPBI_CTOR_OFFSET UNITYSDK_OFFSET(0xF8BC2C0)
 
+inline static constexpr unsigned int DLOJKAIBPBI_TypeDefinitionIndex = 47393;
+
 	class DLOJKAIBPBI : public ::System::Object
 	{
 	public:

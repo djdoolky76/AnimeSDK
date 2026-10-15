@@ -5,6 +5,8 @@ namespace System::Collections::Generic { template <typename T> class EqualityCom
 
 namespace MiHoYo::SDK::Protobuf::Collections
 {
+	inline static constexpr unsigned int MapField_2___c__DisplayClass5_0_TypeDefinitionIndex = 35863;
+
 	template <typename T1, typename T2>
 	class MapField_2___c__DisplayClass5_0 : public ::System::Object
 	{

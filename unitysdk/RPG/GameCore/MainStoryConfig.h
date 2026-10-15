@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MainStoryConfig_TypeDefinitionIndex = 18965;
+
 	class MainStoryConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

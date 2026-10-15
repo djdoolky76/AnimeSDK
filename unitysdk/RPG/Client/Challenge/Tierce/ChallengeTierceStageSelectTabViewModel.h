@@ -17,6 +17,8 @@ namespace System { class Action; }
 
 namespace RPG::Client::Challenge::Tierce
 {
+	inline static constexpr unsigned int ChallengeTierceStageSelectTabViewModel_TypeDefinitionIndex = 81620;
+
 	class ChallengeTierceStageSelectTabViewModel : public ::Sofa::Core::ObservableObject
 	{
 	public:

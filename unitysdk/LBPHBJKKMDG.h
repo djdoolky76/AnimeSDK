@@ -10,6 +10,8 @@ namespace RPG::Client::LittleGameShare { class ST_Main_CakeRaceUseRocketItemDeci
 #define LBPHBJKKMDG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1C720110)
 #define LBPHBJKKMDG_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1C7205E0)
 
+inline static constexpr unsigned int LBPHBJKKMDG_TypeDefinitionIndex = 36996;
+
 	class LBPHBJKKMDG
 	{
 	public:

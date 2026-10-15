@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define PCFCBGKNPNL___C__CREATEPREVIEWCAR_B__3_0_OFFSET UNITYSDK_OFFSET(0xBFFEF50)
 #define PCFCBGKNPNL___C__CREATEPREVIEWCAR_B__3_1_OFFSET UNITYSDK_OFFSET(0xBFFEF60)
 
+inline static constexpr unsigned int PCFCBGKNPNL___c_TypeDefinitionIndex = 81691;
+
 	class PCFCBGKNPNL___c : public ::System::Object
 	{
 	public:

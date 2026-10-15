@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvLoopTimer_TypeDefinitionIndex = 21229;
+
 	class AdvLoopTimer : public ::RPG::GameCore::TaskConfig
 	{
 	public:

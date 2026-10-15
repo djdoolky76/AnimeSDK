@@ -9,6 +9,8 @@ class BOGCBDLBHFK;
 #define KPADJMGLFJG_ILHMIIBGBCB_OFFSET UNITYSDK_OFFSET(0x1C90B510)
 #define KPADJMGLFJG_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0x1C90B690)
 
+inline static constexpr unsigned int KPADJMGLFJG_TypeDefinitionIndex = 42442;
+
 	class KPADJMGLFJG : public ::System::Object
 	{
 	public:

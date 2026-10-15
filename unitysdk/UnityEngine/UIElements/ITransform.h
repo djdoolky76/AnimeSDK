@@ -3,6 +3,8 @@
 
 namespace UnityEngine::UIElements
 {
+	inline static constexpr unsigned int ITransform_TypeDefinitionIndex = 5882;
+
 	class ITransform
 	{
 	public:

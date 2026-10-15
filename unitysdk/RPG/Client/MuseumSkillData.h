@@ -17,6 +17,8 @@ namespace RPG::GameCore { class MuseumItemSkillConfigRow; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MuseumSkillData_TypeDefinitionIndex = 66347;
+
 	class MuseumSkillData : public ::System::Object
 	{
 	public:

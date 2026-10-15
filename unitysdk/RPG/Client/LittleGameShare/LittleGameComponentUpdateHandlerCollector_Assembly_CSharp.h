@@ -7,6 +7,8 @@
 
 namespace RPG::Client::LittleGameShare
 {
+	inline static constexpr unsigned int LittleGameComponentUpdateHandlerCollector_Assembly_CSharp_TypeDefinitionIndex = 73345;
+
 	class LittleGameComponentUpdateHandlerCollector_Assembly_CSharp : public ::System::Object
 	{
 	public:

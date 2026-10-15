@@ -22,6 +22,8 @@ namespace UnityEngine { class MaterialPropertyBlock; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FlowerRingScatterBehavior_TypeDefinitionIndex = 70605;
+
 	class FlowerRingScatterBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:

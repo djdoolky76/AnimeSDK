@@ -72,6 +72,8 @@ namespace UnityEngine { class Mesh; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int TrailRenderer_TypeDefinitionIndex = 4134;
+
 	class TrailRenderer : public ::UnityEngine::Renderer
 	{
 	public:

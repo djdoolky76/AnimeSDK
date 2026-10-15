@@ -28,6 +28,8 @@ namespace System { class String; }
 #define HACIGDEEMCJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E502140)
 #define HACIGDEEMCJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E5021A0)
 
+inline static constexpr unsigned int HACIGDEEMCJ_TypeDefinitionIndex = 28333;
+
 	class HACIGDEEMCJ : public ::System::Object
 	{
 	public:

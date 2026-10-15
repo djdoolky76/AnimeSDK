@@ -11,6 +11,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System::Net::NetworkInformation
 {
+	inline static constexpr unsigned int NetworkInformationException_TypeDefinitionIndex = 2931;
+
 	class NetworkInformationException : public ::System::ComponentModel::Win32Exception
 	{
 	public:

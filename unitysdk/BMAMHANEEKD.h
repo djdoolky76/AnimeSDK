@@ -8,6 +8,8 @@ namespace System { class String; }
 #define BMAMHANEEKD_CTOR_OFFSET UNITYSDK_OFFSET(0xBA85800)
 #define BMAMHANEEKD_TOSTRING_OFFSET UNITYSDK_OFFSET(0xBA858D0)
 
+inline static constexpr unsigned int BMAMHANEEKD_TypeDefinitionIndex = 62026;
+
 	class BMAMHANEEKD : public ::MAOPBKPKCEK
 	{
 	public:

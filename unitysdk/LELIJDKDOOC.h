@@ -30,6 +30,8 @@ namespace System { class String; }
 #define LELIJDKDOOC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E936710)
 #define LELIJDKDOOC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E936770)
 
+inline static constexpr unsigned int LELIJDKDOOC_TypeDefinitionIndex = 34479;
+
 	class LELIJDKDOOC : public ::System::Object
 	{
 	public:

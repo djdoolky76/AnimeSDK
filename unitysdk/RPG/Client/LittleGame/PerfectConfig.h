@@ -6,6 +6,8 @@
 
 namespace RPG::Client::LittleGame
 {
+	inline static constexpr unsigned int PerfectConfig_TypeDefinitionIndex = 42321;
+
 	class PerfectConfig : public ::System::Object
 	{
 	public:

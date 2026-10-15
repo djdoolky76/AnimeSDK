@@ -8,6 +8,8 @@ namespace UnityEngine { class Material; }
 #define DDPFPHOOCLN_CLEAR_OFFSET UNITYSDK_OFFSET(0xE4F1550)
 #define DDPFPHOOCLN_CTOR_OFFSET UNITYSDK_OFFSET(0xE4F15A0)
 
+inline static constexpr unsigned int DDPFPHOOCLN_TypeDefinitionIndex = 69842;
+
 	class DDPFPHOOCLN : public ::System::Object
 	{
 	public:

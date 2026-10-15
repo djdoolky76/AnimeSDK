@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Editor::EnvironmentSystemV2Editor
 {
+	inline static constexpr unsigned int EnvEditorFoldout_TypeDefinitionIndex = 52073;
+
 	class EnvEditorFoldout : public ::RPG::Editor::EnvironmentSystemV2Editor::EnvEditorBlock
 	{
 	public:

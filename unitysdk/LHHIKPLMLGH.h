@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int LHHIKPLMLGH_TypeDefinitionIndex = 32620;
+
 	enum class LHHIKPLMLGH : ::System::Int32
 	{
 		NLCDGIPGFDJ = 0,

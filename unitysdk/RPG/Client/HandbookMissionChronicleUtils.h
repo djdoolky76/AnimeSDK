@@ -11,6 +11,8 @@ namespace RPG::Client { class MissionChronicleSubPathData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int HandbookMissionChronicleUtils_TypeDefinitionIndex = 65628;
+
 	class HandbookMissionChronicleUtils : public ::System::Object
 	{
 	public:

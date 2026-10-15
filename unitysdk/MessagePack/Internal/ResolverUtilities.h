@@ -11,6 +11,8 @@ namespace System::Reflection { class FieldInfo; }
 
 namespace MessagePack::Internal
 {
+	inline static constexpr unsigned int ResolverUtilities_TypeDefinitionIndex = 7343;
+
 	class ResolverUtilities : public ::System::Object
 	{
 	public:

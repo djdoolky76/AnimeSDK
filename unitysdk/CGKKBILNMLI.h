@@ -36,6 +36,8 @@ namespace System { class String; }
 #define CGKKBILNMLI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E0B0B00)
 #define CGKKBILNMLI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E0B0B60)
 
+inline static constexpr unsigned int CGKKBILNMLI_TypeDefinitionIndex = 25950;
+
 	class CGKKBILNMLI : public ::System::Object
 	{
 	public:

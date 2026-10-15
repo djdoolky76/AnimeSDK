@@ -13,6 +13,8 @@ namespace RPG::GameCore { class SharedJsonConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SharedJsonConfig_TypeDefinitionIndex = 18310;
+
 	class SharedJsonConfig : public ::RPG::GameCore::SharedValue
 	{
 	public:

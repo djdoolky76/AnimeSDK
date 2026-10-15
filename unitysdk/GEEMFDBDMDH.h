@@ -32,6 +32,8 @@ namespace System { class String; }
 #define GEEMFDBDMDH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E454DE0)
 #define GEEMFDBDMDH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E454E40)
 
+inline static constexpr unsigned int GEEMFDBDMDH_TypeDefinitionIndex = 29574;
+
 	class GEEMFDBDMDH : public ::System::Object
 	{
 	public:

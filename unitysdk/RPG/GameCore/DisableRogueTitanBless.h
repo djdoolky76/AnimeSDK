@@ -10,6 +10,8 @@ namespace RPG::GameCore { class DisableRogueTitanBless; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DisableRogueTitanBless_TypeDefinitionIndex = 23112;
+
 	class DisableRogueTitanBless : public ::RPG::GameCore::TaskConfig
 	{
 	public:

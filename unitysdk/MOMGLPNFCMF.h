@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define MOMGLPNFCMF_LOCK_OFFSET UNITYSDK_OFFSET(0xBA33CC0)
 #define MOMGLPNFCMF_UNLOCK_OFFSET UNITYSDK_OFFSET(0xBA341E0)
 
+inline static constexpr unsigned int MOMGLPNFCMF_TypeDefinitionIndex = 74770;
+
 	class MOMGLPNFCMF : public ::RPG::Client::GamePlayLockTargetFunc
 	{
 	public:

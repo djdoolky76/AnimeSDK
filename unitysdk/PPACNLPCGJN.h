@@ -10,6 +10,8 @@ class PPACNLPCGJN;
 #define PPACNLPCGJN_CTOR_OFFSET UNITYSDK_OFFSET(0xC377170)
 #define PPACNLPCGJN_OKPLPEELPBC_OFFSET UNITYSDK_OFFSET(0xC377180)
 
+inline static constexpr unsigned int PPACNLPCGJN_TypeDefinitionIndex = 76415;
+
 	class PPACNLPCGJN : public ::HALHKJLBIKJ
 	{
 	public:

@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define NCFMAICMPIE_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D1F4800)
 #define NCFMAICMPIE_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D1F4120)
 
+inline static constexpr unsigned int NCFMAICMPIE_TypeDefinitionIndex = 14108;
+
 	class NCFMAICMPIE : public ::System::Object
 	{
 	public:

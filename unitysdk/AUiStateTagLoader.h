@@ -12,6 +12,8 @@ namespace UnityEngine { class GameObject; }
 #define AUISTATETAGLOADER_ISTRUE_OFFSET UNITYSDK_OFFSET(0x15BC2BC0)
 #define AUISTATETAGLOADER_SET_STATETAGLIST_OFFSET UNITYSDK_OFFSET(0x15BC3150)
 
+inline static constexpr unsigned int AUiStateTagLoader_TypeDefinitionIndex = 47578;
+
 	class AUiStateTagLoader : public ::AUiStateTagBase
 	{
 	public:

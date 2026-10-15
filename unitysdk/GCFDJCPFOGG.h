@@ -37,6 +37,8 @@ namespace System { class String; }
 #define GCFDJCPFOGG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E43C2B0)
 #define GCFDJCPFOGG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E43C310)
 
+inline static constexpr unsigned int GCFDJCPFOGG_TypeDefinitionIndex = 28242;
+
 	class GCFDJCPFOGG : public ::System::Object
 	{
 	public:

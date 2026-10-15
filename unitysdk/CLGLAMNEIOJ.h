@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define CLGLAMNEIOJ_JIGJDOFEJMI_OFFSET UNITYSDK_OFFSET(0xD77EF60)
 #define CLGLAMNEIOJ_TRANSFORM_OFFSET UNITYSDK_OFFSET(0xD77EFB0)
 
+inline static constexpr unsigned int CLGLAMNEIOJ_TypeDefinitionIndex = 59168;
+
 	class CLGLAMNEIOJ
 	{
 	public:

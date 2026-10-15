@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int NewDeviceInfoModel_TypeDefinitionIndex = 9333;
+
 	class NewDeviceInfoModel : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class NpcWalkStyleWeightInfo; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int NpcWalkStyleWeightInfo_TypeDefinitionIndex = 16916;
+
 	class NpcWalkStyleWeightInfo : public ::RPG::GameCore::JsonConfig
 	{
 	public:

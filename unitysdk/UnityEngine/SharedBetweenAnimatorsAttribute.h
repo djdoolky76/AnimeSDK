@@ -6,6 +6,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int SharedBetweenAnimatorsAttribute_TypeDefinitionIndex = 5690;
+
 	class SharedBetweenAnimatorsAttribute : public ::System::Attribute
 	{
 	public:

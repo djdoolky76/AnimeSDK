@@ -13,6 +13,8 @@ namespace System::Security::Cryptography { class RSA; }
 
 namespace System::Reflection
 {
+	inline static constexpr unsigned int StrongNameKeyPair_TypeDefinitionIndex = 638;
+
 	class StrongNameKeyPair : public ::System::Object
 	{
 	public:

@@ -14,6 +14,8 @@ namespace System { class Object; }
 
 namespace Cinemachine
 {
+	inline static constexpr unsigned int CinemachineOrbitalTransposer_UpdateHeadingDelegate_TypeDefinitionIndex = 39784;
+
 	class CinemachineOrbitalTransposer_UpdateHeadingDelegate : public ::System::MulticastDelegate
 	{
 	public:

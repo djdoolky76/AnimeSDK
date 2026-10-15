@@ -8,6 +8,8 @@ namespace RPG::GameCore { class CakeRaceActionEnableNaughtyTargetLockCat; }
 #define GALHBDPLMKG_CTOR_OFFSET UNITYSDK_OFFSET(0x1C629400)
 #define GALHBDPLMKG_GAILDDCMCHP_OFFSET UNITYSDK_OFFSET(0x1C629420)
 
+inline static constexpr unsigned int GALHBDPLMKG_TypeDefinitionIndex = 37374;
+
 	class GALHBDPLMKG : public ::GPLOFONGBGI
 	{
 	public:

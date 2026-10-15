@@ -14,6 +14,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByIsTopActionDelayTarget_TypeDefinitionIndex = 23050;
+
 	class ByIsTopActionDelayTarget : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

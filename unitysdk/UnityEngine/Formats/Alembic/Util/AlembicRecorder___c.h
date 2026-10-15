@@ -12,6 +12,8 @@ namespace UnityEngine { class Object; }
 
 namespace UnityEngine::Formats::Alembic::Util
 {
+	inline static constexpr unsigned int AlembicRecorder___c_TypeDefinitionIndex = 45777;
+
 	class AlembicRecorder___c : public ::System::Object
 	{
 	public:

@@ -33,6 +33,8 @@ namespace System { class String; }
 #define BMHKBOKMCPC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E027B00)
 #define BMHKBOKMCPC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E027B60)
 
+inline static constexpr unsigned int BMHKBOKMCPC_TypeDefinitionIndex = 26483;
+
 	class BMHKBOKMCPC : public ::System::Object
 	{
 	public:

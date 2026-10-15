@@ -16,6 +16,8 @@ namespace System::Collections { class IEnumerator; }
 #define FAFEHMOPNBB_ALBBMEPBJMF_KHFHNDEBGDH_OFFSET UNITYSDK_OFFSET(0x1566ABA0)
 #define FAFEHMOPNBB_ALBBMEPBJMF_ONGUI_OFFSET UNITYSDK_OFFSET(0x1566AD70)
 
+inline static constexpr unsigned int FAFEHMOPNBB_ALBBMEPBJMF_TypeDefinitionIndex = 72755;
+
 	class FAFEHMOPNBB_ALBBMEPBJMF : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -32,6 +32,8 @@ namespace UnityEngine::Rendering { class RenderPipeline; }
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int RenderPipelineAsset_TypeDefinitionIndex = 4762;
+
 	class RenderPipelineAsset : public ::UnityEngine::ScriptableObject
 	{
 	public:

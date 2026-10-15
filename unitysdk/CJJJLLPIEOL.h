@@ -10,6 +10,8 @@ class JBACCAGFHON;
 #define CJJJLLPIEOL_INITIALIZE_OFFSET UNITYSDK_OFFSET(0xD217390)
 #define CJJJLLPIEOL_TEARDOWN_OFFSET UNITYSDK_OFFSET(0xD217410)
 
+inline static constexpr unsigned int CJJJLLPIEOL_TypeDefinitionIndex = 78130;
+
 	class CJJJLLPIEOL : public ::System::Object
 	{
 	public:

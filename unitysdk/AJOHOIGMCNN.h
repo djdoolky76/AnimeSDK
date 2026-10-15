@@ -32,6 +32,8 @@ namespace System { class String; }
 #define AJOHOIGMCNN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E3C77E0)
 #define AJOHOIGMCNN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E3C7840)
 
+inline static constexpr unsigned int AJOHOIGMCNN_TypeDefinitionIndex = 28780;
+
 	class AJOHOIGMCNN : public ::System::Object
 	{
 	public:

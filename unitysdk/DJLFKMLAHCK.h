@@ -20,6 +20,8 @@ namespace System { class String; }
 #define DJLFKMLAHCK_KKKPCGHMCAK_OFFSET UNITYSDK_OFFSET(0xF239F00)
 #define DJLFKMLAHCK_OCOLPDGEAMD_OFFSET UNITYSDK_OFFSET(0xF239F50)
 
+inline static constexpr unsigned int DJLFKMLAHCK_TypeDefinitionIndex = 75966;
+
 	class DJLFKMLAHCK : public ::System::Object
 	{
 	public:

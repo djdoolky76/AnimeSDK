@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StackBoostPointCallbackDecorate_TypeDefinitionIndex = 23553;
+
 	class StackBoostPointCallbackDecorate : public ::RPG::GameCore::TaskConfig
 	{
 	public:

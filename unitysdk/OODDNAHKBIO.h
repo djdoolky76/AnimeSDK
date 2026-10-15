@@ -19,6 +19,8 @@ namespace System { class Object; }
 #define OODDNAHKBIO_MPHFKAOBHAL_OFFSET UNITYSDK_OFFSET(0xBF725C0)
 #define OODDNAHKBIO___ONBATTLEFINISHED_B__10_0_OFFSET UNITYSDK_OFFSET(0xBF72D50)
 
+inline static constexpr unsigned int OODDNAHKBIO_TypeDefinitionIndex = 75054;
+
 	class OODDNAHKBIO : public ::NBEKHGCNJFD
 	{
 	public:

@@ -6,6 +6,8 @@ class GKPDKBNFDGM;
 #define NDLAOBKMBNI_CTOR_OFFSET UNITYSDK_OFFSET(0xBB4BDC0)
 #define NDLAOBKMBNI_MJEGFOMAOFH_OFFSET UNITYSDK_OFFSET(0xBB4BD50)
 
+inline static constexpr unsigned int NDLAOBKMBNI_TypeDefinitionIndex = 61951;
+
 	class NDLAOBKMBNI : public ::System::Object
 	{
 	public:

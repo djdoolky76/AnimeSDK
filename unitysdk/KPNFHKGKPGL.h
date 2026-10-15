@@ -6,6 +6,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 #define KPNFHKGKPGL_CTOR_OFFSET UNITYSDK_OFFSET(0xB5C7260)
 
+inline static constexpr unsigned int KPNFHKGKPGL_TypeDefinitionIndex = 47063;
+
 	class KPNFHKGKPGL : public ::System::Object
 	{
 	public:

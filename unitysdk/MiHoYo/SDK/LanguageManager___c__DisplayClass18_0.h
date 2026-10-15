@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int LanguageManager___c__DisplayClass18_0_TypeDefinitionIndex = 8073;
+
 	class LanguageManager___c__DisplayClass18_0 : public ::System::Object
 	{
 	public:

@@ -5,6 +5,8 @@ class OOCCBMLAELL;
 
 #define PEOEPDGDFEH_CTOR_OFFSET UNITYSDK_OFFSET(0xC1F5650)
 
+inline static constexpr unsigned int PEOEPDGDFEH_TypeDefinitionIndex = 80586;
+
 	class PEOEPDGDFEH : public ::System::Object
 	{
 	public:

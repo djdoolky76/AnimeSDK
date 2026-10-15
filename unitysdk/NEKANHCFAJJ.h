@@ -17,6 +17,8 @@ namespace System { class WeakReference; }
 #define NEKANHCFAJJ_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBB6A570)
 #define NEKANHCFAJJ_TICK_OFFSET UNITYSDK_OFFSET(0xBB6A810)
 
+inline static constexpr unsigned int NEKANHCFAJJ_TypeDefinitionIndex = 58916;
+
 	class NEKANHCFAJJ : public ::GELIALJDFBL
 	{
 	public:

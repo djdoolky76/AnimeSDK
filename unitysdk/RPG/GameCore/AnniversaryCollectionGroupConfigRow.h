@@ -10,6 +10,8 @@ namespace RPG::GameCore { class AnniversaryCollectionGroupConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AnniversaryCollectionGroupConfigRow_TypeDefinitionIndex = 12668;
+
 	class AnniversaryCollectionGroupConfigRow : public ::System::Object
 	{
 	public:

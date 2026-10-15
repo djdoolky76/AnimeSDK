@@ -35,6 +35,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define HJLAKECPCAG_OFCKBIKBCML_OFFSET UNITYSDK_OFFSET(0x15D2D590)
 #define HJLAKECPCAG__UPDATECARASYNC_B__11_0_OFFSET UNITYSDK_OFFSET(0x15D2E500)
 
+inline static constexpr unsigned int HJLAKECPCAG_TypeDefinitionIndex = 81831;
+
 	class HJLAKECPCAG : public ::System::Object
 	{
 	public:

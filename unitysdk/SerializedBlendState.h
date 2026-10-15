@@ -6,6 +6,8 @@
 #define SERIALIZEDBLENDSTATE_ICGKFDEILKA_OFFSET UNITYSDK_OFFSET(0xF9710)
 #define SERIALIZEDBLENDSTATE_OLCHHDKKPLI_OFFSET UNITYSDK_OFFSET(0xF9720)
 
+inline static constexpr unsigned int SerializedBlendState_TypeDefinitionIndex = 47415;
+
 	struct alignas(4) SerializedBlendState
 	{
 		::SerializedRenderTargetBlendState blendState0; // 0x10

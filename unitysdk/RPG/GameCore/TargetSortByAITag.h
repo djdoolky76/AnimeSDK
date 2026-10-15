@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TargetSortByAITag_TypeDefinitionIndex = 23990;
+
 	class TargetSortByAITag : public ::RPG::GameCore::TargetSeqOperation
 	{
 	public:

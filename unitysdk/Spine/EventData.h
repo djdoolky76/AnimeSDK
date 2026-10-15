@@ -21,6 +21,8 @@ namespace System { class String; }
 
 namespace Spine
 {
+	inline static constexpr unsigned int EventData_TypeDefinitionIndex = 39669;
+
 	class EventData : public ::System::Object
 	{
 	public:

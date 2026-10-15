@@ -6,6 +6,8 @@ namespace System { class Action; }
 
 namespace InControl
 {
+	inline static constexpr unsigned int InControlManager___O_TypeDefinitionIndex = 40816;
+
 	class InControlManager___O : public ::System::Object
 	{
 	public:

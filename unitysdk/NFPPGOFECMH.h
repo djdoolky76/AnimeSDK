@@ -112,6 +112,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define NFPPGOFECMH_OOELDHCCPEH_OFFSET UNITYSDK_OFFSET(0x1C958730)
 #define NFPPGOFECMH_PLIILEPHEHJ_OFFSET UNITYSDK_OFFSET(0x1C958220)
 
+inline static constexpr unsigned int NFPPGOFECMH_TypeDefinitionIndex = 42379;
+
 	class NFPPGOFECMH : public ::Entitas::Entity
 	{
 	public:

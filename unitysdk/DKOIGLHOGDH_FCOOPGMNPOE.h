@@ -13,6 +13,8 @@ namespace System { class Object; }
 #define DKOIGLHOGDH_FCOOPGMNPOE_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C5F68E0)
 #define DKOIGLHOGDH_FCOOPGMNPOE_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C5F5A40)
 
+inline static constexpr unsigned int DKOIGLHOGDH_FCOOPGMNPOE_TypeDefinitionIndex = 37430;
+
 	class DKOIGLHOGDH_FCOOPGMNPOE : public ::System::MulticastDelegate
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System::Timers { class ElapsedEventArgs; }
 
 namespace MiHoYo::SDK::ReporterUtil
 {
+	inline static constexpr unsigned int ReporterTimer_TimeoutHandler_TypeDefinitionIndex = 46655;
+
 	class ReporterTimer_TimeoutHandler : public ::System::MulticastDelegate
 	{
 	public:

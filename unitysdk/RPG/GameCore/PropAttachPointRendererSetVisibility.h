@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PropAttachPointRendererSetVisibility_TypeDefinitionIndex = 20398;
+
 	class PropAttachPointRendererSetVisibility : public ::RPG::GameCore::TaskConfig
 	{
 	public:

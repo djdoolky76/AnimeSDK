@@ -10,6 +10,8 @@ namespace RPG::GameCore { class EntityRuntimeReplaceArtPrefab; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EntityRuntimeReplaceArtPrefab_TypeDefinitionIndex = 19103;
+
 	class EntityRuntimeReplaceArtPrefab : public ::RPG::GameCore::JsonConfig
 	{
 	public:

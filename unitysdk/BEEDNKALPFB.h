@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define BEEDNKALPFB_CTOR_OFFSET UNITYSDK_OFFSET(0x16311EA0)
 #define BEEDNKALPFB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16311ED0)
 
+inline static constexpr unsigned int BEEDNKALPFB_TypeDefinitionIndex = 55205;
+
 	class BEEDNKALPFB
 	{
 	public:

@@ -37,6 +37,8 @@ namespace System { class String; }
 #define IKCONCOKNAN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E69E570)
 #define IKCONCOKNAN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E69E5D0)
 
+inline static constexpr unsigned int IKCONCOKNAN_TypeDefinitionIndex = 27295;
+
 	class IKCONCOKNAN : public ::System::Object
 	{
 	public:

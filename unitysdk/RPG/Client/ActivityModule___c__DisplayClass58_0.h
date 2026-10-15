@@ -9,6 +9,8 @@ namespace RPG::Client { class RogueResidentActivityPanelData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ActivityModule___c__DisplayClass58_0_TypeDefinitionIndex = 61692;
+
 	class ActivityModule___c__DisplayClass58_0 : public ::System::Object
 	{
 	public:

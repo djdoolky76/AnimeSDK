@@ -49,6 +49,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::FateRin::View::Battle
 {
+	inline static constexpr unsigned int FateRinBattleCardFlowRunner_TypeDefinitionIndex = 80665;
+
 	class FateRinBattleCardFlowRunner : public ::UnityEngine::MonoBehaviour
 	{
 	public:

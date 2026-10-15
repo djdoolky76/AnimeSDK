@@ -31,6 +31,8 @@ namespace RPG::Client::FateRin::Battle { class IFateRinBattleHudHandCardDisplayV
 
 namespace RPG::Client::FateRin::Battle
 {
+	inline static constexpr unsigned int FateRinBattleHudFreeCardViewModel_TypeDefinitionIndex = 80914;
+
 	class FateRinBattleHudFreeCardViewModel : public ::RPG::Client::FateRin::BaseViewModel
 	{
 	public:

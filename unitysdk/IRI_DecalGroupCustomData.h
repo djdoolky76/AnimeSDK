@@ -9,6 +9,8 @@ namespace System { class String; }
 #define IRI_DECALGROUPCUSTOMDATA_ONENABLE_OFFSET UNITYSDK_OFFSET(0x16533800)
 #define IRI_DECALGROUPCUSTOMDATA_PHOLCMFCIBM_OFFSET UNITYSDK_OFFSET(0x16533760)
 
+inline static constexpr unsigned int IRI_DecalGroupCustomData_TypeDefinitionIndex = 47172;
+
 	class IRI_DecalGroupCustomData : public ::IRI_BaseBuildingCustomData
 	{
 	public:

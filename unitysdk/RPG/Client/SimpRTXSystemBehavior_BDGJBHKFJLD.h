@@ -8,6 +8,8 @@ namespace UnityEngine { class Texture; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SimpRTXSystemBehavior_BDGJBHKFJLD_TypeDefinitionIndex = 70950;
+
 	struct alignas(8) SimpRTXSystemBehavior_BDGJBHKFJLD
 	{
 		::System::Int32 HHLFNJCMNIJ; // 0x10

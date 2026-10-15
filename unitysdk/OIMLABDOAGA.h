@@ -24,6 +24,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define OIMLABDOAGA_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D285A70)
 #define OIMLABDOAGA_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D2853D0)
 
+inline static constexpr unsigned int OIMLABDOAGA_TypeDefinitionIndex = 11545;
+
 	class OIMLABDOAGA : public ::System::Object
 	{
 	public:

@@ -37,6 +37,8 @@ namespace System { class String; }
 #define ABAIDFKODPJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DDC56D0)
 #define ABAIDFKODPJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DDC5730)
 
+inline static constexpr unsigned int ABAIDFKODPJ_TypeDefinitionIndex = 31256;
+
 	class ABAIDFKODPJ : public ::System::Object
 	{
 	public:

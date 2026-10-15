@@ -14,6 +14,8 @@ namespace System { class Object; }
 #define CIGJBHFHHAD_LIDPFHNECID_OFFSET UNITYSDK_OFFSET(0xCF71460)
 #define CIGJBHFHHAD_LMCEDCHJKFF_OFFSET UNITYSDK_OFFSET(0xCF712E0)
 
+inline static constexpr unsigned int CIGJBHFHHAD_TypeDefinitionIndex = 57308;
+
 	class CIGJBHFHHAD : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

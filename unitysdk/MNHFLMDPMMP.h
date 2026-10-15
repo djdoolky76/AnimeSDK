@@ -5,6 +5,8 @@ namespace System { class String; }
 
 #define MNHFLMDPMMP_CTOR_OFFSET UNITYSDK_OFFSET(0x1D1D68A0)
 
+inline static constexpr unsigned int MNHFLMDPMMP_TypeDefinitionIndex = 10848;
+
 	class MNHFLMDPMMP : public ::System::Object
 	{
 	public:

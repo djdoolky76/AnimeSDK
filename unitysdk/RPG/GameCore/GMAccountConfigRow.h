@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GMAccountConfigRow_TypeDefinitionIndex = 13338;
+
 	class GMAccountConfigRow : public ::System::Object
 	{
 	public:

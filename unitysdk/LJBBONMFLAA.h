@@ -7,6 +7,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define LJBBONMFLAA_CTOR_OFFSET UNITYSDK_OFFSET(0xB6E02D0)
 
+inline static constexpr unsigned int LJBBONMFLAA_TypeDefinitionIndex = 73972;
+
 	class LJBBONMFLAA : public ::System::Object
 	{
 	public:

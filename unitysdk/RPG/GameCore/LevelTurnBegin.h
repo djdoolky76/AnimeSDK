@@ -15,6 +15,8 @@ namespace RPG::GameCore { class LevelTurnBegin; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelTurnBegin_TypeDefinitionIndex = 56699;
+
 	class LevelTurnBegin : public ::CMPGEAFHHDC
 	{
 	public:

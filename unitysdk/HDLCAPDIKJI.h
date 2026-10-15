@@ -29,6 +29,8 @@ namespace System { class String; }
 #define HDLCAPDIKJI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E550D60)
 #define HDLCAPDIKJI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E550DC0)
 
+inline static constexpr unsigned int HDLCAPDIKJI_TypeDefinitionIndex = 25762;
+
 	class HDLCAPDIKJI : public ::System::Object
 	{
 	public:

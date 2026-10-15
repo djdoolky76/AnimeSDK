@@ -25,6 +25,8 @@ namespace System { class String; }
 #define HAHPBCACNDG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E504DA0)
 #define HAHPBCACNDG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E504E00)
 
+inline static constexpr unsigned int HAHPBCACNDG_TypeDefinitionIndex = 27419;
+
 	class HAHPBCACNDG : public ::System::Object
 	{
 	public:

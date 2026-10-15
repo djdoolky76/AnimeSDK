@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace Spine::Unity
 {
+	inline static constexpr unsigned int SpineEvent_TypeDefinitionIndex = 45094;
+
 	class SpineEvent : public ::Spine::Unity::SpineAttributeBase
 	{
 	public:

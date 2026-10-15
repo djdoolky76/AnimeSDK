@@ -11,6 +11,8 @@ namespace RPG::GameCore { class NotifyRougeGoalFinish; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int NotifyRougeGoalFinish_TypeDefinitionIndex = 23664;
+
 	class NotifyRougeGoalFinish : public ::RPG::GameCore::TaskConfig
 	{
 	public:

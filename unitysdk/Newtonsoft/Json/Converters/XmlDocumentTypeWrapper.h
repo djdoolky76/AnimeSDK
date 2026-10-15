@@ -13,6 +13,8 @@ namespace System::Xml { class XmlDocumentType; }
 
 namespace Newtonsoft::Json::Converters
 {
+	inline static constexpr unsigned int XmlDocumentTypeWrapper_TypeDefinitionIndex = 9828;
+
 	class XmlDocumentTypeWrapper : public ::Newtonsoft::Json::Converters::XmlNodeWrapper
 	{
 	public:

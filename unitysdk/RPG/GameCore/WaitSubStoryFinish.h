@@ -10,6 +10,8 @@ namespace RPG::GameCore { class WaitSubStoryFinish; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaitSubStoryFinish_TypeDefinitionIndex = 20491;
+
 	class WaitSubStoryFinish : public ::RPG::GameCore::TaskConfig
 	{
 	public:

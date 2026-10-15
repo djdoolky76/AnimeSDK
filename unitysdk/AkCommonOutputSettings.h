@@ -9,6 +9,8 @@ namespace System { class String; }
 #define AKCOMMONOUTPUTSETTINGS_COPYTO_OFFSET UNITYSDK_OFFSET(0x1F5863E0)
 #define AKCOMMONOUTPUTSETTINGS_CTOR_OFFSET UNITYSDK_OFFSET(0x1F572690)
 
+inline static constexpr unsigned int AkCommonOutputSettings_TypeDefinitionIndex = 44832;
+
 	class AkCommonOutputSettings : public ::System::Object
 	{
 	public:

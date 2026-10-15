@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::Client::ActivityMarble
 {
+	inline static constexpr unsigned int MarbleCoopBossPVPManager___c__DisplayClass43_0_TypeDefinitionIndex = 75999;
+
 	class MarbleCoopBossPVPManager___c__DisplayClass43_0 : public ::System::Object
 	{
 	public:

@@ -21,6 +21,8 @@ class LNHACPACCKH;
 #define DOKPLDDNFDI_NOJIPMKAGON_OFFSET UNITYSDK_OFFSET(0x1C5FA260)
 #define DOKPLDDNFDI_PNJODACLLPH_OFFSET UNITYSDK_OFFSET(0x1C5FA250)
 
+inline static constexpr unsigned int DOKPLDDNFDI_TypeDefinitionIndex = 37103;
+
 	class DOKPLDDNFDI : public ::System::Object
 	{
 	public:

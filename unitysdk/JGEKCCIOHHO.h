@@ -7,6 +7,8 @@ class JGEKCCIOHHO;
 #define JGEKCCIOHHO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D029460)
 #define JGEKCCIOHHO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D029350)
 
+inline static constexpr unsigned int JGEKCCIOHHO_TypeDefinitionIndex = 11585;
+
 	class JGEKCCIOHHO : public ::System::Object
 	{
 	public:

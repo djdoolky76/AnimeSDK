@@ -29,6 +29,8 @@ namespace System { class String; }
 #define GILMFECEBFE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E49FF20)
 #define GILMFECEBFE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E49FF80)
 
+inline static constexpr unsigned int GILMFECEBFE_TypeDefinitionIndex = 29290;
+
 	class GILMFECEBFE : public ::System::Object
 	{
 	public:

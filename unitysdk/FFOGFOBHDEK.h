@@ -31,6 +31,8 @@ namespace System { class String; }
 #define FFOGFOBHDEK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E379550)
 #define FFOGFOBHDEK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E3795B0)
 
+inline static constexpr unsigned int FFOGFOBHDEK_TypeDefinitionIndex = 29166;
+
 	class FFOGFOBHDEK : public ::System::Object
 	{
 	public:

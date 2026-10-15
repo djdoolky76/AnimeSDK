@@ -8,6 +8,8 @@ namespace Mono::Security::Cryptography { class MD2; }
 
 namespace Mono::Security::Cryptography
 {
+	inline static constexpr unsigned int MD2_TypeDefinitionIndex = 67;
+
 	class MD2 : public ::System::Security::Cryptography::HashAlgorithm
 	{
 	public:

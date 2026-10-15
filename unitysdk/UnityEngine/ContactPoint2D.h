@@ -4,6 +4,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int ContactPoint2D_TypeDefinitionIndex = 5810;
+
 	struct alignas(4) ContactPoint2D
 	{
 		::UnityEngine::Vector2 m_Point; // 0x10

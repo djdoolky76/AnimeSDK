@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define PALMOAFGILA_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D2C21C0)
 #define PALMOAFGILA_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D2C1AE0)
 
+inline static constexpr unsigned int PALMOAFGILA_TypeDefinitionIndex = 14965;
+
 	class PALMOAFGILA : public ::System::Object
 	{
 	public:

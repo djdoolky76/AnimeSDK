@@ -9,6 +9,8 @@ namespace RPG::GameCore { class HeartDialDialogueRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int HeartDialDialogueRow_TypeDefinitionIndex = 13718;
+
 	class HeartDialDialogueRow : public ::System::Object
 	{
 	public:

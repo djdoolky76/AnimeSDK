@@ -65,6 +65,8 @@ namespace UnityEngine { class GameObject; }
 #define JEKAHBPEMCH_OMBELIHNLDN_OFFSET UNITYSDK_OFFSET(0x16630B50)
 #define JEKAHBPEMCH_PHJFCICHAHC_OFFSET UNITYSDK_OFFSET(0x16636590)
 
+inline static constexpr unsigned int JEKAHBPEMCH_TypeDefinitionIndex = 76705;
+
 	class JEKAHBPEMCH : public ::System::Object
 	{
 	public:

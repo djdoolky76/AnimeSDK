@@ -25,6 +25,8 @@ namespace XLua { class LuaFunction; }
 #define LPCANKBCPBD__ADDNOTIFYHANDLERS_OFFSET UNITYSDK_OFFSET(0xB8168C0)
 #define LPCANKBCPBD__ADDPACKETHANDLERS_OFFSET UNITYSDK_OFFSET(0xB816900)
 
+inline static constexpr unsigned int LPCANKBCPBD_TypeDefinitionIndex = 65786;
+
 	class LPCANKBCPBD : public ::RPG::Client::BaseModule
 	{
 	public:

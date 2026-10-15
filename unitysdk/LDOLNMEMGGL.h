@@ -11,6 +11,8 @@ namespace System { class String; }
 #define LDOLNMEMGGL_TOSTRING_OFFSET UNITYSDK_OFFSET(0xB644AD0)
 #define LDOLNMEMGGL_TRIGGERACTION_OFFSET UNITYSDK_OFFSET(0xB644B70)
 
+inline static constexpr unsigned int LDOLNMEMGGL_TypeDefinitionIndex = 67017;
+
 	class LDOLNMEMGGL : public ::System::Object
 	{
 	public:

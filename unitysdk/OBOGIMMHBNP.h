@@ -6,6 +6,8 @@ namespace System { class String; }
 
 #define OBOGIMMHBNP_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC91410)
 
+inline static constexpr unsigned int OBOGIMMHBNP_TypeDefinitionIndex = 43875;
+
 	class OBOGIMMHBNP : public ::System::Exception
 	{
 	public:

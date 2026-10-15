@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define PFELEGKDCBO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF246A0)
 #define PFELEGKDCBO___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1DF246B0)
 
+inline static constexpr unsigned int PFELEGKDCBO___c_TypeDefinitionIndex = 27113;
+
 	class PFELEGKDCBO___c : public ::System::Object
 	{
 	public:

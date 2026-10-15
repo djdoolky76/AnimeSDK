@@ -10,6 +10,8 @@ namespace System { class Object; }
 #define LDPAFLGPEBL_FKHABBFPGFA_OFFSET UNITYSDK_OFFSET(0x1C73A690)
 #define LDPAFLGPEBL_IKOCHGBIGPJ_OFFSET UNITYSDK_OFFSET(0x1C73A640)
 
+inline static constexpr unsigned int LDPAFLGPEBL_TypeDefinitionIndex = 36545;
+
 	class LDPAFLGPEBL : public ::KDCAPEBJDIO
 	{
 	public:

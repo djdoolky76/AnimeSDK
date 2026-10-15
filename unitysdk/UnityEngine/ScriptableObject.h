@@ -11,6 +11,8 @@ namespace UnityEngine { class ScriptableObject; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int ScriptableObject_TypeDefinitionIndex = 4339;
+
 	class ScriptableObject : public ::UnityEngine::Object
 	{
 	public:

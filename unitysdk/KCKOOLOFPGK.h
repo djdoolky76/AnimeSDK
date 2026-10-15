@@ -27,6 +27,8 @@ namespace System { class String; }
 #define KCKOOLOFPGK_LDAKELHCLJG_OFFSET UNITYSDK_OFFSET(0xB33B850)
 #define KCKOOLOFPGK_LIDKGFDCKGO_OFFSET UNITYSDK_OFFSET(0xB33AF80)
 
+inline static constexpr unsigned int KCKOOLOFPGK_TypeDefinitionIndex = 56494;
+
 	class KCKOOLOFPGK : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int IVRSystem__GetDXGIOutputInfo_TypeDefinitionIndex = 38897;
+
 	class IVRSystem__GetDXGIOutputInfo : public ::System::MulticastDelegate
 	{
 	public:

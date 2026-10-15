@@ -31,6 +31,8 @@ namespace System { class String; }
 #define DPAJAECBCPA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E209200)
 #define DPAJAECBCPA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E209260)
 
+inline static constexpr unsigned int DPAJAECBCPA_TypeDefinitionIndex = 30316;
+
 	class DPAJAECBCPA : public ::System::Object
 	{
 	public:

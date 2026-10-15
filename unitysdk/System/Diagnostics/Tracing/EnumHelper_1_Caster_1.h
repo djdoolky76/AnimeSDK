@@ -5,6 +5,8 @@ namespace System { class Object; }
 
 namespace System::Diagnostics::Tracing
 {
+	inline static constexpr unsigned int EnumHelper_1_Caster_1_TypeDefinitionIndex = 1595;
+
 	template <typename T>
 	class EnumHelper_1_Caster_1 : public ::System::Object
 	{

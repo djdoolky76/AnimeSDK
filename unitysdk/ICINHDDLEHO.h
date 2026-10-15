@@ -11,6 +11,8 @@ namespace System { class String; }
 #define ICINHDDLEHO_OHNKKCFBLCD_OFFSET UNITYSDK_OFFSET(0x15E4EA50)
 #define ICINHDDLEHO_PNCKJDMLONE_OFFSET UNITYSDK_OFFSET(0x15E4ED50)
 
+inline static constexpr unsigned int ICINHDDLEHO_TypeDefinitionIndex = 69423;
+
 	class ICINHDDLEHO : public ::System::Object
 	{
 	public:

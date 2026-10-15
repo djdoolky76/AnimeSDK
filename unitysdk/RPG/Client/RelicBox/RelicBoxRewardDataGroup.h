@@ -19,6 +19,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::RelicBox
 {
+	inline static constexpr unsigned int RelicBoxRewardDataGroup_TypeDefinitionIndex = 74452;
+
 	class RelicBoxRewardDataGroup : public ::System::Object
 	{
 	public:

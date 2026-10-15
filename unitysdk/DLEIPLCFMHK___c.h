@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define DLEIPLCFMHK___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E1E6220)
 #define DLEIPLCFMHK___C___CCTOR_B__78_0_OFFSET UNITYSDK_OFFSET(0x1E1E6230)
 
+inline static constexpr unsigned int DLEIPLCFMHK___c_TypeDefinitionIndex = 25123;
+
 	class DLEIPLCFMHK___c : public ::System::Object
 	{
 	public:

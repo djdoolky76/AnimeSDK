@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define KJEGELMOMIA_NLBNJGKAMII_OFFSET UNITYSDK_OFFSET(0xB4486E0)
 #define KJEGELMOMIA_NMCEFGCGHFG_OFFSET UNITYSDK_OFFSET(0xB448770)
 
+inline static constexpr unsigned int KJEGELMOMIA_TypeDefinitionIndex = 53764;
+
 	class KJEGELMOMIA : public ::GJPFGOGOLBI
 	{
 	public:

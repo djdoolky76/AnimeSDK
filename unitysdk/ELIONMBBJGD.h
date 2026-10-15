@@ -21,6 +21,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define ELIONMBBJGD_KNNKKGFAIHG_OFFSET UNITYSDK_OFFSET(0x15524D80)
 #define ELIONMBBJGD_NCDKIPILDPD_OFFSET UNITYSDK_OFFSET(0x15524AB0)
 
+inline static constexpr unsigned int ELIONMBBJGD_TypeDefinitionIndex = 81022;
+
 	class ELIONMBBJGD : public ::System::Object
 	{
 	public:

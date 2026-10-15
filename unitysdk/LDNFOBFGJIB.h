@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define LDNFOBFGJIB_CTOR_OFFSET UNITYSDK_OFFSET(0xB63E3F0)
 #define LDNFOBFGJIB_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB63E420)
 
+inline static constexpr unsigned int LDNFOBFGJIB_TypeDefinitionIndex = 54583;
+
 	class LDNFOBFGJIB
 	{
 	public:

@@ -13,6 +13,8 @@ namespace Spine::Unity { class SkeletonGraphic; }
 
 namespace Spine::Unity::Playables
 {
+	inline static constexpr unsigned int SkeletonGraphicPlayableHandle_TypeDefinitionIndex = 45904;
+
 	class SkeletonGraphicPlayableHandle : public ::Spine::Unity::Playables::SpinePlayableHandleBase
 	{
 	public:

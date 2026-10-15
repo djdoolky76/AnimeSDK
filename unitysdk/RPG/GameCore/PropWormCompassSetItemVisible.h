@@ -12,6 +12,8 @@ namespace RPG::GameCore { class WormCompassItemXY; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PropWormCompassSetItemVisible_TypeDefinitionIndex = 22167;
+
 	class PropWormCompassSetItemVisible : public ::RPG::GameCore::TaskConfig
 	{
 	public:

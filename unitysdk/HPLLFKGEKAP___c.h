@@ -9,6 +9,8 @@ namespace System { template <typename T> class Comparison_1; }
 #define HPLLFKGEKAP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x15DD45D0)
 #define HPLLFKGEKAP___C___TRIGGERCHIMERADEATH_B__2_0_OFFSET UNITYSDK_OFFSET(0x15DD45E0)
 
+inline static constexpr unsigned int HPLLFKGEKAP___c_TypeDefinitionIndex = 75755;
+
 	class HPLLFKGEKAP___c : public ::System::Object
 	{
 	public:

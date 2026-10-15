@@ -9,6 +9,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace SRDebugger::UI::Other
 {
+	inline static constexpr unsigned int VersionTextBehaviour_TypeDefinitionIndex = 38019;
+
 	class VersionTextBehaviour : public ::SRF::SRMonoBehaviourEx
 	{
 	public:

@@ -29,6 +29,8 @@ namespace System { class String; }
 #define KEBEGGLAPLF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E809200)
 #define KEBEGGLAPLF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E809260)
 
+inline static constexpr unsigned int KEBEGGLAPLF_TypeDefinitionIndex = 34535;
+
 	class KEBEGGLAPLF : public ::System::Object
 	{
 	public:

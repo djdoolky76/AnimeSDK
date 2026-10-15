@@ -8,6 +8,8 @@ namespace UnityEngine::UIElements { class PointerMoveEvent; }
 
 namespace UnityEngine::UIElements
 {
+	inline static constexpr unsigned int MouseMoveEvent_TypeDefinitionIndex = 5962;
+
 	class MouseMoveEvent
 	{
 	public:

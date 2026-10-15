@@ -16,6 +16,8 @@ namespace System { class String; }
 #define IGPLBKLFLED_JNJGCMAIMMN_OFFSET UNITYSDK_OFFSET(0x1C49F850)
 #define IGPLBKLFLED_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1C49F980)
 
+inline static constexpr unsigned int IGPLBKLFLED_TypeDefinitionIndex = 41501;
+
 	class IGPLBKLFLED : public ::System::Object
 	{
 	public:

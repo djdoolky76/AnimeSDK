@@ -12,6 +12,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define GNNEICCIGFJ___C___EVALUATEMODIFIERCONTAINER_B__6_0_OFFSET UNITYSDK_OFFSET(0x15B1DB60)
 #define GNNEICCIGFJ___C___EVALUATESPAWNALLYNPCHIPPLENMINI_B__7_0_OFFSET UNITYSDK_OFFSET(0x15B1DBB0)
 
+inline static constexpr unsigned int GNNEICCIGFJ___c_TypeDefinitionIndex = 77623;
+
 	class GNNEICCIGFJ___c : public ::System::Object
 	{
 	public:

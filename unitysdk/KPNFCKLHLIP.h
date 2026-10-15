@@ -29,6 +29,8 @@ namespace System { class String; }
 #define KPNFCKLHLIP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E8C10E0)
 #define KPNFCKLHLIP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E8C1140)
 
+inline static constexpr unsigned int KPNFCKLHLIP_TypeDefinitionIndex = 26087;
+
 	class KPNFCKLHLIP : public ::System::Object
 	{
 	public:

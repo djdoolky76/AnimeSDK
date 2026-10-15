@@ -10,6 +10,8 @@ namespace RPG::GameCore { class DynamicFloat; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdditionalDisplayData_TypeDefinitionIndex = 22576;
+
 	class AdditionalDisplayData : public ::RPG::GameCore::JsonConfig
 	{
 	public:

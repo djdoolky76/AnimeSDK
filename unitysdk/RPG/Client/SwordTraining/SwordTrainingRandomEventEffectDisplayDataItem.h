@@ -16,6 +16,8 @@ namespace System { class String; }
 
 namespace RPG::Client::SwordTraining
 {
+	inline static constexpr unsigned int SwordTrainingRandomEventEffectDisplayDataItem_TypeDefinitionIndex = 75045;
+
 	class SwordTrainingRandomEventEffectDisplayDataItem : public ::System::Object
 	{
 	public:

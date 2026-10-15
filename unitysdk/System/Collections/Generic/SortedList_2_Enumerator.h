@@ -4,6 +4,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace System::Collections::Generic
 {
+	inline static constexpr unsigned int SortedList_2_Enumerator_TypeDefinitionIndex = 3035;
+
 	template <typename T1, typename T2>
 	struct alignas(8) SortedList_2_Enumerator
 	{

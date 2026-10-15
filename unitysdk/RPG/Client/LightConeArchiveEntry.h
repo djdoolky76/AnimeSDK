@@ -11,6 +11,8 @@ namespace RPG::GameCore { class EquipmentRow; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int LightConeArchiveEntry_TypeDefinitionIndex = 62428;
+
 	class LightConeArchiveEntry : public ::RPG::Client::BaseArchiveEntry
 	{
 	public:

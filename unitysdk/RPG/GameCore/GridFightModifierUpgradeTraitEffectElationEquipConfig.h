@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightModifierUpgradeTraitEffectElationEquipC
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightModifierUpgradeTraitEffectElationEquipConfig_TypeDefinitionIndex = 19485;
+
 	class GridFightModifierUpgradeTraitEffectElationEquipConfig : public ::RPG::GameCore::GridFightModifierConfigBase
 	{
 	public:

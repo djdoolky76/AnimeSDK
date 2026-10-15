@@ -30,6 +30,8 @@ namespace System { class String; }
 #define HKKBGLINEOM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E5B3BB0)
 #define HKKBGLINEOM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E5B3C10)
 
+inline static constexpr unsigned int HKKBGLINEOM_TypeDefinitionIndex = 27102;
+
 	class HKKBGLINEOM : public ::System::Object
 	{
 	public:

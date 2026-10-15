@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::SdkReport
 {
+	inline static constexpr unsigned int AnalyzerResultFormatter_TypeDefinitionIndex = 46631;
+
 	class AnalyzerResultFormatter : public ::System::Object
 	{
 	public:

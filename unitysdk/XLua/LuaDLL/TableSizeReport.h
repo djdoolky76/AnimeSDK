@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace XLua::LuaDLL
 {
+	inline static constexpr unsigned int TableSizeReport_TypeDefinitionIndex = 51704;
+
 	class TableSizeReport : public ::System::MulticastDelegate
 	{
 	public:

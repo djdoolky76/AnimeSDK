@@ -30,6 +30,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::RoadRash
 {
+	inline static constexpr unsigned int MonoRoadRashGamePreview_TypeDefinitionIndex = 75856;
+
 	class MonoRoadRashGamePreview : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -21,6 +21,8 @@ namespace UnityEngine { class RenderTexture; }
 #define FOBHMADMEDF_PEOHAEEAGEF_OFFSET UNITYSDK_OFFSET(0x158E05F0)
 #define FOBHMADMEDF_PFDGNOCHOLB_OFFSET UNITYSDK_OFFSET(0x158E0E40)
 
+inline static constexpr unsigned int FOBHMADMEDF_TypeDefinitionIndex = 60733;
+
 	class FOBHMADMEDF : public ::System::Object
 	{
 	public:

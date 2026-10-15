@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define EKFDEDFBPNB_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CD960A0)
 #define EKFDEDFBPNB_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CD95A00)
 
+inline static constexpr unsigned int EKFDEDFBPNB_TypeDefinitionIndex = 12162;
+
 	class EKFDEDFBPNB : public ::System::Object
 	{
 	public:

@@ -34,6 +34,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ConditionCheckerHandle_TypeDefinitionIndex = 59901;
+
 	class ConditionCheckerHandle : public ::System::Object
 	{
 	public:

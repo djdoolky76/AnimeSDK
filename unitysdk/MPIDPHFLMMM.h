@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define MPIDPHFLMMM_LBGLEMCBFFN_OFFSET UNITYSDK_OFFSET(0xBA3F2D0)
 #define MPIDPHFLMMM_MKEIHAPPOMK_OFFSET UNITYSDK_OFFSET(0xBA3EFA0)
 
+inline static constexpr unsigned int MPIDPHFLMMM_TypeDefinitionIndex = 77703;
+
 	class MPIDPHFLMMM : public ::DFDIEEHGJED
 	{
 	public:

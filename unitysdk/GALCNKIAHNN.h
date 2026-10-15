@@ -29,6 +29,8 @@ namespace System { class String; }
 #define GALCNKIAHNN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E4213C0)
 #define GALCNKIAHNN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E421420)
 
+inline static constexpr unsigned int GALCNKIAHNN_TypeDefinitionIndex = 31040;
+
 	class GALCNKIAHNN : public ::System::Object
 	{
 	public:

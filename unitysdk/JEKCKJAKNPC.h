@@ -47,6 +47,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define JEKCKJAKNPC_PEHIOKPNMPD_OFFSET UNITYSDK_OFFSET(0x1663CBE0)
 #define JEKCKJAKNPC_PKGDEAEPJHE_OFFSET UNITYSDK_OFFSET(0x1663BFD0)
 
+inline static constexpr unsigned int JEKCKJAKNPC_TypeDefinitionIndex = 71170;
+
 	class JEKCKJAKNPC : public ::System::Object
 	{
 	public:

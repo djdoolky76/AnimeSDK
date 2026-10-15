@@ -33,6 +33,8 @@ namespace UnityEngine { class GameObject; }
 #define ECJGNBGJJPO_OMPPPOIDAAB_OFFSET UNITYSDK_OFFSET(0x12D0EC40)
 #define ECJGNBGJJPO_SET_TARGETREGION_OFFSET UNITYSDK_OFFSET(0x12D10390)
 
+inline static constexpr unsigned int ECJGNBGJJPO_TypeDefinitionIndex = 62151;
+
 	class ECJGNBGJJPO : public ::System::Object
 	{
 	public:

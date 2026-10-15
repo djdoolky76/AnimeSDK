@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int ConfirmWithJoypad_OnConfirmDelegate_TypeDefinitionIndex = 7999;
+
 	class ConfirmWithJoypad_OnConfirmDelegate : public ::System::MulticastDelegate
 	{
 	public:

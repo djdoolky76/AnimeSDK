@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::Win::OS
 {
+	inline static constexpr unsigned int AgeGatePayValidationManager___c__DisplayClass7_0_TypeDefinitionIndex = 9565;
+
 	class AgeGatePayValidationManager___c__DisplayClass7_0 : public ::System::Object
 	{
 	public:

@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace System::Xml
 {
+	inline static constexpr unsigned int NameTable_TypeDefinitionIndex = 1928;
+
 	class NameTable : public ::System::Xml::XmlNameTable
 	{
 	public:

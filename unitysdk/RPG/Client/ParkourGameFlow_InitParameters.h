@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ParkourGameFlow_InitParameters_TypeDefinitionIndex = 61839;
+
 	struct alignas(4) ParkourGameFlow_InitParameters
 	{
 		::System::UInt32 StartLevelID; // 0x10

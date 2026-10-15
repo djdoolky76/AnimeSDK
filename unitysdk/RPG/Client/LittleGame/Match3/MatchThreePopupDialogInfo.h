@@ -6,6 +6,8 @@
 
 namespace RPG::Client::LittleGame::Match3
 {
+	inline static constexpr unsigned int MatchThreePopupDialogInfo_TypeDefinitionIndex = 43014;
+
 	class MatchThreePopupDialogInfo : public ::System::Object
 	{
 	public:

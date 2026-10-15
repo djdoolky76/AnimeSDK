@@ -10,6 +10,8 @@ namespace System::Xml { class XmlWriter; }
 
 namespace System::Xml
 {
+	inline static constexpr unsigned int XmlWellFormedWriter_Namespace_TypeDefinitionIndex = 1877;
+
 	struct alignas(8) XmlWellFormedWriter_Namespace
 	{
 		::System::String* prefix; // 0x10

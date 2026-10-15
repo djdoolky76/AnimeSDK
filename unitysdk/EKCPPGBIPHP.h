@@ -5,6 +5,8 @@
 #define EKCPPGBIPHP_CTOR_OFFSET UNITYSDK_OFFSET(0x154FFA60)
 #define EKCPPGBIPHP_DANKHPIIDOH_OFFSET UNITYSDK_OFFSET(0x154FF800)
 
+inline static constexpr unsigned int EKCPPGBIPHP_TypeDefinitionIndex = 66172;
+
 	class EKCPPGBIPHP : public ::LCPNALBMKIB
 	{
 	public:

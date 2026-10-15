@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class Queue_1; }
 #define IBLLIBEANPO_OKFDMJCGLKB_OFFSET UNITYSDK_OFFSET(0x15E3D280)
 #define IBLLIBEANPO_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0x15E3D930)
 
+inline static constexpr unsigned int IBLLIBEANPO_TypeDefinitionIndex = 81109;
+
 	class IBLLIBEANPO : public ::System::Object
 	{
 	public:

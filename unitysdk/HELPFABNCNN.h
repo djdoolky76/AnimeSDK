@@ -17,6 +17,8 @@ namespace UnityEngine { class AnimationCurve; }
 #define HELPFABNCNN_PBLDOCEJEJM_OFFSET UNITYSDK_OFFSET(0x15C5AE30)
 #define HELPFABNCNN_TICK_OFFSET UNITYSDK_OFFSET(0x15C5A9C0)
 
+inline static constexpr unsigned int HELPFABNCNN_TypeDefinitionIndex = 57997;
+
 	class HELPFABNCNN : public ::GELIALJDFBL
 	{
 	public:

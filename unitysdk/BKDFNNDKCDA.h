@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 
 #define BKDFNNDKCDA_CTOR_OFFSET UNITYSDK_OFFSET(0xB7ADE70)
 
+inline static constexpr unsigned int BKDFNNDKCDA_TypeDefinitionIndex = 56192;
+
 	class BKDFNNDKCDA : public ::GIBILAKDENF
 	{
 	public:

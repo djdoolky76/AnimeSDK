@@ -10,6 +10,8 @@ namespace RPG::GameCore { class PVSFilterVolume; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PVSFilterVolume_TypeDefinitionIndex = 19146;
+
 	class PVSFilterVolume : public ::RPG::GameCore::StageVolumeConfigV2
 	{
 	public:

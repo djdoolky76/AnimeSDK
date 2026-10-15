@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::TrainParty
 {
+	inline static constexpr unsigned int TrainPartyPassengerDiaryInfo_TypeDefinitionIndex = 74344;
+
 	class TrainPartyPassengerDiaryInfo : public ::System::Object
 	{
 	public:

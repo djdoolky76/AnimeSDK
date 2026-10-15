@@ -169,6 +169,8 @@ namespace System { class String; }
 #define KFNCAIHIHCM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E826D80)
 #define KFNCAIHIHCM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E826DE0)
 
+inline static constexpr unsigned int KFNCAIHIHCM_TypeDefinitionIndex = 29390;
+
 	class KFNCAIHIHCM : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ShowPenaconyGiftSubmitPage; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ShowPenaconyGiftSubmitPage_TypeDefinitionIndex = 21248;
+
 	class ShowPenaconyGiftSubmitPage : public ::RPG::GameCore::TaskConfig
 	{
 	public:

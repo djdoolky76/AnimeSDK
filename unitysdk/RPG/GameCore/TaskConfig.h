@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TaskConfig_TypeDefinitionIndex = 23738;
+
 	class TaskConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

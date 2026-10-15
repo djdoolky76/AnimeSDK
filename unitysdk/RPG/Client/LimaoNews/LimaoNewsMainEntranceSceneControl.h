@@ -22,6 +22,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client::LimaoNews
 {
+	inline static constexpr unsigned int LimaoNewsMainEntranceSceneControl_TypeDefinitionIndex = 80364;
+
 	class LimaoNewsMainEntranceSceneControl : public ::Sofa::BaseSofaControl
 	{
 	public:

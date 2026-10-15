@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define JEONGMPBPDE_CTOR_OFFSET UNITYSDK_OFFSET(0x16641E30)
 #define JEONGMPBPDE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x16641E40)
 
+inline static constexpr unsigned int JEONGMPBPDE_TypeDefinitionIndex = 52681;
+
 	class JEONGMPBPDE : public ::CMMNJAMJJCN
 	{
 	public:

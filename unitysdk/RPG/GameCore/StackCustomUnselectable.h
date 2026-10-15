@@ -13,6 +13,8 @@ namespace RPG::GameCore { class StackCustomUnselectable; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StackCustomUnselectable_TypeDefinitionIndex = 23714;
+
 	class StackCustomUnselectable : public ::RPG::GameCore::TaskConfig
 	{
 	public:

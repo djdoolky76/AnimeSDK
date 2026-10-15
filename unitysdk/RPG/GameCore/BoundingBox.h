@@ -10,6 +10,8 @@ namespace RPG::GameCore { class BoundingBox; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BoundingBox_TypeDefinitionIndex = 18278;
+
 	class BoundingBox : public ::RPG::GameCore::JsonConfig
 	{
 	public:

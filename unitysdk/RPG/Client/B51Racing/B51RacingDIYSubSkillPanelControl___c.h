@@ -11,6 +11,8 @@ namespace System { template <typename T> class Predicate_1; }
 
 namespace RPG::Client::B51Racing
 {
+	inline static constexpr unsigned int B51RacingDIYSubSkillPanelControl___c_TypeDefinitionIndex = 81785;
+
 	class B51RacingDIYSubSkillPanelControl___c : public ::System::Object
 	{
 	public:

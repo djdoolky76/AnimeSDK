@@ -4,6 +4,8 @@
 
 #define APLGGFPHJDI_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8ACE80)
 
+inline static constexpr unsigned int APLGGFPHJDI_TypeDefinitionIndex = 42280;
+
 	class APLGGFPHJDI : public ::System::Object
 	{
 	public:

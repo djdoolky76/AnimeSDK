@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CharacterAnimZoneConfig_TypeDefinitionIndex = 16563;
+
 	class CharacterAnimZoneConfig : public ::RPG::GameCore::ComponentConfig
 	{
 	public:

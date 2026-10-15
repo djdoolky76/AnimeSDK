@@ -4,6 +4,8 @@
 
 #define COPKPNCABFO_MDDCPJBOABF_CTOR_OFFSET UNITYSDK_OFFSET(0xDCCB5D0)
 
+inline static constexpr unsigned int COPKPNCABFO_MDDCPJBOABF_TypeDefinitionIndex = 51758;
+
 	class COPKPNCABFO_MDDCPJBOABF : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class DynamicFloat; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CreateBattleEventFromGridFightBackend_TypeDefinitionIndex = 23427;
+
 	class CreateBattleEventFromGridFightBackend : public ::RPG::GameCore::CreateBattleEvent
 	{
 	public:

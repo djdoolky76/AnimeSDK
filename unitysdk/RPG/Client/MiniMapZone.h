@@ -58,6 +58,8 @@ namespace UnityEngine { class Sprite; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MiniMapZone_TypeDefinitionIndex = 60652;
+
 	class MiniMapZone : public ::System::Object
 	{
 	public:

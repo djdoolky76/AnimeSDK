@@ -11,6 +11,8 @@ class OMNJCDDMLHI;
 #define OCMIHAIONPE_CTOR_OFFSET UNITYSDK_OFFSET(0xBD70D00)
 #define OCMIHAIONPE_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0xBD70E50)
 
+inline static constexpr unsigned int OCMIHAIONPE_TypeDefinitionIndex = 77928;
+
 	class OCMIHAIONPE : public ::GCIBMBJGPKI
 	{
 	public:

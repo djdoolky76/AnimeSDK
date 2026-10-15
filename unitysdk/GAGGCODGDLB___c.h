@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define GAGGCODGDLB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E41BEE0)
 #define GAGGCODGDLB___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E41BEF0)
 
+inline static constexpr unsigned int GAGGCODGDLB___c_TypeDefinitionIndex = 34735;
+
 	class GAGGCODGDLB___c : public ::System::Object
 	{
 	public:

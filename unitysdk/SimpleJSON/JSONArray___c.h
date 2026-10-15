@@ -11,6 +11,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace SimpleJSON
 {
+	inline static constexpr unsigned int JSONArray___c_TypeDefinitionIndex = 9957;
+
 	class JSONArray___c : public ::System::Object
 	{
 	public:

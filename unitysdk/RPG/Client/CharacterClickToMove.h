@@ -9,6 +9,8 @@ class FOOIINCDBFA;
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CharacterClickToMove_TypeDefinitionIndex = 68381;
+
 	class CharacterClickToMove : public ::UnityEngine::MonoBehaviour
 	{
 	public:

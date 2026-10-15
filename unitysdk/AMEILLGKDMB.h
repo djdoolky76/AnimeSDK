@@ -16,6 +16,8 @@ namespace System { class String; }
 #define AMEILLGKDMB_NAHKFBMPGJH_OFFSET UNITYSDK_OFFSET(0x1C433920)
 #define AMEILLGKDMB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1C433A20)
 
+inline static constexpr unsigned int AMEILLGKDMB_TypeDefinitionIndex = 41522;
+
 	class AMEILLGKDMB : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEmoAnimMouthShapeLayerController_AnimMouthShapeParams_TypeDefinitionIndex = 71142;
+
 	struct alignas(4) MonoEmoAnimMouthShapeLayerController_AnimMouthShapeParams
 	{
 		::System::Single Full; // 0x10

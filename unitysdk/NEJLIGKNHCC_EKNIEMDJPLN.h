@@ -4,6 +4,8 @@
 
 #define NEJLIGKNHCC_EKNIEMDJPLN_CTOR_OFFSET UNITYSDK_OFFSET(0x20300)
 
+inline static constexpr unsigned int NEJLIGKNHCC_EKNIEMDJPLN_TypeDefinitionIndex = 69294;
+
 	struct alignas(4) NEJLIGKNHCC_EKNIEMDJPLN
 	{
 		::System::Int64 PKILDBNDGCN; // 0x10

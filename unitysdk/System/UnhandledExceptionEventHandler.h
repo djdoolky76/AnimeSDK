@@ -13,6 +13,8 @@ namespace System { class UnhandledExceptionEventArgs; }
 
 namespace System
 {
+	inline static constexpr unsigned int UnhandledExceptionEventHandler_TypeDefinitionIndex = 361;
+
 	class UnhandledExceptionEventHandler : public ::System::MulticastDelegate
 	{
 	public:

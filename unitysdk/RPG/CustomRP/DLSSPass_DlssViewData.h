@@ -7,6 +7,8 @@
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int DLSSPass_DlssViewData_TypeDefinitionIndex = 37558;
+
 	struct alignas(4) DLSSPass_DlssViewData
 	{
 		::UnityEngine::NVIDIA::DLSSQuality perfQuality; // 0x10

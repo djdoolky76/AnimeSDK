@@ -13,6 +13,8 @@ namespace R3 { template <typename T> class ReadOnlyReactiveProperty_1; }
 #define IIIBPJDFPLJ_LHLALAKKKKJ_OFFSET UNITYSDK_OFFSET(0x1643D320)
 #define IIIBPJDFPLJ_LIHALEDBELL_OFFSET UNITYSDK_OFFSET(0x1643D2D0)
 
+inline static constexpr unsigned int IIIBPJDFPLJ_TypeDefinitionIndex = 79578;
+
 	class IIIBPJDFPLJ : public ::System::Object
 	{
 	public:

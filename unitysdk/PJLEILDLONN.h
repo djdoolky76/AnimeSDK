@@ -31,6 +31,8 @@ namespace System { class String; }
 #define PJLEILDLONN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF7D0B0)
 #define PJLEILDLONN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF7D110)
 
+inline static constexpr unsigned int PJLEILDLONN_TypeDefinitionIndex = 31274;
+
 	class PJLEILDLONN : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::Client::FateRin::Battle { class IFateRinCardHitTestService; }
 #define CAEBEEOCLLI_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xC1BE410)
 #define CAEBEEOCLLI_CTOR_OFFSET UNITYSDK_OFFSET(0xC1BE390)
 
+inline static constexpr unsigned int CAEBEEOCLLI_TypeDefinitionIndex = 80922;
+
 	class CAEBEEOCLLI : public ::System::Object
 	{
 	public:

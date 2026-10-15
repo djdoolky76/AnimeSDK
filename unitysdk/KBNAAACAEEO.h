@@ -8,6 +8,8 @@ namespace RPG::GameCore { class CakeRaceActionSpawnAoeOnCurSectionRows; }
 #define KBNAAACAEEO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C70B4A0)
 #define KBNAAACAEEO_GAILDDCMCHP_OFFSET UNITYSDK_OFFSET(0x1C70B4B0)
 
+inline static constexpr unsigned int KBNAAACAEEO_TypeDefinitionIndex = 37395;
+
 	class KBNAAACAEEO : public ::GPLOFONGBGI
 	{
 	public:

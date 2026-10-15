@@ -7,6 +7,8 @@
 
 namespace InControl::NativeDeviceProfiles
 {
+	inline static constexpr unsigned int PlayStation3MacNativeProfile_TypeDefinitionIndex = 41263;
+
 	class PlayStation3MacNativeProfile : public ::InControl::InputDeviceProfile
 	{
 	public:

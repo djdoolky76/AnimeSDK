@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define DOFHJFBBGML___C__WARMUPPSOSONEBYONE_B__13_1_OFFSET UNITYSDK_OFFSET(0x11FE5710)
 #define DOFHJFBBGML___C__WRITEWARMUPINFOS_B__23_0_OFFSET UNITYSDK_OFFSET(0x11FE5740)
 
+inline static constexpr unsigned int DOFHJFBBGML___c_TypeDefinitionIndex = 47425;
+
 	class DOFHJFBBGML___c : public ::System::Object
 	{
 	public:

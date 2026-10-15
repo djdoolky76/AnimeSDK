@@ -58,6 +58,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int CablePuzzleItem_TypeDefinitionIndex = 78608;
+
 	class CablePuzzleItem : public ::RPG::Client::Prop::HexPuzzleItemBase
 	{
 	public:

@@ -13,6 +13,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int LocalizedInputField_VoidDelegate_TypeDefinitionIndex = 72563;
+
 	class LocalizedInputField_VoidDelegate : public ::System::MulticastDelegate
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define OHICCFONLEC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DE620F0)
 #define OHICCFONLEC___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1DE62100)
 
+inline static constexpr unsigned int OHICCFONLEC___c_TypeDefinitionIndex = 34243;
+
 	class OHICCFONLEC___c : public ::System::Object
 	{
 	public:

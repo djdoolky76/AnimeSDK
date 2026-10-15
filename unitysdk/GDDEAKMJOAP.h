@@ -30,6 +30,8 @@ namespace System { class String; }
 #define GDDEAKMJOAP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E444CC0)
 #define GDDEAKMJOAP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E444D20)
 
+inline static constexpr unsigned int GDDEAKMJOAP_TypeDefinitionIndex = 31211;
+
 	class GDDEAKMJOAP : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define ECHKHMJDHAK_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0x12D0D830)
 #define ECHKHMJDHAK_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x12D0D7C0)
 
+inline static constexpr unsigned int ECHKHMJDHAK_TypeDefinitionIndex = 54085;
+
 	class ECHKHMJDHAK : public ::CMPGEAFHHDC
 	{
 	public:

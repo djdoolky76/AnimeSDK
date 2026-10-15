@@ -5,6 +5,8 @@
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
+	inline static constexpr unsigned int B2Version_TypeDefinitionIndex = 36805;
+
 	struct alignas(4) B2Version
 	{
 		::System::Int32 major; // 0x10

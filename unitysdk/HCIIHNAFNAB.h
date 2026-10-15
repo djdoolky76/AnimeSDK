@@ -29,6 +29,8 @@ namespace System { class String; }
 #define HCIIHNAFNAB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E540930)
 #define HCIIHNAFNAB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E540990)
 
+inline static constexpr unsigned int HCIIHNAFNAB_TypeDefinitionIndex = 32462;
+
 	class HCIIHNAFNAB : public ::System::Object
 	{
 	public:

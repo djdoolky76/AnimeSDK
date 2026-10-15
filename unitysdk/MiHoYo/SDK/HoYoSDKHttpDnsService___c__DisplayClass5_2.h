@@ -9,6 +9,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int HoYoSDKHttpDnsService___c__DisplayClass5_2_TypeDefinitionIndex = 46107;
+
 	template <typename T1, typename T2>
 	class HoYoSDKHttpDnsService___c__DisplayClass5_2 : public ::System::Object
 	{

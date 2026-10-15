@@ -28,6 +28,8 @@ namespace System { class String; }
 #define ICBEPDGBHMM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E61E230)
 #define ICBEPDGBHMM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E61E290)
 
+inline static constexpr unsigned int ICBEPDGBHMM_TypeDefinitionIndex = 30509;
+
 	class ICBEPDGBHMM : public ::System::Object
 	{
 	public:

@@ -27,6 +27,8 @@ namespace UnityEngine { class Transform; }
 #define DOBHGKLLBEA__ONBIND_OFFSET UNITYSDK_OFFSET(0x11FDE540)
 #define DOBHGKLLBEA__ONDISPOSE_OFFSET UNITYSDK_OFFSET(0x11FDE720)
 
+inline static constexpr unsigned int DOBHGKLLBEA_TypeDefinitionIndex = 71477;
+
 	class DOBHGKLLBEA : public ::FMPCODLIOLG
 	{
 	public:

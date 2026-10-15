@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define NGDAKPKPOPE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBBA2C50)
 #define NGDAKPKPOPE_GNBPOHIGELI_OFFSET UNITYSDK_OFFSET(0xBBA2B90)
 
+inline static constexpr unsigned int NGDAKPKPOPE_TypeDefinitionIndex = 69436;
+
 	class NGDAKPKPOPE : public ::BBHJHADOEID
 	{
 	public:

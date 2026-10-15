@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define JLLBOPLHIKD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E780F30)
 #define JLLBOPLHIKD___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E780F40)
 
+inline static constexpr unsigned int JLLBOPLHIKD___c_TypeDefinitionIndex = 26039;
+
 	class JLLBOPLHIKD___c : public ::System::Object
 	{
 	public:

@@ -23,6 +23,8 @@ namespace UnityEngine { class Rigidbody; }
 
 namespace HedgehogTeam::EasyTouch
 {
+	inline static constexpr unsigned int QuickBase_TypeDefinitionIndex = 40250;
+
 	class QuickBase : public ::UnityEngine::MonoBehaviour
 	{
 	public:

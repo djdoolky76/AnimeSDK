@@ -18,6 +18,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int StoryPropMoveClip_TypeDefinitionIndex = 48353;
+
 	class StoryPropMoveClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

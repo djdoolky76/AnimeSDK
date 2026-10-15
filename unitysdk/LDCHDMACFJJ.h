@@ -11,6 +11,8 @@ namespace System { class Object; }
 #define LDCHDMACFJJ__REGISTEREVENTCALLBACK_OFFSET UNITYSDK_OFFSET(0xB61C9D0)
 #define LDCHDMACFJJ__UNREGISTEREVENTCALLBACK_OFFSET UNITYSDK_OFFSET(0xB61CA90)
 
+inline static constexpr unsigned int LDCHDMACFJJ_TypeDefinitionIndex = 53007;
+
 	class LDCHDMACFJJ
 	{
 	public:

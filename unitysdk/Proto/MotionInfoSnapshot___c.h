@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace Proto
 {
+	inline static constexpr unsigned int MotionInfoSnapshot___c_TypeDefinitionIndex = 25816;
+
 	class MotionInfoSnapshot___c : public ::System::Object
 	{
 	public:

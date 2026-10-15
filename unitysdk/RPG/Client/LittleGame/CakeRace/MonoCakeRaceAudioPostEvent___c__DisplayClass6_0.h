@@ -9,6 +9,8 @@ namespace RPG::Client::LittleGame::CakeRace { class MonoCakeRaceAudioPostEvent; 
 
 namespace RPG::Client::LittleGame::CakeRace
 {
+	inline static constexpr unsigned int MonoCakeRaceAudioPostEvent___c__DisplayClass6_0_TypeDefinitionIndex = 77984;
+
 	class MonoCakeRaceAudioPostEvent___c__DisplayClass6_0 : public ::System::Object
 	{
 	public:

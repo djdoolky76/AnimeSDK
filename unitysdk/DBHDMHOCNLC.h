@@ -6,6 +6,8 @@ namespace RPG::GameCore { class FiveDimWindowControllerComponentConfig; }
 
 #define DBHDMHOCNLC_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA14110)
 
+inline static constexpr unsigned int DBHDMHOCNLC_TypeDefinitionIndex = 43571;
+
 	class DBHDMHOCNLC : public ::System::Object
 	{
 	public:

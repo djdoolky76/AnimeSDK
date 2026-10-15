@@ -39,6 +39,8 @@ namespace System { class String; }
 #define EPHKIEHONGB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E30C480)
 #define EPHKIEHONGB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E30C4E0)
 
+inline static constexpr unsigned int EPHKIEHONGB_TypeDefinitionIndex = 34740;
+
 	class EPHKIEHONGB : public ::System::Object
 	{
 	public:

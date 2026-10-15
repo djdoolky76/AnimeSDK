@@ -15,6 +15,8 @@ namespace System { class Nullable; }
 #define EKJEHDDDBII_FEBKLLMDHCJ_OFFSET UNITYSDK_OFFSET(0x15509590)
 #define EKJEHDDDBII_OJPAPNHNCAB_OFFSET UNITYSDK_OFFSET(0x15509270)
 
+inline static constexpr unsigned int EKJEHDDDBII_TypeDefinitionIndex = 53754;
+
 	class EKJEHDDDBII : public ::System::Object
 	{
 	public:

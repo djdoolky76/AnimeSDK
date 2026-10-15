@@ -14,6 +14,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BodyPartMapping_TypeDefinitionIndex = 68370;
+
 	class BodyPartMapping : public ::UnityEngine::MonoBehaviour
 	{
 	public:

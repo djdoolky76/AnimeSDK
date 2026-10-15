@@ -7,6 +7,8 @@ namespace RPG::Client { class BaseGachaGroupData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GachaGroupDataExt_TypeDefinitionIndex = 64319;
+
 	class GachaGroupDataExt : public ::System::Object
 	{
 	public:

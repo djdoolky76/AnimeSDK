@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define NPDKAGOCOLG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB95230)
 #define NPDKAGOCOLG___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1EB95240)
 
+inline static constexpr unsigned int NPDKAGOCOLG___c_TypeDefinitionIndex = 27501;
+
 	class NPDKAGOCOLG___c : public ::System::Object
 	{
 	public:

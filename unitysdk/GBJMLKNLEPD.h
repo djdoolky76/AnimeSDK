@@ -40,6 +40,8 @@ namespace System { class String; }
 #define GBJMLKNLEPD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E42DBD0)
 #define GBJMLKNLEPD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E42DC30)
 
+inline static constexpr unsigned int GBJMLKNLEPD_TypeDefinitionIndex = 25608;
+
 	class GBJMLKNLEPD : public ::System::Object
 	{
 	public:

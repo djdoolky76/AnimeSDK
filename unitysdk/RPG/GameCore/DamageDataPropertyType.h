@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DamageDataPropertyType_TypeDefinitionIndex = 24686;
+
 	enum class DamageDataPropertyType : ::System::Int32
 	{
 		Result_FinalDamage = 0,

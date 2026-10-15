@@ -27,6 +27,8 @@ namespace System { class String; }
 #define ALMGFDOPLGA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E5129E0)
 #define ALMGFDOPLGA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E512A40)
 
+inline static constexpr unsigned int ALMGFDOPLGA_TypeDefinitionIndex = 33134;
+
 	class ALMGFDOPLGA : public ::System::Object
 	{
 	public:

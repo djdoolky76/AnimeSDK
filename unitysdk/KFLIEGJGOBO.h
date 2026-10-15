@@ -28,6 +28,8 @@ namespace System { class String; }
 #define KFLIEGJGOBO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E81E600)
 #define KFLIEGJGOBO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E81E660)
 
+inline static constexpr unsigned int KFLIEGJGOBO_TypeDefinitionIndex = 28096;
+
 	class KFLIEGJGOBO : public ::System::Object
 	{
 	public:

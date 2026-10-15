@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CharacterCollisionType_TypeDefinitionIndex = 16497;
+
 	enum class CharacterCollisionType : ::System::Int32
 	{
 		Capsule = 0,

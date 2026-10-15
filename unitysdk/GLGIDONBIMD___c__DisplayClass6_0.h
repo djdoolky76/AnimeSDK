@@ -11,6 +11,8 @@ namespace UnityEngine { class Object; }
 #define GLGIDONBIMD___C__DISPLAYCLASS6_0__LOADBLOCK_B__1_OFFSET UNITYSDK_OFFSET(0x15AB1DA0)
 #define GLGIDONBIMD___C__DISPLAYCLASS6_0__LOADBLOCK_B__2_OFFSET UNITYSDK_OFFSET(0x15AB1DE0)
 
+inline static constexpr unsigned int GLGIDONBIMD___c__DisplayClass6_0_TypeDefinitionIndex = 49089;
+
 	class GLGIDONBIMD___c__DisplayClass6_0 : public ::System::Object
 	{
 	public:

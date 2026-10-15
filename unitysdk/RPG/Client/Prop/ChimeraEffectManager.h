@@ -10,6 +10,8 @@ namespace System { class Action; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int ChimeraEffectManager_TypeDefinitionIndex = 78431;
+
 	class ChimeraEffectManager : public ::UnityEngine::MonoBehaviour
 	{
 	public:

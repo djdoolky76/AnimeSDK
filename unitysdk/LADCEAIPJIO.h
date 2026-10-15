@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define LADCEAIPJIO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C71F4A0)
 #define LADCEAIPJIO_PCGCDDDBMFE_OFFSET UNITYSDK_OFFSET(0x1C71F920)
 
+inline static constexpr unsigned int LADCEAIPJIO_TypeDefinitionIndex = 36227;
+
 	class LADCEAIPJIO : public ::EGDGOMKKEJI
 	{
 	public:

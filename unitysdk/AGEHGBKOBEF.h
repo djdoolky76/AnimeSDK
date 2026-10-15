@@ -31,6 +31,8 @@ namespace System { class String; }
 #define AGEHGBKOBEF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E12A0D0)
 #define AGEHGBKOBEF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E12A130)
 
+inline static constexpr unsigned int AGEHGBKOBEF_TypeDefinitionIndex = 32656;
+
 	class AGEHGBKOBEF : public ::System::Object
 	{
 	public:

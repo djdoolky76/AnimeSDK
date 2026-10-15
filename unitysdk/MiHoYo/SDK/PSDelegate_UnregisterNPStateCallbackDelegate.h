@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int PSDelegate_UnregisterNPStateCallbackDelegate_TypeDefinitionIndex = 7767;
+
 	class PSDelegate_UnregisterNPStateCallbackDelegate : public ::System::MulticastDelegate
 	{
 	public:

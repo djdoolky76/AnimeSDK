@@ -7,6 +7,8 @@ class HNCHGCMKAKE;
 #define HNCHGCMKAKE_CTOR_OFFSET UNITYSDK_OFFSET(0x1CECAD30)
 #define HNCHGCMKAKE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CECABB0)
 
+inline static constexpr unsigned int HNCHGCMKAKE_TypeDefinitionIndex = 12703;
+
 	class HNCHGCMKAKE : public ::System::Object
 	{
 	public:

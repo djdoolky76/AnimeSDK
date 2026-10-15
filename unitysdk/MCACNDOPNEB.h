@@ -19,6 +19,8 @@ class LNHACPACCKH;
 #define MCACNDOPNEB_PKDGKBBOPFN_OFFSET UNITYSDK_OFFSET(0x1C747D90)
 #define MCACNDOPNEB_PNJODACLLPH_OFFSET UNITYSDK_OFFSET(0x1C747CE0)
 
+inline static constexpr unsigned int MCACNDOPNEB_TypeDefinitionIndex = 37099;
+
 	class MCACNDOPNEB : public ::System::Object
 	{
 	public:

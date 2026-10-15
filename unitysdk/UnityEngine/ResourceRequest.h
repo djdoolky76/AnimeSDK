@@ -10,6 +10,8 @@ namespace UnityEngine { class Object; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int ResourceRequest_TypeDefinitionIndex = 4276;
+
 	class ResourceRequest : public ::UnityEngine::AsyncOperation
 	{
 	public:

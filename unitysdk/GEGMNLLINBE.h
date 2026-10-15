@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define GEGMNLLINBE_CTOR_OFFSET UNITYSDK_OFFSET(0x159D64A0)
 #define GEGMNLLINBE_EVALUATE_OFFSET UNITYSDK_OFFSET(0x159D64D0)
 
+inline static constexpr unsigned int GEGMNLLINBE_TypeDefinitionIndex = 54174;
+
 	class GEGMNLLINBE
 	{
 	public:

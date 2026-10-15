@@ -6,6 +6,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int BeforeRenderOrderAttribute_TypeDefinitionIndex = 4096;
+
 	class BeforeRenderOrderAttribute : public ::System::Attribute
 	{
 	public:

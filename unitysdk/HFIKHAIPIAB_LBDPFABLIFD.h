@@ -6,6 +6,8 @@ namespace RPG::AvatarSystem { class IAvatar; }
 #define HFIKHAIPIAB_LBDPFABLIFD_CTOR_OFFSET UNITYSDK_OFFSET(0x15C7C850)
 #define HFIKHAIPIAB_LBDPFABLIFD_HKKFFCBJOKM_OFFSET UNITYSDK_OFFSET(0x15C7C860)
 
+inline static constexpr unsigned int HFIKHAIPIAB_LBDPFABLIFD_TypeDefinitionIndex = 65534;
+
 	class HFIKHAIPIAB_LBDPFABLIFD : public ::System::Object
 	{
 	public:

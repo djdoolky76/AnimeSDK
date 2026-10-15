@@ -16,6 +16,8 @@ namespace UnityEngine { class Renderer; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoRotatingBlockControl_TypeDefinitionIndex = 70743;
+
 	class MonoRotatingBlockControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

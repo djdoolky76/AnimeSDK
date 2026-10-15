@@ -10,6 +10,8 @@ namespace RPG::GameCore { class LevelMinimapPassage; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelMinimapPassage_TypeDefinitionIndex = 17218;
+
 	class LevelMinimapPassage : public ::RPG::GameCore::JsonConfig
 	{
 	public:

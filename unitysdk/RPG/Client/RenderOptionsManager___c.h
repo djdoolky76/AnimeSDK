@@ -12,6 +12,8 @@ namespace System { template <typename T> class Func_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RenderOptionsManager___c_TypeDefinitionIndex = 70172;
+
 	class RenderOptionsManager___c : public ::System::Object
 	{
 	public:

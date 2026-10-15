@@ -28,6 +28,8 @@ namespace XLua { class LuaTable; }
 #define OLCCKGFJONC_MIEIMHJEFEO_OFFSET UNITYSDK_OFFSET(0xBF00470)
 #define OLCCKGFJONC_NMECIBCMNPB_OFFSET UNITYSDK_OFFSET(0xBF00210)
 
+inline static constexpr unsigned int OLCCKGFJONC_TypeDefinitionIndex = 59402;
+
 	class OLCCKGFJONC : public ::System::Object
 	{
 	public:

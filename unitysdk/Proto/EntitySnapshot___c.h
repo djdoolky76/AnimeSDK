@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace Proto
 {
+	inline static constexpr unsigned int EntitySnapshot___c_TypeDefinitionIndex = 25825;
+
 	class EntitySnapshot___c : public ::System::Object
 	{
 	public:

@@ -13,6 +13,8 @@ namespace RPG::GameCore { class ChenLingBattleAbility_PlayBatchAnimation; }
 #define NDGDBNILCFG_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0xBB24070)
 #define NDGDBNILCFG_MHGJEAJIJMD_OFFSET UNITYSDK_OFFSET(0xBB23E70)
 
+inline static constexpr unsigned int NDGDBNILCFG_TypeDefinitionIndex = 77910;
+
 	class NDGDBNILCFG : public ::JNALBIEDNLH
 	{
 	public:

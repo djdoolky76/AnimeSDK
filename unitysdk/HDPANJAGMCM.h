@@ -16,6 +16,8 @@ class LAELJHAMFOF;
 #define HDPANJAGMCM_SET_IDENTIFIER_OFFSET UNITYSDK_OFFSET(0x15C406D0)
 #define HDPANJAGMCM_SET_TYPE_OFFSET UNITYSDK_OFFSET(0x15C406F0)
 
+inline static constexpr unsigned int HDPANJAGMCM_TypeDefinitionIndex = 62540;
+
 	class HDPANJAGMCM : public ::System::Object
 	{
 	public:

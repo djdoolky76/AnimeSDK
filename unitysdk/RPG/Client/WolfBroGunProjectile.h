@@ -37,6 +37,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int WolfBroGunProjectile_TypeDefinitionIndex = 68764;
+
 	class WolfBroGunProjectile : public ::UnityEngine::MonoBehaviour
 	{
 	public:

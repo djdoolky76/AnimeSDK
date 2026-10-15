@@ -14,6 +14,8 @@ namespace System { class String; }
 #define GHCBKKDBMMG_ONALLOC_OFFSET UNITYSDK_OFFSET(0x1CAA2050)
 #define GHCBKKDBMMG_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0x1CAA2130)
 
+inline static constexpr unsigned int GHCBKKDBMMG_TypeDefinitionIndex = 43518;
+
 	class GHCBKKDBMMG : public ::System::Object
 	{
 	public:

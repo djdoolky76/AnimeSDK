@@ -24,6 +24,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int NetworkErrorDialog_TypeDefinitionIndex = 72723;
+
 	class NetworkErrorDialog : public ::RPG::Client::UIController
 	{
 	public:

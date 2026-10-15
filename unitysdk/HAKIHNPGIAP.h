@@ -13,6 +13,8 @@ namespace UnityEngine { class GameObject; }
 #define HAKIHNPGIAP_LMJCDMPNBKE_OFFSET UNITYSDK_OFFSET(0x15B82680)
 #define HAKIHNPGIAP_SET_GAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x15B824C0)
 
+inline static constexpr unsigned int HAKIHNPGIAP_TypeDefinitionIndex = 47755;
+
 	class HAKIHNPGIAP : public ::NNEDFJMPCCK
 	{
 	public:

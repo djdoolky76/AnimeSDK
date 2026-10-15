@@ -28,6 +28,8 @@ namespace System { class String; }
 #define LGBFHCLGNCC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E949C40)
 #define LGBFHCLGNCC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E949CA0)
 
+inline static constexpr unsigned int LGBFHCLGNCC_TypeDefinitionIndex = 34674;
+
 	class LGBFHCLGNCC : public ::System::Object
 	{
 	public:

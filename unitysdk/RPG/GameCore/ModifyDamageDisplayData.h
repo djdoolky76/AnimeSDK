@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ModifyDamageDisplayData_TypeDefinitionIndex = 23078;
+
 	class ModifyDamageDisplayData : public ::RPG::GameCore::TaskConfig
 	{
 	public:

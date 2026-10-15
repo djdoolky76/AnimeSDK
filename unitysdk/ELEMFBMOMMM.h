@@ -28,6 +28,8 @@ namespace System { class String; }
 #define ELEMFBMOMMM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E2CE300)
 #define ELEMFBMOMMM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E2CE360)
 
+inline static constexpr unsigned int ELEMFBMOMMM_TypeDefinitionIndex = 28331;
+
 	class ELEMFBMOMMM : public ::System::Object
 	{
 	public:

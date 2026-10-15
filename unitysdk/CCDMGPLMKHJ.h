@@ -11,6 +11,8 @@ class JHCAHJLOHAG;
 #define CCDMGPLMKHJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1DA09810)
 #define CCDMGPLMKHJ_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DA095D0)
 
+inline static constexpr unsigned int CCDMGPLMKHJ_TypeDefinitionIndex = 15408;
+
 	class CCDMGPLMKHJ : public ::System::Object
 	{
 	public:

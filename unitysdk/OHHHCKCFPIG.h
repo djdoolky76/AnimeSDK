@@ -28,6 +28,8 @@ namespace System { class String; }
 #define OHHHCKCFPIG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE5F860)
 #define OHHHCKCFPIG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DE5F8C0)
 
+inline static constexpr unsigned int OHHHCKCFPIG_TypeDefinitionIndex = 29861;
+
 	class OHHHCKCFPIG : public ::System::Object
 	{
 	public:

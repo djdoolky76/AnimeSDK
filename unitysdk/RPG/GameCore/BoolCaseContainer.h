@@ -10,6 +10,8 @@ namespace RPG::GameCore { class BoolCaseContainer; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BoolCaseContainer_TypeDefinitionIndex = 17535;
+
 	class BoolCaseContainer : public ::RPG::GameCore::CaseContainerBase
 	{
 	public:

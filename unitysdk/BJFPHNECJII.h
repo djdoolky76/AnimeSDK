@@ -5,6 +5,8 @@
 
 #define BJFPHNECJII_CTOR_OFFSET UNITYSDK_OFFSET(0x1C8BB030)
 
+inline static constexpr unsigned int BJFPHNECJII_TypeDefinitionIndex = 42268;
+
 	class BJFPHNECJII : public ::System::Object
 	{
 	public:

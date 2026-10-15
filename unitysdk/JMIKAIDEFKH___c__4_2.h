@@ -4,6 +4,8 @@
 namespace System { class Object; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
+inline static constexpr unsigned int JMIKAIDEFKH___c__4_2_TypeDefinitionIndex = 49864;
+
 	template <typename T1, typename T2>
 	class JMIKAIDEFKH___c__4_2 : public ::System::Object
 	{

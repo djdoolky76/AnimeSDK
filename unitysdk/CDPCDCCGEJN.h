@@ -33,6 +33,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define CDPCDCCGEJN_PHBCJJBLJMA_OFFSET UNITYSDK_OFFSET(0xC777F80)
 #define CDPCDCCGEJN__ONTHREADHANDLE_B__2_0_OFFSET UNITYSDK_OFFSET(0xC778590)
 
+inline static constexpr unsigned int CDPCDCCGEJN_TypeDefinitionIndex = 59572;
+
 	class CDPCDCCGEJN : public ::IHFGILEEIGA
 	{
 	public:

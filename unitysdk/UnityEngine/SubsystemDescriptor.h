@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int SubsystemDescriptor_TypeDefinitionIndex = 5827;
+
 	class SubsystemDescriptor : public ::System::Object
 	{
 	public:

@@ -31,6 +31,8 @@ namespace System::Xml { class XmlNode; }
 
 namespace System::Xml
 {
+	inline static constexpr unsigned int XmlAttributeCollection_TypeDefinitionIndex = 1892;
+
 	class XmlAttributeCollection : public ::System::Xml::XmlNamedNodeMap
 	{
 	public:

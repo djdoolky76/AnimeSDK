@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FateModifierTriggerConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FateModifierTriggerConfig_TypeDefinitionIndex = 19258;
+
 	class FateModifierTriggerConfig : public ::RPG::GameCore::FateModifierConfigBase
 	{
 	public:

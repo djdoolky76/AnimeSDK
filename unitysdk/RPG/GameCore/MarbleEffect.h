@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MarbleEffect_TypeDefinitionIndex = 16908;
+
 	class MarbleEffect : public ::RPG::GameCore::JsonConfig
 	{
 	public:

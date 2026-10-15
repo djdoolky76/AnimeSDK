@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DeployPuzzleChangeLineIntensity_TypeDefinitionIndex = 21983;
+
 	class DeployPuzzleChangeLineIntensity : public ::RPG::GameCore::TaskConfig
 	{
 	public:

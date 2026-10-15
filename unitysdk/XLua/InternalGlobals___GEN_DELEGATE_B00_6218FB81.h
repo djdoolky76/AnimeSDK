@@ -14,6 +14,8 @@ namespace UnityEngine::Events { class UnityEvent; }
 
 namespace XLua
 {
+	inline static constexpr unsigned int InternalGlobals___GEN_DELEGATE_B00_6218FB81_TypeDefinitionIndex = 50201;
+
 	class InternalGlobals___GEN_DELEGATE_B00_6218FB81 : public ::System::MulticastDelegate
 	{
 	public:

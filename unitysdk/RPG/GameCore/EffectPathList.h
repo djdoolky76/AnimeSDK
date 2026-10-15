@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EffectPathList_TypeDefinitionIndex = 16351;
+
 	class EffectPathList : public ::RPG::GameCore::JsonConfig
 	{
 	public:

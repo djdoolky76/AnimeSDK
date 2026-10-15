@@ -6,6 +6,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define HAHINJAEOMB_CTOR_OFFSET UNITYSDK_OFFSET(0x15B78540)
 
+inline static constexpr unsigned int HAHINJAEOMB_TypeDefinitionIndex = 55544;
+
 	class HAHINJAEOMB : public ::System::Object
 	{
 	public:

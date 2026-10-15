@@ -5,6 +5,8 @@
 
 namespace UnityEngine::UIElements
 {
+	inline static constexpr unsigned int MouseCaptureEvent_TypeDefinitionIndex = 5915;
+
 	class MouseCaptureEvent
 	{
 	public:

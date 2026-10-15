@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int IVRSystem__GetTrackedDeviceIndexForControllerRole_TypeDefinitionIndex = 38908;
+
 	class IVRSystem__GetTrackedDeviceIndexForControllerRole : public ::System::MulticastDelegate
 	{
 	public:

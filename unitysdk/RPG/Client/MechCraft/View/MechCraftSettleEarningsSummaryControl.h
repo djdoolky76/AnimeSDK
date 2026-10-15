@@ -18,6 +18,8 @@ namespace RPG::Client::MechCraft::View { class MechCraftSettleEarningsSummaryCon
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftSettleEarningsSummaryControl_TypeDefinitionIndex = 80033;
+
 	class MechCraftSettleEarningsSummaryControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

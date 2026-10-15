@@ -15,6 +15,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace RPG::Client::LittleGame
 {
+	inline static constexpr unsigned int MatchThreeGameController_TypeDefinitionIndex = 76560;
+
 	class MatchThreeGameController : public ::UnityEngine::MonoBehaviour
 	{
 	public:

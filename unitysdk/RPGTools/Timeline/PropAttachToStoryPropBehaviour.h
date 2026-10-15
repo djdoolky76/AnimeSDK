@@ -12,6 +12,8 @@ namespace RPGTools::Timeline { class PropAttachToStoryPropClip; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int PropAttachToStoryPropBehaviour_TypeDefinitionIndex = 48242;
+
 	class PropAttachToStoryPropBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

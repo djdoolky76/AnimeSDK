@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 #define HMHJLFAENIP_IFCIIIDCNIH_OFFSET UNITYSDK_OFFSET(0x1C48ADE0)
 #define HMHJLFAENIP_KPIHIPNOONP_OFFSET UNITYSDK_OFFSET(0x1C48AE30)
 
+inline static constexpr unsigned int HMHJLFAENIP_TypeDefinitionIndex = 41474;
+
 	class HMHJLFAENIP : public ::System::Object
 	{
 	public:

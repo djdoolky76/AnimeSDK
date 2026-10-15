@@ -16,6 +16,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::DiceCombat
 {
+	inline static constexpr unsigned int DiceCombatV2MainUI3DBossLogoLoader_TypeDefinitionIndex = 76207;
+
 	class DiceCombatV2MainUI3DBossLogoLoader : public ::System::Object
 	{
 	public:

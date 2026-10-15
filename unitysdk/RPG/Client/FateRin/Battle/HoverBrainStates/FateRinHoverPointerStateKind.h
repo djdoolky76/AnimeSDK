@@ -3,6 +3,8 @@
 
 namespace RPG::Client::FateRin::Battle::HoverBrainStates
 {
+	inline static constexpr unsigned int FateRinHoverPointerStateKind_TypeDefinitionIndex = 80999;
+
 	enum class FateRinHoverPointerStateKind : ::System::Int32
 	{
 		Idle = 0,

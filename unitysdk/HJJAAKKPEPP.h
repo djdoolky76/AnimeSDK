@@ -19,6 +19,8 @@ namespace System { class String; }
 #define HJJAAKKPEPP_SET_REQUIREDCASTTIME_OFFSET UNITYSDK_OFFSET(0x15D24D30)
 #define HJJAAKKPEPP_SET_TARGETS_OFFSET UNITYSDK_OFFSET(0x15D24DD0)
 
+inline static constexpr unsigned int HJJAAKKPEPP_TypeDefinitionIndex = 75825;
+
 	class HJJAAKKPEPP
 	{
 	public:

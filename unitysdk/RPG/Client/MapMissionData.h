@@ -49,6 +49,8 @@ namespace RPG::GameCore { class MappingInfoRow; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MapMissionData_TypeDefinitionIndex = 62920;
+
 	class MapMissionData : public ::System::Object
 	{
 	public:

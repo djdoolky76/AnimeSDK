@@ -28,6 +28,8 @@ namespace System::Xml { class Ucs4Decoder; }
 
 namespace System::Xml
 {
+	inline static constexpr unsigned int Ucs4Encoding_TypeDefinitionIndex = 1952;
+
 	class Ucs4Encoding : public ::System::Text::Encoding
 	{
 	public:

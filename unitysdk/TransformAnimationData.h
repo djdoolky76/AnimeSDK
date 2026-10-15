@@ -9,6 +9,8 @@ namespace UnityEngine { class Transform; }
 #define TRANSFORMANIMATIONDATA_CTOR_OFFSET UNITYSDK_OFFSET(0xE9E3780)
 #define TRANSFORMANIMATIONDATA_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xE9E3730)
 
+inline static constexpr unsigned int TransformAnimationData_TypeDefinitionIndex = 47144;
+
 	class TransformAnimationData : public ::UnityEngine::ScriptableObject
 	{
 	public:

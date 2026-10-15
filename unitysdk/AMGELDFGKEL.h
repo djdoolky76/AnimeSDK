@@ -7,6 +7,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define AMGELDFGKEL_CTOR_OFFSET UNITYSDK_OFFSET(0x1557E630)
 #define AMGELDFGKEL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1557E710)
 
+inline static constexpr unsigned int AMGELDFGKEL_TypeDefinitionIndex = 55444;
+
 	class AMGELDFGKEL
 	{
 	public:

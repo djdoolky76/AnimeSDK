@@ -4,6 +4,8 @@
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriAtomExLatencyEstimator_EstimatorInfo_TypeDefinitionIndex = 40008;
+
 	struct alignas(4) CriAtomExLatencyEstimator_EstimatorInfo
 	{
 		::CriWare::CriAtomExLatencyEstimator_Status status; // 0x10

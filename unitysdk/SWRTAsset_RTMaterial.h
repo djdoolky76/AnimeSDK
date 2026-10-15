@@ -2,6 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
+inline static constexpr unsigned int SWRTAsset_RTMaterial_TypeDefinitionIndex = 37485;
+
 	struct alignas(4) SWRTAsset_RTMaterial
 	{
 		::System::Int32 AlbedoSlice; // 0x10

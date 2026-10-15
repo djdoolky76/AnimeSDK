@@ -14,6 +14,8 @@ namespace RPG::Client::ChenLingBattle { class CardPreCheckResult; }
 
 namespace RPG::Client::ChenLingBattle
 {
+	inline static constexpr unsigned int CardPreCheckResult_TypeDefinitionIndex = 76343;
+
 	class CardPreCheckResult : public ::System::Object
 	{
 	public:

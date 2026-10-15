@@ -10,6 +10,8 @@ namespace RPG::GameCore { class SingleMazeBuffToastConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MazeBuffToastConfigLookup_TypeDefinitionIndex = 17635;
+
 	class MazeBuffToastConfigLookup : public ::RPG::GameCore::JsonConfig
 	{
 	public:

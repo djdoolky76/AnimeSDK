@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FeatureData_TypeDefinitionIndex = 60002;
+
 	class FeatureData : public ::System::Object
 	{
 	public:

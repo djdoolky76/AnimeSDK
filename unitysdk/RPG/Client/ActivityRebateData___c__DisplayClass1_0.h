@@ -9,6 +9,8 @@ namespace RPG::Client { class ActivityRebateTriggerData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ActivityRebateData___c__DisplayClass1_0_TypeDefinitionIndex = 61901;
+
 	class ActivityRebateData___c__DisplayClass1_0 : public ::System::Object
 	{
 	public:

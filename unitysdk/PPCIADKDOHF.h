@@ -27,6 +27,8 @@ namespace System { class String; }
 #define PPCIADKDOHF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DFD4960)
 #define PPCIADKDOHF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DFD49C0)
 
+inline static constexpr unsigned int PPCIADKDOHF_TypeDefinitionIndex = 32184;
+
 	class PPCIADKDOHF : public ::System::Object
 	{
 	public:

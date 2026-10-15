@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::HoYoPass
 {
+	inline static constexpr unsigned int LoginManager___c__DisplayClass42_1_TypeDefinitionIndex = 8315;
+
 	template <typename T>
 	class LoginManager___c__DisplayClass42_1 : public ::System::Object
 	{

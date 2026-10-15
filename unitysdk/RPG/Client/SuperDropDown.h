@@ -51,6 +51,8 @@ namespace XLua { class LuaTable; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SuperDropDown_TypeDefinitionIndex = 72667;
+
 	class SuperDropDown : public ::UnityEngine::UI::Dropdown
 	{
 	public:

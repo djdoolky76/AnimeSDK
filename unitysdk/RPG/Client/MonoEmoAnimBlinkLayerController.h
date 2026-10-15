@@ -17,6 +17,8 @@ namespace RPG::Client { class MonoEmoAnimBlinkLayerController_AnimLayerBlink; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEmoAnimBlinkLayerController_TypeDefinitionIndex = 71138;
+
 	class MonoEmoAnimBlinkLayerController : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -20,6 +20,8 @@ namespace UnityEngine::Timeline { class TimelineClip; }
 
 namespace UnityEngine::Timeline
 {
+	inline static constexpr unsigned int RuntimeClip_TypeDefinitionIndex = 38822;
+
 	class RuntimeClip : public ::UnityEngine::Timeline::RuntimeClipBase
 	{
 	public:

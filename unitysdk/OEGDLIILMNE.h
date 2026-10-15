@@ -6,6 +6,8 @@
 
 #define OEGDLIILMNE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C98C620)
 
+inline static constexpr unsigned int OEGDLIILMNE_TypeDefinitionIndex = 42259;
+
 	class OEGDLIILMNE : public ::System::Object
 	{
 	public:

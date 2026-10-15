@@ -30,6 +30,8 @@ namespace System { class String; }
 #define OBBBNMEIFDO_MDLHDCJJMBK_OFFSET UNITYSDK_OFFSET(0xBD35F00)
 #define OBBBNMEIFDO_PEONLJFIHNF_OFFSET UNITYSDK_OFFSET(0xBD34DB0)
 
+inline static constexpr unsigned int OBBBNMEIFDO_TypeDefinitionIndex = 71132;
+
 	class OBBBNMEIFDO : public ::System::Object
 	{
 	public:

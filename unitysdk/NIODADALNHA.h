@@ -4,6 +4,8 @@
 
 #define NIODADALNHA_CTOR_OFFSET UNITYSDK_OFFSET(0xBC056E0)
 
+inline static constexpr unsigned int NIODADALNHA_TypeDefinitionIndex = 56308;
+
 	class NIODADALNHA : public ::System::Object
 	{
 	public:

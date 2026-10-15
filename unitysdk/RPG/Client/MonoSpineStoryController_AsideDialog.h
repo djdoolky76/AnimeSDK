@@ -9,6 +9,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoSpineStoryController_AsideDialog_TypeDefinitionIndex = 60292;
+
 	struct alignas(8) MonoSpineStoryController_AsideDialog
 	{
 		::UnityEngine::GameObject* root; // 0x10

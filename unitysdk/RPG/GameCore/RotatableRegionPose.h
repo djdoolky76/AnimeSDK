@@ -11,6 +11,8 @@ namespace RPG::GameCore { class RotatableRegionPose; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RotatableRegionPose_TypeDefinitionIndex = 17022;
+
 	class RotatableRegionPose : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System { class Object; }
 #define IDDBHGHKHHK_IJOONKNIDKI_OFFSET UNITYSDK_OFFSET(0x15EB5270)
 #define IDDBHGHKHHK_KEECIJEOGGC_OFFSET UNITYSDK_OFFSET(0x15EB5300)
 
+inline static constexpr unsigned int IDDBHGHKHHK_TypeDefinitionIndex = 67251;
+
 	class IDDBHGHKHHK : public ::System::Object
 	{
 	public:

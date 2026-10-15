@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define FBBJIKDLIFH_CTOR_OFFSET UNITYSDK_OFFSET(0x15695390)
 #define FBBJIKDLIFH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x156953C0)
 
+inline static constexpr unsigned int FBBJIKDLIFH_TypeDefinitionIndex = 53052;
+
 	class FBBJIKDLIFH
 	{
 	public:

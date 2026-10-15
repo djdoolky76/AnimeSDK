@@ -11,6 +11,8 @@ namespace System { class Object; }
 #define BPCJPPDKFJL_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xC19FAE0)
 #define BPCJPPDKFJL_INVOKE_OFFSET UNITYSDK_OFFSET(0xC19FAA0)
 
+inline static constexpr unsigned int BPCJPPDKFJL_TypeDefinitionIndex = 49782;
+
 	class BPCJPPDKFJL : public ::System::MulticastDelegate
 	{
 	public:

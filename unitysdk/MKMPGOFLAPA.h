@@ -37,6 +37,8 @@ namespace System { class String; }
 #define MKMPGOFLAPA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA5ABE0)
 #define MKMPGOFLAPA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA5AC40)
 
+inline static constexpr unsigned int MKMPGOFLAPA_TypeDefinitionIndex = 32408;
+
 	class MKMPGOFLAPA : public ::System::Object
 	{
 	public:

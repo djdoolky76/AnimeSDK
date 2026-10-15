@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FindAnchorConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FindAnchorConfig_TypeDefinitionIndex = 21629;
+
 	class FindAnchorConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

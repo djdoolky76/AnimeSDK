@@ -114,6 +114,8 @@ namespace UnityEngine { class Transform; }
 #define PHDPAKFFLOK_PKGGDDMKMMO_OFFSET UNITYSDK_OFFSET(0xC245E80)
 #define PHDPAKFFLOK_PMJLBGDHCHJ_OFFSET UNITYSDK_OFFSET(0xC245DF0)
 
+inline static constexpr unsigned int PHDPAKFFLOK_TypeDefinitionIndex = 69695;
+
 	class PHDPAKFFLOK : public ::System::Object
 	{
 	public:

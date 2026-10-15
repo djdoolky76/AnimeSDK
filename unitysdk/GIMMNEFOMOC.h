@@ -28,6 +28,8 @@ namespace ZLinq { class ValueEnumerable; }
 #define GIMMNEFOMOC_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CE51A10)
 #define GIMMNEFOMOC_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CE51010)
 
+inline static constexpr unsigned int GIMMNEFOMOC_TypeDefinitionIndex = 14400;
+
 	class GIMMNEFOMOC : public ::System::Object
 	{
 	public:

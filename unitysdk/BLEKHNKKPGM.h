@@ -8,6 +8,8 @@
 #define BLEKHNKKPGM_OLJONBLIMLE_OFFSET UNITYSDK_OFFSET(0x1C437AD0)
 #define BLEKHNKKPGM_OMBLDFAGIEJ_OFFSET UNITYSDK_OFFSET(0x1C437E80)
 
+inline static constexpr unsigned int BLEKHNKKPGM_TypeDefinitionIndex = 41390;
+
 	class BLEKHNKKPGM : public ::System::Object
 	{
 	public:

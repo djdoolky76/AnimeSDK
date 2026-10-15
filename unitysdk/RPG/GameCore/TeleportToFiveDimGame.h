@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TeleportToFiveDimGame; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TeleportToFiveDimGame_TypeDefinitionIndex = 21282;
+
 	class TeleportToFiveDimGame : public ::RPG::GameCore::TaskConfig
 	{
 	public:

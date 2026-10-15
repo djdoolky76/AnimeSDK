@@ -15,6 +15,8 @@ namespace System { class Action; }
 
 namespace RPG::Client::TeamTowers
 {
+	inline static constexpr unsigned int TeamTowersWindowService_TypeDefinitionIndex = 79054;
+
 	class TeamTowersWindowService : public ::System::Object
 	{
 	public:

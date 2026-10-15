@@ -42,6 +42,8 @@ namespace System { class String; }
 #define EJEDKALMMNP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E2B2ED0)
 #define EJEDKALMMNP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E2B2F30)
 
+inline static constexpr unsigned int EJEDKALMMNP_TypeDefinitionIndex = 32487;
+
 	class EJEDKALMMNP : public ::System::Object
 	{
 	public:

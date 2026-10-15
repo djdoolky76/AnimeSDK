@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define GFCFEODJEEF_NNOFOPMJPOB_OFFSET UNITYSDK_OFFSET(0x159E9120)
 #define GFCFEODJEEF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x159E9220)
 
+inline static constexpr unsigned int GFCFEODJEEF_TypeDefinitionIndex = 53261;
+
 	class GFCFEODJEEF
 	{
 	public:

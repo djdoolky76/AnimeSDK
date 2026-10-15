@@ -10,6 +10,8 @@ namespace UnityEngine { class Material; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int AvatarEffectInfo_EffectMaterialGroup_TypeDefinitionIndex = 37584;
+
 	class AvatarEffectInfo_EffectMaterialGroup : public ::System::Object
 	{
 	public:

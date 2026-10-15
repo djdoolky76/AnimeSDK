@@ -19,6 +19,8 @@ namespace System::Xml { class XmlWriter; }
 
 namespace System::Xml
 {
+	inline static constexpr unsigned int XmlCDataSection_TypeDefinitionIndex = 1893;
+
 	class XmlCDataSection : public ::System::Xml::XmlCharacterData
 	{
 	public:

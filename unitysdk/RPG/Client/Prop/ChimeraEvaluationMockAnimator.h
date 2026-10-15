@@ -10,6 +10,8 @@ namespace UnityEngine { class Animator; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int ChimeraEvaluationMockAnimator_TypeDefinitionIndex = 78446;
+
 	class ChimeraEvaluationMockAnimator : public ::UnityEngine::MonoBehaviour
 	{
 	public:

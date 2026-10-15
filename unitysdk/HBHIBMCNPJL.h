@@ -7,6 +7,8 @@ namespace RPG::Client::FateRin::Battle { class FateRinBattleHudHoverBrain; }
 #define HBHIBMCNPJL_BEMHFPJIJME_OFFSET UNITYSDK_OFFSET(0x15C045E0)
 #define HBHIBMCNPJL_CTOR_OFFSET UNITYSDK_OFFSET(0x15C04690)
 
+inline static constexpr unsigned int HBHIBMCNPJL_TypeDefinitionIndex = 80990;
+
 	class HBHIBMCNPJL : public ::OMCMJNICFCH
 	{
 	public:

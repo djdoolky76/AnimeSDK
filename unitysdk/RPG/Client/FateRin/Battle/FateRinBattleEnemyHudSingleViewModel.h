@@ -94,6 +94,8 @@ namespace XLua { class LuaTable; }
 
 namespace RPG::Client::FateRin::Battle
 {
+	inline static constexpr unsigned int FateRinBattleEnemyHudSingleViewModel_TypeDefinitionIndex = 80862;
+
 	class FateRinBattleEnemyHudSingleViewModel : public ::RPG::Client::FateRin::BaseViewModel
 	{
 	public:

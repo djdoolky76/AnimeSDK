@@ -11,6 +11,8 @@ namespace System { class Object; }
 
 namespace RPG::Client::ChenLingBattle
 {
+	inline static constexpr unsigned int ActionPhase___c_TypeDefinitionIndex = 76287;
+
 	class ActionPhase___c : public ::System::Object
 	{
 	public:

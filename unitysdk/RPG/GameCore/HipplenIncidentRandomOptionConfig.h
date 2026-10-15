@@ -11,6 +11,8 @@ namespace RPG::GameCore { class HipplenIncidentRandomSettlementConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int HipplenIncidentRandomOptionConfig_TypeDefinitionIndex = 16811;
+
 	class HipplenIncidentRandomOptionConfig : public ::RPG::GameCore::HipplenIncidentOptionConfig
 	{
 	public:

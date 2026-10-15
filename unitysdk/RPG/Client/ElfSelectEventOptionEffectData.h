@@ -23,6 +23,8 @@ namespace RPG::GameCore { class RestaurantOptionEffectConfigRow; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ElfSelectEventOptionEffectData_TypeDefinitionIndex = 63673;
+
 	class ElfSelectEventOptionEffectData : public ::System::Object
 	{
 	public:

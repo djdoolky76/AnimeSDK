@@ -13,6 +13,8 @@ namespace UnityEngine::ProBuilder { class WingedEdge; }
 
 namespace UnityEngine::ProBuilder
 {
+	inline static constexpr unsigned int WingedEdge___c_TypeDefinitionIndex = 44455;
+
 	class WingedEdge___c : public ::System::Object
 	{
 	public:

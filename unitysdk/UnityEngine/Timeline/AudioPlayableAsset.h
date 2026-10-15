@@ -24,6 +24,8 @@ namespace UnityEngine::Timeline { class AudioClipProperties; }
 
 namespace UnityEngine::Timeline
 {
+	inline static constexpr unsigned int AudioPlayableAsset_TypeDefinitionIndex = 38807;
+
 	class AudioPlayableAsset : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

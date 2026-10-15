@@ -36,6 +36,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define PNNPEPDNFEA_NHJNDJKIKIJ_OFFSET UNITYSDK_OFFSET(0xC352430)
 #define PNNPEPDNFEA_PBFNKBCLIPB_OFFSET UNITYSDK_OFFSET(0xC352BF0)
 
+inline static constexpr unsigned int PNNPEPDNFEA_TypeDefinitionIndex = 54379;
+
 	class PNNPEPDNFEA : public ::BEMKNPIFMBI
 	{
 	public:

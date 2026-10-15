@@ -21,6 +21,8 @@ namespace System { class Action; }
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int AsyncGPUReadbackRequest_TypeDefinitionIndex = 4687;
+
 	struct alignas(4) AsyncGPUReadbackRequest
 	{
 		::System::IntPtr m_Ptr; // 0x10

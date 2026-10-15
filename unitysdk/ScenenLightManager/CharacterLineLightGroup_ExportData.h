@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace ScenenLightManager
 {
+	inline static constexpr unsigned int CharacterLineLightGroup_ExportData_TypeDefinitionIndex = 49106;
+
 	class CharacterLineLightGroup_ExportData : public ::ScenenLightManager::BaseComponentExportData
 	{
 	public:

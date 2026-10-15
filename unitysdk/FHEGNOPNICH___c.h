@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define FHEGNOPNICH___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E38B110)
 #define FHEGNOPNICH___C___CCTOR_B__53_0_OFFSET UNITYSDK_OFFSET(0x1E38B120)
 
+inline static constexpr unsigned int FHEGNOPNICH___c_TypeDefinitionIndex = 32331;
+
 	class FHEGNOPNICH___c : public ::System::Object
 	{
 	public:

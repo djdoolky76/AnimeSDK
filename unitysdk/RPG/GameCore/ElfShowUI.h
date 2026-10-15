@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ElfShowUI_TypeDefinitionIndex = 21738;
+
 	class ElfShowUI : public ::RPG::GameCore::TaskConfig
 	{
 	public:

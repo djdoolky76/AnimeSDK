@@ -4,6 +4,8 @@
 
 #define EBLNJDHJONO_AFKMOKOLLPC_OFFSET UNITYSDK_OFFSET(0x1CD600F0)
 
+inline static constexpr unsigned int EBLNJDHJONO_TypeDefinitionIndex = 10701;
+
 	class EBLNJDHJONO : public ::System::Object
 	{
 	public:

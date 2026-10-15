@@ -8,6 +8,8 @@ namespace RPG::Client::LittleGame::CakeRace { class CakeRaceCatMonoView; }
 #define ECPGBDINBAB___C__DISPLAYCLASS94_0___LOOKATCHAMPIONCAT_B__0_OFFSET UNITYSDK_OFFSET(0x1330D5E0)
 #define ECPGBDINBAB___C__DISPLAYCLASS94_0___LOOKATCHAMPIONCAT_B__1_OFFSET UNITYSDK_OFFSET(0x1330D670)
 
+inline static constexpr unsigned int ECPGBDINBAB___c__DisplayClass94_0_TypeDefinitionIndex = 78021;
+
 	class ECPGBDINBAB___c__DisplayClass94_0 : public ::System::Object
 	{
 	public:

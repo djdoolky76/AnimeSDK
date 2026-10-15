@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define AJGCNELACML_CTOR_OFFSET UNITYSDK_OFFSET(0x12CBBE50)
 #define AJGCNELACML_EVALUATE_OFFSET UNITYSDK_OFFSET(0x12CBBE80)
 
+inline static constexpr unsigned int AJGCNELACML_TypeDefinitionIndex = 54553;
+
 	class AJGCNELACML
 	{
 	public:

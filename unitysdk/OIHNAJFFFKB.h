@@ -11,6 +11,8 @@
 #define OIHNAJFFFKB_SET_ID_OFFSET UNITYSDK_OFFSET(0xBE94C90)
 #define OIHNAJFFFKB_SET_PERCENTAGEVALUE_OFFSET UNITYSDK_OFFSET(0xBE94CB0)
 
+inline static constexpr unsigned int OIHNAJFFFKB_TypeDefinitionIndex = 68273;
+
 	class OIHNAJFFFKB : public ::System::Object
 	{
 	public:

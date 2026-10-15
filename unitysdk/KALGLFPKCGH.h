@@ -9,6 +9,8 @@ namespace UnityEngine { class Transform; }
 #define KALGLFPKCGH_NKPPGDENJAE_OFFSET UNITYSDK_OFFSET(0xB2DE580)
 #define KALGLFPKCGH__ONBIND_OFFSET UNITYSDK_OFFSET(0xB2DE380)
 
+inline static constexpr unsigned int KALGLFPKCGH_TypeDefinitionIndex = 72273;
+
 	class KALGLFPKCGH : public ::FMPCODLIOLG
 	{
 	public:

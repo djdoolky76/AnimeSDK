@@ -7,6 +7,8 @@ namespace System { class IDisposable; }
 
 namespace R3
 {
+	inline static constexpr unsigned int Disposable_TypeDefinitionIndex = 35903;
+
 	class Disposable : public ::System::Object
 	{
 	public:

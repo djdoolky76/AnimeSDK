@@ -4,6 +4,8 @@
 
 #define KHBGHHFCEOA_CTOR_OFFSET UNITYSDK_OFFSET(0xB3FC850)
 
+inline static constexpr unsigned int KHBGHHFCEOA_TypeDefinitionIndex = 48184;
+
 	class KHBGHHFCEOA : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChallengeBossIntroStageViewModel__CreateAll_d__13_TypeDefinitionIndex = 63075;
+
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10, typename T11, typename T12, typename T13>
 	class ChallengeBossIntroStageViewModel__CreateAll_d__13 : public ::System::Object
 	{

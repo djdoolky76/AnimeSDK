@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace HedgehogTeam::EasyTouch
 {
+	inline static constexpr unsigned int EasyTouch_PinchOutHandler_TypeDefinitionIndex = 40316;
+
 	class EasyTouch_PinchOutHandler : public ::System::MulticastDelegate
 	{
 	public:

@@ -4,6 +4,8 @@
 
 #define ICEBONFCKMP_CTOR_OFFSET UNITYSDK_OFFSET(0x15E4D640)
 
+inline static constexpr unsigned int ICEBONFCKMP_TypeDefinitionIndex = 72401;
+
 	class ICEBONFCKMP : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System { class Object; }
 #define JLGAPJLCIKO_JLALEFOPIOH_EQUALS_OFFSET UNITYSDK_OFFSET(0xB24A0A0)
 #define JLGAPJLCIKO_JLALEFOPIOH_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0xB24A1B0)
 
+inline static constexpr unsigned int JLGAPJLCIKO_JLALEFOPIOH_TypeDefinitionIndex = 70684;
+
 	class JLGAPJLCIKO_JLALEFOPIOH : public ::System::Object
 	{
 	public:

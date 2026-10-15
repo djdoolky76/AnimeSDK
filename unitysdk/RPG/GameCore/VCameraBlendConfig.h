@@ -11,6 +11,8 @@ namespace RPG::GameCore { class VCameraBlendConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int VCameraBlendConfig_TypeDefinitionIndex = 20281;
+
 	class VCameraBlendConfig : public ::RPG::GameCore::TaskConfig
 	{
 	public:

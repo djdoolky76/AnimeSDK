@@ -9,6 +9,8 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ConvinceSpliteLineConfig_TypeDefinitionIndex = 60677;
+
 	class ConvinceSpliteLineConfig : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace RPG::Client::TrainParty
 {
+	inline static constexpr unsigned int TrainPartyEventFadeInData_TypeDefinitionIndex = 74318;
+
 	class TrainPartyEventFadeInData : public ::System::Object
 	{
 	public:

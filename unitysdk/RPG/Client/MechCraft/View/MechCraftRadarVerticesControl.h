@@ -12,6 +12,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftRadarVerticesControl_TypeDefinitionIndex = 79826;
+
 	class MechCraftRadarVerticesControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

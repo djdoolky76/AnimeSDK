@@ -10,6 +10,8 @@
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int CRPCameraSmallWindowControlCenterAndSize_TypeDefinitionIndex = 47896;
+
 	class CRPCameraSmallWindowControlCenterAndSize : public ::System::Object
 	{
 	public:

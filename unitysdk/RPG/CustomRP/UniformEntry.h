@@ -7,6 +7,8 @@ namespace UnityEngine { class MonoBehaviour; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int UniformEntry_TypeDefinitionIndex = 37756;
+
 	struct alignas(8) UniformEntry
 	{
 		::UnityEngine::MonoBehaviour* owner; // 0x10

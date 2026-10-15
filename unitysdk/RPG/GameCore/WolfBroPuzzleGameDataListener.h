@@ -11,6 +11,8 @@ namespace RPG::GameCore { class WolfBroPuzzleGameDataListener; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WolfBroPuzzleGameDataListener_TypeDefinitionIndex = 21169;
+
 	class WolfBroPuzzleGameDataListener : public ::RPG::GameCore::TaskConfig
 	{
 	public:

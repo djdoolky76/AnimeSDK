@@ -7,6 +7,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 
 namespace System::Linq
 {
+	inline static constexpr unsigned int Enumerable__WhereIterator_d__2_1_TypeDefinitionIndex = 3141;
+
 	template <typename T>
 	class Enumerable__WhereIterator_d__2_1 : public ::System::Object
 	{

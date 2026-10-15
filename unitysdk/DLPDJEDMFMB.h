@@ -13,6 +13,8 @@ namespace UnityEngine { class Transform; }
 #define DLPDJEDMFMB_LJBCDJNNBJH_OFFSET UNITYSDK_OFFSET(0xF8BC330)
 #define DLPDJEDMFMB_LKJGCBHLILB_OFFSET UNITYSDK_OFFSET(0xF8BC470)
 
+inline static constexpr unsigned int DLPDJEDMFMB_TypeDefinitionIndex = 81927;
+
 	class DLPDJEDMFMB : public ::System::Object
 	{
 	public:

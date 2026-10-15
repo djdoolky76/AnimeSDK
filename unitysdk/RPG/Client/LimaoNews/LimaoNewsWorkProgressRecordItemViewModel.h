@@ -26,6 +26,8 @@ namespace Sofa::Core { class SimpleCommand; }
 
 namespace RPG::Client::LimaoNews
 {
+	inline static constexpr unsigned int LimaoNewsWorkProgressRecordItemViewModel_TypeDefinitionIndex = 80448;
+
 	class LimaoNewsWorkProgressRecordItemViewModel : public ::System::Object
 	{
 	public:

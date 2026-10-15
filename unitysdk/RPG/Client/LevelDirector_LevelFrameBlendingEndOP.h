@@ -8,6 +8,8 @@ namespace RPG::Client { class LevelDirector; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int LevelDirector_LevelFrameBlendingEndOP_TypeDefinitionIndex = 59304;
+
 	class LevelDirector_LevelFrameBlendingEndOP : public ::System::Object
 	{
 	public:

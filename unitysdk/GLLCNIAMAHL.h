@@ -9,6 +9,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define GLLCNIAMAHL_DNCFBGANPCD_OFFSET UNITYSDK_OFFSET(0x15ABC070)
 #define GLLCNIAMAHL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15ABBE20)
 
+inline static constexpr unsigned int GLLCNIAMAHL_TypeDefinitionIndex = 55072;
+
 	class GLLCNIAMAHL
 	{
 	public:

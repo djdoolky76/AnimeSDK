@@ -9,6 +9,8 @@ namespace RPG::GameCore { class GridFightStageLevelValueConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightStageLevelValueConfigRow_TypeDefinitionIndex = 13623;
+
 	class GridFightStageLevelValueConfigRow : public ::System::Object
 	{
 	public:

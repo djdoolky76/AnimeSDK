@@ -8,6 +8,8 @@
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int CharacterMeetPerformService_BattleAvatarGender_TypeDefinitionIndex = 75167;
+
 	class CharacterMeetPerformService_BattleAvatarGender : public ::System::Object
 	{
 	public:

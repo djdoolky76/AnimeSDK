@@ -14,6 +14,8 @@ namespace RPGTools::Timeline { class TimelineEventArgument; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int EventTimelineBehaviour_TypeDefinitionIndex = 48425;
+
 	class EventTimelineBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

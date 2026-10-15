@@ -23,6 +23,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::ChenLingFes
 {
+	inline static constexpr unsigned int ChenLingFesGameplayOperateItemControl_TypeDefinitionIndex = 81315;
+
 	class ChenLingFesGameplayOperateItemControl : public ::Sofa::BaseSofaControl
 	{
 	public:

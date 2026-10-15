@@ -17,6 +17,8 @@ namespace System { class String; }
 #define LNMEGEABJHF_JDAIIADMFCA_OFFSET UNITYSDK_OFFSET(0x3C28B70)
 #define LNMEGEABJHF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3C28A60)
 
+inline static constexpr unsigned int LNMEGEABJHF_TypeDefinitionIndex = 41620;
+
 	struct alignas(4) LNMEGEABJHF
 	{
 		::System::Int32 _Start_k__BackingField; // 0x10

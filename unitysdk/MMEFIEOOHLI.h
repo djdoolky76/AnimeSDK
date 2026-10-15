@@ -16,6 +16,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define MMEFIEOOHLI_PALDAONIFPJ_OFFSET UNITYSDK_OFFSET(0xB9C1670)
 #define MMEFIEOOHLI_TICK_OFFSET UNITYSDK_OFFSET(0xB9C1BA0)
 
+inline static constexpr unsigned int MMEFIEOOHLI_TypeDefinitionIndex = 58030;
+
 	class MMEFIEOOHLI : public ::GELIALJDFBL
 	{
 	public:

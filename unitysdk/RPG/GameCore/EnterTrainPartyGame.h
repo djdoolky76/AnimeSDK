@@ -10,6 +10,8 @@ namespace RPG::GameCore { class EnterTrainPartyGame; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EnterTrainPartyGame_TypeDefinitionIndex = 22355;
+
 	class EnterTrainPartyGame : public ::RPG::GameCore::TaskConfig
 	{
 	public:

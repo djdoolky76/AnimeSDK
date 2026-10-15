@@ -25,6 +25,8 @@ namespace System { class String; }
 #define JDMILAADNLN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E70EA30)
 #define JDMILAADNLN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E70EA90)
 
+inline static constexpr unsigned int JDMILAADNLN_TypeDefinitionIndex = 33834;
+
 	class JDMILAADNLN : public ::System::Object
 	{
 	public:

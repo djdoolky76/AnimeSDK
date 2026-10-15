@@ -13,6 +13,8 @@ namespace RPG::GameCore { class WaitFloorCustomValueChange; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaitFloorCustomValueChange_TypeDefinitionIndex = 20696;
+
 	class WaitFloorCustomValueChange : public ::RPG::GameCore::AdvWaitingEventBase
 	{
 	public:

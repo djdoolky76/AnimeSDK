@@ -5,6 +5,8 @@ namespace System::Collections::Generic { template <typename T> class EqualityCom
 
 namespace Google::Protobuf::Collections
 {
+	inline static constexpr unsigned int RepeatedField_1_TypeDefinitionIndex = 5591;
+
 	template <typename T>
 	class RepeatedField_1 : public ::System::Object
 	{

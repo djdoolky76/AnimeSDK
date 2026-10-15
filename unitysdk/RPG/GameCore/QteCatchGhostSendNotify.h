@@ -11,6 +11,8 @@ namespace RPG::GameCore { class QteCatchGhostSendNotify; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int QteCatchGhostSendNotify_TypeDefinitionIndex = 22048;
+
 	class QteCatchGhostSendNotify : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -7,6 +7,8 @@
 
 namespace InControl::NativeDeviceProfiles
 {
+	inline static constexpr unsigned int SDLLogitechF710ModeXNativeProfile_TypeDefinitionIndex = 41283;
+
 	class SDLLogitechF710ModeXNativeProfile : public ::InControl::NativeDeviceProfiles::SDLControllerNativeProfile
 	{
 	public:

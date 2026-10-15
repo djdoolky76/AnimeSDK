@@ -6,6 +6,8 @@
 
 namespace SRDebugger
 {
+	inline static constexpr unsigned int SRDebuggerInit_TypeDefinitionIndex = 37956;
+
 	class SRDebuggerInit : public ::SRF::SRMonoBehaviourEx
 	{
 	public:

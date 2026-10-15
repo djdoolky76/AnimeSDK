@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PlayerSettingItem_TypeDefinitionIndex = 66698;
+
 	class PlayerSettingItem : public ::System::Object
 	{
 	public:

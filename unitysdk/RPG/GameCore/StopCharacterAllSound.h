@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StopCharacterAllSound_TypeDefinitionIndex = 22501;
+
 	class StopCharacterAllSound : public ::RPG::GameCore::TaskConfig
 	{
 	public:

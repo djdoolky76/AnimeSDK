@@ -22,6 +22,8 @@ namespace TMPro { class TMP_SpriteCharacter; }
 
 namespace TMPro
 {
+	inline static constexpr unsigned int TMP_FontAssetUtilities_TypeDefinitionIndex = 44585;
+
 	class TMP_FontAssetUtilities : public ::System::Object
 	{
 	public:

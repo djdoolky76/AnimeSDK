@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightModifierDelItemAfterRoundBeginConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightModifierDelItemAfterRoundBeginConfig_TypeDefinitionIndex = 19423;
+
 	class GridFightModifierDelItemAfterRoundBeginConfig : public ::RPG::GameCore::GridFightModifierConfigBase
 	{
 	public:

@@ -13,6 +13,8 @@ class CFNBLNHMHGO;
 #define HEKDFBKLLMM_LEAVE_OFFSET UNITYSDK_OFFSET(0x15C57ED0)
 #define HEKDFBKLLMM_TICK_OFFSET UNITYSDK_OFFSET(0x15C57E10)
 
+inline static constexpr unsigned int HEKDFBKLLMM_TypeDefinitionIndex = 61118;
+
 	class HEKDFBKLLMM : public ::System::Object
 	{
 	public:

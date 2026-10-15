@@ -19,6 +19,8 @@ namespace RPG::Client { class ChimeraDuelItemData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChimeraDuelGameSessionItem_TypeDefinitionIndex = 63319;
+
 	class ChimeraDuelGameSessionItem : public ::System::Object
 	{
 	public:

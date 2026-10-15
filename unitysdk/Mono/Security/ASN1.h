@@ -26,6 +26,8 @@ namespace System::Collections { class ArrayList; }
 
 namespace Mono::Security
 {
+	inline static constexpr unsigned int ASN1_TypeDefinitionIndex = 45;
+
 	class ASN1 : public ::System::Object
 	{
 	public:

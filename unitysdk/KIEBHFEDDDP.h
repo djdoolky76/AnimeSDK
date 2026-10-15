@@ -5,6 +5,8 @@
 #define KIEBHFEDDDP_CTOR_OFFSET UNITYSDK_OFFSET(0x1C900EC0)
 #define KIEBHFEDDDP_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0x1C900ED0)
 
+inline static constexpr unsigned int KIEBHFEDDDP_TypeDefinitionIndex = 42208;
+
 	class KIEBHFEDDDP : public ::CKFDNGOHNPC
 	{
 	public:

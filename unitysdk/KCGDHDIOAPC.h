@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define KCGDHDIOAPC_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB335920)
 #define KCGDHDIOAPC_TICK_OFFSET UNITYSDK_OFFSET(0xB335CC0)
 
+inline static constexpr unsigned int KCGDHDIOAPC_TypeDefinitionIndex = 52225;
+
 	class KCGDHDIOAPC
 	{
 	public:

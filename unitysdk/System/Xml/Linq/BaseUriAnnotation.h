@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace System::Xml::Linq
 {
+	inline static constexpr unsigned int BaseUriAnnotation_TypeDefinitionIndex = 3884;
+
 	class BaseUriAnnotation : public ::System::Object
 	{
 	public:

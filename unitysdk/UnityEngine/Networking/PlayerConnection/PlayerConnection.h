@@ -32,6 +32,8 @@ namespace UnityEngine::Networking::PlayerConnection { class PlayerEditorConnecti
 
 namespace UnityEngine::Networking::PlayerConnection
 {
+	inline static constexpr unsigned int PlayerConnection_TypeDefinitionIndex = 4674;
+
 	class PlayerConnection : public ::UnityEngine::ScriptableObject
 	{
 	public:

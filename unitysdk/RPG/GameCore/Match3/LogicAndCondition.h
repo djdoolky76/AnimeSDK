@@ -11,6 +11,8 @@ namespace RPG::GameCore::Match3 { class Match3ConditionBase; }
 
 namespace RPG::GameCore::Match3
 {
+	inline static constexpr unsigned int LogicAndCondition_TypeDefinitionIndex = 24894;
+
 	class LogicAndCondition : public ::RPG::GameCore::Match3::Match3ConditionBase
 	{
 	public:

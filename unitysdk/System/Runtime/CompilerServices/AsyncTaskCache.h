@@ -8,6 +8,8 @@ namespace System::Threading::Tasks { class Task; }
 
 namespace System::Runtime::CompilerServices
 {
+	inline static constexpr unsigned int AsyncTaskCache_TypeDefinitionIndex = 1352;
+
 	class AsyncTaskCache : public ::System::Object
 	{
 	public:

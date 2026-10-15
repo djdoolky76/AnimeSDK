@@ -8,6 +8,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PageListDotItem_TypeDefinitionIndex = 72622;
+
 	class PageListDotItem : public ::UnityEngine::MonoBehaviour
 	{
 	public:

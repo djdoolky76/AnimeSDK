@@ -7,6 +7,8 @@ class NLLIHHODIMJ;
 #define NLLIHHODIMJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1D234D50)
 #define NLLIHHODIMJ_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D234AF0)
 
+inline static constexpr unsigned int NLLIHHODIMJ_TypeDefinitionIndex = 14419;
+
 	class NLLIHHODIMJ : public ::System::Object
 	{
 	public:

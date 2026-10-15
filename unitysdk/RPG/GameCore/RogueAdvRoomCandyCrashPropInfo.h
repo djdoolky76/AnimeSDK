@@ -9,6 +9,8 @@ namespace RPG::GameCore { class RogueAdvRoomCandyCrashPropInfo; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueAdvRoomCandyCrashPropInfo_TypeDefinitionIndex = 17889;
+
 	class RogueAdvRoomCandyCrashPropInfo : public ::RPG::GameCore::JsonConfig
 	{
 	public:

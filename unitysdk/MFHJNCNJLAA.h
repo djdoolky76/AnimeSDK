@@ -5,6 +5,8 @@
 
 #define MFHJNCNJLAA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C925470)
 
+inline static constexpr unsigned int MFHJNCNJLAA_TypeDefinitionIndex = 42975;
+
 	class MFHJNCNJLAA : public ::System::Object
 	{
 	public:

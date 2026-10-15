@@ -10,6 +10,8 @@ namespace UnityEngine { class Mesh; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Effect_PathDeformMonoPlugin_TypeDefinitionIndex = 70529;
+
 	class Effect_PathDeformMonoPlugin
 	{
 	public:

@@ -19,6 +19,8 @@ class NJFHGODIBPN_BNDKBMLLKBO;
 #define ADKFPNMPIDD_SET_ISFINISHED_OFFSET UNITYSDK_OFFSET(0xB142B80)
 #define ADKFPNMPIDD_SET_ISSTARTED_OFFSET UNITYSDK_OFFSET(0xB142B60)
 
+inline static constexpr unsigned int ADKFPNMPIDD_TypeDefinitionIndex = 56989;
+
 	class ADKFPNMPIDD : public ::System::Object
 	{
 	public:

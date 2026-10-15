@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace Mono::Security::Interface
 {
+	inline static constexpr unsigned int Alert_TypeDefinitionIndex = 2283;
+
 	class Alert : public ::System::Object
 	{
 	public:

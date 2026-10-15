@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ChimeraDuelEventEffectParam; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChimeraDuelEventEffectParam_TypeDefinitionIndex = 16016;
+
 	class ChimeraDuelEventEffectParam : public ::RPG::GameCore::BaseChimeraDuelEffectParam
 	{
 	public:

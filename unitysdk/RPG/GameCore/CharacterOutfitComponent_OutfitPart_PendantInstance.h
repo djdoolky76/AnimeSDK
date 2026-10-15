@@ -26,6 +26,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CharacterOutfitComponent_OutfitPart_PendantInstance_TypeDefinitionIndex = 57209;
+
 	class CharacterOutfitComponent_OutfitPart_PendantInstance : public ::System::Object
 	{
 	public:

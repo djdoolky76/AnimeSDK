@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvDisableNpcSyncMotion_TypeDefinitionIndex = 22399;
+
 	class AdvDisableNpcSyncMotion : public ::RPG::GameCore::TaskConfig
 	{
 	public:

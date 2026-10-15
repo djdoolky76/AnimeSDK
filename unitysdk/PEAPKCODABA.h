@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define PEAPKCODABA_CTOR_OFFSET UNITYSDK_OFFSET(0xC0254A0)
 #define PEAPKCODABA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC0254D0)
 
+inline static constexpr unsigned int PEAPKCODABA_TypeDefinitionIndex = 56430;
+
 	class PEAPKCODABA
 	{
 	public:

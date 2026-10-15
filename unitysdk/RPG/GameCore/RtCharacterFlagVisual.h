@@ -11,6 +11,8 @@ namespace RPG::GameCore { class RtCharacterVisual; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RtCharacterFlagVisual_TypeDefinitionIndex = 24092;
+
 	class RtCharacterFlagVisual : public ::RPG::GameCore::JsonConfig
 	{
 	public:

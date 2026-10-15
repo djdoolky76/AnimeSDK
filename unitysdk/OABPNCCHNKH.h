@@ -6,6 +6,8 @@
 #define OABPNCCHNKH_GET_VALUE_OFFSET UNITYSDK_OFFSET(0xBD1B220)
 #define OABPNCCHNKH_SET_VALUE_OFFSET UNITYSDK_OFFSET(0xBD1B230)
 
+inline static constexpr unsigned int OABPNCCHNKH_TypeDefinitionIndex = 74023;
+
 	class OABPNCCHNKH
 	{
 	public:

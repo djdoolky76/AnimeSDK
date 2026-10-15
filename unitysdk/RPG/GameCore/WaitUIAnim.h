@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaitUIAnim_TypeDefinitionIndex = 24353;
+
 	class WaitUIAnim : public ::RPG::GameCore::TaskConfig
 	{
 	public:

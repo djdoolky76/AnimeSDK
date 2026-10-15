@@ -4,6 +4,8 @@
 
 #define PKLLGBHAKML_CTOR_OFFSET UNITYSDK_OFFSET(0x1C7EDFF0)
 
+inline static constexpr unsigned int PKLLGBHAKML_TypeDefinitionIndex = 36858;
+
 	class PKLLGBHAKML : public ::System::Object
 	{
 	public:

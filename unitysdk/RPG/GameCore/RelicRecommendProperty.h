@@ -11,6 +11,8 @@ namespace RPG::GameCore { class RelicRecommendProperty; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RelicRecommendProperty_TypeDefinitionIndex = 12760;
+
 	class RelicRecommendProperty : public ::System::Object
 	{
 	public:

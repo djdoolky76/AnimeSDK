@@ -8,6 +8,8 @@ namespace RPG::Client { class MapNpcDef; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RuntimeGroupManager___c__DisplayClass125_0_TypeDefinitionIndex = 62069;
+
 	class RuntimeGroupManager___c__DisplayClass125_0 : public ::System::Object
 	{
 	public:

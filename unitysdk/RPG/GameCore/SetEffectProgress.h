@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetEffectProgress_TypeDefinitionIndex = 23749;
+
 	class SetEffectProgress : public ::RPG::GameCore::TaskConfig
 	{
 	public:

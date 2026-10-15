@@ -28,6 +28,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int ChimeraDuelMainPuzzleMonoStateBase_TypeDefinitionIndex = 78383;
+
 	class ChimeraDuelMainPuzzleMonoStateBase : public ::System::Object
 	{
 	public:

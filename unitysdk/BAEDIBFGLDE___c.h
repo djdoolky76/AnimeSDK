@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define BAEDIBFGLDE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7B2090)
 #define BAEDIBFGLDE___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E7B20A0)
 
+inline static constexpr unsigned int BAEDIBFGLDE___c_TypeDefinitionIndex = 28006;
+
 	class BAEDIBFGLDE___c : public ::System::Object
 	{
 	public:

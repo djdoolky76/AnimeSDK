@@ -27,6 +27,8 @@ namespace System { class String; }
 #define HBFNNCGECMO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E52BA80)
 #define HBFNNCGECMO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E52BAE0)
 
+inline static constexpr unsigned int HBFNNCGECMO_TypeDefinitionIndex = 26951;
+
 	class HBFNNCGECMO : public ::System::Object
 	{
 	public:

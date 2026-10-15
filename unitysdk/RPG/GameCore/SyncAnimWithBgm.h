@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SyncAnimWithBgm_TypeDefinitionIndex = 22393;
+
 	class SyncAnimWithBgm : public ::RPG::GameCore::TaskConfig
 	{
 	public:

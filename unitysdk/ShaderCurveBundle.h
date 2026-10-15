@@ -14,6 +14,8 @@ namespace UnityEngine { class Material; }
 #define SHADERCURVEBUNDLE_SET_CURVEPREVIEW_OFFSET UNITYSDK_OFFSET(0x1EBEB540)
 #define SHADERCURVEBUNDLE_SET_PREVIEW_OFFSET UNITYSDK_OFFSET(0x1EBEB3E0)
 
+inline static constexpr unsigned int ShaderCurveBundle_TypeDefinitionIndex = 43981;
+
 	class ShaderCurveBundle : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ class AFBIFCALFED;
 #define AFBIFCALFED_CTOR_OFFSET UNITYSDK_OFFSET(0xCF05FC0)
 #define AFBIFCALFED_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0xCF05EF0)
 
+inline static constexpr unsigned int AFBIFCALFED_TypeDefinitionIndex = 65883;
+
 	class AFBIFCALFED : public ::MLKDDLHNNHH
 	{
 	public:

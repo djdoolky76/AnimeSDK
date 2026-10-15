@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FadeType_TypeDefinitionIndex = 70058;
+
 	enum class FadeType : ::System::Int32
 	{
 		Opacity = 0,

@@ -4,6 +4,8 @@
 
 #define NENMDAPBJLF_CTOR_OFFSET UNITYSDK_OFFSET(0x1C955D90)
 
+inline static constexpr unsigned int NENMDAPBJLF_TypeDefinitionIndex = 42344;
+
 	class NENMDAPBJLF : public ::System::Object
 	{
 	public:

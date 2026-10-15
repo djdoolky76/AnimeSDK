@@ -7,6 +7,8 @@ namespace RPG::GameCore { class DiceCombatTaskConfig_TacticsEffect_AlignDefend; 
 #define KHJPFBJOINL_CTOR_OFFSET UNITYSDK_OFFSET(0x1C70F4D0)
 #define KHJPFBJOINL_MLKLPMJEHPF_OFFSET UNITYSDK_OFFSET(0x1C70F4E0)
 
+inline static constexpr unsigned int KHJPFBJOINL_TypeDefinitionIndex = 36333;
+
 	class KHJPFBJOINL : public ::AJBKGPOEBFG
 	{
 	public:

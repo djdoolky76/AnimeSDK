@@ -12,6 +12,8 @@
 
 namespace RPG::Client::Recommend
 {
+	inline static constexpr unsigned int RelicSuitBigData_TypeDefinitionIndex = 74456;
+
 	class RelicSuitBigData : public ::System::Object
 	{
 	public:

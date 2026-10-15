@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TeamTowersBossConfig_TypeDefinitionIndex = 18956;
+
 	class TeamTowersBossConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

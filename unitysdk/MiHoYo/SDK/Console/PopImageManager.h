@@ -45,6 +45,8 @@ namespace UnityEngine::Events { class UnityAction; }
 
 namespace MiHoYo::SDK::Console
 {
+	inline static constexpr unsigned int PopImageManager_TypeDefinitionIndex = 8987;
+
 	class PopImageManager : public ::System::Object
 	{
 	public:

@@ -4,6 +4,8 @@
 
 #define OEOOCCDLCKJ_CTOR_OFFSET UNITYSDK_OFFSET(0xBE38D90)
 
+inline static constexpr unsigned int OEOOCCDLCKJ_TypeDefinitionIndex = 63734;
+
 	class OEOOCCDLCKJ : public ::System::Object
 	{
 	public:

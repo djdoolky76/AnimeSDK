@@ -18,6 +18,8 @@ namespace System { class Action; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MessageContentRelicRankBlock_TypeDefinitionIndex = 63260;
+
 	class MessageContentRelicRankBlock : public ::RPG::Client::MessageContentBlock
 	{
 	public:

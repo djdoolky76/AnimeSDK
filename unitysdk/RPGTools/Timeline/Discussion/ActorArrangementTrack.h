@@ -16,6 +16,8 @@ namespace UnityEngine::Timeline { class TimelineClip; }
 
 namespace RPGTools::Timeline::Discussion
 {
+	inline static constexpr unsigned int ActorArrangementTrack_TypeDefinitionIndex = 48786;
+
 	class ActorArrangementTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
 	public:

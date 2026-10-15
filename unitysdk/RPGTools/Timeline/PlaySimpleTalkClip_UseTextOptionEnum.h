@@ -3,6 +3,8 @@
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int PlaySimpleTalkClip_UseTextOptionEnum_TypeDefinitionIndex = 48224;
+
 	enum class PlaySimpleTalkClip_UseTextOptionEnum : ::System::Int32
 	{
 		Default = 0,

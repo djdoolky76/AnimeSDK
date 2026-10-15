@@ -28,6 +28,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define PHKOFFOLPPG_REMOVE_ACTIVESTAGESTEPCOUNTCHANGED_OFFSET UNITYSDK_OFFSET(0x1EC8C600)
 #define PHKOFFOLPPG_SET_LOGGER_OFFSET UNITYSDK_OFFSET(0x1EC8F8B0)
 
+inline static constexpr unsigned int PHKOFFOLPPG_TypeDefinitionIndex = 44168;
+
 	class PHKOFFOLPPG : public ::System::Object
 	{
 	public:

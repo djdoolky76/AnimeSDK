@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PointsAnimCustomDataModule_TypeDefinitionIndex = 70624;
+
 	class PointsAnimCustomDataModule : public ::RPG::Client::EffectPointsAnimModule
 	{
 	public:

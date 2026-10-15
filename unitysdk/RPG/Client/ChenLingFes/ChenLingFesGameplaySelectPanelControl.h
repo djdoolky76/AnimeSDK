@@ -63,6 +63,8 @@ namespace XLua { class LuaTable; }
 
 namespace RPG::Client::ChenLingFes
 {
+	inline static constexpr unsigned int ChenLingFesGameplaySelectPanelControl_TypeDefinitionIndex = 81324;
+
 	class ChenLingFesGameplaySelectPanelControl : public ::Sofa::BaseSofaControl
 	{
 	public:

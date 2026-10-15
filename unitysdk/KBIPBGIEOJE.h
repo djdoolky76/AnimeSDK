@@ -16,6 +16,8 @@ namespace System { class String; }
 #define KBIPBGIEOJE_LJPMCEFBPBC_OFFSET UNITYSDK_OFFSET(0xB3029F0)
 #define KBIPBGIEOJE_MFBMHCAMAEI_OFFSET UNITYSDK_OFFSET(0xB302C60)
 
+inline static constexpr unsigned int KBIPBGIEOJE_TypeDefinitionIndex = 77861;
+
 	class KBIPBGIEOJE : public ::System::Object
 	{
 	public:

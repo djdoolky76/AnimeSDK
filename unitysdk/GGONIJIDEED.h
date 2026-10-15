@@ -6,6 +6,8 @@ namespace System::Collections::Generic { template <typename T> class Queue_1; }
 
 #define GGONIJIDEED_CTOR_OFFSET UNITYSDK_OFFSET(0x1CAA1DF0)
 
+inline static constexpr unsigned int GGONIJIDEED_TypeDefinitionIndex = 41975;
+
 	class GGONIJIDEED : public ::System::Object
 	{
 	public:

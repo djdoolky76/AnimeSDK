@@ -6,6 +6,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define KMHGJFFKPAG_CTOR_OFFSET UNITYSDK_OFFSET(0x1C908A90)
 
+inline static constexpr unsigned int KMHGJFFKPAG_TypeDefinitionIndex = 42952;
+
 	class KMHGJFFKPAG : public ::System::Object
 	{
 	public:

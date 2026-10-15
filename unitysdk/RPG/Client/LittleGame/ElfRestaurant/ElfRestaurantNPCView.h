@@ -6,6 +6,8 @@
 
 namespace RPG::Client::LittleGame::ElfRestaurant
 {
+	inline static constexpr unsigned int ElfRestaurantNPCView_TypeDefinitionIndex = 77280;
+
 	class ElfRestaurantNPCView : public ::RPG::Client::LittleGame::ElfRestaurant::ElfRestaurantView
 	{
 	public:

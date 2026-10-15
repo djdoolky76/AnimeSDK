@@ -37,6 +37,8 @@ namespace UnityEngine { class Transform; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int UIManager_TypeDefinitionIndex = 8261;
+
 	class UIManager : public ::UnityEngine::MonoBehaviour
 	{
 	public:

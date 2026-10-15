@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvEntitySetExtAnimLayerEnable_TypeDefinitionIndex = 21051;
+
 	class AdvEntitySetExtAnimLayerEnable : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -9,6 +9,8 @@ namespace UnityEngine { class Material; }
 #define OKOCMKPKEPA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xBEF2E50)
 #define OKOCMKPKEPA___C___CTOR_B__30_0_OFFSET UNITYSDK_OFFSET(0xBEF2E60)
 
+inline static constexpr unsigned int OKOCMKPKEPA___c_TypeDefinitionIndex = 47772;
+
 	class OKOCMKPKEPA___c : public ::System::Object
 	{
 	public:

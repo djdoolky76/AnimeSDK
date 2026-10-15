@@ -29,6 +29,8 @@ namespace System { class String; }
 #define HBONEFMPKKO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E5303A0)
 #define HBONEFMPKKO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E530400)
 
+inline static constexpr unsigned int HBONEFMPKKO_TypeDefinitionIndex = 31773;
+
 	class HBONEFMPKKO : public ::System::Object
 	{
 	public:

@@ -14,6 +14,8 @@ namespace UnityEngine::UI { class Selectable; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightUIDragEventListener_TypeDefinitionIndex = 73055;
+
 	class GridFightUIDragEventListener : public ::UnityEngine::MonoBehaviour
 	{
 	public:

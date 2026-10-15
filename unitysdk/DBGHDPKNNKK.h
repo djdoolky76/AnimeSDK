@@ -28,6 +28,8 @@ namespace System { class String; }
 #define DBGHDPKNNKK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E15C440)
 #define DBGHDPKNNKK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E15C4A0)
 
+inline static constexpr unsigned int DBGHDPKNNKK_TypeDefinitionIndex = 26825;
+
 	class DBGHDPKNNKK : public ::System::Object
 	{
 	public:

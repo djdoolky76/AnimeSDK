@@ -15,6 +15,8 @@ namespace System { template <typename T> class Func_1; }
 
 namespace RPG::Client::ActivityMarble
 {
+	inline static constexpr unsigned int MarblePVPManagerBase___c__DisplayClass7_0_TypeDefinitionIndex = 76014;
+
 	class MarblePVPManagerBase___c__DisplayClass7_0 : public ::System::Object
 	{
 	public:

@@ -14,6 +14,8 @@
 #define MCBOBKNFEHG_OJJLNEIAOPN_OFFSET UNITYSDK_OFFSET(0x1EC367C0)
 #define MCBOBKNFEHG_PBINJCDGKMK_OFFSET UNITYSDK_OFFSET(0x1EC36350)
 
+inline static constexpr unsigned int MCBOBKNFEHG_TypeDefinitionIndex = 35189;
+
 	class MCBOBKNFEHG : public ::System::Object
 	{
 	public:

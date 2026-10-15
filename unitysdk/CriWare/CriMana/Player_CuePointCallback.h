@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace CriWare::CriMana
 {
+	inline static constexpr unsigned int Player_CuePointCallback_TypeDefinitionIndex = 40220;
+
 	class Player_CuePointCallback : public ::System::MulticastDelegate
 	{
 	public:

@@ -9,6 +9,8 @@ namespace RPG::GameCore { class DynamicString; }
 #define MNAKABIKBLP_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D1D3C80)
 #define MNAKABIKBLP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D1D3C40)
 
+inline static constexpr unsigned int MNAKABIKBLP_TypeDefinitionIndex = 21480;
+
 	class MNAKABIKBLP : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -7,6 +7,8 @@ namespace RPG::GameCore { class DiceCombatPredicateConfig_CurrentTurnCompare; }
 #define EPIJPBHONKN_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5E0D50)
 #define EPIJPBHONKN_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0x1C610A50)
 
+inline static constexpr unsigned int EPIJPBHONKN_TypeDefinitionIndex = 36354;
+
 	class EPIJPBHONKN : public ::HHOHBHGLHHF
 	{
 	public:

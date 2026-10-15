@@ -8,6 +8,8 @@
 
 namespace System
 {
+	inline static constexpr unsigned int ReflectionOnlyType_TypeDefinitionIndex = 324;
+
 	class ReflectionOnlyType : public ::System::RuntimeType
 	{
 	public:

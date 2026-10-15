@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace Proto
 {
+	inline static constexpr unsigned int OptionalReward___c_TypeDefinitionIndex = 26554;
+
 	class OptionalReward___c : public ::System::Object
 	{
 	public:

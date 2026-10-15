@@ -29,6 +29,8 @@ namespace System::Reflection { class Assembly; }
 
 namespace System::Runtime::Serialization::Formatters::Binary
 {
+	inline static constexpr unsigned int Converter_TypeDefinitionIndex = 1165;
+
 	class Converter : public ::System::Object
 	{
 	public:

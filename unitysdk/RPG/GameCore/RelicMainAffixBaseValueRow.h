@@ -11,6 +11,8 @@ namespace RPG::GameCore { class RelicMainAffixBaseValueRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RelicMainAffixBaseValueRow_TypeDefinitionIndex = 10877;
+
 	class RelicMainAffixBaseValueRow : public ::System::Object
 	{
 	public:

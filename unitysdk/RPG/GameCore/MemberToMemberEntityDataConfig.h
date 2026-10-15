@@ -10,6 +10,8 @@ namespace RPG::GameCore { class MemberToMemberEntityDataConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MemberToMemberEntityDataConfig_TypeDefinitionIndex = 20742;
+
 	class MemberToMemberEntityDataConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

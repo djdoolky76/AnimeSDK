@@ -52,6 +52,8 @@ namespace System { class String; }
 #define KELKOMPBONA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E80E710)
 #define KELKOMPBONA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E80E770)
 
+inline static constexpr unsigned int KELKOMPBONA_TypeDefinitionIndex = 27608;
+
 	class KELKOMPBONA : public ::System::Object
 	{
 	public:

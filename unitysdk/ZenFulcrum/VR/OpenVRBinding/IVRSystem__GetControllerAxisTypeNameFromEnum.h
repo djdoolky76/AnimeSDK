@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int IVRSystem__GetControllerAxisTypeNameFromEnum_TypeDefinitionIndex = 38927;
+
 	class IVRSystem__GetControllerAxisTypeNameFromEnum : public ::System::MulticastDelegate
 	{
 	public:

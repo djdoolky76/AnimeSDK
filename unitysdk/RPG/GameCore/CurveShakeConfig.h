@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CurveShakeConfig_TypeDefinitionIndex = 16415;
+
 	class CurveShakeConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

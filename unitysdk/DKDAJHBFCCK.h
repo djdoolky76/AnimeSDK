@@ -11,6 +11,8 @@ namespace System { class Type; }
 #define DKDAJHBFCCK_FNAAJGAHIAI_OFFSET UNITYSDK_OFFSET(0xF2569E0)
 #define DKDAJHBFCCK_IHPAKOMCHGP_OFFSET UNITYSDK_OFFSET(0xF256AE0)
 
+inline static constexpr unsigned int DKDAJHBFCCK_TypeDefinitionIndex = 62593;
+
 	class DKDAJHBFCCK : public ::System::Object
 	{
 	public:

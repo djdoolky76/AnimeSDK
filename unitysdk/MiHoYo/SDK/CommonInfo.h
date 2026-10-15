@@ -43,6 +43,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int CommonInfo_TypeDefinitionIndex = 46366;
+
 	class CommonInfo : public ::System::Object
 	{
 	public:

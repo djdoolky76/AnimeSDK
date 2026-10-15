@@ -56,6 +56,8 @@ namespace UnityEngine { class Transform; }
 #define JGCCJFJPPPG_SET_ORIGIN_OFFSET UNITYSDK_OFFSET(0xB195980)
 #define JGCCJFJPPPG_SET_RECTSIZE_OFFSET UNITYSDK_OFFSET(0xB195960)
 
+inline static constexpr unsigned int JGCCJFJPPPG_TypeDefinitionIndex = 62349;
+
 	class JGCCJFJPPPG : public ::System::Object
 	{
 	public:

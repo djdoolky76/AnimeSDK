@@ -3,6 +3,8 @@
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HAPI_AssetInfo_TypeDefinitionIndex = 40496;
+
 	struct alignas(4) HAPI_AssetInfo
 	{
 		::System::Int32 nodeId; // 0x10

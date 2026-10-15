@@ -13,6 +13,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System::Runtime::Remoting
 {
+	inline static constexpr unsigned int RemotingException_TypeDefinitionIndex = 1217;
+
 	class RemotingException : public ::System::SystemException
 	{
 	public:

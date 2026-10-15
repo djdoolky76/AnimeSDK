@@ -21,6 +21,8 @@ namespace System::Reflection { class PropertyInfo; }
 #define KBMHMEDBPFA_REMOVE_VALUECHANGED_OFFSET UNITYSDK_OFFSET(0x1EC7B890)
 #define KBMHMEDBPFA_REMOVE__VALUECHANGED_OFFSET UNITYSDK_OFFSET(0x1EC7B920)
 
+inline static constexpr unsigned int KBMHMEDBPFA_TypeDefinitionIndex = 44065;
+
 	class KBMHMEDBPFA : public ::System::Object
 	{
 	public:

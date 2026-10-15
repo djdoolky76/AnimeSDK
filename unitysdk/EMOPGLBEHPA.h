@@ -27,6 +27,8 @@ namespace System { class String; }
 #define EMOPGLBEHPA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E2E78D0)
 #define EMOPGLBEHPA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E2E7930)
 
+inline static constexpr unsigned int EMOPGLBEHPA_TypeDefinitionIndex = 30346;
+
 	class EMOPGLBEHPA : public ::System::Object
 	{
 	public:

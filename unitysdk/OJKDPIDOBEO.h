@@ -27,6 +27,8 @@ namespace System { class String; }
 #define OJKDPIDOBEO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE88220)
 #define OJKDPIDOBEO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DE88280)
 
+inline static constexpr unsigned int OJKDPIDOBEO_TypeDefinitionIndex = 32537;
+
 	class OJKDPIDOBEO : public ::System::Object
 	{
 	public:

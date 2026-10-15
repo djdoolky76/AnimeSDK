@@ -6,6 +6,8 @@ class DACEDJLJOGK;
 
 #define DNKONAKNCOL_CTOR_OFFSET UNITYSDK_OFFSET(0x11FD4170)
 
+inline static constexpr unsigned int DNKONAKNCOL_TypeDefinitionIndex = 81993;
+
 	class DNKONAKNCOL : public ::System::Object
 	{
 	public:

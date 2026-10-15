@@ -14,6 +14,8 @@ class AkDurationCallbackInfo;
 #define AKDURATIONCALLBACKINFO_GET_MEDIAID_OFFSET UNITYSDK_OFFSET(0x1F58E420)
 #define AKDURATIONCALLBACKINFO_SETCPTR_OFFSET UNITYSDK_OFFSET(0x1F580C30)
 
+inline static constexpr unsigned int AkDurationCallbackInfo_TypeDefinitionIndex = 44736;
+
 	class AkDurationCallbackInfo : public ::AkEventCallbackInfo
 	{
 	public:

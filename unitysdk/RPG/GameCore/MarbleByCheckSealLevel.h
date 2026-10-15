@@ -11,6 +11,8 @@ namespace RPG::GameCore { class MarbleByCheckSealLevel; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MarbleByCheckSealLevel_TypeDefinitionIndex = 16890;
+
 	class MarbleByCheckSealLevel : public ::RPG::GameCore::MarblePredicateConfig
 	{
 	public:

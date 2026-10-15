@@ -14,6 +14,8 @@ namespace UnityEngine::UI { class Image; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CursorScript_TypeDefinitionIndex = 73226;
+
 	class CursorScript : public ::UnityEngine::MonoBehaviour
 	{
 	public:

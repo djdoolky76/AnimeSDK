@@ -9,6 +9,8 @@ namespace System { template <typename T> class Comparison_1; }
 #define ONIJDACKGJG___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C7E3570)
 #define ONIJDACKGJG___C__LOADTITLECONFIG_B__14_0_OFFSET UNITYSDK_OFFSET(0x1C7E3580)
 
+inline static constexpr unsigned int ONIJDACKGJG___c_TypeDefinitionIndex = 37229;
+
 	class ONIJDACKGJG___c : public ::System::Object
 	{
 	public:

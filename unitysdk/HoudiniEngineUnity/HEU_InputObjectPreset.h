@@ -9,6 +9,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_InputObjectPreset_TypeDefinitionIndex = 40367;
+
 	class HEU_InputObjectPreset : public ::System::Object
 	{
 	public:

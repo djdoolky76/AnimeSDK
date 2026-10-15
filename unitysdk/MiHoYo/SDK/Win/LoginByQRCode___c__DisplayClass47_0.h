@@ -9,6 +9,8 @@ namespace MiHoYo::SDK::Win { class LoginByQRCode; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int LoginByQRCode___c__DisplayClass47_0_TypeDefinitionIndex = 9536;
+
 	class LoginByQRCode___c__DisplayClass47_0 : public ::System::Object
 	{
 	public:

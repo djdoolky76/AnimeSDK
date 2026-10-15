@@ -8,6 +8,8 @@ namespace UnityEngine { class GameObject; }
 
 #define JLIBDADBIGL_CTOR_OFFSET UNITYSDK_OFFSET(0x1CBA2FE0)
 
+inline static constexpr unsigned int JLIBDADBIGL_TypeDefinitionIndex = 43176;
+
 	class JLIBDADBIGL : public ::System::Object
 	{
 	public:

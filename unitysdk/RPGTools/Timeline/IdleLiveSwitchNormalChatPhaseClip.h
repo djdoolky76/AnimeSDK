@@ -13,6 +13,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int IdleLiveSwitchNormalChatPhaseClip_TypeDefinitionIndex = 47796;
+
 	class IdleLiveSwitchNormalChatPhaseClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

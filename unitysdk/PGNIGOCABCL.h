@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define PGNIGOCABCL_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D2E3C20)
 #define PGNIGOCABCL_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D2E3580)
 
+inline static constexpr unsigned int PGNIGOCABCL_TypeDefinitionIndex = 15028;
+
 	class PGNIGOCABCL : public ::System::Object
 	{
 	public:

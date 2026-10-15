@@ -17,6 +17,8 @@ namespace UnityEngine::Rendering { class CommandBuffer; }
 
 namespace EnviromentSystemV2Space
 {
+	inline static constexpr unsigned int EnvSystemTest_TypeDefinitionIndex = 49557;
+
 	class EnvSystemTest : public ::UnityEngine::MonoBehaviour
 	{
 	public:

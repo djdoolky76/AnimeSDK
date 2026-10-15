@@ -7,6 +7,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PlatformRootMotionHandler_TypeDefinitionIndex = 68637;
+
 	class PlatformRootMotionHandler : public ::RPG::Client::RootMotionHandler
 	{
 	public:

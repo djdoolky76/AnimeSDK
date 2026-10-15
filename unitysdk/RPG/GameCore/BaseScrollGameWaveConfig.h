@@ -10,6 +10,8 @@ namespace RPG::GameCore { class BaseScrollGameWaveConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BaseScrollGameWaveConfig_TypeDefinitionIndex = 18808;
+
 	class BaseScrollGameWaveConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

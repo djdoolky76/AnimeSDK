@@ -12,6 +12,8 @@ namespace RPG::GameCore { class SetFloatingTextInfo; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetFloatingTextInfo_TypeDefinitionIndex = 20466;
+
 	class SetFloatingTextInfo : public ::RPG::GameCore::TaskConfig
 	{
 	public:

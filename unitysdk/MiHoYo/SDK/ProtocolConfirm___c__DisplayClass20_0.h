@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int ProtocolConfirm___c__DisplayClass20_0_TypeDefinitionIndex = 8026;
+
 	class ProtocolConfirm___c__DisplayClass20_0 : public ::System::Object
 	{
 	public:

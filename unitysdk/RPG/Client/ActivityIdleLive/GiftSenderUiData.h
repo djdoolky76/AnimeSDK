@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int GiftSenderUiData_TypeDefinitionIndex = 75425;
+
 	class GiftSenderUiData : public ::System::Object
 	{
 	public:

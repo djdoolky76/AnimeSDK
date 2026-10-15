@@ -30,6 +30,8 @@ namespace System { class String; }
 #define IEDAMBICKBB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E635AA0)
 #define IEDAMBICKBB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E635B00)
 
+inline static constexpr unsigned int IEDAMBICKBB_TypeDefinitionIndex = 31761;
+
 	class IEDAMBICKBB : public ::System::Object
 	{
 	public:

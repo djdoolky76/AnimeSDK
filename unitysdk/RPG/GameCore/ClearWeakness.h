@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ClearWeakness_TypeDefinitionIndex = 23075;
+
 	class ClearWeakness : public ::RPG::GameCore::TaskConfig
 	{
 	public:

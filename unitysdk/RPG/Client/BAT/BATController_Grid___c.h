@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::BAT
 {
+	inline static constexpr unsigned int BATController_Grid___c_TypeDefinitionIndex = 73669;
+
 	class BATController_Grid___c : public ::System::Object
 	{
 	public:

@@ -40,6 +40,8 @@ namespace UnityEngine { class AnimationCurve; }
 #define DJPBNHAADAF_NBJFLGNEBED_OFFSET UNITYSDK_OFFSET(0xF250680)
 #define DJPBNHAADAF_NHFAPFFJLIA_OFFSET UNITYSDK_OFFSET(0xF2516B0)
 
+inline static constexpr unsigned int DJPBNHAADAF_TypeDefinitionIndex = 59811;
+
 	class DJPBNHAADAF : public ::System::Object
 	{
 	public:

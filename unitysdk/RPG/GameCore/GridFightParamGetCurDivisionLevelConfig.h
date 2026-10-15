@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightParamGetCurDivisionLevelConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightParamGetCurDivisionLevelConfig_TypeDefinitionIndex = 19540;
+
 	class GridFightParamGetCurDivisionLevelConfig : public ::RPG::GameCore::GridFightParameterConfigBase
 	{
 	public:

@@ -6,6 +6,8 @@
 
 namespace RPG::Client::DynamicFloatingObject
 {
+	inline static constexpr unsigned int WaterSimOverrideParam_WaterSimParam_TypeDefinitionIndex = 73578;
+
 	class WaterSimOverrideParam_WaterSimParam : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define HBIAKFCLCIG_GET__SORTITEMS_OFFSET UNITYSDK_OFFSET(0x15C04900)
 #define HBIAKFCLCIG_SET_INDEX_OFFSET UNITYSDK_OFFSET(0x15C046B0)
 
+inline static constexpr unsigned int HBIAKFCLCIG_TypeDefinitionIndex = 64926;
+
 	class HBIAKFCLCIG : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define NOBFCPPBLFD_OJJBBMBLBGH_SET_PROMISE_OFFSET UNITYSDK_OFFSET(0xBCE55A0)
 #define NOBFCPPBLFD_OJJBBMBLBGH_SET_QUERYLIST_OFFSET UNITYSDK_OFFSET(0xBCE5580)
 
+inline static constexpr unsigned int NOBFCPPBLFD_OJJBBMBLBGH_TypeDefinitionIndex = 66744;
+
 	class NOBFCPPBLFD_OJJBBMBLBGH : public ::System::Object
 	{
 	public:

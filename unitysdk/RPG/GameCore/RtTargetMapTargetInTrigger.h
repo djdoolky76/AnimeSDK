@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RtTargetMapTargetInTrigger_TypeDefinitionIndex = 24246;
+
 	class RtTargetMapTargetInTrigger : public ::RPG::GameCore::TargetSeqOperation
 	{
 	public:

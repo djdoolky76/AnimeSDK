@@ -7,6 +7,8 @@ namespace System::ComponentModel { class EventHandlerList_ListEntry; }
 
 namespace System::ComponentModel
 {
+	inline static constexpr unsigned int EventHandlerList_ListEntry_TypeDefinitionIndex = 2595;
+
 	class EventHandlerList_ListEntry : public ::System::Object
 	{
 	public:

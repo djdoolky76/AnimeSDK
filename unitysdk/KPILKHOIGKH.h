@@ -17,6 +17,8 @@ namespace System { template <typename T> class Func_1; }
 #define KPILKHOIGKH_HCGPKOHODNP_OFFSET UNITYSDK_OFFSET(0xB5BFF50)
 #define KPILKHOIGKH_LBBLIMMEMCO_OFFSET UNITYSDK_OFFSET(0xB5BFEE0)
 
+inline static constexpr unsigned int KPILKHOIGKH_TypeDefinitionIndex = 80257;
+
 	class KPILKHOIGKH : public ::System::Object
 	{
 	public:

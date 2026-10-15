@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TaskConfig; }
 #define DEJDAPDFMIE_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CD12890)
 #define DEJDAPDFMIE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CD12850)
 
+inline static constexpr unsigned int DEJDAPDFMIE_TypeDefinitionIndex = 10191;
+
 	class DEJDAPDFMIE : public ::RPG::GameCore::TaskConfig
 	{
 	public:

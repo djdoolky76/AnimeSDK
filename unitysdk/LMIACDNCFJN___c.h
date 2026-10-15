@@ -9,6 +9,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define LMIACDNCFJN___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB783850)
 #define LMIACDNCFJN___C__IMPORTCURGAMESESSIONDATA_B__10_0_OFFSET UNITYSDK_OFFSET(0xB783860)
 
+inline static constexpr unsigned int LMIACDNCFJN___c_TypeDefinitionIndex = 64698;
+
 	class LMIACDNCFJN___c : public ::System::Object
 	{
 	public:

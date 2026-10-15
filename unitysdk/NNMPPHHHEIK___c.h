@@ -12,6 +12,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define NNMPPHHHEIK___C__PLAYENTITYHITANIM_B__64_1_OFFSET UNITYSDK_OFFSET(0xBCD53B0)
 #define NNMPPHHHEIK___C__PLAYENTITYHITANIM_B__64_2_OFFSET UNITYSDK_OFFSET(0xBCD5410)
 
+inline static constexpr unsigned int NNMPPHHHEIK___c_TypeDefinitionIndex = 59038;
+
 	class NNMPPHHHEIK___c : public ::System::Object
 	{
 	public:

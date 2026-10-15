@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TriggerPamActionPhaseSettle; }
 #define BMACDJHPGPP_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBA85750)
 #define BMACDJHPGPP_TICK_OFFSET UNITYSDK_OFFSET(0xBA857A0)
 
+inline static constexpr unsigned int BMACDJHPGPP_TypeDefinitionIndex = 58981;
+
 	class BMACDJHPGPP : public ::GELIALJDFBL
 	{
 	public:

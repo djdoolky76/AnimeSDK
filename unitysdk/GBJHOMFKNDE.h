@@ -39,6 +39,8 @@ namespace System { template <typename T1, typename T2, typename T3> class Func_3
 #define GBJHOMFKNDE_SET_SOURCEBUFFER_OFFSET UNITYSDK_OFFSET(0x1C62C880)
 #define GBJHOMFKNDE_SET_TARGETBUFFER_OFFSET UNITYSDK_OFFSET(0x1C62C8A0)
 
+inline static constexpr unsigned int GBJHOMFKNDE_TypeDefinitionIndex = 36844;
+
 	class GBJHOMFKNDE : public ::System::Object
 	{
 	public:

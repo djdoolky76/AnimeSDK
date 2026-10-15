@@ -8,6 +8,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define GFNNALPJBCF_DISPOSE_OFFSET UNITYSDK_OFFSET(0x159FEA30)
 #define GFNNALPJBCF_EVALUATE_OFFSET UNITYSDK_OFFSET(0x159FE9C0)
 
+inline static constexpr unsigned int GFNNALPJBCF_TypeDefinitionIndex = 54479;
+
 	class GFNNALPJBCF
 	{
 	public:

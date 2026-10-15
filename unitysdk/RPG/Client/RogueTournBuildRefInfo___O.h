@@ -6,6 +6,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueTournBuildRefInfo___O_TypeDefinitionIndex = 67527;
+
 	class RogueTournBuildRefInfo___O : public ::System::Object
 	{
 	public:

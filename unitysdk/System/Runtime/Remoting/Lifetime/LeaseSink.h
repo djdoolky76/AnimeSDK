@@ -12,6 +12,8 @@ namespace System::Runtime::Remoting::Messaging { class IMessageSink; }
 
 namespace System::Runtime::Remoting::Lifetime
 {
+	inline static constexpr unsigned int LeaseSink_TypeDefinitionIndex = 1243;
+
 	class LeaseSink : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace UnityEngine { class Material; }
 
 namespace Spine::Unity
 {
+	inline static constexpr unsigned int BlendModeMaterials_ReplacementMaterial_TypeDefinitionIndex = 44999;
+
 	class BlendModeMaterials_ReplacementMaterial : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define MLHLIMIJHDD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA81E90)
 #define MLHLIMIJHDD___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1EA81EA0)
 
+inline static constexpr unsigned int MLHLIMIJHDD___c_TypeDefinitionIndex = 30599;
+
 	class MLHLIMIJHDD___c : public ::System::Object
 	{
 	public:

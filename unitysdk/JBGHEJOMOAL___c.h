@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define JBGHEJOMOAL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E6F5C00)
 #define JBGHEJOMOAL___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E6F5C10)
 
+inline static constexpr unsigned int JBGHEJOMOAL___c_TypeDefinitionIndex = 28164;
+
 	class JBGHEJOMOAL___c : public ::System::Object
 	{
 	public:

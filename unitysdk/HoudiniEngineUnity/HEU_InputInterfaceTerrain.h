@@ -25,6 +25,8 @@ namespace UnityEngine { class TerrainLayer; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_InputInterfaceTerrain_TypeDefinitionIndex = 40651;
+
 	class HEU_InputInterfaceTerrain : public ::HoudiniEngineUnity::HEU_InputInterface
 	{
 	public:

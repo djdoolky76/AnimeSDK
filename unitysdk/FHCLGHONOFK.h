@@ -11,6 +11,8 @@ namespace System { class String; }
 #define FHCLGHONOFK_MGFLFCHMGPA_OFFSET UNITYSDK_OFFSET(0x15773200)
 #define FHCLGHONOFK_OBOJEIPJBBJ_OFFSET UNITYSDK_OFFSET(0x15773270)
 
+inline static constexpr unsigned int FHCLGHONOFK_TypeDefinitionIndex = 78237;
+
 	class FHCLGHONOFK : public ::KNFCEJEJINK
 	{
 	public:

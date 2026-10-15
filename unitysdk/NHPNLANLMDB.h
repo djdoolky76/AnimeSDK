@@ -21,6 +21,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define NHPNLANLMDB_NDAENKCAIJF_OFFSET UNITYSDK_OFFSET(0xBBDB850)
 #define NHPNLANLMDB_NMJGILFHFPC_OFFSET UNITYSDK_OFFSET(0xBBDB8F0)
 
+inline static constexpr unsigned int NHPNLANLMDB_TypeDefinitionIndex = 57045;
+
 	class NHPNLANLMDB : public ::BDENDNDOFLF
 	{
 	public:

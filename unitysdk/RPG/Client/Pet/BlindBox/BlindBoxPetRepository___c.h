@@ -11,6 +11,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace RPG::Client::Pet::BlindBox
 {
+	inline static constexpr unsigned int BlindBoxPetRepository___c_TypeDefinitionIndex = 75733;
+
 	class BlindBoxPetRepository___c : public ::System::Object
 	{
 	public:

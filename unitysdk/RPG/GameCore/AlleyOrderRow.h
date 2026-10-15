@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AlleyOrderRow_TypeDefinitionIndex = 12621;
+
 	class AlleyOrderRow : public ::System::Object
 	{
 	public:

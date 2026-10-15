@@ -13,6 +13,8 @@ namespace System { class String; }
 #define BHHPIFHIEIB_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0x15C90)
 #define BHHPIFHIEIB_OEFNOKGIANN_OFFSET UNITYSDK_OFFSET(0x15B20)
 
+inline static constexpr unsigned int BHHPIFHIEIB_TypeDefinitionIndex = 52213;
+
 	struct alignas(4) BHHPIFHIEIB
 	{
 		::System::Boolean PIOPJIGOANB; // 0x10

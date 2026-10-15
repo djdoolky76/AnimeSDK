@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RandomTask; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RandomTask_TypeDefinitionIndex = 21279;
+
 	class RandomTask : public ::RPG::GameCore::TaskConfig
 	{
 	public:

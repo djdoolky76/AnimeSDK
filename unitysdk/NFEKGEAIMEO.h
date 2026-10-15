@@ -27,6 +27,8 @@ namespace System { class String; }
 #define NFEKGEAIMEO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB01170)
 #define NFEKGEAIMEO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB011D0)
 
+inline static constexpr unsigned int NFEKGEAIMEO_TypeDefinitionIndex = 30655;
+
 	class NFEKGEAIMEO : public ::System::Object
 	{
 	public:

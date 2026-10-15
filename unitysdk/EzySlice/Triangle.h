@@ -39,6 +39,8 @@ namespace EzySlice { class IntersectionResult; }
 
 namespace EzySlice
 {
+	inline static constexpr unsigned int Triangle_TypeDefinitionIndex = 47001;
+
 	struct alignas(4) Triangle
 	{
 		::UnityEngine::Vector3 m_pos_a; // 0x10

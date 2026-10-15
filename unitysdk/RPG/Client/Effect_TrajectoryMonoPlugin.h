@@ -25,6 +25,8 @@ namespace UnityEngine { class LineRenderer; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Effect_TrajectoryMonoPlugin_TypeDefinitionIndex = 70564;
+
 	class Effect_TrajectoryMonoPlugin
 	{
 	public:

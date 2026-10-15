@@ -1,6 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
+inline static constexpr unsigned int LHALCLMCBEB_TypeDefinitionIndex = 68483;
+
 	struct alignas(4) LHALCLMCBEB
 	{
 		::System::Single LBAIJEFIOPH; // 0x10

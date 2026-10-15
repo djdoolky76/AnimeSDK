@@ -36,6 +36,8 @@ namespace UnityEngine { class RectTransform; }
 #define EKAOMMDILDD__ONBIND_OFFSET UNITYSDK_OFFSET(0x154FA7C0)
 #define EKAOMMDILDD__ONTICK_OFFSET UNITYSDK_OFFSET(0x154FAFD0)
 
+inline static constexpr unsigned int EKAOMMDILDD_TypeDefinitionIndex = 71539;
+
 	class EKAOMMDILDD : public ::FMPCODLIOLG
 	{
 	public:

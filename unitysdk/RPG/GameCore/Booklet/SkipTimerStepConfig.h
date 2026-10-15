@@ -11,6 +11,8 @@ namespace RPG::GameCore::Booklet { class StepConfig; }
 
 namespace RPG::GameCore::Booklet
 {
+	inline static constexpr unsigned int SkipTimerStepConfig_TypeDefinitionIndex = 24983;
+
 	class SkipTimerStepConfig : public ::RPG::GameCore::Booklet::StepConfig
 	{
 	public:

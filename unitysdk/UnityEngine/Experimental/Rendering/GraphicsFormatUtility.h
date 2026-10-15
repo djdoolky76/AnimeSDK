@@ -20,6 +20,8 @@ namespace UnityEngine { class Texture; }
 
 namespace UnityEngine::Experimental::Rendering
 {
+	inline static constexpr unsigned int GraphicsFormatUtility_TypeDefinitionIndex = 4946;
+
 	class GraphicsFormatUtility : public ::System::Object
 	{
 	public:

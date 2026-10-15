@@ -11,6 +11,8 @@ namespace System { class Action; }
 #define MNCOPNHONHO___C__DISPLAYCLASS156_0__SETCAMERAACTIVEWITHWORLDALIGN_B__7_OFFSET UNITYSDK_OFFSET(0xBA038E0)
 #define MNCOPNHONHO___C__DISPLAYCLASS156_0__SETCAMERAACTIVEWITHWORLDALIGN_B__9_OFFSET UNITYSDK_OFFSET(0xBA039E0)
 
+inline static constexpr unsigned int MNCOPNHONHO___c__DisplayClass156_0_TypeDefinitionIndex = 76691;
+
 	class MNCOPNHONHO___c__DisplayClass156_0 : public ::System::Object
 	{
 	public:

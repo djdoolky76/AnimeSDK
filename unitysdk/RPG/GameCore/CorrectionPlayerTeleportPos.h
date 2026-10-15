@@ -12,6 +12,8 @@ namespace RPG::GameCore { class SwitchCharacterAnchor; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CorrectionPlayerTeleportPos_TypeDefinitionIndex = 20505;
+
 	class CorrectionPlayerTeleportPos : public ::RPG::GameCore::TaskConfig
 	{
 	public:

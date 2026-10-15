@@ -7,6 +7,8 @@ namespace UnityEngine { class Texture2D; }
 
 #define KOAIMAGDCOH_MPBMCPMMMHH_CTOR_OFFSET UNITYSDK_OFFSET(0xB58D090)
 
+inline static constexpr unsigned int KOAIMAGDCOH_MPBMCPMMMHH_TypeDefinitionIndex = 68806;
+
 	class KOAIMAGDCOH_MPBMCPMMMHH : public ::System::Object
 	{
 	public:

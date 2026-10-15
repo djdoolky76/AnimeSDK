@@ -8,6 +8,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ShowHeartDialToastTask_NotifyParam_TypeDefinitionIndex = 53274;
+
 	class ShowHeartDialToastTask_NotifyParam : public ::System::Object
 	{
 	public:

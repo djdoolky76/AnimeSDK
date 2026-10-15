@@ -6,6 +6,8 @@ class OOADCLKADJC;
 #define FDLIJBAOHKC_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x156DE150)
 #define FDLIJBAOHKC_CTOR_OFFSET UNITYSDK_OFFSET(0x156DE220)
 
+inline static constexpr unsigned int FDLIJBAOHKC_TypeDefinitionIndex = 63864;
+
 	class FDLIJBAOHKC : public ::System::Object
 	{
 	public:

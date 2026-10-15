@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace System
 {
+	inline static constexpr unsigned int UncNameHelper_TypeDefinitionIndex = 2483;
+
 	class UncNameHelper : public ::System::Object
 	{
 	public:

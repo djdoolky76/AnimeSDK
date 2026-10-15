@@ -51,6 +51,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 #define LEKGOJBMJHD_TOSTRING_OFFSET UNITYSDK_OFFSET(0xB65A240)
 #define LEKGOJBMJHD__BEGINFADEOUT_B__52_0_OFFSET UNITYSDK_OFFSET(0xB65A510)
 
+inline static constexpr unsigned int LEKGOJBMJHD_TypeDefinitionIndex = 60886;
+
 	class LEKGOJBMJHD : public ::System::Object
 	{
 	public:

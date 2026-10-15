@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace RPGTools::Timeline::Emotion
 {
+	inline static constexpr unsigned int EmoDiscussionMouthBehaviour_TypeDefinitionIndex = 48761;
+
 	class EmoDiscussionMouthBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

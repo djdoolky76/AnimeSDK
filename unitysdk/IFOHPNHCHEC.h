@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define IFOHPNHCHEC_JOHPKPGOGHD_OFFSET UNITYSDK_OFFSET(0x15F309B0)
 #define IFOHPNHCHEC_MEGLNFOFMEH_OFFSET UNITYSDK_OFFSET(0x15F309C0)
 
+inline static constexpr unsigned int IFOHPNHCHEC_TypeDefinitionIndex = 78066;
+
 	class IFOHPNHCHEC
 	{
 	public:

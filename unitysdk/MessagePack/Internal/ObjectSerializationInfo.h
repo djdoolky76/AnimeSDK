@@ -31,6 +31,8 @@ namespace System::Reflection { class TypeInfo; }
 
 namespace MessagePack::Internal
 {
+	inline static constexpr unsigned int ObjectSerializationInfo_TypeDefinitionIndex = 7331;
+
 	class ObjectSerializationInfo : public ::System::Object
 	{
 	public:

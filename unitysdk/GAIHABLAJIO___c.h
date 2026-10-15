@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define GAIHABLAJIO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E41DB80)
 #define GAIHABLAJIO___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E41DB90)
 
+inline static constexpr unsigned int GAIHABLAJIO___c_TypeDefinitionIndex = 25506;
+
 	class GAIHABLAJIO___c : public ::System::Object
 	{
 	public:

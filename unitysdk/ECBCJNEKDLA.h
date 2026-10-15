@@ -6,6 +6,8 @@ class BKHHFIJCHEP;
 #define ECBCJNEKDLA_CTOR_OFFSET UNITYSDK_OFFSET(0x12D05E00)
 #define ECBCJNEKDLA_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0x12D05E10)
 
+inline static constexpr unsigned int ECBCJNEKDLA_TypeDefinitionIndex = 60351;
+
 	class ECBCJNEKDLA : public ::EFNJLACKEDH
 	{
 	public:

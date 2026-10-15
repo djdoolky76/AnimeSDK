@@ -20,6 +20,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ActivitySwordTrainingExamInfo_TypeDefinitionIndex = 61945;
+
 	class ActivitySwordTrainingExamInfo : public ::System::Object
 	{
 	public:

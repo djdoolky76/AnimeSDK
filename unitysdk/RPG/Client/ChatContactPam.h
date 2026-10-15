@@ -82,6 +82,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChatContactPam_TypeDefinitionIndex = 63215;
+
 	class ChatContactPam : public ::RPG::Client::ChatContactData
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define HPGLOBODDMA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E5F65E0)
 #define HPGLOBODDMA___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E5F65F0)
 
+inline static constexpr unsigned int HPGLOBODDMA___c_TypeDefinitionIndex = 33779;
+
 	class HPGLOBODDMA___c : public ::System::Object
 	{
 	public:

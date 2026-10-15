@@ -9,6 +9,8 @@ namespace RPG::GameCore { class ItemDisplaySortNewRow; }
 #define JFMOKAKOEEJ_GNADABFLEFM_OFFSET UNITYSDK_OFFSET(0x16657600)
 #define JFMOKAKOEEJ_NPFMJLCMIBE_OFFSET UNITYSDK_OFFSET(0x16657650)
 
+inline static constexpr unsigned int JFMOKAKOEEJ_TypeDefinitionIndex = 65734;
+
 	class JFMOKAKOEEJ : public ::System::Object
 	{
 	public:

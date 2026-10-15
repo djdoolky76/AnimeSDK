@@ -30,6 +30,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEffectPluginBase_TypeDefinitionIndex = 70041;
+
 	class MonoEffectPluginBase : public ::UnityEngine::MonoBehaviour
 	{
 	public:

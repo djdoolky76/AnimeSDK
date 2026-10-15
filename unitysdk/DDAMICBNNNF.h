@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define DDAMICBNNNF_HCFINLKPIHL_OFFSET UNITYSDK_OFFSET(0xE256F30)
 #define DDAMICBNNNF_IGBFHCJEHNK_OFFSET UNITYSDK_OFFSET(0xE257150)
 
+inline static constexpr unsigned int DDAMICBNNNF_TypeDefinitionIndex = 73303;
+
 	class DDAMICBNNNF : public ::System::Object
 	{
 	public:

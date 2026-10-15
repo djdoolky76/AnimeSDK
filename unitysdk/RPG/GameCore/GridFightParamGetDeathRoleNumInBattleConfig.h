@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightParamGetDeathRoleNumInBattleConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightParamGetDeathRoleNumInBattleConfig_TypeDefinitionIndex = 19529;
+
 	class GridFightParamGetDeathRoleNumInBattleConfig : public ::RPG::GameCore::GridFightParameterConfigBase
 	{
 	public:

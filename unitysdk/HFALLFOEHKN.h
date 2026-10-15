@@ -79,6 +79,8 @@ namespace System { class String; }
 #define HFALLFOEHKN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E561DF0)
 #define HFALLFOEHKN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E561E50)
 
+inline static constexpr unsigned int HFALLFOEHKN_TypeDefinitionIndex = 25614;
+
 	class HFALLFOEHKN : public ::System::Object
 	{
 	public:

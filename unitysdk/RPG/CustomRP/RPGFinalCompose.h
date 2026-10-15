@@ -50,6 +50,8 @@ namespace UnityEngine::Rendering { class HableCurve; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int RPGFinalCompose_TypeDefinitionIndex = 37812;
+
 	class RPGFinalCompose : public ::RPG::CustomRP::CRPPostprocessSubPass2
 	{
 	public:

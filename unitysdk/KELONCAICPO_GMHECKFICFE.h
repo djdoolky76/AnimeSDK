@@ -12,6 +12,8 @@ namespace System { class String; }
 #define KELONCAICPO_GMHECKFICFE_SET_PREFABPATH_OFFSET UNITYSDK_OFFSET(0xB37E160)
 #define KELONCAICPO_GMHECKFICFE_SET_TEXTPATH_OFFSET UNITYSDK_OFFSET(0xB37E180)
 
+inline static constexpr unsigned int KELONCAICPO_GMHECKFICFE_TypeDefinitionIndex = 71695;
+
 	class KELONCAICPO_GMHECKFICFE : public ::System::Object
 	{
 	public:

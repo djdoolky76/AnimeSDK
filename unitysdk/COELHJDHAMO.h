@@ -22,6 +22,8 @@ namespace UnityEngine { class Object; }
 #define COELHJDHAMO_LFNIOIMDGEN_OFFSET UNITYSDK_OFFSET(0xDCB3B60)
 #define COELHJDHAMO_OOKBCIHBHLD_OFFSET UNITYSDK_OFFSET(0xDCB3C30)
 
+inline static constexpr unsigned int COELHJDHAMO_TypeDefinitionIndex = 49292;
+
 	class COELHJDHAMO : public ::System::Object
 	{
 	public:

@@ -18,6 +18,8 @@ namespace UnityEngine { class Texture2D; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoTVScreenControl_TypeDefinitionIndex = 70744;
+
 	class MonoTVScreenControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

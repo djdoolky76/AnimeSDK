@@ -9,6 +9,8 @@ class LNLOANLHMAA;
 #define LNLOANLHMAA_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D11E850)
 #define LNLOANLHMAA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D11E810)
 
+inline static constexpr unsigned int LNLOANLHMAA_TypeDefinitionIndex = 21334;
+
 	class LNLOANLHMAA : public ::RPG::GameCore::STTaskConfig
 	{
 	public:

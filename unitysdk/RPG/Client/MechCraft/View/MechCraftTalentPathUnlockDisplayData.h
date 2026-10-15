@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftTalentPathUnlockDisplayData_TypeDefinitionIndex = 79981;
+
 	class MechCraftTalentPathUnlockDisplayData : public ::System::Object
 	{
 	public:

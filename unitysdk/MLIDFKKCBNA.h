@@ -9,6 +9,8 @@
 #define MLIDFKKCBNA_JMKLBMEHDCG_OFFSET UNITYSDK_OFFSET(0xB9AE850)
 #define MLIDFKKCBNA_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xB9AE7F0)
 
+inline static constexpr unsigned int MLIDFKKCBNA_TypeDefinitionIndex = 61052;
+
 	class MLIDFKKCBNA : public ::System::Object
 	{
 	public:

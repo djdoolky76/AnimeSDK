@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TurnBasedModifierInstance; }
 #define KCMIEEABLIA_OECFOHFAIBF_1_OFFSET UNITYSDK_OFFSET(0x13640)
 #define KCMIEEABLIA_OECFOHFAIBF_OFFSET UNITYSDK_OFFSET(0x13630)
 
+inline static constexpr unsigned int KCMIEEABLIA_TypeDefinitionIndex = 54671;
+
 	struct alignas(8) KCMIEEABLIA
 	{
 		::RPG::GameCore::TurnBasedModifierInstance* ILIIOLJMKME; // 0x10

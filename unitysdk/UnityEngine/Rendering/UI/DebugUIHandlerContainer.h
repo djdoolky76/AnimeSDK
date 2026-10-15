@@ -13,6 +13,8 @@ namespace UnityEngine::Rendering::UI { class DebugUIHandlerWidget; }
 
 namespace UnityEngine::Rendering::UI
 {
+	inline static constexpr unsigned int DebugUIHandlerContainer_TypeDefinitionIndex = 35679;
+
 	class DebugUIHandlerContainer : public ::UnityEngine::MonoBehaviour
 	{
 	public:

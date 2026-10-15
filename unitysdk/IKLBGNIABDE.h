@@ -27,6 +27,8 @@ namespace System { class String; }
 #define IKLBGNIABDE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E6A33A0)
 #define IKLBGNIABDE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E6A3400)
 
+inline static constexpr unsigned int IKLBGNIABDE_TypeDefinitionIndex = 30226;
+
 	class IKLBGNIABDE : public ::System::Object
 	{
 	public:

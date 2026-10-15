@@ -8,6 +8,8 @@ namespace UnityEngine { class ParticleSystem; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Effect_PSEmitControllerMonoPlugin_TypeDefinitionIndex = 70518;
+
 	class Effect_PSEmitControllerMonoPlugin
 	{
 	public:

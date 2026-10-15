@@ -25,6 +25,8 @@ namespace System { class String; }
 #define KNFECAFMDII_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E8A2AE0)
 #define KNFECAFMDII_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E8A2B40)
 
+inline static constexpr unsigned int KNFECAFMDII_TypeDefinitionIndex = 27524;
+
 	class KNFECAFMDII : public ::System::Object
 	{
 	public:

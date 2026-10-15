@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SwitchMascotBulletTriggerAttack_TypeDefinitionIndex = 20176;
+
 	class SwitchMascotBulletTriggerAttack : public ::RPG::GameCore::TaskConfig
 	{
 	public:

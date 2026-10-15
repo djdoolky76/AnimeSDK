@@ -23,6 +23,8 @@ namespace System::Text { class StringBuilder; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int JSONBool_TypeDefinitionIndex = 8139;
+
 	class JSONBool : public ::MiHoYo::SDK::JSONNode
 	{
 	public:

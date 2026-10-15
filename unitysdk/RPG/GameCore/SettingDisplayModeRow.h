@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SettingDisplayModeRow_TypeDefinitionIndex = 15093;
+
 	class SettingDisplayModeRow : public ::System::Object
 	{
 	public:

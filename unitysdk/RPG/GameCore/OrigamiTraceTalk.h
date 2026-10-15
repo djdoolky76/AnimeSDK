@@ -11,6 +11,8 @@ namespace RPG::GameCore { class PlayAndWaitSimpleTalk; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int OrigamiTraceTalk_TypeDefinitionIndex = 21869;
+
 	class OrigamiTraceTalk : public ::RPG::GameCore::JsonConfig
 	{
 	public:

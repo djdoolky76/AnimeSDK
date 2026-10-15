@@ -16,6 +16,8 @@ namespace System { class Object; }
 #define EPLMOIMGMIH_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x155D8920)
 #define EPLMOIMGMIH_TICK_OFFSET UNITYSDK_OFFSET(0x155D8970)
 
+inline static constexpr unsigned int EPLMOIMGMIH_TypeDefinitionIndex = 58677;
+
 	class EPLMOIMGMIH : public ::GELIALJDFBL
 	{
 	public:

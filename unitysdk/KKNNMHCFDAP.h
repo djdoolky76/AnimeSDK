@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define KKNNMHCFDAP_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D0A06C0)
 #define KKNNMHCFDAP_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D09FFE0)
 
+inline static constexpr unsigned int KKNNMHCFDAP_TypeDefinitionIndex = 12448;
+
 	class KKNNMHCFDAP : public ::System::Object
 	{
 	public:

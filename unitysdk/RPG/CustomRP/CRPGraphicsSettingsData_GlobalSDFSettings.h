@@ -7,6 +7,8 @@
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int CRPGraphicsSettingsData_GlobalSDFSettings_TypeDefinitionIndex = 37671;
+
 	class CRPGraphicsSettingsData_GlobalSDFSettings : public ::System::Object
 	{
 	public:

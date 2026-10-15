@@ -8,6 +8,8 @@ namespace RPG::GameCore { class CakeRaceActionRoulette; }
 #define MLCHCKBLLCH_CTOR_OFFSET UNITYSDK_OFFSET(0x1C74F340)
 #define MLCHCKBLLCH_GAILDDCMCHP_OFFSET UNITYSDK_OFFSET(0x1C74F350)
 
+inline static constexpr unsigned int MLCHCKBLLCH_TypeDefinitionIndex = 37393;
+
 	class MLCHCKBLLCH : public ::GPLOFONGBGI
 	{
 	public:

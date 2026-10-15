@@ -9,6 +9,8 @@
 
 namespace TMPro
 {
+	inline static constexpr unsigned int Compute_DT_EventArgs_TypeDefinitionIndex = 44677;
+
 	class Compute_DT_EventArgs : public ::System::Object
 	{
 	public:

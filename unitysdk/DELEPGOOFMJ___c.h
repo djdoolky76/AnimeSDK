@@ -17,6 +17,8 @@ namespace System { class String; }
 #define DELEPGOOFMJ___C___CCTOR_B__76_6_OFFSET UNITYSDK_OFFSET(0xE5199B0)
 #define DELEPGOOFMJ___C___CCTOR_B__76_7_OFFSET UNITYSDK_OFFSET(0xE519A00)
 
+inline static constexpr unsigned int DELEPGOOFMJ___c_TypeDefinitionIndex = 49291;
+
 	class DELEPGOOFMJ___c : public ::System::Object
 	{
 	public:

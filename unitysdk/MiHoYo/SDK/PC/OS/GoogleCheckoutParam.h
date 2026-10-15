@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::PC::OS
 {
+	inline static constexpr unsigned int GoogleCheckoutParam_TypeDefinitionIndex = 8538;
+
 	class GoogleCheckoutParam : public ::System::Object
 	{
 	public:

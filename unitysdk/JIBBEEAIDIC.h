@@ -32,6 +32,8 @@ namespace System { class String; }
 #define JIBBEEAIDIC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E748A00)
 #define JIBBEEAIDIC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E748A60)
 
+inline static constexpr unsigned int JIBBEEAIDIC_TypeDefinitionIndex = 32680;
+
 	class JIBBEEAIDIC : public ::System::Object
 	{
 	public:

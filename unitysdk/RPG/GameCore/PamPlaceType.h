@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PamPlaceType_TypeDefinitionIndex = 14300;
+
 	enum class PamPlaceType : ::System::Int32
 	{
 		None = 0,

@@ -21,6 +21,8 @@ namespace RPG::Client::ActivityIdleLive { class IdleLiveQuestTreeItemData; }
 #define FNGGHPAJPJP___KEEP_B__7_0_OFFSET UNITYSDK_OFFSET(0x158705B0)
 #define FNGGHPAJPJP___REPLACE_B__6_0_OFFSET UNITYSDK_OFFSET(0x15870490)
 
+inline static constexpr unsigned int FNGGHPAJPJP_TypeDefinitionIndex = 75309;
+
 	class FNGGHPAJPJP : public ::System::Object
 	{
 	public:

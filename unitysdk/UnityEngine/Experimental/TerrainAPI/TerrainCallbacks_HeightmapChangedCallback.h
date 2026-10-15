@@ -14,6 +14,8 @@ namespace UnityEngine { class Terrain; }
 
 namespace UnityEngine::Experimental::TerrainAPI
 {
+	inline static constexpr unsigned int TerrainCallbacks_HeightmapChangedCallback_TypeDefinitionIndex = 5338;
+
 	class TerrainCallbacks_HeightmapChangedCallback : public ::System::MulticastDelegate
 	{
 	public:

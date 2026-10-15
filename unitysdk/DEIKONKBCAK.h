@@ -18,6 +18,8 @@ namespace UnityEngine { class Transform; }
 #define DEIKONKBCAK_JDOLANIIJFP_OFFSET UNITYSDK_OFFSET(0xE50DBA0)
 #define DEIKONKBCAK__GETSELFINSTANCE_OFFSET UNITYSDK_OFFSET(0xE50DE50)
 
+inline static constexpr unsigned int DEIKONKBCAK_TypeDefinitionIndex = 54408;
+
 	class DEIKONKBCAK : public ::RPG::GameCore::TaskContext
 	{
 	public:

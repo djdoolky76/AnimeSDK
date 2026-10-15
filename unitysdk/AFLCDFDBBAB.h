@@ -8,6 +8,8 @@ namespace RPG::GameCore { class ChimeraTriggerTutorial; }
 #define AFLCDFDBBAB_KMFNKDMEJBC_OFFSET UNITYSDK_OFFSET(0xCF12AE0)
 #define AFLCDFDBBAB_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0xCF12A70)
 
+inline static constexpr unsigned int AFLCDFDBBAB_TypeDefinitionIndex = 78420;
+
 	class AFLCDFDBBAB : public ::System::Object
 	{
 	public:

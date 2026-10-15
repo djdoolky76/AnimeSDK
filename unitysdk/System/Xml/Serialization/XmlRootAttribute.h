@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace System::Xml::Serialization
 {
+	inline static constexpr unsigned int XmlRootAttribute_TypeDefinitionIndex = 2021;
+
 	class XmlRootAttribute : public ::System::Attribute
 	{
 	public:

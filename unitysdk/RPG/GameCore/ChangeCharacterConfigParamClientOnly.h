@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ChangeCharacterConfigParamClientOnly; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChangeCharacterConfigParamClientOnly_TypeDefinitionIndex = 23680;
+
 	class ChangeCharacterConfigParamClientOnly : public ::RPG::GameCore::ChangeCharacterConfigParam
 	{
 	public:

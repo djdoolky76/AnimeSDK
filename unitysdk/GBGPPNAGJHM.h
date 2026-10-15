@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define GBGPPNAGJHM_TICK_OFFSET UNITYSDK_OFFSET(0x1594E1E0)
 #define GBGPPNAGJHM___RUNTEMPLATES_G___SORTANDGETNEXTTEMPLATE_5_0_OFFSET UNITYSDK_OFFSET(0x1594E610)
 
+inline static constexpr unsigned int GBGPPNAGJHM_TypeDefinitionIndex = 55759;
+
 	class GBGPPNAGJHM : public ::GELIALJDFBL
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System::Linq::Expressions::Interpreter { class InterpretedFrame; }
 
 namespace System::Linq::Expressions::Interpreter
 {
+	inline static constexpr unsigned int GreaterThanInstruction_GreaterThanUInt32_TypeDefinitionIndex = 3409;
+
 	class GreaterThanInstruction_GreaterThanUInt32 : public ::System::Linq::Expressions::Interpreter::GreaterThanInstruction
 	{
 	public:

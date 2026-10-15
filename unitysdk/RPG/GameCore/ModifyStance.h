@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ModifyStance_TypeDefinitionIndex = 22630;
+
 	class ModifyStance : public ::RPG::GameCore::TaskConfig
 	{
 	public:

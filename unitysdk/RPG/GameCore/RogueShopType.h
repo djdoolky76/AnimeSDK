@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueShopType_TypeDefinitionIndex = 10622;
+
 	enum class RogueShopType : ::System::Int32
 	{
 		BuffShop = 0,

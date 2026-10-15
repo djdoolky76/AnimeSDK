@@ -5,6 +5,8 @@ namespace System { class Object; }
 
 namespace MessagePack::Formatters
 {
+	inline static constexpr unsigned int GenericEnumFormatter_1___c_TypeDefinitionIndex = 7434;
+
 	template <typename T>
 	class GenericEnumFormatter_1___c : public ::System::Object
 	{

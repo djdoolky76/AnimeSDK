@@ -11,6 +11,8 @@ namespace System { class String; }
 #define MMHKHFAEOAD_GNNPFBBMFLA_OFFSET UNITYSDK_OFFSET(0x3C2FEA0)
 #define MMHKHFAEOAD_KGHIJFFDHMD_OFFSET UNITYSDK_OFFSET(0x1C92D840)
 
+inline static constexpr unsigned int MMHKHFAEOAD_TypeDefinitionIndex = 43282;
+
 	struct alignas(8) MMHKHFAEOAD
 	{
 		::System::String* AHCPFFKPOMG; // 0x10

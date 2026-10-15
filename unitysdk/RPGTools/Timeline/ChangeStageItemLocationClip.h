@@ -14,6 +14,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int ChangeStageItemLocationClip_TypeDefinitionIndex = 47920;
+
 	class ChangeStageItemLocationClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

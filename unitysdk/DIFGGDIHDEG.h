@@ -36,6 +36,8 @@ namespace System { class String; }
 #define DIFGGDIHDEG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E1BD140)
 #define DIFGGDIHDEG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E1BD1A0)
 
+inline static constexpr unsigned int DIFGGDIHDEG_TypeDefinitionIndex = 33752;
+
 	class DIFGGDIHDEG : public ::System::Object
 	{
 	public:

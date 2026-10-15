@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define LEAEAGIIDKO_CTOR_OFFSET UNITYSDK_OFFSET(0xB6497E0)
 #define LEAEAGIIDKO_KILEPBKMIHE_OFFSET UNITYSDK_OFFSET(0xB6497F0)
 
+inline static constexpr unsigned int LEAEAGIIDKO_TypeDefinitionIndex = 51995;
+
 	class LEAEAGIIDKO : public ::System::Object
 	{
 	public:

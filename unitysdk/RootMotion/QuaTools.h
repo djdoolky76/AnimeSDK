@@ -18,6 +18,8 @@
 
 namespace RootMotion
 {
+	inline static constexpr unsigned int QuaTools_TypeDefinitionIndex = 45978;
+
 	class QuaTools : public ::System::Object
 	{
 	public:

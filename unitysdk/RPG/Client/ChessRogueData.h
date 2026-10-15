@@ -44,6 +44,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChessRogueData_TypeDefinitionIndex = 66929;
+
 	class ChessRogueData : public ::RPG::Client::BaseRogueInfo
 	{
 	public:

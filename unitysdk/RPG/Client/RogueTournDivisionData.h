@@ -27,6 +27,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueTournDivisionData_TypeDefinitionIndex = 67595;
+
 	class RogueTournDivisionData : public ::System::Object
 	{
 	public:

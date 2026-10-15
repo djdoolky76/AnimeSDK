@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int MDKConfig_TypeDefinitionIndex = 7909;
+
 	class MDKConfig : public ::System::Object
 	{
 	public:

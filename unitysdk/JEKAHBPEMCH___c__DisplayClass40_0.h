@@ -8,6 +8,8 @@ namespace UnityEngine { class GameObject; }
 
 #define JEKAHBPEMCH___C__DISPLAYCLASS40_0_CTOR_OFFSET UNITYSDK_OFFSET(0x16635940)
 
+inline static constexpr unsigned int JEKAHBPEMCH___c__DisplayClass40_0_TypeDefinitionIndex = 76708;
+
 	class JEKAHBPEMCH___c__DisplayClass40_0 : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ class PFLDDDHEAJO;
 
 namespace RPG::Client::FateRin::MainPage
 {
+	inline static constexpr unsigned int FateRinMainPageUI3DViewModel_TypeDefinitionIndex = 80637;
+
 	class FateRinMainPageUI3DViewModel : public ::System::Object
 	{
 	public:

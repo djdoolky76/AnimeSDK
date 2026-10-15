@@ -5,6 +5,8 @@ namespace UnityEngine::AI { class RVOAgent; }
 
 #define HNDIJDAJBNH_CTOR_OFFSET UNITYSDK_OFFSET(0x1CAED110)
 
+inline static constexpr unsigned int HNDIJDAJBNH_TypeDefinitionIndex = 42077;
+
 	class HNDIJDAJBNH : public ::System::Object
 	{
 	public:

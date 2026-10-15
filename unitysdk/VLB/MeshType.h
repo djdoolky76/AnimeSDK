@@ -3,6 +3,8 @@
 
 namespace VLB
 {
+	inline static constexpr unsigned int MeshType_TypeDefinitionIndex = 48990;
+
 	enum class MeshType : ::System::Int32
 	{
 		Shared = 0,

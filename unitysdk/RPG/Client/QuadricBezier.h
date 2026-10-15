@@ -28,6 +28,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int QuadricBezier_TypeDefinitionIndex = 72636;
+
 	class QuadricBezier : public ::UnityEngine::MonoBehaviour
 	{
 	public:

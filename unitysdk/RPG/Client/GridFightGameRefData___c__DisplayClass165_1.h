@@ -9,6 +9,8 @@ class OABDFLPEHDO;
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightGameRefData___c__DisplayClass165_1_TypeDefinitionIndex = 64732;
+
 	template <typename T>
 	class GridFightGameRefData___c__DisplayClass165_1 : public ::System::Object
 	{

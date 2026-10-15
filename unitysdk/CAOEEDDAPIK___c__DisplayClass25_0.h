@@ -6,6 +6,8 @@ class CAOEEDDAPIK;
 #define CAOEEDDAPIK___C__DISPLAYCLASS25_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC497BC0)
 #define CAOEEDDAPIK___C__DISPLAYCLASS25_0__SETLAZYLAYOUTREBUILD_B__0_OFFSET UNITYSDK_OFFSET(0xC4989F0)
 
+inline static constexpr unsigned int CAOEEDDAPIK___c__DisplayClass25_0_TypeDefinitionIndex = 71247;
+
 	class CAOEEDDAPIK___c__DisplayClass25_0 : public ::System::Object
 	{
 	public:

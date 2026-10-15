@@ -5,6 +5,8 @@
 
 #define DEBOGDBACGL_DJEDDIDLHNO_OFFSET UNITYSDK_OFFSET(0xE4FF510)
 
+inline static constexpr unsigned int DEBOGDBACGL_TypeDefinitionIndex = 73740;
+
 	class DEBOGDBACGL : public ::System::Object
 	{
 	public:

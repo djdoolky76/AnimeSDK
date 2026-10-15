@@ -9,6 +9,8 @@ class NJKFOJJDGGG;
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightAutoAddBonusModifier_TypeDefinitionIndex = 65014;
+
 	class GridFightAutoAddBonusModifier : public ::RPG::Client::GridFightGameModifier
 	{
 	public:

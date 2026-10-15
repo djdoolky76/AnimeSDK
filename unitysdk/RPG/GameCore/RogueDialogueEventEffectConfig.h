@@ -9,6 +9,8 @@ namespace RPG::GameCore { class RogueDialogueEventEffectConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueDialogueEventEffectConfig_TypeDefinitionIndex = 17917;
+
 	class RogueDialogueEventEffectConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

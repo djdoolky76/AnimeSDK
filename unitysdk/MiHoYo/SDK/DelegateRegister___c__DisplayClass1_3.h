@@ -9,6 +9,8 @@ namespace MiHoYo::SDK { class Web; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int DelegateRegister___c__DisplayClass1_3_TypeDefinitionIndex = 46279;
+
 	template <typename T1, typename T2, typename T3>
 	class DelegateRegister___c__DisplayClass1_3 : public ::System::Object
 	{

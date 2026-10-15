@@ -9,6 +9,8 @@ namespace System::ComponentModel::Design { class ITypeDescriptorFilterService; }
 
 namespace System::ComponentModel
 {
+	inline static constexpr unsigned int TypeDescriptor_FilterCacheItem_TypeDefinitionIndex = 2638;
+
 	class TypeDescriptor_FilterCacheItem : public ::System::Object
 	{
 	public:

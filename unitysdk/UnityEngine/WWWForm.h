@@ -17,6 +17,8 @@ namespace System::Text { class Encoding; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int WWWForm_TypeDefinitionIndex = 5351;
+
 	class WWWForm : public ::System::Object
 	{
 	public:

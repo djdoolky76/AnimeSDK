@@ -34,6 +34,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ActivityTrackPhotoStageInstance_TypeDefinitionIndex = 62005;
+
 	class ActivityTrackPhotoStageInstance : public ::System::Object
 	{
 	public:

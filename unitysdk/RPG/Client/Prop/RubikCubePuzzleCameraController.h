@@ -26,6 +26,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int RubikCubePuzzleCameraController_TypeDefinitionIndex = 78823;
+
 	class RubikCubePuzzleCameraController : public ::UnityEngine::MonoBehaviour
 	{
 	public:

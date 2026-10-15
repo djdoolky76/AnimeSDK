@@ -15,6 +15,8 @@ namespace UnityEngine::Profiling::Memory::Experimental { class MetaData; }
 
 namespace UnityEngine::Profiling::Memory::Experimental
 {
+	inline static constexpr unsigned int MemoryProfiler_TypeDefinitionIndex = 4522;
+
 	class MemoryProfiler : public ::System::Object
 	{
 	public:

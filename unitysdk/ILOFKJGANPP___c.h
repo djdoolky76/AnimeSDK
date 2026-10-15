@@ -17,6 +17,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define ILOFKJGANPP___C__HANDLEPOSTPROCESS_B__1_2_OFFSET UNITYSDK_OFFSET(0x164C92F0)
 #define ILOFKJGANPP___C__HANDLEPOSTPROCESS_B__1_3_OFFSET UNITYSDK_OFFSET(0x164C96A0)
 
+inline static constexpr unsigned int ILOFKJGANPP___c_TypeDefinitionIndex = 67137;
+
 	class ILOFKJGANPP___c : public ::System::Object
 	{
 	public:

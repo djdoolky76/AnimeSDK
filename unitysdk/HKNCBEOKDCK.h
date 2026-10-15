@@ -27,6 +27,8 @@ namespace System { class String; }
 #define HKNCBEOKDCK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E5B66E0)
 #define HKNCBEOKDCK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E5B6740)
 
+inline static constexpr unsigned int HKNCBEOKDCK_TypeDefinitionIndex = 30366;
+
 	class HKNCBEOKDCK : public ::System::Object
 	{
 	public:

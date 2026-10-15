@@ -24,6 +24,8 @@ namespace UnityEngine::UI { class Image; }
 
 namespace RPG::Client::B51Racing
 {
+	inline static constexpr unsigned int B51RacingCarInfoPanelControl_TypeDefinitionIndex = 81768;
+
 	class B51RacingCarInfoPanelControl : public ::Sofa::BaseSofaControl
 	{
 	public:

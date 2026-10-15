@@ -14,6 +14,8 @@
 
 namespace RPG::Client::BAT
 {
+	inline static constexpr unsigned int BATController_Grid_TypeDefinitionIndex = 73668;
+
 	class BATController_Grid : public ::RPG::Client::BAT::BATControllerBase
 	{
 	public:

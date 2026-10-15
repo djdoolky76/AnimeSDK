@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PhotoGraphFovLevel_TypeDefinitionIndex = 24581;
+
 	enum class PhotoGraphFovLevel : ::System::Int32
 	{
 		Zero = 0,

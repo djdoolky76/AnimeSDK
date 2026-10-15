@@ -5,6 +5,8 @@ namespace System { class String; }
 
 #define CENKIMNOOFH_CTOR_OFFSET UNITYSDK_OFFSET(0xC9EC480)
 
+inline static constexpr unsigned int CENKIMNOOFH_TypeDefinitionIndex = 67782;
+
 	class CENKIMNOOFH : public ::System::Object
 	{
 	public:

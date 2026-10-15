@@ -10,6 +10,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace UnityEngine::UI
 {
+	inline static constexpr unsigned int RectMask2D_RotationHelper_TypeDefinitionIndex = 6809;
+
 	struct alignas(8) RectMask2D_RotationHelper
 	{
 		::System::Boolean m_SaveAndLoad; // 0x10

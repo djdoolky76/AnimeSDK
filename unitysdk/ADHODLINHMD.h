@@ -41,6 +41,8 @@ namespace System { class Object; }
 #define ADHODLINHMD_OOGCMLCLMJF_OFFSET UNITYSDK_OFFSET(0xB13E750)
 #define ADHODLINHMD_PHBFDPONIIN_OFFSET UNITYSDK_OFFSET(0xB13CE80)
 
+inline static constexpr unsigned int ADHODLINHMD_TypeDefinitionIndex = 52418;
+
 	class ADHODLINHMD : public ::LNHDPDCGLAG
 	{
 	public:

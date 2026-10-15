@@ -8,6 +8,8 @@ namespace System::Xml { class DtdParser_UndeclaredNotation; }
 
 namespace System::Xml
 {
+	inline static constexpr unsigned int DtdParser_UndeclaredNotation_TypeDefinitionIndex = 1935;
+
 	class DtdParser_UndeclaredNotation : public ::System::Object
 	{
 	public:

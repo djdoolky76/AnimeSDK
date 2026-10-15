@@ -18,6 +18,8 @@ namespace UnityEngine::UI { class Image; }
 
 namespace RPG::Client::PixAir
 {
+	inline static constexpr unsigned int PixAirEnterBattleWindows_TypeDefinitionIndex = 79241;
+
 	class PixAirEnterBattleWindows : public ::Sofa::BaseSofaWindow
 	{
 	public:

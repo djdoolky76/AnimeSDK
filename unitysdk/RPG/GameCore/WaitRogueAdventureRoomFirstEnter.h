@@ -10,6 +10,8 @@ namespace RPG::GameCore { class WaitRogueAdventureRoomFirstEnter; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaitRogueAdventureRoomFirstEnter_TypeDefinitionIndex = 20814;
+
 	class WaitRogueAdventureRoomFirstEnter : public ::RPG::GameCore::TaskConfig
 	{
 	public:

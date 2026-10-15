@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define KOPNIJBLJOB_CTOR_OFFSET UNITYSDK_OFFSET(0xB5A40F0)
 #define KOPNIJBLJOB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB5A4120)
 
+inline static constexpr unsigned int KOPNIJBLJOB_TypeDefinitionIndex = 55519;
+
 	class KOPNIJBLJOB
 	{
 	public:

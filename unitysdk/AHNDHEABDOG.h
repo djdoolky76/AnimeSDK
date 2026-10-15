@@ -7,6 +7,8 @@ class KAKADGHNMFK;
 #define AHNDHEABDOG_GET_CASTER_OFFSET UNITYSDK_OFFSET(0xEB88730)
 #define AHNDHEABDOG_SET_CASTER_OFFSET UNITYSDK_OFFSET(0xEB88740)
 
+inline static constexpr unsigned int AHNDHEABDOG_TypeDefinitionIndex = 77583;
+
 	class AHNDHEABDOG : public ::GMGHBGLNMFF
 	{
 	public:

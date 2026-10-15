@@ -8,6 +8,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEffectPluginTemplate_TypeDefinitionIndex = 70122;
+
 	class MonoEffectPluginTemplate : public ::RPG::Client::MonoEffectPluginBase
 	{
 	public:

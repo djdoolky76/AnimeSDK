@@ -11,6 +11,8 @@ namespace RPG::GameCore { class RogueTournHexAvatarBaseTypeRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueTournHexAvatarBaseTypeRow_TypeDefinitionIndex = 15029;
+
 	class RogueTournHexAvatarBaseTypeRow : public ::System::Object
 	{
 	public:

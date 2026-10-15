@@ -5,6 +5,8 @@ namespace System { class String; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int HumanBone_TypeDefinitionIndex = 5722;
+
 	struct alignas(8) HumanBone
 	{
 		::System::String* m_BoneName; // 0x10

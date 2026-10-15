@@ -6,6 +6,8 @@
 #define PPHOLPINOBK_CTOR_OFFSET UNITYSDK_OFFSET(0xC3873C0)
 #define PPHOLPINOBK_JCEBBIMJCMK_OFFSET UNITYSDK_OFFSET(0xC387300)
 
+inline static constexpr unsigned int PPHOLPINOBK_TypeDefinitionIndex = 62655;
+
 	class PPHOLPINOBK : public ::System::Object
 	{
 	public:

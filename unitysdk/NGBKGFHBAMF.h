@@ -8,6 +8,8 @@ class NGBKGFHBAMF;
 #define NGBKGFHBAMF_CTOR_OFFSET UNITYSDK_OFFSET(0x1D204FC0)
 #define NGBKGFHBAMF_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D204E30)
 
+inline static constexpr unsigned int NGBKGFHBAMF_TypeDefinitionIndex = 11998;
+
 	class NGBKGFHBAMF : public ::System::Object
 	{
 	public:

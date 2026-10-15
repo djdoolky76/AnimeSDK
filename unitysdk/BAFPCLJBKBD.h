@@ -30,6 +30,8 @@ namespace RPG::GameCore { class WaitPerformanceCondition; }
 #define BAFPCLJBKBD_PIMHFOAHCPI_OFFSET UNITYSDK_OFFSET(0x15BDBA00)
 #define BAFPCLJBKBD_TICK_OFFSET UNITYSDK_OFFSET(0x15BDAF60)
 
+inline static constexpr unsigned int BAFPCLJBKBD_TypeDefinitionIndex = 55811;
+
 	class BAFPCLJBKBD : public ::GELIALJDFBL
 	{
 	public:

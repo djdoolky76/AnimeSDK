@@ -11,6 +11,8 @@ namespace RPGTools::Timeline { class CharacterAddLookAtCurveData; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int CharacterAddLookAtCurveBehaviour_TypeDefinitionIndex = 47969;
+
 	class CharacterAddLookAtCurveBehaviour : public ::RPGTools::Timeline::CustomEventBehaviour
 	{
 	public:

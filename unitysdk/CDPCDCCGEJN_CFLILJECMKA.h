@@ -7,6 +7,8 @@ namespace System { class Object; }
 
 #define CDPCDCCGEJN_CFLILJECMKA_CTOR_OFFSET UNITYSDK_OFFSET(0xC777D70)
 
+inline static constexpr unsigned int CDPCDCCGEJN_CFLILJECMKA_TypeDefinitionIndex = 59573;
+
 	class CDPCDCCGEJN_CFLILJECMKA : public ::System::Object
 	{
 	public:

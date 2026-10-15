@@ -6,6 +6,8 @@ namespace RPG::GameCore { class AlleyBuffGridItemData; }
 #define OABLCMFIHIC___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBD195D0)
 #define OABLCMFIHIC___C__DISPLAYCLASS1_0__GETATTACHMENTDATA_B__0_OFFSET UNITYSDK_OFFSET(0xBD1A190)
 
+inline static constexpr unsigned int OABLCMFIHIC___c__DisplayClass1_0_TypeDefinitionIndex = 62352;
+
 	class OABLCMFIHIC___c__DisplayClass1_0 : public ::System::Object
 	{
 	public:

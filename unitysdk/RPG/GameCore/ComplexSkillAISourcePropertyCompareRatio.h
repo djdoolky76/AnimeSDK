@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ComplexSkillAISourcePropertyCompareRatio; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ComplexSkillAISourcePropertyCompareRatio_TypeDefinitionIndex = 15521;
+
 	class ComplexSkillAISourcePropertyCompareRatio : public ::RPG::GameCore::ComplexSkillAISource
 	{
 	public:

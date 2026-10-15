@@ -10,6 +10,8 @@ namespace RPG::GameCore::Match3 { class EndRoundTrigger; }
 
 namespace RPG::GameCore::Match3
 {
+	inline static constexpr unsigned int EndRoundTrigger_TypeDefinitionIndex = 24878;
+
 	class EndRoundTrigger : public ::RPG::GameCore::Match3::Match3TriggerBase
 	{
 	public:

@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int ELGHLKHAMKB_TypeDefinitionIndex = 30259;
+
 	enum class ELGHLKHAMKB : ::System::Int32
 	{
 		NLCDGIPGFDJ = 0,

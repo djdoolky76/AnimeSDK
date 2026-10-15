@@ -11,6 +11,8 @@ namespace System { template <typename T> class Comparison_1; }
 
 namespace Mono::Globalization::Unicode
 {
+	inline static constexpr unsigned int MSCompatUnicodeTable___c_TypeDefinitionIndex = 36;
+
 	class MSCompatUnicodeTable___c : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
+	inline static constexpr unsigned int B2Mutexes_TypeDefinitionIndex = 36722;
+
 	class B2Mutexes : public ::System::Object
 	{
 	public:

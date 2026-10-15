@@ -8,6 +8,8 @@ namespace UnityEngine { class Mesh; }
 #define GLCAFKLJMEN_FFGCKLJLMOC_OFFSET UNITYSDK_OFFSET(0x15AACB60)
 #define GLCAFKLJMEN_ICCMPHPFDNE_OFFSET UNITYSDK_OFFSET(0x15AABCE0)
 
+inline static constexpr unsigned int GLCAFKLJMEN_TypeDefinitionIndex = 47699;
+
 	class GLCAFKLJMEN : public ::System::Object
 	{
 	public:

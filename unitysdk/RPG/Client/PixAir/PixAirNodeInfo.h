@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 
 namespace RPG::Client::PixAir
 {
+	inline static constexpr unsigned int PixAirNodeInfo_TypeDefinitionIndex = 79363;
+
 	class PixAirNodeInfo : public ::System::Object
 	{
 	public:

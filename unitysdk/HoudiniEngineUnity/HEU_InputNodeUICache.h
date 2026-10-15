@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_InputNodeUICache_TypeDefinitionIndex = 40409;
+
 	class HEU_InputNodeUICache : public ::System::Object
 	{
 	public:

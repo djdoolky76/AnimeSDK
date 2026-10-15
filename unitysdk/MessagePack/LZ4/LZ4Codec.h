@@ -19,6 +19,8 @@
 
 namespace MessagePack::LZ4
 {
+	inline static constexpr unsigned int LZ4Codec_TypeDefinitionIndex = 7279;
+
 	class LZ4Codec : public ::System::Object
 	{
 	public:

@@ -38,6 +38,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define BGGDOPNKDLK_NOEEADKBDNL_OFFSET UNITYSDK_OFFSET(0x1C5B9A70)
 #define BGGDOPNKDLK_ONKAACGDMOD_OFFSET UNITYSDK_OFFSET(0x1C5B8F70)
 
+inline static constexpr unsigned int BGGDOPNKDLK_TypeDefinitionIndex = 37258;
+
 	class BGGDOPNKDLK : public ::System::Object
 	{
 	public:

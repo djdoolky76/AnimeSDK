@@ -31,6 +31,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define APAHPCEMFND_SET_UNITLENGTH_OFFSET UNITYSDK_OFFSET(0x158C8AC0)
 #define APAHPCEMFND_SET_UNITPIXELCOUNT_OFFSET UNITYSDK_OFFSET(0x158C8AE0)
 
+inline static constexpr unsigned int APAHPCEMFND_TypeDefinitionIndex = 74672;
+
 	class APAHPCEMFND : public ::System::Object
 	{
 	public:

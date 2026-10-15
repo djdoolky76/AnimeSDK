@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimWaterReflectionLevelConfig_TypeDefinitionIndex = 18530;
+
 	class FiveDimWaterReflectionLevelConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

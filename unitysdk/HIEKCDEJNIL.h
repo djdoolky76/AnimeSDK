@@ -31,6 +31,8 @@ namespace System { class String; }
 #define HIEKCDEJNIL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E592390)
 #define HIEKCDEJNIL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E5923F0)
 
+inline static constexpr unsigned int HIEKCDEJNIL_TypeDefinitionIndex = 31295;
+
 	class HIEKCDEJNIL : public ::System::Object
 	{
 	public:

@@ -5,6 +5,8 @@
 
 #define PEONAALICLA_CTOR_OFFSET UNITYSDK_OFFSET(0x1D2D8060)
 
+inline static constexpr unsigned int PEONAALICLA_TypeDefinitionIndex = 24986;
+
 	class PEONAALICLA : public ::System::Attribute
 	{
 	public:

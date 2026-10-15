@@ -25,6 +25,8 @@ namespace System { class String; }
 #define GCOKGACMDNF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E4426F0)
 #define GCOKGACMDNF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E442750)
 
+inline static constexpr unsigned int GCOKGACMDNF_TypeDefinitionIndex = 27941;
+
 	class GCOKGACMDNF : public ::System::Object
 	{
 	public:

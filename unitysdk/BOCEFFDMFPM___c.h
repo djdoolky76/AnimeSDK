@@ -10,6 +10,8 @@ namespace UnityEngine { class AsyncOperation; }
 #define BOCEFFDMFPM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C441770)
 #define BOCEFFDMFPM___C___CTOR_B__68_0_OFFSET UNITYSDK_OFFSET(0x1C441780)
 
+inline static constexpr unsigned int BOCEFFDMFPM___c_TypeDefinitionIndex = 41568;
+
 	class BOCEFFDMFPM___c : public ::System::Object
 	{
 	public:

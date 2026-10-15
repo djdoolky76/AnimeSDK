@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TriggerModifierPhase1Perform; }
 #define GKOCGBKMJIF_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15AA7F20)
 #define GKOCGBKMJIF_TICK_OFFSET UNITYSDK_OFFSET(0x15AA7F70)
 
+inline static constexpr unsigned int GKOCGBKMJIF_TypeDefinitionIndex = 55752;
+
 	class GKOCGBKMJIF : public ::GELIALJDFBL
 	{
 	public:

@@ -9,6 +9,8 @@ namespace RPG::Client::LittleGameShare { class ST_Main_CakeRaceSelectSkillDecisi
 #define HAJNHPFHELP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1C65BE20)
 #define HAJNHPFHELP_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1C65BF40)
 
+inline static constexpr unsigned int HAJNHPFHELP_TypeDefinitionIndex = 36991;
+
 	class HAJNHPFHELP
 	{
 	public:

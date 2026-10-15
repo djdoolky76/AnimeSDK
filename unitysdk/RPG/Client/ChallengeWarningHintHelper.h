@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChallengeWarningHintHelper_TypeDefinitionIndex = 63120;
+
 	class ChallengeWarningHintHelper : public ::System::Object
 	{
 	public:

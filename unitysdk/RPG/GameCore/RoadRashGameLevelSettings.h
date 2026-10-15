@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RoadRashGameLevelSettings_TypeDefinitionIndex = 17005;
+
 	class RoadRashGameLevelSettings : public ::RPG::GameCore::LittleGameLevelSettings
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System { class Action; }
 
 namespace SRDebugger::Extension::Option
 {
+	inline static constexpr unsigned int RPGDebugMonoTickBridge_TypeDefinitionIndex = 47709;
+
 	class RPGDebugMonoTickBridge : public ::UnityEngine::MonoBehaviour
 	{
 	public:

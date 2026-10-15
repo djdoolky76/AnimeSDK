@@ -5,6 +5,8 @@
 
 #define OKLLHAFFNAA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C99DAD0)
 
+inline static constexpr unsigned int OKLLHAFFNAA_TypeDefinitionIndex = 42778;
+
 	class OKLLHAFFNAA : public ::System::Object
 	{
 	public:

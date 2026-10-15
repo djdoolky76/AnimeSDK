@@ -5,6 +5,8 @@ class OOCCBMLAELL;
 
 #define HIHFJCIJENK_CTOR_OFFSET UNITYSDK_OFFSET(0x15CE5600)
 
+inline static constexpr unsigned int HIHFJCIJENK_TypeDefinitionIndex = 80585;
+
 	class HIHFJCIJENK : public ::System::Object
 	{
 	public:

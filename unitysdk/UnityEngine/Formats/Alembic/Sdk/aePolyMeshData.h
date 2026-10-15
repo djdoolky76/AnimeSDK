@@ -11,6 +11,8 @@
 
 namespace UnityEngine::Formats::Alembic::Sdk
 {
+	inline static constexpr unsigned int aePolyMeshData_TypeDefinitionIndex = 45787;
+
 	struct alignas(4) aePolyMeshData
 	{
 		::UnityEngine::Formats::Alembic::Sdk::Bool _visibility_k__BackingField; // 0x10

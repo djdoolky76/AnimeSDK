@@ -10,6 +10,8 @@ namespace System { class String; }
 #define NELMICEHHHA_GET_TYPE_OFFSET UNITYSDK_OFFSET(0xBB70FE0)
 #define NELMICEHHHA_JAILHGGFLDH_OFFSET UNITYSDK_OFFSET(0xBB70FF0)
 
+inline static constexpr unsigned int NELMICEHHHA_TypeDefinitionIndex = 56164;
+
 	class NELMICEHHHA : public ::DBGDNLLDPFI
 	{
 	public:

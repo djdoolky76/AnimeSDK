@@ -26,6 +26,8 @@ namespace RPG::Client { class AirshipBird; }
 #define JBNEHIIFAOD_NBJFLGNEBED_OFFSET UNITYSDK_OFFSET(0x16574EE0)
 #define JBNEHIIFAOD_NKIKICKEOED_OFFSET UNITYSDK_OFFSET(0x16575D20)
 
+inline static constexpr unsigned int JBNEHIIFAOD_TypeDefinitionIndex = 59801;
+
 	class JBNEHIIFAOD : public ::System::Object
 	{
 	public:

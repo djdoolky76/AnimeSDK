@@ -11,6 +11,8 @@ namespace RPG::GameCore { class WriteFsvToDynamicValue; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WriteFsvToDynamicValue_TypeDefinitionIndex = 22036;
+
 	class WriteFsvToDynamicValue : public ::RPG::GameCore::TaskConfig
 	{
 	public:

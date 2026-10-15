@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EnterFlipperLightDeviceControl_TypeDefinitionIndex = 22345;
+
 	class EnterFlipperLightDeviceControl : public ::RPG::GameCore::TaskConfig
 	{
 	public:

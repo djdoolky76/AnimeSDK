@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AnimSetParameter_TypeDefinitionIndex = 20598;
+
 	class AnimSetParameter : public ::RPG::GameCore::TaskConfig
 	{
 	public:

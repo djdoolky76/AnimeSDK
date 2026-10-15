@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace Spine
 {
+	inline static constexpr unsigned int BoundingBoxAttachment_TypeDefinitionIndex = 39653;
+
 	class BoundingBoxAttachment : public ::Spine::VertexAttachment
 	{
 	public:

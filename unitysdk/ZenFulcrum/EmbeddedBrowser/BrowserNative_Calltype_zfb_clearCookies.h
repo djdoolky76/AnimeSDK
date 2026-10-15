@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
+	inline static constexpr unsigned int BrowserNative_Calltype_zfb_clearCookies_TypeDefinitionIndex = 39459;
+
 	class BrowserNative_Calltype_zfb_clearCookies : public ::System::MulticastDelegate
 	{
 	public:

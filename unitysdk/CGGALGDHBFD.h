@@ -4,6 +4,8 @@
 
 #define CGGALGDHBFD_CTOR_OFFSET UNITYSDK_OFFSET(0xCC883E0)
 
+inline static constexpr unsigned int CGGALGDHBFD_TypeDefinitionIndex = 79207;
+
 	class CGGALGDHBFD : public ::System::Object
 	{
 	public:

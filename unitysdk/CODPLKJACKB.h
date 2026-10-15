@@ -5,6 +5,8 @@ namespace System { class Object; }
 
 #define CODPLKJACKB_CTOR_OFFSET UNITYSDK_OFFSET(0xDCB3480)
 
+inline static constexpr unsigned int CODPLKJACKB_TypeDefinitionIndex = 64765;
+
 	class CODPLKJACKB : public ::System::Object
 	{
 	public:

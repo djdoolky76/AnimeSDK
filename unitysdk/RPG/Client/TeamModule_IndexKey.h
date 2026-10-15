@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TeamModule_IndexKey_TypeDefinitionIndex = 68131;
+
 	struct alignas(4) TeamModule_IndexKey
 	{
 		::ACINIALAFDE AvatarType; // 0x10

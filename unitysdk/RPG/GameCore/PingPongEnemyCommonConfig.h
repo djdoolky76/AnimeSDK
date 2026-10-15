@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PingPongEnemyCommonConfig_TypeDefinitionIndex = 16980;
+
 	class PingPongEnemyCommonConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

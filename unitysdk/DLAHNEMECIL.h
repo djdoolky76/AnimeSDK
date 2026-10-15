@@ -4,6 +4,8 @@
 class CEEGMMCFCBG;
 namespace System { template <typename T1, typename T2> class Func_2; }
 
+inline static constexpr unsigned int DLAHNEMECIL_TypeDefinitionIndex = 49857;
+
 	class DLAHNEMECIL : public ::System::Object
 	{
 	public:

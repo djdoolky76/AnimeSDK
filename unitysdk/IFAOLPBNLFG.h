@@ -14,6 +14,8 @@ namespace System { class Nullable; }
 #define IFAOLPBNLFG_HNDNIFKJEIB_OFFSET UNITYSDK_OFFSET(0x15F08AE0)
 #define IFAOLPBNLFG_PGAKEIEKLPG_OFFSET UNITYSDK_OFFSET(0x15F08EC0)
 
+inline static constexpr unsigned int IFAOLPBNLFG_TypeDefinitionIndex = 57360;
+
 	class IFAOLPBNLFG : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

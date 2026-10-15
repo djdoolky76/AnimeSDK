@@ -6,6 +6,8 @@
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int ConsoleInputParam_TypeDefinitionIndex = 7582;
+
 	class ConsoleInputParam : public ::System::Object
 	{
 	public:

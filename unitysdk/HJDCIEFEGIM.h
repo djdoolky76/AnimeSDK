@@ -35,6 +35,8 @@ namespace System { class String; }
 #define HJDCIEFEGIM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E5A4D20)
 #define HJDCIEFEGIM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E5A4D80)
 
+inline static constexpr unsigned int HJDCIEFEGIM_TypeDefinitionIndex = 27226;
+
 	class HJDCIEFEGIM : public ::System::Object
 	{
 	public:

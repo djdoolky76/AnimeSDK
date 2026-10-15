@@ -9,6 +9,8 @@ namespace RPG::GameCore { class TeamVoiceAtlasBindingRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TeamVoiceAtlasBindingRow_TypeDefinitionIndex = 12683;
+
 	class TeamVoiceAtlasBindingRow : public ::System::Object
 	{
 	public:

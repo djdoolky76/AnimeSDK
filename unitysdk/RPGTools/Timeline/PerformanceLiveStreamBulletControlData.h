@@ -7,6 +7,8 @@
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int PerformanceLiveStreamBulletControlData_TypeDefinitionIndex = 48170;
+
 	class PerformanceLiveStreamBulletControlData : public ::System::Object
 	{
 	public:

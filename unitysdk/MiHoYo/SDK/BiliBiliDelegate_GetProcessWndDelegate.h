@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int BiliBiliDelegate_GetProcessWndDelegate_TypeDefinitionIndex = 7612;
+
 	class BiliBiliDelegate_GetProcessWndDelegate : public ::System::MulticastDelegate
 	{
 	public:

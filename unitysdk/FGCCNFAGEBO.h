@@ -2,6 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
+inline static constexpr unsigned int FGCCNFAGEBO_TypeDefinitionIndex = 43580;
+
 	class FGCCNFAGEBO : public ::System::Object
 	{
 	public:

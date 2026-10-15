@@ -3,6 +3,8 @@
 #include "unitysdk/System/Object.h"
 class PEJHFJNLBEK_GBPFHEABKPE;
 
+inline static constexpr unsigned int PEJHFJNLBEK___O_TypeDefinitionIndex = 50321;
+
 	class PEJHFJNLBEK___O : public ::System::Object
 	{
 	public:

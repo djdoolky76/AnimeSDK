@@ -5,6 +5,8 @@ class ELJDJAOHEAD;
 
 #define ELJDJAOHEAD_AHCKCAHEBFO_CTOR_OFFSET UNITYSDK_OFFSET(0x15525E70)
 
+inline static constexpr unsigned int ELJDJAOHEAD_AHCKCAHEBFO_TypeDefinitionIndex = 58414;
+
 	class ELJDJAOHEAD_AHCKCAHEBFO : public ::System::Object
 	{
 	public:

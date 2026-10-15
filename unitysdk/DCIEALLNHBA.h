@@ -6,6 +6,8 @@ namespace System { class String; }
 
 #define DCIEALLNHBA_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CA1B5B0)
 
+inline static constexpr unsigned int DCIEALLNHBA_TypeDefinitionIndex = 42800;
+
 	class DCIEALLNHBA : public ::System::Object
 	{
 	public:

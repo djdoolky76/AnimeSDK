@@ -6,6 +6,8 @@ class GAHPNAEGACM;
 #define BFINAHGOMOO___C__DISPLAYCLASS96_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB16BBF0)
 #define BFINAHGOMOO___C__DISPLAYCLASS96_0___FINDCHANGEDETAIL_B__0_OFFSET UNITYSDK_OFFSET(0xB16D150)
 
+inline static constexpr unsigned int BFINAHGOMOO___c__DisplayClass96_0_TypeDefinitionIndex = 71219;
+
 	class BFINAHGOMOO___c__DisplayClass96_0 : public ::System::Object
 	{
 	public:

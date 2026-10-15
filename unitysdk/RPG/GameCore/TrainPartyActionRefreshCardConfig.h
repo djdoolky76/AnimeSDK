@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TrainPartyActionRefreshCardConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TrainPartyActionRefreshCardConfig_TypeDefinitionIndex = 18072;
+
 	class TrainPartyActionRefreshCardConfig : public ::RPG::GameCore::TrainPartyActionConfigBase
 	{
 	public:

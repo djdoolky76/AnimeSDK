@@ -7,6 +7,8 @@ namespace System { class String; }
 #define DDKLDHNOMIF_IAMCNOAAALI_OFFSET UNITYSDK_OFFSET(0xE4E4560)
 #define DDKLDHNOMIF_JCKGONAAIPB_OFFSET UNITYSDK_OFFSET(0xE4E45D0)
 
+inline static constexpr unsigned int DDKLDHNOMIF_TypeDefinitionIndex = 71739;
+
 	class DDKLDHNOMIF : public ::LBAMBIMMJKB
 	{
 	public:

@@ -7,6 +7,8 @@ namespace System { class Object; }
 
 namespace System::Linq::Expressions::Interpreter
 {
+	inline static constexpr unsigned int ConvertHelper_TypeDefinitionIndex = 3315;
+
 	class ConvertHelper : public ::System::Object
 	{
 	public:

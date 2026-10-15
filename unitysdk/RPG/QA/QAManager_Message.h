@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace RPG::QA
 {
+	inline static constexpr unsigned int QAManager_Message_TypeDefinitionIndex = 51816;
+
 	struct alignas(8) QAManager_Message
 	{
 		::System::String* Type; // 0x10

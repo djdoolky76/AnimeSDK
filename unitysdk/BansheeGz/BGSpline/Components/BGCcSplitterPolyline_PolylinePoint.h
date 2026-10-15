@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace BansheeGz::BGSpline::Components
 {
+	inline static constexpr unsigned int BGCcSplitterPolyline_PolylinePoint_TypeDefinitionIndex = 36049;
+
 	struct alignas(4) BGCcSplitterPolyline_PolylinePoint
 	{
 		::UnityEngine::Vector3 Position; // 0x10

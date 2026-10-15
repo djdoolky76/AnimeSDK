@@ -24,6 +24,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace MiHoYo::SDK::UI
 {
+	inline static constexpr unsigned int PayParentConsentSentDialog_TypeDefinitionIndex = 8380;
+
 	class PayParentConsentSentDialog : public ::MiHoYo::SDK::UIElement
 	{
 	public:

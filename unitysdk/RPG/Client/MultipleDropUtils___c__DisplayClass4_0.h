@@ -9,6 +9,8 @@ namespace RPG::Client { class MultipleDropData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MultipleDropUtils___c__DisplayClass4_0_TypeDefinitionIndex = 66324;
+
 	class MultipleDropUtils___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:

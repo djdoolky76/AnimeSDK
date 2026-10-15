@@ -25,6 +25,8 @@ namespace UnityEngine { class Renderer; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RendererMaterialCacheManagerExt_TypeDefinitionIndex = 69835;
+
 	class RendererMaterialCacheManagerExt : public ::System::Object
 	{
 	public:

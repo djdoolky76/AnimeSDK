@@ -38,6 +38,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define BILJOFMFHAJ_OPFIMCLCGHN_OFFSET UNITYSDK_OFFSET(0x1C541590)
 #define BILJOFMFHAJ_PHFLHOICJJA_OFFSET UNITYSDK_OFFSET(0x1C5420C0)
 
+inline static constexpr unsigned int BILJOFMFHAJ_TypeDefinitionIndex = 41815;
+
 	class BILJOFMFHAJ : public ::System::Object
 	{
 	public:

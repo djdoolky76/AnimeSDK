@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightTraitRemarkLineColorType_TypeDefinitionIndex = 65473;
+
 	enum class GridFightTraitRemarkLineColorType : ::System::Int32
 	{
 		Gray = 0,

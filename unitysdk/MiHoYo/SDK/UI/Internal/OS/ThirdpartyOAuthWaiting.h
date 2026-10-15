@@ -25,6 +25,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace MiHoYo::SDK::UI::Internal::OS
 {
+	inline static constexpr unsigned int ThirdpartyOAuthWaiting_TypeDefinitionIndex = 8439;
+
 	class ThirdpartyOAuthWaiting : public ::MiHoYo::SDK::UIElement
 	{
 	public:

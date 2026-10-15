@@ -44,6 +44,8 @@ namespace UnityEngine { class Transform; }
 #define ICOHAPENNHF_OKEDPEOFBGG_OFFSET UNITYSDK_OFFSET(0x15E612F0)
 #define ICOHAPENNHF_POGOCDOLLIO_OFFSET UNITYSDK_OFFSET(0x15E61BB0)
 
+inline static constexpr unsigned int ICOHAPENNHF_TypeDefinitionIndex = 69326;
+
 	class ICOHAPENNHF : public ::System::Object
 	{
 	public:

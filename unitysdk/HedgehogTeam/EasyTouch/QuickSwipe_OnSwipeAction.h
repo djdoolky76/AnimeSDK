@@ -5,6 +5,8 @@
 
 namespace HedgehogTeam::EasyTouch
 {
+	inline static constexpr unsigned int QuickSwipe_OnSwipeAction_TypeDefinitionIndex = 40270;
+
 	class QuickSwipe_OnSwipeAction
 	{
 	public:

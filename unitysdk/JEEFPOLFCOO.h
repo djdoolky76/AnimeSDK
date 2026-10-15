@@ -25,6 +25,8 @@ namespace System { class String; }
 #define JEEFPOLFCOO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E7163F0)
 #define JEEFPOLFCOO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E716450)
 
+inline static constexpr unsigned int JEEFPOLFCOO_TypeDefinitionIndex = 26728;
+
 	class JEEFPOLFCOO : public ::System::Object
 	{
 	public:

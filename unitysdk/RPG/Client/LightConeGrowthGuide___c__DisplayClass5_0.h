@@ -9,6 +9,8 @@ namespace System { class Action; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int LightConeGrowthGuide___c__DisplayClass5_0_TypeDefinitionIndex = 65552;
+
 	class LightConeGrowthGuide___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:

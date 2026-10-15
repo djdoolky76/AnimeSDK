@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetMusicRhythmCamera_TypeDefinitionIndex = 22056;
+
 	class SetMusicRhythmCamera : public ::RPG::GameCore::TaskConfig
 	{
 	public:

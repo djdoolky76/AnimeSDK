@@ -14,6 +14,8 @@ namespace System { class Object; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int IVROverlay__SetOverlayTransformOverlayRelative_TypeDefinitionIndex = 39099;
+
 	class IVROverlay__SetOverlayTransformOverlayRelative : public ::System::MulticastDelegate
 	{
 	public:

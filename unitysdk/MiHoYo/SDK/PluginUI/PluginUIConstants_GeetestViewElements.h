@@ -4,6 +4,8 @@
 
 namespace MiHoYo::SDK::PluginUI
 {
+	inline static constexpr unsigned int PluginUIConstants_GeetestViewElements_TypeDefinitionIndex = 9225;
+
 	class PluginUIConstants_GeetestViewElements : public ::System::Object
 	{
 	public:

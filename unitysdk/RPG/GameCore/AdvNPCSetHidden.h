@@ -10,6 +10,8 @@ namespace RPG::GameCore { class AdvNPCSetHidden; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvNPCSetHidden_TypeDefinitionIndex = 20232;
+
 	class AdvNPCSetHidden : public ::RPG::GameCore::TaskConfig
 	{
 	public:

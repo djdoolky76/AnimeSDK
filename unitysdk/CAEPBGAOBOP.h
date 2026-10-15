@@ -7,6 +7,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 #define CAEPBGAOBOP_CTOR_OFFSET UNITYSDK_OFFSET(0xC47B800)
 #define CAEPBGAOBOP_MIFJNPKACOB_OFFSET UNITYSDK_OFFSET(0xC47B460)
 
+inline static constexpr unsigned int CAEPBGAOBOP_TypeDefinitionIndex = 67910;
+
 	class CAEPBGAOBOP : public ::System::Object
 	{
 	public:

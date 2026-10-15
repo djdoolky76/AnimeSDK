@@ -14,6 +14,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MarbleActivityData_TypeDefinitionIndex = 65799;
+
 	class MarbleActivityData : public ::RPG::Client::ActivityPanelData
 	{
 	public:

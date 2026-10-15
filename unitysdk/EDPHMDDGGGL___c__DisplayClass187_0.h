@@ -7,6 +7,8 @@ namespace System { class Action; }
 #define EDPHMDDGGGL___C__DISPLAYCLASS187_0_CTOR_OFFSET UNITYSDK_OFFSET(0x13340850)
 #define EDPHMDDGGGL___C__DISPLAYCLASS187_0___RELOADINVISIBLERESOURCE_B__0_OFFSET UNITYSDK_OFFSET(0x1334C380)
 
+inline static constexpr unsigned int EDPHMDDGGGL___c__DisplayClass187_0_TypeDefinitionIndex = 60723;
+
 	class EDPHMDDGGGL___c__DisplayClass187_0 : public ::System::Object
 	{
 	public:

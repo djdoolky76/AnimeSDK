@@ -12,6 +12,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace RPG::Client::TrainParty
 {
+	inline static constexpr unsigned int TrainPartyMeetingData___c_TypeDefinitionIndex = 74333;
+
 	class TrainPartyMeetingData___c : public ::System::Object
 	{
 	public:

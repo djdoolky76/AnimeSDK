@@ -50,6 +50,8 @@ namespace UnityEngine { class Transform; }
 #define KBJOBKGAHOP_OMEIFLGHOBI_OFFSET UNITYSDK_OFFSET(0xB306FF0)
 #define KBJOBKGAHOP_POPNLPIAOCM_OFFSET UNITYSDK_OFFSET(0xB3032C0)
 
+inline static constexpr unsigned int KBJOBKGAHOP_TypeDefinitionIndex = 70047;
+
 	class KBJOBKGAHOP : public ::RPG::Client::BehaviorBase
 	{
 	public:

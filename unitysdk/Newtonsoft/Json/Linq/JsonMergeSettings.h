@@ -6,6 +6,8 @@
 
 namespace Newtonsoft::Json::Linq
 {
+	inline static constexpr unsigned int JsonMergeSettings_TypeDefinitionIndex = 9755;
+
 	class JsonMergeSettings : public ::System::Object
 	{
 	public:

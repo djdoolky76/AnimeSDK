@@ -29,6 +29,8 @@ namespace System { class String; }
 #define BJMPHAAOEFL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF4A2F0)
 #define BJMPHAAOEFL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF4A350)
 
+inline static constexpr unsigned int BJMPHAAOEFL_TypeDefinitionIndex = 27829;
+
 	class BJMPHAAOEFL : public ::System::Object
 	{
 	public:

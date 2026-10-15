@@ -13,6 +13,8 @@ namespace System::Security::Cryptography::X509Certificates { class X509ChainPoli
 
 namespace System::Security::Cryptography::X509Certificates
 {
+	inline static constexpr unsigned int X509ChainImplMono_TypeDefinitionIndex = 2703;
+
 	class X509ChainImplMono : public ::System::Security::Cryptography::X509Certificates::X509ChainImpl
 	{
 	public:

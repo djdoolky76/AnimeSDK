@@ -11,6 +11,8 @@ namespace System { class String; }
 #define JEBLBMDOOML_CTOR_OFFSET UNITYSDK_OFFSET(0x1D01A850)
 #define JEBLBMDOOML_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D01A400)
 
+inline static constexpr unsigned int JEBLBMDOOML_TypeDefinitionIndex = 15063;
+
 	class JEBLBMDOOML : public ::System::Object
 	{
 	public:

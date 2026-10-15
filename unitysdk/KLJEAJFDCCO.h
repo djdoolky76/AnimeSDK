@@ -8,6 +8,8 @@ namespace System { class IDisposable; }
 namespace System { template <typename T1, typename T2, typename T3, typename T4> class Func_4; }
 namespace System { template <typename T1, typename T2, typename T3> class Func_3; }
 
+inline static constexpr unsigned int KLJEAJFDCCO_TypeDefinitionIndex = 49810;
+
 	class KLJEAJFDCCO : public ::System::Object
 	{
 	public:

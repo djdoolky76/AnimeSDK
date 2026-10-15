@@ -45,6 +45,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_PluginStorage_TypeDefinitionIndex = 40440;
+
 	class HEU_PluginStorage : public ::System::Object
 	{
 	public:

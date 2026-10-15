@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define NOLKEGGBDBP_FKIHMELNKDA_OFFSET UNITYSDK_OFFSET(0x1C5747C0)
 #define NOLKEGGBDBP_OBHHNAKALGL_OFFSET UNITYSDK_OFFSET(0x1C574720)
 
+inline static constexpr unsigned int NOLKEGGBDBP_TypeDefinitionIndex = 41655;
+
 	class NOLKEGGBDBP : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class DynamicVector4; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DynamicVector4_TypeDefinitionIndex = 23847;
+
 	class DynamicVector4 : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -12,6 +12,8 @@ namespace RPG::Client { class CameraFightStateCommonConfig; }
 #define EEJOCGFPBAA_REFRESH_OFFSET UNITYSDK_OFFSET(0x13A315F0)
 #define EEJOCGFPBAA_RESET_OFFSET UNITYSDK_OFFSET(0x13A31710)
 
+inline static constexpr unsigned int EEJOCGFPBAA_TypeDefinitionIndex = 69595;
+
 	class EEJOCGFPBAA : public ::System::Object
 	{
 	public:

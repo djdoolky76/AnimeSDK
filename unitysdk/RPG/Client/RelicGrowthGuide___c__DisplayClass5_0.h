@@ -8,6 +8,8 @@ namespace System { class Action; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RelicGrowthGuide___c__DisplayClass5_0_TypeDefinitionIndex = 65557;
+
 	class RelicGrowthGuide___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:

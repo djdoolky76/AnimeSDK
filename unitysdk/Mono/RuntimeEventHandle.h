@@ -9,6 +9,8 @@ namespace System { class Object; }
 
 namespace Mono
 {
+	inline static constexpr unsigned int RuntimeEventHandle_TypeDefinitionIndex = 8;
+
 	struct alignas(4) RuntimeEventHandle
 	{
 		::System::IntPtr value; // 0x10

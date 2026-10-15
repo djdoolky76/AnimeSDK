@@ -7,6 +7,8 @@ namespace System { class Object; }
 #define HEOAAAKKHLC___C__DISPLAYCLASS18_1_CTOR_OFFSET UNITYSDK_OFFSET(0x1CAC67B0)
 #define HEOAAAKKHLC___C__DISPLAYCLASS18_1___MAKECHOICE_B__2_OFFSET UNITYSDK_OFFSET(0x1CAC7520)
 
+inline static constexpr unsigned int HEOAAAKKHLC___c__DisplayClass18_1_TypeDefinitionIndex = 43035;
+
 	template <typename T>
 	class HEOAAAKKHLC___c__DisplayClass18_1 : public ::System::Object
 	{

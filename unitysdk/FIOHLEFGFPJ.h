@@ -4,6 +4,8 @@
 
 #define FIOHLEFGFPJ_CTOR_OFFSET UNITYSDK_OFFSET(0x157B1540)
 
+inline static constexpr unsigned int FIOHLEFGFPJ_TypeDefinitionIndex = 80556;
+
 	class FIOHLEFGFPJ : public ::System::Object
 	{
 	public:

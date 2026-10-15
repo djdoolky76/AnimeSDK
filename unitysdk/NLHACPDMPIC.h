@@ -78,6 +78,8 @@ namespace System { class Object; }
 #define NLHACPDMPIC___CHECKANDTRYRECONNECTTOFIGHT_B__48_3_OFFSET UNITYSDK_OFFSET(0xBC6B530)
 #define NLHACPDMPIC___CHECKANDTRYRECONNECTTOFIGHT_B__48_4_OFFSET UNITYSDK_OFFSET(0xBC6B500)
 
+inline static constexpr unsigned int NLHACPDMPIC_TypeDefinitionIndex = 76185;
+
 	class NLHACPDMPIC : public ::System::Object
 	{
 	public:

@@ -3,6 +3,8 @@
 
 namespace RPG::Client::SwordTraining
 {
+	inline static constexpr unsigned int SwordTrainingGameRecordType_TypeDefinitionIndex = 75055;
+
 	enum class SwordTrainingGameRecordType : ::System::Int32
 	{
 		None = 0,

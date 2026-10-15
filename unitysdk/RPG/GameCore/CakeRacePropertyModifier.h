@@ -11,6 +11,8 @@ namespace RPG::GameCore { class CakeRacePropertyModifier; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CakeRacePropertyModifier_TypeDefinitionIndex = 18329;
+
 	class CakeRacePropertyModifier : public ::RPG::GameCore::JsonConfig
 	{
 	public:

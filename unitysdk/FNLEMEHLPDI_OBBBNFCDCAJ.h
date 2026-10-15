@@ -4,6 +4,8 @@
 
 #define FNLEMEHLPDI_OBBBNFCDCAJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1587ACF0)
 
+inline static constexpr unsigned int FNLEMEHLPDI_OBBBNFCDCAJ_TypeDefinitionIndex = 57490;
+
 	class FNLEMEHLPDI_OBBBNFCDCAJ : public ::System::Object
 	{
 	public:

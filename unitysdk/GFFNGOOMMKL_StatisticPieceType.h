@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int GFFNGOOMMKL_StatisticPieceType_TypeDefinitionIndex = 76593;
+
 	enum class GFFNGOOMMKL_StatisticPieceType : ::System::Int32
 	{
 		Normal = 1,

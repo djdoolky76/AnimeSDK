@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PetPartyTestMono_MemberSlotConfig_TypeDefinitionIndex = 60210;
+
 	class PetPartyTestMono_MemberSlotConfig : public ::System::Object
 	{
 	public:

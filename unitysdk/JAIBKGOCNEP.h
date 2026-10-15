@@ -12,6 +12,8 @@ namespace UnityEngine { class MonoBehaviour; }
 #define JAIBKGOCNEP_IMMEKJJEICK_OFFSET UNITYSDK_OFFSET(0x1654BE60)
 #define JAIBKGOCNEP_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x1654BD80)
 
+inline static constexpr unsigned int JAIBKGOCNEP_TypeDefinitionIndex = 69858;
+
 	class JAIBKGOCNEP : public ::RPG::Client::BehaviorBase
 	{
 	public:

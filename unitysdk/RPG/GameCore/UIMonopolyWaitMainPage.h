@@ -10,6 +10,8 @@ namespace RPG::GameCore { class UIMonopolyWaitMainPage; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int UIMonopolyWaitMainPage_TypeDefinitionIndex = 21728;
+
 	class UIMonopolyWaitMainPage : public ::RPG::GameCore::TaskConfig
 	{
 	public:

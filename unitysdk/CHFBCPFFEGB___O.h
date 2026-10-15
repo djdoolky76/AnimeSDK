@@ -4,6 +4,8 @@
 namespace RPG::GameCore { class TurnBasedModifierInstance; }
 namespace System { template <typename T> class Predicate_1; }
 
+inline static constexpr unsigned int CHFBCPFFEGB___O_TypeDefinitionIndex = 72320;
+
 	class CHFBCPFFEGB___O : public ::System::Object
 	{
 	public:

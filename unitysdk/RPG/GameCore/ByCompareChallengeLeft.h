@@ -14,6 +14,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByCompareChallengeLeft_TypeDefinitionIndex = 23524;
+
 	class ByCompareChallengeLeft : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

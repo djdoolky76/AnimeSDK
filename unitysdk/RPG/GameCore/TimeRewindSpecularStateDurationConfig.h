@@ -9,6 +9,8 @@ namespace RPG::GameCore { class TimeRewindSpecularStateDurationConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TimeRewindSpecularStateDurationConfig_TypeDefinitionIndex = 16597;
+
 	class TimeRewindSpecularStateDurationConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

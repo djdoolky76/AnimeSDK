@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define GHKEFFNGBID_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15A27A00)
 #define GHKEFFNGBID_TICK_OFFSET UNITYSDK_OFFSET(0x15A27A50)
 
+inline static constexpr unsigned int GHKEFFNGBID_TypeDefinitionIndex = 55537;
+
 	class GHKEFFNGBID : public ::GELIALJDFBL
 	{
 	public:

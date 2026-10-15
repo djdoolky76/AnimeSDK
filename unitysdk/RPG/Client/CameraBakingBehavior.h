@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CameraBakingBehavior_TypeDefinitionIndex = 71038;
+
 	class CameraBakingBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:

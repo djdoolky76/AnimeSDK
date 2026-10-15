@@ -86,6 +86,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TriggerEffectParams_TypeDefinitionIndex = 69918;
+
 	class TriggerEffectParams : public ::System::Object
 	{
 	public:

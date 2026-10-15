@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int IdleLiveSpineAnimGroupRow_TypeDefinitionIndex = 11810;
+
 	class IdleLiveSpineAnimGroupRow : public ::System::Object
 	{
 	public:

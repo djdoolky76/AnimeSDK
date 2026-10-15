@@ -10,6 +10,8 @@ namespace Mono::Security::Interface { class MonoTlsSettings; }
 
 namespace Mono::Security::Interface
 {
+	inline static constexpr unsigned int CertificateValidationHelper_TypeDefinitionIndex = 2287;
+
 	class CertificateValidationHelper : public ::System::Object
 	{
 	public:

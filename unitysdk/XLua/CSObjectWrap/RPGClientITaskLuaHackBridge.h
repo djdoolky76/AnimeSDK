@@ -18,6 +18,8 @@ namespace XLua { class LuaEnv; }
 
 namespace XLua::CSObjectWrap
 {
+	inline static constexpr unsigned int RPGClientITaskLuaHackBridge_TypeDefinitionIndex = 50809;
+
 	class RPGClientITaskLuaHackBridge : public ::XLua::LuaBase
 	{
 	public:

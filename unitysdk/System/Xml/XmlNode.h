@@ -66,6 +66,8 @@ namespace System::Xml { class XmlNodeList; }
 
 namespace System::Xml
 {
+	inline static constexpr unsigned int XmlNode_TypeDefinitionIndex = 1914;
+
 	class XmlNode : public ::System::Object
 	{
 	public:

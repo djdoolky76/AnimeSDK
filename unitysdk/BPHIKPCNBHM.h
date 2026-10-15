@@ -27,6 +27,8 @@ namespace System { class String; }
 #define BPHIKPCNBHM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E047A30)
 #define BPHIKPCNBHM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E047A90)
 
+inline static constexpr unsigned int BPHIKPCNBHM_TypeDefinitionIndex = 33189;
+
 	class BPHIKPCNBHM : public ::System::Object
 	{
 	public:

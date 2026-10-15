@@ -9,6 +9,8 @@ namespace RPG::Client { class UIManager; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UIManager___c__DisplayClass107_0_TypeDefinitionIndex = 73081;
+
 	class UIManager___c__DisplayClass107_0 : public ::System::Object
 	{
 	public:

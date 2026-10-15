@@ -12,6 +12,8 @@ namespace RPG::GameCore { class RandomSelectMuseumStuff; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RandomSelectMuseumStuff_TypeDefinitionIndex = 21089;
+
 	class RandomSelectMuseumStuff : public ::RPG::GameCore::TaskConfig
 	{
 	public:

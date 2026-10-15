@@ -12,6 +12,8 @@ namespace RPG::GameCore { class DynamicFloat; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BattleExtraPropertyAdditionPair_TypeDefinitionIndex = 23643;
+
 	class BattleExtraPropertyAdditionPair : public ::RPG::GameCore::JsonConfig
 	{
 	public:

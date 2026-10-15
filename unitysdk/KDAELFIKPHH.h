@@ -4,6 +4,8 @@
 
 #define KDAELFIKPHH_CTOR_OFFSET UNITYSDK_OFFSET(0x1CBB1620)
 
+inline static constexpr unsigned int KDAELFIKPHH_TypeDefinitionIndex = 43731;
+
 	class KDAELFIKPHH : public ::System::Object
 	{
 	public:

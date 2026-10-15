@@ -7,6 +7,8 @@ namespace RPG::Client::ChenLingBattle { class IEntity; }
 
 namespace RPG::Client::ChenLingBattle
 {
+	inline static constexpr unsigned int EntityLevelChangeData_TypeDefinitionIndex = 76241;
+
 	class EntityLevelChangeData : public ::System::Object
 	{
 	public:

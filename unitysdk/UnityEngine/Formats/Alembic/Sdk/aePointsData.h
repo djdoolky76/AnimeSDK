@@ -15,6 +15,8 @@
 
 namespace UnityEngine::Formats::Alembic::Sdk
 {
+	inline static constexpr unsigned int aePointsData_TypeDefinitionIndex = 45785;
+
 	struct alignas(4) aePointsData
 	{
 		::UnityEngine::Formats::Alembic::Sdk::Bool _visibility_k__BackingField; // 0x10

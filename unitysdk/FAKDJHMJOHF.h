@@ -13,6 +13,8 @@ namespace System { class Object; }
 #define FAKDJHMJOHF_LLHHMDJOJLA_OFFSET UNITYSDK_OFFSET(0x15682A70)
 #define FAKDJHMJOHF_LMKNFOBJMMK_OFFSET UNITYSDK_OFFSET(0x15682BD0)
 
+inline static constexpr unsigned int FAKDJHMJOHF_TypeDefinitionIndex = 75361;
+
 	class FAKDJHMJOHF : public ::System::Object
 	{
 	public:

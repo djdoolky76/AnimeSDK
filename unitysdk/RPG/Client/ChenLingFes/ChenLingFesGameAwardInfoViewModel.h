@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::ChenLingFes
 {
+	inline static constexpr unsigned int ChenLingFesGameAwardInfoViewModel_TypeDefinitionIndex = 81399;
+
 	class ChenLingFesGameAwardInfoViewModel : public ::Sofa::BaseViewModel
 	{
 	public:

@@ -29,6 +29,8 @@ namespace System { class String; }
 #define AMIHACOLKBO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E5231C0)
 #define AMIHACOLKBO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E523220)
 
+inline static constexpr unsigned int AMIHACOLKBO_TypeDefinitionIndex = 29099;
+
 	class AMIHACOLKBO : public ::System::Object
 	{
 	public:

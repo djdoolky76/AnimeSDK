@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace System::Threading
 {
+	inline static constexpr unsigned int TimerCallback_TypeDefinitionIndex = 882;
+
 	class TimerCallback : public ::System::MulticastDelegate
 	{
 	public:

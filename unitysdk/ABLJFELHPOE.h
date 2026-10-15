@@ -2,6 +2,8 @@
 #include "unitysdk/unitysdk.h"
 namespace RPG::GameCore { class FiveDimFloatingSpiritPropSpawnerParam; }
 
+inline static constexpr unsigned int ABLJFELHPOE_TypeDefinitionIndex = 43490;
+
 	struct alignas(8) ABLJFELHPOE
 	{
 		::System::Int32 MNMHMECGDAK; // 0x10

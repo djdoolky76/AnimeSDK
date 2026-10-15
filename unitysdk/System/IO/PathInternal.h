@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace System::IO
 {
+	inline static constexpr unsigned int PathInternal_TypeDefinitionIndex = 707;
+
 	class PathInternal : public ::System::Object
 	{
 	public:

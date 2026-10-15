@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int ConsoleDelegate_TryGetCXTokenDelegate_TypeDefinitionIndex = 7674;
+
 	class ConsoleDelegate_TryGetCXTokenDelegate : public ::System::MulticastDelegate
 	{
 	public:

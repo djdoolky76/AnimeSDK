@@ -4,6 +4,8 @@
 
 #define LNAJFCLMDJG_CTOR_OFFSET UNITYSDK_OFFSET(0x1C740DC0)
 
+inline static constexpr unsigned int LNAJFCLMDJG_TypeDefinitionIndex = 36450;
+
 	class LNAJFCLMDJG : public ::System::Object
 	{
 	public:

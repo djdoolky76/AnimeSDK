@@ -14,6 +14,8 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace RootMotion
 {
+	inline static constexpr unsigned int NativeCurve_TypeDefinitionIndex = 45977;
+
 	struct alignas(8) NativeCurve
 	{
 		::Unity::Collections::NativeArray_1<::System::Single> values; // 0x10

@@ -34,6 +34,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FateBuffSlotData_TypeDefinitionIndex = 63998;
+
 	class FateBuffSlotData : public ::System::Object
 	{
 	public:

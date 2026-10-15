@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define FAIDNEJDFLL_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CDC5F50)
 #define FAIDNEJDFLL_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CDC5870)
 
+inline static constexpr unsigned int FAIDNEJDFLL_TypeDefinitionIndex = 13366;
+
 	class FAIDNEJDFLL : public ::System::Object
 	{
 	public:

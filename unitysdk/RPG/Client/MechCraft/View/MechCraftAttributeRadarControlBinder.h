@@ -17,6 +17,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftAttributeRadarControlBinder_TypeDefinitionIndex = 79806;
+
 	class MechCraftAttributeRadarControlBinder : public ::RPG::Client::MechCraft::View::MechCraftBinderBase
 	{
 	public:

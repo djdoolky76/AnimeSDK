@@ -22,6 +22,8 @@ namespace System::Collections::Generic { template <typename T> class Queue_1; }
 
 namespace RPG::Client::ActivityAlley
 {
+	inline static constexpr unsigned int AlleyPackComponent_AlleyPackDragState_TypeDefinitionIndex = 74091;
+
 	class AlleyPackComponent_AlleyPackDragState : public ::System::Object
 	{
 	public:

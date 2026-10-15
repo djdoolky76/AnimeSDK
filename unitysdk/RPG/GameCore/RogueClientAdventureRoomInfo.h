@@ -7,6 +7,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueClientAdventureRoomInfo_TypeDefinitionIndex = 58450;
+
 	class RogueClientAdventureRoomInfo : public ::System::Object
 	{
 	public:

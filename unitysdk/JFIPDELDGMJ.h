@@ -8,6 +8,8 @@ class FFJMOFNDDEH;
 #define JFIPDELDGMJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1664F940)
 #define JFIPDELDGMJ_MOCLKDOACOI_OFFSET UNITYSDK_OFFSET(0x1664F950)
 
+inline static constexpr unsigned int JFIPDELDGMJ_TypeDefinitionIndex = 80156;
+
 	class JFIPDELDGMJ : public ::System::Object
 	{
 	public:

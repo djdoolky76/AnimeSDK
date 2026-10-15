@@ -15,6 +15,8 @@ namespace System { class Exception; }
 #define LAMOKDDOIMP__ONTASKBEGIN_B__3_0_OFFSET UNITYSDK_OFFSET(0xB5E8640)
 #define LAMOKDDOIMP__ONTASKBEGIN_B__3_1_OFFSET UNITYSDK_OFFSET(0xB5E86A0)
 
+inline static constexpr unsigned int LAMOKDDOIMP_TypeDefinitionIndex = 58806;
+
 	class LAMOKDDOIMP : public ::GELIALJDFBL
 	{
 	public:

@@ -7,6 +7,8 @@
 
 namespace System::Reflection::Emit
 {
+	inline static constexpr unsigned int OpCodes_TypeDefinitionIndex = 654;
+
 	class OpCodes : public ::System::Object
 	{
 	public:

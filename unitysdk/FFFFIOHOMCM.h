@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define FFFFIOHOMCM_CTOR_OFFSET UNITYSDK_OFFSET(0x15734970)
 #define FFFFIOHOMCM_EVALUATE_OFFSET UNITYSDK_OFFSET(0x157349E0)
 
+inline static constexpr unsigned int FFFFIOHOMCM_TypeDefinitionIndex = 53796;
+
 	class FFFFIOHOMCM
 	{
 	public:

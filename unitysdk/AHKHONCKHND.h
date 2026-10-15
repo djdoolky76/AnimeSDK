@@ -14,6 +14,8 @@ namespace System { class String; }
 #define AHKHONCKHND_KHMFBNOIPCI_OFFSET UNITYSDK_OFFSET(0xEB85B30)
 #define AHKHONCKHND_MHKOKBGDMME_OFFSET UNITYSDK_OFFSET(0xEB85C80)
 
+inline static constexpr unsigned int AHKHONCKHND_TypeDefinitionIndex = 66350;
+
 	class AHKHONCKHND : public ::System::Object
 	{
 	public:

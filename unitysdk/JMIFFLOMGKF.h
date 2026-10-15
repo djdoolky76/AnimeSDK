@@ -5,6 +5,8 @@
 #define JMIFFLOMGKF_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC7A480)
 #define JMIFFLOMGKF_DPMJELFJBBE_OFFSET UNITYSDK_OFFSET(0x1EC7A4A0)
 
+inline static constexpr unsigned int JMIFFLOMGKF_TypeDefinitionIndex = 44222;
+
 	class JMIFFLOMGKF
 	{
 	public:

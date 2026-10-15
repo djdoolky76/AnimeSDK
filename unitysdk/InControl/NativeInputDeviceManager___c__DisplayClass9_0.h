@@ -12,6 +12,8 @@ namespace InControl { class InputDeviceProfile; }
 
 namespace InControl
 {
+	inline static constexpr unsigned int NativeInputDeviceManager___c__DisplayClass9_0_TypeDefinitionIndex = 40868;
+
 	class NativeInputDeviceManager___c__DisplayClass9_0 : public ::System::Object
 	{
 	public:

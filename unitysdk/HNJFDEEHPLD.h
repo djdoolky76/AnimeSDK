@@ -6,6 +6,8 @@ namespace RPG::GameCore { class FloorTargetAgentConfig; }
 #define HNJFDEEHPLD_CTOR_OFFSET UNITYSDK_OFFSET(0x15D9BC10)
 #define HNJFDEEHPLD_ISVALUEEQUALSTO_OFFSET UNITYSDK_OFFSET(0x15D9BC40)
 
+inline static constexpr unsigned int HNJFDEEHPLD_TypeDefinitionIndex = 62089;
+
 	class HNJFDEEHPLD
 	{
 	public:

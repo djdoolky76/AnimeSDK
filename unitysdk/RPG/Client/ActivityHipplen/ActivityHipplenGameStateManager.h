@@ -22,6 +22,8 @@ namespace System::Collections::Generic { template <typename T> class Queue_1; }
 
 namespace RPG::Client::ActivityHipplen
 {
+	inline static constexpr unsigned int ActivityHipplenGameStateManager_TypeDefinitionIndex = 75514;
+
 	class ActivityHipplenGameStateManager : public ::System::Object
 	{
 	public:

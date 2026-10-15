@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AssetsPathDict_TypeDefinitionIndex = 60010;
+
 	class AssetsPathDict : public ::System::Object
 	{
 	public:

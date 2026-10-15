@@ -6,6 +6,8 @@ namespace System { class String; }
 
 #define LIBEBAKBAOM_CTOR_OFFSET UNITYSDK_OFFSET(0x1C90EDF0)
 
+inline static constexpr unsigned int LIBEBAKBAOM_TypeDefinitionIndex = 42924;
+
 	class LIBEBAKBAOM : public ::System::Object
 	{
 	public:

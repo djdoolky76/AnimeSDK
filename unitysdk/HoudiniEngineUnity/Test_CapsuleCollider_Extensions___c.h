@@ -13,6 +13,8 @@ namespace UnityEngine { class CapsuleCollider; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int Test_CapsuleCollider_Extensions___c_TypeDefinitionIndex = 40730;
+
 	class Test_CapsuleCollider_Extensions___c : public ::System::Object
 	{
 	public:

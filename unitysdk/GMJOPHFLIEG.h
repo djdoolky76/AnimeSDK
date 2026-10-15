@@ -28,6 +28,8 @@ namespace RPG::GameCore { class TransformComponent; }
 #define GMJOPHFLIEG_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15AD4600)
 #define GMJOPHFLIEG_TICK_OFFSET UNITYSDK_OFFSET(0x15AD3AC0)
 
+inline static constexpr unsigned int GMJOPHFLIEG_TypeDefinitionIndex = 52208;
+
 	class GMJOPHFLIEG
 	{
 	public:

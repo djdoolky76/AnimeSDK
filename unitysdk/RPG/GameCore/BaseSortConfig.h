@@ -10,6 +10,8 @@ namespace RPG::GameCore { class BaseSortConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BaseSortConfig_TypeDefinitionIndex = 23138;
+
 	class BaseSortConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

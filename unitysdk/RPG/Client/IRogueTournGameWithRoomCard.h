@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int IRogueTournGameWithRoomCard_TypeDefinitionIndex = 67612;
+
 	class IRogueTournGameWithRoomCard
 	{
 	public:

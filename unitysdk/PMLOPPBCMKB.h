@@ -34,6 +34,8 @@ namespace RPG::GameCore { class LodDetail; }
 #define PMLOPPBCMKB_OAJDBPKBOAJ_OFFSET UNITYSDK_OFFSET(0xC324C40)
 #define PMLOPPBCMKB_ONLOKIFJOBL_OFFSET UNITYSDK_OFFSET(0xC3250D0)
 
+inline static constexpr unsigned int PMLOPPBCMKB_TypeDefinitionIndex = 73841;
+
 	class PMLOPPBCMKB : public ::System::Object
 	{
 	public:

@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define DMKJLIDDFON_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CD46D10)
 #define DMKJLIDDFON_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CD46630)
 
+inline static constexpr unsigned int DMKJLIDDFON_TypeDefinitionIndex = 12249;
+
 	class DMKJLIDDFON : public ::System::Object
 	{
 	public:

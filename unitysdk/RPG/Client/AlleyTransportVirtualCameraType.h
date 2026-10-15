@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AlleyTransportVirtualCameraType_TypeDefinitionIndex = 62282;
+
 	enum class AlleyTransportVirtualCameraType : ::System::Int32
 	{
 		PreviewVC = 0,

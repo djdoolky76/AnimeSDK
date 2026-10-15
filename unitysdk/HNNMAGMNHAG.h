@@ -11,6 +11,8 @@ namespace System { class String; }
 #define HNNMAGMNHAG_CTOR_OFFSET UNITYSDK_OFFSET(0x15DA67D0)
 #define HNNMAGMNHAG_JBIOGKPHKKC_OFFSET UNITYSDK_OFFSET(0x15DA67E0)
 
+inline static constexpr unsigned int HNNMAGMNHAG_TypeDefinitionIndex = 79382;
+
 	class HNNMAGMNHAG : public ::System::Object
 	{
 	public:

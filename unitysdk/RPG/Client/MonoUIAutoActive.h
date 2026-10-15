@@ -7,6 +7,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoUIAutoActive_TypeDefinitionIndex = 72612;
+
 	class MonoUIAutoActive : public ::UnityEngine::MonoBehaviour
 	{
 	public:

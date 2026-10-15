@@ -13,6 +13,8 @@ namespace UnityEngine { class MeshFilter; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AcheronSpaceSlicer_TypeDefinitionIndex = 70352;
+
 	class AcheronSpaceSlicer : public ::UnityEngine::MonoBehaviour
 	{
 	public:

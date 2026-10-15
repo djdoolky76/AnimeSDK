@@ -34,6 +34,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriAtomTransceiver_TypeDefinitionIndex = 39945;
+
 	class CriAtomTransceiver : public ::CriWare::CriMonoBehaviour
 	{
 	public:

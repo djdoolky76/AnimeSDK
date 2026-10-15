@@ -7,6 +7,8 @@ namespace System { class Type; }
 
 namespace IFix::Core
 {
+	inline static constexpr unsigned int GenericDelegateFactory__Create_c__AnonStorey0_TypeDefinitionIndex = 7119;
+
 	class GenericDelegateFactory__Create_c__AnonStorey0 : public ::System::Object
 	{
 	public:

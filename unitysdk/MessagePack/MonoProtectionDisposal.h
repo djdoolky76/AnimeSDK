@@ -7,6 +7,8 @@ namespace System { class Object; }
 
 namespace MessagePack
 {
+	inline static constexpr unsigned int MonoProtectionDisposal_TypeDefinitionIndex = 7234;
+
 	struct alignas(8) MonoProtectionDisposal
 	{
 		::System::Object* lockObject; // 0x10

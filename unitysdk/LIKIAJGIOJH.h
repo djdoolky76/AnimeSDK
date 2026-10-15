@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 #define LIKIAJGIOJH_FMNIBBINBIO_OFFSET UNITYSDK_OFFSET(0xB6D6660)
 #define LIKIAJGIOJH_NAHLPAHLBLG_OFFSET UNITYSDK_OFFSET(0xB6D6250)
 
+inline static constexpr unsigned int LIKIAJGIOJH_TypeDefinitionIndex = 69671;
+
 	class LIKIAJGIOJH : public ::System::Object
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int PSDelegate_ShowPsStoreIconDelegate_TypeDefinitionIndex = 7739;
+
 	class PSDelegate_ShowPsStoreIconDelegate : public ::System::MulticastDelegate
 	{
 	public:

@@ -41,6 +41,8 @@ namespace UnityEngine { class Renderer; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MaterialBlockEffectBase_TypeDefinitionIndex = 70648;
+
 	class MaterialBlockEffectBase : public ::RPG::Client::PolymerEffectControllBase
 	{
 	public:

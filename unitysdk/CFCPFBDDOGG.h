@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define CFCPFBDDOGG_GET_FUNS_OFFSET UNITYSDK_OFFSET(0xCA0A520)
 #define CFCPFBDDOGG_GKKDODPDBLA_OFFSET UNITYSDK_OFFSET(0xCA0A5B0)
 
+inline static constexpr unsigned int CFCPFBDDOGG_TypeDefinitionIndex = 63925;
+
 	class CFCPFBDDOGG : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define EGOBMOAGCFL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E29BC80)
 #define EGOBMOAGCFL___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E29BC90)
 
+inline static constexpr unsigned int EGOBMOAGCFL___c_TypeDefinitionIndex = 33911;
+
 	class EGOBMOAGCFL___c : public ::System::Object
 	{
 	public:

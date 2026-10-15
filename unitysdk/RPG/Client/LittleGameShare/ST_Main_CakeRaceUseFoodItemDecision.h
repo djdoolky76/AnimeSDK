@@ -11,6 +11,8 @@ namespace RPG::Client::LittleGameShare { class ST_Main_CakeRaceUseFoodItemDecisi
 
 namespace RPG::Client::LittleGameShare
 {
+	inline static constexpr unsigned int ST_Main_CakeRaceUseFoodItemDecision_TypeDefinitionIndex = 10344;
+
 	class ST_Main_CakeRaceUseFoodItemDecision : public ::RPG::Client::LittleGameShare::LittleGameSTTaskConfig
 	{
 	public:

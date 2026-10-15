@@ -11,6 +11,8 @@ namespace UnityEngine { class Texture2D; }
 #define ILHINFLHPMH_AJBOCDAFALJ_OFFSET UNITYSDK_OFFSET(0x1EBC6DD0)
 #define ILHINFLHPMH_BMJDDDPKOGN_OFFSET UNITYSDK_OFFSET(0x1EBC6DC0)
 
+inline static constexpr unsigned int ILHINFLHPMH_TypeDefinitionIndex = 44016;
+
 	class ILHINFLHPMH : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int IVRSystem__GetD3D9AdapterIndex_TypeDefinitionIndex = 38896;
+
 	class IVRSystem__GetD3D9AdapterIndex : public ::System::MulticastDelegate
 	{
 	public:

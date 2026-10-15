@@ -28,6 +28,8 @@ namespace System { class String; }
 #define LICFNFGCOFN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E96ABB0)
 #define LICFNFGCOFN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E96AC10)
 
+inline static constexpr unsigned int LICFNFGCOFN_TypeDefinitionIndex = 32064;
+
 	class LICFNFGCOFN : public ::System::Object
 	{
 	public:

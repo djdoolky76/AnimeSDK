@@ -5,6 +5,8 @@
 
 #define OELBINFHAGL_LCJMKJPECAP_OFFSET UNITYSDK_OFFSET(0xBE31B90)
 
+inline static constexpr unsigned int OELBINFHAGL_TypeDefinitionIndex = 71223;
+
 	class OELBINFHAGL : public ::System::Object
 	{
 	public:

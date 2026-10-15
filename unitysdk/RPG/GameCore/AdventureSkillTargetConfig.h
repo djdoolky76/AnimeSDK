@@ -10,6 +10,8 @@ namespace RPG::GameCore { class AdventureSkillTargetConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdventureSkillTargetConfig_TypeDefinitionIndex = 17506;
+
 	class AdventureSkillTargetConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

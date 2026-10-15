@@ -15,6 +15,8 @@ namespace System { class Nullable; }
 #define ODMIIOPPONH__REGISTEREVENTCALLBACK_OFFSET UNITYSDK_OFFSET(0xBDF00C0)
 #define ODMIIOPPONH__UNREGISTEREVENTCALLBACK_OFFSET UNITYSDK_OFFSET(0xBDF02D0)
 
+inline static constexpr unsigned int ODMIIOPPONH_TypeDefinitionIndex = 52895;
+
 	class ODMIIOPPONH
 	{
 	public:

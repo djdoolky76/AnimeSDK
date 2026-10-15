@@ -13,6 +13,8 @@ namespace System { template <typename T> class Func_1; }
 #define GAFMLDLBCEB___C___CTOR_B__143_0_OFFSET UNITYSDK_OFFSET(0x1CA77960)
 #define GAFMLDLBCEB___C___CTOR_B__143_1_OFFSET UNITYSDK_OFFSET(0x1CA77990)
 
+inline static constexpr unsigned int GAFMLDLBCEB___c_TypeDefinitionIndex = 42580;
+
 	class GAFMLDLBCEB___c : public ::System::Object
 	{
 	public:

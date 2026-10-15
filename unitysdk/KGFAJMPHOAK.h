@@ -7,6 +7,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define KGFAJMPHOAK_CTOR_OFFSET UNITYSDK_OFFSET(0x1CBB80E0)
 
+inline static constexpr unsigned int KGFAJMPHOAK_TypeDefinitionIndex = 43759;
+
 	class KGFAJMPHOAK : public ::System::Object
 	{
 	public:

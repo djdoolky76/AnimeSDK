@@ -14,6 +14,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByIsPropLockable_TypeDefinitionIndex = 20194;
+
 	class ByIsPropLockable : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

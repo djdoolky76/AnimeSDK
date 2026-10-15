@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define FNIDNGOGAFF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E3F0E70)
 #define FNIDNGOGAFF___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E3F0E80)
 
+inline static constexpr unsigned int FNIDNGOGAFF___c_TypeDefinitionIndex = 30278;
+
 	class FNIDNGOGAFF___c : public ::System::Object
 	{
 	public:

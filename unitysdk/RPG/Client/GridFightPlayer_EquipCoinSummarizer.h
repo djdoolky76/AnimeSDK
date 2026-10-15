@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightPlayer_EquipCoinSummarizer_TypeDefinitionIndex = 65072;
+
 	class GridFightPlayer_EquipCoinSummarizer : public ::AMCOEFHHBPO
 	{
 	public:

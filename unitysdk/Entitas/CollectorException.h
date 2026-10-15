@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace Entitas
 {
+	inline static constexpr unsigned int CollectorException_TypeDefinitionIndex = 9981;
+
 	class CollectorException : public ::Entitas::EntitasException
 	{
 	public:

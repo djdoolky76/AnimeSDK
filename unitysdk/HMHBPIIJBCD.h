@@ -9,6 +9,8 @@ class HMHBPIIJBCD;
 #define HMHBPIIJBCD_CTOR_OFFSET UNITYSDK_OFFSET(0x1CEC5D20)
 #define HMHBPIIJBCD_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CEC5B20)
 
+inline static constexpr unsigned int HMHBPIIJBCD_TypeDefinitionIndex = 11583;
+
 	class HMHBPIIJBCD : public ::System::Object
 	{
 	public:

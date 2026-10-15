@@ -8,6 +8,8 @@ namespace RPG::Client { class RogueFormulaInfo; }
 #define EHMPJBIAKAH_CTOR_OFFSET UNITYSDK_OFFSET(0x154B7DC0)
 #define EHMPJBIAKAH_JAGMPHPNAHM_OFFSET UNITYSDK_OFFSET(0x154B7DD0)
 
+inline static constexpr unsigned int EHMPJBIAKAH_TypeDefinitionIndex = 67082;
+
 	class EHMPJBIAKAH : public ::KJNJKIMNDMH
 	{
 	public:

@@ -16,6 +16,8 @@ namespace System::Collections { class IComparer; }
 
 namespace System
 {
+	inline static constexpr unsigned int Array_SorterGenericArray_TypeDefinitionIndex = 140;
+
 	struct alignas(8) Array_SorterGenericArray
 	{
 		::System::Array* keys; // 0x10

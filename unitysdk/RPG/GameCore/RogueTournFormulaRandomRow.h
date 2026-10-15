@@ -9,6 +9,8 @@ namespace RPG::GameCore { class RogueTournFormulaRandomRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueTournFormulaRandomRow_TypeDefinitionIndex = 15005;
+
 	class RogueTournFormulaRandomRow : public ::System::Object
 	{
 	public:

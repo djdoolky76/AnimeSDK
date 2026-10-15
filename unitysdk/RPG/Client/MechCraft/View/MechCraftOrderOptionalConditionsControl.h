@@ -18,6 +18,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftOrderOptionalConditionsControl_TypeDefinitionIndex = 79993;
+
 	class MechCraftOrderOptionalConditionsControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

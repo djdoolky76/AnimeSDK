@@ -9,6 +9,8 @@ namespace System { class Object; }
 #define MGLJFOEOOOE__REGISTEREVENTCALLBACK_OFFSET UNITYSDK_OFFSET(0xB928270)
 #define MGLJFOEOOOE__UNREGISTEREVENTCALLBACK_OFFSET UNITYSDK_OFFSET(0xB928310)
 
+inline static constexpr unsigned int MGLJFOEOOOE_TypeDefinitionIndex = 58924;
+
 	class MGLJFOEOOOE
 	{
 	public:

@@ -38,6 +38,8 @@ namespace UnityEngine { class Texture2D; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEffectPluginCharaPropDissolve_TypeDefinitionIndex = 69955;
+
 	class MonoEffectPluginCharaPropDissolve : public ::RPG::Client::MonoEffectPluginCharaPropBase
 	{
 	public:

@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define HIPPLENBUILDERTESTMODULE_INIT_OFFSET UNITYSDK_OFFSET(0x15DE3A30)
 #define HIPPLENBUILDERTESTMODULE_TAKETEST_OFFSET UNITYSDK_OFFSET(0x15DEB4C0)
 
+inline static constexpr unsigned int HipplenBuilderTestModule_TypeDefinitionIndex = 47213;
+
 	class HipplenBuilderTestModule : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -7,6 +7,8 @@ namespace System { class String; }
 #define EMBREEDEBUGTOOL_RAYDEBUGINFO_CTOR_OFFSET UNITYSDK_OFFSET(0xAF1D180)
 #define EMBREEDEBUGTOOL_RAYDEBUGINFO_TOSTRING_OFFSET UNITYSDK_OFFSET(0xAF1E000)
 
+inline static constexpr unsigned int EmbreeDebugTool_RayDebugInfo_TypeDefinitionIndex = 45918;
+
 	class EmbreeDebugTool_RayDebugInfo : public ::System::Object
 	{
 	public:

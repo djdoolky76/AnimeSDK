@@ -34,6 +34,8 @@ namespace System { class String; }
 #define MEKPDDBLCGK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA0F270)
 #define MEKPDDBLCGK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA0F2D0)
 
+inline static constexpr unsigned int MEKPDDBLCGK_TypeDefinitionIndex = 26880;
+
 	class MEKPDDBLCGK : public ::System::Object
 	{
 	public:

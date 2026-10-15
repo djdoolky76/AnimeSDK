@@ -9,6 +9,8 @@
 
 namespace Cysharp::Threading::Tasks::Internal
 {
+	inline static constexpr unsigned int UnityEqualityComparer_ColorEqualityComparer_TypeDefinitionIndex = 38679;
+
 	class UnityEqualityComparer_ColorEqualityComparer : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int DisposeUtility_TypeDefinitionIndex = 35564;
+
 	struct alignas(4) DisposeUtility
 	{
 		::System::Boolean _Disposed; // 0x10

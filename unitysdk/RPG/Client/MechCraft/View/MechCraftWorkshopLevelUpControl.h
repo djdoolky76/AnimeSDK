@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftWorkshopLevelUpControl_TypeDefinitionIndex = 80076;
+
 	class MechCraftWorkshopLevelUpControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

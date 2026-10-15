@@ -9,6 +9,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK::PC::OS::CXHandheld
 {
+	inline static constexpr unsigned int LoginManagerHandheld___c_TypeDefinitionIndex = 8758;
+
 	class LoginManagerHandheld___c : public ::System::Object
 	{
 	public:

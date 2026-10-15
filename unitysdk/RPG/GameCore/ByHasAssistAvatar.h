@@ -13,6 +13,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByHasAssistAvatar_TypeDefinitionIndex = 20805;
+
 	class ByHasAssistAvatar : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

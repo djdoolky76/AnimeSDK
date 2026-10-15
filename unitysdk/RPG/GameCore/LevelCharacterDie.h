@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelCharacterDie_TypeDefinitionIndex = 56764;
+
 	class LevelCharacterDie : public ::CMPGEAFHHDC
 	{
 	public:

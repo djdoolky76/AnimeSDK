@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define DENBCMJAHNM_CTOR_OFFSET UNITYSDK_OFFSET(0xE51C030)
 #define DENBCMJAHNM_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xE51C060)
 
+inline static constexpr unsigned int DENBCMJAHNM_TypeDefinitionIndex = 52311;
+
 	class DENBCMJAHNM
 	{
 	public:

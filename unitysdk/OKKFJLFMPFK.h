@@ -93,6 +93,8 @@ namespace UnityEngine::Timeline { class TrackAsset; }
 #define OKKFJLFMPFK_TICK_OFFSET UNITYSDK_OFFSET(0xBEE47D0)
 #define OKKFJLFMPFK___CUTSCENEAUDIOBEGIN_B__30_1_OFFSET UNITYSDK_OFFSET(0xBEE8C80)
 
+inline static constexpr unsigned int OKKFJLFMPFK_TypeDefinitionIndex = 56369;
+
 	class OKKFJLFMPFK : public ::GELIALJDFBL
 	{
 	public:

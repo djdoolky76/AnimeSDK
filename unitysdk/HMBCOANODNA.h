@@ -29,6 +29,8 @@ namespace System { class String; }
 #define HMBCOANODNA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E5CA110)
 #define HMBCOANODNA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E5CA170)
 
+inline static constexpr unsigned int HMBCOANODNA_TypeDefinitionIndex = 34139;
+
 	class HMBCOANODNA : public ::System::Object
 	{
 	public:

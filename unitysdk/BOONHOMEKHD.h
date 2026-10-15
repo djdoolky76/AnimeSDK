@@ -9,6 +9,8 @@ namespace System { class Object; }
 #define BOONHOMEKHD_FEIIDFFOICL_OFFSET UNITYSDK_OFFSET(0x1C8DB8F0)
 #define BOONHOMEKHD_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x3C2F880)
 
+inline static constexpr unsigned int BOONHOMEKHD_TypeDefinitionIndex = 43248;
+
 	struct alignas(4) BOONHOMEKHD
 	{
 		::System::Int32 GAOAMKBNDPN; // 0x10

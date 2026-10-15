@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ServantPreloadConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ServantPreloadConfig_TypeDefinitionIndex = 16341;
+
 	class ServantPreloadConfig : public ::RPG::GameCore::CharacterPreloadConfigBase
 	{
 	public:

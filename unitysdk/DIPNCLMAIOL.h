@@ -5,6 +5,8 @@ namespace RPG::GameCore { class AdventureHitConfig; }
 
 #define DIPNCLMAIOL_CTOR_OFFSET UNITYSDK_OFFSET(0xF22B190)
 
+inline static constexpr unsigned int DIPNCLMAIOL_TypeDefinitionIndex = 57039;
+
 	class DIPNCLMAIOL : public ::PAJHIBDCGDG
 	{
 	public:

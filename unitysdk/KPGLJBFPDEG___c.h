@@ -9,6 +9,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define KPGLJBFPDEG___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB5BD100)
 #define KPGLJBFPDEG___C__HASCUSTOMTOPPANEL_B__0_0_OFFSET UNITYSDK_OFFSET(0xB5BD110)
 
+inline static constexpr unsigned int KPGLJBFPDEG___c_TypeDefinitionIndex = 72045;
+
 	class KPGLJBFPDEG___c : public ::System::Object
 	{
 	public:

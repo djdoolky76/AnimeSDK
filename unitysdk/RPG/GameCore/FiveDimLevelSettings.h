@@ -24,6 +24,8 @@ namespace RPG::GameCore { class MiniGameHundredFloorConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimLevelSettings_TypeDefinitionIndex = 18517;
+
 	class FiveDimLevelSettings : public ::RPG::GameCore::LittleGameLevelSettings
 	{
 	public:

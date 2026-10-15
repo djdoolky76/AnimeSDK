@@ -10,6 +10,8 @@ namespace RPG::GameCore { class AdvNPCSoldierLineupPatrol; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvNPCSoldierLineupPatrol_TypeDefinitionIndex = 20002;
+
 	class AdvNPCSoldierLineupPatrol : public ::RPG::GameCore::TaskConfig
 	{
 	public:

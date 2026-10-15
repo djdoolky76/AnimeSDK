@@ -21,6 +21,8 @@ namespace System { class Object; }
 #define IDLMJDKPBGC_MGGOPHDIAFH_OFFSET UNITYSDK_OFFSET(0x15EDA5C0)
 #define IDLMJDKPBGC_MOLBPDIMKDD_OFFSET UNITYSDK_OFFSET(0x15EDABC0)
 
+inline static constexpr unsigned int IDLMJDKPBGC_TypeDefinitionIndex = 76866;
+
 	class IDLMJDKPBGC : public ::System::Object
 	{
 	public:

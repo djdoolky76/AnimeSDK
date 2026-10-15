@@ -3,6 +3,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int VerticalWrapMode_TypeDefinitionIndex = 5050;
+
 	enum class VerticalWrapMode : ::System::Int32
 	{
 		Truncate = 0,

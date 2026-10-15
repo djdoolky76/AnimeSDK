@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define BOBCDAJAKGC_GET_TOPPARTICIPATEDAVATARS_OFFSET UNITYSDK_OFFSET(0xBDE7A10)
 #define BOBCDAJAKGC_SET_ISFINALACTFINISHED_OFFSET UNITYSDK_OFFSET(0xBDE79F0)
 
+inline static constexpr unsigned int BOBCDAJAKGC_TypeDefinitionIndex = 75138;
+
 	class BOBCDAJAKGC : public ::System::Object
 	{
 	public:

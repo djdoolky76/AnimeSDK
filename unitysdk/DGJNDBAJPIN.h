@@ -8,6 +8,8 @@ class PEEDLCHFAFL;
 #define DGJNDBAJPIN_CTOR_OFFSET UNITYSDK_OFFSET(0xE84BAF0)
 #define DGJNDBAJPIN_LATEEXECUTE_OFFSET UNITYSDK_OFFSET(0xE84BB10)
 
+inline static constexpr unsigned int DGJNDBAJPIN_TypeDefinitionIndex = 76918;
+
 	class DGJNDBAJPIN : public ::System::Object
 	{
 	public:

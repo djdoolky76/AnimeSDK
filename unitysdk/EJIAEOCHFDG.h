@@ -68,6 +68,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define EJIAEOCHFDG__STARTCYCLEASYNC_B__2_0_OFFSET UNITYSDK_OFFSET(0x154DF300)
 #define EJIAEOCHFDG__STARTMATCHASYNC_B__3_0_OFFSET UNITYSDK_OFFSET(0x154DF370)
 
+inline static constexpr unsigned int EJIAEOCHFDG_TypeDefinitionIndex = 81741;
+
 	class EJIAEOCHFDG : public ::BHPMNMMGLHI
 	{
 	public:

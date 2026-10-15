@@ -10,6 +10,8 @@ namespace System { template <typename T1, typename T2, typename T3> class Func_3
 #define PDPIHJEBAEC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9A9B40)
 #define PDPIHJEBAEC___C__PROJECT_B__3_0_OFFSET UNITYSDK_OFFSET(0x1C9A9B50)
 
+inline static constexpr unsigned int PDPIHJEBAEC___c_TypeDefinitionIndex = 43370;
+
 	class PDPIHJEBAEC___c : public ::System::Object
 	{
 	public:

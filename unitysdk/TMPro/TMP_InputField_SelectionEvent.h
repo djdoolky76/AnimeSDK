@@ -5,6 +5,8 @@
 
 namespace TMPro
 {
+	inline static constexpr unsigned int TMP_InputField_SelectionEvent_TypeDefinitionIndex = 44601;
+
 	class TMP_InputField_SelectionEvent
 	{
 	public:

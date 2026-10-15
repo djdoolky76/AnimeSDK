@@ -13,6 +13,8 @@ namespace System { class String; }
 #define BPGIIEPHAPH_SET_GROUPPROPERTY_OFFSET UNITYSDK_OFFSET(0xC1A5190)
 #define BPGIIEPHAPH_SET_INSTANCEID_OFFSET UNITYSDK_OFFSET(0xC1A5170)
 
+inline static constexpr unsigned int BPGIIEPHAPH_TypeDefinitionIndex = 74653;
+
 	class BPGIIEPHAPH : public ::System::Object
 	{
 	public:

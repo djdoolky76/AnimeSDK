@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define FIDEMAJHMFB_NJDJNCMBKCE_OFFSET UNITYSDK_OFFSET(0x157A3220)
 #define FIDEMAJHMFB_OODKMLPOIMK_OFFSET UNITYSDK_OFFSET(0x157A2D80)
 
+inline static constexpr unsigned int FIDEMAJHMFB_TypeDefinitionIndex = 71814;
+
 	class FIDEMAJHMFB : public ::FMPCODLIOLG
 	{
 	public:

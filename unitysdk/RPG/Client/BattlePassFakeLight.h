@@ -12,6 +12,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BattlePassFakeLight_TypeDefinitionIndex = 72954;
+
 	class BattlePassFakeLight : public ::UnityEngine::MonoBehaviour
 	{
 	public:

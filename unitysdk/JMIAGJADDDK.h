@@ -9,6 +9,8 @@ namespace RPG::Client::FateRin::Battle { class IFateRinCardHitTestService; }
 #define JMIAGJADDDK_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xB267080)
 #define JMIAGJADDDK_CTOR_OFFSET UNITYSDK_OFFSET(0xB267120)
 
+inline static constexpr unsigned int JMIAGJADDDK_TypeDefinitionIndex = 80901;
+
 	class JMIAGJADDDK : public ::System::Object
 	{
 	public:

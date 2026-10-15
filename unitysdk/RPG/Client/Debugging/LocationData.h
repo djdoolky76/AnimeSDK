@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace RPG::Client::Debugging
 {
+	inline static constexpr unsigned int LocationData_TypeDefinitionIndex = 82126;
+
 	class LocationData : public ::System::Object
 	{
 	public:

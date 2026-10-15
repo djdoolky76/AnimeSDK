@@ -25,6 +25,8 @@ namespace System { class String; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int AnyTuple4_TypeDefinitionIndex = 4297;
+
 	struct alignas(4) AnyTuple4
 	{
 		::UnityEngine::AnyType _Item1_k__BackingField; // 0x10

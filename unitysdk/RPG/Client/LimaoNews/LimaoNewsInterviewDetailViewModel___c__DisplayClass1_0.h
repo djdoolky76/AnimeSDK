@@ -9,6 +9,8 @@ namespace System { template <typename T> class Predicate_1; }
 
 namespace RPG::Client::LimaoNews
 {
+	inline static constexpr unsigned int LimaoNewsInterviewDetailViewModel___c__DisplayClass1_0_TypeDefinitionIndex = 80457;
+
 	class LimaoNewsInterviewDetailViewModel___c__DisplayClass1_0 : public ::System::Object
 	{
 	public:

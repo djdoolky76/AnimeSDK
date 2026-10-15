@@ -16,6 +16,8 @@ namespace System::Globalization { class DateTimeFormatInfo; }
 
 namespace System::Globalization
 {
+	inline static constexpr unsigned int TimeSpanFormat_TypeDefinitionIndex = 767;
+
 	class TimeSpanFormat : public ::System::Object
 	{
 	public:

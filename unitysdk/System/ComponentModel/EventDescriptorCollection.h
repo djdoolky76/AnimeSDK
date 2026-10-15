@@ -45,6 +45,8 @@ namespace System::ComponentModel { class EventDescriptorCollection; }
 
 namespace System::ComponentModel
 {
+	inline static constexpr unsigned int EventDescriptorCollection_TypeDefinitionIndex = 2593;
+
 	class EventDescriptorCollection : public ::System::Object
 	{
 	public:

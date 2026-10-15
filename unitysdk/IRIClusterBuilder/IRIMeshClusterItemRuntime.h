@@ -7,6 +7,8 @@
 
 namespace IRIClusterBuilder
 {
+	inline static constexpr unsigned int IRIMeshClusterItemRuntime_TypeDefinitionIndex = 47750;
+
 	class IRIMeshClusterItemRuntime : public ::IRIClusterBuilder::IRIMeshClusterItem
 	{
 	public:

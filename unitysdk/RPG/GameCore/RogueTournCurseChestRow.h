@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueTournCurseChestRow_TypeDefinitionIndex = 15046;
+
 	class RogueTournCurseChestRow : public ::System::Object
 	{
 	public:

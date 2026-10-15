@@ -7,6 +7,8 @@ namespace RPG::GameCore { class TriggerHitProp; }
 #define ICBAOFNCJKG_NICNFGOAOHI_OFFSET UNITYSDK_OFFSET(0x15E492A0)
 #define ICBAOFNCJKG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15E49250)
 
+inline static constexpr unsigned int ICBAOFNCJKG_TypeDefinitionIndex = 58788;
+
 	class ICBAOFNCJKG
 	{
 	public:

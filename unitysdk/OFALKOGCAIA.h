@@ -10,6 +10,8 @@ namespace System { class String; }
 #define OFALKOGCAIA_GET_TYPE_OFFSET UNITYSDK_OFFSET(0xBE3B700)
 #define OFALKOGCAIA_JAILHGGFLDH_OFFSET UNITYSDK_OFFSET(0xBE3B710)
 
+inline static constexpr unsigned int OFALKOGCAIA_TypeDefinitionIndex = 56107;
+
 	class OFALKOGCAIA : public ::DBGDNLLDPFI
 	{
 	public:

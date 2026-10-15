@@ -13,6 +13,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define HKAJMEMCBLC___C__GET_ISSTACKABLE_B__87_0_OFFSET UNITYSDK_OFFSET(0x15D3BE90)
 #define HKAJMEMCBLC___C__GET_ISUNPLAYABLE_B__85_0_OFFSET UNITYSDK_OFFSET(0x15D3BE40)
 
+inline static constexpr unsigned int HKAJMEMCBLC___c_TypeDefinitionIndex = 81080;
+
 	class HKAJMEMCBLC___c : public ::System::Object
 	{
 	public:

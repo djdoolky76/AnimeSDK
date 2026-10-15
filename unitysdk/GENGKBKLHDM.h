@@ -9,6 +9,8 @@ class PEEAINPOGLK;
 #define GENGKBKLHDM_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC92D30)
 #define GENGKBKLHDM_FHDGKNMLEJJ_OFFSET UNITYSDK_OFFSET(0x1CC904E0)
 
+inline static constexpr unsigned int GENGKBKLHDM_TypeDefinitionIndex = 43878;
+
 	class GENGKBKLHDM : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ class PEEDLCHFAFL;
 #define IEKPFJHJNEO_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x15F01860)
 #define IEKPFJHJNEO_LLDIACFIFAB_OFFSET UNITYSDK_OFFSET(0x15F01900)
 
+inline static constexpr unsigned int IEKPFJHJNEO_TypeDefinitionIndex = 76955;
+
 	class IEKPFJHJNEO : public ::System::Object
 	{
 	public:

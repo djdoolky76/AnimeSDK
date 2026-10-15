@@ -14,6 +14,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int GL_TypeDefinitionIndex = 4123;
+
 	class GL : public ::System::Object
 	{
 	public:

@@ -34,6 +34,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueKeywordData_TypeDefinitionIndex = 67262;
+
 	class RogueKeywordData : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int PPFilterStack_ColorGradingParameter_TypeDefinitionIndex = 51854;
+
 	struct alignas(4) PPFilterStack_ColorGradingParameter
 	{
 		::System::Boolean ColorGradingMethodEnable; // 0x10

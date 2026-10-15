@@ -55,6 +55,8 @@ namespace UnityEngine::Rendering { class CRPVirtualCamera; }
 #define IEBPDNHIJOC_OHPCADPGKOG_OFFSET UNITYSDK_OFFSET(0x15EEAF90)
 #define IEBPDNHIJOC_POPNLPIAOCM_OFFSET UNITYSDK_OFFSET(0x15EE8470)
 
+inline static constexpr unsigned int IEBPDNHIJOC_TypeDefinitionIndex = 69900;
+
 	class IEBPDNHIJOC : public ::RPG::Client::BehaviorBase
 	{
 	public:

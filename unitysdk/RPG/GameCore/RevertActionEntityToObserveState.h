@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RevertActionEntityToObserveState_TypeDefinitionIndex = 23453;
+
 	class RevertActionEntityToObserveState : public ::RPG::GameCore::TaskConfig
 	{
 	public:

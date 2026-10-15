@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace System::Xml
 {
+	inline static constexpr unsigned int TernaryTreeReadOnly_TypeDefinitionIndex = 1824;
+
 	class TernaryTreeReadOnly : public ::System::Object
 	{
 	public:

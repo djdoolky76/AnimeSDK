@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ClipboardUtils_TypeDefinitionIndex = 35201;
+
 	class ClipboardUtils : public ::System::Object
 	{
 	public:

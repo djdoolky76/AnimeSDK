@@ -12,6 +12,8 @@ namespace RPG::Client::ChenLingBattle { class GridIndex; }
 
 namespace RPG::Client::ChenLingBattle
 {
+	inline static constexpr unsigned int EffectChangeData_TypeDefinitionIndex = 76246;
+
 	class EffectChangeData : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define PECAKDLFOIF_CTOR_OFFSET UNITYSDK_OFFSET(0xC033320)
 #define PECAKDLFOIF_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC033350)
 
+inline static constexpr unsigned int PECAKDLFOIF_TypeDefinitionIndex = 54883;
+
 	class PECAKDLFOIF
 	{
 	public:

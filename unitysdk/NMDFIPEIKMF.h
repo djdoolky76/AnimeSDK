@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define NMDFIPEIKMF_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D235DE0)
 #define NMDFIPEIKMF_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D235700)
 
+inline static constexpr unsigned int NMDFIPEIKMF_TypeDefinitionIndex = 11112;
+
 	class NMDFIPEIKMF : public ::System::Object
 	{
 	public:

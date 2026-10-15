@@ -5,6 +5,8 @@
 
 namespace UnityEngine::Buffers
 {
+	inline static constexpr unsigned int DefaultArrayPool_1_Bucket_TypeDefinitionIndex = 4952;
+
 	template <typename T>
 	class DefaultArrayPool_1_Bucket : public ::System::Object
 	{

@@ -37,6 +37,8 @@ namespace System { class String; }
 #define OHKCDFGPCKM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE63C00)
 #define OHKCDFGPCKM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DE63C60)
 
+inline static constexpr unsigned int OHKCDFGPCKM_TypeDefinitionIndex = 27423;
+
 	class OHKCDFGPCKM : public ::System::Object
 	{
 	public:

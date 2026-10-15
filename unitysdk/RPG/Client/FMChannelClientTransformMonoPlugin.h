@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FMChannelClientTransformMonoPlugin_TypeDefinitionIndex = 70287;
+
 	class FMChannelClientTransformMonoPlugin
 	{
 	public:

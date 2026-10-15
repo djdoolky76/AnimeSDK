@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TrainPartyShowEventFadeIn; }
 #define JAMEEGCPHGC_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1655B830)
 #define JAMEEGCPHGC_TICK_OFFSET UNITYSDK_OFFSET(0x1655B880)
 
+inline static constexpr unsigned int JAMEEGCPHGC_TypeDefinitionIndex = 53429;
+
 	class JAMEEGCPHGC : public ::GELIALJDFBL
 	{
 	public:

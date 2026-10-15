@@ -6,6 +6,8 @@ namespace System { template <typename T> class Func_1; }
 
 #define PGLLCPNEHDO_MFJAPMHPDMK_CTOR_OFFSET UNITYSDK_OFFSET(0xB310)
 
+inline static constexpr unsigned int PGLLCPNEHDO_MFJAPMHPDMK_TypeDefinitionIndex = 44176;
+
 	struct alignas(8) PGLLCPNEHDO_MFJAPMHPDMK
 	{
 		::System::Object* EOBLJJBOBIN; // 0x10

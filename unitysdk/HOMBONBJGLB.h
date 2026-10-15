@@ -15,6 +15,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define HOMBONBJGLB_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15DBB230)
 #define HOMBONBJGLB_TICK_OFFSET UNITYSDK_OFFSET(0x15DBB310)
 
+inline static constexpr unsigned int HOMBONBJGLB_TypeDefinitionIndex = 52934;
+
 	class HOMBONBJGLB : public ::GELIALJDFBL
 	{
 	public:

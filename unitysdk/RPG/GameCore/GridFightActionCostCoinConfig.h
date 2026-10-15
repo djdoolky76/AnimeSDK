@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightActionCostCoinConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightActionCostCoinConfig_TypeDefinitionIndex = 19322;
+
 	class GridFightActionCostCoinConfig : public ::RPG::GameCore::GridFightActionConfigBase
 	{
 	public:

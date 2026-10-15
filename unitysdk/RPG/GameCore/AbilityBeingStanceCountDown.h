@@ -13,6 +13,8 @@ namespace RPG::GameCore { class GameEntity; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AbilityBeingStanceCountDown_TypeDefinitionIndex = 56579;
+
 	class AbilityBeingStanceCountDown : public ::CMPGEAFHHDC
 	{
 	public:

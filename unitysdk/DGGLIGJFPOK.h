@@ -11,6 +11,8 @@ namespace RPG::GameCore { class UIMonopolyTryTriggerTeleport; }
 #define DGGLIGJFPOK_PDDNICKHBNA_OFFSET UNITYSDK_OFFSET(0xE849AB0)
 #define DGGLIGJFPOK_TICK_OFFSET UNITYSDK_OFFSET(0xE8497D0)
 
+inline static constexpr unsigned int DGGLIGJFPOK_TypeDefinitionIndex = 58835;
+
 	class DGGLIGJFPOK : public ::GELIALJDFBL
 	{
 	public:

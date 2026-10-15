@@ -7,6 +7,8 @@
 
 namespace UnityEngine::Bindings
 {
+	inline static constexpr unsigned int NativeThrowsAttribute_TypeDefinitionIndex = 3736;
+
 	class NativeThrowsAttribute : public ::System::Attribute
 	{
 	public:

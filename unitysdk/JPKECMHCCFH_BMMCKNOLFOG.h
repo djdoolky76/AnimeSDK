@@ -10,6 +10,8 @@ namespace System { class String; }
 #define JPKECMHCCFH_BMMCKNOLFOG_LFPNIPDMOOM_OFFSET UNITYSDK_OFFSET(0xB2C6620)
 #define JPKECMHCCFH_BMMCKNOLFOG_MNLPJLBAJKJ_OFFSET UNITYSDK_OFFSET(0xB2C65B0)
 
+inline static constexpr unsigned int JPKECMHCCFH_BMMCKNOLFOG_TypeDefinitionIndex = 72139;
+
 	class JPKECMHCCFH_BMMCKNOLFOG : public ::System::Object
 	{
 	public:

@@ -17,6 +17,8 @@ namespace UnityEngine { class Camera; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CreatePlayerEffectController_TypeDefinitionIndex = 72921;
+
 	class CreatePlayerEffectController : public ::UnityEngine::MonoBehaviour
 	{
 	public:

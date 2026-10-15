@@ -11,6 +11,8 @@ namespace System { class Type; }
 
 namespace System::Reflection
 {
+	inline static constexpr unsigned int LocalVariableInfo_TypeDefinitionIndex = 608;
+
 	class LocalVariableInfo : public ::System::Object
 	{
 	public:

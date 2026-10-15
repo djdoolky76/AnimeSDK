@@ -10,6 +10,8 @@ namespace RPG::GameCore::Booklet { class FadeInElementConfig; }
 
 namespace RPG::GameCore::Booklet
 {
+	inline static constexpr unsigned int FadeInElementConfig_TypeDefinitionIndex = 24965;
+
 	class FadeInElementConfig : public ::RPG::GameCore::Booklet::ElementConfig
 	{
 	public:

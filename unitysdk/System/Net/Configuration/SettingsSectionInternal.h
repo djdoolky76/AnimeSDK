@@ -11,6 +11,8 @@ namespace System::Net::Configuration { class SettingsSectionInternal; }
 
 namespace System::Net::Configuration
 {
+	inline static constexpr unsigned int SettingsSectionInternal_TypeDefinitionIndex = 2979;
+
 	class SettingsSectionInternal : public ::System::Object
 	{
 	public:

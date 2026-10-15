@@ -50,6 +50,8 @@ namespace System { class String; }
 #define AHHMLENLDEF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E26FAD0)
 #define AHHMLENLDEF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E26FB30)
 
+inline static constexpr unsigned int AHHMLENLDEF_TypeDefinitionIndex = 34818;
+
 	class AHHMLENLDEF : public ::System::Object
 	{
 	public:

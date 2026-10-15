@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define BPENENIMEFE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E042D80)
 #define BPENENIMEFE___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E042D90)
 
+inline static constexpr unsigned int BPENENIMEFE___c_TypeDefinitionIndex = 29497;
+
 	class BPENENIMEFE___c : public ::System::Object
 	{
 	public:

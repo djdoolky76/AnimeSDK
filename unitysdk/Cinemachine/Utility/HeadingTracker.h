@@ -15,6 +15,8 @@ namespace System { class Object; }
 
 namespace Cinemachine::Utility
 {
+	inline static constexpr unsigned int HeadingTracker_TypeDefinitionIndex = 39894;
+
 	class HeadingTracker : public ::System::Object
 	{
 	public:

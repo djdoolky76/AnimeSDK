@@ -10,6 +10,8 @@ class OHPJBMJAJML;
 #define MPEOLIBNMGE_BKPMNOOAGDM_OFFSET UNITYSDK_OFFSET(0x1C572D40)
 #define MPEOLIBNMGE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C572D20)
 
+inline static constexpr unsigned int MPEOLIBNMGE_TypeDefinitionIndex = 41861;
+
 	class MPEOLIBNMGE : public ::System::Object
 	{
 	public:

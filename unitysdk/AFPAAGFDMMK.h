@@ -22,6 +22,8 @@ namespace Entitas { class IGroup; }
 #define AFPAAGFDMMK_PPMAAOACDMH_OFFSET UNITYSDK_OFFSET(0xCF1DF70)
 #define AFPAAGFDMMK_TEARDOWN_OFFSET UNITYSDK_OFFSET(0xCF1E430)
 
+inline static constexpr unsigned int AFPAAGFDMMK_TypeDefinitionIndex = 77135;
+
 	class AFPAAGFDMMK : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace UnityEngine { class Animation; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int StageHarmonySignalAnimationMonoPlugin_TypeDefinitionIndex = 70981;
+
 	class StageHarmonySignalAnimationMonoPlugin
 	{
 	public:

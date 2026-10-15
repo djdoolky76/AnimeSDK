@@ -5,6 +5,8 @@ namespace System { class String; }
 
 #define CNMJHHJGIAF_CTOR_OFFSET UNITYSDK_OFFSET(0xDA5A1A0)
 
+inline static constexpr unsigned int CNMJHHJGIAF_TypeDefinitionIndex = 47621;
+
 	class CNMJHHJGIAF : public ::System::Object
 	{
 	public:

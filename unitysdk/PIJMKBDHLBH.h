@@ -10,6 +10,8 @@ namespace UnityEngine { class Transform; }
 
 #define PIJMKBDHLBH_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9E9800)
 
+inline static constexpr unsigned int PIJMKBDHLBH_TypeDefinitionIndex = 43189;
+
 	class PIJMKBDHLBH : public ::System::Object
 	{
 	public:

@@ -29,6 +29,8 @@ namespace System { class String; }
 #define CJAFIJAFIPN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E0D8A10)
 #define CJAFIJAFIPN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E0D8A70)
 
+inline static constexpr unsigned int CJAFIJAFIPN_TypeDefinitionIndex = 25639;
+
 	class CJAFIJAFIPN : public ::System::Object
 	{
 	public:

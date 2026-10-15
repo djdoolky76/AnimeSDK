@@ -8,6 +8,8 @@ namespace UnityEngine { class ParticleSystemRenderer; }
 #define PARTICLEVATSIZECONTROLLER_ONENABLE_OFFSET UNITYSDK_OFFSET(0xC39ADD0)
 #define PARTICLEVATSIZECONTROLLER_UPDATE_OFFSET UNITYSDK_OFFSET(0xC39AE90)
 
+inline static constexpr unsigned int ParticleVATSizeController_TypeDefinitionIndex = 47321;
+
 	class ParticleVATSizeController : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -30,6 +30,8 @@ namespace Sofa::Core { class SimpleCommand; }
 
 namespace RPG::Client::LimaoNews
 {
+	inline static constexpr unsigned int LimaoNewsPlanReviewPhaseItemViewModel_TypeDefinitionIndex = 80442;
+
 	class LimaoNewsPlanReviewPhaseItemViewModel : public ::Sofa::BaseViewModel
 	{
 	public:

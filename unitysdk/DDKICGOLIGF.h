@@ -10,6 +10,8 @@ class KKPNEOIKLJG;
 #define DDKICGOLIGF_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0xE4E3A00)
 #define DDKICGOLIGF__START_B__4_0_OFFSET UNITYSDK_OFFSET(0xE4E3BB0)
 
+inline static constexpr unsigned int DDKICGOLIGF_TypeDefinitionIndex = 60339;
+
 	class DDKICGOLIGF : public ::EFNJLACKEDH
 	{
 	public:

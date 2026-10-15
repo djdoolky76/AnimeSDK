@@ -35,6 +35,8 @@ namespace System { class String; }
 
 namespace Proto
 {
+	inline static constexpr unsigned int AssistSimpleInfo_TypeDefinitionIndex = 25861;
+
 	class AssistSimpleInfo : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace UnityEngine::ProBuilder::Poly2Tri { class TriangulationPoint; }
 
 namespace UnityEngine::ProBuilder::Poly2Tri
 {
+	inline static constexpr unsigned int PointOnEdgeException_TypeDefinitionIndex = 38747;
+
 	class PointOnEdgeException : public ::System::NotImplementedException
 	{
 	public:

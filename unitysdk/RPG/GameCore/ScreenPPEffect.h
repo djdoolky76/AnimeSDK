@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ScreenPPEffect; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ScreenPPEffect_TypeDefinitionIndex = 23762;
+
 	class ScreenPPEffect : public ::RPG::GameCore::TaskConfig
 	{
 	public:

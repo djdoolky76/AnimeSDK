@@ -61,6 +61,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define OGIPLEMODKE_TOSTRING_OFFSET UNITYSDK_OFFSET(0xBE58870)
 #define OGIPLEMODKE_UPDATEPROGRESS_OFFSET UNITYSDK_OFFSET(0xBE58830)
 
+inline static constexpr unsigned int OGIPLEMODKE_TypeDefinitionIndex = 59560;
+
 	class OGIPLEMODKE : public ::System::Object
 	{
 	public:

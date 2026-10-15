@@ -3,6 +3,8 @@
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HAPI_NodeType_TypeDefinitionIndex = 40460;
+
 	enum class HAPI_NodeType : ::System::Int32
 	{
 		HAPI_NODETYPE_ANY = -1,

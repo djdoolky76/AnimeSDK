@@ -6,6 +6,8 @@
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int MainCameraTimelineTrack_TypeDefinitionIndex = 48450;
+
 	class MainCameraTimelineTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
 	public:

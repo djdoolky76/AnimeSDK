@@ -14,6 +14,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PhoneNoticeShowAdaptiveInfo_TypeDefinitionIndex = 52322;
+
 	struct alignas(4) PhoneNoticeShowAdaptiveInfo
 	{
 		::System::UInt32 _GroupID; // 0x10

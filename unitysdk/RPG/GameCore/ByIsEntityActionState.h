@@ -14,6 +14,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByIsEntityActionState_TypeDefinitionIndex = 23064;
+
 	class ByIsEntityActionState : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

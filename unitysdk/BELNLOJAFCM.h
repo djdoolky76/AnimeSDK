@@ -36,6 +36,8 @@ namespace System { class String; }
 #define BELNLOJAFCM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA64C10)
 #define BELNLOJAFCM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA64C70)
 
+inline static constexpr unsigned int BELNLOJAFCM_TypeDefinitionIndex = 32332;
+
 	class BELNLOJAFCM : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@
 #define JNJBKCEDKLP_SET_X_OFFSET UNITYSDK_OFFSET(0xAF40)
 #define JNJBKCEDKLP_SET_Y_OFFSET UNITYSDK_OFFSET(0xFE80)
 
+inline static constexpr unsigned int JNJBKCEDKLP_TypeDefinitionIndex = 37215;
+
 	struct alignas(4) JNJBKCEDKLP
 	{
 		::System::Int32 _x_k__BackingField; // 0x10

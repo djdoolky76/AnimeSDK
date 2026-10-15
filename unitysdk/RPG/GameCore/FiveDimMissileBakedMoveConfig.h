@@ -11,6 +11,8 @@ namespace RPG::GameCore { class FiveDimTrampolineConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimMissileBakedMoveConfig_TypeDefinitionIndex = 16682;
+
 	class FiveDimMissileBakedMoveConfig : public ::RPG::GameCore::FiveDimPropBakedMoveConfig
 	{
 	public:

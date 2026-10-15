@@ -36,6 +36,8 @@ namespace System { class String; }
 #define HMHKNDDNIOH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E5CF550)
 #define HMHKNDDNIOH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E5CF5B0)
 
+inline static constexpr unsigned int HMHKNDDNIOH_TypeDefinitionIndex = 34076;
+
 	class HMHKNDDNIOH : public ::System::Object
 	{
 	public:

@@ -30,6 +30,8 @@ namespace System { class String; }
 #define GDDLBMCHIED_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E445770)
 #define GDDLBMCHIED_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E4457D0)
 
+inline static constexpr unsigned int GDDLBMCHIED_TypeDefinitionIndex = 27065;
+
 	class GDDLBMCHIED : public ::System::Object
 	{
 	public:

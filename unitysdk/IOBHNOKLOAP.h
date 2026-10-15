@@ -11,6 +11,8 @@ class IOBHNOKLOAP;
 #define IOBHNOKLOAP_REVERSE_OFFSET UNITYSDK_OFFSET(0x164FDD50)
 #define IOBHNOKLOAP_STEP_OFFSET UNITYSDK_OFFSET(0x164FDDE0)
 
+inline static constexpr unsigned int IOBHNOKLOAP_TypeDefinitionIndex = 73489;
+
 	class IOBHNOKLOAP : public ::LEEEMFAEDLN
 	{
 	public:

@@ -41,6 +41,8 @@ namespace System { class String; }
 #define EEFMAMCHOMN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E2680B0)
 #define EEFMAMCHOMN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E268110)
 
+inline static constexpr unsigned int EEFMAMCHOMN_TypeDefinitionIndex = 25386;
+
 	class EEFMAMCHOMN : public ::System::Object
 	{
 	public:

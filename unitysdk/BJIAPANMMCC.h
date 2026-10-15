@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define BJIAPANMMCC_CTOR_OFFSET UNITYSDK_OFFSET(0xB7A0AE0)
 #define BJIAPANMMCC_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB7A0B50)
 
+inline static constexpr unsigned int BJIAPANMMCC_TypeDefinitionIndex = 59091;
+
 	class BJIAPANMMCC
 	{
 	public:

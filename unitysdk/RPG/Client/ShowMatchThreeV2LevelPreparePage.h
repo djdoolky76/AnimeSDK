@@ -10,6 +10,8 @@ namespace RPG::Client { class ShowMatchThreeV2LevelPreparePage; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ShowMatchThreeV2LevelPreparePage_TypeDefinitionIndex = 10255;
+
 	class ShowMatchThreeV2LevelPreparePage : public ::RPG::GameCore::TaskConfig
 	{
 	public:

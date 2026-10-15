@@ -16,6 +16,8 @@ namespace UnityEngine { class Transform; }
 
 namespace Cinemachine
 {
+	inline static constexpr unsigned int CinemachineVirtualCamera_CreatePipelineDelegate_TypeDefinitionIndex = 39766;
+
 	class CinemachineVirtualCamera_CreatePipelineDelegate : public ::System::MulticastDelegate
 	{
 	public:

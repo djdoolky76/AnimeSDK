@@ -24,6 +24,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace RPG::Client::ChenLingBattle
 {
+	inline static constexpr unsigned int ChenLingDragTrajectory_TypeDefinitionIndex = 76400;
+
 	class ChenLingDragTrajectory : public ::UnityEngine::MonoBehaviour
 	{
 	public:

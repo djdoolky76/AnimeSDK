@@ -14,6 +14,8 @@ namespace UnityEngine { class Renderer; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEffectPluginCharaPropEmission_TypeDefinitionIndex = 69956;
+
 	class MonoEffectPluginCharaPropEmission : public ::RPG::Client::MonoEffectPluginCharaPropBase
 	{
 	public:

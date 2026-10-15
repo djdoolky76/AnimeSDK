@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace System::Net
 {
+	inline static constexpr unsigned int FtpDataStream_ReadDelegate_TypeDefinitionIndex = 2840;
+
 	class FtpDataStream_ReadDelegate : public ::System::MulticastDelegate
 	{
 	public:

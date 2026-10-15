@@ -8,6 +8,8 @@ class OCOHFEDPMBM;
 #define OCOHFEDPMBM_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D252950)
 #define OCOHFEDPMBM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D252910)
 
+inline static constexpr unsigned int OCOHFEDPMBM_TypeDefinitionIndex = 24310;
+
 	class OCOHFEDPMBM : public ::RPG::GameCore::TaskConfig
 	{
 	public:

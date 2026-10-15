@@ -10,6 +10,8 @@ namespace RPG::Client::Promises { class IPendingPromise; }
 
 namespace RPG::Client::FateRin::View::Battle
 {
+	inline static constexpr unsigned int FateRinShuffleTrailEffectView___c__DisplayClass7_0_TypeDefinitionIndex = 80699;
+
 	class FateRinShuffleTrailEffectView___c__DisplayClass7_0 : public ::System::Object
 	{
 	public:

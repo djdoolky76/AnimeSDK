@@ -22,6 +22,8 @@ namespace UnityEngine::UIElements { class VisualElement; }
 
 namespace UnityEngine::UIElements
 {
+	inline static constexpr unsigned int BaseVisualElementPanel_TypeDefinitionIndex = 5889;
+
 	class BaseVisualElementPanel : public ::System::Object
 	{
 	public:

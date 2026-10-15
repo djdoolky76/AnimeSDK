@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ClockParkStorySwitchBackground_TypeDefinitionIndex = 20948;
+
 	class ClockParkStorySwitchBackground : public ::RPG::GameCore::TaskConfig
 	{
 	public:

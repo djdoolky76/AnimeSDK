@@ -13,6 +13,8 @@ namespace UnityEngine::Networking { class UnityWebRequestAsyncOperation; }
 
 namespace Cysharp::Threading::Tasks
 {
+	inline static constexpr unsigned int UnityAsyncExtensions_UnityWebRequestAsyncOperationAwaiter_TypeDefinitionIndex = 38468;
+
 	struct alignas(8) UnityAsyncExtensions_UnityWebRequestAsyncOperationAwaiter
 	{
 		::UnityEngine::Networking::UnityWebRequestAsyncOperation* asyncOperation; // 0x10

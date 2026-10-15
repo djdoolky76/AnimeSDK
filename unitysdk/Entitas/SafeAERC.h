@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 
 namespace Entitas
 {
+	inline static constexpr unsigned int SafeAERC_TypeDefinitionIndex = 10016;
+
 	class SafeAERC : public ::System::Object
 	{
 	public:

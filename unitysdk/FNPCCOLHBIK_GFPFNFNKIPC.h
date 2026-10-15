@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define FNPCCOLHBIK_GFPFNFNKIPC_HJAALFKJHIM_OFFSET UNITYSDK_OFFSET(0x158DB670)
 #define FNPCCOLHBIK_GFPFNFNKIPC_LHGDIIHCJOF_OFFSET UNITYSDK_OFFSET(0x158DB5F0)
 
+inline static constexpr unsigned int FNPCCOLHBIK_GFPFNFNKIPC_TypeDefinitionIndex = 60267;
+
 	class FNPCCOLHBIK_GFPFNFNKIPC : public ::System::Object
 	{
 	public:

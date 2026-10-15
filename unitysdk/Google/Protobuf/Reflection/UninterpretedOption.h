@@ -49,6 +49,8 @@ namespace System { class String; }
 
 namespace Google::Protobuf::Reflection
 {
+	inline static constexpr unsigned int UninterpretedOption_TypeDefinitionIndex = 5511;
+
 	class UninterpretedOption : public ::System::Object
 	{
 	public:

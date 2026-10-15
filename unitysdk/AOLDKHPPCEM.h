@@ -51,6 +51,8 @@ namespace UnityEngine { class GameObject; }
 #define AOLDKHPPCEM_PBKDDPDODAO_OFFSET UNITYSDK_OFFSET(0x158B31F0)
 #define AOLDKHPPCEM_PKMGLPMNDGO_OFFSET UNITYSDK_OFFSET(0x158B1F80)
 
+inline static constexpr unsigned int AOLDKHPPCEM_TypeDefinitionIndex = 69208;
+
 	class AOLDKHPPCEM : public ::System::Object
 	{
 	public:

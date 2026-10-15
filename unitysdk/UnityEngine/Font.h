@@ -30,6 +30,8 @@ namespace UnityEngine { class Material; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int Font_TypeDefinitionIndex = 5061;
+
 	class Font : public ::UnityEngine::Object
 	{
 	public:

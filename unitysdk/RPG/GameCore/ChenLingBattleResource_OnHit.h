@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ChenLingBattleResource_OnHit; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChenLingBattleResource_OnHit_TypeDefinitionIndex = 15782;
+
 	class ChenLingBattleResource_OnHit : public ::RPG::GameCore::BaseChenLingBattleResource
 	{
 	public:

@@ -27,6 +27,8 @@ namespace System { class String; }
 #define NBBINLLONGI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EACCCD0)
 #define NBBINLLONGI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EACCD30)
 
+inline static constexpr unsigned int NBBINLLONGI_TypeDefinitionIndex = 31662;
+
 	class NBBINLLONGI : public ::System::Object
 	{
 	public:

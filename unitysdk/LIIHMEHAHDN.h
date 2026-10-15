@@ -35,6 +35,8 @@ namespace System { class String; }
 #define LIIHMEHAHDN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E96E210)
 #define LIIHMEHAHDN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E96E270)
 
+inline static constexpr unsigned int LIIHMEHAHDN_TypeDefinitionIndex = 28194;
+
 	class LIIHMEHAHDN : public ::System::Object
 	{
 	public:

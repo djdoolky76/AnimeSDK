@@ -70,6 +70,8 @@ namespace System { class String; }
 #define OGHPKFMNNHL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE53CF0)
 #define OGHPKFMNNHL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DE53D50)
 
+inline static constexpr unsigned int OGHPKFMNNHL_TypeDefinitionIndex = 27327;
+
 	class OGHPKFMNNHL : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@
 
 namespace Entitas::CodeGeneration::Attributes
 {
+	inline static constexpr unsigned int CleanupAttribute_TypeDefinitionIndex = 10069;
+
 	class CleanupAttribute : public ::System::Attribute
 	{
 	public:

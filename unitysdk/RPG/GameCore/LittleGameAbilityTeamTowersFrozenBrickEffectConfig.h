@@ -11,6 +11,8 @@ namespace RPG::GameCore { class LittleGameAbilityTeamTowersFrozenBrickEffectConf
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LittleGameAbilityTeamTowersFrozenBrickEffectConfig_TypeDefinitionIndex = 21410;
+
 	class LittleGameAbilityTeamTowersFrozenBrickEffectConfig : public ::RPG::GameCore::BaseLittleGameAbilityEffectConfig
 	{
 	public:

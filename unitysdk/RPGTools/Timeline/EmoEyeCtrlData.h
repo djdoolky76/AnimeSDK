@@ -8,6 +8,8 @@
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int EmoEyeCtrlData_TypeDefinitionIndex = 48111;
+
 	class EmoEyeCtrlData : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@ namespace RPG::GameCore { class LevelGraphComponent; }
 #define JHMHGMNPJKP___C__DISPLAYCLASS3_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB1BED90)
 #define JHMHGMNPJKP___C__DISPLAYCLASS3_0___CREATEPERFORMANCELEVELGRAPH_B__0_OFFSET UNITYSDK_OFFSET(0xB1BEDA0)
 
+inline static constexpr unsigned int JHMHGMNPJKP___c__DisplayClass3_0_TypeDefinitionIndex = 61987;
+
 	class JHMHGMNPJKP___c__DisplayClass3_0 : public ::System::Object
 	{
 	public:

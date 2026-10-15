@@ -14,6 +14,8 @@ namespace RPGTools::Timeline { class VirtualCameraNoiseClip; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int VirtualCameraNoiseBehaviour_TypeDefinitionIndex = 47828;
+
 	class VirtualCameraNoiseBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

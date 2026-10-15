@@ -9,6 +9,8 @@ namespace UnityEngine { class Transform; }
 
 namespace UnityChan
 {
+	inline static constexpr unsigned int SpringManager_SpringBoneClass_TypeDefinitionIndex = 47698;
+
 	class SpringManager_SpringBoneClass : public ::System::Object
 	{
 	public:

@@ -27,6 +27,8 @@ namespace System { class String; }
 #define DAKMNFLCCMJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E1531A0)
 #define DAKMNFLCCMJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E153200)
 
+inline static constexpr unsigned int DAKMNFLCCMJ_TypeDefinitionIndex = 34746;
+
 	class DAKMNFLCCMJ : public ::System::Object
 	{
 	public:

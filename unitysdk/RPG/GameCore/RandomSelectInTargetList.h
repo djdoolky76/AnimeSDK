@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RandomSelectInTargetList; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RandomSelectInTargetList_TypeDefinitionIndex = 22472;
+
 	class RandomSelectInTargetList : public ::RPG::GameCore::TaskConfig
 	{
 	public:

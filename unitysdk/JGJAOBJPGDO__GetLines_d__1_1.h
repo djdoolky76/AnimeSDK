@@ -6,6 +6,8 @@ namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 namespace System::Reflection { class FieldInfo; }
 
+inline static constexpr unsigned int JGJAOBJPGDO__GetLines_d__1_1_TypeDefinitionIndex = 15465;
+
 	template <typename T>
 	class JGJAOBJPGDO__GetLines_d__1_1 : public ::System::Object
 	{

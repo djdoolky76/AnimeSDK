@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 #define MDIMPDIOOIE_MPFJIMDDANE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1C4AB480)
 #define MDIMPDIOOIE_MPFJIMDDANE_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0x1C4BA5C0)
 
+inline static constexpr unsigned int MDIMPDIOOIE_MPFJIMDDANE_TypeDefinitionIndex = 41556;
+
 	class MDIMPDIOOIE_MPFJIMDDANE : public ::System::Object
 	{
 	public:

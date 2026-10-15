@@ -11,6 +11,8 @@ class OBOAGAFHIJO;
 #define FCLMONFLHFP_DDFKGBCOEMH_OFFSET UNITYSDK_OFFSET(0x156CE6E0)
 #define FCLMONFLHFP_JNDOGMFFOIM_OFFSET UNITYSDK_OFFSET(0x156CE520)
 
+inline static constexpr unsigned int FCLMONFLHFP_TypeDefinitionIndex = 73973;
+
 	class FCLMONFLHFP : public ::System::Object
 	{
 	public:

@@ -20,6 +20,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AvatarOutfit_PlayerOutfitSlotTypeFlags_TypeDefinitionIndex = 62497;
+
 	struct alignas(4) AvatarOutfit_PlayerOutfitSlotTypeFlags
 	{
 		::System::UInt64 _Flags; // 0x10

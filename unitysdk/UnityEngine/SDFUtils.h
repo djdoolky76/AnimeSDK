@@ -7,6 +7,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int SDFUtils_TypeDefinitionIndex = 4266;
+
 	class SDFUtils : public ::System::Object
 	{
 	public:

@@ -28,6 +28,8 @@ namespace System { class String; }
 #define MOCNDOCEOJM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EAA5010)
 #define MOCNDOCEOJM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EAA5070)
 
+inline static constexpr unsigned int MOCNDOCEOJM_TypeDefinitionIndex = 34820;
+
 	class MOCNDOCEOJM : public ::System::Object
 	{
 	public:

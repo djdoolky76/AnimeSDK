@@ -9,6 +9,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define MFGPFONCOMP_EFKLLLLPAJH_OFFSET UNITYSDK_OFFSET(0xB8FA680)
 #define MFGPFONCOMP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB8FA700)
 
+inline static constexpr unsigned int MFGPFONCOMP_TypeDefinitionIndex = 53831;
+
 	class MFGPFONCOMP
 	{
 	public:

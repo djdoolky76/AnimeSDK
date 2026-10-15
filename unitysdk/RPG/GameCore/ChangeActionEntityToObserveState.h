@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChangeActionEntityToObserveState_TypeDefinitionIndex = 23452;
+
 	class ChangeActionEntityToObserveState : public ::RPG::GameCore::TaskConfig
 	{
 	public:

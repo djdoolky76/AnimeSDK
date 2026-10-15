@@ -5,6 +5,8 @@ namespace System { class String; }
 
 #define KDMCICBOLJD_CTOR_OFFSET UNITYSDK_OFFSET(0xB367390)
 
+inline static constexpr unsigned int KDMCICBOLJD_TypeDefinitionIndex = 77615;
+
 	class KDMCICBOLJD : public ::System::Exception
 	{
 	public:

@@ -5,6 +5,8 @@ namespace RPG::GameCore { class LevelCurveInstance; }
 
 #define JANIKHDFJLA_CTOR_OFFSET UNITYSDK_OFFSET(0x1655BF40)
 
+inline static constexpr unsigned int JANIKHDFJLA_TypeDefinitionIndex = 64239;
+
 	class JANIKHDFJLA : public ::System::Object
 	{
 	public:

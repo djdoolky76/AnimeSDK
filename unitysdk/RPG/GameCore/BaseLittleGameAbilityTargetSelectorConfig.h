@@ -10,6 +10,8 @@ namespace RPG::GameCore { class BaseLittleGameAbilityTargetSelectorConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BaseLittleGameAbilityTargetSelectorConfig_TypeDefinitionIndex = 21366;
+
 	class BaseLittleGameAbilityTargetSelectorConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

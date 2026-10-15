@@ -7,6 +7,8 @@ namespace System { class Action; }
 
 namespace Cysharp::Threading::Tasks::Internal
 {
+	inline static constexpr unsigned int PooledDelegate_1_TypeDefinitionIndex = 38663;
+
 	template <typename T>
 	class PooledDelegate_1 : public ::System::Object
 	{

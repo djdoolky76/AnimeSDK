@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace System::Runtime::InteropServices
 {
+	inline static constexpr unsigned int MemoryMarshal_TypeDefinitionIndex = 4989;
+
 	class MemoryMarshal : public ::System::Object
 	{
 	public:

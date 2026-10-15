@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GameEntryStage_TypeDefinitionIndex = 16459;
+
 	class GameEntryStage : public ::RPG::GameCore::JsonConfig
 	{
 	public:

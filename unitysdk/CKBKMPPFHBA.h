@@ -12,6 +12,8 @@ namespace RPG::GameCore { class ComplexSkillAIMapperMultiRange; }
 #define CKBKMPPFHBA_KFGJEKJHIMB_3_OFFSET UNITYSDK_OFFSET(0xD7548A0)
 #define CKBKMPPFHBA_KFGJEKJHIMB_OFFSET UNITYSDK_OFFSET(0xD753D60)
 
+inline static constexpr unsigned int CKBKMPPFHBA_TypeDefinitionIndex = 54350;
+
 	class CKBKMPPFHBA : public ::System::Object
 	{
 	public:

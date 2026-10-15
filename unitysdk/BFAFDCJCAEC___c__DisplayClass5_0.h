@@ -7,6 +7,8 @@ class OIKGKBHIILL;
 #define BFAFDCJCAEC___C__DISPLAYCLASS5_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB15D210)
 #define BFAFDCJCAEC___C__DISPLAYCLASS5_0__SENDUPDATERELICPRESETPLANNAME_B__0_OFFSET UNITYSDK_OFFSET(0xB15DA20)
 
+inline static constexpr unsigned int BFAFDCJCAEC___c__DisplayClass5_0_TypeDefinitionIndex = 66871;
+
 	class BFAFDCJCAEC___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:

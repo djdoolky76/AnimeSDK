@@ -7,6 +7,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 
 #define EDIKPOPFJCM_LFHJMNDONKD_CTOR_OFFSET UNITYSDK_OFFSET(0x1331F2A0)
 
+inline static constexpr unsigned int EDIKPOPFJCM_LFHJMNDONKD_TypeDefinitionIndex = 59550;
+
 	class EDIKPOPFJCM_LFHJMNDONKD : public ::System::Object
 	{
 	public:

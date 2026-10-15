@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TeamDataComponent; }
 #define OHFCEFCOBFH_LGHLMCGOOIN_OFFSET UNITYSDK_OFFSET(0xBE66E60)
 #define OHFCEFCOBFH_LMCEDCHJKFF_OFFSET UNITYSDK_OFFSET(0xBE66C90)
 
+inline static constexpr unsigned int OHFCEFCOBFH_TypeDefinitionIndex = 57466;
+
 	class OHFCEFCOBFH : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

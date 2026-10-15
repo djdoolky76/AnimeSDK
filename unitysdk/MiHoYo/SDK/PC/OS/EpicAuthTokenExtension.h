@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::PC::OS
 {
+	inline static constexpr unsigned int EpicAuthTokenExtension_TypeDefinitionIndex = 8532;
+
 	class EpicAuthTokenExtension : public ::System::Object
 	{
 	public:

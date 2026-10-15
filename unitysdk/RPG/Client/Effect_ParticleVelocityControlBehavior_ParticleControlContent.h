@@ -7,6 +7,8 @@ namespace UnityEngine { class ParticleSystem; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Effect_ParticleVelocityControlBehavior_ParticleControlContent_TypeDefinitionIndex = 70525;
+
 	class Effect_ParticleVelocityControlBehavior_ParticleControlContent : public ::System::Object
 	{
 	public:

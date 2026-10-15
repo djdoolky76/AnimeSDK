@@ -40,6 +40,8 @@ namespace System { class String; }
 
 namespace UnityEngine::TextCore
 {
+	inline static constexpr unsigned int FaceInfo_TypeDefinitionIndex = 5838;
+
 	struct alignas(8) FaceInfo
 	{
 		::System::Int32 m_FaceIndex; // 0x10

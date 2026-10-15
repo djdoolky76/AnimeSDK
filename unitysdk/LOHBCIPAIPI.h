@@ -46,6 +46,8 @@ namespace System { class String; }
 #define LOHBCIPAIPI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9BE970)
 #define LOHBCIPAIPI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E9BE9D0)
 
+inline static constexpr unsigned int LOHBCIPAIPI_TypeDefinitionIndex = 25471;
+
 	class LOHBCIPAIPI : public ::System::Object
 	{
 	public:

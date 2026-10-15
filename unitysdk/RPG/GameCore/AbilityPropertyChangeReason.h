@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AbilityPropertyChangeReason_TypeDefinitionIndex = 10480;
+
 	enum class AbilityPropertyChangeReason : ::System::Int32
 	{
 		None = 0,

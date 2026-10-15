@@ -10,6 +10,8 @@ namespace UnityEngine { class Animator; }
 #define HONOFODMNPO_EEFBKDNCPBD_OFFSET UNITYSDK_OFFSET(0x15DBD7A0)
 #define HONOFODMNPO_ELNDOHIPBAL_OFFSET UNITYSDK_OFFSET(0x15DBD9C0)
 
+inline static constexpr unsigned int HONOFODMNPO_TypeDefinitionIndex = 71244;
+
 	class HONOFODMNPO : public ::System::Object
 	{
 	public:

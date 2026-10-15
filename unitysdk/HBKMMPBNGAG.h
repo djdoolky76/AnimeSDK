@@ -6,6 +6,8 @@ namespace RPG::GameCore { class ToggleUITop; }
 #define HBKMMPBNGAG_CTOR_OFFSET UNITYSDK_OFFSET(0x15C0FA00)
 #define HBKMMPBNGAG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15C0FA30)
 
+inline static constexpr unsigned int HBKMMPBNGAG_TypeDefinitionIndex = 47622;
+
 	class HBKMMPBNGAG
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int OpticalIllusionPuzzleEventListener_TypeDefinitionIndex = 22219;
+
 	class OpticalIllusionPuzzleEventListener : public ::RPG::GameCore::TaskConfig
 	{
 	public:

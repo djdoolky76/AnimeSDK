@@ -19,6 +19,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightTraitRemarkLineStateParserFactory___c_TypeDefinitionIndex = 65496;
+
 	class GridFightTraitRemarkLineStateParserFactory___c : public ::System::Object
 	{
 	public:

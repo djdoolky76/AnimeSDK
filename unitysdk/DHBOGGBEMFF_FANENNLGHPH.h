@@ -10,6 +10,8 @@ namespace System { class Object; }
 #define DHBOGGBEMFF_FANENNLGHPH_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xEBC77F0)
 #define DHBOGGBEMFF_FANENNLGHPH_INVOKE_OFFSET UNITYSDK_OFFSET(0xEBC77B0)
 
+inline static constexpr unsigned int DHBOGGBEMFF_FANENNLGHPH_TypeDefinitionIndex = 49126;
+
 	class DHBOGGBEMFF_FANENNLGHPH : public ::System::MulticastDelegate
 	{
 	public:

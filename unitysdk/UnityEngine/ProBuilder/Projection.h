@@ -27,6 +27,8 @@ namespace UnityEngine::ProBuilder { class ProBuilderMesh; }
 
 namespace UnityEngine::ProBuilder
 {
+	inline static constexpr unsigned int Projection_TypeDefinitionIndex = 44413;
+
 	class Projection : public ::System::Object
 	{
 	public:

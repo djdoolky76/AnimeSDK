@@ -5,6 +5,8 @@ class OEOAMBFMNIB;
 
 #define KPHIAKENOAA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C90B9B0)
 
+inline static constexpr unsigned int KPHIAKENOAA_TypeDefinitionIndex = 43239;
+
 	class KPHIAKENOAA : public ::System::Object
 	{
 	public:

@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define OELMDPAOLAJ_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D2614D0)
 #define OELMDPAOLAJ_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D260DF0)
 
+inline static constexpr unsigned int OELMDPAOLAJ_TypeDefinitionIndex = 11763;
+
 	class OELMDPAOLAJ : public ::System::Object
 	{
 	public:

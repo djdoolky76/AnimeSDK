@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MissionSubTypeConfigRow_TypeDefinitionIndex = 14151;
+
 	class MissionSubTypeConfigRow : public ::System::Object
 	{
 	public:

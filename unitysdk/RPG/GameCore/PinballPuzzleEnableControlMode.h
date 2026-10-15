@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PinballPuzzleEnableControlMode_TypeDefinitionIndex = 22006;
+
 	class PinballPuzzleEnableControlMode : public ::RPG::GameCore::TaskConfig
 	{
 	public:

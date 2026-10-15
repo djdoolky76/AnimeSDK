@@ -27,6 +27,8 @@ namespace System { class String; }
 #define ELLOBCEGLAA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E2D6750)
 #define ELLOBCEGLAA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E2D67B0)
 
+inline static constexpr unsigned int ELLOBCEGLAA_TypeDefinitionIndex = 25205;
+
 	class ELLOBCEGLAA : public ::System::Object
 	{
 	public:

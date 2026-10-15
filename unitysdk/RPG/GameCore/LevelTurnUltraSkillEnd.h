@@ -15,6 +15,8 @@ namespace RPG::GameCore { class GameEntity; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelTurnUltraSkillEnd_TypeDefinitionIndex = 56725;
+
 	class LevelTurnUltraSkillEnd : public ::System::Object
 	{
 	public:

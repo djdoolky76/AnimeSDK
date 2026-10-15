@@ -8,6 +8,8 @@ namespace System { class String; }
 
 #define ODPGEKCDNCJ_CTOR_OFFSET UNITYSDK_OFFSET(0xBDF2500)
 
+inline static constexpr unsigned int ODPGEKCDNCJ_TypeDefinitionIndex = 58717;
+
 	class ODPGEKCDNCJ : public ::System::Object
 	{
 	public:

@@ -21,6 +21,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace Collections::Pooled
 {
+	inline static constexpr unsigned int NonRandomizedStringEqualityComparer_TypeDefinitionIndex = 5098;
+
 	class NonRandomizedStringEqualityComparer
 	{
 	public:

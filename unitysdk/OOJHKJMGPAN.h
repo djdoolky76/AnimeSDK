@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define OOJHKJMGPAN_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBF8B9C0)
 #define OOJHKJMGPAN_HJJFOBGFBIO_OFFSET UNITYSDK_OFFSET(0xBF8BA60)
 
+inline static constexpr unsigned int OOJHKJMGPAN_TypeDefinitionIndex = 77366;
+
 	class OOJHKJMGPAN : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::HoYoPass
 {
+	inline static constexpr unsigned int ReportManager___c__DisplayClass22_0_TypeDefinitionIndex = 8352;
+
 	class ReportManager___c__DisplayClass22_0 : public ::System::Object
 	{
 	public:

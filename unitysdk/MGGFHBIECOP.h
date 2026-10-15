@@ -10,6 +10,8 @@ namespace System { class String; }
 #define MGGFHBIECOP_GET_TYPE_OFFSET UNITYSDK_OFFSET(0xB91CE10)
 #define MGGFHBIECOP_JAILHGGFLDH_OFFSET UNITYSDK_OFFSET(0xB91CE20)
 
+inline static constexpr unsigned int MGGFHBIECOP_TypeDefinitionIndex = 56123;
+
 	class MGGFHBIECOP : public ::DBGDNLLDPFI
 	{
 	public:

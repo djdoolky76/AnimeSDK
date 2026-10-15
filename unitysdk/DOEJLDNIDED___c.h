@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define DOEJLDNIDED___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E1FE6C0)
 #define DOEJLDNIDED___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E1FE6D0)
 
+inline static constexpr unsigned int DOEJLDNIDED___c_TypeDefinitionIndex = 33353;
+
 	class DOEJLDNIDED___c : public ::System::Object
 	{
 	public:

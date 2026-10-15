@@ -72,6 +72,8 @@ namespace ZenFulcrum::EmbeddedBrowser { class IRejectable; }
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
+	inline static constexpr unsigned int Promise_TypeDefinitionIndex = 39545;
+
 	class Promise : public ::System::Object
 	{
 	public:

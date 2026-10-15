@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::PixAir
 {
+	inline static constexpr unsigned int PixAirAreaInstance_TypeDefinitionIndex = 79311;
+
 	class PixAirAreaInstance : public ::System::Object
 	{
 	public:

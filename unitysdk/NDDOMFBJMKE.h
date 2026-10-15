@@ -31,6 +31,8 @@ namespace System { class String; }
 #define NDDOMFBJMKE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EAE4F30)
 #define NDDOMFBJMKE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EAE4F90)
 
+inline static constexpr unsigned int NDDOMFBJMKE_TypeDefinitionIndex = 25201;
+
 	class NDDOMFBJMKE : public ::System::Object
 	{
 	public:

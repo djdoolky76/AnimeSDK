@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TutorialChangeLockTarget_TypeDefinitionIndex = 24351;
+
 	class TutorialChangeLockTarget : public ::RPG::GameCore::TaskConfig
 	{
 	public:

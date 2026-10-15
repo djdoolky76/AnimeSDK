@@ -11,6 +11,8 @@ namespace RPG::GameCore { class RandomTraceProjectileData; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RandomTraceProjectileData_TypeDefinitionIndex = 15662;
+
 	class RandomTraceProjectileData : public ::RPG::GameCore::NewProjectileConfig
 	{
 	public:

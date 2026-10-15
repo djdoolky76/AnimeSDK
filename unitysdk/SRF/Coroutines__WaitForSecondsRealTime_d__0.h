@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace SRF
 {
+	inline static constexpr unsigned int Coroutines__WaitForSecondsRealTime_d__0_TypeDefinitionIndex = 35367;
+
 	class Coroutines__WaitForSecondsRealTime_d__0 : public ::System::Object
 	{
 	public:

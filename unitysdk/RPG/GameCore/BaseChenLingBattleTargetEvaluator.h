@@ -10,6 +10,8 @@ namespace RPG::GameCore { class BaseChenLingBattleTargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BaseChenLingBattleTargetEvaluator_TypeDefinitionIndex = 15759;
+
 	class BaseChenLingBattleTargetEvaluator : public ::RPG::GameCore::JsonConfig
 	{
 	public:

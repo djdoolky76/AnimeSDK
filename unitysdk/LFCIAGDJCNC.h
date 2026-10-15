@@ -6,6 +6,8 @@
 #define LFCIAGDJCNC_CTOR_OFFSET UNITYSDK_OFFSET(0xB6636E0)
 #define LFCIAGDJCNC_EPPAFNJFCMH_OFFSET UNITYSDK_OFFSET(0xB6636D0)
 
+inline static constexpr unsigned int LFCIAGDJCNC_TypeDefinitionIndex = 47132;
+
 	class LFCIAGDJCNC : public ::DLPNMGKEIHD
 	{
 	public:

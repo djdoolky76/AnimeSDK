@@ -4,6 +4,8 @@
 
 #define DJKINMGNHDK_CTOR_OFFSET UNITYSDK_OFFSET(0x1DDAA720)
 
+inline static constexpr unsigned int DJKINMGNHDK_TypeDefinitionIndex = 43953;
+
 	class DJKINMGNHDK : public ::System::Object
 	{
 	public:

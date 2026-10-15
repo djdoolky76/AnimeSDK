@@ -5,6 +5,8 @@
 
 namespace UnityEngine::UI
 {
+	inline static constexpr unsigned int ScrollRect_ScrollRectEvent_TypeDefinitionIndex = 6828;
+
 	class ScrollRect_ScrollRectEvent
 	{
 	public:

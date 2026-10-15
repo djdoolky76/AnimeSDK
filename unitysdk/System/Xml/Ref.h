@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace System::Xml
 {
+	inline static constexpr unsigned int Ref_TypeDefinitionIndex = 1930;
+
 	class Ref : public ::System::Object
 	{
 	public:

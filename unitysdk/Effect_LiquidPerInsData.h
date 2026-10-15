@@ -11,6 +11,8 @@ namespace UnityEngine { class Renderer; }
 #define EFFECT_LIQUIDPERINSDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x155E2DC0)
 #define EFFECT_LIQUIDPERINSDATA_START_OFFSET UNITYSDK_OFFSET(0x155E2D70)
 
+inline static constexpr unsigned int Effect_LiquidPerInsData_TypeDefinitionIndex = 47454;
+
 	class Effect_LiquidPerInsData : public ::UnityEngine::MonoBehaviour
 	{
 	public:

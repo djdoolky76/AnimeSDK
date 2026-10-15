@@ -31,6 +31,8 @@ namespace System { class Object; }
 #define MOBANEOGHIB___ONPAYING_B__11_0_OFFSET UNITYSDK_OFFSET(0xBA21B80)
 #define MOBANEOGHIB___ONPAYING_B__11_1_OFFSET UNITYSDK_OFFSET(0xBA21C10)
 
+inline static constexpr unsigned int MOBANEOGHIB_TypeDefinitionIndex = 52152;
+
 	class MOBANEOGHIB
 	{
 	public:

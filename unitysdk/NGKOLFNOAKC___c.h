@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define NGKOLFNOAKC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB14770)
 #define NGKOLFNOAKC___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1EB14780)
 
+inline static constexpr unsigned int NGKOLFNOAKC___c_TypeDefinitionIndex = 32522;
+
 	class NGKOLFNOAKC___c : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System::Reflection { class FieldInfo; }
 #define NDMEKJMMKNG_INCJDJFELIK_OFFSET UNITYSDK_OFFSET(0xBB4FAE0)
 #define NDMEKJMMKNG_PAKCJDAEPKN_OFFSET UNITYSDK_OFFSET(0xBB4F9F0)
 
+inline static constexpr unsigned int NDMEKJMMKNG_TypeDefinitionIndex = 49150;
+
 	class NDMEKJMMKNG : public ::System::Object
 	{
 	public:

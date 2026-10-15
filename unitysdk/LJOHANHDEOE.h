@@ -27,6 +27,8 @@ namespace System { class String; }
 #define LJOHANHDEOE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9887D0)
 #define LJOHANHDEOE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E988830)
 
+inline static constexpr unsigned int LJOHANHDEOE_TypeDefinitionIndex = 26513;
+
 	class LJOHANHDEOE : public ::System::Object
 	{
 	public:

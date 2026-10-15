@@ -11,6 +11,8 @@ namespace System { template <typename T> class Predicate_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AvatarGrowthGuide___c_TypeDefinitionIndex = 65545;
+
 	class AvatarGrowthGuide___c : public ::System::Object
 	{
 	public:

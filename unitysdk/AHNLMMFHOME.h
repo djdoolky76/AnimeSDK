@@ -28,6 +28,8 @@ namespace System { class String; }
 #define AHNLMMFHOME_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E276940)
 #define AHNLMMFHOME_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E2769A0)
 
+inline static constexpr unsigned int AHNLMMFHOME_TypeDefinitionIndex = 33091;
+
 	class AHNLMMFHOME : public ::System::Object
 	{
 	public:

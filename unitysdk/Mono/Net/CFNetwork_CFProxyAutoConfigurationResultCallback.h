@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace Mono::Net
 {
+	inline static constexpr unsigned int CFNetwork_CFProxyAutoConfigurationResultCallback_TypeDefinitionIndex = 2419;
+
 	class CFNetwork_CFProxyAutoConfigurationResultCallback : public ::System::MulticastDelegate
 	{
 	public:

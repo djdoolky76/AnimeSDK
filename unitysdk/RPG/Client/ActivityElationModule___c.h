@@ -11,6 +11,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ActivityElationModule___c_TypeDefinitionIndex = 61509;
+
 	class ActivityElationModule___c : public ::System::Object
 	{
 	public:

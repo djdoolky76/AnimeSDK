@@ -32,6 +32,8 @@ namespace UnityEngine::UI { class SmoothMask; }
 
 namespace RPG::Client::B51Racing
 {
+	inline static constexpr unsigned int B51RacingCarStatItemControl_TypeDefinitionIndex = 81818;
+
 	class B51RacingCarStatItemControl : public ::Sofa::BaseSofaControl
 	{
 	public:

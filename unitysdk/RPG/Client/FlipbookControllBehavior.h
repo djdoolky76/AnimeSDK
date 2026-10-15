@@ -24,6 +24,8 @@ namespace UnityEngine { class Material; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FlipbookControllBehavior_TypeDefinitionIndex = 70603;
+
 	class FlipbookControllBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:

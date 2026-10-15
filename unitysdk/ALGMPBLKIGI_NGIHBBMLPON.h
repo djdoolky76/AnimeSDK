@@ -6,6 +6,8 @@ namespace RPG::GameCore { class BattleInstance; }
 
 #define ALGMPBLKIGI_NGIHBBMLPON_CTOR_OFFSET UNITYSDK_OFFSET(0x15569C10)
 
+inline static constexpr unsigned int ALGMPBLKIGI_NGIHBBMLPON_TypeDefinitionIndex = 71878;
+
 	class ALGMPBLKIGI_NGIHBBMLPON : public ::System::Object
 	{
 	public:

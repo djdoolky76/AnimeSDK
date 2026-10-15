@@ -10,6 +10,8 @@ namespace RPG::GameCore { class WaitRogueSelectBuff; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaitRogueSelectBuff_TypeDefinitionIndex = 20486;
+
 	class WaitRogueSelectBuff : public ::RPG::GameCore::TaskConfig
 	{
 	public:

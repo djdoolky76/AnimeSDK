@@ -27,6 +27,8 @@ namespace System { class String; }
 #define NEKAOLPJKEE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EAF9500)
 #define NEKAOLPJKEE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EAF9560)
 
+inline static constexpr unsigned int NEKAOLPJKEE_TypeDefinitionIndex = 25688;
+
 	class NEKAOLPJKEE : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@ namespace System { class String; }
 
 #define PCMJEHDDMNL_CTOR_OFFSET UNITYSDK_OFFSET(0xC0084F0)
 
+inline static constexpr unsigned int PCMJEHDDMNL_TypeDefinitionIndex = 64787;
+
 	class PCMJEHDDMNL : public ::System::Object
 	{
 	public:

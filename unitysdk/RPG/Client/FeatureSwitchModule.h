@@ -57,6 +57,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FeatureSwitchModule_TypeDefinitionIndex = 64167;
+
 	class FeatureSwitchModule : public ::RPG::Client::BaseModule
 	{
 	public:

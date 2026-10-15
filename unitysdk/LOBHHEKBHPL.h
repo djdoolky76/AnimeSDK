@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define LOBHHEKBHPL_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB7F31C0)
 #define LOBHHEKBHPL_LILHLFMNACJ_OFFSET UNITYSDK_OFFSET(0xB7F3430)
 
+inline static constexpr unsigned int LOBHHEKBHPL_TypeDefinitionIndex = 59233;
+
 	class LOBHHEKBHPL
 	{
 	public:

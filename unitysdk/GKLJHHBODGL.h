@@ -8,6 +8,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define GKLJHHBODGL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15AA1660)
 #define GKLJHHBODGL_TICK_OFFSET UNITYSDK_OFFSET(0x15AA1710)
 
+inline static constexpr unsigned int GKLJHHBODGL_TypeDefinitionIndex = 53334;
+
 	class GKLJHHBODGL
 	{
 	public:

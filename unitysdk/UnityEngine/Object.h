@@ -80,6 +80,8 @@ namespace UnityEngine { class Transform; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int Object_TypeDefinitionIndex = 4363;
+
 	class Object : public ::System::Object
 	{
 	public:

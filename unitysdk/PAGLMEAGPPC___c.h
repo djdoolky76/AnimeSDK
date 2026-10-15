@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define PAGLMEAGPPC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DEEDDD0)
 #define PAGLMEAGPPC___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1DEEDDE0)
 
+inline static constexpr unsigned int PAGLMEAGPPC___c_TypeDefinitionIndex = 26592;
+
 	class PAGLMEAGPPC___c : public ::System::Object
 	{
 	public:

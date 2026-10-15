@@ -8,6 +8,8 @@ class HFGKIENKJLG;
 #define HFGKIENKJLG_CTOR_OFFSET UNITYSDK_OFFSET(0x1CEA0890)
 #define HFGKIENKJLG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CEA06A0)
 
+inline static constexpr unsigned int HFGKIENKJLG_TypeDefinitionIndex = 12469;
+
 	class HFGKIENKJLG : public ::System::Object
 	{
 	public:

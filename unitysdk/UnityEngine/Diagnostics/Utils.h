@@ -7,6 +7,8 @@
 
 namespace UnityEngine::Diagnostics
 {
+	inline static constexpr unsigned int Utils_TypeDefinitionIndex = 4930;
+
 	class Utils : public ::System::Object
 	{
 	public:

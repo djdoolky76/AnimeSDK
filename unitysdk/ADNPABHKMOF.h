@@ -8,6 +8,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define ADNPABHKMOF_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB1474A0)
 #define ADNPABHKMOF_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB147540)
 
+inline static constexpr unsigned int ADNPABHKMOF_TypeDefinitionIndex = 53904;
+
 	class ADNPABHKMOF
 	{
 	public:

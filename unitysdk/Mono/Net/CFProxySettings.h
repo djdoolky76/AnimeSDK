@@ -9,6 +9,8 @@ namespace Mono::Net { class CFDictionary; }
 
 namespace Mono::Net
 {
+	inline static constexpr unsigned int CFProxySettings_TypeDefinitionIndex = 2416;
+
 	class CFProxySettings : public ::System::Object
 	{
 	public:

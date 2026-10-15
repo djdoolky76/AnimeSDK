@@ -30,6 +30,8 @@ namespace RPG::Client::PixAir { class PixAirJumpTextMessage; }
 #define LODOKGPHEMB_NHMGFHDBDLN_OFFSET UNITYSDK_OFFSET(0xB7FC6F0)
 #define LODOKGPHEMB_ONFNLOKFJMK_OFFSET UNITYSDK_OFFSET(0xB7FA560)
 
+inline static constexpr unsigned int LODOKGPHEMB_TypeDefinitionIndex = 77303;
+
 	class LODOKGPHEMB : public ::System::Object
 	{
 	public:

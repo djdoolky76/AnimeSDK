@@ -7,6 +7,8 @@
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
+	inline static constexpr unsigned int B2Collisions_TypeDefinitionIndex = 36613;
+
 	class B2Collisions : public ::System::Object
 	{
 	public:

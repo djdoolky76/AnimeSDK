@@ -8,6 +8,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define DEJKHBDGFGI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xE510B10)
 #define DEJKHBDGFGI_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xE510DD0)
 
+inline static constexpr unsigned int DEJKHBDGFGI_TypeDefinitionIndex = 52222;
+
 	class DEJKHBDGFGI
 	{
 	public:

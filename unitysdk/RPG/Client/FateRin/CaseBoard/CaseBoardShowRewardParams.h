@@ -7,6 +7,8 @@
 
 namespace RPG::Client::FateRin::CaseBoard
 {
+	inline static constexpr unsigned int CaseBoardShowRewardParams_TypeDefinitionIndex = 80811;
+
 	class CaseBoardShowRewardParams : public ::System::Object
 	{
 	public:

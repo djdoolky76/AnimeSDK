@@ -38,6 +38,8 @@ namespace System { class String; }
 #define LEGNLMENMJK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E92E3B0)
 #define LEGNLMENMJK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E92E410)
 
+inline static constexpr unsigned int LEGNLMENMJK_TypeDefinitionIndex = 27050;
+
 	class LEGNLMENMJK : public ::System::Object
 	{
 	public:

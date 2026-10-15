@@ -49,6 +49,8 @@ namespace UnityEngine::UI { class Image; }
 #define MJNIPBIIFND__ONBIND_OFFSET UNITYSDK_OFFSET(0xB9707F0)
 #define MJNIPBIIFND__ONDISPOSE_OFFSET UNITYSDK_OFFSET(0xB970EF0)
 
+inline static constexpr unsigned int MJNIPBIIFND_TypeDefinitionIndex = 71782;
+
 	class MJNIPBIIFND : public ::FMPCODLIOLG
 	{
 	public:

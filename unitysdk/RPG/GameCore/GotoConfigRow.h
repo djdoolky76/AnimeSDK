@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GotoConfigRow_TypeDefinitionIndex = 13328;
+
 	class GotoConfigRow : public ::System::Object
 	{
 	public:

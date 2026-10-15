@@ -40,6 +40,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define GDPILPBMEEC_OFFCNODLKGO_OFFSET UNITYSDK_OFFSET(0x159C2390)
 #define GDPILPBMEEC_OKHFKJHNMDB_OFFSET UNITYSDK_OFFSET(0x159C2D30)
 
+inline static constexpr unsigned int GDPILPBMEEC_TypeDefinitionIndex = 81736;
+
 	class GDPILPBMEEC : public ::System::Object
 	{
 	public:

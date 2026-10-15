@@ -16,6 +16,8 @@ namespace System { class Object; }
 
 namespace RPGTools::Timeline::VFX
 {
+	inline static constexpr unsigned int VFXPageTearFadeBehaviour_TypeDefinitionIndex = 48683;
+
 	class VFXPageTearFadeBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

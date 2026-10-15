@@ -7,6 +7,8 @@
 
 namespace RPG::Client::DiceCombat
 {
+	inline static constexpr unsigned int DiceCombatUtil___c__DisplayClass100_0_TypeDefinitionIndex = 76100;
+
 	class DiceCombatUtil___c__DisplayClass100_0 : public ::System::Object
 	{
 	public:

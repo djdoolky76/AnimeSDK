@@ -11,6 +11,8 @@ namespace RPG::GameCore { class PlayerLockTargetWeightOverrideConfig; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoWolfBroCustomData_TypeDefinitionIndex = 68631;
+
 	class MonoWolfBroCustomData : public ::UnityEngine::MonoBehaviour
 	{
 	public:

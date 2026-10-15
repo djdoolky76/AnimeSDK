@@ -13,6 +13,8 @@ namespace System { template <typename T> class Func_1; }
 #define BFMHFBHIAAL___C___CTOR_B__54_0_OFFSET UNITYSDK_OFFSET(0x1C8B9FA0)
 #define BFMHFBHIAAL___C___CTOR_B__54_1_OFFSET UNITYSDK_OFFSET(0x1C8B9FD0)
 
+inline static constexpr unsigned int BFMHFBHIAAL___c_TypeDefinitionIndex = 42572;
+
 	class BFMHFBHIAAL___c : public ::System::Object
 	{
 	public:

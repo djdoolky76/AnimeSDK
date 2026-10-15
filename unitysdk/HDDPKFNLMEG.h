@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define HDDPKFNLMEG_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15C31900)
 #define HDDPKFNLMEG_TICK_OFFSET UNITYSDK_OFFSET(0x15C31950)
 
+inline static constexpr unsigned int HDDPKFNLMEG_TypeDefinitionIndex = 56367;
+
 	class HDDPKFNLMEG : public ::GELIALJDFBL
 	{
 	public:

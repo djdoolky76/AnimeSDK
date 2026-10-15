@@ -12,6 +12,8 @@ namespace InControl { class InputDeviceProfile; }
 
 namespace InControl
 {
+	inline static constexpr unsigned int UnityInputDeviceManager___c__DisplayClass20_0_TypeDefinitionIndex = 40899;
+
 	class UnityInputDeviceManager___c__DisplayClass20_0 : public ::System::Object
 	{
 	public:

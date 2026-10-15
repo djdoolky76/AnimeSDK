@@ -30,6 +30,8 @@ namespace System { class String; }
 #define HJIAHMMPICB_OCCIFHOEJMI_OFFSET UNITYSDK_OFFSET(0x15D23090)
 #define HJIAHMMPICB_TICK_OFFSET UNITYSDK_OFFSET(0x15D23980)
 
+inline static constexpr unsigned int HJIAHMMPICB_TypeDefinitionIndex = 73309;
+
 	class HJIAHMMPICB : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

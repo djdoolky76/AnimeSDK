@@ -9,6 +9,8 @@ namespace System::Reflection { class ParameterInfo; }
 
 namespace System::Diagnostics::Tracing
 {
+	inline static constexpr unsigned int EventSource_EventMetadata_TypeDefinitionIndex = 1666;
+
 	struct alignas(8) EventSource_EventMetadata
 	{
 		::System::Diagnostics::Tracing::EventDescriptor Descriptor; // 0x10

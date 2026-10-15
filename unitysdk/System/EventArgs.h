@@ -8,6 +8,8 @@ namespace System { class EventArgs; }
 
 namespace System
 {
+	inline static constexpr unsigned int EventArgs_TypeDefinitionIndex = 241;
+
 	class EventArgs : public ::System::Object
 	{
 	public:

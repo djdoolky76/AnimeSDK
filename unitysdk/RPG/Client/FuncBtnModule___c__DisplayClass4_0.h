@@ -8,6 +8,8 @@ namespace RPG::GameCore { class NotifyShowFuncBtnParam; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FuncBtnModule___c__DisplayClass4_0_TypeDefinitionIndex = 60564;
+
 	class FuncBtnModule___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:

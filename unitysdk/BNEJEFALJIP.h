@@ -11,6 +11,8 @@ namespace System { class String; }
 #define BNEJEFALJIP_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9E9290)
 #define BNEJEFALJIP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D9E8E30)
 
+inline static constexpr unsigned int BNEJEFALJIP_TypeDefinitionIndex = 13949;
+
 	class BNEJEFALJIP : public ::System::Object
 	{
 	public:

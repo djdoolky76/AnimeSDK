@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CollaborationGachaGroupData_TypeDefinitionIndex = 64314;
+
 	class CollaborationGachaGroupData : public ::RPG::Client::BaseGachaGroupData
 	{
 	public:

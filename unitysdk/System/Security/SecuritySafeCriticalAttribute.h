@@ -6,6 +6,8 @@
 
 namespace System::Security
 {
+	inline static constexpr unsigned int SecuritySafeCriticalAttribute_TypeDefinitionIndex = 940;
+
 	class SecuritySafeCriticalAttribute : public ::System::Attribute
 	{
 	public:

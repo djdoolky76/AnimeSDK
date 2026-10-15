@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ListView_BackendKind_TypeDefinitionIndex = 72557;
+
 	enum class ListView_BackendKind : ::System::Int32
 	{
 		None = 0,

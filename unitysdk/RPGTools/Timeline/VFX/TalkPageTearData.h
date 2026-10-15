@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPGTools::Timeline::VFX
 {
+	inline static constexpr unsigned int TalkPageTearData_TypeDefinitionIndex = 48676;
+
 	class TalkPageTearData : public ::System::Object
 	{
 	public:

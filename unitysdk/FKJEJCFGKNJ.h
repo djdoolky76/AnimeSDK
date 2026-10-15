@@ -17,6 +17,8 @@ namespace UnityEngine { class RectTransform; }
 #define FKJEJCFGKNJ_PPIINGBIFMA_OFFSET UNITYSDK_OFFSET(0x15801280)
 #define FKJEJCFGKNJ_SET_ISENDED_OFFSET UNITYSDK_OFFSET(0x15800ED0)
 
+inline static constexpr unsigned int FKJEJCFGKNJ_TypeDefinitionIndex = 68926;
+
 	class FKJEJCFGKNJ : public ::System::Object
 	{
 	public:

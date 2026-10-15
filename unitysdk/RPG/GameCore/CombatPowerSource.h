@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CombatPowerSource_TypeDefinitionIndex = 59040;
+
 	enum class CombatPowerSource : ::System::Int32
 	{
 		Avatar = 0,

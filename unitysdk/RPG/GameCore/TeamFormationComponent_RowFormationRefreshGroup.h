@@ -19,6 +19,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TeamFormationComponent_RowFormationRefreshGroup_TypeDefinitionIndex = 57706;
+
 	class TeamFormationComponent_RowFormationRefreshGroup : public ::System::Object
 	{
 	public:

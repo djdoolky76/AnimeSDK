@@ -27,6 +27,8 @@ namespace System { class String; }
 #define PEEIPMKDOOL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF161A0)
 #define PEEIPMKDOOL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF16200)
 
+inline static constexpr unsigned int PEEIPMKDOOL_TypeDefinitionIndex = 30488;
+
 	class PEEIPMKDOOL : public ::System::Object
 	{
 	public:

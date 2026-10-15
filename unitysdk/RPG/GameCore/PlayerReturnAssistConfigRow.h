@@ -10,6 +10,8 @@ namespace RPG::GameCore { class PlayerReturnAssistConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PlayerReturnAssistConfigRow_TypeDefinitionIndex = 14542;
+
 	class PlayerReturnAssistConfigRow : public ::System::Object
 	{
 	public:

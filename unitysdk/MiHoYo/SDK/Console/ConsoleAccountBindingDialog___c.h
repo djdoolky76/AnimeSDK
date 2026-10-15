@@ -11,6 +11,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK::Console
 {
+	inline static constexpr unsigned int ConsoleAccountBindingDialog___c_TypeDefinitionIndex = 8995;
+
 	class ConsoleAccountBindingDialog___c : public ::System::Object
 	{
 	public:

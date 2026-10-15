@@ -3,6 +3,8 @@
 
 #define PDNIDGPCLMC_MLOJDNENGDC_OFFSET UNITYSDK_OFFSET(0xC021880)
 
+inline static constexpr unsigned int PDNIDGPCLMC_TypeDefinitionIndex = 55156;
+
 	struct alignas(4) PDNIDGPCLMC
 	{
 		::System::Boolean AODGNFHAPBL; // 0x10

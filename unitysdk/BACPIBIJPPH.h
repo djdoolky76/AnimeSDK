@@ -27,6 +27,8 @@ namespace System { class String; }
 #define BACPIBIJPPH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E7AFAF0)
 #define BACPIBIJPPH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E7AFB50)
 
+inline static constexpr unsigned int BACPIBIJPPH_TypeDefinitionIndex = 26651;
+
 	class BACPIBIJPPH : public ::System::Object
 	{
 	public:

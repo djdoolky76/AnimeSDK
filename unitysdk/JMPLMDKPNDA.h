@@ -8,6 +8,8 @@ class NGGLPLKJKMM;
 #define JMPLMDKPNDA_CTOR_OFFSET UNITYSDK_OFFSET(0x1D04D460)
 #define JMPLMDKPNDA_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D04D350)
 
+inline static constexpr unsigned int JMPLMDKPNDA_TypeDefinitionIndex = 18159;
+
 	class JMPLMDKPNDA : public ::RPG::GameCore::JsonConfig
 	{
 	public:

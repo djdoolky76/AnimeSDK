@@ -21,6 +21,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int TransformTimelineBehaviour_TypeDefinitionIndex = 48522;
+
 	class TransformTimelineBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

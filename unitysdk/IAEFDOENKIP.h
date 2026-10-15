@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define IAEFDOENKIP_CTOR_OFFSET UNITYSDK_OFFSET(0x15E02360)
 #define IAEFDOENKIP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15E02390)
 
+inline static constexpr unsigned int IAEFDOENKIP_TypeDefinitionIndex = 53299;
+
 	class IAEFDOENKIP
 	{
 	public:
