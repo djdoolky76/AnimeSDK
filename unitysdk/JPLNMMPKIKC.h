@@ -10,6 +10,8 @@ namespace System { class Type; }
 #define JPLNMMPKIKC_FNAAJGAHIAI_OFFSET UNITYSDK_OFFSET(0xB2C95B0)
 #define JPLNMMPKIKC_IHPAKOMCHGP_OFFSET UNITYSDK_OFFSET(0xB2C9650)
 
+inline static constexpr unsigned int JPLNMMPKIKC_TypeDefinitionIndex = 62595;
+
 	class JPLNMMPKIKC : public ::System::Object
 	{
 	public:

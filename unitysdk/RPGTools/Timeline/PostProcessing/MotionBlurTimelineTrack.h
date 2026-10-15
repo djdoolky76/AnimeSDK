@@ -11,6 +11,8 @@ namespace UnityEngine::Timeline { class TimelineClip; }
 
 namespace RPGTools::Timeline::PostProcessing
 {
+	inline static constexpr unsigned int MotionBlurTimelineTrack_TypeDefinitionIndex = 48587;
+
 	class MotionBlurTimelineTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
 	public:

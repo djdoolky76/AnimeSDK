@@ -6,6 +6,8 @@
 
 namespace System::Runtime::Versioning
 {
+	inline static constexpr unsigned int NonVersionableAttribute_TypeDefinitionIndex = 3870;
+
 	class NonVersionableAttribute : public ::System::Attribute
 	{
 	public:

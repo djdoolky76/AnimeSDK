@@ -35,6 +35,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define CMPCKAGMFGF_OHMHJFANEIF_OFFSET UNITYSDK_OFFSET(0xDA43F90)
 #define CMPCKAGMFGF_SET_ISSTARTED_OFFSET UNITYSDK_OFFSET(0xDA435E0)
 
+inline static constexpr unsigned int CMPCKAGMFGF_TypeDefinitionIndex = 69198;
+
 	class CMPCKAGMFGF : public ::System::Object
 	{
 	public:

@@ -50,6 +50,8 @@ namespace UnityEngine { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CachedAssetLoader_TypeDefinitionIndex = 59431;
+
 	class CachedAssetLoader : public ::System::Object
 	{
 	public:

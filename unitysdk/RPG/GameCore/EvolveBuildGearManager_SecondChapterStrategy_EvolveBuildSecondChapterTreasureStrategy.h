@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EvolveBuildGearManager_SecondChapterStrategy_EvolveBuildSecondChapterTreasureStrategy_TypeDefinitionIndex = 56067;
+
 	class EvolveBuildGearManager_SecondChapterStrategy_EvolveBuildSecondChapterTreasureStrategy : public ::System::Object
 	{
 	public:

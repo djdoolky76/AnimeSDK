@@ -12,6 +12,8 @@ namespace UnityEngine::Rendering { class VolumeProfile; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UI3DCameraCopyUtil_TypeDefinitionIndex = 72997;
+
 	class UI3DCameraCopyUtil : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueParamRogueCoinCountConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueParamRogueCoinCountConfig_TypeDefinitionIndex = 19827;
+
 	class RogueParamRogueCoinCountConfig : public ::RPG::GameCore::RogueParameterConfigBase
 	{
 	public:

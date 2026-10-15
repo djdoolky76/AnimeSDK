@@ -9,6 +9,8 @@ namespace RPG::GameCore { class RaidNpcMonsterOverrideRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RaidNpcMonsterOverrideRow_TypeDefinitionIndex = 14603;
+
 	class RaidNpcMonsterOverrideRow : public ::System::Object
 	{
 	public:

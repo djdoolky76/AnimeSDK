@@ -30,6 +30,8 @@ namespace System { class String; }
 #define CFDHDBNIHPL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E09E3F0)
 #define CFDHDBNIHPL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E09E450)
 
+inline static constexpr unsigned int CFDHDBNIHPL_TypeDefinitionIndex = 25455;
+
 	class CFDHDBNIHPL : public ::System::Object
 	{
 	public:

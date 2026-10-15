@@ -10,6 +10,8 @@ class FCOEMCEDLNL;
 #define DAKNHCDMAPO_CTOR_OFFSET UNITYSDK_OFFSET(0x1DCCADD0)
 #define DAKNHCDMAPO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DCCAB90)
 
+inline static constexpr unsigned int DAKNHCDMAPO_TypeDefinitionIndex = 14948;
+
 	class DAKNHCDMAPO : public ::System::Object
 	{
 	public:

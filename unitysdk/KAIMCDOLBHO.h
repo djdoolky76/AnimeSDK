@@ -28,6 +28,8 @@ namespace System { class String; }
 #define KAIMCDOLBHO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E7E4F50)
 #define KAIMCDOLBHO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E7E4FB0)
 
+inline static constexpr unsigned int KAIMCDOLBHO_TypeDefinitionIndex = 27385;
+
 	class KAIMCDOLBHO : public ::System::Object
 	{
 	public:

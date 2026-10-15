@@ -8,6 +8,8 @@ namespace RPG { template <typename T> class PoolList_1; }
 #define DELPKNBPNLN_CLEAR_OFFSET UNITYSDK_OFFSET(0x1CA25800)
 #define DELPKNBPNLN_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA259B0)
 
+inline static constexpr unsigned int DELPKNBPNLN_TypeDefinitionIndex = 43653;
+
 	class DELPKNBPNLN : public ::System::Object
 	{
 	public:

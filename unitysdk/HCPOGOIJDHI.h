@@ -7,6 +7,8 @@ namespace System { class String; }
 #define HCPOGOIJDHI_CTOR_1_OFFSET UNITYSDK_OFFSET(0x15C2F640)
 #define HCPOGOIJDHI_CTOR_OFFSET UNITYSDK_OFFSET(0x15C2F5E0)
 
+inline static constexpr unsigned int HCPOGOIJDHI_TypeDefinitionIndex = 67509;
+
 	class HCPOGOIJDHI : public ::System::Exception
 	{
 	public:

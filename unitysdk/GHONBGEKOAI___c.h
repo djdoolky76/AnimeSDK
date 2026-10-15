@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define GHONBGEKOAI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E4907A0)
 #define GHONBGEKOAI___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E4907B0)
 
+inline static constexpr unsigned int GHONBGEKOAI___c_TypeDefinitionIndex = 34975;
+
 	class GHONBGEKOAI___c : public ::System::Object
 	{
 	public:

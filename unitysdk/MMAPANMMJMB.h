@@ -3,6 +3,8 @@
 #include "unitysdk/RPG/Client/LogicStateType.h"
 namespace System { class Object; }
 
+inline static constexpr unsigned int MMAPANMMJMB_TypeDefinitionIndex = 66686;
+
 	struct alignas(8) MMAPANMMJMB
 	{
 		::RPG::Client::LogicStateType EEDMIIFDCPP; // 0x10

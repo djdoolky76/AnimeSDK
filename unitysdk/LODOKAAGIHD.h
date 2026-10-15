@@ -32,6 +32,8 @@ namespace System { class String; }
 #define LODOKAAGIHD_PJNCLMDNFLB_1_OFFSET UNITYSDK_OFFSET(0xB7F9D20)
 #define LODOKAAGIHD_PJNCLMDNFLB_OFFSET UNITYSDK_OFFSET(0xB7F9CE0)
 
+inline static constexpr unsigned int LODOKAAGIHD_TypeDefinitionIndex = 73778;
+
 	class LODOKAAGIHD : public ::System::Object
 	{
 	public:

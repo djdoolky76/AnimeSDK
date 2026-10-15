@@ -183,6 +183,8 @@ namespace UnityEngine::UI { class VertexHelper; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UIProceduralShape_TypeDefinitionIndex = 72705;
+
 	class UIProceduralShape : public ::UnityEngine::UI::MaskableGraphic
 	{
 	public:

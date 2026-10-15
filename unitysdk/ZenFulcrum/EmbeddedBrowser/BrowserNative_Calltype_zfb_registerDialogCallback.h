@@ -13,6 +13,8 @@ namespace ZenFulcrum::EmbeddedBrowser { class BrowserNative_DisplayDialogFunc; }
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
+	inline static constexpr unsigned int BrowserNative_Calltype_zfb_registerDialogCallback_TypeDefinitionIndex = 39451;
+
 	class BrowserNative_Calltype_zfb_registerDialogCallback : public ::System::MulticastDelegate
 	{
 	public:

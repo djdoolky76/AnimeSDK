@@ -13,6 +13,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByTurnOwnerHasActionInTurn_TypeDefinitionIndex = 23480;
+
 	class ByTurnOwnerHasActionInTurn : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

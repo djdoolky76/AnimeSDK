@@ -8,6 +8,8 @@
 #define CCMOIFIMAIL_BNEKPBGLAOJ_NDDIDDOMAKN_OFFSET UNITYSDK_OFFSET(0xE2370)
 #define CCMOIFIMAIL_BNEKPBGLAOJ_OAMEIMOJGHN_OFFSET UNITYSDK_OFFSET(0xE23D0)
 
+inline static constexpr unsigned int CCMOIFIMAIL_BNEKPBGLAOJ_TypeDefinitionIndex = 73813;
+
 	struct alignas(8) CCMOIFIMAIL_BNEKPBGLAOJ
 	{
 		::RPG::Client::ReasonBool_1<::RPG::Client::OpenWorld::ItemOverrideReason> BMKKFCDAFEA; // 0x10

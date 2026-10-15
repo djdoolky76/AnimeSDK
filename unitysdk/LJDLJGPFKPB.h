@@ -8,6 +8,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define LJDLJGPFKPB_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB6E19F0)
 #define LJDLJGPFKPB_EVALUATE_OFFSET UNITYSDK_OFFSET(0xB6E1980)
 
+inline static constexpr unsigned int LJDLJGPFKPB_TypeDefinitionIndex = 54483;
+
 	class LJDLJGPFKPB
 	{
 	public:

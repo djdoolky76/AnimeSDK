@@ -30,6 +30,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::ActivityFinalityBattle::Settle
 {
+	inline static constexpr unsigned int FinalityBattleSettleViewModel_TypeDefinitionIndex = 82076;
+
 	class FinalityBattleSettleViewModel : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int AccountManager___c_TypeDefinitionIndex = 7952;
+
 	class AccountManager___c : public ::System::Object
 	{
 	public:

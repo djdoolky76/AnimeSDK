@@ -16,6 +16,8 @@ namespace UnityEngine { class Transform; }
 #define DCBDMBEKAKN_LBEIBLANIKB_OFFSET UNITYSDK_OFFSET(0x1CA1AFB0)
 #define DCBDMBEKAKN_LLMMJPDOPIB_OFFSET UNITYSDK_OFFSET(0x1CA1A8E0)
 
+inline static constexpr unsigned int DCBDMBEKAKN_TypeDefinitionIndex = 42628;
+
 	class DCBDMBEKAKN
 	{
 	public:

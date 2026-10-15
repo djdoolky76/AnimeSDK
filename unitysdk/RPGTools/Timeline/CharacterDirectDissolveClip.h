@@ -13,6 +13,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int CharacterDirectDissolveClip_TypeDefinitionIndex = 47949;
+
 	class CharacterDirectDissolveClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

@@ -9,6 +9,8 @@ namespace RPG::GameCore { class DailyMissionCountRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DailyMissionCountRow_TypeDefinitionIndex = 13121;
+
 	class DailyMissionCountRow : public ::System::Object
 	{
 	public:

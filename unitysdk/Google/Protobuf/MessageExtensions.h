@@ -20,6 +20,8 @@ namespace System::IO { class Stream; }
 
 namespace Google::Protobuf
 {
+	inline static constexpr unsigned int MessageExtensions_TypeDefinitionIndex = 5406;
+
 	class MessageExtensions : public ::System::Object
 	{
 	public:

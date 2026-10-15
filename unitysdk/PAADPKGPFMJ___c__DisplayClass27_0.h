@@ -7,6 +7,8 @@ class PAADPKGPFMJ;
 #define PAADPKGPFMJ___C__DISPLAYCLASS27_0_CTOR_OFFSET UNITYSDK_OFFSET(0xBFBC4A0)
 #define PAADPKGPFMJ___C__DISPLAYCLASS27_0__PLAYFREESTYLEWITHPRELOAD_B__0_OFFSET UNITYSDK_OFFSET(0xBFC4300)
 
+inline static constexpr unsigned int PAADPKGPFMJ___c__DisplayClass27_0_TypeDefinitionIndex = 57287;
+
 	class PAADPKGPFMJ___c__DisplayClass27_0 : public ::System::Object
 	{
 	public:

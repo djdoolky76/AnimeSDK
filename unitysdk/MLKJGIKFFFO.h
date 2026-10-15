@@ -14,6 +14,8 @@ namespace RPG::Client::Promises { class IPromise; }
 #define MLKJGIKFFFO_EAMMBKNABNJ_OFFSET UNITYSDK_OFFSET(0xB9B43C0)
 #define MLKJGIKFFFO___SUBMITIMPL_B__5_0_OFFSET UNITYSDK_OFFSET(0xB9B46B0)
 
+inline static constexpr unsigned int MLKJGIKFFFO_TypeDefinitionIndex = 79584;
+
 	class MLKJGIKFFFO : public ::IKNPMFDGADK
 	{
 	public:

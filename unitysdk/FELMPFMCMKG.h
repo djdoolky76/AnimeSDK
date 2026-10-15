@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define FELMPFMCMKG_HPJNKIPDCPK_OFFSET UNITYSDK_OFFSET(0x157255B0)
 #define FELMPFMCMKG_PCJCCNIPFBL_OFFSET UNITYSDK_OFFSET(0x157257E0)
 
+inline static constexpr unsigned int FELMPFMCMKG_TypeDefinitionIndex = 63897;
+
 	class FELMPFMCMKG : public ::System::Object
 	{
 	public:

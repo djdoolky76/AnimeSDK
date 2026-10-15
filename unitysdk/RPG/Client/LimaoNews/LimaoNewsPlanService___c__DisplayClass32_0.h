@@ -8,6 +8,8 @@ namespace RPG::Client::LimaoNews { class LimaoNewsPlanData; }
 
 namespace RPG::Client::LimaoNews
 {
+	inline static constexpr unsigned int LimaoNewsPlanService___c__DisplayClass32_0_TypeDefinitionIndex = 80335;
+
 	class LimaoNewsPlanService___c__DisplayClass32_0 : public ::System::Object
 	{
 	public:

@@ -121,6 +121,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SDKLuaReportAdapter_TypeDefinitionIndex = 59998;
+
 	class SDKLuaReportAdapter : public ::System::Object
 	{
 	public:

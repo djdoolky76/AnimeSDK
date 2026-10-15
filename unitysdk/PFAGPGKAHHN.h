@@ -9,6 +9,8 @@ namespace System { class String; }
 #define PFAGPGKAHHN_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC201000)
 #define PFAGPGKAHHN_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC201040)
 
+inline static constexpr unsigned int PFAGPGKAHHN_TypeDefinitionIndex = 53221;
+
 	class PFAGPGKAHHN
 	{
 	public:

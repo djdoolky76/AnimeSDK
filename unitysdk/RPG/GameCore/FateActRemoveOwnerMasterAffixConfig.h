@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FateActRemoveOwnerMasterAffixConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FateActRemoveOwnerMasterAffixConfig_TypeDefinitionIndex = 19235;
+
 	class FateActRemoveOwnerMasterAffixConfig : public ::RPG::GameCore::FateActionConfigBase
 	{
 	public:

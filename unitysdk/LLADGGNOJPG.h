@@ -35,6 +35,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define LLADGGNOJPG_SET_TRIGGERNAMELIST_OFFSET UNITYSDK_OFFSET(0xB75D190)
 #define LLADGGNOJPG_TOSTRING_OFFSET UNITYSDK_OFFSET(0xB75D360)
 
+inline static constexpr unsigned int LLADGGNOJPG_TypeDefinitionIndex = 62136;
+
 	class LLADGGNOJPG : public ::RPG::Client::MapEntityDef
 	{
 	public:

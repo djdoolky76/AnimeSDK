@@ -10,6 +10,8 @@ class FCOEMCEDLNL;
 #define BAKIAFMAECJ_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CCF1A50)
 #define BAKIAFMAECJ_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CCF1A10)
 
+inline static constexpr unsigned int BAKIAFMAECJ_TypeDefinitionIndex = 19917;
+
 	class BAKIAFMAECJ : public ::RPG::GameCore::TaskConfig
 	{
 	public:

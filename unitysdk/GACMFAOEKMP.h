@@ -34,6 +34,8 @@ namespace System { class String; }
 #define GACMFAOEKMP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E415980)
 #define GACMFAOEKMP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E4159E0)
 
+inline static constexpr unsigned int GACMFAOEKMP_TypeDefinitionIndex = 30855;
+
 	class GACMFAOEKMP : public ::System::Object
 	{
 	public:

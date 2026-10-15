@@ -26,6 +26,8 @@ namespace System { class String; }
 
 namespace RPG::Client::TrainParty
 {
+	inline static constexpr unsigned int TrainPartyPassengerSkillInfo_TypeDefinitionIndex = 74352;
+
 	class TrainPartyPassengerSkillInfo : public ::System::Object
 	{
 	public:

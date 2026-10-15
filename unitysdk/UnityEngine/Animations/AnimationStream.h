@@ -3,6 +3,8 @@
 
 namespace UnityEngine::Animations
 {
+	inline static constexpr unsigned int AnimationStream_TypeDefinitionIndex = 5759;
+
 	struct alignas(4) AnimationStream
 	{
 		::System::UInt32 m_AnimatorBindingsVersion; // 0x10

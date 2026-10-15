@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace XLua::LuaDLL
 {
+	inline static constexpr unsigned int lua_CSFunction_TypeDefinitionIndex = 51708;
+
 	class lua_CSFunction : public ::System::MulticastDelegate
 	{
 	public:

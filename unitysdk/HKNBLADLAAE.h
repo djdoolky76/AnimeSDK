@@ -31,6 +31,8 @@ namespace System { class String; }
 #define HKNBLADLAAE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E5B5CB0)
 #define HKNBLADLAAE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E5B5D10)
 
+inline static constexpr unsigned int HKNBLADLAAE_TypeDefinitionIndex = 31065;
+
 	class HKNBLADLAAE : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class UseMainCharacterOnly; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int UseMainCharacterOnly_TypeDefinitionIndex = 20454;
+
 	class UseMainCharacterOnly : public ::RPG::GameCore::TaskConfig
 	{
 	public:

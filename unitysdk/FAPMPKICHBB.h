@@ -17,6 +17,8 @@ class OOADCLKADJC;
 #define FAPMPKICHBB_SET_FUNCNT_OFFSET UNITYSDK_OFFSET(0x1568E150)
 #define FAPMPKICHBB_SET_FUNID_OFFSET UNITYSDK_OFFSET(0x1568E110)
 
+inline static constexpr unsigned int FAPMPKICHBB_TypeDefinitionIndex = 63842;
+
 	class FAPMPKICHBB : public ::System::Object
 	{
 	public:

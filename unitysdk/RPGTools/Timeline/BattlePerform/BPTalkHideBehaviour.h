@@ -9,6 +9,8 @@
 
 namespace RPGTools::Timeline::BattlePerform
 {
+	inline static constexpr unsigned int BPTalkHideBehaviour_TypeDefinitionIndex = 48829;
+
 	class BPTalkHideBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

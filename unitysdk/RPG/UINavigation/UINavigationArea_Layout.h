@@ -3,6 +3,8 @@
 
 namespace RPG::UINavigation
 {
+	inline static constexpr unsigned int UINavigationArea_Layout_TypeDefinitionIndex = 51730;
+
 	enum class UINavigationArea_Layout : ::System::Int32
 	{
 		Automatic = 0,

@@ -7,6 +7,8 @@
 
 namespace UnityEngine::UIElements
 {
+	inline static constexpr unsigned int FocusOutEvent_TypeDefinitionIndex = 5941;
+
 	class FocusOutEvent
 	{
 	public:

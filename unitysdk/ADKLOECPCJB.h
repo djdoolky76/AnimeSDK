@@ -11,6 +11,8 @@ namespace System { class String; }
 #define ADKLOECPCJB_SET_STARTCELLID_OFFSET UNITYSDK_OFFSET(0xB143F40)
 #define ADKLOECPCJB_SET_STARTMAPID_OFFSET UNITYSDK_OFFSET(0xB143F60)
 
+inline static constexpr unsigned int ADKLOECPCJB_TypeDefinitionIndex = 75791;
+
 	class ADKLOECPCJB : public ::System::Object
 	{
 	public:

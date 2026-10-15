@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BattlePerformConfig_TypeDefinitionIndex = 18144;
+
 	class BattlePerformConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

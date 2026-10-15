@@ -136,6 +136,8 @@ namespace XLua { class LuaTable; }
 
 namespace RPG::Client::ActivityAlley
 {
+	inline static constexpr unsigned int AlleyPackController_TypeDefinitionIndex = 74077;
+
 	class AlleyPackController : public ::UnityEngine::MonoBehaviour
 	{
 	public:

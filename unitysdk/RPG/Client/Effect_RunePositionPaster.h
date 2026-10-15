@@ -12,6 +12,8 @@ namespace UnityEngine { class Renderer; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Effect_RunePositionPaster_TypeDefinitionIndex = 70548;
+
 	class Effect_RunePositionPaster : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -37,6 +37,8 @@ namespace UnityEngine { class Rigidbody; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int Collider_TypeDefinitionIndex = 5314;
+
 	class Collider : public ::UnityEngine::Component
 	{
 	public:

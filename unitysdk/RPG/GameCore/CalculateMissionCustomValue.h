@@ -13,6 +13,8 @@ namespace RPG::GameCore { class MissionCustomValuePair; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CalculateMissionCustomValue_TypeDefinitionIndex = 20443;
+
 	class CalculateMissionCustomValue : public ::RPG::GameCore::TaskConfig
 	{
 	public:

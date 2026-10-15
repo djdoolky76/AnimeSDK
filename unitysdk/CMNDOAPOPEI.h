@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 #define CMNDOAPOPEI__ISDATAREADYIMPL_OFFSET UNITYSDK_OFFSET(0xDA3C740)
 #define CMNDOAPOPEI__PREPAREDATAIMPL_OFFSET UNITYSDK_OFFSET(0xDA3C7E0)
 
+inline static constexpr unsigned int CMNDOAPOPEI_TypeDefinitionIndex = 59882;
+
 	class CMNDOAPOPEI : public ::RPG::Client::AsyncCheckItemBase
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System { class String; }
 #define DJMFLECOALG_TOSTRING_OFFSET UNITYSDK_OFFSET(0xF23DB30)
 #define DJMFLECOALG__GETPARAMETER_B__2_0_OFFSET UNITYSDK_OFFSET(0xF23E050)
 
+inline static constexpr unsigned int DJMFLECOALG_TypeDefinitionIndex = 64030;
+
 	class DJMFLECOALG : public ::System::Object
 	{
 	public:

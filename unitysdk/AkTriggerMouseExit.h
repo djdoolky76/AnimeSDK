@@ -4,6 +4,8 @@
 
 #define AKTRIGGERMOUSEEXIT_CTOR_OFFSET UNITYSDK_OFFSET(0x1F619750)
 
+inline static constexpr unsigned int AkTriggerMouseExit_TypeDefinitionIndex = 44971;
+
 	class AkTriggerMouseExit : public ::AkTriggerBase
 	{
 	public:

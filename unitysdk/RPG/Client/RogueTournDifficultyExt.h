@@ -13,6 +13,8 @@ namespace RPG::Client { class IRogueTournDifficultyWithDivision; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueTournDifficultyExt_TypeDefinitionIndex = 67588;
+
 	class RogueTournDifficultyExt : public ::System::Object
 	{
 	public:

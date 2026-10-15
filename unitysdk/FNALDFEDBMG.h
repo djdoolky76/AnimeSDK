@@ -5,6 +5,8 @@
 
 #define FNALDFEDBMG_CTOR_OFFSET UNITYSDK_OFFSET(0x1CE0C3F0)
 
+inline static constexpr unsigned int FNALDFEDBMG_TypeDefinitionIndex = 10813;
+
 	class FNALDFEDBMG : public ::System::Attribute
 	{
 	public:

@@ -14,6 +14,8 @@ namespace System::Text { class StringBuilder; }
 #define LIJCFJCHGAF_PKOKAPOBFBP_OFFSET UNITYSDK_OFFSET(0xB6D3760)
 #define LIJCFJCHGAF_TICK_OFFSET UNITYSDK_OFFSET(0xB6D3CC0)
 
+inline static constexpr unsigned int LIJCFJCHGAF_TypeDefinitionIndex = 56446;
+
 	class LIJCFJCHGAF : public ::GELIALJDFBL
 	{
 	public:

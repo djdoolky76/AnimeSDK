@@ -13,6 +13,8 @@ namespace CriWare { class CriAudioWriteStream_InternalDelegate; }
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriAudioWriteStream_TypeDefinitionIndex = 40091;
+
 	class CriAudioWriteStream : public ::System::Object
 	{
 	public:

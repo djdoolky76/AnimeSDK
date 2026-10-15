@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define HBBDEAKMAGA_MOOLLCMKOLP_OFFSET UNITYSDK_OFFSET(0x15BE5BF0)
 #define HBBDEAKMAGA_PHFNIBMMLAH_OFFSET UNITYSDK_OFFSET(0x15BE5AE0)
 
+inline static constexpr unsigned int HBBDEAKMAGA_TypeDefinitionIndex = 78559;
+
 	class HBBDEAKMAGA : public ::System::Object
 	{
 	public:

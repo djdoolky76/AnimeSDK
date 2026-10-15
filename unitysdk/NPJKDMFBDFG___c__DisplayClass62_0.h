@@ -11,6 +11,8 @@ namespace RPG { template <typename T> class PoolList_1; }
 #define NPJKDMFBDFG___C__DISPLAYCLASS62_0__PRELOADPROPERTYRESOURCES1_B__1_OFFSET UNITYSDK_OFFSET(0xBD0C180)
 #define NPJKDMFBDFG___C__DISPLAYCLASS62_0__PRELOADPROPERTYRESOURCES1_B__2_OFFSET UNITYSDK_OFFSET(0xBD0C320)
 
+inline static constexpr unsigned int NPJKDMFBDFG___c__DisplayClass62_0_TypeDefinitionIndex = 49434;
+
 	class NPJKDMFBDFG___c__DisplayClass62_0 : public ::System::Object
 	{
 	public:

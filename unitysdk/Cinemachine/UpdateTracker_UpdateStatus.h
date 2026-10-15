@@ -11,6 +11,8 @@
 
 namespace Cinemachine
 {
+	inline static constexpr unsigned int UpdateTracker_UpdateStatus_TypeDefinitionIndex = 39855;
+
 	class UpdateTracker_UpdateStatus : public ::System::Object
 	{
 	public:

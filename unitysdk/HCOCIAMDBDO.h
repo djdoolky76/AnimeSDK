@@ -9,6 +9,8 @@ namespace System { class String; }
 #define HCOCIAMDBDO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x15C2A780)
 #define HCOCIAMDBDO_TRIGGERACTION_OFFSET UNITYSDK_OFFSET(0x15C2A820)
 
+inline static constexpr unsigned int HCOCIAMDBDO_TypeDefinitionIndex = 66983;
+
 	class HCOCIAMDBDO : public ::System::Object
 	{
 	public:

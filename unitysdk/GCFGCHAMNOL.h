@@ -30,6 +30,8 @@ namespace System { class String; }
 #define GCFGCHAMNOL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E43D290)
 #define GCFGCHAMNOL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E43D2F0)
 
+inline static constexpr unsigned int GCFGCHAMNOL_TypeDefinitionIndex = 27504;
+
 	class GCFGCHAMNOL : public ::System::Object
 	{
 	public:

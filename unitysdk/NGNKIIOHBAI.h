@@ -32,6 +32,8 @@ namespace System { class String; }
 #define NGNKIIOHBAI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB161C0)
 #define NGNKIIOHBAI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB16220)
 
+inline static constexpr unsigned int NGNKIIOHBAI_TypeDefinitionIndex = 29472;
+
 	class NGNKIIOHBAI : public ::System::Object
 	{
 	public:

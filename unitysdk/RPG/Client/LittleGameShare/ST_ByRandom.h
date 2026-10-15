@@ -14,6 +14,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::Client::LittleGameShare
 {
+	inline static constexpr unsigned int ST_ByRandom_TypeDefinitionIndex = 10329;
+
 	class ST_ByRandom : public ::RPG::Client::LittleGameShare::LittleGamePredicateConfig
 	{
 	public:

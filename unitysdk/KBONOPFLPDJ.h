@@ -29,6 +29,8 @@ namespace System { class String; }
 #define KBONOPFLPDJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E7F1890)
 #define KBONOPFLPDJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E7F18F0)
 
+inline static constexpr unsigned int KBONOPFLPDJ_TypeDefinitionIndex = 32384;
+
 	class KBONOPFLPDJ : public ::System::Object
 	{
 	public:

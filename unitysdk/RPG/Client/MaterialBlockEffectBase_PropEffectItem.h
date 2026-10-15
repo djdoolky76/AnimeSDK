@@ -8,6 +8,8 @@ namespace UnityEngine { class Renderer; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MaterialBlockEffectBase_PropEffectItem_TypeDefinitionIndex = 70649;
+
 	class MaterialBlockEffectBase_PropEffectItem : public ::System::Object
 	{
 	public:

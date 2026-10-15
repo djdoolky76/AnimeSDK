@@ -62,6 +62,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int DronesPuzzleBoard_TypeDefinitionIndex = 78565;
+
 	class DronesPuzzleBoard : public ::RPG::Client::Prop::PuzzleBoardBase
 	{
 	public:

@@ -21,6 +21,8 @@ namespace RPG::Client { class ChenLingFesGameInstance; }
 #define BNJGDLKNIEJ_SET_PHASEMANAGER_OFFSET UNITYSDK_OFFSET(0xBDDC780)
 #define BNJGDLKNIEJ__ONDESTROYED_OFFSET UNITYSDK_OFFSET(0xBDDC720)
 
+inline static constexpr unsigned int BNJGDLKNIEJ_TypeDefinitionIndex = 77723;
+
 	class BNJGDLKNIEJ : public ::RPG::Client::BaseGameFlowContext
 	{
 	public:

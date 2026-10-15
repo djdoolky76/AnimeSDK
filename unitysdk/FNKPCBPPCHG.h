@@ -21,6 +21,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define FNKPCBPPCHG_PKLAPDACOGH_OFFSET UNITYSDK_OFFSET(0x15879490)
 #define FNKPCBPPCHG_TICK_OFFSET UNITYSDK_OFFSET(0x15879270)
 
+inline static constexpr unsigned int FNKPCBPPCHG_TypeDefinitionIndex = 58950;
+
 	class FNKPCBPPCHG : public ::GELIALJDFBL
 	{
 	public:

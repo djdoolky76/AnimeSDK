@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FollowSideType_TypeDefinitionIndex = 15614;
+
 	enum class FollowSideType : ::System::Int32
 	{
 		None = 0,

@@ -27,6 +27,8 @@ namespace System { class String; }
 #define LAOFKEIIEPF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E8D1050)
 #define LAOFKEIIEPF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E8D10B0)
 
+inline static constexpr unsigned int LAOFKEIIEPF_TypeDefinitionIndex = 27575;
+
 	class LAOFKEIIEPF : public ::System::Object
 	{
 	public:

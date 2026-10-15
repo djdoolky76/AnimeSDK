@@ -4,6 +4,8 @@
 
 #define NBMCEAADABC_CTOR_OFFSET UNITYSDK_OFFSET(0x1D1F0D30)
 
+inline static constexpr unsigned int NBMCEAADABC_TypeDefinitionIndex = 25016;
+
 	class NBMCEAADABC : public ::MABHMGJMHFC
 	{
 	public:

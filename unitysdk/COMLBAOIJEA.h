@@ -15,6 +15,8 @@ namespace System { class Object; }
 #define COMLBAOIJEA_LJBEEFNMFKD_OFFSET UNITYSDK_OFFSET(0xDCBF660)
 #define COMLBAOIJEA_LKKEKPDJOLI_OFFSET UNITYSDK_OFFSET(0xDCBF7D0)
 
+inline static constexpr unsigned int COMLBAOIJEA_TypeDefinitionIndex = 81861;
+
 	class COMLBAOIJEA : public ::System::Object
 	{
 	public:

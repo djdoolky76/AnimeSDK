@@ -9,6 +9,8 @@
 
 namespace Newtonsoft::Json::Utilities
 {
+	inline static constexpr unsigned int JsonTokenUtils_TypeDefinitionIndex = 9632;
+
 	class JsonTokenUtils : public ::System::Object
 	{
 	public:

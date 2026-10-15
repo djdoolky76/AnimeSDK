@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define PJIIHJDNILA_EVALUATE_OFFSET UNITYSDK_OFFSET(0xC28B9D0)
 #define PJIIHJDNILA_HCCOJKINEHH_OFFSET UNITYSDK_OFFSET(0xC28BD80)
 
+inline static constexpr unsigned int PJIIHJDNILA_TypeDefinitionIndex = 59257;
+
 	class PJIIHJDNILA
 	{
 	public:

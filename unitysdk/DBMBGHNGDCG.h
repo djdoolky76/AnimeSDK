@@ -25,6 +25,8 @@ namespace UnityEngine { class RPGPointCloudGrassBlockData; }
 #define DBMBGHNGDCG_LNPEPBEIABL_OFFSET UNITYSDK_OFFSET(0xE230560)
 #define DBMBGHNGDCG_OAAKNEJFBPJ_OFFSET UNITYSDK_OFFSET(0xE230040)
 
+inline static constexpr unsigned int DBMBGHNGDCG_TypeDefinitionIndex = 73924;
+
 	class DBMBGHNGDCG : public ::System::Object
 	{
 	public:

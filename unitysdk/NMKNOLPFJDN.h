@@ -33,6 +33,8 @@ namespace System { class String; }
 #define NMKNOLPFJDN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB789E0)
 #define NMKNOLPFJDN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB78A40)
 
+inline static constexpr unsigned int NMKNOLPFJDN_TypeDefinitionIndex = 31916;
+
 	class NMKNOLPFJDN : public ::System::Object
 	{
 	public:

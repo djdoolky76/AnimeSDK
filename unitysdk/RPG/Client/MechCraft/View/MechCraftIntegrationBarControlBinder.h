@@ -22,6 +22,8 @@ namespace UnityEngine::UI { class Slider; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftIntegrationBarControlBinder_TypeDefinitionIndex = 79820;
+
 	class MechCraftIntegrationBarControlBinder : public ::RPG::Client::MechCraft::View::MechCraftBinderBase
 	{
 	public:

@@ -27,6 +27,8 @@ namespace System { class String; }
 #define NOGLDANAKDO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB89E50)
 #define NOGLDANAKDO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB89EB0)
 
+inline static constexpr unsigned int NOGLDANAKDO_TypeDefinitionIndex = 29647;
+
 	class NOGLDANAKDO : public ::System::Object
 	{
 	public:

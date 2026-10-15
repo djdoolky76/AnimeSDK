@@ -9,6 +9,8 @@ namespace UnityEngine { class Animator; }
 #define LKBJFIJPIIG_CTOR_OFFSET UNITYSDK_OFFSET(0xB728B20)
 #define LKBJFIJPIIG_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xB728B40)
 
+inline static constexpr unsigned int LKBJFIJPIIG_TypeDefinitionIndex = 53618;
+
 	class LKBJFIJPIIG : public ::FCILKBLLCFJ
 	{
 	public:

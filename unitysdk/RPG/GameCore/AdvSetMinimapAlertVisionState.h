@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvSetMinimapAlertVisionState_TypeDefinitionIndex = 20544;
+
 	class AdvSetMinimapAlertVisionState : public ::RPG::GameCore::TaskConfig
 	{
 	public:

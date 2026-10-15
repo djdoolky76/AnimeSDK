@@ -20,6 +20,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightOrbData_TypeDefinitionIndex = 64438;
+
 	class GridFightOrbData : public ::Sofa::Core::ObservableObject
 	{
 	public:

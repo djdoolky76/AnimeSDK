@@ -4,6 +4,8 @@
 namespace RPG::GameCore { class GameEntity; }
 namespace System { template <typename T> class Comparison_1; }
 
+inline static constexpr unsigned int PNNPEPDNFEA___O_TypeDefinitionIndex = 54383;
+
 	class PNNPEPDNFEA___O : public ::System::Object
 	{
 	public:

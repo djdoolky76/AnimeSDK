@@ -17,6 +17,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PrefGroup_TypeDefinitionIndex = 35322;
+
 	class PrefGroup : public ::System::Object
 	{
 	public:

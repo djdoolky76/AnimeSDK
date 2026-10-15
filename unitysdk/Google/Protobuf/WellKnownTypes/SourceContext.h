@@ -30,6 +30,8 @@ namespace System { class String; }
 
 namespace Google::Protobuf::WellKnownTypes
 {
+	inline static constexpr unsigned int SourceContext_TypeDefinitionIndex = 5427;
+
 	class SourceContext : public ::System::Object
 	{
 	public:

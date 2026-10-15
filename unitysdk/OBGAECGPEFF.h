@@ -7,6 +7,8 @@ namespace System { class String; }
 
 #define OBGAECGPEFF_JLEAOOKNMPO_OFFSET UNITYSDK_OFFSET(0xBD3E9B0)
 
+inline static constexpr unsigned int OBGAECGPEFF_TypeDefinitionIndex = 54990;
+
 	class OBGAECGPEFF : public ::System::Object
 	{
 	public:

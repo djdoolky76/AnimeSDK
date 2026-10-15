@@ -2,6 +2,8 @@
 #include "unitysdk/unitysdk.h"
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
+inline static constexpr unsigned int DNKAAIFEKNP_APKDCLDHEGH_TypeDefinitionIndex = 59985;
+
 	struct alignas(8) DNKAAIFEKNP_APKDCLDHEGH
 	{
 		::System::UInt32 FAHENLNKIHE; // 0x10

@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define ABADODLOIBB_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB0E44E0)
 #define ABADODLOIBB_TICK_OFFSET UNITYSDK_OFFSET(0xB0E4B60)
 
+inline static constexpr unsigned int ABADODLOIBB_TypeDefinitionIndex = 55618;
+
 	class ABADODLOIBB : public ::GELIALJDFBL
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System { class Object; }
 #define MELKFHPOCBP_ONBEHAVIOURPLAY_OFFSET UNITYSDK_OFFSET(0xB8DEF30)
 #define MELKFHPOCBP_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xB8DF500)
 
+inline static constexpr unsigned int MELKFHPOCBP_TypeDefinitionIndex = 47902;
+
 	class MELKFHPOCBP : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

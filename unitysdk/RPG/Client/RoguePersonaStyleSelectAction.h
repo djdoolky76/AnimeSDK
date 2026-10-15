@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RoguePersonaStyleSelectAction_TypeDefinitionIndex = 67042;
+
 	class RoguePersonaStyleSelectAction : public ::System::Object
 	{
 	public:

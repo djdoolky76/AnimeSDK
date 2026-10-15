@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RoleTrialCollaborationActivityData_TypeDefinitionIndex = 61661;
+
 	class RoleTrialCollaborationActivityData : public ::RPG::Client::RoleTrialActivityData
 	{
 	public:

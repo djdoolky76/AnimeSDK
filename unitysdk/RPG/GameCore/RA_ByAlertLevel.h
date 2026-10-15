@@ -14,6 +14,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RA_ByAlertLevel_TypeDefinitionIndex = 20047;
+
 	class RA_ByAlertLevel : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

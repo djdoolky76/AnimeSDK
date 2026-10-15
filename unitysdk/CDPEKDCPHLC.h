@@ -13,6 +13,8 @@ namespace UnityEngine::Events { class UnityAction; }
 #define CDPEKDCPHLC_JLCCBBHOGOL_OFFSET UNITYSDK_OFFSET(0xC778F00)
 #define CDPEKDCPHLC_OONAPGCBEEK_OFFSET UNITYSDK_OFFSET(0xC778FA0)
 
+inline static constexpr unsigned int CDPEKDCPHLC_TypeDefinitionIndex = 49814;
+
 	class CDPEKDCPHLC : public ::System::Object
 	{
 	public:

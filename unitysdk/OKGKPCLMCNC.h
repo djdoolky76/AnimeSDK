@@ -40,6 +40,8 @@ namespace System { class String; }
 #define OKGKPCLMCNC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE99AE0)
 #define OKGKPCLMCNC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DE99B40)
 
+inline static constexpr unsigned int OKGKPCLMCNC_TypeDefinitionIndex = 25423;
+
 	class OKGKPCLMCNC : public ::System::Object
 	{
 	public:

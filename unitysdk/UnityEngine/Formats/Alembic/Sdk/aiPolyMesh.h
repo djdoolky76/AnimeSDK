@@ -11,6 +11,8 @@
 
 namespace UnityEngine::Formats::Alembic::Sdk
 {
+	inline static constexpr unsigned int aiPolyMesh_TypeDefinitionIndex = 45829;
+
 	struct alignas(4) aiPolyMesh
 	{
 		::System::IntPtr self; // 0x10

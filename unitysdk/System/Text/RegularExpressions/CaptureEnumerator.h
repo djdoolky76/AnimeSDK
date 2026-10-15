@@ -13,6 +13,8 @@ namespace System::Text::RegularExpressions { class CaptureCollection; }
 
 namespace System::Text::RegularExpressions
 {
+	inline static constexpr unsigned int CaptureEnumerator_TypeDefinitionIndex = 2505;
+
 	class CaptureEnumerator : public ::System::Object
 	{
 	public:

@@ -31,6 +31,8 @@ namespace System { class String; }
 #define CGLPPBKHAAN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E0B2CC0)
 #define CGLPPBKHAAN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E0B2D20)
 
+inline static constexpr unsigned int CGLPPBKHAAN_TypeDefinitionIndex = 26914;
+
 	class CGLPPBKHAAN : public ::System::Object
 	{
 	public:

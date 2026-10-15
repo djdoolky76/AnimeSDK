@@ -16,6 +16,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace MiHoYo::SDK::UI
 {
+	inline static constexpr unsigned int BindingSuccess_TypeDefinitionIndex = 8386;
+
 	class BindingSuccess : public ::MiHoYo::SDK::UIElement
 	{
 	public:

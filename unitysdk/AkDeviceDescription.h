@@ -24,6 +24,8 @@ namespace System { class String; }
 #define AKDEVICEDESCRIPTION_SET_IDDEVICE_OFFSET UNITYSDK_OFFSET(0x1F58A8B0)
 #define AKDEVICEDESCRIPTION_SET_ISDEFAULTDEVICE_OFFSET UNITYSDK_OFFSET(0x1F58AD20)
 
+inline static constexpr unsigned int AkDeviceDescription_TypeDefinitionIndex = 44732;
+
 	class AkDeviceDescription : public ::System::Object
 	{
 	public:

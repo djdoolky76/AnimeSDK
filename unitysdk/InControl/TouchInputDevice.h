@@ -6,6 +6,8 @@
 
 namespace InControl
 {
+	inline static constexpr unsigned int TouchInputDevice_TypeDefinitionIndex = 40887;
+
 	class TouchInputDevice : public ::InControl::InputDevice
 	{
 	public:

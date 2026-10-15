@@ -34,6 +34,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ResidentHeliobusActivityData_TypeDefinitionIndex = 61761;
+
 	class ResidentHeliobusActivityData : public ::RPG::Client::ActivityPanelData
 	{
 	public:

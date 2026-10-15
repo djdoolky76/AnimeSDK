@@ -23,6 +23,8 @@ namespace ZXing { class Dimension; }
 
 namespace ZXing::Datamatrix::Encoder
 {
+	inline static constexpr unsigned int HighLevelEncoder_TypeDefinitionIndex = 6965;
+
 	class HighLevelEncoder : public ::System::Object
 	{
 	public:

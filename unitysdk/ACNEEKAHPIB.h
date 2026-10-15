@@ -7,6 +7,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define ACNEEKAHPIB_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB126940)
 #define ACNEEKAHPIB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB126980)
 
+inline static constexpr unsigned int ACNEEKAHPIB_TypeDefinitionIndex = 53939;
+
 	class ACNEEKAHPIB
 	{
 	public:

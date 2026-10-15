@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int CAKCHOOGJAD_TypeDefinitionIndex = 28202;
+
 	enum class CAKCHOOGJAD : ::System::Int32
 	{
 		NLCDGIPGFDJ = 0,

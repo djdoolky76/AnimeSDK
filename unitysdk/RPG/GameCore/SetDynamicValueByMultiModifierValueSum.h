@@ -17,6 +17,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetDynamicValueByMultiModifierValueSum_TypeDefinitionIndex = 23576;
+
 	class SetDynamicValueByMultiModifierValueSum : public ::RPG::GameCore::SetDynamicValueBase
 	{
 	public:

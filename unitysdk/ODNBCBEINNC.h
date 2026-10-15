@@ -42,6 +42,8 @@ namespace System { class String; }
 #define ODNBCBEINNC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE21220)
 #define ODNBCBEINNC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DE21280)
 
+inline static constexpr unsigned int ODNBCBEINNC_TypeDefinitionIndex = 33655;
+
 	class ODNBCBEINNC : public ::System::Object
 	{
 	public:

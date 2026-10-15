@@ -10,6 +10,8 @@ namespace RPG::GameCore { class CompositeConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CompositeConfig_TypeDefinitionIndex = 23778;
+
 	class CompositeConfig : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -30,6 +30,8 @@ namespace System { class String; }
 #define PDEIEDGCOBA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF0D3C0)
 #define PDEIEDGCOBA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF0D420)
 
+inline static constexpr unsigned int PDEIEDGCOBA_TypeDefinitionIndex = 27883;
+
 	class PDEIEDGCOBA : public ::System::Object
 	{
 	public:

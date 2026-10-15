@@ -12,6 +12,8 @@ namespace System { class Object; }
 #define DIJLHCMEPDE_IIOIMDJJEDG_OFFSET UNITYSDK_OFFSET(0xF20B410)
 #define DIJLHCMEPDE_KEKLIKEIHLB_OFFSET UNITYSDK_OFFSET(0xF20B2F0)
 
+inline static constexpr unsigned int DIJLHCMEPDE_TypeDefinitionIndex = 75462;
+
 	class DIJLHCMEPDE : public ::System::Object
 	{
 	public:

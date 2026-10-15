@@ -5,6 +5,8 @@ class GHNMNFHDCME;
 
 #define KDGLKJKLOIO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C70E980)
 
+inline static constexpr unsigned int KDGLKJKLOIO_TypeDefinitionIndex = 36441;
+
 	class KDGLKJKLOIO : public ::System::Object
 	{
 	public:

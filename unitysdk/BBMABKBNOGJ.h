@@ -10,6 +10,8 @@ namespace Entitas { class IGroup; }
 #define BBMABKBNOGJ_CTOR_OFFSET UNITYSDK_OFFSET(0x15E930D0)
 #define BBMABKBNOGJ_EXECUTE_OFFSET UNITYSDK_OFFSET(0x15E93170)
 
+inline static constexpr unsigned int BBMABKBNOGJ_TypeDefinitionIndex = 76948;
+
 	class BBMABKBNOGJ : public ::System::Object
 	{
 	public:

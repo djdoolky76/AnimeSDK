@@ -36,6 +36,8 @@ namespace System { class String; }
 #define BBHHENEONHO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E7C5F60)
 #define BBHHENEONHO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E7C5FC0)
 
+inline static constexpr unsigned int BBHHENEONHO_TypeDefinitionIndex = 33319;
+
 	class BBHHENEONHO : public ::System::Object
 	{
 	public:

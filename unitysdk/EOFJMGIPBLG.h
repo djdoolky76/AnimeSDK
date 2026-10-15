@@ -37,6 +37,8 @@ namespace System { class String; }
 #define EOFJMGIPBLG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E2F9CC0)
 #define EOFJMGIPBLG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E2F9D20)
 
+inline static constexpr unsigned int EOFJMGIPBLG_TypeDefinitionIndex = 26796;
+
 	class EOFJMGIPBLG : public ::System::Object
 	{
 	public:

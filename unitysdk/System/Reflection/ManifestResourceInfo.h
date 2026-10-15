@@ -12,6 +12,8 @@ namespace System::Reflection { class Assembly; }
 
 namespace System::Reflection
 {
+	inline static constexpr unsigned int ManifestResourceInfo_TypeDefinitionIndex = 569;
+
 	class ManifestResourceInfo : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace RPG::Client { class GridFightTrait; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightSettleRecord___c__DisplayClass41_0_TypeDefinitionIndex = 65217;
+
 	class GridFightSettleRecord___c__DisplayClass41_0 : public ::System::Object
 	{
 	public:

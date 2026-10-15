@@ -8,6 +8,8 @@ namespace UnityEngine::Formats::Alembic::Sdk { template <typename T> class Pinne
 
 namespace UnityEngine::Formats::Alembic::Importer
 {
+	inline static constexpr unsigned int AlembicMesh_Submesh_TypeDefinitionIndex = 45855;
+
 	class AlembicMesh_Submesh : public ::System::Object
 	{
 	public:

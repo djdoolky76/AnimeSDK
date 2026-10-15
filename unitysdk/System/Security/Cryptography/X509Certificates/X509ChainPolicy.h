@@ -16,6 +16,8 @@ namespace System::Security::Cryptography::X509Certificates { class X509Certifica
 
 namespace System::Security::Cryptography::X509Certificates
 {
+	inline static constexpr unsigned int X509ChainPolicy_TypeDefinitionIndex = 2704;
+
 	class X509ChainPolicy : public ::System::Object
 	{
 	public:

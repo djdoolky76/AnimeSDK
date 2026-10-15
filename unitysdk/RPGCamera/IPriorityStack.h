@@ -3,6 +3,8 @@
 
 namespace RPGCamera
 {
+	inline static constexpr unsigned int IPriorityStack_TypeDefinitionIndex = 45955;
+
 	class IPriorityStack
 	{
 	public:

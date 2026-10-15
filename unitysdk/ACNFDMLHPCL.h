@@ -5,6 +5,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define ACNFDMLHPCL_CTOR_OFFSET UNITYSDK_OFFSET(0x1C581600)
 
+inline static constexpr unsigned int ACNFDMLHPCL_TypeDefinitionIndex = 36486;
+
 	class ACNFDMLHPCL : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::Client::MechCraft::View { class MechCraftSettleRewardItemControlB
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftSettleRewardItemControl_TypeDefinitionIndex = 80031;
+
 	class MechCraftSettleRewardItemControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -6,6 +6,8 @@ class AODPLOPNOMJ;
 #define AODPLOPNOMJ___C__DISPLAYCLASS15_0_CTOR_OFFSET UNITYSDK_OFFSET(0x158A9170)
 #define AODPLOPNOMJ___C__DISPLAYCLASS15_0___PLAYFATEFADE_B__0_OFFSET UNITYSDK_OFFSET(0x158A9730)
 
+inline static constexpr unsigned int AODPLOPNOMJ___c__DisplayClass15_0_TypeDefinitionIndex = 72233;
+
 	class AODPLOPNOMJ___c__DisplayClass15_0 : public ::System::Object
 	{
 	public:

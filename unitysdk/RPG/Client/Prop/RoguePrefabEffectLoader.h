@@ -19,6 +19,8 @@ namespace System { class String; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int RoguePrefabEffectLoader_TypeDefinitionIndex = 78957;
+
 	class RoguePrefabEffectLoader : public ::UnityEngine::MonoBehaviour
 	{
 	public:

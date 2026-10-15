@@ -11,6 +11,8 @@ namespace System { class String; }
 #define PEKDLDNEIGJ_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC1F2760)
 #define PEKDLDNEIGJ__SETEFFECTPARAMLITTLEGAMEENTITY_OFFSET UNITYSDK_OFFSET(0xC1F27B0)
 
+inline static constexpr unsigned int PEKDLDNEIGJ_TypeDefinitionIndex = 76877;
+
 	class PEKDLDNEIGJ
 	{
 	public:

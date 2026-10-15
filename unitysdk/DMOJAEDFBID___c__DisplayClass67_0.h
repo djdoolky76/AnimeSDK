@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define DMOJAEDFBID___C__DISPLAYCLASS67_0_CTOR_OFFSET UNITYSDK_OFFSET(0xFECC040)
 #define DMOJAEDFBID___C__DISPLAYCLASS67_0___SETUPLINKEDITEM_B__0_OFFSET UNITYSDK_OFFSET(0xFECD9F0)
 
+inline static constexpr unsigned int DMOJAEDFBID___c__DisplayClass67_0_TypeDefinitionIndex = 71321;
+
 	class DMOJAEDFBID___c__DisplayClass67_0 : public ::System::Object
 	{
 	public:

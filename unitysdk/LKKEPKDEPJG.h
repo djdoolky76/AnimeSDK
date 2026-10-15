@@ -6,6 +6,8 @@ class LBJLBMOOJGM;
 #define LKKEPKDEPJG_CTOR_OFFSET UNITYSDK_OFFSET(0xB752F50)
 #define LKKEPKDEPJG_KDPCHKAGJMK_OFFSET UNITYSDK_OFFSET(0xB752E90)
 
+inline static constexpr unsigned int LKKEPKDEPJG_TypeDefinitionIndex = 80498;
+
 	class LKKEPKDEPJG : public ::System::Object
 	{
 	public:

@@ -32,6 +32,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define DPLFFIPDJJG_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x126596D0)
 #define DPLFFIPDJJG_TICK_OFFSET UNITYSDK_OFFSET(0x12659B80)
 
+inline static constexpr unsigned int DPLFFIPDJJG_TypeDefinitionIndex = 58271;
+
 	class DPLFFIPDJJG : public ::GELIALJDFBL
 	{
 	public:

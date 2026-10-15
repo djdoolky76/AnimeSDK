@@ -7,6 +7,8 @@ namespace System { class Type; }
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int HLSLArray_TypeDefinitionIndex = 35576;
+
 	class HLSLArray : public ::System::Attribute
 	{
 	public:

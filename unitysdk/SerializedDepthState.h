@@ -6,6 +6,8 @@
 #define SERIALIZEDDEPTHSTATE_ICGKFDEILKA_OFFSET UNITYSDK_OFFSET(0xF9730)
 #define SERIALIZEDDEPTHSTATE_OLCHHDKKPLI_OFFSET UNITYSDK_OFFSET(0xF9790)
 
+inline static constexpr unsigned int SerializedDepthState_TypeDefinitionIndex = 47417;
+
 	struct alignas(4) SerializedDepthState
 	{
 		::System::Boolean writeEnabled; // 0x10

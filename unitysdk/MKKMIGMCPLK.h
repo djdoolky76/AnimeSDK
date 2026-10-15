@@ -7,6 +7,8 @@ namespace RPG::Client::ParkourGame { class ParkourSkillConfig_Sprint; }
 #define MKKMIGMCPLK_FMHKLHAKMKO_OFFSET UNITYSDK_OFFSET(0xB99CDD0)
 #define MKKMIGMCPLK_JGBFDBBNLAF_OFFSET UNITYSDK_OFFSET(0xB99CB70)
 
+inline static constexpr unsigned int MKKMIGMCPLK_TypeDefinitionIndex = 74180;
+
 	class MKKMIGMCPLK : public ::DAOENPMCFON
 	{
 	public:

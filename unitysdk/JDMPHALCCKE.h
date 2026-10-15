@@ -32,6 +32,8 @@ namespace System { class String; }
 #define JDMPHALCCKE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E70FA20)
 #define JDMPHALCCKE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E70FA80)
 
+inline static constexpr unsigned int JDMPHALCCKE_TypeDefinitionIndex = 31400;
+
 	class JDMPHALCCKE : public ::System::Object
 	{
 	public:

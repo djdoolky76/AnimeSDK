@@ -57,6 +57,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::ChenLingFes
 {
+	inline static constexpr unsigned int ChenLingFesToastContainerControl_TypeDefinitionIndex = 81354;
+
 	class ChenLingFesToastContainerControl : public ::Sofa::BaseSofaControl
 	{
 	public:

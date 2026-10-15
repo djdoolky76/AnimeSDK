@@ -17,6 +17,8 @@ namespace UnityEngine { class Collider; }
 #define BGGMCIMHLDH___C___CREATEPROPMOVETRIGGER_B__8_1_OFFSET UNITYSDK_OFFSET(0xB188AE0)
 #define BGGMCIMHLDH___C___FIREARROWINTERACTEFFECTDELAYED_B__23_0_OFFSET UNITYSDK_OFFSET(0xB188B30)
 
+inline static constexpr unsigned int BGGMCIMHLDH___c_TypeDefinitionIndex = 77128;
+
 	class BGGMCIMHLDH___c : public ::System::Object
 	{
 	public:

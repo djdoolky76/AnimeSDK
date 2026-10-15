@@ -14,6 +14,8 @@ namespace RPG::GameCore { class GameEntity; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AbilityAddModifier_TypeDefinitionIndex = 56588;
+
 	class AbilityAddModifier : public ::CMPGEAFHHDC
 	{
 	public:

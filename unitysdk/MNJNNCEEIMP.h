@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TriggerEnterSafeUI; }
 #define MNJNNCEEIMP_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBA0FE30)
 #define MNJNNCEEIMP_TICK_OFFSET UNITYSDK_OFFSET(0xBA0FEC0)
 
+inline static constexpr unsigned int MNJNNCEEIMP_TypeDefinitionIndex = 53446;
+
 	class MNJNNCEEIMP : public ::GELIALJDFBL
 	{
 	public:

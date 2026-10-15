@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TeamBlockModifierConstKeys; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TeamBlockModifierConstKeys_TypeDefinitionIndex = 17104;
+
 	class TeamBlockModifierConstKeys : public ::RPG::GameCore::JsonConfig
 	{
 	public:

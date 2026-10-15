@@ -8,6 +8,8 @@ class FCOEMCEDLNL;
 #define CPONHFKDDDF_CTOR_OFFSET UNITYSDK_OFFSET(0x1DCC4F90)
 #define CPONHFKDDDF_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DCC4E90)
 
+inline static constexpr unsigned int CPONHFKDDDF_TypeDefinitionIndex = 13717;
+
 	class CPONHFKDDDF : public ::System::Object
 	{
 	public:

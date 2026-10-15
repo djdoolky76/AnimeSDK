@@ -13,6 +13,8 @@ namespace RPG::GameCore { class WaitGroupUnload; }
 #define BKMFIHHLCOP_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBA5E760)
 #define BKMFIHHLCOP_TICK_OFFSET UNITYSDK_OFFSET(0xBA5E800)
 
+inline static constexpr unsigned int BKMFIHHLCOP_TypeDefinitionIndex = 53476;
+
 	class BKMFIHHLCOP : public ::GELIALJDFBL
 	{
 	public:

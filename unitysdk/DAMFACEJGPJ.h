@@ -5,6 +5,8 @@
 
 #define DAMFACEJGPJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA140F0)
 
+inline static constexpr unsigned int DAMFACEJGPJ_TypeDefinitionIndex = 43680;
+
 	class DAMFACEJGPJ : public ::System::Object
 	{
 	public:

@@ -29,6 +29,8 @@ namespace System { class String; }
 #define CHAGFKJEIMI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E0BA690)
 #define CHAGFKJEIMI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E0BA6F0)
 
+inline static constexpr unsigned int CHAGFKJEIMI_TypeDefinitionIndex = 29922;
+
 	class CHAGFKJEIMI : public ::System::Object
 	{
 	public:

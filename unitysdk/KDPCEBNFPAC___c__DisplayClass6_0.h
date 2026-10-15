@@ -7,6 +7,8 @@ namespace RPG::Client::Promises { class Promise; }
 #define KDPCEBNFPAC___C__DISPLAYCLASS6_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB36CE30)
 #define KDPCEBNFPAC___C__DISPLAYCLASS6_0__SHOWFULLSCREENTRANSFER_B__0_OFFSET UNITYSDK_OFFSET(0xB36E150)
 
+inline static constexpr unsigned int KDPCEBNFPAC___c__DisplayClass6_0_TypeDefinitionIndex = 80170;
+
 	class KDPCEBNFPAC___c__DisplayClass6_0 : public ::System::Object
 	{
 	public:

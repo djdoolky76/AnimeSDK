@@ -3,6 +3,8 @@
 
 namespace UnityEngine::PlayerLoop
 {
+	inline static constexpr unsigned int EarlyUpdate_PollHtcsPlayerConnection_TypeDefinitionIndex = 4553;
+
 	struct alignas(4) EarlyUpdate_PollHtcsPlayerConnection
 	{
 	};

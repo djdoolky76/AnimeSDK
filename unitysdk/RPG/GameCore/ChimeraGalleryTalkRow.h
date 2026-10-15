@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ChimeraGalleryTalkRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChimeraGalleryTalkRow_TypeDefinitionIndex = 13052;
+
 	class ChimeraGalleryTalkRow : public ::System::Object
 	{
 	public:

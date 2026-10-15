@@ -22,6 +22,8 @@ namespace System { class Type; }
 
 namespace IFix::Core
 {
+	inline static constexpr unsigned int AnonymousStorey_TypeDefinitionIndex = 7114;
+
 	class AnonymousStorey : public ::System::Object
 	{
 	public:

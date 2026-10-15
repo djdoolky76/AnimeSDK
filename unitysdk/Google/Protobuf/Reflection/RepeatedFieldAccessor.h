@@ -12,6 +12,8 @@ namespace System::Reflection { class PropertyInfo; }
 
 namespace Google::Protobuf::Reflection
 {
+	inline static constexpr unsigned int RepeatedFieldAccessor_TypeDefinitionIndex = 5571;
+
 	class RepeatedFieldAccessor : public ::Google::Protobuf::Reflection::FieldAccessorBase
 	{
 	public:

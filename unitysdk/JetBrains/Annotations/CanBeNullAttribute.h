@@ -6,6 +6,8 @@
 
 namespace JetBrains::Annotations
 {
+	inline static constexpr unsigned int CanBeNullAttribute_TypeDefinitionIndex = 4008;
+
 	class CanBeNullAttribute : public ::System::Attribute
 	{
 	public:

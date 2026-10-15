@@ -10,6 +10,8 @@ namespace System { class Action; }
 #define HCAHOENPEEP_EXECUTE_OFFSET UNITYSDK_OFFSET(0x15C16160)
 #define HCAHOENPEEP_TICK_OFFSET UNITYSDK_OFFSET(0x15C16390)
 
+inline static constexpr unsigned int HCAHOENPEEP_TypeDefinitionIndex = 77659;
+
 	class HCAHOENPEEP : public ::System::Object
 	{
 	public:

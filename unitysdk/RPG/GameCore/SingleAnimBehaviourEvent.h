@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SingleAnimBehaviourEvent_TypeDefinitionIndex = 16292;
+
 	class SingleAnimBehaviourEvent : public ::RPG::GameCore::JsonConfig
 	{
 	public:

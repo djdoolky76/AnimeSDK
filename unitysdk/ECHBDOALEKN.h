@@ -39,6 +39,8 @@ namespace System { class String; }
 #define ECHBDOALEKN_NABGNLDBBNJ_OFFSET UNITYSDK_OFFSET(0x3C47070)
 #define ECHBDOALEKN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3C47580)
 
+inline static constexpr unsigned int ECHBDOALEKN_TypeDefinitionIndex = 6294;
+
 	struct alignas(4) ECHBDOALEKN
 	{
 		::RPG::MVector3 NKDECDGECFL; // 0x10

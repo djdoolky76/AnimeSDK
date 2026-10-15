@@ -4,6 +4,8 @@
 
 #define FCLBAFJKCPL_CTOR_OFFSET UNITYSDK_OFFSET(0x1C6132D0)
 
+inline static constexpr unsigned int FCLBAFJKCPL_TypeDefinitionIndex = 36438;
+
 	class FCLBAFJKCPL : public ::System::Object
 	{
 	public:

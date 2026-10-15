@@ -15,6 +15,8 @@ namespace ZenFulcrum::EmbeddedBrowser { class IPromise; }
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
+	inline static constexpr unsigned int CookieManager_TypeDefinitionIndex = 39489;
+
 	class CookieManager : public ::System::Object
 	{
 	public:

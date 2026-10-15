@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::Client::ParkourGame
 {
+	inline static constexpr unsigned int MonoParkourItemObstacle_TypeDefinitionIndex = 74143;
+
 	class MonoParkourItemObstacle : public ::RPG::Client::ParkourGame::MonoParkourItem
 	{
 	public:

@@ -7,6 +7,8 @@ namespace EnviromentSystem { class EnviromentProfile; }
 
 #define HGEFPDEGLEN_CTOR_OFFSET UNITYSDK_OFFSET(0x15C94980)
 
+inline static constexpr unsigned int HGEFPDEGLEN_TypeDefinitionIndex = 69781;
+
 	class HGEFPDEGLEN : public ::System::Object
 	{
 	public:

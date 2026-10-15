@@ -9,6 +9,8 @@ namespace RPG { template <typename T1, typename T2> class PoolDictionary_2; }
 #define AMKKNLEFDPP_ONALLOC_OFFSET UNITYSDK_OFFSET(0x1C89E360)
 #define AMKKNLEFDPP_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0x1C89E3D0)
 
+inline static constexpr unsigned int AMKKNLEFDPP_TypeDefinitionIndex = 43324;
+
 	class AMKKNLEFDPP : public ::System::Object
 	{
 	public:

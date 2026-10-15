@@ -13,6 +13,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TargetFetchContextDialogueTalkTrigger_TypeDefinitionIndex = 23883;
+
 	class TargetFetchContextDialogueTalkTrigger : public ::RPG::GameCore::TargetEvaluator
 	{
 	public:

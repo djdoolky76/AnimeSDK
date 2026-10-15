@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoDebugNetworkOptions_TypeDefinitionIndex = 72760;
+
 	class MonoDebugNetworkOptions : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class AdvSpecialVisionProtect; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvSpecialVisionProtect_TypeDefinitionIndex = 21883;
+
 	class AdvSpecialVisionProtect : public ::RPG::GameCore::TaskConfig
 	{
 	public:

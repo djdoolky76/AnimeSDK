@@ -31,6 +31,8 @@ namespace System { class String; }
 #define GPHMAJPGGEK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E4F9F30)
 #define GPHMAJPGGEK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E4F9F90)
 
+inline static constexpr unsigned int GPHMAJPGGEK_TypeDefinitionIndex = 33525;
+
 	class GPHMAJPGGEK : public ::System::Object
 	{
 	public:

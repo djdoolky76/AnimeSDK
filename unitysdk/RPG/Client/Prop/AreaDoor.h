@@ -6,6 +6,8 @@
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int AreaDoor_TypeDefinitionIndex = 78219;
+
 	class AreaDoor : public ::System::Object
 	{
 	public:

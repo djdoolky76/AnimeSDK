@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define MALPBIJPHIE_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1D131C70)
 #define MALPBIJPHIE_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1D131550)
 
+inline static constexpr unsigned int MALPBIJPHIE_TypeDefinitionIndex = 13800;
+
 	class MALPBIJPHIE : public ::System::Object
 	{
 	public:

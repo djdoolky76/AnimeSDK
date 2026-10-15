@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TutorialHideNodes; }
 #define ACABDMAKMPA_CTOR_OFFSET UNITYSDK_OFFSET(0xB110260)
 #define ACABDMAKMPA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB110290)
 
+inline static constexpr unsigned int ACABDMAKMPA_TypeDefinitionIndex = 58823;
+
 	class ACABDMAKMPA
 	{
 	public:

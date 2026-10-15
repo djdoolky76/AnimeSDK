@@ -21,6 +21,8 @@ namespace UnityEngine { class Material; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CartoonTransfer_TypeDefinitionIndex = 72514;
+
 	class CartoonTransfer : public ::UnityEngine::MonoBehaviour
 	{
 	public:

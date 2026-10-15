@@ -4,6 +4,8 @@
 
 #define GEBJPAPHKLO_CTOR_OFFSET UNITYSDK_OFFSET(0x159C65D0)
 
+inline static constexpr unsigned int GEBJPAPHKLO_TypeDefinitionIndex = 67236;
+
 	class GEBJPAPHKLO : public ::System::Attribute
 	{
 	public:

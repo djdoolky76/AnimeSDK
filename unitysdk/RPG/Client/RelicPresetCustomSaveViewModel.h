@@ -25,6 +25,8 @@ namespace RPG::Client::RelicSmartSuit { class RelicSmartSuitCalculationResultDat
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RelicPresetCustomSaveViewModel_TypeDefinitionIndex = 66859;
+
 	class RelicPresetCustomSaveViewModel : public ::System::Object
 	{
 	public:

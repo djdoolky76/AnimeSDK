@@ -25,6 +25,8 @@ namespace System { class String; }
 #define PBDKDFCOAPB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DEF4560)
 #define PBDKDFCOAPB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DEF45C0)
 
+inline static constexpr unsigned int PBDKDFCOAPB_TypeDefinitionIndex = 30614;
+
 	class PBDKDFCOAPB : public ::System::Object
 	{
 	public:

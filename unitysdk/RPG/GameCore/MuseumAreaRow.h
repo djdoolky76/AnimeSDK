@@ -9,6 +9,8 @@ namespace RPG::GameCore { class MuseumAreaRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MuseumAreaRow_TypeDefinitionIndex = 14218;
+
 	class MuseumAreaRow : public ::System::Object
 	{
 	public:

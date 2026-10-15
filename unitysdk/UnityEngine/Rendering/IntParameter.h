@@ -6,6 +6,8 @@
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int IntParameter_TypeDefinitionIndex = 35625;
+
 	class IntParameter
 	{
 	public:

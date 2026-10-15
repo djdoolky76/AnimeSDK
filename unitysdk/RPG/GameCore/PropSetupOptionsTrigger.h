@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PropSetupOptionsTrigger_TypeDefinitionIndex = 21593;
+
 	class PropSetupOptionsTrigger : public ::RPG::GameCore::TaskConfig
 	{
 	public:

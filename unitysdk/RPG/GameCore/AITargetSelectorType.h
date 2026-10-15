@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AITargetSelectorType_TypeDefinitionIndex = 15578;
+
 	enum class AITargetSelectorType : ::System::Int32
 	{
 		DefaultSelector = 0,

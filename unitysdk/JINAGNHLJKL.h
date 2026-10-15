@@ -8,6 +8,8 @@ class JINAGNHLJKL;
 #define JINAGNHLJKL_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D037340)
 #define JINAGNHLJKL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D037300)
 
+inline static constexpr unsigned int JINAGNHLJKL_TypeDefinitionIndex = 10220;
+
 	class JINAGNHLJKL : public ::RPG::GameCore::TaskConfig
 	{
 	public:

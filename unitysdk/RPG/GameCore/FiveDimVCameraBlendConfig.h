@@ -12,6 +12,8 @@ namespace RPG::GameCore { class FloatCurve; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimVCameraBlendConfig_TypeDefinitionIndex = 18617;
+
 	class FiveDimVCameraBlendConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

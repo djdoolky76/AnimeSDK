@@ -10,6 +10,8 @@ namespace RPG::GameCore { class EndPropSceneSelection; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EndPropSceneSelection_TypeDefinitionIndex = 22027;
+
 	class EndPropSceneSelection : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -21,6 +21,8 @@ namespace System { class Object; }
 #define IDOMLBBONDH_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x15EE29F0)
 #define IDOMLBBONDH_LDAMHBBILAD_OFFSET UNITYSDK_OFFSET(0x15EE3450)
 
+inline static constexpr unsigned int IDOMLBBONDH_TypeDefinitionIndex = 69219;
+
 	class IDOMLBBONDH : public ::System::Object
 	{
 	public:

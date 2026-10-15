@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int MFAHJPCHPIN_TypeDefinitionIndex = 30420;
+
 	enum class MFAHJPCHPIN : ::System::Int32
 	{
 		NLCDGIPGFDJ = 0,

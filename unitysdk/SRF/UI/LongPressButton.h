@@ -15,6 +15,8 @@ namespace UnityEngine::UI { class Button_ButtonClickedEvent; }
 
 namespace SRF::UI
 {
+	inline static constexpr unsigned int LongPressButton_TypeDefinitionIndex = 35382;
+
 	class LongPressButton : public ::UnityEngine::UI::Button
 	{
 	public:

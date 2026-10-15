@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CharacterTriggerFreeStyleGraph_TypeDefinitionIndex = 21239;
+
 	class CharacterTriggerFreeStyleGraph : public ::RPG::GameCore::TaskConfig
 	{
 	public:

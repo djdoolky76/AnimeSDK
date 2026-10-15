@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TravelShipPowerSprint; }
 #define PJLBOLGHINE_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC299BE0)
 #define PJLBOLGHINE_TICK_OFFSET UNITYSDK_OFFSET(0xC299B30)
 
+inline static constexpr unsigned int PJLBOLGHINE_TypeDefinitionIndex = 53440;
+
 	class PJLBOLGHINE : public ::GELIALJDFBL
 	{
 	public:

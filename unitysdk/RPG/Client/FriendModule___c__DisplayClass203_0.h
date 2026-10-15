@@ -8,6 +8,8 @@ class LJOLNGEEKFE;
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FriendModule___c__DisplayClass203_0_TypeDefinitionIndex = 64253;
+
 	class FriendModule___c__DisplayClass203_0 : public ::System::Object
 	{
 	public:

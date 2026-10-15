@@ -7,6 +7,8 @@ class JKFAMDHMLBC;
 #define JKFAMDHMLBC_CTOR_OFFSET UNITYSDK_OFFSET(0x1D03F850)
 #define JKFAMDHMLBC_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D03F730)
 
+inline static constexpr unsigned int JKFAMDHMLBC_TypeDefinitionIndex = 13643;
+
 	class JKFAMDHMLBC : public ::System::Object
 	{
 	public:

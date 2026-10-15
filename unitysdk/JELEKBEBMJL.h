@@ -24,6 +24,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define JELEKBEBMJL_KMCBMMDJPHO_OFFSET UNITYSDK_OFFSET(0x166408A0)
 #define JELEKBEBMJL_PEOMHKPEBLJ_OFFSET UNITYSDK_OFFSET(0x1663FA40)
 
+inline static constexpr unsigned int JELEKBEBMJL_TypeDefinitionIndex = 77915;
+
 	class JELEKBEBMJL : public ::JNALBIEDNLH
 	{
 	public:

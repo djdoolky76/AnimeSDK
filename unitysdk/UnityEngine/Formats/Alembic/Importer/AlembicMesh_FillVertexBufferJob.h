@@ -9,6 +9,8 @@
 
 namespace UnityEngine::Formats::Alembic::Importer
 {
+	inline static constexpr unsigned int AlembicMesh_FillVertexBufferJob_TypeDefinitionIndex = 45857;
+
 	struct alignas(8) AlembicMesh_FillVertexBufferJob
 	{
 		::UnityEngine::Formats::Alembic::Sdk::aiPolyMeshSample sample; // 0x10

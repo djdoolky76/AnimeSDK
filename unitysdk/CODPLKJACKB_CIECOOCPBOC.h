@@ -4,6 +4,8 @@
 
 #define CODPLKJACKB_CIECOOCPBOC_CTOR_OFFSET UNITYSDK_OFFSET(0xDCB3490)
 
+inline static constexpr unsigned int CODPLKJACKB_CIECOOCPBOC_TypeDefinitionIndex = 64767;
+
 	class CODPLKJACKB_CIECOOCPBOC : public ::System::Object
 	{
 	public:

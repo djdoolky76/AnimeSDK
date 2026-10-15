@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetFlipperLightDeviceFollowPlayer_TypeDefinitionIndex = 22342;
+
 	class SetFlipperLightDeviceFollowPlayer : public ::RPG::GameCore::TaskConfig
 	{
 	public:

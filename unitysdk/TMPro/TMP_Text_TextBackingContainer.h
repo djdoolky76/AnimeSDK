@@ -11,6 +11,8 @@
 
 namespace TMPro
 {
+	inline static constexpr unsigned int TMP_Text_TextBackingContainer_TypeDefinitionIndex = 44660;
+
 	struct alignas(8) TMP_Text_TextBackingContainer
 	{
 		::Il2CppArray<::System::UInt32>* m_Array; // 0x10

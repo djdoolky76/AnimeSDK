@@ -31,6 +31,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChenLingBattleStageData_TypeDefinitionIndex = 61456;
+
 	class ChenLingBattleStageData : public ::System::Object
 	{
 	public:

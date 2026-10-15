@@ -21,6 +21,8 @@ namespace System { class Object; }
 #define EAKBGHBOKIG_JNCNGPMMDAG_OFFSET UNITYSDK_OFFSET(0x3C36D60)
 #define EAKBGHBOKIG_NHCFLDCDLCP_OFFSET UNITYSDK_OFFSET(0x1CD5DE00)
 
+inline static constexpr unsigned int EAKBGHBOKIG_TypeDefinitionIndex = 10666;
+
 	struct alignas(8) EAKBGHBOKIG
 	{
 		::LELCKJPOPAO* BEHHICMOFIE; // 0x10

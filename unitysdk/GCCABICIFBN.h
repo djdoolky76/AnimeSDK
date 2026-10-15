@@ -11,6 +11,8 @@ class AFOAMOJGBFC;
 #define GCCABICIFBN_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA7BC20)
 #define GCCABICIFBN_GHHOOCLEENA_OFFSET UNITYSDK_OFFSET(0x1CA7BBE0)
 
+inline static constexpr unsigned int GCCABICIFBN_TypeDefinitionIndex = 42500;
+
 	class GCCABICIFBN : public ::System::Object
 	{
 	public:

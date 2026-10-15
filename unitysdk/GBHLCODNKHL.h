@@ -25,6 +25,8 @@ namespace System { class String; }
 #define GBHLCODNKHL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E42C830)
 #define GBHLCODNKHL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E42C890)
 
+inline static constexpr unsigned int GBHLCODNKHL_TypeDefinitionIndex = 34558;
+
 	class GBHLCODNKHL : public ::System::Object
 	{
 	public:

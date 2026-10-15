@@ -9,6 +9,8 @@ namespace RPG::GameCore { class RogueWorkbenchMagicUnitRandomConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueWorkbenchMagicUnitRandomConfig_TypeDefinitionIndex = 18030;
+
 	class RogueWorkbenchMagicUnitRandomConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

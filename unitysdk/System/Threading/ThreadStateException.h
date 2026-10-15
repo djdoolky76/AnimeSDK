@@ -11,6 +11,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System::Threading
 {
+	inline static constexpr unsigned int ThreadStateException_TypeDefinitionIndex = 869;
+
 	class ThreadStateException : public ::System::SystemException
 	{
 	public:

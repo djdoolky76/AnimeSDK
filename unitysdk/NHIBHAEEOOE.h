@@ -8,6 +8,8 @@ class NHIBHAEEOOE;
 #define NHIBHAEEOOE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D20F580)
 #define NHIBHAEEOOE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D20F450)
 
+inline static constexpr unsigned int NHIBHAEEOOE_TypeDefinitionIndex = 14367;
+
 	class NHIBHAEEOOE : public ::System::Object
 	{
 	public:

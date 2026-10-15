@@ -12,6 +12,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CameraTwitch_TypeDefinitionIndex = 68918;
+
 	class CameraTwitch : public ::UnityEngine::MonoBehaviour
 	{
 	public:

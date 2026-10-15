@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FinishPerformance; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FinishPerformance_TypeDefinitionIndex = 21097;
+
 	class FinishPerformance : public ::RPG::GameCore::TaskConfig
 	{
 	public:

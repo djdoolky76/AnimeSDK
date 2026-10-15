@@ -33,6 +33,8 @@ namespace System { class Nullable; }
 #define BMDDCGIDIBB_DIMAABDMJBL_OMGOGJNLBBK_OFFSET UNITYSDK_OFFSET(0xBA91D80)
 #define BMDDCGIDIBB_DIMAABDMJBL_PINOKCNDANM_OFFSET UNITYSDK_OFFSET(0xBA8AF50)
 
+inline static constexpr unsigned int BMDDCGIDIBB_DIMAABDMJBL_TypeDefinitionIndex = 69176;
+
 	class BMDDCGIDIBB_DIMAABDMJBL : public ::System::Object
 	{
 	public:

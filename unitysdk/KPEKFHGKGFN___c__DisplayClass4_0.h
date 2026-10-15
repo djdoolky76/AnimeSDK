@@ -6,6 +6,8 @@ class GDADEGMMPPD;
 #define KPEKFHGKGFN___C__DISPLAYCLASS4_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB5B60D0)
 #define KPEKFHGKGFN___C__DISPLAYCLASS4_0__GETSPONSOR_B__0_OFFSET UNITYSDK_OFFSET(0xB5B65C0)
 
+inline static constexpr unsigned int KPEKFHGKGFN___c__DisplayClass4_0_TypeDefinitionIndex = 80340;
+
 	class KPEKFHGKGFN___c__DisplayClass4_0 : public ::System::Object
 	{
 	public:

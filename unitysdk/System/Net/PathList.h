@@ -18,6 +18,8 @@ namespace System::Collections { class SortedList; }
 
 namespace System::Net
 {
+	inline static constexpr unsigned int PathList_TypeDefinitionIndex = 2805;
+
 	class PathList : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System { class String; }
 #define BAMAHMFFDFB_IJKPJINOHHF_OFFSET UNITYSDK_OFFSET(0x15E74460)
 #define BAMAHMFFDFB_NNBFNHLFCKA_OFFSET UNITYSDK_OFFSET(0x15E74580)
 
+inline static constexpr unsigned int BAMAHMFFDFB_TypeDefinitionIndex = 81058;
+
 	class BAMAHMFFDFB : public ::System::Object
 	{
 	public:

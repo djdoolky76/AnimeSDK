@@ -10,6 +10,8 @@ namespace System::Linq::Expressions { class LabelTarget; }
 
 namespace System::Linq::Expressions
 {
+	inline static constexpr unsigned int LoopExpression_TypeDefinitionIndex = 3240;
+
 	class LoopExpression : public ::System::Linq::Expressions::Expression
 	{
 	public:

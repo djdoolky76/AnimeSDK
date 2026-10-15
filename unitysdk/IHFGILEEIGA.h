@@ -13,6 +13,8 @@ namespace System::Threading { class Thread; }
 #define IHFGILEEIGA_CTOR_OFFSET UNITYSDK_OFFSET(0x1641B060)
 #define IHFGILEEIGA_EIECCOPEHJM_OFFSET UNITYSDK_OFFSET(0x1641AC20)
 
+inline static constexpr unsigned int IHFGILEEIGA_TypeDefinitionIndex = 59570;
+
 	class IHFGILEEIGA : public ::System::Object
 	{
 	public:

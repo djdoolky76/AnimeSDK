@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ChimeraDuelEffectRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChimeraDuelEffectRow_TypeDefinitionIndex = 11124;
+
 	class ChimeraDuelEffectRow : public ::System::Object
 	{
 	public:

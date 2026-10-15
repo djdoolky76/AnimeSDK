@@ -13,6 +13,8 @@ namespace System { class Object; }
 #define NEJLIGKNHCC_GONOHDPNHKO_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0xBB65690)
 #define NEJLIGKNHCC_GONOHDPNHKO_NLDLDIJHIBF_OFFSET UNITYSDK_OFFSET(0xBB67E70)
 
+inline static constexpr unsigned int NEJLIGKNHCC_GONOHDPNHKO_TypeDefinitionIndex = 69291;
+
 	class NEJLIGKNHCC_GONOHDPNHKO : public ::System::Object
 	{
 	public:

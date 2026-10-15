@@ -29,6 +29,8 @@ namespace System::Security::Cryptography { class RandomNumberGenerator; }
 
 namespace System::Net
 {
+	inline static constexpr unsigned int DigestSession_TypeDefinitionIndex = 2830;
+
 	class DigestSession : public ::System::Object
 	{
 	public:

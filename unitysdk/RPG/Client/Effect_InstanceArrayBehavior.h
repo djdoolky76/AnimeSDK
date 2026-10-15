@@ -32,6 +32,8 @@ namespace UnityEngine { class MaterialPropertyBlock; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Effect_InstanceArrayBehavior_TypeDefinitionIndex = 70608;
+
 	class Effect_InstanceArrayBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:

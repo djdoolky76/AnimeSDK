@@ -19,6 +19,8 @@ namespace System { template <typename T> class Comparison_1; }
 #define HEOAAAKKHLC___C___GENPROPSIMULATEINFO_SELECTBREAKSTYLE_B__31_0_OFFSET UNITYSDK_OFFSET(0x1CAC7430)
 #define HEOAAAKKHLC___C___MAKECHOICE_B__18_0_OFFSET UNITYSDK_OFFSET(0x1CAC73F0)
 
+inline static constexpr unsigned int HEOAAAKKHLC___c_TypeDefinitionIndex = 43032;
+
 	class HEOAAAKKHLC___c : public ::System::Object
 	{
 	public:

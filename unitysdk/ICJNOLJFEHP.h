@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define ICJNOLJFEHP_CHAKABNICEL_OFFSET UNITYSDK_OFFSET(0x15E50050)
 #define ICJNOLJFEHP_CTOR_OFFSET UNITYSDK_OFFSET(0x15E50110)
 
+inline static constexpr unsigned int ICJNOLJFEHP_TypeDefinitionIndex = 77533;
+
 	class ICJNOLJFEHP : public ::System::Object
 	{
 	public:

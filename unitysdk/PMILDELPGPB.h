@@ -16,6 +16,8 @@ namespace RPG::AvatarSystem::Property { template <typename T> class IPropertyCon
 #define PMILDELPGPB_NMBPLDFDLJJ_OFFSET UNITYSDK_OFFSET(0xC321780)
 #define PMILDELPGPB___REGISTERSUMMATIONFORMULA_B__7_0_OFFSET UNITYSDK_OFFSET(0xC3218A0)
 
+inline static constexpr unsigned int PMILDELPGPB_TypeDefinitionIndex = 62708;
+
 	class PMILDELPGPB
 	{
 	public:

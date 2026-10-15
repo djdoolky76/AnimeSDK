@@ -16,6 +16,8 @@ namespace UnityEngine { class Transform; }
 #define HENPLPFIHBK_OHDPLAMAMHF_OFFSET UNITYSDK_OFFSET(0x15C5ECB0)
 #define HENPLPFIHBK_PLOGFHDCFJB_OFFSET UNITYSDK_OFFSET(0x15C5ED40)
 
+inline static constexpr unsigned int HENPLPFIHBK_TypeDefinitionIndex = 68765;
+
 	class HENPLPFIHBK : public ::System::Object
 	{
 	public:

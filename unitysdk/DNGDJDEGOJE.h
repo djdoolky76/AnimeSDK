@@ -19,6 +19,8 @@ namespace System { class String; }
 #define DNGDJDEGOJE_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1194DE90)
 #define DNGDJDEGOJE_TICK_OFFSET UNITYSDK_OFFSET(0x1194E000)
 
+inline static constexpr unsigned int DNGDJDEGOJE_TypeDefinitionIndex = 58865;
+
 	class DNGDJDEGOJE : public ::GELIALJDFBL
 	{
 	public:

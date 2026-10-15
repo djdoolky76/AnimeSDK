@@ -34,6 +34,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::ChenLingFes
 {
+	inline static constexpr unsigned int ChenLingFesItemDetailViewModel_TypeDefinitionIndex = 81396;
+
 	class ChenLingFesItemDetailViewModel : public ::Sofa::BaseViewModel
 	{
 	public:

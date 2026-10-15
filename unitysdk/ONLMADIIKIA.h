@@ -34,6 +34,8 @@ namespace RPG::GameCore::Booklet { class PageSpreadConfig; }
 #define ONLMADIIKIA_PEFKGLPHDKI_OFFSET UNITYSDK_OFFSET(0xBF5C880)
 #define ONLMADIIKIA_PKFEOMMAIEN_OFFSET UNITYSDK_OFFSET(0xBF5B9C0)
 
+inline static constexpr unsigned int ONLMADIIKIA_TypeDefinitionIndex = 72411;
+
 	class ONLMADIIKIA : public ::BLOFHFCGJHA
 	{
 	public:

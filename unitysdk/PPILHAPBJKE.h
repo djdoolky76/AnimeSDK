@@ -16,6 +16,8 @@ namespace System { class Object; }
 #define PPILHAPBJKE_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC389A20)
 #define PPILHAPBJKE_TICK_OFFSET UNITYSDK_OFFSET(0xC389EE0)
 
+inline static constexpr unsigned int PPILHAPBJKE_TypeDefinitionIndex = 52483;
+
 	class PPILHAPBJKE : public ::GELIALJDFBL
 	{
 	public:

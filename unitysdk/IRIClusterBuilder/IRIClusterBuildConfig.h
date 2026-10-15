@@ -7,6 +7,8 @@
 
 namespace IRIClusterBuilder
 {
+	inline static constexpr unsigned int IRIClusterBuildConfig_TypeDefinitionIndex = 47742;
+
 	class IRIClusterBuildConfig : public ::UnityEngine::ScriptableObject
 	{
 	public:

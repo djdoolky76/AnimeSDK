@@ -15,6 +15,8 @@ namespace System { class Object; }
 #define GPOEJMNKGEL_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15B65310)
 #define GPOEJMNKGEL_TICK_OFFSET UNITYSDK_OFFSET(0x15B648B0)
 
+inline static constexpr unsigned int GPOEJMNKGEL_TypeDefinitionIndex = 58478;
+
 	class GPOEJMNKGEL : public ::GELIALJDFBL
 	{
 	public:

@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TaskContext; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelPlayVOTask_TypeDefinitionIndex = 58185;
+
 	class LevelPlayVOTask : public ::GELIALJDFBL
 	{
 	public:

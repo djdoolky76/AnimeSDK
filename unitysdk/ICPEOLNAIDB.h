@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define ICPEOLNAIDB_CTOR_OFFSET UNITYSDK_OFFSET(0x15E62E00)
 #define ICPEOLNAIDB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15E62E30)
 
+inline static constexpr unsigned int ICPEOLNAIDB_TypeDefinitionIndex = 58624;
+
 	class ICPEOLNAIDB
 	{
 	public:

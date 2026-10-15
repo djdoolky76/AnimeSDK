@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 #define IHIKPPFNMKF_UPDATEAFTER_OFFSET UNITYSDK_OFFSET(0x164225E0)
 #define IHIKPPFNMKF_UPDATEBEFORE_OFFSET UNITYSDK_OFFSET(0x164220A0)
 
+inline static constexpr unsigned int IHIKPPFNMKF_TypeDefinitionIndex = 65181;
+
 	class IHIKPPFNMKF : public ::AMCOEFHHBPO
 	{
 	public:

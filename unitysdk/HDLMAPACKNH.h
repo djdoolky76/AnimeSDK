@@ -29,6 +29,8 @@ namespace System { class String; }
 #define HDLMAPACKNH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E5521B0)
 #define HDLMAPACKNH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E552210)
 
+inline static constexpr unsigned int HDLMAPACKNH_TypeDefinitionIndex = 27248;
+
 	class HDLMAPACKNH : public ::System::Object
 	{
 	public:

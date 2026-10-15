@@ -12,6 +12,8 @@ namespace System { class Action; }
 #define KDDDIAKAANM_JBIOGKPHKKC_OFFSET UNITYSDK_OFFSET(0xB34AE00)
 #define KDDDIAKAANM_JMHMOEDJHAN_OFFSET UNITYSDK_OFFSET(0xB34AFB0)
 
+inline static constexpr unsigned int KDDDIAKAANM_TypeDefinitionIndex = 79795;
+
 	class KDDDIAKAANM : public ::MBPKHMAJLGK
 	{
 	public:

@@ -18,6 +18,8 @@ namespace UnityEngine { class Material; }
 
 namespace Hdg
 {
+	inline static constexpr unsigned int rdtSerializerMaterial_TypeDefinitionIndex = 46961;
+
 	class rdtSerializerMaterial : public ::System::Object
 	{
 	public:

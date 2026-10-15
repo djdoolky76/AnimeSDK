@@ -9,6 +9,8 @@ namespace UnityEngine::UI { class Dropdown_DropdownItem; }
 
 namespace UnityEngine::UI
 {
+	inline static constexpr unsigned int Dropdown___c__DisplayClass80_0_TypeDefinitionIndex = 6712;
+
 	class Dropdown___c__DisplayClass80_0 : public ::System::Object
 	{
 	public:

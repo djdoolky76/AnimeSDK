@@ -35,6 +35,8 @@ namespace System { class String; }
 #define EMGMPNOKJGL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E2E0F80)
 #define EMGMPNOKJGL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E2E0FE0)
 
+inline static constexpr unsigned int EMGMPNOKJGL_TypeDefinitionIndex = 30154;
+
 	class EMGMPNOKJGL : public ::System::Object
 	{
 	public:

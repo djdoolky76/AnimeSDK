@@ -14,6 +14,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TargetSortMonsterRank_TypeDefinitionIndex = 23986;
+
 	class TargetSortMonsterRank : public ::RPG::GameCore::TargetSeqOperation
 	{
 	public:

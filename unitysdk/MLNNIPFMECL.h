@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define MLNNIPFMECL_CTOR_OFFSET UNITYSDK_OFFSET(0xB9BB340)
 #define MLNNIPFMECL_INTERNALINVOKE_OFFSET UNITYSDK_OFFSET(0xB9BB350)
 
+inline static constexpr unsigned int MLNNIPFMECL_TypeDefinitionIndex = 73145;
+
 	class MLNNIPFMECL : public ::GMBPBAHKLDB
 	{
 	public:

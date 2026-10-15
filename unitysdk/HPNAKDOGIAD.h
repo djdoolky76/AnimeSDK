@@ -13,6 +13,8 @@ namespace System { class String; }
 #define HPNAKDOGIAD_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0x1CAF7BC0)
 #define HPNAKDOGIAD_PMFEDGBNHGO_OFFSET UNITYSDK_OFFSET(0x1CAF7C00)
 
+inline static constexpr unsigned int HPNAKDOGIAD_TypeDefinitionIndex = 43358;
+
 	class HPNAKDOGIAD : public ::System::Object
 	{
 	public:

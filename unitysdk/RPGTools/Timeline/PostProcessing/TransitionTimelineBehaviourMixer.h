@@ -11,6 +11,8 @@ namespace System { class Object; }
 
 namespace RPGTools::Timeline::PostProcessing
 {
+	inline static constexpr unsigned int TransitionTimelineBehaviourMixer_TypeDefinitionIndex = 48626;
+
 	class TransitionTimelineBehaviourMixer
 	{
 	public:

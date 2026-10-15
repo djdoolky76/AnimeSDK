@@ -23,6 +23,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelNPCInfoOverride_TypeDefinitionIndex = 17361;
+
 	class LevelNPCInfoOverride : public ::RPG::GameCore::JsonConfig
 	{
 	public:

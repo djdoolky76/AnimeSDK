@@ -86,6 +86,8 @@ namespace RPG::GameCore { class DiceCombatTaskConfig; }
 #define HIMNCHPOGAA_PMCGMLLCBLF_OFFSET UNITYSDK_OFFSET(0x1CEB3570)
 #define HIMNCHPOGAA_POMEKLECEMK_OFFSET UNITYSDK_OFFSET(0x1CEB25E0)
 
+inline static constexpr unsigned int HIMNCHPOGAA_TypeDefinitionIndex = 19070;
+
 	class HIMNCHPOGAA : public ::System::Object
 	{
 	public:

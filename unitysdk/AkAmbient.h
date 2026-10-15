@@ -21,6 +21,8 @@ namespace UnityEngine { class GameObject; }
 #define AKAMBIENT_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1F570540)
 #define AKAMBIENT_START_OFFSET UNITYSDK_OFFSET(0x1F570F50)
 
+inline static constexpr unsigned int AkAmbient_TypeDefinitionIndex = 44909;
+
 	class AkAmbient : public ::AkEvent
 	{
 	public:

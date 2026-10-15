@@ -17,6 +17,8 @@ namespace UnityEngine { class Texture; }
 
 namespace UnityEngine::NVIDIA
 {
+	inline static constexpr unsigned int DLSSTextureTable_TypeDefinitionIndex = 5025;
+
 	struct alignas(8) DLSSTextureTable
 	{
 		::UnityEngine::Texture* _colorInput_k__BackingField; // 0x10

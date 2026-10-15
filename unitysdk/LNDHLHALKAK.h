@@ -17,6 +17,8 @@ namespace UnityEngine { class Transform; }
 #define LNDHLHALKAK_HNNEMHEKNDB_OFFSET UNITYSDK_OFFSET(0xB7DADA0)
 #define LNDHLHALKAK_KMDGFGPPDCK_OFFSET UNITYSDK_OFFSET(0xB7DA350)
 
+inline static constexpr unsigned int LNDHLHALKAK_TypeDefinitionIndex = 60080;
+
 	class LNDHLHALKAK : public ::System::Object
 	{
 	public:

@@ -4,6 +4,8 @@
 
 namespace Cysharp::Threading::Tasks
 {
+	inline static constexpr unsigned int Progress_TypeDefinitionIndex = 38215;
+
 	class Progress : public ::System::Object
 	{
 	public:

@@ -5,6 +5,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 #define CABIEOJNNIM_CTOR_OFFSET UNITYSDK_OFFSET(0x1C5C8C40)
 
+inline static constexpr unsigned int CABIEOJNNIM_TypeDefinitionIndex = 37158;
+
 	class CABIEOJNNIM : public ::NCEBAMHOOJM
 	{
 	public:

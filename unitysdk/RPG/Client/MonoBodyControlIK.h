@@ -27,6 +27,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoBodyControlIK_TypeDefinitionIndex = 68531;
+
 	class MonoBodyControlIK : public ::UnityEngine::MonoBehaviour
 	{
 	public:

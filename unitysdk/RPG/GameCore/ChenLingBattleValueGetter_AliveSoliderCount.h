@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ChenLingBattleValueGetter_AliveSoliderCount; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChenLingBattleValueGetter_AliveSoliderCount_TypeDefinitionIndex = 15806;
+
 	class ChenLingBattleValueGetter_AliveSoliderCount : public ::RPG::GameCore::BaseChenLingBattleValueGetter
 	{
 	public:

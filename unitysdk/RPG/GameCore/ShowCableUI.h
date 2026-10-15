@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ShowCableUI; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ShowCableUI_TypeDefinitionIndex = 20898;
+
 	class ShowCableUI : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -7,6 +7,8 @@ class FPNHGPEICOG;
 #define EIHEAPMFPCK_CTOR_OFFSET UNITYSDK_OFFSET(0x154C8170)
 #define EIHEAPMFPCK_ILOHHJDPDBE_OFFSET UNITYSDK_OFFSET(0x154C6B10)
 
+inline static constexpr unsigned int EIHEAPMFPCK_TypeDefinitionIndex = 53687;
+
 	class EIHEAPMFPCK : public ::System::Object
 	{
 	public:

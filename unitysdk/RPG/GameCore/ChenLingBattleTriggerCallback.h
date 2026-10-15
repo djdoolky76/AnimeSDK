@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ChenLingBattleTriggerCallback; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChenLingBattleTriggerCallback_TypeDefinitionIndex = 15708;
+
 	class ChenLingBattleTriggerCallback : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define HGEAOCGDCHD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E577E30)
 #define HGEAOCGDCHD___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E577E40)
 
+inline static constexpr unsigned int HGEAOCGDCHD___c_TypeDefinitionIndex = 29130;
+
 	class HGEAOCGDCHD___c : public ::System::Object
 	{
 	public:

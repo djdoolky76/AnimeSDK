@@ -8,6 +8,8 @@
 #define DIHJLDACMDG_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0xF20ACA0)
 #define DIHJLDACMDG_KIGBILLGNOH_OFFSET UNITYSDK_OFFSET(0xF20AC20)
 
+inline static constexpr unsigned int DIHJLDACMDG_TypeDefinitionIndex = 76941;
+
 	class DIHJLDACMDG : public ::GGGOOHNIBNN
 	{
 	public:

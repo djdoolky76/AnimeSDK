@@ -122,6 +122,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 #define BKLODCFCAED_PMCGMLLCBLF_OFFSET UNITYSDK_OFFSET(0x1D81EDD0)
 #define BKLODCFCAED_POMEKLECEMK_OFFSET UNITYSDK_OFFSET(0x1D81DE40)
 
+inline static constexpr unsigned int BKLODCFCAED_TypeDefinitionIndex = 23743;
+
 	class BKLODCFCAED : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System { class String; }
 #define EEPJKPJLMKJ_DIPDAPGAIPN_OFFSET UNITYSDK_OFFSET(0x13A41AC0)
 #define EEPJKPJLMKJ_GNADABFLEFM_OFFSET UNITYSDK_OFFSET(0x13A41A70)
 
+inline static constexpr unsigned int EEPJKPJLMKJ_TypeDefinitionIndex = 59666;
+
 	class EEPJKPJLMKJ : public ::System::Object
 	{
 	public:

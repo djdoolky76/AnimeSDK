@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightRoleAutoWeightConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightRoleAutoWeightConfigRow_TypeDefinitionIndex = 13536;
+
 	class GridFightRoleAutoWeightConfigRow : public ::System::Object
 	{
 	public:

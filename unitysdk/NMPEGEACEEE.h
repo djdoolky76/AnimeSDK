@@ -19,6 +19,8 @@ namespace System { class String; }
 #define NMPEGEACEEE_PAPJPCLCAHC_OFFSET UNITYSDK_OFFSET(0xBC94B10)
 #define NMPEGEACEEE_TICK_OFFSET UNITYSDK_OFFSET(0xBC94C80)
 
+inline static constexpr unsigned int NMPEGEACEEE_TypeDefinitionIndex = 58703;
+
 	class NMPEGEACEEE : public ::GELIALJDFBL
 	{
 	public:

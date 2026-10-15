@@ -11,6 +11,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace Newtonsoft::Json::Serialization
 {
+	inline static constexpr unsigned int JsonTypeReflector___c_TypeDefinitionIndex = 9745;
+
 	class JsonTypeReflector___c : public ::System::Object
 	{
 	public:

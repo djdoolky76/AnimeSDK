@@ -51,6 +51,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define KLMDNMJMGBK_SET_ROLLRESULT_OFFSET UNITYSDK_OFFSET(0x1C716040)
 #define KLMDNMJMGBK_SET_TURN_OFFSET UNITYSDK_OFFSET(0x1C715E60)
 
+inline static constexpr unsigned int KLMDNMJMGBK_TypeDefinitionIndex = 36265;
+
 	class KLMDNMJMGBK : public ::System::Object
 	{
 	public:

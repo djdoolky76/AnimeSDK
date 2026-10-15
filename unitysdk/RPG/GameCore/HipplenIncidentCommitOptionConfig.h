@@ -11,6 +11,8 @@ namespace RPG::GameCore { class HipplenIncidentSettlementConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int HipplenIncidentCommitOptionConfig_TypeDefinitionIndex = 16810;
+
 	class HipplenIncidentCommitOptionConfig : public ::RPG::GameCore::HipplenIncidentOptionConfig
 	{
 	public:

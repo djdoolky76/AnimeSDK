@@ -115,6 +115,8 @@ namespace UnityEngine::Rendering { class CommandBuffer; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int EnvironmentSystemV1_TypeDefinitionIndex = 69785;
+
 	class EnvironmentSystemV1 : public ::RPG::Client::EnvironmentSystem
 	{
 	public:

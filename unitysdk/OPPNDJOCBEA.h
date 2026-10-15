@@ -42,6 +42,8 @@ namespace System { class String; }
 #define OPPNDJOCBEA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DEE8190)
 #define OPPNDJOCBEA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DEE81F0)
 
+inline static constexpr unsigned int OPPNDJOCBEA_TypeDefinitionIndex = 28341;
+
 	class OPPNDJOCBEA : public ::System::Object
 	{
 	public:

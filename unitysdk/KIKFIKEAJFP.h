@@ -29,6 +29,8 @@ namespace System { class String; }
 #define KIKFIKEAJFP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E861950)
 #define KIKFIKEAJFP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E8619B0)
 
+inline static constexpr unsigned int KIKFIKEAJFP_TypeDefinitionIndex = 32052;
+
 	class KIKFIKEAJFP : public ::System::Object
 	{
 	public:

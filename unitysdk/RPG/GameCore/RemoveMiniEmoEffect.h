@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RemoveMiniEmoEffect_TypeDefinitionIndex = 21864;
+
 	class RemoveMiniEmoEffect : public ::RPG::GameCore::TaskConfig
 	{
 	public:

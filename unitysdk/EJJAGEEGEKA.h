@@ -33,6 +33,8 @@ namespace System { class String; }
 #define EJJAGEEGEKA_OIENNDOOCCF_OFFSET UNITYSDK_OFFSET(0x154DFEF0)
 #define EJJAGEEGEKA_ONCFGNKGKNK_OFFSET UNITYSDK_OFFSET(0x154DFAF0)
 
+inline static constexpr unsigned int EJJAGEEGEKA_TypeDefinitionIndex = 72119;
+
 	class EJJAGEEGEKA : public ::System::Object
 	{
 	public:

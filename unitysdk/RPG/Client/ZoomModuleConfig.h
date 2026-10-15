@@ -9,6 +9,8 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ZoomModuleConfig_TypeDefinitionIndex = 69689;
+
 	class ZoomModuleConfig : public ::RPG::Client::CameraModuleConfigBase
 	{
 	public:

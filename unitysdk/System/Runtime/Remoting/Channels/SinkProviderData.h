@@ -13,6 +13,8 @@ namespace System::Collections { class IList; }
 
 namespace System::Runtime::Remoting::Channels
 {
+	inline static constexpr unsigned int SinkProviderData_TypeDefinitionIndex = 1276;
+
 	class SinkProviderData : public ::System::Object
 	{
 	public:

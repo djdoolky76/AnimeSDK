@@ -9,6 +9,8 @@ namespace RPG::Client { class GridFightGridPutDownEffect; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightEffectController___c__DisplayClass24_0_TypeDefinitionIndex = 64483;
+
 	class GridFightEffectController___c__DisplayClass24_0 : public ::System::Object
 	{
 	public:

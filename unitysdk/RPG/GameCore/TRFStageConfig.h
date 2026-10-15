@@ -9,6 +9,8 @@ namespace RPG::GameCore { class TRFStageConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TRFStageConfig_TypeDefinitionIndex = 18905;
+
 	class TRFStageConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

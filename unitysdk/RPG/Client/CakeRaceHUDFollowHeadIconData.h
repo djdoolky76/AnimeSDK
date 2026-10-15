@@ -16,6 +16,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CakeRaceHUDFollowHeadIconData_TypeDefinitionIndex = 63030;
+
 	class CakeRaceHUDFollowHeadIconData : public ::System::Object
 	{
 	public:

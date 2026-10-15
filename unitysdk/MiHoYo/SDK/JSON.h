@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int JSON_TypeDefinitionIndex = 8142;
+
 	class JSON : public ::System::Object
 	{
 	public:

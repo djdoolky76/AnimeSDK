@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ActivityStateData_TypeDefinitionIndex = 61753;
+
 	class ActivityStateData : public ::System::Object
 	{
 	public:

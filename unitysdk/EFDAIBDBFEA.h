@@ -33,6 +33,8 @@ namespace System { class String; }
 #define EFDAIBDBFEA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E28D1F0)
 #define EFDAIBDBFEA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E28D250)
 
+inline static constexpr unsigned int EFDAIBDBFEA_TypeDefinitionIndex = 32648;
+
 	class EFDAIBDBFEA : public ::System::Object
 	{
 	public:

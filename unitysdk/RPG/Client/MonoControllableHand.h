@@ -40,6 +40,8 @@ namespace UnityEngine { class Collision; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoControllableHand_TypeDefinitionIndex = 68774;
+
 	class MonoControllableHand : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Freelook3rdRecenterParams_TypeDefinitionIndex = 69679;
+
 	class Freelook3rdRecenterParams : public ::System::Object
 	{
 	public:

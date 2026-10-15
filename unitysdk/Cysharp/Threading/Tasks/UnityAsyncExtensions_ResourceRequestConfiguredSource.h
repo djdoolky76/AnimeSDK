@@ -31,6 +31,8 @@ namespace UnityEngine { class ResourceRequest; }
 
 namespace Cysharp::Threading::Tasks
 {
+	inline static constexpr unsigned int UnityAsyncExtensions_ResourceRequestConfiguredSource_TypeDefinitionIndex = 38460;
+
 	class UnityAsyncExtensions_ResourceRequestConfiguredSource : public ::System::Object
 	{
 	public:

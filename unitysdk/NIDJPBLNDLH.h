@@ -27,6 +27,8 @@ namespace System { class String; }
 #define NIDJPBLNDLH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB26BE0)
 #define NIDJPBLNDLH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB26C40)
 
+inline static constexpr unsigned int NIDJPBLNDLH_TypeDefinitionIndex = 29535;
+
 	class NIDJPBLNDLH : public ::System::Object
 	{
 	public:

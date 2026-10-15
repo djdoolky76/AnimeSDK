@@ -12,6 +12,8 @@ namespace System { class Type; }
 #define EHNHBPFGJMA_SET_ROGUEMODE_OFFSET UNITYSDK_OFFSET(0x154B7E70)
 #define EHNHBPFGJMA_SET_STAGETYPE_OFFSET UNITYSDK_OFFSET(0x154B7E50)
 
+inline static constexpr unsigned int EHNHBPFGJMA_TypeDefinitionIndex = 56021;
+
 	class EHNHBPFGJMA : public ::System::Attribute
 	{
 	public:

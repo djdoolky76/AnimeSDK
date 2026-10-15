@@ -9,6 +9,8 @@ namespace System { class Type; }
 
 namespace System::Runtime::Serialization
 {
+	inline static constexpr unsigned int SerializationBinder_TypeDefinitionIndex = 1125;
+
 	class SerializationBinder : public ::System::Object
 	{
 	public:

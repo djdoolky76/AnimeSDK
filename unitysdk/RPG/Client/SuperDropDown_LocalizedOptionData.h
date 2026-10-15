@@ -14,6 +14,8 @@ namespace UnityEngine { class Sprite; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SuperDropDown_LocalizedOptionData_TypeDefinitionIndex = 72669;
+
 	class SuperDropDown_LocalizedOptionData : public ::UnityEngine::UI::Dropdown_OptionData
 	{
 	public:

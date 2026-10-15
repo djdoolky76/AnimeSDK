@@ -12,6 +12,8 @@ namespace System { class String; }
 #define ECAIAJKEKLJ_LMEAHGFFMIB_OFFSET UNITYSDK_OFFSET(0x12D05220)
 #define ECAIAJKEKLJ_NDFAEGPDFHD_OFFSET UNITYSDK_OFFSET(0x12D054C0)
 
+inline static constexpr unsigned int ECAIAJKEKLJ_TypeDefinitionIndex = 56489;
+
 	class ECAIAJKEKLJ : public ::System::Object
 	{
 	public:

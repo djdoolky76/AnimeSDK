@@ -15,6 +15,8 @@ namespace System::Text { class StringBuilder; }
 #define BBJMPFPPLFM_PRINTMEMBERS_OFFSET UNITYSDK_OFFSET(0x3C51DC0)
 #define BBJMPFPPLFM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3C51DB0)
 
+inline static constexpr unsigned int BBJMPFPPLFM_TypeDefinitionIndex = 44196;
+
 	struct alignas(8) BBJMPFPPLFM
 	{
 		::Il2CppArray<::DEIPGFGBEMG*>* ACJMMAMOOLF; // 0x10

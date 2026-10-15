@@ -29,6 +29,8 @@ namespace System { class String; }
 #define PHPEPPKFMJO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF3F590)
 #define PHPEPPKFMJO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF3F5F0)
 
+inline static constexpr unsigned int PHPEPPKFMJO_TypeDefinitionIndex = 35129;
+
 	class PHPEPPKFMJO : public ::System::Object
 	{
 	public:

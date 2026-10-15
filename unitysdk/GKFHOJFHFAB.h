@@ -6,6 +6,8 @@
 #define GKFHOJFHFAB_CTOR_OFFSET UNITYSDK_OFFSET(0x15A96450)
 #define GKFHOJFHFAB_GPFICMJHBOA_OFFSET UNITYSDK_OFFSET(0x15A963D0)
 
+inline static constexpr unsigned int GKFHOJFHFAB_TypeDefinitionIndex = 56075;
+
 	class GKFHOJFHFAB : public ::System::Object
 	{
 	public:

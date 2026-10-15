@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define AMJCOOEKGEN_PEMJOLDHFCH_OFFSET UNITYSDK_OFFSET(0x155820A0)
 #define AMJCOOEKGEN_PJPNKHDIPNG_OFFSET UNITYSDK_OFFSET(0x15581D90)
 
+inline static constexpr unsigned int AMJCOOEKGEN_TypeDefinitionIndex = 68426;
+
 	class AMJCOOEKGEN : public ::System::Object
 	{
 	public:

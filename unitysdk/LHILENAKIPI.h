@@ -29,6 +29,8 @@ namespace System { class String; }
 #define LHILENAKIPI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E961E00)
 #define LHILENAKIPI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E961E60)
 
+inline static constexpr unsigned int LHILENAKIPI_TypeDefinitionIndex = 30174;
+
 	class LHILENAKIPI : public ::System::Object
 	{
 	public:

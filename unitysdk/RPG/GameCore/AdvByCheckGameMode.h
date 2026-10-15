@@ -14,6 +14,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvByCheckGameMode_TypeDefinitionIndex = 20779;
+
 	class AdvByCheckGameMode : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

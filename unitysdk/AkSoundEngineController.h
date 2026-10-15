@@ -16,6 +16,8 @@ class AkSoundEngineController;
 #define AKSOUNDENGINECONTROLLER_SETMAXPROCESSCOUNTPERFRAME_OFFSET UNITYSDK_OFFSET(0x1F5E0780)
 #define AKSOUNDENGINECONTROLLER_TERMINATE_OFFSET UNITYSDK_OFFSET(0x1F5E05E0)
 
+inline static constexpr unsigned int AkSoundEngineController_TypeDefinitionIndex = 44950;
+
 	class AkSoundEngineController : public ::System::Object
 	{
 	public:

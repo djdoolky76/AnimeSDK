@@ -33,6 +33,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define CFEFEPIDGKB_PBDAFAKBCGM_OFFSET UNITYSDK_OFFSET(0x1C5CA990)
 #define CFEFEPIDGKB_SET_NEXTINPUTACTION_OFFSET UNITYSDK_OFFSET(0x1C5CC460)
 
+inline static constexpr unsigned int CFEFEPIDGKB_TypeDefinitionIndex = 37147;
+
 	class CFEFEPIDGKB : public ::System::Object
 	{
 	public:

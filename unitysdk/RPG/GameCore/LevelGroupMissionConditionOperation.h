@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelGroupMissionConditionOperation_TypeDefinitionIndex = 17179;
+
 	enum class LevelGroupMissionConditionOperation : ::System::Int32
 	{
 		And = 0,

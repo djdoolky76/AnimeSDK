@@ -16,6 +16,8 @@ namespace UnityEngine { class Transform; }
 #define AKCIAIIKLGE_LELLOGCMCKK_OFFSET UNITYSDK_OFFSET(0x12CCC3E0)
 #define AKCIAIIKLGE_NLBNJGKAMII_OFFSET UNITYSDK_OFFSET(0x12CCC320)
 
+inline static constexpr unsigned int AKCIAIIKLGE_TypeDefinitionIndex = 53954;
+
 	class AKCIAIIKLGE : public ::KKEFMOKEJIF
 	{
 	public:

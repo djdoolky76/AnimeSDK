@@ -11,6 +11,8 @@ namespace System { template <typename T> class Predicate_1; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EvolveBuildSelectCardData___c_TypeDefinitionIndex = 53574;
+
 	class EvolveBuildSelectCardData___c : public ::System::Object
 	{
 	public:

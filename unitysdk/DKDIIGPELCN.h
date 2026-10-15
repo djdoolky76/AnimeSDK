@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define DKDIIGPELCN_GETCONTEXT_OFFSET UNITYSDK_OFFSET(0xF876060)
 #define DKDIIGPELCN_HHPLMCPDFEG_OFFSET UNITYSDK_OFFSET(0xF8760E0)
 
+inline static constexpr unsigned int DKDIIGPELCN_TypeDefinitionIndex = 73418;
+
 	class DKDIIGPELCN : public ::System::Object
 	{
 	public:

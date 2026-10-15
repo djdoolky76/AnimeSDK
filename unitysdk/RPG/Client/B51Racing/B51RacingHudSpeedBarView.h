@@ -17,6 +17,8 @@ namespace UnityEngine::UI { class Slider; }
 
 namespace RPG::Client::B51Racing
 {
+	inline static constexpr unsigned int B51RacingHudSpeedBarView_TypeDefinitionIndex = 81904;
+
 	class B51RacingHudSpeedBarView : public ::UnityEngine::MonoBehaviour
 	{
 	public:

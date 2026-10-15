@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ActionEvent_2_TypeDefinitionIndex = 59606;
+
 	template <typename T1, typename T2>
 	class ActionEvent_2 : public ::System::Object
 	{

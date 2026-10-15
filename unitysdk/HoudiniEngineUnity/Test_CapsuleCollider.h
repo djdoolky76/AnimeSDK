@@ -10,6 +10,8 @@ namespace UnityEngine { class CapsuleCollider; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int Test_CapsuleCollider_TypeDefinitionIndex = 40728;
+
 	class Test_CapsuleCollider : public ::System::Object
 	{
 	public:

@@ -16,6 +16,8 @@ namespace System { class String; }
 
 namespace Google::Protobuf
 {
+	inline static constexpr unsigned int InvalidProtocolBufferException_TypeDefinitionIndex = 5401;
+
 	class InvalidProtocolBufferException : public ::System::IO::IOException
 	{
 	public:

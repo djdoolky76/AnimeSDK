@@ -31,6 +31,8 @@ namespace System { class String; }
 #define CBINFLPNCFD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E06BDB0)
 #define CBINFLPNCFD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E06BE10)
 
+inline static constexpr unsigned int CBINFLPNCFD_TypeDefinitionIndex = 25136;
+
 	class CBINFLPNCFD : public ::System::Object
 	{
 	public:

@@ -13,6 +13,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEffectPluginRotate_RotateNode_TypeDefinitionIndex = 70106;
+
 	class MonoEffectPluginRotate_RotateNode : public ::System::Object
 	{
 	public:

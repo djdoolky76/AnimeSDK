@@ -9,6 +9,8 @@ namespace System { class String; }
 #define NDDDCIEFCNJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1D1F7B20)
 #define NDDDCIEFCNJ_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D1F78C0)
 
+inline static constexpr unsigned int NDDDCIEFCNJ_TypeDefinitionIndex = 14438;
+
 	class NDDDCIEFCNJ : public ::System::Object
 	{
 	public:

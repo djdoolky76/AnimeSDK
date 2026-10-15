@@ -4,6 +4,8 @@ namespace RPG::Client { class Airship; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Airship_AirshipChildConfig_TypeDefinitionIndex = 59788;
+
 	struct alignas(8) Airship_AirshipChildConfig
 	{
 		::System::Single distance; // 0x10

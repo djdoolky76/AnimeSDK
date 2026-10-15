@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightRoleSwitchConfigRow; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightGameTrait___c__DisplayClass29_0_TypeDefinitionIndex = 65418;
+
 	class GridFightGameTrait___c__DisplayClass29_0 : public ::System::Object
 	{
 	public:

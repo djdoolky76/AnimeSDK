@@ -65,6 +65,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define EHBKEOKCMOF_SET_TESTATTRIBUTE_OFFSET UNITYSDK_OFFSET(0x154A2160)
 #define EHBKEOKCMOF_SET_TOTALLOGINFAILEDCOUNT_OFFSET UNITYSDK_OFFSET(0x154A2180)
 
+inline static constexpr unsigned int EHBKEOKCMOF_TypeDefinitionIndex = 61110;
+
 	class EHBKEOKCMOF : public ::RPG::Client::BasePhaseContext
 	{
 	public:

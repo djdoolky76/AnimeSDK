@@ -19,6 +19,8 @@ namespace RPG::GameCore { class RestaurantAbilityConfigRow; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ElfAbilityData_TypeDefinitionIndex = 63662;
+
 	class ElfAbilityData : public ::System::Object
 	{
 	public:

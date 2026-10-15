@@ -9,6 +9,8 @@ namespace UnityEngine { class Renderer; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int DeformationCasterCleanupMonoPlugin_TypeDefinitionIndex = 70267;
+
 	class DeformationCasterCleanupMonoPlugin
 	{
 	public:

@@ -11,6 +11,8 @@ namespace UnityEngine::EventSystems { class PointerEventData; }
 
 namespace TMPro
 {
+	inline static constexpr unsigned int TMP_ScrollbarEventHandler_TypeDefinitionIndex = 44627;
+
 	class TMP_ScrollbarEventHandler : public ::UnityEngine::MonoBehaviour
 	{
 	public:

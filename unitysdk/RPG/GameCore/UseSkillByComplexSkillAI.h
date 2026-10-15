@@ -10,6 +10,8 @@ namespace RPG::GameCore { class UseSkillByComplexSkillAI; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int UseSkillByComplexSkillAI_TypeDefinitionIndex = 22437;
+
 	class UseSkillByComplexSkillAI : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -8,6 +8,8 @@ namespace UnityEngine { class Transform; }
 
 namespace BansheeGz::BGSpline::Components
 {
+	inline static constexpr unsigned int BGPolylineSplitter_Config_TypeDefinitionIndex = 36065;
+
 	class BGPolylineSplitter_Config : public ::System::Object
 	{
 	public:

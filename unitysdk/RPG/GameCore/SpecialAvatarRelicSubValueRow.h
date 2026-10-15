@@ -14,6 +14,8 @@ namespace RPG::GameCore { class SpecialAvatarRelicSubValueRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SpecialAvatarRelicSubValueRow_TypeDefinitionIndex = 15119;
+
 	class SpecialAvatarRelicSubValueRow : public ::System::Object
 	{
 	public:

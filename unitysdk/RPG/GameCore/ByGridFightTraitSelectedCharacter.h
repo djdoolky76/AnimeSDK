@@ -15,6 +15,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByGridFightTraitSelectedCharacter_TypeDefinitionIndex = 22521;
+
 	class ByGridFightTraitSelectedCharacter : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

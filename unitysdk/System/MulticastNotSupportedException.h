@@ -11,6 +11,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System
 {
+	inline static constexpr unsigned int MulticastNotSupportedException_TypeDefinitionIndex = 302;
+
 	class MulticastNotSupportedException : public ::System::SystemException
 	{
 	public:

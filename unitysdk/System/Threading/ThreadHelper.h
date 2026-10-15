@@ -15,6 +15,8 @@ namespace System::Threading { class ExecutionContext; }
 
 namespace System::Threading
 {
+	inline static constexpr unsigned int ThreadHelper_TypeDefinitionIndex = 849;
+
 	class ThreadHelper : public ::System::Object
 	{
 	public:

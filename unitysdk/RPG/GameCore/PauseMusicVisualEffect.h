@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PauseMusicVisualEffect_TypeDefinitionIndex = 22311;
+
 	class PauseMusicVisualEffect : public ::RPG::GameCore::TaskConfig
 	{
 	public:

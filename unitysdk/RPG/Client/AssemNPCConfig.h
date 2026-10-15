@@ -19,6 +19,8 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AssemNPCConfig_TypeDefinitionIndex = 60004;
+
 	class AssemNPCConfig : public ::UnityEngine::ScriptableObject
 	{
 	public:

@@ -76,6 +76,8 @@ namespace System { class String; }
 #define EGLBADOKDEN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E297B10)
 #define EGLBADOKDEN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E297B70)
 
+inline static constexpr unsigned int EGLBADOKDEN_TypeDefinitionIndex = 28893;
+
 	class EGLBADOKDEN : public ::System::Object
 	{
 	public:

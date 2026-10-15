@@ -55,6 +55,8 @@ namespace System::Threading { class WaitCallback; }
 
 namespace System::Net
 {
+	inline static constexpr unsigned int FileWebRequest_TypeDefinitionIndex = 2808;
+
 	class FileWebRequest : public ::System::Net::WebRequest
 	{
 	public:

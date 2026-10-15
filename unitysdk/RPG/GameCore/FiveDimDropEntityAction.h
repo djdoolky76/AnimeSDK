@@ -11,6 +11,8 @@ namespace RPG::GameCore { class FiveDimDropEntityAction; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimDropEntityAction_TypeDefinitionIndex = 18714;
+
 	class FiveDimDropEntityAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
 	public:

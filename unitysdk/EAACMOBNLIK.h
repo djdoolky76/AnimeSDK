@@ -54,6 +54,8 @@ namespace System::Collections { class IEnumerator; }
 #define EAACMOBNLIK_PLFFJAIOOGP_OFFSET UNITYSDK_OFFSET(0x1266A160)
 #define EAACMOBNLIK_PMAKJMHHIFO_OFFSET UNITYSDK_OFFSET(0x1266EAE0)
 
+inline static constexpr unsigned int EAACMOBNLIK_TypeDefinitionIndex = 76906;
+
 	class EAACMOBNLIK : public ::System::Object
 	{
 	public:

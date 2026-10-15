@@ -35,6 +35,8 @@ class IPGIJFNAFLC;
 #define MJNKLCGPCLI_OKKOBFLMNAK_OFFSET UNITYSDK_OFFSET(0xB973ED0)
 #define MJNKLCGPCLI_TEARDOWN_OFFSET UNITYSDK_OFFSET(0xB972F90)
 
+inline static constexpr unsigned int MJNKLCGPCLI_TypeDefinitionIndex = 76586;
+
 	class MJNKLCGPCLI : public ::System::Object
 	{
 	public:

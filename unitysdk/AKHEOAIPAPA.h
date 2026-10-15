@@ -37,6 +37,8 @@ namespace System { class String; }
 #define AKHEOAIPAPA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E3CC5B0)
 #define AKHEOAIPAPA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E3CC610)
 
+inline static constexpr unsigned int AKHEOAIPAPA_TypeDefinitionIndex = 27044;
+
 	class AKHEOAIPAPA : public ::System::Object
 	{
 	public:

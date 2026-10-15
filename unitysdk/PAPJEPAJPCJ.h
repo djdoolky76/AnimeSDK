@@ -29,6 +29,8 @@ namespace System { class String; }
 #define PAPJEPAJPCJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DEF31C0)
 #define PAPJEPAJPCJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DEF3220)
 
+inline static constexpr unsigned int PAPJEPAJPCJ_TypeDefinitionIndex = 25439;
+
 	class PAPJEPAJPCJ : public ::System::Object
 	{
 	public:

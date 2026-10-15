@@ -22,6 +22,8 @@ namespace System { class String; }
 
 namespace RPG::Client::HimekoNovaSpecialSkill
 {
+	inline static constexpr unsigned int HimekoNovaSpecialSkillTabViewModel_TypeDefinitionIndex = 80496;
+
 	class HimekoNovaSpecialSkillTabViewModel : public ::Sofa::Core::ObservableObject
 	{
 	public:

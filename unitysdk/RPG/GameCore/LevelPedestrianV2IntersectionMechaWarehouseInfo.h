@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelPedestrianV2IntersectionMechaWarehouseInfo_TypeDefinitionIndex = 17302;
+
 	class LevelPedestrianV2IntersectionMechaWarehouseInfo : public ::RPG::GameCore::LevelPedestrianV2IntersectionInfo
 	{
 	public:

@@ -28,6 +28,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::Protobuf::Reflection
 {
+	inline static constexpr unsigned int SourceCodeInfo_TypeDefinitionIndex = 35810;
+
 	class SourceCodeInfo : public ::System::Object
 	{
 	public:

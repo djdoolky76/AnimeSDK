@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace RPG::Client::B51Racing
 {
+	inline static constexpr unsigned int MonoB51RacingGameplayRoundHint___DeactivateAfter_d__5_TypeDefinitionIndex = 81896;
+
 	template <typename T1, typename T2, typename T3, typename T4, typename T5>
 	class MonoB51RacingGameplayRoundHint___DeactivateAfter_d__5 : public ::System::Object
 	{

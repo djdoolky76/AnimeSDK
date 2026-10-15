@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueEventSpecialOptionRow_TypeDefinitionIndex = 14816;
+
 	class RogueEventSpecialOptionRow : public ::System::Object
 	{
 	public:

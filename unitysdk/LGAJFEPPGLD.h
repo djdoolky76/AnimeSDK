@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define LGAJFEPPGLD_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB68BF60)
 #define LGAJFEPPGLD_FFPNHDPLHJB_OFFSET UNITYSDK_OFFSET(0xB68C280)
 
+inline static constexpr unsigned int LGAJFEPPGLD_TypeDefinitionIndex = 69750;
+
 	class LGAJFEPPGLD : public ::System::Object
 	{
 	public:

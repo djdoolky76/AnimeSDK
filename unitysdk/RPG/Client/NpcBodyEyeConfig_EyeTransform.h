@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int NpcBodyEyeConfig_EyeTransform_TypeDefinitionIndex = 60052;
+
 	class NpcBodyEyeConfig_EyeTransform : public ::System::Object
 	{
 	public:

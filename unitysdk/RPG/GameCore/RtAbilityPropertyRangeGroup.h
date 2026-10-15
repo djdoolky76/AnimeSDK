@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RtAbilityPropertyRangeGroup_TypeDefinitionIndex = 17661;
+
 	class RtAbilityPropertyRangeGroup : public ::RPG::GameCore::JsonConfig
 	{
 	public:

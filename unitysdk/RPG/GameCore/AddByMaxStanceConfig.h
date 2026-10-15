@@ -10,6 +10,8 @@ namespace RPG::GameCore { class DynamicFloat; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AddByMaxStanceConfig_TypeDefinitionIndex = 18183;
+
 	class AddByMaxStanceConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -8,6 +8,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define KNHEEDINCGG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB584290)
 #define KNHEEDINCGG__ONTASKBEGIN_B__1_0_OFFSET UNITYSDK_OFFSET(0xB584520)
 
+inline static constexpr unsigned int KNHEEDINCGG_TypeDefinitionIndex = 52765;
+
 	class KNHEEDINCGG
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define EDKHIJKIPLM___C___GETTEAMSPEEDSUM_B__4_0_OFFSET UNITYSDK_OFFSET(0x13326500)
 #define EDKHIJKIPLM___C___GETTEAMSPEEDSUM_B__4_1_OFFSET UNITYSDK_OFFSET(0x13326560)
 
+inline static constexpr unsigned int EDKHIJKIPLM___c_TypeDefinitionIndex = 65382;
+
 	class EDKHIJKIPLM___c : public ::System::Object
 	{
 	public:

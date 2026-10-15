@@ -10,6 +10,8 @@ namespace RPG::GameCore { class AdventureDyingParam; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdventureDyingParam_TypeDefinitionIndex = 20217;
+
 	class AdventureDyingParam : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -28,6 +28,8 @@ namespace RPG::GameCore { class MunicipalChatActionBase; }
 #define MAGCBFJCKLE_SET_ISPLAYING_OFFSET UNITYSDK_OFFSET(0xB84D550)
 #define MAGCBFJCKLE_SET_ISWAITING_OFFSET UNITYSDK_OFFSET(0xB84D590)
 
+inline static constexpr unsigned int MAGCBFJCKLE_TypeDefinitionIndex = 69190;
+
 	class MAGCBFJCKLE : public ::System::Object
 	{
 	public:

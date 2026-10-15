@@ -8,6 +8,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define CDPBKGPCDOJ_CTOR_OFFSET UNITYSDK_OFFSET(0xC776540)
 #define CDPBKGPCDOJ_ENNJBMNBLNA_OFFSET UNITYSDK_OFFSET(0xC776550)
 
+inline static constexpr unsigned int CDPBKGPCDOJ_TypeDefinitionIndex = 55975;
+
 	class CDPBKGPCDOJ : public ::PGOOHIHKHNJ
 	{
 	public:

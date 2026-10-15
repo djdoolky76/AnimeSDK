@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetAttachEffectTimeSlow_TypeDefinitionIndex = 22883;
+
 	class SetAttachEffectTimeSlow : public ::RPG::GameCore::TaskConfig
 	{
 	public:

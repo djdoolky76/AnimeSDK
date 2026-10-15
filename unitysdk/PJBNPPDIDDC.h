@@ -37,6 +37,8 @@ namespace System { class String; }
 #define PJBNPPDIDDC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF73780)
 #define PJBNPPDIDDC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF737E0)
 
+inline static constexpr unsigned int PJBNPPDIDDC_TypeDefinitionIndex = 29101;
+
 	class PJBNPPDIDDC : public ::System::Object
 	{
 	public:

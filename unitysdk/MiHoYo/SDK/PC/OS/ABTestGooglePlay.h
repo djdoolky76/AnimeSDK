@@ -19,6 +19,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace MiHoYo::SDK::PC::OS
 {
+	inline static constexpr unsigned int ABTestGooglePlay_TypeDefinitionIndex = 8715;
+
 	class ABTestGooglePlay : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define FBGAKELNFDP___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E335450)
 #define FBGAKELNFDP___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E335460)
 
+inline static constexpr unsigned int FBGAKELNFDP___c_TypeDefinitionIndex = 29780;
+
 	class FBGAKELNFDP___c : public ::System::Object
 	{
 	public:

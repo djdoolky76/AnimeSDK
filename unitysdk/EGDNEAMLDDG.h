@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define EGDNEAMLDDG_SET_DRESSEDSKIN_OFFSET UNITYSDK_OFFSET(0x13A64530)
 #define EGDNEAMLDDG_SET_SKINIDS_OFFSET UNITYSDK_OFFSET(0x13A64550)
 
+inline static constexpr unsigned int EGDNEAMLDDG_TypeDefinitionIndex = 51917;
+
 	class EGDNEAMLDDG : public ::System::Object
 	{
 	public:

@@ -26,6 +26,8 @@ namespace System::Net::Sockets { class Socket; }
 
 namespace System::Net::Sockets
 {
+	inline static constexpr unsigned int TcpClient_TypeDefinitionIndex = 2914;
+
 	class TcpClient : public ::System::Object
 	{
 	public:

@@ -14,6 +14,8 @@ namespace UnityEngine { class Mesh; }
 
 namespace UnityEngine::Formats::Alembic::Importer
 {
+	inline static constexpr unsigned int AlembicMesh_Split_TypeDefinitionIndex = 45856;
+
 	class AlembicMesh_Split : public ::System::Object
 	{
 	public:

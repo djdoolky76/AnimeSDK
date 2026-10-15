@@ -12,6 +12,8 @@ namespace System { class String; }
 #define NAELLAJBMAC_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D1E5FA0)
 #define NAELLAJBMAC_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D1E5F60)
 
+inline static constexpr unsigned int NAELLAJBMAC_TypeDefinitionIndex = 21498;
+
 	class NAELLAJBMAC : public ::RPG::GameCore::TaskConfig
 	{
 	public:

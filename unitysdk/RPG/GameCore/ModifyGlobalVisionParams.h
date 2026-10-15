@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ModifyGlobalVisionParams; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ModifyGlobalVisionParams_TypeDefinitionIndex = 20553;
+
 	class ModifyGlobalVisionParams : public ::RPG::GameCore::TaskConfig
 	{
 	public:

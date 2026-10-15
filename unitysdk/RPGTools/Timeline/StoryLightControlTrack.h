@@ -12,6 +12,8 @@ namespace UnityEngine::Timeline { class TimelineClip; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int StoryLightControlTrack_TypeDefinitionIndex = 48345;
+
 	class StoryLightControlTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
 	public:

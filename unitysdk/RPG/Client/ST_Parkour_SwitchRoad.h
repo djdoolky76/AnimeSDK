@@ -10,6 +10,8 @@ namespace RPG::Client { class ST_Parkour_SwitchRoad; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ST_Parkour_SwitchRoad_TypeDefinitionIndex = 10269;
+
 	class ST_Parkour_SwitchRoad : public ::RPG::GameCore::STTaskConfig
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class DiceCombatAIEffectEvaluatorConfig_DiceAllSequenc
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DiceCombatAIEffectEvaluatorConfig_DiceAllSequence_TypeDefinitionIndex = 16178;
+
 	class DiceCombatAIEffectEvaluatorConfig_DiceAllSequence : public ::RPG::GameCore::DiceCombatAIEffectEvaluatorConfig
 	{
 	public:

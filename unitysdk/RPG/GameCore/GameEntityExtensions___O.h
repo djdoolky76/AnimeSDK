@@ -6,6 +6,8 @@ namespace System { template <typename T> class Comparison_1; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GameEntityExtensions___O_TypeDefinitionIndex = 57794;
+
 	class GameEntityExtensions___O : public ::System::Object
 	{
 	public:

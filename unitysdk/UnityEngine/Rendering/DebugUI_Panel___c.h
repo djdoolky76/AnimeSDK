@@ -11,6 +11,8 @@ namespace UnityEngine::Rendering { class DebugUI_Panel; }
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int DebugUI_Panel___c_TypeDefinitionIndex = 35544;
+
 	class DebugUI_Panel___c : public ::System::Object
 	{
 	public:

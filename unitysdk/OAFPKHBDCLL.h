@@ -9,6 +9,8 @@ namespace RPG::GameCore { class StaticProjectileData; }
 #define OAFPKHBDCLL_MGFLFCHMGPA_OFFSET UNITYSDK_OFFSET(0xBD20290)
 #define OAFPKHBDCLL_PGKPGNJJMMB_OFFSET UNITYSDK_OFFSET(0xBD20FF0)
 
+inline static constexpr unsigned int OAFPKHBDCLL_TypeDefinitionIndex = 54760;
+
 	class OAFPKHBDCLL : public ::GGJEMEHMBNL
 	{
 	public:

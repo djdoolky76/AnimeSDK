@@ -56,6 +56,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define JOKBBIDAKOF_SET_SUCCESSINPUT_OFFSET UNITYSDK_OFFSET(0xB2A6800)
 #define JOKBBIDAKOF_SET_TUTORIALSCORE_OFFSET UNITYSDK_OFFSET(0xB2A6780)
 
+inline static constexpr unsigned int JOKBBIDAKOF_TypeDefinitionIndex = 60173;
+
 	class JOKBBIDAKOF : public ::System::Object
 	{
 	public:

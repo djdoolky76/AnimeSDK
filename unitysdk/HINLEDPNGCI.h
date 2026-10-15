@@ -7,6 +7,8 @@ namespace RPG::Client { class MonoDanmuItem; }
 #define HINLEDPNGCI_CTOR_OFFSET UNITYSDK_OFFSET(0x15CF94F0)
 #define HINLEDPNGCI_JDEKJLHMPLG_OFFSET UNITYSDK_OFFSET(0x15CF93A0)
 
+inline static constexpr unsigned int HINLEDPNGCI_TypeDefinitionIndex = 68944;
+
 	class HINLEDPNGCI : public ::System::Object
 	{
 	public:

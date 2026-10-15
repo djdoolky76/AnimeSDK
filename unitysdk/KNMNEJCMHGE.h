@@ -29,6 +29,8 @@ namespace System { class String; }
 #define KNMNEJCMHGE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E8A7DF0)
 #define KNMNEJCMHGE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E8A7E50)
 
+inline static constexpr unsigned int KNMNEJCMHGE_TypeDefinitionIndex = 33267;
+
 	class KNMNEJCMHGE : public ::System::Object
 	{
 	public:

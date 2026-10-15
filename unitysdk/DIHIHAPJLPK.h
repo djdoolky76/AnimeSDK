@@ -53,6 +53,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define DIHIHAPJLPK_SET_HASINTERACTHANDLER_OFFSET UNITYSDK_OFFSET(0xF20AB80)
 #define DIHIHAPJLPK_SET_INSTANCEID_OFFSET UNITYSDK_OFFSET(0xF20AB60)
 
+inline static constexpr unsigned int DIHIHAPJLPK_TypeDefinitionIndex = 57310;
+
 	class DIHIHAPJLPK : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

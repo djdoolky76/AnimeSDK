@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define DPINEFIMELG_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x12640DA0)
 #define DPINEFIMELG_TICK_OFFSET UNITYSDK_OFFSET(0x12640DF0)
 
+inline static constexpr unsigned int DPINEFIMELG_TypeDefinitionIndex = 56451;
+
 	class DPINEFIMELG : public ::GELIALJDFBL
 	{
 	public:

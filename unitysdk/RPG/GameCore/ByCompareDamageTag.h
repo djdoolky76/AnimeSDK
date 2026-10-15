@@ -14,6 +14,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByCompareDamageTag_TypeDefinitionIndex = 23570;
+
 	class ByCompareDamageTag : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

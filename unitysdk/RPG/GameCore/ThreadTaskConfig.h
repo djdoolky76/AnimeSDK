@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ThreadTaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ThreadTaskConfig_TypeDefinitionIndex = 24402;
+
 	class ThreadTaskConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

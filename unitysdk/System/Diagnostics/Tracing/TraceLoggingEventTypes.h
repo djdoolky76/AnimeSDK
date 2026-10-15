@@ -22,6 +22,8 @@ namespace System::Reflection { class ParameterInfo; }
 
 namespace System::Diagnostics::Tracing
 {
+	inline static constexpr unsigned int TraceLoggingEventTypes_TypeDefinitionIndex = 1668;
+
 	class TraceLoggingEventTypes : public ::System::Object
 	{
 	public:

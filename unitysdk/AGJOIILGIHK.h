@@ -79,6 +79,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define AGJOIILGIHK_SET_ROOMOWNERUID_OFFSET UNITYSDK_OFFSET(0xCF3C110)
 #define AGJOIILGIHK_SET_ROOMPOPULARITYVALUE_OFFSET UNITYSDK_OFFSET(0xCF3C130)
 
+inline static constexpr unsigned int AGJOIILGIHK_TypeDefinitionIndex = 66409;
+
 	class AGJOIILGIHK : public ::System::Object
 	{
 	public:

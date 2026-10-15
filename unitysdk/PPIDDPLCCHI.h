@@ -6,6 +6,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 
 #define PPIDDPLCCHI_CCTOR_OFFSET UNITYSDK_OFFSET(0xC3873D0)
 
+inline static constexpr unsigned int PPIDDPLCCHI_TypeDefinitionIndex = 73872;
+
 	class PPIDDPLCCHI : public ::System::Object
 	{
 	public:

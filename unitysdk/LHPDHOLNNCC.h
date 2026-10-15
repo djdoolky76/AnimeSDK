@@ -8,6 +8,8 @@ class OMAOANEABAP;
 #define LHPDHOLNNCC_CTOR_OFFSET UNITYSDK_OFFSET(0x1D0F4DA0)
 #define LHPDHOLNNCC_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D0F4C50)
 
+inline static constexpr unsigned int LHPDHOLNNCC_TypeDefinitionIndex = 12895;
+
 	class LHPDHOLNNCC : public ::System::Object
 	{
 	public:

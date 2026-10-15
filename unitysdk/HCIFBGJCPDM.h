@@ -25,6 +25,8 @@ namespace System { class String; }
 #define HCIFBGJCPDM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E540170)
 #define HCIFBGJCPDM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E5401D0)
 
+inline static constexpr unsigned int HCIFBGJCPDM_TypeDefinitionIndex = 29314;
+
 	class HCIFBGJCPDM : public ::System::Object
 	{
 	public:

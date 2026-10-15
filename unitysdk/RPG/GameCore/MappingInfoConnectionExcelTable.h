@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MappingInfoConnectionExcelTable_TypeDefinitionIndex = 12575;
+
 	class MappingInfoConnectionExcelTable : public ::System::Object
 	{
 	public:

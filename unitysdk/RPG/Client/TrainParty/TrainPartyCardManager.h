@@ -30,6 +30,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::TrainParty
 {
+	inline static constexpr unsigned int TrainPartyCardManager_TypeDefinitionIndex = 74317;
+
 	class TrainPartyCardManager : public ::System::Object
 	{
 	public:

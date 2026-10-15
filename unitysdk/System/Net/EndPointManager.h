@@ -19,6 +19,8 @@ namespace System::Net { class IPEndPoint; }
 
 namespace System::Net
 {
+	inline static constexpr unsigned int EndPointManager_TypeDefinitionIndex = 2836;
+
 	class EndPointManager : public ::System::Object
 	{
 	public:

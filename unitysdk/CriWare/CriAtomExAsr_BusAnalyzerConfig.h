@@ -3,6 +3,8 @@
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriAtomExAsr_BusAnalyzerConfig_TypeDefinitionIndex = 40004;
+
 	struct alignas(4) CriAtomExAsr_BusAnalyzerConfig
 	{
 		::System::Int32 interval; // 0x10

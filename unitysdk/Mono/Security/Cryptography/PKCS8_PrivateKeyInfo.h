@@ -18,6 +18,8 @@ namespace System::Security::Cryptography { class RSA; }
 
 namespace Mono::Security::Cryptography
 {
+	inline static constexpr unsigned int PKCS8_PrivateKeyInfo_TypeDefinitionIndex = 73;
+
 	class PKCS8_PrivateKeyInfo : public ::System::Object
 	{
 	public:

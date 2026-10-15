@@ -10,6 +10,8 @@ namespace RPG::Client { class BattlePhaseNew; }
 #define BJHICMCKBPE_GGOCOPIHDGK_OFFSET UNITYSDK_OFFSET(0xB79A5B0)
 #define BJHICMCKBPE_TICK_OFFSET UNITYSDK_OFFSET(0xB79A4A0)
 
+inline static constexpr unsigned int BJHICMCKBPE_TypeDefinitionIndex = 61311;
+
 	class BJHICMCKBPE : public ::System::Object
 	{
 	public:

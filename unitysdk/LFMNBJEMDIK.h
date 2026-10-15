@@ -20,6 +20,8 @@ namespace RPG::GameCore { class TrainPassengerConfigRow; }
 #define LFMNBJEMDIK_SET_OVERRIDEINFO_OFFSET UNITYSDK_OFFSET(0xB685870)
 #define LFMNBJEMDIK_SET_PASSENGERID_OFFSET UNITYSDK_OFFSET(0xB685790)
 
+inline static constexpr unsigned int LFMNBJEMDIK_TypeDefinitionIndex = 68152;
+
 	class LFMNBJEMDIK : public ::System::Object
 	{
 	public:

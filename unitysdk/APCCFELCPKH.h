@@ -98,6 +98,8 @@ namespace UnityEngine { class Transform; }
 #define APCCFELCPKH_PPEAFLLAEKB_OFFSET UNITYSDK_OFFSET(0x158CE150)
 #define APCCFELCPKH__ENTERBUILDCAMERA_B__4_0_OFFSET UNITYSDK_OFFSET(0x15BA05A0)
 
+inline static constexpr unsigned int APCCFELCPKH_TypeDefinitionIndex = 60234;
+
 	class APCCFELCPKH : public ::System::Object
 	{
 	public:

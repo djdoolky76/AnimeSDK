@@ -8,6 +8,8 @@ namespace System { class Exception; }
 #define EJOKHBOJHNA___C__DISPLAYCLASS19_0_CTOR_OFFSET UNITYSDK_OFFSET(0x154F4F10)
 #define EJOKHBOJHNA___C__DISPLAYCLASS19_0___ENDMATCHANDADVANCE_B__0_OFFSET UNITYSDK_OFFSET(0x154F6050)
 
+inline static constexpr unsigned int EJOKHBOJHNA___c__DisplayClass19_0_TypeDefinitionIndex = 81849;
+
 	class EJOKHBOJHNA___c__DisplayClass19_0 : public ::System::Object
 	{
 	public:

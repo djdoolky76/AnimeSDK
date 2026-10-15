@@ -20,6 +20,8 @@ namespace System::Collections::Generic { class KeyValuePair; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int CalendarUtils_TypeDefinitionIndex = 9286;
+
 	class CalendarUtils : public ::System::Object
 	{
 	public:

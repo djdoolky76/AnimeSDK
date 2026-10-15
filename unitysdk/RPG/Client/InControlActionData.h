@@ -44,6 +44,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int InControlActionData_TypeDefinitionIndex = 61295;
+
 	class InControlActionData : public ::System::Object
 	{
 	public:

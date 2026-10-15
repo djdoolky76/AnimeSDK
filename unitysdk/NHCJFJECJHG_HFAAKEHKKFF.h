@@ -5,6 +5,8 @@ namespace UnityEngine { class GUIContent; }
 
 #define NHCJFJECJHG_HFAAKEHKKFF_CCTOR_OFFSET UNITYSDK_OFFSET(0xBBBE580)
 
+inline static constexpr unsigned int NHCJFJECJHG_HFAAKEHKKFF_TypeDefinitionIndex = 47775;
+
 	class NHCJFJECJHG_HFAAKEHKKFF : public ::System::Object
 	{
 	public:

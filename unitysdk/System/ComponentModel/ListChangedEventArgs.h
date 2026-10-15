@@ -8,6 +8,8 @@
 
 namespace System::ComponentModel
 {
+	inline static constexpr unsigned int ListChangedEventArgs_TypeDefinitionIndex = 2610;
+
 	class ListChangedEventArgs : public ::System::EventArgs
 	{
 	public:

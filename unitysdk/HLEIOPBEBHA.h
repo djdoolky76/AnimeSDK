@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define HLEIOPBEBHA_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CEC01C0)
 #define HLEIOPBEBHA_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CEBFAE0)
 
+inline static constexpr unsigned int HLEIOPBEBHA_TypeDefinitionIndex = 11727;
+
 	class HLEIOPBEBHA : public ::System::Object
 	{
 	public:

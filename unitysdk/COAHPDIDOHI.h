@@ -65,6 +65,8 @@ namespace System { class String; }
 #define COAHPDIDOHI_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xDCB1090)
 #define COAHPDIDOHI_TICK_OFFSET UNITYSDK_OFFSET(0xDCAE450)
 
+inline static constexpr unsigned int COAHPDIDOHI_TypeDefinitionIndex = 52214;
+
 	class COAHPDIDOHI
 	{
 	public:

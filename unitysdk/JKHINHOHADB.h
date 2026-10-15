@@ -8,6 +8,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define JKHINHOHADB_CTOR_OFFSET UNITYSDK_OFFSET(0xB21D230)
 #define JKHINHOHADB_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB21D400)
 
+inline static constexpr unsigned int JKHINHOHADB_TypeDefinitionIndex = 52356;
+
 	class JKHINHOHADB
 	{
 	public:

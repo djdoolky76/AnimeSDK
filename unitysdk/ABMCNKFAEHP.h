@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define ABMCNKFAEHP_HOIEGOENFHG_OFFSET UNITYSDK_OFFSET(0xB108860)
 #define ABMCNKFAEHP_MNAKIEOGPDK_OFFSET UNITYSDK_OFFSET(0xB1088F0)
 
+inline static constexpr unsigned int ABMCNKFAEHP_TypeDefinitionIndex = 54391;
+
 	class ABMCNKFAEHP : public ::JPEPPDMLPLG
 	{
 	public:

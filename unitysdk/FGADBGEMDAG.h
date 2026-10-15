@@ -29,6 +29,8 @@ namespace System { class String; }
 #define FGADBGEMDAG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E37A110)
 #define FGADBGEMDAG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E37A170)
 
+inline static constexpr unsigned int FGADBGEMDAG_TypeDefinitionIndex = 28088;
+
 	class FGADBGEMDAG : public ::System::Object
 	{
 	public:

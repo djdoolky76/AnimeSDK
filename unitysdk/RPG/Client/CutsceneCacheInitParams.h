@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CutsceneCacheInitParams_TypeDefinitionIndex = 59678;
+
 	class CutsceneCacheInitParams : public ::System::Object
 	{
 	public:

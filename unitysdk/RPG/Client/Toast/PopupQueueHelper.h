@@ -7,6 +7,8 @@ namespace System { class Object; }
 
 namespace RPG::Client::Toast
 {
+	inline static constexpr unsigned int PopupQueueHelper_TypeDefinitionIndex = 79003;
+
 	class PopupQueueHelper : public ::System::Object
 	{
 	public:

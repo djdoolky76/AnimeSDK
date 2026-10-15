@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TeamTowersIvyBlockComponentConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TeamTowersIvyBlockComponentConfig_TypeDefinitionIndex = 18946;
+
 	class TeamTowersIvyBlockComponentConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
 	public:

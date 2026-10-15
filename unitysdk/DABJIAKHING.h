@@ -8,6 +8,8 @@ namespace System { class String; }
 #define DABJIAKHING_CLMIFGMPLBN_OFFSET UNITYSDK_OFFSET(0xDFBB310)
 #define DABJIAKHING_NLCBLNNGOCH_OFFSET UNITYSDK_OFFSET(0xDFBAFC0)
 
+inline static constexpr unsigned int DABJIAKHING_TypeDefinitionIndex = 54068;
+
 	class DABJIAKHING : public ::System::Object
 	{
 	public:

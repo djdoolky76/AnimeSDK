@@ -78,6 +78,8 @@ namespace UnityEngine { class Transform; }
 #define ICNAPAAPBCI_PJAAPPBDAAG_OFFSET UNITYSDK_OFFSET(0x15E548C0)
 #define ICNAPAAPBCI_PNENIIMNDOA_OFFSET UNITYSDK_OFFSET(0x15E56200)
 
+inline static constexpr unsigned int ICNAPAAPBCI_TypeDefinitionIndex = 77808;
+
 	class ICNAPAAPBCI : public ::System::Object
 	{
 	public:

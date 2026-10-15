@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::PC::OS::CXHandheld
 {
+	inline static constexpr unsigned int HandheldAgeGateErrorDialog___c__DisplayClass21_0_TypeDefinitionIndex = 8785;
+
 	class HandheldAgeGateErrorDialog___c__DisplayClass21_0 : public ::System::Object
 	{
 	public:

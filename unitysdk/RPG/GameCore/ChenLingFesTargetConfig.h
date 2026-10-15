@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ChenLingFesTargetConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChenLingFesTargetConfig_TypeDefinitionIndex = 21494;
+
 	class ChenLingFesTargetConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

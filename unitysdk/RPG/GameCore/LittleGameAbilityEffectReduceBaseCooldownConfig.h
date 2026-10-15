@@ -11,6 +11,8 @@ namespace RPG::GameCore { class LittleGameAbilityEffectReduceBaseCooldownConfig;
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LittleGameAbilityEffectReduceBaseCooldownConfig_TypeDefinitionIndex = 21348;
+
 	class LittleGameAbilityEffectReduceBaseCooldownConfig : public ::RPG::GameCore::BaseLittleGameAbilityEffectConfig
 	{
 	public:

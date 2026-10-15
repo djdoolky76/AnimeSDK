@@ -15,6 +15,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PropMoveToV2_TypeDefinitionIndex = 21964;
+
 	class PropMoveToV2 : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -129,6 +129,8 @@ namespace UnityEngine { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PipelineCameraEngine_TypeDefinitionIndex = 69716;
+
 	class PipelineCameraEngine : public ::UnityEngine::MonoBehaviour
 	{
 	public:

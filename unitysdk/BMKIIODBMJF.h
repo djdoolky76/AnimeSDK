@@ -41,6 +41,8 @@ namespace System { class String; }
 #define BMKIIODBMJF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E02A8A0)
 #define BMKIIODBMJF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E02A900)
 
+inline static constexpr unsigned int BMKIIODBMJF_TypeDefinitionIndex = 25549;
+
 	class BMKIIODBMJF : public ::System::Object
 	{
 	public:

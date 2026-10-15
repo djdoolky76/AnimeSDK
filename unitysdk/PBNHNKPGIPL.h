@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int PBNHNKPGIPL_TypeDefinitionIndex = 34899;
+
 	enum class PBNHNKPGIPL : ::System::Int32
 	{
 		NLCDGIPGFDJ = 0,

@@ -27,6 +27,8 @@ namespace System { class String; }
 #define JGBPIBNACKP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E737470)
 #define JGBPIBNACKP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E7374D0)
 
+inline static constexpr unsigned int JGBPIBNACKP_TypeDefinitionIndex = 34913;
+
 	class JGBPIBNACKP : public ::System::Object
 	{
 	public:

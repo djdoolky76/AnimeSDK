@@ -27,6 +27,8 @@ namespace System { class String; }
 #define CJPOMFIDLOA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E0E7C00)
 #define CJPOMFIDLOA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E0E7C60)
 
+inline static constexpr unsigned int CJPOMFIDLOA_TypeDefinitionIndex = 29507;
+
 	class CJPOMFIDLOA : public ::System::Object
 	{
 	public:

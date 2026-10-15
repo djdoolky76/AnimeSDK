@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 #define CEAELAJJJHC_LJBCDJNNBJH_OFFSET UNITYSDK_OFFSET(0xC7796F0)
 #define CEAELAJJJHC_OIEOMLKFHGN_OFFSET UNITYSDK_OFFSET(0xC779D60)
 
+inline static constexpr unsigned int CEAELAJJJHC_TypeDefinitionIndex = 62046;
+
 	class CEAELAJJJHC : public ::BFLILCJMKDB
 	{
 	public:

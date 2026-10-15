@@ -18,6 +18,8 @@ namespace System { class String; }
 
 namespace Spine
 {
+	inline static constexpr unsigned int AttachmentTimeline_TypeDefinitionIndex = 39618;
+
 	class AttachmentTimeline : public ::Spine::Timeline
 	{
 	public:

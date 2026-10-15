@@ -7,6 +7,8 @@
 
 namespace InControl::UnityDeviceProfiles
 {
+	inline static constexpr unsigned int SpeedlinkStrikeWindowsUnityProfile_TypeDefinitionIndex = 41094;
+
 	class SpeedlinkStrikeWindowsUnityProfile : public ::InControl::InputDeviceProfile
 	{
 	public:

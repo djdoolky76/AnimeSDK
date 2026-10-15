@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TriggerMagicUnitOnScepter; }
 #define LMIMJCPNCPG_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB7C9EF0)
 #define LMIMJCPNCPG_TICK_OFFSET UNITYSDK_OFFSET(0xB7C9F40)
 
+inline static constexpr unsigned int LMIMJCPNCPG_TypeDefinitionIndex = 55741;
+
 	class LMIMJCPNCPG : public ::GELIALJDFBL
 	{
 	public:

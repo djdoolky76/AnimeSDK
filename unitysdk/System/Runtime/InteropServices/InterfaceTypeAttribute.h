@@ -7,6 +7,8 @@
 
 namespace System::Runtime::InteropServices
 {
+	inline static constexpr unsigned int InterfaceTypeAttribute_TypeDefinitionIndex = 1406;
+
 	class InterfaceTypeAttribute : public ::System::Attribute
 	{
 	public:

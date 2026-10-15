@@ -7,6 +7,8 @@ namespace System { class String; }
 #define OLEJICOFGEP_ALEBBJAFIOG_OFFSET UNITYSDK_OFFSET(0xBF02B10)
 #define OLEJICOFGEP_CTOR_OFFSET UNITYSDK_OFFSET(0xBF03200)
 
+inline static constexpr unsigned int OLEJICOFGEP_TypeDefinitionIndex = 64979;
+
 	class OLEJICOFGEP : public ::System::Object
 	{
 	public:

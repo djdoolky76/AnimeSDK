@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int ThreadDispatcher_MainThreadDispatcher_TypeDefinitionIndex = 8031;
+
 	class ThreadDispatcher_MainThreadDispatcher : public ::UnityEngine::MonoBehaviour
 	{
 	public:

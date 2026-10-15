@@ -13,6 +13,8 @@ namespace System { class Object; }
 #define KCOFICMBOMM_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB3443F0)
 #define KCOFICMBOMM_TICK_OFFSET UNITYSDK_OFFSET(0xB344930)
 
+inline static constexpr unsigned int KCOFICMBOMM_TypeDefinitionIndex = 52762;
+
 	class KCOFICMBOMM : public ::GELIALJDFBL
 	{
 	public:

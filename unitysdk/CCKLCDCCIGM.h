@@ -27,6 +27,8 @@ namespace System { class Action; }
 #define CCKLCDCCIGM_REMOVE_ONPLAYEREXITSTAGE_OFFSET UNITYSDK_OFFSET(0xC74C7A0)
 #define CCKLCDCCIGM_TEARDOWN_OFFSET UNITYSDK_OFFSET(0xC74CB70)
 
+inline static constexpr unsigned int CCKLCDCCIGM_TypeDefinitionIndex = 76953;
+
 	class CCKLCDCCIGM : public ::System::Object
 	{
 	public:

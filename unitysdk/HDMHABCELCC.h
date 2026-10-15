@@ -12,6 +12,8 @@ namespace UnityEngine::EventSystems { class PointerEventData; }
 #define HDMHABCELCC_ONDRAG_OFFSET UNITYSDK_OFFSET(0x15C3DC90)
 #define HDMHABCELCC_TICK_OFFSET UNITYSDK_OFFSET(0x15C3DC00)
 
+inline static constexpr unsigned int HDMHABCELCC_TypeDefinitionIndex = 65848;
+
 	class HDMHABCELCC : public ::System::Object
 	{
 	public:

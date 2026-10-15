@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelFeatureType_TypeDefinitionIndex = 17187;
+
 	enum class LevelFeatureType : ::System::Int32
 	{
 		Unknown = 0,

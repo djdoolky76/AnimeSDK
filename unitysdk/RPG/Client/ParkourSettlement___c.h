@@ -11,6 +11,8 @@ namespace System { template <typename T> class Predicate_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ParkourSettlement___c_TypeDefinitionIndex = 61862;
+
 	class ParkourSettlement___c : public ::System::Object
 	{
 	public:

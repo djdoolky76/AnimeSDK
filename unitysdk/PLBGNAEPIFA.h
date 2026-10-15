@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TriggerMazeMiniMapUI; }
 #define PLBGNAEPIFA_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC2ECAC0)
 #define PLBGNAEPIFA_TICK_OFFSET UNITYSDK_OFFSET(0xC2ECB10)
 
+inline static constexpr unsigned int PLBGNAEPIFA_TypeDefinitionIndex = 53451;
+
 	class PLBGNAEPIFA : public ::GELIALJDFBL
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System { class String; }
 #define ONLODOCLGPF_KBFDFOGDILL_OFFSET UNITYSDK_OFFSET(0xBF5D220)
 #define ONLODOCLGPF_TOSTRING_OFFSET UNITYSDK_OFFSET(0xBF5D370)
 
+inline static constexpr unsigned int ONLODOCLGPF_TypeDefinitionIndex = 49361;
+
 	class ONLODOCLGPF : public ::DGICFAFGCPA
 	{
 	public:

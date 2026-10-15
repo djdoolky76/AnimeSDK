@@ -65,6 +65,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define CEOJKPJCJCL_PBDALENLKOK_OFFSET UNITYSDK_OFFSET(0xC9F2ED0)
 #define CEOJKPJCJCL_PHDFPLAGOCK_OFFSET UNITYSDK_OFFSET(0xC9F0840)
 
+inline static constexpr unsigned int CEOJKPJCJCL_TypeDefinitionIndex = 57612;
+
 	class CEOJKPJCJCL : public ::System::Object
 	{
 	public:

@@ -33,6 +33,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define FGOLMOBLNCN_OHGEKNCGOEK_OFFSET UNITYSDK_OFFSET(0x1576E160)
 #define FGOLMOBLNCN_OLAIKKLDGHP_OFFSET UNITYSDK_OFFSET(0x1576E1C0)
 
+inline static constexpr unsigned int FGOLMOBLNCN_TypeDefinitionIndex = 66861;
+
 	class FGOLMOBLNCN : public ::System::Object
 	{
 	public:

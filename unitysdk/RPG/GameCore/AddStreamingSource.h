@@ -11,6 +11,8 @@ namespace RPG::GameCore { class StoryAdditionStreamingCenter; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AddStreamingSource_TypeDefinitionIndex = 21241;
+
 	class AddStreamingSource : public ::RPG::GameCore::TaskConfig
 	{
 	public:

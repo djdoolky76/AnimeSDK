@@ -9,6 +9,8 @@ namespace System { class Nullable; }
 #define KGIBEOCEEFK_CTOR_OFFSET UNITYSDK_OFFSET(0xB3ED790)
 #define KGIBEOCEEFK_EFOKNMPOIPE_OFFSET UNITYSDK_OFFSET(0xB3ED610)
 
+inline static constexpr unsigned int KGIBEOCEEFK_TypeDefinitionIndex = 54288;
+
 	class KGIBEOCEEFK : public ::KIFCLJJAOFJ
 	{
 	public:

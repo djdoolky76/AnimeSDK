@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TriggerTeamEditUI; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TriggerTeamEditUI_TypeDefinitionIndex = 20416;
+
 	class TriggerTeamEditUI : public ::RPG::GameCore::TaskConfig
 	{
 	public:

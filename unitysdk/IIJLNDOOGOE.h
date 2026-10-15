@@ -17,6 +17,8 @@
 #define IIJLNDOOGOE_LJNFLLLICCN_OFFSET UNITYSDK_OFFSET(0x1643F270)
 #define IIJLNDOOGOE_MHONCNHPLBO_OFFSET UNITYSDK_OFFSET(0x1643F2B0)
 
+inline static constexpr unsigned int IIJLNDOOGOE_TypeDefinitionIndex = 81192;
+
 	class IIJLNDOOGOE : public ::System::Object
 	{
 	public:

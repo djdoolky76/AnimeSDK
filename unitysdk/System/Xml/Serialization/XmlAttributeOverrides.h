@@ -14,6 +14,8 @@ namespace System::Xml::Serialization { class XmlAttributes; }
 
 namespace System::Xml::Serialization
 {
+	inline static constexpr unsigned int XmlAttributeOverrides_TypeDefinitionIndex = 2003;
+
 	class XmlAttributeOverrides : public ::System::Object
 	{
 	public:

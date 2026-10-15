@@ -6,6 +6,8 @@ class PNPEAAAFLAA;
 #define PNPEAAAFLAA_ALJIOCDBMKO_OFFSET UNITYSDK_OFFSET(0x1C7F74D0)
 #define PNPEAAAFLAA_CTOR_OFFSET UNITYSDK_OFFSET(0x1C7F7530)
 
+inline static constexpr unsigned int PNPEAAAFLAA_TypeDefinitionIndex = 36197;
+
 	class PNPEAAAFLAA : public ::System::Object
 	{
 	public:

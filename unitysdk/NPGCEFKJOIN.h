@@ -29,6 +29,8 @@ namespace System { class String; }
 #define NPGCEFKJOIN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB97F00)
 #define NPGCEFKJOIN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB97F60)
 
+inline static constexpr unsigned int NPGCEFKJOIN_TypeDefinitionIndex = 28722;
+
 	class NPGCEFKJOIN : public ::System::Object
 	{
 	public:

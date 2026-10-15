@@ -11,6 +11,8 @@ namespace RPG::GameCore { class LineupAvatarDynamicParamItem; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LineupAvatarDynamicParamItem_TypeDefinitionIndex = 18125;
+
 	class LineupAvatarDynamicParamItem : public ::RPG::GameCore::JsonConfig
 	{
 	public:

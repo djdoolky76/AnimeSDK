@@ -3,6 +3,8 @@
 
 namespace Cinemachine
 {
+	inline static constexpr unsigned int CinemachineDialogueShot_GKNCLALBPAF_TypeDefinitionIndex = 49641;
+
 	struct alignas(4) CinemachineDialogueShot_GKNCLALBPAF
 	{
 		::System::Double IFLCGFMNDGA; // 0x10

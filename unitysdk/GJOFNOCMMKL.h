@@ -39,6 +39,8 @@ namespace UnityEngine { class Collider; }
 #define GJOFNOCMMKL_OECGAFGDIBK_OFFSET UNITYSDK_OFFSET(0x15A7E920)
 #define GJOFNOCMMKL_OKAGBOCBILG_OFFSET UNITYSDK_OFFSET(0x15A7B610)
 
+inline static constexpr unsigned int GJOFNOCMMKL_TypeDefinitionIndex = 77095;
+
 	class GJOFNOCMMKL : public ::System::Object
 	{
 	public:

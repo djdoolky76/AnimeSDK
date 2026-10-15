@@ -4,6 +4,8 @@
 
 #define GGLGDAMMLNL_CTOR_OFFSET UNITYSDK_OFFSET(0x1CAA1DE0)
 
+inline static constexpr unsigned int GGLGDAMMLNL_TypeDefinitionIndex = 42283;
+
 	class GGLGDAMMLNL : public ::System::Object
 	{
 	public:

@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define GIPLJPNOHKB_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CE530E0)
 #define GIPLJPNOHKB_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CE52A00)
 
+inline static constexpr unsigned int GIPLJPNOHKB_TypeDefinitionIndex = 14823;
+
 	class GIPLJPNOHKB : public ::System::Object
 	{
 	public:

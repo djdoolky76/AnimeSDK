@@ -30,6 +30,8 @@ namespace UnityEngine { class Animation; }
 #define ADPIJPHHJJF_SET_ATMOSPHERETYPE_OFFSET UNITYSDK_OFFSET(0xB148730)
 #define ADPIJPHHJJF__ONBIND_OFFSET UNITYSDK_OFFSET(0xB147930)
 
+inline static constexpr unsigned int ADPIJPHHJJF_TypeDefinitionIndex = 72200;
+
 	class ADPIJPHHJJF : public ::FMPCODLIOLG
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int GUISkin_SkinChangedDelegate_TypeDefinitionIndex = 5180;
+
 	class GUISkin_SkinChangedDelegate : public ::System::MulticastDelegate
 	{
 	public:

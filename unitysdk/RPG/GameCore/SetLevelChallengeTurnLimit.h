@@ -12,6 +12,8 @@ namespace RPG::GameCore { class SetLevelChallengeTurnLimit; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetLevelChallengeTurnLimit_TypeDefinitionIndex = 23133;
+
 	class SetLevelChallengeTurnLimit : public ::RPG::GameCore::TaskConfig
 	{
 	public:

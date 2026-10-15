@@ -12,6 +12,8 @@ namespace UnityEngine::Experimental::Rendering { class BuiltinRuntimeReflectionS
 
 namespace UnityEngine::Experimental::Rendering
 {
+	inline static constexpr unsigned int BuiltinRuntimeReflectionSystem_TypeDefinitionIndex = 4937;
+
 	class BuiltinRuntimeReflectionSystem : public ::System::Object
 	{
 	public:

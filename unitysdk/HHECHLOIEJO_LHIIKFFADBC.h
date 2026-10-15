@@ -17,6 +17,8 @@ namespace UnityEngine { class RuntimeAnimatorController; }
 #define HHECHLOIEJO_LHIIKFFADBC_JNOFMABGNAL_OFFSET UNITYSDK_OFFSET(0x15CC7CE0)
 #define HHECHLOIEJO_LHIIKFFADBC_OLLKAADMIBK_OFFSET UNITYSDK_OFFSET(0x15CC38A0)
 
+inline static constexpr unsigned int HHECHLOIEJO_LHIIKFFADBC_TypeDefinitionIndex = 57141;
+
 	class HHECHLOIEJO_LHIIKFFADBC : public ::System::Object
 	{
 	public:

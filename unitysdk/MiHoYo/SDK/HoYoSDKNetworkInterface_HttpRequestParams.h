@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int HoYoSDKNetworkInterface_HttpRequestParams_TypeDefinitionIndex = 46110;
+
 	class HoYoSDKNetworkInterface_HttpRequestParams : public ::System::Object
 	{
 	public:

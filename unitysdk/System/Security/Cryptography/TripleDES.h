@@ -15,6 +15,8 @@ namespace System::Security::Cryptography { class TripleDES; }
 
 namespace System::Security::Cryptography
 {
+	inline static constexpr unsigned int TripleDES_TypeDefinitionIndex = 1071;
+
 	class TripleDES : public ::System::Security::Cryptography::SymmetricAlgorithm
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 #define HNKCGLEOGJM_SET_FILTERSTREAMINGBLOCK_OFFSET UNITYSDK_OFFSET(0x15D9E7B0)
 #define HNKCGLEOGJM_SET_FILTERSTREAMINGITEM_OFFSET UNITYSDK_OFFSET(0x15D9E790)
 
+inline static constexpr unsigned int HNKCGLEOGJM_TypeDefinitionIndex = 73999;
+
 	class HNKCGLEOGJM : public ::System::Object
 	{
 	public:

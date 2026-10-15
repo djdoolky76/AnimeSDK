@@ -29,6 +29,8 @@ namespace System { class String; }
 #define FBFBMMAAFCP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E333950)
 #define FBFBMMAAFCP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E3339B0)
 
+inline static constexpr unsigned int FBFBMMAAFCP_TypeDefinitionIndex = 29262;
+
 	class FBFBMMAAFCP : public ::System::Object
 	{
 	public:

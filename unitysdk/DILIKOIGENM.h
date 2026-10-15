@@ -9,6 +9,8 @@ namespace RPG::Client::MechCraft::ViewModel { class MechCraftCoinViewModel; }
 #define DILIKOIGENM_SET_COIN_OFFSET UNITYSDK_OFFSET(0xF2139D0)
 #define DILIKOIGENM_SET_NUM_OFFSET UNITYSDK_OFFSET(0xF2139F0)
 
+inline static constexpr unsigned int DILIKOIGENM_TypeDefinitionIndex = 79422;
+
 	class DILIKOIGENM : public ::System::Object
 	{
 	public:

@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define JMAAPINLPDI_CTOR_OFFSET UNITYSDK_OFFSET(0xB258390)
 #define JMAAPINLPDI_OAGDIHGBBOI_OFFSET UNITYSDK_OFFSET(0xB257C40)
 
+inline static constexpr unsigned int JMAAPINLPDI_TypeDefinitionIndex = 77546;
+
 	class JMAAPINLPDI : public ::System::Object
 	{
 	public:

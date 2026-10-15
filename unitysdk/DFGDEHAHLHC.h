@@ -96,6 +96,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define DFGDEHAHLHC_PJPPFJLHALB_OFFSET UNITYSDK_OFFSET(0x1CA266F0)
 #define DFGDEHAHLHC_PLEGDNFHOCC_OFFSET UNITYSDK_OFFSET(0x1CA26940)
 
+inline static constexpr unsigned int DFGDEHAHLHC_TypeDefinitionIndex = 42596;
+
 	class DFGDEHAHLHC : public ::Entitas::Entity
 	{
 	public:

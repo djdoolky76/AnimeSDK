@@ -7,6 +7,8 @@ namespace System { class Object; }
 #define PCNHBHBGLGK_AKJABINEGDJ_OFFSET UNITYSDK_OFFSET(0xC008B00)
 #define PCNHBHBGLGK_CTOR_OFFSET UNITYSDK_OFFSET(0xC008D60)
 
+inline static constexpr unsigned int PCNHBHBGLGK_TypeDefinitionIndex = 54290;
+
 	class PCNHBHBGLGK : public ::System::Object
 	{
 	public:

@@ -14,6 +14,8 @@ class ODCELNBAEIB;
 
 namespace RPG::Client::TeamTowers
 {
+	inline static constexpr unsigned int TeamTowersGameBossViewModel_TypeDefinitionIndex = 79058;
+
 	class TeamTowersGameBossViewModel : public ::System::Object
 	{
 	public:

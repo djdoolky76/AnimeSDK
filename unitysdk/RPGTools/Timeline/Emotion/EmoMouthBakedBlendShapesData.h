@@ -12,6 +12,8 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace RPGTools::Timeline::Emotion
 {
+	inline static constexpr unsigned int EmoMouthBakedBlendShapesData_TypeDefinitionIndex = 48771;
+
 	class EmoMouthBakedBlendShapesData : public ::UnityEngine::ScriptableObject
 	{
 	public:

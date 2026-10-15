@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace IFix::Core
 {
+	inline static constexpr unsigned int PatchManager__AppendPatch_c__AnonStorey4_TypeDefinitionIndex = 7107;
+
 	class PatchManager__AppendPatch_c__AnonStorey4 : public ::System::Object
 	{
 	public:

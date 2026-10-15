@@ -15,6 +15,8 @@ namespace RPG::GameCore { class FiveDimGrenadierPropSpawnerParam; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimGrenadierPropSpawnerParam_TypeDefinitionIndex = 18587;
+
 	class FiveDimGrenadierPropSpawnerParam : public ::RPG::GameCore::FiveDimPropSpawnerParam
 	{
 	public:

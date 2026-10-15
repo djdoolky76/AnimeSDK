@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierModifyBlackboardByRemoveAttributeCo
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierModifyBlackboardByRemoveAttributeConfig_TypeDefinitionIndex = 17697;
+
 	class RogueModifierModifyBlackboardByRemoveAttributeConfig : public ::RPG::GameCore::RogueModifierModifyBlackboardBaseConfig
 	{
 	public:

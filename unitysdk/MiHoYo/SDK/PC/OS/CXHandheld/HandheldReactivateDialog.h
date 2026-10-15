@@ -16,6 +16,8 @@ namespace System { class Action; }
 
 namespace MiHoYo::SDK::PC::OS::CXHandheld
 {
+	inline static constexpr unsigned int HandheldReactivateDialog_TypeDefinitionIndex = 8813;
+
 	class HandheldReactivateDialog : public ::MiHoYo::SDK::Console::ConsoleDialogBase
 	{
 	public:

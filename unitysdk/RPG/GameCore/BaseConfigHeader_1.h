@@ -6,6 +6,8 @@ namespace System { class Object; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BaseConfigHeader_1_TypeDefinitionIndex = 10832;
+
 	template <typename T>
 	class BaseConfigHeader_1 : public ::System::Object
 	{

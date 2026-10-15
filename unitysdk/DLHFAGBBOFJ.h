@@ -17,6 +17,8 @@ namespace System { class Exception; }
 #define DLHFAGBBOFJ_ONALLOC_OFFSET UNITYSDK_OFFSET(0xF8A0200)
 #define DLHFAGBBOFJ_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0xF8A0250)
 
+inline static constexpr unsigned int DLHFAGBBOFJ_TypeDefinitionIndex = 67558;
+
 	class DLHFAGBBOFJ : public ::System::Object
 	{
 	public:

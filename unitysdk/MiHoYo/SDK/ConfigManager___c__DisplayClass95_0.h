@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int ConfigManager___c__DisplayClass95_0_TypeDefinitionIndex = 8212;
+
 	class ConfigManager___c__DisplayClass95_0 : public ::System::Object
 	{
 	public:

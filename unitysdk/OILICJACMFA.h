@@ -4,6 +4,8 @@ class BJHMBGLPOLB;
 class KOIACJAJFEC;
 namespace RPG::GameCore { class GameEntity; }
 
+inline static constexpr unsigned int OILICJACMFA_TypeDefinitionIndex = 55991;
+
 	struct alignas(8) OILICJACMFA
 	{
 		::BJHMBGLPOLB* KDFKDNLNDHN; // 0x10

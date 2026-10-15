@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define HDDJBPIOCMC___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E549220)
 #define HDDJBPIOCMC___C___CCTOR_B__43_0_OFFSET UNITYSDK_OFFSET(0x1E549230)
 
+inline static constexpr unsigned int HDDJBPIOCMC___c_TypeDefinitionIndex = 33287;
+
 	class HDDJBPIOCMC___c : public ::System::Object
 	{
 	public:

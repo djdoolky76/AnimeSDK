@@ -6,6 +6,8 @@
 
 namespace System::Net::Configuration
 {
+	inline static constexpr unsigned int ConnectionManagementElementCollection_TypeDefinitionIndex = 3076;
+
 	class ConnectionManagementElementCollection : public ::System::Configuration::ConfigurationElementCollection
 	{
 	public:

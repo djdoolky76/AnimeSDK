@@ -5,6 +5,8 @@ class DLBNHDEFEHF;
 
 #define MLNLKIPJAAK_CTOR_OFFSET UNITYSDK_OFFSET(0x1C92D780)
 
+inline static constexpr unsigned int MLNLKIPJAAK_TypeDefinitionIndex = 42545;
+
 	class MLNLKIPJAAK : public ::System::Object
 	{
 	public:

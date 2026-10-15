@@ -21,6 +21,8 @@ namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
 namespace IFix
 {
+	inline static constexpr unsigned int ILFixInterfaceBridge_4B750E24EF44BF07_TypeDefinitionIndex = 44320;
+
 	class ILFixInterfaceBridge_4B750E24EF44BF07 : public ::IFix::Core::AnonymousStorey
 	{
 	public:

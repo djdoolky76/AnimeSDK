@@ -28,6 +28,8 @@ namespace System { class String; }
 #define OCJOLLHLFIB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE15760)
 #define OCJOLLHLFIB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DE157C0)
 
+inline static constexpr unsigned int OCJOLLHLFIB_TypeDefinitionIndex = 30781;
+
 	class OCJOLLHLFIB : public ::System::Object
 	{
 	public:

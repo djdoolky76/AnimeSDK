@@ -10,6 +10,8 @@ namespace RPG::GameCore { class MarbleSetDead; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MarbleSetDead_TypeDefinitionIndex = 16852;
+
 	class MarbleSetDead : public ::RPG::GameCore::MarbleTaskConfig
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define IJBEHKAGIKO_LOCK_OFFSET UNITYSDK_OFFSET(0x16458D80)
 #define IJBEHKAGIKO_UNLOCK_OFFSET UNITYSDK_OFFSET(0x16458E50)
 
+inline static constexpr unsigned int IJBEHKAGIKO_TypeDefinitionIndex = 74790;
+
 	class IJBEHKAGIKO : public ::RPG::Client::GamePlayLockTargetFunc
 	{
 	public:

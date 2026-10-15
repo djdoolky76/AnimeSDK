@@ -32,6 +32,8 @@ namespace System { class String; }
 #define CDNPKGOKEPK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E08B970)
 #define CDNPKGOKEPK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E08B9D0)
 
+inline static constexpr unsigned int CDNPKGOKEPK_TypeDefinitionIndex = 31344;
+
 	class CDNPKGOKEPK : public ::System::Object
 	{
 	public:

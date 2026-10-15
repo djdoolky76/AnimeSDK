@@ -9,6 +9,8 @@ namespace System { class String; }
 #define HFHNOCCPHDN_ALEBBJAFIOG_OFFSET UNITYSDK_OFFSET(0x15C7A9D0)
 #define HFHNOCCPHDN_CTOR_OFFSET UNITYSDK_OFFSET(0x15C7AD90)
 
+inline static constexpr unsigned int HFHNOCCPHDN_TypeDefinitionIndex = 64906;
+
 	class HFHNOCCPHDN : public ::System::Object
 	{
 	public:

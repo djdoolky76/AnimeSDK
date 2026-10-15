@@ -26,6 +26,8 @@ namespace SRF::UI { class SRText; }
 
 namespace SRF::UI
 {
+	inline static constexpr unsigned int ContentFitText_TypeDefinitionIndex = 35375;
+
 	class ContentFitText : public ::UnityEngine::EventSystems::UIBehaviour
 	{
 	public:

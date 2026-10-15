@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 #define MDKCHEIBMCH__SELECTTARGET_D__0_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0xB8AD440)
 #define MDKCHEIBMCH__SELECTTARGET_D__0_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB8AD380)
 
+inline static constexpr unsigned int MDKCHEIBMCH__SelectTarget_d__0_TypeDefinitionIndex = 77530;
+
 	class MDKCHEIBMCH__SelectTarget_d__0 : public ::System::Object
 	{
 	public:

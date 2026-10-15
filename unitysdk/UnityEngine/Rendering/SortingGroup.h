@@ -25,6 +25,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int SortingGroup_TypeDefinitionIndex = 4901;
+
 	class SortingGroup : public ::UnityEngine::Behaviour
 	{
 	public:

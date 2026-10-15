@@ -35,6 +35,8 @@ namespace System { class String; }
 
 namespace RPG
 {
+	inline static constexpr unsigned int IVec3_TypeDefinitionIndex = 6383;
+
 	struct alignas(4) IVec3
 	{
 		::System::Int32 x; // 0x10

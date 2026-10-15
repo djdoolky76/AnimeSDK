@@ -39,6 +39,8 @@ namespace UnityEngine::Events { class UnityEvent; }
 
 namespace RPG::Client::LittleGame::FiveDim
 {
+	inline static constexpr unsigned int MonoFiveDimFixedJoyStick_TypeDefinitionIndex = 77235;
+
 	class MonoFiveDimFixedJoyStick : public ::UnityEngine::MonoBehaviour
 	{
 	public:

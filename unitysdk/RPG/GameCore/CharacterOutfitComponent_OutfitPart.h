@@ -18,6 +18,8 @@ namespace UnityEngine { class Renderer; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CharacterOutfitComponent_OutfitPart_TypeDefinitionIndex = 57207;
+
 	class CharacterOutfitComponent_OutfitPart : public ::System::Object
 	{
 	public:

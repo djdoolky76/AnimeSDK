@@ -3,6 +3,8 @@
 
 namespace Spine
 {
+	inline static constexpr unsigned int RotateMode_TypeDefinitionIndex = 39684;
+
 	enum class RotateMode : ::System::Int32
 	{
 		Tangent = 0,

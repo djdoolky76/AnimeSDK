@@ -10,6 +10,8 @@ class OEODAOIOGLO;
 #define JIAFOPELMJJ___C__DISPLAYCLASS13_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB1D01D0)
 #define JIAFOPELMJJ___C__DISPLAYCLASS13_0__STARTFORAUDIOPACKSIZE_B__0_OFFSET UNITYSDK_OFFSET(0xB1E5070)
 
+inline static constexpr unsigned int JIAFOPELMJJ___c__DisplayClass13_0_TypeDefinitionIndex = 59503;
+
 	class JIAFOPELMJJ___c__DisplayClass13_0 : public ::System::Object
 	{
 	public:

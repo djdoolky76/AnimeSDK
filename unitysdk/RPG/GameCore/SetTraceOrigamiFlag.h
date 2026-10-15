@@ -10,6 +10,8 @@ namespace RPG::GameCore { class SetTraceOrigamiFlag; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetTraceOrigamiFlag_TypeDefinitionIndex = 21867;
+
 	class SetTraceOrigamiFlag : public ::RPG::GameCore::TaskConfig
 	{
 	public:

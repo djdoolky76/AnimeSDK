@@ -10,6 +10,8 @@ namespace System { class String; }
 #define JGOOPPGAKHP_GET_TYPE_OFFSET UNITYSDK_OFFSET(0xB1A73A0)
 #define JGOOPPGAKHP_JAILHGGFLDH_OFFSET UNITYSDK_OFFSET(0xB1A73B0)
 
+inline static constexpr unsigned int JGOOPPGAKHP_TypeDefinitionIndex = 56119;
+
 	class JGOOPPGAKHP : public ::DBGDNLLDPFI
 	{
 	public:

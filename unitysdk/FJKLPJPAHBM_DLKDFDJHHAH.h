@@ -54,6 +54,8 @@ namespace System::Collections::Generic { template <typename T> class ICollection
 #define FJKLPJPAHBM_DLKDFDJHHAH_SETPARENT_OFFSET UNITYSDK_OFFSET(0x157D8150)
 #define FJKLPJPAHBM_DLKDFDJHHAH_SET_TOPCAMERARUNTIMEID_OFFSET UNITYSDK_OFFSET(0x157D8870)
 
+inline static constexpr unsigned int FJKLPJPAHBM_DLKDFDJHHAH_TypeDefinitionIndex = 76916;
+
 	class FJKLPJPAHBM_DLKDFDJHHAH : public ::System::Object
 	{
 	public:

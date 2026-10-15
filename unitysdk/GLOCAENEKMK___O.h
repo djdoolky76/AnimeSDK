@@ -5,6 +5,8 @@ namespace RPG::Client { class BaseGameFlow; }
 namespace RPG::Client { class BaseGameFlowContext; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
+inline static constexpr unsigned int GLOCAENEKMK___O_TypeDefinitionIndex = 77721;
+
 	class GLOCAENEKMK___O : public ::System::Object
 	{
 	public:

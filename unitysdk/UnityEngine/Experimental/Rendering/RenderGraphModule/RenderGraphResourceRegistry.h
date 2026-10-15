@@ -56,6 +56,8 @@ namespace UnityEngine::Rendering { template <typename T> class DynamicArray_1; }
 
 namespace UnityEngine::Experimental::Rendering::RenderGraphModule
 {
+	inline static constexpr unsigned int RenderGraphResourceRegistry_TypeDefinitionIndex = 35465;
+
 	class RenderGraphResourceRegistry : public ::System::Object
 	{
 	public:

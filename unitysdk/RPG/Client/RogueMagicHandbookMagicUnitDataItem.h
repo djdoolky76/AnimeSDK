@@ -27,6 +27,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueMagicHandbookMagicUnitDataItem_TypeDefinitionIndex = 67403;
+
 	class RogueMagicHandbookMagicUnitDataItem : public ::System::Object
 	{
 	public:

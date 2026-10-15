@@ -12,6 +12,8 @@ namespace RPG::GameCore { class UsableConditionConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int UsableConditionConfig_TypeDefinitionIndex = 18187;
+
 	class UsableConditionConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

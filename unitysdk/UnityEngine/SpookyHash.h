@@ -16,6 +16,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int SpookyHash_TypeDefinitionIndex = 4208;
+
 	class SpookyHash : public ::System::Object
 	{
 	public:

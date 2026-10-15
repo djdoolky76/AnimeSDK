@@ -6,6 +6,8 @@ class EJLNMFOPGOP;
 #define EJLNMFOPGOP___C__DISPLAYCLASS21_0_CTOR_OFFSET UNITYSDK_OFFSET(0x154EBC30)
 #define EJLNMFOPGOP___C__DISPLAYCLASS21_0__SETENABLE_B__0_OFFSET UNITYSDK_OFFSET(0x154ECD30)
 
+inline static constexpr unsigned int EJLNMFOPGOP___c__DisplayClass21_0_TypeDefinitionIndex = 71907;
+
 	class EJLNMFOPGOP___c__DisplayClass21_0 : public ::System::Object
 	{
 	public:

@@ -93,6 +93,8 @@ namespace System { class String; }
 #define AFPDIFAPAEA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E11F6D0)
 #define AFPDIFAPAEA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E11F730)
 
+inline static constexpr unsigned int AFPDIFAPAEA_TypeDefinitionIndex = 29545;
+
 	class AFPDIFAPAEA : public ::System::Object
 	{
 	public:

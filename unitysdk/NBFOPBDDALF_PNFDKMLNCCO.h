@@ -3,6 +3,8 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 namespace UnityEngine { class Collider; }
 
+inline static constexpr unsigned int NBFOPBDDALF_PNFDKMLNCCO_TypeDefinitionIndex = 68669;
+
 	struct alignas(8) NBFOPBDDALF_PNFDKMLNCCO
 	{
 		::System::Boolean NLDLLPECLCH; // 0x10

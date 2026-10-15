@@ -5,6 +5,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ActivityTelevisionModule__TreasureQuestInfo_TypeDefinitionIndex = 61999;
+
 	struct alignas(4) ActivityTelevisionModule__TreasureQuestInfo
 	{
 		::System::UInt32 _TreasureQuestID; // 0x10

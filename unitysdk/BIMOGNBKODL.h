@@ -28,6 +28,8 @@ namespace System { class String; }
 #define BIMOGNBKODL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE05810)
 #define BIMOGNBKODL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DE05870)
 
+inline static constexpr unsigned int BIMOGNBKODL_TypeDefinitionIndex = 32312;
+
 	class BIMOGNBKODL : public ::System::Object
 	{
 	public:

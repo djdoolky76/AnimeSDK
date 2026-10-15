@@ -10,6 +10,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftRadarChartControl___c_TypeDefinitionIndex = 79825;
+
 	class MechCraftRadarChartControl___c : public ::System::Object
 	{
 	public:

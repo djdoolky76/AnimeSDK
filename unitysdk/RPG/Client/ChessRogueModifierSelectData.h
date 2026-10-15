@@ -17,6 +17,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChessRogueModifierSelectData_TypeDefinitionIndex = 66967;
+
 	class ChessRogueModifierSelectData : public ::System::Object
 	{
 	public:

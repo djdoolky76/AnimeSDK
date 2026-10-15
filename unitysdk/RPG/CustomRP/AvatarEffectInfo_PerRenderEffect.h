@@ -19,6 +19,8 @@ namespace UnityEngine::Rendering { class CommandBuffer; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int AvatarEffectInfo_PerRenderEffect_TypeDefinitionIndex = 37586;
+
 	class AvatarEffectInfo_PerRenderEffect : public ::System::Object
 	{
 	public:

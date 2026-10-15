@@ -10,6 +10,8 @@ namespace RPG::GameCore { class AdventurePositionCheckConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdventurePositionCheckConfig_TypeDefinitionIndex = 16283;
+
 	class AdventurePositionCheckConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -20,6 +20,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define NDNOFFMAMFJ_LFDLKILDBOC_OFFSET UNITYSDK_OFFSET(0xBB55130)
 #define NDNOFFMAMFJ_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0xBB542E0)
 
+inline static constexpr unsigned int NDNOFFMAMFJ_TypeDefinitionIndex = 79111;
+
 	class NDNOFFMAMFJ : public ::System::Object
 	{
 	public:

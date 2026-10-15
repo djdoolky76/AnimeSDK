@@ -18,6 +18,8 @@ class IGGAALKPHMC;
 #define LMKBLDKPGFB_POINBCPKLLB_OFFSET UNITYSDK_OFFSET(0xB7CCFB0)
 #define LMKBLDKPGFB_SET_TRANSNO_OFFSET UNITYSDK_OFFSET(0xB7CD050)
 
+inline static constexpr unsigned int LMKBLDKPGFB_TypeDefinitionIndex = 79407;
+
 	class LMKBLDKPGFB : public ::System::Object
 	{
 	public:

@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 
 namespace Google::Protobuf::Reflection
 {
+	inline static constexpr unsigned int OneofDescriptor_TypeDefinitionIndex = 5556;
+
 	class OneofDescriptor : public ::Google::Protobuf::Reflection::DescriptorBase
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define FGHOCLEKGFK_CTOR_OFFSET UNITYSDK_OFFSET(0x15762D40)
 #define FGHOCLEKGFK_PGJHDJALJOJ_OFFSET UNITYSDK_OFFSET(0x15762D50)
 
+inline static constexpr unsigned int FGHOCLEKGFK_TypeDefinitionIndex = 65007;
+
 	class FGHOCLEKGFK : public ::RPG::Client::GridFightGameModifier
 	{
 	public:

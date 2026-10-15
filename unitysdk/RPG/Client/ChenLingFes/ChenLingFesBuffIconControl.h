@@ -11,6 +11,8 @@ namespace UnityEngine::UI { class Image; }
 
 namespace RPG::Client::ChenLingFes
 {
+	inline static constexpr unsigned int ChenLingFesBuffIconControl_TypeDefinitionIndex = 81300;
+
 	class ChenLingFesBuffIconControl : public ::Sofa::BaseSofaControl
 	{
 	public:

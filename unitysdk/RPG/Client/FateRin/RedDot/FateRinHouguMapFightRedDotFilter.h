@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::FateRin::RedDot
 {
+	inline static constexpr unsigned int FateRinHouguMapFightRedDotFilter_TypeDefinitionIndex = 80740;
+
 	class FateRinHouguMapFightRedDotFilter : public ::System::Object
 	{
 	public:

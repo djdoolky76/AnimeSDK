@@ -32,6 +32,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int DeviceTipsManager_TypeDefinitionIndex = 9330;
+
 	class DeviceTipsManager : public ::System::Object
 	{
 	public:

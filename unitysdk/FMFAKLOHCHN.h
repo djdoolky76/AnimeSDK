@@ -35,6 +35,8 @@ namespace System { class String; }
 #define FMFAKLOHCHN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E3E2350)
 #define FMFAKLOHCHN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E3E23B0)
 
+inline static constexpr unsigned int FMFAKLOHCHN_TypeDefinitionIndex = 26220;
+
 	class FMFAKLOHCHN : public ::System::Object
 	{
 	public:

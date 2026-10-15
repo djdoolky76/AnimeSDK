@@ -4,6 +4,8 @@
 
 #define JHFOFEKIAJI_PADDPODGIOL_CTOR_OFFSET UNITYSDK_OFFSET(0x1CB94C00)
 
+inline static constexpr unsigned int JHFOFEKIAJI_PADDPODGIOL_TypeDefinitionIndex = 42179;
+
 	class JHFOFEKIAJI_PADDPODGIOL : public ::System::Object
 	{
 	public:

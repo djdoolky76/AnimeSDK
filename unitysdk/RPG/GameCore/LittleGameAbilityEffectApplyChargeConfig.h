@@ -11,6 +11,8 @@ namespace RPG::GameCore { class LittleGameAbilityEffectApplyChargeConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LittleGameAbilityEffectApplyChargeConfig_TypeDefinitionIndex = 21342;
+
 	class LittleGameAbilityEffectApplyChargeConfig : public ::RPG::GameCore::BaseLittleGameAbilityEffectConfig
 	{
 	public:

@@ -4,6 +4,8 @@ namespace System { class Object; }
 
 namespace System::Threading::Tasks
 {
+	inline static constexpr unsigned int ValueTask_1_TypeDefinitionIndex = 6677;
+
 	template <typename T>
 	struct alignas(8) ValueTask_1
 	{

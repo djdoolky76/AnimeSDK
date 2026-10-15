@@ -9,6 +9,8 @@ namespace System { class Object; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int InsertionPuzzleBoard___c__DisplayClass14_1_TypeDefinitionIndex = 78628;
+
 	template <typename T>
 	class InsertionPuzzleBoard___c__DisplayClass14_1 : public ::System::Object
 	{

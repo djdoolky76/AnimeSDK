@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TurnBasedModifierCallbackPriority_TypeDefinitionIndex = 18236;
+
 	class TurnBasedModifierCallbackPriority : public ::RPG::GameCore::JsonConfig
 	{
 	public:

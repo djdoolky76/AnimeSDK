@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BattleEventEffectsPreloadList_TypeDefinitionIndex = 16366;
+
 	class BattleEventEffectsPreloadList : public ::RPG::GameCore::CharacterPreloadConfigBase
 	{
 	public:

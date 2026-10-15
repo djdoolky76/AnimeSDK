@@ -29,6 +29,8 @@ namespace System { class String; }
 #define CFMHEMGEANC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E0A6AA0)
 #define CFMHEMGEANC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E0A6B00)
 
+inline static constexpr unsigned int CFMHEMGEANC_TypeDefinitionIndex = 32670;
+
 	class CFMHEMGEANC : public ::System::Object
 	{
 	public:

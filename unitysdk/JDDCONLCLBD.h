@@ -11,6 +11,8 @@ namespace System { class String; }
 #define JDDCONLCLBD_SET_COUNT_OFFSET UNITYSDK_OFFSET(0x165BF790)
 #define JDDCONLCLBD_SET_ICONPATH_OFFSET UNITYSDK_OFFSET(0x165BF770)
 
+inline static constexpr unsigned int JDDCONLCLBD_TypeDefinitionIndex = 80187;
+
 	class JDDCONLCLBD : public ::System::Object
 	{
 	public:

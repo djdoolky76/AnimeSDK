@@ -19,6 +19,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BattleEventConfig_TypeDefinitionIndex = 16525;
+
 	class BattleEventConfig : public ::RPG::GameCore::CharacterConfig
 	{
 	public:

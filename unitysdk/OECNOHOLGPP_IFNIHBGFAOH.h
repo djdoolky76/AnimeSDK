@@ -8,6 +8,8 @@
 #define OECNOHOLGPP_IFNIHBGFAOH_SET_CELL_OFFSET UNITYSDK_OFFSET(0x94B0)
 #define OECNOHOLGPP_IFNIHBGFAOH_SET_ISOVERLAPFREE_OFFSET UNITYSDK_OFFSET(0x3C28BE0)
 
+inline static constexpr unsigned int OECNOHOLGPP_IFNIHBGFAOH_TypeDefinitionIndex = 41793;
+
 	struct alignas(4) OECNOHOLGPP_IFNIHBGFAOH
 	{
 		::UnityEngine::Vector2Int _Cell_k__BackingField; // 0x10

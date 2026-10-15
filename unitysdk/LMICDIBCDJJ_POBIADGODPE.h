@@ -5,6 +5,8 @@
 
 #define LMICDIBCDJJ_POBIADGODPE_CCTOR_OFFSET UNITYSDK_OFFSET(0xB7C8A80)
 
+inline static constexpr unsigned int LMICDIBCDJJ_POBIADGODPE_TypeDefinitionIndex = 73714;
+
 	class LMICDIBCDJJ_POBIADGODPE : public ::System::Object
 	{
 	public:

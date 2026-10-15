@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define LPDPAJGFBMM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E9C9F90)
 #define LPDPAJGFBMM___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E9C9FA0)
 
+inline static constexpr unsigned int LPDPAJGFBMM___c_TypeDefinitionIndex = 33291;
+
 	class LPDPAJGFBMM___c : public ::System::Object
 	{
 	public:

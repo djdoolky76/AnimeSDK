@@ -28,6 +28,8 @@ namespace System { class String; }
 #define NIKCDPGKKLF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB341F0)
 #define NIKCDPGKKLF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB34250)
 
+inline static constexpr unsigned int NIKCDPGKKLF_TypeDefinitionIndex = 27719;
+
 	class NIKCDPGKKLF : public ::System::Object
 	{
 	public:

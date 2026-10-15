@@ -11,6 +11,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace RPG::Client::B51Racing
 {
+	inline static constexpr unsigned int B51RacingGameplayMapCarItemControl_TypeDefinitionIndex = 81889;
+
 	class B51RacingGameplayMapCarItemControl : public ::Sofa::BaseSofaControl
 	{
 	public:

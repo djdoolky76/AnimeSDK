@@ -10,6 +10,8 @@ class FKHKLMEBJKH;
 
 namespace RPG::Client::Dev
 {
+	inline static constexpr unsigned int VirtualServerLaunchConfig_TypeDefinitionIndex = 82121;
+
 	class VirtualServerLaunchConfig : public ::System::Object
 	{
 	public:

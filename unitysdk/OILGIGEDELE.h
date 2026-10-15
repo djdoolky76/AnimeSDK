@@ -7,6 +7,8 @@ namespace RPG::GameCore { class FiveDimAvatarConfig; }
 
 #define OILGIGEDELE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C995130)
 
+inline static constexpr unsigned int OILGIGEDELE_TypeDefinitionIndex = 43427;
+
 	class OILGIGEDELE : public ::System::Object
 	{
 	public:

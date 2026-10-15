@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class ICollection
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ActivityRewardCountCollection_DebuggerView_TypeDefinitionIndex = 61785;
+
 	class ActivityRewardCountCollection_DebuggerView : public ::System::Object
 	{
 	public:

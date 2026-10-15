@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define NGGKJBIIFLO_CTOR_OFFSET UNITYSDK_OFFSET(0xBBA6760)
 #define NGGKJBIIFLO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBBA6790)
 
+inline static constexpr unsigned int NGGKJBIIFLO_TypeDefinitionIndex = 55888;
+
 	class NGGKJBIIFLO
 	{
 	public:

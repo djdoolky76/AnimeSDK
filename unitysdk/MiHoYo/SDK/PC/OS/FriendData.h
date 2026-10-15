@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::PC::OS
 {
+	inline static constexpr unsigned int FriendData_TypeDefinitionIndex = 8620;
+
 	class FriendData : public ::System::Object
 	{
 	public:

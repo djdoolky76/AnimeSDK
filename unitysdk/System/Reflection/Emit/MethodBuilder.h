@@ -35,6 +35,8 @@ namespace System::Reflection::Emit { class ParameterBuilder; }
 
 namespace System::Reflection::Emit
 {
+	inline static constexpr unsigned int MethodBuilder_TypeDefinitionIndex = 650;
+
 	class MethodBuilder : public ::System::Reflection::MethodInfo
 	{
 	public:

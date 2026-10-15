@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AlleyConstValue_TypeDefinitionIndex = 62255;
+
 	class AlleyConstValue : public ::System::Object
 	{
 	public:

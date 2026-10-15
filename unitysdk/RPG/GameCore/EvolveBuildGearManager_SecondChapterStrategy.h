@@ -42,6 +42,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EvolveBuildGearManager_SecondChapterStrategy_TypeDefinitionIndex = 56066;
+
 	class EvolveBuildGearManager_SecondChapterStrategy : public ::System::Object
 	{
 	public:

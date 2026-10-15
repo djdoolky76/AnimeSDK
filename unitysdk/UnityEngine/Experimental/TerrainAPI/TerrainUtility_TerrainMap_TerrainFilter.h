@@ -13,6 +13,8 @@ namespace UnityEngine { class Terrain; }
 
 namespace UnityEngine::Experimental::TerrainAPI
 {
+	inline static constexpr unsigned int TerrainUtility_TerrainMap_TerrainFilter_TypeDefinitionIndex = 5342;
+
 	class TerrainUtility_TerrainMap_TerrainFilter : public ::System::MulticastDelegate
 	{
 	public:

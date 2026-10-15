@@ -10,6 +10,8 @@ namespace RPG::GameCore { class WaitFrameForBattleServer; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaitFrameForBattleServer_TypeDefinitionIndex = 23788;
+
 	class WaitFrameForBattleServer : public ::RPG::GameCore::TaskConfig
 	{
 	public:

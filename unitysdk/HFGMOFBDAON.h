@@ -31,6 +31,8 @@ namespace System { class String; }
 #define HFGMOFBDAON_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E569710)
 #define HFGMOFBDAON_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E569770)
 
+inline static constexpr unsigned int HFGMOFBDAON_TypeDefinitionIndex = 26986;
+
 	class HFGMOFBDAON : public ::System::Object
 	{
 	public:

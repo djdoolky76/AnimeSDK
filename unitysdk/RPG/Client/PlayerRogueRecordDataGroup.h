@@ -14,6 +14,8 @@ namespace RPG::Client { class PlayerRogueTournRecordData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PlayerRogueRecordDataGroup_TypeDefinitionIndex = 64285;
+
 	class PlayerRogueRecordDataGroup : public ::System::Object
 	{
 	public:

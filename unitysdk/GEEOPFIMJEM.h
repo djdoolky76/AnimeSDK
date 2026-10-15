@@ -67,6 +67,8 @@ namespace System { class String; }
 #define GEEOPFIMJEM_PCKEJOJIOOM_OFFSET UNITYSDK_OFFSET(0x2E7A780)
 #define GEEOPFIMJEM_PKNNGOAANFA_OFFSET UNITYSDK_OFFSET(0x2E7A520)
 
+inline static constexpr unsigned int GEEOPFIMJEM_TypeDefinitionIndex = 73904;
+
 	struct alignas(8) GEEOPFIMJEM
 	{
 		::OKLBEPJCBJG IGHAHBNLIJA; // 0x10

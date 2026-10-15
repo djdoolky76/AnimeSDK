@@ -22,6 +22,8 @@ namespace UnityEngine::EventSystems { class PointerEventData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ScreenEventHandler_TypeDefinitionIndex = 69015;
+
 	class ScreenEventHandler : public ::UnityEngine::MonoBehaviour
 	{
 	public:

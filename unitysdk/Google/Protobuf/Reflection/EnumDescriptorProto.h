@@ -39,6 +39,8 @@ namespace System { class String; }
 
 namespace Google::Protobuf::Reflection
 {
+	inline static constexpr unsigned int EnumDescriptorProto_TypeDefinitionIndex = 5477;
+
 	class EnumDescriptorProto : public ::System::Object
 	{
 	public:

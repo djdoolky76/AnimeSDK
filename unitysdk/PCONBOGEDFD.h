@@ -29,6 +29,8 @@ namespace System { class String; }
 #define PCONBOGEDFD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF0B5D0)
 #define PCONBOGEDFD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF0B630)
 
+inline static constexpr unsigned int PCONBOGEDFD_TypeDefinitionIndex = 31767;
+
 	class PCONBOGEDFD : public ::System::Object
 	{
 	public:

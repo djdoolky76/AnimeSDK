@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ChenLingBattleEffect_GainGoldCoin; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChenLingBattleEffect_GainGoldCoin_TypeDefinitionIndex = 15787;
+
 	class ChenLingBattleEffect_GainGoldCoin : public ::RPG::GameCore::BaseChenLingBattleEffect
 	{
 	public:

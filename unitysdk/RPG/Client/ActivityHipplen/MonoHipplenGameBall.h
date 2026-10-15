@@ -11,6 +11,8 @@ namespace UnityEngine { class Collision; }
 
 namespace RPG::Client::ActivityHipplen
 {
+	inline static constexpr unsigned int MonoHipplenGameBall_TypeDefinitionIndex = 75599;
+
 	class MonoHipplenGameBall : public ::UnityEngine::MonoBehaviour
 	{
 	public:

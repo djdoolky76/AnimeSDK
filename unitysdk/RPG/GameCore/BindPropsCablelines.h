@@ -12,6 +12,8 @@ namespace RPG::GameCore { class DynamicString; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BindPropsCablelines_TypeDefinitionIndex = 21269;
+
 	class BindPropsCablelines : public ::RPG::GameCore::TaskConfig
 	{
 	public:

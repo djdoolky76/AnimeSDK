@@ -8,6 +8,8 @@ namespace RPG::Client::ActivityHipplen { class ActivityHipplenGameInstance; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ActivityHipplenUtils___c__DisplayClass30_0_TypeDefinitionIndex = 61528;
+
 	class ActivityHipplenUtils___c__DisplayClass30_0 : public ::System::Object
 	{
 	public:

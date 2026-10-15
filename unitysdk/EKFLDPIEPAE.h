@@ -13,6 +13,8 @@ namespace System { class String; }
 #define EKFLDPIEPAE_ONALLOC_OFFSET UNITYSDK_OFFSET(0x1CA54ED0)
 #define EKFLDPIEPAE_ONRECYCLE_OFFSET UNITYSDK_OFFSET(0x1CA54F50)
 
+inline static constexpr unsigned int EKFLDPIEPAE_TypeDefinitionIndex = 43309;
+
 	class EKFLDPIEPAE : public ::System::Object
 	{
 	public:

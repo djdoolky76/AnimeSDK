@@ -67,6 +67,8 @@ namespace UnityEngine::AI { class NavMeshData; }
 
 namespace UnityEngine::AI
 {
+	inline static constexpr unsigned int AsyncNavMeshSimulator_TypeDefinitionIndex = 5671;
+
 	class AsyncNavMeshSimulator : public ::System::Object
 	{
 	public:

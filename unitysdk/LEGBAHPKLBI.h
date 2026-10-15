@@ -7,6 +7,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define LEGBAHPKLBI_DISPOSE_OFFSET UNITYSDK_OFFSET(0xB6513C0)
 #define LEGBAHPKLBI_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB651400)
 
+inline static constexpr unsigned int LEGBAHPKLBI_TypeDefinitionIndex = 55576;
+
 	class LEGBAHPKLBI
 	{
 	public:

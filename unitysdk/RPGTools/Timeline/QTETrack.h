@@ -12,6 +12,8 @@ namespace UnityEngine::Timeline { class TimelineClip; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int QTETrack_TypeDefinitionIndex = 48263;
+
 	class QTETrack : public ::UnityEngine::Timeline::TrackAsset
 	{
 	public:

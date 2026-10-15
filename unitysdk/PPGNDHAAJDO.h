@@ -15,6 +15,8 @@ namespace UnityEngine { class Transform; }
 #define PPGNDHAAJDO_REVERSE_OFFSET UNITYSDK_OFFSET(0xC3862D0)
 #define PPGNDHAAJDO_STARTWITHTARGET_OFFSET UNITYSDK_OFFSET(0xC386220)
 
+inline static constexpr unsigned int PPGNDHAAJDO_TypeDefinitionIndex = 73505;
+
 	class PPGNDHAAJDO : public ::MOGBNBGMIHF
 	{
 	public:

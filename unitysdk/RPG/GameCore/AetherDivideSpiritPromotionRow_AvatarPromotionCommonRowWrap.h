@@ -49,6 +49,8 @@ namespace RPG::GameCore { class ItemConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AetherDivideSpiritPromotionRow_AvatarPromotionCommonRowWrap_TypeDefinitionIndex = 56550;
+
 	class AetherDivideSpiritPromotionRow_AvatarPromotionCommonRowWrap : public ::System::Object
 	{
 	public:

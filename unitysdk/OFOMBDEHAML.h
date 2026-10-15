@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define OFOMBDEHAML_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0xBE4D730)
 #define OFOMBDEHAML_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xBE4D0D0)
 
+inline static constexpr unsigned int OFOMBDEHAML_TypeDefinitionIndex = 61851;
+
 	class OFOMBDEHAML : public ::System::Object
 	{
 	public:

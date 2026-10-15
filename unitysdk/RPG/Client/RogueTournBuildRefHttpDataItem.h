@@ -51,6 +51,8 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueTournBuildRefHttpDataItem_TypeDefinitionIndex = 67511;
+
 	class RogueTournBuildRefHttpDataItem : public ::System::Object
 	{
 	public:

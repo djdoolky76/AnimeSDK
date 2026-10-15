@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define BBGIFPNDBIO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7C37B0)
 #define BBGIFPNDBIO___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E7C37C0)
 
+inline static constexpr unsigned int BBGIFPNDBIO___c_TypeDefinitionIndex = 27225;
+
 	class BBGIFPNDBIO___c : public ::System::Object
 	{
 	public:

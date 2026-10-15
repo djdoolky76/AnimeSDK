@@ -45,6 +45,8 @@ namespace RPG::Client::FateRin::MainPage { class FateRinMainPageUI3DViewModel; }
 
 namespace RPG::Client::FateRin::MainPage
 {
+	inline static constexpr unsigned int FateRinMainPageViewModel_TypeDefinitionIndex = 80638;
+
 	class FateRinMainPageViewModel : public ::RPG::Client::FateRin::BaseViewModel
 	{
 	public:

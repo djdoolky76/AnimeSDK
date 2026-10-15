@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define CBLAMLNFIAJ_CTOR_OFFSET UNITYSDK_OFFSET(0xC4AF430)
 #define CBLAMLNFIAJ_TRANSFORM_OFFSET UNITYSDK_OFFSET(0xC4AF450)
 
+inline static constexpr unsigned int CBLAMLNFIAJ_TypeDefinitionIndex = 59243;
+
 	class CBLAMLNFIAJ
 	{
 	public:

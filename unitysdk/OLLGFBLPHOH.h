@@ -38,6 +38,8 @@ namespace System { class String; }
 #define OLLGFBLPHOH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DEA9540)
 #define OLLGFBLPHOH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DEA95A0)
 
+inline static constexpr unsigned int OLLGFBLPHOH_TypeDefinitionIndex = 29066;
+
 	class OLLGFBLPHOH : public ::System::Object
 	{
 	public:

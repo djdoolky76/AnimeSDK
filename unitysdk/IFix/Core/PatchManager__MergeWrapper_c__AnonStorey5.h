@@ -8,6 +8,8 @@ namespace IFix::Core { class VirtualMachine; }
 
 namespace IFix::Core
 {
+	inline static constexpr unsigned int PatchManager__MergeWrapper_c__AnonStorey5_TypeDefinitionIndex = 7108;
+
 	class PatchManager__MergeWrapper_c__AnonStorey5 : public ::System::Object
 	{
 	public:

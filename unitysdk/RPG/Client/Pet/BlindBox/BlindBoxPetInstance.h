@@ -34,6 +34,8 @@ namespace RPG::Client::Pet::BlindBox { class IBlindBoxPetAppearance; }
 
 namespace RPG::Client::Pet::BlindBox
 {
+	inline static constexpr unsigned int BlindBoxPetInstance_TypeDefinitionIndex = 75729;
+
 	class BlindBoxPetInstance : public ::System::Object
 	{
 	public:

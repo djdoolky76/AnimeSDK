@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace Proto
 {
+	inline static constexpr unsigned int StartCocoonStageScRsp___c_TypeDefinitionIndex = 34034;
+
 	class StartCocoonStageScRsp___c : public ::System::Object
 	{
 	public:

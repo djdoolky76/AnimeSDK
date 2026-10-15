@@ -4,6 +4,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TeamFormationComponent_DataViewRestoreData_TypeDefinitionIndex = 57709;
+
 	struct alignas(4) TeamFormationComponent_DataViewRestoreData
 	{
 		::RPG::MVector3 TeamCenter; // 0x10

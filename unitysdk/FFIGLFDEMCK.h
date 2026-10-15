@@ -15,6 +15,8 @@ namespace UnityEngine { class GameObject; }
 #define FFIGLFDEMCK_MLIKMCHDMEN_OFFSET UNITYSDK_OFFSET(0x15741BF0)
 #define FFIGLFDEMCK_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0x15741470)
 
+inline static constexpr unsigned int FFIGLFDEMCK_TypeDefinitionIndex = 78416;
+
 	class FFIGLFDEMCK : public ::System::Object
 	{
 	public:

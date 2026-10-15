@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define PIMCPBPFGMB___C__DISPLAYCLASS53_0_CTOR_OFFSET UNITYSDK_OFFSET(0xC26F870)
 #define PIMCPBPFGMB___C__DISPLAYCLASS53_0___CTOR_B__1_OFFSET UNITYSDK_OFFSET(0xC270220)
 
+inline static constexpr unsigned int PIMCPBPFGMB___c__DisplayClass53_0_TypeDefinitionIndex = 81614;
+
 	class PIMCPBPFGMB___c__DisplayClass53_0 : public ::System::Object
 	{
 	public:

@@ -14,6 +14,8 @@ namespace XLua { class LuaTable; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ShopBuyGoodsRspAction_TypeDefinitionIndex = 67949;
+
 	class ShopBuyGoodsRspAction : public ::System::MulticastDelegate
 	{
 	public:

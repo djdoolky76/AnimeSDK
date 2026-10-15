@@ -11,6 +11,8 @@ namespace System::Globalization { class CultureInfo; }
 
 namespace System::Resources
 {
+	inline static constexpr unsigned int ResourceFallbackManager_TypeDefinitionIndex = 524;
+
 	class ResourceFallbackManager : public ::System::Object
 	{
 	public:

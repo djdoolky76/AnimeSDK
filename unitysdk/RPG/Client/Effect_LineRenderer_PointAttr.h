@@ -8,6 +8,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Effect_LineRenderer_PointAttr_TypeDefinitionIndex = 70498;
+
 	struct alignas(8) Effect_LineRenderer_PointAttr
 	{
 		::UnityEngine::Transform* Trans; // 0x10

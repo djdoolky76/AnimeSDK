@@ -11,6 +11,8 @@ namespace UnityEngine { class CanvasGroup; }
 
 namespace SRDebugger::UI
 {
+	inline static constexpr unsigned int DebugPanelRoot_TypeDefinitionIndex = 37983;
+
 	class DebugPanelRoot : public ::SRF::SRMonoBehaviourEx
 	{
 	public:

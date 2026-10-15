@@ -9,6 +9,8 @@ namespace System { class Object; }
 
 namespace XLua
 {
+	inline static constexpr unsigned int ReferenceEqualsComparer_TypeDefinitionIndex = 50244;
+
 	class ReferenceEqualsComparer : public ::System::Object
 	{
 	public:

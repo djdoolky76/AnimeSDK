@@ -17,6 +17,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LittleGameEvent_TypeDefinitionIndex = 18886;
+
 	class LittleGameEvent : public ::RPG::GameCore::JsonConfig
 	{
 	public:

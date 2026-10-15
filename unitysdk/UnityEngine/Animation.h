@@ -84,6 +84,8 @@ namespace UnityEngine { class AnimationState; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int Animation_TypeDefinitionIndex = 5741;
+
 	class Animation : public ::UnityEngine::Behaviour
 	{
 	public:

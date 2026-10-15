@@ -11,6 +11,8 @@ namespace System { class Object; }
 
 namespace RPG::Client::Pet
 {
+	inline static constexpr unsigned int PetModule___c_TypeDefinitionIndex = 75691;
+
 	class PetModule___c : public ::System::Object
 	{
 	public:

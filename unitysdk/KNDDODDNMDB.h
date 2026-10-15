@@ -140,6 +140,8 @@ namespace RPG::GameCore { class STTaskConfig; }
 #define KNDDODDNMDB_PMCGMLLCBLF_OFFSET UNITYSDK_OFFSET(0x1D0B8320)
 #define KNDDODDNMDB_POMEKLECEMK_OFFSET UNITYSDK_OFFSET(0x1D0B7800)
 
+inline static constexpr unsigned int KNDDODDNMDB_TypeDefinitionIndex = 20094;
+
 	class KNDDODDNMDB : public ::System::Object
 	{
 	public:

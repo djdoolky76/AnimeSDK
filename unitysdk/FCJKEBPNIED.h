@@ -50,6 +50,8 @@ namespace System { class String; }
 #define FCJKEBPNIED_PFABCIIFDDE_OFFSET UNITYSDK_OFFSET(0x156C9820)
 #define FCJKEBPNIED_PIGMPPFDBJP_OFFSET UNITYSDK_OFFSET(0x156C9E30)
 
+inline static constexpr unsigned int FCJKEBPNIED_TypeDefinitionIndex = 79140;
+
 	class FCJKEBPNIED : public ::System::Object
 	{
 	public:

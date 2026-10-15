@@ -8,6 +8,8 @@ namespace System { class String; }
 
 #define FNPDPHDBNDJ_LHLALAKKKKJ_OFFSET UNITYSDK_OFFSET(0x158DBEA0)
 
+inline static constexpr unsigned int FNPDPHDBNDJ_TypeDefinitionIndex = 74839;
+
 	class FNPDPHDBNDJ : public ::System::Object
 	{
 	public:

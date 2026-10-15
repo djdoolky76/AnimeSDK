@@ -61,6 +61,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define GFDLAIJBBAC_PKHCDDFDBEL_OFFSET UNITYSDK_OFFSET(0x1CA77F80)
 #define GFDLAIJBBAC_PPCFGBMJDJE_OFFSET UNITYSDK_OFFSET(0x1CA93680)
 
+inline static constexpr unsigned int GFDLAIJBBAC_TypeDefinitionIndex = 42463;
+
 	class GFDLAIJBBAC : public ::HLFHMKMJNPK
 	{
 	public:

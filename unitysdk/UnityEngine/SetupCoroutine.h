@@ -10,6 +10,8 @@ namespace System::Collections { class IEnumerator; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int SetupCoroutine_TypeDefinitionIndex = 4322;
+
 	class SetupCoroutine : public ::System::Object
 	{
 	public:

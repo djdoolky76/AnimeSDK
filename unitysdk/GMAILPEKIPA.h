@@ -16,6 +16,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define GMAILPEKIPA_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15AC9CB0)
 #define GMAILPEKIPA_TICK_OFFSET UNITYSDK_OFFSET(0x15AC9D80)
 
+inline static constexpr unsigned int GMAILPEKIPA_TypeDefinitionIndex = 55614;
+
 	class GMAILPEKIPA : public ::GELIALJDFBL
 	{
 	public:

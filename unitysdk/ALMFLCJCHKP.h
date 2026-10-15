@@ -398,6 +398,8 @@ namespace UnityEngine { class Transform; }
 #define ALMFLCJCHKP_REPLACEGENERICVIEWLOADCALLBACK_OFFSET UNITYSDK_OFFSET(0x1C899D70)
 #define ALMFLCJCHKP_REPLACEGENERICVIEWUNLOADCALLBACK_OFFSET UNITYSDK_OFFSET(0x1C89A050)
 
+inline static constexpr unsigned int ALMFLCJCHKP_TypeDefinitionIndex = 42565;
+
 	class ALMFLCJCHKP : public ::Entitas::Entity
 	{
 	public:

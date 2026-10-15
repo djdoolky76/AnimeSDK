@@ -36,6 +36,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace MiHoYo::SDK::UI::Internal::OS
 {
+	inline static constexpr unsigned int AccountList_TypeDefinitionIndex = 8433;
+
 	class AccountList : public ::MiHoYo::SDK::UIElement
 	{
 	public:

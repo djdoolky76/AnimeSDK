@@ -11,6 +11,8 @@ namespace RPG::GameCore { class PropMoveToV2TargetAnchor; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PropMoveToV2TargetAnchor_TypeDefinitionIndex = 17513;
+
 	class PropMoveToV2TargetAnchor : public ::RPG::GameCore::PropMoveToV2TargetBase
 	{
 	public:

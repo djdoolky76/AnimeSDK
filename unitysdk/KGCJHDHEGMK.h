@@ -5,6 +5,8 @@ namespace System { class String; }
 
 #define KGCJHDHEGMK_CTOR_OFFSET UNITYSDK_OFFSET(0x14160)
 
+inline static constexpr unsigned int KGCJHDHEGMK_TypeDefinitionIndex = 56516;
+
 	struct alignas(8) KGCJHDHEGMK
 	{
 		::System::String* BFLIFKBEOPJ; // 0x10

@@ -24,6 +24,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define LOILFMKENFF_ODNFLOGONHP_1_OFFSET UNITYSDK_OFFSET(0x1C4AFAC0)
 #define LOILFMKENFF_ODNFLOGONHP_OFFSET UNITYSDK_OFFSET(0x1C4AFA60)
 
+inline static constexpr unsigned int LOILFMKENFF_TypeDefinitionIndex = 41443;
+
 	class LOILFMKENFF : public ::System::Object
 	{
 	public:

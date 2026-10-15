@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriAtomExAsrRack_NativeMethods_TypeDefinitionIndex = 39915;
+
 	class CriAtomExAsrRack_NativeMethods : public ::System::Object
 	{
 	public:

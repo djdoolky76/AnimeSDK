@@ -7,6 +7,8 @@
 
 namespace Google::Protobuf::Collections
 {
+	inline static constexpr unsigned int ProtobufEqualityComparers_BitwiseSingleEqualityComparerImpl_TypeDefinitionIndex = 5588;
+
 	class ProtobufEqualityComparers_BitwiseSingleEqualityComparerImpl
 	{
 	public:

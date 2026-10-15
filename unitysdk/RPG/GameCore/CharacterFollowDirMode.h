@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CharacterFollowDirMode_TypeDefinitionIndex = 16584;
+
 	enum class CharacterFollowDirMode : ::System::Int32
 	{
 		Target = 0,

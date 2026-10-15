@@ -27,6 +27,8 @@ namespace System { class String; }
 #define KNPMLBOBKPI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E8AA440)
 #define KNPMLBOBKPI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E8AA4A0)
 
+inline static constexpr unsigned int KNPMLBOBKPI_TypeDefinitionIndex = 33260;
+
 	class KNPMLBOBKPI : public ::System::Object
 	{
 	public:

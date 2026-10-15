@@ -9,6 +9,8 @@ namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int DLSSPass__Warmup_d__4_TypeDefinitionIndex = 37564;
+
 	template <typename T1, typename T2, typename T3, typename T4>
 	struct alignas(4) DLSSPass__Warmup_d__4
 	{

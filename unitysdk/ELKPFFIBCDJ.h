@@ -7,6 +7,8 @@ namespace RPG::GameCore { class MiConditionConfigBase; }
 #define ELKPFFIBCDJ_BEJAJNEFHIB_OFFSET UNITYSDK_OFFSET(0x15526820)
 #define ELKPFFIBCDJ_CTOR_OFFSET UNITYSDK_OFFSET(0x155269C0)
 
+inline static constexpr unsigned int ELKPFFIBCDJ_TypeDefinitionIndex = 59956;
+
 	class ELKPFFIBCDJ : public ::System::Object
 	{
 	public:

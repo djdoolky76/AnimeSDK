@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PerformanceDynamicLoadCharacter_TypeDefinitionIndex = 21858;
+
 	class PerformanceDynamicLoadCharacter : public ::RPG::GameCore::TaskConfig
 	{
 	public:

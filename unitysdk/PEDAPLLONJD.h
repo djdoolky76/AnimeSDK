@@ -18,6 +18,8 @@ namespace UnityEngine::AI { class NavMeshPath; }
 #define PEDAPLLONJD_CTOR_OFFSET UNITYSDK_OFFSET(0xC01AB80)
 #define PEDAPLLONJD_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0xC034210)
 
+inline static constexpr unsigned int PEDAPLLONJD_TypeDefinitionIndex = 57117;
+
 	class PEDAPLLONJD : public ::System::Object
 	{
 	public:

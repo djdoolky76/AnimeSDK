@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CurveEdgePointSetting_TypeDefinitionIndex = 68565;
+
 	struct alignas(8) CurveEdgePointSetting
 	{
 		::RPG::Client::ECurveEdgePoint point; // 0x10

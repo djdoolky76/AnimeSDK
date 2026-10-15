@@ -7,6 +7,8 @@
 
 namespace InControl::NativeDeviceProfiles
 {
+	inline static constexpr unsigned int DualSenseMFiNativeProfile_TypeDefinitionIndex = 41248;
+
 	class DualSenseMFiNativeProfile : public ::InControl::InputDeviceProfile
 	{
 	public:

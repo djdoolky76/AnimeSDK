@@ -14,6 +14,8 @@ namespace UnityEngine::Networking { class DownloadHandlerTexture; }
 
 namespace UnityEngine::Networking
 {
+	inline static constexpr unsigned int DownloadHandlerTexture_TypeDefinitionIndex = 6032;
+
 	class DownloadHandlerTexture : public ::UnityEngine::Networking::DownloadHandler
 	{
 	public:

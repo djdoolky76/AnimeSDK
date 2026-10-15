@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 #define HGJDKPIBJBI__ENUMERATESPECIFICPATHAVATARS_D__17_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15CA34E0)
 #define HGJDKPIBJBI__ENUMERATESPECIFICPATHAVATARS_D__17___M__FINALLY1_OFFSET UNITYSDK_OFFSET(0x15CA34F0)
 
+inline static constexpr unsigned int HGJDKPIBJBI__EnumerateSpecificPathAvatars_d__17_TypeDefinitionIndex = 62670;
+
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10, typename T11, typename T12, typename T13, typename T14, typename T15, typename T16, typename T17>
 	class HGJDKPIBJBI__EnumerateSpecificPathAvatars_d__17 : public ::System::Object
 	{

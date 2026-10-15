@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PlayMusicVisualEffect_TypeDefinitionIndex = 22310;
+
 	class PlayMusicVisualEffect : public ::RPG::GameCore::TaskConfig
 	{
 	public:

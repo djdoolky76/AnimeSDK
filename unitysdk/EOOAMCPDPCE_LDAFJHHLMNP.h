@@ -7,6 +7,8 @@ namespace System { class String; }
 
 #define EOOAMCPDPCE_LDAFJHHLMNP_CTOR_OFFSET UNITYSDK_OFFSET(0x155CB8E0)
 
+inline static constexpr unsigned int EOOAMCPDPCE_LDAFJHHLMNP_TypeDefinitionIndex = 57155;
+
 	class EOOAMCPDPCE_LDAFJHHLMNP : public ::System::Object
 	{
 	public:

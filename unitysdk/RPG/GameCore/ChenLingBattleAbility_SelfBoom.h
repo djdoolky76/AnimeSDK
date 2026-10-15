@@ -12,6 +12,8 @@ namespace RPG::GameCore { class ChenLingBattleEffectConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChenLingBattleAbility_SelfBoom_TypeDefinitionIndex = 15751;
+
 	class ChenLingBattleAbility_SelfBoom : public ::RPG::GameCore::BaseChenLingBattleAbilityNodeConfig
 	{
 	public:

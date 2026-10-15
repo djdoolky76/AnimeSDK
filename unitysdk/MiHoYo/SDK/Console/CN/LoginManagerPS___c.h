@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK::Console::CN
 {
+	inline static constexpr unsigned int LoginManagerPS___c_TypeDefinitionIndex = 9116;
+
 	class LoginManagerPS___c : public ::System::Object
 	{
 	public:

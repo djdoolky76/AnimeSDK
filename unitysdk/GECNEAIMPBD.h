@@ -8,6 +8,8 @@ class HFACHPPOANI;
 #define GECNEAIMPBD_HGAMLCFBAHL_OFFSET UNITYSDK_OFFSET(0x159C86F0)
 #define GECNEAIMPBD_KGDLMPEABGG_OFFSET UNITYSDK_OFFSET(0x159C86B0)
 
+inline static constexpr unsigned int GECNEAIMPBD_TypeDefinitionIndex = 73107;
+
 	class GECNEAIMPBD : public ::System::Object
 	{
 	public:

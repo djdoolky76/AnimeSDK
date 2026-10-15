@@ -9,6 +9,8 @@ namespace RPG::GameCore { class LoadingSpecialTypeConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LoadingSpecialTypeConfigRow_TypeDefinitionIndex = 13991;
+
 	class LoadingSpecialTypeConfigRow : public ::System::Object
 	{
 	public:

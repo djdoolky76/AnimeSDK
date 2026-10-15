@@ -10,6 +10,8 @@ namespace System::Text { class StringBuilder; }
 #define ALEJPKNHLCN_HHPCKGMJCDB_CTOR_OFFSET UNITYSDK_OFFSET(0x15565AF0)
 #define ALEJPKNHLCN_HHPCKGMJCDB_IEGPKKOFEGN_OFFSET UNITYSDK_OFFSET(0x15565FD0)
 
+inline static constexpr unsigned int ALEJPKNHLCN_HHPCKGMJCDB_TypeDefinitionIndex = 50047;
+
 	class ALEJPKNHLCN_HHPCKGMJCDB : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@ namespace System { class Type; }
 #define GPEEJOMIPND_GET_TARGETTYPE_OFFSET UNITYSDK_OFFSET(0x15B52570)
 #define GPEEJOMIPND_SET_TARGETTYPE_OFFSET UNITYSDK_OFFSET(0x15B52580)
 
+inline static constexpr unsigned int GPEEJOMIPND_TypeDefinitionIndex = 49332;
+
 	class GPEEJOMIPND : public ::System::Attribute
 	{
 	public:

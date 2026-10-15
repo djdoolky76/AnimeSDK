@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ActivityTagRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ActivityTagRow_TypeDefinitionIndex = 11215;
+
 	class ActivityTagRow : public ::System::Object
 	{
 	public:

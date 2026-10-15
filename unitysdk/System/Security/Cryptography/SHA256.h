@@ -8,6 +8,8 @@ namespace System::Security::Cryptography { class SHA256; }
 
 namespace System::Security::Cryptography
 {
+	inline static constexpr unsigned int SHA256_TypeDefinitionIndex = 1057;
+
 	class SHA256 : public ::System::Security::Cryptography::HashAlgorithm
 	{
 	public:

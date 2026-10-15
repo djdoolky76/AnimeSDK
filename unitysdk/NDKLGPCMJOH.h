@@ -14,6 +14,8 @@ namespace UnityEngine { class GameObject; }
 #define NDKLGPCMJOH_GLMPICLDPIP_1_OFFSET UNITYSDK_OFFSET(0xBB4B880)
 #define NDKLGPCMJOH_GLMPICLDPIP_OFFSET UNITYSDK_OFFSET(0xBB4B2C0)
 
+inline static constexpr unsigned int NDKLGPCMJOH_TypeDefinitionIndex = 49093;
+
 	class NDKLGPCMJOH : public ::CBEBCHAFBCE
 	{
 	public:

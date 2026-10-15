@@ -7,6 +7,8 @@ namespace RPG::GameCore { class OptionTriggerInfo; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PropOptionTrigger_ButtonParam_TypeDefinitionIndex = 57527;
+
 	class PropOptionTrigger_ButtonParam : public ::System::Object
 	{
 	public:

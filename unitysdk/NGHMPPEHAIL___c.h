@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define NGHMPPEHAIL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB117D0)
 #define NGHMPPEHAIL___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1EB117E0)
 
+inline static constexpr unsigned int NGHMPPEHAIL___c_TypeDefinitionIndex = 26407;
+
 	class NGHMPPEHAIL___c : public ::System::Object
 	{
 	public:

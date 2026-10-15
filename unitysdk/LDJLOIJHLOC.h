@@ -200,6 +200,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define LDJLOIJHLOC_SET_SUMMONERENTITY_OFFSET UNITYSDK_OFFSET(0xB635180)
 #define LDJLOIJHLOC_TICK_OFFSET UNITYSDK_OFFSET(0xB634A60)
 
+inline static constexpr unsigned int LDJLOIJHLOC_TypeDefinitionIndex = 57453;
+
 	class LDJLOIJHLOC : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

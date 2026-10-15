@@ -24,6 +24,8 @@ namespace UnityEngine { class Shader; }
 
 namespace UnityEngine::ProBuilder
 {
+	inline static constexpr unsigned int BuiltinMaterials_TypeDefinitionIndex = 44340;
+
 	class BuiltinMaterials : public ::System::Object
 	{
 	public:

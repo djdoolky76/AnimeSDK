@@ -8,6 +8,8 @@ namespace RPG::GameCore { class GridFightDragOpGridSelector; }
 #define MJKAAFGONCL___C__DISPLAYCLASS1_0__GETGRID_B__0_OFFSET UNITYSDK_OFFSET(0xB96E240)
 #define MJKAAFGONCL___C__DISPLAYCLASS1_0__GETGRID_B__1_OFFSET UNITYSDK_OFFSET(0xB96E420)
 
+inline static constexpr unsigned int MJKAAFGONCL___c__DisplayClass1_0_TypeDefinitionIndex = 65503;
+
 	class MJKAAFGONCL___c__DisplayClass1_0 : public ::System::Object
 	{
 	public:

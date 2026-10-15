@@ -62,6 +62,8 @@ namespace System { class String; }
 #define OCEAHPDAPFC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE0FDD0)
 #define OCEAHPDAPFC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DE0FE30)
 
+inline static constexpr unsigned int OCEAHPDAPFC_TypeDefinitionIndex = 30303;
+
 	class OCEAHPDAPFC : public ::System::Object
 	{
 	public:

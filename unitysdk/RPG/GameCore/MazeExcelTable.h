@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MazeExcelTable_TypeDefinitionIndex = 15467;
+
 	class MazeExcelTable : public ::System::Object
 	{
 	public:

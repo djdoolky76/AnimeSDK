@@ -9,6 +9,8 @@ class AOAPEDBJPKE;
 #define AOAPEDBJPKE_EQUALS_OFFSET UNITYSDK_OFFSET(0x158A5ED0)
 #define AOAPEDBJPKE_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x158A5F30)
 
+inline static constexpr unsigned int AOAPEDBJPKE_TypeDefinitionIndex = 69302;
+
 	class AOAPEDBJPKE : public ::System::Object
 	{
 	public:

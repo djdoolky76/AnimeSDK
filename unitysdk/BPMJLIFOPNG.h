@@ -7,6 +7,8 @@ class CBGGOEJGLIC;
 #define BPMJLIFOPNG_CTOR_OFFSET UNITYSDK_OFFSET(0xC1AA850)
 #define BPMJLIFOPNG_GHDFDJALJDA_OFFSET UNITYSDK_OFFSET(0xC1AA970)
 
+inline static constexpr unsigned int BPMJLIFOPNG_TypeDefinitionIndex = 72409;
+
 	class BPMJLIFOPNG : public ::BLOFHFCGJHA
 	{
 	public:

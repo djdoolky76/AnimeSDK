@@ -7,6 +7,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BattleOnEntityActionOrderUpdatedParam_TypeDefinitionIndex = 71302;
+
 	class BattleOnEntityActionOrderUpdatedParam : public ::System::Object
 	{
 	public:

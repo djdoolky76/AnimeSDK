@@ -13,6 +13,8 @@ namespace VLB { class BeamGeometry; }
 
 namespace VLB
 {
+	inline static constexpr unsigned int BeamGeometry___c_TypeDefinitionIndex = 48984;
+
 	class BeamGeometry___c : public ::System::Object
 	{
 	public:

@@ -3,6 +3,8 @@
 
 namespace System::Runtime::InteropServices
 {
+	inline static constexpr unsigned int _ConstructorInfo_TypeDefinitionIndex = 1443;
+
 	class _ConstructorInfo
 	{
 	public:

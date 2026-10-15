@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int PopImageModel_TypeDefinitionIndex = 8260;
+
 	class PopImageModel : public ::System::Object
 	{
 	public:

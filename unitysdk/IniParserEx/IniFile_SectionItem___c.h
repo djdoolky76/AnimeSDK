@@ -14,6 +14,8 @@ namespace System::Collections::Generic { class KeyValuePair; }
 
 namespace IniParserEx
 {
+	inline static constexpr unsigned int IniFile_SectionItem___c_TypeDefinitionIndex = 3937;
+
 	class IniFile_SectionItem___c : public ::System::Object
 	{
 	public:

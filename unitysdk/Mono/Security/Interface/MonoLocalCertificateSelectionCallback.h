@@ -15,6 +15,8 @@ namespace System::Security::Cryptography::X509Certificates { class X509Certifica
 
 namespace Mono::Security::Interface
 {
+	inline static constexpr unsigned int MonoLocalCertificateSelectionCallback_TypeDefinitionIndex = 2293;
+
 	class MonoLocalCertificateSelectionCallback : public ::System::MulticastDelegate
 	{
 	public:

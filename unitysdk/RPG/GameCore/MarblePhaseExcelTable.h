@@ -26,6 +26,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MarblePhaseExcelTable_TypeDefinitionIndex = 11868;
+
 	class MarblePhaseExcelTable : public ::System::Object
 	{
 	public:

@@ -5,6 +5,8 @@ namespace RPG::Client { class AlleySpecialOrderTarget; }
 
 #define AOAKHAPIAFO_JMGMFMGFIAO_OFFSET UNITYSDK_OFFSET(0x158A5DF0)
 
+inline static constexpr unsigned int AOAKHAPIAFO_TypeDefinitionIndex = 62269;
+
 	class AOAKHAPIAFO : public ::System::Object
 	{
 	public:

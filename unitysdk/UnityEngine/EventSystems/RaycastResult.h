@@ -14,6 +14,8 @@ namespace UnityEngine::EventSystems { class BaseRaycaster; }
 
 namespace UnityEngine::EventSystems
 {
+	inline static constexpr unsigned int RaycastResult_TypeDefinitionIndex = 6948;
+
 	struct alignas(8) RaycastResult
 	{
 		::UnityEngine::GameObject* m_GameObject; // 0x10

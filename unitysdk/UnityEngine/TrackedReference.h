@@ -13,6 +13,8 @@ namespace UnityEngine { class TrackedReference; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int TrackedReference_TypeDefinitionIndex = 4357;
+
 	class TrackedReference : public ::System::Object
 	{
 	public:

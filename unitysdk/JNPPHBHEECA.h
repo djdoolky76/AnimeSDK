@@ -21,6 +21,8 @@ namespace System { class Object; }
 #define JNPPHBHEECA_NIJJPBOIGBI_OFFSET UNITYSDK_OFFSET(0xB2939E0)
 #define JNPPHBHEECA__ONBIND_OFFSET UNITYSDK_OFFSET(0xB2937A0)
 
+inline static constexpr unsigned int JNPPHBHEECA_TypeDefinitionIndex = 71940;
+
 	class JNPPHBHEECA : public ::FMPCODLIOLG
 	{
 	public:

@@ -38,6 +38,8 @@ namespace System::Collections::Generic { template <typename T> class Queue_1; }
 #define EBBJGCKIBAA_SET_ROLLBACKSTATE_OFFSET UNITYSDK_OFFSET(0x12CE87B0)
 #define EBBJGCKIBAA_SET_TARGETTURNSTATE_OFFSET UNITYSDK_OFFSET(0x12CE8740)
 
+inline static constexpr unsigned int EBBJGCKIBAA_TypeDefinitionIndex = 56280;
+
 	class EBBJGCKIBAA : public ::System::Object
 	{
 	public:

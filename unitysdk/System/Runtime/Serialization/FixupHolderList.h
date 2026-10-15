@@ -10,6 +10,8 @@ namespace System::Runtime::Serialization { class FixupHolder; }
 
 namespace System::Runtime::Serialization
 {
+	inline static constexpr unsigned int FixupHolderList_TypeDefinitionIndex = 1112;
+
 	class FixupHolderList : public ::System::Object
 	{
 	public:

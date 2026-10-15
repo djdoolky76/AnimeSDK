@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define ILAMAONBODN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E6A6B80)
 #define ILAMAONBODN___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1E6A6B90)
 
+inline static constexpr unsigned int ILAMAONBODN___c_TypeDefinitionIndex = 34509;
+
 	class ILAMAONBODN___c : public ::System::Object
 	{
 	public:

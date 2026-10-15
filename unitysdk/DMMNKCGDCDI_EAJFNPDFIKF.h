@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 #define DMMNKCGDCDI_EAJFNPDFIKF_UPDATEAFTER_OFFSET UNITYSDK_OFFSET(0xFEC6490)
 #define DMMNKCGDCDI_EAJFNPDFIKF_UPDATEBEFORE_OFFSET UNITYSDK_OFFSET(0xFEC5ED0)
 
+inline static constexpr unsigned int DMMNKCGDCDI_EAJFNPDFIKF_TypeDefinitionIndex = 65093;
+
 	class DMMNKCGDCDI_EAJFNPDFIKF : public ::BCILMJOBEAD
 	{
 	public:

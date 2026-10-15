@@ -7,6 +7,8 @@ namespace UnityEngine::Rendering { class RenderPipelineAsset; }
 #define SCENERENDERPIPELINE_ONENABLE_OFFSET UNITYSDK_OFFSET(0x1F29BB70)
 #define SCENERENDERPIPELINE_ONVALIDATE_OFFSET UNITYSDK_OFFSET(0x1F29BBF0)
 
+inline static constexpr unsigned int SceneRenderPipeline_TypeDefinitionIndex = 35439;
+
 	class SceneRenderPipeline : public ::UnityEngine::MonoBehaviour
 	{
 	public:

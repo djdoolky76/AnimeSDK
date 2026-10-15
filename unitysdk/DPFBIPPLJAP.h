@@ -5,6 +5,8 @@ class KKJMAOMDCAE_ELIIEJCNHLN;
 
 #define DPFBIPPLJAP_CTOR_OFFSET UNITYSDK_OFFSET(0x11FFB5E0)
 
+inline static constexpr unsigned int DPFBIPPLJAP_TypeDefinitionIndex = 64783;
+
 	class DPFBIPPLJAP : public ::System::Object
 	{
 	public:

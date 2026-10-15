@@ -103,6 +103,8 @@ namespace UnityEngine { class Transform; }
 #define REFGPUPARTICLESYSTEMBUFFER_PDHEFNPNIDI_OFFSET UNITYSDK_OFFSET(0x1EBCF190)
 #define REFGPUPARTICLESYSTEMBUFFER_PHLBAODCLPI_OFFSET UNITYSDK_OFFSET(0x1EBD5480)
 
+inline static constexpr unsigned int RefGPUParticleSystemBuffer_TypeDefinitionIndex = 44012;
+
 	class RefGPUParticleSystemBuffer : public ::System::Object
 	{
 	public:

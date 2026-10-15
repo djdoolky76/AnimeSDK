@@ -13,6 +13,8 @@ namespace UnityEngine::UI { class Text; }
 #define KJICHABELAK_OPFCNGLLCJO_OFFSET UNITYSDK_OFFSET(0xB458920)
 #define KJICHABELAK__ONBIND_OFFSET UNITYSDK_OFFSET(0xB458530)
 
+inline static constexpr unsigned int KJICHABELAK_TypeDefinitionIndex = 71564;
+
 	class KJICHABELAK : public ::FMPCODLIOLG
 	{
 	public:

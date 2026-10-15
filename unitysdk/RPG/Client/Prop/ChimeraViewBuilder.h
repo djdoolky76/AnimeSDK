@@ -13,6 +13,8 @@ namespace UnityEngine { class Animator; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int ChimeraViewBuilder_TypeDefinitionIndex = 78505;
+
 	class ChimeraViewBuilder : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -30,6 +30,8 @@ namespace System { class String; }
 #define KGHGKLIAKLL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E837B80)
 #define KGHGKLIAKLL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E837BE0)
 
+inline static constexpr unsigned int KGHGKLIAKLL_TypeDefinitionIndex = 33796;
+
 	class KGHGKLIAKLL : public ::System::Object
 	{
 	public:

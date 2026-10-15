@@ -14,6 +14,8 @@ namespace System { class String; }
 #define HKDPAKBBCHG_IFLNIIIFBFB_OFFSET UNITYSDK_OFFSET(0x15D404A0)
 #define HKDPAKBBCHG_JLLDNBNAGEA_OFFSET UNITYSDK_OFFSET(0x15D3FCF0)
 
+inline static constexpr unsigned int HKDPAKBBCHG_TypeDefinitionIndex = 62270;
+
 	class HKDPAKBBCHG : public ::System::Object
 	{
 	public:

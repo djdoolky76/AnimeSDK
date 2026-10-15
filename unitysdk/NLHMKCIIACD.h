@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define NLHMKCIIACD_CTOR_OFFSET UNITYSDK_OFFSET(0xBC6FE50)
 #define NLHMKCIIACD_GET_ABILITYNAME_OFFSET UNITYSDK_OFFSET(0xBC6FD00)
 
+inline static constexpr unsigned int NLHMKCIIACD_TypeDefinitionIndex = 75235;
+
 	class NLHMKCIIACD : public ::System::Object
 	{
 	public:

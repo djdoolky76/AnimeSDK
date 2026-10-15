@@ -39,6 +39,8 @@ namespace UnityEngine { class Transform; }
 #define EGOIABMAGME__ONBIND_OFFSET UNITYSDK_OFFSET(0x1451F2B0)
 #define EGOIABMAGME__ONDISPOSE_OFFSET UNITYSDK_OFFSET(0x1451FA50)
 
+inline static constexpr unsigned int EGOIABMAGME_TypeDefinitionIndex = 71763;
+
 	class EGOIABMAGME : public ::FMPCODLIOLG
 	{
 	public:

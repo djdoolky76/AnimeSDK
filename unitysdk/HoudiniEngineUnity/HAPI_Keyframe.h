@@ -5,6 +5,8 @@
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HAPI_Keyframe_TypeDefinitionIndex = 40510;
+
 	struct alignas(4) HAPI_Keyframe
 	{
 		::System::Single time; // 0x10

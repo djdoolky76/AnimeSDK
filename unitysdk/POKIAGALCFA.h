@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define POKIAGALCFA_CTOR_OFFSET UNITYSDK_OFFSET(0xC36E310)
 #define POKIAGALCFA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xC36E340)
 
+inline static constexpr unsigned int POKIAGALCFA_TypeDefinitionIndex = 52975;
+
 	class POKIAGALCFA
 	{
 	public:

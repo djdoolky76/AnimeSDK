@@ -66,6 +66,8 @@ namespace System::Text { class Encoding; }
 
 namespace Google::Protobuf
 {
+	inline static constexpr unsigned int CodedOutputStream_TypeDefinitionIndex = 5369;
+
 	class CodedOutputStream : public ::System::Object
 	{
 	public:

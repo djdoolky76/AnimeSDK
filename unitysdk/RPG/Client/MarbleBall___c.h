@@ -11,6 +11,8 @@ namespace System { template <typename T> class Comparison_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MarbleBall___c_TypeDefinitionIndex = 65801;
+
 	class MarbleBall___c : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace RPG::GameCore { class FateRinCaseBoardMoveBaseInfo; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FateRinCaseBoardMoveBaseInfo_TypeDefinitionIndex = 19920;
+
 	class FateRinCaseBoardMoveBaseInfo : public ::RPG::GameCore::JsonConfig
 	{
 	public:

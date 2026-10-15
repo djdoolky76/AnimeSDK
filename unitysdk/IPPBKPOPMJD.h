@@ -7,6 +7,8 @@ namespace System { class String; }
 #define IPPBKPOPMJD_CCTOR_OFFSET UNITYSDK_OFFSET(0x1EC30F80)
 #define IPPBKPOPMJD_FGOIDMKPLGF_OFFSET UNITYSDK_OFFSET(0x1EC30D50)
 
+inline static constexpr unsigned int IPPBKPOPMJD_TypeDefinitionIndex = 35310;
+
 	class IPPBKPOPMJD : public ::System::Object
 	{
 	public:

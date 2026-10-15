@@ -9,6 +9,8 @@ namespace System { class Object; }
 #define IFKBCHMIHCN__REGISTEREVENTCALLBACK_OFFSET UNITYSDK_OFFSET(0x15F1EE80)
 #define IFKBCHMIHCN__UNREGISTEREVENTCALLBACK_OFFSET UNITYSDK_OFFSET(0x15F1EF40)
 
+inline static constexpr unsigned int IFKBCHMIHCN_TypeDefinitionIndex = 53465;
+
 	class IFKBCHMIHCN
 	{
 	public:

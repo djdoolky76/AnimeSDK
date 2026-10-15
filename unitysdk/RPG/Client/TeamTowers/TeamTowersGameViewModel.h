@@ -63,6 +63,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::TeamTowers
 {
+	inline static constexpr unsigned int TeamTowersGameViewModel_TypeDefinitionIndex = 79063;
+
 	class TeamTowersGameViewModel : public ::System::Object
 	{
 	public:

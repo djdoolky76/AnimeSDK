@@ -27,6 +27,8 @@ namespace Sofa::Core { template <typename T> class ObservableList_1; }
 
 namespace RPG::Client::ChenLingFes
 {
+	inline static constexpr unsigned int ChenLingFesGameplayRankInfoViewModel_TypeDefinitionIndex = 81384;
+
 	class ChenLingFesGameplayRankInfoViewModel : public ::Sofa::BaseViewModel
 	{
 	public:

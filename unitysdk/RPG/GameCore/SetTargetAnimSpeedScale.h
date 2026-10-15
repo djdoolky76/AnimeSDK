@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetTargetAnimSpeedScale_TypeDefinitionIndex = 22885;
+
 	class SetTargetAnimSpeedScale : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -17,6 +17,8 @@ namespace XLua { class LuaEnv; }
 
 namespace XLua::CSObjectWrap
 {
+	inline static constexpr unsigned int RPGClientPixAirIPixAirBattleActionBridge_TypeDefinitionIndex = 50930;
+
 	class RPGClientPixAirIPixAirBattleActionBridge : public ::XLua::LuaBase
 	{
 	public:

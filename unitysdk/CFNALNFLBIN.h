@@ -46,6 +46,8 @@ namespace UnityEngine { class Mesh; }
 #define CFNALNFLBIN_NNGJOACGKLC_OFFSET UNITYSDK_OFFSET(0xCC56D80)
 #define CFNALNFLBIN_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0xCC55770)
 
+inline static constexpr unsigned int CFNALNFLBIN_TypeDefinitionIndex = 73747;
+
 	class CFNALNFLBIN : public ::System::Object
 	{
 	public:

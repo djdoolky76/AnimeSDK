@@ -10,6 +10,8 @@ namespace RPG::GameCore { class DiceCombatAIEffectEvaluatorConfig_DiceRerollCoun
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DiceCombatAIEffectEvaluatorConfig_DiceRerollCount_TypeDefinitionIndex = 16175;
+
 	class DiceCombatAIEffectEvaluatorConfig_DiceRerollCount : public ::RPG::GameCore::DiceCombatAIEffectEvaluatorConfig
 	{
 	public:

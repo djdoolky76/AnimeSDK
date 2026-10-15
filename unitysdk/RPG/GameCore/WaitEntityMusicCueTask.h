@@ -19,6 +19,8 @@ namespace System { class Object; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaitEntityMusicCueTask_TypeDefinitionIndex = 58888;
+
 	class WaitEntityMusicCueTask : public ::GELIALJDFBL
 	{
 	public:

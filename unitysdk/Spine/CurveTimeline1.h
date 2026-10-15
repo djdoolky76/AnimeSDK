@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace Spine
 {
+	inline static constexpr unsigned int CurveTimeline1_TypeDefinitionIndex = 39601;
+
 	class CurveTimeline1 : public ::Spine::CurveTimeline
 	{
 	public:

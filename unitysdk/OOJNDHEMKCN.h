@@ -8,6 +8,8 @@ class OOJNDHEMKCN;
 #define OOJNDHEMKCN_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D2B6940)
 #define OOJNDHEMKCN_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D2B6900)
 
+inline static constexpr unsigned int OOJNDHEMKCN_TypeDefinitionIndex = 21330;
+
 	class OOJNDHEMKCN : public ::RPG::GameCore::STTaskConfig
 	{
 	public:

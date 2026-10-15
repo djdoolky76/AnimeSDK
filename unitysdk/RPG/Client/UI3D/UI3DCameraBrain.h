@@ -33,6 +33,8 @@ namespace UnityEngine { class Camera; }
 
 namespace RPG::Client::UI3D
 {
+	inline static constexpr unsigned int UI3DCameraBrain_TypeDefinitionIndex = 78989;
+
 	class UI3DCameraBrain : public ::UnityEngine::MonoBehaviour
 	{
 	public:

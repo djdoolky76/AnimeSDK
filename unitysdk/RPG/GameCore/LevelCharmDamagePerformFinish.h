@@ -13,6 +13,8 @@ namespace RPG::GameCore { class LevelCharmDamagePerformFinish; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelCharmDamagePerformFinish_TypeDefinitionIndex = 56740;
+
 	class LevelCharmDamagePerformFinish : public ::CMPGEAFHHDC
 	{
 	public:

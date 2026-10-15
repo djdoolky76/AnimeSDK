@@ -6,6 +6,8 @@ class BMFJFABKKFE;
 
 #define KOEJPJACFDD_CTOR_OFFSET UNITYSDK_OFFSET(0x1C71D990)
 
+inline static constexpr unsigned int KOEJPJACFDD_TypeDefinitionIndex = 37175;
+
 	class KOEJPJACFDD : public ::System::Object
 	{
 	public:

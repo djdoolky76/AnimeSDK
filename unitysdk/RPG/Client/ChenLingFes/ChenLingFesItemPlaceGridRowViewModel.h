@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::ChenLingFes
 {
+	inline static constexpr unsigned int ChenLingFesItemPlaceGridRowViewModel_TypeDefinitionIndex = 81395;
+
 	class ChenLingFesItemPlaceGridRowViewModel : public ::Sofa::BaseViewModel
 	{
 	public:

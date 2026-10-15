@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define MOOKEPFNLPM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EAB2990)
 #define MOOKEPFNLPM___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1EAB29A0)
 
+inline static constexpr unsigned int MOOKEPFNLPM___c_TypeDefinitionIndex = 34054;
+
 	class MOOKEPFNLPM___c : public ::System::Object
 	{
 	public:

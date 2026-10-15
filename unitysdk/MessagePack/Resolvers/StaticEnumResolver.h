@@ -8,6 +8,8 @@ namespace MessagePack::Resolvers { class StaticEnumResolver; }
 
 namespace MessagePack::Resolvers
 {
+	inline static constexpr unsigned int StaticEnumResolver_TypeDefinitionIndex = 7277;
+
 	class StaticEnumResolver : public ::System::Object
 	{
 	public:

@@ -15,6 +15,8 @@ namespace RPG::GameCore { class TriggerRogueAvatarPick; }
 #define KMKKADANBDA_TICK_OFFSET UNITYSDK_OFFSET(0xB55D4C0)
 #define KMKKADANBDA__ONTASKBEGIN_B__3_0_OFFSET UNITYSDK_OFFSET(0xB55D9A0)
 
+inline static constexpr unsigned int KMKKADANBDA_TypeDefinitionIndex = 58794;
+
 	class KMKKADANBDA : public ::GELIALJDFBL
 	{
 	public:

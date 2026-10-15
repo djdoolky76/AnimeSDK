@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int IdleLiveGiftRow_TypeDefinitionIndex = 11801;
+
 	class IdleLiveGiftRow : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ShowGuideEvolveTalk; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ShowGuideEvolveTalk_TypeDefinitionIndex = 24329;
+
 	class ShowGuideEvolveTalk : public ::RPG::GameCore::TaskConfig
 	{
 	public:

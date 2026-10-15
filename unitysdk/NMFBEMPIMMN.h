@@ -28,6 +28,8 @@ namespace System { class String; }
 #define NMFBEMPIMMN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB74660)
 #define NMFBEMPIMMN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB746C0)
 
+inline static constexpr unsigned int NMFBEMPIMMN_TypeDefinitionIndex = 31049;
+
 	class NMFBEMPIMMN : public ::System::Object
 	{
 	public:

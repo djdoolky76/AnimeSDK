@@ -10,6 +10,8 @@ namespace RPG::GameCore { class MapRotationPerformanceID; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MapRotationPerformanceID_TypeDefinitionIndex = 17038;
+
 	class MapRotationPerformanceID : public ::RPG::GameCore::JsonConfig
 	{
 	public:

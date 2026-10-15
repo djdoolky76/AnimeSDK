@@ -4,6 +4,8 @@
 
 #define NECJDDBANEJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1C572FF0)
 
+inline static constexpr unsigned int NECJDDBANEJ_TypeDefinitionIndex = 41787;
+
 	class NECJDDBANEJ : public ::DIGCDGKOBMK
 	{
 	public:

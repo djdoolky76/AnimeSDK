@@ -14,6 +14,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByInTurnBasedGameModeState_TypeDefinitionIndex = 23547;
+
 	class ByInTurnBasedGameModeState : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

@@ -20,6 +20,8 @@ namespace RPG::Client { class IRogueTournGameScoreSettleResult; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueTournPersonaGameSettleResultComposition_TypeDefinitionIndex = 67849;
+
 	class RogueTournPersonaGameSettleResultComposition : public ::System::Object
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ScaleCharacterModel_TypeDefinitionIndex = 22728;
+
 	class ScaleCharacterModel : public ::RPG::GameCore::TaskConfig
 	{
 	public:

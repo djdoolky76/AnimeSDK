@@ -9,6 +9,8 @@ namespace System { class String; }
 #define BPIGEIIACAM_CTOR_OFFSET UNITYSDK_OFFSET(0x1D9FA1B0)
 #define BPIGEIIACAM_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D9F9DD0)
 
+inline static constexpr unsigned int BPIGEIIACAM_TypeDefinitionIndex = 14127;
+
 	class BPIGEIIACAM : public ::System::Object
 	{
 	public:

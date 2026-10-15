@@ -13,6 +13,8 @@ namespace UnityEngine { class Texture; }
 #define MIFJJJALKMO_KJMDJMBNCPE_OFFSET UNITYSDK_OFFSET(0xB953400)
 #define MIFJJJALKMO_LBNGJOAEOCN_OFFSET UNITYSDK_OFFSET(0xB952FD0)
 
+inline static constexpr unsigned int MIFJJJALKMO_TypeDefinitionIndex = 69905;
+
 	class MIFJJJALKMO : public ::RPG::Client::BehaviorBase
 	{
 	public:

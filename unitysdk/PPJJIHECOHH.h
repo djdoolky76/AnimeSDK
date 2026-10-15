@@ -9,6 +9,8 @@ class CGGLOEAKFEI;
 #define PPJJIHECOHH_GET_LEVEL_OFFSET UNITYSDK_OFFSET(0xC38C5F0)
 #define PPJJIHECOHH_GET_MININCOME_OFFSET UNITYSDK_OFFSET(0xC38C600)
 
+inline static constexpr unsigned int PPJJIHECOHH_TypeDefinitionIndex = 80159;
+
 	class PPJJIHECOHH : public ::System::Object
 	{
 	public:

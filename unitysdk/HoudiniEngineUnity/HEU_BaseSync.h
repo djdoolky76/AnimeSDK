@@ -62,6 +62,8 @@ namespace UnityEngine { class Transform; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_BaseSync_TypeDefinitionIndex = 40595;
+
 	class HEU_BaseSync : public ::UnityEngine::MonoBehaviour
 	{
 	public:

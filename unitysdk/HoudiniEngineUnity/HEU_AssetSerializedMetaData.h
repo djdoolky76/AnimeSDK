@@ -17,6 +17,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_AssetSerializedMetaData_TypeDefinitionIndex = 40375;
+
 	class HEU_AssetSerializedMetaData : public ::UnityEngine::ScriptableObject
 	{
 	public:

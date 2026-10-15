@@ -3,6 +3,8 @@
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int CaptureBoundary_PivotStat_TypeDefinitionIndex = 37596;
+
 	enum class CaptureBoundary_PivotStat : ::System::Int32
 	{
 		BottomLeft = 0,

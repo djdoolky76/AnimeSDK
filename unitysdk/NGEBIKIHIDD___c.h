@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define NGEBIKIHIDD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB0D100)
 #define NGEBIKIHIDD___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1EB0D110)
 
+inline static constexpr unsigned int NGEBIKIHIDD___c_TypeDefinitionIndex = 32903;
+
 	class NGEBIKIHIDD___c : public ::System::Object
 	{
 	public:

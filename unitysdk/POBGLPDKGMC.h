@@ -28,6 +28,8 @@ namespace System { class String; }
 #define POBGLPDKGMC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DFC2E40)
 #define POBGLPDKGMC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DFC2EA0)
 
+inline static constexpr unsigned int POBGLPDKGMC_TypeDefinitionIndex = 26468;
+
 	class POBGLPDKGMC : public ::System::Object
 	{
 	public:

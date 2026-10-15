@@ -20,6 +20,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace MiHoYo::SDK::PluginUI
 {
+	inline static constexpr unsigned int IPluginUIService_TypeDefinitionIndex = 9150;
+
 	class IPluginUIService : public ::System::Object
 	{
 	public:

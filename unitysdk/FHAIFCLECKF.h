@@ -7,6 +7,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 #define FHAIFCLECKF_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA6E5B0)
 
+inline static constexpr unsigned int FHAIFCLECKF_TypeDefinitionIndex = 43216;
+
 	class FHAIFCLECKF : public ::System::Object
 	{
 	public:

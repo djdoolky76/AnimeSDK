@@ -8,6 +8,8 @@
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
+	inline static constexpr unsigned int B2ContactData_TypeDefinitionIndex = 36622;
+
 	struct alignas(4) B2ContactData
 	{
 		::RPG::LittleGameShare::HoyoPhysics::Box2D::B2ContactId contactId; // 0x10

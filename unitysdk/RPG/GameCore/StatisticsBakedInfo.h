@@ -9,6 +9,8 @@ namespace RPG::GameCore { class StatisticsBakedInfo; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StatisticsBakedInfo_TypeDefinitionIndex = 16724;
+
 	class StatisticsBakedInfo : public ::RPG::GameCore::JsonConfig
 	{
 	public:

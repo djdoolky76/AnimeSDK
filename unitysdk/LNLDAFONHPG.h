@@ -7,6 +7,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define LNLDAFONHPG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB7E8650)
 #define LNLDAFONHPG_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB7E87F0)
 
+inline static constexpr unsigned int LNLDAFONHPG_TypeDefinitionIndex = 52162;
+
 	class LNLDAFONHPG
 	{
 	public:

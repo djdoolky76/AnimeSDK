@@ -7,6 +7,8 @@ namespace RPG::GameCore { class MarbleAddScore; }
 #define JPCNIMPNNPO_CTOR_OFFSET UNITYSDK_OFFSET(0x1CBA7D30)
 #define JPCNIMPNNPO_KDNAAOHECPD_OFFSET UNITYSDK_OFFSET(0x1CBA7D40)
 
+inline static constexpr unsigned int JPCNIMPNNPO_TypeDefinitionIndex = 43128;
+
 	class JPCNIMPNNPO : public ::BKABEBEPPJK
 	{
 	public:

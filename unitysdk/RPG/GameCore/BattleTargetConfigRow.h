@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BattleTargetConfigRow_TypeDefinitionIndex = 12848;
+
 	class BattleTargetConfigRow : public ::System::Object
 	{
 	public:

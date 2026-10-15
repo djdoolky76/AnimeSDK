@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TargetFetchPartner_TypeDefinitionIndex = 23933;
+
 	class TargetFetchPartner : public ::RPG::GameCore::TargetEvaluator
 	{
 	public:

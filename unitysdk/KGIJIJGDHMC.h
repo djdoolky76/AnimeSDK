@@ -6,6 +6,8 @@ namespace RPG::GameCore { class ToggleSkillPreShow; }
 #define KGIJIJGDHMC_CTOR_OFFSET UNITYSDK_OFFSET(0xB3ED910)
 #define KGIJIJGDHMC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB3ED940)
 
+inline static constexpr unsigned int KGIJIJGDHMC_TypeDefinitionIndex = 55707;
+
 	class KGIJIJGDHMC
 	{
 	public:

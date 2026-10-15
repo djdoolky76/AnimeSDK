@@ -11,6 +11,8 @@ namespace RPG::Client::ActivityHipplen { class ActivityHipplenEffectResultData; 
 #define FOJOEIKKKND_CTOR_OFFSET UNITYSDK_OFFSET(0x158F6640)
 #define FOJOEIKKKND_OLMFDADHOMP_OFFSET UNITYSDK_OFFSET(0x158F65F0)
 
+inline static constexpr unsigned int FOJOEIKKKND_TypeDefinitionIndex = 75485;
+
 	class FOJOEIKKKND : public ::LOKFDBENEKJ
 	{
 	public:

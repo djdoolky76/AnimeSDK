@@ -3,6 +3,8 @@
 #include "unitysdk/UnityEngine/Matrix4x4.h"
 #include "unitysdk/UnityEngine/Vector4.h"
 
+inline static constexpr unsigned int LFMMKIMHFPA_TypeDefinitionIndex = 73735;
+
 	struct alignas(4) LFMMKIMHFPA
 	{
 		::UnityEngine::Vector4 KHIOLAAHHGK; // 0x10

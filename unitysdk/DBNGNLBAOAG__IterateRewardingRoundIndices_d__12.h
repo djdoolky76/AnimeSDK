@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 #define DBNGNLBAOAG__ITERATEREWARDINGROUNDINDICES_D__12_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0xE234170)
 #define DBNGNLBAOAG__ITERATEREWARDINGROUNDINDICES_D__12_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xE233D60)
 
+inline static constexpr unsigned int DBNGNLBAOAG__IterateRewardingRoundIndices_d__12_TypeDefinitionIndex = 61410;
+
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10, typename T11, typename T12>
 	class DBNGNLBAOAG__IterateRewardingRoundIndices_d__12 : public ::System::Object
 	{

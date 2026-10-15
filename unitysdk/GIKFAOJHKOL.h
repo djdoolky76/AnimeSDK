@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define GIKFAOJHKOL_LBKCMJJFKOG_OFFSET UNITYSDK_OFFSET(0x15A40A90)
 #define GIKFAOJHKOL_SET_PLAYERRETURNTRIALAVATARINFOPROVIDER_OFFSET UNITYSDK_OFFSET(0x15A40FA0)
 
+inline static constexpr unsigned int GIKFAOJHKOL_TypeDefinitionIndex = 61893;
+
 	class GIKFAOJHKOL : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaitAnimStateChangeV2_TypeDefinitionIndex = 22296;
+
 	class WaitAnimStateChangeV2 : public ::RPG::GameCore::AdvWaitingEventBase
 	{
 	public:

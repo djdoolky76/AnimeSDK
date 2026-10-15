@@ -34,6 +34,8 @@ namespace System { class String; }
 
 namespace Google::Protobuf::Reflection
 {
+	inline static constexpr unsigned int EnumDescriptorProto_Types_EnumReservedRange_TypeDefinitionIndex = 5479;
+
 	class EnumDescriptorProto_Types_EnumReservedRange : public ::System::Object
 	{
 	public:

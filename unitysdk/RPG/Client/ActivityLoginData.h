@@ -27,6 +27,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ActivityLoginData_TypeDefinitionIndex = 61754;
+
 	class ActivityLoginData : public ::System::Object
 	{
 	public:

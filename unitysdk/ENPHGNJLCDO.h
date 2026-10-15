@@ -8,6 +8,8 @@ class OMNJCDDMLHI;
 #define ENPHGNJLCDO_CTOR_OFFSET UNITYSDK_OFFSET(0x155B7340)
 #define ENPHGNJLCDO_EXECUTE_OFFSET UNITYSDK_OFFSET(0x155B7350)
 
+inline static constexpr unsigned int ENPHGNJLCDO_TypeDefinitionIndex = 77940;
+
 	class ENPHGNJLCDO : public ::System::Object
 	{
 	public:

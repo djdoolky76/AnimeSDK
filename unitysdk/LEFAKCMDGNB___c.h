@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define LEFAKCMDGNB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E928310)
 #define LEFAKCMDGNB___C___CCTOR_B__67_0_OFFSET UNITYSDK_OFFSET(0x1E928320)
 
+inline static constexpr unsigned int LEFAKCMDGNB___c_TypeDefinitionIndex = 33188;
+
 	class LEFAKCMDGNB___c : public ::System::Object
 	{
 	public:

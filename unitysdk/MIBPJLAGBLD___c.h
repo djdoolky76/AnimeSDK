@@ -9,6 +9,8 @@ namespace System { class Object; }
 #define MIBPJLAGBLD___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB951290)
 #define MIBPJLAGBLD___C__CONFIRMLOAN_B__7_2_OFFSET UNITYSDK_OFFSET(0xB9512A0)
 
+inline static constexpr unsigned int MIBPJLAGBLD___c_TypeDefinitionIndex = 76461;
+
 	class MIBPJLAGBLD___c : public ::System::Object
 	{
 	public:

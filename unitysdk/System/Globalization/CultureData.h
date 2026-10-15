@@ -54,6 +54,8 @@ namespace System::Globalization { class NumberFormatInfo; }
 
 namespace System::Globalization
 {
+	inline static constexpr unsigned int CultureData_TypeDefinitionIndex = 783;
+
 	class CultureData : public ::System::Object
 	{
 	public:

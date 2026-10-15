@@ -46,6 +46,8 @@ namespace UnityEngine { class Transform; }
 #define FOCEBNDIALE_SET_PROXYCOLLIDER_OFFSET UNITYSDK_OFFSET(0x158E4930)
 #define FOCEBNDIALE_SET_SURFACECONSTRAINTTRANSFORM_OFFSET UNITYSDK_OFFSET(0x158E48D0)
 
+inline static constexpr unsigned int FOCEBNDIALE_TypeDefinitionIndex = 76958;
+
 	class FOCEBNDIALE : public ::HFCPGANBGMI
 	{
 	public:

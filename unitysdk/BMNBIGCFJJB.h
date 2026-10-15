@@ -10,6 +10,8 @@ namespace System { class String; }
 #define BMNBIGCFJJB_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D9E36F0)
 #define BMNBIGCFJJB_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D9E3590)
 
+inline static constexpr unsigned int BMNBIGCFJJB_TypeDefinitionIndex = 21060;
+
 	class BMNBIGCFJJB : public ::RPG::GameCore::JsonConfig
 	{
 	public:

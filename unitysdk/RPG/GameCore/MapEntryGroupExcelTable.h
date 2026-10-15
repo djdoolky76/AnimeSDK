@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MapEntryGroupExcelTable_TypeDefinitionIndex = 14061;
+
 	class MapEntryGroupExcelTable : public ::System::Object
 	{
 	public:

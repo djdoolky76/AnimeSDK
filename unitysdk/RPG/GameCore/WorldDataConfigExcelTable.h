@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WorldDataConfigExcelTable_TypeDefinitionIndex = 14013;
+
 	class WorldDataConfigExcelTable : public ::System::Object
 	{
 	public:

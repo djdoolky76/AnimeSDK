@@ -48,6 +48,8 @@ namespace System { class Nullable; }
 #define APLNKIAIFEA___ADVANCEPROCESS_B__16_1_OFFSET UNITYSDK_OFFSET(0x15BB4430)
 #define APLNKIAIFEA___ADVANCETOACTIONSELECTEMPTYSTATE_B__14_0_OFFSET UNITYSDK_OFFSET(0x15BB4410)
 
+inline static constexpr unsigned int APLNKIAIFEA_TypeDefinitionIndex = 81807;
+
 	class APLNKIAIFEA : public ::System::Object
 	{
 	public:

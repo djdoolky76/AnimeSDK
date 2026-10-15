@@ -4,6 +4,8 @@
 
 namespace System::Collections::Immutable
 {
+	inline static constexpr unsigned int ImmutableQueue_TypeDefinitionIndex = 6643;
+
 	class ImmutableQueue : public ::System::Object
 	{
 	public:

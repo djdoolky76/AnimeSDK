@@ -5,6 +5,8 @@ class FCDDPJIEDGP;
 
 #define LAKOGCBIPHB_CTOR_OFFSET UNITYSDK_OFFSET(0xB5E6840)
 
+inline static constexpr unsigned int LAKOGCBIPHB_TypeDefinitionIndex = 57627;
+
 	class LAKOGCBIPHB : public ::OMAHHACEANO
 	{
 	public:

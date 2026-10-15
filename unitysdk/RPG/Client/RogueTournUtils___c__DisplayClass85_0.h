@@ -8,6 +8,8 @@ namespace RPG::Client::Promises { class IPromise; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueTournUtils___c__DisplayClass85_0_TypeDefinitionIndex = 67821;
+
 	class RogueTournUtils___c__DisplayClass85_0 : public ::System::Object
 	{
 	public:

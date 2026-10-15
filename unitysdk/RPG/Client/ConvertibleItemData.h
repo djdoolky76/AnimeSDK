@@ -16,6 +16,8 @@ namespace RPG::GameCore { class ItemMultiMaterialConfigRow; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ConvertibleItemData_TypeDefinitionIndex = 65677;
+
 	class ConvertibleItemData : public ::System::Object
 	{
 	public:

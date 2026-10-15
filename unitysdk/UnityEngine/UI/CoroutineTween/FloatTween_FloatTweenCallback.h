@@ -5,6 +5,8 @@
 
 namespace UnityEngine::UI::CoroutineTween
 {
+	inline static constexpr unsigned int FloatTween_FloatTweenCallback_TypeDefinitionIndex = 6900;
+
 	class FloatTween_FloatTweenCallback
 	{
 	public:

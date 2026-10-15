@@ -16,6 +16,8 @@ namespace UnityEngine { class Collider; }
 #define AKROOMAWAREMANAGER_UNREGISTERROOMAWAREOBJECT_OFFSET UNITYSDK_OFFSET(0x1F5BAB60)
 #define AKROOMAWAREMANAGER_UPDATEROOMAWAREOBJECTS_OFFSET UNITYSDK_OFFSET(0x1F5BAF30)
 
+inline static constexpr unsigned int AkRoomAwareManager_TypeDefinitionIndex = 44849;
+
 	class AkRoomAwareManager : public ::System::Object
 	{
 	public:

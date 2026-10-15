@@ -15,6 +15,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoExUICamera2DRetarget_TypeDefinitionIndex = 72985;
+
 	class MonoExUICamera2DRetarget : public ::UnityEngine::MonoBehaviour
 	{
 	public:

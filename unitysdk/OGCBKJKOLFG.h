@@ -15,6 +15,8 @@ namespace RPG::GameCore { class TurnBasedModifierInstance; }
 #define OGCBKJKOLFG_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBE53460)
 #define OGCBKJKOLFG_TICK_OFFSET UNITYSDK_OFFSET(0xBE534B0)
 
+inline static constexpr unsigned int OGCBKJKOLFG_TypeDefinitionIndex = 55454;
+
 	class OGCBKJKOLFG : public ::GELIALJDFBL
 	{
 	public:

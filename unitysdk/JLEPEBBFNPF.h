@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define JLEPEBBFNPF_MANJAHAGLAF_OFFSET UNITYSDK_OFFSET(0xB23EBD0)
 #define JLEPEBBFNPF_OBNPMEAMBJG_OFFSET UNITYSDK_OFFSET(0xB23EC20)
 
+inline static constexpr unsigned int JLEPEBBFNPF_TypeDefinitionIndex = 80146;
+
 	class JLEPEBBFNPF : public ::System::Object
 	{
 	public:

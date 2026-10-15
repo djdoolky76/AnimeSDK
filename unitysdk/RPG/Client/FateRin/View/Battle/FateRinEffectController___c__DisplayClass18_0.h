@@ -12,6 +12,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::FateRin::View::Battle
 {
+	inline static constexpr unsigned int FateRinEffectController___c__DisplayClass18_0_TypeDefinitionIndex = 80691;
+
 	class FateRinEffectController___c__DisplayClass18_0 : public ::System::Object
 	{
 	public:

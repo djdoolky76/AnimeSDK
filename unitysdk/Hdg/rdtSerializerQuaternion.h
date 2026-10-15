@@ -16,6 +16,8 @@ namespace System::IO { class BinaryWriter; }
 
 namespace Hdg
 {
+	inline static constexpr unsigned int rdtSerializerQuaternion_TypeDefinitionIndex = 46964;
+
 	class rdtSerializerQuaternion : public ::System::Object
 	{
 	public:

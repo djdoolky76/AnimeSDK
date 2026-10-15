@@ -25,6 +25,8 @@ namespace System { class String; }
 #define APOKGADPHDC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E67B780)
 #define APOKGADPHDC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E67B7E0)
 
+inline static constexpr unsigned int APOKGADPHDC_TypeDefinitionIndex = 33128;
+
 	class APOKGADPHDC : public ::System::Object
 	{
 	public:

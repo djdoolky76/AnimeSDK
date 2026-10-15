@@ -16,6 +16,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 #define EPHMNCBBBDD_SET_MSGTEXT_OFFSET UNITYSDK_OFFSET(0x155D4BD0)
 #define EPHMNCBBBDD_SET_URL_OFFSET UNITYSDK_OFFSET(0x155D4BB0)
 
+inline static constexpr unsigned int EPHMNCBBBDD_TypeDefinitionIndex = 69386;
+
 	class EPHMNCBBBDD : public ::System::Exception
 	{
 	public:

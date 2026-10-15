@@ -6,6 +6,8 @@
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int TOPNodeTags_TypeDefinitionIndex = 40537;
+
 	class TOPNodeTags : public ::System::Object
 	{
 	public:

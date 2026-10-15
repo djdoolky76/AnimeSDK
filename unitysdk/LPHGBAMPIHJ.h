@@ -8,6 +8,8 @@ namespace RPG::Client { class GridFightRole; }
 #define LPHGBAMPIHJ_CTOR_OFFSET UNITYSDK_OFFSET(0xB81FCE0)
 #define LPHGBAMPIHJ_DPJAHBLOBOM_OFFSET UNITYSDK_OFFSET(0xB81FCF0)
 
+inline static constexpr unsigned int LPHGBAMPIHJ_TypeDefinitionIndex = 65193;
+
 	class LPHGBAMPIHJ : public ::DLKIJPKFOFO
 	{
 	public:

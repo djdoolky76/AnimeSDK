@@ -10,6 +10,8 @@ namespace System { class String; }
 #define CMIPDDBIPKO_SET_BP_OFFSET UNITYSDK_OFFSET(0xDA37BB0)
 #define CMIPDDBIPKO_SET_DAMAGECOUNTER_OFFSET UNITYSDK_OFFSET(0xDA37B90)
 
+inline static constexpr unsigned int CMIPDDBIPKO_TypeDefinitionIndex = 59002;
+
 	class CMIPDDBIPKO : public ::JENIFGNJEPE
 	{
 	public:

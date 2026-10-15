@@ -25,6 +25,8 @@ namespace System { class String; }
 #define EFGLGFMMNJI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E28F180)
 #define EFGLGFMMNJI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E28F1E0)
 
+inline static constexpr unsigned int EFGLGFMMNJI_TypeDefinitionIndex = 28428;
+
 	class EFGLGFMMNJI : public ::System::Object
 	{
 	public:

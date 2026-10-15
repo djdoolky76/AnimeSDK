@@ -41,6 +41,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoSpineStoryController_TypeDefinitionIndex = 60289;
+
 	class MonoSpineStoryController : public ::UnityEngine::MonoBehaviour
 	{
 	public:

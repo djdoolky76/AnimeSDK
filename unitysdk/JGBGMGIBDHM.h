@@ -25,6 +25,8 @@ namespace System { class String; }
 #define JGBGMGIBDHM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E736E90)
 #define JGBGMGIBDHM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E736EF0)
 
+inline static constexpr unsigned int JGBGMGIBDHM_TypeDefinitionIndex = 34236;
+
 	class JGBGMGIBDHM : public ::System::Object
 	{
 	public:

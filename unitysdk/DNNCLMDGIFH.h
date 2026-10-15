@@ -3,6 +3,8 @@
 
 #define DNNCLMDGIFH_CTOR_OFFSET UNITYSDK_OFFSET(0xFE60)
 
+inline static constexpr unsigned int DNNCLMDGIFH_TypeDefinitionIndex = 68929;
+
 	struct alignas(4) DNNCLMDGIFH
 	{
 		::System::UInt32 ALKDKHHNMPA; // 0x10

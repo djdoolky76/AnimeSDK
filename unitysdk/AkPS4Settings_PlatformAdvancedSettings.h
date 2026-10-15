@@ -6,6 +6,8 @@ class AkPlatformInitSettings;
 #define AKPS4SETTINGS_PLATFORMADVANCEDSETTINGS_COPYTO_OFFSET UNITYSDK_OFFSET(0x1F5ACB80)
 #define AKPS4SETTINGS_PLATFORMADVANCEDSETTINGS_CTOR_OFFSET UNITYSDK_OFFSET(0x1F5ACA80)
 
+inline static constexpr unsigned int AkPS4Settings_PlatformAdvancedSettings_TypeDefinitionIndex = 44896;
+
 	class AkPS4Settings_PlatformAdvancedSettings : public ::AkCommonAdvancedSettings
 	{
 	public:

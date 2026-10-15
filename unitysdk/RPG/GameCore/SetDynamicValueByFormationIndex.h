@@ -16,6 +16,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetDynamicValueByFormationIndex_TypeDefinitionIndex = 23264;
+
 	class SetDynamicValueByFormationIndex : public ::RPG::GameCore::SetDynamicValueBase
 	{
 	public:

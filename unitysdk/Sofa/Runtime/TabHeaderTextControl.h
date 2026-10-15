@@ -10,6 +10,8 @@ namespace UnityEngine { class Transform; }
 
 namespace Sofa::Runtime
 {
+	inline static constexpr unsigned int TabHeaderTextControl_TypeDefinitionIndex = 49736;
+
 	class TabHeaderTextControl
 	{
 	public:

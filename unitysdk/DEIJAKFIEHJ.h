@@ -26,6 +26,8 @@ namespace System { class Action; }
 #define DEIJAKFIEHJ_OKOBDEFKMDD_OFFSET UNITYSDK_OFFSET(0xE50C9C0)
 #define DEIJAKFIEHJ_PBBGJLOCDGD_OFFSET UNITYSDK_OFFSET(0xE50D8B0)
 
+inline static constexpr unsigned int DEIJAKFIEHJ_TypeDefinitionIndex = 75463;
+
 	class DEIJAKFIEHJ : public ::System::Object
 	{
 	public:

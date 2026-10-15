@@ -10,6 +10,8 @@ namespace System { class String; }
 #define KIOFGMCFPON_GET_TYPE_OFFSET UNITYSDK_OFFSET(0xB436920)
 #define KIOFGMCFPON_JAILHGGFLDH_OFFSET UNITYSDK_OFFSET(0xB436930)
 
+inline static constexpr unsigned int KIOFGMCFPON_TypeDefinitionIndex = 56097;
+
 	class KIOFGMCFPON : public ::DBGDNLLDPFI
 	{
 	public:

@@ -9,6 +9,8 @@ namespace UnityEngine::UI { class InputField; }
 #define GNDBFODAHFK_IAMCNOAAALI_OFFSET UNITYSDK_OFFSET(0x15AFE860)
 #define GNDBFODAHFK_JCKGONAAIPB_OFFSET UNITYSDK_OFFSET(0x15AFE8D0)
 
+inline static constexpr unsigned int GNDBFODAHFK_TypeDefinitionIndex = 72752;
+
 	class GNDBFODAHFK : public ::LBAMBIMMJKB
 	{
 	public:

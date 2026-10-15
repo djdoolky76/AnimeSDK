@@ -9,6 +9,8 @@ namespace System::IO { class Stream; }
 
 namespace System::Net::Security
 {
+	inline static constexpr unsigned int AuthenticatedStream_TypeDefinitionIndex = 2922;
+
 	class AuthenticatedStream : public ::System::IO::Stream
 	{
 	public:

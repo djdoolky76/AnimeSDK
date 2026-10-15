@@ -12,6 +12,8 @@ namespace RPG::GameCore { class ChenLingBattleEffect_AddResource; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChenLingBattleEffect_AddResource_TypeDefinitionIndex = 15794;
+
 	class ChenLingBattleEffect_AddResource : public ::RPG::GameCore::BaseChenLingBattleEffect
 	{
 	public:

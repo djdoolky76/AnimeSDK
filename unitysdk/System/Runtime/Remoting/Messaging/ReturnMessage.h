@@ -36,6 +36,8 @@ namespace System::Runtime::Remoting::Messaging { class MethodReturnDictionary; }
 
 namespace System::Runtime::Remoting::Messaging
 {
+	inline static constexpr unsigned int ReturnMessage_TypeDefinitionIndex = 1333;
+
 	class ReturnMessage : public ::System::Object
 	{
 	public:

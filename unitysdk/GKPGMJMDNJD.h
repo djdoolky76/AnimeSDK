@@ -21,6 +21,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define GKPGMJMDNJD__ONBIND_OFFSET UNITYSDK_OFFSET(0x15AA8D20)
 #define GKPGMJMDNJD__ONDISPOSE_OFFSET UNITYSDK_OFFSET(0x15AA94B0)
 
+inline static constexpr unsigned int GKPGMJMDNJD_TypeDefinitionIndex = 71761;
+
 	class GKPGMJMDNJD : public ::FMPCODLIOLG
 	{
 	public:

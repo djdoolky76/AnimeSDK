@@ -9,6 +9,8 @@ class NIMHLHECACH;
 #define FPMLHDINLFL_GGBLHEHJBDO_OFFSET UNITYSDK_OFFSET(0x1591F580)
 #define FPMLHDINLFL_MBABPIHGAJN_OFFSET UNITYSDK_OFFSET(0x1591F610)
 
+inline static constexpr unsigned int FPMLHDINLFL_TypeDefinitionIndex = 75272;
+
 	class FPMLHDINLFL : public ::System::Object
 	{
 	public:

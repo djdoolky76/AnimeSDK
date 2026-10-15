@@ -5,6 +5,8 @@ namespace System::Collections::Generic { template <typename T> class IEqualityCo
 
 namespace System::Collections::ObjectModel
 {
+	inline static constexpr unsigned int KeyedCollection_2_TypeDefinitionIndex = 1506;
+
 	template <typename T1, typename T2>
 	class KeyedCollection_2
 	{

@@ -42,6 +42,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define FKOEECADKFF___C__TOPROTO_B__66_0_OFFSET UNITYSDK_OFFSET(0x15824270)
 #define FKOEECADKFF___C__TOPROTO_B__86_0_OFFSET UNITYSDK_OFFSET(0x15824300)
 
+inline static constexpr unsigned int FKOEECADKFF___c_TypeDefinitionIndex = 58992;
+
 	class FKOEECADKFF___c : public ::System::Object
 	{
 	public:

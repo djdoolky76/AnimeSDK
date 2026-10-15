@@ -13,6 +13,8 @@ namespace System::Runtime::Serialization::Formatters::Binary { class __BinaryWri
 
 namespace System::Runtime::Serialization::Formatters::Binary
 {
+	inline static constexpr unsigned int IOUtil_TypeDefinitionIndex = 1144;
+
 	class IOUtil : public ::System::Object
 	{
 	public:

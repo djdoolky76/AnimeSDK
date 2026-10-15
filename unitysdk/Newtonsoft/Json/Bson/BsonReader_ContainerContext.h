@@ -7,6 +7,8 @@
 
 namespace Newtonsoft::Json::Bson
 {
+	inline static constexpr unsigned int BsonReader_ContainerContext_TypeDefinitionIndex = 9850;
+
 	class BsonReader_ContainerContext : public ::System::Object
 	{
 	public:

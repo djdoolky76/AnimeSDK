@@ -9,6 +9,8 @@ namespace RPG::GameCore { class ElfWaveOrder; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ElfWaveOrder_TypeDefinitionIndex = 18497;
+
 	class ElfWaveOrder : public ::RPG::GameCore::JsonConfig
 	{
 	public:

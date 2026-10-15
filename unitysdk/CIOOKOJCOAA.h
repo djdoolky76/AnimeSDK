@@ -11,6 +11,8 @@
 #define CIOOKOJCOAA_LKFJFGPFEJJ_OFFSET UNITYSDK_OFFSET(0xCF90300)
 #define CIOOKOJCOAA_SET_PHASE_OFFSET UNITYSDK_OFFSET(0xCF90430)
 
+inline static constexpr unsigned int CIOOKOJCOAA_TypeDefinitionIndex = 81917;
+
 	class CIOOKOJCOAA : public ::System::Object
 	{
 	public:

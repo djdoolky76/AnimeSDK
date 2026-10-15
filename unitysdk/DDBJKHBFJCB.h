@@ -6,6 +6,8 @@ namespace RPG::Client { class IRogueTournPersonaModifier; }
 
 #define DDBJKHBFJCB_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xE25C070)
 
+inline static constexpr unsigned int DDBJKHBFJCB_TypeDefinitionIndex = 67698;
+
 	class DDBJKHBFJCB : public ::System::Object
 	{
 	public:

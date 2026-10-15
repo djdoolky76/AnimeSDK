@@ -9,6 +9,8 @@ namespace RPG::GameCore { class PSObjectMissionMapRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PSObjectMissionMapRow_TypeDefinitionIndex = 13081;
+
 	class PSObjectMissionMapRow : public ::System::Object
 	{
 	public:

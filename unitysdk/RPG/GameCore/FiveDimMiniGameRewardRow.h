@@ -9,6 +9,8 @@ namespace RPG::GameCore { class FiveDimMiniGameRewardRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimMiniGameRewardRow_TypeDefinitionIndex = 14113;
+
 	class FiveDimMiniGameRewardRow : public ::System::Object
 	{
 	public:

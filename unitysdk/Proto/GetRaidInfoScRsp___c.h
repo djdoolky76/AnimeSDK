@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace Proto
 {
+	inline static constexpr unsigned int GetRaidInfoScRsp___c_TypeDefinitionIndex = 32391;
+
 	class GetRaidInfoScRsp___c : public ::System::Object
 	{
 	public:

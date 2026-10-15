@@ -6,6 +6,8 @@ class BKHHFIJCHEP;
 #define LJKNCLIOGAG_CTOR_OFFSET UNITYSDK_OFFSET(0xB71CEC0)
 #define LJKNCLIOGAG_GET_GAMEINSTANCE_OFFSET UNITYSDK_OFFSET(0xB71CEB0)
 
+inline static constexpr unsigned int LJKNCLIOGAG_TypeDefinitionIndex = 76056;
+
 	class LJKNCLIOGAG : public ::System::Object
 	{
 	public:

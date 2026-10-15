@@ -72,6 +72,8 @@ namespace UnityEngine { class ParticleSystem; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int ParticleSystem_LimitVelocityOverLifetimeModule_TypeDefinitionIndex = 5233;
+
 	struct alignas(8) ParticleSystem_LimitVelocityOverLifetimeModule
 	{
 		::UnityEngine::ParticleSystem* m_ParticleSystem; // 0x10

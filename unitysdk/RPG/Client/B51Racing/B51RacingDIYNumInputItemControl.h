@@ -10,6 +10,8 @@ namespace RPG::Client { class UIStateCtrl; }
 
 namespace RPG::Client::B51Racing
 {
+	inline static constexpr unsigned int B51RacingDIYNumInputItemControl_TypeDefinitionIndex = 81775;
+
 	class B51RacingDIYNumInputItemControl : public ::Sofa::BaseSofaControl
 	{
 	public:

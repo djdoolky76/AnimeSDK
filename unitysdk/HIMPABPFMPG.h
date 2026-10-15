@@ -25,6 +25,8 @@ namespace System { class String; }
 #define HIMPABPFMPG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E59D4B0)
 #define HIMPABPFMPG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E59D510)
 
+inline static constexpr unsigned int HIMPABPFMPG_TypeDefinitionIndex = 25954;
+
 	class HIMPABPFMPG : public ::System::Object
 	{
 	public:

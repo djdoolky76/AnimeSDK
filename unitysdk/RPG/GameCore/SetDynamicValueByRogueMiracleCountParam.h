@@ -10,6 +10,8 @@ namespace RPG::GameCore { class SetDynamicValueByRogueMiracleCountParam; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetDynamicValueByRogueMiracleCountParam_TypeDefinitionIndex = 21799;
+
 	class SetDynamicValueByRogueMiracleCountParam : public ::RPG::GameCore::SetDynamicValueParamBase
 	{
 	public:

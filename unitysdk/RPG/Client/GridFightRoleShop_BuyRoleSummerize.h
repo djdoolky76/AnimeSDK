@@ -27,6 +27,8 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightRoleShop_BuyRoleSummerize_TypeDefinitionIndex = 65225;
+
 	class GridFightRoleShop_BuyRoleSummerize : public ::AMCOEFHHBPO
 	{
 	public:

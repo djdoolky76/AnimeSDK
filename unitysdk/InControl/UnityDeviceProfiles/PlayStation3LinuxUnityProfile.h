@@ -7,6 +7,8 @@
 
 namespace InControl::UnityDeviceProfiles
 {
+	inline static constexpr unsigned int PlayStation3LinuxUnityProfile_TypeDefinitionIndex = 41004;
+
 	class PlayStation3LinuxUnityProfile : public ::InControl::InputDeviceProfile
 	{
 	public:

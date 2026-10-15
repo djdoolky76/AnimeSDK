@@ -27,6 +27,8 @@ namespace System { class String; }
 #define OMJDOHAHIOF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DEB7120)
 #define OMJDOHAHIOF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DEB7180)
 
+inline static constexpr unsigned int OMJDOHAHIOF_TypeDefinitionIndex = 30447;
+
 	class OMJDOHAHIOF : public ::System::Object
 	{
 	public:

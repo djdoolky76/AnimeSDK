@@ -3,6 +3,8 @@
 
 #define GJLJLLKPEJH_MMLHAJDAGDI_CTOR_OFFSET UNITYSDK_OFFSET(0x15A6F360)
 
+inline static constexpr unsigned int GJLJLLKPEJH_MMLHAJDAGDI_TypeDefinitionIndex = 77156;
+
 	class GJLJLLKPEJH_MMLHAJDAGDI
 	{
 	public:

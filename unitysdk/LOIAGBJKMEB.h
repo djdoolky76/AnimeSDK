@@ -25,6 +25,8 @@ namespace System { class String; }
 #define LOIAGBJKMEB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9C0350)
 #define LOIAGBJKMEB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E9C03B0)
 
+inline static constexpr unsigned int LOIAGBJKMEB_TypeDefinitionIndex = 30851;
+
 	class LOIAGBJKMEB : public ::System::Object
 	{
 	public:

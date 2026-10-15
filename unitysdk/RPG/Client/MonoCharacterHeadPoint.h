@@ -9,6 +9,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoCharacterHeadPoint_TypeDefinitionIndex = 68535;
+
 	class MonoCharacterHeadPoint : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -39,6 +39,8 @@ namespace RPG::Client::NavMap::FiveDim { class FiveDimIconTrackSnapshot; }
 
 namespace RPG::Client::NavMap::FiveDim
 {
+	inline static constexpr unsigned int FiveDimIconTrackSnapshot_TypeDefinitionIndex = 74671;
+
 	class FiveDimIconTrackSnapshot : public ::System::Object
 	{
 	public:

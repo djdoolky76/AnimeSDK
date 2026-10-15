@@ -28,6 +28,8 @@ namespace System { class String; }
 #define IOHKFHBGICD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E6D5F60)
 #define IOHKFHBGICD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E6D5FC0)
 
+inline static constexpr unsigned int IOHKFHBGICD_TypeDefinitionIndex = 32920;
+
 	class IOHKFHBGICD : public ::System::Object
 	{
 	public:

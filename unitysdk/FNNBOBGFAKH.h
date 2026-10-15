@@ -29,6 +29,8 @@ namespace System { class String; }
 #define FNNBOBGFAKH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E3F44D0)
 #define FNNBOBGFAKH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E3F4530)
 
+inline static constexpr unsigned int FNNBOBGFAKH_TypeDefinitionIndex = 30769;
+
 	class FNNBOBGFAKH : public ::System::Object
 	{
 	public:

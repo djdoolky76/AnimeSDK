@@ -83,6 +83,8 @@ namespace UnityEngine { class Transform; }
 #define BLHBKGNIBBM__ONTICK_OFFSET UNITYSDK_OFFSET(0xBA6ECC0)
 #define BLHBKGNIBBM___FORCEPLAYHPTWEEN_B__35_0_OFFSET UNITYSDK_OFFSET(0xBA72470)
 
+inline static constexpr unsigned int BLHBKGNIBBM_TypeDefinitionIndex = 71791;
+
 	class BLHBKGNIBBM : public ::FMPCODLIOLG
 	{
 	public:

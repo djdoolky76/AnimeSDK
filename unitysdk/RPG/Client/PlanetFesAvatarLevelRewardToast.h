@@ -8,6 +8,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PlanetFesAvatarLevelRewardToast_TypeDefinitionIndex = 66622;
+
 	class PlanetFesAvatarLevelRewardToast : public ::System::Object
 	{
 	public:

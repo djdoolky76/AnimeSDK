@@ -28,6 +28,8 @@ namespace System { class String; }
 #define IHMMNILOINC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E682B60)
 #define IHMMNILOINC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E682BC0)
 
+inline static constexpr unsigned int IHMMNILOINC_TypeDefinitionIndex = 30833;
+
 	class IHMMNILOINC : public ::System::Object
 	{
 	public:

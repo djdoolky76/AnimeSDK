@@ -34,6 +34,8 @@ namespace UnityEngine { class Mesh; }
 
 namespace UnityEngine::Formats::Alembic::Importer
 {
+	inline static constexpr unsigned int AlembicMesh_TypeDefinitionIndex = 45854;
+
 	class AlembicMesh : public ::UnityEngine::Formats::Alembic::Importer::AlembicElement
 	{
 	public:

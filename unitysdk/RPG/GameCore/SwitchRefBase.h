@@ -10,6 +10,8 @@ namespace RPG::GameCore { class SwitchRefBase; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SwitchRefBase_TypeDefinitionIndex = 23768;
+
 	class SwitchRefBase : public ::RPG::GameCore::JsonConfig
 	{
 	public:

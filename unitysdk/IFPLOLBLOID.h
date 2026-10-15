@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define IFPLOLBLOID_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15F32D30)
 #define IFPLOLBLOID_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15F32D70)
 
+inline static constexpr unsigned int IFPLOLBLOID_TypeDefinitionIndex = 55401;
+
 	class IFPLOLBLOID
 	{
 	public:

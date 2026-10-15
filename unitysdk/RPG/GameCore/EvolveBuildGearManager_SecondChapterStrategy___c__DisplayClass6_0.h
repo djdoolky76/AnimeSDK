@@ -7,6 +7,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EvolveBuildGearManager_SecondChapterStrategy___c__DisplayClass6_0_TypeDefinitionIndex = 56068;
+
 	struct alignas(8) EvolveBuildGearManager_SecondChapterStrategy___c__DisplayClass6_0
 	{
 		::Il2CppArray<::System::UInt32>* refBlacklist; // 0x10

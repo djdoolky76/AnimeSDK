@@ -104,6 +104,8 @@ namespace RPG::Client::LittleGame { class ElfRestaurantGameEntity; }
 #define GCPNPKEOHPA_PLOOKBGHBLD_OFFSET UNITYSDK_OFFSET(0x1CA86950)
 #define GCPNPKEOHPA_PLPCCINFDGH_OFFSET UNITYSDK_OFFSET(0x1CA85DB0)
 
+inline static constexpr unsigned int GCPNPKEOHPA_TypeDefinitionIndex = 42586;
+
 	class GCPNPKEOHPA : public ::System::Object
 	{
 	public:

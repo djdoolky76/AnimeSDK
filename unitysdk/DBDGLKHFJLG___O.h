@@ -3,6 +3,8 @@
 #include "unitysdk/System/Object.h"
 namespace RPG::Client { class NotifyHandler; }
 
+inline static constexpr unsigned int DBDGLKHFJLG___O_TypeDefinitionIndex = 52747;
+
 	class DBDGLKHFJLG___O : public ::System::Object
 	{
 	public:

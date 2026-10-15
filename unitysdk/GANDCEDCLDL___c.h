@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define GANDCEDCLDL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E422E40)
 #define GANDCEDCLDL___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E422E50)
 
+inline static constexpr unsigned int GANDCEDCLDL___c_TypeDefinitionIndex = 25478;
+
 	class GANDCEDCLDL___c : public ::System::Object
 	{
 	public:

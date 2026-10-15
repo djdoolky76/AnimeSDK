@@ -11,6 +11,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System::Reflection
 {
+	inline static constexpr unsigned int InvalidFilterCriteriaException_TypeDefinitionIndex = 566;
+
 	class InvalidFilterCriteriaException : public ::System::ApplicationException
 	{
 	public:

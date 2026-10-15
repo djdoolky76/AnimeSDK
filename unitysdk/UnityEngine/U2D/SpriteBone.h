@@ -6,6 +6,8 @@ namespace System { class String; }
 
 namespace UnityEngine::U2D
 {
+	inline static constexpr unsigned int SpriteBone_TypeDefinitionIndex = 4423;
+
 	struct alignas(8) SpriteBone
 	{
 		::System::String* m_Name; // 0x10

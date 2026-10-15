@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ST_Main_DoSkill_TypeDefinitionIndex = 20096;
+
 	class ST_Main_DoSkill : public ::RPG::GameCore::STTaskConfig
 	{
 	public:

@@ -10,6 +10,8 @@ namespace UnityEngine { class Renderer; }
 #define OEHEJMNBMMK_CTOR_OFFSET UNITYSDK_OFFSET(0xBE2DBD0)
 #define OEHEJMNBMMK_HPEMGKPBDMB_OFFSET UNITYSDK_OFFSET(0xBE2DA30)
 
+inline static constexpr unsigned int OEHEJMNBMMK_TypeDefinitionIndex = 73898;
+
 	class OEHEJMNBMMK : public ::System::Object
 	{
 	public:

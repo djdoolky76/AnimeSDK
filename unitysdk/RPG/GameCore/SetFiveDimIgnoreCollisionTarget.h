@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetFiveDimIgnoreCollisionTarget_TypeDefinitionIndex = 21281;
+
 	class SetFiveDimIgnoreCollisionTarget : public ::RPG::GameCore::TaskConfig
 	{
 	public:

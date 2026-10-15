@@ -9,6 +9,8 @@ namespace System { class Nullable; }
 #define IGFHGNNAFGE_MDLNPMMHOJI_OFFSET UNITYSDK_OFFSET(0x1640C150)
 #define IGFHGNNAFGE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1640BC00)
 
+inline static constexpr unsigned int IGFHGNNAFGE_TypeDefinitionIndex = 55546;
+
 	class IGFHGNNAFGE
 	{
 	public:

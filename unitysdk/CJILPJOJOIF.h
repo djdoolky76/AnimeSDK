@@ -25,6 +25,8 @@ namespace System { class String; }
 #define CJILPJOJOIF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E0E02C0)
 #define CJILPJOJOIF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E0E0320)
 
+inline static constexpr unsigned int CJILPJOJOIF_TypeDefinitionIndex = 26886;
+
 	class CJILPJOJOIF : public ::System::Object
 	{
 	public:

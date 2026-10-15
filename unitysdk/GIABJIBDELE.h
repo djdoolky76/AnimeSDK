@@ -44,6 +44,8 @@ class JJGBKDLGDFN;
 #define GIABJIBDELE_PKKMIGNJHDG_1_OFFSET UNITYSDK_OFFSET(0x1C641DC0)
 #define GIABJIBDELE_PKKMIGNJHDG_OFFSET UNITYSDK_OFFSET(0x1C641770)
 
+inline static constexpr unsigned int GIABJIBDELE_TypeDefinitionIndex = 37275;
+
 	class GIABJIBDELE : public ::System::Object
 	{
 	public:

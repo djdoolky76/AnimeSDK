@@ -7,6 +7,8 @@ class JEPGAKKOHLE;
 #define BILJOFMFHAJ___C__DISPLAYCLASS20_0_CTOR_OFFSET UNITYSDK_OFFSET(0x1C544AF0)
 #define BILJOFMFHAJ___C__DISPLAYCLASS20_0___PLACECHIP_B__0_OFFSET UNITYSDK_OFFSET(0x1C545A30)
 
+inline static constexpr unsigned int BILJOFMFHAJ___c__DisplayClass20_0_TypeDefinitionIndex = 41820;
+
 	class BILJOFMFHAJ___c__DisplayClass20_0 : public ::System::Object
 	{
 	public:

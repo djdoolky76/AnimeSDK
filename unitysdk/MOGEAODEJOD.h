@@ -10,6 +10,8 @@ namespace Entitas { template <typename T> class IMatcher_1; }
 #define MOGEAODEJOD_GETREPLICATEDMATCHER_OFFSET UNITYSDK_OFFSET(0x1C7504C0)
 #define MOGEAODEJOD_GETTRANSFORMMATCHER_OFFSET UNITYSDK_OFFSET(0x1C750560)
 
+inline static constexpr unsigned int MOGEAODEJOD_TypeDefinitionIndex = 37038;
+
 	class MOGEAODEJOD
 	{
 	public:

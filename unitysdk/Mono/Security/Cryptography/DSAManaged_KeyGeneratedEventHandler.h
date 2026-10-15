@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace Mono::Security::Cryptography
 {
+	inline static constexpr unsigned int DSAManaged_KeyGeneratedEventHandler_TypeDefinitionIndex = 80;
+
 	class DSAManaged_KeyGeneratedEventHandler : public ::System::MulticastDelegate
 	{
 	public:

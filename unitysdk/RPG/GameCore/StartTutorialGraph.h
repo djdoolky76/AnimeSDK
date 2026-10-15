@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StartTutorialGraph_TypeDefinitionIndex = 23418;
+
 	class StartTutorialGraph : public ::RPG::GameCore::TaskConfig
 	{
 	public:

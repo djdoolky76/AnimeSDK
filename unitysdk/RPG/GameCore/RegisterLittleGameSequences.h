@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RegisterLittleGameSequences_TypeDefinitionIndex = 21423;
+
 	class RegisterLittleGameSequences : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -19,6 +19,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ActivityPanelReportHelper_TypeDefinitionIndex = 61713;
+
 	class ActivityPanelReportHelper : public ::System::Object
 	{
 	public:

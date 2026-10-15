@@ -8,6 +8,8 @@ namespace RPG::Client { class ActivityTelevisionData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ActivityTelevisionModule___c__DisplayClass25_0_TypeDefinitionIndex = 62002;
+
 	class ActivityTelevisionModule___c__DisplayClass25_0 : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@ namespace System { class String; }
 #define EOGNAMMDLNF_ALEBBJAFIOG_OFFSET UNITYSDK_OFFSET(0x155C0090)
 #define EOGNAMMDLNF_CTOR_OFFSET UNITYSDK_OFFSET(0x155C0330)
 
+inline static constexpr unsigned int EOGNAMMDLNF_TypeDefinitionIndex = 64977;
+
 	class EOGNAMMDLNF : public ::System::Object
 	{
 	public:

@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CakeRaceChatEmojiDataItem_TypeDefinitionIndex = 63032;
+
 	class CakeRaceChatEmojiDataItem : public ::System::Object
 	{
 	public:

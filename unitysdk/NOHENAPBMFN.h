@@ -2,6 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/System/Object.h"
 
+inline static constexpr unsigned int NOHENAPBMFN_TypeDefinitionIndex = 48896;
+
 	class NOHENAPBMFN : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ClientOnlyCommonConfig_BodyFootScaleItem_TypeDefinitionIndex = 60019;
+
 	class ClientOnlyCommonConfig_BodyFootScaleItem : public ::System::Object
 	{
 	public:

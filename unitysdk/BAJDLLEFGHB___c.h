@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define BAJDLLEFGHB___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7B9C50)
 #define BAJDLLEFGHB___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E7B9C60)
 
+inline static constexpr unsigned int BAJDLLEFGHB___c_TypeDefinitionIndex = 33306;
+
 	class BAJDLLEFGHB___c : public ::System::Object
 	{
 	public:

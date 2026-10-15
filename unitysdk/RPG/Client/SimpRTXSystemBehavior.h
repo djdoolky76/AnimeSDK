@@ -28,6 +28,8 @@ namespace UnityEngine::Rendering { class CommandBuffer; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SimpRTXSystemBehavior_TypeDefinitionIndex = 70949;
+
 	class SimpRTXSystemBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:

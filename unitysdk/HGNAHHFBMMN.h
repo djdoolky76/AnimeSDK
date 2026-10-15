@@ -55,6 +55,8 @@ namespace System { class String; }
 #define HGNAHHFBMMN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E5829B0)
 #define HGNAHHFBMMN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E582A10)
 
+inline static constexpr unsigned int HGNAHHFBMMN_TypeDefinitionIndex = 31613;
+
 	class HGNAHHFBMMN : public ::System::Object
 	{
 	public:

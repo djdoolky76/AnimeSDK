@@ -9,6 +9,8 @@ class BJIKPKGHHFN;
 #define AKGFIFMIGNC_KIGBILLGNOH_OFFSET UNITYSDK_OFFSET(0x12CCEE40)
 #define AKGFIFMIGNC_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x12CCEDB0)
 
+inline static constexpr unsigned int AKGFIFMIGNC_TypeDefinitionIndex = 77109;
+
 	class AKGFIFMIGNC : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System::Threading::Tasks { class Task; }
 
 namespace Cysharp::Threading::Tasks
 {
+	inline static constexpr unsigned int UniTaskExtensions__Unwrap_d__64_1_TypeDefinitionIndex = 38430;
+
 	template <typename T>
 	struct alignas(8) UniTaskExtensions__Unwrap_d__64_1
 	{

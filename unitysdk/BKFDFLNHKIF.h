@@ -104,6 +104,8 @@ namespace System { class String; }
 #define BKFDFLNHKIF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF52F00)
 #define BKFDFLNHKIF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF52F60)
 
+inline static constexpr unsigned int BKFDFLNHKIF_TypeDefinitionIndex = 25051;
+
 	class BKFDFLNHKIF : public ::System::Object
 	{
 	public:

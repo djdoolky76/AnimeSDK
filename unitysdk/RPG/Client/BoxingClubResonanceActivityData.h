@@ -11,6 +11,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BoxingClubResonanceActivityData_TypeDefinitionIndex = 61597;
+
 	class BoxingClubResonanceActivityData : public ::RPG::Client::ActivityPanelData
 	{
 	public:

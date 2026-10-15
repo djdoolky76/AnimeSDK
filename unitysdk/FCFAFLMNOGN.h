@@ -17,6 +17,8 @@ class LNHACPACCKH;
 #define FCFAFLMNOGN_NOJIPMKAGON_OFFSET UNITYSDK_OFFSET(0x1C611B80)
 #define FCFAFLMNOGN_PNJODACLLPH_OFFSET UNITYSDK_OFFSET(0x1C611B70)
 
+inline static constexpr unsigned int FCFAFLMNOGN_TypeDefinitionIndex = 37067;
+
 	class FCFAFLMNOGN : public ::System::Object
 	{
 	public:

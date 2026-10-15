@@ -19,6 +19,8 @@ namespace UnityEngine { class GameObject; }
 #define HANCMHGEOJM_OCELGEGCHLH_OFFSET UNITYSDK_OFFSET(0x15B97620)
 #define HANCMHGEOJM___N__0_OFFSET UNITYSDK_OFFSET(0x15B98560)
 
+inline static constexpr unsigned int HANCMHGEOJM_TypeDefinitionIndex = 73884;
+
 	class HANCMHGEOJM : public ::BMIKHDAIIMO
 	{
 	public:

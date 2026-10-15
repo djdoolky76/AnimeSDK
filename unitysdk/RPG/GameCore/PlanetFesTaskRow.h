@@ -10,6 +10,8 @@ namespace RPG::GameCore { class PlanetFesTaskRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PlanetFesTaskRow_TypeDefinitionIndex = 12227;
+
 	class PlanetFesTaskRow : public ::System::Object
 	{
 	public:

@@ -34,6 +34,8 @@ namespace System::Threading { class WaitHandle; }
 
 namespace System::Net
 {
+	inline static constexpr unsigned int SimpleAsyncResult_TypeDefinitionIndex = 2877;
+
 	class SimpleAsyncResult : public ::System::Object
 	{
 	public:

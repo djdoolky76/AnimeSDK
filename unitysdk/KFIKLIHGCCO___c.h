@@ -25,6 +25,8 @@ namespace System::Linq { template <typename T1, typename T2> class IGrouping_2; 
 #define KFIKLIHGCCO___C__STEPDEBUG_GENERATESURFELS_B__58_3_OFFSET UNITYSDK_OFFSET(0xB3B7560)
 #define KFIKLIHGCCO___C__STEPDEBUG_GENERATESURFELS_B__58_4_OFFSET UNITYSDK_OFFSET(0xB3B7540)
 
+inline static constexpr unsigned int KFIKLIHGCCO___c_TypeDefinitionIndex = 51774;
+
 	class KFIKLIHGCCO___c : public ::System::Object
 	{
 	public:

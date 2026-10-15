@@ -10,6 +10,8 @@ namespace Entitas { class IContext; }
 #define AFEPOFEOCDI_GET_ALLCONTEXTS_OFFSET UNITYSDK_OFFSET(0x1C879960)
 #define AFEPOFEOCDI_GET_PINGPONGGAME_OFFSET UNITYSDK_OFFSET(0x1C879950)
 
+inline static constexpr unsigned int AFEPOFEOCDI_TypeDefinitionIndex = 42399;
+
 	class AFEPOFEOCDI : public ::System::Object
 	{
 	public:

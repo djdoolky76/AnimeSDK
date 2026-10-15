@@ -87,6 +87,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define HPICNGFLLCA_SET_TIMEFROMSTART_OFFSET UNITYSDK_OFFSET(0x15DCD840)
 #define HPICNGFLLCA_SET_USEOPTION_OFFSET UNITYSDK_OFFSET(0x15DCD860)
 
+inline static constexpr unsigned int HPICNGFLLCA_TypeDefinitionIndex = 54403;
+
 	class HPICNGFLLCA : public ::System::Object
 	{
 	public:

@@ -31,6 +31,8 @@ namespace System { class String; }
 #define DBGDANBJNMM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E15B250)
 #define DBGDANBJNMM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E15B2B0)
 
+inline static constexpr unsigned int DBGDANBJNMM_TypeDefinitionIndex = 31247;
+
 	class DBGDANBJNMM : public ::System::Object
 	{
 	public:

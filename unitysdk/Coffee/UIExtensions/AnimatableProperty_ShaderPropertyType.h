@@ -3,6 +3,8 @@
 
 namespace Coffee::UIExtensions
 {
+	inline static constexpr unsigned int AnimatableProperty_ShaderPropertyType_TypeDefinitionIndex = 45149;
+
 	enum class AnimatableProperty_ShaderPropertyType : ::System::Int32
 	{
 		Color = 0,

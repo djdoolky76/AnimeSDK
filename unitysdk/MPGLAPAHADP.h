@@ -25,6 +25,8 @@ namespace System { class String; }
 #define MPGLAPAHADP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EAB7BE0)
 #define MPGLAPAHADP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EAB7C40)
 
+inline static constexpr unsigned int MPGLAPAHADP_TypeDefinitionIndex = 27674;
+
 	class MPGLAPAHADP : public ::System::Object
 	{
 	public:

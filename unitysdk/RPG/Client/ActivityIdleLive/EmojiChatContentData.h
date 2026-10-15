@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int EmojiChatContentData_TypeDefinitionIndex = 75344;
+
 	class EmojiChatContentData : public ::System::Object
 	{
 	public:

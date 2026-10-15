@@ -17,6 +17,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PenaconyEndmostChronicleEvent_TypeDefinitionIndex = 66099;
+
 	class PenaconyEndmostChronicleEvent : public ::System::Object
 	{
 	public:

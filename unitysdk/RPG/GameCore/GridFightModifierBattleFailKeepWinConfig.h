@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightModifierBattleFailKeepWinConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightModifierBattleFailKeepWinConfig_TypeDefinitionIndex = 19372;
+
 	class GridFightModifierBattleFailKeepWinConfig : public ::RPG::GameCore::GridFightModifierConfigBase
 	{
 	public:

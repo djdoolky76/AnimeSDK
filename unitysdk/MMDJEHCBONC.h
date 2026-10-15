@@ -14,6 +14,8 @@ namespace System { class String; }
 #define MMDJEHCBONC_TOSTRING_1_OFFSET UNITYSDK_OFFSET(0x1C53A970)
 #define MMDJEHCBONC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1C53A840)
 
+inline static constexpr unsigned int MMDJEHCBONC_TypeDefinitionIndex = 41608;
+
 	class MMDJEHCBONC : public ::System::Object
 	{
 	public:

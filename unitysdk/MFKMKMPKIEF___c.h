@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define MFKMKMPKIEF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA1ADB0)
 #define MFKMKMPKIEF___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1EA1ADC0)
 
+inline static constexpr unsigned int MFKMKMPKIEF___c_TypeDefinitionIndex = 26638;
+
 	class MFKMKMPKIEF___c : public ::System::Object
 	{
 	public:

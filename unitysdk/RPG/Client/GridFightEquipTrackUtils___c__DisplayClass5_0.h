@@ -7,6 +7,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightEquipTrackUtils___c__DisplayClass5_0_TypeDefinitionIndex = 65348;
+
 	class GridFightEquipTrackUtils___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:

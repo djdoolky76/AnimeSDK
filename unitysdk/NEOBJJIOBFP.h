@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define NEOBJJIOBFP_CCTOR_OFFSET UNITYSDK_OFFSET(0xBB740D0)
 #define NEOBJJIOBFP_CTOR_OFFSET UNITYSDK_OFFSET(0xBB74070)
 
+inline static constexpr unsigned int NEOBJJIOBFP_TypeDefinitionIndex = 73940;
+
 	class NEOBJJIOBFP : public ::System::Object
 	{
 	public:

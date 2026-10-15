@@ -25,6 +25,8 @@ namespace System { class String; }
 #define DDNJIHCBDDE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E18AA50)
 #define DDNJIHCBDDE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E18AAB0)
 
+inline static constexpr unsigned int DDNJIHCBDDE_TypeDefinitionIndex = 29978;
+
 	class DDNJIHCBDDE : public ::System::Object
 	{
 	public:

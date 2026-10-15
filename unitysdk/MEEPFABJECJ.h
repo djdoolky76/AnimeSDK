@@ -29,6 +29,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define MEEPFABJECJ_PKMADJBIFDB_OFFSET UNITYSDK_OFFSET(0x1C7498F0)
 #define MEEPFABJECJ_SET_LOCKCAT_OFFSET UNITYSDK_OFFSET(0x1C749A40)
 
+inline static constexpr unsigned int MEEPFABJECJ_TypeDefinitionIndex = 37239;
+
 	class MEEPFABJECJ : public ::OMNEDLJOPNM
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System { template <typename T> class Comparison_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TitanAtlasGroup___c_TypeDefinitionIndex = 68142;
+
 	class TitanAtlasGroup___c : public ::System::Object
 	{
 	public:

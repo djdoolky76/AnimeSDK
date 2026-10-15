@@ -11,6 +11,8 @@ namespace System { class Object; }
 #define FFBJIOJPKIL_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C615910)
 #define FFBJIOJPKIL_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C60F650)
 
+inline static constexpr unsigned int FFBJIOJPKIL_TypeDefinitionIndex = 36261;
+
 	class FFBJIOJPKIL : public ::System::MulticastDelegate
 	{
 	public:

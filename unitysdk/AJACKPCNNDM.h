@@ -32,6 +32,8 @@ namespace UnityEngine { class Renderer; }
 #define AJACKPCNNDM_PIAHDCMLPCJ_OFFSET UNITYSDK_OFFSET(0x12CB0E70)
 #define AJACKPCNNDM_PMCNPDKDIKF_OFFSET UNITYSDK_OFFSET(0x12CB0B90)
 
+inline static constexpr unsigned int AJACKPCNNDM_TypeDefinitionIndex = 60201;
+
 	class AJACKPCNNDM : public ::System::Object
 	{
 	public:

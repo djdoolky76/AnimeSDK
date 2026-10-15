@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define BELNLOJAFCM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EA65380)
 #define BELNLOJAFCM___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1EA65390)
 
+inline static constexpr unsigned int BELNLOJAFCM___c_TypeDefinitionIndex = 32333;
+
 	class BELNLOJAFCM___c : public ::System::Object
 	{
 	public:

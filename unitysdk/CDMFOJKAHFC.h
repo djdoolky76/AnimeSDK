@@ -35,6 +35,8 @@ namespace System { class String; }
 #define CDMFOJKAHFC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E089430)
 #define CDMFOJKAHFC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E089490)
 
+inline static constexpr unsigned int CDMFOJKAHFC_TypeDefinitionIndex = 28918;
+
 	class CDMFOJKAHFC : public ::System::Object
 	{
 	public:

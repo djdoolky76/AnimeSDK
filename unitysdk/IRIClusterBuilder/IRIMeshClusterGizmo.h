@@ -11,6 +11,8 @@ namespace IRIClusterBuilder { class IRIMeshClusterItemDebug_MeshletBounds; }
 
 namespace IRIClusterBuilder
 {
+	inline static constexpr unsigned int IRIMeshClusterGizmo_TypeDefinitionIndex = 47746;
+
 	class IRIMeshClusterGizmo : public ::UnityEngine::MonoBehaviour
 	{
 	public:

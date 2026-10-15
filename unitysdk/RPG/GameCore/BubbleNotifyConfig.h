@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BubbleNotifyConfig_TypeDefinitionIndex = 16958;
+
 	class BubbleNotifyConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

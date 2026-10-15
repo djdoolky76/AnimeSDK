@@ -9,6 +9,8 @@ class OADLFAMLGPP;
 #define GBLDMBDDIFJ_CTOR_OFFSET UNITYSDK_OFFSET(0x15951C70)
 #define GBLDMBDDIFJ_NMICMPPACIH_OFFSET UNITYSDK_OFFSET(0x15951D00)
 
+inline static constexpr unsigned int GBLDMBDDIFJ_TypeDefinitionIndex = 62569;
+
 	class GBLDMBDDIFJ : public ::System::Object
 	{
 	public:

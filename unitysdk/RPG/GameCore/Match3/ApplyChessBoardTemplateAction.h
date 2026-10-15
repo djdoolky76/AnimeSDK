@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore::Match3
 {
+	inline static constexpr unsigned int ApplyChessBoardTemplateAction_TypeDefinitionIndex = 24897;
+
 	class ApplyChessBoardTemplateAction : public ::RPG::GameCore::Match3::Match3ActionBase
 	{
 	public:

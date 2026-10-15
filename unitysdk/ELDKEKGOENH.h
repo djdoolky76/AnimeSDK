@@ -21,6 +21,8 @@ namespace UnityEngine { class Transform; }
 #define ELDKEKGOENH_NALJOBHGFPJ_OFFSET UNITYSDK_OFFSET(0x1551C970)
 #define ELDKEKGOENH_OBOEDJJAOKB_OFFSET UNITYSDK_OFFSET(0x1551C540)
 
+inline static constexpr unsigned int ELDKEKGOENH_TypeDefinitionIndex = 48512;
+
 	class ELDKEKGOENH : public ::System::Object
 	{
 	public:

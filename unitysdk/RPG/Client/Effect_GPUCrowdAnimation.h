@@ -41,6 +41,8 @@ namespace UnityEngine { class Mesh; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Effect_GPUCrowdAnimation_TypeDefinitionIndex = 70479;
+
 	class Effect_GPUCrowdAnimation : public ::UnityEngine::MonoBehaviour
 	{
 	public:

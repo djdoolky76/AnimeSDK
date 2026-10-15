@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvEnableEntityLinkCable_TypeDefinitionIndex = 21812;
+
 	class AdvEnableEntityLinkCable : public ::RPG::GameCore::TaskConfig
 	{
 	public:

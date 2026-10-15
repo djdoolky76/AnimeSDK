@@ -5,6 +5,8 @@
 
 #define FDLKPAJIEGG_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA66C90)
 
+inline static constexpr unsigned int FDLKPAJIEGG_TypeDefinitionIndex = 42504;
+
 	class FDLKPAJIEGG : public ::System::Object
 	{
 	public:

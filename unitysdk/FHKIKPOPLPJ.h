@@ -6,6 +6,8 @@
 #define FHKIKPOPLPJ_CTOR_OFFSET UNITYSDK_OFFSET(0x15781540)
 #define FHKIKPOPLPJ_MGPLPPLEMPK_OFFSET UNITYSDK_OFFSET(0x157814E0)
 
+inline static constexpr unsigned int FHKIKPOPLPJ_TypeDefinitionIndex = 57315;
+
 	class FHKIKPOPLPJ : public ::System::Object
 	{
 	public:

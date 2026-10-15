@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define PICHIFNMBNO___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DF43480)
 #define PICHIFNMBNO___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1DF43490)
 
+inline static constexpr unsigned int PICHIFNMBNO___c_TypeDefinitionIndex = 27154;
+
 	class PICHIFNMBNO___c : public ::System::Object
 	{
 	public:

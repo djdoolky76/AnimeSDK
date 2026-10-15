@@ -14,6 +14,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int ThreadDispatcher_TypeDefinitionIndex = 8030;
+
 	class ThreadDispatcher : public ::System::Object
 	{
 	public:

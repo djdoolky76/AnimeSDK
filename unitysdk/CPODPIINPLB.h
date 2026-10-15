@@ -6,6 +6,8 @@ class LBJLBMOOJGM;
 #define CPODPIINPLB_CTOR_OFFSET UNITYSDK_OFFSET(0xDCDD750)
 #define CPODPIINPLB_KDPCHKAGJMK_OFFSET UNITYSDK_OFFSET(0xDCDD670)
 
+inline static constexpr unsigned int CPODPIINPLB_TypeDefinitionIndex = 81646;
+
 	class CPODPIINPLB : public ::System::Object
 	{
 	public:

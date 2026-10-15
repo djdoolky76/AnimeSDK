@@ -42,6 +42,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RootMotion::FinalIK
 {
+	inline static constexpr unsigned int GrounderIK_TypeDefinitionIndex = 45994;
+
 	class GrounderIK : public ::RootMotion::FinalIK::Grounder
 	{
 	public:

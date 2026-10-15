@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AITaskTargetTypeSelector_TypeDefinitionIndex = 15593;
+
 	class AITaskTargetTypeSelector : public ::RPG::GameCore::AISelector
 	{
 	public:

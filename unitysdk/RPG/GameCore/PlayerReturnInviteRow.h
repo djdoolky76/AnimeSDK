@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PlayerReturnInviteRow_TypeDefinitionIndex = 14540;
+
 	class PlayerReturnInviteRow : public ::System::Object
 	{
 	public:

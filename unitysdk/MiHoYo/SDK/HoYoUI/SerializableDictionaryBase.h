@@ -6,6 +6,8 @@
 
 namespace MiHoYo::SDK::HoYoUI
 {
+	inline static constexpr unsigned int SerializableDictionaryBase_TypeDefinitionIndex = 46729;
+
 	class SerializableDictionaryBase : public ::System::Object
 	{
 	public:

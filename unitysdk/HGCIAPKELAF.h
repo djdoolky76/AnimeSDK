@@ -35,6 +35,8 @@ namespace System { class String; }
 #define HGCIAPKELAF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E573890)
 #define HGCIAPKELAF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E5738F0)
 
+inline static constexpr unsigned int HGCIAPKELAF_TypeDefinitionIndex = 27469;
+
 	class HGCIAPKELAF : public ::System::Object
 	{
 	public:

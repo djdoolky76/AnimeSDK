@@ -9,6 +9,8 @@ namespace RPG::Client { class GridFightGridMoveValidateResult; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightGridOperationValidator_ProjectionBlockConstrait_TypeDefinitionIndex = 64852;
+
 	class GridFightGridOperationValidator_ProjectionBlockConstrait : public ::System::Object
 	{
 	public:

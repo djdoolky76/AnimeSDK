@@ -6,6 +6,8 @@ class IPNMGDFPLGL;
 
 #define HPMECOPBDBE_CTOR_OFFSET UNITYSDK_OFFSET(0x1CAF7820)
 
+inline static constexpr unsigned int HPMECOPBDBE_TypeDefinitionIndex = 42925;
+
 	class HPMECOPBDBE : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@
 #define EKBMHPMDALG_CTOR_OFFSET UNITYSDK_OFFSET(0x154FCE30)
 #define EKBMHPMDALG_ICNEKGBHIHP_OFFSET UNITYSDK_OFFSET(0x154FC6C0)
 
+inline static constexpr unsigned int EKBMHPMDALG_TypeDefinitionIndex = 77027;
+
 	class EKBMHPMDALG : public ::KBLKHFKCCBC
 	{
 	public:

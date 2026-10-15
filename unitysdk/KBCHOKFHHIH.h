@@ -41,6 +41,8 @@ namespace System { class String; }
 #define KBCHOKFHHIH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E7E9B30)
 #define KBCHOKFHHIH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E7E9B90)
 
+inline static constexpr unsigned int KBCHOKFHHIH_TypeDefinitionIndex = 25740;
+
 	class KBCHOKFHHIH : public ::System::Object
 	{
 	public:

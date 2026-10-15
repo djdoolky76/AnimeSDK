@@ -9,6 +9,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ExpeditionBattleAvatarDamageViewModel_TypeDefinitionIndex = 63953;
+
 	class ExpeditionBattleAvatarDamageViewModel : public ::System::Object
 	{
 	public:

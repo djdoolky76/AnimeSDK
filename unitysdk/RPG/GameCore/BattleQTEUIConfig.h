@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BattleQTEUIConfig_TypeDefinitionIndex = 23347;
+
 	class BattleQTEUIConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

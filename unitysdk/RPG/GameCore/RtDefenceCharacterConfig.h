@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RtDefenceCharacterConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RtDefenceCharacterConfig_TypeDefinitionIndex = 18057;
+
 	class RtDefenceCharacterConfig : public ::RPG::GameCore::RtCharacterConfig
 	{
 	public:

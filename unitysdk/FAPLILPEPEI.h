@@ -46,6 +46,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define FAPLILPEPEI_PEIIPAFPMGD_OFFSET UNITYSDK_OFFSET(0x1568DE00)
 #define FAPLILPEPEI_POLJFCCEIPB_OFFSET UNITYSDK_OFFSET(0x1568D600)
 
+inline static constexpr unsigned int FAPLILPEPEI_TypeDefinitionIndex = 62205;
+
 	class FAPLILPEPEI : public ::System::Object
 	{
 	public:

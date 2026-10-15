@@ -51,6 +51,8 @@ namespace UnityEngine { class Mesh; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RegionVolume_TypeDefinitionIndex = 62191;
+
 	class RegionVolume : public ::UnityEngine::MonoBehaviour
 	{
 	public:

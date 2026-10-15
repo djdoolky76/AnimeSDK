@@ -9,6 +9,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define JHMPCKMLALE_HGBMGFHHCAO_OFFSET UNITYSDK_OFFSET(0xB1BFB40)
 #define JHMPCKMLALE_PDGIEOJCLDD_OFFSET UNITYSDK_OFFSET(0xB1BFC60)
 
+inline static constexpr unsigned int JHMPCKMLALE_TypeDefinitionIndex = 56190;
+
 	class JHMPCKMLALE : public ::System::Object
 	{
 	public:

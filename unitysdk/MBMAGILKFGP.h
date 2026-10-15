@@ -29,6 +29,8 @@ namespace System { class String; }
 #define MBMAGILKFGP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9EA0A0)
 #define MBMAGILKFGP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E9EA100)
 
+inline static constexpr unsigned int MBMAGILKFGP_TypeDefinitionIndex = 31867;
+
 	class MBMAGILKFGP : public ::System::Object
 	{
 	public:

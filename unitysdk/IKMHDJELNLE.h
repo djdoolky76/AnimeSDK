@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define IKMHDJELNLE_GOLFBHLCJGJ_OFFSET UNITYSDK_OFFSET(0x1649AB10)
 #define IKMHDJELNLE_HNFHGHPHDAM_OFFSET UNITYSDK_OFFSET(0x1649AE10)
 
+inline static constexpr unsigned int IKMHDJELNLE_TypeDefinitionIndex = 48872;
+
 	class IKMHDJELNLE : public ::System::Object
 	{
 	public:

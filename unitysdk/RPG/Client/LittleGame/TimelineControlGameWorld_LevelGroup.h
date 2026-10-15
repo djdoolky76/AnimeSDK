@@ -7,6 +7,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::LittleGame
 {
+	inline static constexpr unsigned int TimelineControlGameWorld_LevelGroup_TypeDefinitionIndex = 42515;
+
 	struct alignas(8) TimelineControlGameWorld_LevelGroup
 	{
 		::System::String* UniqueName; // 0x10

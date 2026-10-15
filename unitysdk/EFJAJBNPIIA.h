@@ -16,6 +16,8 @@ namespace System { class Object; }
 #define EFJAJBNPIIA_LGIOECMNIBO_OFFSET UNITYSDK_OFFSET(0x13A4EAB0)
 #define EFJAJBNPIIA_NMLOOJOCOON_OFFSET UNITYSDK_OFFSET(0x13A4E940)
 
+inline static constexpr unsigned int EFJAJBNPIIA_TypeDefinitionIndex = 67481;
+
 	class EFJAJBNPIIA : public ::GCBOJGNGLGO
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace Spine::Unity
 {
+	inline static constexpr unsigned int EventDataReferenceAsset_TypeDefinitionIndex = 45000;
+
 	class EventDataReferenceAsset : public ::UnityEngine::ScriptableObject
 	{
 	public:

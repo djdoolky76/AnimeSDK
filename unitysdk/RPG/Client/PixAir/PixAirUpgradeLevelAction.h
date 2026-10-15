@@ -17,6 +17,8 @@ namespace System { class String; }
 
 namespace RPG::Client::PixAir
 {
+	inline static constexpr unsigned int PixAirUpgradeLevelAction_TypeDefinitionIndex = 79298;
+
 	class PixAirUpgradeLevelAction : public ::RPG::Client::PixAir::BasePixAirPendingAction
 	{
 	public:

@@ -29,6 +29,8 @@ namespace System { class String; }
 #define HEPHIKELLEA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E55EE70)
 #define HEPHIKELLEA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E55EED0)
 
+inline static constexpr unsigned int HEPHIKELLEA_TypeDefinitionIndex = 26555;
+
 	class HEPHIKELLEA : public ::System::Object
 	{
 	public:

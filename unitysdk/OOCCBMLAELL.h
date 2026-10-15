@@ -204,6 +204,8 @@ namespace System::Collections::Generic { template <typename T> class Stack_1; }
 #define OOCCBMLAELL_TICK_OFFSET UNITYSDK_OFFSET(0xBF65300)
 #define OOCCBMLAELL__FINDCARDS_G___FINDCARDS_44_0_OFFSET UNITYSDK_OFFSET(0xBF6A740)
 
+inline static constexpr unsigned int OOCCBMLAELL_TypeDefinitionIndex = 55992;
+
 	class OOCCBMLAELL : public ::LHHEGNEBMLN
 	{
 	public:

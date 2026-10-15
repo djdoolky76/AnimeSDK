@@ -9,6 +9,8 @@ namespace RPG::GameCore { class MiConditionEntryConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MiConditionEntryConfig_TypeDefinitionIndex = 17072;
+
 	class MiConditionEntryConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

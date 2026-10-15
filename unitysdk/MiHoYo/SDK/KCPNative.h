@@ -39,6 +39,8 @@ namespace MiHoYo::SDK { class KcpOutput; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int KCPNative_TypeDefinitionIndex = 46137;
+
 	class KCPNative : public ::System::Object
 	{
 	public:

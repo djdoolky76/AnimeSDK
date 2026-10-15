@@ -9,6 +9,8 @@
 
 namespace Cysharp::Threading::Tasks::Internal
 {
+	inline static constexpr unsigned int UnityEqualityComparer_BoundsIntEqualityComparer_TypeDefinitionIndex = 38688;
+
 	class UnityEqualityComparer_BoundsIntEqualityComparer : public ::System::Object
 	{
 	public:

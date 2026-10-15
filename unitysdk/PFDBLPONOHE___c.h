@@ -11,6 +11,8 @@ namespace System { class Object; }
 #define PFDBLPONOHE___C___CCTOR_B__33_1_OFFSET UNITYSDK_OFFSET(0x1DF23EB0)
 #define PFDBLPONOHE___C___CCTOR_B__33_2_OFFSET UNITYSDK_OFFSET(0x1DF23EC0)
 
+inline static constexpr unsigned int PFDBLPONOHE___c_TypeDefinitionIndex = 25223;
+
 	class PFDBLPONOHE___c : public ::System::Object
 	{
 	public:

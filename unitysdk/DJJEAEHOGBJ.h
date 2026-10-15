@@ -5,6 +5,8 @@ namespace System { class String; }
 
 #define DJJEAEHOGBJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1CD2F950)
 
+inline static constexpr unsigned int DJJEAEHOGBJ_TypeDefinitionIndex = 25043;
+
 	class DJJEAEHOGBJ : public ::UnityEngine::PropertyAttribute
 	{
 	public:

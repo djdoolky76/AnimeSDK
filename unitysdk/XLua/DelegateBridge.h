@@ -1471,6 +1471,8 @@ namespace XLua { class LuaTable; }
 
 namespace XLua
 {
+	inline static constexpr unsigned int DelegateBridge_TypeDefinitionIndex = 50091;
+
 	class DelegateBridge : public ::XLua::DelegateBridgeBase
 	{
 	public:

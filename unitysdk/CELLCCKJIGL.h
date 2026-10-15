@@ -48,6 +48,8 @@ namespace System { class String; }
 #define CELLCCKJIGL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E09A1C0)
 #define CELLCCKJIGL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E09A220)
 
+inline static constexpr unsigned int CELLCCKJIGL_TypeDefinitionIndex = 28693;
+
 	class CELLCCKJIGL : public ::System::Object
 	{
 	public:

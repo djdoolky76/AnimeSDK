@@ -21,6 +21,8 @@ namespace UnityEngine { class MeshRenderer; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int StageDynamicLightBoxBehavior_TypeDefinitionIndex = 70952;
+
 	class StageDynamicLightBoxBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:

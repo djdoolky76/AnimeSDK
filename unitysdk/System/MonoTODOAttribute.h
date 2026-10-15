@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace System
 {
+	inline static constexpr unsigned int MonoTODOAttribute_TypeDefinitionIndex = 151;
+
 	class MonoTODOAttribute : public ::System::Attribute
 	{
 	public:

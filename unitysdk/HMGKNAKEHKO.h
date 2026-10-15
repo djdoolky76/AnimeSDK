@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define HMGKNAKEHKO_OKECDBKGFJH_OFFSET UNITYSDK_OFFSET(0x15D813B0)
 #define HMGKNAKEHKO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15D7CED0)
 
+inline static constexpr unsigned int HMGKNAKEHKO_TypeDefinitionIndex = 53936;
+
 	class HMGKNAKEHKO
 	{
 	public:

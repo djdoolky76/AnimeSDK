@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ShowOfferingClockieUpgradeHint; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ShowOfferingClockieUpgradeHint_TypeDefinitionIndex = 21941;
+
 	class ShowOfferingClockieUpgradeHint : public ::RPG::GameCore::TaskConfig
 	{
 	public:

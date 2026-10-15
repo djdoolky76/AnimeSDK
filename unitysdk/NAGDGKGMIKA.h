@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define NAGDGKGMIKA_CTOR_OFFSET UNITYSDK_OFFSET(0xBA99A10)
 #define NAGDGKGMIKA_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBA99A40)
 
+inline static constexpr unsigned int NAGDGKGMIKA_TypeDefinitionIndex = 54964;
+
 	class NAGDGKGMIKA
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AllowedLanguageRow_TypeDefinitionIndex = 12650;
+
 	class AllowedLanguageRow : public ::System::Object
 	{
 	public:

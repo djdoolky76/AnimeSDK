@@ -9,6 +9,8 @@ namespace System::Reflection { class MethodInfo; }
 #define INIONJGMHMA_CTOR_OFFSET UNITYSDK_OFFSET(0x164EF9F0)
 #define INIONJGMHMA_INTERNALINVOKE_OFFSET UNITYSDK_OFFSET(0x164EFA70)
 
+inline static constexpr unsigned int INIONJGMHMA_TypeDefinitionIndex = 73146;
+
 	class INIONJGMHMA : public ::GMBPBAHKLDB
 	{
 	public:

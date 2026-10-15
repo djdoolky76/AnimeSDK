@@ -22,6 +22,8 @@ namespace XLua { class LuaTable; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UIBubbleManager_TypeDefinitionIndex = 68916;
+
 	class UIBubbleManager : public ::UnityEngine::MonoBehaviour
 	{
 	public:

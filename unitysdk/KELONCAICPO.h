@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define KELONCAICPO_CTOR_OFFSET UNITYSDK_OFFSET(0xB37DB60)
 #define KELONCAICPO_HPMJGCGIPPE_OFFSET UNITYSDK_OFFSET(0xB37DF80)
 
+inline static constexpr unsigned int KELONCAICPO_TypeDefinitionIndex = 71688;
+
 	class KELONCAICPO : public ::System::Object
 	{
 	public:

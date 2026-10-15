@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define PEBLIEJAJPK_CTOR_OFFSET UNITYSDK_OFFSET(0xC033200)
 #define PEBLIEJAJPK_HJMLOLJBBPH_OFFSET UNITYSDK_OFFSET(0xC033160)
 
+inline static constexpr unsigned int PEBLIEJAJPK_TypeDefinitionIndex = 77682;
+
 	class PEBLIEJAJPK : public ::HBLDGJCDJPF
 	{
 	public:

@@ -27,6 +27,8 @@ namespace System { class String; }
 #define FKEDPCMLIFE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E3AD630)
 #define FKEDPCMLIFE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E3AD690)
 
+inline static constexpr unsigned int FKEDPCMLIFE_TypeDefinitionIndex = 33217;
+
 	class FKEDPCMLIFE : public ::System::Object
 	{
 	public:

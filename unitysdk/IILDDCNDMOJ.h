@@ -25,6 +25,8 @@ namespace System::Collections { class IEnumerator; }
 #define IILDDCNDMOJ_POEFHGALPNI_OFFSET UNITYSDK_OFFSET(0x16449FC0)
 #define IILDDCNDMOJ___STARTUPDATE_B__9_0_OFFSET UNITYSDK_OFFSET(0x1644A4E0)
 
+inline static constexpr unsigned int IILDDCNDMOJ_TypeDefinitionIndex = 61227;
+
 	class IILDDCNDMOJ : public ::System::Object
 	{
 	public:

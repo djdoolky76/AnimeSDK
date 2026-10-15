@@ -12,6 +12,8 @@
 
 namespace System
 {
+	inline static constexpr unsigned int Tuple_TypeDefinitionIndex = 142;
+
 	class Tuple : public ::System::Object
 	{
 	public:

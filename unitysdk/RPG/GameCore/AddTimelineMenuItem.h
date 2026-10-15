@@ -10,6 +10,8 @@ namespace RPG::GameCore { class AddTimelineMenuItem; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AddTimelineMenuItem_TypeDefinitionIndex = 21129;
+
 	class AddTimelineMenuItem : public ::RPG::GameCore::AddMenuItem
 	{
 	public:

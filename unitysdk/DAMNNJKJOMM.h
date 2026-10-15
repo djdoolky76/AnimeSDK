@@ -33,6 +33,8 @@ namespace System { class String; }
 #define DAMNNJKJOMM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E1544E0)
 #define DAMNNJKJOMM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E154540)
 
+inline static constexpr unsigned int DAMNNJKJOMM_TypeDefinitionIndex = 25156;
+
 	class DAMNNJKJOMM : public ::System::Object
 	{
 	public:

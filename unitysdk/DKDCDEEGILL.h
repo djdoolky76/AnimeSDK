@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define DKDCDEEGILL_KMJFDCJIHOC_OFFSET UNITYSDK_OFFSET(0xF256DD0)
 #define DKDCDEEGILL_LJKLOKHHIEC_OFFSET UNITYSDK_OFFSET(0xF256D50)
 
+inline static constexpr unsigned int DKDCDEEGILL_TypeDefinitionIndex = 52098;
+
 	class DKDCDEEGILL : public ::System::Object
 	{
 	public:

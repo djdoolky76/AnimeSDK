@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define APLNKIAIFEA___C__DISPLAYCLASS3_1_CTOR_OFFSET UNITYSDK_OFFSET(0x15BB46E0)
 #define APLNKIAIFEA___C__DISPLAYCLASS3_1__DEVELOPCARASYNC_B__1_OFFSET UNITYSDK_OFFSET(0x15BB46F0)
 
+inline static constexpr unsigned int APLNKIAIFEA___c__DisplayClass3_1_TypeDefinitionIndex = 81813;
+
 	template <typename T>
 	class APLNKIAIFEA___c__DisplayClass3_1 : public ::System::Object
 	{

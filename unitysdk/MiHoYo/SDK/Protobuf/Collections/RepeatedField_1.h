@@ -4,6 +4,8 @@
 
 namespace MiHoYo::SDK::Protobuf::Collections
 {
+	inline static constexpr unsigned int RepeatedField_1_TypeDefinitionIndex = 35866;
+
 	template <typename T>
 	class RepeatedField_1 : public ::System::Object
 	{

@@ -88,6 +88,8 @@ namespace UnityEngine::Rendering { class BatchAnimationInstance; }
 #define PKFMLDAGKKB_SET_RADIUS_OFFSET UNITYSDK_OFFSET(0xC2B60B0)
 #define PKFMLDAGKKB_SET_TRANSFORM_OFFSET UNITYSDK_OFFSET(0xC2B9DD0)
 
+inline static constexpr unsigned int PKFMLDAGKKB_TypeDefinitionIndex = 69258;
+
 	class PKFMLDAGKKB : public ::System::Object
 	{
 	public:

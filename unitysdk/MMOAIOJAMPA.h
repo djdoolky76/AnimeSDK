@@ -31,6 +31,8 @@ namespace System { class String; }
 #define MMOAIOJAMPA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA8F9D0)
 #define MMOAIOJAMPA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA8FA30)
 
+inline static constexpr unsigned int MMOAIOJAMPA_TypeDefinitionIndex = 32768;
+
 	class MMOAIOJAMPA : public ::System::Object
 	{
 	public:

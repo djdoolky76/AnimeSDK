@@ -20,6 +20,8 @@ namespace UnityEngine { class Transform; }
 #define LPMONNHABLI_NNCBMAJEMOD_OFFSET UNITYSDK_OFFSET(0x1BB70)
 #define LPMONNHABLI_SET_ATTACHTARGETTYPE_OFFSET UNITYSDK_OFFSET(0xAD60)
 
+inline static constexpr unsigned int LPMONNHABLI_TypeDefinitionIndex = 73943;
+
 	struct alignas(8) LPMONNHABLI
 	{
 		::RPG::GameCore::GameEntity* KCKEHDGBGGG; // 0x10

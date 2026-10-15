@@ -13,6 +13,8 @@ class NDDOMFBJMKE;
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChatMessagePlanetfesExchangeData_TypeDefinitionIndex = 63222;
+
 	class ChatMessagePlanetfesExchangeData : public ::RPG::Client::ChatMessageExtendData
 	{
 	public:

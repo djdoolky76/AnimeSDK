@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::FateRin::RedDot
 {
+	inline static constexpr unsigned int FateRinCaseBoardRedDotFilter_TypeDefinitionIndex = 80737;
+
 	class FateRinCaseBoardRedDotFilter : public ::System::Object
 	{
 	public:

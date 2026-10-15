@@ -23,6 +23,8 @@ namespace UnityEngine { class Mesh; }
 #define KLPGPGDOCCA_ANIMATEDITEM_SET_MESH_OFFSET UNITYSDK_OFFSET(0xB53AEF0)
 #define KLPGPGDOCCA_ANIMATEDITEM_SET__PARTICLESASSET_OFFSET UNITYSDK_OFFSET(0xB53AFA0)
 
+inline static constexpr unsigned int KLPGPGDOCCA_AnimatedItem_TypeDefinitionIndex = 70318;
+
 	class KLPGPGDOCCA_AnimatedItem : public ::System::Object
 	{
 	public:

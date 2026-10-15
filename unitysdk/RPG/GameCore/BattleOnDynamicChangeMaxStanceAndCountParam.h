@@ -8,6 +8,8 @@ namespace RPG::GameCore { class GameEntity; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BattleOnDynamicChangeMaxStanceAndCountParam_TypeDefinitionIndex = 57751;
+
 	class BattleOnDynamicChangeMaxStanceAndCountParam : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System::Threading { class ManualResetEvent; }
 
 namespace MiHoYo::SDK::HttpDns
 {
+	inline static constexpr unsigned int HoYoSDKHttpWebRequest___c__DisplayClass0_1_TypeDefinitionIndex = 46705;
+
 	template <typename T>
 	class HoYoSDKHttpWebRequest___c__DisplayClass0_1 : public ::System::Object
 	{

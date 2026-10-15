@@ -9,6 +9,8 @@ namespace RPG::GameCore { class CakeRaceHasComponentPredicateConfig; }
 #define LIAIJLNAMAG_CTOR_OFFSET UNITYSDK_OFFSET(0x1C73C4D0)
 #define LIAIJLNAMAG_ISMATCHIMPL_OFFSET UNITYSDK_OFFSET(0x1C73C4F0)
 
+inline static constexpr unsigned int LIAIJLNAMAG_TypeDefinitionIndex = 37413;
+
 	class LIAIJLNAMAG
 	{
 	public:

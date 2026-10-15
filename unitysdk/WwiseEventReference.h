@@ -6,6 +6,8 @@
 #define WWISEEVENTREFERENCE_CTOR_OFFSET UNITYSDK_OFFSET(0x1F637060)
 #define WWISEEVENTREFERENCE_GET_WWISEOBJECTTYPE_OFFSET UNITYSDK_OFFSET(0x1F637050)
 
+inline static constexpr unsigned int WwiseEventReference_TypeDefinitionIndex = 44884;
+
 	class WwiseEventReference : public ::WwiseObjectReference
 	{
 	public:

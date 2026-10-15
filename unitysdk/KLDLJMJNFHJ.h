@@ -11,6 +11,8 @@ namespace UnityEngine::Rendering { class BatchAnimationInstance; }
 #define KLDLJMJNFHJ_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xB4EE6D0)
 #define KLDLJMJNFHJ_INVOKE_OFFSET UNITYSDK_OFFSET(0xB4EE690)
 
+inline static constexpr unsigned int KLDLJMJNFHJ_TypeDefinitionIndex = 69520;
+
 	class KLDLJMJNFHJ : public ::System::MulticastDelegate
 	{
 	public:

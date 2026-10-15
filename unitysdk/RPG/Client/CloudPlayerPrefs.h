@@ -16,6 +16,8 @@ namespace System { class Type; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CloudPlayerPrefs_TypeDefinitionIndex = 59281;
+
 	class CloudPlayerPrefs : public ::ILHCHHNKIHI
 	{
 	public:

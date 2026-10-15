@@ -16,6 +16,8 @@ namespace System { class String; }
 
 namespace Spine
 {
+	inline static constexpr unsigned int DrawOrderTimeline_TypeDefinitionIndex = 39621;
+
 	class DrawOrderTimeline : public ::Spine::Timeline
 	{
 	public:

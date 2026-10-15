@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define CLIEDEPABOD_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xD78C730)
 #define CLIEDEPABOD_TICK_OFFSET UNITYSDK_OFFSET(0xD78C780)
 
+inline static constexpr unsigned int CLIEDEPABOD_TypeDefinitionIndex = 56439;
+
 	class CLIEDEPABOD : public ::GELIALJDFBL
 	{
 	public:

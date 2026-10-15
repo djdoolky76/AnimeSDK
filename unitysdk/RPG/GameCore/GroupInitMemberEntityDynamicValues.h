@@ -11,6 +11,8 @@ namespace RPG::GameCore { class SubLevelGraphDynamicOverrideSet; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GroupInitMemberEntityDynamicValues_TypeDefinitionIndex = 20737;
+
 	class GroupInitMemberEntityDynamicValues : public ::RPG::GameCore::TaskConfig
 	{
 	public:

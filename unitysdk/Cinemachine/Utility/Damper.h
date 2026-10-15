@@ -11,6 +11,8 @@
 
 namespace Cinemachine::Utility
 {
+	inline static constexpr unsigned int Damper_TypeDefinitionIndex = 39893;
+
 	class Damper : public ::System::Object
 	{
 	public:

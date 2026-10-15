@@ -31,6 +31,8 @@ namespace System { class String; }
 #define KDANACKPJIP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E7FCB40)
 #define KDANACKPJIP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E7FCBA0)
 
+inline static constexpr unsigned int KDANACKPJIP_TypeDefinitionIndex = 28433;
+
 	class KDANACKPJIP : public ::System::Object
 	{
 	public:

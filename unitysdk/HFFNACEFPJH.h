@@ -8,6 +8,8 @@ class EEKIILDAMOL;
 #define HFFNACEFPJH_CTOR_OFFSET UNITYSDK_OFFSET(0x15C79030)
 #define HFFNACEFPJH_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0x15C79050)
 
+inline static constexpr unsigned int HFFNACEFPJH_TypeDefinitionIndex = 60345;
+
 	class HFFNACEFPJH : public ::EFNJLACKEDH
 	{
 	public:

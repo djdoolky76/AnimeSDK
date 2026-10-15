@@ -10,6 +10,8 @@ namespace RPG::GameCore { class PamChatFeedbackConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PamChatFeedbackConfigRow_TypeDefinitionIndex = 14310;
+
 	class PamChatFeedbackConfigRow : public ::System::Object
 	{
 	public:

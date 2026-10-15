@@ -15,6 +15,8 @@ namespace RPG::GameCore { class NpcWalkStyleWeightInfo; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelPedestrianInfo_TypeDefinitionIndex = 17287;
+
 	class LevelPedestrianInfo : public ::RPG::GameCore::NamedLevelObjectInfo
 	{
 	public:

@@ -13,6 +13,8 @@ namespace UnityEngine::UIElements { class EventCallbackRegistry; }
 
 namespace UnityEngine::UIElements
 {
+	inline static constexpr unsigned int CallbackEventHandler_TypeDefinitionIndex = 5939;
+
 	class CallbackEventHandler : public ::System::Object
 	{
 	public:

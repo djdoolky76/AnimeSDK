@@ -8,6 +8,8 @@ class FCOEMCEDLNL;
 #define DOBOKPCPHCF_CTOR_OFFSET UNITYSDK_OFFSET(0x1CD52EC0)
 #define DOBOKPCPHCF_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CD52CE0)
 
+inline static constexpr unsigned int DOBOKPCPHCF_TypeDefinitionIndex = 14421;
+
 	class DOBOKPCPHCF : public ::System::Object
 	{
 	public:

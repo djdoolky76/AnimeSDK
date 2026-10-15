@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define EMJANDEFGEN_LNGKNPJIOML_OFFSET UNITYSDK_OFFSET(0x155453A0)
 #define EMJANDEFGEN_MNGGAOFNGIP_OFFSET UNITYSDK_OFFSET(0x15545550)
 
+inline static constexpr unsigned int EMJANDEFGEN_TypeDefinitionIndex = 72053;
+
 	class EMJANDEFGEN : public ::System::Object
 	{
 	public:

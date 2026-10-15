@@ -7,6 +7,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightGameRefData___c__DisplayClass178_0_TypeDefinitionIndex = 64737;
+
 	class GridFightGameRefData___c__DisplayClass178_0 : public ::System::Object
 	{
 	public:

@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 
 namespace XLua
 {
+	inline static constexpr unsigned int InternalGlobals___GEN_DELEGATE_B00_2465DBEC_TypeDefinitionIndex = 50197;
+
 	class InternalGlobals___GEN_DELEGATE_B00_2465DBEC : public ::System::MulticastDelegate
 	{
 	public:

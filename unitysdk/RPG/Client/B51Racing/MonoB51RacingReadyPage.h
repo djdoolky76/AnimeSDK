@@ -67,6 +67,8 @@ namespace XLua { class LuaTable; }
 
 namespace RPG::Client::B51Racing
 {
+	inline static constexpr unsigned int MonoB51RacingReadyPage_TypeDefinitionIndex = 81960;
+
 	class MonoB51RacingReadyPage : public ::Sofa::BaseSofaControl
 	{
 	public:

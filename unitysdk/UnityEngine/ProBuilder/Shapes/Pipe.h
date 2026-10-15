@@ -14,6 +14,8 @@ namespace UnityEngine::ProBuilder::Shapes { class Shape; }
 
 namespace UnityEngine::ProBuilder::Shapes
 {
+	inline static constexpr unsigned int Pipe_TypeDefinitionIndex = 44463;
+
 	class Pipe : public ::UnityEngine::ProBuilder::Shapes::Shape
 	{
 	public:

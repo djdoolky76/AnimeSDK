@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace miHoYoEmotion
 {
+	inline static constexpr unsigned int SequenceBakeData_BakeData_TypeDefinitionIndex = 45967;
+
 	class SequenceBakeData_BakeData : public ::System::Object
 	{
 	public:

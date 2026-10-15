@@ -35,6 +35,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::PC::OS::CXHandheld
 {
+	inline static constexpr unsigned int LoginManagerHandheld_TypeDefinitionIndex = 8751;
+
 	class LoginManagerHandheld : public ::MiHoYo::SDK::PC::OS::CXHandheld::LoginManagerBase
 	{
 	public:

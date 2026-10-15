@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define GPDCBDHANON___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E4F63E0)
 #define GPDCBDHANON___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E4F63F0)
 
+inline static constexpr unsigned int GPDCBDHANON___c_TypeDefinitionIndex = 27856;
+
 	class GPDCBDHANON___c : public ::System::Object
 	{
 	public:

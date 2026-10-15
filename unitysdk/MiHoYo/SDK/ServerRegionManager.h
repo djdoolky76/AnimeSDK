@@ -30,6 +30,8 @@ namespace UnityEngine::Networking { class UnityWebRequest; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int ServerRegionManager_TypeDefinitionIndex = 7963;
+
 	class ServerRegionManager : public ::System::Object
 	{
 	public:

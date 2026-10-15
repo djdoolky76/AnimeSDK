@@ -7,6 +7,8 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 #define BNBOAMEBAOE_CTOR_OFFSET UNITYSDK_OFFSET(0xBDC7760)
 #define BNBOAMEBAOE_FADEIFNLDDM_OFFSET UNITYSDK_OFFSET(0xBDC7750)
 
+inline static constexpr unsigned int BNBOAMEBAOE_TypeDefinitionIndex = 54772;
+
 	class BNBOAMEBAOE : public ::GELIALJDFBL
 	{
 	public:

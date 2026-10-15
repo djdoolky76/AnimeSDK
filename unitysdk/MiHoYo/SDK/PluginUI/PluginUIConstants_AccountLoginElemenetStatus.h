@@ -4,6 +4,8 @@
 
 namespace MiHoYo::SDK::PluginUI
 {
+	inline static constexpr unsigned int PluginUIConstants_AccountLoginElemenetStatus_TypeDefinitionIndex = 9196;
+
 	class PluginUIConstants_AccountLoginElemenetStatus : public ::System::Object
 	{
 	public:

@@ -20,6 +20,8 @@ namespace System::Xml::Schema { class XmlSchemaParticle; }
 
 namespace System::Xml::Schema
 {
+	inline static constexpr unsigned int XmlSchemaComplexType_TypeDefinitionIndex = 2190;
+
 	class XmlSchemaComplexType : public ::System::Xml::Schema::XmlSchemaType
 	{
 	public:

@@ -5,6 +5,8 @@ namespace UnityEngine { class Transform; }
 
 #define KBBEIHNNIJG_ISPOOLABLE_OFFSET UNITYSDK_OFFSET(0xB2ED4B0)
 
+inline static constexpr unsigned int KBBEIHNNIJG_TypeDefinitionIndex = 72782;
+
 	class KBBEIHNNIJG : public ::System::Object
 	{
 	public:

@@ -25,6 +25,8 @@ namespace System { class String; }
 #define CELCIDNLPPO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E098E70)
 #define CELCIDNLPPO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E098ED0)
 
+inline static constexpr unsigned int CELCIDNLPPO_TypeDefinitionIndex = 32388;
+
 	class CELCIDNLPPO : public ::System::Object
 	{
 	public:

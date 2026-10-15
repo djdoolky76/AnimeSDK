@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace UnityEngine::Timeline
 {
+	inline static constexpr unsigned int CustomStyleAttribute_TypeDefinitionIndex = 38866;
+
 	class CustomStyleAttribute : public ::System::Attribute
 	{
 	public:

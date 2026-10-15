@@ -8,6 +8,8 @@ class NJGLADGCALF;
 #define NJGLADGCALF_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D2170B0)
 #define NJGLADGCALF_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D217070)
 
+inline static constexpr unsigned int NJGLADGCALF_TypeDefinitionIndex = 21155;
+
 	class NJGLADGCALF : public ::RPG::GameCore::TaskConfig
 	{
 	public:

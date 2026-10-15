@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define GAPLJKIPAOF___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E426B90)
 #define GAPLJKIPAOF___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1E426BA0)
 
+inline static constexpr unsigned int GAPLJKIPAOF___c_TypeDefinitionIndex = 25965;
+
 	class GAPLJKIPAOF___c : public ::System::Object
 	{
 	public:

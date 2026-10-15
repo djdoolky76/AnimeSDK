@@ -4,6 +4,8 @@
 
 #define PNHGCNGONMI_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC3FC00)
 
+inline static constexpr unsigned int PNHGCNGONMI_TypeDefinitionIndex = 35204;
+
 	class PNHGCNGONMI : public ::System::Object
 	{
 	public:

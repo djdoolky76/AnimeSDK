@@ -11,6 +11,8 @@ namespace RPG::GameCore { class CreatePlayerTeam; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CreatePlayerTeam_TypeDefinitionIndex = 23395;
+
 	class CreatePlayerTeam : public ::RPG::GameCore::TaskConfig
 	{
 	public:

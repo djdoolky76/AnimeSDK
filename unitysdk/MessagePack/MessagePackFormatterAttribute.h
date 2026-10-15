@@ -9,6 +9,8 @@ namespace System { class Type; }
 
 namespace MessagePack
 {
+	inline static constexpr unsigned int MessagePackFormatterAttribute_TypeDefinitionIndex = 6171;
+
 	class MessagePackFormatterAttribute : public ::System::Attribute
 	{
 	public:

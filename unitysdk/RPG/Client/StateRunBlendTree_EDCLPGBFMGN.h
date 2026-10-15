@@ -7,6 +7,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int StateRunBlendTree_EDCLPGBFMGN_TypeDefinitionIndex = 68843;
+
 	class StateRunBlendTree_EDCLPGBFMGN : public ::System::Object
 	{
 	public:

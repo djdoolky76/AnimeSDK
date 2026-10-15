@@ -15,6 +15,8 @@ namespace UnityEngine::AI { class NavMeshPath; }
 #define NLMEGJGJBNN_PAOHHKELDLG_OFFSET UNITYSDK_OFFSET(0xBC723C0)
 #define NLMEGJGJBNN_PCPPAFLMPCM_OFFSET UNITYSDK_OFFSET(0xBC72990)
 
+inline static constexpr unsigned int NLMEGJGJBNN_TypeDefinitionIndex = 57120;
+
 	class NLMEGJGJBNN : public ::System::Object
 	{
 	public:

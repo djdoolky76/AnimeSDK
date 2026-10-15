@@ -25,6 +25,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueTournPersonaStyleGiftRarityData_TypeDefinitionIndex = 67756;
+
 	class RogueTournPersonaStyleGiftRarityData : public ::System::Object
 	{
 	public:

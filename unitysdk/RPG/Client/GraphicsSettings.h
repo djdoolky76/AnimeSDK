@@ -34,6 +34,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GraphicsSettings_TypeDefinitionIndex = 59359;
+
 	class GraphicsSettings : public ::RPG::Client::PrefGroup
 	{
 	public:

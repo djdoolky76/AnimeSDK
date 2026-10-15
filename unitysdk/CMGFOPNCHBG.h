@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define CMGFOPNCHBG_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xDA31A10)
 #define CMGFOPNCHBG_TICK_OFFSET UNITYSDK_OFFSET(0xDA31A60)
 
+inline static constexpr unsigned int CMGFOPNCHBG_TypeDefinitionIndex = 55322;
+
 	class CMGFOPNCHBG : public ::GELIALJDFBL
 	{
 	public:

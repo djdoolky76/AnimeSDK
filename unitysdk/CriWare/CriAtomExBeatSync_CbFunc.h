@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriAtomExBeatSync_CbFunc_TypeDefinitionIndex = 40002;
+
 	class CriAtomExBeatSync_CbFunc : public ::System::MulticastDelegate
 	{
 	public:

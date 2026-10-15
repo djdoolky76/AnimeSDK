@@ -11,6 +11,8 @@ namespace RPG::GameCore { class CakeRaceRegionCellConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CakeRaceRegionCellConfig_TypeDefinitionIndex = 18419;
+
 	class CakeRaceRegionCellConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

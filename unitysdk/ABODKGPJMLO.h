@@ -5,6 +5,8 @@ class CCLFKMFJLPB;
 
 #define ABODKGPJMLO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C877A10)
 
+inline static constexpr unsigned int ABODKGPJMLO_TypeDefinitionIndex = 42931;
+
 	class ABODKGPJMLO : public ::System::Object
 	{
 	public:

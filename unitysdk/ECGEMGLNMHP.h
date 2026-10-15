@@ -7,6 +7,8 @@ class ECIAICDLAHO;
 #define ECGEMGLNMHP_CTOR_1_OFFSET UNITYSDK_OFFSET(0x1EC68FF0)
 #define ECGEMGLNMHP_CTOR_OFFSET UNITYSDK_OFFSET(0x1EC68EE0)
 
+inline static constexpr unsigned int ECGEMGLNMHP_TypeDefinitionIndex = 44299;
+
 	class ECGEMGLNMHP : public ::System::Exception
 	{
 	public:

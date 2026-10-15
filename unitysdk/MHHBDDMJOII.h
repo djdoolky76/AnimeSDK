@@ -37,6 +37,8 @@ namespace UnityEngine::AI { class AsyncNavMeshSimulator; }
 #define MHHBDDMJOII_MDKELNAEOGF_OFFSET UNITYSDK_OFFSET(0xB937180)
 #define MHHBDDMJOII_OGGCBJKOJIK_OFFSET UNITYSDK_OFFSET(0xB937810)
 
+inline static constexpr unsigned int MHHBDDMJOII_TypeDefinitionIndex = 69333;
+
 	class MHHBDDMJOII : public ::System::Object
 	{
 	public:

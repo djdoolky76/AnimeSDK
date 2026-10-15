@@ -27,6 +27,8 @@ namespace System { class String; }
 #define IMHOJPDMOJI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E6B7040)
 #define IMHOJPDMOJI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E6B70A0)
 
+inline static constexpr unsigned int IMHOJPDMOJI_TypeDefinitionIndex = 31796;
+
 	class IMHOJPDMOJI : public ::System::Object
 	{
 	public:

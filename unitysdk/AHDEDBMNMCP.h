@@ -31,6 +31,8 @@ namespace System { class String; }
 #define AHDEDBMNMCP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E26D8B0)
 #define AHDEDBMNMCP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E26D910)
 
+inline static constexpr unsigned int AHDEDBMNMCP_TypeDefinitionIndex = 30853;
+
 	class AHDEDBMNMCP : public ::System::Object
 	{
 	public:

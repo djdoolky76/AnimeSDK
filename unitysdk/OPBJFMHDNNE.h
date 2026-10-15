@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define OPBJFMHDNNE_GETSOURCERUNTIMEID_OFFSET UNITYSDK_OFFSET(0xBF9FFF0)
 #define OPBJFMHDNNE_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xBF9FF20)
 
+inline static constexpr unsigned int OPBJFMHDNNE_TypeDefinitionIndex = 54086;
+
 	class OPBJFMHDNNE : public ::CMPGEAFHHDC
 	{
 	public:

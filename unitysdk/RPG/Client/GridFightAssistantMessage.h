@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightAssistantMessage_TypeDefinitionIndex = 64367;
+
 	class GridFightAssistantMessage : public ::System::Object
 	{
 	public:

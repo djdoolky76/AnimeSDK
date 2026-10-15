@@ -9,6 +9,8 @@ namespace RPG::GameCore { class LevelNPCNearbyAnimConfig; }
 #define PMFKKGFKDDK_DOONENTER_OFFSET UNITYSDK_OFFSET(0xC31B250)
 #define PMFKKGFKDDK_DOONEXIT_OFFSET UNITYSDK_OFFSET(0xC31B620)
 
+inline static constexpr unsigned int PMFKKGFKDDK_TypeDefinitionIndex = 57517;
+
 	class PMFKKGFKDDK : public ::EDLDHDMLJDH
 	{
 	public:

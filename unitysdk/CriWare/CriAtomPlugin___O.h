@@ -5,6 +5,8 @@ namespace CriWare { class CriAtomPlugin_CallbackFromNativeDelegate; }
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriAtomPlugin___O_TypeDefinitionIndex = 39932;
+
 	class CriAtomPlugin___O : public ::System::Object
 	{
 	public:

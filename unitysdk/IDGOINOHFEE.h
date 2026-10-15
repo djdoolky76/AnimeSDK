@@ -23,6 +23,8 @@ namespace RPG::Client::LiteInstancedItem { class ItemPrototype; }
 #define IDGOINOHFEE_PADGFLLNOIC_OFFSET UNITYSDK_OFFSET(0x15ED1FC0)
 #define IDGOINOHFEE_PBBHNHLJIMN_OFFSET UNITYSDK_OFFSET(0x15ED2530)
 
+inline static constexpr unsigned int IDGOINOHFEE_TypeDefinitionIndex = 73709;
+
 	class IDGOINOHFEE : public ::System::Object
 	{
 	public:

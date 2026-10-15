@@ -37,6 +37,8 @@ namespace System { class String; }
 
 namespace InControl
 {
+	inline static constexpr unsigned int InputControlMapping_TypeDefinitionIndex = 40821;
+
 	class InputControlMapping : public ::System::Object
 	{
 	public:

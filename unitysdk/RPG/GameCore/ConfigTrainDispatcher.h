@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ConfigTrainDispatcher; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ConfigTrainDispatcher_TypeDefinitionIndex = 16920;
+
 	class ConfigTrainDispatcher : public ::RPG::GameCore::JsonConfig
 	{
 	public:

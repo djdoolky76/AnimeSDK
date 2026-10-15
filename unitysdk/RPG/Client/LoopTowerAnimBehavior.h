@@ -31,6 +31,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int LoopTowerAnimBehavior_TypeDefinitionIndex = 70917;
+
 	class LoopTowerAnimBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:

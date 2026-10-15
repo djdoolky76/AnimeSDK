@@ -25,6 +25,8 @@ namespace System { class String; }
 #define NLOPJLCMLEN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB69B00)
 #define NLOPJLCMLEN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB69B60)
 
+inline static constexpr unsigned int NLOPJLCMLEN_TypeDefinitionIndex = 31258;
+
 	class NLOPJLCMLEN : public ::System::Object
 	{
 	public:

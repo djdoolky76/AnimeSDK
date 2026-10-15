@@ -33,6 +33,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define FLKLJKIEEPM_SET_TOTALDESIGNEXP_OFFSET UNITYSDK_OFFSET(0x1C553FB0)
 #define FLKLJKIEEPM_SET_WORKSHOPLEVELCONFIG_OFFSET UNITYSDK_OFFSET(0x1C553F70)
 
+inline static constexpr unsigned int FLKLJKIEEPM_TypeDefinitionIndex = 41884;
+
 	class FLKLJKIEEPM : public ::System::Object
 	{
 	public:

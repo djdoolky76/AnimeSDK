@@ -22,6 +22,8 @@ namespace System { class Object; }
 #define HHCKBNMKFAI_NHCFLDCDLCP_OFFSET UNITYSDK_OFFSET(0x1CEA8F60)
 #define HHCKBNMKFAI_OOGKECBIKHC_OFFSET UNITYSDK_OFFSET(0x3C39960)
 
+inline static constexpr unsigned int HHCKBNMKFAI_TypeDefinitionIndex = 10694;
+
 	struct alignas(8) HHCKBNMKFAI
 	{
 		::LELCKJPOPAO* BEHHICMOFIE; // 0x10

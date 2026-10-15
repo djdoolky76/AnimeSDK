@@ -5,6 +5,8 @@ class HEAIEBHLCMJ;
 namespace System { class Action; }
 namespace System { class Object; }
 
+inline static constexpr unsigned int HEAIEBHLCMJ___c__DisplayClass4_0_1_TypeDefinitionIndex = 59919;
+
 	template <typename T>
 	class HEAIEBHLCMJ___c__DisplayClass4_0_1 : public ::System::Object
 	{

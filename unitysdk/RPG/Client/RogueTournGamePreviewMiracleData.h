@@ -19,6 +19,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueTournGamePreviewMiracleData_TypeDefinitionIndex = 67679;
+
 	class RogueTournGamePreviewMiracleData : public ::RPG::Client::RogueTournMiracleDataBase
 	{
 	public:

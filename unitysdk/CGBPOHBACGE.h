@@ -35,6 +35,8 @@ namespace System { class String; }
 #define CGBPOHBACGE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E0AC4D0)
 #define CGBPOHBACGE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E0AC530)
 
+inline static constexpr unsigned int CGBPOHBACGE_TypeDefinitionIndex = 29920;
+
 	class CGBPOHBACGE : public ::System::Object
 	{
 	public:

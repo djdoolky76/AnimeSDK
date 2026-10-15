@@ -16,6 +16,8 @@ namespace UnityEngine { class ParticleSystem; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEffectPluginShowNumber_TypeDefinitionIndex = 70110;
+
 	class MonoEffectPluginShowNumber : public ::RPG::Client::MonoEffectPluginBase
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::Client::FateRin::View::Card { class FateRinCardPosControlView; }
 
 namespace RPG::Client::FateRin::View::Battle
 {
+	inline static constexpr unsigned int FateRinBattleHudHandCardLayout_CardLayoutEntry_TypeDefinitionIndex = 80670;
+
 	struct alignas(8) FateRinBattleHudHandCardLayout_CardLayoutEntry
 	{
 		::RPG::Client::FateRin::View::Card::FateRinCardPosControlView* _Card_k__BackingField; // 0x10

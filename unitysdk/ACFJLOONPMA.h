@@ -8,6 +8,8 @@ class BJIACBNKCCJ;
 #define ACFJLOONPMA_GFCMFODMAPF_OFFSET UNITYSDK_OFFSET(0xB11D410)
 #define ACFJLOONPMA_PLJCOHFLCKA_OFFSET UNITYSDK_OFFSET(0xB11D7D0)
 
+inline static constexpr unsigned int ACFJLOONPMA_TypeDefinitionIndex = 75925;
+
 	class ACFJLOONPMA : public ::System::Object
 	{
 	public:

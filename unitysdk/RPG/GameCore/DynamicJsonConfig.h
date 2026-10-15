@@ -10,6 +10,8 @@ namespace RPG::GameCore { class DynamicJsonConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DynamicJsonConfig_TypeDefinitionIndex = 16482;
+
 	class DynamicJsonConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

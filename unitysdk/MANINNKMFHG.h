@@ -31,6 +31,8 @@ namespace System { class String; }
 #define MANINNKMFHG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9DD830)
 #define MANINNKMFHG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E9DD890)
 
+inline static constexpr unsigned int MANINNKMFHG_TypeDefinitionIndex = 27274;
+
 	class MANINNKMFHG : public ::System::Object
 	{
 	public:

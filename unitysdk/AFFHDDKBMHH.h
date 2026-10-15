@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define AFFHDDKBMHH_CTOR_OFFSET UNITYSDK_OFFSET(0xCF0AF90)
 #define AFFHDDKBMHH_EVALUATE_OFFSET UNITYSDK_OFFSET(0xCF0AFC0)
 
+inline static constexpr unsigned int AFFHDDKBMHH_TypeDefinitionIndex = 52575;
+
 	class AFFHDDKBMHH
 	{
 	public:

@@ -10,6 +10,8 @@ class POLGKBLMEBP;
 #define GBOIBOKKNEE_CCTOR_OFFSET UNITYSDK_OFFSET(0x15954A00)
 #define GBOIBOKKNEE_DFJOEAIABMJ_OFFSET UNITYSDK_OFFSET(0x15954720)
 
+inline static constexpr unsigned int GBOIBOKKNEE_TypeDefinitionIndex = 49203;
+
 	class GBOIBOKKNEE : public ::System::Object
 	{
 	public:

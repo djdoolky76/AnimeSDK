@@ -8,6 +8,8 @@
 
 namespace System::Numerics
 {
+	inline static constexpr unsigned int BigIntegerCalculator_FastReducer_TypeDefinitionIndex = 3839;
+
 	struct alignas(8) BigIntegerCalculator_FastReducer
 	{
 		::Il2CppArray<::System::UInt32>* _modulus; // 0x10

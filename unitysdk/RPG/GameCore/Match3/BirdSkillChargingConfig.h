@@ -10,6 +10,8 @@ namespace RPG::GameCore::Match3 { class BirdSkillChargingConfig; }
 
 namespace RPG::GameCore::Match3
 {
+	inline static constexpr unsigned int BirdSkillChargingConfig_TypeDefinitionIndex = 24929;
+
 	class BirdSkillChargingConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

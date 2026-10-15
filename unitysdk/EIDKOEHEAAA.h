@@ -31,6 +31,8 @@ namespace System { class String; }
 #define EIDKOEHEAAA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E2A7890)
 #define EIDKOEHEAAA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E2A78F0)
 
+inline static constexpr unsigned int EIDKOEHEAAA_TypeDefinitionIndex = 34911;
+
 	class EIDKOEHEAAA : public ::System::Object
 	{
 	public:

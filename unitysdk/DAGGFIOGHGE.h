@@ -34,6 +34,8 @@ namespace System { class String; }
 #define DAGGFIOGHGE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E1512E0)
 #define DAGGFIOGHGE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E151340)
 
+inline static constexpr unsigned int DAGGFIOGHGE_TypeDefinitionIndex = 31745;
+
 	class DAGGFIOGHGE : public ::System::Object
 	{
 	public:

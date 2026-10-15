@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueModifierPersonaQingQueStyleConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueModifierPersonaQingQueStyleConfig_TypeDefinitionIndex = 17827;
+
 	class RogueModifierPersonaQingQueStyleConfig : public ::RPG::GameCore::RogueModifierConfig
 	{
 	public:

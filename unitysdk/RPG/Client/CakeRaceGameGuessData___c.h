@@ -11,6 +11,8 @@ namespace System { template <typename T> class Comparison_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CakeRaceGameGuessData___c_TypeDefinitionIndex = 63041;
+
 	class CakeRaceGameGuessData___c : public ::System::Object
 	{
 	public:

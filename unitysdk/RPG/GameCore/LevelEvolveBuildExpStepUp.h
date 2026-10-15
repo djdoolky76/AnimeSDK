@@ -15,6 +15,8 @@ namespace RPG::GameCore { class LevelEvolveBuildExpStepUp; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelEvolveBuildExpStepUp_TypeDefinitionIndex = 56828;
+
 	class LevelEvolveBuildExpStepUp : public ::CMPGEAFHHDC
 	{
 	public:

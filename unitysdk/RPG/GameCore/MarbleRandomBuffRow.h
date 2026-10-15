@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MarbleRandomBuffRow_TypeDefinitionIndex = 11882;
+
 	class MarbleRandomBuffRow : public ::System::Object
 	{
 	public:

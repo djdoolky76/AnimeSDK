@@ -7,6 +7,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelDataComponent_PerMonster_TypeDefinitionIndex = 57596;
+
 	class LevelDataComponent_PerMonster : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@
 #define BCGFAJJNDCJ_MCEPPPJPEGG_OFFSET UNITYSDK_OFFSET(0x1D30)
 #define BCGFAJJNDCJ_NLOPAOJDOAG_OFFSET UNITYSDK_OFFSET(0x1D40)
 
+inline static constexpr unsigned int BCGFAJJNDCJ_TypeDefinitionIndex = 9947;
+
 	struct alignas(4) BCGFAJJNDCJ
 	{
 		::System::Int64 KIPJPGOLEJH; // 0x10

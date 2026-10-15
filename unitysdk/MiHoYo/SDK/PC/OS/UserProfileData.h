@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::PC::OS
 {
+	inline static constexpr unsigned int UserProfileData_TypeDefinitionIndex = 8625;
+
 	class UserProfileData : public ::System::Object
 	{
 	public:

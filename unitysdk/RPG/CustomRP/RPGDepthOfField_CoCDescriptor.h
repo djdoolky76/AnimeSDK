@@ -8,6 +8,8 @@
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int RPGDepthOfField_CoCDescriptor_TypeDefinitionIndex = 37803;
+
 	class RPGDepthOfField_CoCDescriptor : public ::System::Object
 	{
 	public:

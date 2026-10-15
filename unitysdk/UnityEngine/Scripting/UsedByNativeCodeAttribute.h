@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace UnityEngine::Scripting
 {
+	inline static constexpr unsigned int UsedByNativeCodeAttribute_TypeDefinitionIndex = 3738;
+
 	class UsedByNativeCodeAttribute : public ::System::Attribute
 	{
 	public:

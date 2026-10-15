@@ -31,6 +31,8 @@ namespace System { class String; }
 #define HANFHCOHGBP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E508D90)
 #define HANFHCOHGBP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E508DF0)
 
+inline static constexpr unsigned int HANFHCOHGBP_TypeDefinitionIndex = 25907;
+
 	class HANFHCOHGBP : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int ConfigManager_EnvsConfig_TypeDefinitionIndex = 8201;
+
 	class ConfigManager_EnvsConfig : public ::System::Object
 	{
 	public:

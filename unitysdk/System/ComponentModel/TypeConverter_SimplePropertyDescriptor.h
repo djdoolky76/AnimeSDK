@@ -10,6 +10,8 @@ namespace System { class Type; }
 
 namespace System::ComponentModel
 {
+	inline static constexpr unsigned int TypeConverter_SimplePropertyDescriptor_TypeDefinitionIndex = 2631;
+
 	class TypeConverter_SimplePropertyDescriptor : public ::System::ComponentModel::PropertyDescriptor
 	{
 	public:

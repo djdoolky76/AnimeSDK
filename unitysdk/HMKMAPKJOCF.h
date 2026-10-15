@@ -17,6 +17,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define HMKMAPKJOCF_JFCOBGKHEJO_OFFSET UNITYSDK_OFFSET(0x15D867C0)
 #define HMKMAPKJOCF_JPONENEAPPH_OFFSET UNITYSDK_OFFSET(0x15D869F0)
 
+inline static constexpr unsigned int HMKMAPKJOCF_TypeDefinitionIndex = 60084;
+
 	class HMKMAPKJOCF : public ::System::Object
 	{
 	public:

@@ -72,6 +72,8 @@ namespace UnityEngine { class ObjectInstantiateRequest; }
 #define FGHBKHHINFP_PDMHPMHEJJO_OFFSET UNITYSDK_OFFSET(0x15760F70)
 #define FGHBKHHINFP_POKDCEMAJLB_OFFSET UNITYSDK_OFFSET(0x15760A30)
 
+inline static constexpr unsigned int FGHBKHHINFP_TypeDefinitionIndex = 69162;
+
 	class FGHBKHHINFP : public ::System::Object
 	{
 	public:

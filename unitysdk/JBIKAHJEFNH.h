@@ -10,6 +10,8 @@
 #define JBIKAHJEFNH_IMJBAAFHDBB_OFFSET UNITYSDK_OFFSET(0x16570EB0)
 #define JBIKAHJEFNH_PLFHFHADIPM_OFFSET UNITYSDK_OFFSET(0x16570EF0)
 
+inline static constexpr unsigned int JBIKAHJEFNH_TypeDefinitionIndex = 51889;
+
 	class JBIKAHJEFNH : public ::System::Object
 	{
 	public:

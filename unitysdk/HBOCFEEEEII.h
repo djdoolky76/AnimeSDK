@@ -34,6 +34,8 @@ namespace System { class String; }
 #define HBOCFEEEEII_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E52F940)
 #define HBOCFEEEEII_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E52F9A0)
 
+inline static constexpr unsigned int HBOCFEEEEII_TypeDefinitionIndex = 26599;
+
 	class HBOCFEEEEII : public ::System::Object
 	{
 	public:

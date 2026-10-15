@@ -5,6 +5,8 @@
 
 namespace RPGTools::Timeline::PostProcessing
 {
+	inline static constexpr unsigned int LensDistortionTimelineClip_TypeDefinitionIndex = 48578;
+
 	class LensDistortionTimelineClip
 	{
 	public:

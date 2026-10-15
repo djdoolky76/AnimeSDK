@@ -9,6 +9,8 @@ class IJGIHOACJLB;
 #define IJGIHOACJLB_DMKJAJLNEBK_OFFSET UNITYSDK_OFFSET(0x164674F0)
 #define IJGIHOACJLB_FFHNOMIDEDE_OFFSET UNITYSDK_OFFSET(0x16467930)
 
+inline static constexpr unsigned int IJGIHOACJLB_TypeDefinitionIndex = 68233;
+
 	class IJGIHOACJLB : public ::System::Object
 	{
 	public:

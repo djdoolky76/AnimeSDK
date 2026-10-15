@@ -18,6 +18,8 @@ namespace System { class Object; }
 #define EMEJJBKGBHI_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0x1C472570)
 #define EMEJJBKGBHI_JPDGKAMCNII_OFFSET UNITYSDK_OFFSET(0x1C471990)
 
+inline static constexpr unsigned int EMEJJBKGBHI_TypeDefinitionIndex = 41586;
+
 	class EMEJJBKGBHI : public ::System::Object
 	{
 	public:

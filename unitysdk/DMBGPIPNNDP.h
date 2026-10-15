@@ -9,6 +9,8 @@ class LMJPODEEGKK;
 #define DMBGPIPNNDP_CTOR_OFFSET UNITYSDK_OFFSET(0xFEB6570)
 #define DMBGPIPNNDP_EXECUTE_OFFSET UNITYSDK_OFFSET(0xFEB6580)
 
+inline static constexpr unsigned int DMBGPIPNNDP_TypeDefinitionIndex = 77611;
+
 	class DMBGPIPNNDP : public ::System::Object
 	{
 	public:

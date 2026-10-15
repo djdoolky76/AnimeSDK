@@ -139,6 +139,8 @@ namespace UnityEngine { class Collider; }
 #define NFFPKHMKOBJ_PKEBCCPDAIF_OFFSET UNITYSDK_OFFSET(0xBB7F5D0)
 #define NFFPKHMKOBJ_PONKIMPHJNH_OFFSET UNITYSDK_OFFSET(0xBB89040)
 
+inline static constexpr unsigned int NFFPKHMKOBJ_TypeDefinitionIndex = 76888;
+
 	class NFFPKHMKOBJ : public ::System::Object
 	{
 	public:

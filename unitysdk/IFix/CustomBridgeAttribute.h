@@ -6,6 +6,8 @@
 
 namespace IFix
 {
+	inline static constexpr unsigned int CustomBridgeAttribute_TypeDefinitionIndex = 7135;
+
 	class CustomBridgeAttribute : public ::System::Attribute
 	{
 	public:

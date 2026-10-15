@@ -15,6 +15,8 @@ namespace System { class String; }
 #define NMKNOIBAHEO_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBC89F50)
 #define NMKNOIBAHEO_TICK_OFFSET UNITYSDK_OFFSET(0xBC89FB0)
 
+inline static constexpr unsigned int NMKNOIBAHEO_TypeDefinitionIndex = 53255;
+
 	class NMKNOIBAHEO : public ::GELIALJDFBL
 	{
 	public:

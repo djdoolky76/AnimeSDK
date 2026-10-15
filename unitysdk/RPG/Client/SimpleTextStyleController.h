@@ -13,6 +13,8 @@ namespace RPG::Client { class SimpleText; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SimpleTextStyleController_TypeDefinitionIndex = 72129;
+
 	class SimpleTextStyleController : public ::UnityEngine::MonoBehaviour
 	{
 	public:

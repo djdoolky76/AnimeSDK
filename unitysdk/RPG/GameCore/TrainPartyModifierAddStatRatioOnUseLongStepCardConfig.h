@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TrainPartyModifierAddStatRatioOnUseLongStepCardC
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TrainPartyModifierAddStatRatioOnUseLongStepCardConfig_TypeDefinitionIndex = 18112;
+
 	class TrainPartyModifierAddStatRatioOnUseLongStepCardConfig : public ::RPG::GameCore::TrainPartyModifierConfigBase
 	{
 	public:

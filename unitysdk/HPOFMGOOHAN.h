@@ -27,6 +27,8 @@ namespace System { class String; }
 #define HPOFMGOOHAN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E5FE320)
 #define HPOFMGOOHAN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E5FE380)
 
+inline static constexpr unsigned int HPOFMGOOHAN_TypeDefinitionIndex = 32260;
+
 	class HPOFMGOOHAN : public ::System::Object
 	{
 	public:

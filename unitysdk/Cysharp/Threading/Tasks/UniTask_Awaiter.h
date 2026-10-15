@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace Cysharp::Threading::Tasks
 {
+	inline static constexpr unsigned int UniTask_Awaiter_TypeDefinitionIndex = 38335;
+
 	struct alignas(4) UniTask_Awaiter
 	{
 		::Cysharp::Threading::Tasks::UniTask task; // 0x10

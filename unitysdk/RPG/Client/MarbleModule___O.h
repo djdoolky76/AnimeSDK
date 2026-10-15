@@ -5,6 +5,8 @@ namespace System { class Action; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MarbleModule___O_TypeDefinitionIndex = 65809;
+
 	class MarbleModule___O : public ::System::Object
 	{
 	public:

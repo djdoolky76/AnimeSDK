@@ -9,6 +9,8 @@ class FPHEGOFOLFM;
 
 namespace RPG::Client::ActivityHipplen
 {
+	inline static constexpr unsigned int ActivityHipplenMiniGameWorkData___c__DisplayClass1_0_TypeDefinitionIndex = 75613;
+
 	class ActivityHipplenMiniGameWorkData___c__DisplayClass1_0 : public ::System::Object
 	{
 	public:

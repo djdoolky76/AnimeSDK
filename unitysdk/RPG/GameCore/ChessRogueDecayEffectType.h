@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChessRogueDecayEffectType_TypeDefinitionIndex = 14759;
+
 	enum class ChessRogueDecayEffectType : ::System::Int32
 	{
 		AddMazeBuff = 0,

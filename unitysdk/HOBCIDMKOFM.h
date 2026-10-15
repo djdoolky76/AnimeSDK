@@ -8,6 +8,8 @@
 #define HOBCIDMKOFM_SET_BASEATTRIBUTEVALUE_OFFSET UNITYSDK_OFFSET(0x1C5598D0)
 #define HOBCIDMKOFM_SET_TALENTLEVEL_OFFSET UNITYSDK_OFFSET(0x1C5598B0)
 
+inline static constexpr unsigned int HOBCIDMKOFM_TypeDefinitionIndex = 41873;
+
 	class HOBCIDMKOFM : public ::System::Object
 	{
 	public:

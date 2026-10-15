@@ -51,6 +51,8 @@ namespace UnityEngine { class SphereCollider; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdventureMovementManager_TypeDefinitionIndex = 57094;
+
 	class AdventureMovementManager : public ::System::Object
 	{
 	public:

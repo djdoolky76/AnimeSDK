@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GameObjectPoolStatistics_TypeDefinitionIndex = 59370;
+
 	class GameObjectPoolStatistics : public ::System::Object
 	{
 	public:

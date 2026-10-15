@@ -15,6 +15,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int VE_RtTimeStamp_TypeDefinitionIndex = 24274;
+
 	class VE_RtTimeStamp : public ::RPG::GameCore::ValueEvaluatorConfig
 	{
 	public:

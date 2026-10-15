@@ -10,6 +10,8 @@ namespace RPG::GameCore::Match3 { class HasPropInputCondition; }
 
 namespace RPG::GameCore::Match3
 {
+	inline static constexpr unsigned int HasPropInputCondition_TypeDefinitionIndex = 24893;
+
 	class HasPropInputCondition : public ::RPG::GameCore::Match3::Match3ConditionBase
 	{
 	public:

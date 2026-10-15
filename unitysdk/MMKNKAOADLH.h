@@ -7,6 +7,8 @@ namespace System { class String; }
 #define MMKNKAOADLH_FIOHPNNGKAM_OFFSET UNITYSDK_OFFSET(0x1C4BCA50)
 #define MMKNKAOADLH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1C4BCAA0)
 
+inline static constexpr unsigned int MMKNKAOADLH_TypeDefinitionIndex = 41434;
+
 	class MMKNKAOADLH : public ::DFBAHCICJNE
 	{
 	public:

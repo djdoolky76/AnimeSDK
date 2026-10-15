@@ -5,6 +5,8 @@
 
 namespace UnityEngine::UIElements
 {
+	inline static constexpr unsigned int ExecuteCommandEvent_TypeDefinitionIndex = 5920;
+
 	class ExecuteCommandEvent
 	{
 	public:

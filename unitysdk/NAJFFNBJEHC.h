@@ -42,6 +42,8 @@ namespace UnityEngine::UI { class Text; }
 #define NAJFFNBJEHC_PEJDGFNKOAN_OFFSET UNITYSDK_OFFSET(0xBAA0DB0)
 #define NAJFFNBJEHC__ONBIND_OFFSET UNITYSDK_OFFSET(0xBA9FE70)
 
+inline static constexpr unsigned int NAJFFNBJEHC_TypeDefinitionIndex = 71363;
+
 	class NAJFFNBJEHC : public ::CAOEEDDAPIK
 	{
 	public:

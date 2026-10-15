@@ -6,6 +6,8 @@ namespace System { template <typename T1, typename T2, typename T3> class Func_3
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EntityManagerExtension___O_TypeDefinitionIndex = 57772;
+
 	class EntityManagerExtension___O : public ::System::Object
 	{
 	public:

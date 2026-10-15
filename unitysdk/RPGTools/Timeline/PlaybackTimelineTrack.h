@@ -10,6 +10,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int PlaybackTimelineTrack_TypeDefinitionIndex = 48460;
+
 	class PlaybackTimelineTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
 	public:

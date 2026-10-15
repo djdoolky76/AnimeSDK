@@ -27,6 +27,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define MNJKHKCHKLI_SET_CURRENTEXAMITEM_OFFSET UNITYSDK_OFFSET(0xBA0CF80)
 #define MNJKHKCHKLI_SET_EXAMITEMS_OFFSET UNITYSDK_OFFSET(0xBA0CF60)
 
+inline static constexpr unsigned int MNJKHKCHKLI_TypeDefinitionIndex = 79645;
+
 	class MNJKHKCHKLI : public ::System::Object
 	{
 	public:

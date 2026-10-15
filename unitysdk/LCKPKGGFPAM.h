@@ -5,6 +5,8 @@ class DDPLLJEOLHD;
 
 #define LCKPKGGFPAM_CTOR_OFFSET UNITYSDK_OFFSET(0x1C90CDF0)
 
+inline static constexpr unsigned int LCKPKGGFPAM_TypeDefinitionIndex = 43692;
+
 	class LCKPKGGFPAM : public ::System::Object
 	{
 	public:

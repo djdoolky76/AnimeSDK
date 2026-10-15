@@ -48,6 +48,8 @@ namespace RPG::GameCore { class TransformComponent; }
 #define ILGIPIIOOCA_NOOMLMKOKGD_SET_USEYAW_OFFSET UNITYSDK_OFFSET(0x164B3500)
 #define ILGIPIIOOCA_NOOMLMKOKGD_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x164B2690)
 
+inline static constexpr unsigned int ILGIPIIOOCA_NOOMLMKOKGD_TypeDefinitionIndex = 58310;
+
 	class ILGIPIIOOCA_NOOMLMKOKGD : public ::System::Object
 	{
 	public:

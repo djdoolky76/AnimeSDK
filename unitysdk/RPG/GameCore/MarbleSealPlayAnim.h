@@ -10,6 +10,8 @@ namespace RPG::GameCore { class MarbleSealPlayAnim; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MarbleSealPlayAnim_TypeDefinitionIndex = 22044;
+
 	class MarbleSealPlayAnim : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AnimGroupEventConfig_TypeDefinitionIndex = 16294;
+
 	class AnimGroupEventConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

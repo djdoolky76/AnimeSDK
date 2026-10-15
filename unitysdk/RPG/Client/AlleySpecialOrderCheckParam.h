@@ -7,6 +7,8 @@ namespace RPG::Client::ActivityAlley { class AlleyPackShipData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AlleySpecialOrderCheckParam_TypeDefinitionIndex = 62268;
+
 	class AlleySpecialOrderCheckParam : public ::System::Object
 	{
 	public:

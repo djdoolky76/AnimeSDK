@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::PC::OS::CXHandheld
 {
+	inline static constexpr unsigned int HandheldAgeGateParentalConsentRequiredDialog___c__DisplayClass36_0_TypeDefinitionIndex = 8794;
+
 	class HandheldAgeGateParentalConsentRequiredDialog___c__DisplayClass36_0 : public ::System::Object
 	{
 	public:

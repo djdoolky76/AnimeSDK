@@ -8,6 +8,8 @@ namespace RPG::Client::PetMarble { class PetMarbleBattlePetTalkController_PetMar
 
 namespace RPG::Client::PetMarble
 {
+	inline static constexpr unsigned int PetMarbleBattlePetTalkController___c__DisplayClass14_0_TypeDefinitionIndex = 74705;
+
 	class PetMarbleBattlePetTalkController___c__DisplayClass14_0 : public ::System::Object
 	{
 	public:

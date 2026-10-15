@@ -11,6 +11,8 @@ namespace RPG::GameCore { class DiceCombatWeatherSkillConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DiceCombatWeatherSkillConfig_TypeDefinitionIndex = 16161;
+
 	class DiceCombatWeatherSkillConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

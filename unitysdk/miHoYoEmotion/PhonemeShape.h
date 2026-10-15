@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace miHoYoEmotion
 {
+	inline static constexpr unsigned int PhonemeShape_TypeDefinitionIndex = 45970;
+
 	class PhonemeShape : public ::miHoYoEmotion::Shape
 	{
 	public:

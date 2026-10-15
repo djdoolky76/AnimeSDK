@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int SimpleAnimation_TypeDefinitionIndex = 5730;
+
 	class SimpleAnimation : public ::UnityEngine::Component
 	{
 	public:

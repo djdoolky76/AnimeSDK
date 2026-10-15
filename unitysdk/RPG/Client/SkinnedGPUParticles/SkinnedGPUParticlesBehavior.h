@@ -36,6 +36,8 @@ namespace UnityEngine { class SkinnedMeshRenderer; }
 
 namespace RPG::Client::SkinnedGPUParticles
 {
+	inline static constexpr unsigned int SkinnedGPUParticlesBehavior_TypeDefinitionIndex = 73700;
+
 	class SkinnedGPUParticlesBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:

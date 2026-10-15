@@ -34,6 +34,8 @@ namespace System { class String; }
 #define FDECDCEDPNM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E354100)
 #define FDECDCEDPNM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E354160)
 
+inline static constexpr unsigned int FDECDCEDPNM_TypeDefinitionIndex = 35082;
+
 	class FDECDCEDPNM : public ::System::Object
 	{
 	public:

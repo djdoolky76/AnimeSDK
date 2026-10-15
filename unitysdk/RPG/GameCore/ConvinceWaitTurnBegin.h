@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ConvinceWaitTurnBegin; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ConvinceWaitTurnBegin_TypeDefinitionIndex = 21837;
+
 	class ConvinceWaitTurnBegin : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::Client::MechCraft::ViewModel { class MechCraftTalentTreeEntranceV
 
 namespace RPG::Client::MechCraft::ViewModel
 {
+	inline static constexpr unsigned int MechCraftTalentTreeEntranceViewModel_Factory_TypeDefinitionIndex = 79674;
+
 	class MechCraftTalentTreeEntranceViewModel_Factory : public ::System::Object
 	{
 	public:

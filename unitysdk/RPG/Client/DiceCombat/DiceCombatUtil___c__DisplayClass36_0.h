@@ -9,6 +9,8 @@ namespace RPG::Client::DiceCombat { class DiceCombatCommunicateData; }
 
 namespace RPG::Client::DiceCombat
 {
+	inline static constexpr unsigned int DiceCombatUtil___c__DisplayClass36_0_TypeDefinitionIndex = 76103;
+
 	class DiceCombatUtil___c__DisplayClass36_0 : public ::System::Object
 	{
 	public:

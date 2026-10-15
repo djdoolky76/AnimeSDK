@@ -8,6 +8,8 @@
 #define NJDNLANBEMI_GET_NEWSTATE_OFFSET UNITYSDK_OFFSET(0xACE0)
 #define NJDNLANBEMI_GET_OLDSTATE_OFFSET UNITYSDK_OFFSET(0xFE70)
 
+inline static constexpr unsigned int NJDNLANBEMI_TypeDefinitionIndex = 80263;
+
 	struct alignas(4) NJDNLANBEMI
 	{
 		::FJPMJPEKLJL _GameMode_k__BackingField; // 0x10

@@ -11,6 +11,8 @@ namespace System { class Action; }
 
 namespace Cysharp::Threading::Tasks
 {
+	inline static constexpr unsigned int YieldAwaitable_Awaiter_TypeDefinitionIndex = 38361;
+
 	struct alignas(4) YieldAwaitable_Awaiter
 	{
 		::Cysharp::Threading::Tasks::PlayerLoopTiming timing; // 0x10

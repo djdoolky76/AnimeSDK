@@ -44,6 +44,8 @@ namespace System::Security::Cryptography::X509Certificates { class X509Certifica
 
 namespace Mono::Security::Interface
 {
+	inline static constexpr unsigned int MonoTlsSettings_TypeDefinitionIndex = 2296;
+
 	class MonoTlsSettings : public ::System::Object
 	{
 	public:

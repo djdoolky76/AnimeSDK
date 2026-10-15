@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PingPongModule_PingPongUIInfo_TypeDefinitionIndex = 66463;
+
 	class PingPongModule_PingPongUIInfo : public ::System::Object
 	{
 	public:

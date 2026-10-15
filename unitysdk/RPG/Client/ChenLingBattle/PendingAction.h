@@ -16,6 +16,8 @@ namespace System { class Nullable; }
 
 namespace RPG::Client::ChenLingBattle
 {
+	inline static constexpr unsigned int PendingAction_TypeDefinitionIndex = 76284;
+
 	class PendingAction : public ::System::Object
 	{
 	public:

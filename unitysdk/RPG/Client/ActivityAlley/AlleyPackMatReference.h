@@ -7,6 +7,8 @@ namespace UnityEngine { class Material; }
 
 namespace RPG::Client::ActivityAlley
 {
+	inline static constexpr unsigned int AlleyPackMatReference_TypeDefinitionIndex = 74122;
+
 	class AlleyPackMatReference : public ::UnityEngine::MonoBehaviour
 	{
 	public:

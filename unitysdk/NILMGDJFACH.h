@@ -28,6 +28,8 @@ namespace System { class String; }
 #define NILMGDJFACH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB36AC0)
 #define NILMGDJFACH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB36B20)
 
+inline static constexpr unsigned int NILMGDJFACH_TypeDefinitionIndex = 28175;
+
 	class NILMGDJFACH : public ::System::Object
 	{
 	public:

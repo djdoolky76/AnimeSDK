@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define ALAAINODLIJ___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E3D1930)
 #define ALAAINODLIJ___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1E3D1940)
 
+inline static constexpr unsigned int ALAAINODLIJ___c_TypeDefinitionIndex = 33500;
+
 	class ALAAINODLIJ___c : public ::System::Object
 	{
 	public:

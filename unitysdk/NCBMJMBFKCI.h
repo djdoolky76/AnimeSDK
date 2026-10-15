@@ -15,6 +15,8 @@ namespace System { class Action; }
 #define NCBMJMBFKCI_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBAF7670)
 #define NCBMJMBFKCI_TICK_OFFSET UNITYSDK_OFFSET(0xBAF75F0)
 
+inline static constexpr unsigned int NCBMJMBFKCI_TypeDefinitionIndex = 53717;
+
 	class NCBMJMBFKCI
 	{
 	public:

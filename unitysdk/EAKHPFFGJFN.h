@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 #define EAKHPFFGJFN_NOFJENGOJGE_OFFSET UNITYSDK_OFFSET(0x12682340)
 #define EAKHPFFGJFN_SET_BLOCKNEW_OFFSET UNITYSDK_OFFSET(0x12682440)
 
+inline static constexpr unsigned int EAKHPFFGJFN_TypeDefinitionIndex = 60699;
+
 	class EAKHPFFGJFN : public ::System::Object
 	{
 	public:

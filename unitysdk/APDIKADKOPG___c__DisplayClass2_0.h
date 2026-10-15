@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define APDIKADKOPG___C__DISPLAYCLASS2_0_CTOR_OFFSET UNITYSDK_OFFSET(0x15BA6AD0)
 #define APDIKADKOPG___C__DISPLAYCLASS2_0__ONTASKBEGIN_B__0_OFFSET UNITYSDK_OFFSET(0x15BA6DD0)
 
+inline static constexpr unsigned int APDIKADKOPG___c__DisplayClass2_0_TypeDefinitionIndex = 53267;
+
 	class APDIKADKOPG___c__DisplayClass2_0 : public ::System::Object
 	{
 	public:

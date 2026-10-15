@@ -34,6 +34,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int Time_TypeDefinitionIndex = 4395;
+
 	class Time : public ::System::Object
 	{
 	public:

@@ -28,6 +28,8 @@ namespace System { class String; }
 #define PAGJKBPPOKL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DEECCC0)
 #define PAGJKBPPOKL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DEECD20)
 
+inline static constexpr unsigned int PAGJKBPPOKL_TypeDefinitionIndex = 33063;
+
 	class PAGJKBPPOKL : public ::System::Object
 	{
 	public:

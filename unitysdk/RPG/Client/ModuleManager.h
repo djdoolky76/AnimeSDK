@@ -214,6 +214,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ModuleManager_TypeDefinitionIndex = 66210;
+
 	class ModuleManager : public ::System::Object
 	{
 	public:

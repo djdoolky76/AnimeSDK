@@ -4,6 +4,8 @@
 
 #define IIFOBBHCPDK_CTOR_OFFSET UNITYSDK_OFFSET(0x1643B060)
 
+inline static constexpr unsigned int IIFOBBHCPDK_TypeDefinitionIndex = 53546;
+
 	class IIFOBBHCPDK : public ::OMMDKIBILJE
 	{
 	public:

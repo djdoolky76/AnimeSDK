@@ -29,6 +29,8 @@ namespace System { class String; }
 #define AOMMAFEOBOA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E66F860)
 #define AOMMAFEOBOA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E66F8C0)
 
+inline static constexpr unsigned int AOMMAFEOBOA_TypeDefinitionIndex = 34548;
+
 	class AOMMAFEOBOA : public ::System::Object
 	{
 	public:

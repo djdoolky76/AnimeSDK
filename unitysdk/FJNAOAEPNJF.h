@@ -41,6 +41,8 @@ namespace System::Collections::Generic { template <typename T> class Stack_1; }
 #define FJNAOAEPNJF_SET_RESOLVESUBLOCKHP_OFFSET UNITYSDK_OFFSET(0x157DC640)
 #define FJNAOAEPNJF_SET_SUBTARGETLIST_OFFSET UNITYSDK_OFFSET(0x157DC600)
 
+inline static constexpr unsigned int FJNAOAEPNJF_TypeDefinitionIndex = 57719;
+
 	class FJNAOAEPNJF : public ::System::Object
 	{
 	public:

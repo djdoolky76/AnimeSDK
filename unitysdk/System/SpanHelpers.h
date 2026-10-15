@@ -7,6 +7,8 @@ namespace System { class Type; }
 
 namespace System
 {
+	inline static constexpr unsigned int SpanHelpers_TypeDefinitionIndex = 122;
+
 	class SpanHelpers : public ::System::Object
 	{
 	public:

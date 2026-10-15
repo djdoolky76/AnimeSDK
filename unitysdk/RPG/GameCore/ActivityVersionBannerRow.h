@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ActivityVersionBannerRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ActivityVersionBannerRow_TypeDefinitionIndex = 11229;
+
 	class ActivityVersionBannerRow : public ::System::Object
 	{
 	public:

@@ -19,6 +19,8 @@ namespace System { class String; }
 #define HMBDDBBNMCH_GET_MAZEBUFFID_OFFSET UNITYSDK_OFFSET(0x15D789D0)
 #define HMBDDBBNMCH_ISVALID_OFFSET UNITYSDK_OFFSET(0x15D78980)
 
+inline static constexpr unsigned int HMBDDBBNMCH_TypeDefinitionIndex = 67201;
+
 	class HMBDDBBNMCH : public ::System::Object
 	{
 	public:

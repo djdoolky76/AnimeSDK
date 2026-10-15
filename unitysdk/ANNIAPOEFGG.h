@@ -8,6 +8,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define ANNIAPOEFGG_IHELHEBDBJF_OFFSET UNITYSDK_OFFSET(0x2E782A0)
 #define ANNIAPOEFGG_KFGPKEIENDC_OFFSET UNITYSDK_OFFSET(0x2E781C0)
 
+inline static constexpr unsigned int ANNIAPOEFGG_TypeDefinitionIndex = 53519;
+
 	struct alignas(8) ANNIAPOEFGG
 	{
 		::Il2CppArray<::RPG::GameCore::GameEntity*>* JAPBDCBHCKN; // 0x10

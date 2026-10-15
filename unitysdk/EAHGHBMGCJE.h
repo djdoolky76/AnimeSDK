@@ -17,6 +17,8 @@ class COKLGCPKGIE;
 #define EAHGHBMGCJE_SET_RAYSTARTPOINT_OFFSET UNITYSDK_OFFSET(0x12678A00)
 #define EAHGHBMGCJE_SET_VISION_OFFSET UNITYSDK_OFFSET(0x126789D0)
 
+inline static constexpr unsigned int EAHGHBMGCJE_TypeDefinitionIndex = 56973;
+
 	class EAHGHBMGCJE : public ::System::Object
 	{
 	public:

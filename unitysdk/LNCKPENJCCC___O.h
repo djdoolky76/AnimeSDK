@@ -3,6 +3,8 @@
 #include "unitysdk/System/Object.h"
 namespace System { class Object; }
 
+inline static constexpr unsigned int LNCKPENJCCC___O_TypeDefinitionIndex = 24180;
+
 	class LNCKPENJCCC___O : public ::System::Object
 	{
 	public:

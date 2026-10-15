@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define IRI_BUILDINGRENDERERLIST_KPGEKGPDKCK_OFFSET UNITYSDK_OFFSET(0x165335C0)
 #define IRI_BUILDINGRENDERERLIST_OFNJFAEPOKO_OFFSET UNITYSDK_OFFSET(0x16533470)
 
+inline static constexpr unsigned int IRI_BuildingRendererList_TypeDefinitionIndex = 47166;
+
 	class IRI_BuildingRendererList : public ::UnityEngine::ScriptableObject
 	{
 	public:

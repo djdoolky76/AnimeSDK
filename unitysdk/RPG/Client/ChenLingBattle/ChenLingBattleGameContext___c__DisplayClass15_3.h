@@ -8,6 +8,8 @@ namespace RPG::Client::Promises { class Promise; }
 
 namespace RPG::Client::ChenLingBattle
 {
+	inline static constexpr unsigned int ChenLingBattleGameContext___c__DisplayClass15_3_TypeDefinitionIndex = 76230;
+
 	template <typename T1, typename T2, typename T3>
 	class ChenLingBattleGameContext___c__DisplayClass15_3 : public ::System::Object
 	{

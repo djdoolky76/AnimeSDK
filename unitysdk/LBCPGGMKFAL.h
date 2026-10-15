@@ -10,6 +10,8 @@ namespace Entitas { class IEntity; }
 #define LBCPGGMKFAL_ONREMOVE_OFFSET UNITYSDK_OFFSET(0xB5F6010)
 #define LBCPGGMKFAL_ONUPDATE_OFFSET UNITYSDK_OFFSET(0xB5F5EE0)
 
+inline static constexpr unsigned int LBCPGGMKFAL_TypeDefinitionIndex = 79120;
+
 	class LBCPGGMKFAL
 	{
 	public:

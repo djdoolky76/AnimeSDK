@@ -20,6 +20,8 @@ namespace System { class Object; }
 #define HKJEGBONDGA_PKDPCLOFNGO_1_OFFSET UNITYSDK_OFFSET(0x15D49630)
 #define HKJEGBONDGA_PKDPCLOFNGO_OFFSET UNITYSDK_OFFSET(0x15D48D80)
 
+inline static constexpr unsigned int HKJEGBONDGA_TypeDefinitionIndex = 81507;
+
 	class HKJEGBONDGA : public ::System::Object
 	{
 	public:

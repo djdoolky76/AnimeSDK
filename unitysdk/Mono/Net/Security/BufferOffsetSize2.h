@@ -9,6 +9,8 @@
 
 namespace Mono::Net::Security
 {
+	inline static constexpr unsigned int BufferOffsetSize2_TypeDefinitionIndex = 2423;
+
 	class BufferOffsetSize2 : public ::Mono::Net::Security::BufferOffsetSize
 	{
 	public:

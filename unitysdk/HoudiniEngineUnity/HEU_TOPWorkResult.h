@@ -8,6 +8,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_TOPWorkResult_TypeDefinitionIndex = 40541;
+
 	class HEU_TOPWorkResult : public ::System::Object
 	{
 	public:

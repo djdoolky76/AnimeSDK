@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define JOBECJELCHI___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB29E910)
 #define JOBECJELCHI___C__ONTASKBEGIN_B__2_0_OFFSET UNITYSDK_OFFSET(0xB29E920)
 
+inline static constexpr unsigned int JOBECJELCHI___c_TypeDefinitionIndex = 58759;
+
 	class JOBECJELCHI___c : public ::System::Object
 	{
 	public:

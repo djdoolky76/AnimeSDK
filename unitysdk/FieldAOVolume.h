@@ -23,6 +23,8 @@ namespace UnityEngine { class Texture3D; }
 #define FIELDAOVOLUME_START_OFFSET UNITYSDK_OFFSET(0x15923E80)
 #define FIELDAOVOLUME_UPDATEMATRIX_OFFSET UNITYSDK_OFFSET(0x15924550)
 
+inline static constexpr unsigned int FieldAOVolume_TypeDefinitionIndex = 47509;
+
 	class FieldAOVolume : public ::UnityEngine::MonoBehaviour
 	{
 	public:

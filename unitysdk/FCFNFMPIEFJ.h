@@ -5,6 +5,8 @@ class OOCCBMLAELL;
 
 #define FCFNFMPIEFJ_CTOR_OFFSET UNITYSDK_OFFSET(0x156B9B60)
 
+inline static constexpr unsigned int FCFNFMPIEFJ_TypeDefinitionIndex = 80578;
+
 	class FCFNFMPIEFJ : public ::System::Object
 	{
 	public:

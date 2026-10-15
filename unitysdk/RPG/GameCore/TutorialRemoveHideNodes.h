@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TutorialRemoveHideNodes_TypeDefinitionIndex = 24378;
+
 	class TutorialRemoveHideNodes : public ::RPG::GameCore::TaskConfig
 	{
 	public:

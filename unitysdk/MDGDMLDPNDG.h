@@ -7,6 +7,8 @@ namespace RPG::AvatarSystem { class IAvatar; }
 
 #define MDGDMLDPNDG_OFCKIACAHCD_OFFSET UNITYSDK_OFFSET(0xB8A37A0)
 
+inline static constexpr unsigned int MDGDMLDPNDG_TypeDefinitionIndex = 63134;
+
 	class MDGDMLDPNDG : public ::System::Object
 	{
 	public:

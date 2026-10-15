@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define BBLHNGHGAPK_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0x1C8B0D60)
 #define BBLHNGHGAPK_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0x1C8B0F10)
 
+inline static constexpr unsigned int BBLHNGHGAPK_TypeDefinitionIndex = 42198;
+
 	class BBLHNGHGAPK : public ::CKFDNGOHNPC
 	{
 	public:

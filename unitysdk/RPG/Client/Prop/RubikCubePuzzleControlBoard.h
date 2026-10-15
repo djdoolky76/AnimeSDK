@@ -76,6 +76,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int RubikCubePuzzleControlBoard_TypeDefinitionIndex = 78827;
+
 	class RubikCubePuzzleControlBoard : public ::UnityEngine::MonoBehaviour
 	{
 	public:

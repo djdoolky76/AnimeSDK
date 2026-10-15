@@ -42,6 +42,8 @@ namespace XLua { class LuaTable; }
 #define OCNFFGBIMPD___ONBIND_B__1_1_OFFSET UNITYSDK_OFFSET(0xBD72E10)
 #define OCNFFGBIMPD___ONBIND_B__1_2_OFFSET UNITYSDK_OFFSET(0xBD72E60)
 
+inline static constexpr unsigned int OCNFFGBIMPD_TypeDefinitionIndex = 72293;
+
 	class OCNFFGBIMPD : public ::FMPCODLIOLG
 	{
 	public:

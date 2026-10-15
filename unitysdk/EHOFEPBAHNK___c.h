@@ -13,6 +13,8 @@ namespace System { template <typename T> class Func_1; }
 #define EHOFEPBAHNK___C___CTOR_B__100_0_OFFSET UNITYSDK_OFFSET(0x1CA53810)
 #define EHOFEPBAHNK___C___CTOR_B__100_1_OFFSET UNITYSDK_OFFSET(0x1CA53840)
 
+inline static constexpr unsigned int EHOFEPBAHNK___c_TypeDefinitionIndex = 42609;
+
 	class EHOFEPBAHNK___c : public ::System::Object
 	{
 	public:

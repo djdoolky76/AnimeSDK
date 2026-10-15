@@ -15,6 +15,8 @@ namespace UnityEngine::Timeline { class TimelineAsset; }
 #define HIIFJAIAHJN_MPBNCGKHOOD_HNLHPGKIAIC_OFFSET UNITYSDK_OFFSET(0x15CE68B0)
 #define HIIFJAIAHJN_MPBNCGKHOOD_IKHJMENJMHJ_OFFSET UNITYSDK_OFFSET(0x15CE9BC0)
 
+inline static constexpr unsigned int HIIFJAIAHJN_MPBNCGKHOOD_TypeDefinitionIndex = 59680;
+
 	class HIIFJAIAHJN_MPBNCGKHOOD : public ::System::Object
 	{
 	public:

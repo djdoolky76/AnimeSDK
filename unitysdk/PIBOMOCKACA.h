@@ -27,6 +27,8 @@ namespace System { class String; }
 #define PIBOMOCKACA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF418A0)
 #define PIBOMOCKACA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF41900)
 
+inline static constexpr unsigned int PIBOMOCKACA_TypeDefinitionIndex = 33067;
+
 	class PIBOMOCKACA : public ::System::Object
 	{
 	public:

@@ -29,6 +29,8 @@ namespace System { class String; }
 #define OOMNNODJGPH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DED9F80)
 #define OOMNNODJGPH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DED9FE0)
 
+inline static constexpr unsigned int OOMNNODJGPH_TypeDefinitionIndex = 29938;
+
 	class OOMNNODJGPH : public ::System::Object
 	{
 	public:

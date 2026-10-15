@@ -22,6 +22,8 @@ namespace System { class Object; }
 #define GBEMLLGNHMP_LEIMPPFCAIK_OFFSET UNITYSDK_OFFSET(0x3C38970)
 #define GBEMLLGNHMP_NHCFLDCDLCP_OFFSET UNITYSDK_OFFSET(0x1CE23AB0)
 
+inline static constexpr unsigned int GBEMLLGNHMP_TypeDefinitionIndex = 10653;
+
 	struct alignas(8) GBEMLLGNHMP
 	{
 		::LELCKJPOPAO* BEHHICMOFIE; // 0x10

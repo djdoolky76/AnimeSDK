@@ -27,6 +27,8 @@ namespace System { class String; }
 #define JIOMOCFOMOA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E755D10)
 #define JIOMOCFOMOA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E755D70)
 
+inline static constexpr unsigned int JIOMOCFOMOA_TypeDefinitionIndex = 29409;
+
 	class JIOMOCFOMOA : public ::System::Object
 	{
 	public:

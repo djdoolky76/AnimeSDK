@@ -11,6 +11,8 @@
 
 namespace Mono::Net
 {
+	inline static constexpr unsigned int CFArray_TypeDefinitionIndex = 2406;
+
 	class CFArray : public ::Mono::Net::CFObject
 	{
 	public:

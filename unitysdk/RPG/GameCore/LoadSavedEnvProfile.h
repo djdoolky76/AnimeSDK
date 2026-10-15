@@ -10,6 +10,8 @@ namespace RPG::GameCore { class LoadSavedEnvProfile; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LoadSavedEnvProfile_TypeDefinitionIndex = 20755;
+
 	class LoadSavedEnvProfile : public ::RPG::GameCore::TaskConfig
 	{
 	public:

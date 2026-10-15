@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightModifierExecActionMergeRoleConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightModifierExecActionMergeRoleConfig_TypeDefinitionIndex = 19369;
+
 	class GridFightModifierExecActionMergeRoleConfig : public ::RPG::GameCore::GridFightModifierConfigBase
 	{
 	public:

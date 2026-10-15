@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PlayMonsterHPBarTween_TypeDefinitionIndex = 22822;
+
 	class PlayMonsterHPBarTween : public ::RPG::GameCore::TaskConfig
 	{
 	public:

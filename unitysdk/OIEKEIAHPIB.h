@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define OIEKEIAHPIB_FILTER_OFFSET UNITYSDK_OFFSET(0x1C994C30)
 #define OIEKEIAHPIB_GETTRIGGER_OFFSET UNITYSDK_OFFSET(0x1C994B10)
 
+inline static constexpr unsigned int OIEKEIAHPIB_TypeDefinitionIndex = 42167;
+
 	class OIEKEIAHPIB
 	{
 	public:

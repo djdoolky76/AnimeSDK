@@ -11,6 +11,8 @@ namespace UnityEngine::UI { class Graphic; }
 
 namespace UnityEngine::UI
 {
+	inline static constexpr unsigned int GraphicMaterialInstance_TypeDefinitionIndex = 6718;
+
 	class GraphicMaterialInstance : public ::UnityEngine::MonoBehaviour
 	{
 	public:

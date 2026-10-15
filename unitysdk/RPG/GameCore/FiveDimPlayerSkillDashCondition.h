@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FiveDimPlayerSkillDashCondition; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimPlayerSkillDashCondition_TypeDefinitionIndex = 18800;
+
 	class FiveDimPlayerSkillDashCondition : public ::RPG::GameCore::FiveDimBaseEventCondition
 	{
 	public:

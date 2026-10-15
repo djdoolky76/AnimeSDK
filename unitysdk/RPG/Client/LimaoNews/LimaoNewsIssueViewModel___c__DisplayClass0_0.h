@@ -13,6 +13,8 @@ namespace RPG::Client::LimaoNews { class LimaoNewsIssueViewModel; }
 
 namespace RPG::Client::LimaoNews
 {
+	inline static constexpr unsigned int LimaoNewsIssueViewModel___c__DisplayClass0_0_TypeDefinitionIndex = 80467;
+
 	class LimaoNewsIssueViewModel___c__DisplayClass0_0 : public ::System::Object
 	{
 	public:

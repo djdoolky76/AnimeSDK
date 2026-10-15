@@ -6,6 +6,8 @@
 
 namespace RPG::Client::LittleGame::PingPong
 {
+	inline static constexpr unsigned int PingPongDropItemView_TypeDefinitionIndex = 76676;
+
 	class PingPongDropItemView : public ::RPG::Client::LittleGame::PingPong::PingPongColliderRadiusView
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueActFinishChessRogueConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueActFinishChessRogueConfig_TypeDefinitionIndex = 19638;
+
 	class RogueActFinishChessRogueConfig : public ::RPG::GameCore::RogueActionConfigBase
 	{
 	public:

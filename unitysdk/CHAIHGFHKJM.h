@@ -15,6 +15,8 @@ namespace System { class Action; }
 #define CHAIHGFHKJM_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0xCC8F550)
 #define CHAIHGFHKJM_SET_ISFINISHED_OFFSET UNITYSDK_OFFSET(0xCC90540)
 
+inline static constexpr unsigned int CHAIHGFHKJM_TypeDefinitionIndex = 78443;
+
 	class CHAIHGFHKJM : public ::System::Object
 	{
 	public:

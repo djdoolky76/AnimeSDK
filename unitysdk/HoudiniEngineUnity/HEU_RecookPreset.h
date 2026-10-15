@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_RecookPreset_TypeDefinitionIndex = 40371;
+
 	class HEU_RecookPreset : public ::System::Object
 	{
 	public:

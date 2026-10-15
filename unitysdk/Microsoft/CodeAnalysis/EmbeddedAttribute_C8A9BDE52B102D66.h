@@ -6,6 +6,8 @@
 
 namespace Microsoft::CodeAnalysis
 {
+	inline static constexpr unsigned int EmbeddedAttribute_C8A9BDE52B102D66_TypeDefinitionIndex = 43913;
+
 	class EmbeddedAttribute_C8A9BDE52B102D66 : public ::System::Attribute
 	{
 	public:

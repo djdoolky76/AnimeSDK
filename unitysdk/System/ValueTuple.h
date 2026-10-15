@@ -29,6 +29,8 @@ namespace System::Collections { class IEqualityComparer; }
 
 namespace System
 {
+	inline static constexpr unsigned int ValueTuple_TypeDefinitionIndex = 127;
+
 	struct alignas(4) ValueTuple
 	{
 		::System::Boolean Equals(::System::Object* a1)

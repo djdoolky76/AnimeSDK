@@ -9,6 +9,8 @@ namespace System { class Action; }
 #define HKJEGBONDGA___C__DISPLAYCLASS6_0__SUBSCRIBEISOPEN_B__0_OFFSET UNITYSDK_OFFSET(0x15D49990)
 #define HKJEGBONDGA___C__DISPLAYCLASS6_0__SUBSCRIBEISOPEN_B__1_OFFSET UNITYSDK_OFFSET(0x15D499F0)
 
+inline static constexpr unsigned int HKJEGBONDGA___c__DisplayClass6_0_TypeDefinitionIndex = 81508;
+
 	class HKJEGBONDGA___c__DisplayClass6_0 : public ::System::Object
 	{
 	public:

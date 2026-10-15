@@ -9,6 +9,8 @@ namespace System { class Object; }
 #define HCAFKAEAAGK_FKEJLIBLGLE_OFFSET UNITYSDK_OFFSET(0x15C15F60)
 #define HCAFKAEAAGK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15C15DF0)
 
+inline static constexpr unsigned int HCAFKAEAAGK_TypeDefinitionIndex = 58901;
+
 	class HCAFKAEAAGK
 	{
 	public:

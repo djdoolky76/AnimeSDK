@@ -16,6 +16,8 @@ namespace UnityEngine { class GameObject; }
 #define BCIAMPIIHPF_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0x15EA7850)
 #define BCIAMPIIHPF_SET_ENABLERUNTIMETICK_OFFSET UNITYSDK_OFFSET(0x15EA7D60)
 
+inline static constexpr unsigned int BCIAMPIIHPF_TypeDefinitionIndex = 70630;
+
 	class BCIAMPIIHPF : public ::System::Object
 	{
 	public:

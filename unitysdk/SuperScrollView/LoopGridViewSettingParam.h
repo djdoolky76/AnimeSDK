@@ -7,6 +7,8 @@ namespace System { class Object; }
 
 namespace SuperScrollView
 {
+	inline static constexpr unsigned int LoopGridViewSettingParam_TypeDefinitionIndex = 47652;
+
 	class LoopGridViewSettingParam : public ::System::Object
 	{
 	public:

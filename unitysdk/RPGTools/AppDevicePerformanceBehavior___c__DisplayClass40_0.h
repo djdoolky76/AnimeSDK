@@ -11,6 +11,8 @@ namespace UnityEngine::UI { class InputField; }
 
 namespace RPGTools
 {
+	inline static constexpr unsigned int AppDevicePerformanceBehavior___c__DisplayClass40_0_TypeDefinitionIndex = 46926;
+
 	class AppDevicePerformanceBehavior___c__DisplayClass40_0 : public ::System::Object
 	{
 	public:

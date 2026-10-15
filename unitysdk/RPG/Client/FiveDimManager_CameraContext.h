@@ -11,6 +11,8 @@ namespace RPG::GameCore { class FiveDimVCameraBlendConfig; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FiveDimManager_CameraContext_TypeDefinitionIndex = 60541;
+
 	class FiveDimManager_CameraContext : public ::System::Object
 	{
 	public:

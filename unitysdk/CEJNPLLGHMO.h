@@ -7,6 +7,8 @@ class IGACELAIJCM;
 #define CEJNPLLGHMO_CTOR_OFFSET UNITYSDK_OFFSET(0xC9E3080)
 #define CEJNPLLGHMO_OPBFNDKICAC_OFFSET UNITYSDK_OFFSET(0xC9E3090)
 
+inline static constexpr unsigned int CEJNPLLGHMO_TypeDefinitionIndex = 67189;
+
 	class CEJNPLLGHMO : public ::DFLONJKEAKP
 	{
 	public:

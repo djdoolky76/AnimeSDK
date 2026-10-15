@@ -36,6 +36,8 @@ namespace UnityEngine::UI { class VertexHelper; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int LongText_TypeDefinitionIndex = 72569;
+
 	class LongText : public ::RPG::Client::LocalizedText
 	{
 	public:

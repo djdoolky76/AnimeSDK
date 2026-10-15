@@ -31,6 +31,8 @@ namespace System { class String; }
 #define JLIFGIMBMBD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E77BC90)
 #define JLIFGIMBMBD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E77BCF0)
 
+inline static constexpr unsigned int JLIFGIMBMBD_TypeDefinitionIndex = 27035;
+
 	class JLIFGIMBMBD : public ::System::Object
 	{
 	public:

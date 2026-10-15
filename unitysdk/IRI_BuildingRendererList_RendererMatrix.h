@@ -7,6 +7,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define IRI_BUILDINGRENDERERLIST_RENDERERMATRIX_CTOR_OFFSET UNITYSDK_OFFSET(0x165335B0)
 
+inline static constexpr unsigned int IRI_BuildingRendererList_RendererMatrix_TypeDefinitionIndex = 47167;
+
 	class IRI_BuildingRendererList_RendererMatrix : public ::System::Object
 	{
 	public:

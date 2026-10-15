@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace SRDebugger::Services
 {
+	inline static constexpr unsigned int BugReport_TypeDefinitionIndex = 38050;
+
 	class BugReport : public ::System::Object
 	{
 	public:

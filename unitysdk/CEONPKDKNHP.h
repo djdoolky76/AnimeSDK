@@ -22,6 +22,8 @@ namespace System { class String; }
 #define CEONPKDKNHP__ONBIND_OFFSET UNITYSDK_OFFSET(0xC9F7AA0)
 #define CEONPKDKNHP__ONDISPOSE_OFFSET UNITYSDK_OFFSET(0xC9F7B70)
 
+inline static constexpr unsigned int CEONPKDKNHP_TypeDefinitionIndex = 71271;
+
 	class CEONPKDKNHP : public ::FMPCODLIOLG
 	{
 	public:

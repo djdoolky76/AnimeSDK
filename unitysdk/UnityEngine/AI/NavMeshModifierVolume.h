@@ -20,6 +20,8 @@ namespace UnityEngine::AI { class NavMeshModifierVolume; }
 
 namespace UnityEngine::AI
 {
+	inline static constexpr unsigned int NavMeshModifierVolume_TypeDefinitionIndex = 41351;
+
 	class NavMeshModifierVolume : public ::UnityEngine::MonoBehaviour
 	{
 	public:

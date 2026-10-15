@@ -10,6 +10,8 @@ namespace UnityEngine { class Renderer; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int SharedObject_TypeDefinitionIndex = 37889;
+
 	class SharedObject : public ::System::Object
 	{
 	public:

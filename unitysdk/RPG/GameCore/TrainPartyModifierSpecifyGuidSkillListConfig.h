@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TrainPartyModifierSpecifyGuidSkillListConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TrainPartyModifierSpecifyGuidSkillListConfig_TypeDefinitionIndex = 18115;
+
 	class TrainPartyModifierSpecifyGuidSkillListConfig : public ::RPG::GameCore::TrainPartyModifierConfigBase
 	{
 	public:

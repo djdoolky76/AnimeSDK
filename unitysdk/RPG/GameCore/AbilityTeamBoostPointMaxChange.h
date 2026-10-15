@@ -18,6 +18,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AbilityTeamBoostPointMaxChange_TypeDefinitionIndex = 56574;
+
 	class AbilityTeamBoostPointMaxChange : public ::CMPGEAFHHDC
 	{
 	public:

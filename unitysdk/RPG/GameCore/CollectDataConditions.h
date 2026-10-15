@@ -11,6 +11,8 @@ namespace RPG::GameCore { class DynamicString; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CollectDataConditions_TypeDefinitionIndex = 20853;
+
 	class CollectDataConditions : public ::RPG::GameCore::TaskConfig
 	{
 	public:

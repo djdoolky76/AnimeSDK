@@ -15,6 +15,8 @@ namespace System { template <typename T> class Comparison_1; }
 
 namespace RPG::Client::FateRin::Card
 {
+	inline static constexpr unsigned int FateRinBattleCardPileTypeViewModel___c_TypeDefinitionIndex = 81121;
+
 	class FateRinBattleCardPileTypeViewModel___c : public ::System::Object
 	{
 	public:

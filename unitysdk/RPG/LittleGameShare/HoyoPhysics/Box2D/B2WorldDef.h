@@ -9,6 +9,8 @@ namespace System { class Object; }
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
+	inline static constexpr unsigned int B2WorldDef_TypeDefinitionIndex = 36815;
+
 	struct alignas(8) B2WorldDef
 	{
 		::RPG::LittleGameShare::HoyoPhysics::Box2D::B2Vec2 gravity; // 0x10

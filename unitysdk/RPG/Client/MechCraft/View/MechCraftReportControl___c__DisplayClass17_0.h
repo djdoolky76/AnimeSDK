@@ -14,6 +14,8 @@ namespace XLua { class LuaTable; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftReportControl___c__DisplayClass17_0_TypeDefinitionIndex = 80026;
+
 	class MechCraftReportControl___c__DisplayClass17_0 : public ::System::Object
 	{
 	public:

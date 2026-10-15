@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ClockParkStorySetBackgroundFrontVisible; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ClockParkStorySetBackgroundFrontVisible_TypeDefinitionIndex = 20950;
+
 	class ClockParkStorySetBackgroundFrontVisible : public ::RPG::GameCore::TaskConfig
 	{
 	public:

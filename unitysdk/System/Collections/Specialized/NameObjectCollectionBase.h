@@ -44,6 +44,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System::Collections::Specialized
 {
+	inline static constexpr unsigned int NameObjectCollectionBase_TypeDefinitionIndex = 2994;
+
 	class NameObjectCollectionBase : public ::System::Object
 	{
 	public:

@@ -45,6 +45,8 @@ namespace System::IO { class Stream; }
 #define MDIMPDIOOIE_PFNDPAILDJP_OFFSET UNITYSDK_OFFSET(0x1C4B7AB0)
 #define MDIMPDIOOIE_PJEGDPHDBAB_OFFSET UNITYSDK_OFFSET(0x1C4B80D0)
 
+inline static constexpr unsigned int MDIMPDIOOIE_TypeDefinitionIndex = 41555;
+
 	class MDIMPDIOOIE : public ::System::Object
 	{
 	public:

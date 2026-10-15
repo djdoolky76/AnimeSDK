@@ -24,6 +24,8 @@ namespace UnityEngine { class Transform; }
 #define BBNNDJLGGLC_OCGDHGJLMEB_OFFSET UNITYSDK_OFFSET(0x15E99FC0)
 #define BBNNDJLGGLC_PIHLANMDHHK_OFFSET UNITYSDK_OFFSET(0x15E9A140)
 
+inline static constexpr unsigned int BBNNDJLGGLC_TypeDefinitionIndex = 69315;
+
 	class BBNNDJLGGLC : public ::ICOHAPENNHF
 	{
 	public:

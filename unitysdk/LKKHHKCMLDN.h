@@ -5,6 +5,8 @@ namespace RPG::GameCore { class NPCTriggerSound; }
 
 #define LKKHHKCMLDN_CTOR_OFFSET UNITYSDK_OFFSET(0xB752F60)
 
+inline static constexpr unsigned int LKKHHKCMLDN_TypeDefinitionIndex = 57067;
+
 	class LKKHHKCMLDN : public ::System::Object
 	{
 	public:

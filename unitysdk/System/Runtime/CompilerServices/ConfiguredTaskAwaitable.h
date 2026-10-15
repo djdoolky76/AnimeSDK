@@ -8,6 +8,8 @@ namespace System::Threading::Tasks { class Task; }
 
 namespace System::Runtime::CompilerServices
 {
+	inline static constexpr unsigned int ConfiguredTaskAwaitable_TypeDefinitionIndex = 1371;
+
 	struct alignas(4) ConfiguredTaskAwaitable
 	{
 		::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter m_configuredTaskAwaiter; // 0x10

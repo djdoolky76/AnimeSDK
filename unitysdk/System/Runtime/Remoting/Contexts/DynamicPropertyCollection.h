@@ -15,6 +15,8 @@ namespace System::Runtime::Remoting::Messaging { class IMessage; }
 
 namespace System::Runtime::Remoting::Contexts
 {
+	inline static constexpr unsigned int DynamicPropertyCollection_TypeDefinitionIndex = 1247;
+
 	class DynamicPropertyCollection : public ::System::Object
 	{
 	public:

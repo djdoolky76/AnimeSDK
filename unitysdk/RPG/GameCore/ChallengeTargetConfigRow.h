@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ChallengeTargetConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChallengeTargetConfigRow_TypeDefinitionIndex = 12973;
+
 	class ChallengeTargetConfigRow : public ::System::Object
 	{
 	public:

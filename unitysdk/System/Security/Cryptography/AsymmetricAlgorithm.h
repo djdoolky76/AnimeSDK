@@ -15,6 +15,8 @@ namespace System::Security::Cryptography { class KeySizes; }
 
 namespace System::Security::Cryptography
 {
+	inline static constexpr unsigned int AsymmetricAlgorithm_TypeDefinitionIndex = 999;
+
 	class AsymmetricAlgorithm : public ::System::Object
 	{
 	public:

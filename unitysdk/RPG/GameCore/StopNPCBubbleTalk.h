@@ -10,6 +10,8 @@ namespace RPG::GameCore { class StopNPCBubbleTalk; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StopNPCBubbleTalk_TypeDefinitionIndex = 21598;
+
 	class StopNPCBubbleTalk : public ::RPG::GameCore::TaskConfig
 	{
 	public:

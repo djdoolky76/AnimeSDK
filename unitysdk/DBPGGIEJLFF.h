@@ -6,6 +6,8 @@ namespace RPG::GameCore { class FiveDimTrampolineConfig; }
 
 #define DBPGGIEJLFF_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA1A6B0)
 
+inline static constexpr unsigned int DBPGGIEJLFF_TypeDefinitionIndex = 43450;
+
 	class DBPGGIEJLFF : public ::System::Object
 	{
 	public:

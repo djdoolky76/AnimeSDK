@@ -9,6 +9,8 @@ class ODBFJMGGCOJ;
 #define ODBFJMGGCOJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1D2545C0)
 #define ODBFJMGGCOJ_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D254440)
 
+inline static constexpr unsigned int ODBFJMGGCOJ_TypeDefinitionIndex = 11551;
+
 	class ODBFJMGGCOJ : public ::System::Object
 	{
 	public:

@@ -22,6 +22,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int MmtManager_TypeDefinitionIndex = 8034;
+
 	class MmtManager : public ::System::Object
 	{
 	public:

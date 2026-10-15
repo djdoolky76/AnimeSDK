@@ -29,6 +29,8 @@ namespace System { class String; }
 #define PALAOPCBAPC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DEEFE30)
 #define PALAOPCBAPC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DEEFE90)
 
+inline static constexpr unsigned int PALAOPCBAPC_TypeDefinitionIndex = 33772;
+
 	class PALAOPCBAPC : public ::System::Object
 	{
 	public:

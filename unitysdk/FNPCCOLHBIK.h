@@ -50,6 +50,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define FNPCCOLHBIK_SET_PLANETDISPLAYID_OFFSET UNITYSDK_OFFSET(0x158DAF80)
 #define FNPCCOLHBIK_TICK_OFFSET UNITYSDK_OFFSET(0x158D94C0)
 
+inline static constexpr unsigned int FNPCCOLHBIK_TypeDefinitionIndex = 60264;
+
 	class FNPCCOLHBIK : public ::HBCMHADMLOP
 	{
 	public:

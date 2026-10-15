@@ -88,6 +88,8 @@ namespace UnityEngine { class Font; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int LocalizationManager_TypeDefinitionIndex = 61350;
+
 	class LocalizationManager : public ::System::Object
 	{
 	public:

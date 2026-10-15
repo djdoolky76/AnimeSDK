@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define HOGHBFBDBJE_ONGKOCOOCOP_OFFSET UNITYSDK_OFFSET(0x15DB58E0)
 #define HOGHBFBDBJE_TICK_OFFSET UNITYSDK_OFFSET(0x15DB57E0)
 
+inline static constexpr unsigned int HOGHBFBDBJE_TypeDefinitionIndex = 51750;
+
 	class HOGHBFBDBJE : public ::RPG::Client::TABehaviorBase
 	{
 	public:

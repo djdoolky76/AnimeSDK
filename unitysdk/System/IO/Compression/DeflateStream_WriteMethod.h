@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace System::IO::Compression
 {
+	inline static constexpr unsigned int DeflateStream_WriteMethod_TypeDefinitionIndex = 2719;
+
 	class DeflateStream_WriteMethod : public ::System::MulticastDelegate
 	{
 	public:

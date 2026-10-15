@@ -11,6 +11,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define AONBKHCHAHK___C___ADJUSTEXECUTEORDERBYMODIFIERPRIORITY_B__23_0_OFFSET UNITYSDK_OFFSET(0x1C5A2240)
 #define AONBKHCHAHK___C___INITCHARACTERSKILL_B__73_0_OFFSET UNITYSDK_OFFSET(0x1C5A2290)
 
+inline static constexpr unsigned int AONBKHCHAHK___c_TypeDefinitionIndex = 36430;
+
 	class AONBKHCHAHK___c : public ::System::Object
 	{
 	public:

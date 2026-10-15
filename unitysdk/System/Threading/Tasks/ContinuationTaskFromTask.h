@@ -13,6 +13,8 @@ namespace System::Threading::Tasks { class Task; }
 
 namespace System::Threading::Tasks
 {
+	inline static constexpr unsigned int ContinuationTaskFromTask_TypeDefinitionIndex = 917;
+
 	class ContinuationTaskFromTask : public ::System::Threading::Tasks::Task
 	{
 	public:

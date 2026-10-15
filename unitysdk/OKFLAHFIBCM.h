@@ -71,6 +71,8 @@ namespace System { class String; }
 #define OKFLAHFIBCM_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE967E0)
 #define OKFLAHFIBCM_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DE96840)
 
+inline static constexpr unsigned int OKFLAHFIBCM_TypeDefinitionIndex = 25437;
+
 	class OKFLAHFIBCM : public ::System::Object
 	{
 	public:

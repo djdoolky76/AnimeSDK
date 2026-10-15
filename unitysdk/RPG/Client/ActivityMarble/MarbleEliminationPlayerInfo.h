@@ -12,6 +12,8 @@ namespace RPG::Client::ActivityMarble { class MarblePvePlayer; }
 
 namespace RPG::Client::ActivityMarble
 {
+	inline static constexpr unsigned int MarbleEliminationPlayerInfo_TypeDefinitionIndex = 75984;
+
 	class MarbleEliminationPlayerInfo : public ::System::Object
 	{
 	public:

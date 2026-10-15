@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ByRandom; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByRandom_TypeDefinitionIndex = 21048;
+
 	class ByRandom : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

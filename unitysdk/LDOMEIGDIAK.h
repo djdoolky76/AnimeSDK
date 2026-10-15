@@ -27,6 +27,8 @@ namespace System { class String; }
 #define LDOMEIGDIAK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9010D0)
 #define LDOMEIGDIAK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E901130)
 
+inline static constexpr unsigned int LDOMEIGDIAK_TypeDefinitionIndex = 31873;
+
 	class LDOMEIGDIAK : public ::System::Object
 	{
 	public:

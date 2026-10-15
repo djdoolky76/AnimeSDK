@@ -99,6 +99,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define BLIPALAJNDD_PPECFHCOMDH_1_OFFSET UNITYSDK_OFFSET(0x1DDA1EF0)
 #define BLIPALAJNDD_PPECFHCOMDH_OFFSET UNITYSDK_OFFSET(0x1DDA1E70)
 
+inline static constexpr unsigned int BLIPALAJNDD_TypeDefinitionIndex = 43915;
+
 	class BLIPALAJNDD : public ::System::Object
 	{
 	public:

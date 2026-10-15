@@ -9,6 +9,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ResidentSpaceZooActivityData_TypeDefinitionIndex = 61765;
+
 	class ResidentSpaceZooActivityData : public ::RPG::Client::ActivityPanelData
 	{
 	public:

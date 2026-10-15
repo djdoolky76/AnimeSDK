@@ -7,6 +7,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightTalentUpdateNotify_TypeDefinitionIndex = 65264;
+
 	class GridFightTalentUpdateNotify : public ::System::Object
 	{
 	public:

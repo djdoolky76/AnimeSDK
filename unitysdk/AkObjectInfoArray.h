@@ -8,6 +8,8 @@ class AkObjectInfo;
 #define AKOBJECTINFOARRAY_DEFAULTCONSTRUCTATINTPTR_OFFSET UNITYSDK_OFFSET(0x1F5A9990)
 #define AKOBJECTINFOARRAY_GET_STRUCTURESIZE_OFFSET UNITYSDK_OFFSET(0x1F5A98E0)
 
+inline static constexpr unsigned int AkObjectInfoArray_TypeDefinitionIndex = 44868;
+
 	class AkObjectInfoArray
 	{
 	public:

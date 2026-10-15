@@ -6,6 +6,8 @@
 
 namespace R3
 {
+	inline static constexpr unsigned int NotSupportedFrameProvider_TypeDefinitionIndex = 35925;
+
 	class NotSupportedFrameProvider : public ::R3::FrameProvider
 	{
 	public:

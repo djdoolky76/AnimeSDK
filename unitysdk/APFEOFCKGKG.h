@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TriggerPamMovePhaseTalkWait; }
 #define APFEOFCKGKG_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15BA8490)
 #define APFEOFCKGKG_TICK_OFFSET UNITYSDK_OFFSET(0x15BA8560)
 
+inline static constexpr unsigned int APFEOFCKGKG_TypeDefinitionIndex = 58984;
+
 	class APFEOFCKGKG : public ::GELIALJDFBL
 	{
 	public:

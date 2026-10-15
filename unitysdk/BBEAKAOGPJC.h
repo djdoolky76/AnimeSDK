@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define BBEAKAOGPJC_ECLMPACNLEF_1_OFFSET UNITYSDK_OFFSET(0x15E863C0)
 #define BBEAKAOGPJC_ECLMPACNLEF_OFFSET UNITYSDK_OFFSET(0x15E85FE0)
 
+inline static constexpr unsigned int BBEAKAOGPJC_TypeDefinitionIndex = 54227;
+
 	class BBEAKAOGPJC : public ::System::Object
 	{
 	public:

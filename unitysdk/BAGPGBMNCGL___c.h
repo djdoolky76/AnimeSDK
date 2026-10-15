@@ -11,6 +11,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define BAGPGBMNCGL___C___FETCHUSABLEBUFFITEM_B__14_0_OFFSET UNITYSDK_OFFSET(0x15BE1A40)
 #define BAGPGBMNCGL___C___FETCHUSABLEDAMAGEITEM_B__13_0_OFFSET UNITYSDK_OFFSET(0x15BE19F0)
 
+inline static constexpr unsigned int BAGPGBMNCGL___c_TypeDefinitionIndex = 65837;
+
 	class BAGPGBMNCGL___c : public ::System::Object
 	{
 	public:

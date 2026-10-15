@@ -4,6 +4,8 @@
 
 #define OJBNCFANGJD_CTOR_OFFSET UNITYSDK_OFFSET(0xBEAB3A0)
 
+inline static constexpr unsigned int OJBNCFANGJD_TypeDefinitionIndex = 61162;
+
 	class OJBNCFANGJD : public ::System::Exception
 	{
 	public:

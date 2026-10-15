@@ -52,6 +52,8 @@ namespace System { class String; }
 
 namespace Proto
 {
+	inline static constexpr unsigned int ClientMail_TypeDefinitionIndex = 30484;
+
 	class ClientMail : public ::System::Object
 	{
 	public:

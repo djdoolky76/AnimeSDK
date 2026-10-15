@@ -7,6 +7,8 @@ class MCPOJOODEGO;
 #define PJALIHKMNBI_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9F38B0)
 #define PJALIHKMNBI_KDNAAOHECPD_OFFSET UNITYSDK_OFFSET(0x1C9F38C0)
 
+inline static constexpr unsigned int PJALIHKMNBI_TypeDefinitionIndex = 43117;
+
 	class PJALIHKMNBI : public ::BKABEBEPPJK
 	{
 	public:

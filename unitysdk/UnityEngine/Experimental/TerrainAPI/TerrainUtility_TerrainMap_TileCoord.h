@@ -5,6 +5,8 @@
 
 namespace UnityEngine::Experimental::TerrainAPI
 {
+	inline static constexpr unsigned int TerrainUtility_TerrainMap_TileCoord_TypeDefinitionIndex = 5343;
+
 	struct alignas(4) TerrainUtility_TerrainMap_TileCoord
 	{
 		::System::Int32 tileX; // 0x10

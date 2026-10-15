@@ -3,6 +3,8 @@
 #include "unitysdk/RPG/Client/LittleGameShare/TeamTowersCore/PendingSkillEffectType.h"
 class KPPPKJJDPBK;
 
+inline static constexpr unsigned int OJMIDGODIKC_TypeDefinitionIndex = 37098;
+
 	struct alignas(8) OJMIDGODIKC
 	{
 		::RPG::Client::LittleGameShare::TeamTowersCore::PendingSkillEffectType GMPGDEINODK; // 0x10

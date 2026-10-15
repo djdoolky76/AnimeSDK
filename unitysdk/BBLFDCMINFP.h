@@ -16,6 +16,8 @@
 #define BBLFDCMINFP_PAFCMAMJENB_OFFSET UNITYSDK_OFFSET(0x1C5A34F0)
 #define BBLFDCMINFP_PMMNBAJPPKG_OFFSET UNITYSDK_OFFSET(0x1C5A37F0)
 
+inline static constexpr unsigned int BBLFDCMINFP_TypeDefinitionIndex = 37254;
+
 	class BBLFDCMINFP : public ::System::Object
 	{
 	public:

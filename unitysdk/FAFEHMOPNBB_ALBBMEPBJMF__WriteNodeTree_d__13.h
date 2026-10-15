@@ -17,6 +17,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 #define FAFEHMOPNBB_ALBBMEPBJMF__WRITENODETREE_D__13_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x1566BF30)
 #define FAFEHMOPNBB_ALBBMEPBJMF__WRITENODETREE_D__13___M__FINALLY1_OFFSET UNITYSDK_OFFSET(0x1566BF70)
 
+inline static constexpr unsigned int FAFEHMOPNBB_ALBBMEPBJMF__WriteNodeTree_d__13_TypeDefinitionIndex = 72757;
+
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10, typename T11, typename T12, typename T13>
 	class FAFEHMOPNBB_ALBBMEPBJMF__WriteNodeTree_d__13 : public ::System::Object
 	{

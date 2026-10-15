@@ -9,6 +9,8 @@ class PEEDLCHFAFL;
 #define BNHFKJCOFMA_INITIALIZE_OFFSET UNITYSDK_OFFSET(0xBDDA050)
 #define BNHFKJCOFMA_TEARDOWN_OFFSET UNITYSDK_OFFSET(0xBDDA090)
 
+inline static constexpr unsigned int BNHFKJCOFMA_TypeDefinitionIndex = 76952;
+
 	class BNHFKJCOFMA : public ::System::Object
 	{
 	public:

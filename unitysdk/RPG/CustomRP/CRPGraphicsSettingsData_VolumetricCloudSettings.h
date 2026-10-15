@@ -6,6 +6,8 @@
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int CRPGraphicsSettingsData_VolumetricCloudSettings_TypeDefinitionIndex = 37664;
+
 	class CRPGraphicsSettingsData_VolumetricCloudSettings : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace RPG::GameCore { class ShareRewardConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ShareRewardConfigRow_TypeDefinitionIndex = 15097;
+
 	class ShareRewardConfigRow : public ::System::Object
 	{
 	public:

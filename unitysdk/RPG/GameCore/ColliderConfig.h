@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ColliderConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ColliderConfig_TypeDefinitionIndex = 17486;
+
 	class ColliderConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

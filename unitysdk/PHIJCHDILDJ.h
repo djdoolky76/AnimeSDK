@@ -17,6 +17,8 @@ class PHIJCHDILDJ;
 #define PHIJCHDILDJ_SET_SOURCETYPE_OFFSET UNITYSDK_OFFSET(0xC24C160)
 #define PHIJCHDILDJ_UPDATE_OFFSET UNITYSDK_OFFSET(0xC24C0E0)
 
+inline static constexpr unsigned int PHIJCHDILDJ_TypeDefinitionIndex = 67695;
+
 	class PHIJCHDILDJ : public ::System::Object
 	{
 	public:

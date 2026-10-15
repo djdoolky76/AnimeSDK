@@ -15,6 +15,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System::Net
 {
+	inline static constexpr unsigned int CookieException_TypeDefinitionIndex = 2807;
+
 	class CookieException : public ::System::FormatException
 	{
 	public:

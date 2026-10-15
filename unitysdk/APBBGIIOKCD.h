@@ -8,6 +8,8 @@
 #define APBBGIIOKCD_GET_TARGET_OFFSET UNITYSDK_OFFSET(0x1C53FE80)
 #define APBBGIIOKCD_GET_TYPE_OFFSET UNITYSDK_OFFSET(0x1C53FE70)
 
+inline static constexpr unsigned int APBBGIIOKCD_TypeDefinitionIndex = 41823;
+
 	class APBBGIIOKCD : public ::System::Object
 	{
 	public:

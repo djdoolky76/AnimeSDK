@@ -10,6 +10,8 @@ namespace RPG::GameCore { class SetAllRogueDoorState; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetAllRogueDoorState_TypeDefinitionIndex = 20481;
+
 	class SetAllRogueDoorState : public ::RPG::GameCore::TaskConfig
 	{
 	public:

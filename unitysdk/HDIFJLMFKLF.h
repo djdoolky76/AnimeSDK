@@ -4,6 +4,8 @@
 
 #define HDIFJLMFKLF_CTOR_OFFSET UNITYSDK_OFFSET(0x1CABDD80)
 
+inline static constexpr unsigned int HDIFJLMFKLF_TypeDefinitionIndex = 43361;
+
 	class HDIFJLMFKLF : public ::System::Object
 	{
 	public:

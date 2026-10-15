@@ -28,6 +28,8 @@ namespace UnityEngine { class SkinnedMeshRenderer; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftMechatronView_TypeDefinitionIndex = 79970;
+
 	class MechCraftMechatronView : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -15,6 +15,8 @@
 
 namespace SuperScrollView
 {
+	inline static constexpr unsigned int ItemSizeGroup_TypeDefinitionIndex = 47638;
+
 	class ItemSizeGroup : public ::System::Object
 	{
 	public:

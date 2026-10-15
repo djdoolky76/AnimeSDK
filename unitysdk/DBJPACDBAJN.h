@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define DBJPACDBAJN_LOCK_OFFSET UNITYSDK_OFFSET(0xE2288E0)
 #define DBJPACDBAJN_UNLOCK_OFFSET UNITYSDK_OFFSET(0xE228A60)
 
+inline static constexpr unsigned int DBJPACDBAJN_TypeDefinitionIndex = 74768;
+
 	class DBJPACDBAJN : public ::RPG::Client::GamePlayLockTargetFunc
 	{
 	public:

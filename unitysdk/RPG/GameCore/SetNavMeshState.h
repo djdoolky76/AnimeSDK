@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetNavMeshState_TypeDefinitionIndex = 22230;
+
 	class SetNavMeshState : public ::RPG::GameCore::TaskConfig
 	{
 	public:

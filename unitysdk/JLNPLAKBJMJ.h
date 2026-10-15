@@ -5,6 +5,8 @@
 #define JLNPLAKBJMJ_CTOR_OFFSET UNITYSDK_OFFSET(0xB251B20)
 #define JLNPLAKBJMJ_EPACDIFIDGI_OFFSET UNITYSDK_OFFSET(0xB2518B0)
 
+inline static constexpr unsigned int JLNPLAKBJMJ_TypeDefinitionIndex = 54182;
+
 	class JLNPLAKBJMJ : public ::EFCOKCPFADH
 	{
 	public:

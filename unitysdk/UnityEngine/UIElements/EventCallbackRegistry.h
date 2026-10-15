@@ -14,6 +14,8 @@ namespace UnityEngine::UIElements { class EventCallbackListPool; }
 
 namespace UnityEngine::UIElements
 {
+	inline static constexpr unsigned int EventCallbackRegistry_TypeDefinitionIndex = 5937;
+
 	class EventCallbackRegistry : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace UnityEngine { class Renderer; }
 
 namespace RPG::Client::TAUtils
 {
+	inline static constexpr unsigned int RendererMaterials_TypeDefinitionIndex = 73653;
+
 	class RendererMaterials : public ::System::Object
 	{
 	public:

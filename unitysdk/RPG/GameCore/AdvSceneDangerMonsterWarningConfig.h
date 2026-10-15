@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvSceneDangerMonsterWarningConfig_TypeDefinitionIndex = 17624;
+
 	class AdvSceneDangerMonsterWarningConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

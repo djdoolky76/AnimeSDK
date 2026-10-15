@@ -10,6 +10,8 @@ namespace System { class Object; }
 #define MFOGCFIKANJ__REGISTEREVENTCALLBACK_OFFSET UNITYSDK_OFFSET(0xB9107C0)
 #define MFOGCFIKANJ__UNREGISTEREVENTCALLBACK_OFFSET UNITYSDK_OFFSET(0xB9108D0)
 
+inline static constexpr unsigned int MFOGCFIKANJ_TypeDefinitionIndex = 58885;
+
 	class MFOGCFIKANJ
 	{
 	public:

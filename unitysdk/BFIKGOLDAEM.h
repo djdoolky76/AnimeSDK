@@ -19,6 +19,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define BFIKGOLDAEM_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB165170)
 #define BFIKGOLDAEM_TICK_OFFSET UNITYSDK_OFFSET(0xB164FA0)
 
+inline static constexpr unsigned int BFIKGOLDAEM_TypeDefinitionIndex = 52229;
+
 	class BFIKGOLDAEM
 	{
 	public:

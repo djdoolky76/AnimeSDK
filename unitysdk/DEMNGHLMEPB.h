@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 #define DEMNGHLMEPB_HCLHNCAMGHL_OFFSET UNITYSDK_OFFSET(0xE51A9E0)
 #define DEMNGHLMEPB_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0xE51B410)
 
+inline static constexpr unsigned int DEMNGHLMEPB_TypeDefinitionIndex = 62375;
+
 	class DEMNGHLMEPB : public ::System::Object
 	{
 	public:

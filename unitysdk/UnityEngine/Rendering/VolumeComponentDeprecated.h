@@ -6,6 +6,8 @@
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int VolumeComponentDeprecated_TypeDefinitionIndex = 35616;
+
 	class VolumeComponentDeprecated : public ::System::Attribute
 	{
 	public:

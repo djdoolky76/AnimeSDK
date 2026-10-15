@@ -3,6 +3,8 @@
 #include "unitysdk/UnityEngine/Vector3.h"
 #include "unitysdk/UnityEngine/Vector3Int.h"
 
+inline static constexpr unsigned int KFIKLIHGCCO_NDMPIHNDBLO_TypeDefinitionIndex = 51767;
+
 	struct alignas(4) KFIKLIHGCCO_NDMPIHNDBLO
 	{
 		::UnityEngine::Vector3Int FLFCIEIFIKO; // 0x10

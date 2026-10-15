@@ -31,6 +31,8 @@ namespace System { class String; }
 #define PCPNGFOCOGA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF0C020)
 #define PCPNGFOCOGA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF0C080)
 
+inline static constexpr unsigned int PCPNGFOCOGA_TypeDefinitionIndex = 28987;
+
 	class PCPNGFOCOGA : public ::System::Object
 	{
 	public:

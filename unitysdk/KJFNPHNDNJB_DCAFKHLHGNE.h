@@ -3,6 +3,8 @@
 
 #define KJFNPHNDNJB_DCAFKHLHGNE_CTOR_OFFSET UNITYSDK_OFFSET(0x111F0)
 
+inline static constexpr unsigned int KJFNPHNDNJB_DCAFKHLHGNE_TypeDefinitionIndex = 6184;
+
 	struct alignas(4) KJFNPHNDNJB_DCAFKHLHGNE
 	{
 		::System::Int32 KIGGGJGOIGD; // 0x10

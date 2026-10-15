@@ -15,6 +15,8 @@
 
 namespace UnityEngine::ProBuilder::KdTree::Math
 {
+	inline static constexpr unsigned int FloatMath_TypeDefinitionIndex = 38730;
+
 	class FloatMath
 	{
 	public:

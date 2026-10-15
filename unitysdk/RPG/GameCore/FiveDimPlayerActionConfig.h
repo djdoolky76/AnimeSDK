@@ -10,6 +10,8 @@ namespace RPG::GameCore { class FiveDimPlayerActionConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimPlayerActionConfig_TypeDefinitionIndex = 16666;
+
 	class FiveDimPlayerActionConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

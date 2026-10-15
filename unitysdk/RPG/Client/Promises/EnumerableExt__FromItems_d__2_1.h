@@ -4,6 +4,8 @@
 
 namespace RPG::Client::Promises
 {
+	inline static constexpr unsigned int EnumerableExt__FromItems_d__2_1_TypeDefinitionIndex = 9871;
+
 	template <typename T>
 	class EnumerableExt__FromItems_d__2_1 : public ::System::Object
 	{

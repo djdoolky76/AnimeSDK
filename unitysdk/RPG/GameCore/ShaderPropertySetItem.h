@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ShaderPropertySetItem_TypeDefinitionIndex = 23848;
+
 	class ShaderPropertySetItem : public ::RPG::GameCore::JsonConfig
 	{
 	public:

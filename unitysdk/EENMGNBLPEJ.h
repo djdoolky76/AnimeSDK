@@ -34,6 +34,8 @@ namespace System { class String; }
 #define EENMGNBLPEJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E288DA0)
 #define EENMGNBLPEJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E288E00)
 
+inline static constexpr unsigned int EENMGNBLPEJ_TypeDefinitionIndex = 32539;
+
 	class EENMGNBLPEJ : public ::System::Object
 	{
 	public:

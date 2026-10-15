@@ -33,6 +33,8 @@ namespace System { class String; }
 #define JCHNKGMIFEI_NCOLDMLFHOG_OFFSET UNITYSDK_OFFSET(0x16594520)
 #define JCHNKGMIFEI_NJFNBICAOOB_OFFSET UNITYSDK_OFFSET(0x16593490)
 
+inline static constexpr unsigned int JCHNKGMIFEI_TypeDefinitionIndex = 81908;
+
 	class JCHNKGMIFEI : public ::System::Object
 	{
 	public:

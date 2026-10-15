@@ -10,6 +10,8 @@ namespace RPG::GameCore::Match3 { class StepCondition; }
 
 namespace RPG::GameCore::Match3
 {
+	inline static constexpr unsigned int StepCondition_TypeDefinitionIndex = 24885;
+
 	class StepCondition : public ::RPG::GameCore::Match3::Match3ConditionBase
 	{
 	public:

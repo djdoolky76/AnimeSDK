@@ -7,6 +7,8 @@ class FPNHGPEICOG;
 #define ADGLBEFDICE_CTOR_OFFSET UNITYSDK_OFFSET(0xB138E10)
 #define ADGLBEFDICE_ILOHHJDPDBE_OFFSET UNITYSDK_OFFSET(0xB138A30)
 
+inline static constexpr unsigned int ADGLBEFDICE_TypeDefinitionIndex = 53682;
+
 	class ADGLBEFDICE : public ::System::Object
 	{
 	public:

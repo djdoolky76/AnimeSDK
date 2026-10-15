@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int InfiniteWaveNextMonsterId_TypeDefinitionIndex = 22766;
+
 	class InfiniteWaveNextMonsterId : public ::RPG::GameCore::TaskConfig
 	{
 	public:

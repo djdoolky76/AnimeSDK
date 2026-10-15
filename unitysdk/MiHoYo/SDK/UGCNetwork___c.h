@@ -13,6 +13,8 @@ namespace System::Collections::Generic { class KeyValuePair; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int UGCNetwork___c_TypeDefinitionIndex = 46452;
+
 	class UGCNetwork___c : public ::System::Object
 	{
 	public:

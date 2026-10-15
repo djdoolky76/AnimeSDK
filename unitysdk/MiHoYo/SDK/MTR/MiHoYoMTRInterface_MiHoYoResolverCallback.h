@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::MTR
 {
+	inline static constexpr unsigned int MiHoYoMTRInterface_MiHoYoResolverCallback_TypeDefinitionIndex = 46679;
+
 	class MiHoYoMTRInterface_MiHoYoResolverCallback : public ::System::MulticastDelegate
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class CakeRaceActionTransportToFrontRandomCat; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CakeRaceActionTransportToFrontRandomCat_TypeDefinitionIndex = 18342;
+
 	class CakeRaceActionTransportToFrontRandomCat : public ::RPG::GameCore::CakeRaceActionBase
 	{
 	public:

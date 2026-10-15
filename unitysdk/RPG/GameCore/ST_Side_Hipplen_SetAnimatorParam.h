@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ST_Side_Hipplen_SetAnimatorParam_TypeDefinitionIndex = 21314;
+
 	class ST_Side_Hipplen_SetAnimatorParam : public ::RPG::GameCore::STTaskConfig
 	{
 	public:

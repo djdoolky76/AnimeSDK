@@ -7,6 +7,8 @@
 
 namespace InControl::NativeDeviceProfiles
 {
+	inline static constexpr unsigned int NVidiaShieldWindowsNativeProfile_TypeDefinitionIndex = 41313;
+
 	class NVidiaShieldWindowsNativeProfile : public ::InControl::InputDeviceProfile
 	{
 	public:

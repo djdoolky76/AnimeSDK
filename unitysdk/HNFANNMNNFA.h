@@ -7,6 +7,8 @@
 #define HNFANNMNNFA_CTOR_OFFSET UNITYSDK_OFFSET(0x15D927F0)
 #define HNFANNMNNFA_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0x15D926B0)
 
+inline static constexpr unsigned int HNFANNMNNFA_TypeDefinitionIndex = 77041;
+
 	class HNFANNMNNFA : public ::MPOEEGPIIPA
 	{
 	public:

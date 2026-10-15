@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 #define HKGBEHLFIND_LGEFFBHAHOE_OFFSET UNITYSDK_OFFSET(0x15D43970)
 #define HKGBEHLFIND___TRYPREPAREREFRESHCOROUTINE_B__4_0_OFFSET UNITYSDK_OFFSET(0x15D43A20)
 
+inline static constexpr unsigned int HKGBEHLFIND_TypeDefinitionIndex = 74595;
+
 	class HKGBEHLFIND : public ::System::Object
 	{
 	public:

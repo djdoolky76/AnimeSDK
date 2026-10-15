@@ -27,6 +27,8 @@ namespace System { class Object; }
 #define PNNBOCOENEE_PAICDHFMCGK_OFFSET UNITYSDK_OFFSET(0xC34E670)
 #define PNNBOCOENEE_PLGJCECJAEJ_OFFSET UNITYSDK_OFFSET(0xC34E8D0)
 
+inline static constexpr unsigned int PNNBOCOENEE_TypeDefinitionIndex = 71748;
+
 	class PNNBOCOENEE : public ::FMPCODLIOLG
 	{
 	public:

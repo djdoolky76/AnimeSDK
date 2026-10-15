@@ -7,6 +7,8 @@
 
 namespace RPG::Client::MechCraft::ViewModel
 {
+	inline static constexpr unsigned int MechCraftDiyMechatronTabViewModel_TypeDefinitionIndex = 79612;
+
 	class MechCraftDiyMechatronTabViewModel : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define EKLOIAPFODE_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0x2E73220)
 #define EKLOIAPFODE_LDPGMGLCCPM_OFFSET UNITYSDK_OFFSET(0x2E73200)
 
+inline static constexpr unsigned int EKLOIAPFODE_TypeDefinitionIndex = 73562;
+
 	struct alignas(8) EKLOIAPFODE
 	{
 		::System::Collections::Generic::List_1<::GJEKJAJDBFF>* NOECOCLKGBB; // 0x10

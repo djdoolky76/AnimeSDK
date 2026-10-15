@@ -27,6 +27,8 @@ namespace System { class String; }
 #define CMNLOKDOFEF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E104960)
 #define CMNLOKDOFEF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E1049C0)
 
+inline static constexpr unsigned int CMNLOKDOFEF_TypeDefinitionIndex = 25750;
+
 	class CMNLOKDOFEF : public ::System::Object
 	{
 	public:

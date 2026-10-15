@@ -10,6 +10,8 @@ namespace RPG::GameCore { class SpriteRectOffsetCenterRecord; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SpriteRectOffsetCenterRecord_TypeDefinitionIndex = 24420;
+
 	class SpriteRectOffsetCenterRecord : public ::RPG::GameCore::SpritePresetRecord
 	{
 	public:

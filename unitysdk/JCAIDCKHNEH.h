@@ -11,6 +11,8 @@ namespace System { class Nullable; }
 
 #define JCAIDCKHNEH_CTOR_OFFSET UNITYSDK_OFFSET(0x16577E50)
 
+inline static constexpr unsigned int JCAIDCKHNEH_TypeDefinitionIndex = 57638;
+
 	class JCAIDCKHNEH : public ::HLHIKGINAHB
 	{
 	public:

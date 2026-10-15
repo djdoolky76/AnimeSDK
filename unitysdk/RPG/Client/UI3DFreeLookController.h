@@ -7,6 +7,8 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UI3DFreeLookController_TypeDefinitionIndex = 73003;
+
 	class UI3DFreeLookController : public ::UnityEngine::MonoBehaviour
 	{
 	public:

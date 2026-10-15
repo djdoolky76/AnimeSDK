@@ -9,6 +9,8 @@ namespace System { class String; }
 #define FBGHLFHPPON_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CDCA890)
 #define FBGHLFHPPON_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CDCA840)
 
+inline static constexpr unsigned int FBGHLFHPPON_TypeDefinitionIndex = 24144;
+
 	class FBGHLFHPPON : public ::RPG::GameCore::TaskConfig
 	{
 	public:

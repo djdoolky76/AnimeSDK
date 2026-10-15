@@ -10,6 +10,8 @@ namespace RPG::GameCore { class HeliobusChallengeStageRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int HeliobusChallengeStageRow_TypeDefinitionIndex = 13761;
+
 	class HeliobusChallengeStageRow : public ::System::Object
 	{
 	public:

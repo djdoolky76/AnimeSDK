@@ -5,6 +5,8 @@ namespace RPG::Client::LittleGame::PixAir { class PixAirPlaneStatistics; }
 
 #define MAJHDKCFHBM_CTOR_OFFSET UNITYSDK_OFFSET(0x1C923420)
 
+inline static constexpr unsigned int MAJHDKCFHBM_TypeDefinitionIndex = 43674;
+
 	class MAJHDKCFHBM : public ::System::Object
 	{
 	public:

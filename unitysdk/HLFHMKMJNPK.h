@@ -5,6 +5,8 @@ class PLAGENLANML;
 
 #define HLFHMKMJNPK_CTOR_OFFSET UNITYSDK_OFFSET(0x1CAECBE0)
 
+inline static constexpr unsigned int HLFHMKMJNPK_TypeDefinitionIndex = 42159;
+
 	class HLFHMKMJNPK : public ::System::Object
 	{
 	public:

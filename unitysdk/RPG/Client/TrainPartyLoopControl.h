@@ -11,6 +11,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TrainPartyLoopControl_TypeDefinitionIndex = 60250;
+
 	class TrainPartyLoopControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

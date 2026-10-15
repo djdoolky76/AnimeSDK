@@ -7,6 +7,8 @@ class GOFOGINDKEF;
 #define DLOBBHAJNNJ_CTOR_OFFSET UNITYSDK_OFFSET(0xF8BA530)
 #define DLOBBHAJNNJ_EDAHIKEGCKH_OFFSET UNITYSDK_OFFSET(0xF8BA540)
 
+inline static constexpr unsigned int DLOBBHAJNNJ_TypeDefinitionIndex = 80139;
+
 	class DLOBBHAJNNJ : public ::System::Object
 	{
 	public:

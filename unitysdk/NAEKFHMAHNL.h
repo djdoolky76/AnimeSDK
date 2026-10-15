@@ -6,6 +6,8 @@
 #define NAEKFHMAHNL_CLEAR_OFFSET UNITYSDK_OFFSET(0x1C934990)
 #define NAEKFHMAHNL_CTOR_OFFSET UNITYSDK_OFFSET(0x1C934CD0)
 
+inline static constexpr unsigned int NAEKFHMAHNL_TypeDefinitionIndex = 43359;
+
 	class NAEKFHMAHNL : public ::System::Object
 	{
 	public:

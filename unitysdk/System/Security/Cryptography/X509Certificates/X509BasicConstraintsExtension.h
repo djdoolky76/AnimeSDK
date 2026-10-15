@@ -18,6 +18,8 @@ namespace System::Security::Cryptography { class AsnEncodedData; }
 
 namespace System::Security::Cryptography::X509Certificates
 {
+	inline static constexpr unsigned int X509BasicConstraintsExtension_TypeDefinitionIndex = 2691;
+
 	class X509BasicConstraintsExtension : public ::System::Security::Cryptography::X509Certificates::X509Extension
 	{
 	public:

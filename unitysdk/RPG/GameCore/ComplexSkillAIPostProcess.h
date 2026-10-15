@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ComplexSkillAIPostProcess; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ComplexSkillAIPostProcess_TypeDefinitionIndex = 15559;
+
 	class ComplexSkillAIPostProcess : public ::RPG::GameCore::JsonConfig
 	{
 	public:

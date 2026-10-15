@@ -9,6 +9,8 @@ namespace System { template <typename T> class Predicate_1; }
 #define IBJPMEHJNMA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x15E3CA20)
 #define IBJPMEHJNMA___C__ONTASKBEGIN_B__3_1_OFFSET UNITYSDK_OFFSET(0x15E3CA30)
 
+inline static constexpr unsigned int IBJPMEHJNMA___c_TypeDefinitionIndex = 55750;
+
 	class IBJPMEHJNMA___c : public ::System::Object
 	{
 	public:

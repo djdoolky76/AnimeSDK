@@ -31,6 +31,8 @@ namespace System { class String; }
 #define DDAPICMFDAB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E17A410)
 #define DDAPICMFDAB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E17A470)
 
+inline static constexpr unsigned int DDAPICMFDAB_TypeDefinitionIndex = 30338;
+
 	class DDAPICMFDAB : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define CGFDLPLMLAL_CTOR_OFFSET UNITYSDK_OFFSET(0xCC882F0)
 #define CGFDLPLMLAL_FEOIFJONLCH_OFFSET UNITYSDK_OFFSET(0xCC88060)
 
+inline static constexpr unsigned int CGFDLPLMLAL_TypeDefinitionIndex = 77521;
+
 	class CGFDLPLMLAL : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@
 #define JKLGFGHNKNJ_KIGBILLGNOH_OFFSET UNITYSDK_OFFSET(0xB21FAA0)
 #define JKLGFGHNKNJ_LJOLGCNKIEH_OFFSET UNITYSDK_OFFSET(0xB21FBB0)
 
+inline static constexpr unsigned int JKLGFGHNKNJ_TypeDefinitionIndex = 77099;
+
 	class JKLGFGHNKNJ : public ::GJOFNOCMMKL
 	{
 	public:

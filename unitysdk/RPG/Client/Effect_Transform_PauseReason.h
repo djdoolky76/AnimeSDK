@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Effect_Transform_PauseReason_TypeDefinitionIndex = 70568;
+
 	enum class Effect_Transform_PauseReason : ::System::Int32
 	{
 		TimeRewindPause = 0,

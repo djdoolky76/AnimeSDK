@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int IVROverlay__HandleControllerOverlayInteractionAsMouse_TypeDefinitionIndex = 39110;
+
 	class IVROverlay__HandleControllerOverlayInteractionAsMouse : public ::System::MulticastDelegate
 	{
 	public:

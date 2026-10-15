@@ -10,6 +10,8 @@ namespace RPG::Client::TrainParty { class TrainPartyBuildDIYItem; }
 
 namespace RPG::Client::TrainParty
 {
+	inline static constexpr unsigned int TrainPartyBuildDisplayWallContext_BadgeComparer_TypeDefinitionIndex = 74295;
+
 	class TrainPartyBuildDisplayWallContext_BadgeComparer : public ::System::Object
 	{
 	public:

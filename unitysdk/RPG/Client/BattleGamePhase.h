@@ -259,6 +259,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int BattleGamePhase_TypeDefinitionIndex = 60961;
+
 	class BattleGamePhase : public ::RPG::Client::GamePhase
 	{
 	public:

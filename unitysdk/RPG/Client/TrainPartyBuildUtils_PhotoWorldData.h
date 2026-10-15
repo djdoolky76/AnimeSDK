@@ -4,6 +4,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TrainPartyBuildUtils_PhotoWorldData_TypeDefinitionIndex = 68165;
+
 	struct alignas(4) TrainPartyBuildUtils_PhotoWorldData
 	{
 		::System::UInt32 WorldID; // 0x10

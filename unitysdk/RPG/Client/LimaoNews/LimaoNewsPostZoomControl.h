@@ -29,6 +29,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace RPG::Client::LimaoNews
 {
+	inline static constexpr unsigned int LimaoNewsPostZoomControl_TypeDefinitionIndex = 80409;
+
 	class LimaoNewsPostZoomControl : public ::Sofa::BaseSofaControl
 	{
 	public:

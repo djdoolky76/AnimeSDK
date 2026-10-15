@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StartControlTimeRewindEntity_TypeDefinitionIndex = 20641;
+
 	class StartControlTimeRewindEntity : public ::RPG::GameCore::TaskConfig
 	{
 	public:

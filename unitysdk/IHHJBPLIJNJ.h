@@ -10,6 +10,8 @@ namespace RPG::GameCore { class UnloadLittleGameArea; }
 #define IHHJBPLIJNJ_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1641F400)
 #define IHHJBPLIJNJ_TICK_OFFSET UNITYSDK_OFFSET(0x1641F490)
 
+inline static constexpr unsigned int IHHJBPLIJNJ_TypeDefinitionIndex = 58842;
+
 	class IHHJBPLIJNJ : public ::GELIALJDFBL
 	{
 	public:

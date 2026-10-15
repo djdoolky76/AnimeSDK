@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace RPG::Client::DiceCombat
 {
+	inline static constexpr unsigned int DiceCombatV2PvPScoreData_TypeDefinitionIndex = 76155;
+
 	class DiceCombatV2PvPScoreData : public ::System::Object
 	{
 	public:

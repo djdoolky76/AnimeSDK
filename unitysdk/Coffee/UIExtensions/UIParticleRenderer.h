@@ -47,6 +47,8 @@ namespace UnityEngine { class Texture; }
 
 namespace Coffee::UIExtensions
 {
+	inline static constexpr unsigned int UIParticleRenderer_TypeDefinitionIndex = 45160;
+
 	class UIParticleRenderer : public ::UnityEngine::UI::MaskableGraphic
 	{
 	public:

@@ -27,6 +27,8 @@ namespace System { class String; }
 #define DMPDJIEMJJD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E1F2F30)
 #define DMPDJIEMJJD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E1F2F90)
 
+inline static constexpr unsigned int DMPDJIEMJJD_TypeDefinitionIndex = 28971;
+
 	class DMPDJIEMJJD : public ::System::Object
 	{
 	public:

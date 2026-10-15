@@ -29,6 +29,8 @@ namespace System { class String; }
 #define JEEHGNIBIFE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E716990)
 #define JEEHGNIBIFE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E7169F0)
 
+inline static constexpr unsigned int JEEHGNIBIFE_TypeDefinitionIndex = 26204;
+
 	class JEEHGNIBIFE : public ::System::Object
 	{
 	public:

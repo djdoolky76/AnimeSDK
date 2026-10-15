@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MakeSuccess_TypeDefinitionIndex = 22505;
+
 	class MakeSuccess : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -25,6 +25,8 @@ namespace System { class String; }
 #define DPKAAFLBPAP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E212330)
 #define DPKAAFLBPAP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E212390)
 
+inline static constexpr unsigned int DPKAAFLBPAP_TypeDefinitionIndex = 26693;
+
 	class DPKAAFLBPAP : public ::System::Object
 	{
 	public:

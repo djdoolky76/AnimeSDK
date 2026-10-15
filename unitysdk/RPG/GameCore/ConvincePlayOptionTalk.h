@@ -11,6 +11,8 @@ namespace RPG::GameCore { class OptionTalkInfo; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ConvincePlayOptionTalk_TypeDefinitionIndex = 21845;
+
 	class ConvincePlayOptionTalk : public ::RPG::GameCore::TaskConfig
 	{
 	public:

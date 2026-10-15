@@ -7,6 +7,8 @@
 #define CRPOUTLINEBLURPLUGIN_ONDISABLE_OFFSET UNITYSDK_OFFSET(0xDCDECA0)
 #define CRPOUTLINEBLURPLUGIN_UPDATE_OFFSET UNITYSDK_OFFSET(0xDCDEC20)
 
+inline static constexpr unsigned int CRPOutlineBlurPlugin_TypeDefinitionIndex = 47326;
+
 	class CRPOutlineBlurPlugin : public ::UnityEngine::MonoBehaviour
 	{
 	public:

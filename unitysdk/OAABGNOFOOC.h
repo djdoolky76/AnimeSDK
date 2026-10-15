@@ -19,6 +19,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define OAABGNOFOOC_SET_ACTIVITYREBATEDATADICT_OFFSET UNITYSDK_OFFSET(0xBD16E40)
 #define OAABGNOFOOC__ADDPACKETHANDLERS_OFFSET UNITYSDK_OFFSET(0xBD16470)
 
+inline static constexpr unsigned int OAABGNOFOOC_TypeDefinitionIndex = 61903;
+
 	class OAABGNOFOOC : public ::RPG::Client::BaseModule
 	{
 	public:

@@ -4,6 +4,8 @@
 
 #define AKEOHKIGEHL_CTOR_OFFSET UNITYSDK_OFFSET(0x1C88B160)
 
+inline static constexpr unsigned int AKEOHKIGEHL_TypeDefinitionIndex = 43793;
+
 	class AKEOHKIGEHL : public ::System::Object
 	{
 	public:

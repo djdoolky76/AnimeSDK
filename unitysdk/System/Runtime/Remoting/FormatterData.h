@@ -6,6 +6,8 @@
 
 namespace System::Runtime::Remoting
 {
+	inline static constexpr unsigned int FormatterData_TypeDefinitionIndex = 1216;
+
 	class FormatterData : public ::System::Runtime::Remoting::ProviderData
 	{
 	public:

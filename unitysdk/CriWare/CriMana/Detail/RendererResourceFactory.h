@@ -18,6 +18,8 @@ namespace UnityEngine { class Shader; }
 
 namespace CriWare::CriMana::Detail
 {
+	inline static constexpr unsigned int RendererResourceFactory_TypeDefinitionIndex = 40234;
+
 	class RendererResourceFactory : public ::System::Object
 	{
 	public:

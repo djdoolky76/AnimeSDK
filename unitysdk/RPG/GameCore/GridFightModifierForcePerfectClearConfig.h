@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightModifierForcePerfectClearConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightModifierForcePerfectClearConfig_TypeDefinitionIndex = 19457;
+
 	class GridFightModifierForcePerfectClearConfig : public ::RPG::GameCore::GridFightModifierConfigBase
 	{
 	public:

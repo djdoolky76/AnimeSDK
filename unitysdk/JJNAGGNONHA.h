@@ -25,6 +25,8 @@ namespace System { class String; }
 #define JJNAGGNONHA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E762830)
 #define JJNAGGNONHA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E762890)
 
+inline static constexpr unsigned int JJNAGGNONHA_TypeDefinitionIndex = 34692;
+
 	class JJNAGGNONHA : public ::System::Object
 	{
 	public:

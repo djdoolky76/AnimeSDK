@@ -38,6 +38,8 @@ namespace System { class String; }
 #define FKOIIHNOICH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E3B2B30)
 #define FKOIIHNOICH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E3B2B90)
 
+inline static constexpr unsigned int FKOIIHNOICH_TypeDefinitionIndex = 30120;
+
 	class FKOIIHNOICH : public ::System::Object
 	{
 	public:

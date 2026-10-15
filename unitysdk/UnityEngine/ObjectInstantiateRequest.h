@@ -11,6 +11,8 @@ namespace UnityEngine { class Object; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int ObjectInstantiateRequest_TypeDefinitionIndex = 4329;
+
 	class ObjectInstantiateRequest : public ::UnityEngine::AsyncOperation
 	{
 	public:

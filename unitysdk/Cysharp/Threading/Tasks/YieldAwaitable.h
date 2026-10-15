@@ -9,6 +9,8 @@
 
 namespace Cysharp::Threading::Tasks
 {
+	inline static constexpr unsigned int YieldAwaitable_TypeDefinitionIndex = 38360;
+
 	struct alignas(4) YieldAwaitable
 	{
 		::Cysharp::Threading::Tasks::PlayerLoopTiming timing; // 0x10

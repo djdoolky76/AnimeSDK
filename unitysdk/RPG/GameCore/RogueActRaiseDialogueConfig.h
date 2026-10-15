@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueActRaiseDialogueConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueActRaiseDialogueConfig_TypeDefinitionIndex = 19697;
+
 	class RogueActRaiseDialogueConfig : public ::RPG::GameCore::RogueActionConfigBase
 	{
 	public:

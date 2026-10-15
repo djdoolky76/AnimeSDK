@@ -10,6 +10,8 @@ namespace RPG::Client::StoryToken { class StoryTokenActivityData; }
 #define CBJNAJBBBJC_KHBGONMDCPI_OFFSET UNITYSDK_OFFSET(0xC4AF360)
 #define CBJNAJBBBJC_SET_CURRENTACTIVITYDATA_OFFSET UNITYSDK_OFFSET(0xC4AF400)
 
+inline static constexpr unsigned int CBJNAJBBBJC_TypeDefinitionIndex = 74390;
+
 	class CBJNAJBBBJC : public ::RPG::Client::BaseModule
 	{
 	public:

@@ -9,6 +9,8 @@ namespace RPG::Client { class PlanetFesAvatarData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PlanetFesModule___c__DisplayClass153_0_TypeDefinitionIndex = 66648;
+
 	class PlanetFesModule___c__DisplayClass153_0 : public ::System::Object
 	{
 	public:

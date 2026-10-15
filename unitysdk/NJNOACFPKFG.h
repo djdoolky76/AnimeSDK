@@ -6,6 +6,8 @@ class HGFLBFIKKJG;
 #define NJNOACFPKFG_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xBC27250)
 #define NJNOACFPKFG_CTOR_OFFSET UNITYSDK_OFFSET(0xBC272B0)
 
+inline static constexpr unsigned int NJNOACFPKFG_TypeDefinitionIndex = 73516;
+
 	class NJNOACFPKFG : public ::HGFLBFIKKJG
 	{
 	public:

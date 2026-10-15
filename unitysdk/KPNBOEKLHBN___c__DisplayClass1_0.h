@@ -7,6 +7,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define KPNBOEKLHBN___C__DISPLAYCLASS1_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB5C2BA0)
 #define KPNBOEKLHBN___C__DISPLAYCLASS1_0___GETCANTRACKMISSION_B__0_OFFSET UNITYSDK_OFFSET(0xB5C2C80)
 
+inline static constexpr unsigned int KPNBOEKLHBN___c__DisplayClass1_0_TypeDefinitionIndex = 66179;
+
 	class KPNBOEKLHBN___c__DisplayClass1_0 : public ::System::Object
 	{
 	public:

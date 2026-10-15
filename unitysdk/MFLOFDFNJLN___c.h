@@ -16,6 +16,8 @@ namespace System { template <typename T> class Predicate_1; }
 #define MFLOFDFNJLN___C___CCTOR_B__0_1_OFFSET UNITYSDK_OFFSET(0xB90B8F0)
 #define MFLOFDFNJLN___C___ONBATTLEMODEFINISH_B__22_0_OFFSET UNITYSDK_OFFSET(0xB90BA00)
 
+inline static constexpr unsigned int MFLOFDFNJLN___c_TypeDefinitionIndex = 54258;
+
 	class MFLOFDFNJLN___c : public ::System::Object
 	{
 	public:

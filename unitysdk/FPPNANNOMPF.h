@@ -39,6 +39,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define FPPNANNOMPF_SET_SERVERSTARNUM_OFFSET UNITYSDK_OFFSET(0x15923B90)
 #define FPPNANNOMPF_SET_STARAWARDS_OFFSET UNITYSDK_OFFSET(0x15923C40)
 
+inline static constexpr unsigned int FPPNANNOMPF_TypeDefinitionIndex = 77744;
+
 	class FPPNANNOMPF : public ::System::Object
 	{
 	public:

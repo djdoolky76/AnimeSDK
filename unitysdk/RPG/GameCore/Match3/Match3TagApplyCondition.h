@@ -13,6 +13,8 @@ namespace RPG::GameCore::Match3 { class Match3TagApplyCondition; }
 
 namespace RPG::GameCore::Match3
 {
+	inline static constexpr unsigned int Match3TagApplyCondition_TypeDefinitionIndex = 24938;
+
 	class Match3TagApplyCondition : public ::RPG::GameCore::Match3::Match3ConditionBase
 	{
 	public:

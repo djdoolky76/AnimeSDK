@@ -9,6 +9,8 @@ namespace System { class Object; }
 #define KKOJJCIIKAH___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB4D7490)
 #define KKOJJCIIKAH___C__GETUNSEENINSCHEDULELEVELGROUPIDS_B__2_0_OFFSET UNITYSDK_OFFSET(0xB4D74A0)
 
+inline static constexpr unsigned int KKOJJCIIKAH___c_TypeDefinitionIndex = 82084;
+
 	class KKOJJCIIKAH___c : public ::System::Object
 	{
 	public:

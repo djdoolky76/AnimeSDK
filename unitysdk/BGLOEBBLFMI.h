@@ -30,6 +30,8 @@ namespace System { class String; }
 #define BGLOEBBLFMI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA7CB90)
 #define BGLOEBBLFMI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA7CBF0)
 
+inline static constexpr unsigned int BGLOEBBLFMI_TypeDefinitionIndex = 27363;
+
 	class BGLOEBBLFMI : public ::System::Object
 	{
 	public:

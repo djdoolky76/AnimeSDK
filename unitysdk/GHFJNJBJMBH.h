@@ -11,6 +11,8 @@ namespace System { class Action; }
 #define GHFJNJBJMBH_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x15A1ADF0)
 #define GHFJNJBJMBH_MGFLFCHMGPA_OFFSET UNITYSDK_OFFSET(0x15A1AED0)
 
+inline static constexpr unsigned int GHFJNJBJMBH_TypeDefinitionIndex = 78795;
+
 	class GHFJNJBJMBH : public ::JLCNECHMMNG
 	{
 	public:

@@ -7,6 +7,8 @@ namespace TMPro { class TMP_GlyphPairAdjustmentRecord; }
 
 namespace TMPro
 {
+	inline static constexpr unsigned int GlyphPairKey_TypeDefinitionIndex = 44592;
+
 	struct alignas(4) GlyphPairKey
 	{
 		::System::UInt32 firstGlyphIndex; // 0x10

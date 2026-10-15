@@ -11,6 +11,8 @@ namespace System { class String; }
 #define EFIDOJDHNGJ_OECKNANMMGJ_OFFSET UNITYSDK_OFFSET(0x1C5322D0)
 #define EFIDOJDHNGJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1C52FDD0)
 
+inline static constexpr unsigned int EFIDOJDHNGJ_TypeDefinitionIndex = 41618;
+
 	class EFIDOJDHNGJ : public ::System::Object
 	{
 	public:

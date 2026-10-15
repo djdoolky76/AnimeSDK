@@ -11,6 +11,8 @@ namespace RPG::GameCore { class PerformanceReplay_SetFloorSavedValue; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PerformanceReplay_SetFloorSavedValue_TypeDefinitionIndex = 21851;
+
 	class PerformanceReplay_SetFloorSavedValue : public ::RPG::GameCore::TaskConfig
 	{
 	public:

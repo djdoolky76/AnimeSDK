@@ -74,6 +74,8 @@ namespace System { class String; }
 
 namespace Spine
 {
+	inline static constexpr unsigned int Bone_TypeDefinitionIndex = 39664;
+
 	class Bone : public ::System::Object
 	{
 	public:

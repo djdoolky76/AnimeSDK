@@ -7,6 +7,8 @@
 #define FIVEDIMRENDERINGPANELRUNTIME_GMEDBNAABDC_OFFSET UNITYSDK_OFFSET(0x159321D0)
 #define FIVEDIMRENDERINGPANELRUNTIME_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x15932260)
 
+inline static constexpr unsigned int FiveDimRenderingPanelRuntime_TypeDefinitionIndex = 47123;
+
 	class FiveDimRenderingPanelRuntime : public ::FiveDimRenderingPanel
 	{
 	public:

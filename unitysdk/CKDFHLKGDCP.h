@@ -6,6 +6,8 @@ namespace RPG::GameCore { class ToastPileIgnore; }
 #define CKDFHLKGDCP_CTOR_OFFSET UNITYSDK_OFFSET(0xD756660)
 #define CKDFHLKGDCP_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xD756690)
 
+inline static constexpr unsigned int CKDFHLKGDCP_TypeDefinitionIndex = 53408;
+
 	class CKDFHLKGDCP
 	{
 	public:

@@ -5,6 +5,8 @@ class EKJELNMHMON;
 
 #define HCOMIOFNMBB_CTOR_OFFSET UNITYSDK_OFFSET(0x1CABD0E0)
 
+inline static constexpr unsigned int HCOMIOFNMBB_TypeDefinitionIndex = 43235;
+
 	class HCOMIOFNMBB : public ::System::Object
 	{
 	public:

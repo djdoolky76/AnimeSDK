@@ -5,6 +5,8 @@
 namespace System { class String; }
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
+inline static constexpr unsigned int KFIKLIHGCCO_IGNODHAKPCF_TypeDefinitionIndex = 51771;
+
 	struct alignas(8) KFIKLIHGCCO_IGNODHAKPCF
 	{
 		::KFIKLIHGCCO_NDMPIHNDBLO AHFPFNINMEN; // 0x10

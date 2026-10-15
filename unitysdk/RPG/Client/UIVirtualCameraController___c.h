@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UIVirtualCameraController___c_TypeDefinitionIndex = 69120;
+
 	class UIVirtualCameraController___c : public ::System::Object
 	{
 	public:

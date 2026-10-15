@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace CloudGame::MailBox
 {
+	inline static constexpr unsigned int Mailbox_ReceiveCallbackHandler_TypeDefinitionIndex = 7544;
+
 	class Mailbox_ReceiveCallbackHandler : public ::System::MulticastDelegate
 	{
 	public:

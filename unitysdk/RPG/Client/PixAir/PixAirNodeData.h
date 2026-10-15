@@ -14,6 +14,8 @@ namespace RPG::GameCore { class PixAirNodeRow; }
 
 namespace RPG::Client::PixAir
 {
+	inline static constexpr unsigned int PixAirNodeData_TypeDefinitionIndex = 79362;
+
 	class PixAirNodeData : public ::System::Object
 	{
 	public:

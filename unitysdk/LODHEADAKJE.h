@@ -8,6 +8,8 @@ class LODHEADAKJE;
 #define LODHEADAKJE_CTOR_OFFSET UNITYSDK_OFFSET(0x1D120640)
 #define LODHEADAKJE_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D120510)
 
+inline static constexpr unsigned int LODHEADAKJE_TypeDefinitionIndex = 15138;
+
 	class LODHEADAKJE : public ::System::Object
 	{
 	public:

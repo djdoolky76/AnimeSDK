@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ChenLingBattleAirMotionConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChenLingBattleAirMotionConfig_TypeDefinitionIndex = 15747;
+
 	class ChenLingBattleAirMotionConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

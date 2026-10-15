@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueTournCurseChestType_TypeDefinitionIndex = 15045;
+
 	enum class RogueTournCurseChestType : ::System::Int32
 	{
 		None = 0,

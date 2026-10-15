@@ -6,6 +6,8 @@
 #define KIINGLGGILD_SET_ISSHOW_OFFSET UNITYSDK_OFFSET(0x14EC0)
 #define KIINGLGGILD_SET_RATIO_OFFSET UNITYSDK_OFFSET(0x14EA0)
 
+inline static constexpr unsigned int KIINGLGGILD_TypeDefinitionIndex = 71661;
+
 	struct alignas(4) KIINGLGGILD
 	{
 		::System::Single _Ratio_k__BackingField; // 0x10

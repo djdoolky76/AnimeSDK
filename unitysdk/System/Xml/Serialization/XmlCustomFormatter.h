@@ -14,6 +14,8 @@ namespace System::Xml::Serialization { class TypeData; }
 
 namespace System::Xml::Serialization
 {
+	inline static constexpr unsigned int XmlCustomFormatter_TypeDefinitionIndex = 2006;
+
 	class XmlCustomFormatter : public ::System::Object
 	{
 	public:

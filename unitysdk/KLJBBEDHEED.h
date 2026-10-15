@@ -32,6 +32,8 @@ namespace System { class String; }
 #define KLJBBEDHEED_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E88DDD0)
 #define KLJBBEDHEED_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E88DE30)
 
+inline static constexpr unsigned int KLJBBEDHEED_TypeDefinitionIndex = 28119;
+
 	class KLJBBEDHEED : public ::System::Object
 	{
 	public:

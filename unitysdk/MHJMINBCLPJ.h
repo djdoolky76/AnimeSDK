@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define MHJMINBCLPJ_CONVERT_OFFSET UNITYSDK_OFFSET(0x1CC93F20)
 #define MHJMINBCLPJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC93EF0)
 
+inline static constexpr unsigned int MHJMINBCLPJ_TypeDefinitionIndex = 43892;
+
 	class MHJMINBCLPJ : public ::System::Object
 	{
 	public:

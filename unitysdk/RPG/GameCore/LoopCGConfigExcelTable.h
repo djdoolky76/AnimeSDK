@@ -28,6 +28,8 @@ namespace ZLinq { class ValueEnumerable; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LoopCGConfigExcelTable_TypeDefinitionIndex = 15417;
+
 	class LoopCGConfigExcelTable : public ::System::Object
 	{
 	public:

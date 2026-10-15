@@ -13,6 +13,8 @@ namespace System::Text { class UnicodeEncoding; }
 
 namespace System::Text
 {
+	inline static constexpr unsigned int UnicodeEncoding_Decoder_TypeDefinitionIndex = 501;
+
 	class UnicodeEncoding_Decoder : public ::System::Text::DecoderNLS
 	{
 	public:

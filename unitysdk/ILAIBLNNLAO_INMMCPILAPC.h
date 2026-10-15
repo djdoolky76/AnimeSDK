@@ -13,6 +13,8 @@ namespace UnityEngine { class GameObject; }
 #define ILAIBLNNLAO_INMMCPILAPC_NFEPONECGEG_OFFSET UNITYSDK_OFFSET(0x164A3940)
 #define ILAIBLNNLAO_INMMCPILAPC_OPOEHBJODHH_OFFSET UNITYSDK_OFFSET(0x164A3B70)
 
+inline static constexpr unsigned int ILAIBLNNLAO_INMMCPILAPC_TypeDefinitionIndex = 60625;
+
 	class ILAIBLNNLAO_INMMCPILAPC : public ::System::Object
 	{
 	public:

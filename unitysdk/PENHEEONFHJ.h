@@ -29,6 +29,8 @@ namespace System { class String; }
 #define PENHEEONFHJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF1EA20)
 #define PENHEEONFHJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF1EA80)
 
+inline static constexpr unsigned int PENHEEONFHJ_TypeDefinitionIndex = 27906;
+
 	class PENHEEONFHJ : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ class JBFGHNLMEDI;
 #define IGMDENONKPF_CTOR_OFFSET UNITYSDK_OFFSET(0x16411400)
 #define IGMDENONKPF_OKPLPEELPBC_OFFSET UNITYSDK_OFFSET(0x16411410)
 
+inline static constexpr unsigned int IGMDENONKPF_TypeDefinitionIndex = 76424;
+
 	class IGMDENONKPF : public ::HALHKJLBIKJ
 	{
 	public:

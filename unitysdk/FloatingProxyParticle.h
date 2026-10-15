@@ -6,6 +6,8 @@
 #define FLOATINGPROXYPARTICLE_MFDJHAAOODM_OFFSET UNITYSDK_OFFSET(0x159330D0)
 #define FLOATINGPROXYPARTICLE_OGPDIJFMIHM_OFFSET UNITYSDK_OFFSET(0x15933D10)
 
+inline static constexpr unsigned int FloatingProxyParticle_TypeDefinitionIndex = 47491;
+
 	struct alignas(4) FloatingProxyParticle
 	{
 		::UnityEngine::Vector4 posRadius; // 0x10

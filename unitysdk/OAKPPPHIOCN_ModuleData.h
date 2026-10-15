@@ -12,6 +12,8 @@ namespace UnityEngine { class Mesh; }
 #define OAKPPPHIOCN_MODULEDATA_GGHBHGIICEF_OFFSET UNITYSDK_OFFSET(0x22AF0)
 #define OAKPPPHIOCN_MODULEDATA_SET_SUBMESHINDEX_OFFSET UNITYSDK_OFFSET(0x22AD0)
 
+inline static constexpr unsigned int OAKPPPHIOCN_ModuleData_TypeDefinitionIndex = 48867;
+
 	struct alignas(8) OAKPPPHIOCN_ModuleData
 	{
 		::UnityEngine::GameObject* TargetModule; // 0x10

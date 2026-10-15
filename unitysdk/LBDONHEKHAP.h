@@ -16,6 +16,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define LBDONHEKHAP_SET_OWNER_OFFSET UNITYSDK_OFFSET(0xB5F8C10)
 #define LBDONHEKHAP_SET_PREV_OFFSET UNITYSDK_OFFSET(0xB5F8BC0)
 
+inline static constexpr unsigned int LBDONHEKHAP_TypeDefinitionIndex = 53788;
+
 	class LBDONHEKHAP
 	{
 	public:

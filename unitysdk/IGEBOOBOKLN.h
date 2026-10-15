@@ -6,6 +6,8 @@ class DBINFHLNODE;
 #define IGEBOOBOKLN_CTOR_OFFSET UNITYSDK_OFFSET(0x1C6D5350)
 #define IGEBOOBOKLN_MLKLPMJEHPF_OFFSET UNITYSDK_OFFSET(0x1C6D5360)
 
+inline static constexpr unsigned int IGEBOOBOKLN_TypeDefinitionIndex = 36324;
+
 	class IGEBOOBOKLN : public ::AJBKGPOEBFG
 	{
 	public:

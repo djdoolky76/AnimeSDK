@@ -149,6 +149,8 @@ namespace UnityEngine::Playables { class PlayableDirector; }
 
 namespace RPG::Client::DiceCombat
 {
+	inline static constexpr unsigned int DiceCombatUtil_TypeDefinitionIndex = 76097;
+
 	class DiceCombatUtil : public ::System::Object
 	{
 	public:

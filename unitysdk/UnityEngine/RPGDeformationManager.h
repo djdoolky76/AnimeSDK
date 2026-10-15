@@ -14,6 +14,8 @@ namespace UnityEngine { class Renderer; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int RPGDeformationManager_TypeDefinitionIndex = 4278;
+
 	class RPGDeformationManager : public ::System::Object
 	{
 	public:

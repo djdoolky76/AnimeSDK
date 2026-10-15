@@ -8,6 +8,8 @@ class MFLJIEBFMOF;
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoDanmuController_DCOAMONKOKM_TypeDefinitionIndex = 68948;
+
 	struct alignas(8) MonoDanmuController_DCOAMONKOKM
 	{
 		::MFLJIEBFMOF* _ContentData_k__BackingField; // 0x10

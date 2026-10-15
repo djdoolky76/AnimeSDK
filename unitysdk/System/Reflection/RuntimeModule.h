@@ -6,6 +6,8 @@
 
 namespace System::Reflection
 {
+	inline static constexpr unsigned int RuntimeModule_TypeDefinitionIndex = 625;
+
 	class RuntimeModule : public ::System::Reflection::Module
 	{
 	public:

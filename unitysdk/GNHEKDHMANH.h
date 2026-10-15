@@ -18,6 +18,8 @@ namespace UnityEngine::UI { class Image; }
 #define GNHEKDHMANH_NLMKFNDDHNN_OFFSET UNITYSDK_OFFSET(0x15B0A180)
 #define GNHEKDHMANH__ONBIND_OFFSET UNITYSDK_OFFSET(0x15B09D40)
 
+inline static constexpr unsigned int GNHEKDHMANH_TypeDefinitionIndex = 71458;
+
 	class GNHEKDHMANH : public ::FMPCODLIOLG
 	{
 	public:

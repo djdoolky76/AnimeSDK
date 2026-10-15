@@ -18,6 +18,8 @@ namespace UnityEngine { class Transform; }
 #define HKIMBNBAGJA_NNOFFBBODFG_OFFSET UNITYSDK_OFFSET(0x15D47C20)
 #define HKIMBNBAGJA_PNBCOIKPMEA_OFFSET UNITYSDK_OFFSET(0x15D477F0)
 
+inline static constexpr unsigned int HKIMBNBAGJA_TypeDefinitionIndex = 74080;
+
 	class HKIMBNBAGJA : public ::System::Object
 	{
 	public:

@@ -33,6 +33,8 @@ namespace System { class String; }
 #define OELHAMANGBN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE2DA80)
 #define OELHAMANGBN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DE2DAE0)
 
+inline static constexpr unsigned int OELHAMANGBN_TypeDefinitionIndex = 25124;
+
 	class OELHAMANGBN : public ::System::Object
 	{
 	public:

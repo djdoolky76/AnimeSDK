@@ -27,6 +27,8 @@ namespace System { class String; }
 #define BIHACLHMAKO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE02980)
 #define BIHACLHMAKO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DE029E0)
 
+inline static constexpr unsigned int BIHACLHMAKO_TypeDefinitionIndex = 33288;
+
 	class BIHACLHMAKO : public ::System::Object
 	{
 	public:

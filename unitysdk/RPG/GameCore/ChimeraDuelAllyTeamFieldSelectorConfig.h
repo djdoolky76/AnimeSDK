@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ChimeraDuelAllyTeamFieldSelectorConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChimeraDuelAllyTeamFieldSelectorConfig_TypeDefinitionIndex = 15939;
+
 	class ChimeraDuelAllyTeamFieldSelectorConfig : public ::RPG::GameCore::BaseChimeraDuelEntitiesSelectorConfig
 	{
 	public:

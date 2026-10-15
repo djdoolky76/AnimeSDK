@@ -33,6 +33,8 @@ class PNADGAFDGPL;
 #define ADLGBJAOFPD__ONBIND_OFFSET UNITYSDK_OFFSET(0xB144710)
 #define ADLGBJAOFPD__ONTICK_OFFSET UNITYSDK_OFFSET(0xB144980)
 
+inline static constexpr unsigned int ADLGBJAOFPD_TypeDefinitionIndex = 71214;
+
 	class ADLGBJAOFPD : public ::FMPCODLIOLG
 	{
 	public:

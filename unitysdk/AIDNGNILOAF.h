@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define AIDNGNILOAF_DGNJHLIELNK_OFFSET UNITYSDK_OFFSET(0xEBA19D0)
 #define AIDNGNILOAF_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0xEBA1940)
 
+inline static constexpr unsigned int AIDNGNILOAF_TypeDefinitionIndex = 72941;
+
 	class AIDNGNILOAF : public ::System::Object
 	{
 	public:

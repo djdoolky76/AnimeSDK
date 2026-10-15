@@ -3,6 +3,8 @@
 
 namespace System::Diagnostics::Tracing
 {
+	inline static constexpr unsigned int ControllerCommand_TypeDefinitionIndex = 1680;
+
 	enum class ControllerCommand : ::System::Int32
 	{
 		Update = 0,

@@ -6,6 +6,8 @@ namespace RPG::GameCore { class PlayScreenTransfer; }
 #define IILCHDOMOME___C__DISPLAYCLASS9_0_CTOR_OFFSET UNITYSDK_OFFSET(0x16449240)
 #define IILCHDOMOME___C__DISPLAYCLASS9_0___UIOPENLOBBYPAGE_B__0_OFFSET UNITYSDK_OFFSET(0x16449960)
 
+inline static constexpr unsigned int IILCHDOMOME___c__DisplayClass9_0_TypeDefinitionIndex = 66046;
+
 	class IILCHDOMOME___c__DisplayClass9_0 : public ::System::Object
 	{
 	public:

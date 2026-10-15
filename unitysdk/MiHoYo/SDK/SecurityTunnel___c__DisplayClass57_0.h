@@ -7,6 +7,8 @@ namespace MiHoYo::SDK { class SecurityTunnel_Packet; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int SecurityTunnel___c__DisplayClass57_0_TypeDefinitionIndex = 46424;
+
 	class SecurityTunnel___c__DisplayClass57_0 : public ::System::Object
 	{
 	public:

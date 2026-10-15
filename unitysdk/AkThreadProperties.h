@@ -17,6 +17,8 @@ class AkThreadProperties;
 #define AKTHREADPROPERTIES_SET_NPRIORITY_OFFSET UNITYSDK_OFFSET(0x1F60FE10)
 #define AKTHREADPROPERTIES_SET_USTACKSIZE_OFFSET UNITYSDK_OFFSET(0x1F6100F0)
 
+inline static constexpr unsigned int AkThreadProperties_TypeDefinitionIndex = 44805;
+
 	class AkThreadProperties : public ::System::Object
 	{
 	public:

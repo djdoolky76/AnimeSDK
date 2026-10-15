@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetEffectAnimatorSyncWithTimeLine_TypeDefinitionIndex = 22455;
+
 	class SetEffectAnimatorSyncWithTimeLine : public ::RPG::GameCore::TaskConfig
 	{
 	public:

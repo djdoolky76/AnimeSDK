@@ -4,6 +4,8 @@
 
 #define CAKHIMADICA_CTOR_OFFSET UNITYSDK_OFFSET(0xC487A80)
 
+inline static constexpr unsigned int CAKHIMADICA_TypeDefinitionIndex = 74029;
+
 	class CAKHIMADICA
 	{
 	public:

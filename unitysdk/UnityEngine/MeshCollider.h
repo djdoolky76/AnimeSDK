@@ -20,6 +20,8 @@ namespace UnityEngine { class Mesh; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int MeshCollider_TypeDefinitionIndex = 5316;
+
 	class MeshCollider : public ::UnityEngine::Collider
 	{
 	public:

@@ -20,6 +20,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueMagicScepterSelectAction_TypeDefinitionIndex = 67008;
+
 	class RogueMagicScepterSelectAction : public ::System::Object
 	{
 	public:

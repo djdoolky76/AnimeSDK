@@ -8,6 +8,8 @@ class JLEOGCMFHAF;
 #define JLEOGCMFHAF_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D045F60)
 #define JLEOGCMFHAF_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D045E90)
 
+inline static constexpr unsigned int JLEOGCMFHAF_TypeDefinitionIndex = 10197;
+
 	class JLEOGCMFHAF : public ::RPG::GameCore::TaskConfig
 	{
 	public:

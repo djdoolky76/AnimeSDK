@@ -21,6 +21,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChimeraRankSwapController_TypeDefinitionIndex = 72477;
+
 	class ChimeraRankSwapController : public ::UnityEngine::MonoBehaviour
 	{
 	public:

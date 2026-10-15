@@ -8,6 +8,8 @@ namespace RPG::GameCore { class ItemDisplaySortNewRow; }
 #define MKPNBONJIOI_GNADABFLEFM_OFFSET UNITYSDK_OFFSET(0xB9A48F0)
 #define MKPNBONJIOI_ICOAJPNNGPA_OFFSET UNITYSDK_OFFSET(0xB9A49F0)
 
+inline static constexpr unsigned int MKPNBONJIOI_TypeDefinitionIndex = 65736;
+
 	class MKPNBONJIOI : public ::JFMOKAKOEEJ
 	{
 	public:

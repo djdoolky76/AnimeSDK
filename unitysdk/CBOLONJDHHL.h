@@ -42,6 +42,8 @@ namespace System { class String; }
 #define CBOLONJDHHL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E0707F0)
 #define CBOLONJDHHL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E070850)
 
+inline static constexpr unsigned int CBOLONJDHHL_TypeDefinitionIndex = 33296;
+
 	class CBOLONJDHHL : public ::System::Object
 	{
 	public:

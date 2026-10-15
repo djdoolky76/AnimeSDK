@@ -3,6 +3,8 @@
 
 namespace RPG::Client::MechCraft::ViewModel
 {
+	inline static constexpr unsigned int MechCraftChipMoldFilterItemType_TypeDefinitionIndex = 79520;
+
 	enum class MechCraftChipMoldFilterItemType : ::System::Int32
 	{
 		Attribute = 0,

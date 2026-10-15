@@ -4,6 +4,8 @@
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
+	inline static constexpr unsigned int B2Counters_TypeDefinitionIndex = 36638;
+
 	struct alignas(8) B2Counters
 	{
 		::System::Int32 bodyCount; // 0x10

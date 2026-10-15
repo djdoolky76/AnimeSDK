@@ -8,6 +8,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CameraSomatoDynamicAnchorOffset_TypeDefinitionIndex = 69728;
+
 	class CameraSomatoDynamicAnchorOffset : public ::System::Object
 	{
 	public:

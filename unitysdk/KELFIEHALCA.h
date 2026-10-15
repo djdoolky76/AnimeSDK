@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define KELFIEHALCA__ONTASKBEGIN_B__2_0_OFFSET UNITYSDK_OFFSET(0xB37D1B0)
 #define KELFIEHALCA__ONTASKBEGIN_B__2_1_OFFSET UNITYSDK_OFFSET(0xB37D390)
 
+inline static constexpr unsigned int KELFIEHALCA_TypeDefinitionIndex = 53271;
+
 	class KELFIEHALCA : public ::GELIALJDFBL
 	{
 	public:

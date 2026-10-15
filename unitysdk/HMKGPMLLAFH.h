@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define HMKGPMLLAFH_CTOR_OFFSET UNITYSDK_OFFSET(0x15D86230)
 #define HMKGPMLLAFH_HNPLDOJBMDN_OFFSET UNITYSDK_OFFSET(0x15D86490)
 
+inline static constexpr unsigned int HMKGPMLLAFH_TypeDefinitionIndex = 80218;
+
 	class HMKGPMLLAFH : public ::System::Object
 	{
 	public:

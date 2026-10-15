@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int HideEntityInActionBarByDelay_TypeDefinitionIndex = 22949;
+
 	class HideEntityInActionBarByDelay : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -5,6 +5,8 @@
 
 #define NGJMKABFEJE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C960D20)
 
+inline static constexpr unsigned int NGJMKABFEJE_TypeDefinitionIndex = 42264;
+
 	class NGJMKABFEJE : public ::System::Object
 	{
 	public:

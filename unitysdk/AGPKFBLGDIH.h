@@ -31,6 +31,8 @@ namespace System { class String; }
 #define AGPKFBLGDIH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E26AC90)
 #define AGPKFBLGDIH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E26ACF0)
 
+inline static constexpr unsigned int AGPKFBLGDIH_TypeDefinitionIndex = 28277;
+
 	class AGPKFBLGDIH : public ::System::Object
 	{
 	public:

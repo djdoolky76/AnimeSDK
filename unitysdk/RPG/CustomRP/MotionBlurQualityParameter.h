@@ -5,6 +5,8 @@
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int MotionBlurQualityParameter_TypeDefinitionIndex = 37831;
+
 	class MotionBlurQualityParameter
 	{
 	public:

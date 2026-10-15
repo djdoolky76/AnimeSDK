@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TriggerPamActionPhaseAction; }
 #define MLJICMPJOHO_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB9B19C0)
 #define MLJICMPJOHO_TICK_OFFSET UNITYSDK_OFFSET(0xB9B1A10)
 
+inline static constexpr unsigned int MLJICMPJOHO_TypeDefinitionIndex = 58978;
+
 	class MLJICMPJOHO : public ::GELIALJDFBL
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System { class String; }
 #define GLPPDCIBMIH_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x1C647690)
 #define GLPPDCIBMIH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1C6477D0)
 
+inline static constexpr unsigned int GLPPDCIBMIH_TypeDefinitionIndex = 36194;
+
 	class GLPPDCIBMIH : public ::System::Object
 	{
 	public:

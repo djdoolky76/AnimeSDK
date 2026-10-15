@@ -15,6 +15,8 @@ namespace System { class String; }
 #define ECLJBIPJELP_PDMDDFIEALL_OFFSET UNITYSDK_OFFSET(0x12D13370)
 #define ECLJBIPJELP_TICK_OFFSET UNITYSDK_OFFSET(0x12D13310)
 
+inline static constexpr unsigned int ECLJBIPJELP_TypeDefinitionIndex = 58663;
+
 	class ECLJBIPJELP : public ::GELIALJDFBL
 	{
 	public:

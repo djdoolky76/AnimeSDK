@@ -29,6 +29,8 @@ namespace System { class String; }
 #define IJGHPCECLIF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E693410)
 #define IJGHPCECLIF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E693470)
 
+inline static constexpr unsigned int IJGHPCECLIF_TypeDefinitionIndex = 27005;
+
 	class IJGHPCECLIF : public ::System::Object
 	{
 	public:

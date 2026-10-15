@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ShowGuideDetailDialog_TypeDefinitionIndex = 24348;
+
 	class ShowGuideDetailDialog : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -106,6 +106,8 @@ namespace UnityEngine { class Transform; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int ParticleSystem_CollisionModule_TypeDefinitionIndex = 5244;
+
 	struct alignas(8) ParticleSystem_CollisionModule
 	{
 		::UnityEngine::ParticleSystem* m_ParticleSystem; // 0x10

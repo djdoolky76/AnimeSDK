@@ -5,6 +5,8 @@ namespace System { class Action; }
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriManaVp9___O_TypeDefinitionIndex = 40203;
+
 	class CriManaVp9___O : public ::System::Object
 	{
 	public:

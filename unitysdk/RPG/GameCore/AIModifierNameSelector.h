@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AIModifierNameSelector_TypeDefinitionIndex = 15597;
+
 	class AIModifierNameSelector : public ::RPG::GameCore::AISelector
 	{
 	public:

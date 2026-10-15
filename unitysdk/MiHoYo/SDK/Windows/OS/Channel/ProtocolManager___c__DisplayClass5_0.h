@@ -12,6 +12,8 @@ namespace System { class Action; }
 
 namespace MiHoYo::SDK::Windows::OS::Channel
 {
+	inline static constexpr unsigned int ProtocolManager___c__DisplayClass5_0_TypeDefinitionIndex = 8372;
+
 	class ProtocolManager___c__DisplayClass5_0 : public ::System::Object
 	{
 	public:

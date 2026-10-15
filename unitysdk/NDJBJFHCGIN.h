@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define NDJBJFHCGIN_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBB4AA70)
 #define NDJBJFHCGIN_TICK_OFFSET UNITYSDK_OFFSET(0xBB4A9B0)
 
+inline static constexpr unsigned int NDJBJFHCGIN_TypeDefinitionIndex = 52137;
+
 	class NDJBJFHCGIN
 	{
 	public:

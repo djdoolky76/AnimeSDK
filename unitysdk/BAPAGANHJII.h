@@ -6,6 +6,8 @@
 #define BAPAGANHJII_CTOR_OFFSET UNITYSDK_OFFSET(0x15E7F9E0)
 #define BAPAGANHJII_INTERP_OFFSET UNITYSDK_OFFSET(0x15E7FAD0)
 
+inline static constexpr unsigned int BAPAGANHJII_TypeDefinitionIndex = 74024;
+
 	class BAPAGANHJII
 	{
 	public:

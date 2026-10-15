@@ -15,6 +15,8 @@ namespace UnityEngine { class Mesh; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_GeometryUtility_TypeDefinitionIndex = 40641;
+
 	class HEU_GeometryUtility : public ::System::Object
 	{
 	public:

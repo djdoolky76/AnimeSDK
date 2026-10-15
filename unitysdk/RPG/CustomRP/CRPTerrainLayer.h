@@ -9,6 +9,8 @@ namespace UnityEngine { class Texture2D; }
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int CRPTerrainLayer_TypeDefinitionIndex = 37722;
+
 	class CRPTerrainLayer : public ::UnityEngine::ScriptableObject
 	{
 	public:

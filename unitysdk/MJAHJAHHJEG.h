@@ -32,6 +32,8 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 #define MJAHJAHHJEG_NIFEPGPLKLD_OFFSET UNITYSDK_OFFSET(0x1DD727F0)
 #define MJAHJAHHJEG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3C4CF20)
 
+inline static constexpr unsigned int MJAHJAHHJEG_TypeDefinitionIndex = 6280;
+
 	struct alignas(4) MJAHJAHHJEG
 	{
 		::RPG::MVector2 EFNAJMADAHM; // 0x10

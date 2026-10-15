@@ -3,6 +3,8 @@
 
 namespace UnityEngine::Windows::Speech
 {
+	inline static constexpr unsigned int DictationCompletionCause_TypeDefinitionIndex = 4445;
+
 	enum class DictationCompletionCause : ::System::Int32
 	{
 		Complete = 0,

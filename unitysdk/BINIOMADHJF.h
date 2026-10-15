@@ -10,6 +10,8 @@ namespace RPG::GameCore { class StageVolumeComponentData; }
 #define BINIOMADHJF_MIJGMJAHHDO_OFFSET UNITYSDK_OFFSET(0xB7940C0)
 #define BINIOMADHJF_NDGDDODNDMP_OFFSET UNITYSDK_OFFSET(0xB7941F0)
 
+inline static constexpr unsigned int BINIOMADHJF_TypeDefinitionIndex = 73988;
+
 	class BINIOMADHJF : public ::ANDHCEBLPON
 	{
 	public:

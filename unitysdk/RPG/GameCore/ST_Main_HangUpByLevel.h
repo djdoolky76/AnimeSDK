@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ST_Main_HangUpByLevel; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ST_Main_HangUpByLevel_TypeDefinitionIndex = 20116;
+
 	class ST_Main_HangUpByLevel : public ::RPG::GameCore::STTaskConfig
 	{
 	public:

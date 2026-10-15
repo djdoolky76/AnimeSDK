@@ -6,6 +6,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int YieldInstruction_TypeDefinitionIndex = 4371;
+
 	class YieldInstruction : public ::System::Object
 	{
 	public:

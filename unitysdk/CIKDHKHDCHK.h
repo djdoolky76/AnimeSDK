@@ -19,6 +19,8 @@ namespace System { class String; }
 #define CIKDHKHDCHK_OLCABJODKHN_OFFSET UNITYSDK_OFFSET(0x1DC17590)
 #define CIKDHKHDCHK_PCIDGLJOGAP_OFFSET UNITYSDK_OFFSET(0x1DC17440)
 
+inline static constexpr unsigned int CIKDHKHDCHK_TypeDefinitionIndex = 10379;
+
 	class CIKDHKHDCHK : public ::System::Object
 	{
 	public:

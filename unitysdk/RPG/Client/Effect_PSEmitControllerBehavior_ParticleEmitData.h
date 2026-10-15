@@ -4,6 +4,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Effect_PSEmitControllerBehavior_ParticleEmitData_TypeDefinitionIndex = 70517;
+
 	struct alignas(4) Effect_PSEmitControllerBehavior_ParticleEmitData
 	{
 		::UnityEngine::Vector3 Position; // 0x10

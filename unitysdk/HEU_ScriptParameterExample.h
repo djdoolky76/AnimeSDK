@@ -6,6 +6,8 @@ namespace UnityEngine { class GameObject; }
 
 #define HEU_SCRIPTPARAMETEREXAMPLE_CTOR_OFFSET UNITYSDK_OFFSET(0x1B8C34B0)
 
+inline static constexpr unsigned int HEU_ScriptParameterExample_TypeDefinitionIndex = 40353;
+
 	class HEU_ScriptParameterExample : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -8,6 +8,8 @@ namespace UnityEngine { class Transform; }
 #define MBFPBFGODJH_IAMCNOAAALI_OFFSET UNITYSDK_OFFSET(0xB85A910)
 #define MBFPBFGODJH_JCKGONAAIPB_OFFSET UNITYSDK_OFFSET(0xB85A960)
 
+inline static constexpr unsigned int MBFPBFGODJH_TypeDefinitionIndex = 71643;
+
 	class MBFPBFGODJH : public ::LBAMBIMMJKB
 	{
 	public:

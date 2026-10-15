@@ -12,6 +12,8 @@ namespace UnityEngine { class Transform; }
 #define DNCOLDFBNMD_IGKLKLJCMBI_OFFSET UNITYSDK_OFFSET(0x11940E70)
 #define DNCOLDFBNMD_LJOLGCNKIEH_OFFSET UNITYSDK_OFFSET(0x11941040)
 
+inline static constexpr unsigned int DNCOLDFBNMD_TypeDefinitionIndex = 76545;
+
 	class DNCOLDFBNMD : public ::MKHNMHOHEAK
 	{
 	public:

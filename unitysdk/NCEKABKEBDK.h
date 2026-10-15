@@ -23,6 +23,8 @@ namespace System { class Object; }
 #define NCEKABKEBDK_SET_TARGETREVENUE_OFFSET UNITYSDK_OFFSET(0xBB0A8B0)
 #define NCEKABKEBDK__GET_ENABLECHANGECOMMAND_B__11_0_OFFSET UNITYSDK_OFFSET(0xBB0AF00)
 
+inline static constexpr unsigned int NCEKABKEBDK_TypeDefinitionIndex = 79633;
+
 	class NCEKABKEBDK : public ::System::Object
 	{
 	public:

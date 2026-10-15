@@ -19,6 +19,8 @@ namespace System::Collections { class IList; }
 #define GNIGKPBJFOO_DGHCJNGOCLP_HILFMNDKAOB_OFFSET UNITYSDK_OFFSET(0x15B115B0)
 #define GNIGKPBJFOO_DGHCJNGOCLP_ICIFMFBBKPK_OFFSET UNITYSDK_OFFSET(0x15B11B20)
 
+inline static constexpr unsigned int GNIGKPBJFOO_DGHCJNGOCLP_TypeDefinitionIndex = 67338;
+
 	class GNIGKPBJFOO_DGHCJNGOCLP : public ::System::Object
 	{
 	public:

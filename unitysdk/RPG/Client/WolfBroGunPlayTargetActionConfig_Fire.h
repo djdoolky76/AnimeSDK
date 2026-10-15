@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int WolfBroGunPlayTargetActionConfig_Fire_TypeDefinitionIndex = 68713;
+
 	class WolfBroGunPlayTargetActionConfig_Fire : public ::RPG::Client::WolfBroGunPlayTargetActionConfig
 	{
 	public:

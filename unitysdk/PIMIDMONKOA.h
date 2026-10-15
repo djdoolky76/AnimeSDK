@@ -17,6 +17,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define PIMIDMONKOA_OMNLHPMGJCF_OFFSET UNITYSDK_OFFSET(0xC270ED0)
 #define PIMIDMONKOA_SET_INDEX_OFFSET UNITYSDK_OFFSET(0xC271480)
 
+inline static constexpr unsigned int PIMIDMONKOA_TypeDefinitionIndex = 60693;
+
 	class PIMIDMONKOA : public ::System::Object
 	{
 	public:

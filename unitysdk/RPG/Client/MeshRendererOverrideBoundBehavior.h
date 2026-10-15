@@ -18,6 +18,8 @@ namespace UnityEngine { class MeshRenderer; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MeshRendererOverrideBoundBehavior_TypeDefinitionIndex = 70677;
+
 	class MeshRendererOverrideBoundBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:

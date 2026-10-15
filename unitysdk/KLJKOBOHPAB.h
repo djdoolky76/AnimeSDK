@@ -35,6 +35,8 @@ namespace System { class String; }
 #define KLJKOBOHPAB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E88E970)
 #define KLJKOBOHPAB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E88E9D0)
 
+inline static constexpr unsigned int KLJKOBOHPAB_TypeDefinitionIndex = 26868;
+
 	class KLJKOBOHPAB : public ::System::Object
 	{
 	public:

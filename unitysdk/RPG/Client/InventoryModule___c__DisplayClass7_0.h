@@ -8,6 +8,8 @@ namespace RPG::Client { class ItemData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int InventoryModule___c__DisplayClass7_0_TypeDefinitionIndex = 65688;
+
 	class InventoryModule___c__DisplayClass7_0 : public ::System::Object
 	{
 	public:

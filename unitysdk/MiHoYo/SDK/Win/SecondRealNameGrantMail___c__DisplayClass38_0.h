@@ -9,6 +9,8 @@ namespace MiHoYo::SDK::Win { class SecondRealNameGrantMail; }
 
 namespace MiHoYo::SDK::Win
 {
+	inline static constexpr unsigned int SecondRealNameGrantMail___c__DisplayClass38_0_TypeDefinitionIndex = 9522;
+
 	class SecondRealNameGrantMail___c__DisplayClass38_0 : public ::System::Object
 	{
 	public:

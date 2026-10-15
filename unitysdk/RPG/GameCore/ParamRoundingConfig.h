@@ -12,6 +12,8 @@ namespace RPG::GameCore { class ParamRoundingConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ParamRoundingConfig_TypeDefinitionIndex = 17086;
+
 	class ParamRoundingConfig : public ::RPG::GameCore::MiParameterConfigBase
 	{
 	public:

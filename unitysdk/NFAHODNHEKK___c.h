@@ -17,6 +17,8 @@ namespace System::Collections::Generic { class KeyValuePair; }
 #define NFAHODNHEKK___C__ONENTERFIGHTENDSHOW_B__24_1_OFFSET UNITYSDK_OFFSET(0x1C792F50)
 #define NFAHODNHEKK___C___TRYADDSPECIALEFFECTFORVOTE_B__15_0_OFFSET UNITYSDK_OFFSET(0x1C792EE0)
 
+inline static constexpr unsigned int NFAHODNHEKK___c_TypeDefinitionIndex = 37317;
+
 	class NFAHODNHEKK___c : public ::System::Object
 	{
 	public:

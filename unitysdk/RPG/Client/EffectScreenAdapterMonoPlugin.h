@@ -7,6 +7,8 @@ namespace RPG::Client { class TransformScreenAdapter; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int EffectScreenAdapterMonoPlugin_TypeDefinitionIndex = 70420;
+
 	class EffectScreenAdapterMonoPlugin
 	{
 	public:

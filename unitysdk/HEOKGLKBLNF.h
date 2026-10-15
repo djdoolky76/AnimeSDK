@@ -4,6 +4,8 @@
 
 #define HEOKGLKBLNF_CTOR_OFFSET UNITYSDK_OFFSET(0x1C664D80)
 
+inline static constexpr unsigned int HEOKGLKBLNF_TypeDefinitionIndex = 36434;
+
 	class HEOKGLKBLNF : public ::System::Object
 	{
 	public:

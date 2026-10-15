@@ -15,6 +15,8 @@
 
 namespace System::Numerics
 {
+	inline static constexpr unsigned int ConstantHelper_TypeDefinitionIndex = 3856;
+
 	class ConstantHelper : public ::System::Object
 	{
 	public:

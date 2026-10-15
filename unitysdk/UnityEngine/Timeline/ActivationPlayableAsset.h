@@ -12,6 +12,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace UnityEngine::Timeline
 {
+	inline static constexpr unsigned int ActivationPlayableAsset_TypeDefinitionIndex = 38765;
+
 	class ActivationPlayableAsset : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

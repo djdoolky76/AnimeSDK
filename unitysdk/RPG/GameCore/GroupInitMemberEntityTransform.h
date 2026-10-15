@@ -11,6 +11,8 @@ namespace RPG::GameCore { class GroupInitMemberEntityTransform; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GroupInitMemberEntityTransform_TypeDefinitionIndex = 20736;
+
 	class GroupInitMemberEntityTransform : public ::RPG::GameCore::TaskConfig
 	{
 	public:

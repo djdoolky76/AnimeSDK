@@ -9,6 +9,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define GEBKNJHOMFD_CTOR_OFFSET UNITYSDK_OFFSET(0x159C6610)
 #define GEBKNJHOMFD_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x159C6640)
 
+inline static constexpr unsigned int GEBKNJHOMFD_TypeDefinitionIndex = 55224;
+
 	class GEBKNJHOMFD
 	{
 	public:

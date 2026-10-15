@@ -31,6 +31,8 @@ namespace System { class String; }
 #define JEBGFIJPAPG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E713300)
 #define JEBGFIJPAPG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E713360)
 
+inline static constexpr unsigned int JEBGFIJPAPG_TypeDefinitionIndex = 34798;
+
 	class JEBGFIJPAPG : public ::System::Object
 	{
 	public:

@@ -14,6 +14,8 @@ namespace UnityEngine::EventSystems { class PointerEventData; }
 
 namespace Cysharp::Threading::Tasks::Triggers
 {
+	inline static constexpr unsigned int AsyncPointerClickTrigger_TypeDefinitionIndex = 38635;
+
 	class AsyncPointerClickTrigger
 	{
 	public:

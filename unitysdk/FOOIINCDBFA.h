@@ -129,6 +129,8 @@ namespace UnityEngine::AI { class NavMesh_OnNavMeshChanged; }
 #define FOOIINCDBFA_POJLLDIPGPA_OFFSET UNITYSDK_OFFSET(0x15902D30)
 #define FOOIINCDBFA_TICK_OFFSET UNITYSDK_OFFSET(0x15903080)
 
+inline static constexpr unsigned int FOOIINCDBFA_TypeDefinitionIndex = 57121;
+
 	class FOOIINCDBFA : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

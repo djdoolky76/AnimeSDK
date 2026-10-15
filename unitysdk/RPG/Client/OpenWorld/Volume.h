@@ -34,6 +34,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client::OpenWorld
 {
+	inline static constexpr unsigned int Volume_TypeDefinitionIndex = 73991;
+
 	class Volume : public ::RPG::Client::OpenWorld::VolumeBase
 	{
 	public:

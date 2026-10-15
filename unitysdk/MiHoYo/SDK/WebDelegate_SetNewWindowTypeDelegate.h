@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int WebDelegate_SetNewWindowTypeDelegate_TypeDefinitionIndex = 7838;
+
 	class WebDelegate_SetNewWindowTypeDelegate : public ::System::MulticastDelegate
 	{
 	public:

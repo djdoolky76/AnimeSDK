@@ -6,6 +6,8 @@ namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 namespace UnityEngine { class Transform; }
 
+inline static constexpr unsigned int CFFLDIIKKNM_TypeDefinitionIndex = 49740;
+
 	class CFFLDIIKKNM : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int MaxFloatParameter_TypeDefinitionIndex = 35637;
+
 	class MaxFloatParameter : public ::UnityEngine::Rendering::FloatParameter
 	{
 	public:

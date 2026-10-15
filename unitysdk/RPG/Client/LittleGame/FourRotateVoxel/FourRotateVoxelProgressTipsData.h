@@ -23,6 +23,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::LittleGame::FourRotateVoxel
 {
+	inline static constexpr unsigned int FourRotateVoxelProgressTipsData_TypeDefinitionIndex = 76830;
+
 	class FourRotateVoxelProgressTipsData : public ::System::Object
 	{
 	public:

@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ProjectileBGCurveExportData_SectionExportData_TypeDefinitionIndex = 70143;
+
 	class ProjectileBGCurveExportData_SectionExportData : public ::System::Object
 	{
 	public:

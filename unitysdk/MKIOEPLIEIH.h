@@ -653,6 +653,8 @@ namespace RPG::GameCore { class PredicateConfig; }
 #define MKIOEPLIEIH_PPLBIKOMAKM_OFFSET UNITYSDK_OFFSET(0x1D1C6670)
 #define MKIOEPLIEIH_PPNLCGIJONG_OFFSET UNITYSDK_OFFSET(0x1D1C0D60)
 
+inline static constexpr unsigned int MKIOEPLIEIH_TypeDefinitionIndex = 23739;
+
 	class MKIOEPLIEIH : public ::System::Object
 	{
 	public:

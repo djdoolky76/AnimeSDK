@@ -21,6 +21,8 @@
 
 namespace RPG::Client::SwordTraining
 {
+	inline static constexpr unsigned int SwordTrainingGameRecordInfo_TypeDefinitionIndex = 75056;
+
 	class SwordTrainingGameRecordInfo : public ::System::Object
 	{
 	public:

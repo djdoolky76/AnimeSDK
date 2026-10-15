@@ -8,6 +8,8 @@ class OIKDEOMMOAM;
 #define NCPHEBGHOFC_CLEAR_OFFSET UNITYSDK_OFFSET(0xBB1DC30)
 #define NCPHEBGHOFC_CTOR_OFFSET UNITYSDK_OFFSET(0xBB1DCF0)
 
+inline static constexpr unsigned int NCPHEBGHOFC_TypeDefinitionIndex = 54015;
+
 	class NCPHEBGHOFC : public ::System::Object
 	{
 	public:

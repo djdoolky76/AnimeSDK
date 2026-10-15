@@ -7,6 +7,8 @@ namespace UnityEngine { class LightmapData; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int LightmapSettings_TypeDefinitionIndex = 4128;
+
 	class LightmapSettings : public ::UnityEngine::Object
 	{
 	public:

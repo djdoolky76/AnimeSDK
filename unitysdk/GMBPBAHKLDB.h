@@ -10,6 +10,8 @@ namespace System { class Object; }
 #define GMBPBAHKLDB_INVOKE_OFFSET UNITYSDK_OFFSET(0x15ACA410)
 #define GMBPBAHKLDB_SET_MUTED_OFFSET UNITYSDK_OFFSET(0x15ACA3F0)
 
+inline static constexpr unsigned int GMBPBAHKLDB_TypeDefinitionIndex = 73142;
+
 	class GMBPBAHKLDB : public ::System::Object
 	{
 	public:

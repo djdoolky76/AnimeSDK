@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int StageBlockSceneLayer_TypeDefinitionIndex = 69510;
+
 	enum class StageBlockSceneLayer : ::System::Int32
 	{
 		Unknown = 0,

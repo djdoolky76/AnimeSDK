@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightModifierBackRoleDisplayChangeBeforeBatt
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightModifierBackRoleDisplayChangeBeforeBattleConfig_TypeDefinitionIndex = 19493;
+
 	class GridFightModifierBackRoleDisplayChangeBeforeBattleConfig : public ::RPG::GameCore::GridFightModifierConfigBase
 	{
 	public:

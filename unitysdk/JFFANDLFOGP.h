@@ -27,6 +27,8 @@ namespace System { class String; }
 #define JFFANDLFOGP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E7294E0)
 #define JFFANDLFOGP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E729540)
 
+inline static constexpr unsigned int JFFANDLFOGP_TypeDefinitionIndex = 30875;
+
 	class JFFANDLFOGP : public ::System::Object
 	{
 	public:

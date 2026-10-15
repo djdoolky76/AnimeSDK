@@ -14,6 +14,8 @@ namespace System { class Object; }
 
 namespace RPG::Client::DiceCombat
 {
+	inline static constexpr unsigned int DiceCombatV2SideBarToastMessage_TypeDefinitionIndex = 76211;
+
 	class DiceCombatV2SideBarToastMessage : public ::System::Object
 	{
 	public:

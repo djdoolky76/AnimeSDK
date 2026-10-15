@@ -67,6 +67,8 @@ namespace RPG::GameCore { class MarbleGameConfig; }
 #define NEEEGIBFDEA_PKIECNGABBJ_OFFSET UNITYSDK_OFFSET(0x1C952D10)
 #define NEEEGIBFDEA_PNJNHMANPHP_OFFSET UNITYSDK_OFFSET(0x1C952380)
 
+inline static constexpr unsigned int NEEEGIBFDEA_TypeDefinitionIndex = 42192;
+
 	class NEEEGIBFDEA : public ::HLFHMKMJNPK
 	{
 	public:

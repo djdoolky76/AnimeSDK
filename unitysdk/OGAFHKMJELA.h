@@ -43,6 +43,8 @@ namespace System { class String; }
 #define OGAFHKMJELA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE4E0F0)
 #define OGAFHKMJELA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DE4E150)
 
+inline static constexpr unsigned int OGAFHKMJELA_TypeDefinitionIndex = 34808;
+
 	class OGAFHKMJELA : public ::System::Object
 	{
 	public:

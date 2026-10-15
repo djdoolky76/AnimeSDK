@@ -3,6 +3,8 @@
 
 namespace RPG::Client::MechCraft
 {
+	inline static constexpr unsigned int MechCraftAttributeType_TypeDefinitionIndex = 41642;
+
 	enum class MechCraftAttributeType : ::System::Int32
 	{
 		None = 0,

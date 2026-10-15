@@ -12,6 +12,8 @@ namespace UnityEngine::Timeline { class TimelineClip; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int SimpleBlackMaskTrack_TypeDefinitionIndex = 48308;
+
 	class SimpleBlackMaskTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
 	public:

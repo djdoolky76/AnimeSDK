@@ -4,6 +4,8 @@
 
 #define AHFJABLPNFI_CTOR_OFFSET UNITYSDK_OFFSET(0x16F0)
 
+inline static constexpr unsigned int AHFJABLPNFI_TypeDefinitionIndex = 62141;
+
 	struct alignas(4) AHFJABLPNFI
 	{
 		::UnityEngine::Vector3 FJMCLOIEMKG; // 0x10

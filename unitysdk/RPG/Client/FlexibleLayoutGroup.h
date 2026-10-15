@@ -26,6 +26,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FlexibleLayoutGroup_TypeDefinitionIndex = 72533;
+
 	class FlexibleLayoutGroup : public ::UnityEngine::UI::LayoutGroup
 	{
 	public:

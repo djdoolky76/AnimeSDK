@@ -4,6 +4,8 @@
 
 #define MFGPOKOCFCJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1C925460)
 
+inline static constexpr unsigned int MFGPOKOCFCJ_TypeDefinitionIndex = 43679;
+
 	class MFGPOKOCFCJ : public ::System::Object
 	{
 	public:

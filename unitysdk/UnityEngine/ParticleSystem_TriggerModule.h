@@ -38,6 +38,8 @@ namespace UnityEngine { class ParticleSystem; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int ParticleSystem_TriggerModule_TypeDefinitionIndex = 5245;
+
 	struct alignas(8) ParticleSystem_TriggerModule
 	{
 		::UnityEngine::ParticleSystem* m_ParticleSystem; // 0x10

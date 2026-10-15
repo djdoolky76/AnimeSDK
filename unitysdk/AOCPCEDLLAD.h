@@ -5,6 +5,8 @@
 
 #define AOCPCEDLLAD_CTOR_OFFSET UNITYSDK_OFFSET(0x158A67D0)
 
+inline static constexpr unsigned int AOCPCEDLLAD_TypeDefinitionIndex = 57557;
+
 	class AOCPCEDLLAD : public ::System::Object
 	{
 	public:

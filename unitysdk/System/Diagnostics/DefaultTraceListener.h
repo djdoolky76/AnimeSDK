@@ -20,6 +20,8 @@ namespace System { class String; }
 
 namespace System::Diagnostics
 {
+	inline static constexpr unsigned int DefaultTraceListener_TypeDefinitionIndex = 2555;
+
 	class DefaultTraceListener : public ::System::Diagnostics::TraceListener
 	{
 	public:

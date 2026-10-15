@@ -150,6 +150,8 @@ namespace UnityEngine { class RectTransform; }
 #define MADHNHEMBOJ_SET_SKILLPREVIEWREMOVECACHE_OFFSET UNITYSDK_OFFSET(0xB849550)
 #define MADHNHEMBOJ_SET_TOTALHEIGHT_OFFSET UNITYSDK_OFFSET(0xB8493B0)
 
+inline static constexpr unsigned int MADHNHEMBOJ_TypeDefinitionIndex = 71203;
+
 	class MADHNHEMBOJ : public ::System::Object
 	{
 	public:

@@ -3,6 +3,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int RenderMode_TypeDefinitionIndex = 6024;
+
 	enum class RenderMode : ::System::Int32
 	{
 		ScreenSpaceOverlay = 0,

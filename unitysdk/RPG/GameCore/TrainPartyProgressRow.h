@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TrainPartyProgressRow_TypeDefinitionIndex = 15307;
+
 	class TrainPartyProgressRow : public ::System::Object
 	{
 	public:

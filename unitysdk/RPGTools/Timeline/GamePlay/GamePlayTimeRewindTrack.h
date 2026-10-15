@@ -12,6 +12,8 @@ namespace UnityEngine::Timeline { class TimelineClip; }
 
 namespace RPGTools::Timeline::GamePlay
 {
+	inline static constexpr unsigned int GamePlayTimeRewindTrack_TypeDefinitionIndex = 48655;
+
 	class GamePlayTimeRewindTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
 	public:

@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 
 namespace Newtonsoft::Json::Linq
 {
+	inline static constexpr unsigned int JProperty_JPropertyList_TypeDefinitionIndex = 9788;
+
 	class JProperty_JPropertyList : public ::System::Object
 	{
 	public:

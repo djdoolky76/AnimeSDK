@@ -8,6 +8,8 @@ namespace UnityEngine::Timeline { class TimelineClip; }
 
 namespace Spine::Unity::Playables
 {
+	inline static constexpr unsigned int SpineAnimationStateBehaviour_TypeDefinitionIndex = 45907;
+
 	class SpineAnimationStateBehaviour : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

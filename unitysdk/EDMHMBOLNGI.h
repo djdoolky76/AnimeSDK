@@ -12,6 +12,8 @@ namespace System { class Object; }
 #define EDMHMBOLNGI_HGHFKLCGJLP_OFFSET UNITYSDK_OFFSET(0x1332B460)
 #define EDMHMBOLNGI_IIOIMDJJEDG_OFFSET UNITYSDK_OFFSET(0x1332B5E0)
 
+inline static constexpr unsigned int EDMHMBOLNGI_TypeDefinitionIndex = 75458;
+
 	class EDMHMBOLNGI : public ::System::Object
 	{
 	public:

@@ -37,6 +37,8 @@ namespace UnityEngine::UI { template <typename T> class ObjectPool_1; }
 
 namespace UnityEngine::UI
 {
+	inline static constexpr unsigned int LayoutRebuilder_TypeDefinitionIndex = 6784;
+
 	class LayoutRebuilder : public ::System::Object
 	{
 	public:

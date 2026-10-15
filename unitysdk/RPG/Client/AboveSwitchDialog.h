@@ -28,6 +28,8 @@ namespace RPG::Client { class MonoAboveSwitch; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AboveSwitchDialog_TypeDefinitionIndex = 73103;
+
 	class AboveSwitchDialog : public ::RPG::Client::UIController
 	{
 	public:

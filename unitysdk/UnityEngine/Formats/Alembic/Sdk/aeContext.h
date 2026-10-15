@@ -16,6 +16,8 @@ namespace UnityEngine::Formats::Alembic::Sdk { class AlembicExportOptions; }
 
 namespace UnityEngine::Formats::Alembic::Sdk
 {
+	inline static constexpr unsigned int aeContext_TypeDefinitionIndex = 45789;
+
 	struct alignas(4) aeContext
 	{
 		::System::IntPtr self; // 0x10

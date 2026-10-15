@@ -9,6 +9,8 @@ namespace System::ComponentModel { class PropertyChangedEventHandler; }
 
 namespace Sofa::Core
 {
+	inline static constexpr unsigned int ObservableDictionary_2_TypeDefinitionIndex = 44105;
+
 	template <typename T1, typename T2>
 	class ObservableDictionary_2 : public ::System::Object
 	{

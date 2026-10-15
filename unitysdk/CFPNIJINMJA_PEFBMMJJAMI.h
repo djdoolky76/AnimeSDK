@@ -27,6 +27,8 @@ namespace System::Text { class StringBuilder; }
 #define CFPNIJINMJA_PEFBMMJJAMI_TOSTRING_OFFSET UNITYSDK_OFFSET(0xCC61040)
 #define CFPNIJINMJA_PEFBMMJJAMI__CLONE___OFFSET UNITYSDK_OFFSET(0xCC61EE0)
 
+inline static constexpr unsigned int CFPNIJINMJA_PEFBMMJJAMI_TypeDefinitionIndex = 81608;
+
 	class CFPNIJINMJA_PEFBMMJJAMI : public ::System::Object
 	{
 	public:

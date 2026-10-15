@@ -12,6 +12,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int DiceCombatOutOfBattleDiceModel_TypeDefinitionIndex = 63563;
+
 	class DiceCombatOutOfBattleDiceModel : public ::System::Object
 	{
 	public:

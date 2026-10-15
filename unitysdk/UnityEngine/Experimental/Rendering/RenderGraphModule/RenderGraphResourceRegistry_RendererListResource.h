@@ -7,6 +7,8 @@
 
 namespace UnityEngine::Experimental::Rendering::RenderGraphModule
 {
+	inline static constexpr unsigned int RenderGraphResourceRegistry_RendererListResource_TypeDefinitionIndex = 35467;
+
 	struct alignas(4) RenderGraphResourceRegistry_RendererListResource
 	{
 		::UnityEngine::Experimental::Rendering::RendererListDesc desc; // 0x10

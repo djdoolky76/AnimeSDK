@@ -12,6 +12,8 @@ namespace RPG::GameCore { class ShowSkillTextDialog; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ShowSkillTextDialog_TypeDefinitionIndex = 22934;
+
 	class ShowSkillTextDialog : public ::RPG::GameCore::TaskConfig
 	{
 	public:

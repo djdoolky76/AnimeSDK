@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define GPLMMPJLOIH_CTOR_OFFSET UNITYSDK_OFFSET(0x15B60130)
 #define GPLMMPJLOIH_GKAIEDGLJGF_OFFSET UNITYSDK_OFFSET(0x15B60140)
 
+inline static constexpr unsigned int GPLMMPJLOIH_TypeDefinitionIndex = 57932;
+
 	class GPLMMPJLOIH : public ::NJIOAKCLACC
 	{
 	public:

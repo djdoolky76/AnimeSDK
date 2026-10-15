@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define DEHBFNOEMIF_CTOR_OFFSET UNITYSDK_OFFSET(0xE50BD40)
 #define DEHBFNOEMIF_HGLDMFDHEBF_OFFSET UNITYSDK_OFFSET(0xE50BF50)
 
+inline static constexpr unsigned int DEHBFNOEMIF_TypeDefinitionIndex = 62745;
+
 	class DEHBFNOEMIF : public ::System::Object
 	{
 	public:

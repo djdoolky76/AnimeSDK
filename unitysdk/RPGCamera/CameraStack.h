@@ -15,6 +15,8 @@ namespace RPGCamera { class ICameraState; }
 
 namespace RPGCamera
 {
+	inline static constexpr unsigned int CameraStack_TypeDefinitionIndex = 45934;
+
 	class CameraStack : public ::System::Object
 	{
 	public:

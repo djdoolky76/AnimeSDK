@@ -11,6 +11,8 @@ namespace System { class String; }
 #define ECAOILCPKLA_SET_PACKEDARGS_OFFSET UNITYSDK_OFFSET(0xF3690)
 #define ECAOILCPKLA_SET_SERVERTICK_OFFSET UNITYSDK_OFFSET(0x3C29F10)
 
+inline static constexpr unsigned int ECAOILCPKLA_TypeDefinitionIndex = 36893;
+
 	struct alignas(8) ECAOILCPKLA
 	{
 		::BNFNLAHMAND DKHNNMHCBPJ; // 0x10

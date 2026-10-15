@@ -23,6 +23,8 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace RPG::Client::TAUtils
 {
+	inline static constexpr unsigned int Vector4AnimationCurve_TypeDefinitionIndex = 73645;
+
 	class Vector4AnimationCurve : public ::System::Object
 	{
 	public:

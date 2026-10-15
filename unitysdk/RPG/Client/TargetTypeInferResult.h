@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TargetTypeInferResult_TypeDefinitionIndex = 59665;
+
 	enum class TargetTypeInferResult : ::System::Int32
 	{
 		None = 0,

@@ -7,6 +7,8 @@ namespace RPG::Client { class MonoEffect; }
 #define EAPGFKLGCDH_DPDJBAPAJPK_OFFSET UNITYSDK_OFFSET(0x2306160)
 #define EAPGFKLGCDH_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0x23061C0)
 
+inline static constexpr unsigned int EAPGFKLGCDH_TypeDefinitionIndex = 69921;
+
 	struct alignas(8) EAPGFKLGCDH
 	{
 		::System::UInt32 GDBJDAOOCOH; // 0x10

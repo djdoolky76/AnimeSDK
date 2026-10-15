@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define DOELBKLNLIM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E1FF250)
 #define DOELBKLNLIM___C___CCTOR_B__38_0_OFFSET UNITYSDK_OFFSET(0x1E1FF260)
 
+inline static constexpr unsigned int DOELBKLNLIM___c_TypeDefinitionIndex = 28964;
+
 	class DOELBKLNLIM___c : public ::System::Object
 	{
 	public:

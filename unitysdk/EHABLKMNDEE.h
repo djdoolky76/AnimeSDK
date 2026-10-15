@@ -5,6 +5,8 @@
 
 #define EHABLKMNDEE_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA50500)
 
+inline static constexpr unsigned int EHABLKMNDEE_TypeDefinitionIndex = 42150;
+
 	class EHABLKMNDEE : public ::System::Object
 	{
 	public:

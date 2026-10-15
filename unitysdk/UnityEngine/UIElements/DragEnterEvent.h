@@ -7,6 +7,8 @@
 
 namespace UnityEngine::UIElements
 {
+	inline static constexpr unsigned int DragEnterEvent_TypeDefinitionIndex = 5924;
+
 	class DragEnterEvent
 	{
 	public:

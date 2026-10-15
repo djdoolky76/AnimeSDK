@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define FBMNOIKPIDE_CTOR_OFFSET UNITYSDK_OFFSET(0x156A8280)
 #define FBMNOIKPIDE_EVALUATE_OFFSET UNITYSDK_OFFSET(0x156A82B0)
 
+inline static constexpr unsigned int FBMNOIKPIDE_TypeDefinitionIndex = 54905;
+
 	class FBMNOIKPIDE
 	{
 	public:

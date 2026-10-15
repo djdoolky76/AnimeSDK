@@ -36,6 +36,8 @@ namespace System { class String; }
 #define OIJHAJAIFFH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE71090)
 #define OIJHAJAIFFH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DE710F0)
 
+inline static constexpr unsigned int OIJHAJAIFFH_TypeDefinitionIndex = 25661;
+
 	class OIJHAJAIFFH : public ::System::Object
 	{
 	public:

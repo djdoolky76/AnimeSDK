@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int PropertyNameUtils_TypeDefinitionIndex = 4247;
+
 	class PropertyNameUtils : public ::System::Object
 	{
 	public:

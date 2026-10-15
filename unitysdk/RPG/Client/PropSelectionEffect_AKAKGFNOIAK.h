@@ -15,6 +15,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PropSelectionEffect_AKAKGFNOIAK_TypeDefinitionIndex = 60262;
+
 	class PropSelectionEffect_AKAKGFNOIAK : public ::RPG::Client::PropSelectionEffect_KJOFIEKBODK
 	{
 	public:

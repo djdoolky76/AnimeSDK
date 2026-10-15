@@ -11,6 +11,8 @@ namespace UnityEngine { class ComputeBuffer; }
 
 namespace UnityEngine::Formats::Alembic::Importer
 {
+	inline static constexpr unsigned int AlembicPointsRenderer___c_TypeDefinitionIndex = 45885;
+
 	class AlembicPointsRenderer___c : public ::System::Object
 	{
 	public:

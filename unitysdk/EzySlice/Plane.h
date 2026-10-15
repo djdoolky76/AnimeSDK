@@ -20,6 +20,8 @@ namespace UnityEngine { class Transform; }
 
 namespace EzySlice
 {
+	inline static constexpr unsigned int Plane_TypeDefinitionIndex = 46998;
+
 	struct alignas(4) Plane
 	{
 		::UnityEngine::Vector3 m_normal; // 0x10

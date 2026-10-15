@@ -10,6 +10,8 @@ namespace System { class Action; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MarbleBattleTurnUpdateNotify_TypeDefinitionIndex = 65824;
+
 	class MarbleBattleTurnUpdateNotify : public ::System::Object
 	{
 	public:

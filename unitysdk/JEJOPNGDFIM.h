@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define JEJOPNGDFIM_CTOR_OFFSET UNITYSDK_OFFSET(0x1662EB30)
 #define JEJOPNGDFIM_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1662EB60)
 
+inline static constexpr unsigned int JEJOPNGDFIM_TypeDefinitionIndex = 53134;
+
 	class JEJOPNGDFIM
 	{
 	public:

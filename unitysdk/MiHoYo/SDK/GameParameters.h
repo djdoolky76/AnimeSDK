@@ -6,6 +6,8 @@
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int GameParameters_TypeDefinitionIndex = 7575;
+
 	class GameParameters : public ::System::Object
 	{
 	public:

@@ -64,6 +64,8 @@ namespace System { class String; }
 #define MIPGDFDCKLE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA41A90)
 #define MIPGDFDCKLE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA41AF0)
 
+inline static constexpr unsigned int MIPGDFDCKLE_TypeDefinitionIndex = 33339;
+
 	class MIPGDFDCKLE : public ::System::Object
 	{
 	public:

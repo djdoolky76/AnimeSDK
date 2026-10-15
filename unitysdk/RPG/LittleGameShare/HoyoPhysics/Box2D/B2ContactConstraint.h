@@ -7,6 +7,8 @@
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
+	inline static constexpr unsigned int B2ContactConstraint_TypeDefinitionIndex = 36619;
+
 	struct alignas(8) B2ContactConstraint
 	{
 		::System::Int32 indexA; // 0x10

@@ -28,6 +28,8 @@ namespace System { class String; }
 #define CJLCPMDGIBO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E0E3100)
 #define CJLCPMDGIBO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E0E3160)
 
+inline static constexpr unsigned int CJLCPMDGIBO_TypeDefinitionIndex = 25301;
+
 	class CJLCPMDGIBO : public ::System::Object
 	{
 	public:

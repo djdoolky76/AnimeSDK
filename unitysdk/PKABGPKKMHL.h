@@ -45,6 +45,8 @@ namespace UnityEngine { class GameObject; }
 #define PKABGPKKMHL__BNEEDCHECKSTREAMING_OFFSET UNITYSDK_OFFSET(0xC2A8A40)
 #define PKABGPKKMHL__SOLVEINSTANCELODCALC_OFFSET UNITYSDK_OFFSET(0xC2A9040)
 
+inline static constexpr unsigned int PKABGPKKMHL_TypeDefinitionIndex = 73852;
+
 	class PKABGPKKMHL : public ::GDMONJOAKHD
 	{
 	public:

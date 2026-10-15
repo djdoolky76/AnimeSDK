@@ -6,6 +6,8 @@ class KPILLBAALJO;
 
 #define BAKAMEFHCHA_JOKCJKOHIAJ_OFFSET UNITYSDK_OFFSET(0x15E71080)
 
+inline static constexpr unsigned int BAKAMEFHCHA_TypeDefinitionIndex = 77296;
+
 	class BAKAMEFHCHA : public ::System::Object
 	{
 	public:

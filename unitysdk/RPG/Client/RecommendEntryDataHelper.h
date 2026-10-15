@@ -7,6 +7,8 @@ namespace RPG::Client { class RecommendEntryDataRepository; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RecommendEntryDataHelper_TypeDefinitionIndex = 66805;
+
 	class RecommendEntryDataHelper : public ::System::Object
 	{
 	public:

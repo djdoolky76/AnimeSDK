@@ -32,6 +32,8 @@ namespace UnityEngine { class Transform; }
 #define FDPCDGOJKNK_OOCLHEECAAM_OFFSET UNITYSDK_OFFSET(0x156E2EC0)
 #define FDPCDGOJKNK_PLOCPDHDFKF_OFFSET UNITYSDK_OFFSET(0x156E24C0)
 
+inline static constexpr unsigned int FDPCDGOJKNK_TypeDefinitionIndex = 60332;
+
 	class FDPCDGOJKNK : public ::System::Object
 	{
 	public:

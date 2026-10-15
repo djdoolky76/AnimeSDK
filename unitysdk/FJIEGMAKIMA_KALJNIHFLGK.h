@@ -6,6 +6,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define FJIEGMAKIMA_KALJNIHFLGK_EGFCFCBHJJP_OFFSET UNITYSDK_OFFSET(0x2E76ED0)
 #define FJIEGMAKIMA_KALJNIHFLGK_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x2E76EC0)
 
+inline static constexpr unsigned int FJIEGMAKIMA_KALJNIHFLGK_TypeDefinitionIndex = 60232;
+
 	struct alignas(8) FJIEGMAKIMA_KALJNIHFLGK
 	{
 		::System::Collections::Generic::List_1<::RPG::GameCore::TrainPartyPerformance*>* GPBAGJPKIHJ; // 0x10

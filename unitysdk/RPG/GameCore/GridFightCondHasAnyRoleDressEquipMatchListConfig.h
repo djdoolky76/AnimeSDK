@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightCondHasAnyRoleDressEquipMatchListConfig
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightCondHasAnyRoleDressEquipMatchListConfig_TypeDefinitionIndex = 19331;
+
 	class GridFightCondHasAnyRoleDressEquipMatchListConfig : public ::RPG::GameCore::GridFightConditionConfigBase
 	{
 	public:

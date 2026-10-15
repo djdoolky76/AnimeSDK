@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TurnBasedAbilityComponent; }
 #define FGLKGCAEKKL_DFACNDFPDHK_OFFSET UNITYSDK_OFFSET(0x15767830)
 #define FGLKGCAEKKL_KMOFEGJDFDL_OFFSET UNITYSDK_OFFSET(0x15767700)
 
+inline static constexpr unsigned int FGLKGCAEKKL_TypeDefinitionIndex = 55974;
+
 	class FGLKGCAEKKL : public ::System::Object
 	{
 	public:

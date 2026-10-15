@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define LDCOFDFFPBD_MPCLAJJLKKK_OFFSET UNITYSDK_OFFSET(0xB61D240)
 #define LDCOFDFFPBD_PKADDEPKJFN_OFFSET UNITYSDK_OFFSET(0xB61CFD0)
 
+inline static constexpr unsigned int LDCOFDFFPBD_TypeDefinitionIndex = 77446;
+
 	class LDCOFDFFPBD : public ::System::Object
 	{
 	public:

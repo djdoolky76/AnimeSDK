@@ -32,6 +32,8 @@ namespace System { class String; }
 #define DLEBDFILNJC_SET_ISFINISH_OFFSET UNITYSDK_OFFSET(0xF89A350)
 #define DLEBDFILNJC_SET_OFFICEEVENTID_OFFSET UNITYSDK_OFFSET(0xF89A330)
 
+inline static constexpr unsigned int DLEBDFILNJC_TypeDefinitionIndex = 80292;
+
 	class DLEBDFILNJC : public ::System::Object
 	{
 	public:

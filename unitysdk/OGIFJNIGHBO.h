@@ -69,6 +69,8 @@ namespace System { class String; }
 #define OGIFJNIGHBO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE55CC0)
 #define OGIFJNIGHBO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DE55D20)
 
+inline static constexpr unsigned int OGIFJNIGHBO_TypeDefinitionIndex = 26386;
+
 	class OGIFJNIGHBO : public ::System::Object
 	{
 	public:

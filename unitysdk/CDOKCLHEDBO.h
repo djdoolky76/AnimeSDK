@@ -27,6 +27,8 @@ namespace System { class String; }
 #define CDOKCLHEDBO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E08C440)
 #define CDOKCLHEDBO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E08C4A0)
 
+inline static constexpr unsigned int CDOKCLHEDBO_TypeDefinitionIndex = 32764;
+
 	class CDOKCLHEDBO : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RPGProfilerMarkerWithStringData_TypeDefinitionIndex = 35165;
+
 	class RPGProfilerMarkerWithStringData : public ::System::Object
 	{
 	public:

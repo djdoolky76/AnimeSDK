@@ -9,6 +9,8 @@ namespace System { class Type; }
 
 namespace System::Runtime::Serialization
 {
+	inline static constexpr unsigned int SurrogateKey_TypeDefinitionIndex = 1137;
+
 	class SurrogateKey : public ::System::Object
 	{
 	public:

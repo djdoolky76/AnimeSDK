@@ -9,6 +9,8 @@ namespace RPG::GameCore { class BattleTargetConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int BattleTargetDetailData_TypeDefinitionIndex = 57600;
+
 	struct alignas(8) BattleTargetDetailData
 	{
 		::RPG::GameCore::BattleTargetConfigRow* Config; // 0x10

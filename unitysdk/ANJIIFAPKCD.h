@@ -39,6 +39,8 @@ namespace UnityEngine { class Transform; }
 #define ANJIIFAPKCD__ONBIND_OFFSET UNITYSDK_OFFSET(0x1559A0E0)
 #define ANJIIFAPKCD__ONTICK_OFFSET UNITYSDK_OFFSET(0x1559A740)
 
+inline static constexpr unsigned int ANJIIFAPKCD_TypeDefinitionIndex = 71472;
+
 	class ANJIIFAPKCD : public ::FMPCODLIOLG
 	{
 	public:

@@ -55,6 +55,8 @@ namespace UnityEngine::UI { class SmoothMask; }
 #define EKOGCACGADH_NNPINHHBDEN_OFFSET UNITYSDK_OFFSET(0x15515F50)
 #define EKOGCACGADH_PIJOPGFMOHA_OFFSET UNITYSDK_OFFSET(0x15516720)
 
+inline static constexpr unsigned int EKOGCACGADH_TypeDefinitionIndex = 71350;
+
 	class EKOGCACGADH : public ::System::Object
 	{
 	public:

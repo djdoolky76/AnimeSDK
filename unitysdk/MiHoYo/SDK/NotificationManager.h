@@ -37,6 +37,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int NotificationManager_TypeDefinitionIndex = 8066;
+
 	class NotificationManager : public ::System::Object
 	{
 	public:

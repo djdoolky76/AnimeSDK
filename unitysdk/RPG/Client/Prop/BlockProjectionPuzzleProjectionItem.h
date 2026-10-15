@@ -10,6 +10,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int BlockProjectionPuzzleProjectionItem_TypeDefinitionIndex = 78216;
+
 	class BlockProjectionPuzzleProjectionItem : public ::UnityEngine::MonoBehaviour
 	{
 	public:

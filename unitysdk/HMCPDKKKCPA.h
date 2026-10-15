@@ -9,6 +9,8 @@ namespace RPG::GameCore { class LightningStrikeAreaConfig; }
 #define HMCPDKKKCPA_CLEAR_OFFSET UNITYSDK_OFFSET(0x15D79E60)
 #define HMCPDKKKCPA_CTOR_OFFSET UNITYSDK_OFFSET(0x15D7A0E0)
 
+inline static constexpr unsigned int HMCPDKKKCPA_TypeDefinitionIndex = 53503;
+
 	class HMCPDKKKCPA : public ::System::Object
 	{
 	public:

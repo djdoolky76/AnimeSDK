@@ -6,6 +6,8 @@ class LBJLBMOOJGM;
 #define MJBMFJMAIGL_CTOR_OFFSET UNITYSDK_OFFSET(0xB963F40)
 #define MJBMFJMAIGL_KDPCHKAGJMK_OFFSET UNITYSDK_OFFSET(0xB9631E0)
 
+inline static constexpr unsigned int MJBMFJMAIGL_TypeDefinitionIndex = 81740;
+
 	class MJBMFJMAIGL : public ::System::Object
 	{
 	public:

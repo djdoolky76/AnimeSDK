@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace System::Reflection
 {
+	inline static constexpr unsigned int AssemblyKeyFileAttribute_TypeDefinitionIndex = 550;
+
 	class AssemblyKeyFileAttribute : public ::System::Attribute
 	{
 	public:

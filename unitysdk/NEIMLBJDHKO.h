@@ -7,6 +7,8 @@ namespace UnityEngine { class RectTransform; }
 #define NEIMLBJDHKO_CTOR_OFFSET UNITYSDK_OFFSET(0xBB5E800)
 #define NEIMLBJDHKO__ONBIND_OFFSET UNITYSDK_OFFSET(0xBB5E720)
 
+inline static constexpr unsigned int NEIMLBJDHKO_TypeDefinitionIndex = 71626;
+
 	class NEIMLBJDHKO : public ::FMPCODLIOLG
 	{
 	public:

@@ -7,6 +7,8 @@
 #define OOLCJNAFGCE_CTOR_OFFSET UNITYSDK_OFFSET(0x1C9A0B40)
 #define OOLCJNAFGCE_ONPDAALFIIH_OFFSET UNITYSDK_OFFSET(0x1C9A0AF0)
 
+inline static constexpr unsigned int OOLCJNAFGCE_TypeDefinitionIndex = 42255;
+
 	class OOLCJNAFGCE : public ::System::Object
 	{
 	public:

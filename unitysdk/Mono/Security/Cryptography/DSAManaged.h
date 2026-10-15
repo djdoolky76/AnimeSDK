@@ -24,6 +24,8 @@ namespace System::Security::Cryptography { class RandomNumberGenerator; }
 
 namespace Mono::Security::Cryptography
 {
+	inline static constexpr unsigned int DSAManaged_TypeDefinitionIndex = 79;
+
 	class DSAManaged : public ::System::Security::Cryptography::DSA
 	{
 	public:

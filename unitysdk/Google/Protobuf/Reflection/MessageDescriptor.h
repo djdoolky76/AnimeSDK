@@ -40,6 +40,8 @@ namespace System::Collections::ObjectModel { template <typename T1, typename T2>
 
 namespace Google::Protobuf::Reflection
 {
+	inline static constexpr unsigned int MessageDescriptor_TypeDefinitionIndex = 5550;
+
 	class MessageDescriptor : public ::Google::Protobuf::Reflection::DescriptorBase
 	{
 	public:

@@ -21,6 +21,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define JEBBCFENCCH_OMJPHOGEDNK_OFFSET UNITYSDK_OFFSET(0x16617570)
 #define JEBBCFENCCH_PCAEBEDMLNE_OFFSET UNITYSDK_OFFSET(0x166178D0)
 
+inline static constexpr unsigned int JEBBCFENCCH_TypeDefinitionIndex = 76532;
+
 	class JEBBCFENCCH : public ::System::Object
 	{
 	public:

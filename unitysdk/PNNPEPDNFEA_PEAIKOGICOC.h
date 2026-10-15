@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define PNNPEPDNFEA_PEAIKOGICOC_KOKEJHOAFDC_OFFSET UNITYSDK_OFFSET(0xC3541E0)
 #define PNNPEPDNFEA_PEAIKOGICOC_LFPKDDOEKFI_OFFSET UNITYSDK_OFFSET(0xC353C10)
 
+inline static constexpr unsigned int PNNPEPDNFEA_PEAIKOGICOC_TypeDefinitionIndex = 54380;
+
 	class PNNPEPDNFEA_PEAIKOGICOC : public ::System::Object
 	{
 	public:

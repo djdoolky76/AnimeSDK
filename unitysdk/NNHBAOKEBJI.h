@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int NNHBAOKEBJI_TypeDefinitionIndex = 32788;
+
 	enum class NNHBAOKEBJI : ::System::Int32
 	{
 		NLCDGIPGFDJ = 0,

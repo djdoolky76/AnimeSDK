@@ -200,6 +200,8 @@ namespace System { class Object; }
 #define BKEBOHAPGOF___C___CCTOR_B__2_99_OFFSET UNITYSDK_OFFSET(0x1D8198C0)
 #define BKEBOHAPGOF___C___CCTOR_B__2_9_OFFSET UNITYSDK_OFFSET(0x1D818910)
 
+inline static constexpr unsigned int BKEBOHAPGOF___c_TypeDefinitionIndex = 23859;
+
 	class BKEBOHAPGOF___c : public ::System::Object
 	{
 	public:

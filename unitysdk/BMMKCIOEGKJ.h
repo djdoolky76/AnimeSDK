@@ -8,6 +8,8 @@ namespace RPG::GameCore { class SwordTrainingEffectRow; }
 #define BMMKCIOEGKJ_CTOR_OFFSET UNITYSDK_OFFSET(0xBDBEB20)
 #define BMMKCIOEGKJ_NDGMNPMNPAD_OFFSET UNITYSDK_OFFSET(0xBDBEB40)
 
+inline static constexpr unsigned int BMMKCIOEGKJ_TypeDefinitionIndex = 75015;
+
 	class BMMKCIOEGKJ : public ::BNAIELOHEFF
 	{
 	public:

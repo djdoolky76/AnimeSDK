@@ -10,6 +10,8 @@ namespace System { class Object; }
 #define CBCHHIOGFNP_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xC49F4C0)
 #define CBCHHIOGFNP_INVOKE_OFFSET UNITYSDK_OFFSET(0xC49F480)
 
+inline static constexpr unsigned int CBCHHIOGFNP_TypeDefinitionIndex = 59409;
+
 	class CBCHHIOGFNP : public ::System::MulticastDelegate
 	{
 	public:

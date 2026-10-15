@@ -7,6 +7,8 @@ namespace RPG::Client { class RootMotionHandler; }
 #define FFHBHCGJMHL_CTOR_OFFSET UNITYSDK_OFFSET(0x2E75BD0)
 #define FFHBHCGJMHL_DISPOSE_OFFSET UNITYSDK_OFFSET(0x2E75C40)
 
+inline static constexpr unsigned int FFHBHCGJMHL_TypeDefinitionIndex = 68821;
+
 	struct alignas(8) FFHBHCGJMHL
 	{
 		::ENLPLPMGOBM* MNELKDDGGNJ; // 0x10

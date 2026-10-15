@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MatchThreeBasicRow_TypeDefinitionIndex = 11911;
+
 	class MatchThreeBasicRow : public ::System::Object
 	{
 	public:

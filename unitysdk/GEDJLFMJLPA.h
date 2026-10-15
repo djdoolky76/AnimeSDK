@@ -20,6 +20,8 @@ namespace System { class Object; }
 #define GEDJLFMJLPA_OPCKNBHNBOA_OFFSET UNITYSDK_OFFSET(0x159CDE40)
 #define GEDJLFMJLPA_TICK_OFFSET UNITYSDK_OFFSET(0x159CDB00)
 
+inline static constexpr unsigned int GEDJLFMJLPA_TypeDefinitionIndex = 55856;
+
 	class GEDJLFMJLPA : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define GOLHAKEGKCL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E4F2040)
 #define GOLHAKEGKCL___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E4F2050)
 
+inline static constexpr unsigned int GOLHAKEGKCL___c_TypeDefinitionIndex = 31105;
+
 	class GOLHAKEGKCL___c : public ::System::Object
 	{
 	public:

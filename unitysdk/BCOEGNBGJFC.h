@@ -72,6 +72,8 @@ namespace System { class String; }
 #define BCOEGNBGJFC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E90DE60)
 #define BCOEGNBGJFC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E90DEC0)
 
+inline static constexpr unsigned int BCOEGNBGJFC_TypeDefinitionIndex = 33302;
+
 	class BCOEGNBGJFC : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PropPuzzleMissionResetEventListener_TypeDefinitionIndex = 22008;
+
 	class PropPuzzleMissionResetEventListener : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TurnBasedAbilityComponent; }
 #define BDDPIDAILDC_HFGOIJELOAF_OFFSET UNITYSDK_OFFSET(0x162F3860)
 #define BDDPIDAILDC_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x162F3560)
 
+inline static constexpr unsigned int BDDPIDAILDC_TypeDefinitionIndex = 55443;
+
 	class BDDPIDAILDC
 	{
 	public:

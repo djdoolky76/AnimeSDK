@@ -4,6 +4,8 @@
 
 #define GGGIAPOEPLP_CTOR_OFFSET UNITYSDK_OFFSET(0x1C63CC10)
 
+inline static constexpr unsigned int GGGIAPOEPLP_TypeDefinitionIndex = 36469;
+
 	class GGGIAPOEPLP : public ::System::Object
 	{
 	public:

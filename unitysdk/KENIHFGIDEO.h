@@ -38,6 +38,8 @@ namespace System { class String; }
 #define KENIHFGIDEO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E8114D0)
 #define KENIHFGIDEO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E811530)
 
+inline static constexpr unsigned int KENIHFGIDEO_TypeDefinitionIndex = 34984;
+
 	class KENIHFGIDEO : public ::System::Object
 	{
 	public:

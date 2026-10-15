@@ -11,6 +11,8 @@ namespace System { class Action; }
 
 namespace RPG::Client::B51Racing
 {
+	inline static constexpr unsigned int B51RacingNewPartHintDialogControl___c__DisplayClass14_0_TypeDefinitionIndex = 81791;
+
 	class B51RacingNewPartHintDialogControl___c__DisplayClass14_0 : public ::System::Object
 	{
 	public:

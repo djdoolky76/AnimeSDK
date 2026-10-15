@@ -8,6 +8,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int DevUIDebugReportDataImage_TypeDefinitionIndex = 68351;
+
 	class DevUIDebugReportDataImage : public ::System::Object
 	{
 	public:

@@ -14,6 +14,8 @@ namespace UnityEngine { class ParticleSystem; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEffectPluginShape_TypeDefinitionIndex = 70108;
+
 	class MonoEffectPluginShape : public ::RPG::Client::MonoEffectPluginBase
 	{
 	public:

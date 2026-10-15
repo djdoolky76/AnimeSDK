@@ -19,6 +19,8 @@ namespace RPG::Client { class FateExpRewardLevelDataItem; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FateExpRewardLevelDataItem_TypeDefinitionIndex = 64016;
+
 	class FateExpRewardLevelDataItem : public ::System::Object
 	{
 	public:

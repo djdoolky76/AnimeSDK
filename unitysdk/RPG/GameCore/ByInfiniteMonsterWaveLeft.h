@@ -13,6 +13,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByInfiniteMonsterWaveLeft_TypeDefinitionIndex = 22573;
+
 	class ByInfiniteMonsterWaveLeft : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

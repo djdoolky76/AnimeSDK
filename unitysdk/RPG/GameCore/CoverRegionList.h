@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CoverRegionList_TypeDefinitionIndex = 19219;
+
 	class CoverRegionList : public ::RPG::GameCore::JsonConfig
 	{
 	public:

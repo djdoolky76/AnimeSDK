@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace RPG::LittleGameShare::HoyoPhysics::Box2D
 {
+	inline static constexpr unsigned int b2OverlapResultFcn_TypeDefinitionIndex = 36649;
+
 	class b2OverlapResultFcn : public ::System::MulticastDelegate
 	{
 	public:

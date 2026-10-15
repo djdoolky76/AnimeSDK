@@ -3,6 +3,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int AstraFXResource_BufferInfo_TypeDefinitionIndex = 4089;
+
 	struct alignas(4) AstraFXResource_BufferInfo
 	{
 		::System::Int32 count; // 0x10

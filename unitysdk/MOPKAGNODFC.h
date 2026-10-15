@@ -15,6 +15,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define MOPKAGNODFC_SETNEXTTASK_OFFSET UNITYSDK_OFFSET(0xBA36E40)
 #define MOPKAGNODFC_TICK_OFFSET UNITYSDK_OFFSET(0xBA370D0)
 
+inline static constexpr unsigned int MOPKAGNODFC_TypeDefinitionIndex = 58184;
+
 	class MOPKAGNODFC : public ::GELIALJDFBL
 	{
 	public:

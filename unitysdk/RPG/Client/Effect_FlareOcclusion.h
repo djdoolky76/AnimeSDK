@@ -11,6 +11,8 @@ class GDHFBPEJPHC;
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Effect_FlareOcclusion_TypeDefinitionIndex = 70474;
+
 	class Effect_FlareOcclusion : public ::UnityEngine::MonoBehaviour
 	{
 	public:

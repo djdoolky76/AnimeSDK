@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace RPG::Client::B51Racing
 {
+	inline static constexpr unsigned int B51RacingLimitedRewardPageViewModel_TypeDefinitionIndex = 82059;
+
 	class B51RacingLimitedRewardPageViewModel : public ::System::Object
 	{
 	public:

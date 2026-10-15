@@ -6,6 +6,8 @@
 
 namespace Unity::IL2CPP::CompilerServices
 {
+	inline static constexpr unsigned int Il2CppEagerStaticClassConstructionAttribute_A60D757DF155201E_TypeDefinitionIndex = 7125;
+
 	class Il2CppEagerStaticClassConstructionAttribute_A60D757DF155201E : public ::System::Attribute
 	{
 	public:

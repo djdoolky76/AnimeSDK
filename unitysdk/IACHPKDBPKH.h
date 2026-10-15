@@ -7,6 +7,8 @@ namespace RPG::Client::ChenLingBattle { class ChenLingBattleGameContext; }
 #define IACHPKDBPKH_CTOR_OFFSET UNITYSDK_OFFSET(0x15DFF2C0)
 #define IACHPKDBPKH_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x15DFF0E0)
 
+inline static constexpr unsigned int IACHPKDBPKH_TypeDefinitionIndex = 76256;
+
 	class IACHPKDBPKH : public ::MLKDDLHNNHH
 	{
 	public:

@@ -7,6 +7,8 @@
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int PPFilterStack_LensGlitch2Parameter_TypeDefinitionIndex = 51861;
+
 	struct alignas(4) PPFilterStack_LensGlitch2Parameter
 	{
 		::System::Boolean LensGlitch2OverrideState; // 0x10

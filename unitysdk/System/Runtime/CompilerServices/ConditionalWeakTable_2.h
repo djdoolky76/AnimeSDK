@@ -6,6 +6,8 @@ namespace System { class Object; }
 
 namespace System::Runtime::CompilerServices
 {
+	inline static constexpr unsigned int ConditionalWeakTable_2_TypeDefinitionIndex = 1399;
+
 	template <typename T1, typename T2>
 	class ConditionalWeakTable_2 : public ::System::Object
 	{

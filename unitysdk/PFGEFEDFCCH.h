@@ -12,6 +12,8 @@ namespace System { class Object; }
 #define PFGEFEDFCCH_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xC20ED10)
 #define PFGEFEDFCCH_PLJCFNAELAG_OFFSET UNITYSDK_OFFSET(0xC20EA10)
 
+inline static constexpr unsigned int PFGEFEDFCCH_TypeDefinitionIndex = 53584;
+
 	class PFGEFEDFCCH : public ::CMMNJAMJJCN
 	{
 	public:

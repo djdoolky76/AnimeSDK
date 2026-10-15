@@ -12,6 +12,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define CGNHALFCLJB___C__GET_REACTIVEDRAGGED_B__22_0_OFFSET UNITYSDK_OFFSET(0xCC8C5D0)
 #define CGNHALFCLJB___C__GET_REACTIVEIDLE_B__17_0_OFFSET UNITYSDK_OFFSET(0xCC8C560)
 
+inline static constexpr unsigned int CGNHALFCLJB___c_TypeDefinitionIndex = 79518;
+
 	class CGNHALFCLJB___c : public ::System::Object
 	{
 	public:

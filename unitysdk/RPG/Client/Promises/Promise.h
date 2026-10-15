@@ -80,6 +80,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::Promises
 {
+	inline static constexpr unsigned int Promise_TypeDefinitionIndex = 9913;
+
 	class Promise : public ::System::Object
 	{
 	public:

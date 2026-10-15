@@ -26,6 +26,8 @@ namespace UnityEngine { class Transform; }
 #define KJPJAHNBOHB__ONBIND_OFFSET UNITYSDK_OFFSET(0xB45F8F0)
 #define KJPJAHNBOHB__ONTICK_OFFSET UNITYSDK_OFFSET(0xB45FCD0)
 
+inline static constexpr unsigned int KJPJAHNBOHB_TypeDefinitionIndex = 71704;
+
 	class KJPJAHNBOHB : public ::FMPCODLIOLG
 	{
 	public:

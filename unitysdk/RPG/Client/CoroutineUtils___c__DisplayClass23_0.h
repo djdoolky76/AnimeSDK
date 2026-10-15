@@ -10,6 +10,8 @@ namespace System { class Exception; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CoroutineUtils___c__DisplayClass23_0_TypeDefinitionIndex = 35227;
+
 	class CoroutineUtils___c__DisplayClass23_0 : public ::System::Object
 	{
 	public:

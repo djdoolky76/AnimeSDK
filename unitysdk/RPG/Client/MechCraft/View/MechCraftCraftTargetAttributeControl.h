@@ -12,6 +12,8 @@ namespace UnityEngine::UI { class Image; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftCraftTargetAttributeControl_TypeDefinitionIndex = 79947;
+
 	class MechCraftCraftTargetAttributeControl
 	{
 	public:

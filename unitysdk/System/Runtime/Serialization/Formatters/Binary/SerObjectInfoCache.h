@@ -10,6 +10,8 @@ namespace System::Reflection { class MemberInfo; }
 
 namespace System::Runtime::Serialization::Formatters::Binary
 {
+	inline static constexpr unsigned int SerObjectInfoCache_TypeDefinitionIndex = 1185;
+
 	class SerObjectInfoCache : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System { class String; }
 #define JIHILNOBAPH_CTOR_OFFSET UNITYSDK_OFFSET(0x1D034CA0)
 #define JIHILNOBAPH_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D034790)
 
+inline static constexpr unsigned int JIHILNOBAPH_TypeDefinitionIndex = 11302;
+
 	class JIHILNOBAPH : public ::System::Object
 	{
 	public:

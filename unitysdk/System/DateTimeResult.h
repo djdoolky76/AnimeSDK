@@ -15,6 +15,8 @@ namespace System::Globalization { class Calendar; }
 
 namespace System
 {
+	inline static constexpr unsigned int DateTimeResult_TypeDefinitionIndex = 264;
+
 	struct alignas(8) DateTimeResult
 	{
 		::System::Int32 Year; // 0x10

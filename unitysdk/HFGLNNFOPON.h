@@ -25,6 +25,8 @@ namespace System { class String; }
 #define HFGLNNFOPON_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E569000)
 #define HFGLNNFOPON_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E569060)
 
+inline static constexpr unsigned int HFGLNNFOPON_TypeDefinitionIndex = 31974;
+
 	class HFGLNNFOPON : public ::System::Object
 	{
 	public:

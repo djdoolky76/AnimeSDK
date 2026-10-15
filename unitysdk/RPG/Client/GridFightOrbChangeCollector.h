@@ -19,6 +19,8 @@ namespace System::ComponentModel { class PropertyChangedEventArgs; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightOrbChangeCollector_TypeDefinitionIndex = 64559;
+
 	class GridFightOrbChangeCollector : public ::System::Object
 	{
 	public:

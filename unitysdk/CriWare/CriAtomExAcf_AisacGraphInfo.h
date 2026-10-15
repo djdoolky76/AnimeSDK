@@ -6,6 +6,8 @@
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriAtomExAcf_AisacGraphInfo_TypeDefinitionIndex = 40034;
+
 	struct alignas(4) CriAtomExAcf_AisacGraphInfo
 	{
 		::CriWare::CriAtomExAcf_AisacGraphType type; // 0x10

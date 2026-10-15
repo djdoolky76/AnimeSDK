@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Effect_PetalInstance_TypeDefinitionIndex = 70530;
+
 	class Effect_PetalInstance : public ::UnityEngine::MonoBehaviour
 	{
 	public:

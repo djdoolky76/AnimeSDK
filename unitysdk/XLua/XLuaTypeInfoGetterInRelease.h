@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 
 namespace XLua
 {
+	inline static constexpr unsigned int XLuaTypeInfoGetterInRelease_TypeDefinitionIndex = 50279;
+
 	class XLuaTypeInfoGetterInRelease : public ::System::MarshalByRefObject
 	{
 	public:

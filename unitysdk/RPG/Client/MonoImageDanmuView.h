@@ -10,6 +10,8 @@ namespace UnityEngine::UI { class Image; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoImageDanmuView_TypeDefinitionIndex = 68952;
+
 	class MonoImageDanmuView : public ::RPG::Client::MonoDanmuViewBase
 	{
 	public:

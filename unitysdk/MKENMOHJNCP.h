@@ -32,6 +32,8 @@ namespace System { class Object; }
 #define MKENMOHJNCP_POBDIHFFIJE_OFFSET UNITYSDK_OFFSET(0xB993600)
 #define MKENMOHJNCP_TICK_OFFSET UNITYSDK_OFFSET(0xB9929F0)
 
+inline static constexpr unsigned int MKENMOHJNCP_TypeDefinitionIndex = 52444;
+
 	class MKENMOHJNCP : public ::GELIALJDFBL
 	{
 	public:

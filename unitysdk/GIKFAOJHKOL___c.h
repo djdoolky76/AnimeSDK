@@ -9,6 +9,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define GIKFAOJHKOL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x15A40FF0)
 #define GIKFAOJHKOL___C__REFRESHTRIALTEAMBUILD_B__1_0_OFFSET UNITYSDK_OFFSET(0x15A41000)
 
+inline static constexpr unsigned int GIKFAOJHKOL___c_TypeDefinitionIndex = 61894;
+
 	class GIKFAOJHKOL___c : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System { class Object; }
 #define NLHCADMDJCE___REFRESHPREDICTULTRAGROUPSCOROUTINE_D__12_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0xBC6EB30)
 #define NLHCADMDJCE___REFRESHPREDICTULTRAGROUPSCOROUTINE_D__12_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0xBC6EA60)
 
+inline static constexpr unsigned int NLHCADMDJCE___RefreshPredictUltraGroupsCoroutine_d__12_TypeDefinitionIndex = 59724;
+
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10, typename T11, typename T12>
 	class NLHCADMDJCE___RefreshPredictUltraGroupsCoroutine_d__12 : public ::System::Object
 	{

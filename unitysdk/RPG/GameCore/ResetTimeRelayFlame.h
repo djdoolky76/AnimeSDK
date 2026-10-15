@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ResetTimeRelayFlame; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ResetTimeRelayFlame_TypeDefinitionIndex = 22037;
+
 	class ResetTimeRelayFlame : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class String; }
 #define PLPMBINCFAI_CTOR_OFFSET UNITYSDK_OFFSET(0x1D304A30)
 #define PLPMBINCFAI_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D3048C0)
 
+inline static constexpr unsigned int PLPMBINCFAI_TypeDefinitionIndex = 14440;
+
 	class PLPMBINCFAI : public ::System::Object
 	{
 	public:

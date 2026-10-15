@@ -23,6 +23,8 @@ namespace UnityEngine { class Transform; }
 #define GGIBGDHBAMN_ODGOHFJHDMF_OFFSET UNITYSDK_OFFSET(0x15A06460)
 #define GGIBGDHBAMN_OPNIMOOAKDL_OFFSET UNITYSDK_OFFSET(0x15A06080)
 
+inline static constexpr unsigned int GGIBGDHBAMN_TypeDefinitionIndex = 60809;
+
 	class GGIBGDHBAMN : public ::System::Object
 	{
 	public:

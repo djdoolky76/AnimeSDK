@@ -9,6 +9,8 @@ namespace RPG::GameCore { class GridFightShopPriceConfigRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightShopPriceConfigRow_TypeDefinitionIndex = 13594;
+
 	class GridFightShopPriceConfigRow : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System { class Action; }
 #define PHNPAACLNNF_NNAGLJCMMGD_OFFSET UNITYSDK_OFFSET(0xC256840)
 #define PHNPAACLNNF_NONJDKKDDLE_OFFSET UNITYSDK_OFFSET(0xC256690)
 
+inline static constexpr unsigned int PHNPAACLNNF_TypeDefinitionIndex = 60485;
+
 	class PHNPAACLNNF : public ::System::Object
 	{
 	public:

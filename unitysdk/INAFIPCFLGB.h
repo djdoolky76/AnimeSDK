@@ -25,6 +25,8 @@ namespace System { class String; }
 #define INAFIPCFLGB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E6BC870)
 #define INAFIPCFLGB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E6BC8D0)
 
+inline static constexpr unsigned int INAFIPCFLGB_TypeDefinitionIndex = 30805;
+
 	class INAFIPCFLGB : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class SetSimulationSpeedEnable; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetSimulationSpeedEnable_TypeDefinitionIndex = 23765;
+
 	class SetSimulationSpeedEnable : public ::RPG::GameCore::TaskConfig
 	{
 	public:

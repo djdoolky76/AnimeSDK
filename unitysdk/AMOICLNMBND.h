@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define AMOICLNMBND_CTOR_OFFSET UNITYSDK_OFFSET(0x1558C2D0)
 #define AMOICLNMBND_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x1558C420)
 
+inline static constexpr unsigned int AMOICLNMBND_TypeDefinitionIndex = 55229;
+
 	class AMOICLNMBND
 	{
 	public:

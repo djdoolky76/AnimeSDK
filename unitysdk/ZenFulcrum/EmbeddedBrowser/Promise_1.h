@@ -12,6 +12,8 @@ namespace ZenFulcrum::EmbeddedBrowser { class IRejectable; }
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
+	inline static constexpr unsigned int Promise_1_TypeDefinitionIndex = 39517;
+
 	template <typename T>
 	class Promise_1 : public ::System::Object
 	{

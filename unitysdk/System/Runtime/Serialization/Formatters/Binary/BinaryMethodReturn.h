@@ -13,6 +13,8 @@ namespace System::Runtime::Serialization::Formatters::Binary { class __BinaryWri
 
 namespace System::Runtime::Serialization::Formatters::Binary
 {
+	inline static constexpr unsigned int BinaryMethodReturn_TypeDefinitionIndex = 1151;
+
 	class BinaryMethodReturn : public ::System::Object
 	{
 	public:

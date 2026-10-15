@@ -11,6 +11,8 @@ namespace UnityEngine::UI { class Image; }
 
 namespace RPG::Client::B51Racing
 {
+	inline static constexpr unsigned int MonoB51RacingReadyVehicleDetailItem_TypeDefinitionIndex = 81962;
+
 	class MonoB51RacingReadyVehicleDetailItem : public ::Sofa::BaseSofaControl
 	{
 	public:

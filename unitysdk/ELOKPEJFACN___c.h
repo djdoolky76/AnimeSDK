@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define ELOKPEJFACN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E2D95D0)
 #define ELOKPEJFACN___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E2D95E0)
 
+inline static constexpr unsigned int ELOKPEJFACN___c_TypeDefinitionIndex = 34230;
+
 	class ELOKPEJFACN___c : public ::System::Object
 	{
 	public:

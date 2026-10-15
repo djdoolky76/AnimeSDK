@@ -13,6 +13,8 @@ namespace System::Runtime::CompilerServices { class IAsyncStateMachine; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
+	inline static constexpr unsigned int Average__AverageAsync_d__0_TypeDefinitionIndex = 45229;
+
 	struct alignas(8) Average__AverageAsync_d__0
 	{
 		::System::Object* __u__1; // 0x10

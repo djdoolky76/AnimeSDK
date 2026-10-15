@@ -30,6 +30,8 @@ namespace UnityEngine { class Material; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_MaterialData_TypeDefinitionIndex = 40578;
+
 	class HEU_MaterialData : public ::UnityEngine::ScriptableObject
 	{
 	public:

@@ -19,6 +19,8 @@ namespace UnityEngine { class GameObject; }
 #define LJMGOKAIPGN_LNGKNPJIOML_OFFSET UNITYSDK_OFFSET(0xB7214B0)
 #define LJMGOKAIPGN__SOLVEINSTANCELODCALC_OFFSET UNITYSDK_OFFSET(0xB721960)
 
+inline static constexpr unsigned int LJMGOKAIPGN_TypeDefinitionIndex = 73820;
+
 	class LJMGOKAIPGN : public ::GDMONJOAKHD
 	{
 	public:

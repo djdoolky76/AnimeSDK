@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace BansheeGz::BGSpline::Curve
 {
+	inline static constexpr unsigned int BGCc_CcException_TypeDefinitionIndex = 35985;
+
 	class BGCc_CcException : public ::System::Exception
 	{
 	public:

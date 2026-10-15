@@ -31,6 +31,8 @@ namespace System { class String; }
 #define PAGOHCJGOLC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DEEE180)
 #define PAGOHCJGOLC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DEEE1E0)
 
+inline static constexpr unsigned int PAGOHCJGOLC_TypeDefinitionIndex = 33903;
+
 	class PAGOHCJGOLC : public ::System::Object
 	{
 	public:

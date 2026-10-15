@@ -23,6 +23,8 @@ namespace UnityEngine { class Mesh; }
 
 namespace EzySlice
 {
+	inline static constexpr unsigned int Slicer_TypeDefinitionIndex = 47006;
+
 	class Slicer : public ::System::Object
 	{
 	public:

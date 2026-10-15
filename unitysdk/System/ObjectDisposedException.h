@@ -15,6 +15,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System
 {
+	inline static constexpr unsigned int ObjectDisposedException_TypeDefinitionIndex = 309;
+
 	class ObjectDisposedException : public ::System::InvalidOperationException
 	{
 	public:

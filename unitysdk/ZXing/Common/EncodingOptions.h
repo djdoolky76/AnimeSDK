@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace ZXing::Common
 {
+	inline static constexpr unsigned int EncodingOptions_TypeDefinitionIndex = 6988;
+
 	class EncodingOptions : public ::System::Object
 	{
 	public:

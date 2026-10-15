@@ -7,6 +7,8 @@ namespace RPG::Client { class ActivityRewardCountCollection; }
 #define AKPCNJCFFCI_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0x12CDF990)
 #define AKPCNJCFFCI_CTOR_OFFSET UNITYSDK_OFFSET(0x12CDF940)
 
+inline static constexpr unsigned int AKPCNJCFFCI_TypeDefinitionIndex = 61789;
+
 	class AKPCNJCFFCI : public ::System::Object
 	{
 	public:

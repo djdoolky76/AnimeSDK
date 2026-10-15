@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueParamRoguePersonaCurStyleLevelConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueParamRoguePersonaCurStyleLevelConfig_TypeDefinitionIndex = 19856;
+
 	class RogueParamRoguePersonaCurStyleLevelConfig : public ::RPG::GameCore::RogueParameterConfigBase
 	{
 	public:

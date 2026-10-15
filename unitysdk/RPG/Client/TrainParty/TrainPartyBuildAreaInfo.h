@@ -67,6 +67,8 @@ namespace System::Collections::Generic { template <typename T> class Queue_1; }
 
 namespace RPG::Client::TrainParty
 {
+	inline static constexpr unsigned int TrainPartyBuildAreaInfo_TypeDefinitionIndex = 74307;
+
 	class TrainPartyBuildAreaInfo : public ::System::Object
 	{
 	public:

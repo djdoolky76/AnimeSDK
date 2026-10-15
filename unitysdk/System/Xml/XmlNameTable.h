@@ -6,6 +6,8 @@
 
 namespace System::Xml
 {
+	inline static constexpr unsigned int XmlNameTable_TypeDefinitionIndex = 1963;
+
 	class XmlNameTable : public ::System::Object
 	{
 	public:

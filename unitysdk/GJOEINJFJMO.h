@@ -22,6 +22,8 @@ namespace UnityEngine { class Coroutine; }
 #define GJOEINJFJMO__ONBIND_OFFSET UNITYSDK_OFFSET(0x15A7A550)
 #define GJOEINJFJMO__ONDISPOSE_OFFSET UNITYSDK_OFFSET(0x15A7AA60)
 
+inline static constexpr unsigned int GJOEINJFJMO_TypeDefinitionIndex = 72362;
+
 	class GJOEINJFJMO : public ::FMPCODLIOLG
 	{
 	public:

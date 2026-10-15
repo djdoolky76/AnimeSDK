@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ModifierMonsterHPMarkConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ModifierMonsterHPMarkConfig_TypeDefinitionIndex = 18248;
+
 	class ModifierMonsterHPMarkConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

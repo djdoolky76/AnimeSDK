@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GameEntity; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelCharacterDeathrattle_TypeDefinitionIndex = 56768;
+
 	class LevelCharacterDeathrattle : public ::System::Object
 	{
 	public:

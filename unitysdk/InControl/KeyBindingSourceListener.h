@@ -12,6 +12,8 @@ namespace InControl { class InputDevice; }
 
 namespace InControl
 {
+	inline static constexpr unsigned int KeyBindingSourceListener_TypeDefinitionIndex = 40801;
+
 	class KeyBindingSourceListener : public ::System::Object
 	{
 	public:

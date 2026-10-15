@@ -22,6 +22,8 @@ namespace RPG::Client { class AnimatorButton; }
 #define PCMKHJNKIEO_PADHGKJFDGD_OFFSET UNITYSDK_OFFSET(0xC0089A0)
 #define PCMKHJNKIEO_PEGNJCBFPFB_OFFSET UNITYSDK_OFFSET(0xC008730)
 
+inline static constexpr unsigned int PCMKHJNKIEO_TypeDefinitionIndex = 72187;
+
 	class PCMKHJNKIEO : public ::CAOEEDDAPIK
 	{
 	public:

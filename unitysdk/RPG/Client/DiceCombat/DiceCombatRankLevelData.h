@@ -21,6 +21,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::DiceCombat
 {
+	inline static constexpr unsigned int DiceCombatRankLevelData_TypeDefinitionIndex = 76082;
+
 	class DiceCombatRankLevelData : public ::System::Object
 	{
 	public:

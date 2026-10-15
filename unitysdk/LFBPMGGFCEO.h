@@ -28,6 +28,8 @@ namespace System { class String; }
 #define LFBPMGGFCEO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E939E80)
 #define LFBPMGGFCEO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E939EE0)
 
+inline static constexpr unsigned int LFBPMGGFCEO_TypeDefinitionIndex = 33356;
+
 	class LFBPMGGFCEO : public ::System::Object
 	{
 	public:

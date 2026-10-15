@@ -9,6 +9,8 @@ class FCOEMCEDLNL;
 #define BENHFIGIMGL_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D66E200)
 #define BENHFIGIMGL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D66E1C0)
 
+inline static constexpr unsigned int BENHFIGIMGL_TypeDefinitionIndex = 19950;
+
 	class BENHFIGIMGL : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -38,6 +38,8 @@ namespace System { class String; }
 #define GDCGMBJAEGN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E443DF0)
 #define GDCGMBJAEGN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E443E50)
 
+inline static constexpr unsigned int GDCGMBJAEGN_TypeDefinitionIndex = 32372;
+
 	class GDCGMBJAEGN : public ::System::Object
 	{
 	public:

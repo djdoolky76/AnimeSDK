@@ -16,6 +16,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline::Emotion
 {
+	inline static constexpr unsigned int EmoTimelineClip_TypeDefinitionIndex = 48742;
+
 	class EmoTimelineClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

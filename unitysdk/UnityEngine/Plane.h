@@ -19,6 +19,8 @@ namespace System { class String; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int Plane_TypeDefinitionIndex = 4078;
+
 	struct alignas(4) Plane
 	{
 		::UnityEngine::Vector3 m_Normal; // 0x10

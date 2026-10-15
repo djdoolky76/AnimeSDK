@@ -16,6 +16,8 @@ class OIKDEOMMOAM;
 #define LBJEHBECBIG_OHNHPOFCONB_OFFSET UNITYSDK_OFFSET(0xB5FCB60)
 #define LBJEHBECBIG_SET_OWNER_OFFSET UNITYSDK_OFFSET(0xB5FCB50)
 
+inline static constexpr unsigned int LBJEHBECBIG_TypeDefinitionIndex = 54024;
+
 	class LBJEHBECBIG : public ::System::Object
 	{
 	public:

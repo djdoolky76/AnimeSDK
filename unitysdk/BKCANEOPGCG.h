@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define BKCANEOPGCG_CTOR_OFFSET UNITYSDK_OFFSET(0xB7ACCA0)
 #define BKCANEOPGCG_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB7ACCD0)
 
+inline static constexpr unsigned int BKCANEOPGCG_TypeDefinitionIndex = 53324;
+
 	class BKCANEOPGCG
 	{
 	public:

@@ -57,6 +57,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int WwiseUtilities_TypeDefinitionIndex = 59764;
+
 	class WwiseUtilities : public ::System::Object
 	{
 	public:

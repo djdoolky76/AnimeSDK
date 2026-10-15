@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define EGLAPJGFKPN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E296A90)
 #define EGLAPJGFKPN___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1E296AA0)
 
+inline static constexpr unsigned int EGLAPJGFKPN___c_TypeDefinitionIndex = 32855;
+
 	class EGLAPJGFKPN___c : public ::System::Object
 	{
 	public:

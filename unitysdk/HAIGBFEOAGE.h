@@ -17,6 +17,8 @@ namespace System::Text { class StringBuilder; }
 #define HAIGBFEOAGE_PFENFNFDDOM_OFFSET UNITYSDK_OFFSET(0x1EC1C160)
 #define HAIGBFEOAGE_POJCNGOAOCG_OFFSET UNITYSDK_OFFSET(0x1EC1C690)
 
+inline static constexpr unsigned int HAIGBFEOAGE_TypeDefinitionIndex = 35195;
+
 	class HAIGBFEOAGE : public ::System::Object
 	{
 	public:

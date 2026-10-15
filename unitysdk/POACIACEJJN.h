@@ -31,6 +31,8 @@ namespace System { class String; }
 #define POACIACEJJN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DFC2150)
 #define POACIACEJJN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DFC21B0)
 
+inline static constexpr unsigned int POACIACEJJN_TypeDefinitionIndex = 27567;
+
 	class POACIACEJJN : public ::System::Object
 	{
 	public:

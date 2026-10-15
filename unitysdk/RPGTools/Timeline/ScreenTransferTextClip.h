@@ -12,6 +12,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int ScreenTransferTextClip_TypeDefinitionIndex = 48218;
+
 	class ScreenTransferTextClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

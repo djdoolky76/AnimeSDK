@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TextSpriteConfigRow_TypeDefinitionIndex = 15289;
+
 	class TextSpriteConfigRow : public ::System::Object
 	{
 	public:

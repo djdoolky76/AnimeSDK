@@ -27,6 +27,8 @@ namespace System::Collections::Generic { template <typename T> class Stack_1; }
 
 namespace IniParserEx
 {
+	inline static constexpr unsigned int IniFileParser_TypeDefinitionIndex = 3940;
+
 	class IniFileParser : public ::IniParserEx::BaseParserWithFile
 	{
 	public:

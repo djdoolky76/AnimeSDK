@@ -29,6 +29,8 @@ namespace System { class String; }
 #define PHCPOIHAPGP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF37440)
 #define PHCPOIHAPGP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF374A0)
 
+inline static constexpr unsigned int PHCPOIHAPGP_TypeDefinitionIndex = 31751;
+
 	class PHCPOIHAPGP : public ::System::Object
 	{
 	public:

@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TargetSortByCustomFormationIndexClientOnly_TypeDefinitionIndex = 23982;
+
 	class TargetSortByCustomFormationIndexClientOnly : public ::RPG::GameCore::TargetSeqOperation
 	{
 	public:

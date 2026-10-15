@@ -29,6 +29,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int LoginModule_TypeDefinitionIndex = 65782;
+
 	class LoginModule : public ::RPG::Client::BaseModule
 	{
 	public:

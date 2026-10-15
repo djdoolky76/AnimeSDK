@@ -9,6 +9,8 @@ namespace UnityEngine::Rendering { class IObjPool; }
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int OjbectPoolMgr_TypeDefinitionIndex = 35505;
+
 	class OjbectPoolMgr : public ::System::Object
 	{
 	public:

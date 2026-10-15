@@ -31,6 +31,8 @@ namespace System { class String; }
 #define PEJFHHFLMOC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF1AAF0)
 #define PEJFHHFLMOC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF1AB50)
 
+inline static constexpr unsigned int PEJFHHFLMOC_TypeDefinitionIndex = 31404;
+
 	class PEJFHHFLMOC : public ::System::Object
 	{
 	public:

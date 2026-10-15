@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 #define CLPDEPEIOOP_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1DC26CB0)
 #define CLPDEPEIOOP_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1DC26C10)
 
+inline static constexpr unsigned int CLPDEPEIOOP_TypeDefinitionIndex = 23197;
+
 	class CLPDEPEIOOP : public ::RPG::GameCore::TaskConfig
 	{
 	public:

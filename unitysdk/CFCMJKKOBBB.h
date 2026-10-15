@@ -8,6 +8,8 @@ namespace RPG::GameCore { class ItemDisplaySortNewRow; }
 #define CFCMJKKOBBB_GNADABFLEFM_OFFSET UNITYSDK_OFFSET(0xCA0A3E0)
 #define CFCMJKKOBBB_NGNLDBLPANG_OFFSET UNITYSDK_OFFSET(0xCA0A4E0)
 
+inline static constexpr unsigned int CFCMJKKOBBB_TypeDefinitionIndex = 65737;
+
 	class CFCMJKKOBBB : public ::JFMOKAKOEEJ
 	{
 	public:

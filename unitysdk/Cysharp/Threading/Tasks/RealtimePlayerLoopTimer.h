@@ -15,6 +15,8 @@ namespace System { class Object; }
 
 namespace Cysharp::Threading::Tasks
 {
+	inline static constexpr unsigned int RealtimePlayerLoopTimer_TypeDefinitionIndex = 38214;
+
 	class RealtimePlayerLoopTimer : public ::Cysharp::Threading::Tasks::PlayerLoopTimer
 	{
 	public:

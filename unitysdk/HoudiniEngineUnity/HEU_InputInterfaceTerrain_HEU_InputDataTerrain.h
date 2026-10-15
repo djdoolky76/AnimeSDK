@@ -10,6 +10,8 @@ namespace UnityEngine { class TerrainData; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HEU_InputInterfaceTerrain_HEU_InputDataTerrain_TypeDefinitionIndex = 40652;
+
 	class HEU_InputInterfaceTerrain_HEU_InputDataTerrain : public ::HoudiniEngineUnity::HEU_InputData
 	{
 	public:

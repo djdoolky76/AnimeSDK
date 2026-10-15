@@ -27,6 +27,8 @@ namespace System { class String; }
 #define LCEICICOGLN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E8EB400)
 #define LCEICICOGLN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E8EB460)
 
+inline static constexpr unsigned int LCEICICOGLN_TypeDefinitionIndex = 33856;
+
 	class LCEICICOGLN : public ::System::Object
 	{
 	public:

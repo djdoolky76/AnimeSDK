@@ -77,6 +77,8 @@ namespace VLB { class BeamGeometry; }
 
 namespace VLB
 {
+	inline static constexpr unsigned int VolumetricLightBeam_TypeDefinitionIndex = 49017;
+
 	class VolumetricLightBeam
 	{
 	public:

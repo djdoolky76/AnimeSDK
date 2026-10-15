@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CurveEdgePointTriggerSetting_TypeDefinitionIndex = 68557;
+
 	class CurveEdgePointTriggerSetting : public ::System::Object
 	{
 	public:

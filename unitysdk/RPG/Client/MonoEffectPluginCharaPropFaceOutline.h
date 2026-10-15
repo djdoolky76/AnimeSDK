@@ -12,6 +12,8 @@ namespace UnityEngine { class Material; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEffectPluginCharaPropFaceOutline_TypeDefinitionIndex = 69960;
+
 	class MonoEffectPluginCharaPropFaceOutline : public ::RPG::Client::MonoEffectPluginCharaPropBase
 	{
 	public:

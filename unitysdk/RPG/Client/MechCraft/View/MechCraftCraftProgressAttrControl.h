@@ -26,6 +26,8 @@ namespace UnityEngine { class AnimationClip; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftCraftProgressAttrControl_TypeDefinitionIndex = 79911;
+
 	class MechCraftCraftProgressAttrControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

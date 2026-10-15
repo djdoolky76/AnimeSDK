@@ -14,6 +14,8 @@ namespace System::Runtime::Serialization { class ObjectHolderListEnumerator; }
 
 namespace System::Runtime::Serialization
 {
+	inline static constexpr unsigned int ObjectHolderList_TypeDefinitionIndex = 1114;
+
 	class ObjectHolderList : public ::System::Object
 	{
 	public:

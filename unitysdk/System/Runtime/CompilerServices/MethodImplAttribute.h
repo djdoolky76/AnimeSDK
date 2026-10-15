@@ -9,6 +9,8 @@
 
 namespace System::Runtime::CompilerServices
 {
+	inline static constexpr unsigned int MethodImplAttribute_TypeDefinitionIndex = 1392;
+
 	class MethodImplAttribute : public ::System::Attribute
 	{
 	public:

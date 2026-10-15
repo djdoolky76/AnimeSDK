@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define JDMEKCBHMBL_CTOR_OFFSET UNITYSDK_OFFSET(0x165D8280)
 #define JDMEKCBHMBL_EVALUATE_OFFSET UNITYSDK_OFFSET(0x165D82B0)
 
+inline static constexpr unsigned int JDMEKCBHMBL_TypeDefinitionIndex = 53120;
+
 	class JDMEKCBHMBL
 	{
 	public:

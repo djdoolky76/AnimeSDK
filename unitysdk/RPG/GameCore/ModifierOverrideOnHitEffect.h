@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ModifierOverrideOnHitEffect_TypeDefinitionIndex = 23468;
+
 	class ModifierOverrideOnHitEffect : public ::RPG::GameCore::TaskConfig
 	{
 	public:

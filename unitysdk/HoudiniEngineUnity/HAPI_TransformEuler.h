@@ -8,6 +8,8 @@
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int HAPI_TransformEuler_TypeDefinitionIndex = 40491;
+
 	struct alignas(8) HAPI_TransformEuler
 	{
 		::Il2CppArray<::System::Single>* position; // 0x10

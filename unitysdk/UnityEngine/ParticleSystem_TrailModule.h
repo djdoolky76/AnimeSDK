@@ -98,6 +98,8 @@ namespace UnityEngine { class ParticleSystem; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int ParticleSystem_TrailModule_TypeDefinitionIndex = 5247;
+
 	struct alignas(8) ParticleSystem_TrailModule
 	{
 		::UnityEngine::ParticleSystem* m_ParticleSystem; // 0x10

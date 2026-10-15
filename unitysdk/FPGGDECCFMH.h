@@ -7,6 +7,8 @@ class CBEBICGIOAB;
 #define FPGGDECCFMH_CTOR_OFFSET UNITYSDK_OFFSET(0x159181C0)
 #define FPGGDECCFMH_JLANKNHFKCN_OFFSET UNITYSDK_OFFSET(0x15918210)
 
+inline static constexpr unsigned int FPGGDECCFMH_TypeDefinitionIndex = 49422;
+
 	class FPGGDECCFMH
 	{
 	public:

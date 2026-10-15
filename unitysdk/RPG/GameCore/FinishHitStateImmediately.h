@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FinishHitStateImmediately_TypeDefinitionIndex = 23457;
+
 	class FinishHitStateImmediately : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -6,6 +6,8 @@
 
 namespace miHoYoEmotion
 {
+	inline static constexpr unsigned int PhonemeMarker_TypeDefinitionIndex = 45964;
+
 	class PhonemeMarker : public ::miHoYoEmotion::BaseMarker
 	{
 	public:

@@ -9,6 +9,8 @@ namespace RPG::GameCore { class SetTargetTypeNotifyConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetTargetTypeNotifyConfig_TypeDefinitionIndex = 16965;
+
 	class SetTargetTypeNotifyConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

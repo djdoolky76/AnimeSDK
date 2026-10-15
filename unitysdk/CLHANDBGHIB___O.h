@@ -5,6 +5,8 @@ class HKPOAGEKMAM;
 namespace System { class String; }
 namespace System { template <typename T1, typename T2> class Func_2; }
 
+inline static constexpr unsigned int CLHANDBGHIB___O_TypeDefinitionIndex = 59636;
+
 	class CLHANDBGHIB___O : public ::System::Object
 	{
 	public:

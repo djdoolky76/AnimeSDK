@@ -29,6 +29,8 @@ namespace System { class String; }
 #define GEPAFBJBGBH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E45E740)
 #define GEPAFBJBGBH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E45E7A0)
 
+inline static constexpr unsigned int GEPAFBJBGBH_TypeDefinitionIndex = 29127;
+
 	class GEPAFBJBGBH : public ::System::Object
 	{
 	public:

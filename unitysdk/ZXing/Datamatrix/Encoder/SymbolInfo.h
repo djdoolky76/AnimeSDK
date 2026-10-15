@@ -23,6 +23,8 @@ namespace ZXing::Datamatrix::Encoder { class SymbolInfo; }
 
 namespace ZXing::Datamatrix::Encoder
 {
+	inline static constexpr unsigned int SymbolInfo_TypeDefinitionIndex = 7025;
+
 	class SymbolInfo : public ::System::Object
 	{
 	public:

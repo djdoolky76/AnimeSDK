@@ -11,6 +11,8 @@ class FPNHGPEICOG;
 #define DHGEHJGMCLB_ILOHHJDPDBE_OFFSET UNITYSDK_OFFSET(0xEBCF3C0)
 #define DHGEHJGMCLB_KKAGPMHGKPL_OFFSET UNITYSDK_OFFSET(0xEBD06F0)
 
+inline static constexpr unsigned int DHGEHJGMCLB_TypeDefinitionIndex = 53690;
+
 	class DHGEHJGMCLB : public ::System::Object
 	{
 	public:

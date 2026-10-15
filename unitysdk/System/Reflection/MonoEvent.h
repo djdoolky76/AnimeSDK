@@ -23,6 +23,8 @@ namespace System::Reflection { class MethodInfo; }
 
 namespace System::Reflection
 {
+	inline static constexpr unsigned int MonoEvent_TypeDefinitionIndex = 616;
+
 	class MonoEvent : public ::System::Reflection::RuntimeEventInfo
 	{
 	public:

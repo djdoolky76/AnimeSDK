@@ -10,6 +10,8 @@ namespace RPG::GameCore { class MarbleDisableGhostFire; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MarbleDisableGhostFire_TypeDefinitionIndex = 16856;
+
 	class MarbleDisableGhostFire : public ::RPG::GameCore::MarbleTaskConfig
 	{
 	public:

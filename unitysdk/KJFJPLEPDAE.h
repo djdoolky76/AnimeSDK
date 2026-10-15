@@ -19,6 +19,8 @@ namespace System { class Nullable; }
 #define KJFJPLEPDAE_ONMODELARTLOADED_OFFSET UNITYSDK_OFFSET(0xB449240)
 #define KJFJPLEPDAE_ONMODELARTUNLOADED_OFFSET UNITYSDK_OFFSET(0xB4494E0)
 
+inline static constexpr unsigned int KJFJPLEPDAE_TypeDefinitionIndex = 56999;
+
 	class KJFJPLEPDAE : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

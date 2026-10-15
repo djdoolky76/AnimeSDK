@@ -8,6 +8,8 @@ namespace System::Diagnostics { class Stopwatch; }
 #define PHBNDGBHJGO___C__DISPLAYCLASS0_0__ONINIT_B__0_OFFSET UNITYSDK_OFFSET(0xC237550)
 #define PHBNDGBHJGO___C__DISPLAYCLASS0_0__ONINIT_B__1_OFFSET UNITYSDK_OFFSET(0xC2375E0)
 
+inline static constexpr unsigned int PHBNDGBHJGO___c__DisplayClass0_0_TypeDefinitionIndex = 61107;
+
 	class PHBNDGBHJGO___c__DisplayClass0_0 : public ::System::Object
 	{
 	public:

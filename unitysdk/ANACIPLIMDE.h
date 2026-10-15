@@ -4,6 +4,8 @@ namespace System { class String; }
 
 #define ANACIPLIMDE_ALJJDGONFDD_OFFSET UNITYSDK_OFFSET(0x15591C60)
 
+inline static constexpr unsigned int ANACIPLIMDE_TypeDefinitionIndex = 56405;
+
 	struct alignas(8) ANACIPLIMDE
 	{
 		::System::String* KDOLHICFKLL; // 0x10

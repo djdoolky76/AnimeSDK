@@ -23,6 +23,8 @@ namespace System { class String; }
 #define AAODEOPMKBD_NOCJEBGFPNK_OFFSET UNITYSDK_OFFSET(0xB0D8060)
 #define AAODEOPMKBD_SET_GROUPINFO_OFFSET UNITYSDK_OFFSET(0xB0D8050)
 
+inline static constexpr unsigned int AAODEOPMKBD_TypeDefinitionIndex = 73800;
+
 	class AAODEOPMKBD : public ::RPG::Client::OpenWorld::StreamingItemData
 	{
 	public:

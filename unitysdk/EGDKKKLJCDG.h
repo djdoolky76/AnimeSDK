@@ -4,6 +4,8 @@
 
 #define EGDKKKLJCDG_CTOR_OFFSET UNITYSDK_OFFSET(0x13A64510)
 
+inline static constexpr unsigned int EGDKKKLJCDG_TypeDefinitionIndex = 76057;
+
 	class EGDKKKLJCDG : public ::System::Object
 	{
 	public:

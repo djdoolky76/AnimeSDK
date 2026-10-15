@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int StartWindowStage_TypeDefinitionIndex = 21285;
+
 	class StartWindowStage : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -13,6 +13,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByIsBattleReStart_TypeDefinitionIndex = 23041;
+
 	class ByIsBattleReStart : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

@@ -14,6 +14,8 @@ namespace UnityEngine { class Component; }
 #define IKHKAONICLI_PBGLIBBBGBA_OFFSET UNITYSDK_OFFSET(0x1648D680)
 #define IKHKAONICLI_PHNIPINIDNO_OFFSET UNITYSDK_OFFSET(0x1648D7F0)
 
+inline static constexpr unsigned int IKHKAONICLI_TypeDefinitionIndex = 73102;
+
 	class IKHKAONICLI : public ::System::Object
 	{
 	public:

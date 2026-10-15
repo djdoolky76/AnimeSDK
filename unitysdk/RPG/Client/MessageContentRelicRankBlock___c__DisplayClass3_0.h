@@ -9,6 +9,8 @@ namespace System { class Action; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MessageContentRelicRankBlock___c__DisplayClass3_0_TypeDefinitionIndex = 63261;
+
 	class MessageContentRelicRankBlock___c__DisplayClass3_0 : public ::System::Object
 	{
 	public:

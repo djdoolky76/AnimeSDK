@@ -7,6 +7,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define NDPCELNOALL_CTOR_OFFSET UNITYSDK_OFFSET(0xBB55D30)
 #define NDPCELNOALL_GET_FLAG_OFFSET UNITYSDK_OFFSET(0xBB55D40)
 
+inline static constexpr unsigned int NDPCELNOALL_TypeDefinitionIndex = 57041;
+
 	class NDPCELNOALL : public ::BDENDNDOFLF
 	{
 	public:

@@ -10,6 +10,8 @@ class OMPCEECHGJK;
 #define GCIFLKDICJI_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1597B700)
 #define GCIFLKDICJI_KIFOFFEMKNO_OFFSET UNITYSDK_OFFSET(0x1597B7D0)
 
+inline static constexpr unsigned int GCIFLKDICJI_TypeDefinitionIndex = 76659;
+
 	class GCIFLKDICJI : public ::System::Object
 	{
 	public:

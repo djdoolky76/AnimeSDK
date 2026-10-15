@@ -23,6 +23,8 @@ namespace UnityEngine { class AnimationClip; }
 #define OJCKBDEEOCI_SET_ISAUTOFADEIN_OFFSET UNITYSDK_OFFSET(0xBEACCD0)
 #define OJCKBDEEOCI_SET_STATE_OFFSET UNITYSDK_OFFSET(0xBEACCF0)
 
+inline static constexpr unsigned int OJCKBDEEOCI_TypeDefinitionIndex = 72383;
+
 	class OJCKBDEEOCI : public ::System::Object
 	{
 	public:

@@ -27,6 +27,8 @@ namespace System { class String; }
 #define CLMPCCGCADK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E0FC870)
 #define CLMPCCGCADK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E0FC8D0)
 
+inline static constexpr unsigned int CLMPCCGCADK_TypeDefinitionIndex = 33150;
+
 	class CLMPCCGCADK : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define JDAMCKNPADM_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0x1CB8F290)
 #define JDAMCKNPADM_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0x1CB8F7E0)
 
+inline static constexpr unsigned int JDAMCKNPADM_TypeDefinitionIndex = 42481;
+
 	class JDAMCKNPADM : public ::KIDPCOMKMKJ
 	{
 	public:

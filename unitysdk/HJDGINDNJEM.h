@@ -10,6 +10,8 @@ class OOLJJHMLHBH;
 #define HJDGINDNJEM_GPJOICOEKME_OFFSET UNITYSDK_OFFSET(0x15D0AD50)
 #define HJDGINDNJEM_MHMCNAIODBK_OFFSET UNITYSDK_OFFSET(0x15D0A7D0)
 
+inline static constexpr unsigned int HJDGINDNJEM_TypeDefinitionIndex = 67522;
+
 	class HJDGINDNJEM : public ::System::Object
 	{
 	public:

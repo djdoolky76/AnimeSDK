@@ -11,6 +11,8 @@ namespace RPG::Client { class FloorConnectivityData_EdgeInfo; }
 #define PEFMDFGFDLN_SETUPDATA_OFFSET UNITYSDK_OFFSET(0xC039E90)
 #define PEFMDFGFDLN_TRYFINDNEXTPOINT_OFFSET UNITYSDK_OFFSET(0xC03A7B0)
 
+inline static constexpr unsigned int PEFMDFGFDLN_TypeDefinitionIndex = 64234;
+
 	class PEFMDFGFDLN : public ::RPG::Client::FloorConnectivityData
 	{
 	public:

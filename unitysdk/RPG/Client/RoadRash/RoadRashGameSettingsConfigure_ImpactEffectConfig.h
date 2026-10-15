@@ -6,6 +6,8 @@ namespace UnityEngine { class AnimationCurve; }
 
 namespace RPG::Client::RoadRash
 {
+	inline static constexpr unsigned int RoadRashGameSettingsConfigure_ImpactEffectConfig_TypeDefinitionIndex = 75896;
+
 	struct alignas(8) RoadRashGameSettingsConfigure_ImpactEffectConfig
 	{
 		::System::Single StartValue; // 0x10

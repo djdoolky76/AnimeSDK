@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PerformanceBgImagePanelConfig_TypeDefinitionIndex = 19046;
+
 	class PerformanceBgImagePanelConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

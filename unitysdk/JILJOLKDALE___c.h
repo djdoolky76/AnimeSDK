@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define JILJOLKDALE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7515F0)
 #define JILJOLKDALE___C___CCTOR_B__53_0_OFFSET UNITYSDK_OFFSET(0x1E751600)
 
+inline static constexpr unsigned int JILJOLKDALE___c_TypeDefinitionIndex = 25342;
+
 	class JILJOLKDALE___c : public ::System::Object
 	{
 	public:

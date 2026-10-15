@@ -27,6 +27,8 @@ namespace System { class String; }
 #define DOOOBFLCMKC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E205A00)
 #define DOOOBFLCMKC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E205A60)
 
+inline static constexpr unsigned int DOOOBFLCMKC_TypeDefinitionIndex = 35048;
+
 	class DOOOBFLCMKC : public ::System::Object
 	{
 	public:

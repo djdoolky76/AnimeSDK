@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define FGDIDAIANCC_JIGJDOFEJMI_OFFSET UNITYSDK_OFFSET(0x15758070)
 #define FGDIDAIANCC_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x157580C0)
 
+inline static constexpr unsigned int FGDIDAIANCC_TypeDefinitionIndex = 59174;
+
 	class FGDIDAIANCC
 	{
 	public:

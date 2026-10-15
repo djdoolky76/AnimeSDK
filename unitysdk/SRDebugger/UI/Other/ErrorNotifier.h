@@ -11,6 +11,8 @@ namespace UnityEngine { class Animator; }
 
 namespace SRDebugger::UI::Other
 {
+	inline static constexpr unsigned int ErrorNotifier_TypeDefinitionIndex = 38004;
+
 	class ErrorNotifier : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -14,6 +14,8 @@ namespace UnityEngine { class Gradient; }
 
 namespace ScenenLightManager
 {
+	inline static constexpr unsigned int LocalAmbientVolume_ExportData_TypeDefinitionIndex = 49104;
+
 	class LocalAmbientVolume_ExportData : public ::ScenenLightManager::BaseComponentExportData
 	{
 	public:

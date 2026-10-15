@@ -25,6 +25,8 @@ namespace System { class String; }
 #define PMEPACFLODP_LEOBPPJOIBM_OFFSET UNITYSDK_OFFSET(0xC319C40)
 #define PMEPACFLODP_MFDCJOIKCKF_OFFSET UNITYSDK_OFFSET(0xC31A6A0)
 
+inline static constexpr unsigned int PMEPACFLODP_TypeDefinitionIndex = 68687;
+
 	class PMEPACFLODP : public ::System::Object
 	{
 	public:

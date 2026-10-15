@@ -9,6 +9,8 @@ namespace System { class String; }
 #define MGKBGCOJALC_HCFINLKPIHL_OFFSET UNITYSDK_OFFSET(0xB925920)
 #define MGKBGCOJALC_IGBFHCJEHNK_OFFSET UNITYSDK_OFFSET(0xB9259C0)
 
+inline static constexpr unsigned int MGKBGCOJALC_TypeDefinitionIndex = 73295;
+
 	class MGKBGCOJALC : public ::System::Object
 	{
 	public:

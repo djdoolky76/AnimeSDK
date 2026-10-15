@@ -13,6 +13,8 @@ namespace System::Text { class Encoding; }
 
 namespace System::Text
 {
+	inline static constexpr unsigned int InternalEncoderBestFitFallback_TypeDefinitionIndex = 479;
+
 	class InternalEncoderBestFitFallback : public ::System::Text::EncoderFallback
 	{
 	public:

@@ -78,6 +78,8 @@ namespace UnityEngine::UI { class Toggle; }
 
 namespace TMPro
 {
+	inline static constexpr unsigned int TMP_Dropdown_TypeDefinitionIndex = 44560;
+
 	class TMP_Dropdown : public ::UnityEngine::UI::Selectable
 	{
 	public:

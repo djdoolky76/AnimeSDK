@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ExpeditionBattleRankViewModel_TypeDefinitionIndex = 63946;
+
 	class ExpeditionBattleRankViewModel : public ::System::Object
 	{
 	public:

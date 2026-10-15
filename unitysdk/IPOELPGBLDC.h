@@ -6,6 +6,8 @@ namespace System { class String; }
 
 #define IPOELPGBLDC_CCTOR_OFFSET UNITYSDK_OFFSET(0x1CB8A9F0)
 
+inline static constexpr unsigned int IPOELPGBLDC_TypeDefinitionIndex = 42802;
+
 	class IPOELPGBLDC : public ::System::Object
 	{
 	public:

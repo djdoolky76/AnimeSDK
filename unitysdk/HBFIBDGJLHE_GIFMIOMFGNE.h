@@ -106,6 +106,8 @@ namespace UnityEngine { class Transform; }
 #define HBFIBDGJLHE_GIFMIOMFGNE_SET_UPDATEAUDIO_OFFSET UNITYSDK_OFFSET(0x15C00450)
 #define HBFIBDGJLHE_GIFMIOMFGNE_SET_WAITDESTROY_OFFSET UNITYSDK_OFFSET(0x15C00310)
 
+inline static constexpr unsigned int HBFIBDGJLHE_GIFMIOMFGNE_TypeDefinitionIndex = 82172;
+
 	class HBFIBDGJLHE_GIFMIOMFGNE : public ::System::Object
 	{
 	public:

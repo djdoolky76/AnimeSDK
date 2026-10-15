@@ -35,6 +35,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define HPKBKDHCLKJ_PBJCEMDAEKA_OFFSET UNITYSDK_OFFSET(0x1CED64F0)
 #define HPKBKDHCLKJ_PPDKMFJCCBC_OFFSET UNITYSDK_OFFSET(0x1CED5640)
 
+inline static constexpr unsigned int HPKBKDHCLKJ_TypeDefinitionIndex = 10373;
+
 	class HPKBKDHCLKJ : public ::System::Object
 	{
 	public:

@@ -36,6 +36,8 @@ namespace System { class String; }
 
 namespace RPG::Client::DiceCombat
 {
+	inline static constexpr unsigned int DiceCombatV2MPService_TypeDefinitionIndex = 76203;
+
 	class DiceCombatV2MPService : public ::RPG::Client::Multiplayer::BaseMPGameService
 	{
 	public:

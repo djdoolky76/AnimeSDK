@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriAtomExAcbDebug_AcbInfoForMarshaling_TypeDefinitionIndex = 40193;
+
 	struct alignas(8) CriAtomExAcbDebug_AcbInfoForMarshaling
 	{
 		::System::IntPtr namePtr; // 0x10

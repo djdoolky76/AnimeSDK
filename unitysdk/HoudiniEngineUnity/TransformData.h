@@ -10,6 +10,8 @@ namespace UnityEngine { class Transform; }
 
 namespace HoudiniEngineUnity
 {
+	inline static constexpr unsigned int TransformData_TypeDefinitionIndex = 40626;
+
 	struct alignas(8) TransformData
 	{
 		::UnityEngine::Vector3 position; // 0x10

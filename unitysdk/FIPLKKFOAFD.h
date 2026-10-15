@@ -12,6 +12,8 @@ namespace System { class Object; }
 #define FIPLKKFOAFD__ADDNOTIFYHANDLERS_OFFSET UNITYSDK_OFFSET(0x157B1A10)
 #define FIPLKKFOAFD__ADDPACKETHANDLERS_OFFSET UNITYSDK_OFFSET(0x157B18F0)
 
+inline static constexpr unsigned int FIPLKKFOAFD_TypeDefinitionIndex = 62410;
+
 	class FIPLKKFOAFD : public ::RPG::Client::BaseModule
 	{
 	public:

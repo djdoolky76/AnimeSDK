@@ -8,6 +8,8 @@ namespace System::Security::Cryptography { class RandomNumberGenerator; }
 
 namespace Mono::Security::Cryptography
 {
+	inline static constexpr unsigned int KeyBuilder_E1A5E202CA41D5D1_TypeDefinitionIndex = 2301;
+
 	class KeyBuilder_E1A5E202CA41D5D1 : public ::System::Object
 	{
 	public:

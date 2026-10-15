@@ -10,6 +10,8 @@ namespace RPG::GameCore { class IdleLiveEquipDiscardRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int IdleLiveEquipDiscardRow_TypeDefinitionIndex = 11750;
+
 	class IdleLiveEquipDiscardRow : public ::System::Object
 	{
 	public:

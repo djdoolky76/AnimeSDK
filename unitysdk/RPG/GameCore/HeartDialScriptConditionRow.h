@@ -9,6 +9,8 @@ namespace RPG::GameCore { class HeartDialScriptConditionRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int HeartDialScriptConditionRow_TypeDefinitionIndex = 13724;
+
 	class HeartDialScriptConditionRow : public ::System::Object
 	{
 	public:

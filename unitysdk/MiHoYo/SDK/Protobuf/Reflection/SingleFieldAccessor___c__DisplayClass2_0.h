@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK::Protobuf::Reflection
 {
+	inline static constexpr unsigned int SingleFieldAccessor___c__DisplayClass2_0_TypeDefinitionIndex = 35856;
+
 	class SingleFieldAccessor___c__DisplayClass2_0 : public ::System::Object
 	{
 	public:

@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int LDADFJEOFGL_TypeDefinitionIndex = 29076;
+
 	enum class LDADFJEOFGL : ::System::Int32
 	{
 		NLCDGIPGFDJ = 0,

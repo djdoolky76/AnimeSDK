@@ -8,6 +8,8 @@ class FCOEMCEDLNL;
 #define BKIBDMACPBF_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D81D370)
 #define BKIBDMACPBF_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D81D320)
 
+inline static constexpr unsigned int BKIBDMACPBF_TypeDefinitionIndex = 21292;
+
 	class BKIBDMACPBF : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

@@ -14,6 +14,8 @@ namespace System { class Object; }
 #define KNNDMDMHDHO_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0xB589AF0)
 #define KNNDMDMHDHO_INVOKE_OFFSET UNITYSDK_OFFSET(0xB589A40)
 
+inline static constexpr unsigned int KNNDMDMHDHO_TypeDefinitionIndex = 67114;
+
 	class KNNDMDMHDHO : public ::System::MulticastDelegate
 	{
 	public:

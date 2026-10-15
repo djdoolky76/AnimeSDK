@@ -28,6 +28,8 @@ namespace System { class String; }
 #define JHIDMEBBKPE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E747160)
 #define JHIDMEBBKPE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E7471C0)
 
+inline static constexpr unsigned int JHIDMEBBKPE_TypeDefinitionIndex = 31209;
+
 	class JHIDMEBBKPE : public ::System::Object
 	{
 	public:

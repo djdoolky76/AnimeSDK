@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define DBHGOLFACFL_KHDEKEEMOCE_BPLPBPMEODA_OFFSET UNITYSDK_OFFSET(0xDFE1A30)
 #define DBHGOLFACFL_KHDEKEEMOCE_CTOR_OFFSET UNITYSDK_OFFSET(0xDFE1A20)
 
+inline static constexpr unsigned int DBHGOLFACFL_KHDEKEEMOCE_TypeDefinitionIndex = 79435;
+
 	class DBHGOLFACFL_KHDEKEEMOCE : public ::System::Object
 	{
 	public:

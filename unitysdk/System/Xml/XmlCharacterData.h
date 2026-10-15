@@ -15,6 +15,8 @@ namespace System::Xml { class XmlDocument; }
 
 namespace System::Xml
 {
+	inline static constexpr unsigned int XmlCharacterData_TypeDefinitionIndex = 1894;
+
 	class XmlCharacterData : public ::System::Xml::XmlLinkedNode
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int SecurityTunnel_PacketIDGenerator_TypeDefinitionIndex = 46408;
+
 	class SecurityTunnel_PacketIDGenerator : public ::System::Object
 	{
 	public:

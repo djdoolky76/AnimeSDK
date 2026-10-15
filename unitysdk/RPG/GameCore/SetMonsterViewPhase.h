@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetMonsterViewPhase_TypeDefinitionIndex = 22731;
+
 	class SetMonsterViewPhase : public ::RPG::GameCore::TaskConfig
 	{
 	public:

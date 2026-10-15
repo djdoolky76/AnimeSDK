@@ -12,6 +12,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace RPG::Client::ChenLingFes
 {
+	inline static constexpr unsigned int ChenLingFesToastIncomeChangeControl_TypeDefinitionIndex = 81357;
+
 	class ChenLingFesToastIncomeChangeControl : public ::RPG::Client::ChenLingFes::ChenLingFesToastItemControl
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int InGameTeamSlotUiData_TypeDefinitionIndex = 75427;
+
 	struct alignas(8) InGameTeamSlotUiData
 	{
 		::System::Boolean IsAvailable; // 0x10

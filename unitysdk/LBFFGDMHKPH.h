@@ -11,6 +11,8 @@ namespace System { class String; }
 #define LBFFGDMHKPH_LEGKMLGLAKD_OFFSET UNITYSDK_OFFSET(0xB5F9F00)
 #define LBFFGDMHKPH_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB5F9D20)
 
+inline static constexpr unsigned int LBFFGDMHKPH_TypeDefinitionIndex = 56476;
+
 	class LBFFGDMHKPH
 	{
 	public:

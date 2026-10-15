@@ -15,6 +15,8 @@ namespace RPG::GameCore { class LevelPedestrianV2RoadEntryPairInfo; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelPedestrianV2IntersectionInfo_TypeDefinitionIndex = 17298;
+
 	class LevelPedestrianV2IntersectionInfo : public ::RPG::GameCore::JsonConfig
 	{
 	public:

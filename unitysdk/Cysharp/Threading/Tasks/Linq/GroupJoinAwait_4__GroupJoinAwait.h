@@ -15,6 +15,8 @@ namespace System::Linq { template <typename T1, typename T2> class ILookup_2; }
 
 namespace Cysharp::Threading::Tasks::Linq
 {
+	inline static constexpr unsigned int GroupJoinAwait_4__GroupJoinAwait_TypeDefinitionIndex = 45394;
+
 	template <typename T1, typename T2, typename T3, typename T4>
 	class GroupJoinAwait_4__GroupJoinAwait : public ::Cysharp::Threading::Tasks::MoveNextSource
 	{

@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define GIFOGLKFOMM_MCPGIEGGDBH_OFFSET UNITYSDK_OFFSET(0x15A35E30)
 #define GIFOGLKFOMM_MDGNJPIMCPH_OFFSET UNITYSDK_OFFSET(0x15A35060)
 
+inline static constexpr unsigned int GIFOGLKFOMM_TypeDefinitionIndex = 54008;
+
 	class GIFOGLKFOMM : public ::System::Object
 	{
 	public:

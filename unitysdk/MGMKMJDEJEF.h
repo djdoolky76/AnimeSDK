@@ -6,6 +6,8 @@ namespace RPG::Client::Prop { class ChimeraDuelBubbleData; }
 #define MGMKMJDEJEF_CTOR_OFFSET UNITYSDK_OFFSET(0xB928C30)
 #define MGMKMJDEJEF_KAJDHKHENLI_OFFSET UNITYSDK_OFFSET(0xB928BD0)
 
+inline static constexpr unsigned int MGMKMJDEJEF_TypeDefinitionIndex = 78290;
+
 	class MGMKMJDEJEF : public ::System::Object
 	{
 	public:

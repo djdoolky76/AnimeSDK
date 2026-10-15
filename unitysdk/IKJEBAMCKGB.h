@@ -49,6 +49,8 @@ namespace UnityEngine { class GameObject; }
 #define IKJEBAMCKGB__ONTICK_OFFSET UNITYSDK_OFFSET(0x1648F000)
 #define IKJEBAMCKGB___SETUPVIEW_B__9_0_OFFSET UNITYSDK_OFFSET(0x1648FB80)
 
+inline static constexpr unsigned int IKJEBAMCKGB_TypeDefinitionIndex = 72146;
+
 	class IKJEBAMCKGB : public ::FMPCODLIOLG
 	{
 	public:

@@ -24,6 +24,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define IKKOMANKIEB_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CF1D0F0)
 #define IKKOMANKIEB_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CF1C9C0)
 
+inline static constexpr unsigned int IKKOMANKIEB_TypeDefinitionIndex = 13541;
+
 	class IKKOMANKIEB : public ::System::Object
 	{
 	public:

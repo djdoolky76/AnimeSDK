@@ -8,6 +8,8 @@ class NJKFOJJDGGG;
 #define DJGOJMKAAFE_SET_SOLOSTANUID_OFFSET UNITYSDK_OFFSET(0xF2348F0)
 #define DJGOJMKAAFE_UPDATE_OFFSET UNITYSDK_OFFSET(0xF234840)
 
+inline static constexpr unsigned int DJGOJMKAAFE_TypeDefinitionIndex = 65025;
+
 	class DJGOJMKAAFE : public ::RPG::Client::GridFightGameModifier
 	{
 	public:

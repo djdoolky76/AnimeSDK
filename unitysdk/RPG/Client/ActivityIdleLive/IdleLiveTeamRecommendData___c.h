@@ -27,6 +27,8 @@ namespace System::Linq { template <typename T1, typename T2> class IGrouping_2; 
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int IdleLiveTeamRecommendData___c_TypeDefinitionIndex = 75105;
+
 	class IdleLiveTeamRecommendData___c : public ::System::Object
 	{
 	public:

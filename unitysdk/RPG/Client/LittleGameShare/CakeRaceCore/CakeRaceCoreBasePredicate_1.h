@@ -5,6 +5,8 @@ class PBGNKMMDBGD;
 
 namespace RPG::Client::LittleGameShare::CakeRaceCore
 {
+	inline static constexpr unsigned int CakeRaceCoreBasePredicate_1_TypeDefinitionIndex = 37406;
+
 	template <typename T>
 	class CakeRaceCoreBasePredicate_1 : public ::AJFCABOOKCA
 	{

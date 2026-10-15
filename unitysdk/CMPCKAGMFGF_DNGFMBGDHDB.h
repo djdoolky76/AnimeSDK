@@ -7,6 +7,8 @@ namespace System { class Nullable; }
 
 #define CMPCKAGMFGF_DNGFMBGDHDB_CTOR_OFFSET UNITYSDK_OFFSET(0xED090)
 
+inline static constexpr unsigned int CMPCKAGMFGF_DNGFMBGDHDB_TypeDefinitionIndex = 69199;
+
 	struct alignas(8) CMPCKAGMFGF_DNGFMBGDHDB
 	{
 		::System::Nullable* BPAPBAFOMCH; // 0x10

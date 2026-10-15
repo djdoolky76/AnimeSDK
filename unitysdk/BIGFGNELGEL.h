@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define BIGFGNELGEL_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB4A7EB0)
 #define BIGFGNELGEL_TICK_OFFSET UNITYSDK_OFFSET(0xB4A7F00)
 
+inline static constexpr unsigned int BIGFGNELGEL_TypeDefinitionIndex = 53190;
+
 	class BIGFGNELGEL : public ::GELIALJDFBL
 	{
 	public:

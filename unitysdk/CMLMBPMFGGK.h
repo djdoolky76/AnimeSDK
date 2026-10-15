@@ -7,6 +7,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define CMLMBPMFGGK_DISPOSE_OFFSET UNITYSDK_OFFSET(0xDA3B510)
 #define CMLMBPMFGGK_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xDA3B2C0)
 
+inline static constexpr unsigned int CMLMBPMFGGK_TypeDefinitionIndex = 52740;
+
 	class CMLMBPMFGGK
 	{
 	public:

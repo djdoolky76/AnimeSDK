@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int NativeClassAttribute_TypeDefinitionIndex = 3717;
+
 	class NativeClassAttribute : public ::System::Attribute
 	{
 	public:

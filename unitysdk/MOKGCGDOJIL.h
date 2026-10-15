@@ -8,6 +8,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define MOKGCGDOJIL_DALCBAAGIHL_OFFSET UNITYSDK_OFFSET(0xBA33150)
 #define MOKGCGDOJIL_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBA32FB0)
 
+inline static constexpr unsigned int MOKGCGDOJIL_TypeDefinitionIndex = 55061;
+
 	class MOKGCGDOJIL
 	{
 	public:

@@ -25,6 +25,8 @@ namespace System { class String; }
 #define NNFPCAPDENH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB832E0)
 #define NNFPCAPDENH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB83340)
 
+inline static constexpr unsigned int NNFPCAPDENH_TypeDefinitionIndex = 29537;
+
 	class NNFPCAPDENH : public ::System::Object
 	{
 	public:

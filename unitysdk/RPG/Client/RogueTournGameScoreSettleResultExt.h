@@ -7,6 +7,8 @@ namespace RPG::Client { class IRogueTournGameScoreSettleResult; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueTournGameScoreSettleResultExt_TypeDefinitionIndex = 67846;
+
 	class RogueTournGameScoreSettleResultExt : public ::System::Object
 	{
 	public:

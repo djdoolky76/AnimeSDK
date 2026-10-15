@@ -44,6 +44,8 @@ namespace UnityEngine { class Collider; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoCurveTriggerManager_TypeDefinitionIndex = 68558;
+
 	class MonoCurveTriggerManager : public ::UnityEngine::MonoBehaviour
 	{
 	public:

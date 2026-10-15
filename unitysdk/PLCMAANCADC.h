@@ -5,6 +5,8 @@ class KFELGAIGHAP;
 
 #define PLCMAANCADC_CTOR_OFFSET UNITYSDK_OFFSET(0xC2ECE50)
 
+inline static constexpr unsigned int PLCMAANCADC_TypeDefinitionIndex = 57383;
+
 	class PLCMAANCADC : public ::System::Object
 	{
 	public:

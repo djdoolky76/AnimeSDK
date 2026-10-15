@@ -67,6 +67,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FarmModule_TypeDefinitionIndex = 63984;
+
 	class FarmModule : public ::RPG::Client::BaseModule
 	{
 	public:

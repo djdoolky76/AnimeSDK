@@ -21,6 +21,8 @@
 
 namespace UnityEngine::Formats::Alembic::Sdk
 {
+	inline static constexpr unsigned int AlembicExportOptions_TypeDefinitionIndex = 45783;
+
 	class AlembicExportOptions : public ::System::Object
 	{
 	public:

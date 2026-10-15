@@ -5,6 +5,8 @@
 
 #define PFBLMLOGGOK_CTOR_OFFSET UNITYSDK_OFFSET(0xC2075F0)
 
+inline static constexpr unsigned int PFBLMLOGGOK_TypeDefinitionIndex = 69432;
+
 	class PFBLMLOGGOK : public ::System::Object
 	{
 	public:

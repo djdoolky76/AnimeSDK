@@ -16,6 +16,8 @@ namespace UnityEngine::UI { class Button; }
 
 namespace RPG::Client::PixAir
 {
+	inline static constexpr unsigned int PixAirEquipAssembleWindow_TypeDefinitionIndex = 79228;
+
 	class PixAirEquipAssembleWindow : public ::Sofa::BaseSofaWindow
 	{
 	public:

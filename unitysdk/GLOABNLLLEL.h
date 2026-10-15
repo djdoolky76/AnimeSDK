@@ -9,6 +9,8 @@ namespace RPG::GameCore { class DynamicFloat; }
 #define GLOABNLLLEL_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1CE66A40)
 #define GLOABNLLLEL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CE668B0)
 
+inline static constexpr unsigned int GLOABNLLLEL_TypeDefinitionIndex = 22908;
+
 	class GLOABNLLLEL : public ::RPG::GameCore::Retarget
 	{
 	public:

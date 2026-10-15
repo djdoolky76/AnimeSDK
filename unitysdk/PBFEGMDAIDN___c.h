@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define PBFEGMDAIDN___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1DEF5290)
 #define PBFEGMDAIDN___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1DEF52A0)
 
+inline static constexpr unsigned int PBFEGMDAIDN___c_TypeDefinitionIndex = 33003;
+
 	class PBFEGMDAIDN___c : public ::System::Object
 	{
 	public:

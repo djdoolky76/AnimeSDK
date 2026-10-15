@@ -8,6 +8,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int LookAtModuleConfig_TypeDefinitionIndex = 69682;
+
 	class LookAtModuleConfig : public ::RPG::Client::CameraModuleConfigBase
 	{
 	public:

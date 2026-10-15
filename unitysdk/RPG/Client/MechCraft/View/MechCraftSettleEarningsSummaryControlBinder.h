@@ -10,6 +10,8 @@ namespace RPG::Client::MechCraft::View { class MechCraftCurrencyControl; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftSettleEarningsSummaryControlBinder_TypeDefinitionIndex = 80034;
+
 	class MechCraftSettleEarningsSummaryControlBinder : public ::RPG::Client::MechCraft::View::MechCraftBinderBase
 	{
 	public:

@@ -9,6 +9,8 @@ namespace RPG::GameCore { class ILBattleAvatarGenderRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ILBattleAvatarGenderRow_TypeDefinitionIndex = 13788;
+
 	class ILBattleAvatarGenderRow : public ::System::Object
 	{
 	public:

@@ -17,6 +17,8 @@ namespace UnityEngine { class Material; }
 
 namespace Spine::Unity
 {
+	inline static constexpr unsigned int BlendModeMaterials_TypeDefinitionIndex = 44998;
+
 	class BlendModeMaterials : public ::System::Object
 	{
 	public:

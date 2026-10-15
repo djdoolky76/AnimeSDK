@@ -13,6 +13,8 @@ namespace System::Linq::Expressions::Interpreter { class InterpretedFrame; }
 
 namespace System::Linq::Expressions::Interpreter
 {
+	inline static constexpr unsigned int NewArrayBoundsInstruction_TypeDefinitionIndex = 3311;
+
 	class NewArrayBoundsInstruction : public ::System::Linq::Expressions::Interpreter::Instruction
 	{
 	public:

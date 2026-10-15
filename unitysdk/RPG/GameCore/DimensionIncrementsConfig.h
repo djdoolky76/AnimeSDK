@@ -9,6 +9,8 @@ namespace RPG::GameCore { class DimensionIncrementsConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int DimensionIncrementsConfig_TypeDefinitionIndex = 14736;
+
 	class DimensionIncrementsConfig : public ::System::Object
 	{
 	public:

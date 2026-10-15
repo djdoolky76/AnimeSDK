@@ -10,6 +10,8 @@
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int PadsPuzzleFailAnchor_TypeDefinitionIndex = 78742;
+
 	class PadsPuzzleFailAnchor : public ::RPG::Client::Prop::PadsPuzzlePadBase
 	{
 	public:

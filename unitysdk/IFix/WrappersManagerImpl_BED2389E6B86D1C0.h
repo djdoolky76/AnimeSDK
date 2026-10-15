@@ -18,6 +18,8 @@ namespace System { class Type; }
 
 namespace IFix
 {
+	inline static constexpr unsigned int WrappersManagerImpl_BED2389E6B86D1C0_TypeDefinitionIndex = 44321;
+
 	class WrappersManagerImpl_BED2389E6B86D1C0 : public ::System::Object
 	{
 	public:

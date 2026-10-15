@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define JJAMLPOHBIH_SET_GAINBONUSCOINS_OFFSET UNITYSDK_OFFSET(0xB200350)
 #define JJAMLPOHBIH_SET_GAINTOTALCOIN_OFFSET UNITYSDK_OFFSET(0xB200310)
 
+inline static constexpr unsigned int JJAMLPOHBIH_TypeDefinitionIndex = 80185;
+
 	class JJAMLPOHBIH : public ::System::Object
 	{
 	public:

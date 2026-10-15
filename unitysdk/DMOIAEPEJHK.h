@@ -30,6 +30,8 @@ namespace System { class String; }
 #define DMOIAEPEJHK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E1F1BF0)
 #define DMOIAEPEJHK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E1F1C50)
 
+inline static constexpr unsigned int DMOIAEPEJHK_TypeDefinitionIndex = 30459;
+
 	class DMOIAEPEJHK : public ::System::Object
 	{
 	public:

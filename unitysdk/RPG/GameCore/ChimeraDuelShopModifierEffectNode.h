@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ChimeraDuelShopModifierEffectNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChimeraDuelShopModifierEffectNode_TypeDefinitionIndex = 15964;
+
 	class ChimeraDuelShopModifierEffectNode : public ::RPG::GameCore::BaseChimeraDuelNode
 	{
 	public:

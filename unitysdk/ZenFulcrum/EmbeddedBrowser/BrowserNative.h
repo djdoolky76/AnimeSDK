@@ -109,6 +109,8 @@ namespace ZenFulcrum::EmbeddedBrowser { class WebResources; }
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
+	inline static constexpr unsigned int BrowserNative_TypeDefinitionIndex = 39371;
+
 	class BrowserNative : public ::System::Object
 	{
 	public:

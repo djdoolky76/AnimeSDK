@@ -27,6 +27,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MultiPathHelper_TypeDefinitionIndex = 62648;
+
 	class MultiPathHelper : public ::System::Object
 	{
 	public:

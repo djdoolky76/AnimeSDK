@@ -13,6 +13,8 @@ namespace RPG::Client { class UIBubbleItem; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int ChimeraDuelBubbleUpdater_TypeDefinitionIndex = 78281;
+
 	class ChimeraDuelBubbleUpdater : public ::UnityEngine::MonoBehaviour
 	{
 	public:

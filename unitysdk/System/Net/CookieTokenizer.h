@@ -26,6 +26,8 @@ namespace System { class String; }
 
 namespace System::Net
 {
+	inline static constexpr unsigned int CookieTokenizer_TypeDefinitionIndex = 2796;
+
 	class CookieTokenizer : public ::System::Object
 	{
 	public:

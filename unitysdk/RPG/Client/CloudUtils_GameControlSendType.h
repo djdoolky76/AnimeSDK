@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CloudUtils_GameControlSendType_TypeDefinitionIndex = 59864;
+
 	enum class CloudUtils_GameControlSendType : ::System::Int32
 	{
 		UIPos = 48,

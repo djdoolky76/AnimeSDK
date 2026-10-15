@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CameraFightStateOrbitCruiseConfigData_TypeDefinitionIndex = 69582;
+
 	class CameraFightStateOrbitCruiseConfigData : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System::Security::Cryptography { class SHA1; }
 
 namespace System::Security::Cryptography
 {
+	inline static constexpr unsigned int SHA1_TypeDefinitionIndex = 1055;
+
 	class SHA1 : public ::System::Security::Cryptography::HashAlgorithm
 	{
 	public:

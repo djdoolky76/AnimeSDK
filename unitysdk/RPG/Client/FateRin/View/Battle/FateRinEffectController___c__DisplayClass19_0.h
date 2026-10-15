@@ -9,6 +9,8 @@ namespace System { class Object; }
 
 namespace RPG::Client::FateRin::View::Battle
 {
+	inline static constexpr unsigned int FateRinEffectController___c__DisplayClass19_0_TypeDefinitionIndex = 80692;
+
 	class FateRinEffectController___c__DisplayClass19_0 : public ::System::Object
 	{
 	public:

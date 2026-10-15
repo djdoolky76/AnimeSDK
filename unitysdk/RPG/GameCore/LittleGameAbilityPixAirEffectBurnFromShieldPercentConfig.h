@@ -11,6 +11,8 @@ namespace RPG::GameCore { class LittleGameAbilityPixAirEffectBurnFromShieldPerce
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LittleGameAbilityPixAirEffectBurnFromShieldPercentConfig_TypeDefinitionIndex = 21363;
+
 	class LittleGameAbilityPixAirEffectBurnFromShieldPercentConfig : public ::RPG::GameCore::BaseLittleGameAbilityEffectConfig
 	{
 	public:

@@ -62,6 +62,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 
 namespace RPG::Client::HimekoNovaSpecialSkill
 {
+	inline static constexpr unsigned int HimekoNovaSpecialSkillDisplayViewModel_TypeDefinitionIndex = 80494;
+
 	class HimekoNovaSpecialSkillDisplayViewModel : public ::Sofa::BaseViewModel
 	{
 	public:

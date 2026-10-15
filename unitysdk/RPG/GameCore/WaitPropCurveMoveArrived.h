@@ -14,6 +14,8 @@ namespace RPG::GameCore { class WaitPropCurveMoveArrived; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaitPropCurveMoveArrived_TypeDefinitionIndex = 21014;
+
 	class WaitPropCurveMoveArrived : public ::RPG::GameCore::TaskConfig
 	{
 	public:

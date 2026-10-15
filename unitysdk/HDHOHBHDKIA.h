@@ -13,6 +13,8 @@ namespace RPG::Client { class CameraFightStateSelectLightTeamEntityConfig; }
 #define HDHOHBHDKIA_REFRESH_OFFSET UNITYSDK_OFFSET(0x15C33E90)
 #define HDHOHBHDKIA_RESET_OFFSET UNITYSDK_OFFSET(0x15C33DF0)
 
+inline static constexpr unsigned int HDHOHBHDKIA_TypeDefinitionIndex = 69604;
+
 	class HDHOHBHDKIA : public ::System::Object
 	{
 	public:

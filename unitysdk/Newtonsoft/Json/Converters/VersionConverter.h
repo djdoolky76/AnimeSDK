@@ -14,6 +14,8 @@ namespace System { class Type; }
 
 namespace Newtonsoft::Json::Converters
 {
+	inline static constexpr unsigned int VersionConverter_TypeDefinitionIndex = 9822;
+
 	class VersionConverter : public ::Newtonsoft::Json::JsonConverter
 	{
 	public:

@@ -24,6 +24,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MarbleBattleResult_TypeDefinitionIndex = 65813;
+
 	class MarbleBattleResult : public ::System::Object
 	{
 	public:

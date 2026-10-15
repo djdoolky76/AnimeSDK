@@ -9,6 +9,8 @@ namespace RPG::AvatarSystem { class IAvatar; }
 #define CMMEIAPCHLN_CTOR_OFFSET UNITYSDK_OFFSET(0xDA3BF00)
 #define CMMEIAPCHLN_ODEBFADAKFA_OFFSET UNITYSDK_OFFSET(0xDA3BCE0)
 
+inline static constexpr unsigned int CMMEIAPCHLN_TypeDefinitionIndex = 62856;
+
 	class CMMEIAPCHLN : public ::System::Object
 	{
 	public:

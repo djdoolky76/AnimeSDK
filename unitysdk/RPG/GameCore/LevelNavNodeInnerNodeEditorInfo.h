@@ -10,6 +10,8 @@ namespace RPG::GameCore { class LevelNavNodeInnerNodeEditorInfo; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelNavNodeInnerNodeEditorInfo_TypeDefinitionIndex = 17386;
+
 	class LevelNavNodeInnerNodeEditorInfo : public ::RPG::GameCore::JsonConfig
 	{
 	public:

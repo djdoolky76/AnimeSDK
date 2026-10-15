@@ -32,6 +32,8 @@ namespace System { class String; }
 #define GEIBJKJDOHO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E4596C0)
 #define GEIBJKJDOHO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E459720)
 
+inline static constexpr unsigned int GEIBJKJDOHO_TypeDefinitionIndex = 29492;
+
 	class GEIBJKJDOHO : public ::System::Object
 	{
 	public:

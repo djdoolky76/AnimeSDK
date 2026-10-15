@@ -27,6 +27,8 @@ namespace System { class String; }
 
 namespace InControl
 {
+	inline static constexpr unsigned int OptionalInt16_TypeDefinitionIndex = 40908;
+
 	struct alignas(4) OptionalInt16
 	{
 		::System::Boolean hasValue; // 0x10

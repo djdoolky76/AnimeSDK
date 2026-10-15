@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TrainPartyModifierSpecifyRarityOnRefreshCardConf
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TrainPartyModifierSpecifyRarityOnRefreshCardConfig_TypeDefinitionIndex = 18111;
+
 	class TrainPartyModifierSpecifyRarityOnRefreshCardConfig : public ::RPG::GameCore::TrainPartyModifierConfigBase
 	{
 	public:

@@ -30,6 +30,8 @@ namespace System { class String; }
 #define JIGLEHNAKNJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E74C510)
 #define JIGLEHNAKNJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E74C570)
 
+inline static constexpr unsigned int JIGLEHNAKNJ_TypeDefinitionIndex = 33055;
+
 	class JIGLEHNAKNJ : public ::System::Object
 	{
 	public:

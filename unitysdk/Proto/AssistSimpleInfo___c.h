@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace Proto
 {
+	inline static constexpr unsigned int AssistSimpleInfo___c_TypeDefinitionIndex = 25862;
+
 	class AssistSimpleInfo___c : public ::System::Object
 	{
 	public:

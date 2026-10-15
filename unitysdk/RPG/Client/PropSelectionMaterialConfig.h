@@ -10,6 +10,8 @@ namespace UnityEngine { class Material; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PropSelectionMaterialConfig_TypeDefinitionIndex = 60254;
+
 	class PropSelectionMaterialConfig : public ::System::Object
 	{
 	public:

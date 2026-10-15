@@ -4,6 +4,8 @@
 
 #define CCHBEOBCCCP_CTOR_OFFSET UNITYSDK_OFFSET(0xC73C280)
 
+inline static constexpr unsigned int CCHBEOBCCCP_TypeDefinitionIndex = 48928;
+
 	class CCHBEOBCCCP : public ::System::Object
 	{
 	public:

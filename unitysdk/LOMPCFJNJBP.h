@@ -9,6 +9,8 @@ namespace System { class String; }
 #define LOMPCFJNJBP_NKPPGDENJAE_OFFSET UNITYSDK_OFFSET(0xB80E3D0)
 #define LOMPCFJNJBP__ONBIND_OFFSET UNITYSDK_OFFSET(0xB80E350)
 
+inline static constexpr unsigned int LOMPCFJNJBP_TypeDefinitionIndex = 72346;
+
 	class LOMPCFJNJBP : public ::FMPCODLIOLG
 	{
 	public:

@@ -9,6 +9,8 @@ namespace MessagePack { class MessagePackSecurity_DateTimeEqualityComparer; }
 
 namespace MessagePack
 {
+	inline static constexpr unsigned int MessagePackSecurity_DateTimeEqualityComparer_TypeDefinitionIndex = 7208;
+
 	class MessagePackSecurity_DateTimeEqualityComparer
 	{
 	public:

@@ -7,6 +7,8 @@ class OHIAJFJDKAO;
 #define OHIAJFJDKAO_CTOR_OFFSET UNITYSDK_OFFSET(0x1D2793C0)
 #define OHIAJFJDKAO_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D2792D0)
 
+inline static constexpr unsigned int OHIAJFJDKAO_TypeDefinitionIndex = 11274;
+
 	class OHIAJFJDKAO : public ::System::Object
 	{
 	public:

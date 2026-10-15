@@ -11,6 +11,8 @@ class PHDHBNBJPJF;
 #define FBDDCJDENFP_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0x15697030)
 #define FBDDCJDENFP_PJLHOKMKCCH_OFFSET UNITYSDK_OFFSET(0x15697130)
 
+inline static constexpr unsigned int FBDDCJDENFP_TypeDefinitionIndex = 56869;
+
 	class FBDDCJDENFP : public ::System::Object
 	{
 	public:

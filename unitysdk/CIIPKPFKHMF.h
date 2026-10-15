@@ -18,6 +18,8 @@ namespace System { class String; }
 #define CIIPKPFKHMF_MNGGAOFNGIP_OFFSET UNITYSDK_OFFSET(0x1DD295F0)
 #define CIIPKPFKHMF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DD29A60)
 
+inline static constexpr unsigned int CIIPKPFKHMF_TypeDefinitionIndex = 6559;
+
 	class CIIPKPFKHMF : public ::System::Object
 	{
 	public:

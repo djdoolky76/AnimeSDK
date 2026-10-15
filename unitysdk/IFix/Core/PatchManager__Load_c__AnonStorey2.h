@@ -9,6 +9,8 @@ namespace System::Reflection { class FieldInfo; }
 
 namespace IFix::Core
 {
+	inline static constexpr unsigned int PatchManager__Load_c__AnonStorey2_TypeDefinitionIndex = 7105;
+
 	class PatchManager__Load_c__AnonStorey2 : public ::System::Object
 	{
 	public:

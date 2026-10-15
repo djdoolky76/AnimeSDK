@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChimeraDuelAttributeSelectorType_TypeDefinitionIndex = 15895;
+
 	enum class ChimeraDuelAttributeSelectorType : ::System::Int32
 	{
 		None = 0,

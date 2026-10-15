@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace System
 {
+	inline static constexpr unsigned int IriHelper_TypeDefinitionIndex = 2460;
+
 	class IriHelper : public ::System::Object
 	{
 	public:

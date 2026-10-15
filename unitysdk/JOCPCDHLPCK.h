@@ -7,6 +7,8 @@ class MNCOPNHONHO;
 #define JOCPCDHLPCK_CTOR_OFFSET UNITYSDK_OFFSET(0xB29EF80)
 #define JOCPCDHLPCK_EXECUTE_OFFSET UNITYSDK_OFFSET(0xB29EF90)
 
+inline static constexpr unsigned int JOCPCDHLPCK_TypeDefinitionIndex = 76769;
+
 	class JOCPCDHLPCK : public ::System::Object
 	{
 	public:

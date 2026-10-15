@@ -13,6 +13,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CameraLookAtConfigData_TypeDefinitionIndex = 69567;
+
 	class CameraLookAtConfigData : public ::System::Object
 	{
 	public:

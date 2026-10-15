@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TurnBasedGameMode; }
 #define COOPPCEFFEE_KIGBILLGNOH_OFFSET UNITYSDK_OFFSET(0xDCC6850)
 #define COOPPCEFFEE_TICK_OFFSET UNITYSDK_OFFSET(0xDCC6BB0)
 
+inline static constexpr unsigned int COOPPCEFFEE_TypeDefinitionIndex = 56261;
+
 	class COOPPCEFFEE : public ::HBPNHCICJGF
 	{
 	public:

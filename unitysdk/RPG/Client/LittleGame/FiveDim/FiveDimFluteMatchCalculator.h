@@ -15,6 +15,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::LittleGame::FiveDim
 {
+	inline static constexpr unsigned int FiveDimFluteMatchCalculator_TypeDefinitionIndex = 77216;
+
 	class FiveDimFluteMatchCalculator : public ::System::Object
 	{
 	public:

@@ -25,6 +25,8 @@ namespace System { class String; }
 #define FHAPLEMDKGN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E385DC0)
 #define FHAPLEMDKGN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E385E20)
 
+inline static constexpr unsigned int FHAPLEMDKGN_TypeDefinitionIndex = 28782;
+
 	class FHAPLEMDKGN : public ::System::Object
 	{
 	public:

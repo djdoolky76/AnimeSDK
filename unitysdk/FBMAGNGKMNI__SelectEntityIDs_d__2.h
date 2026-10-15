@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 #define FBMAGNGKMNI__SELECTENTITYIDS_D__2_SYSTEM_COLLECTIONS_IENUMERATOR_RESET_OFFSET UNITYSDK_OFFSET(0x156A5580)
 #define FBMAGNGKMNI__SELECTENTITYIDS_D__2_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x156A5450)
 
+inline static constexpr unsigned int FBMAGNGKMNI__SelectEntityIDs_d__2_TypeDefinitionIndex = 77634;
+
 	template <typename T1, typename T2>
 	class FBMAGNGKMNI__SelectEntityIDs_d__2 : public ::System::Object
 	{

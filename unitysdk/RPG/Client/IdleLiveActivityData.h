@@ -10,6 +10,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int IdleLiveActivityData_TypeDefinitionIndex = 61636;
+
 	class IdleLiveActivityData : public ::RPG::Client::ActivityPanelData
 	{
 	public:

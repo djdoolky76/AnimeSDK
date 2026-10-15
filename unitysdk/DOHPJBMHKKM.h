@@ -1,6 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
 
+inline static constexpr unsigned int DOHPJBMHKKM_TypeDefinitionIndex = 66299;
+
 	struct alignas(4) DOHPJBMHKKM
 	{
 		::System::Int32 KDAAHJIBJCO; // 0x10

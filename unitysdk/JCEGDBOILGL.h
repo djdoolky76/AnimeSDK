@@ -60,6 +60,8 @@ namespace UnityEngine::UI { class Image; }
 #define JCEGDBOILGL__ONDISPOSE_OFFSET UNITYSDK_OFFSET(0x16586F70)
 #define JCEGDBOILGL__ONTICK_OFFSET UNITYSDK_OFFSET(0x165862E0)
 
+inline static constexpr unsigned int JCEGDBOILGL_TypeDefinitionIndex = 71870;
+
 	class JCEGDBOILGL : public ::FMPCODLIOLG
 	{
 	public:

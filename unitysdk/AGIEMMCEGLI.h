@@ -5,6 +5,8 @@ class FBMAGNGKMNI;
 
 #define AGIEMMCEGLI_CTOR_OFFSET UNITYSDK_OFFSET(0xCF33090)
 
+inline static constexpr unsigned int AGIEMMCEGLI_TypeDefinitionIndex = 77635;
+
 	class AGIEMMCEGLI : public ::HMDKMIJLJFH
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ST_RtSelectSkill; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ST_RtSelectSkill_TypeDefinitionIndex = 24074;
+
 	class ST_RtSelectSkill : public ::RPG::GameCore::STTaskConfig
 	{
 	public:

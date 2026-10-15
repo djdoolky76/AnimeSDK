@@ -13,6 +13,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int SuperDropDown_VoidDelegate_TypeDefinitionIndex = 72668;
+
 	class SuperDropDown_VoidDelegate : public ::System::MulticastDelegate
 	{
 	public:

@@ -22,6 +22,8 @@ namespace System { class String; }
 #define AHMEMALAOCA_LGDKDHPDAEB_OFFSET UNITYSDK_OFFSET(0xEB87B90)
 #define AHMEMALAOCA_MHHABONOGGA_OFFSET UNITYSDK_OFFSET(0xEB88150)
 
+inline static constexpr unsigned int AHMEMALAOCA_TypeDefinitionIndex = 57400;
+
 	class AHMEMALAOCA : public ::System::Object
 	{
 	public:

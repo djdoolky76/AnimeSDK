@@ -6,6 +6,8 @@ class CPGHDGPPBJH;
 
 #define JNFIJJCDLDO_CTOR_OFFSET UNITYSDK_OFFSET(0xB27F0D0)
 
+inline static constexpr unsigned int JNFIJJCDLDO_TypeDefinitionIndex = 80559;
+
 	class JNFIJJCDLDO : public ::System::Object
 	{
 	public:

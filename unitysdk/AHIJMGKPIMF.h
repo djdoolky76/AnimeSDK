@@ -33,6 +33,8 @@ namespace UnityEngine { class Object; }
 #define AHIJMGKPIMF_OIPIANCDINE_OFFSET UNITYSDK_OFFSET(0xEB83330)
 #define AHIJMGKPIMF_OPFNIIGKGMG_OFFSET UNITYSDK_OFFSET(0xEB83890)
 
+inline static constexpr unsigned int AHIJMGKPIMF_TypeDefinitionIndex = 71353;
+
 	class AHIJMGKPIMF : public ::System::Object
 	{
 	public:

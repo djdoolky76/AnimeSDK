@@ -29,6 +29,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int IA_TransformAnim_HoverBehavior_TypeDefinitionIndex = 70841;
+
 	class IA_TransformAnim_HoverBehavior : public ::RPG::Client::TABehaviorBase
 	{
 	public:

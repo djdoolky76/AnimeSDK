@@ -13,6 +13,8 @@ namespace System::Text { class StringBuilder; }
 
 namespace System
 {
+	inline static constexpr unsigned int NumberFormatter_CustomInfo_TypeDefinitionIndex = 415;
+
 	class NumberFormatter_CustomInfo : public ::System::Object
 	{
 	public:

@@ -43,6 +43,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightGameFormationFilter_TypeDefinitionIndex = 64688;
+
 	class GridFightGameFormationFilter : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@
 
 namespace RPG::Client::ActivityIdleLive
 {
+	inline static constexpr unsigned int FailGuideCatchUpImpl_TypeDefinitionIndex = 75381;
+
 	class FailGuideCatchUpImpl : public ::System::Object
 	{
 	public:

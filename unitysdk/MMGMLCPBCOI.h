@@ -6,6 +6,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define MMGMLCPBCOI_CTOR_OFFSET UNITYSDK_OFFSET(0xB9C49F0)
 
+inline static constexpr unsigned int MMGMLCPBCOI_TypeDefinitionIndex = 80575;
+
 	class MMGMLCPBCOI : public ::System::Object
 	{
 	public:

@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ExprConditionChecker_TypeDefinitionIndex = 59910;
+
 	class ExprConditionChecker : public ::RPG::Client::ConditionChecker
 	{
 	public:

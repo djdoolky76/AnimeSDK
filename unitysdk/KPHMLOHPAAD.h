@@ -8,6 +8,8 @@ class KPHMLOHPAAD;
 #define KPHMLOHPAAD_CTOR_OFFSET UNITYSDK_OFFSET(0x1D0CAA20)
 #define KPHMLOHPAAD_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D0CA8F0)
 
+inline static constexpr unsigned int KPHMLOHPAAD_TypeDefinitionIndex = 11628;
+
 	class KPHMLOHPAAD : public ::System::Object
 	{
 	public:

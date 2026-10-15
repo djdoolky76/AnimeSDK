@@ -16,6 +16,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftCraftProgressAttrTargetControl_TypeDefinitionIndex = 79914;
+
 	class MechCraftCraftProgressAttrTargetControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

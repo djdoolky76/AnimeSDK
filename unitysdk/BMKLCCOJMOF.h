@@ -78,6 +78,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define BMKLCCOJMOF_SET_MINX_OFFSET UNITYSDK_OFFSET(0x1C5C8340)
 #define BMKLCCOJMOF_SET_MOVEPROTECTDISTANCE_OFFSET UNITYSDK_OFFSET(0x1C5C8380)
 
+inline static constexpr unsigned int BMKLCCOJMOF_TypeDefinitionIndex = 37153;
+
 	class BMKLCCOJMOF : public ::System::Object
 	{
 	public:

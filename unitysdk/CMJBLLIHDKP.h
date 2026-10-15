@@ -11,6 +11,8 @@ namespace RPG::GameCore { class RtDamageConstConfig; }
 #define CMJBLLIHDKP_NPLKFONPJKJ_OFFSET UNITYSDK_OFFSET(0xDA37BC0)
 #define CMJBLLIHDKP_PGPFKCNDAEG_OFFSET UNITYSDK_OFFSET(0xDA37F10)
 
+inline static constexpr unsigned int CMJBLLIHDKP_TypeDefinitionIndex = 54199;
+
 	class CMJBLLIHDKP
 	{
 	public:

@@ -32,6 +32,8 @@ namespace System { class String; }
 
 namespace Proto
 {
+	inline static constexpr unsigned int PlayerSnapshot_TypeDefinitionIndex = 25828;
+
 	class PlayerSnapshot : public ::System::Object
 	{
 	public:

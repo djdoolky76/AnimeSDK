@@ -10,6 +10,8 @@ namespace System { template <typename T> class Func_1; }
 
 namespace MiHoYo::SDK::HoYoPass
 {
+	inline static constexpr unsigned int AgeGateRegionPolicy_TypeDefinitionIndex = 8270;
+
 	class AgeGateRegionPolicy : public ::System::Object
 	{
 	public:

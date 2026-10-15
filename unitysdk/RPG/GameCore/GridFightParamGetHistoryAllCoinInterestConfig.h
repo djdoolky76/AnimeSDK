@@ -10,6 +10,8 @@ namespace RPG::GameCore { class GridFightParamGetHistoryAllCoinInterestConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightParamGetHistoryAllCoinInterestConfig_TypeDefinitionIndex = 19543;
+
 	class GridFightParamGetHistoryAllCoinInterestConfig : public ::RPG::GameCore::GridFightParameterConfigBase
 	{
 	public:

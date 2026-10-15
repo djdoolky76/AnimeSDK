@@ -12,6 +12,8 @@ namespace UnityEngine { class Collider; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CurveObjectLogicTriggerSetting_TypeDefinitionIndex = 68556;
+
 	class CurveObjectLogicTriggerSetting : public ::System::Object
 	{
 	public:

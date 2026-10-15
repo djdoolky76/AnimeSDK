@@ -11,6 +11,8 @@
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int CRPDebugAsset_TypeDefinitionIndex = 4830;
+
 	struct alignas(4) CRPDebugAsset
 	{
 		::UnityEngine::Rendering::DebugOverlaySetting debugOverlaySetting; // 0x10

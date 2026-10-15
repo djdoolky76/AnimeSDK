@@ -51,6 +51,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int GravityBallWallController_TypeDefinitionIndex = 78599;
+
 	class GravityBallWallController : public ::RPG::Client::Prop::PuzzleBoardBase
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class DynamicFloat; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChangeIncomingActionCountDown_TypeDefinitionIndex = 23694;
+
 	class ChangeIncomingActionCountDown : public ::RPG::GameCore::TaskConfig
 	{
 	public:

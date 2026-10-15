@@ -18,6 +18,8 @@ namespace UnityEngine { class Object; }
 #define HGGENLBDAPM_HFFMFBHGAOL_OFFSET UNITYSDK_OFFSET(0x15C99F90)
 #define HGGENLBDAPM_LDAMHBBILAD_OFFSET UNITYSDK_OFFSET(0x15C99550)
 
+inline static constexpr unsigned int HGGENLBDAPM_TypeDefinitionIndex = 48951;
+
 	class HGGENLBDAPM : public ::System::Object
 	{
 	public:

@@ -5,6 +5,8 @@ class OEIKFPLBOMH;
 class OMLLJLMOFNK;
 namespace System::Collections::Generic { template <typename T> class List_1; }
 
+inline static constexpr unsigned int HIKAAGHELPH_TypeDefinitionIndex = 44248;
+
 	class HIKAAGHELPH : public ::System::Object
 	{
 	public:

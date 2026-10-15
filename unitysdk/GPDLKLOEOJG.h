@@ -131,6 +131,8 @@ namespace UnityEngine { class Transform; }
 #define GPDLKLOEOJG_SET_PERFORMANCECONFIGPROXY_OFFSET UNITYSDK_OFFSET(0x15B4E3B0)
 #define GPDLKLOEOJG___PLAYCONFIRMPERFORMANCE_B__67_0_OFFSET UNITYSDK_OFFSET(0x15B4E3D0)
 
+inline static constexpr unsigned int GPDLKLOEOJG_TypeDefinitionIndex = 60317;
+
 	class GPDLKLOEOJG : public ::System::Object
 	{
 	public:

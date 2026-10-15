@@ -17,6 +17,8 @@ namespace System { class Action; }
 #define LPCLKDJLGKC_OPAJGIJMHPN_OFFSET UNITYSDK_OFFSET(0xB818CB0)
 #define LPCLKDJLGKC_PGLJLODABLB_OFFSET UNITYSDK_OFFSET(0xB818B50)
 
+inline static constexpr unsigned int LPCLKDJLGKC_TypeDefinitionIndex = 75669;
+
 	class LPCLKDJLGKC : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define PNEEENBFFIB_MEPAOJIBLED_OFFSET UNITYSDK_OFFSET(0xC335360)
 #define PNEEENBFFIB_NHBPDCJIAPI_OFFSET UNITYSDK_OFFSET(0xC335020)
 
+inline static constexpr unsigned int PNEEENBFFIB_TypeDefinitionIndex = 62409;
+
 	class PNEEENBFFIB : public ::System::Object
 	{
 	public:

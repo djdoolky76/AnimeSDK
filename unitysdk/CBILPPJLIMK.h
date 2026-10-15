@@ -8,6 +8,8 @@
 #define CBILPPJLIMK_SET_ISSHOW_OFFSET UNITYSDK_OFFSET(0x14EC0)
 #define CBILPPJLIMK_SET_RATIO_OFFSET UNITYSDK_OFFSET(0x14EA0)
 
+inline static constexpr unsigned int CBILPPJLIMK_TypeDefinitionIndex = 71662;
+
 	struct alignas(4) CBILPPJLIMK
 	{
 		::System::Single _Ratio_k__BackingField; // 0x10

@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ImgDanmuContentRow_TypeDefinitionIndex = 15191;
+
 	class ImgDanmuContentRow : public ::System::Object
 	{
 	public:

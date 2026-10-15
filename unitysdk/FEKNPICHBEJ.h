@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define FEKNPICHBEJ_CTOR_OFFSET UNITYSDK_OFFSET(0x15725450)
 #define FEKNPICHBEJ_PKADDEPKJFN_OFFSET UNITYSDK_OFFSET(0x157251A0)
 
+inline static constexpr unsigned int FEKNPICHBEJ_TypeDefinitionIndex = 77888;
+
 	class FEKNPICHBEJ : public ::System::Object
 	{
 	public:

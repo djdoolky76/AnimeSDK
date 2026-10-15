@@ -4,6 +4,8 @@
 
 #define AEIDHPBIDKK_AADJOJCNLOL_CTOR_OFFSET UNITYSDK_OFFSET(0xB153A80)
 
+inline static constexpr unsigned int AEIDHPBIDKK_AADJOJCNLOL_TypeDefinitionIndex = 71408;
+
 	class AEIDHPBIDKK_AADJOJCNLOL : public ::System::Object
 	{
 	public:

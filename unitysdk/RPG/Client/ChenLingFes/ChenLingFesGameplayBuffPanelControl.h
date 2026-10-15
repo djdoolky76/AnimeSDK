@@ -26,6 +26,8 @@ namespace XLua { class LuaTable; }
 
 namespace RPG::Client::ChenLingFes
 {
+	inline static constexpr unsigned int ChenLingFesGameplayBuffPanelControl_TypeDefinitionIndex = 81302;
+
 	class ChenLingFesGameplayBuffPanelControl : public ::Sofa::BaseSofaControl
 	{
 	public:

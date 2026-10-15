@@ -58,6 +58,8 @@ namespace UnityEngine::Rendering { class CommandBuffer; }
 #define HJELAFPMLJA_NLHDMMEOBDB_OFFSET UNITYSDK_OFFSET(0x15D15780)
 #define HJELAFPMLJA_PKADDEPKJFN_OFFSET UNITYSDK_OFFSET(0x15D1D610)
 
+inline static constexpr unsigned int HJELAFPMLJA_TypeDefinitionIndex = 49319;
+
 	class HJELAFPMLJA : public ::HHJGACLHFDJ
 	{
 	public:

@@ -4,6 +4,8 @@
 namespace RPG::Client { class ListView; }
 namespace System { class Object; }
 
+inline static constexpr unsigned int LEHADCICFPP___SelectWhenShown_d__5_TypeDefinitionIndex = 49802;
+
 	template <typename T1, typename T2, typename T3, typename T4, typename T5>
 	class LEHADCICFPP___SelectWhenShown_d__5 : public ::System::Object
 	{

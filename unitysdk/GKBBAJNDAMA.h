@@ -6,6 +6,8 @@ namespace System { class String; }
 #define GKBBAJNDAMA_CLEAR_OFFSET UNITYSDK_OFFSET(0x15A82E80)
 #define GKBBAJNDAMA_CTOR_OFFSET UNITYSDK_OFFSET(0x15A82EE0)
 
+inline static constexpr unsigned int GKBBAJNDAMA_TypeDefinitionIndex = 58604;
+
 	class GKBBAJNDAMA : public ::System::Object
 	{
 	public:

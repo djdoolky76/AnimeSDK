@@ -31,6 +31,8 @@ namespace System { class String; }
 #define NFEJKBHMEOL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB007B0)
 #define NFEJKBHMEOL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB00810)
 
+inline static constexpr unsigned int NFEJKBHMEOL_TypeDefinitionIndex = 28863;
+
 	class NFEJKBHMEOL : public ::System::Object
 	{
 	public:

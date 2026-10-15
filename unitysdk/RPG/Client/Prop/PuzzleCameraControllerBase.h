@@ -16,6 +16,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int PuzzleCameraControllerBase_TypeDefinitionIndex = 78893;
+
 	class PuzzleCameraControllerBase : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -9,6 +9,8 @@ namespace MiHoYo::SDK::UI { class ChannelProtocolDialog; }
 
 namespace MiHoYo::SDK::UI
 {
+	inline static constexpr unsigned int ChannelProtocolDialog___c__DisplayClass41_0_TypeDefinitionIndex = 8393;
+
 	class ChannelProtocolDialog___c__DisplayClass41_0 : public ::System::Object
 	{
 	public:

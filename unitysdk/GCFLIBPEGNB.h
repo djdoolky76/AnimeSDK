@@ -9,6 +9,8 @@ namespace RPG::GameCore { class LittleGameLevelVariable; }
 #define GCFLIBPEGNB_KFAJPMAOBOO_OFFSET UNITYSDK_OFFSET(0x1596A4E0)
 #define GCFLIBPEGNB_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x1596A390)
 
+inline static constexpr unsigned int GCFLIBPEGNB_TypeDefinitionIndex = 76502;
+
 	class GCFLIBPEGNB
 	{
 	public:

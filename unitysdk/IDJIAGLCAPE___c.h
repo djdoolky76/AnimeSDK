@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define IDJIAGLCAPE___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E62E460)
 #define IDJIAGLCAPE___C___CCTOR_B__33_0_OFFSET UNITYSDK_OFFSET(0x1E62E470)
 
+inline static constexpr unsigned int IDJIAGLCAPE___c_TypeDefinitionIndex = 25498;
+
 	class IDJIAGLCAPE___c : public ::System::Object
 	{
 	public:

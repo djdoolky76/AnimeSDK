@@ -14,6 +14,8 @@ namespace System::Reflection { class MemberInfo; }
 #define AEBOGHAOMGP___C___GETMEMBERSTOPARSE_B__1_2_OFFSET UNITYSDK_OFFSET(0xB14C3A0)
 #define AEBOGHAOMGP___C___GETMEMBERSTOPARSE_B__1_3_OFFSET UNITYSDK_OFFSET(0xB14C3D0)
 
+inline static constexpr unsigned int AEBOGHAOMGP___c_TypeDefinitionIndex = 67239;
+
 	class AEBOGHAOMGP___c : public ::System::Object
 	{
 	public:

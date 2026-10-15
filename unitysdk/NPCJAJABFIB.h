@@ -9,6 +9,8 @@ class NPCJAJABFIB;
 #define NPCJAJABFIB_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D244430)
 #define NPCJAJABFIB_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D2443F0)
 
+inline static constexpr unsigned int NPCJAJABFIB_TypeDefinitionIndex = 21568;
+
 	class NPCJAJABFIB : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -6,6 +6,8 @@
 #define OOCFHHENHIH_CTOR_OFFSET UNITYSDK_OFFSET(0xBF70000)
 #define OOCFHHENHIH_POINTERPOSITION_OFFSET UNITYSDK_OFFSET(0xBF6FF70)
 
+inline static constexpr unsigned int OOCFHHENHIH_TypeDefinitionIndex = 72955;
+
 	class OOCFHHENHIH : public ::System::Object
 	{
 	public:

@@ -14,6 +14,8 @@ namespace System { class String; }
 #define HIPPLENBUILDERSTATUS_LHKGHMBBAMD_LMABJDHENPK_OFFSET UNITYSDK_OFFSET(0x15DF0B40)
 #define HIPPLENBUILDERSTATUS_LHKGHMBBAMD_PNLLINHJDJF_OFFSET UNITYSDK_OFFSET(0x15DF16C0)
 
+inline static constexpr unsigned int HipplenBuilderStatus_LHKGHMBBAMD_TypeDefinitionIndex = 47210;
+
 	class HipplenBuilderStatus_LHKGHMBBAMD : public ::System::Object
 	{
 	public:

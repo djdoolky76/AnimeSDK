@@ -12,6 +12,8 @@ namespace UnityEngine::Timeline { class TimelineClip; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int TimelineAirshipTrack_TypeDefinitionIndex = 47838;
+
 	class TimelineAirshipTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
 	public:

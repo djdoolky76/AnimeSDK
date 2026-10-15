@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int BiliBiliDelegate_SDKStartHeartbeatDelegate_TypeDefinitionIndex = 7610;
+
 	class BiliBiliDelegate_SDKStartHeartbeatDelegate : public ::System::MulticastDelegate
 	{
 	public:

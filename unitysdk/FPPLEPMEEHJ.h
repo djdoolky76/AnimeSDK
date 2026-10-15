@@ -32,6 +32,8 @@ namespace System { class String; }
 #define FPPLEPMEEHJ_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E410D10)
 #define FPPLEPMEEHJ_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E410D70)
 
+inline static constexpr unsigned int FPPLEPMEEHJ_TypeDefinitionIndex = 27639;
+
 	class FPPLEPMEEHJ : public ::System::Object
 	{
 	public:

@@ -6,6 +6,8 @@
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int ServerCode_TypeDefinitionIndex = 7569;
+
 	class ServerCode : public ::System::Object
 	{
 	public:

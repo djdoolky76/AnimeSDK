@@ -9,6 +9,8 @@ namespace System { class Object; }
 
 namespace Cysharp::Threading::Tasks
 {
+	inline static constexpr unsigned int ReadOnlyAsyncReactiveProperty_1__ConsumeEnumerator_d__7_TypeDefinitionIndex = 38130;
+
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7>
 	struct alignas(8) ReadOnlyAsyncReactiveProperty_1__ConsumeEnumerator_d__7
 	{

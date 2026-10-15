@@ -9,6 +9,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define OKCNIALEMIO_ONSKIP_OFFSET UNITYSDK_OFFSET(0xBED3690)
 #define OKCNIALEMIO_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBED34B0)
 
+inline static constexpr unsigned int OKCNIALEMIO_TypeDefinitionIndex = 58563;
+
 	class OKCNIALEMIO
 	{
 	public:

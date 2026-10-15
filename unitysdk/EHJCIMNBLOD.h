@@ -5,6 +5,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 #define EHJCIMNBLOD_CTOR_OFFSET UNITYSDK_OFFSET(0x154AD000)
 
+inline static constexpr unsigned int EHJCIMNBLOD_TypeDefinitionIndex = 57592;
+
 	class EHJCIMNBLOD : public ::System::Object
 	{
 	public:

@@ -35,6 +35,8 @@ namespace RPG::Client { class CakeRaceParticipantData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CakeRaceGameFightResultParticipantData_TypeDefinitionIndex = 63026;
+
 	class CakeRaceGameFightResultParticipantData : public ::System::Object
 	{
 	public:

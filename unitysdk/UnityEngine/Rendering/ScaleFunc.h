@@ -13,6 +13,8 @@ namespace System { class Object; }
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int ScaleFunc_TypeDefinitionIndex = 35582;
+
 	class ScaleFunc : public ::System::MulticastDelegate
 	{
 	public:

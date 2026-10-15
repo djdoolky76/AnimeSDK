@@ -8,6 +8,8 @@ namespace System { class String; }
 #define AEDHLLMGANN_GFALKPIEIKO_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x3C36280)
 #define AEDHLLMGANN_GFALKPIEIKO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3C36250)
 
+inline static constexpr unsigned int AEDHLLMGANN_GFALKPIEIKO_TypeDefinitionIndex = 14357;
+
 	struct alignas(4) AEDHLLMGANN_GFALKPIEIKO
 	{
 		::RPG::GameCore::ELevelPerformanceType DNGFHOEACBI; // 0x10

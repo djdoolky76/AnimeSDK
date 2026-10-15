@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int IVROverlay__IsDashboardVisible_TypeDefinitionIndex = 39124;
+
 	class IVROverlay__IsDashboardVisible : public ::System::MulticastDelegate
 	{
 	public:

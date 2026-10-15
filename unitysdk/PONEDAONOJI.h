@@ -30,6 +30,8 @@ namespace System { class String; }
 #define PONEDAONOJI_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DFCE2F0)
 #define PONEDAONOJI_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DFCE350)
 
+inline static constexpr unsigned int PONEDAONOJI_TypeDefinitionIndex = 34341;
+
 	class PONEDAONOJI : public ::System::Object
 	{
 	public:

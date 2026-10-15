@@ -29,6 +29,8 @@ namespace System { class String; }
 #define PIKGCABFJAE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF6A940)
 #define PIKGCABFJAE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF6A9A0)
 
+inline static constexpr unsigned int PIKGCABFJAE_TypeDefinitionIndex = 32402;
+
 	class PIKGCABFJAE : public ::System::Object
 	{
 	public:

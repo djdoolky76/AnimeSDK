@@ -6,6 +6,8 @@ namespace System { class Object; }
 
 #define CFNBLNHMHGO_CTOR_OFFSET UNITYSDK_OFFSET(0xCC590D0)
 
+inline static constexpr unsigned int CFNBLNHMHGO_TypeDefinitionIndex = 61124;
+
 	class CFNBLNHMHGO : public ::System::Object
 	{
 	public:

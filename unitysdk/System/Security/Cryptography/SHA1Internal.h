@@ -14,6 +14,8 @@
 
 namespace System::Security::Cryptography
 {
+	inline static constexpr unsigned int SHA1Internal_TypeDefinitionIndex = 1082;
+
 	class SHA1Internal : public ::System::Object
 	{
 	public:

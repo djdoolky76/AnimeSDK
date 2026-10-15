@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T> class Queue_1; }
 #define LAGMOAPBAKM_PLJPBLFDFCP_OFFSET UNITYSDK_OFFSET(0xB5E19A0)
 #define LAGMOAPBAKM___TRYSHOWINVITATIONDIALOG_B__6_0_OFFSET UNITYSDK_OFFSET(0xB5E1AC0)
 
+inline static constexpr unsigned int LAGMOAPBAKM_TypeDefinitionIndex = 76132;
+
 	class LAGMOAPBAKM : public ::System::Object
 	{
 	public:

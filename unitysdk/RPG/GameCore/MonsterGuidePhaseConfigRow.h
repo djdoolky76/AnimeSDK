@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MonsterGuidePhaseConfigRow_TypeDefinitionIndex = 14201;
+
 	class MonsterGuidePhaseConfigRow : public ::System::Object
 	{
 	public:

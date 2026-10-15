@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ChimeraPhaseRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChimeraPhaseRow_TypeDefinitionIndex = 13036;
+
 	class ChimeraPhaseRow : public ::System::Object
 	{
 	public:

@@ -32,6 +32,8 @@ namespace System { class String; }
 #define PPGBKMBDMIK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DFD8700)
 #define PPGBKMBDMIK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DFD8760)
 
+inline static constexpr unsigned int PPGBKMBDMIK_TypeDefinitionIndex = 30531;
+
 	class PPGBKMBDMIK : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace System::ComponentModel
 {
+	inline static constexpr unsigned int EditorAttribute_TypeDefinitionIndex = 2588;
+
 	class EditorAttribute : public ::System::Attribute
 	{
 	public:

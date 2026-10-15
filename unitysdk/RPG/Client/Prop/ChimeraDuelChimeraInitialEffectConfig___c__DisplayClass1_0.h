@@ -8,6 +8,8 @@ namespace RPG::Client::Prop { class ChimeraDuelInitialEffectConfig; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int ChimeraDuelChimeraInitialEffectConfig___c__DisplayClass1_0_TypeDefinitionIndex = 78321;
+
 	class ChimeraDuelChimeraInitialEffectConfig___c__DisplayClass1_0 : public ::System::Object
 	{
 	public:

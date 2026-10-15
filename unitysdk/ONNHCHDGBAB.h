@@ -43,6 +43,8 @@ namespace System { class String; }
 #define ONNHCHDGBAB_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DECFF50)
 #define ONNHCHDGBAB_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DECFFB0)
 
+inline static constexpr unsigned int ONNHCHDGBAB_TypeDefinitionIndex = 27769;
+
 	class ONNHCHDGBAB : public ::System::Object
 	{
 	public:

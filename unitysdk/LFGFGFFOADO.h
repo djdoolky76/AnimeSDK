@@ -9,6 +9,8 @@ namespace System { class String; }
 #define LFGFGFFOADO_MNJOCIFNCFK_OFFSET UNITYSDK_OFFSET(0xB669950)
 #define LFGFGFFOADO_TOSTRING_OFFSET UNITYSDK_OFFSET(0xB6699F0)
 
+inline static constexpr unsigned int LFGFGFFOADO_TypeDefinitionIndex = 59394;
+
 	class LFGFGFFOADO : public ::System::Object
 	{
 	public:

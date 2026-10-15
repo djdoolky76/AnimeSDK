@@ -10,6 +10,8 @@ namespace RPG::GameCore { class WaitServerGroupStateChange; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaitServerGroupStateChange_TypeDefinitionIndex = 21179;
+
 	class WaitServerGroupStateChange : public ::RPG::GameCore::TaskConfig
 	{
 	public:

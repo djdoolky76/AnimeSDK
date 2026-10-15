@@ -11,6 +11,8 @@ namespace UnityEngine::ProBuilder { class SemVer; }
 
 namespace UnityEngine::ProBuilder
 {
+	inline static constexpr unsigned int ChangelogEntry_TypeDefinitionIndex = 44341;
+
 	class ChangelogEntry : public ::System::Object
 	{
 	public:

@@ -45,6 +45,8 @@ namespace System { class String; }
 #define HNDAOBACJOA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E5DAAC0)
 #define HNDAOBACJOA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E5DAB20)
 
+inline static constexpr unsigned int HNDAOBACJOA_TypeDefinitionIndex = 25545;
+
 	class HNDAOBACJOA : public ::System::Object
 	{
 	public:

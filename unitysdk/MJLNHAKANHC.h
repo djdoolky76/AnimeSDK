@@ -44,6 +44,8 @@ namespace System { class String; }
 #define MJLNHAKANHC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA4B940)
 #define MJLNHAKANHC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA4B9A0)
 
+inline static constexpr unsigned int MJLNHAKANHC_TypeDefinitionIndex = 26847;
+
 	class MJLNHAKANHC : public ::System::Object
 	{
 	public:

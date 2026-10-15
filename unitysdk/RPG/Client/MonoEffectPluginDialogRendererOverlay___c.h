@@ -11,6 +11,8 @@ namespace UnityEngine { class Renderer; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoEffectPluginDialogRendererOverlay___c_TypeDefinitionIndex = 69999;
+
 	class MonoEffectPluginDialogRendererOverlay___c : public ::System::Object
 	{
 	public:

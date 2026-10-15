@@ -45,6 +45,8 @@ namespace UnityEngine { class Texture; }
 #define LOCALFOGSPHEREINSTANCE__UNSERIALIZEASYNC_B__39_3_OFFSET UNITYSDK_OFFSET(0xB83CFF0)
 #define LOCALFOGSPHEREINSTANCE__UNSERIALIZEASYNC_B__39_4_OFFSET UNITYSDK_OFFSET(0xB83D040)
 
+inline static constexpr unsigned int LocalFogSphereInstance_TypeDefinitionIndex = 47469;
+
 	class LocalFogSphereInstance : public ::ScenenLightManager::SceneManagedLightComponent1
 	{
 	public:

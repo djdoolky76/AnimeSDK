@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RtBattleWaveMonsterInfo; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RtBattleWaveMonsterInfo_TypeDefinitionIndex = 18055;
+
 	class RtBattleWaveMonsterInfo : public ::RPG::GameCore::JsonConfig
 	{
 	public:

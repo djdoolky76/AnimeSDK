@@ -19,6 +19,8 @@ namespace UnityEngine { class Transform; }
 #define NPFBPIJFLKM_MAPCLPHECGP_OFFSET UNITYSDK_OFFSET(0xBCFC690)
 #define NPFBPIJFLKM__ONBIND_OFFSET UNITYSDK_OFFSET(0xBCFC260)
 
+inline static constexpr unsigned int NPFBPIJFLKM_TypeDefinitionIndex = 71871;
+
 	class NPFBPIJFLKM : public ::FMPCODLIOLG
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define POKKHJNJABH_LOCK_OFFSET UNITYSDK_OFFSET(0xC36E6F0)
 #define POKKHJNJABH_UNLOCK_OFFSET UNITYSDK_OFFSET(0xC36E750)
 
+inline static constexpr unsigned int POKKHJNJABH_TypeDefinitionIndex = 74788;
+
 	class POKKHJNJABH : public ::RPG::Client::GamePlayLockTargetFunc
 	{
 	public:

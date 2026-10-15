@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define DOEONJEAGPA___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E1FFD10)
 #define DOEONJEAGPA___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E1FFD20)
 
+inline static constexpr unsigned int DOEONJEAGPA___c_TypeDefinitionIndex = 33693;
+
 	class DOEONJEAGPA___c : public ::System::Object
 	{
 	public:

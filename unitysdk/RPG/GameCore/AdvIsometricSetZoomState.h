@@ -10,6 +10,8 @@ namespace RPG::GameCore { class AdvIsometricSetZoomState; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvIsometricSetZoomState_TypeDefinitionIndex = 22213;
+
 	class AdvIsometricSetZoomState : public ::RPG::GameCore::TaskConfig
 	{
 	public:

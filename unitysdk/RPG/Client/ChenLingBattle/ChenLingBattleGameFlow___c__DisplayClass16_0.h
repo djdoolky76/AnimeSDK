@@ -8,6 +8,8 @@ namespace RPG::Client { class AboveSwitchDialog; }
 
 namespace RPG::Client::ChenLingBattle
 {
+	inline static constexpr unsigned int ChenLingBattleGameFlow___c__DisplayClass16_0_TypeDefinitionIndex = 76236;
+
 	class ChenLingBattleGameFlow___c__DisplayClass16_0 : public ::System::Object
 	{
 	public:

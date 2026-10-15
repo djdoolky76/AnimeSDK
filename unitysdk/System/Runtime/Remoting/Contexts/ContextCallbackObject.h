@@ -8,6 +8,8 @@ namespace System::Runtime::Remoting::Contexts { class CrossContextDelegate; }
 
 namespace System::Runtime::Remoting::Contexts
 {
+	inline static constexpr unsigned int ContextCallbackObject_TypeDefinitionIndex = 1249;
+
 	class ContextCallbackObject : public ::System::ContextBoundObject
 	{
 	public:

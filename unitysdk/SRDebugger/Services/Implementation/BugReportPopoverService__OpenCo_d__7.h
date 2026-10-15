@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace SRDebugger::Services::Implementation
 {
+	inline static constexpr unsigned int BugReportPopoverService__OpenCo_d__7_TypeDefinitionIndex = 38074;
+
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7>
 	class BugReportPopoverService__OpenCo_d__7 : public ::System::Object
 	{

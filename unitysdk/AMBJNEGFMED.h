@@ -8,6 +8,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define AMBJNEGFMED_DISPOSE_OFFSET UNITYSDK_OFFSET(0x155764E0)
 #define AMBJNEGFMED_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15576480)
 
+inline static constexpr unsigned int AMBJNEGFMED_TypeDefinitionIndex = 58168;
+
 	class AMBJNEGFMED
 	{
 	public:

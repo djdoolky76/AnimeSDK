@@ -20,6 +20,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define FLNMJIBJFHN_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15842240)
 #define FLNMJIBJFHN_TICK_OFFSET UNITYSDK_OFFSET(0x15842290)
 
+inline static constexpr unsigned int FLNMJIBJFHN_TypeDefinitionIndex = 56443;
+
 	class FLNMJIBJFHN : public ::GELIALJDFBL
 	{
 	public:

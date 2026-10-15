@@ -24,6 +24,8 @@ namespace R3 { template <typename T> class ReactiveProperty_1; }
 #define LDFPJGIOFCJ_SET_ISACTIVE_OFFSET UNITYSDK_OFFSET(0xB620220)
 #define LDFPJGIOFCJ_SET_ISSHOW_OFFSET UNITYSDK_OFFSET(0xB620200)
 
+inline static constexpr unsigned int LDFPJGIOFCJ_TypeDefinitionIndex = 49727;
+
 	class LDFPJGIOFCJ : public ::System::Object
 	{
 	public:

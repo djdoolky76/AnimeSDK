@@ -31,6 +31,8 @@ namespace System { class String; }
 #define CBBPDLPAIPL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E062660)
 #define CBBPDLPAIPL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E0626C0)
 
+inline static constexpr unsigned int CBBPDLPAIPL_TypeDefinitionIndex = 26212;
+
 	class CBBPDLPAIPL : public ::System::Object
 	{
 	public:

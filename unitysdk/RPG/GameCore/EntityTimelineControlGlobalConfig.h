@@ -22,6 +22,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int EntityTimelineControlGlobalConfig_TypeDefinitionIndex = 16591;
+
 	class EntityTimelineControlGlobalConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

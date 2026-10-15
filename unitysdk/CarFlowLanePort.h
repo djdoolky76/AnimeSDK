@@ -7,6 +7,8 @@ class Lane;
 #define CARFLOWLANEPORT_CTOR_OFFSET UNITYSDK_OFFSET(0xDCE3AB0)
 #define CARFLOWLANEPORT_KCDJIIKNLMI_OFFSET UNITYSDK_OFFSET(0xDCE3530)
 
+inline static constexpr unsigned int CarFlowLanePort_TypeDefinitionIndex = 47071;
+
 	class CarFlowLanePort : public ::System::Object
 	{
 	public:

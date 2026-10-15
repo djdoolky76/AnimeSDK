@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define NKLKPLEELIL_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0xBC3BB60)
 #define NKLKPLEELIL_PAINMANMGHL_OFFSET UNITYSDK_OFFSET(0xBC3BD70)
 
+inline static constexpr unsigned int NKLKPLEELIL_TypeDefinitionIndex = 61431;
+
 	class NKLKPLEELIL : public ::System::Object
 	{
 	public:

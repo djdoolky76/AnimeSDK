@@ -15,6 +15,8 @@ namespace System { class String; }
 
 namespace InControl
 {
+	inline static constexpr unsigned int UnityKeyboardProvider_KeyMapping_TypeDefinitionIndex = 40859;
+
 	struct alignas(8) UnityKeyboardProvider_KeyMapping
 	{
 		::InControl::Key source; // 0x10

@@ -10,6 +10,8 @@ namespace RPG::AvatarSystem { class IAvatar; }
 #define ECIKMEIPIGB_JAGPJGOOALH_OFFSET UNITYSDK_OFFSET(0x12D0E1E0)
 #define ECIKMEIPIGB_KPKCFMCJBCF_OFFSET UNITYSDK_OFFSET(0x12D0E180)
 
+inline static constexpr unsigned int ECIKMEIPIGB_TypeDefinitionIndex = 65580;
+
 	class ECIKMEIPIGB : public ::System::Object
 	{
 	public:

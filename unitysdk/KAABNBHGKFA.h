@@ -6,6 +6,8 @@
 #define KAABNBHGKFA_CJDNCBHLOGD_OFFSET UNITYSDK_OFFSET(0xB2CFBB0)
 #define KAABNBHGKFA_CTOR_OFFSET UNITYSDK_OFFSET(0xB2CFCA0)
 
+inline static constexpr unsigned int KAABNBHGKFA_TypeDefinitionIndex = 64934;
+
 	class KAABNBHGKFA : public ::BOIKIMJHDHK
 	{
 	public:

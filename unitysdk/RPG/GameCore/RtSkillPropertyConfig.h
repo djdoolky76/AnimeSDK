@@ -12,6 +12,8 @@ namespace RPG::GameCore { class RtSkillPropertyConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RtSkillPropertyConfig_TypeDefinitionIndex = 17670;
+
 	class RtSkillPropertyConfig : public ::RPG::GameCore::RtSkillExtraConfigBase
 	{
 	public:

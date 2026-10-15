@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AlleyModule___c__DisplayClass17_0_TypeDefinitionIndex = 62250;
+
 	class AlleyModule___c__DisplayClass17_0 : public ::System::Object
 	{
 	public:

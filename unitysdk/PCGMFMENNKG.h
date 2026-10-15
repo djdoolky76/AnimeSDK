@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define PCGMFMENNKG_ENDINVOKE_OFFSET UNITYSDK_OFFSET(0x1C7EB5C0)
 #define PCGMFMENNKG_INVOKE_OFFSET UNITYSDK_OFFSET(0x1C7EB500)
 
+inline static constexpr unsigned int PCGMFMENNKG_TypeDefinitionIndex = 36244;
+
 	class PCGMFMENNKG : public ::System::MulticastDelegate
 	{
 	public:

@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int CIHOEEPIBAI_TypeDefinitionIndex = 28673;
+
 	enum class CIHOEEPIBAI : ::System::Int32
 	{
 		DFPNLDKHGMM = 0,

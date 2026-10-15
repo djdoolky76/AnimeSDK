@@ -17,6 +17,8 @@ namespace System { class String; }
 #define OCIHGCKIEDF_GGBLHEHJBDO_OFFSET UNITYSDK_OFFSET(0xBD6CB20)
 #define OCIHGCKIEDF_TOSTRING_OFFSET UNITYSDK_OFFSET(0xBD6CC20)
 
+inline static constexpr unsigned int OCIHGCKIEDF_TypeDefinitionIndex = 67590;
+
 	class OCIHGCKIEDF : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace RPG::GameCore { class OpenURLWebViewRuleRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int OpenURLWebViewRuleRow_TypeDefinitionIndex = 13331;
+
 	class OpenURLWebViewRuleRow : public ::System::Object
 	{
 	public:

@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MonoEffectLodTemplateName_TypeDefinitionIndex = 10492;
+
 	enum class MonoEffectLodTemplateName : ::System::Int32
 	{
 		WithoutLod = 0,

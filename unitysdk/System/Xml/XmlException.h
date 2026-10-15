@@ -37,6 +37,8 @@ namespace System::Xml { class IXmlLineInfo; }
 
 namespace System::Xml
 {
+	inline static constexpr unsigned int XmlException_TypeDefinitionIndex = 1962;
+
 	class XmlException : public ::System::SystemException
 	{
 	public:

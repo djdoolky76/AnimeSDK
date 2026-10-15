@@ -27,6 +27,8 @@ namespace UnityEngine { class Animation; }
 #define GEGMKAEMMBC__ONBIND_OFFSET UNITYSDK_OFFSET(0x159D5560)
 #define GEGMKAEMMBC__ONTICK_OFFSET UNITYSDK_OFFSET(0x159D61C0)
 
+inline static constexpr unsigned int GEGMKAEMMBC_TypeDefinitionIndex = 72219;
+
 	class GEGMKAEMMBC : public ::FMPCODLIOLG
 	{
 	public:

@@ -4,6 +4,8 @@ namespace RPG::Client { class IRogueTournBuildRefTeamMemberData; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueTournBuildRefTeamDisplayMember_TypeDefinitionIndex = 67535;
+
 	struct alignas(8) RogueTournBuildRefTeamDisplayMember
 	{
 		::RPG::Client::IRogueTournBuildRefTeamMemberData* MemberData; // 0x10

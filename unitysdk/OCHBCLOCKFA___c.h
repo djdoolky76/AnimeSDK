@@ -9,6 +9,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 #define OCHBCLOCKFA___C_CTOR_OFFSET UNITYSDK_OFFSET(0xBD631C0)
 #define OCHBCLOCKFA___C___ISROLEAFFECTEDBYTRAIT_B__4_0_OFFSET UNITYSDK_OFFSET(0xBD631D0)
 
+inline static constexpr unsigned int OCHBCLOCKFA___c_TypeDefinitionIndex = 65139;
+
 	class OCHBCLOCKFA___c : public ::System::Object
 	{
 	public:

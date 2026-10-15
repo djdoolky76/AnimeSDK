@@ -54,6 +54,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define CJGIJKFFJHB_OPEBNOOBIJD_OFFSET UNITYSDK_OFFSET(0xD206E30)
 #define CJGIJKFFJHB_OPIKPDFMAMP_OFFSET UNITYSDK_OFFSET(0xD205E30)
 
+inline static constexpr unsigned int CJGIJKFFJHB_TypeDefinitionIndex = 62362;
+
 	class CJGIJKFFJHB : public ::System::Object
 	{
 	public:

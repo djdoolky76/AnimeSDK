@@ -17,6 +17,8 @@ namespace UnityEngine { class ComputeBuffer; }
 #define FAAADOEIMIB_KPJGDHLENIP_OFFSET UNITYSDK_OFFSET(0x15659660)
 #define FAAADOEIMIB_NDPNAEDIBOC_OFFSET UNITYSDK_OFFSET(0x15659620)
 
+inline static constexpr unsigned int FAAADOEIMIB_TypeDefinitionIndex = 49540;
+
 	class FAAADOEIMIB : public ::System::Object
 	{
 	public:

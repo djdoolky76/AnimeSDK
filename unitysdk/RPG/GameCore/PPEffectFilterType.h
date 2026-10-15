@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PPEffectFilterType_TypeDefinitionIndex = 24824;
+
 	enum class PPEffectFilterType : ::System::Int32
 	{
 		Stack = 0,

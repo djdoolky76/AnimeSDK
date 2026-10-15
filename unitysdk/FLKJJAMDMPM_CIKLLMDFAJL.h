@@ -4,6 +4,8 @@
 
 #define FLKJJAMDMPM_CIKLLMDFAJL_CTOR_OFFSET UNITYSDK_OFFSET(0x1583C4A0)
 
+inline static constexpr unsigned int FLKJJAMDMPM_CIKLLMDFAJL_TypeDefinitionIndex = 59743;
+
 	class FLKJJAMDMPM_CIKLLMDFAJL : public ::System::Object
 	{
 	public:

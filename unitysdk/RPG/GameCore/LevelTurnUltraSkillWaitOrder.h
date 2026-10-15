@@ -21,6 +21,8 @@ namespace RPG::GameCore { class LevelTurnUltraSkillWaitOrder; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelTurnUltraSkillWaitOrder_TypeDefinitionIndex = 56722;
+
 	class LevelTurnUltraSkillWaitOrder : public ::CMPGEAFHHDC
 	{
 	public:

@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define INPDNMCAAIL_JJLCMFNOGKM_OFFSET UNITYSDK_OFFSET(0x164F8C60)
 #define INPDNMCAAIL_NKOEIDFKFLM_OFFSET UNITYSDK_OFFSET(0x164F89D0)
 
+inline static constexpr unsigned int INPDNMCAAIL_TypeDefinitionIndex = 55547;
+
 	class INPDNMCAAIL : public ::System::Object
 	{
 	public:

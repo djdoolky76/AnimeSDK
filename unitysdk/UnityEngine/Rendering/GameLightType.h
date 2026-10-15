@@ -3,6 +3,8 @@
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int GameLightType_TypeDefinitionIndex = 4873;
+
 	enum class GameLightType : ::System::Int32
 	{
 		SceneLight = 0,

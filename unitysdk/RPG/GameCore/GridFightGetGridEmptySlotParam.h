@@ -11,6 +11,8 @@ namespace RPG::GameCore { class GridFightGetGridEmptySlotParam; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int GridFightGetGridEmptySlotParam_TypeDefinitionIndex = 19953;
+
 	class GridFightGetGridEmptySlotParam : public ::RPG::GameCore::TutorialDynamicParamBase
 	{
 	public:

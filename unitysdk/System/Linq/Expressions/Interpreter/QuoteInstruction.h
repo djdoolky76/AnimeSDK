@@ -15,6 +15,8 @@ namespace System::Linq::Expressions::Interpreter { class LocalVariable; }
 
 namespace System::Linq::Expressions::Interpreter
 {
+	inline static constexpr unsigned int QuoteInstruction_TypeDefinitionIndex = 3659;
+
 	class QuoteInstruction : public ::System::Linq::Expressions::Interpreter::Instruction
 	{
 	public:

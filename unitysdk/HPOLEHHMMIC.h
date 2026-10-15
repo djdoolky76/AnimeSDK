@@ -13,6 +13,8 @@ namespace RPG::GameCore { class TrackPhotoEvent; }
 #define HPOLEHHMMIC_KGAFHLGGNHJ_OFFSET UNITYSDK_OFFSET(0x15DD5B40)
 #define HPOLEHHMMIC_KHGIKBFDLFB_OFFSET UNITYSDK_OFFSET(0x15DD5990)
 
+inline static constexpr unsigned int HPOLEHHMMIC_TypeDefinitionIndex = 60923;
+
 	class HPOLEHHMMIC : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace System { class Object; }
 #define NGPOJOFKFGI_GEOEFGOJLCF_LHHCNMMCAOG_OFFSET UNITYSDK_OFFSET(0x1DD7FD70)
 #define NGPOJOFKFGI_GEOEFGOJLCF_PHACOHCMNOA_OFFSET UNITYSDK_OFFSET(0x1DD7FA90)
 
+inline static constexpr unsigned int NGPOJOFKFGI_GEOEFGOJLCF_TypeDefinitionIndex = 6191;
+
 	class NGPOJOFKFGI_GEOEFGOJLCF : public ::System::Object
 	{
 	public:

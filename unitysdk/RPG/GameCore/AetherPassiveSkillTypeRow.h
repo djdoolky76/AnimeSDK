@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AetherPassiveSkillTypeRow_TypeDefinitionIndex = 10928;
+
 	class AetherPassiveSkillTypeRow : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ namespace RPG::GameCore { class GameEntity; }
 
 namespace RPG::QA
 {
+	inline static constexpr unsigned int DebugAnimatorInfoPanel_TypeDefinitionIndex = 51821;
+
 	class DebugAnimatorInfoPanel : public ::UnityEngine::MonoBehaviour
 	{
 	public:

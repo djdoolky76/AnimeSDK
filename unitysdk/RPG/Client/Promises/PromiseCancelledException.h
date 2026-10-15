@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace RPG::Client::Promises
 {
+	inline static constexpr unsigned int PromiseCancelledException_TypeDefinitionIndex = 9900;
+
 	class PromiseCancelledException : public ::System::Exception
 	{
 	public:

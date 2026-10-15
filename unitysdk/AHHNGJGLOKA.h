@@ -23,6 +23,8 @@ namespace System::Text { class StringBuilder; }
 #define AHHNGJGLOKA_SET_ROLEIDENTIFIER_OFFSET UNITYSDK_OFFSET(0xAF40)
 #define AHHNGJGLOKA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1C7230)
 
+inline static constexpr unsigned int AHHNGJGLOKA_TypeDefinitionIndex = 51895;
+
 	struct alignas(4) AHHNGJGLOKA
 	{
 		::DNFDBKCPBNM _RoleIdentifier_k__BackingField; // 0x10

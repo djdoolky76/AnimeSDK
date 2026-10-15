@@ -3,6 +3,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int AudienceLayoutConfig_DensityLevel_TypeDefinitionIndex = 69149;
+
 	struct alignas(8) AudienceLayoutConfig_DensityLevel
 	{
 		::System::Int32 num; // 0x10

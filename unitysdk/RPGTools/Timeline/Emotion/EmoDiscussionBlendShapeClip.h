@@ -14,6 +14,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline::Emotion
 {
+	inline static constexpr unsigned int EmoDiscussionBlendShapeClip_TypeDefinitionIndex = 48754;
+
 	class EmoDiscussionBlendShapeClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

@@ -6,6 +6,8 @@
 
 namespace System::Runtime::CompilerServices
 {
+	inline static constexpr unsigned int IsReadOnlyAttribute_FA2C0245CCBC6273_TypeDefinitionIndex = 41358;
+
 	class IsReadOnlyAttribute_FA2C0245CCBC6273 : public ::System::Attribute
 	{
 	public:

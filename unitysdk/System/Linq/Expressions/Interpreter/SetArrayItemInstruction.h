@@ -13,6 +13,8 @@ namespace System::Linq::Expressions::Interpreter { class SetArrayItemInstruction
 
 namespace System::Linq::Expressions::Interpreter
 {
+	inline static constexpr unsigned int SetArrayItemInstruction_TypeDefinitionIndex = 3313;
+
 	class SetArrayItemInstruction : public ::System::Linq::Expressions::Interpreter::Instruction
 	{
 	public:

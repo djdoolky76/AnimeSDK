@@ -12,6 +12,8 @@ namespace System { class Object; }
 
 namespace Cinemachine::Utility
 {
+	inline static constexpr unsigned int CinemachineDebug_OnGUIDelegate_TypeDefinitionIndex = 39887;
+
 	class CinemachineDebug_OnGUIDelegate : public ::System::MulticastDelegate
 	{
 	public:

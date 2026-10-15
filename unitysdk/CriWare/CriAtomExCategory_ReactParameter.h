@@ -5,6 +5,8 @@
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriAtomExCategory_ReactParameter_TypeDefinitionIndex = 39993;
+
 	struct alignas(4) CriAtomExCategory_ReactParameter
 	{
 		::CriWare::CriAtomExCategory_ReactParameter_Parameter parameter; // 0x10

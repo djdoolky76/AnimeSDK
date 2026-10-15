@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int CELLCCKJIGL_NOBANKOEMNP_TypeDefinitionIndex = 28694;
+
 	enum class CELLCCKJIGL_NOBANKOEMNP : ::System::Int32
 	{
 		NLCDGIPGFDJ = 0,

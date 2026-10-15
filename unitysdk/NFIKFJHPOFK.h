@@ -8,6 +8,8 @@ namespace Google::Protobuf { class IMessage; }
 #define NFIKFJHPOFK_KNMOMJHLDLG_OFFSET UNITYSDK_OFFSET(0xBB96860)
 #define NFIKFJHPOFK_LNJFJINILDJ_OFFSET UNITYSDK_OFFSET(0xBB97040)
 
+inline static constexpr unsigned int NFIKFJHPOFK_TypeDefinitionIndex = 78061;
+
 	class NFIKFJHPOFK : public ::System::Object
 	{
 	public:

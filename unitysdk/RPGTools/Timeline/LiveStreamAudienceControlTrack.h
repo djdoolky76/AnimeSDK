@@ -12,6 +12,8 @@ namespace UnityEngine::Timeline { class TimelineClip; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int LiveStreamAudienceControlTrack_TypeDefinitionIndex = 48167;
+
 	class LiveStreamAudienceControlTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
 	public:

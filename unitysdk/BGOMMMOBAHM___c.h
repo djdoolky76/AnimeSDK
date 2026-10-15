@@ -11,6 +11,8 @@ namespace System { class Object; }
 #define BGOMMMOBAHM___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB46CE00)
 #define BGOMMMOBAHM___C___CREATETRIGGER_B__4_0_OFFSET UNITYSDK_OFFSET(0xB46CE10)
 
+inline static constexpr unsigned int BGOMMMOBAHM___c_TypeDefinitionIndex = 77123;
+
 	class BGOMMMOBAHM___c : public ::System::Object
 	{
 	public:

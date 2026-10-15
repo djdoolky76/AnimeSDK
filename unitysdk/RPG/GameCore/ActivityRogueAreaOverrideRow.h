@@ -10,6 +10,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ActivityRogueAreaOverrideRow_TypeDefinitionIndex = 12341;
+
 	class ActivityRogueAreaOverrideRow : public ::System::Object
 	{
 	public:

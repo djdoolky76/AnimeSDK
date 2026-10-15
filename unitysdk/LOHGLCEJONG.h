@@ -13,6 +13,8 @@ namespace System { class String; }
 #define LOHGLCEJONG_GHDIJCNKKOM_OFFSET UNITYSDK_OFFSET(0xB803BD0)
 #define LOHGLCEJONG_MBMHBAKGLBP_OFFSET UNITYSDK_OFFSET(0xB803AE0)
 
+inline static constexpr unsigned int LOHGLCEJONG_TypeDefinitionIndex = 52100;
+
 	class LOHGLCEJONG : public ::System::Object
 	{
 	public:

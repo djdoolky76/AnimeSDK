@@ -8,6 +8,8 @@
 
 namespace RootMotion::FinalIK
 {
+	inline static constexpr unsigned int GroundingThread_Leg_TipPoint_TypeDefinitionIndex = 46001;
+
 	struct alignas(4) GroundingThread_Leg_TipPoint
 	{
 		::RootMotion::IKJob::IKTransformRef tipTransform; // 0x10

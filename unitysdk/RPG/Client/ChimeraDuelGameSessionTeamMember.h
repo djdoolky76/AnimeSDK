@@ -13,6 +13,8 @@ namespace RPG::Client { class ChimeraDuelGameSessionTeamMember; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ChimeraDuelGameSessionTeamMember_TypeDefinitionIndex = 63335;
+
 	class ChimeraDuelGameSessionTeamMember : public ::System::Object
 	{
 	public:

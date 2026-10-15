@@ -415,6 +415,8 @@ namespace UnityEngine { class Shader; }
 #define KLEFGGIHGMI_SET_STAGEVISIBLECONTROLLER_OFFSET UNITYSDK_OFFSET(0xB511DE0)
 #define KLEFGGIHGMI___SWITCHTOHLOD_B__261_0_OFFSET UNITYSDK_OFFSET(0xB524560)
 
+inline static constexpr unsigned int KLEFGGIHGMI_TypeDefinitionIndex = 73906;
+
 	class KLEFGGIHGMI : public ::System::Object
 	{
 	public:

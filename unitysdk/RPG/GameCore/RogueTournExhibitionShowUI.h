@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueTournExhibitionShowUI_TypeDefinitionIndex = 22118;
+
 	class RogueTournExhibitionShowUI : public ::RPG::GameCore::TaskConfig
 	{
 	public:

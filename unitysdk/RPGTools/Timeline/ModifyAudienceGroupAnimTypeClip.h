@@ -13,6 +13,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int ModifyAudienceGroupAnimTypeClip_TypeDefinitionIndex = 48193;
+
 	class ModifyAudienceGroupAnimTypeClip : public ::UnityEngine::Playables::PlayableAsset
 	{
 	public:

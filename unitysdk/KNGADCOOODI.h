@@ -27,6 +27,8 @@ namespace UnityEngine::UI { class SmoothMask; }
 #define KNGADCOOODI__ONBIND_OFFSET UNITYSDK_OFFSET(0xB583000)
 #define KNGADCOOODI__ONTICK_OFFSET UNITYSDK_OFFSET(0xB5831D0)
 
+inline static constexpr unsigned int KNGADCOOODI_TypeDefinitionIndex = 71709;
+
 	class KNGADCOOODI : public ::FMPCODLIOLG
 	{
 	public:

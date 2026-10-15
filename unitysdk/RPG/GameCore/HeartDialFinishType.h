@@ -3,6 +3,8 @@
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int HeartDialFinishType_TypeDefinitionIndex = 10520;
+
 	enum class HeartDialFinishType : ::System::Int32
 	{
 		Unknow = 0,

@@ -19,6 +19,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 #define ICJNOLJFEHP__SELECTTARGET_D__0_SYSTEM_IDISPOSABLE_DISPOSE_OFFSET UNITYSDK_OFFSET(0x15E50120)
 #define ICJNOLJFEHP__SELECTTARGET_D__0___M__FINALLY1_OFFSET UNITYSDK_OFFSET(0x15E50160)
 
+inline static constexpr unsigned int ICJNOLJFEHP__SelectTarget_d__0_TypeDefinitionIndex = 77534;
+
 	class ICJNOLJFEHP__SelectTarget_d__0 : public ::System::Object
 	{
 	public:

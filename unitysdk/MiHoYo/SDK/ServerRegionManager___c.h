@@ -10,6 +10,8 @@ namespace System { template <typename T> class Func_1; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int ServerRegionManager___c_TypeDefinitionIndex = 7967;
+
 	class ServerRegionManager___c : public ::System::Object
 	{
 	public:

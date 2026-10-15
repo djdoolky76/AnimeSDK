@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TaskConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvSkillAddServerCheckSkillResultCallback_TypeDefinitionIndex = 20216;
+
 	class AdvSkillAddServerCheckSkillResultCallback : public ::RPG::GameCore::TaskConfig
 	{
 	public:

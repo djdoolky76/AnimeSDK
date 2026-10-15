@@ -4,6 +4,8 @@
 
 namespace System::Collections::Immutable
 {
+	inline static constexpr unsigned int ImmutableSortedSet_TypeDefinitionIndex = 6652;
+
 	class ImmutableSortedSet : public ::System::Object
 	{
 	public:

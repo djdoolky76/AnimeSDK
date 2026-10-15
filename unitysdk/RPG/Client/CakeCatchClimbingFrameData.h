@@ -14,6 +14,8 @@ class HJACHMJFEAH;
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CakeCatchClimbingFrameData_TypeDefinitionIndex = 62982;
+
 	class CakeCatchClimbingFrameData : public ::System::Object
 	{
 	public:

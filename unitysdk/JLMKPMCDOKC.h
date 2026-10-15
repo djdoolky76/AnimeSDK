@@ -27,6 +27,8 @@ namespace System { class String; }
 #define JLMKPMCDOKC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E7812E0)
 #define JLMKPMCDOKC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E781340)
 
+inline static constexpr unsigned int JLMKPMCDOKC_TypeDefinitionIndex = 26023;
+
 	class JLMKPMCDOKC : public ::System::Object
 	{
 	public:

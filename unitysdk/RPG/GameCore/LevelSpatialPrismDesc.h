@@ -9,6 +9,8 @@ namespace RPG::GameCore { class LevelSpatialPrismDesc; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelSpatialPrismDesc_TypeDefinitionIndex = 17203;
+
 	class LevelSpatialPrismDesc : public ::RPG::GameCore::JsonConfig
 	{
 	public:

@@ -13,6 +13,8 @@ namespace UnityEngine { class MonoBehaviour; }
 #define IBFIOLEFPBL_MBBELFLFCIC_OFFSET UNITYSDK_OFFSET(0x15E31640)
 #define IBFIOLEFPBL_ONJFJFJHOOF_OFFSET UNITYSDK_OFFSET(0x15E314E0)
 
+inline static constexpr unsigned int IBFIOLEFPBL_TypeDefinitionIndex = 69898;
+
 	class IBFIOLEFPBL : public ::RPG::Client::BehaviorBase
 	{
 	public:

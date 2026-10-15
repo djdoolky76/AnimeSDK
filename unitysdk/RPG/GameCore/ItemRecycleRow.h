@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ItemRecycleRow_TypeDefinitionIndex = 13892;
+
 	class ItemRecycleRow : public ::System::Object
 	{
 	public:

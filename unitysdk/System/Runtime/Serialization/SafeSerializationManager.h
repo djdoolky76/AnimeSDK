@@ -22,6 +22,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System::Runtime::Serialization
 {
+	inline static constexpr unsigned int SafeSerializationManager_TypeDefinitionIndex = 1119;
+
 	class SafeSerializationManager : public ::System::Object
 	{
 	public:

@@ -22,6 +22,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SummonUnitChildBillboardHost_TypeDefinitionIndex = 57451;
+
 	class SummonUnitChildBillboardHost : public ::System::Object
 	{
 	public:

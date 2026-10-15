@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TriggerAfterImageEffect_TypeDefinitionIndex = 20243;
+
 	class TriggerAfterImageEffect : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -9,6 +9,8 @@ class LEFAKCMDGNB;
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueAdventureModule___c__DisplayClass50_0_TypeDefinitionIndex = 67365;
+
 	class RogueAdventureModule___c__DisplayClass50_0 : public ::System::Object
 	{
 	public:

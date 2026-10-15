@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define GHEAPPDMEIJ_CTOR_OFFSET UNITYSDK_OFFSET(0x15A184F0)
 #define GHEAPPDMEIJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15A18520)
 
+inline static constexpr unsigned int GHEAPPDMEIJ_TypeDefinitionIndex = 52457;
+
 	class GHEAPPDMEIJ
 	{
 	public:

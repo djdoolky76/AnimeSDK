@@ -9,6 +9,8 @@ namespace RPG::GameCore { class LoopRewindSnapSection; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LoopRewindSnapSection_TypeDefinitionIndex = 20639;
+
 	class LoopRewindSnapSection : public ::RPG::GameCore::JsonConfig
 	{
 	public:

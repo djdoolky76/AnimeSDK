@@ -8,6 +8,8 @@ namespace RPG::Client::Prop { class LaserTurnablePuzzleRing; }
 
 namespace RPG::Client::Prop
 {
+	inline static constexpr unsigned int LaserTurnablePuzzleSwitch___c__DisplayClass11_0_TypeDefinitionIndex = 78675;
+
 	class LaserTurnablePuzzleSwitch___c__DisplayClass11_0 : public ::System::Object
 	{
 	public:

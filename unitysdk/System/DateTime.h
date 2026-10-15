@@ -141,6 +141,8 @@ namespace System::Runtime::Serialization { class SerializationInfo; }
 
 namespace System
 {
+	inline static constexpr unsigned int DateTime_TypeDefinitionIndex = 223;
+
 	struct alignas(4) DateTime
 	{
 		::System::UInt64 dateData; // 0x10

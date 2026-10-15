@@ -29,6 +29,8 @@ namespace System { class String; }
 #define LBPEMINKHEN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E8E06B0)
 #define LBPEMINKHEN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E8E0710)
 
+inline static constexpr unsigned int LBPEMINKHEN_TypeDefinitionIndex = 28167;
+
 	class LBPEMINKHEN : public ::System::Object
 	{
 	public:

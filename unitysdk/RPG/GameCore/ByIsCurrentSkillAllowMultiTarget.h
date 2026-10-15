@@ -13,6 +13,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByIsCurrentSkillAllowMultiTarget_TypeDefinitionIndex = 23505;
+
 	class ByIsCurrentSkillAllowMultiTarget : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define NONKABLNHEM___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1EB910F0)
 #define NONKABLNHEM___C___CCTOR_B__23_0_OFFSET UNITYSDK_OFFSET(0x1EB91100)
 
+inline static constexpr unsigned int NONKABLNHEM___c_TypeDefinitionIndex = 28624;
+
 	class NONKABLNHEM___c : public ::System::Object
 	{
 	public:

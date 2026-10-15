@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace MiHoYo::SDK::PC::OS
 {
+	inline static constexpr unsigned int ABTestManager___c__DisplayClass11_0_TypeDefinitionIndex = 8489;
+
 	class ABTestManager___c__DisplayClass11_0 : public ::System::Object
 	{
 	public:

@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define OHPEFFELPKG_MDGNOFJBPDA_OFFSET UNITYSDK_OFFSET(0x1C994090)
 #define OHPEFFELPKG_SET_ISACTIVE_OFFSET UNITYSDK_OFFSET(0x1C994A70)
 
+inline static constexpr unsigned int OHPEFFELPKG_TypeDefinitionIndex = 43091;
+
 	class OHPEFFELPKG : public ::System::Object
 	{
 	public:

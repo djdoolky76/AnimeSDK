@@ -27,6 +27,8 @@ namespace System { class String; }
 #define FBGAKELNFDP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E334FD0)
 #define FBGAKELNFDP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E335030)
 
+inline static constexpr unsigned int FBGAKELNFDP_TypeDefinitionIndex = 29779;
+
 	class FBGAKELNFDP : public ::System::Object
 	{
 	public:

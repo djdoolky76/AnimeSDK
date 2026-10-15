@@ -34,6 +34,8 @@ namespace System { class String; }
 #define GIIHHKDLOBA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E499C40)
 #define GIIHHKDLOBA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E499CA0)
 
+inline static constexpr unsigned int GIIHHKDLOBA_TypeDefinitionIndex = 26480;
+
 	class GIIHHKDLOBA : public ::System::Object
 	{
 	public:

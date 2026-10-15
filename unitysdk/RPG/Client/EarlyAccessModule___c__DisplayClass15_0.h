@@ -8,6 +8,8 @@ namespace RPG::Client { class EarlyAccessContent; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int EarlyAccessModule___c__DisplayClass15_0_TypeDefinitionIndex = 63648;
+
 	class EarlyAccessModule___c__DisplayClass15_0 : public ::System::Object
 	{
 	public:

@@ -10,6 +10,8 @@ namespace RPG::GameCore { class MarbleBuffHintRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int MarbleBuffHintRow_TypeDefinitionIndex = 11888;
+
 	class MarbleBuffHintRow : public ::System::Object
 	{
 	public:

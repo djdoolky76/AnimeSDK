@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int GFANOAMOKNO_TypeDefinitionIndex = 26616;
+
 	enum class GFANOAMOKNO : ::System::Int32
 	{
 		NLCDGIPGFDJ = 0,

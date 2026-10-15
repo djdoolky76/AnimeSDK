@@ -8,6 +8,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int CharacterCustomBlushMonoPlugin_TypeDefinitionIndex = 70263;
+
 	class CharacterCustomBlushMonoPlugin
 	{
 	public:

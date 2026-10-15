@@ -1,5 +1,8 @@
 #pragma once
 #include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int WwiseObjectType_TypeDefinitionIndex = 44887;
+
 	enum class WwiseObjectType : ::System::Int32
 	{
 		None = 0,

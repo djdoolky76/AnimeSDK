@@ -9,6 +9,8 @@ namespace RPG::Client::Challenge::Tierce { class ChallengeTierceStageSelectTabsV
 
 namespace RPG::Client::Challenge::Tierce
 {
+	inline static constexpr unsigned int ChallengeTierceStageSelectTabsViewModel___c__DisplayClass21_0_TypeDefinitionIndex = 81622;
+
 	class ChallengeTierceStageSelectTabsViewModel___c__DisplayClass21_0 : public ::System::Object
 	{
 	public:

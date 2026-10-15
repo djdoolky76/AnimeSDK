@@ -3840,6 +3840,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define EGPHLHMHHCN_PPMDLBEBHHO_OFFSET UNITYSDK_OFFSET(0x1455DF10)
 #define EGPHLHMHHCN_PPMEOAGBGHP_OFFSET UNITYSDK_OFFSET(0x14540180)
 
+inline static constexpr unsigned int EGPHLHMHHCN_TypeDefinitionIndex = 55820;
+
 	class EGPHLHMHHCN : public ::System::Object
 	{
 	public:

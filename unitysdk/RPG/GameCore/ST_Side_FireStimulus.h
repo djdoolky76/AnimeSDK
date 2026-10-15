@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ST_Side_FireStimulus_TypeDefinitionIndex = 20143;
+
 	class ST_Side_FireStimulus : public ::RPG::GameCore::STTaskConfig
 	{
 	public:

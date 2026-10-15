@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ShowSwordTrainingConfirmGiveUpDialog; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ShowSwordTrainingConfirmGiveUpDialog_TypeDefinitionIndex = 20850;
+
 	class ShowSwordTrainingConfirmGiveUpDialog : public ::RPG::GameCore::TaskConfig
 	{
 	public:

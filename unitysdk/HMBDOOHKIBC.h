@@ -27,6 +27,8 @@ namespace System { class String; }
 #define HMBDOOHKIBC_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E5CA9D0)
 #define HMBDOOHKIBC_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E5CAA30)
 
+inline static constexpr unsigned int HMBDOOHKIBC_TypeDefinitionIndex = 29444;
+
 	class HMBDOOHKIBC : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@ class LBKFMPEMAJF;
 #define JKNHENOJFIG___C__DISPLAYCLASS49_0_CTOR_OFFSET UNITYSDK_OFFSET(0xB2290A0)
 #define JKNHENOJFIG___C__DISPLAYCLASS49_0___APPLYPREMATCHTRACKINFO_B__0_OFFSET UNITYSDK_OFFSET(0xB229440)
 
+inline static constexpr unsigned int JKNHENOJFIG___c__DisplayClass49_0_TypeDefinitionIndex = 81715;
+
 	class JKNHENOJFIG___c__DisplayClass49_0 : public ::System::Object
 	{
 	public:

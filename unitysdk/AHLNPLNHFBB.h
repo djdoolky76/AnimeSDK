@@ -22,6 +22,8 @@ namespace System::IO { class MemoryStream; }
 #define AHLNPLNHFBB_NIBCDPDJJBP_OFFSET UNITYSDK_OFFSET(0x1C4294F0)
 #define AHLNPLNHFBB_OHCJOIANPFG_OFFSET UNITYSDK_OFFSET(0x1C42AF50)
 
+inline static constexpr unsigned int AHLNPLNHFBB_TypeDefinitionIndex = 41563;
+
 	class AHLNPLNHFBB : public ::System::Object
 	{
 	public:

@@ -28,6 +28,8 @@ namespace System { class String; }
 #define HFFCEACMEIG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E566E30)
 #define HFFCEACMEIG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E566E90)
 
+inline static constexpr unsigned int HFFCEACMEIG_TypeDefinitionIndex = 31268;
+
 	class HFFCEACMEIG : public ::System::Object
 	{
 	public:

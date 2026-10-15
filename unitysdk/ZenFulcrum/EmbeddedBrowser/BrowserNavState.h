@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
+	inline static constexpr unsigned int BrowserNavState_TypeDefinitionIndex = 39571;
+
 	class BrowserNavState : public ::System::Object
 	{
 	public:

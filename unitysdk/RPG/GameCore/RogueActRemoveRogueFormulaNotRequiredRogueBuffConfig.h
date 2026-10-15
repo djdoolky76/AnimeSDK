@@ -10,6 +10,8 @@ namespace RPG::GameCore { class RogueActRemoveRogueFormulaNotRequiredRogueBuffCo
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RogueActRemoveRogueFormulaNotRequiredRogueBuffConfig_TypeDefinitionIndex = 19669;
+
 	class RogueActRemoveRogueFormulaNotRequiredRogueBuffConfig : public ::RPG::GameCore::RogueActionConfigBase
 	{
 	public:

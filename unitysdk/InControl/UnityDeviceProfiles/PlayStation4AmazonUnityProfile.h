@@ -7,6 +7,8 @@
 
 namespace InControl::UnityDeviceProfiles
 {
+	inline static constexpr unsigned int PlayStation4AmazonUnityProfile_TypeDefinitionIndex = 40934;
+
 	class PlayStation4AmazonUnityProfile : public ::InControl::InputDeviceProfile
 	{
 	public:

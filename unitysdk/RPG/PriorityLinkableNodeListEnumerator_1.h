@@ -6,6 +6,8 @@ namespace System { class Action; }
 
 namespace RPG
 {
+	inline static constexpr unsigned int PriorityLinkableNodeListEnumerator_1_TypeDefinitionIndex = 6398;
+
 	template <typename T>
 	class PriorityLinkableNodeListEnumerator_1 : public ::System::Object
 	{

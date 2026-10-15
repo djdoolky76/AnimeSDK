@@ -12,6 +12,8 @@ namespace RPG::GameCore { class SetBattleAchievement; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetBattleAchievement_TypeDefinitionIndex = 23177;
+
 	class SetBattleAchievement : public ::RPG::GameCore::TaskConfig
 	{
 	public:

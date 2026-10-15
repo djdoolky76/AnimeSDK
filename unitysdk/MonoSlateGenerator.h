@@ -4,6 +4,8 @@
 
 #define MONOSLATEGENERATOR_CTOR_OFFSET UNITYSDK_OFFSET(0xBA4F040)
 
+inline static constexpr unsigned int MonoSlateGenerator_TypeDefinitionIndex = 47506;
+
 	class MonoSlateGenerator : public ::UnityEngine::MonoBehaviour
 	{
 	public:

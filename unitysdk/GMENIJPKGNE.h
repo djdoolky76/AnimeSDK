@@ -7,6 +7,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define GMENIJPKGNE_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0x15ACB7E0)
 #define GMENIJPKGNE_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15ACB830)
 
+inline static constexpr unsigned int GMENIJPKGNE_TypeDefinitionIndex = 52250;
+
 	class GMENIJPKGNE
 	{
 	public:

@@ -36,6 +36,8 @@ namespace System { class String; }
 #define MFCCCIMGMFL_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EA16340)
 #define MFCCCIMGMFL_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EA163A0)
 
+inline static constexpr unsigned int MFCCCIMGMFL_TypeDefinitionIndex = 26604;
+
 	class MFCCCIMGMFL : public ::System::Object
 	{
 	public:

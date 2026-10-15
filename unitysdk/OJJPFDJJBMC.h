@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TriggerBattlePostureType; }
 #define OJJPFDJJBMC_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xBEBDB10)
 #define OJJPFDJJBMC_TICK_OFFSET UNITYSDK_OFFSET(0xBEBDB60)
 
+inline static constexpr unsigned int OJJPFDJJBMC_TypeDefinitionIndex = 53443;
+
 	class OJJPFDJJBMC : public ::GELIALJDFBL
 	{
 	public:

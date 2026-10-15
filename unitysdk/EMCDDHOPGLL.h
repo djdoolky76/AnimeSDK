@@ -9,6 +9,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define EMCDDHOPGLL_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x15530230)
 #define EMCDDHOPGLL_TICK_OFFSET UNITYSDK_OFFSET(0x155300C0)
 
+inline static constexpr unsigned int EMCDDHOPGLL_TypeDefinitionIndex = 54149;
+
 	class EMCDDHOPGLL
 	{
 	public:

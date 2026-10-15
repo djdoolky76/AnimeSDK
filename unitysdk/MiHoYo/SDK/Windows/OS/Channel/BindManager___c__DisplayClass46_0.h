@@ -11,6 +11,8 @@ namespace System { class Action; }
 
 namespace MiHoYo::SDK::Windows::OS::Channel
 {
+	inline static constexpr unsigned int BindManager___c__DisplayClass46_0_TypeDefinitionIndex = 8363;
+
 	class BindManager___c__DisplayClass46_0 : public ::System::Object
 	{
 	public:

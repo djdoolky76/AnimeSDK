@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 #define OOKFEOBBJPI_KPHCAJNLJBM_OFFSET UNITYSDK_OFFSET(0x1DD88800)
 #define OOKFEOBBJPI_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0x1DD87D80)
 
+inline static constexpr unsigned int OOKFEOBBJPI_TypeDefinitionIndex = 6192;
+
 	class OOKFEOBBJPI : public ::System::Object
 	{
 	public:

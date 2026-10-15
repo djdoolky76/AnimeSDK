@@ -8,6 +8,8 @@ class NMNGLALPLKF;
 #define NMNGLALPLKF_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D239900)
 #define NMNGLALPLKF_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D2398C0)
 
+inline static constexpr unsigned int NMNGLALPLKF_TypeDefinitionIndex = 10186;
+
 	class NMNGLALPLKF : public ::RPG::GameCore::TaskConfig
 	{
 	public:

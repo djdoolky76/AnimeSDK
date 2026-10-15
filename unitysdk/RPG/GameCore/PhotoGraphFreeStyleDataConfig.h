@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int PhotoGraphFreeStyleDataConfig_TypeDefinitionIndex = 19048;
+
 	class PhotoGraphFreeStyleDataConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

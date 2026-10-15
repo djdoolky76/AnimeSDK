@@ -27,6 +27,8 @@ namespace System { class String; }
 #define DPIEGEGHMDP_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E210430)
 #define DPIEGEGHMDP_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E210490)
 
+inline static constexpr unsigned int DPIEGEGHMDP_TypeDefinitionIndex = 30558;
+
 	class DPIEGEGHMDP : public ::System::Object
 	{
 	public:

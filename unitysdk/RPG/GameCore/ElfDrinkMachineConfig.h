@@ -10,6 +10,8 @@ namespace RPG::GameCore { class ElfDrinkMachineConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ElfDrinkMachineConfig_TypeDefinitionIndex = 18483;
+
 	class ElfDrinkMachineConfig : public ::RPG::GameCore::LittleGameComponentConfig
 	{
 	public:

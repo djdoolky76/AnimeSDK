@@ -10,6 +10,8 @@ namespace System { class String; }
 #define JJGHPNPEFAK__REGISTEREVENTCALLBACK_OFFSET UNITYSDK_OFFSET(0xB2049D0)
 #define JJGHPNPEFAK__UNREGISTEREVENTCALLBACK_OFFSET UNITYSDK_OFFSET(0xB204AE0)
 
+inline static constexpr unsigned int JJGHPNPEFAK_TypeDefinitionIndex = 53471;
+
 	class JJGHPNPEFAK
 	{
 	public:

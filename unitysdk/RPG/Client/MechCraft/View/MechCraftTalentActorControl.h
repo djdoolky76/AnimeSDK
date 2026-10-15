@@ -14,6 +14,8 @@ namespace RPG::Client::MechCraft::View { class MechCraftTalentActorControlBinder
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftTalentActorControl_TypeDefinitionIndex = 80062;
+
 	class MechCraftTalentActorControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -24,6 +24,8 @@ namespace System { class String; }
 
 namespace RPG::Client::Toast
 {
+	inline static constexpr unsigned int ToastWindowQueueRequest_TypeDefinitionIndex = 79005;
+
 	class ToastWindowQueueRequest : public ::System::Object
 	{
 	public:

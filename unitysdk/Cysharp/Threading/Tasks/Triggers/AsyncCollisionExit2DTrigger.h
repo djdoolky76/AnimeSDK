@@ -14,6 +14,8 @@ namespace UnityEngine { class Collision2D; }
 
 namespace Cysharp::Threading::Tasks::Triggers
 {
+	inline static constexpr unsigned int AsyncCollisionExit2DTrigger_TypeDefinitionIndex = 38535;
+
 	class AsyncCollisionExit2DTrigger
 	{
 	public:

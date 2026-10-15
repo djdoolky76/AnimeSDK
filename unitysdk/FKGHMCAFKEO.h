@@ -4,6 +4,8 @@
 
 #define FKGHMCAFKEO_CTOR_OFFSET UNITYSDK_OFFSET(0x157F3900)
 
+inline static constexpr unsigned int FKGHMCAFKEO_TypeDefinitionIndex = 73576;
+
 	class FKGHMCAFKEO : public ::RPG::Client::TABehaviorBase
 	{
 	public:

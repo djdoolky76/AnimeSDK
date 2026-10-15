@@ -19,6 +19,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client::SwordTraining
 {
+	inline static constexpr unsigned int SwordTrainingRecordWrapper_TypeDefinitionIndex = 75057;
+
 	class SwordTrainingRecordWrapper : public ::System::Object
 	{
 	public:

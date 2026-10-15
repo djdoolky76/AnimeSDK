@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define JMAHAKPLAAD___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E7885C0)
 #define JMAHAKPLAAD___C___CCTOR_B__18_0_OFFSET UNITYSDK_OFFSET(0x1E7885D0)
 
+inline static constexpr unsigned int JMAHAKPLAAD___c_TypeDefinitionIndex = 31734;
+
 	class JMAHAKPLAAD___c : public ::System::Object
 	{
 	public:

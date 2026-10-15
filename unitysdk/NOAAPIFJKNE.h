@@ -6,6 +6,8 @@
 #define NOAAPIFJKNE_GET_ISPRVBATTLEWIN_OFFSET UNITYSDK_OFFSET(0xBCDF650)
 #define NOAAPIFJKNE_SET_ISPRVBATTLEWIN_OFFSET UNITYSDK_OFFSET(0xBCDF660)
 
+inline static constexpr unsigned int NOAAPIFJKNE_TypeDefinitionIndex = 75039;
+
 	class NOAAPIFJKNE : public ::System::Object
 	{
 	public:

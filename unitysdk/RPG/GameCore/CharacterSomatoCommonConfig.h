@@ -10,6 +10,8 @@ namespace RPG::GameCore { class SomatoCommonCameraConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CharacterSomatoCommonConfig_TypeDefinitionIndex = 16556;
+
 	class CharacterSomatoCommonConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

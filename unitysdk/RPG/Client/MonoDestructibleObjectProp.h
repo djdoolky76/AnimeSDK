@@ -14,6 +14,8 @@ namespace UnityEngine { class Rigidbody; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoDestructibleObjectProp_TypeDefinitionIndex = 68582;
+
 	class MonoDestructibleObjectProp : public ::UnityEngine::MonoBehaviour
 	{
 	public:

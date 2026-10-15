@@ -109,6 +109,8 @@ namespace System::Text { class StringBuilder; }
 
 namespace ZenFulcrum::VR::OpenVRBinding
 {
+	inline static constexpr unsigned int CVROverlay_TypeDefinitionIndex = 39202;
+
 	class CVROverlay : public ::System::Object
 	{
 	public:

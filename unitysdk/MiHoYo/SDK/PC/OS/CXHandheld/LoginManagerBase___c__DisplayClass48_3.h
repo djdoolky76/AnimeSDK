@@ -8,6 +8,8 @@ namespace MiHoYo::SDK::PC::OS::CXHandheld { class HandheldUserAgreementDialog; }
 
 namespace MiHoYo::SDK::PC::OS::CXHandheld
 {
+	inline static constexpr unsigned int LoginManagerBase___c__DisplayClass48_3_TypeDefinitionIndex = 8750;
+
 	template <typename T1, typename T2, typename T3>
 	class LoginManagerBase___c__DisplayClass48_3 : public ::System::Object
 	{

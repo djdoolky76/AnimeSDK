@@ -7,6 +7,8 @@
 
 namespace RPG::CustomRP
 {
+	inline static constexpr unsigned int Settings_TypeDefinitionIndex = 37923;
+
 	class Settings : public ::System::Object
 	{
 	public:

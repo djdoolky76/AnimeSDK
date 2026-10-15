@@ -127,6 +127,8 @@ namespace System::Reflection { class ParameterInfo; }
 
 namespace System::Diagnostics::Tracing
 {
+	inline static constexpr unsigned int EventSource_TypeDefinitionIndex = 1662;
+
 	class EventSource : public ::System::Object
 	{
 	public:

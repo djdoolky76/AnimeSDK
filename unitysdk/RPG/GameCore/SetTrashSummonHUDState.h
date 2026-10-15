@@ -11,6 +11,8 @@ namespace RPG::GameCore { class SetTrashSummonHUDState; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetTrashSummonHUDState_TypeDefinitionIndex = 23226;
+
 	class SetTrashSummonHUDState : public ::RPG::GameCore::TaskConfig
 	{
 	public:

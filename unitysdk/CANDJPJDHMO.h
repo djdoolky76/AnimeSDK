@@ -56,6 +56,8 @@ namespace UnityEngine { class Collider; }
 #define CANDJPJDHMO_POOLDMKLJLJ_OFFSET UNITYSDK_OFFSET(0xC48D970)
 #define CANDJPJDHMO_TEARDOWN_OFFSET UNITYSDK_OFFSET(0xC48D550)
 
+inline static constexpr unsigned int CANDJPJDHMO_TypeDefinitionIndex = 77118;
+
 	class CANDJPJDHMO : public ::System::Object
 	{
 	public:

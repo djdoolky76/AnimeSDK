@@ -19,6 +19,8 @@ namespace System::IO { class StreamWriter; }
 #define MGKKMAJDHOP_PJPFIHFAHGO_OFFSET UNITYSDK_OFFSET(0x1C4BB6D0)
 #define MGKKMAJDHOP_SET_ENABLEASSETLOADRECORD_OFFSET UNITYSDK_OFFSET(0x1C4BC600)
 
+inline static constexpr unsigned int MGKKMAJDHOP_TypeDefinitionIndex = 41378;
+
 	class MGKKMAJDHOP : public ::System::Object
 	{
 	public:

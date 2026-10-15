@@ -34,6 +34,8 @@ namespace UnityEngine { class Transform; }
 #define PECGGCEHNHN_NHPGHNHDKNK_OFFSET UNITYSDK_OFFSET(0x1C9A9CE0)
 #define PECGGCEHNHN_ODNNMEKFEDP_OFFSET UNITYSDK_OFFSET(0x1C9AA130)
 
+inline static constexpr unsigned int PECGGCEHNHN_TypeDefinitionIndex = 42624;
+
 	class PECGGCEHNHN
 	{
 	public:

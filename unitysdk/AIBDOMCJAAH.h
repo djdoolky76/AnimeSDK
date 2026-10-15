@@ -14,6 +14,8 @@ namespace RPG::GameCore { class TeamAction; }
 #define AIBDOMCJAAH_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xEB93B60)
 #define AIBDOMCJAAH_TICK_OFFSET UNITYSDK_OFFSET(0xEB936B0)
 
+inline static constexpr unsigned int AIBDOMCJAAH_TypeDefinitionIndex = 55704;
+
 	class AIBDOMCJAAH : public ::GELIALJDFBL
 	{
 	public:

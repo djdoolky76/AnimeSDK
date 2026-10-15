@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define EPCNGNEEMBI___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E308120)
 #define EPCNGNEEMBI___C___CCTOR_B__28_0_OFFSET UNITYSDK_OFFSET(0x1E308130)
 
+inline static constexpr unsigned int EPCNGNEEMBI___c_TypeDefinitionIndex = 28655;
+
 	class EPCNGNEEMBI___c : public ::System::Object
 	{
 	public:

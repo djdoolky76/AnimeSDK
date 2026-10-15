@@ -6,6 +6,8 @@
 
 namespace RPGTools::Timeline::Story
 {
+	inline static constexpr unsigned int BaseStoryMoveData_TypeDefinitionIndex = 48703;
+
 	class BaseStoryMoveData : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RPGSDKAccountManager___c__DisplayClass100_0_TypeDefinitionIndex = 61089;
+
 	class RPGSDKAccountManager___c__DisplayClass100_0 : public ::System::Object
 	{
 	public:

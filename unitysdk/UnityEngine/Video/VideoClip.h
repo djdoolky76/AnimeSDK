@@ -6,6 +6,8 @@
 
 namespace UnityEngine::Video
 {
+	inline static constexpr unsigned int VideoClip_TypeDefinitionIndex = 6048;
+
 	class VideoClip : public ::UnityEngine::Object
 	{
 	public:

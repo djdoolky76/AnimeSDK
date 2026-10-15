@@ -5,6 +5,8 @@ namespace System { template <typename T1, typename T2> class Func_2; }
 
 namespace RPG::Client::TrainParty
 {
+	inline static constexpr unsigned int TrainPartyBuildDisplayWallContext_SlotComparerSelector___O_TypeDefinitionIndex = 74292;
+
 	class TrainPartyBuildDisplayWallContext_SlotComparerSelector___O : public ::System::Object
 	{
 	public:

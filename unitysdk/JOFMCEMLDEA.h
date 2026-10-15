@@ -36,6 +36,8 @@ namespace System { class String; }
 #define JOFMCEMLDEA_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E7A0640)
 #define JOFMCEMLDEA_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E7A06A0)
 
+inline static constexpr unsigned int JOFMCEMLDEA_TypeDefinitionIndex = 34246;
+
 	class JOFMCEMLDEA : public ::System::Object
 	{
 	public:

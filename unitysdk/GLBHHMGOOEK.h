@@ -4,6 +4,8 @@
 
 #define GLBHHMGOOEK_CTOR_OFFSET UNITYSDK_OFFSET(0x1CAB1C20)
 
+inline static constexpr unsigned int GLBHHMGOOEK_TypeDefinitionIndex = 43261;
+
 	class GLBHHMGOOEK : public ::System::Object
 	{
 	public:

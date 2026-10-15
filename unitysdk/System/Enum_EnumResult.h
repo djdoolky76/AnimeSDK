@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace System
 {
+	inline static constexpr unsigned int Enum_EnumResult_TypeDefinitionIndex = 239;
+
 	struct alignas(8) Enum_EnumResult
 	{
 		::System::Object* parsedEnum; // 0x10

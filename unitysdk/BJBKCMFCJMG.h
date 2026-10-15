@@ -6,6 +6,8 @@ class LBJLBMOOJGM;
 #define BJBKCMFCJMG_CTOR_OFFSET UNITYSDK_OFFSET(0xB796B60)
 #define BJBKCMFCJMG_KDPCHKAGJMK_OFFSET UNITYSDK_OFFSET(0xB796A60)
 
+inline static constexpr unsigned int BJBKCMFCJMG_TypeDefinitionIndex = 79197;
+
 	class BJBKCMFCJMG : public ::System::Object
 	{
 	public:

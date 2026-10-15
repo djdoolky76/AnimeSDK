@@ -2,6 +2,8 @@
 #include "unitysdk/unitysdk.h"
 #include "unitysdk/UnityEngine/Vector3.h"
 
+inline static constexpr unsigned int SWRTAsset_RTTriangle_TypeDefinitionIndex = 37484;
+
 	struct alignas(4) SWRTAsset_RTTriangle
 	{
 		::UnityEngine::Vector3 Pos0; // 0x10

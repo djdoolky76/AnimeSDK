@@ -8,6 +8,8 @@ namespace UnityEngine { class Renderer; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MatTexItem_TypeDefinitionIndex = 70136;
+
 	class MatTexItem : public ::System::Object
 	{
 	public:

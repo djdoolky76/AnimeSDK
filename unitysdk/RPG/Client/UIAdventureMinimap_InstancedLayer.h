@@ -10,6 +10,8 @@ namespace UnityEngine { class RectTransform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int UIAdventureMinimap_InstancedLayer_TypeDefinitionIndex = 69061;
+
 	class UIAdventureMinimap_InstancedLayer : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@ class MEJCFGPFKII;
 #define HANKGJILHLF_CTOR_OFFSET UNITYSDK_OFFSET(0x1CE7FD80)
 #define HANKGJILHLF_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CE7FC30)
 
+inline static constexpr unsigned int HANKGJILHLF_TypeDefinitionIndex = 14402;
+
 	class HANKGJILHLF : public ::System::Object
 	{
 	public:

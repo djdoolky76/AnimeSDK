@@ -13,6 +13,8 @@ namespace System { class String; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int FateStatisticsMasterInfoItem_TypeDefinitionIndex = 64134;
+
 	class FateStatisticsMasterInfoItem : public ::System::Object
 	{
 	public:

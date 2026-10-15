@@ -20,6 +20,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 #define PLMJFBPGLAK_POBEEPFKJLF_OFFSET UNITYSDK_OFFSET(0xC30C200)
 #define PLMJFBPGLAK_SYSTEM_COLLECTIONS_IENUMERABLE_GETENUMERATOR_OFFSET UNITYSDK_OFFSET(0xC30C0F0)
 
+inline static constexpr unsigned int PLMJFBPGLAK_TypeDefinitionIndex = 67171;
+
 	class PLMJFBPGLAK : public ::System::Object
 	{
 	public:

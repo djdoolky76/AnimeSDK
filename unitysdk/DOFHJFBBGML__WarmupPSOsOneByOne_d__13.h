@@ -22,6 +22,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define DOFHJFBBGML__WARMUPPSOSONEBYONE_D__13___M__FINALLY2_OFFSET UNITYSDK_OFFSET(0x11FE5FE0)
 #define DOFHJFBBGML__WARMUPPSOSONEBYONE_D__13___M__FINALLY3_OFFSET UNITYSDK_OFFSET(0x11FE5FD0)
 
+inline static constexpr unsigned int DOFHJFBBGML__WarmupPSOsOneByOne_d__13_TypeDefinitionIndex = 47427;
+
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8, typename T9, typename T10, typename T11, typename T12, typename T13>
 	class DOFHJFBBGML__WarmupPSOsOneByOne_d__13 : public ::System::Object
 	{

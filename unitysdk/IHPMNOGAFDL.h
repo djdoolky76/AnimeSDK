@@ -6,6 +6,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define IHPMNOGAFDL_CTOR_OFFSET UNITYSDK_OFFSET(0x1642E460)
 #define IHPMNOGAFDL_EVALUATE_OFFSET UNITYSDK_OFFSET(0x1642E490)
 
+inline static constexpr unsigned int IHPMNOGAFDL_TypeDefinitionIndex = 54610;
+
 	class IHPMNOGAFDL
 	{
 	public:

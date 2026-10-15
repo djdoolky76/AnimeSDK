@@ -5,6 +5,8 @@
 
 #define BOJPIOJDBAP_CAPJOMDLNIP_FKKNPACOCEF_OFFSET UNITYSDK_OFFSET(0xDD880)
 
+inline static constexpr unsigned int BOJPIOJDBAP_CAPJOMDLNIP_TypeDefinitionIndex = 69597;
+
 	struct alignas(4) BOJPIOJDBAP_CAPJOMDLNIP
 	{
 		::UnityEngine::Vector3 PECPBEOHOJC; // 0x10

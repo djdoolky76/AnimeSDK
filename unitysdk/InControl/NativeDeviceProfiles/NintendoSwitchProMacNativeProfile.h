@@ -7,6 +7,8 @@
 
 namespace InControl::NativeDeviceProfiles
 {
+	inline static constexpr unsigned int NintendoSwitchProMacNativeProfile_TypeDefinitionIndex = 41262;
+
 	class NintendoSwitchProMacNativeProfile : public ::InControl::InputDeviceProfile
 	{
 	public:

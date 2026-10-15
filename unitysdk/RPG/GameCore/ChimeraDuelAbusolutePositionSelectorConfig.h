@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ChimeraDuelAbusolutePositionSelectorConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChimeraDuelAbusolutePositionSelectorConfig_TypeDefinitionIndex = 15904;
+
 	class ChimeraDuelAbusolutePositionSelectorConfig : public ::RPG::GameCore::BaseChimeraDuelEntitiesSelectorConfig
 	{
 	public:

@@ -27,6 +27,8 @@ namespace System { class String; }
 #define PFELEGKDCBO_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DF24220)
 #define PFELEGKDCBO_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DF24280)
 
+inline static constexpr unsigned int PFELEGKDCBO_TypeDefinitionIndex = 27112;
+
 	class PFELEGKDCBO : public ::System::Object
 	{
 	public:

@@ -23,6 +23,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define CKOAIMAKAOD__ONTASKSUCCESS_B__7_3_OFFSET UNITYSDK_OFFSET(0xD76C7C0)
 #define CKOAIMAKAOD__TICK_B__4_0_OFFSET UNITYSDK_OFFSET(0xD76C560)
 
+inline static constexpr unsigned int CKOAIMAKAOD_TypeDefinitionIndex = 52403;
+
 	class CKOAIMAKAOD : public ::GELIALJDFBL
 	{
 	public:

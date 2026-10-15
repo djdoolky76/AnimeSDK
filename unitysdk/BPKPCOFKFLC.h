@@ -18,6 +18,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define BPKPCOFKFLC_LCKCABJFHEA_OFFSET UNITYSDK_OFFSET(0xC1A9730)
 #define BPKPCOFKFLC_MHMFNGGAHPC_OFFSET UNITYSDK_OFFSET(0xC1A9450)
 
+inline static constexpr unsigned int BPKPCOFKFLC_TypeDefinitionIndex = 77863;
+
 	class BPKPCOFKFLC : public ::System::Object
 	{
 	public:

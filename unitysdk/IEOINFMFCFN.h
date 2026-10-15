@@ -5,6 +5,8 @@ class AOFHFKPKKJI;
 
 #define IEOINFMFCFN_CTOR_OFFSET UNITYSDK_OFFSET(0x15F07250)
 
+inline static constexpr unsigned int IEOINFMFCFN_TypeDefinitionIndex = 80596;
+
 	class IEOINFMFCFN : public ::System::Object
 	{
 	public:

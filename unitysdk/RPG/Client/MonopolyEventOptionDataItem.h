@@ -30,6 +30,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonopolyEventOptionDataItem_TypeDefinitionIndex = 66254;
+
 	class MonopolyEventOptionDataItem : public ::System::Object
 	{
 	public:

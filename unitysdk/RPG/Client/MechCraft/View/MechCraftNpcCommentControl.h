@@ -11,6 +11,8 @@ namespace RPG::Client::MechCraft::View { class MechCraftNpcCommentControlBinder;
 
 namespace RPG::Client::MechCraft::View
 {
+	inline static constexpr unsigned int MechCraftNpcCommentControl_TypeDefinitionIndex = 80038;
+
 	class MechCraftNpcCommentControl : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -26,6 +26,8 @@ namespace UnityEngine::UI { class Text; }
 
 namespace SRDebugger::UI::Controls::Data
 {
+	inline static constexpr unsigned int NumberControl_TypeDefinitionIndex = 38044;
+
 	class NumberControl : public ::SRDebugger::UI::Controls::DataBoundControl
 	{
 	public:

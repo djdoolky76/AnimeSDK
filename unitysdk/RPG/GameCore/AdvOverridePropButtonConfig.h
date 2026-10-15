@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvOverridePropButtonConfig_TypeDefinitionIndex = 20541;
+
 	class AdvOverridePropButtonConfig : public ::RPG::GameCore::TaskConfig
 	{
 	public:

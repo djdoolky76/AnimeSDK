@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define DLLNHNMMJOM_SET_PROGRESSSEGMENTS_OFFSET UNITYSDK_OFFSET(0xF8ACCC0)
 #define DLLNHNMMJOM_SET_REWARDITEMS_OFFSET UNITYSDK_OFFSET(0xF8ACCA0)
 
+inline static constexpr unsigned int DLLNHNMMJOM_TypeDefinitionIndex = 79713;
+
 	class DLLNHNMMJOM : public ::System::Object
 	{
 	public:

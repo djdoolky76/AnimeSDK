@@ -12,6 +12,8 @@ namespace System { class String; }
 #define OIJEBAMFEOJ_OLCDGLIGMIK_OFFSET UNITYSDK_OFFSET(0xBE9D500)
 #define OIJEBAMFEOJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xBE9CB30)
 
+inline static constexpr unsigned int OIJEBAMFEOJ_TypeDefinitionIndex = 55145;
+
 	class OIJEBAMFEOJ
 	{
 	public:

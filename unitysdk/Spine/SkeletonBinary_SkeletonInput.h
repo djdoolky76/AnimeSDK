@@ -21,6 +21,8 @@ namespace System::IO { class Stream; }
 
 namespace Spine
 {
+	inline static constexpr unsigned int SkeletonBinary_SkeletonInput_TypeDefinitionIndex = 39688;
+
 	class SkeletonBinary_SkeletonInput : public ::System::Object
 	{
 	public:

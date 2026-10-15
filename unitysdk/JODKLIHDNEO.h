@@ -20,6 +20,8 @@ namespace RPG::Client::LittleGame { class MovieGameModeComponent; }
 #define JODKLIHDNEO_MFHHBAHGDCC_OFFSET UNITYSDK_OFFSET(0x1CBA70B0)
 #define JODKLIHDNEO_ODIDOGCDEHF_OFFSET UNITYSDK_OFFSET(0x1CBA6E10)
 
+inline static constexpr unsigned int JODKLIHDNEO_TypeDefinitionIndex = 42605;
+
 	class JODKLIHDNEO
 	{
 	public:

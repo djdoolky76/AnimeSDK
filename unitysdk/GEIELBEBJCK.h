@@ -25,6 +25,8 @@ namespace System { class String; }
 #define GEIELBEBJCK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E45A0A0)
 #define GEIELBEBJCK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E45A100)
 
+inline static constexpr unsigned int GEIELBEBJCK_TypeDefinitionIndex = 31968;
+
 	class GEIELBEBJCK : public ::System::Object
 	{
 	public:

@@ -7,6 +7,8 @@ namespace RPG::Client { class GridFightEquipItemConfig; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GridFightTraitEquipGetItemEvent_TypeDefinitionIndex = 64959;
+
 	class GridFightTraitEquipGetItemEvent : public ::System::Object
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class ChenLingBattleValueGetter_Multiply; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ChenLingBattleValueGetter_Multiply_TypeDefinitionIndex = 15804;
+
 	class ChenLingBattleValueGetter_Multiply : public ::RPG::GameCore::BaseChenLingBattleValueGetter
 	{
 	public:

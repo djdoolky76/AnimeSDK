@@ -8,6 +8,8 @@ class JNIPOABPBPD;
 #define JNIPOABPBPD_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D052C90)
 #define JNIPOABPBPD_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D052C50)
 
+inline static constexpr unsigned int JNIPOABPBPD_TypeDefinitionIndex = 21882;
+
 	class JNIPOABPBPD : public ::RPG::GameCore::TaskConfig
 	{
 	public:

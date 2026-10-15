@@ -9,6 +9,8 @@ namespace System { class String; }
 #define DNNOGJDIEFC_IMFDFCIBGLF_OFFSET UNITYSDK_OFFSET(0x1C460A80)
 #define DNNOGJDIEFC_OCMANHDJEDF_OFFSET UNITYSDK_OFFSET(0x1C42F980)
 
+inline static constexpr unsigned int DNNOGJDIEFC_TypeDefinitionIndex = 41431;
+
 	class DNNOGJDIEFC : public ::System::Object
 	{
 	public:

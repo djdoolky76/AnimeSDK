@@ -12,6 +12,8 @@ namespace System { class Object; }
 #define LHEECDNNIBO_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0xB6AB7C0)
 #define LHEECDNNIBO_TICK_OFFSET UNITYSDK_OFFSET(0xB6AB810)
 
+inline static constexpr unsigned int LHEECDNNIBO_TypeDefinitionIndex = 52949;
+
 	class LHEECDNNIBO : public ::GELIALJDFBL
 	{
 	public:

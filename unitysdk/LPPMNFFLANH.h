@@ -10,6 +10,8 @@ namespace RPG::GameCore { class TaskContext; }
 #define LPPMNFFLANH_PFINFACFMKI_OFFSET UNITYSDK_OFFSET(0xB8367C0)
 #define LPPMNFFLANH_TICK_OFFSET UNITYSDK_OFFSET(0xB836880)
 
+inline static constexpr unsigned int LPPMNFFLANH_TypeDefinitionIndex = 52240;
+
 	class LPPMNFFLANH
 	{
 	public:

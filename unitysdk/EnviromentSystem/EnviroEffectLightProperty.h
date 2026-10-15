@@ -16,6 +16,8 @@ namespace UnityEngine::Rendering { class CommandBuffer; }
 
 namespace EnviromentSystem
 {
+	inline static constexpr unsigned int EnviroEffectLightProperty_TypeDefinitionIndex = 49597;
+
 	class EnviroEffectLightProperty : public ::EnviromentSystem::EnviroProperty
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System { template <typename T> class Predicate_1; }
 #define HIPPLENBUILDERSTATUS___C_CTOR_OFFSET UNITYSDK_OFFSET(0x15DF1690)
 #define HIPPLENBUILDERSTATUS___C__BUFFTIMEPASS_B__8_0_OFFSET UNITYSDK_OFFSET(0x15DF16A0)
 
+inline static constexpr unsigned int HipplenBuilderStatus___c_TypeDefinitionIndex = 47211;
+
 	class HipplenBuilderStatus___c : public ::System::Object
 	{
 	public:

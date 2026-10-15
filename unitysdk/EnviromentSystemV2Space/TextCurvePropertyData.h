@@ -13,6 +13,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace EnviromentSystemV2Space
 {
+	inline static constexpr unsigned int TextCurvePropertyData_TypeDefinitionIndex = 49400;
+
 	class TextCurvePropertyData : public ::EnviromentSystemV2Space::CustomCurvePropertyData
 	{
 	public:

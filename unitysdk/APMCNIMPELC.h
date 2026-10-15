@@ -11,6 +11,8 @@
 #define APMCNIMPELC_IGLLMOMBFKI_OFFSET UNITYSDK_OFFSET(0x15BB48C0)
 #define APMCNIMPELC_SET_STREAMINGNOTPAUSE_OFFSET UNITYSDK_OFFSET(0x15BB48B0)
 
+inline static constexpr unsigned int APMCNIMPELC_TypeDefinitionIndex = 73871;
+
 	class APMCNIMPELC : public ::System::Object
 	{
 	public:

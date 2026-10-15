@@ -3,6 +3,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int Texture2D_EXRFlags_TypeDefinitionIndex = 4197;
+
 	enum class Texture2D_EXRFlags : ::System::Int32
 	{
 		None = 0,

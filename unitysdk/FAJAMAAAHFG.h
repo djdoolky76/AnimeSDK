@@ -42,6 +42,8 @@ namespace UnityEngine { class Transform; }
 #define FAJAMAAAHFG_PDCPJMGMMPH_OFFSET UNITYSDK_OFFSET(0x156809B0)
 #define FAJAMAAAHFG__ONBIND_OFFSET UNITYSDK_OFFSET(0x1567F5C0)
 
+inline static constexpr unsigned int FAJAMAAAHFG_TypeDefinitionIndex = 71684;
+
 	class FAJAMAAAHFG : public ::FMPCODLIOLG
 	{
 	public:

@@ -11,6 +11,8 @@ namespace RPG::GameCore { class TriggerEvolveBuildFeature; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int TriggerEvolveBuildFeature_TypeDefinitionIndex = 22519;
+
 	class TriggerEvolveBuildFeature : public ::RPG::GameCore::TaskConfig
 	{
 	public:

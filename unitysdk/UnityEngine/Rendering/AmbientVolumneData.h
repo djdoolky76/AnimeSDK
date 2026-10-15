@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int AmbientVolumneData_TypeDefinitionIndex = 4811;
+
 	struct alignas(4) AmbientVolumneData
 	{
 		::UnityEngine::Bounds bounds; // 0x10

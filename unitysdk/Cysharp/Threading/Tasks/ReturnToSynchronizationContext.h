@@ -9,6 +9,8 @@ namespace System::Threading { class SynchronizationContext; }
 
 namespace Cysharp::Threading::Tasks
 {
+	inline static constexpr unsigned int ReturnToSynchronizationContext_TypeDefinitionIndex = 38373;
+
 	struct alignas(8) ReturnToSynchronizationContext
 	{
 		::System::Threading::SynchronizationContext* syncContext; // 0x10

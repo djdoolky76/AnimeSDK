@@ -9,6 +9,8 @@ namespace Nerdbank::Streams { template <typename T> class Sequence_1; }
 
 namespace MessagePack
 {
+	inline static constexpr unsigned int SequencePool_Rental_TypeDefinitionIndex = 7242;
+
 	struct alignas(8) SequencePool_Rental
 	{
 		::MessagePack::SequencePool* owner; // 0x10

@@ -166,6 +166,8 @@ namespace UnityEngine { class Texture; }
 
 namespace UnityEngine::Rendering
 {
+	inline static constexpr unsigned int CommandBuffer_TypeDefinitionIndex = 4732;
+
 	class CommandBuffer : public ::System::Object
 	{
 	public:

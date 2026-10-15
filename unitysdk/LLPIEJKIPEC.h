@@ -11,6 +11,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define LLPIEJKIPEC_NPAFMEBNFOB_OFFSET UNITYSDK_OFFSET(0xB777A50)
 #define LLPIEJKIPEC_PAGKOAEOLKA_OFFSET UNITYSDK_OFFSET(0xB777CA0)
 
+inline static constexpr unsigned int LLPIEJKIPEC_TypeDefinitionIndex = 82287;
+
 	class LLPIEJKIPEC : public ::KAANKGHDHCB
 	{
 	public:

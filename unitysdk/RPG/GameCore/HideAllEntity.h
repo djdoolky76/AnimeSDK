@@ -11,6 +11,8 @@ namespace RPG::GameCore { class HideAllEntity; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int HideAllEntity_TypeDefinitionIndex = 21668;
+
 	class HideAllEntity : public ::RPG::GameCore::TaskConfig
 	{
 	public:

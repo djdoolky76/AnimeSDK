@@ -14,6 +14,8 @@ namespace UnityEngine { class GameObject; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ListView_BBOGJDFEEHG__GetEnumerator_d__6_TypeDefinitionIndex = 72559;
+
 	template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6>
 	class ListView_BBOGJDFEEHG__GetEnumerator_d__6 : public ::System::Object
 	{

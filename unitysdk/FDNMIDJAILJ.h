@@ -4,6 +4,8 @@
 
 #define FDNMIDJAILJ_CTOR_OFFSET UNITYSDK_OFFSET(0x1CDDEA50)
 
+inline static constexpr unsigned int FDNMIDJAILJ_TypeDefinitionIndex = 25007;
+
 	class FDNMIDJAILJ : public ::KODIMAJKOMJ
 	{
 	public:

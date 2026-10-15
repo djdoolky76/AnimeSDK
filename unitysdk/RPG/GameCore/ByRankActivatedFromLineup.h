@@ -13,6 +13,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByRankActivatedFromLineup_TypeDefinitionIndex = 23060;
+
 	class ByRankActivatedFromLineup : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

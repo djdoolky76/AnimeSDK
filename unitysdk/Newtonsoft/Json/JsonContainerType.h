@@ -3,6 +3,8 @@
 
 namespace Newtonsoft::Json
 {
+	inline static constexpr unsigned int JsonContainerType_TypeDefinitionIndex = 9590;
+
 	enum class JsonContainerType : ::System::Int32
 	{
 		None = 0,

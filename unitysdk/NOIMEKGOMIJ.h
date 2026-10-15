@@ -28,6 +28,8 @@ namespace UnityEngine::UI { class Text; }
 #define NOIMEKGOMIJ__ONBIND_OFFSET UNITYSDK_OFFSET(0xBCF1110)
 #define NOIMEKGOMIJ__ONTICK_OFFSET UNITYSDK_OFFSET(0xBCF1520)
 
+inline static constexpr unsigned int NOIMEKGOMIJ_TypeDefinitionIndex = 72158;
+
 	class NOIMEKGOMIJ : public ::FMPCODLIOLG
 	{
 	public:

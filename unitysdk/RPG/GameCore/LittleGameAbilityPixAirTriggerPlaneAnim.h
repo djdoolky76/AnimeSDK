@@ -12,6 +12,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LittleGameAbilityPixAirTriggerPlaneAnim_TypeDefinitionIndex = 21400;
+
 	class LittleGameAbilityPixAirTriggerPlaneAnim : public ::RPG::GameCore::BaseLittleGameAbilityTaskConfig
 	{
 	public:

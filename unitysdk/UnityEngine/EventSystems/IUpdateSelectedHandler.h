@@ -3,6 +3,8 @@
 
 namespace UnityEngine::EventSystems
 {
+	inline static constexpr unsigned int IUpdateSelectedHandler_TypeDefinitionIndex = 6922;
+
 	class IUpdateSelectedHandler
 	{
 	public:

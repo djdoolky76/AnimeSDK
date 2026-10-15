@@ -27,6 +27,8 @@ namespace System { class String; }
 #define IGODPKFLDNE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E654100)
 #define IGODPKFLDNE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E654160)
 
+inline static constexpr unsigned int IGODPKFLDNE_TypeDefinitionIndex = 33057;
+
 	class IGODPKFLDNE : public ::System::Object
 	{
 	public:

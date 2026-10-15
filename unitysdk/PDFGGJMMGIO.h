@@ -6,6 +6,8 @@
 #define PDFGGJMMGIO_DISPOSE_OFFSET UNITYSDK_OFFSET(0xC0110C0)
 #define PDFGGJMMGIO_LMCEDCHJKFF_OFFSET UNITYSDK_OFFSET(0xC011080)
 
+inline static constexpr unsigned int PDFGGJMMGIO_TypeDefinitionIndex = 57256;
+
 	class PDFGGJMMGIO : public ::RPG::GameCore::GameComponentBase
 	{
 	public:

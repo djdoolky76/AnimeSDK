@@ -5,6 +5,8 @@ namespace System { class Type; }
 
 #define JPNACMMAEDC_CTOR_OFFSET UNITYSDK_OFFSET(0xB2CB280)
 
+inline static constexpr unsigned int JPNACMMAEDC_TypeDefinitionIndex = 57583;
+
 	class JPNACMMAEDC : public ::System::Attribute
 	{
 	public:

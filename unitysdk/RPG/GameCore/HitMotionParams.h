@@ -10,6 +10,8 @@ namespace RPG::GameCore { class HitMotionParams; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int HitMotionParams_TypeDefinitionIndex = 22592;
+
 	class HitMotionParams : public ::RPG::GameCore::JsonConfig
 	{
 	public:

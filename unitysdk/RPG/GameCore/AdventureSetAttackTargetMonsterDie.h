@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdventureSetAttackTargetMonsterDie_TypeDefinitionIndex = 20218;
+
 	class AdventureSetAttackTargetMonsterDie : public ::RPG::GameCore::TaskConfig
 	{
 	public:

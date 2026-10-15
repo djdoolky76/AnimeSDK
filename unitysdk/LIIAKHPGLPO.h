@@ -74,6 +74,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define LIIAKHPGLPO_PEOBCKMDPDF_OFFSET UNITYSDK_OFFSET(0xB6D0940)
 #define LIIAKHPGLPO_PJJAFKPEKFP_OFFSET UNITYSDK_OFFSET(0xB6CCEC0)
 
+inline static constexpr unsigned int LIIAKHPGLPO_TypeDefinitionIndex = 54235;
+
 	class LIIAKHPGLPO : public ::System::Object
 	{
 	public:

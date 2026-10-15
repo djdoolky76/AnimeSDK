@@ -10,6 +10,8 @@ namespace RPG::GameCore { class LevelLookAtPositionInfo; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelLookAtPositionInfo_TypeDefinitionIndex = 17359;
+
 	class LevelLookAtPositionInfo : public ::RPG::GameCore::JsonConfig
 	{
 	public:

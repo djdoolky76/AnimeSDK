@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define KPBNILBHOKK_CTOR_OFFSET UNITYSDK_OFFSET(0xB5AFCF0)
 #define KPBNILBHOKK_EXECUTE_OFFSET UNITYSDK_OFFSET(0xB5AFAC0)
 
+inline static constexpr unsigned int KPBNILBHOKK_TypeDefinitionIndex = 54265;
+
 	class KPBNILBHOKK : public ::BHDAFDOMINP
 	{
 	public:

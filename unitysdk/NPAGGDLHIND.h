@@ -6,6 +6,8 @@ namespace UnityEngine::Events { class UnityAction; }
 #define NPAGGDLHIND_CTOR_OFFSET UNITYSDK_OFFSET(0xBCF99B0)
 #define NPAGGDLHIND_DMIAKCFEDKH_OFFSET UNITYSDK_OFFSET(0xBCF99E0)
 
+inline static constexpr unsigned int NPAGGDLHIND_TypeDefinitionIndex = 49169;
+
 	class NPAGGDLHIND
 	{
 	public:

@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 
 namespace System::IO
 {
+	inline static constexpr unsigned int FileSystemEnumerableFactory_TypeDefinitionIndex = 672;
+
 	class FileSystemEnumerableFactory : public ::System::Object
 	{
 	public:

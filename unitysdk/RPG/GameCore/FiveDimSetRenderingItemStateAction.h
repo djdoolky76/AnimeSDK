@@ -11,6 +11,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimSetRenderingItemStateAction_TypeDefinitionIndex = 18693;
+
 	class FiveDimSetRenderingItemStateAction : public ::RPG::GameCore::FiveDimBaseEventAction
 	{
 	public:

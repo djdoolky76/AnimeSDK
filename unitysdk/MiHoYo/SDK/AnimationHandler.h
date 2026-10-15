@@ -10,6 +10,8 @@
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int AnimationHandler_TypeDefinitionIndex = 46591;
+
 	class AnimationHandler : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -6,6 +6,8 @@ namespace System { class Action; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ObjectLoadHandler_1___c__DisplayClass8_0_1_TypeDefinitionIndex = 35304;
+
 	template <typename T>
 	class ObjectLoadHandler_1___c__DisplayClass8_0_1 : public ::System::Object
 	{

@@ -6,6 +6,8 @@
 
 namespace UnityEngine::Experimental::Playables
 {
+	inline static constexpr unsigned int TexturePlayableOutput_TypeDefinitionIndex = 4936;
+
 	struct alignas(4) TexturePlayableOutput
 	{
 		::UnityEngine::Playables::PlayableOutputHandle m_Handle; // 0x10

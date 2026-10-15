@@ -14,6 +14,8 @@ namespace SimpleJSON { class JSONNode; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int ByPartialFlipDeviceState_TypeDefinitionIndex = 22336;
+
 	class ByPartialFlipDeviceState : public ::RPG::GameCore::PredicateConfig
 	{
 	public:

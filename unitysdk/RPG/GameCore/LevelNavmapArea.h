@@ -12,6 +12,8 @@ namespace RPG::GameCore { class LevelNavmapArea; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelNavmapArea_TypeDefinitionIndex = 17223;
+
 	class LevelNavmapArea : public ::RPG::GameCore::JsonConfig
 	{
 	public:

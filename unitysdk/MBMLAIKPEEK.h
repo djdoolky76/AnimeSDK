@@ -47,6 +47,8 @@ namespace System { class String; }
 #define MBMLAIKPEEK_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E9EAC70)
 #define MBMLAIKPEEK_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E9EACD0)
 
+inline static constexpr unsigned int MBMLAIKPEEK_TypeDefinitionIndex = 27538;
+
 	class MBMLAIKPEEK : public ::System::Object
 	{
 	public:

@@ -9,6 +9,8 @@ namespace RPG::GameCore { class LightningStrikeAreaAchievementConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LightningStrikeAreaAchievementConfig_TypeDefinitionIndex = 16816;
+
 	class LightningStrikeAreaAchievementConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

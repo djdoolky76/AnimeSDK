@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ActivityQuestTimeLimitModuleData_TypeDefinitionIndex = 61898;
+
 	class ActivityQuestTimeLimitModuleData : public ::System::Object
 	{
 	public:

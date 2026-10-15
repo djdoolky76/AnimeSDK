@@ -24,6 +24,8 @@ namespace System { class String; }
 #define PFACHJFCILN_OGBJHNNCFOK_OFFSET UNITYSDK_OFFSET(0xC200310)
 #define PFACHJFCILN_TOSTRING_OFFSET UNITYSDK_OFFSET(0xC200420)
 
+inline static constexpr unsigned int PFACHJFCILN_TypeDefinitionIndex = 59692;
+
 	class PFACHJFCILN : public ::System::Object
 	{
 	public:

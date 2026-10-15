@@ -9,6 +9,8 @@ namespace System { class String; }
 #define HFKMPIEIIOI_OKCEBMECNGL_OFFSET UNITYSDK_OFFSET(0x15C885A0)
 #define HFKMPIEIIOI_PKKGONHEFGN_OFFSET UNITYSDK_OFFSET(0x15C88590)
 
+inline static constexpr unsigned int HFKMPIEIIOI_TypeDefinitionIndex = 61211;
+
 	class HFKMPIEIIOI : public ::System::Object
 	{
 	public:

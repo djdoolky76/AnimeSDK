@@ -7,6 +7,8 @@ namespace System { class Nullable; }
 
 #define EBGKBGGBCBG_FJEMDBOOCHJ_OFFSET UNITYSDK_OFFSET(0x1C54F400)
 
+inline static constexpr unsigned int EBGKBGGBCBG_TypeDefinitionIndex = 41891;
+
 	class EBGKBGGBCBG : public ::System::Object
 	{
 	public:

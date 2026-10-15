@@ -45,6 +45,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define ODCOIGDOFGH_ONHGACEMGBE_OFFSET UNITYSDK_OFFSET(0xBD8D630)
 #define ODCOIGDOFGH__GETELATIONSKILLDATALIST_B__2_0_OFFSET UNITYSDK_OFFSET(0xBD8F170)
 
+inline static constexpr unsigned int ODCOIGDOFGH_TypeDefinitionIndex = 72151;
+
 	class ODCOIGDOFGH : public ::System::Object
 	{
 	public:

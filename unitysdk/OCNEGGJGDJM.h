@@ -13,6 +13,8 @@ namespace RPG::Client { class UserPrefs; }
 #define OCNEGGJGDJM_SET_SETTINGSPREFS_OFFSET UNITYSDK_OFFSET(0xBD71730)
 #define OCNEGGJGDJM_SET_USERPREFS_OFFSET UNITYSDK_OFFSET(0xBD71710)
 
+inline static constexpr unsigned int OCNEGGJGDJM_TypeDefinitionIndex = 59354;
+
 	class OCNEGGJGDJM : public ::System::Object
 	{
 	public:

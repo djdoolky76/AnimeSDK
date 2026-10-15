@@ -7,6 +7,8 @@
 
 namespace InControl::UnityDeviceProfiles
 {
+	inline static constexpr unsigned int XInputWindowsChromeUnityProfile_TypeDefinitionIndex = 41058;
+
 	class XInputWindowsChromeUnityProfile : public ::InControl::InputDeviceProfile
 	{
 	public:

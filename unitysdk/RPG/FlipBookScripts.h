@@ -11,6 +11,8 @@ namespace UnityEngine { class Material; }
 
 namespace RPG
 {
+	inline static constexpr unsigned int FlipBookScripts_TypeDefinitionIndex = 51715;
+
 	class FlipBookScripts : public ::UnityEngine::MonoBehaviour
 	{
 	public:

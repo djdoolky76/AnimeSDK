@@ -7,6 +7,8 @@
 
 namespace UnityEngine::UIElements
 {
+	inline static constexpr unsigned int MouseEnterEvent_TypeDefinitionIndex = 5965;
+
 	class MouseEnterEvent
 	{
 	public:

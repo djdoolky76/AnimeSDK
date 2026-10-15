@@ -7,6 +7,8 @@ namespace System { class String; }
 
 #define OMMAEOLAAPD_FEGNKCMCKME_CTOR_OFFSET UNITYSDK_OFFSET(0xBF32070)
 
+inline static constexpr unsigned int OMMAEOLAAPD_FEGNKCMCKME_TypeDefinitionIndex = 72142;
+
 	class OMMAEOLAAPD_FEGNKCMCKME : public ::System::Object
 	{
 	public:

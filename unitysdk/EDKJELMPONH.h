@@ -29,6 +29,8 @@ namespace System { class String; }
 #define EDKJELMPONH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E260FA0)
 #define EDKJELMPONH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E261000)
 
+inline static constexpr unsigned int EDKJELMPONH_TypeDefinitionIndex = 27496;
+
 	class EDKJELMPONH : public ::System::Object
 	{
 	public:

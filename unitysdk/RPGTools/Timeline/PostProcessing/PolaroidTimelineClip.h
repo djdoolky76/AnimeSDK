@@ -5,6 +5,8 @@
 
 namespace RPGTools::Timeline::PostProcessing
 {
+	inline static constexpr unsigned int PolaroidTimelineClip_TypeDefinitionIndex = 48595;
+
 	class PolaroidTimelineClip
 	{
 	public:

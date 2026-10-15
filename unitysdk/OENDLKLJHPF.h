@@ -34,6 +34,8 @@ namespace System { class String; }
 #define OENDLKLJHPF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DE313E0)
 #define OENDLKLJHPF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DE31440)
 
+inline static constexpr unsigned int OENDLKLJHPF_TypeDefinitionIndex = 34343;
+
 	class OENDLKLJHPF : public ::System::Object
 	{
 	public:

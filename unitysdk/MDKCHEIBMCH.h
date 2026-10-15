@@ -9,6 +9,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerable
 #define MDKCHEIBMCH_CHAKABNICEL_OFFSET UNITYSDK_OFFSET(0xB8AD2B0)
 #define MDKCHEIBMCH_CTOR_OFFSET UNITYSDK_OFFSET(0xB8AD370)
 
+inline static constexpr unsigned int MDKCHEIBMCH_TypeDefinitionIndex = 77529;
+
 	class MDKCHEIBMCH : public ::System::Object
 	{
 	public:

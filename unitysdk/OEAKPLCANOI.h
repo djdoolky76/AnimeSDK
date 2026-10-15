@@ -103,6 +103,8 @@ namespace UnityEngine { class GameObject; }
 #define OEAKPLCANOI___BUILDENTITIES_G__GETINDEX_55_4_OFFSET UNITYSDK_OFFSET(0xBDFE050)
 #define OEAKPLCANOI___ONTICK_B__54_0_OFFSET UNITYSDK_OFFSET(0xBDFDF70)
 
+inline static constexpr unsigned int OEAKPLCANOI_TypeDefinitionIndex = 60400;
+
 	class OEAKPLCANOI : public ::HCLPKMIIANI
 	{
 	public:

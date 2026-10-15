@@ -16,6 +16,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CreatePropInTargetFront_TypeDefinitionIndex = 20161;
+
 	class CreatePropInTargetFront : public ::RPG::GameCore::TaskConfig
 	{
 	public:

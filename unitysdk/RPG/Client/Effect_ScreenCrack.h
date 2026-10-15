@@ -18,6 +18,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int Effect_ScreenCrack_TypeDefinitionIndex = 70550;
+
 	class Effect_ScreenCrack : public ::UnityEngine::MonoBehaviour
 	{
 	public:

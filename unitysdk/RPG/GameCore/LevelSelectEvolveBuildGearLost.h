@@ -11,6 +11,8 @@ namespace RPG::GameCore { class LevelSelectEvolveBuildGearLost; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelSelectEvolveBuildGearLost_TypeDefinitionIndex = 56823;
+
 	class LevelSelectEvolveBuildGearLost : public ::CMPGEAFHHDC
 	{
 	public:

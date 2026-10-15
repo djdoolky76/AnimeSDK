@@ -10,6 +10,8 @@ namespace HoudiniEngineUnity { class HEU_ReloadEventData; }
 #define HEU_ASSETEVENTRECEIVERTEST_CTOR_OFFSET UNITYSDK_OFFSET(0x1B8B9A70)
 #define HEU_ASSETEVENTRECEIVERTEST_RELOADCALLBACK_OFFSET UNITYSDK_OFFSET(0x1B8B93B0)
 
+inline static constexpr unsigned int HEU_AssetEventReceiverTest_TypeDefinitionIndex = 40354;
+
 	class HEU_AssetEventReceiverTest : public ::UnityEngine::MonoBehaviour
 	{
 	public:

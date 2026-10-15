@@ -5,6 +5,8 @@ class KAJJEJMHCGD;
 
 #define LBGIDBFBHEF_CTOR_OFFSET UNITYSDK_OFFSET(0x1C7200E0)
 
+inline static constexpr unsigned int LBGIDBFBHEF_TypeDefinitionIndex = 37357;
+
 	class LBGIDBFBHEF : public ::System::Object
 	{
 	public:

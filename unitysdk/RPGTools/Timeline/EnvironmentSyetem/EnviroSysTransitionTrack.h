@@ -6,6 +6,8 @@
 
 namespace RPGTools::Timeline::EnvironmentSyetem
 {
+	inline static constexpr unsigned int EnviroSysTransitionTrack_TypeDefinitionIndex = 48646;
+
 	class EnviroSysTransitionTrack : public ::UnityEngine::Timeline::TrackAsset
 	{
 	public:

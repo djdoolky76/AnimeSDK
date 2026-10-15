@@ -5,6 +5,8 @@ namespace System { class Action; }
 
 #define DCNKNFJEDDJ_CTOR_OFFSET UNITYSDK_OFFSET(0xE2526A0)
 
+inline static constexpr unsigned int DCNKNFJEDDJ_TypeDefinitionIndex = 56513;
+
 	class DCNKNFJEDDJ : public ::System::Object
 	{
 	public:

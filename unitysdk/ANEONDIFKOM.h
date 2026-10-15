@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define ANEONDIFKOM_PKPJFCDOFML_OFFSET UNITYSDK_OFFSET(0x1CCE24B0)
 #define ANEONDIFKOM_POIJCHCCDMH_OFFSET UNITYSDK_OFFSET(0x1CCE1DC0)
 
+inline static constexpr unsigned int ANEONDIFKOM_TypeDefinitionIndex = 13591;
+
 	class ANEONDIFKOM : public ::System::Object
 	{
 	public:

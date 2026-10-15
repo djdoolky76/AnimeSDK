@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define NIHILGIEANC_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x1C96A390)
 #define NIHILGIEANC_ONHIT_OFFSET UNITYSDK_OFFSET(0x1C96A4B0)
 
+inline static constexpr unsigned int NIHILGIEANC_TypeDefinitionIndex = 42397;
+
 	class NIHILGIEANC : public ::System::Object
 	{
 	public:

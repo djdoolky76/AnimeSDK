@@ -4,6 +4,8 @@
 
 #define BNMIBEFPHNF_CTOR_OFFSET UNITYSDK_OFFSET(0x1C540BA0)
 
+inline static constexpr unsigned int BNMIBEFPHNF_TypeDefinitionIndex = 41761;
+
 	class BNMIBEFPHNF : public ::NFBGGNPFODM
 	{
 	public:

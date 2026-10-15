@@ -46,6 +46,8 @@ namespace System { class String; }
 #define GCBCKOKEAJH_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E435830)
 #define GCBCKOKEAJH_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E435890)
 
+inline static constexpr unsigned int GCBCKOKEAJH_TypeDefinitionIndex = 33495;
+
 	class GCBCKOKEAJH : public ::System::Object
 	{
 	public:

@@ -26,6 +26,8 @@ namespace System { class Action; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ScheduleTask_TypeDefinitionIndex = 67905;
+
 	class ScheduleTask : public ::System::Object
 	{
 	public:

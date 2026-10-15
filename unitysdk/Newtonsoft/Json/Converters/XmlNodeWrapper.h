@@ -23,6 +23,8 @@ namespace System::Xml { class XmlNode; }
 
 namespace Newtonsoft::Json::Converters
 {
+	inline static constexpr unsigned int XmlNodeWrapper_TypeDefinitionIndex = 9829;
+
 	class XmlNodeWrapper : public ::System::Object
 	{
 	public:

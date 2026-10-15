@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 #define APPLKDBLEAG_CTOR_OFFSET UNITYSDK_OFFSET(0x1CCEF570)
 #define APPLKDBLEAG_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1CCEF0E0)
 
+inline static constexpr unsigned int APPLKDBLEAG_TypeDefinitionIndex = 18152;
+
 	class APPLKDBLEAG : public ::RPG::GameCore::JsonConfig
 	{
 	public:

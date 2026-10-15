@@ -5,6 +5,8 @@
 
 #define BIBPEJPAMFP_CTOR_OFFSET UNITYSDK_OFFSET(0xB4950C0)
 
+inline static constexpr unsigned int BIBPEJPAMFP_TypeDefinitionIndex = 55595;
+
 	class BIBPEJPAMFP : public ::System::Object
 	{
 	public:

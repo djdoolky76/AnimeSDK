@@ -6,6 +6,8 @@ namespace RPG::Client::ChenLingBattle { class ChenLingBattleGameContext; }
 #define IOJPGFDOMOM_CTOR_OFFSET UNITYSDK_OFFSET(0x16504B90)
 #define IOJPGFDOMOM_ONEXECUTE_OFFSET UNITYSDK_OFFSET(0x16504A70)
 
+inline static constexpr unsigned int IOJPGFDOMOM_TypeDefinitionIndex = 76282;
+
 	class IOJPGFDOMOM : public ::MLKDDLHNNHH
 	{
 	public:

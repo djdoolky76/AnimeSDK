@@ -12,6 +12,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace ZenFulcrum::EmbeddedBrowser
 {
+	inline static constexpr unsigned int StandaloneWebResources_TypeDefinitionIndex = 39563;
+
 	class StandaloneWebResources : public ::ZenFulcrum::EmbeddedBrowser::WebResources
 	{
 	public:

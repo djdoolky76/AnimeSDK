@@ -7,6 +7,8 @@ namespace System { class String; }
 
 namespace CriWare
 {
+	inline static constexpr unsigned int CriAtomExAcf_GlobalAisacInfo_TypeDefinitionIndex = 40032;
+
 	struct alignas(8) CriAtomExAcf_GlobalAisacInfo
 	{
 		::System::String* name; // 0x10

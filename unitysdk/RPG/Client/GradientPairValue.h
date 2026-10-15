@@ -7,6 +7,8 @@ namespace UnityEngine { class Gradient; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int GradientPairValue_TypeDefinitionIndex = 71015;
+
 	class GradientPairValue : public ::RPG::Client::PairValueEntry
 	{
 	public:

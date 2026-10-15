@@ -13,6 +13,8 @@ namespace UnityEngine::UI { class Image; }
 
 namespace MiHoYo::SDK::HoYoUI
 {
+	inline static constexpr unsigned int StretchModeSkinAssetsLogic_TypeDefinitionIndex = 46736;
+
 	class StretchModeSkinAssetsLogic : public ::System::Object
 	{
 	public:

@@ -16,6 +16,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetDynamicValueByStatusProbability_TypeDefinitionIndex = 23580;
+
 	class SetDynamicValueByStatusProbability : public ::RPG::GameCore::SetDynamicValueBase
 	{
 	public:

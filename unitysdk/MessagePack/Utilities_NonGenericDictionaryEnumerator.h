@@ -14,6 +14,8 @@ namespace System::Collections { class IDictionaryEnumerator; }
 
 namespace MessagePack
 {
+	inline static constexpr unsigned int Utilities_NonGenericDictionaryEnumerator_TypeDefinitionIndex = 7249;
+
 	struct alignas(8) Utilities_NonGenericDictionaryEnumerator
 	{
 		::System::Collections::IDictionaryEnumerator* enumerator; // 0x10

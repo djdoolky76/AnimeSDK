@@ -12,6 +12,8 @@ namespace System { class Object; }
 #define FJDAIGNBAMP_HMLAIMFHKLI_OFFSET UNITYSDK_OFFSET(0x157C2B40)
 #define FJDAIGNBAMP_KCNDJOIPEFE_OFFSET UNITYSDK_OFFSET(0x157C2D00)
 
+inline static constexpr unsigned int FJDAIGNBAMP_TypeDefinitionIndex = 64044;
+
 	class FJDAIGNBAMP : public ::BMPICAPOOFD
 	{
 	public:

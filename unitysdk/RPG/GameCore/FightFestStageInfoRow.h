@@ -11,6 +11,8 @@ namespace RPG::GameCore { class FightFestStageInfoRow; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FightFestStageInfoRow_TypeDefinitionIndex = 13283;
+
 	class FightFestStageInfoRow : public ::System::Object
 	{
 	public:

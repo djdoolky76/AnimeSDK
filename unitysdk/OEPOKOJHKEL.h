@@ -13,6 +13,8 @@ namespace System { class String; }
 #define OEPOKOJHKEL_MGMEGEDLMAK_OFFSET UNITYSDK_OFFSET(0x1D264440)
 #define OEPOKOJHKEL_OJNNBEJLDIJ_OFFSET UNITYSDK_OFFSET(0x1D264400)
 
+inline static constexpr unsigned int OEPOKOJHKEL_TypeDefinitionIndex = 22863;
+
 	class OEPOKOJHKEL : public ::RPG::GameCore::TaskConfig
 	{
 	public:

@@ -10,6 +10,8 @@ namespace System { class String; }
 
 namespace System::Runtime::Remoting::Channels
 {
+	inline static constexpr unsigned int CrossAppDomainData_TypeDefinitionIndex = 1263;
+
 	class CrossAppDomainData : public ::System::Object
 	{
 	public:

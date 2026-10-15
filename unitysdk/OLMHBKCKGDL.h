@@ -3,6 +3,8 @@
 #include "unitysdk/System/Object.h"
 class FFFELFKMJMN;
 
+inline static constexpr unsigned int OLMHBKCKGDL_TypeDefinitionIndex = 49489;
+
 	class OLMHBKCKGDL : public ::System::Object
 	{
 	public:

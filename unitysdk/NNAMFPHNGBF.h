@@ -38,6 +38,8 @@ namespace System { class String; }
 #define NNAMFPHNGBF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1EB7EB70)
 #define NNAMFPHNGBF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1EB7EBD0)
 
+inline static constexpr unsigned int NNAMFPHNGBF_TypeDefinitionIndex = 32742;
+
 	class NNAMFPHNGBF : public ::System::Object
 	{
 	public:

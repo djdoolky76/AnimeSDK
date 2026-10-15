@@ -30,6 +30,8 @@ namespace System { class String; }
 #define EMLDLBKPEFD_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E2E5960)
 #define EMLDLBKPEFD_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E2E59C0)
 
+inline static constexpr unsigned int EMLDLBKPEFD_TypeDefinitionIndex = 30218;
+
 	class EMLDLBKPEFD : public ::System::Object
 	{
 	public:

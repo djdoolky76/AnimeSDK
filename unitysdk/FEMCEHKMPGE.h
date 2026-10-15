@@ -21,6 +21,8 @@ class JPMKMMMGNJN;
 #define FEMCEHKMPGE_PHMHPMHOIFJ_OFFSET UNITYSDK_OFFSET(0x1CA6D510)
 #define FEMCEHKMPGE_TEARDOWN_OFFSET UNITYSDK_OFFSET(0x1CA6DBB0)
 
+inline static constexpr unsigned int FEMCEHKMPGE_TypeDefinitionIndex = 42531;
+
 	class FEMCEHKMPGE : public ::System::Object
 	{
 	public:

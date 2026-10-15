@@ -7,6 +7,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int NavMeshLinkParams_TypeDefinitionIndex = 68639;
+
 	class NavMeshLinkParams : public ::System::Object
 	{
 	public:

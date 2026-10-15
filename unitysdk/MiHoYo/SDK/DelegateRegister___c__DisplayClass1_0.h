@@ -10,6 +10,8 @@ namespace MiHoYo::SDK { class Web; }
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int DelegateRegister___c__DisplayClass1_0_TypeDefinitionIndex = 46276;
+
 	class DelegateRegister___c__DisplayClass1_0 : public ::System::Object
 	{
 	public:

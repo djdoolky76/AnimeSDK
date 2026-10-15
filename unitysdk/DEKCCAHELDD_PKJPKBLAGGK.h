@@ -6,6 +6,8 @@ class KANKEPCJION_JNLBIIDFHMK;
 
 #define DEKCCAHELDD_PKJPKBLAGGK_CTOR_OFFSET UNITYSDK_OFFSET(0xE511E30)
 
+inline static constexpr unsigned int DEKCCAHELDD_PKJPKBLAGGK_TypeDefinitionIndex = 71874;
+
 	class DEKCCAHELDD_PKJPKBLAGGK : public ::System::Object
 	{
 	public:

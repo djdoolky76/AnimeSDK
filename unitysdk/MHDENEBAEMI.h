@@ -23,6 +23,8 @@ namespace UnityEngine { class MonoBehaviour; }
 #define MHDENEBAEMI_NLMMCJKJMEK_OFFSET UNITYSDK_OFFSET(0xB932760)
 #define MHDENEBAEMI_OCKFCJDBOEI_OFFSET UNITYSDK_OFFSET(0xB933600)
 
+inline static constexpr unsigned int MHDENEBAEMI_TypeDefinitionIndex = 71143;
+
 	class MHDENEBAEMI : public ::RPG::Client::BehaviorBase
 	{
 	public:

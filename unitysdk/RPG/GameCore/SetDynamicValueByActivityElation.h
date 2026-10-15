@@ -14,6 +14,8 @@ namespace System { class String; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SetDynamicValueByActivityElation_TypeDefinitionIndex = 23150;
+
 	class SetDynamicValueByActivityElation : public ::RPG::GameCore::SetDynamicValueBase
 	{
 	public:

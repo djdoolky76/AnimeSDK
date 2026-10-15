@@ -27,6 +27,8 @@ namespace System::Collections::Generic { template <typename T> class HashSet_1; 
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int QuestChallengeActivityData_TypeDefinitionIndex = 61653;
+
 	class QuestChallengeActivityData : public ::RPG::Client::ActivityPanelData
 	{
 	public:

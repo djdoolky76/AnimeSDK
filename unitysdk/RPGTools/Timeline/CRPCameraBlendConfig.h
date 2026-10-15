@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int CRPCameraBlendConfig_TypeDefinitionIndex = 47885;
+
 	class CRPCameraBlendConfig : public ::System::Object
 	{
 	public:

@@ -50,6 +50,8 @@ namespace System { class String; }
 #define PPKKBLFDLBE_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1DFDD2D0)
 #define PPKKBLFDLBE_WRITETO_OFFSET UNITYSDK_OFFSET(0x1DFDD330)
 
+inline static constexpr unsigned int PPKKBLFDLBE_TypeDefinitionIndex = 25783;
+
 	class PPKKBLFDLBE : public ::System::Object
 	{
 	public:

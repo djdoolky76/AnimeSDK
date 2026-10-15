@@ -4,6 +4,8 @@
 
 namespace MiHoYo::SDK::PluginUI
 {
+	inline static constexpr unsigned int PluginUIConstants_LoginSuccessTipAccountIcons_TypeDefinitionIndex = 9181;
+
 	class PluginUIConstants_LoginSuccessTipAccountIcons : public ::System::Object
 	{
 	public:

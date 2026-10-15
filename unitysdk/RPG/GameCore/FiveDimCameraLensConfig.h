@@ -9,6 +9,8 @@ namespace RPG::GameCore { class FiveDimCameraLensConfig; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int FiveDimCameraLensConfig_TypeDefinitionIndex = 18618;
+
 	class FiveDimCameraLensConfig : public ::RPG::GameCore::JsonConfig
 	{
 	public:

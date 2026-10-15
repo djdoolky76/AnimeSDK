@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define HCEDEHAEPHP_CONVERT_OFFSET UNITYSDK_OFFSET(0x1CC92D80)
 #define HCEDEHAEPHP_CTOR_OFFSET UNITYSDK_OFFSET(0x1CC92E50)
 
+inline static constexpr unsigned int HCEDEHAEPHP_TypeDefinitionIndex = 43902;
+
 	class HCEDEHAEPHP : public ::System::Object
 	{
 	public:

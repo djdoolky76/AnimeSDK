@@ -31,6 +31,8 @@ namespace System { class String; }
 #define AMFCIFOOKNF_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E5204C0)
 #define AMFCIFOOKNF_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E520520)
 
+inline static constexpr unsigned int AMFCIFOOKNF_TypeDefinitionIndex = 31438;
+
 	class AMFCIFOOKNF : public ::System::Object
 	{
 	public:

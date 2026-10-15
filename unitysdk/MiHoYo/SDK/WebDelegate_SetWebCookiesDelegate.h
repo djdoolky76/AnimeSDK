@@ -14,6 +14,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int WebDelegate_SetWebCookiesDelegate_TypeDefinitionIndex = 7858;
+
 	class WebDelegate_SetWebCookiesDelegate : public ::System::MulticastDelegate
 	{
 	public:

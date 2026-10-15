@@ -4,6 +4,8 @@
 
 #define IRI_POWERLINECUSTOMDATA_CTOR_OFFSET UNITYSDK_OFFSET(0x16537980)
 
+inline static constexpr unsigned int IRI_PowerLineCustomData_TypeDefinitionIndex = 47563;
+
 	class IRI_PowerLineCustomData : public ::IRI_BaseBuildingCustomData
 	{
 	public:

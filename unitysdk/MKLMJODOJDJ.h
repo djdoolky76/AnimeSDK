@@ -6,6 +6,8 @@ namespace RPG::GameCore { class WolfBroUseBullet; }
 #define MKLMJODOJDJ_CTOR_OFFSET UNITYSDK_OFFSET(0xB99CEC0)
 #define MKLMJODOJDJ_ONTASKBEGIN_OFFSET UNITYSDK_OFFSET(0xB99CEF0)
 
+inline static constexpr unsigned int MKLMJODOJDJ_TypeDefinitionIndex = 58968;
+
 	class MKLMJODOJDJ
 	{
 	public:

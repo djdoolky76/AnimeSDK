@@ -11,6 +11,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoUI3DModelShadow_TypeDefinitionIndex = 72987;
+
 	class MonoUI3DModelShadow : public ::UnityEngine::MonoBehaviour
 	{
 	public:

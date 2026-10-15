@@ -26,6 +26,8 @@
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int GUIClip_TypeDefinitionIndex = 5168;
+
 	class GUIClip : public ::System::Object
 	{
 	public:

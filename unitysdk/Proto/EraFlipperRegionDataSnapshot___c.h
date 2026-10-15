@@ -10,6 +10,8 @@ namespace System { class Object; }
 
 namespace Proto
 {
+	inline static constexpr unsigned int EraFlipperRegionDataSnapshot___c_TypeDefinitionIndex = 25843;
+
 	class EraFlipperRegionDataSnapshot___c : public ::System::Object
 	{
 	public:

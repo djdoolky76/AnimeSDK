@@ -6,6 +6,8 @@ namespace UnityEngine { class GameObject; }
 
 #define DHCNPPICIAO_AKKKLMIIFII_CTOR_OFFSET UNITYSDK_OFFSET(0xEBC9CF0)
 
+inline static constexpr unsigned int DHCNPPICIAO_AKKKLMIIFII_TypeDefinitionIndex = 59746;
+
 	class DHCNPPICIAO_AKKKLMIIFII : public ::System::Object
 	{
 	public:

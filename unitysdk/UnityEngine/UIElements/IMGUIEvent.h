@@ -10,6 +10,8 @@ namespace UnityEngine::UIElements { class IMGUIEvent; }
 
 namespace UnityEngine::UIElements
 {
+	inline static constexpr unsigned int IMGUIEvent_TypeDefinitionIndex = 5991;
+
 	class IMGUIEvent
 	{
 	public:

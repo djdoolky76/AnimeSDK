@@ -9,6 +9,8 @@ namespace System { class Object; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MissionUtils___c__DisplayClass10_1_TypeDefinitionIndex = 66195;
+
 	template <typename T>
 	class MissionUtils___c__DisplayClass10_1 : public ::System::Object
 	{

@@ -13,6 +13,8 @@ namespace RPG::GameCore { class AvatarPropertyValue; }
 #define JGGNIOIBDBC_JAGLELILLMI_OFFSET UNITYSDK_OFFSET(0xB199BC0)
 #define JGGNIOIBDBC_LPPJNMBMCKC_OFFSET UNITYSDK_OFFSET(0xB199C40)
 
+inline static constexpr unsigned int JGGNIOIBDBC_TypeDefinitionIndex = 56327;
+
 	class JGGNIOIBDBC : public ::System::Object
 	{
 	public:

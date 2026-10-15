@@ -4,6 +4,8 @@
 
 #define AKHGJJKOKHO_CTOR_OFFSET UNITYSDK_OFFSET(0x1C58BC60)
 
+inline static constexpr unsigned int AKHGJJKOKHO_TypeDefinitionIndex = 36842;
+
 	class AKHGJJKOKHO : public ::System::Object
 	{
 	public:

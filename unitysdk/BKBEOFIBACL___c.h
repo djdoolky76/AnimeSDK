@@ -9,6 +9,8 @@ namespace System { template <typename T> class Func_1; }
 #define BKBEOFIBACL___C_CTOR_OFFSET UNITYSDK_OFFSET(0xB7ACB20)
 #define BKBEOFIBACL___C__CREATEITEM_B__1_0_OFFSET UNITYSDK_OFFSET(0xB7ACB30)
 
+inline static constexpr unsigned int BKBEOFIBACL___c_TypeDefinitionIndex = 65575;
+
 	class BKBEOFIBACL___c : public ::System::Object
 	{
 	public:

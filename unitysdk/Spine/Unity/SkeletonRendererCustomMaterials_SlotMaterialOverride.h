@@ -7,6 +7,8 @@ namespace UnityEngine { class Material; }
 
 namespace Spine::Unity
 {
+	inline static constexpr unsigned int SkeletonRendererCustomMaterials_SlotMaterialOverride_TypeDefinitionIndex = 45054;
+
 	struct alignas(8) SkeletonRendererCustomMaterials_SlotMaterialOverride
 	{
 		::System::Boolean overrideDisabled; // 0x10

@@ -53,6 +53,8 @@ namespace System::Text::RegularExpressions { class Regex; }
 
 namespace MessagePack::Internal
 {
+	inline static constexpr unsigned int DynamicObjectTypeBuilder_TypeDefinitionIndex = 7312;
+
 	class DynamicObjectTypeBuilder : public ::System::Object
 	{
 	public:

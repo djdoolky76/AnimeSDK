@@ -35,6 +35,8 @@ namespace System { class Object; }
 #define IGBJDMBKFGJ_PMFCLMMLAHP_OFFSET UNITYSDK_OFFSET(0x163F3940)
 #define IGBJDMBKFGJ_TICK_OFFSET UNITYSDK_OFFSET(0x163F2F00)
 
+inline static constexpr unsigned int IGBJDMBKFGJ_TypeDefinitionIndex = 57956;
+
 	class IGBJDMBKFGJ : public ::GELIALJDFBL
 	{
 	public:

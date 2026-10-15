@@ -8,6 +8,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 #define CHDBFLFJFGH_CTOR_OFFSET UNITYSDK_OFFSET(0xCC92D40)
 #define CHDBFLFJFGH_DISPOSE_OFFSET UNITYSDK_OFFSET(0xCC92CD0)
 
+inline static constexpr unsigned int CHDBFLFJFGH_TypeDefinitionIndex = 67554;
+
 	class CHDBFLFJFGH : public ::System::Object
 	{
 	public:

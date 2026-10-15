@@ -12,6 +12,8 @@ namespace RPG::GameCore { class TargetEvaluator; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvSetTriggerSkipFakeAvatar_TypeDefinitionIndex = 20528;
+
 	class AdvSetTriggerSkipFakeAvatar : public ::RPG::GameCore::TaskConfig
 	{
 	public:

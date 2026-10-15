@@ -13,6 +13,8 @@ namespace RPG::GameCore { class GameEntity; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int LevelTurnActionPhaseEnd_TypeDefinitionIndex = 56706;
+
 	class LevelTurnActionPhaseEnd : public ::System::Object
 	{
 	public:

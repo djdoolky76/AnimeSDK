@@ -6,6 +6,8 @@
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int ShotAnimMovementData_TypeDefinitionIndex = 69647;
+
 	class ShotAnimMovementData : public ::System::Object
 	{
 	public:

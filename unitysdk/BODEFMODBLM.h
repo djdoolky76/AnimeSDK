@@ -7,6 +7,8 @@ class OMNJCDDMLHI;
 #define BODEFMODBLM_CTOR_OFFSET UNITYSDK_OFFSET(0xC18E810)
 #define BODEFMODBLM_EXECUTE_OFFSET UNITYSDK_OFFSET(0xC18E820)
 
+inline static constexpr unsigned int BODEFMODBLM_TypeDefinitionIndex = 77965;
+
 	class BODEFMODBLM : public ::System::Object
 	{
 	public:

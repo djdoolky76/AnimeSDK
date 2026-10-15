@@ -5,6 +5,8 @@ namespace System { class Object; }
 
 #define DGPNFAOEGNK_CTOR_OFFSET UNITYSDK_OFFSET(0x1CA297A0)
 
+inline static constexpr unsigned int DGPNFAOEGNK_TypeDefinitionIndex = 43791;
+
 	class DGPNFAOEGNK : public ::System::Object
 	{
 	public:

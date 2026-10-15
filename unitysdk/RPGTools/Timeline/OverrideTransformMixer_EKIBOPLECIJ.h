@@ -8,6 +8,8 @@ namespace RPGTools::Timeline { class OverrideTransform; }
 
 namespace RPGTools::Timeline
 {
+	inline static constexpr unsigned int OverrideTransformMixer_EKIBOPLECIJ_TypeDefinitionIndex = 47997;
+
 	class OverrideTransformMixer_EKIBOPLECIJ : public ::System::Object
 	{
 	public:

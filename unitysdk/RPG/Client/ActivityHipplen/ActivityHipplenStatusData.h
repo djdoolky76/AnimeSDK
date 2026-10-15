@@ -32,6 +32,8 @@ namespace System::Collections::Generic { template <typename T> class IList_1; }
 
 namespace RPG::Client::ActivityHipplen
 {
+	inline static constexpr unsigned int ActivityHipplenStatusData_TypeDefinitionIndex = 75510;
+
 	class ActivityHipplenStatusData : public ::System::Object
 	{
 	public:

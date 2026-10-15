@@ -16,6 +16,8 @@ namespace System::Collections::Generic { template <typename T> class List_1; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int RogueTournRelicCocoonTeamSaveData_TypeDefinitionIndex = 67772;
+
 	class RogueTournRelicCocoonTeamSaveData : public ::System::Object
 	{
 	public:

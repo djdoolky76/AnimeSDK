@@ -19,6 +19,8 @@ namespace UnityEngine::Rendering { class BatchAnimationInstance; }
 #define BAWALKSTOPLAYERGRAPH_TOSTOP_OFFSET UNITYSDK_OFFSET(0x1CBE5E30)
 #define BAWALKSTOPLAYERGRAPH_TOWALK_OFFSET UNITYSDK_OFFSET(0x1CBE5E00)
 
+inline static constexpr unsigned int BAWalkStopLayerGraph_TypeDefinitionIndex = 37468;
+
 	class BAWalkStopLayerGraph : public ::System::Object
 	{
 	public:

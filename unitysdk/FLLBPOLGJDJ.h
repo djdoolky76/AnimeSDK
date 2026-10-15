@@ -20,6 +20,8 @@ namespace System { class String; }
 #define FLLBPOLGJDJ_ONTASKRESET_OFFSET UNITYSDK_OFFSET(0x1583EC50)
 #define FLLBPOLGJDJ_TICK_OFFSET UNITYSDK_OFFSET(0x1583EB00)
 
+inline static constexpr unsigned int FLLBPOLGJDJ_TypeDefinitionIndex = 52486;
+
 	class FLLBPOLGJDJ : public ::GCBMADADMDJ
 	{
 	public:

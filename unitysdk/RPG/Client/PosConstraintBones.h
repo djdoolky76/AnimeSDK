@@ -9,6 +9,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int PosConstraintBones_TypeDefinitionIndex = 70243;
+
 	class PosConstraintBones : public ::System::Object
 	{
 	public:

@@ -13,6 +13,8 @@ namespace RPG::GameCore { class WaitLittleGameLevelVarChange; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int WaitLittleGameLevelVarChange_TypeDefinitionIndex = 21426;
+
 	class WaitLittleGameLevelVarChange : public ::RPG::GameCore::AdvWaitingEventBase
 	{
 	public:

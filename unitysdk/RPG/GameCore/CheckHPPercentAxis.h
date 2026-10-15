@@ -12,6 +12,8 @@ namespace RPG::GameCore { class CheckHPPercentAxis; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int CheckHPPercentAxis_TypeDefinitionIndex = 15503;
+
 	class CheckHPPercentAxis : public ::RPG::GameCore::ConsiderationAxisConfig
 	{
 	public:

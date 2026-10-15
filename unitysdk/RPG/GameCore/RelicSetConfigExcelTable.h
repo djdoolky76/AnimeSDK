@@ -25,6 +25,8 @@ namespace System::Collections::Generic { template <typename T1, typename T2> cla
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int RelicSetConfigExcelTable_TypeDefinitionIndex = 14641;
+
 	class RelicSetConfigExcelTable : public ::System::Object
 	{
 	public:

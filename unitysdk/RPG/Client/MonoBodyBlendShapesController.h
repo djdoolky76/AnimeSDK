@@ -13,6 +13,8 @@ namespace UnityEngine { class Transform; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int MonoBodyBlendShapesController_TypeDefinitionIndex = 71133;
+
 	class MonoBodyBlendShapesController : public ::UnityEngine::MonoBehaviour
 	{
 	public:

@@ -33,6 +33,8 @@ namespace System { class String; }
 #define IGGFCPNDMPN_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E64C220)
 #define IGGFCPNDMPN_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E64C280)
 
+inline static constexpr unsigned int IGGFCPNDMPN_TypeDefinitionIndex = 30067;
+
 	class IGGFCPNDMPN : public ::System::Object
 	{
 	public:

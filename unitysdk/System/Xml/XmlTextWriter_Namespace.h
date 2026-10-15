@@ -6,6 +6,8 @@ namespace System { class String; }
 
 namespace System::Xml
 {
+	inline static constexpr unsigned int XmlTextWriter_Namespace_TypeDefinitionIndex = 1865;
+
 	struct alignas(8) XmlTextWriter_Namespace
 	{
 		::System::String* prefix; // 0x10

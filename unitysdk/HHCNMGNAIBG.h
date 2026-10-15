@@ -29,6 +29,8 @@ namespace System { class String; }
 #define HHCNMGNAIBG_TOSTRING_OFFSET UNITYSDK_OFFSET(0x1E586510)
 #define HHCNMGNAIBG_WRITETO_OFFSET UNITYSDK_OFFSET(0x1E586570)
 
+inline static constexpr unsigned int HHCNMGNAIBG_TypeDefinitionIndex = 25913;
+
 	class HHCNMGNAIBG : public ::System::Object
 	{
 	public:

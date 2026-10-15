@@ -7,6 +7,8 @@ namespace RPG::GameCore { class GameEntity; }
 #define FNHGDJOJACD_CLEAR_OFFSET UNITYSDK_OFFSET(0x15870DB0)
 #define FNHGDJOJACD_CTOR_OFFSET UNITYSDK_OFFSET(0x15870E00)
 
+inline static constexpr unsigned int FNHGDJOJACD_TypeDefinitionIndex = 56955;
+
 	class FNHGDJOJACD : public ::System::Object
 	{
 	public:

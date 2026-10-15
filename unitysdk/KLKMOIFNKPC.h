@@ -23,6 +23,8 @@ namespace System::Collections::Generic { template <typename T> class IEnumerator
 #define KLKMOIFNKPC_TICK_OFFSET UNITYSDK_OFFSET(0xB52D160)
 #define KLKMOIFNKPC__ENTER_B__2_0_OFFSET UNITYSDK_OFFSET(0xB52D4A0)
 
+inline static constexpr unsigned int KLKMOIFNKPC_TypeDefinitionIndex = 61200;
+
 	class KLKMOIFNKPC : public ::System::Object
 	{
 	public:

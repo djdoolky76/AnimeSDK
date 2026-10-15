@@ -10,6 +10,8 @@ namespace RPG::GameCore { class AdvForceNpcGoBack; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int AdvForceNpcGoBack_TypeDefinitionIndex = 21961;
+
 	class AdvForceNpcGoBack : public ::RPG::GameCore::TaskConfig
 	{
 	public:

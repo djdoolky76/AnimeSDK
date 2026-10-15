@@ -8,6 +8,8 @@ namespace System { class String; }
 
 namespace Unity::Profiling
 {
+	inline static constexpr unsigned int ProfilerMarkerWithStringData_TypeDefinitionIndex = 3948;
+
 	struct alignas(4) ProfilerMarkerWithStringData
 	{
 		::System::IntPtr _marker; // 0x10

@@ -11,6 +11,8 @@ namespace System { class Action; }
 
 namespace RPG::Client
 {
+	inline static constexpr unsigned int TrainPartyUtils___c__DisplayClass22_0_TypeDefinitionIndex = 68172;
+
 	class TrainPartyUtils___c__DisplayClass22_0 : public ::System::Object
 	{
 	public:

@@ -8,6 +8,8 @@
 
 namespace MiHoYo::SDK
 {
+	inline static constexpr unsigned int SecurityTunnel_EndianConverter_TypeDefinitionIndex = 46401;
+
 	class SecurityTunnel_EndianConverter : public ::System::Object
 	{
 	public:

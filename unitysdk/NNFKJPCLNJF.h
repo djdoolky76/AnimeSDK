@@ -14,6 +14,8 @@ namespace System { class String; }
 #define NNFKJPCLNJF_PROCESSFRAME_OFFSET UNITYSDK_OFFSET(0xBCA7E80)
 #define NNFKJPCLNJF_SET_CHARACTERUNIQUENAME_OFFSET UNITYSDK_OFFSET(0xBCA7CD0)
 
+inline static constexpr unsigned int NNFKJPCLNJF_TypeDefinitionIndex = 47868;
+
 	class NNFKJPCLNJF : public ::UnityEngine::Playables::PlayableBehaviour
 	{
 	public:

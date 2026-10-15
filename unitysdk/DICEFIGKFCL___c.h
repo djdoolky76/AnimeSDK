@@ -8,6 +8,8 @@ namespace System { class Object; }
 #define DICEFIGKFCL___C_CTOR_OFFSET UNITYSDK_OFFSET(0x1E1BBCC0)
 #define DICEFIGKFCL___C___CCTOR_B__48_0_OFFSET UNITYSDK_OFFSET(0x1E1BBCD0)
 
+inline static constexpr unsigned int DICEFIGKFCL___c_TypeDefinitionIndex = 29915;
+
 	class DICEFIGKFCL___c : public ::System::Object
 	{
 	public:

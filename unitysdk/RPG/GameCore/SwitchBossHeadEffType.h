@@ -11,6 +11,8 @@ namespace RPG::GameCore { class SwitchBossHeadEffType; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int SwitchBossHeadEffType_TypeDefinitionIndex = 23216;
+
 	class SwitchBossHeadEffType : public ::RPG::GameCore::TaskConfig
 	{
 	public:

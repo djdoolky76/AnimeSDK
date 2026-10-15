@@ -8,6 +8,8 @@ class OMDNNNJCEOE;
 #define OMDNNNJCEOE_CTOR_OFFSET UNITYSDK_OFFSET(0xBF22240)
 #define OMDNNNJCEOE_GAILDDCMCHP_OFFSET UNITYSDK_OFFSET(0xBF221F0)
 
+inline static constexpr unsigned int OMDNNNJCEOE_TypeDefinitionIndex = 77999;
+
 	class OMDNNNJCEOE : public ::BKFOHAKAJLP
 	{
 	public:

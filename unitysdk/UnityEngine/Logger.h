@@ -26,6 +26,8 @@ namespace UnityEngine { class Object; }
 
 namespace UnityEngine
 {
+	inline static constexpr unsigned int Logger_TypeDefinitionIndex = 4216;
+
 	class Logger : public ::System::Object
 	{
 	public:

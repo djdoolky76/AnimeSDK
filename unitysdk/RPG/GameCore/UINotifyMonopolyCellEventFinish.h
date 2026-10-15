@@ -10,6 +10,8 @@ namespace RPG::GameCore { class UINotifyMonopolyCellEventFinish; }
 
 namespace RPG::GameCore
 {
+	inline static constexpr unsigned int UINotifyMonopolyCellEventFinish_TypeDefinitionIndex = 21726;
+
 	class UINotifyMonopolyCellEventFinish : public ::RPG::GameCore::TaskConfig
 	{
 	public:

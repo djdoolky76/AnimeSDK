@@ -61,6 +61,8 @@ namespace System::Collections::Generic { template <typename T> class IReadOnlyLi
 #define BALLHPKKDDH_SET_ULTRASKILLTYPE_OFFSET UNITYSDK_OFFSET(0x15E743C0)
 #define BALLHPKKDDH_SET_VOTAG_OFFSET UNITYSDK_OFFSET(0x15E74220)
 
+inline static constexpr unsigned int BALLHPKKDDH_TypeDefinitionIndex = 51969;
+
 	class BALLHPKKDDH : public ::System::Object
 	{
 	public:

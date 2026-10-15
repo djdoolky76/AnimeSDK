@@ -11,6 +11,8 @@ namespace System::Linq::Expressions::Interpreter { class LabelScopeInfo; }
 
 namespace System::Linq::Expressions::Interpreter
 {
+	inline static constexpr unsigned int LabelInfo___c_TypeDefinitionIndex = 3441;
+
 	class LabelInfo___c : public ::System::Object
 	{
 	public:
